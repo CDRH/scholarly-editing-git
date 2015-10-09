@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630822.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Not One Hath Died in Vain</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630822.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#bb">Belle Bush</author>
+                        <title level="a">Not One Hath Died in Vain</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-08-22">22 August 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="bb">Bush, Arabella C.</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Burial--Social aspects--United States--History--19th century</term>
+                    <term>Burial--United States--Psychological aspects--History--19th century</term>
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>Gettysburg, Battle of, Gettysburg, Pa., 1863</term>
+                    <term>Gettysburg, Battle of, Gettysburg, Pa., 1863--Commemoration--1860-1870</term>
+                    <term>Gettysburg, Battle of, Gettysburg, Pa., 1863--Poetry</term>
+                    <term>Gettysburg, Battle of, Gettysburg, Pa., 1863--Social aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-13" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>
+            <change when="2012-07-31" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630822.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630822.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630822.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630822.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630822.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANTI-SLAVERY STANDARD.</note>
+                
+                <head type="main" subtype="authorial" rend="center">NOT ONE HATH DIED IN VAIN.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY BELLE BUSH.<note type="editorial" resp="#bw el">Arabella C. Bush (1830&#8211;?), poet and teacher. Relatively little is known about Bush's life. Born in New York, she moved with her family to Pennsylvania at some point before 1853. In 1857 she and her elder sisters founded the Adelphian Institute, a seminary for women in Norristown (Theodore W. Bean, ed., <title level="m">History of Montgomery County, Pennsylvania</title> [Philadelphia: Everts and Peck, 1884], 763). In her preface to <title level="m">Voices of the Morning</title> (Philadelphia: Lippincott, 1865), Bush gives the names of twenty-three "papers and magazines which have from time to time published my articles, either as contributions or selections" ([2]). The fact that her list includes the <title level="j">Liberator</title>, the <title level="j">National Anti-Slavery Standard</title>, and the <title level="j">Banner of Light</title> suggests that she had some sympathy with abolition, women's rights, and unorthodox faith. The 1870 census shows that she moved to Belvidere, New Jersey, with her teacher sisters; she is described as coprincipal of another girls' school (the Belvidere Academy). Census records for 1910 suggest that she lived into her eighties.</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Not</emph> a warrior went down to the grave in vain,</l>
+                    <l rend="indented2">Not one, not one,<note type="editorial" resp="#bw #el"><p>The awful new scale of Civil War battles forced Americans to grapple with the meaning of individual deaths and disappearances in the context of mass slaughter. Writers like Bush explored and reasserted the significance of single deaths at a moment when the first national cemeteries were being established; this phrase may show the same impulse toward recovery and acknowledgment at work.</p>
+                        <p>Historian Drew Gilpin Faust observes that the Battle of Gettysburg "made the dead&#8212;and the problem they represented&#8212;starkly visible to northern citizens"; the dedication ceremony that took place at Gettysburg National Cemetery on November 19, 1863, "acknowledged a new public importance for the dead" (<title level="m">This Republic of Suffering: Death and the American Civil War</title> [New York: Knopf, 2009], 99, 101). But the problem of the missing remained. How could the dead be acknowledged if they remained "unknown"? Bush's poem offers the consolation of a divine perspective: "not one" soldier's death was missed by God, and each one furthered the Union's cause.</p></note></l>
+                    <l>Of all the thousands in combat slain</l>
+                    <l rend="indented2">By the deadly rain,</l>
+                    <l>The fearful, terrible, leaden rain,</l>
+                    <l>That hissed and thundered along the plain,</l>
+                    <l>When the fiends of war held a carnival,</l>
+                    <l>And Death was the guest that danced with all</l>
+                    <l rend="indented2">On the fields of Gettysburg.<note type="editorial" resp="#el #bw">Confederate general Robert E. Lee's advance into Pennsylvania provoked panic in the North in June 1863. Confederate and Union armies clashed at Gettysburg. The battle took place July 1&#8211;3, 1863, and news of Lee's defeat reached Washington, DC on July 4. As Northerners celebrated, enormous ambulance trains carried thousands of casualties toward city hospitals. By the end of the battle, 23,000 Union soldiers and 28,000 Confederates were killed, wounded, or missing (James M. McPherson, <title level="m">Battle Cry of Freedom: The American Civil War</title> [London: Penguin, 1991], 664).</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a hero for freedom hath died unwept,</l>
+                    <l rend="indented2">Not one, not one;</l>
+                    <l>Tears, bright tears for the brave are kept;</l>
+                    <l rend="indented2">And where they slept&#8212;</l>
+                    <l>Wounded and mangled, in stillness slept&#8212;</l>
+                    <l>When the shadows of death o'er their <choice><sic>eylids</sic><corr>eyelids</corr></choice> crept,</l>
+                    <l>There <emph rend="smallcaps">Love</emph> hath been with her calm sweet spell,</l>
+                    <l>And her heart's best gift for <emph rend="smallcaps">each one</emph> that fell</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not one among them shall be forgot,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>Who on that fearfully hallowed spot</l>
+                    <l rend="indented2">Bore well his lot&#8212;</l>
+                    <l>The soldier's perilous weary lot;</l>
+                    <l>From deeds like theirs the forget-me-not</l>
+                    <l>Of fame springs up, and its fadeless bloom</l>
+                    <l>Shall wreath with garlands each lowly tomb</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Not one of their number shall be unblessed,</l>
+                    <l rend="indented2">Not one, not one;</l>
+                    <l>But the grateful hearts of the long oppressed,</l>
+                    <l rend="indented2">Their wrongs redressed,</l>
+                    <l>By them in courage and strength redressed,</l>
+                    <l>Shall sing in chorus and call them blessed,</l>
+                    <l>And reverently pause by each grave to tell</l>
+                    <l>How bravely, how nobly their brothers fell</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a soldier shall sleep in the grave unsung,</l>
+                    <l rend="indented2">Not one, not one;</l>
+                    <l>Fame hath a trumpet and Love a tongue,</l>
+                    <l rend="indented2">That hearts now wrung&#8212;</l>
+                    <l>With grief and sorrow and anguish wrung</l>
+                    <l>Shall use, to teach to the harps unstrung</l>
+                    <l>The lofty speech that is due in praise</l>
+                    <l>Of those who gathered their greenest bays</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not one for his country has died in vain,</l>
+                    <l rend="indented2">Not one, not one!</l>
+                    <l>The God of Justice, whose equal reign</l>
+                    <l rend="indented2">O'erlooks the plain&#8212;</l>
+                    <l>The blood-stained, terrible battle plain&#8212;</l>
+                    <l>Has care for the <emph rend="smallcaps">souls</emph> of the <emph rend="smallcaps">heroes</emph> slain.</l>
+                    <l>His love takes note of them, <emph rend="smallcaps">every one</emph>,</l>
+                    <l>He knoweth <emph rend="smallcaps">whose duty</emph> was <emph rend="smallcaps">nobly</emph> done</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l></lg>
+                
+                <lg type="stanza">
+                    <l>Not one went down to the dull dark grave,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>But rising victorious from out the wave</l>
+                    <l rend="indented2">Of life they gave&#8212;</l>
+                    <l>The crimson, mysterious tide they gave&#8212;</l>
+                    <l>For the noble cause they were strong to serve,</l>
+                    <l>Their souls passed on to the higher ranks</l>
+                    <l>Of the shining hosts that o'erlooked our flanks</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a sacrifice we can make is vain,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>That lifts us up from a lower plane</l>
+                    <l rend="indented2">To greet the reign&#8212;</l>
+                    <l>The mild, but firm and impartial reign&#8212;</l>
+                    <l>Of Justice, that rose with a star-eyed train</l>
+                    <l>From the dust, the thunder and battle-smoke,</l>
+                    <l>When the light on her Bride, sweet Freedom, broke</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a tyrant sits on a royal throne,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>That shall not yield to the power that's grown</l>
+                    <l rend="indented2">From the field alone&#8212;</l>
+                    <l>That blood-stained, terrible field alone&#8212;</l>
+                    <l>And tremble, while struggling to save his own</l>
+                    <l>From the withering blaze of that glorious star,</l>
+                    <l>That rose o'er the din and the shock of war</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a traitor bears in the strife a part,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>That shall not feel in his soul the smart</l>
+                    <l rend="indented2">Of the hero's art,</l>
+                    <l>The high, o'ermastering, enduring art</l>
+                    <l>By which our freemen with ready dart</l>
+                    <l>Drove back the haughty, rebellious horde,</l>
+                    <l>That met them proudly with fire and sword</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a patriot lives, or a hero soul,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>That shall not yield to the strong control</l>
+                    <l rend="indented2">Of thoughts that roll,</l>
+                    <l>In solemn rapture and stillness roll,</l>
+                    <l>Toward the distant but bright'ning goal</l>
+                    <l>Of hopes that oft in the warrior rose,</l>
+                    <l>Triumphant over his human woes,</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a wounded soldier is suffering there,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>Who bore with a hero heart his share</l>
+                    <l rend="indented2">In the fierce warfare,</l>
+                    <l>The deadly, terrible, wild warfare,</l>
+                    <l>For the cause of Liberty trembling there,</l>
+                    <l>But feels to say in his heart, "Thank God,</l>
+                    <l>The blood of freemen redeemed the sod</l>
+                    <l rend="indented2">On the fields of Gettysburg."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a brother is wearing the bondman's chain,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>That shall not thrill with the hope again,</l>
+                    <l rend="indented2">That their sigh and pain,</l>
+                    <l>Their life-long sigh and their torturing pain,</l>
+                    <l>Will die, and their chains be rent in twain.</l>
+                    <l>In the bloody field and the carnage dire,</l>
+                    <l>They see the glimmer of Freedom's fire</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a year shall pass, or a circling age,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>That truth shall not in her cause engage</l>
+                    <l rend="indented2">To turn the page,</l>
+                    <l>The gloriously written immortal page,</l>
+                    <l>Traced there in blood and in battle rage,</l>
+                    <l>Upon the fearfully "foughten field,"</l>
+                    <l>When the Bride of Justice stood forth revealed</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not a land is known, or a distant clime,</l>
+                    <l rend="indented2">Not one, not one,</l>
+                    <l>That shall not thrill with their solemn chime,</l>
+                    <l rend="indented2">Or sing in rhyme,</l>
+                    <l>In echo's sweet and melodious rhyme,</l>
+                    <l>The songs that greeted the halls of time,</l>
+                    <l>And sounded in triumph along the dells</l>
+                    <l>When Freedom was ringing her marriage bells</l>
+                    <l rend="indented2">On the fields of Gettysburg.</l>
+                </lg>
+            </lg>
+            
+            <dateline>Adelphian Institute, Norristown, Pa.</dateline>
+        </body>
+    </text>
+</TEI>
+

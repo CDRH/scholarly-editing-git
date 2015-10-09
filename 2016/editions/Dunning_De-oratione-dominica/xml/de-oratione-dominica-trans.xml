@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">On the Lord’s Prayer</title>
+                <author xml:id="SP">Samuel Presbiter</author>
+                <editor xml:id="AD">Andrew Dunning</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>
+                        2016
+                    </date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>
+                <idno type="file">
+                    dequinqueseptenis.trans
+                </idno>
+                <idno type="edition">
+                    dequinqueseptenis-deorationedominica
+                </idno>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska–Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>
+                    2016
+                </date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Scholarly Editing: The Annual of the Association for Documentary Editing is freely distributed by the Association for Documentary Editing and the Center for Digital Research in the Humanities at the University of Nebraska-Lincoln and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">
+                    37
+                </idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Cambridge</settlement>
+                        <repository>Pembroke College</repository>
+                        <idno>115</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <pb n="41v"/>
+            <lb/><head rend="red">On the Lord’s Prayer, that is to say the <quote>Our Father</quote>.</head>
+            <lg n="1">
+                <lb/><l xml:id="DOD-1.1">The prayer which Christ, praying, has taught</l>
+                <note target="#DOD-1.2">
+                    <lb/><seg type="q" source="DQS#DOD-1:210va[41]–210vb[6]">There are seven capital or principal vices, and from these rise all evils.
+                        <lb/>These are the sources of the dark pit from which the waters of Babylon 
+                        <lb/>flow and drops of iniquity pour, leading into every land.
+                        <pb n="42r"/>
+                        <lb/>The psalmist sings about these waters in the person of the faithful people,
+                        <lb/>saying, <quote source="Bible.Vul:Ps.136.1">By the waters of Babylon</quote>, and so forth; <quote source="Bible.Vul:Ps.136.2">on the willows</quote>, and so forth.</seg> Of these vices,
+                    <lb/><seg type="q" source="DQS#DOD-2:210vb[12]–210vb[16]">three strip a person; the fourth <supplied reason="omitted" source="#DQS">whips the stripped; the fifth</supplied> drives out the whipped; the sixth 
+                        <lb/>seduces the person driven out; the seventh subjects the seduced to slavery. 
+                        <lb/>Pride takes God away from a person.</seg> <seg type="q" source="DQS#DOD-3:210vb[22]–210vb[25]">For pride is the love of one’s own status, 
+                        <lb/>when a soul loves the good that it has on its own, that is, without him from whom 
+                        <lb/>he accepted the good.</seg> <seg type="paraphrase" source="DQS#DOD-4:210vb[25]-210vb[29]">A small stream, cut off from its source, becomes dry; a ray of light, turned away from the enlightening sun,
+                        <lb/>becomes dark.</seg> <seg type="q" source="DQS#DOD-5:210vb[37]–210vb[39]">For in the same way as every good is truly from God,
+                        <lb/>just so can no good be had advantageously outside of God.</seg> <seg type="q" source="DQS#DOD-6:210vb[41]–211ra[7]">Whoever
+                        <lb/>has not learned to love unless it is the good that he has in himself, while 
+                        <lb/>he observes in another a good that he does not have, it is necessary that his own imperfection 
+                        <lb/>torments him so bitterly that he does not love him in whom every good exists. And on that account, pride 
+                        <lb/>always follows envy, because he who does not fasten love in that place where 
+                        <lb/>every good exists is so wickedly elated with pride in himself that 
+                        <lb/>he is painfully tormented by the good of another.</seg> <seg type="q" source="DQS#DOD-7:211ra[14]–211ra[20]">he does not even 
+                        <lb/>judge the good of another to be detached from himself, if he loves his own in that place where
+                        <lb/>he might possess at the same time the good of both himself and of another. As much, therefore, as he praises himself through pride outside of the creator, 
+                        <lb/>so much does he fall under his neighbour through envy; and as much as 
+                        <lb/>he is deceptively raised there, so much does he here truly cause himself to fall.</seg> Cum <seg type="q" source="DQS#DOD-8:211ra[21]–211rb[10]">envy has been born from pride, this breeds anger from itself – because the unhappy soul 
+                        <lb/>is now angered on account of its own imperfection, since it does not delight 
+                        <lb/>through charity in the good of another. And therefore it begins to be displeased even with what it has, 
+                        <lb/>because it recognizes in another that which it cannot have. He therefore who 
+                        <lb/>could have held the whole through charity, in God, loses even that which he attempts to have by pride outside of God 
+                        <lb/>through envy and anger, because after he loses 
+                        <lb/>God through pride, he loses his neighbour through envy, and through anger himself. 
+                        <lb/>Because therefore, when everything is lost, nothing remains from which it can be glad, 
+                        <lb/>the unhappy conscience is crushed in itself through sadness, 
+                        <lb/>and since it has refused to delight in another’s good faithfully, it is rightly tormented by its own evil. 
+                        <lb/>So after pride and envy and anger, which strip a person, sadness immediately 
+                        <lb/>follows, which whips the stripped person. Greed approaches him next, 
+                        <lb/>which drives out the whipped, because, when inward joy is lost, it drives him to seek consolation outside. Afterwards gluttony draws near, which seduces the person driven out, 
+                        <lb/>because it attracts the soul desiring this vice by outer things in the first place, 
+                        <lb/>as if tempting to excess from a neighbour – through natural desire itself. Finally comes lust, which violently subjects the seduced 
+                        <lb/>to slavery, because after the flesh is set on fire through gluttony, 
+                        <lb/>the weakened and 
+                        <lb/>feebly determined soul cannot conquer the oncoming flame of passion. The mind has therefore been enslaved most savagely 
+                        <lb/>to coercion, subdued in a disgraceful manner, and unless the requested goodness of the saviour 
+                        <pb n="42v"/>
+                        <lb/>brings relief, it will not now exist: so, serving captivity,
+                        <lb/>its lost freedom may not be restored.</seg> <seg type="paraphrase" source="DQS#DOD-9a:211rb[11]">There are, therefore, seven requests</seg> in the Lord’s Prayer <seg type="q" source="DQS#DOD-9b:211rb[11]–211rb[12]">against seven
+                        <lb/>vices.</seg> <seg type="q" source="DQS#DOD-10:211rb[21]–211rb[28]">Through pride therefore the heart is caused to swell; through envy it dries up; through anger it cracks; 
+                        <lb/>through sadness it is crushed, and reduced as if to dust. Through greed 
+                        <lb/>it is scattered; through gluttony it is infected, as if it is moistened; through lust 
+                        <lb/>it is trampled and reduced to mud; so that the unhappy person 
+                        <lb/>can now say, <quote source="Bible.Vul:Ps.68.3">I was stuck in the deep mire, and there is no substance.</quote></seg> He can be plucked out from this mud,
+                    <lb/>shouting to God and devoutly asking his help. 
+                    <lb/>From which this comes: <quote source="Bible.Vul:Ps.39.3"><seg xml:id="DOD-11">He heard my prayers and drew me out from a pit of wretchedness 
+                            <lb/>and from the miry mud.</seg></quote>
+                </note>
+                <lb/><l xml:id="DOD-1.2">Contains five and two; by these seven evils are driven out,</l>
+                <note target="#DOD-1.3">
+                    <lb/><seg type="q" source="DQS#DOD-12:210va[21]–210va[24]">The spirit of the fear of the Lord; the spirit of godliness; the spirit of knowledge; the spirit 
+                        <lb/>of strength; the spirit of counsel; the spirit of understanding; the spirit of wisdom.</seg>
+                </note>
+                <lb/><l xml:id="DOD-1.3">and seven good gifts are offered. From these arise</l>
+                <note target="#DOD-1.4">
+                    <lb/><seg type="q" source="DQS#DOD-13:210va[26]–210va[30]">Poverty of spirit, that is humility; graciousness or kindness; 
+                        <lb/>remorse or sorrow; the hunger for righteousness or good desire; 
+                        <lb/>mercy; cleanness of heart; peace.</seg> These seven virtues are noted
+                    <lb/>in that Gospel: <quote source="Bible.Vul:Matt.5.1">Seeing the crowds, Jesus went up on the mountain</quote>, and so forth. 
+                    <lb/>In that Gospel <seg type="q" source="DQS#DOD-14:210va[31]">seven beatitudes</seg> are also marked, namely these: <seg type="q" source="DQS#DOD-15:210va[31]–210va[34]">The kingdom
+                        <lb break="no"/>of heaven; the possession of the land of the living; consolation; the satisfaction of righteousness;
+                        <lb/>mercy; the vision of God; sonship of God.</seg>
+                </note>
+                <lb/><l xml:id="DOD-1.4">seven virtues; seven blessed gifts</l>
+                <note target="#DOD-1.5">
+                    <lb/>The evangelist: <quote source="Bible.Vul:Matt.10.22">The one who endures to the end will be saved.</quote>
+                </note>
+                <lb/><l xml:id="DOD-1.5">are gained by them, if one is firm in them.</l>
+            </lg>
+            <lg n="2">
+                <note target="#DOD-2.1">
+                    <lb/><seg type="q" source="DQS#DOD-16:211rb[40]–211va[3]">The first request is against pride, by which we say to God, <quote source="Bible.Vul:Matt.6.9 Bible.Vul:Luke.11.2">Hallowed be your name.</quote>
+                        <lb/>For we ask this so that he might allow us to fear his name
+                        <lb/>and treat it as holy, so that we might be obedient to him through humility – we who have stepped forth through pride, 
+                        <lb/>rebellious and insubordinate.</seg>
+                </note>
+                <lb/><milestone unit="lg" rend="enlarged paraph red"/><l xml:id="DOD-2.1">Pride is deadly – driven out by the first petition –</l>
+                <note target="#DOD-2.2">
+                    <lb/><seg type="q" source="DQS#DOD-17:210vb[15]–210vb[16]">Pride takes God away from a person.</seg>
+                </note>
+                <lb/><l xml:id="DOD-2.2">by which God is taken away from a person. And by the first request</l>
+                <note target="#DOD-2.3">
+                    <lb/>For the first <seg type="q" source="DQS#DOD-18:211va[3]–211va[8]">request the spirit of the fear of the Lord is given, so that he, coming to the heart, 
+                        <lb/>might create in it the virtue of humility, which may heal the sickness of pride – 
+                        <lb/>so that the humble person can come to the kingdom of heaven, which the arrogant angel 
+                        <lb/>lost through pride.</seg>
+                </note>
+                <pb n="43r"/>
+                <lb/><l xml:id="DOD-2.3">the fear of the Lord is given. This makes us humble, and by these</l>
+                <note target="#DOD-2.4">
+                    <lb/>The evangelist: <quote source="Bible.Vul:Matt.5.3">Blessed are the poor in spirit, for theirs is the kingdom of heaven.</quote> <quote source="Bible.Vul:Matt.5.3">The poor 
+                        <lb/>in spirit</quote>, that is the humble.
+                </note>
+                <lb/><l xml:id="DOD-2.4">the kingdom of heaven is granted, and the blessed rejoice.</l>
+            </lg>
+            <lg n="3">
+                <note target="#DOD-3.1">
+                    <lb/><seg type="q" source="DQS#DOD-19:211va[8]–211va[17]">The second request is against envy, by which it is said, <quote source="Bible.Vul:Matt.6.10">your kingdom come.</quote> 
+                        <lb/>In fact, the kingdom of God is the salvation of mankind, because 
+                        <lb/>God is said to reign in people at that moment when people themselves are subject to God, 
+                        <lb/>at first devoting themselves to him through faith, and after clinging to him through sight. Who therefore 
+                        <lb/>asks that the kingdom of God might come undoubtedly seeks the salvation of human beings. 
+                        <lb/>And through this, while he asks for the common salvation of all, 
+                        <lb/>he shows that he rejects the vice of envy.</seg>
+                </note>
+                <lb/><milestone unit="lg" rend="enlarged paraph blue"/><l xml:id="DOD-3.1">If the second request is made worthily, envy</l>
+                <note target="#DOD-3.2a">
+                    <lb/>Or <mentioned>driven away</mentioned>.
+                </note>
+                <note target="#DOD-3.2">
+                    <seg type="q" source="DQS#DOD-20:210vb[16]–210vb[17]">Envy takes his neighbour from him.</seg>
+                </note>
+                <lb/><l xml:id="DOD-3.2">is then <seg xml:id="DOD-3.2a">put to flight</seg>; this is said to take away one’s neighbour.</l>
+                <note target="#DOD-3.3">
+                    <lb/>For the second <seg type="q" source="DQS#DOD-21:211va[18]–211va[21]">request the spirit of godliness is given, so that he, coming to the heart, 
+                        <lb/>might kindle it to kindness, so that that person himself might reach the same possession of the eternal 
+                        <lb/>inheritance to which he desires others 
+                        <lb/>to reach.</seg>
+                </note>
+                <lb/><l xml:id="DOD-3.3">By this prayer devoutness is given, through which mildness is produced,</l>
+                <note target="#DOD-3.4">
+                    <lb/>The evangelist: <quote source="Bible.Vul:Matt.5.4">Blessed are the meek, for they shall inherit the earth.</quote>
+                </note>
+                <lb/><l xml:id="DOD-3.4">by which the land of the living may be given.</l>
+            </lg>
+            <lg n="4">
+                <note target="#DOD-4.1">
+                    <lb/><seg type="q" source="DQS#DOD-22:211va[21]–211va[26]">The third request is against anger, by which it is said, <quote source="Bible.Vul:Matt.6.10">Your will be done, 
+                            <lb/>on earth as in heaven.</quote> For he does not wish to dispute who says, <quote source="Bible.Vul:Matt.6.10">Your will be done</quote>, 
+                        <lb/>but he proclaims that whatever the will of God should arrange pleases him, whether in himself 
+                        <lb/>or in others, according to the judgement of his graciousness.</seg>
+                </note>
+                <lb/><milestone unit="lg" rend="enlarged paraph red"/><l xml:id="DOD-4.1">The third worthy request removes anger.</l>
+                <note target="#DOD-4.2">
+                    <lb/><seg type="q" source="DQS#DOD-23:210vb[17]">Anger takes a person from himself.</seg>
+                </note>
+                <lb/><l xml:id="DOD-4.2">This takes a person from himself; he is stripped from himself</l>
+                <note target="#DOD-4.3">
+                    <lb/>Since pride takes God away from a person, envy his neighbour, and anger himself,
+                    <lb/>he is stripped.
+                </note>
+                <lb/><l xml:id="DOD-4.3">when God is taken away, and his neighbour, and at the same time himself.</l>
+                <note target="#DOD-4.4 #DOD-4.5">
+                    <lb/>For the third <seg type="q" source="DQS#DOD-24:211va[27]–211va[34]">request, the spirit of knowledge is given, that he, coming to the heart, 
+                        <lb/>might instruct and prick it in a manner beneficial to the soul, that the person might know the evil 
+                        <lb/>which is allowed to come into being from his fault; and if he has had some good, that it comes from 
+                        <lb/>the mercy of God. Through this, the spirit teaches him not to become angry against the creator, whatever he might endure in evil 
+                        <lb/>or lack in goods, but 
+                        <pb n="43v"/>
+                        <lb/>to show his ability to tolerate adversity through everything.</seg> <seg type="q" source="DQS#DOD-25:211va[37]–211vb[3]"><quote source="Bible.Vul:Job.5.2">anger kills the foolish</quote>, when in adversities, 
+                        <lb/>vexed and blinded through the intolerance of the vices, he either does not recognize that he has deserved the evil or
+                        <lb/>that he accepted the good that he has through grace. The reward of consolation follows this virtue, that is 
+                        <lb/>the prick of remorse or sorrow, so that whoever 
+                        <lb/>voluntarily humbles himself here <supplied reason="explanation">on earth</supplied> before God through laments may deserve to find true joy 
+                        <lb/>and happiness.</seg>
+                </note>
+                <lb/><l xml:id="DOD-4.4">Healthy knowledge is given by this prayer, though which</l>
+                <lb/><l xml:id="DOD-4.5">A prick of remorse comes forth in weeping, pleasing to salvation;</l>
+                <note target="#DOD-4.6a">
+                    <lb/>That is <mentioned>by a prick of remorse</mentioned>.
+                </note>
+                <note target="#DOD-4.6">
+                    The evangelist: <quote source="Bible.Vul:Matt.5.5">Blessed are those who mourn, for they shall be comforted.</quote>
+                </note>
+                <lb/><l xml:id="DOD-4.6"><seg xml:id="DOD-4.6a">by this</seg> great heavenly consolation is bestowed.</l>
+            </lg>
+            <lg n="5">
+                <note target="#DOD-5.1">
+                    <lb/><seg type="q" source="DQS#DOD-26:211vb[4]–211vb[10]">The fourth request is against sadness, by which it is said, <quote source="Bible.Vul:Matt.6.11 Bible.Vul:Luke.11.3">Give us today our daily bread.</quote> 
+                        <lb/>For sadness is weariness of the soul with grief, when the mind 
+                        <lb/>does not desire inward goods, caused to become dispirited in a certain way, and made bitter by its vice; 
+                        <lb/>and with all its liveliness dead, it does not become happy at any desire of spiritual restoration.</seg>
+                    <lb/><seg type="q" source="DQS#DOD-27:210vb[17]–210vb[18]">Sadness whips the stripped person.</seg>
+                </note>
+                <lb/><milestone unit="lg" rend="enlarged paraph red"/><l xml:id="DOD-5.1">The fourth petition puts sadness to flight; this whips</l>
+                <note target="#DOD-5.2 #DOD-5.3">
+                    <lb/>For the fourth <seg type="q" source="DQS#DOD-28:211vb[15]–211vb[22]">request the spirit of strength is given, that it may lift up the weary spirit, 
+                        <lb/>in order that, when it has recovered that virtue of its former strength, it might recover from 
+                        <lb/>the weakness of its weariness to the desire of inward taste. The spirit of strength accordingly creates 
+                        <lb/>in the heart a hunger for righteousness, so that who is here <supplied reason="explanation">on earth</supplied> intensely kindled through the desire 
+                        <lb/>for devoutness may pursue full abundance to that place <supplied reason="explanation">in heaven</supplied> 
+                        <lb/>for the reward of blessedness.</seg>
+                </note>
+                <lb/><l xml:id="DOD-5.2">the stripped person. The spirit of strength is received by this prayer;</l>
+                <lb/><l xml:id="DOD-5.3">the good hunger for righteousness is brought out from that source,</l>
+                <note target="#DOD-5.4">
+                    <lb/>The evangelist: <quote source="Bible.Vul:Matt.5.6">Blessed are those who hunger and thirst for righteousness, for they 
+                        <lb/>shall be satisfied.</quote>
+                </note>
+                <lb/><l xml:id="DOD-5.4">through which the righteous are sated with full joy.</l>
+            </lg>
+            <lg n="6">
+                <note target="#DOD-6.1">
+                    <lb/><seg type="q" source="DQS#DOD-29:211vb[23]–211vb[30]">The fifth request is against greed, by which it is said, <quote source="Bible.Vul:Matt.6.12">Forgive us our debts, 
+                            <lb/>as we also have forgiven our debtors.</quote> For it is right that when a debt is to be paid back, 
+                        <lb/>he should not be anxious who refused to be bitter in demanding its payment. 
+                        <lb/>And for that reason, when the vice of greed is taken from us through the grace of God, it is given in such a manner that 
+                        <lb/>we should be absolved from our debt, by the terms of salvation set in place.</seg> 
+                    <lb/><seg type="q" source="DQS#DOD-30a:210vb[18]">Greed drives out</seg> the stripped and <seg type="q" source="DQS#DOD-30b:210vb[18]">whipped</seg> person.
+                </note>
+                <lb/><milestone unit="lg" rend="enlarged paraph blue"/><l xml:id="DOD-6.1">The fifth request pushes out greed;</l>
+                <note target="#DOD-6.2 #DOD-6.3">
+                    <lb/>For the fifth <seg type="q" source="DQS#DOD-31:211vb[30]–211vb[34]">request, the spirit of counsel is given, who teaches us in this world 
+                        <pb n="44r"/>
+                        <lb/>to pay attention to our sins willingly, so that in the future, 
+                        <lb/>when we deliver an account for our sins, we will deserve
+                        <lb/>to find mercy.</seg>
+                </note>
+                <lb/><l xml:id="DOD-6.2">this drives out the despoiled person. Then the spirit of counsel is given:</l>
+                <lb/><l xml:id="DOD-6.3">this makes people pity their brothers.</l>
+                <note target="#DOD-6.4a">
+                    <lb/>That is <mentioned>to the merciful</mentioned>.
+                </note>
+                <note target="#DOD-6.4">
+                    The evangelist: <quote source="Bible.Vul:Matt.5.6">Blessed are
+                        <lb/>the merciful, for they shall receive mercy.</quote>
+                </note>
+                <lb/><l xml:id="DOD-6.4">A great reward, heavenly mercy, is entrusted <seg xml:id="DOD-6.4a">to them</seg>.</l>
+            </lg>
+            <lg n="7">
+                <note target="#DOD-7.1">
+                    <lb/><seg type="q" source="DQS#DOD-32:211vb[34]–212ra[3]">The sixth request is against gluttony, by which it is said, <quote source="Bible.Vul:Matt.6.13 Bible.Vul:Luke.11.4" xml:id="DQS-Matt6.13a" next="#DQS-Matt6.13b">Lead us not</quote>, that is, do not allow us to be led, 
+                        <lb/><quote xml:id="DQS-Matt6.13b" prev="#DQS-Matt6.13a">into temptation.</quote> This is the temptation by which the pleasures of the flesh 
+                        <lb/>often strive to pull us to excess through natural desire, and secretly 
+                        <lb/>put pleasure under their control, while openly speaking smoothly about their necessity to us. 
+                        <lb/>Assuredly, we will then by no means be led into this temptation if we strive 
+                        <lb/>to pay attention to the assistance of nature, following the limit of necessity, so that 
+                        <lb/>we will always remember to restrain the appetite from the pleasures of delight.</seg>
+                </note>
+                <lb/><milestone unit="lg" rend="enlarged paraph red"/><l xml:id="DOD-7.1">The sixth request is said to attack gluttony; this</l>
+                <note target="#DOD-7.2">
+                    <lb/><seg type="q" source="DQS#DOD-33:210vb[19]">Gluttony seduces the person driven out.</seg>
+                </note>
+                <lb/><l xml:id="DOD-7.2">wickedly seduces the person driven out. For this worthy prayer</l>
+                <note target="#DOD-7.3">
+                    <lb/>For the sixth request <seg type="q" source="DQS#DOD-34:212ra[4]–212ra[15]">the spirit of understanding is given to us who ask for it, so that the inward restoration 
+                        <lb/>of the word of God might restrain outward desire, and that bodily need might neither have the strength to crush the mind strengthened by spiritual food, 
+                        <lb/>nor to overcome the desire of the flesh. 
+                        <lb/>For this reason indeed the Lord himself responded to his tempter, while 
+                        <lb/>he was making a false hint about the refreshment of outward bread, saying, <quote source="Bible.Vul:Matt.4.4">One does not live by bread alone, 
+                            <lb/>but by every word that comes from the mouth of God</quote>, so that he might openly show that when the mind is restored with that bread inwardly, 
+                        <lb/>it does not particularly care if the flesh should 
+                        <lb/>outwardly undergo hunger for a time.</seg>
+                    <lb/><seg type="q" source="DQS#DOD-35:212ra[23]–212ra[24]">From the spirit of understanding, cleanness of the heart is born.</seg>
+                </note>
+                <lb/><l xml:id="DOD-7.3">the spiritus of understanding is given; it creates cleanness.</l>
+                <note target="#DOD-7.4">
+                    <lb/><seg type="q" source="DQS#DOD-36:212ra[24]–212ra[26]">For cleanness of heart, the vision of God is promised. As it is written, <quote source="Bible.Vul:Matt.5.8">Blessed are the clean 
+                            <lb/>in heart, for they will see God.</quote></seg>
+                </note>
+                <lb/><l xml:id="DOD-7.4">By this virtue, the blessed vision of God is granted.</l>
+            </lg>
+            <lg n="8">
+                <note target="#DOD-8.1">
+                    <lb/><seg type="q" source="DQS#DOD-37:212ra[26]">The seventh petition is against lust, by which it is said, <quote source="Bible.Vul:Matt.6.13">Deliver us from evil.</quote></seg>
+                </note>
+                <lb/><milestone unit="lg" rend="enlarged paraph blue"/><l xml:id="DOD-8.1">The seventh worthy request is said to remove lust;</l>
+                <note target="#DOD-8.2">
+                    <lb/><seg type="q" source="DQS#DOD-38:210vb[19]–210vb[20]">Lust subjects the seduced to slavery.</seg>
+                </note>
+                <lb/><l xml:id="DOD-8.2">this subjects the seduced person, that he may be</l>
+                <note target="#DOD-8.3">
+                    <lb/>For the seventh <seg type="q" source="DQS#DOD-39:212ra[29]–212ra[42]">request the spirit of wisdom is given, which restores the lost freedom to the prisoner, 
+                        <pb n="44v"/>
+                        <lb/>and through grace he escapes the yoke of sinful coercion, which he did not 
+                        <lb/>have the strength to accomplish by his own means. <mentioned>Wisdom</mentioned> (<foreign xml:lang="la">sapientia</foreign>), indeed, is so called from <mentioned>taste</mentioned> (<foreign xml:lang="la">sapor</foreign>). The mind, 
+                        <lb/>touched by the flavour of inward sweetness, gathers its whole self within through desire, 
+                        <lb/>and it is never weakly loosened externally in the pleasure of the flesh, 
+                        <lb/>because it holds everything within in which it delights. Sweetness within, therefore, is fittingly placed against external 
+                        <lb/>pleasure, so that however much more it may have begun to taste 
+                        <lb/>and be pleased, so much more freely and willingly may this be despised; 
+                        <lb/>the mind, finally made peaceful in itself as long as there is nothing it may desire externally, 
+                        <lb/>rests within, complete, through love.</seg>
+                </note>
+                <lb/><l xml:id="DOD-8.3">a slave. Spiritual wisdom is given</l>
+                <note target="#DOD-8.4 #DOD-8.5 #DOD-8.6 #DOD-8.7">
+                    <lb/><seg type="q" source="DQS#DOD-40:212ra[42]–212rb[7]">Therefore the spirit of wisdom, touching the heart with its sweetness, both regulates the flame of external desire, 
+                        <lb/>and creates inward peace when it numbs lust, so that while the mind is entirely gathered to inward joy, 
+                        <lb/>a person may fully and completely be restored to the image of God, as it is written, <quote source="Bible.Vul:Matt.5.9">Blessed are the peacemakers, 
+                            <lb/>for they shall be called sons of God.</quote></seg>
+                </note>
+                <lb/><l xml:id="DOD-8.4">for this prayer: wisdom quells passion for the external</l>
+                <lb/><l xml:id="DOD-8.5">and creates peace within, when the wicked movements are put to sleep,</l>
+                <lb/><l xml:id="DOD-8.6">and thus the person is restored. Peace makes him so that he may be</l>
+                <lb/><l xml:id="DOD-8.7">a true son of God, when heavenly peace is gathered.</l>
+                <note target="#DOD-8.8 #DOD-8.9 #DOD-8.10">
+                    <lb/><seg type="q" source="DQS#DOD-41:210va[35]–210va[40]">Understand vices themselves as if are were certain sicknesses of the soul, or wounds of the inner 
+                        <lb/>person. The very person, indeed, is like a patient; God, the physician; the gifts 
+                        <lb/>of the Holy Spirit, the remedy; the virtues, healings; the beatitudes, the joy 
+                        <lb/>of happiness.</seg>
+                </note>
+                <lb/><l xml:id="DOD-8.8">The Lord puts to flight the sicknesses of the inner person;</l>
+                <lb/><l xml:id="DOD-8.9">by remedies of this kind he makes him strong in virtue.</l>
+                <lb/><l xml:id="DOD-8.10">And when he speaks well, he gathers the blessed joys.</l>
+            </lg>
+        </body>
+    </text>
+</TEI>

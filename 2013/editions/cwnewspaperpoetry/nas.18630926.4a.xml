@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630926.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Thousand Years</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630926.4a</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#bt">Bayard Taylor</author>
+                        <title level="a">A Thousand Years</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-09-26">26 September 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="bt">Taylor, Bayard, 1825-1878</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Classical literature --Study and teaching--United States</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-20" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>
+            <change when="2012-08-26" who="#el">checked basic encoding</change>
+            <change when="2012-07-31" who="#kt">encoded</change>
+            <change when="2012-06-29" who="#bw">checked transcription</change>   
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630926.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630926.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630926.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630926.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630926.pp4a_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">A THOUSAND YEARS.</head>
+                
+                <lg type="stanza">
+                    <l>A <emph rend="smallcaps">thousand</emph> years! through storm and fire,</l>
+                    <l rend="indented1">With varying fate, the work has grown,</l>
+                    <l>'Til Alexander crowns the spire</l>
+                    <l rend="indented1">Where Rurik laid the corner-stone.<note type="editorial" resp="#bw #el">Rurik was renowned as the founder of a dynasty; according to contemporary histories, he became the first king of Russia in AD 862 (a thousand years before Taylor wrote his poem). Tsar Alexander II ruled 1855&#8211;81; in 1861 he decreed that twenty million serfs be emancipated.</note></l>
+                </lg>       
+        
+                <lg type="stanza">
+                    <l>The chieftain's sword, that could not rust,</l>
+                    <l rend="indented1">But bright in constant battle grew,</l>
+                    <l>Raised to the world a throne august,</l>
+                    <l rend="indented1">A nation grander than he knew.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Nor he alone; but those who have,</l>
+                    <l rend="indented1">Through faith or deed, an equal part&#8212;</l>
+                    <l>The subtle brain of Yaroslav,</l>
+                    <l rend="indented1">Vladimir's arm, and Nikon's heart:<note type="editorial" resp="#bw #el">Yaroslav, Vladimir, and Nikon were three preeminent Russians. Iaroslav I, known as "Iaroslav the Wise," reigned 1019&#8211;54. Iaroslav's father, Vladimir (St. Vladimir), ruled ca. 980&#8211;1015 and adopted Christianity as the religion of the state after his own conversion. Orthodox patriarch Nikon (1652&#8211;58) made "efforts to promote greater piety and purity in religious life" (Nicholas V. Riasanovsky and Mark D. Steinberg, <title level="m">A History of Russia</title> [Oxford: Oxford University Press, 2011], 198).</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The later hands that built so well</l>
+                    <l rend="indented1">The work sublime which these began,</l>
+                    <l>And from base to pinnacle</l>
+                    <l rend="indented1">Wrought out the Empire's mighty plan.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>All these, to-day, are crowned anew,</l>
+                    <l rend="indented1">And rule, in splendor, where they trod,</l>
+                    <l>While Russia's children throng to view</l>
+                    <l rend="indented1">Her holy cradle, Novgorod.<note type="editorial" resp="#bw #el">City on the Volkhov River, where Rurik established his dynasty.</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>From Volga's banks, from Dwina's side;</l>
+                    <l rend="indented1">From pine-clad Ural, dark and long;</l>
+                    <l>Or where the foaming Terek's tide<note type="editorial" resp="#bw #el">The Volga, Dwina, and Terek are rivers. The Volga and the Terek flow into the Caspian Sea; the Dwina, or Dvina, flows into the White Sea.</note></l>
+                    <l rend="indented1">Leaps down from Kasbek,<note type="editorial" resp="#bw #el">Mount Kasbek, in the Caucasus Mountains.</note> bright with song!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>From Altai's chain of mountain-cones,</l>
+                    <l rend="indented1">Mongolian deserts, far and free<unclear resp="#el" reason="illgible" cert="medium">,</unclear></l>
+                    <l>And lands that bind, through changing zones,</l>
+                    <l rend="indented1">The Eastern and the Western sea.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>To every race she gives a home,</l>
+                    <l rend="indented1">And creeds and laws enjoy her shade;</l>
+                    <l>Till, far beyond the dream of Rome,</l>
+                    <l rend="indented1">Her C&#230;sar's mandate is obeyed.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>She blends the virtues they impart,</l>
+                    <l rend="indented1">And holds, within her life combined,</l>
+                    <l>The patient faith of Asia's heart,</l>
+                    <l rend="indented1">The force of Europe's restless mind.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>She bids the nomad's wandering cease;</l>
+                    <l rend="indented1">She binds the wild marauder fast,</l>
+                    <l>Her plow-shares turn to homes of peace</l>
+                    <l rend="indented1">The battle-field of ages past.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And, nobler far, she dares to know</l>
+                    <l rend="indented1">Her future's task&#8212;nor knows in vain,</l>
+                    <l>But strikes at once the generous blow</l>
+                    <l rend="indented1">That makes her millions men again!<note type="editorial" resp="#bw #el">Emancipation decree of Alexander II; issued in Lent 1861, it freed over twenty million serfs.</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>So, firmer-based, her power expands,</l>
+                    <l rend="indented1">Nor yet has seen its crowning hour,</l>
+                    <l>Still teaching to the struggling lands</l>
+                    <l rend="indented1">That Peace the offspring is of Power.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Build up the storied bronze, to tell</l>
+                    <l rend="indented1">The steps whereby this height she trod&#8212;</l>
+                    <l>The thousand years that chronicle</l>
+                    <l rend="indented1">The toil of Man, the help of God!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And may the thousand years to come&#8212;</l>
+                    <l rend="indented1">The future ages wise and free,&#8212;</l>
+                    <l>Still see her flag, and hear her drum,</l>
+                    <l rend="indented1">Across the world, from sea to sea!&#8212;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Still find, a symbol stern and grand,</l>
+                    <l rend="indented1">Her ancient eagle's strength unshorn,</l>
+                    <l>One head to watch the western land,</l>
+                    <l rend="indented1">And one to guard the land of morn!</l>
+                </lg>
+            </lg>
+            
+            <byline rend="right"><emph rend="smallcaps">Bayard Taylor.</emph><note type="editorial" resp="#bw #el"><p>Bayard Taylor (1828&#8211;1878) captivated antebellum audiences with accounts of his extensive travels. By the time war broke out, he had established a formidable reputation as a travel writer, lecturer, and poet. He had also been appointed manager of the <title level="j">New York Tribune</title>'s Literary Department. He served as the <title level="j">Tribune</title>'s Washington "special" until May 1862, when he accepted a diplomatic post as secretary (then charge d'affaires) to the American Legation at St. Petersburg, Russia. For over a year, he monitored and managed Russian reactions to the progress of the American Civil War.</p><p>In the winter of 1862, he helped to ensure that the emperor resisted Anglo-French pressure to intervene in war. Although Lincoln did not give him the diplomatic post he desired, Taylor reported himself well satisfied that he had "done real service to the country" (<title level="m">Selected Letters of Bayard Taylor</title>, ed. Paul C. Wermuth [Cranbury, NJ: Bucknell University Press, 1997], 199). Shortly before he began his journey back to America, he learned that his brother had been killed at Gettysburg. He returned to Kennett Square, Pennsylvania, with his family in the autumn of 1863. During the rest of the war, Taylor worked the lyceum circuit with material from his Russian sojourn, and wrote and published his first two novels, <title level="m">Hannah Thurston</title> (1863) and <title level="m">John Godfrey's Fortunes</title> (1864). See also Cary Wolfe, "Taylor, Bayard," in <title level="m">American National Biography Online</title>.</p><p>"A Thousand Years" first appeared in the <title level="j">National Anti-Slavery Standard</title> issue dated November 1, 1862. The poem's reappearance in late September 1863, almost a year after Lincoln issued his preliminary Emancipation Proclamation, was doubly timely; Taylor's poem at once served as a commentary on America's progress toward the abolition of slavery and fed popular interest in newly arrived Russian sailors. "A Russian Fleet Coming into Our Harbor," announced the <title level="j">New York Times</title> on September 24, 1863: "The Russian frigate <name type="ship">Osliaba</name>, which has lain at anchor in our harbor for several days past, and has been an object of so much interest to our citizens, is about to be reinforced by a fleet of four or five vessels of the same nationality" ([2]). The visitors were welcomed warmly. The American public, however, was unaware that the emperor had sent the squadron to a friendly port so that if war broke out with France and Britain as a result of his brutal policies in Poland, Russian ships would not be blockaded.</p></note></byline>
+            <dateline>Novgorod, Russia, September 20, 1862.</dateline>
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

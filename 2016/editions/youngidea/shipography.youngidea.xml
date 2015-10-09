@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="SURF2015Schema.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mi="http://www.newhaven.edu/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">A Selection from The Digital Young Idea></title>
+                <author>A.D. McArthur</author>
+                <editor>Mary Isbell</editor>
+                <respStmt>
+                    <resp>Transcription, encoding, and contextual markup</resp>
+                    <name xml:id="mi">Mary Isbell</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <idno type="file">shipography.youngidea</idno>
+                <idno type="edition">youngidea</idno>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2016</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">37</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+            
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- I don't think I need to worry with this, but I've had trouble creating the elements <listShip> and <ship>, 
+                so I'm just substituting in all of the elements associated with orgName information to get the job done. 
+            -Ordered to be built by the Admiralty (Ord) on:
+            -Launched (L) on 
+            -Masting and fitting out completed on (C)
+            -length on the gundeck (first number before the comma-the number after the comma is for calculating tonnage)XbreadthXdepth in hold
+            BU (broken up for parts)
+            -->
+            <listOrg>
+                <org xml:id="Pylades">
+                    <orgName>HMS Pylades</orgName>
+                    <desc>HMS Pylades was a Royal Navy First Class Corvette with 21 guns, the only
+                        vessel in the Pylades Class. The Admiralty ordered the ship on December 24,
+                        1852. She was Launched on November 23, 1854 and her masting and fitting out
+                        was completed on March 29, 1855. The length of the gundeck was 192 feet and
+                        9 inches, the breadth at the broadest part of the ship was 38 feet, and the
+                        depth in the hold was 23 feet and 11 inches. It is unclear how many men
+                        served on Pylades Class vessels, but Jason Class vessels (also 21-gun
+                        Corvettes) carried 240 men (210). As David Lyon and Rif Winfield explain,
+                        "Corvette designs were rapidly enlarged over the 1860s, as the corvette
+                        began to take over the traditional frigate role of policing the high seas.
+                        To this end they were all built as steam auxiliaries, designed to cruise
+                        under sail" (207). The Pylades was broken up for parts on January 23, 1875
+                        (208). <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                                &amp; Steam Navy List: All The Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Sparrowhawk">
+                    <orgName>HMS Sparrowhawk</orgName>
+                    <desc>HMS Sparrowhawk was a Royal Navy screw-propelled vessel in the Vigilant
+                        Class, the name for a group of Second Class despatch/gunvessels designed for
+                        inshore warfare duties during the Crimean War. The Admiralty ordered the
+                        ship on July 26, 1855. She was Launched on February 9, 1856 and her masting
+                        and fitting out was completed on April 7, 1856. She was 180 feet long, 28
+                        feet at the broadest point, with a depth in the hold of 14 feet. She was
+                        built for a company of 80 men. As Lyon and Winfield explain, "The outbreak
+                        of the Russian War demonstrated the need for numerous manoeuvrable,
+                        shallow-draught vessels for coastal and inshore operations in the Baltic and
+                        Black Seas. Six small screw steamers of the Arrow Class were approved in
+                        early 1854 to be built by contract in the Thames, initially classed as
+                        despatch vessels. Twenty further vessels, to two designs rated as First
+                        Class (the six Intrepid Class) and the Second Class (the 14 Vigilant Class)
+                        were ordered in 1855" (218). HMS Assurance was sold at Esquimault in 1872.
+                                <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                                &amp; Steam Navy List: All The Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Chesapeake">
+                    <orgName>Chesapeake</orgName>
+                    <desc>HMS Chesapeake was a Royal Navy screw frigate with 51 guns in the Forte
+                        (or Imperieuse) Class, which was one of several classes including the 30 new
+                        wooden screw frigates completed between 1849 and 1865 (197). She was built
+                        in dry dock, launched on September 7, 1855 and her masting and fitting out
+                        was completed on August 28, 1857. She was 212 feet long, 50 feet 2 inches at
+                        the broadest point, with a depth in the hold of 16 feet and 9 inches. She
+                        was built for a company of 515 men. The Chesapeake was sold in 1867 to be
+                        broken up for parts at Charlton (200). <bibl><author>David Lyon and Rif
+                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                                Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Pelorus">
+                    <orgName>Pelorus</orgName>
+                    <desc>HMS Pelorus was a Royal Navy screw corvette with 21 guns in the Pearl
+                        Class. She was Launched on February 5, 1858 and her masting and fitting out
+                        was completed on September 10, 1857. She was 200 feet long, 40 feet 4 inches
+                        at the broadest point, with a depth in the hold of 23 feet 11 inches. As
+                        Lyon and Winfield explain, "Corvette designs were rapidly enlarged over the
+                        1860s, as the corvette began to take over the traditional role of policing
+                        the high seas. To this end they were all built as steam auxiliaries,
+                        designed to cruise under sail" (207). HMS Pelorus was broken up for parts at
+                        Devonport on February 3, 1869. <bibl><author>David Lyon and Rif
+                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                                Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Assurance">
+                    <orgName>Assurance</orgName>
+                    <desc>HMS Assurance was a Royal Navy screw-propelled vessel in the Vigilant
+                        Class, the name for a group of Second Class despatch/gunvessels designed for
+                        inshore warfare duties during the Crimean War. The Admiralty ordered the
+                        ship on July 26, 1855. She was Launched on March 13, 1856 and her masting
+                        and fitting out was completed on April 16, 1856. She was 180 feet long, 28
+                        feet at the broadest point, with a depth in the hold of 14 feet. She was
+                        built for a company of 80 men. As Lyon and Winfield explain, "The outbreak
+                        of the Russian War demonstrated the need for numerous manoeuvrable,
+                        shallow-draught vessels for coastal and inshore operations in the Baltic and
+                        Black Seas. Six small screw steamers of the Arrow Class were approved in
+                        early 1854 to be built by contract in the Thames, initially classed as
+                        despatch vessels. Twenty further vessels, to two designs rated as First
+                        Class (the six Intrepid Class) and the Second Class (the 14 Vigilant Class)
+                        were ordered in 1855" (218). The Assurance was sold to sold to Marshall,
+                        Plymouth, on March 8, 1870.<bibl><author>David Lyon and Rif
+                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                                Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Mohawk">
+                    <orgName>Mohawk</orgName>
+                    <desc>HMS Mohawk was a Royal Navy screw-propelled vessel in the Vigilant Class,
+                        the name for a group of Second Class despatch/gunvessels designed for
+                        inshore warfare duties during the Crimean War. The Admiralty ordered the
+                        ship on July 26, 1855. She was Launched on January 11, 1856 and her masting
+                        and fitting out was completed on March 23, 1856. She was 180 feet long, 28
+                        feet at the broadest point, with a depth in the hold of 14 feet. She was
+                        built for a company of 80 men. As Lyon and Winfield explain, "The outbreak
+                        of the Russian War demonstrated the need for numerous manoeuvrable,
+                        shallow-draught vessels for coastal and inshore operations in the Baltic and
+                        Black Seas. Six small screw steamers of the Arrow Class were approved in
+                        early 1854 to be built by contract in the Thames, initially classed as
+                        despatch vessels. Twenty further vessels, to two designs rated as First
+                        Class (the six Intrepid Class) and the Second Class (the 14 Vigilant Class)
+                        were ordered in 1855" (218). HMS Mohawk was sold to the Chinese Imperial
+                        Customs on September 20, 1862, renamed Peking and sailed in April of 1863 to
+                        join Sherard Osborn's 'Vampire Fleet' (208).<bibl><author>David Lyon and Rif
+                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                                Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Himalaya">
+                    <orgName>Himalaya</orgName>
+                    <desc>The Himalaya was built by the P&amp;O (Peninsular and Oriental Steam
+                        Navigation Company) and purchased by the Royal Navy to serve as a transport
+                        ship in 1854. When she was completed as a passenger liner for the P&amp;O,
+                        she was the largest vessel in the world (244). She was 340 feet 5 inches
+                        long, 46 feet at the broadest point, with a depth in the hold of 24 feet in
+                        the hold. As Lyon and Winfield explain, "The advent of the Russian War in
+                        1854 witnessed the first large-scale taking up of large merchant vessels to
+                        serve as auxiliaries, instead of the traditional practice of using elderly
+                        warships; the majority of these were iron-hulled screw ships, which gave the
+                        navy considerable experience of metal hulls prior to their wholesale
+                        adoption for large warships" (243). The Himalaya was sunk by German
+                        dive-bombers during a German air raid in 1940. <bibl><author>David Lyon and
+                                Rif Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                                Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Megaera">
+                    <orgName>Megaera</orgName>
+                    <desc>HMS Megaera was a Royal Navy Iron screw frigate in the Magaera class,
+                        which was a class of iron screw frigates converted to a troopship before
+                        completion. She was Launched on May 22, 1849 and her masting and fitting out
+                        was completed on December 29, 1851. She was 207 feet long, 37 feet 8 inches
+                        at the broadest point, with a depth in the hold of 24 feet 3 inches. She was
+                        built for a company of 175 men (when intended as a frigate). As Lyon and
+                        Winfield explain, "The success of a number of commercial shipyards in
+                        Britain in building ships with iron hulls led the Admiralty in 1844 to
+                        embark on a programme of four large iron frigates, to be fitted with screw
+                        propulsion, each from a specialist merchant builder. However, the
+                        Admiralty's confidence in iron ships was quickly shaken, following adverse
+                        reports of damage to iron hulls under fire. on 1 December 1846 they enquired
+                        as to the costs of cancelling the programme, and in April 1847 decided to
+                        complete the four as troopships" (242). HMS Magaera was beached on Saint
+                        Paul's Island in the Indian Ocean on June 16, 1871 because of major leaks
+                        rendering her unseaworthy due to corrosion of her plating (242).
+                                <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                                &amp; Steam Navy List: All The Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Pearl">
+                    <orgName>Pearl</orgName>
+                    <desc>HMS Pearl was a Royal Navy screw corvette with 21 guns in the Pearl Class.
+                        She was Launched on February 13, 1855 and her masting and fitting out was
+                        completed on January 25, 1856. She was 200 feet long, 40 feet 4 inches at
+                        the broadest point, with a depth in the hold of 23 feet 11 inches. As Lyon
+                        and Winfield explain, "Corvette designs were rapidly enlarged over the
+                        1860s, as the corvette began to take over the traditional role of policing
+                        the high seas. To this end they were all built as steam auxiliaries,
+                        designed to cruise under sail" (207).HMS Pearl was sold to be broken up for
+                        parts at Charlton in 1884. <bibl><author>David Lyon and Rif
+                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                                Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Shannon">
+                    <orgName>Shannon</orgName>
+                    <desc>HMS Shannon was a Royal Navy screw frigate in the Liffey Class, which was
+                        one of several classes including the 30 new wooden screw frigates completed
+                        between 1849 and 1865 (197). She was Launched on November 24, 1855 and her
+                        masting and fitting out was completed on December 29, 1856. She was 235 feet
+                        1 inch feet long, 50 feet 1 1/2 inches at the broadest point, with a depth
+                        in the hold of 18 feet 4 1/2 inches. She was built for a company of 560 men.
+                        HMS Shannon was sold to be broken up for parts at Charlton in 1871.
+                                <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                                &amp; Steam Navy List: All The Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Proserpine">
+                    <orgName>Proserpine</orgName>
+                    <desc>The Proserpine was a gunboat (with 2 guns) built by John Laird, Sons &amp;
+                        Co., Birkenhead, for the East India company's marine service (181).
+                                <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                                &amp; Steam Navy List: All The Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Ava">
+                    <orgName>Ava</orgName>
+                    <desc>The steamship Ava was not a Royal Navy vessel.</desc>
+                </org>
+
+
+                <org xml:id="Canning">
+                    <orgName>Lady Canning</orgName>
+                    <desc>The Lady Canning was a 4-gun sloop "built for and operated by the Indian
+                        Navy (from 1830 the successor to the Bombay Marine arm of the East India
+                        Company)" (172). She was launched on March 24, 1857. She was 175 feet long,
+                        24 feet 8 inches at the broadest point, with a depth in the hold of 14 feet.
+                        Her fate is unknown (173).<bibl><author>David Lyon and Rif
+                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                                Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl></desc>
+                </org>
+
+                <org xml:id="Cuckoo">
+                    <orgName>Cuckoo</orgName>
+                    <desc>The Cuckoo was a medium type paddle packet built by the P&amp;O
+                        (Peninsular and Oriental Steam Navigation Company) as "Cinderella," then
+                        transferred from the post office to the Admiralty's jurisdiction and renamed
+                        "Cuckoo" in 1837 (164). She was built in 1822 by Wigram &amp;Green,
+                        Blackwall. She was 120 feet 6 inches long, 20 feet at the broadest point,
+                        with a depth in the hold of 12 feet 6 inches. She was built for a company of
+                        12 men (165). The Cuckoo was sold at Davenport in 1864. <bibl><author>David
+                                Lyon and Rif Winfield</author><title>The Sail &amp; Steam Navy List:
+                                All The Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+
+                <org xml:id="Eurydice">
+                    <orgName>HMS Eurydice</orgName>
+                    <desc>HMS Eurydice was a 26-gun Royal Navy frigate (Sixth Rate) in the Eurydice
+                        Class (111). She was Launched on May 16, 1843 and her masting and fitting
+                        out was completed on September 1, 1843. She was 141 feet 2 inches long, 38
+                        feet 10 inches at the broadest point, with a depth in the hold of 8 feet 9
+                        inches. She was built for a company of 190 men (115). As Lyon and Winfield
+                        explain, "Under the re-classing which took effect in February of 1817, the
+                        smallest rated ships-the Sixth Rate-comprised vessels with 24 guns and above
+                        but less than 36 guns. Typically, the post-war Sixth Rates were built as
+                        28-gun ships; however, most were reduced to 26 guns in 1839. During the
+                        1820s, a variety of designs from different sources were experimentally
+                        tried, with differing hull forms being evaluated to try and achieve a fast
+                        cruising performance. The French term 'corvette' came to be used for these
+                        vessels, which were also referred to (disparagingly) as 'donkey frigates'
+                        (111). <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                                &amp; Steam Navy List: All The Ships of The Royal Navy
+                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher></bibl>
+                        <date>2004</date></desc>
+                </org>
+                <org xml:id="Pinnace">
+                    <orgName>HMS Pinnace</orgName>
+                    <desc>The Pinnace was not a Royal Navy vessel</desc>
+
+                </org>
+
+                <org xml:id="Lolly_boat">
+                    <orgName>HMS Lolly boat</orgName>
+                    <desc>The Pinnace was not a Royal Navy vessel</desc>
+                </org>
+            </listOrg>
+        </body>
+    </text>
+</TEI>

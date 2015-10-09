@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630523.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Our Country's Call</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630523.4a</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jp">John Pierpont</author>
+                        <title level="a">Our Country's Call</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-05-23">23 May 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>
+                
+                <biblStruct xml:id="supplied">
+                    <analytic>
+                        <author>John Pierpont</author>
+                        <title level="a">Our Country's Call</title>
+                    </analytic>
+                    <monogr>
+                        <editor>Frank Moore</editor>
+                        <title level="m">The Rebellion Record</title>                        
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>D. Van Nostrand</publisher>
+                            <date when="1864">1864</date>
+                        </imprint>
+                        <biblScope type="volume">7</biblScope>
+                        <biblScope type="part">3</biblScope>
+                        <biblScope type="pp">1</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jp">Pierpont, John, 1785-1866</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Copperhead movement</term>
+                    <term>Political clubs--United States--History--19th century</term>
+                    <term>Union League of America--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                    <term>United States--History--Civil War, 1861-1865--Songs and music</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">corrected Chancellorsville date</change>
+            <change when="2013-03-04" who="#el">removed brackets from supplied page number info, since page number actually appears on page</change>
+            <change when="2013-03-04" who="#el">changed value of @type on biblScope to "pp" from "pages"</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-15" who="#el">changed format of a note, for project consistency</change>
+            <change when="2012-09-13" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>            
+            <change when="2012-07-29" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change> 
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630523.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630523.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630523.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630523.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630523.pp4a_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">OUR COUNTRY'S CALL.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY JOHN PIERPONT.<note type="editorial" resp="#bw #el"><p>John Pierpont (1785&#8211;1866) served as minister at Boston's Unitarian Hollis Street Church from 1819 until 1845, when he resigned after a long struggle with parish members who objected to his reform-orientated sermons. His poems appeared in the antislavery press during this period; Oliver Johnson, wartime editor of the <title level="j">National Anti-Slavery Standard</title>, published <title level="m">The Anti-Slavery Poems of John Pierpont</title> in 1843.</p><p>Pierpont moved to the First Unitarian Church of Troy, in New York, then settled at the First Congregational (Unitarian) Church of West Medford, Massachusetts (1849&#8211;1858). He supported the Liberty, Free Soil, and Republican parties (Reinhard O. Johnson, <title level="m">The Liberty Party, 1840&#8211;1848: Antislavery Third-Party Politics in the United States</title> [Baton Rouge: Louisiana State University Press, 2009], 365). The outbreak of Civil War prompted him to enlist as a chaplain for the Twenty-Second Massachusetts Volunteers, but poor health forced the seventy-six year-old to give up the post after less than a month. "Our Country's Call" suggests that he continued to champion the war effort as a Union League member. He worked as a treasury clerk in Washington, DC from 1861 until his death.</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <note type="authorial" rend="center"><emph rend="smallcaps">AIR</emph>&#8212;<emph rend="italic">"Scots Wha Hae," etc.</emph><note type="editorial" resp="#bw #kt">Scottish poet Robert Burns wrote "Scots Wha Hae" in the summer of 1793. The revolutionary lyrics (set to the older Scots tune "Hey tutti taitie") take the form of a rousing speech by Robert Bruce, who rallies his army to fight for freedom against England's King Edward II at Bannockburn: "Tyrants fall in every foe! / Liberty's in every blow!&#8212; / Let us do, or die!" (Robert Burn, <title level="m">Selected Poems</title>, ed. Carol McGuirk [London: Penguin, 1993], 178).</note></note>
+                
+                <lg type="stanza">
+                    <l>Men who plough your granite peaks,<note type="editorial" resp="#bw #el">Pierpont addresses New Hampshire men. Although the exact date of the poem's composition is unknown, Pierpont's targeted address may have been motivated by several political factors. The number of votes cast for the Democratic Party candidate in New Hampshire's gubernatorial election of March 1863 alarmed Republicans in New Hampshire and Washington, DC (Duane E. Shaffer, <title level="m">Men of Granite: New Hampshire's Soldiers in the Civil War</title> [Columbia: University of South Carolina Press, 2008], 135). The enactment of the Enrollment Act that same month (March 3, 1863) and, later, the Union army's crushing defeat at Chancellorsville (May 2&#8211;6, 1863) were further blows to morale. The Union League convention in Cleveland, Ohio, in mid-May 1863 may also have prompted Pierpont's call. Union Leagues were clubs formed to promote loyalty to the Union, with a more or less explicit Republican agenda, in towns and cities across the North. They spread during 1862&#8211;63 in response to perceived threats on the home front&#8212;namely, the plans of Confederate sympathizers and Peace Democrat propaganda. The Ohio convention aimed to coordinate their efforts more effectively.</note></l>
+                    <l>O'er whose head your Eagle shrieks,</l>
+                    <l>And for aye of <emph rend="italic">Freedom</emph> speaks,</l>
+                    <l rend="indented3">Hear your Country's call!</l>
+                    <l>Swear, each loyal mother's son,</l>
+                    <l>Swear, "Our Country shall be <emph rend="smallcaps">One</emph>!"</l>
+                    <l>Seize your sword, or bring your gun,</l>
+                    <l rend="indented3">Bayonet and ball!</l>
+                </lg>
+        
+        
+                <lg type="stanza">
+                    <l>For the land that bore you&#8212;Arm!</l>
+                    <l>Shield the State you love from harm!</l>
+                    <l>Catch, and round you spread, the alarm;</l>
+                    <l rend="indented3">Hear, and hold your breath!</l>
+                    <l>Hark! the hostile horde is nigh!</l>
+                    <l>See! the storm comes roaring by!</l>
+                    <l>Hear and heed our battle cry&#8212;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented3">"<emph rend="smallcaps">Victory or Death</emph>!"</l>
+                    <l>Sturdy landsmen, hearty tars,</l>
+                    <l>Can you see your Stripes and Stars</l>
+                    <l>Flouted by the three broad bars,</l>
+                    <l rend="indented3">And cold blooded feel?</l>
+                    <l><emph rend="italic">There</emph> the rebel banner floats!</l>
+                    <l>Tyrants, vanquished by your votes,</l>
+                    <l>Spring, like bloodhounds, at your throats;</l>
+                    <l rend="indented3">Let them bite your <emph rend="italic">steel!</emph></l>
+                </lg>
+        
+       
+                <lg type="stanza">
+                    <l>With no traitor at their head,</l>
+                    <l>By no braggart coward led,</l>
+                    <l>By no hero caught abed,</l>
+                    <l rend="indented3">While he dreams of flight;</l>
+                    <l>By no "Young Napoleons,"<note type="editorial" resp="#bw #el">Union general George B. McClellan (1826&#8211;1885) was dubbed the "Young Napoleon" after his early success in West Virginia. His supporters and critics adopted the nickname. As the commander of the Army of the Potomac, cautious McClellan frustrated Lincoln by missing valuable opportunities to defeat Confederate general Robert E. Lee's army. Suspicious of McClellan's Democrat allegiance and proslavery stance, Republican politicians began to question his loyalty. When McClellan allowed Lee to slip out of the Shenandoah Valley after the Battle of Antietam (September 17, 1862), Lincoln removed him from his army command. McClellan went on to run against Lincoln as the Democratic Party's presidential candidate in 1864.</note></l>
+                    <l>Kept at bay by wooden guns,<note type="editorial" resp="#bw #el">Convinced of his enemy's superior numbers, General McClellan let Confederate forces leave Centreville, Virginia, without a fight in the spring of 1862. When he surveyed their abandoned fortifications, he found "logs painted black, soon to be notorious as 'Quaker guns'" (Stephen W. Sears, <title level="m">George B. McClellan: The Young Napoleon</title> [New York: Da Capo Press, 1999], 164). Press correspondents reported the ruse. Pierpont presents McClellan as a ridiculously timid "Napoleon."</note></l>
+                    <l>Shall our brothers and our sons</l>
+                    <l rend="indented3">Be held back from fight!</l>
+                </lg>
+        
+                <lg type="stanza">
+                    <l>Like a whirlwind in its course,<note type="editorial" resp="#bw #el">In the Bible, a whirlwind is a manifestation of divine power and wrath. See Jeremiah 20:23, for example: "Behold, the whirlwind of the Lord goeth forth with fury, a continuing whirlwind: it shall fall with pain upon the head of the wicked."</note></l>
+                    <l>Shall <emph rend="italic">again</emph> a rebel force,</l>
+                    <l>Jackson's foot or Stuart's horse,<note type="editorial" resp="#bw #el"><p>Thomas Jonathan "Stonewall" Jackson (1824&#8211;1863) and James Ewell Brown "Jeb" Stuart (1833&#8211;1864), renowned Confederate generals. Jackson commanded the left wing (later the Second Corps) of the Army of Northern Virginia, while Stuart led the Cavalry Division. Both men led troops during General Robert E. Lee's invasion of Maryland (September 1862).</p>
+                        <p>Stuart was made brigadier general in September 1861, and provided Lee's army with invaluable support in the winter of 1862 and the spring of 1863. He was at the height of his fame when Pierpont's poem appeared in the <title level="j">Standard</title>. So, too, was Stonewall Jackson; by the end of 1862, the committed Presbyterian had already attained mythic status. He was shot by his own pickets as he returned to his lines during the Battle of Chancellorsville and died on May 10, 1863.</p></note></l>
+                    <l rend="indented3">Pass our sleepy posts,</l>
+                    <l>Roam, like Satan, "to and fro,"</l>
+                    <l>And our laggard let them go?</l>
+                    <l>No! in thunder answer "<emph rend="italic">No!</emph></l>
+                    <l><emph rend="italic">By the Lord of Hosts!</emph>"</l>
+                </lg>
+        
+        
+                <lg type="stanza">
+                    <l><emph rend="italic">With</emph> the Lord of Hosts we fight,</l>
+                    <l>For his Freedom, Law and Right&#8212;</l>
+                    <l>Strike for <emph rend="italic">these</emph>, and his all-might</l>
+                    <l rend="indented3">Shall with victory crown</l>
+                    <l>Loyal brows, alive or dead,</l>
+                    <l>Crush each crawling Copperhead,<note type="editorial" resp="#el #bw">A poisonous snake, "Copperhead" became the popular (Republican) name for so-called Peace Democrats, who opposed the administration's war policies and promoted peace with the South. Copperheads were widely associated with disloyalty and treachery on the home front.</note></l>
+                    <l>And, in bloody battle, tread</l>
+                    <l rend="indented3">This rebellion down!</l>
+                </lg>
+        
+                <lg type="stanza">
+                    <l><choice><sic>"Talk</sic><corr>Talk</corr></choice> of "Peace," in hours like this!</l>
+                    <l>'Tis Iscariot's traitor kiss!</l>
+                    <l>'Tis the Old <supplied reason="missing" resp="#el" source="#supplied">Ser</supplied>pent's latest hiss!</l>
+                    <l rend="indented3">Foil his foul intrigue!</l>
+                    <l>Plant your heel his head upon!</l>
+                    <l>Let him squirm! his race is run!</l>
+                    <l><emph rend="italic">Now</emph> to <emph rend="italic">keep</emph> your Country <emph rend="italic">one,</emph></l>
+                    <l><emph rend="italic">Join our Union League!</emph></l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+
+

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18631107.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">John Brown's March</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18631107.4a</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>                 
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#dw">D. W.</author>
+                        <title level="a">John Brown's March</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-11-07">7 November 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="dw">Webb, Deborah</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists--Europe--History</term>
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Brown, John, 1800-1859</term>
+                    <term>United States--Foreign relations--1861-1865</term>
+                    <term>United States--History--Civil War, 1861-1865--Foreign public opinion</term>
+                    <term>United States--History--Civil War, 1861-1865--Songs and music</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-02-24" who="#el">added note about AA printing; moved first editorial note</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-13" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-02" who="#el">checked transcription and encoding</change>
+            <change when="2012-07-28" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18631107.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18631107.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18631107.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18631107.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18631107.pp4a_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">JOHN BROWN'S MARCH.<note type="editorial" resp="#bw #el">"John Brown's March" also appeared in the <title level="j">Anglo-African</title> of <ref target="aa.18631114.1">November 14, 1863</ref>. The <title level="j">Anglo-African</title> printing is identical to the <title level="j">Standard</title> text.</note></head>
+                
+                <note type="newspaper-editorial">[The following lines, now for the first time published in <lb/>this country, are by a young lady of Dublin, Ireland,<note type="editorial" resp="#bw #el">Irish abolitionists had an important place in the transatlantic antislavery network forged in the 1830s and early 1840s. Formed to challenge apprenticeship in the West Indies, Dublin's Hibernian Anti-Slavery Society attacked American slavery and worked with William Lloyd Garrison's American Anti-Slavery Society (Angela F. Murphy, <title level="m">American Slavery, Irish Freedom: Abolition, Immigrant Citizenship, and the Transatlantic Movement for Irish Repeal</title> [Baton Rouge: Louisiana State University Press, 2010], 5).</note> and <lb/>show the profound sympathy, in the cause of American <lb/>freedom, which warms some hearts in the Old World:]<note type="editorial" resp="#bw #el"><p>In mid-nineteenth-century transatlantic contexts, the "Old World" meant Britain and Ireland. (See Julia Griffiths Croft's letters in <title level="j">Frederick Douglass' Paper</title> and <title level="j">Douglass' Monthly</title>, published under the heading "Letters from the Old World.") The pointed editorial note about the loyalty of "some hearts" seems to target lapsed abolitionists in the Old World even as it positions and praises Webb's poem as valuable literary evidence of transatlantic antislavery sympathy. The charge of disloyalty haunts the editor's notice: if you are not with us, you are against us.</p></note></note>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">John Brown's</emph><note type="editorial" resp="#bw #el"><p>Determined to make war on Southern slavery, militant abolitionist John Brown (1800&#8211;1859) organized and led a raid on Harpers Ferry, Virginia (October 16&#8211;18, 1859), with a view to sparking slave uprisings throughout the South. In the years before the attack, Brown played a significant part in the deadly raids and reprisals that made Kansas Territory "bleed" as proslavery and free-soil factions fought to define the identity of the state-to-be. (Brown's settler sons called for means to protect themselves from proslavery Missourians; when Brown took weapons west, he found a sense of divine purpose.) In 1858 he developed the Harpers Ferry plan with the covert assistance of a group of Northern abolitionists known as the "Secret Six."</p>
+                        <p>On October 16, 1859, Brown and his band of twenty-one volunteers succeeded in seizing the federal arsenal at Harpers Ferry, but the raid was quashed after a brief, intense fight between raiders and the militia. Slaves did not flock to Brown's side as he had hoped. After his capture, he was imprisoned and then tried at Charles Town. Initially he dismissed these legal proceedings as a "mockery" (quoted by David S. Reynolds, <title level="m">John Brown, Abolitionist: The Man Who Killed Slavery, Sparked the American Civil War, and Seeded Civil Rights</title> [New York: Knopf, 2005], 348). His words and bearing during his last days made an enormous impact on public opinion in the North and South. In the words of historian David Reynolds, "[t]he raid did not cause the storm. John Brown and the reaction to him did" (309). As a result of Brown's extraordinary performance, Northerners "began to see in Brown a hero" (357). Brown was sentenced to death on November 2; six days later, in a lecture delivered on November 8, 1859, Ralph Waldo Emerson declared that Brown would "make the gallows glorious like the cross" (366). Brown's execution on December 2, 1859, confirmed his martyrdom. Once war broke out in 1861, the song "John Brown's Body" "quickly became a Union favorite" (Franny Nudelman, <title level="m">John Brown's Body: Slavery, Violence, and the Culture of War</title> [Chapel Hill: University of North Carolina Press, 2004], 14); Deborah Webb was one of many writers to compose new lyrics for the tune.</p></note> body lies mould'ring in the grave,</l>
+                    <l rend="indented1">It lies amidst the mountains of the Adirondack lone,<note type="editorial" resp="#bw #el">John Brown's body was buried at his North Elba home, in the Adirondack region of New York.</note></l>
+                    <l>A grey rock looms above it and the sighing grasses wave,</l>
+                    <l rend="indented1">But his soul is marching on.</l>
+                </lg>
+                
+                <lg type="chorus">
+                    <l rend="indented3">Glory, glory, hallelujah!</l>
+                    <l rend="indented4">He lives forever, though on earth his race is run,</l>
+                    <l rend="indented3">Glory, glory, hallelujah!</l>
+                    <l rend="indented4">His soul is marching on.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>They could not chain his spirit nor lay him below the sod;</l>
+                    <l rend="indented1">They freed him from a prison here to mount in joy on <lb/>high;</l>
+                    <l>"Though worms destroy this body, yet I shall behold my <lb/>God,"<note type="editorial" resp="#bw #el">Job 19:26: "And <emph rend="italic">though</emph> after my skin <emph rend="italic">worms</emph> destroy this <emph rend="italic">body</emph>, yet in my flesh shall I see God."</note></l>
+                    <l rend="indented1">Was his soul's exulting cry.</l>
+                </lg>
+                
+                <lg type="chorus">
+                    <l rend="indented3">Glory, glory, hallelujah!</l>
+                    <l rend="indented4">He lives forever, though on earth his race is run,</l>
+                    <l rend="indented3">Glory, glory, hallelujah!</l>
+                    <l rend="indented4">His soul is marching on.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The torch by him left smould'ring shall give light in other <lb/>hands;</l>
+                    <l rend="indented1">His voice which now is silent shall be echoed o'er and <lb/>o'er;</l>
+                    <l>Till slavery has ceased to be, and freedom in all lands</l>
+                    <l rend="indented1">Shall reign for evermore.</l>
+                </lg>
+                
+                <lg type="chorus">
+                    <l rend="indented3">Glory, glory, hallelujah!</l>
+                    <l rend="indented4">He lives forever, though on earth his race is run,</l>
+                    <l rend="indented3">Glory, glory, hallelujah!</l>
+                    <l rend="indented4">His soul is marching on.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>He failed, yet as a victor we will crown our hero <unclear reason="damage" cert="high" resp="#el">bra</unclear>ve;</l>
+                    <l rend="indented1">Beneath Jehovah's banner was his duty nobly done.</l>
+                    <l>And we grieve not that his body lies mould'ring in the grave,</l>
+                    <l rend="indented1">For his soul is marching on.</l>
+                </lg>
+                
+                <lg type="chorus">
+                    <l rend="indented3">Glory, glory, hallelujah!</l>
+                    <l rend="indented4">He lives forever, though on earth his race is run,</l>
+                    <l rend="indented3">Glory, glory, hallelujah!</l>
+                    <l rend="indented4">His soul is marching on.</l>
+                </lg>
+            </lg>
+            
+            <byline rend="right">D. W.<note type="editorial" resp="#bw #el"><p>In Evelyn Noble Armitage's <title level="m">The Quaker Poets of Great Britain and Ireland</title> (1896), "John Brown's March" is attributed to Miss Deborah Webb (1837&#8211;1921). Webb was the daughter of Irish abolitionists Richard D. and Hannah Webb. Her family was part of the larger transatlantic antislavery alliance forged in the 1840s; Quaker printer Richard was a prominent member of the Hibernian Anti-Slavery Society, an Irish correspondent for the <title level="j">National Anti-Slavery Standard</title>, and publisher of the first Irish edition of the <title level="m">Narrative of the Life of Frederick Douglass</title> in September 1845 (Angela F. Murphy, <title level="m">American Slavery, Irish Freedom: Abolition, Immigrant Citizenship, and the Transatlantic Movement for Irish Repeal</title> [Baton Rouge: Louisiana State University Press, 2010], 42; Fionnghuala Sweeney, <title level="m">Frederick Douglass and the Atlantic World</title> [Liverpool: Liverpool University Press, 2007], 13, 24). Deborah Webb described the Webb house in Dublin as "a resort of various celebrities and philanthropists, particularly of abolitionists and escaped slaves" (Armitage, 289). Frederick Douglass recalled that Richard had been among those who "kindly received" him when he arrived in Dublin in 1845, although friction increasingly marked their relationship as Douglass's tour progressed and his sense of self changed (Frederick Douglass, <title level="m">Life and Times of Frederick Douglass, Written By Himself</title> [1893 edition],  in <title level="m">Douglass: Autobiographies</title> [New York: Library of America, 1994], 987).</p>
+                <p>In 1859 Richard Webb edited and published <title level="m">The Life and Letters of Captain John Brown</title>, a tribute to "the heroism, self-devotion, and firmness of Brown and his handful of young and devoted confederates" (iii). After the Civil War, Richard and Deborah traveled to America and visited antislavery associates including Lucretia Mott and William Lloyd Garrison.</p></note></byline>
+        </body>
+    </text>
+</TEI>
+

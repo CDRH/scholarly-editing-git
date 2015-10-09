@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630711.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Sunset on Edisto Beach, S. C.</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630711.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#em">E. Murray</author>
+                        <title level="a">Sunset on Edisto Beach, S. C.</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-07-11">11 July 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="em">Murray, Ellen</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Confederate States of America</term>
+                    <term>Edisto Beach (S.C.)</term>
+                    <term>Edisto Island (S.C.)--History--Civil War, 1861-1865</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-02-26" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-15" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>
+            <change when="2012-07-31" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630711.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630711.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630711.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630711.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630711.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE <choice><sic>ANTI SLAVERY</sic><corr>ANTI-SLAVERY</corr></choice> STANDARD.</note>
+                
+                <head type="main" subtype="authorial" rend="center">SUNSET ON EDISTO BEACH,<note type="editorial" resp="#bw #el">Edisto Island, across St. Helena Sound from St. Helena Island, where Ellen Murray lived, was a "no-man's-land" in 1863. In the summer of 1862, Secretary of War Edwin Stanton ordered General Hunter's troops away from the Sea Islands to support General George McClellan in Virginia (Willie Lee Rose, <title level="m">Rehearsal for Reconstruction: The Port Royal Experiment</title> [Indianapolis: Bobbs-Merrill, 1964], 183). The region's defenses were rearranged, and Edisto evacuated as a result. Although Union and Confederate raids occurred on the island from time to time, Murray visited the beach: her "Moonlight on Edisto Beach," a partner piece to "Sunset" that appeared in the <title level="j">National Anti-Slavery Standard</title> of July 18, 1863, bears the dateline "Edisto."</note> S. C.</head>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">The</emph> sunset colors glowed and dimmed</l>
+                    <l>Across the gray clouds of the sky,</l>
+                    <l>The stars shone softly through the haze,</l>
+                    <l>As loving eyes on those who die.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>There lay a small cloud in the east,</l>
+                    <l>And through its foldings, dark and deep,</l>
+                    <l>The quivering lightnings came and went,</l>
+                    <l>Scarce knowing when to wake or sleep;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then sprang, as swords spring from the sheath,</l>
+                    <l>Keen-edged from out the shadow's brim,</l>
+                    <l>And flashed across the startled blue</l>
+                    <l>With glory, battle-like and grim.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The ocean broke upon the land</l>
+                    <l>With all its wealth of wave and foam,</l>
+                    <l>The dark wing of the cormorant</l>
+                    <l>Was hasting to his distant home.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Such eves, with cloud and light and wave,</l>
+                    <l>May oft have smiled upon this shore</l>
+                    <l>When house, and garden, hall and beach,</l>
+                    <l>With joy and mirth were running o'er.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>When light steps trod the crowded beach,</l>
+                    <l>And children played with foam and shell,</l>
+                    <l>Where now, across the lonely sand,</l>
+                    <l>Paces the wary sentinel.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The little dark cloud in their sky</l>
+                    <l>Of sin and wrong, they would not see,</l>
+                    <l>Till justice sent the gathered storm</l>
+                    <l>To consummate its destiny&#8212;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>To break like whirlwind; and like chaff</l>
+                    <l>It swept them from their place away,<note type="editorial" resp="bw #el">Murray's striking Old Testament similes identify the Sea Island planters and their families with unthinking sinners swept away by divine wrath. The book of Isaiah's figures of tempest must have had a special resonance for island dwellers. See 17:13, for example: "The nations shall rush like the rushing of many waters: but God shall rebuke them, and they shall flee far off, and shall be chased as the chaff of the mountains before the wind, and like a rolling thing before the whirlwind." Murray explained the exile of Sea Islands' white Southern population as a punishment for its complicity in the sin of slavery.</note></l>
+                    <l>Leaving their desolated homes</l>
+                    <l>To strangers' feet and strangers' sway.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>This is not vengeance. 'Tis but law,</l>
+                    <l>At once unchangeable and right,</l>
+                    <l>That he who sows the seeds of storm</l>
+                    <l>Must reap the whirlwind's stayless might;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>That he who sins must suffer loss,</l>
+                    <l>Who shuts his eyes must go astray,</l>
+                    <l>And he who contradicts God's "Yes,"</l>
+                    <l>Must meet the Judge's changeless "Nay."</l>
+                </lg>
+            </lg>
+            
+            
+            <byline rend="right"><emph rend="smallcaps">E. Murray.</emph><note type="editorial" resp="#bw #el"><p>In the summer of 1862 Ellen Murray (1834&#8211;1908) joined her good friend Laura Matilda Towne on South Carolina's Sea Islands. When South Carolinian planters abandoned the islands to federal troops after the Battle of Port Royal (November 7, 1861), they left behind them empty mansions, cotton plantations, and a population of former slaves. Northern antislavery philanthropists saw the region as a field for missionary endeavor and founded societies for the relief and education of the newly free islanders. Towne, an abolitionist physician, accompanied an early shipment of aid from the Port Royal Relief Committee (subsequently the Pennsylvania Freedmen's Relief Association). "I shall want Ellen's help," she wrote in her diary on April 17, 1862, soon after her arrival (<title level="m">Letters and Diary of Laura M. Towne: Written From the Sea Islands of South Carolina, 1862&#8211;1884</title>, ed. Rupert Sargent Holland [Cambridge, MA: Riverside Press, 1912], 8). Working as a team, Murray and Towne threw their energies into a larger educational mission on the islands. They founded Penn School on St. Helena in September 1862, and Murray, an experienced teacher, took over its day-to-day running and served as its principal. In spite of periods of illness and increasing financial difficulties, both women taught there for the next forty years. For more on Towne and Murray, see Ronald E. Butchart, "Laura Towne and Ellen Murray: Northern Expatriates and the Foundations of Black Education in South Carolina, 1862&#8211;1908," in <title level="m">South Carolina Women: Their Lives and Times</title>, ed. Marjorie Julian Spruill, et al. (Athens: University of Georgia Press, 2010), 12&#8211;30.</p>
+                
+                <p>During the war, Murray found time to write a number of poems for the <title level="j">Anti-Slavery Standard</title>. At least fifteen pieces were attributed to "Ellen," "E. Murray," or "Ellen Murray" between April 1861 and March 1865. In addition to "Sunset on Edisto Beach," see "The Martyr of December 2, 1859" (October 26, 1861); "Deus Eversor!" (November 16, 1861); "Our Watchword" (May 10, 1862); "Tamar's Prayer" (August 2, 1862); "Half-Way" (October 4, 1862); "The First Day of January, 1863" (December 27, 1862); "God with Us" (April 18, 1863); "Moonlight on Edisto Beach" (July 18, 1863); <ref target="nas.18630822.2">"Col. Robert G. Shaw"</ref> (August 22, 1863); <ref target="nas.18640130.4b">"The Workingman"</ref> (January 30, 1864); "The Freed Land" (August 13, 1864); <ref target="nas.18641217.4">"Olustee"</ref> (December 17, 1864); and "Going Home to Edisto" (March 18, 1865). The "St. Helena" datelines identified Murray's poems as a form of literary testimony from the Sea Islands, akin to the prose in the <title level="j">Standard</title>'s "South Carolina correspondence" column.</p></note></byline>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+

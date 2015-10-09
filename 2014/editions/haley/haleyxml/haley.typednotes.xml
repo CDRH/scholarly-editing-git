@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Alex Haley's Typed Notes from <hi rend="italics">The
+                        Autobiography of Malcolm X</hi></title>
+                <author>Alex Haley</author>
+                <editor> Amy E. Earhart et al.</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="aee">Amy E. Earhart et al.</name>
+                </respStmt>
+
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">haley.typednotes</idno>
+                <idno type="edition">haley</idno>
+
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2014</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">35</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-07-26" who="#awj">Altered the encoding to match practices in the
+                following ways: 1. added new idnos in publicationStmt 2. Added ISSN number to header
+                and altered vol number and year </change>
+            <change when="2012-08-06" who="#aee">Altered the encoding to match practices in the
+                following ways: 1. revise title statement changing editor and author 2.changed title
+                to match document title 3. linked images to div 4. changed unclear to gap 5. changed
+                note formats </change>
+            <change when="2012-08-14" who="#awj">Altered the value of @type on some of the divs for
+                the individual notes to make it consistently "note"; added @type='main' to head
+                tag</change>
+            <change when="2012-09-10" who="#awj">Altered the value of @rend on hi in title to be
+                "italics"; removed the front with head because it repeated information in the
+                teiHeader and did not represent a head in the original document; added a zero to the
+                filename of images to match image files, and also removed ".jpg" from value of
+                @facs</change>
+            <change when="2012-12-17" who="#aee">added note regarding materials</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+
+        <body>
+            <note type="headnote"> Note: Below are transcriptions and images of typed notes that
+                Alex Haley compiled during his work on <emph>The Autobiography of Malcolm X</emph>.
+                During the year and a half that Haley conducted interviews to gain information for
+                the book, he would jot down notes on scrap paper, collect the scribbles, transcribe
+                them into typed and written notes, and eventually piece together the notes to write
+                    <emph>The Autobiography</emph>. From the contents, it seems that Haley wrote
+                this set of notecards during interviews conducted the last six to twelve months of
+                Malcolm X's life. There is no indication that scholars are aware of this small
+                holding of notecards, which might prove to be important clues to the production of
+                    <emph>The Autobiography.</emph> The notecards are also representations of the
+                complicated relationship between Haley and X, an often debated issue in scholarly
+                circles. The notecards from which these materials are transcribed are housed in the
+                Alex Haley Papers held by Cushing Library, Special Collections, at Texas A&amp;M
+                University. </note>
+
+            <div type="note" n="30" facs="haley.typednotes.030">
+                <p> The most instantly angry I ever saw Malcolm X. was one day we were in his car
+                    driving in Harlem, and at 136th Street between Lenox and 7th Avenues he saw a
+                    group of young <del rend="strikethrough"><gap reason="illegible"/></del>
+                    teen-age Negroes shooting <del rend="strikethrough">fice</del> dice against the
+                    doors of the Countee Cullen branch library which houses the great Schomberg
+                    Collection of <del rend="strikethrough">Negro</del> literature about and by
+                    Negroes. <ptr target="#note1" xml:id="nr1" n="1"/> Braking the car to a
+                    screeching stop, Malcolm X. bounded out and was over the dice-shooters like an
+                    avenging devil. They instantly recognized him, and nearly flattened against the
+                    wall at his fury. <del rend="strikethrough"><gap reason="illegible"/></del> "You
+                    out here <subst>
+                        <add>s</add>
+                        <del>c</del>
+                    </subst>hooting craps <ptr target="#note2" xml:id="nr2" n="2"/> against this
+                    library, and inside it's full of white boys and girls in there <hi
+                        rend="underline">studying</hi> about you!" The youth slunk away as Malcolm
+                    returned to the car furiously. He said, "I know how Christ felt <del
+                        rend="strikethrough">when</del> like he wished he had a whip when he saw the
+                    money-changers in the temple." <ptr target="#note3" xml:id="nr3" n="3"/></p>
+            </div>
+
+
+
+            <div type="note" n="45" facs="haley.typednotes.045">
+                <p> Growing respect for whites -- who d<subst>
+                        <add>e</add>
+                        <del>a</del>
+                    </subst>alt with him as a <hi rend="underline">man</hi> . . . 160/161<ptr
+                        target="#note4" xml:id="nr4" n="4"/></p>
+            </div>
+
+            <div type="note" n="46" facs="haley.typednotes.046">
+                <p> Walking the Harlem streets -- "making my little rounds." 161<ptr target="#note5"
+                        xml:id="nr5" n="5"/>
+                </p>
+            </div>
+
+            <div type="note" n="47" facs="haley.typednotes.047">
+                <p> "niggers ruined it -- 164 <ptr target="#note6" xml:id="nr6" n="6"/></p>
+            </div>
+
+            <div type="note" n="48" facs="haley.typednotes.048">
+                <p> "The BM<ptr target="#note7" xml:id="nr7" n="7"/>
+                    <del rend="strikethrough">accepted</del> took second-class so long WH<ptr
+                        target="#note8" xml:id="nr8" n="8"/> came to accept it as air he breathes."
+                </p>
+            </div>
+
+            <div type="note" n="49" facs="haley.typednotes.049">
+
+                <p> The report from Ag.<ptr target="#note9" xml:id="nr9" n="9"/></p>
+            </div>
+
+            <div type="note" n="50" facs="haley.typednotes.050">
+                <p>Adam Clayton Powell<ptr target="#note10" xml:id="nr10" n="10"/>. Knew what it was
+                    to get on the streets and organize from the streets. His finest moments in<del
+                        rend="strikethrough">i</del> his role as a Negro leaders, not in the pulpit
+                    preaching, but in the streets, organizing, agitating. He knew that to change
+                    anything, had to have man in streets to help you, and you had to physically be
+                    with him, to have his help. </p>
+            </div>
+
+            <div type="note" n="51" facs="haley.typednotes.051">
+                <p>“Respectable Negro” MX<ptr target="#note11" xml:id="nr11" n="11"/> jeered at. "He
+                    scathed us -- until he looked up and saw we had something." <del
+                        rend="strikethrough">Hi</del> "His social sciences studies hadn't told him .
+                    . ."</p>
+            </div>
+
+            <div type="note" n="52" facs="haley.typednotes.052">
+                <p> The <del rend="strikethrough">aar</del> aardvark <ptr target="#note12"
+                        xml:id="nr12" n="12"/>-- p. 166 (Lead into <subst>
+                        <del rend="strikethrough">Ag's<ptr target="#note13" xml:id="nr13" n="13"
+                            /></del>
+                        <add>graphic</add>
+                    </subst> analysis <ptr target="#note14" xml:id="nr14" n="14"/></p>
+            </div>
+
+            <div type="note" n="53" facs="haley.typednotes.053">
+                <p>
+                    <add place="topMargin">Dolls<ptr target="#note15" xml:id="nr15" n="15"/> - Helen
+                            Lanier<ptr target="#note16" xml:id="nr16" n="16"/></add> PERSONAL
+                    ANECDOTES. In the International Motel, George Sims<ptr target="#note17"
+                        xml:id="nr17" n="17"/> said to Malcolm that he hoped that whatever <del
+                        rend="strikethrough">di</del> decision he had would be good for his wife and
+                    children. Malcolm X. looked at George, <del rend="strikethrough">siad</del> and
+                    he said, very sincerely, "You are right, sir. I appreciate your saying
+                    that."</p>
+            </div>
+
+            <div type="note" n="54" facs="haley.typednotes.054">
+                <p> Martin Luther King...admired his coolness under fire...if instead <del
+                        rend="strikethrough">he</del> of non-violent, he could have had the attitude
+                    of the labor leaders, what changes he could have wrought. Now they sit down at
+                    bargain as equals. Back in the 30s, before Roosevelt, looked upon as scum,
+                    radicals, anarchists. Now they are respectable. Labor Building today in
+                    Washington overlooks the White House.<ptr target="#note18" xml:id="nr18" n="18"
+                    />
+                </p>
+            </div>
+
+            <div type="note" n="55" facs="haley.typednotes.055">
+                <p>SMALL TALK. Most of it reminisence for the book.<add place="rightMargin"> re
+                        hustlers ex-cons </add>
+                </p>
+                <p>About Redd Foxx<ptr target="#note19" xml:id="nr19" n="19"/></p>
+                <p> About Billie Holiday<ptr target="#note20" xml:id="nr20" n="20"/></p>
+                <p> About waiting in Smalls<ptr target="#note21" xml:id="nr21" n="21"/></p>
+                <p> Hustling...making tips...perceive big spenders... </p>
+            </div>
+
+            <div type="note" n="56" facs="haley.typednotes.056">
+                <p>Malcolm was alleged to have money. The saddest I ever sa<subst>
+                        <del>y</del>
+                        <add>w</add>
+                    </subst> him was re material things for his family. His life had been a
+                        dedication.<ptr target="#note22" xml:id="nr22" n="22"/></p>
+            </div>
+
+            <div type="note" n="57" facs="haley.typednotes.057">
+                <p> Something about a man who comes out of prison, gets something going for
+                    himself.</p>
+                <p>Recidivism.<ptr target="#note23" xml:id="n23" n="23"/></p>
+                <p> "I can talk to the man lowest down, because I've been p<subst>
+                        <del>o</del>
+                        <add>a</add>
+                    </subst>st the man lowest down."</p>
+            </div>
+
+            <div type="note" n="58" facs="haley.typednotes.058">
+
+                <p>Man told him not to be a lawyer, but a carpenter. "I often think about this,
+                    maybe the most crucial point in my life." I probably would have been a lawyer.
+                    Because when I went to Boston, if I had told <del rend="strikethrough">M</del>
+                    my Sister Ella I wanted to go to Harvard Law School, she would have been
+                    struggling yet to get me in there, and through there.<ptr target="#note24"
+                        xml:id="nr24" n="24"/>
+                </p>
+            </div>
+
+            <div type="note" n="59" facs="haley.typednotes.059">
+                <p> NAACP.<ptr target="#note25" xml:id="n25" n="25"/> Basic thing wrong, it always
+                    had at top <del rend="strikethrough"><gap reason="illegible"/></del> white
+                    people, who could dilute any strong show of militance, or of power. They could
+                    always draw the purse strings. </p>
+                <p> Negro has been only group in this country who has allowed other people to have
+                    been at the head of his organization. </p>
+                <p> The greatest and most militant organization that his country ever had was Marcus
+                        Garvey's,<ptr target="#note26" xml:id="nr26" n="26"/> who would have nothing
+                    white in his organization. </p>
+            </div>
+
+            <div type="note" n="60" facs="haley.typednotes.060">
+
+                <p> Scene where white boy and girl, college two, <subst>
+                        <del>a</del>
+                        <add>s</add>
+                    </subst>aid they were convinced he was right in much he said, they wanted to
+                    help, what could they do?</p>
+                <p>He told them to go among own kind, convert them.</p>
+                <p>He told them he was suspicious of the white people who always wanted to be around
+                    Negroes. <ptr target="#note27" xml:id="nr27" n="27"/></p>
+            </div>
+
+            <div type="note" n="61" facs="haley.typednotes.061">
+                <p>Tip against burglars. Keep a light burning. Ideally in the toilet. Nobody can
+                    never say when you might be in there, and the burglar knows that in there you
+                    would be especially quiet and <del rend="strikethrough">not know</del> hear any
+                        noise<ptr target="#note28" xml:id="nr28" n="28"/>
+                </p>
+            </div>
+
+            <div type="note" n="62" facs="haley.typednotes.062">
+                <p>
+                    <add place="topMargin">Malcolm's third great disillusion</add> Re Cassius Clay
+                    164 <ptr target="#note29" xml:id="nr29" n="29"/></p>
+            </div>
+
+            <div type="note" n="63" facs="haley.typednotes.063">
+                <p>
+                    <add place="topMargin">Death threats --</add> He would quickly check <del
+                        rend="strikethrough">thed</del> the door, then sit back down. 164 (d<subst>
+                        <del>c</del>
+                        <add>e</add>
+                    </subst>scr)(see below it; re covert calls)<ptr target="#note30" xml:id="nr30"
+                        n="30"/>
+                </p>
+            </div>
+
+
+            <div type="note" n="65" facs="haley.typednotes.065">
+                <p>Malcolm X. was forever curious. He wanted to learn.</p>
+                <p> He said, "If I ever take a vacation, I want to go to Museums, learn, look at the
+                    ancient art, artifacts.</p>
+                <p>The <sic>Egypian</sic> collection at the Museum of Natural History. He conducted
+                    children through museums.<ptr target="#note31" xml:id="nr31" n="31"/>
+                </p>
+            </div>
+
+            <div type="note" n="66" facs="haley.typednotes.066">
+
+                <div>
+                    <p>
+                        <add place="topMargin"> Malcolm's <del rend="strikethrough">great</del>
+                            <subst>
+                                <del rend="strikethrough">first</del>
+                                <add place="above">second</add>
+                            </subst> great disillusion </add>Re statement about President Kennedy
+                            164<ptr target="#note32" xml:id="nr32" n="32"/></p>
+                </div>
+
+            </div>
+
+            <div type="note" n="67" facs="haley.typednotes.067">
+                <p> Malcolm was alleged to still use dope. I was with him for period of up to 12
+                    hours, many times; I never saw the slightest sign. </p>
+            </div>
+
+            <div type="note" n="68" facs="haley.typednotes.068">
+                <p> I never heard him tell an off-color<del rend="strikethrough">e</del> story . . .
+                    or say, even, some double-entendre thing. </p>
+                <p> The prime rib roast bone. "I thought you were in here fasting, buddy." </p>
+            </div>
+
+            <div type="note" n="69" facs="haley.typednotes.069">
+                <p>He was in Mecca. Describing how he bent to pray. He took off his shoe, and showed
+                    me his toe, where <del rend="strikethrough">h</del> it had swelled.<ptr
+                        target="#note33" xml:id="nr33" n="33"/></p>
+            </div>
+
+            <div type="note" n="70" facs="haley.typednotes.070">
+                <p> "If we Negroes had been as successful in building <del rend="strikethrough"><gap
+                            reason="illegible"/></del> factories as in building churches, what a
+                    difference it would <del rend="strikethrough"><gap reason="illegible"/></del>
+                    today." <ptr target="#note34" xml:id="nr34" n="34"/></p>
+            </div>
+            <div type="note" n="71" facs="haley.typednotes.071">
+                <p>Great area of misunderstanding re Kennedy statement. "Tactically wrong to say . .
+                        .<ptr target="#note35" xml:id="nr35" n="35"/>. </p>
+                <p> "You know, to show you, when media after you, they take you out of context.</p>
+                <p> "Victor Lasky had a <del rend="strikethrough">whoL</del> whole book<ptr
+                        target="#note36" xml:id="nr36" n="36"/> that was later said to be almost
+                        <del rend="strikethrough">whooly</del> wholly innuendoes and outright lies
+                    -- they made his book into a best-seller.</p>
+
+                <p>
+                    <del rend="strikethrough">"</del> "The machinery of the white man is rigged
+                    against us."</p>
+
+                <p> "Dr. King" -- see that "Communist-led" and "Communist-inspired."<ptr
+                        target="#note37" xml:id="nr37" n="37"/>
+                </p>
+            </div>
+
+            <div type="note" n="72" facs="haley.typednotes.072">
+                <p>The train to Philadelphia...160<ptr target="#note38" xml:id="nr38" n="38"/></p>
+            </div>
+
+            <div type="note" n="128" facs="haley.typednotes.128">
+
+                <p> The word "nigger" Malcolm used as a curse word, and that I remember <del
+                        rend="strikethrough">he</del> in two years he used it twice, then another
+                    time in another way </p>
+                <p> The exception way was once in an airport we witnessed a touching little family
+                    reunion scene in which some little <del rend="strikethrough"><gap
+                            reason="illegible"/></del> children romped around playing and exclaiming
+                    in another <del rend="strikethrough">sl</del> language. "By tomorrow night,
+                    they'll know how to say their first English word -- nigger," observed Malcolm X.
+                        <ptr target="#note39" xml:id="nr39" n="39"/></p>
+                <p>
+                    <add> Now we talked about philosphies more - the books material was in hand.
+                    </add> The other <subst>
+                        <add>o</add>
+                        <del>a</del>
+                    </subst>ccasions (the <del rend="strikethrough"><gap reason="illegible"/></del>
+                    Ph.D) </p>
+
+            </div>
+
+            <div type="note" n="129" facs="haley.typednotes.129">
+                <p> He was approached by a Negro man about 30, who identified himself as an ex-con,
+                    and said he wished Malcolm X's help in getting a job. "Brother," said Malcolm
+                    X., "do you really want to go straight?" The man assured that he did and Malcolm
+                    X. said, "What work can you do?" The man showed his hands. He said, "Anything I
+                    can do with these. I have no education. I just want to work where you're in
+                    charge." </p>
+                <p> Malcolm X. told the man to be at &#8212; at &#8212;, a week hence. He was going
+                    to be out of town. </p>
+                <p> When the man left, Malcolm X. said. "If he's there, if he's there <hi
+                        rend="underline">on time</hi>, I'll get him a job. You can't hire a better
+                    man than an ex-con if he really wants to discipline himself. That's the first
+                    thing for rehabilitating anybody is giving them discipline. Without it, forget
+                    rehabilitation." </p>
+            </div>
+
+            <div type="note" n="130" facs="haley.typednotes.130">
+                <p>Malcolm -- anger: sheet 159</p>
+                <p>Another time that he was angry was about an editorial in the Saturday Evening
+                    Post. <ptr target="#note40" xml:id="nr40" n="40"/><add place="inline">166</add>
+                </p>
+            </div>
+
+            <div type="note" n="131" facs="haley.typednotes.131">
+
+                <p> "I would give anything to start a publishing company." </p>
+                <p> His frustrations -- he couldn't help provide coherent leadership to the real
+                    frustrations of the black masses. <ptr target="#note41" xml:id="nr41" n="41"
+                    /></p>
+                <p> Sense of identity -- white culture does not include black. </p>
+                <p> Beauty always epitomized by white beauty standards. </p>
+                <p> "The psychic and psychological rigging against the black child. Bombarded by the
+                    billboards." <ptr target="#note42" xml:id="nr42" n="42"/></p>
+                <p> When you can ground a people in their history, they know who they are. </p>
+                <p> Even in universities, they haven't taught about the black man. Just now the book
+                    publishers are beginning Negro history.<ptr target="#note43" xml:id="nr43"
+                        n="43"/>
+                </p>
+                <p> However persecuted, if you know you have<del rend="strikethrough">a</del> a
+                    history. It helped the Jew out of every ghetto. No one can tell Jew he's
+                    "inferior" <ptr target="#note44" xml:id="nr44" n="44"/></p>
+                <p> Emerging blacks of Africa, first thing get whites off soil; next thing, get
+                    black history known. </p>
+                <p> Civil War. Now we find almost a million black hands </p>
+
+            </div>
+
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">The Countee Cullen Library is a branch of the New York Public
+                    Library. Named after Harlem Renaissance author Countee Cullen, the library
+                    houses African American collections including the Schomburg Collection. </note>
+                <note xml:id="note2">The dice shooters are playing craps, a dice game where you bet
+                    on the roll of the dice. Haley includes this anecdote in both <emph>The
+                        Autobiography</emph> and "The Malcolm X I Knew."</note>
+                <note xml:id="note3">A biblical reference to Jesus braiding a whip to drive the
+                    money changers out of the temple. From John 2:15. </note>
+                <note xml:id="note4">Haley writes in <emph>The Autobiography</emph>: "Malcolm X's
+                    growing respect for individual whites seemed to be reserved for those who
+                    ignored on a personal basis the things he said about whites and who jousted with
+                    him as a <emph>man</emph>" (440).</note>
+                <note xml:id="note5">Haley writes of X making "my little daily rounds" in Harlem to
+                    focus on "the black man down in the gutter where I came from" (<emph>The
+                        Autobiography</emph>, 402).</note>
+                <note xml:id="note6">As X became further estranged from the Nation of Islam, Haley
+                    reports that X stated: "We had the <emph>best</emph> organization the black
+                    man's ever had---<emph>niggers</emph> ruined it!" (411).</note>
+                <note xml:id="note7">"BM" is X's abbreviation for black man.</note>
+                <note xml:id="note8">This is probably a typo and should read "WM" for white
+                    man.</note>
+                <note xml:id="note9">Attorney General.</note>
+                <note xml:id="note10">Adam Clayton Powell (1908-1972) was an African American
+                    politican and preacher who represented New York in the U.S. House of
+                    Representatives. </note>
+                <note xml:id="note11">"MX" is shorthand for Malcolm X.</note>
+                <note xml:id="note12">X notes that he read the dictionary while in prison and points
+                    to <emph>aardvark</emph> as a word he remembers (<emph>The Autobiography</emph>,
+                    172). </note>
+                <note xml:id="note13">Attorney General.</note>
+                <note xml:id="note14">Haley was interested in graphic analysis, and sent X's
+                    handwriting for analysis.</note>
+                <note xml:id="note15">Haley bought X's daughters dolls for Christmas. X noted, "this
+                    isn't something I'm proud to say, but I don't think I've ever bought one gift
+                    for my children. Everything they play with, either Betty got it for them, or
+                    somebody gave it to them, never me. That's not good, I know it. I've always been
+                    too busy'" (<emph>The Autobiography</emph>, 423). </note>
+                <note xml:id="note16">Helen Lanier was a waitress at Harlem's Twenty Two Club. On
+                    the birth of X's fourth child, Lanier gave the baby a layette. X was touched,
+                    noting "Why, I hardly know that girl!" (<emph>The Autobiography</emph>, 417). </note>
+                <note xml:id="note17">Sims was Alex Haley's boyhood friend and worked with Haley as
+                    a researcher.</note>
+                <note xml:id="note18">Haley includes this anecdote in "The Malcolm X I Knew." Haley
+                    believed that X "had a reluctant admiration for Dr. King" (339). However,
+                    Manning Marable presents considerable evidence of X's disagreement with King.
+                    Marable also chronicles X's increasing connection to labor, socialist, and
+                    Marxist groups prior to his assassination. See Marable, <emph>Malcolm X</emph>,
+                    305-7, for additional information. </note>
+                <note xml:id="note19">Redd Foxx (1922-1991) was an American comedian whom X knew
+                    from his time in Harlem. He refers to "Chicago Red" as the "funniest dishwasher
+                    on this earth" (96). </note>
+                <note xml:id="note20">X knew the jazz singer Billie Holiday (1915-1959) when he was
+                    living in Harlem. See <emph>The Autobiography</emph> (110).</note>
+                <note xml:id="note21">Smalls is a jazz club that Malcolm X references in the
+                        <emph>The Autobiography</emph>.</note>
+
+                <note xml:id="note22">Haley emphasizes that X had not accrued a financial nest egg
+                    while working with the Nation of Islam, highlighting that X had to borrow money
+                    from his sister Ella to go abroad (<emph>The Autobiography</emph>, 430). Malcolm
+                    X stated "I finally convinced Betty that if anything ever happened to me, the
+                    Nation of Islam would take care of her for the rest of her life, and of our
+                    children until they were grown. I could never have been a bigger fool!"
+                    (291).</note>
+                <note xml:id="note23">X tells Haley that prison changes a person (<emph>The
+                        Autobiography</emph>, 392).</note>
+                <note xml:id="note24">When asked what he wants to be, X tells his teacher, Mr.
+                    Ostrowski, that he wants to be a lawyer. His teacher replies, "A lawyer--that's
+                    no realistic goal for a nigger," instead suggesting carpentry (<emph>The
+                        Autobiography</emph>, 36). X says this incident changed him. In "The Malcolm
+                    X I Knew," X notes that Ella would have taken in washing to send him to law
+                    school.</note>
+                <note xml:id="note25">The NAACP (National Association for the Advancement of Colored
+                    People), an interracial group promoting civil rights.</note>
+                <note xml:id="note26">Marcus Garvey (1887-1940) formed the Universal Negro
+                    Improvement Association (UNIA), which emphasized Pan-Africanism and a black
+                    economic system.</note>
+                <note xml:id="note27">X notes that he never really trusted whites that were "always
+                    so anxious to hang around Negroes, or to hang around in Negro communities"
+                    (376).</note>
+                <note xml:id="note28">X gives this tip when he talking about his experience as a
+                    burglar. Haley includes this anecdote in both <emph>The Autobiography</emph>
+                    (144) and "The Malcolm X I Knew."</note>
+                <note xml:id="note29">Malcolm X had a close relationship to Cassius Clay (Muhammad
+                    Ali). When X split with the Nation of Islam Clay cut off ties with him. See "The
+                    Malcolm X I Knew" for Malcolm X's response to the split.</note>
+                <note xml:id="note30">After his split with the Nation of Islam, Malcolm X received a
+                    number of death threats and his home was firebombed. He told Haley, "I'm a
+                    marked man" (<emph>The Autobiography</emph>, 410).</note>
+                <note xml:id="note31"> Haley includes this anecdote in "The Malcolm X I Knew." Haley
+                    emphasizes that Malcolm X was intellectually curious and regretted that he did
+                    not receive "the kind of academic education I wish I had been able to get-to
+                    have been a lawyer, perhaps" (379).</note>
+                <note xml:id="note32">Malcolm X stated that John F. Kennedy's 1963 assassination was
+                    "chickens coming home to roost." His disappointment lies in his censure by Mr.
+                    Muhammad for the statement.</note>
+                <note xml:id="note33">Haley notes that X reported that his toe swelled from the
+                    prayer position during his visit to Mecca. (<emph>The Autobiography</emph>,
+                    343)</note>
+                <note xml:id="note34">Malcolm X argues that religion has dulled the quest for
+                    economic independence. See the "Icarus" chapter for additional discussion of
+                    black economic independence.</note>
+                <note xml:id="note35">Elijah Muhammad silenced Malcolm X for his "chickens coming
+                    home to roost" statement after Kennedy's assassination.</note>
+                <note xml:id="note36">Lasky wrote the 1963 book <emph>JFK: The Man and the
+                        Myth</emph>, a negative take on Kennedy. </note>
+                <note xml:id="note37">Concerns about Martin Luther King and Malcolm X's possible
+                    ties to communism were rampant at this period. </note>
+                <note xml:id="note38">Haley took the train to Philadelphia with X (<emph>The
+                        Autobiography</emph>, 397).</note>
+                <note xml:id="note39">Haley recounts the story of "how Malcolm X never lost his
+                    racial perspective," noting that X stated that a group of children newly arrived
+                    to the United States would soon use their "first English
+                        world--<emph>nigger</emph>" (<emph>The Autobiography</emph>, 399). </note>
+                <note xml:id="note40">The <emph>Saturday Evening Post</emph> published a cover story
+                    on Malcolm X on September 12, 1964. Haley was interviewed by the magazine and
+                    the <emph>SEP</emph> "flew photographer John Launois to Cairo to locate Malcolm
+                    X and photograph him in color" (<emph>The Autobiography</emph>, 418). When X
+                    received a copy of the article from Haley he was furious. The editorial
+                    negatively compared X to King: "If Malcolm X were not a Negro, his
+                    autobiography would be little more than a journal of abnormal psychology, the
+                    story of a burglar, dope pusher, addict and jailbird--with a family history of
+                    insanity--who acquires messianic delusions and sets forth to preach an
+                    upside-down religion of 'brotherly' hatred." ("The Lesson of Malcolm X,"
+                        <emph>Saturday Evening Post,</emph> September 12, 1964, 84). Haley reports
+                    that X continued to be upset about the editorial, railing against it months
+                    later (<emph>The Autobiography</emph>, 422). </note>
+                <note xml:id="note41">Malcolm X noted that "I do believe that I have fought the best
+                    that I knew how, and the best that I could, with the shortcomings that I have
+                    had. I know that my shortcomings are many" (379).</note>
+                <note xml:id="note42">Malcolm X rejects conformance to white standards of
+                    beauty, particularly emphasizing the importance of natural hair (see <emph>The Autobiography</emph>, 258-59). </note>
+                <note xml:id="note43">The exclusion and incompleteness of African Americans from
+                    U.S. history is of great concern to Malcolm X. See the chapter "Saved" in
+                        <emph>The Autobiography of Malcolm X.</emph></note>
+                <note xml:id="note44">X makes this statement in a December 1962 speech. See
+                    http://www.malcolm-x.org/speeches/spc_12__62.htm. </note>
+
+            </div>
+
+
+        </back>
+    </text>
+</TEI>

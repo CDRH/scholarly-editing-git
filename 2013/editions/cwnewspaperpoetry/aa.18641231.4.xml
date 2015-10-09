@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18641231.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Edmonia Lewis</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18641231.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#aqw">A. Q. W.</author>
+                        <title level="a">Edmonia Lewis</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-12-31">31 December 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="aqw">Waterston, Anna Cabot Lowell Quincy, 1812-1899</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African American women</term>
+                    <term>Lewis, Edmonia</term>
+                    <term>Shaw, Robert Gould, 1837-1863</term>
+                    <term>United States--History--Civil War, 1861-1865--Women</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-30" who="#el">added and encoded additional editorial notes</change>
+            <change when="2012-10-28" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-07" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-06-15" who="#el">checked transcription; encoded</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18641231.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18641231.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18641231.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18641231.pp4.jpg"/>
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18641231.pp4_cropped.jpg"/>
+            </zone>            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">EDMONIA LEWIS.<note type="editorial" resp="#bw #el">Mary Edmonia Lewis (ca. 1844&#8211;1907), born in Albany, New York, to a black father and a mother of black and Ojibwa ancestry (Kirsten Pai Buick, <title level="m">Child of the Fire: Mary Edmonia Lewis and the Problem of Art History's Black and Indian Subject</title> [Durham, NC: Duke University Press, 2010], 4). In 1856 Lewis began studying at the progressive New York Central College in northern New York, where the faculty included the distinguished black intellectuals Charles Reason, George Vashon, and William Allen (Buick, 4; Marilyn Richardson, "Taken from Life: Edward M. Bannister, Edmonia Lewis, and the Memorialization of the Fifty-fourth Massachusetts Regiment," in <title level="m">Hope and Glory: Essays on the Legacy of the Fifty-fourth Massachusetts Regiment</title>, ed. Martin H. Blatt, Thomas J. Brown, and Donald Yacovone [Boston: University of Massachusetts Press, 2000], 102). In 1859 she began studies at the Preparatory Department of Oberlin College (Buick, 5; Geoffrey Blodgett, "John Mercer Langston and the Case of Edmonia Lewis: Oberlin, 1862," <title level="j">Journal of Negro History</title> 53, no. 3 [July 1968]: 202). While at Oberlin in late January 1862, Lewis was accused of poisoning two white classmates who became sick after drinking spiced wine Lewis had prepared for them. Lewis was abducted from her lodgings, beaten, and left in a field (Blodgett, 205&#8211;6). At a preliminary hearing to determine whether or not Lewis could be tried for the poisoning of her friends (both of whom survived), the court determined there was not enough evidence to proceed with a case (Buick, 8&#8211;10). Lewis stayed at Oberlin until the beginning of 1864, at which time she moved to Boston. In Boston, she began focusing on her art, with the support of William Lloyd Garrison and others (Buick, 11). That same year, she completed the sculpture of Robert Gould Shaw about which "Edmonia Lewis" is written. Lewis's reputation grew in the late 1860s and 1870s, and her 1867 sculpture, <title level="m">Forever Free</title>, is regarded as the first time "that a Black subject by a Black artist was made wholly central, resistant, and emotionally distinct" (Bonnie Claudia Harrison, "Diasporadas: Black Women and the Fine Art of Activisim," <title level="j">Meridians</title> 2, no. 2 [2002]: 171). No later than 1867, Lewis was living in Italy, where she established herself as a member of the international art community (Buick, 24&#8211;28). Her sculpture, <title level="m">The Death of Cleopatra</title>, was exhibited at the Centennial Exhibition in Philadelphia in 1876. Lewis's place and date of death have been the subject of much speculation. In 2011 Lewis biographer Marilyn Richardson announced via press release (published January 9, 2011, at artfixdaily.com) that newly unearthed historical documents show that Lewis died in London, England, in 1907. Richardson's full-length biography of Lewis is forthcoming.</note></head>
+                
+                
+                <note type="authorial" rend="center">[<emph rend="italic">The young colored woman who has successfully modelled <lb/>the bust of Col. Shaw.</emph><note type="editorial" resp="#bw #el"><p>Robert Gould Shaw (1837&#8211;July 18, 1863), colonel of the Fifty-Fourth Massachusetts Regiment. Governor John A. Andrew of Massachusetts received War Department authorization to raise the first Northern regiment of African American volunteers in January 1863. Determined to form a model regiment, Andrew took care to select advisers, officers, and recruiters with antislavery convictions or connections; he offered Shaw the regiment's colonelcy at the end of January, on the basis of the young captain's military record and his wealthy family's influence in reform circles. Shaw turned Andrew down; he did not have abolitionist principles to trump his strong attachment to the Second Massachusetts Infantry. His mother persuaded him to think again.</p><p>African American leaders championed enlistment, and the Fifty-Fourth Massachusetts filled with men "from virtually every black community in the North" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana: University of Illinois Press, 1998], 31). Under Shaw's command, the regiment took shape at Camp Meigs in Readville, Massachusetts. On May, 28, 1863, after weeks of training, the men paraded through Boston's cheering streets and then embarked on the steamer <name type="ship">De Molay</name>, bound for South Carolina's Sea Islands and the theater of war. Less than two months later, Shaw and the Fifty-Fourth courageously led a frontal attack on Morris Island's Fort Wagner. Their bravery could not compensate for General Quincy Gillmore's poor planning; the assault failed, and 272 members of the regiment were killed, wounded, or taken prisoner (Russell Duncan, ed., <title level="m">Blue-Eyed Child of Fortune: The Civil War Letters of Col. Robert Gould Shaw</title> [Athens: University of Georgia Press, 1999], 52&#8211;53). Northern newspapers reported that Fort Wagner's Confederate garrison had buried Shaw in a mass grave with his men. Abolitionists reinterpreted the Confederate gesture of contempt as a mark of distinction.</p><p>Lewis's sculpture of Shaw was one of the many artistic commemorations of the colonel that emerged in the aftermath of the events at Fort Wagner.</p></note>]</note>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">She</emph> hath wrought well with her unpractised hand,<note type="editorial" resp="#bw #el">Lewis had little artistic training or experience at the time that she completed the bust of Colonel Shaw. According to historian Geoffrey Blodgett, Lewis had been unremarkable in academic study at Oberlin College, and although she had demonstrated artistic ability, she had little opportunity to cultivate her talent there. Only after arriving in Boston in 1863 did Lewis begin seriously working at her art. William Lloyd Garrison introduced her to sculptor Edward Brackett, under whom she began her artistic study. In the summer of 1864, no longer under the guidance of Brackett, Lewis began her work on the Shaw bust in her own space at the Studio Building in Boston (Marilyn Richardson, "Taken from Life: Edward M. Bannister, Edmonia Lewis, and the Memorialization of the Fifty-fourth Massachusetts Regiment," in <title level="m">Hope and Glory: Essays on the Legacy of the Fifty-fourth Massachusetts Regiment</title>, ed. Martin H. Blatt, Thomas J. Brown, and Donald Yacovone [Boston: University of Massachusetts Press, 2009], 104).</note></l>
+                    <l rend="indented1">The mirror of her thought reflected clear</l>
+                    <l>This youthful hero-martyr of our land.</l>
+                    <l rend="indented1">With touch harmonious she has moulded here</l>
+                    <l>A memory and a prophecy&#8212;both dear:</l>
+                    <l rend="indented1">The memory of one who was so pure</l>
+                    <l>That God gave him (what only can belong</l>
+                    <l rend="indented1">To an unsullied soul) the right to be</l>
+                    <l>A leader for all time in Freedom's chivalry;</l>
+                    <l rend="indented1">The prophecy of that wide, wholesome cure</l>
+                    <l>For foul distrust and bitter, cruel wrong,</l>
+                    <l rend="indented1">Which he did give his life up to secure.</l>
+                    <l>'Tis fitting that a daughter of the race</l>
+                    <l rend="indented1">Whose chains are breaking should receive a gift</l>
+                    <l>So rare as genius. Neither power nor place,</l>
+                    <l rend="indented1">Fashion or wealth, pride, custom, caste, nor hue</l>
+                    <l>Can arrogantly claim what God doth lift</l>
+                    <l rend="indented1">Above these chances, and bestows on few.</l>
+                </lg>
+            </lg>
+            
+            <byline rend="right">A. Q. W.<note type="editorial" resp="#bw #el"><p>Anna Cabot Lowell Quincy Waterston (1812&#8211;1899). Born to a distinguished New England family, her father was Josiah Quincy, US congressman, and mayor of Boston, and president of Harvard University. Her mother was Eliza Susan Morton Quincy. Anna had a very limited formal education, although she was educated at home under the guidance of her mother. An abolitionist, she married Unitarian minister Robert Cassie Waterston in 1840. The couple had two children, neither of whom survived to adulthood. She published both poetry and prose in the 1860s, including the volume <title level="m">Verses</title> (Boston: John Wilson and Son) and pieces in the prestigious <title level="j">Atlantic Monthly</title>. In the early 1870s she was a founding member of the Women's Education Association. For these details and others about Waterston's biography, see Beverly Wilson Palmer, ed., <title level="m">A Woman's Wit and Whimsy: The 1833 Diary of Anna Cabot Lowell Quincy</title> (Boston: Northeastern University Press, 2003), 3&#8211;14.</p><p>Waterston apparently knew Edmonia Lewis and admired her work. In 1866 Lewis completed a marble sculpture of Waterston in Rome (Marilyn Richardson, "Taken from Life: Edward M. Bannister, Edmonia Lewis, and the Memorialization of the Fifty-fourth Massachusetts Regiment," in <title level="m">Hope and Glory: Essays on the Legacy of the Fifty-fourth Massachusetts Regiment</title>, ed. Martin H. Blatt, Thomas J. Brown, and Donald Yacovone [Boston: University of Massachusetts Press, 2009], 106, 295n).</p></note></byline>
+        </body>
+    </text>
+</TEI>
+

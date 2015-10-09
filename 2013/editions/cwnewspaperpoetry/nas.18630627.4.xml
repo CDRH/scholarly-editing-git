@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630627.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">In War-Time</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630627.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jgw">John G. Whittier</author>
+                        <title level="a">In War-Time</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-06-27">27 June 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jgw">Whittier, John Greenleaf, 1807-1892</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Antislavery movements--United States--History--19th century</term>
+                    <term>Confederate States of America</term>
+                    <term>Confederate States of America--Social conditions</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slaves--Emancipation--United States</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-24" who="#el">added note about the Anglo-African printing of the poem</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-17" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>            
+            <change when="2012-07-29" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630627.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630627.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630627.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630627.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630627.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">IN WAR-TIME.<note type="editorial" resp="#bw #el">"In War-Time" appeared on the same day in the <title level="j">Anglo-African</title> of <ref target="aa.18630627.4">June 27, 1863</ref>. There are a number of differences in the newspapers' printings of the poem, including in punctuation, capitalization, and spelling.</note></head>
+
+                <milestone unit="undeclared" rend="short-bar"/>
+
+                <byline rend="center">BY JOHN G. WHITTIER.<note type="editorial" resp="#bw #el"><p>John Greenleaf Whittier (1807&#8211;1892) dedicated himself to abolitionist activities in the early 1830s. He was a founding member of the American Anti-Slavery Society (est. December 1833) and held the editorship of the <title level="j">Pennsylvania Freeman</title> from March 1838 until February 1840. Convinced that the Constitution and the ballot could be used to attack slavery, he supported the Liberty Party and played an active part in its members' campaigns. Antislavery journalism continued to feature largely in his life; for thirteen years, he worked as corresponding editor for the <title level="j">National Era</title> (1847&#8211;1860).</p>
+                    <p>Orthodox Quaker Whittier managed to reconcile his abhorrence of war with his support for conflict that furthered the antislavery cause; during the war he urged members of the Society of Friends to assist the war effort in non-combatant roles, as nurses in hospitals and as teachers among the freedpeople (Samuel T. Pickard, <title level="m">Life and Letters of John Greenleaf Whittier</title> [London: Sampson Low, 1895], 2:440&#8211;41). Poetry had long been integral to his abolitionist mission. His first (unauthorized) collection of poetry, <title level="m">Poems Written during the Progress of the Abolition Question in the United States, between 1830 and 1838</title>, was published by antislavery colleagues in 1837 (Randall Cluff, "Whittier, John Greenleaf," in <title level="m">American National Biography Online</title>). He continued to champion abolition in verse throughout the war. His poems often appeared in the <title level="j">Atlantic Monthly</title> (which he supported from its inception) and in the <title level="j">New York Independent</title>, and were widely reprinted in serials with antislavery sympathies. "In War-Time" became the title piece in Whittier's collection <title level="m">In War Time and Other Poems</title> (1864), which also includes "Mithridates at Chios." For "Mithridates at Chios," see the <title level="j">National Anti-Slavery Standard</title> of <ref target="nas.18630516.4">May 16, 1863</ref>, and the <title level="j">Anglo-African</title> of <ref target="aa.18630523.4">May 23, 1863</ref>.</p></note></byline>
+
+                <milestone unit="undeclared" rend="short-bar"/>
+
+                <note type="authorial">[Read before the Alumni of the Friends' Yearly Meeting <lb/>School, at the annual meeting at Newport, Rhode Island,<lb/> 15th Sixth month, 1863.]<note type="editorial" resp="#bw #el"><p>The Society of Friends' New England Yearly Meeting established a school for the region's young Quakers in the late eighteenth century. Situated in Portsmouth, Rhode Island, the first school remained open for only four years (1784&#8211;88). Moses Brown revived the project decades later; the Friends accepted his donation of a farm and land near Providence in 1814, and the New England Yearly Meeting Boarding School opened on New Year's Day, 1819. The school flourished (Rayner Wickersham Kelsey, <title level="m">Centennial History of Moses Brown School, 1819&#8211;1919</title> [Providence, RI: Moses Brown School, 1919]). Its alumni formed an association in 1859 with the aim of raising funds for scholarships and facilities, and renewing "cherished associations" between old members (<title level="j">Proceedings of the Alumni Association of Friends' Yearly Meeting School</title> [Providence: Knowles, 1863], 9).</p><p>John Greenleaf Whittier did not attend the school; the association elected him as an honorary member at its second meeting in June 1860 (<title level="m">Report of the Proceedings of the Second Annual Meeting of the Alumni Association of the New England Yearly Meeting School</title> [Philadelphia: Collins, 1860], 26).  He wrote "The Quaker Alumni" for the same occasion (each alumni association meeting included a lecture and a poem). He contributed "In War-Time" for the same purpose three years later.</p></note></note>
+
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Once</emph> more, dear friends, you meet beneath</l>
+                    <l rend="indented2">A clouded sky:</l>
+                    <l>Not yet the sword has found its sheath,</l>
+                    <l>And on the sweet spring airs the breath</l>
+                    <l rend="indented2">Of war floats by.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Yet trouble springs not from the ground,</l>
+                    <l rend="indented2">Nor pain from chance;</l>
+                    <l>Th' Eternal order circles round,</l>
+                    <l>And wave and storm find mete and bound</l>
+                    <l rend="indented2">In Providence.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Full long our feet the flowery ways</l>
+                    <l rend="indented2">Of peace have trod.</l>
+                    <l>Content with creed and garb and phrase:</l>
+                    <l>A harder path in earlier days</l>
+                    <l rend="indented2">Led up to God.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Too cheaply truths, once purchased dear,</l>
+                    <l rend="indented2">Are made our own;</l>
+                    <l>Too long the world has smiled to hear</l>
+                    <l>Our boast of full corn in the ear</l>
+                    <l rend="indented2">By others sown;</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>To see us stir the martyr fires</l>
+                    <l rend="indented2">Of long ago;</l>
+                    <l>And wrap our satisfied desires</l>
+                    <l>In the singed mantles that our sires</l>
+                    <l rend="indented2">Have dropped below.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>But now the cross our worthies bore</l>
+                    <l rend="indented2">On us is laid<unclear reason="illegible" cert="medium" resp="#el">,</unclear><note type="editorial" resp="#el #bw">The Quakers had a long-standing connection with the antislavery movement, as a result of their religious principles. Committed abolitionist Whittier believed that his antebellum contemporaries had lapsed in their antislavery mission and had fallen short of the immediate emancipationist examples set by their eighteenth-century predecessors, John Woolman and Anthony Benezet. Lincoln's decision to make emancipation a war aim in 1862 would test the limits of Quaker pacifism by forcing Friends to "choose between liberty for slaves and the preservation of the union" (Ryan P. Jordan, <title level="m">Slavery and the Meetinghouse: The Quakers and the Abolitionist Dilemma, 1820&#8211;1865</title> [Bloomington: Indiana University Press, 2007], 121); "In War-Time" addresses this moment of choice as an opportunity for renewed activism.</note></l>
+                    <l>Profession's quiet sleep is o'er,</l>
+                    <l>And in the scale of truth once more</l>
+                    <l rend="indented2">Our faith is weighed.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>The cry of innocent blood at last</l>
+                    <l rend="indented2">Is calling down</l>
+                    <l>An answer in the whirlwind-blast,</l>
+                    <l>The thunder and the shadow cast</l>
+                    <l rend="indented2">From Heaven's dark frown.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>The land is red with judgments. Who</l>
+                    <l rend="indented2">Stands guiltless forth?</l>
+                    <l>Have <emph rend="italic">we</emph> been faithful as we knew,</l>
+                    <l>To God and to our brother true,</l>
+                    <l rend="indented2">To Heaven and Earth?</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>How faint through din of merchandise</l>
+                    <l rend="indented2">And count of gain,</l>
+                    <l>Has seemed to us the captives' cries!</l>
+                    <l>How far away the tears and sighs</l>
+                    <l rend="indented2">Of souls in pain!</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>This day the fearful reckoning comes</l>
+                    <l rend="indented2">To each and all;</l>
+                    <l>We hear amidst our peaceful homes</l>
+                    <l>The summons of the conscript drums,<note type="editorial" resp="#bw #el"><p>Lincoln's Enrollment Act of 1863 authorized a national draft. Only in February 1864 did Congress make allowance for conscientious objectors (Scott Reynolds Nelson and Carol Sheriff, <title level="m">A People at War: Civilians and Soldiers in America's Civil War, 1854&#8211;1877</title> [Oxford: Oxford University Press, 2008], 202).</p><p>Pacifism was a fundamental Quaker principle, yet antislavery Friends' support for violent resistance had increased in the wake of the Compromise of 1850 (Ryan P. Jordan, <title level="m">Slavery and the Meetinghouse: The Quakers and the Abolitionist Dilemma, 1820&#8211;1865</title> [Bloomington: Indiana University Press, 2007], 125). At the beginning of the war, Whittier had urged members of the Society of Friends to support the war effort as relief workers: "Steadily and faithfully maintaining our testimony against war, we owe it to the cause of truth, to show that exalted heroism and generous self-sacrifice are not incompatible with our pacific principles" (Samuel T. Pickard, <title level="m">Life and Letters of John Greenleaf Whittier</title> [Boston: Houghton, 1894], 2:441). He reiterated and elaborated on that call in his alumni poem.</p></note></l>
+                    <l rend="indented2">The bugle's call.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Our path is plain; the war-net draws</l>
+                    <l rend="indented2">Round us in vain,</l>
+                    <l>While, faithful to the Higher Cause,</l>
+                    <l>We keep our fealty to the laws</l>
+                    <l rend="indented2">Through patient pain.</l>
+                </lg>
+
+
+                <lg type="stanza">
+                    <l>The levelled gun, the battle brand</l>
+                    <l rend="indented2">We may not take;</l>
+                    <l>But, calmly loyal, we can stand</l>
+                    <l>And suffer with our suffering land</l>
+                    <l rend="indented2">For conscience' sake.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Why ask for ease where all is pain?</l>
+                    <l rend="indented2">Shall <emph rend="italic">we</emph> alone</l>
+                    <l>Be left to add our gain to gain,</l>
+                    <l>When over Armageddon's plain</l>
+                    <l rend="indented2">The trump is blown?</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>To suffer well is well to serve;</l>
+                    <l rend="indented2">Safe in our Lord</l>
+                    <l>The rigid lines of law shall curve</l>
+                    <l>To spare us; from our heads shall swerve</l>
+                    <l rend="indented2">Its smiting sword.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>And light is mingled with the gloom,</l>
+                    <l rend="indented2">And joy with grief;</l>
+                    <l>Divinest compensations come,</l>
+                    <l>Through thorns of judgment mercies bloom</l>
+                    <l rend="indented2">In sweet relief.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Thanks for our privilege to bless,</l>
+                    <l rend="indented2">By word and deed,</l>
+                    <l>The widow in her keen distress,</l>
+                    <l>The childless and the fatherless,</l>
+                    <l rend="indented2">The hearts that bleed!</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>For fields of duty, opening wide,</l>
+                    <l rend="indented2">Where all our powers</l>
+                    <l>Are tasked the eager steps to guide</l>
+                    <l>Of millions on a path untried:</l>
+                    <l rend="indented2"><emph rend="smallcaps">The slave is ours!</emph></l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Ours by traditions dear and old</l>
+                    <l rend="indented2">Which make the race</l>
+                    <l>Our wards to cherish and uphold,</l>
+                    <l>And cast their freedom in the mold</l>
+                    <l rend="indented2">Of Christian grace.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>And we may tread the sick-bed floors</l>
+                    <l rend="indented2">Where strong men pine,</l>
+                    <l>And, down the groaning corridors,</l>
+                    <l>Pour freely from our liberal stores</l>
+                    <l rend="indented2">The oil and wine.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Who murmurs that in these dark days</l>
+                    <l rend="indented2">His lot is cast?</l>
+                    <l>God's hand within the shadows lays</l>
+                    <l>The stones whereon His gates of praise</l>
+                    <l rend="indented2">Shall rise at last.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Turn and o'erturn, O outstretched Hand?</l>
+                    <l rend="indented2">Nor stint, nor stay;</l>
+                    <l>The years have never dropped their sand</l>
+                    <l>On mortal issue vast and grand</l>
+                    <l rend="indented2">As ours to-day.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Already, on the sable ground</l>
+                    <l rend="indented2">Of man's despair,</l>
+                    <l>Is freedom's glorious picture found,</l>
+                    <l>With all its dusky hands unbound</l>
+                    <l rend="indented2">Upraised in prayer.</l>
+                </lg>
+
+                <lg type="stanza">
+                    <l>Oh, small shall seem all sacrifice</l>
+                    <l rend="indented2">And pain and loss,</l>
+                    <l>When God shall wipe the weeping eyes,</l>
+                    <l>For suffering give the victor's prize,</l>
+                    <l rend="indented2">The crown for cross!</l>
+                </lg>
+            </lg>
+
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Independent</title>.<note type="editorial" resp="#bw #el"><p>The <title level="j">New York Independent</title>, established as a Congregationalist weekly in December 1848. The title's "independent" antislavery stance prevented it from capitalizing on an affiliation with subscribers of any one political persuasion, and "its extreme position with regard to the Fugitive Slave Law almost wrecked it in its second year" (Frank L. Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> [Cambridge, MA: Harvard University Press, 1938], 2:369). In spite of this beginning, the <title level="j">Independent</title> succeeded impressively and had over 35,000 subscribers by the time war broke (Mott, 371). As the war progressed, editorials political and secular nudged matters of religion, Congregationalist or otherwise, to the margins.</p>
+                <p>The celebrity of Henry Ward Beecher (1813&#8211;1887) must have contributed to the <title level="j">Independent</title>'s success. "Star contributor" Beecher was named editor during 1861&#8211;65. Theodore Tilton, his assistant, directed editorial policy and took over the editorship in all but name when Beecher embarked for Europe in 1863; two years later, he was officially recognized as editor-in-chief. By the time war broke out, Tilton had established himself as one of the young stars of the American Anti-Slavery Society. He and William Lloyd Garrison became friends after <title level="j">National Anti-Slavery Standard</title> editor Oliver Johnson introduced them in 1856; Garrison described Tilton as "a fine young man . . . . connected with the N. Y. <title level="j">Independent</title>, who is beginning to take a vital interest in radical abolitionism" (<title level="m">The Letters of William Lloyd Garrison: From Disunionism to the Brink of War, 1850–1860</title>, ed. Louis Ruchames [Cambridge, MA: Belknap Press of Harvard University Press, 1975], 4:415). Johnson, Tilton, and Garrison were united by a common profession as well as shared antislavery convictions. During the war each reprinted items from the other's newspapers.</p></note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

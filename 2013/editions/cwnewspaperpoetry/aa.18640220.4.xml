@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640220.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Colored Volunteer</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640220.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#fm">Frank <choice><sic>Myres</sic><corr>Myers</corr></choice></author>
+                        <title level="a">The Colored Volunteer</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-20">20 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="fm">Myers, Frank</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African-American soldiers</term>
+                    <term>Fort Wagner (S.C.)</term>
+                    <term>Shaw, Robert Gould, 1837-1863</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640220.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640220.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640220.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640220.pp4.jpg"/>            
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18640220.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>            
+            
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.<note type="editorial" resp="#bw #el"><p>The <title level="j">Anglo-African</title> identified "The Colored Volunteer" as an original piece, and the poem's epigraph positions heroic Frank Myers as source and speaker. Yet the stanzas include many lines from the poem <ref target="aa.18630620.1">"A Negro-Volunteer Song,"</ref> published in the <title level="j">Anglo-African</title> of June 20, 1863, most of which show some slight alteration. Compare, for example, "Little Mack had his way, <emph rend="italic">still</emph> the Union is in <emph rend="italic">tears</emph>; / They call <emph rend="italic">now</emph> for the help of the <emph rend="italic">Colored Volunteers</emph>" (stanza 5) with "Song's" "Little Mac he had his way, still the Union is in tears, / <emph rend="italic">Now</emph> they call for the help of the colored volunteers" (second verse). The number and nature of these alterations suggest that Myers revised and expanded the earlier piece.</p><p>If this was indeed the case, Myers eliminated all references to the song and significantly changed the tone of the piece with the addition of sixteen lines in an elevated register. His additions developed the earlier text's triumphant narrative of African American military service by foregrounding the soldiers' role as liberators. He also replaced the song's special reference to a particular company ("the gallant Comp'ny A") with praise for the whole regiment (the "gallant Fifty-fourth").</p></note></note>
+                
+                <head type="main" subtype="authorial" rend="center">THE COLORED VOLUNTEER.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY FRANK <choice><sic>MYRES</sic><corr>MYERS</corr></choice>,<note type="editorial" resp="#bw #el"><p>Private Francis Myers, of the Fifty-Fourth Massachusetts, Company K. According to regimental historian Captain Luis F. Emilio, Myers (b. 1840) was a married laborer from Paterson, New Jersey (<title level="m">A Brave Black Regiment: History of the Fifty-Fourth Regiment of Massachusetts Volunteer Infantry, 1863&#8211;1865</title> [1892 edition] [New York: Arno Press, 1969], 386). Mustered into the regiment in early May 1863, Myers played a conspicuous part in the Fifty-Fourth's attack on Fort Wagner (July 18, 1863). A <title level="j">New York Evening Post</title> correspondent who visited hospitalized casualties soon after the battle reported that, given the choice, the men of the Fifty-Fourth would enlist to fight again, in spite of their suffering. "Frank Myers, from Ohio, whose arm was badly shattered by a shell, said 'Oh I thank God so much for the privilege; I went in to live or die, as he please.' He stood right under the uplifted sword of their brave Colonel Shaw, on the very top of the parapet, as he cried, 'rush on, rush on, boys!' and then suddenly fell, quickly followed by Myers himself" ("The Colored Troops in Charleston Harbor," <title level="j">New York Evening Post</title>, July 27, 1863, [4]); Emilio also records the same incident in <title level="m">A Brave Black Regiment</title>).</p><p>On February 7, 1864, Myers was mustered out of the Fifty-Fourth as a result of his wounds. (The publication date of "The Colored Volunteer" is interesting in this respect; Myers may have written the piece to consolidate ties with newly distant comrades, or to establish his status in a civilian community.) In May, he re-enlisted in the Twenty-Third United States Colored Troops Infantry. Less than a year later, he received a disability discharge.</p></note> <lb /><emph rend="italic">Who was led by the gallant Col. Shaw, at the charge of <lb />Fort Wagner.<note type="editorial" resp="#bw #el"><p>Robert Gould Shaw (1837&#8211;July 18, 1863) was colonel of the Fifty-Fourth Massachusetts Regiment, the first regiment of African American volunteers raised in the North, authorized in late January 1863 and mustered into the U.S. service on May 13. Governor John A. Andrew of Massachusetts received War Department authorization to raise the first Northern regiment of African American volunteers in January 1863. Determined to form a model regiment, Andrew took care to select advisers, officers, and recruiters with antislavery convictions or connections; he offered Shaw the regiment's colonelcy at the end of January on the basis of the young captain's military record and his wealthy family's influence in reform circles. Shaw turned Andrew down; he did not have abolitionist principles to trump his strong attachment to the Second Massachusetts Infantry. His mother persuaded him to think again.</p>   
+                    <p>Black leaders called on men to enlist and thereby seize their "golden opportunity" and "first best chance" to establish an undeniable claim to the full rights of American citizens (Frederick Douglass, "Men of Color, to Arms!" reprinted in the <title level="j">Anglo-African</title>, March 7, 1863, [2]; editorial, <title level="j">Anglo-African</title>, March 7, 1863, [2]). The Fifty-Fourth quickly filled with men "from virtually every black community in the North" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana: University of Illinois Press, 1998], 31). A number of the new recruits would provide the <title level="j">Anglo-African</title> and the <title level="j">Christian Recorder</title> with correspondence from the front during their term of service. Both titles served as a channel of communication between distant volunteers and the folks at home.</p>
+                    <p>Under Shaw's command, the regiment took shape at Camp Meigs in Readville, Massachusetts. On May, 28, 1863, after weeks of training, the men paraded through Boston's cheering streets and then embarked on the steamer <name type="ship">De Molay</name>, bound for South Carolina's Sea Islands and the theater of war. On July 18, 1863, Shaw and the Fifty-Fourth courageously led a frontal attack on Morris Island's Fort Wagner. Their bravery could not compensate for General Quincy Gillmore's poor planning; the assault failed, and 272 members of the regiment were killed, wounded, or taken prisoner (Russell Duncan, ed., <title level="m">Blue-Eyed Child of Fortune: The Civil War Letters of Col. Robert Gould Shaw</title> [Athens: University of Georgia Press, 1999], 52). Northern newspapers reported that Fort Wagner's Confederate garrison had buried Shaw in a mass grave with his men. Abolitionists reinterpreted the Confederate gesture of contempt as a mark of distinction. Shaw's parents made known their wish that his body should not be disturbed: "We would not have his body removed from where it lies surrounded by his brave &#38; devoted soldiers, if we could accomplish it by a word" (letter dated August 3, 1863, quoted in Duncan, 54).</p></note></emph></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Fremont</emph><note type="editorial" resp="#bw #el">John Charles Fr&#233;mont (1813&#8211;1890) made his name in the 1840s as an explorer of the West. He ran as the Republican Party's first presidential candidate in 1856. Fr&#233;mont was defeated by James Buchanan, but his campaign "set the stage for Abraham Lincoln's victory in 1860" (Pamela Herr, "Fr&#233;mont, John Charles," in <title level="m">American National Biography Online</title>). Lincoln gave him the command of the Department of the West when the Civil War broke out. In an attempt to subdue Confederate opposition and regain standing in divided Missouri, Fr&#233;mont issued an edict to free the slaves of rebels in the state (August 30, 1861). The move alarmed proslavery Unionists and threatened to undermine Lincoln's efforts to keep slave-state Kentucky in the Union. The president ordered his general to revoke the proclamation. As a result of the episode, Fr&#233;mont "gained . . . a large following, particularly among radical Republicans critical of Lincoln's management of the war" (Herr).</note> told us, when this war first begun,</l>
+                    <l>How to save the Union, and the way it should be done;</l>
+                    <l>But Kentucky swore so hard, Old Abe had his fears,</l>
+                    <l>But soon they were dispelled by the Colored Volunteers.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We've passed our brethren in their chains, nor sought to <lb/>set them free;</l>
+                    <l>But now we fight to save them, and our flag of liberty.</l>
+                    <l>We'll fight them, though the earth be strewn with brothers <lb/>slain,</l>
+                    <l>We'll fight them, and ne'er falter, 'till liberty we gain.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>O, give to us a flag which, through the march of time,</l>
+                    <l>Shall wave in glorious triumph o'er all this southern <lb/>clime;</l>
+                    <l>It is our Abraham's choice, and gives us all good cheer,</l>
+                    <l>For underneath its folds fights the Colored Volunteer.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The gallant Fifty-fourth, roused by freedom's battle cry,</l>
+                    <l>Said, We'll go, meet every foe, and conquer them or die.</l>
+                    <l>We will stand by the Union, if we only have a chance,</l>
+                    <l>In doing which, we're very sure we'll make the rebels <lb/>dance.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>McClellan<note type="editorial" resp="#bw #el">George B. McClellan (1826&#8211;1885) took over the command of the Army of the Potomac after its crushing defeat at Bull Run (July 21, 1861). He built a formidable army and won the esteem of his soldiers, but his reluctance to attack the enemy caused consternation in Washington. In the spring of 1862 delay ruined his plans to capture the Confederate capital. McClellan moved further away from Richmond during the Seven Days' Battles (June 25&#8211;July 1); in spite of his successes, the campaign looked like defeat. Lincoln gave his general one more chance after McClellan failed to deliver a decisive victory at Antietam (September 17, 1862). General Lee's army escaped from the Shenandoah Valley in early November; McClellan was removed from his command. A proslavery Democrat, he won the Democratic Party's presidential nomination in August 1864.</note> went to Richmond with two hundred thousand, <lb/>brave.</l>
+                    <l>He said, "Keep back the negroes, and the Union we will <lb/>save."</l>
+                    <l>Little Mack had his way, <emph rend="italic">still</emph> the Union is in <emph rend="italic">tears</emph>;</l>
+                    <l>They call <emph rend="italic">now</emph> for the help of the <emph rend="italic">Colored Volunteers</emph>.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Old Jeff<note type="editorial" resp="#bw #el">Jefferson Davis (1808?&#8211;1889), president of the Confederate States of America. In late December 1862 Davis issued a proclamation in response to both Lincoln's preliminary Emancipation Proclamation and General Butler's "outrages and atrocities" in New Orleans and the surrounding region. Davis ordered that Butler's commissioned officers be treated as "robbers and criminals deserving death" and that "all negro slaves captured in arms" and "all commissioned officers of the United States . . . found serving in company with armed slaves in insurrection" be punished according to state laws (James D. Richardson, ed., <title level="m">A Compilation of the Messages and Papers of the Confederacy: Including the Diplomatic Correspondence, 1861&#8211;1865</title> [Nashville: United States Publishing Company, 1906], 1:271, 274). In effect, Davis defined African American soldiers and their officers as insurrectionists and condemned them to death.</note> says he'll hang us, if we dare to meet him armed.</l>
+                    <l>'Tis a very big thing, but we're not at all alarmed;</l>
+                    <l>For he has first to catch us before the way is clear,</l>
+                    <l>And that's what's the matter<note type="editorial" resp="#bw #el">A catchphrase from Stephen Foster's "That's What's the Matter" (1862), associated with (minstrel representations of) fugitive slaves or "contrabands." Dan Bryant's minstrel troupe incorporated it into "How Are You Green-Backs!" (1863). "The Colored Brigade" included the line "We'll show dem what's de matter in de colored brigade." The phrase also circulated on Unionist ephemera: one Union envelope displayed a contraband caricature with the words "Massa can't have dis chile, dat's what's de matter" (see Alice Fahs, <title level="m">The Imagined Civil War: Popular Literature of the North and South, 1861&#8211;1865</title> [Chapel Hill: University of North Carolina Press, 2001], 153).</note> with the Colored Volunteer.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Forth, with the flaunt of banners, and the drum's inspiring <lb/>sound,</l>
+                    <l>We swept his treacherous hordes from freedom's holy <lb/>ground.</l>
+                    <l>There were brave hearts among us, and we sent them to <lb/>the rear;</l>
+                    <l>So that's why they hate us, the Colored Volunteer.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The gallant Fifty-fourth! they're fearless and they're bold;</l>
+                    <l>May their courage never fail, and their ardor ne'er grow <lb/>cold.</l>
+                    <l>Then rally round the flag, for to us it is most dear,</l>
+                    <l>Bright star of liberty to each Colored Volunteer.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The train is moving slowly on, never mind the past;</l>
+                    <l>We've had a hard road to travel, but good days are <choice><orig>com-<lb/>ing</orig><reg>coming</reg></choice> fast.</l>
+                    <l>For God is for the right, and we have no need to fear;</l>
+                    <l>The Union must be saved by the <emph rend="italic">Colored Volunteer</emph>.</l>                
+                </lg>
+            </lg>
+            
+        </body>
+    </text>
+    </TEI>
+    
+    

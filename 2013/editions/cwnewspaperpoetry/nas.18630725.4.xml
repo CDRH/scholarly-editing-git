@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630725.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Prayer of a Nation</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630725.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#whb">Wm. H. Burleigh</author>
+                        <title level="a">The Prayer of a Nation</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-07-25">25 July 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="whb">Burleigh, William Henry, 1812-1871</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>
+            <change when="2012-07-31" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630725.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630725.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630725.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630725.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630725.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">THE PRAYER OF A NATION.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY WM. H. BURLEIGH.<note type="editorial" resp="#bw #el"><p>William Henry Burleigh (1812&#8211;1871) began to establish a reputation as an abolitionist spokesperson with the <title level="j">Brooklyn (Connecticut) Unionist</title>, an antislavery title that championed Prudence Crandall's efforts to support black education in the state. In 1836 Burleigh became an agent for the American Anti-Slavery Society; during the next decade, he edited newspapers associated with state antislavery societies in Pennsylvania and Connecticut. By 1850 he had risen to prominence in the temperance movement, as a lecturer for the New York State Temperance Society and the editor of its <title level="j">Prohibitionist</title>. The 1850s saw him espouse antislavery party politics. See Chris Padgett, "Burleigh, William Henry," in <title level="m">American National Biography Online</title>.</p><p>Burleigh campaigned for the Republicans in 1860 and 1864, producing both the <title level="m">Republican Campaign Songster</title> and the <title level="m">Republican Pocket Pistol</title> in 1860. In the preface to the <title level="m">Songster</title>, he affirmed that song had long been "recognized as a legitimate political power, scarcely secondary in its influence to that of speech itself . . . . All parties invoke its aid, though many of their wise men sneer at it as trivial, and beneath the intelligence of the age." "This," he stated flatly, "is their mistake" (William H. Burleigh, <title level="m">The Republican Campaign Songster for 1860</title> [New York: Dayton, 1860], iii).</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">God</emph> of our fathers, hear our earnest cry!</l>
+                    <l rend="indented1">Our hope, our strength, our refuge is with Thee!</l>
+                    <l>Confound our foes and make their legions fly!</l>
+                    <l rend="indented1">Strengthen our hosts and give them victory!</l>
+                    <l rend="indented5">Victory&#8212;victory&#8212;</l>
+                    <l>Oh, God of Armies! give us victory!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Not for exemption from the toil and loss,</l>
+                    <l rend="indented1">The pains, the woes, the horrors of the strife,</l>
+                    <l>But that with strong hearts we may bear the cross,</l>
+                    <l rend="indented1">And welcome death to save our nation's life:</l>
+                    <l rend="indented5">Victory&#8212;victory&#8212;</l>
+                    <l>Oh, God of Battles! give us victory!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>For this no costliest gift would we withhold;</l>
+                    <l rend="indented1">For this we count not dear our loved repose,</l>
+                    <l>Our teeming harvests, and our gathered gold,</l>
+                    <l rend="indented1">Our commerce fanned by every wind that blows.</l>
+                    <l rend="indented5">Victory&#8212;victory&#8212;</l>
+                    <l>God of our fathers! give us victory!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Sons, brothers, sires, our bravest and our best&#8212;</l>
+                    <l rend="indented1">The dearest treasures love has sanctified&#8212;</l>
+                    <l>These have gone forth at Liberty's behest,</l>
+                    <l rend="indented1">And on her altars have augustly died!</l>
+                    <l rend="indented5">Victory&#8212;victory&#8212;</l>
+                    <l>God of our martyrs! give us victory!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>God! have they poured their priceless blood in vain?</l>
+                    <l rend="indented1">Shall treason triumph in our nation's fall?</l>
+                    <l>Shall slavery weld once more her broken chain,</l>
+                    <l rend="indented1">And o'er a prostrate land hold carnival?</l>
+                    <l rend="indented5">Victory&#8212;victory&#8212;</l>
+                    <l>Oh, God of Freedom! give us victory!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Nerve with new strength the patriot soldier's arm!</l>
+                    <l rend="indented1">Fill with new zeal the hero-souls that stand,</l>
+                    <l>Pillars of fire,<note type="editorial" resp="#bw #el">See Exodus, on the Israelites' escape from Egyptian bondage: "And the Lord went before them by day in a pillar of cloud, to lead them the way; and by night in a pillar of fire, to give them light; to go by day and by night. He took not away the pillar of the cloud by day, nor the pillar of fire by night, from before the people" (8:21&#8211;22).</note> to save from deadliest harm</l>
+                    <l rend="indented1">Their children's birthright in this goodly land!</l>
+                    <l rend="indented5">Victory&#8212;victory&#8212;</l>
+                    <l>God of our heroes! give us victory!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>For the sad millions<note type="editorial" resp="#bw #el">In his poem "The Proclamation" (1863), John Greenleaf Whittier used the phrase "sad millions" to refer to slaves freed by the Emancipation Proclamation. Burleigh's language here may be an echo of Whittier.</note> of the groaning earth,</l>
+                    <l rend="indented1">Helpless and crushed beneath oppression's rod,</l>
+                    <l>For every hope that hallows home and hearth,</l>
+                    <l rend="indented1">For heaven-born Liberty, the Child of God,</l>
+                    <l rend="indented5">Victory&#8212;victory&#8212;</l>
+                    <l>God of the nations! give us victory!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>From war's red hell, involved in smoke and flame,</l>
+                    <l rend="indented1">From up-piled altars of our noblest dead,</l>
+                    <l>We cry to Thee! Oh, for thy glorious name,</l>
+                    <l rend="indented1">Make bare Thine arm and smite our foes with dread!</l>
+                    <l rend="indented5">Victory&#8212;victory&#8212;</l>
+                    <l>Oh, God of battles! give us victory!</l>
+                </lg>
+            </lg>
+            
+            <dateline>July 4, 1863.<note type="editorial" resp="#bw #el"><p>At the end of June, Northern citizens followed the progress of General Robert E. Lee's invading army with bated breath. Papers relayed fact and rumor in an attempt to keep up with the demand for the latest news. The <title level="j">New York Tribune</title> received the earliest account of the first two days' fighting at Gettysburg late on July 3; 65,000 copies of the <title level="j">Tribune</title> extra were sold in the city (J. Cutler Andrews, <title level="m">The North Reports the Civil War</title> [Pittsburgh: University of Pittsburgh Press, 1955], 428). The <title level="j">Tribune</title>'s Independence Day issue mooted a Union victory. On the same day, Confederate forces surrendered the strategically vital city of Vicksburg to General Grant.</p><p>Whether Burleigh offered up his Independence Day prayer for victories in Pennsylvania and Mississippi or for the victory that would end the war, his words took on a new cast after General Meade's success at Gettysburg and the occupation of Vicksburg: perhaps the nation's prayer was being answered. At the end of July, the tide of the war seemed to be turning in the Union's favor.</p></note></dateline>
+            <note type="newspaper-editorial" rend="right">&#8212;<title level="j" rend="italic">Evening Post</title>.<note type="editorial" resp="#bw #el">The <title level="j">New York Evening Post</title>, founded by Alexander Hamilton in 1801. William Cullen Bryant (1794&#8211;1878) began to write for the title in 1826, having struggled to make a living as a poet; by 1830 he was the <title level="j">Post</title>'s editor-in-chief, and the daily's financial prospects looked good (Allan Nevins, <title level="m">The Evening Post: A Century of Journalism</title> [New York: Russell and Russell, 1968], 134-136). Committed to Free Soil principles, Bryant severed the <title level="j">Post</title>'s connection with the Democratic Party in response to the Kansas-Nebraska Act (1854) and backed the fledgling Republican Party in 1856. He threw his weight behind Lincoln's presidential campaign in 1860. Although the <title level="j">Post</title> remained staunchly Republican throughout the war, Bryant did not shrink from criticizing Lincoln's policies. The <title level="j">Post</title> "shared with the <title level="j">Tribune</title> the advocacy of what came to be called the 'radical' Republican doctrines during the Civil War&#8212;namely, emancipation, the need of strong and swift military measures, and the removal of pro-slavery and Democratic leaders from the government and army" (Frank Luther Mott, <title level="m">American Journalism: A History of Newspapers in the United States Through Twenty Years, 1690&#8211;1940</title> [New York: Macmillan, 1941], 5:344).</note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

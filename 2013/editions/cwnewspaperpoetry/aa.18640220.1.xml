@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640220.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Hymn of Jubilee</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640220.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#sn">S. N.</author>
+                        <title level="a">A Hymn of Jubilee</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-20">20 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="sn">Unknown</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African-American soldiers</term>
+                    <term>Confederate States of America</term>
+                    <term>Freedmen--Southern States</term>
+                    <term>Freedmen--Southern States-- Social conditions</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slaves--Emancipation--United States</term>
+                    <term>United States--History--Civil War, 1861-1865--Songs and music</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-02-16" who="#el">updated value for @facs of fourth surface in facsimile section</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-28" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640220.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18640220.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640220.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640220.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640220.pp4.jpg"/>            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>  
+            <lg type="poem">
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>
+                                
+                <head type="main" subtype="authorial" rend="center">A HYMN OF JUBILEE.</head>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">What</emph> means that thrilling bugle blast</l>
+                    <l rend="indented1">That rocks Columbia's mighty land?</l>
+                    <l>Grim tyrants, listening, stand aghast,</l>
+                    <l rend="indented1">While rapturous angels join the band.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>'Tis not the music of the spheres,<note type="editorial" resp="#bw #el">Ancient philosophers believed that the motion of heavenly bodies produced harmonious music imperceptible to human ears.</note></l>
+                    <l rend="indented1">Which fly through space so swift and free,</l>
+                    <l>That charms the philosophic ear,</l>
+                    <l rend="indented1">But 'tis the trump of jubilee.<note type="editorial" resp="#bw #el">In Leviticus 25, "the trumpet of the jubilee" heralds emancipation and redemption: "ye shall hallow the fiftieth year, and proclaim liberty throughout all the land unto all the inhabitants thereof: it shall be a jubilee unto you; and ye shall return every man unto his possession, and ye shall return every man unto his family" (9&#8211;10). For Civil War&#8211;era abolitionists, "jubilee" was more than a celebration; it signified divinely ordained black emancipation&#8212;and "the fulfillment of America's national destiny" (David W. Blight, <title level="m">Frederick Douglass' Civil War: Keeping Faith in Jubilee</title> [Baton Rouge: Louisiana State University Press, 1989], 9). S. N.'s "Hymn" celebrates the advent of the long-awaited year. The piece may have been a response to the Emancipation Proclamation's first anniversary.</note></l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>No more the wail of deep despair</l>
+                    <l rend="indented1">From suffering innocence we hear;</l>
+                    <l>The victims leave their shackles where</l>
+                    <l rend="indented1">Their joyous notes first strike the ear.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The mother tosses high in air</l>
+                    <l rend="indented1">Her baby boy, forever free;</l>
+                    <l>Invokes a curse on all who dare</l>
+                    <l rend="indented1">Renew the chains of slavery.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"We've had enough of tears and woe;</l>
+                    <l rend="indented1">Our hearts have bled at every breath;</l>
+                    <l>We've seen our kidnapped children go</l>
+                    <l rend="indented1">To unknown bondage worse than death.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Our furrowed backs reeking with gore</l>
+                    <l rend="indented1">Shall now be healed with freedom's oil;</l>
+                    <l>The driver's lash be feared no more</l>
+                    <l rend="indented1">Amid our well directed toil.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Unshackled limbs, so strong and free,</l>
+                    <l rend="indented1">Shall beat our fetters into swords</l>
+                    <l>Or peaceful "pruning hooks,"<note type="editorial" resp="#bw #el">Old Testament verses describe the alternative transformations in these lines. Compare "they shall beat their swords into ploughshares, and their spears into pruning hooks: nation shall not lift up sword against nation, neither shall they learn war any more" (Isaiah 2:4), with the injunction "Beat your ploughshares into swords, and your pruning hooks into spears: let the weak say, I am strong" (Joel 3:10).</note> you see,</l>
+                    <l rend="indented1">According to the will of God.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Columbia's sons, wherever found,</l>
+                    <l rend="indented1">Proclaim the glorious jubilee,</l>
+                    <l>While heaven shall echo back the sound</l>
+                    <l rend="indented1">"Afric's sons are forever free!"<note type="editorial" resp="#bw #el">"Afric's sons are forever free!" is the final line of Isaac W. Sanborn's 1863 poem "The Day of Jubilee." See <title level="m">Green Mountain Poets</title>, ed. A. J. Sanborn (Claremont, NH: Claremont Manufacturing Company, 1872), 422&#8211;23. The phrase "forever free" appears in Lincoln's preliminary Emancipation Proclamation of September 22, 1863: on January 1, 1863, "all persons held as slaves within any state, or designated part of a state, the people whereof shall then be in rebellion against the United States shall be then, thenceforward, and forever free" (<title level="m">The Collected Works of Abraham Lincoln</title>, ed. Roy P. Basler [New Brunswick, NJ: Rutgers University Press, 1953], 5:434).</note></l>
+                </lg>
+            </lg>
+            
+            <dateline>Brooklyn, N. Y. </dateline>
+            <byline rend="right">S. N.<note type="editorial" resp="#bw #el">S. N. is unidentified.</note></byline>
+            
+        </body>
+    </text>
+</TEI>
+

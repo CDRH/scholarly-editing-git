@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18631128.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Give Thanks All Ye People</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18631128.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#wam">Dr. Muhlenberg</author>
+                        <title level="a">Give Thanks All Ye People</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-11-28">28 November 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="wam">Muhlenberg, William Augustus, 1796-1877</persName>
+                <persName xml:id="hwb">Bellows, Henry W. (Henry Whitney), 1814-1882</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Thanksgiving</term>
+                    <term>Lincoln, Abraham, 1744-1786</term>                    
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-16" who="#el">revised encoding</change>
+            <change when="2012-10-07" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-30" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-06-15" who="#el">checked transcription; encoded</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18631128.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18631128.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18631128.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18631128.pp4.jpg"/>            
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18631128.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            
+            <head type="main" subtype="newspaper-editorial">THE PRESIDENT'S HYMN.</head>
+            
+            <milestone unit="undeclared" rend="short-bar"/>
+            
+            <div1>                
+                <opener>
+                    <salute><emph rend="italic">To the Editor of The N. Y. Tribune.</emph><note type="editorial" resp="#bw #el"><p>Horace Greeley (1811&#8211;1872) established the <title level="j">New York Tribune</title> as a Whig daily in 1841. From its earliest days, the title was animated by a spirit of reform. By the mid-1850s, the various editions of the paper&#8212;daily, weekly, and semiweekly&#8212;had almost 280,000 subscribers (Adam Tuchinsky, <title level="m">Horace Greeley's New-York Tribune: Civil War-Era Socialism and the Crisis of Free Labor</title> [Ithaca, NY: Cornell University Press, 2009], 2). Greeley, a force in the fledgling Republican Party, adopted a more radical stance against slavery in the 1850s. During the war, the <title level="j">Tribune</title> "advocated vigorous prosecution of the war and expansion of its meaning: namely, that the war should become an emancipationist crusade, and that the emancipated slaves ought to be armed" (Tuchinsky, 171&#8211;72).</p><p>Former <title level="j">National Anti-Slavery Standard</title> editor Sydney Howard Gay managed the <title level="j">Tribune</title> from 1862 until 1865. Gay sidelined his own abolitionist convictions and concentrated on satisfying the general hunger for timely war news (Tuchinsky, 217). But Greeley, in his famous editorial address of August 1862, "The Prayer of Twenty Millions," urged Lincoln to make war on slavery as a matter of military and moral necessity. Lincoln, then waiting to announce the preliminary Emancipation Proclamation, responded by stating that "My paramount object in this struggle is to save the Union, and is not either to save or to destroy slavery" (Roy P. Basler, ed., <title level="m">The Collected Works of Abraham Lincoln</title> [New Brunswick, NJ: Rutgers University Press, 1953], 5:388).</p></note></salute>
+                    <salute><emph rend="smallcaps">Sir:</emph></salute>
+                </opener>
+                
+                <p>Inclosed you will find a hymn written by our <lb />beloved and revered fellow-citizen, Dr. Muhlenberg,<note type="editorial" resp="#bw #el"><p>William Augustus Muhlenberg (1796&#8211;1877), an Episcopal pastor committed to improving church and social services for his city-based congregations. By the time war broke out, Muhlenberg was known as the founder of Long Island's Flushing Institute (St Paul's College) and the director of St. Luke's Hospital in New York City. In 1862, the government appropriated one hundred beds at St. Luke's, for sick and wounded soldiers (Anne Ayres, <title level="m">The Life and Work of William Augustus Muhlenberg</title> [New York: Harper, 1880], 344&#8211;45). By March 1864 Muhlenberg was an associate member of the US Sanitary Commission (<title level="m">Documents of the U.S. Sanitary Commission</title> [New York: n.p, 1866], 2:15).</p><p>Muhlenberg advocated the use of ritual and devotional music in church services. He wrote hymns and published collections including <title level="m">Church Poetry</title> (1823) and <title level="m">The Choir and Family Psalter</title> (coauthored with the Reverend J. M. Wainwright, 1851). In "Give Thanks All Ye People" Muhlenberg combined his interest in hymnody with his Republican politics. "I am no party politician," he wrote in his journal on November 6, 1860, "but I am much interested in the success of the Republicans as opposed to slavery" (quoted in Ayres, 336). He voted for Lincoln and cheered when the results were declared. After the attack upon Fort Sumter, he wrote that "if ever there was a just war, this is one" (Ayres, 336, 341).</p></note> <lb />founder of St. Luke's Hospital, and writer of the <choice><orig>im-<lb />mortal</orig><reg>immortal</reg></choice> hymn, "I would not live alway." Will you not <lb />give it a place in your columns, and use your editorial <choice><orig>in-<lb />fluence</orig><reg>influence</reg></choice> to induce our people throughout the loyal States <lb />to sing it in the churches on the approaching <choice><orig>Thanks-<lb />giving</orig><reg>Thanksgiving</reg></choice>,<note type="editorial" resp="#bw #el">On October 3, 1863, President Lincoln declared a day of national thanksgiving on the last Thursday of November. Among other blessings for which citizens should be thankful, he listed harvest "bounties" and continued territorial expansion, the preservation of peace with "all nations" and a "greatly contracted" theater of military conflict. These "gracious gifts of the Most High God" should be "acknowledged as with one heart and one voice by the whole American People" (Roy P. Basler, ed., <title level="m">The Collected Works of Abraham Lincoln</title> [New Brunswick, NJ: Rutgers University Press, 1953], 6:496&#8211;97). He also recommended that citizens "implore the interposition of the Almighty Hand to heal the wounds of the nation and to restore it as soon as may be consistent with the Divine purposes to the full enjoyment of peace, harmony, tranquility and Union." The day of thanksgiving fell on November 26; the hymn appeared in the <title level="j">Anglo-African</title> of November 28.</note> as "The President's Hymn"?</p>
+                
+                <p>It has a right to that designation. It is, as a <choice><orig>compari-<lb />son</orig><reg>comparison</reg></choice> of the two will prove, a metrical version of the <lb />President's proclamation, which this year, for the first <lb />time, makes our "Harvest Home" a national festival&#8212;a <lb />significant and blessed augury of that "more perfect <lb />Union" with which, with God's blessing, the war shall <lb />leave us as a people.</p>
+                
+                <p>Solicitous to have the highest authority given to the <lb />use of this National hymn, I obtained the reluctant <choice><orig>con-<lb />sent</orig><reg>consent</reg></choice> of its writer (author also of the music to which it <lb />is set) to ask our Chief Magistrate's permission to style <lb />it "The President's Hymn." The Secretary of State <lb />through whom the application was made, telegraphed <lb />me a few hours afterward the President's leave, in the <lb />decisive style which has now become so familiar to <lb />our people&#8212;"Let it be so called." May we not hope <lb />that millions of our people will, on November 26, be <lb />found uniting in this National Psalm of Thanksgiving, <lb />and that "The President's Hymn" will be the <choice><orig>house-<lb />hold</orig><reg>household</reg></choice> and the temple song of that solemn and joyful day! <lb />It will help to join our hearts as citizens, thus to blend <lb />our voices as <choice><sic>worshippers</sic><corr>worshipers</corr></choice>; and the blessings of Union, <lb />Liberty and Peace will sooner descend on a people that <lb />can thus unite in its praise and <choice><orig>hosannahs</orig><reg>hosannas</reg></choice>.</p>
+                
+                <closer>
+                    <salute>Respectfully yours,</salute>
+                     <signed rend="right"><emph rend="smallcaps">Henry W. Bellows</emph>.<note type="editorial" resp="#bw #el">Henry Whitney Bellows (1814&#8211;1882), minister at New York City's First Unitarian Church and president of the United States Sanitary Commission. The USSC was "a civilian relief operation that coordinated local supply efforts, provided battlefield relief, and offered medical advice to the U.S. Army during the Civil War" (Judith Ann Giesberg, <title level="m">Civil War Sisterhood: The U.S. Sanitary Commission and Women's Politics in Transition</title> [Boston: Northeastern University Press, 2000], vii). Bellows played a vital part in its formation and management. Authorized by Lincoln on June 9, 1861, the US Sanitary Commission became "the largest, most powerful, and most highly organized philanthropic activity that had ever been seen in America" (George M. Fredrickson, <title level="m">The Inner Civil War: Northern Intellectuals and the Crisis of the Union</title> [New York: Harper and Row, 1965], 98). Its extensive program required a massive amount of popular support. Hundreds of local soldiers' aid societies sent money and supplies to regional branches; branch managers then forwarded supplies for distribution according to the commission's instructions.</note>           </signed>         
+                </closer>
+            </div1>
+            
+            <milestone unit="undeclared" rend="short-bar"/>
+            
+            <div1>
+                <lg type="poem">
+                    
+                    <head type="main" subtype="newspaper-editorial" rend="center">GIVE THANKS ALL YE PEOPLE.</head>
+                    
+                    <lg type="stanza">
+                        <l><emph rend="smallcaps">Give</emph> thanks, all ye people, give thanks to the Lord,</l>
+                        <l>Alleluias of freedom, with joyful accord:</l>
+                        <l>Let the East and the West, North and South roll along,</l>
+                        <l>Sea, mountain and prairie, one thanksgiving song.</l>                
+                        <note rend="center" type="authorial"><emph rend="italic">Chorus after each verse:</emph></note>
+                        <l>Give thanks, all ye people, give thanks to the Lord,</l>
+                        <l>Alleluias of freedom, with joyful accord.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>For the sunshine and rainfall, enriching again</l>
+                        <l>Our acres in myriads, with treasures of grain;</l>
+                        <l>For the Earth still unloading her manifold wealth,</l>
+                        <l>For the Skies beaming vigor, the Winds breathing health,</l>
+                        <l rend="indented5">Give thanks, etc.&#8212;</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>For the Nation's wide table, o'erflowingly spread,</l>
+                        <l>Where the many have feasted, and all have been fed,</l>
+                        <l>With no bondage, their God-given rights to enthrall,</l>
+                        <l>But liberty guarded by Justice for all;</l>
+                        <l rend="indented5">Give thanks, etc.&#8212;</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>In the realms of the Anvil, the Loom, and the Plow,</l>
+                        <l>Whose the mines and the fields, to Him gratefully bow;</l>
+                        <l>His the flocks and the herds, sing ye hill-sides and vales;</l>
+                        <l>On His Ocean domains chant His name with the gales.</l>
+                        <l rend="indented5">Give thanks, etc.&#8212;</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Of commerce and traffic, ye princes, behold</l>
+                        <l>Your riches from Him Whose the silver and gold,</l>
+                        <l>Happier children of Labor, true lords of the soil,</l>
+                        <l>Bless the Great Master-Workman, who blesseth your toil,</l>
+                        <l rend="indented5">Give thanks, etc.&#8212;</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Brave men of our forces, Life-guard of our coasts,</l>
+                        <l>To your Leader be loyal, Jehovah of Hosts:</l>
+                        <l>Glow the Stripes and the Stars aye with victory bright,</l>
+                        <l>Reflecting His glory&#8212;He crowneth the Right.</l>
+                        <l rend="indented5">Give thanks, etc.&#8212;</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Nor shall ye through our borders, ye stricken of heart,</l>
+                        <l>Only wailing your dead, in the joy have no part:</l>
+                        <l>God's solace be yours, and for you there shall flow</l>
+                        <l>All that honor and sympathy's gifts can bestow,</l>
+                        <l rend="indented5">Give thanks, etc.&#8212;</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>In the Domes of Messiah&#8212;ye <choice><orig>worshipping</orig><reg>worshiping</reg></choice> throngs,</l>
+                        <l>Solemn litanies mingle with jubilant songs;</l>
+                        <l>The Ruler of Nations beseeching to spare,</l>
+                        <l>And our Empire still keep the Elect of His care.</l>
+                        <l rend="indented5">Give thanks, etc.&#8212;</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Our guilt and transgressions remember no more;</l>
+                        <l>Peace, Lord! righteous Peace, of Thy gift we implore;</l>
+                        <l>And the Banner of Union, restored by Thy hand,</l>
+                        <l>Be the Banner of Freedom o'er All in the Land.</l>
+                        <l rend="indented4">And the Banner of Union, etc.</l>
+                        <l rend="indented5">Give thanks, etc.&#8212;</l>
+                    </lg>
+                    
+                </lg>
+            </div1>
+            
+            <note type="newspaper-editorial">
+                <p>Copies of "The President's Hymn" can be had at $<unclear resp="#el" cert="medium" reason="illegible">2</unclear> a <lb/>hundred, of A. D. F. Randolph, publisher, No. 683 <choice><orig>Broad-<lb/>way</orig><reg>Broadway</reg></choice>. Churches, by ordering a few hundred, can have the <lb/>Hymn (with which the music is printed) sung by the whole <lb/>congregation. Profits of the sale devoted to the Sanitary <lb/>Commission.</p>                
+           </note>
+            
+            <dateline>New York, Nov. 17, 1863.</dateline>
+            
+        </body>
+    </text>
+</TEI>

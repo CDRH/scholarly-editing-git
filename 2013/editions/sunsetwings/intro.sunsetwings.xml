@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">A Poem's Flight: Reprints of Dante Gabriel Rossettis "Sunset Wings" in the American Newspaper Press</title>
+                <author>Marianne Van Remoortel</author>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="mvr">Marianne Van Remoortel</name>
+                </respStmt>
+                </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2013</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">intro.sunsetwings</idno>
+                <idno type="edition">sunsetwings</idno>
+
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2013</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">34</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-07-27" who="#awj"
+                >Altered the encoding to match practices in the following ways:
+                1. replaced the named character entities and unicode with keyed double quotation marks and single quotation marks
+                2. updated information in teiHeader
+              </change>
+              <change when="2012-09-02" who="#mvr">
+               1. made minor changes to wording
+               2. changed dates to American style
+               3. inserted serial commas
+               4. added paragraph about map
+              </change>
+              <change when="2012-10-26" who="#mvr">
+               1. made minor changes to wording
+               2. added passage about Juxta Commons
+               3. completed paragrapy about map
+              </change>
+              <change when="2013-01-28" who="#mvr">
+               1. made minor changes to wording
+              </change>
+              <change when="2013-02-15" who="#mvr">
+               1. inserted revisions suggested by copyeditor
+              </change>
+        </revisionDesc>
+    </teiHeader>
+
+<text>
+        <front>
+            <head type="main">A Poem's Flight: Reprints of Dante Gabriel Rossetti's "Sunset Wings" in the American Newspaper Press</head>
+            <byline>Marianne Van Remoortel</byline>
+        </front>
+<body>
+<p>
+Dante Gabriel Rossetti is beyond doubt one of the best known and most studied British
+poets of the nineteenth century. By virtue of the recently completed <hi rend="italic">Rossetti Archive</hi>,
+digital images of "every surviving documentary state of [his] works"<ptr target="#note1" xml:id="nr1" n="1" />&#8212;manuscripts,
+sketches, editions, paintings&#8212;are now easily accessible online, accompanied by extensive
+editorial comments, notes, and transcriptions. This edition of Rossetti's brief lyric
+poem "Sunset Wings" deals with a type of text that falls outside the scope of the
+<hi rend="italic">Rossetti Archive</hi>: the transatlantic reprint. In the four months following its first
+publication in the <hi rend="italic">Athenaeum</hi> on May 24, 1873, "Sunset Wings" was reprinted at least
+fourteen times in American newspapers and weekly miscellanies, more than any other of his
+original poetical contributions to the periodical press. On June 8 it appeared in
+the <hi rend="italic">New York Times</hi>, followed by the <hi rend="italic">Boston Daily Advertiser</hi> (June 9), <hi rend="italic">Bangor Daily
+Whig and Courier</hi> (June 12), <hi rend="italic">Albion</hi> (June 14), <hi rend="italic">Springfield Republican</hi> (June 18), <hi rend="italic">Every
+Saturday</hi>, <hi rend="italic">Buffalo Daily Courier</hi>, <hi rend="italic">Massachusetts Ploughman,</hi> and <hi rend="italic">San Francisco Daily
+Evening Bulletin</hi> (all on June 28), <hi rend="italic">Frank Leslie's Illustrated Newspaper</hi> and <hi rend="italic">Newport
+Mercury</hi> (both on July 5), <hi rend="italic">New-Hampshire Patriot</hi> (July 9), <hi rend="italic">Youth's Companion</hi> (August 28),
+and the <hi rend="italic">Independent Statesman</hi> of Concord, New Hampshire (September 4).
+</p>
+
+<p>
+After the poem was collected in Rossetti's 1881 <hi rend="italic">Ballads and Sonnets</hi>, reprints kept
+appearing sporadically in the American press&#8212;in the 1890s through the 1930s there were at least
+fifteen in twelve different newspapers: <hi rend="italic">Morning Oregonian</hi> (March 20, 1898), <hi rend="italic">Philadelphia Enquirer</hi>
+(May 23, 1902), <hi rend="italic">Dallas Morning News</hi> (June 9, 1902, November 29, 1918, and March 6, 1920),
+<hi rend="italic">Sunday Oregonian</hi> (July 13, 1902), <hi rend="italic">Yuma Pioneer</hi> (August 22, 1902), <hi rend="italic">Kansas City Star</hi>
+(July 5, 1911), <hi rend="italic">Arizona Republican</hi> (October 25, 1911), <hi rend="italic">Daily Oklahoman</hi> (August 19, 1912),
+<hi rend="italic">Christian Science Monitor</hi> (April 6, 1916, and February 23, 1920), <hi rend="italic">Springfield Republican</hi>
+(April 28, 1921), <hi rend="italic">Albany Evening News</hi> (July 19, 1927), and <hi rend="italic">Omaha World-Herald</hi> (May 14, 1935).
+</p>
+
+<p>
+Given the relatively little scholarly attention that the poem has received in the
+past few decades, these are surprising numbers. "Sunset Wings" was, in fact, Rossetti's
+most frequently reprinted poem in the United States, appearing in local newspapers from places
+as geographically and socioculturally different as New York, Dallas, and San Francisco. 
+This digital edition traces the poem's journey (or journeys) through various segments of the American press, 
+allowing readers to explore its shifting contexts and meanings as well as Rossetti's changing position in the American literary marketplace.
+</p>
+
+<p>
+The edition contains twenty-nine reprints of "Sunset Wings" published in twenty-five different newspapers
+between 1873 and 1935. I collected the poems exclusively from fully searchable online
+digital newspaper and periodical archives, both free and subscription-based.<ptr target="#note2" xml:id="nr2" n="2" /> I searched 
+each database systematically using a set of search terms that included not
+only "Sunset Wings" and "Rossetti" (and common misspellings
+like "Rosetti" and "Rosseti") but also, in case the title had been omitted,
+various characteristic phrases from the poem such as "two golden wings,"
+"wrangling rout," and "mustering rooks." These searches returned eleven
+versions in GenealogyBank's historical newspaper archive (v6, v12, v13, v17, v18, v21, v23, v25, v27, v28, v30), six in Gale's <hi rend="italic">19th Century U.S. Newspapers</hi> (v3, v4, v8, v11, v15, v16),
+four in ProQuest's <hi rend="italic">American Periodicals Series</hi> (v5, v9, v10, v14), two in ProQuest's
+<hi rend="italic">Historical Newspapers</hi> (v24, v26), two in <hi rend="italic">Old Fulton New York Post Cards</hi>, a somewhat quirky website
+offering access to a wealth of New York State historical newspapers (v7, v29), and one each in <hi rend="italic">Chronicling America</hi>
+(Library of Congress, v22), <hi rend="italic">Historic Oregon Newspapers</hi> (v19), the <hi rend="italic">Colorado Historical Newspaper Project</hi> (v20),
+and the <hi rend="italic">New York Times Article Archive</hi> (v2). The original <hi rend="italic">Athenaeum</hi> poem (v1) was digitized by ProQuest in its <hi rend="italic">British Periodicals</hi> collection.
+</p>
+
+<p>
+The edition makes no pretense of being exhaustive. One of the greatest advantages of these fully
+searchable digital databases is that they make it possible to search millions of
+newspaper and magazine pages in a matter of seconds, revealing evolutions, patterns,
+and dynamics that through manual browsing of the original copies would perhaps never
+have come to light. Yet they also have their limitations. Some reprints may have
+failed to appear in the search results due to poor OCR (Optical Character Recognition) or missing pages.
+No doubt, even more reprints remain to be discovered in digital collections unknown
+to me and in nondigitized newspapers.
+</p>
+
+<p>
+The edition is an offshoot of the digital project "The Rossettis' Periodical Poetry,"
+funded by the Research Foundation&#8211;Flanders, that I am directing in association with
+the Centre for Scholarly Editing and Document Studies at Ghent, Belgium. When completed,
+this digital archive will provide access to all poems published by Dante Gabriel and
+Christina Rossetti in the British and American periodical press, as well as numerous
+unauthorized reprints in newspaper and periodicals on both sides of the Atlantic.
+The archive currently contains forty-three original poems by Dante Gabriel and eighty-seven by Christina.
+For the period 1862&#8211;1900, I have so far identified a total of 207 Rossetti reprints
+in 114 American newspapers published in thirty-four different states. These poems comprise
+only a fraction of the vast numbers of unauthorized transatlantic reprints of British
+poetry that appeared in the United States throughout most of the nineteenth century.
+With no international copyright law to regulate what Meredith McGill has called the
+"transatlantic traffic in poems,"<ptr target="#note3" xml:id="nr3" n="3" /> miscellaneous magazines on the East Coast like
+the <hi rend="italic">Living Age</hi>, <hi rend="italic">Eclectic Magazine</hi>, <hi rend="italic">Albion</hi>, and <hi rend="italic">Every Saturday</hi>
+copied liberally from British periodicals and poetry volumes. They in turn often
+served as harvesting ground for local and regional newspapers across the country.
+</p>
+
+<p>
+The edition consists of three parts: a textual edition of the individual poems, a comparative edition, and a map.
+For the two editions, I encoded the twenty-nine identified reprints of "Sunset Wings" and the original <hi rend="italic">Athenaeum</hi> version
+in a single TEI-P5 XML file using the parallel segmentation method. The textual edition is accompanied by images of the original newspaper pages
+to enable direct comparison between the source and the encoded text and to allow readers to explore the immediate context in which the poems first appeared.
+The <ref type="url" target="http://juxtacommons.org/">Juxta Commons</ref> interface of the comparative edition enables
+readers to compare and collate different versions of the poems. Because one of my main objectives as editor was to encode as much as possible
+of the typographical idiosyncrasies of each reprint, I have preserved all original spelling, capitalization, and punctuation.
+Spelling mistakes and word variants in particular deserve closer
+attention, not only because they may offer us valuable clues as to the source of
+a reprint but also because they act as silent witnesses to the rush of the nineteenth-century
+daily news industry, where typesetters and proofreaders, under constant pressure
+to meet deadlines, either failed to spot or omitted to correct compositing errors.
+To facilitate comparison between versions, however, I have removed indentation and any extra line breaks adjusting
+the poem to newspaper column width. For the same reason, I have chosen not to preserve the different
+stanzaic structure used by the <hi rend="italic">Albany Evening News</hi>, with four lines in the first
+and six lines in the final stanza rather than the usual five.
+</p>
+
+<p>
+The textual edition is accompanied by a historical map that enables users to visualize geographically
+the reprint history of "Sunset Wings." I have created the map using the 
+<ref type="url" target="http://www.neatline.org/">Neatline</ref> plugin for 
+<ref type="url" target="http://www.omeka.org/">Omeka</ref>. The base layer is a static image
+in TIFF format of an 1873 map of the United States from the <ref type="url" target="http://http://www.davidrumsey.com/">David Rumsey Map Collection</ref>.
+Reprints v2&#8211;v30 are represented on the map by means of clickable blue points (1873 reprints) and gray points (later reprints).
+Mousing over or clicking on a reprint listed in the menu on the right will locate that reprint on the map.
+</p>
+
+<p>
+While this edition aims to provide insight into the reprinting of "Sunset Wings,"
+it does not constitute a publishing history in the strictest sense of the term.
+I have included Rossetti's original <hi rend="italic">Athenaeum</hi> version not as a place of origin
+but rather as a starting point for exploring the long, rich life of the poem in
+the periodical and newspaper press. All 1873 reprints (numbered v2&#8211;v15 in this
+edition) beyond a doubt descend from the <hi rend="italic">Athenaeum</hi> text (v1), because no
+other authorized version was available in print at the time, yet textual comparison
+suggests that some do so only indirectly. The June 9, 1873, reprint in the <hi rend="italic">Boston
+Daily Advertiser</hi> (v3) and the version that appeared three days later in the <hi rend="italic">Bangor
+Daily Whig and Courier</hi> (v4), for example, share two textual variants that may indicate
+close affiliation: both have "every edding flight" rather than "ever-eddying flight"
+in line 16, and "on the earth" rather than "on the heart" in line 29. Similarly,
+the Boston-based <hi rend="italic">Massachusetts Ploughman</hi> (v10, June 28) and the <hi rend="italic">Newport Mercury</hi>
+(v12, July 5) both have "ever-eddying night" in line 16 and "Sun-steeped to fire"
+instead of "Sun-steeped in fire" in line 6. Given Boston's leading position as a
+cultural and literary hub, it seems plausible that local newspapers in the northeastern
+United States would have relied on the Boston newspaper press for their
+daily dose of poetry as well as on the foreign circulation of British periodicals.
+</p>
+
+<p>
+Identifying the sources of the later reprints (v16&#8211;v30), published between 1898
+and 1935, is even more complicated, although a quick comparison with the most obvious
+candidates digitally available through <hi rend="italic">Google Books</hi>, <hi rend="italic">Internet Archive</hi>, and <hi rend="italic">HathiTrust</hi> already
+reveals some of their interrelationships. By the late nineteenth century, the poem
+was available in several British and American editions of <hi rend="italic">Ballads and Sonnets</hi> and
+<hi rend="italic">The Complete Works of Dante Gabriel Rossetti</hi>. Later it also appeared in popular
+anthologies such as <hi rend="italic">The Home Book of Verse</hi>, <hi rend="italic">The Golden Treasury</hi>, and
+<hi rend="italic">Lights to Literature</hi>. All later versions go back to Rossetti's <hi rend="italic">Ballads and Sonnets</hi>
+text, which is identical to the <hi rend="italic">Athenaeum</hi> version except for line 12 (now reading
+"Save for the whirr within" rather than "But for the whirr within") and the
+addition of an exclamation mark in the final stanza. Typographical variations
+such as "Wing'd," "Sun-steep'd," and "laugh'd" in the <hi rend="italic">Morning Oregonian</hi>
+version (v16, March 20, 1898) suggest that this particular reprint was taken from
+an 1897 or 1898 edition of <hi rend="italic">The Golden Treasury</hi>. Versions v17&#8211;v24, v26, and v27
+offer only the first three stanzas of the poem. This could indicate that they
+were copied from the anthology <hi rend="italic">Lights to Literature</hi>, where the three stanzas
+appeared as "From 'Sunset Wings,' by Dante Gabriel Rossetti."<ptr target="#note4" xml:id="nr4" n="4" />
+Moreover, versions v24 and v26 (<hi rend="italic">Christian Science Monitor</hi>) and v27
+(<hi rend="italic">Dallas Morning News</hi>) all omit the final part of the first stanza.
+The three reprints may have an unknown common source, or perhaps the <hi rend="italic">Dallas Morning
+News</hi> got its version from the <hi rend="italic">Christian Science Monitor</hi>, which was published in
+Boston but circulated nationally.
+</p>
+
+<p>
+By including only newspaper and magazine reprints in the edition of "Sunset Wings,"
+I hope to call attention to the specific role of the press in the reception and
+dissemination of Rossetti's poetry across the Atlantic, and in particular to the
+ways in which the local and regional newspapers multiplied the readerships, contexts,
+and meanings of the original poem. Rossetti composed "Sunset Wings" in August 1871 at
+Kelmscott, Oxfordshire, where he was spending the summer with his new muse, Jane Morris,
+and her children while her husband, William Morris, was in Iceland. Three days before the
+poem was published in the <hi rend="italic">Athenaeum</hi>, he wrote to his mother from Kelmscott: "The Athenæum
+people asked me for some verse the other day &amp; I didn't like to refuse&#8212;so a little
+piece of mine will be in their next number." It was written "when first I came here, &amp;
+embodies a habit of the starlings which quite amounts to a local phenomenon &amp; is most
+beautiful &amp; interesting daily towards sunset for months together in summer &amp; autumn."<ptr target="#note5" xml:id="nr5" n="5" />
+To Thomas Purnell of the <hi rend="italic">Athenaeum</hi> he explained: "the noise is [. . .] just like the wheels
+at a water-mill, or (more prosaically) like a factory in full spin."<ptr target="#note6" xml:id="nr6" n="6" />
+</p>
+
+<p>
+Despite Rossetti's fear that it might seem strange to anyone who never witnessed
+the uncannily synchronized movements of starling flocks, "Sunset Wings" was an
+instant success even in the United States, where starlings do not naturally occur.<ptr target="#note7" xml:id="nr7" n="7" />
+The poem was reprinted throughout the summer of 1873, and it frequently returned in
+later years from the onset of spring to late August&#8212;only four of the reprints
+in this edition (v22, v25, v26, and v27) were published "out of season." The <hi rend="italic">Newport Mercury</hi>
+even printed it alongside William Cullen Bryant's popular poem "The Old-World Sparrow,"
+in which the American poet celebrated the introduction of the European sparrow into the New World:
+<q rend="block">
+<l>A winged settler has taken his place</l>
+<l>With Teutons and men of the Celtic race.</l>
+<l>He has followed their path to our hemisphere:</l>
+<l>The Old-World sparrow at last is here. (lines 3&#8211;6)</l>
+</q>
+</p>
+
+<p>
+If "Sunset Wings" did not spark readers' fascination with "Old World" birds, it
+must at least have struck a familiar chord because of its apolitical focus on nature,
+through which Rossetti explored universal themes of hope&#8212;"plumed [. . .] as 't were a
+fiery dart" (line 26)&#8212;and sorrow. In the <hi rend="italic">Christian Science Monitor</hi> for April 6, 1916
+(v24), it appeared on the same page as Laurence Binyon's "An April Day," which
+offered similar romantic musings on nature with its "Rosy sunset bathing all the
+vale below" and "Starry sadness filling the quiet eyes of night." Poems like these
+provided a momentary repose from more serious political and economic news reports
+and from the busy layout of advertisements for fire insurance, carriages, railway shares,
+pianofortes, and real estate. Headings such as "A Minute of Poetry" (<hi rend="italic">Albany Evening
+News</hi>, v29), "A Minute's Chat" (<hi rend="italic">Philadelphia Inquirer</hi>, v17), and "The Poet's
+Corner" (<hi rend="italic">Massachusetts Ploughman</hi>, v10) all hint at the escape function of poetry,
+as does the decision of the <hi rend="italic">Boston Daily Advertiser</hi> (v3) and <hi rend="italic">Daily Evening
+Bulletin</hi> (v8) to include "Sunset Wings" in the newspaper supplement rather
+than in the newspaper itself.
+</p>
+
+<p>
+As Natalie Houston has argued, "the inclusion of poems [in newspapers] resists
+a simple definition of the page's contents as purely informational. In considering
+the reception history of newspaper poems, we have to wonder who actually read
+these pages and with what kind of attention."<ptr target="#note8" xml:id="nr8" n="8" /> A particularly useful concept for
+understanding readers' interactions with both newspaper poetry and its immediate
+context is the practice described by Katie Lanning as "tessellated reading."<ptr target="#note9" xml:id="nr9" n="9" />
+Lanning introduces the concept in her lucid discussion of how readers of Victorian
+serial fiction, which was usually published alongside other types periodical content,
+actively "fit texts or pieces of texts together to create a mosaic of meaning."
+The images accompanying this edition allow readers to explore similar processes of
+tessellation in the newspapers that reprinted "Sunset Wings." At the same time,
+the edition also enables new tessellated readings of the poem by piecing together
+a new "mosaic" of texts long scattered across several electronic newspaper archives.
+</p>
+
+<p>
+Because they are visually set off by white space and distinctive lineation, newspaper
+poems are easily spotted on the newspaper page. Still, the boundaries between poetic
+and other material are often blurred, not only on the material page but also by the
+reading process itself. In the <hi rend="italic">Dallas Morning News</hi> for March 6, 1920 (v27),
+for instance, "Sunset Wings" is printed in the bottom left corner of the title
+page in a framed text box that also contains another piece of text in the same
+layout. Only upon closer inspection does it become clear that this item,
+despite the characteristic short lines and regular indentation, is not a poem but
+the local weather forecast. Thus, juxtaposed to the fiery sunset in Rossetti's
+"western sky" is a set of more prosaic descriptions of nature such as "East Texas:
+Saturday and Sunday generally cloudy, continued cold."
+</p>
+
+<p>
+In the <hi rend="italic">Daily Oklahoman</hi> for August 19, 1912, "Sunset Wings" (v23) was printed as
+part of a society column by one of the newspaper's editorial writers, Edith C.
+Johnson. Flanked by the "Daily Fashion Hint" and an advertisement for painless
+tooth extraction, it heads a column filled with gossipy reports on local high society:
+who was dining with whom, who was staying where, and who just returned from whence.
+Other items on the same page include articles on the upcoming presidential election,
+the prohibition law, the New Orleans cotton trade, and a storm that claimed two lives
+in Michigan as well as advertisements for the Hamburg-American Line, Fair Park Theater,
+Meadow Gold Butter, Wentworth Military Academy, and several women's colleges.
+</p>
+
+<p>
+While newspaper poetry easily draws readers' attention with its typical layout,
+it is "just as likely," as Houston points out, that some "immediately turned away,
+to information of immediate, practical advantage."<ptr target="#note10" xml:id="nr10" n="10" /> Readers of the <hi rend="italic">Independent Statesman</hi>
+(v15) in Concord, New Hampshire, were perhaps more interested in the hurricane that hit Nova Scotia or in the
+latest news from the newspaper's New York correspondent, while the readers of <hi rend="italic">Frank
+Leslie's Illustrated Newspaper</hi> may have been too eager to read the new installment of
+Mrs. Oliphant's serial <hi rend="italic">Innocent: A Tale of Modern Life</hi> (a reprint from the <hi rend="italic">Graphic</hi>)
+to notice Rossetti's poem (v11) in the top left corner of the page.
+</p>
+
+<p>
+Whether "Sunset Wings" was actually read and, if so, how it was read not only depended on the surrounding
+news articles and advertisements, and on readers' individual tastes and interests, but
+Rossetti's reputation also played a role. As the head of the Pre-Raphaelite
+movement, he had already made a name for himself in the American art world in the
+late 1850s and early 1860s. As a poet, however, he was only just beginning to be known by the American reading public when "Sunset Wings" first appeared. By the time of his
+death in 1882, Rossetti was a celebrated poet-painter whose Bohemian lifestyle,
+loves, and rivalries would regularly feature in gossip columns for decades to come.
+The reprints in this edition illustrate this evolution in several ways. First,
+misspellings and misattributions in the early 1873 reprints suggest the unfamiliarity
+of some newspapers with Rossetti's name. The <hi rend="italic">Newport Mercury</hi> (v12) attributes
+the poem to "Daniel G. Rossetti"; in the <hi rend="italic">Independent Statesman</hi> it is signed
+"Dante G. Rosseti" (v15). The most fascinating misattribution, however, is the one
+to "Christina G. Rosetti" (v13) in the <hi rend="italic">New-Hampshire Patriot</hi> for July 9, 1873.
+While we can only speculate as to who was responsible for the mistake&#8212;a negligent
+typesetter, perhaps in combination with an overworked or simply nonexistent proofreader?&#8212;it is quite
+obvious why the poem was attributed to Rossetti's sister. By the early 1870s,
+Christina was one of the most popular British poets in the United States, as her
+often short, deceptively simple poetry arguably lent itself even better to
+reprinting than her brother's.
+</p>
+
+<p>
+There are no misattributions among the later reprints of "Sunset Wings," although
+"Gabriel" is misspelled "Gabrielle" in the <hi rend="italic">Dallas Morning News</hi> for November 29, 1918
+(v25). Many of these posthumous reprints presented a truncated version of the poem, omitting the final two stanzas.
+"Sunset Wings" (and Rossetti with it) had become part of the reading public's collective memory; readers did not need
+the complete poem anymore to have a meaningful reading experience. Many could rely on previous readings, and for those who could not,
+there were numerous anthologies offering the poem in its entirety. At the same time, by leaving out the dark conclusion with its
+swarming rooks and tolling death bell, newspaper editors were no doubt also catering to audiences less appreciative of the poem's slide into loss of hope and even irreligion.
+What remained was an innocent evocation of nature at sunset that, while hinting at the deeper realities of the human condition, was unlikely to offend anyone.
+</p>
+
+<p>
+Finally, the map accompanying this edition visualizes the growing geographical, cultural, and political
+diversity of Rossetti's reading public. In 1863 an anonymous contributor to <hi rend="italic">Fraser's
+Magazine</hi> pointed out a "curious law" in the circulation of American periodicals:
+<q rend="block">
+<p>
+As the staple of news and thought goes to the United States from Europe&#8212;as New
+York is really as provincial to London as Chicago is to New York&#8212;all papers go from
+east to west, with the sun, and never in the opposite direction. The best possible
+magazine or weekly paper, if published in Cincinnati or the Ohio Valley would never
+cross the Alleghanies; while the West is covered with publications from the Atlantic
+seaboard.<ptr target="#note11" xml:id="nr11" n="11" />
+</p>
+</q>
+Although recent research has shown that news often traveled both ways, there is
+some truth in the <hi rend="italic">Fraser's</hi> article as far as the transatlantic dissemination of
+British poetry is concerned.<ptr target="#note12" xml:id="nr12" n="12" /> With the exception of the <hi rend="italic">San Francisco Daily Evening
+Bulletin</hi> (v8), all newspapers and miscellaneous weeklies of the 1873 reprints of
+"Sunset Wings" were based in five states on the East Coast: New York (v2, v5, v7, v11),
+Massachusetts (v3, v6, v9, v10), New Hampshire (v13, v15), Maine (v4), and
+Rhode Island (v12). The locations of the later reprints, by contrast, are more
+diverse and widely spread across the country. In addition to Massachusetts
+(v24, v26, v28), New York (v29), and Pennsylvania (v17), states included Texas
+(v18, v25, v27), Oklahoma (v23), Colorado (v20), and Arizona (v22) in the southwest
+and south-central regions of the United States, and Oregon (v16, v19),
+Missouri (v21), and Nebraska (v30) in the Northwest and Midwest. Places of publication
+ranged from densely populated cities like Boston and New York to small towns like Yuma, Colorado.
+</p>
+
+<p>
+The newspapers also differed widely in their political sympathies and target
+readerships. The <hi rend="italic">New York Times</hi>, <hi rend="italic">Boston Daily Advertiser</hi>, <hi rend="italic">Bangor Daily Whig and Courier</hi>,
+<hi rend="italic">Springfield Republican</hi>, <hi rend="italic">Daily Evening Bulletin</hi>, and <hi rend="italic">Independent Statesman</hi> were all
+Republican to a greater or lesser extent; the <hi rend="italic">Buffalo Daily Courier</hi>,
+<hi rend="italic">New-Hampshire Patriot</hi>, and <hi rend="italic">World-Herald</hi> had a Democratic profile. <hi rend="italic">Frank Leslie's
+Illustrated Newspaper</hi> was largely aimed at urban, middle-class readers,
+while the <hi rend="italic">Massachusetts Ploughman</hi> as an agricultural journal targeted local,
+rural readerships.
+</p>
+
+<p>
+What unites these newspapers, for all their differences, is that they all
+at some point in their publication histories reprinted Dante Gabriel Rossetti's
+"Sunset Wings." In doing so, they not only created a wide range of new material
+contexts for the poem but  also presented it to a diverse and ever-changing
+reading public who, in turn, gave meaning to it in their individual ways.
+By collecting twenty-nine transatlantic newspaper reprints of "Sunset Wings," this
+digital edition aims to line up some of the various perspectives from which
+several generations of readers may have looked at the poem in the decades
+following Rossetti's own spotting of the starling flocks at Kelmscott.
+</p>
+
+</body>
+
+<back>
+<div type="notes">
+
+<note xml:id="note1">Jerome McGann, ed., <hi rend="italic">The Complete Writings and Pictures of Dante Gabriel Rossetti</hi>,
+                       <ref type="url" target="http://www.rossettiarchive.org/">http://www.rossettiarchive.org/</ref>.
+                       </note>
+<note xml:id="note2">The <ref type="url" target="http://www.ifla.org/files/newspapers/documents/usa-directory-newspaper-collections.pdf">United States of America Directory of Newspaper Collections</ref>
+                       on the website of the International Federation of Library Associations and Institutions (IFLA) and the <ref type="url" target="http://home.earthlink.net/~ellengarvey/rsapresource1.html">Resources for Research: Periodicals</ref>
+                       page on the website of the Research Society for American Periodicals were used as starting points.
+                       </note>
+
+<note xml:id="note3">Meredith L. McGill, introduction to <hi rend="italic">The Traffic in Poems:
+                       Nineteenth-Century Poetry and Transatlantic Exchange</hi>, ed.
+                       Meredith L. McGill (New Brunswick, NJ: Rutgers University Press, 2008), 5.
+                       </note>
+                       
+<note xml:id="note4">Abbey E. Lane, ed., <hi rend="italic">Lights to Literature, Revised: Book Four</hi>
+                       (Chicago: Rand, McNally, 1900), 67.
+                       </note>
+
+<note xml:id="note5">Dante Gabriel Rossetti to Frances Mary Lavinia Rossetti (May 20, 1873),
+                       <hi rend="italic">The Correspondence of Dante Gabriel Rossetti, 6: The Last Decade, 1873&#8211;1882;
+                       I. 1873&#8211;1874</hi>, ed. William E. Fredeman (Cambridge: Brewer, 2006), 146&#8211;47.
+                       </note>
+                       
+<note xml:id="note6">Dante Gabriel Rossetti to Thomas Purnell (May 9, 1873), <hi rend="italic">Correspondence</hi>, 142.
+                      </note>
+
+<note xml:id="note7">Legend has it that starlings were imported from Britain in 1890
+                       by the New York pharmacist Eugene Schieffelin, who, in an attempt
+                       to introduce into the United States every bird mentioned in Shakespeare's plays,
+                       released a few dozen in Central Park. The North American starling population
+                       now numbers millions of birds.
+                      </note>
+
+<note xml:id="note8">Natalie M. Houston, "Newspaper Poems: Material Texts in the Public Sphere,"
+                       <hi rend="italic">Victorian Studies</hi> 50, no. 2 (2008): 236.
+                      </note>
+
+<note xml:id="note9">Katie Lanning, "Tessellating Texts: Reading <hi rend="italic">The Moonstone</hi> in <hi rend="italic">All the Year Round</hi>,"
+                       <hi rend="italic">Victorian Periodicals Review</hi> 45, no. 1 (2012): 1.
+                       </note>
+
+<note xml:id="note10">Houston, "Newspaper Poems," 236.
+                       </note>
+                       
+<note xml:id="note11">"The Periodical Press of the United States of American,"
+                         <hi rend="italic">Fraser's Magazine</hi> 68, no. 405 (1863): 326&#8211;27.
+                         </note>
+
+<note xml:id="note12">See, for example, Sherilyn Cox Bennion, <hi rend="italic">Equal to the Occasion:
+                         Women Editors of the Nineteenth-Century West</hi> (Reno: University of Nevada Press, 1990), vii.
+                         </note>
+
+</div>
+</back>
+</text>
+</TEI>

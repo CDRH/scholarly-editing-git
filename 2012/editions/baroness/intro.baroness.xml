@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://libxml1a.unl.edu:8080/cocoon/scholarlyediting/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">The Firstling/Erstling/He Complex</title>
+                <title level="m" type="sub">An Introduction</title>
+                <author xml:id="tc">Tanya Clement</author>
+<author xml:id="gd">Gaby Divay</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">intro.baroness</idno>
+                <idno type="edition">baroness</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-02-15" who="#lkw">proofreading / citations</change>
+            <change when="2012-02-09" who="#awj">markup in TEI XML</change>
+            <change when="2011" who="#tc">Initial Creation in HTML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front><head type="main">The Firstling/Erstling/He Complex:</head>
+            <head type="sub">An Introduction</head>
+            <byline>Tanya Clement</byline>
+            <byline>Gaby Divay</byline></front>
+             <body>
+
+
+
+<div xml:id="desc"><head type="main">Description of the Edition</head>
+
+<p>"The Firstling/Erstling/He Complex" edition is our collaborative
+ attempt to represent a complex text written by the Baroness
+ Elsa von Freytag-Loringhoven (1874-1927). The edition comprises a 
+cluster of works that the Baroness wrote over a twenty-year period that
+ includes thirty-three versions with multiple titles
+ in two languages. The "Firstling/Erstling/He" "complex" includes all of
+ the works&#8212;no matter how many versions they each include&#8212;as part of this
+ larger "complex" or "text" (in the Barthesian sense). According to 
+Barthes, the "text" is not one object; it is  a "methodolgical field" 
+that is "held only in language" and exists in the "movement of 
+discourse" and in the "process of demonstration."<ptr target="#note1" xml:id="nr1" n="1" /> The 
+"work," on the other hand is an actual, physical object that one might 
+find in a library or an archive that can include multiple versions.<ptr target="#note2" xml:id="nr2" n="2" /> As a result of the many possibilities presented by the archive, we consider the versions included
+ here as an open-ended complex "text" in this sense, one that is subject to dynamic expansion and the potential
+ discovery of further related works in the Freytag-Loringhoven papers.</p> 
+  
+    <p>The manuscripts upon which these digital surrogates are based reside in the <ref type="url" target="http://hdl.handle.net/1903.1/1501">Papers
+    of Elsa von Freytag-Loringhoven</ref> in Special Collections at the 
+University of Maryland (UM), College Park, Libraries. The manuscripts 
+belong to Series III, "Manuscripts,
+        Drafts, Notes, and Drawings, 1919-1927." Most are found in Box 
+2, Folder
+        3, titled "Firstling (Erstling, He)."  Versions 13 and 14.1-4
+        are in Box 3, Folder 23, titled "Pfingsten," while version
+        10 was discovered in Box 2, Folder 67, titled "Liebe." Written 
+over the course of twenty years, approximately one third of the poems 
+are in German, tend to be composed in a conventional form, and were most
+ likely written in the late 1890s before the Baroness moved from Germany
+ to the United States. Two thirds are in English and are dated between 
+1923-1924 when the Baroness had returned to Germany after living in the 
+U.S. for many years. </p>
+
+  <p>Our "Firstling/Erstling/He" edition includes an edited, electronic 
+representation of the thirty-three versions we have identified as part 
+of this complex. The underlying TEI P5 XML and the <ref type="url" target="http://v-machine.org/">Versioning Machine</ref>
+ interface allow for comparisons across the complex. The transcriptions 
+are accompanied by color images that further facilitate this process. 
+There is a <ref type="html" target="help.baroness">help</ref> 
+section, which describes how one might move around within the interface.
+  In this introduction and the comments that accompany the edition, we 
+discuss why we chose to edit this particular cluster and why the formal 
+process of versioning helps reveal the shifting content of the 
+Baroness's constantly revised and transformed works.</p>  
+  </div>
+<div xml:id="choice"><head type="main">Choosing the "Firstling/Erstling/He" Complex</head>
+  <p>The Baroness's papers were found as part of Djuna Barnes's literary
+ papers upon their acquisition by the University of Maryland Libraries 
+in 1973. Djuna Barnes, who once wrote to a scholar interested in the 
+Baroness's poetry that her manuscripts "are al [sic] sixes and sevens" 
+was referring to the fact that the works within the Baroness's papers 
+are composed out of numerous variants that are at times difficult for a 
+reader to relate to each other. We chose to represent this particular 
+complex of variants in an electronic environment because it allows us to
+ show how, for the Baroness, this process of versioning was a way to 
+express variant ideas as textual differences. For instance, some of the 
+versions are very clean such as "Firstling" <ref type="figure">2<figure>
+                    <head>Firstling 2</head>
+                    <figDesc>manuscript image
+        </figDesc>
+                    <graphic url="./versions/images/litmss-012892-0002.jpg" />
+                    </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 2', './versions/images/litmss-012892-0002.jpg', 600, 700, 'manuscript image.'); return false">2</a>-->.
+ Others appear as construction sites, but once we are able to see the 
+Baroness's use of different inks in the poems themselves, in marginal 
+variants, or in notes (as in versions <ref type="figure">1.1-1.6<figure>
+        <head>Firstling 1.1-1.6</head>
+        <figDesc>manuscript image
+        </figDesc>
+        <graphic url="./versions/images/litmss-012892-0001.jpg" />
+    </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 1.1-1.6', './versions/images/litmss-012892-0001.jpg', 600, 700, 'manuscript image.'); return false">1.1-1.6</a>--> or <ref type="figure">4.1-4.4<figure>
+            <head>Firstling 4.1-4.4</head>
+            <figDesc>manuscript image
+            </figDesc>
+            <graphic url="./versions/images/litmss-012892-0003.jpg" />
+        </figure></ref><!--<a href="#" onclick="jkpopimage('4.1-4.4', './versions/images/litmss-012892-0003.jpg', 600, 700, 'manuscript image.'); return false">4.1-4.4</a>-->) her intentions for the text become clearer. Without the color images, these associations could go unnoticed.</p>
+
+ <p>We created this edition because we believe that the Baroness has left interesting texts to explore. Considered
+  at times a marginal figure, she has nevertheless had a significant impact on
+  art and scholarship in three major capitals, namely Berlin, New York and Paris.<ptr target="#note3" xml:id="nr3" n="3" /> Between 1918 and 1929, the Baroness published approximately forty of her poems in little magazines such as <hi rend="italic">Broom</hi>, <hi rend="italic">Liberator</hi>, <hi rend="italic">The Little Review</hi>, <hi rend="italic">transatlantic review</hi>, <hi rend="italic">transition</hi>, and the single issue of <hi rend="italic">New York Dada</hi>.
+     Born Else Hildegard Ploetz on July 12, 1874, in Swinem&#252;nde on the 
+Baltic Sea, she ran away to Berlin in 1892, where she became involved in
+ the Bohemian theatre circles. In 1913, she then moved to New York City where she met and married the penniless Baron Leo von 
+Freytag-Loringhoven. It was in New York, after the Baron had returned to
+ Germany during the war and subsequently committed suicide, that 
+Freytag-Loringhoven became entrenched in the Greenwich Village artist 
+movement and began her brief and successful writing career as "the 
+Baroness."  Her peers, other artists and poets, consistently remarked on 
+ her influences: Ernest Hemingway was her avid proponent at the <hi rend="italic">transatlantic review</hi>,
+ Ezra Pound writes of her in his Cantos, William Carlos Williams 
+dedicates an entire chapter of his autobiography to her, and her extant 
+collection of poetry is due to Djuna Barnes diligently collecting what 
+Barnes considered important in her friend's work. Despite all this 
+attention from her contemporaries, until
+very recently,<ptr target="#note4" xml:id="nr4" n="4" /> almost all critical attention has been directed at her Dada
+  art, including her collaborations with Man Ray and Marcel Duchamp, her collages, and her spontaneous performance
+  art. This edition of her "Firstling/Erstling/He" complex is an addition to the burgeoning scholarship on her poetry.</p>
+</div>
+<div xml:id="theory"><head type="main">Theoretical and Critical Approaches</head>     
+
+  <p>With this edition, readers can see how the Baroness engaged the 
+dialectics of time, language, and perspective as she versioned her 
+poems. The Baroness's revisioning emphasizes a relationship between 
+various periods of her life and the languages in which she expressed 
+herself at those times. In 1923-1924, as the Baroness crafted some of 
+these works, she sent them in letters to her friend Djuna Barnes in 
+Paris, hoping that Barnes would get them published. In regard to the 
+poems in this complex, she asked Barnes to have her German poem 
+"Erstling" and her English version "Firstling" printed on one page. They
+ are shown in her manuscript pages side by side as a seemingly simple 
+ translation in <ref type="figure">3.1 and 3.2<figure>
+         <head>Firstling 3.1-3.2</head>
+         <figDesc>manuscript image
+         </figDesc>
+         <graphic url="./versions/images/litmss-004371-0001.jpg" />
+     </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 3.1-3.2', './versions/images/litmss-004371-0001.jpg', 600, 700, 'manuscript image.'); return false">3.1 and 3.2</a>-->. The Baroness writes in her note to Barnes:
+    <q rend="block">
+     <p>"The German first version always was touching pathetic naiv [sic]
+         &#8212; <hi rend="underline">finished</hi>. What is interesting about the <hi rend="underline">2 together</hi> is their
+      vast difference of emotion &#8212; time &#8212; knowledge &#8212; pain. <hi rend="underline">That is</hi> why
+      they should / be <hi rend="underline">printed together</hi>. For they are 1 + 2, the same
+      poem &#8212; person &#8212; sentiment, life stretch between one &#8212; divided &#8212; assembled
+      &#8212; dissembled. The German one is young &#8212; naiv &#8212; ingenious &#8212; the English
+      one ripe &#8212; experienced &#8212; bitter" (Note <ref type="figure">5.3<figure>
+              <head>Note 5.3</head>
+              <figDesc>Note 5.3</figDesc>
+              <graphic url="./versions/images/litmss-012892-0004b.jpg" />
+          </figure></ref><!--<a href="#" onclick="jkpopimage('Note 5.3', './versions/images/litmss-012892-0004b.jpg', 600, 700, 'Note 5.3'); return false">5.3</a>--> / <ref type="figure">5.3 verso<figure>
+                  <head>5.3 verso</head>
+                  <figDesc>5.3 verso</figDesc>
+                  <graphic url="./versions/images/litmss-012892-0005.jpg" />
+              </figure></ref><!--<a href="#" onclick="jkpopimage('5.3 verso','./versions/images/litmss-012892-0005.jpg', 600, 700, 'manuscript image.'); return false">5.3 verso</a>-->).</p>
+
+    </q></p>
+  <p> In describing the assembling and disassembling involved in 
+versioning these works, the Baroness gestures towards the communicative 
+exchange or dialectic we attempt to represent with this edition. One 
+textual theory that has been useful for understanding the internal 
+dialectics at play within this complex is Jerome McGann's "textual 
+condition" in which he understands the "text" (again, in the Barthesian 
+sense of the word) to mean a gathering of moments in which "certain 
+communicative interchanges are being practiced."<ptr target="#note5" xml:id="nr5" n="5" />   In the 
+case of this complex, the Baroness's transformations from "Erstling" 
+into "Firstling" and "[Erste] Liebe" into "He," reflects her changing 
+perspectives between past and present perceptions of the same event or 
+person.</p>
+ </div>
+   <div xml:id="vm">     <head type="main">Using TEI Encoding and the Versioning Machine </head>
+
+<p>
+  
+  "Assembling and disassembling" describes the Baroness's process as she
+ works and reworks her poems, but it can also describe the reader's 
+experience in reading the multiple versions compared in this edition. 
+The reader's experience is shaped by how the versions included in the 
+edition appear in the Versioning Machine interface as both assembled and
+ disassembled. To "assemble" this edition, we are using the Text 
+Encoding Initiative (TEI) method for encoding and the XSLT, CSS, and 
+JavaScript styles that comprise the Versioning Machine's open-source 
+framework for creating the user interface. Though the edition is based 
+on versions, it is not presented as a genetic edition. That is, the 
+genetic critic's focus on versions is one that "accepts a teleological 
+model of textuality and constantly confronts the question of authorship"
+ (<hi rend="italic">Genetic Criticism</hi> 2). Because our immediate goal is not to 
+represent a teleological model of this complex (though this is a 
+possible reading), but to engage an evolving textual dialectic, we 
+consider our approach guided by co-editor Clement's theory of textual 
+performance. In this theory, the Barthesian text is always and only 
+known in performance&#8212;that is, the act of reading the multiple versions 
+in manuscript and print, the various notes and letters and comments of 
+contemporaries or current readers is an embodied event that occurs 
+within a time, a space, and with a collaborative audience  that is 
+contradictory to the teleological perspective.<ptr target="#note6" xml:id="nr6" n="6" /></p>
+
+<p> Because of these theoretical underpinnings, we are presenting this 
+complex in a space that facilitates this notion of "textual 
+performance"&#8212;that is, we foreground the fact that the "situated" or 
+embodied reader engages the versions that comprise the text.  Assembled 
+in <ref type="url" target="http://baronesselsa.org/firstling/versions/firstling.html">the VM interface</ref>
+ from left to right, the versions first appear to the reader in a 
+prescribed order. The Versioning Machine style sheets
+    transform the TEI encoding to transform the texts into this HTML 
+interface
+     facilitating access to (1) all of the versions in a horizontally 
+scrolling
+      page; (2) the comparisons we have made between the versions;
+      and (3) color JPEGs derived from archival quality TIFFs. The 
+default order of the panels (each of which represent a version of a 
+work) is based on the order in which these manuscript pages appear in 
+their respective folders in the physical manuscript archive. Multiple 
+versions appear on one manuscript page; as well, versions continue 
+across multiple manuscript pages. Even so, each version appears on a 
+separate panel and is numbered according to where it appears in the 
+physical archival folder. In the physical archive, for example,
+      the first six versions and the first note appear on the first 
+manuscript page
+      in the first folder that relates to this complex (from series 3, 
+box 2,
+folder 3). Consequently, in the edition, <ref type="figure">these versions are numbered 1.1-1.6<figure>
+        <head>Firstling 1.1-1.6</head>
+        <figDesc>manuscript image</figDesc>
+        <graphic url="./versions/images/litmss-012892-0001.jpg" />
+    </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 1.1-1.6', './versions/images/litmss-012892-0001.jpg', 600, 700, 'manuscript image.'); return false">these versions are numbered 1.1-1.6</a>-->. On the image, we can see
+      1.1 in red ink; 1.2 is a typescript of "Firstling," 1.3 is another
+      untitled red ink version; 1.4 is titled "Chest Apendicitis" [sic], etc. <ref type="figure">The
+          next "Firstling" version<figure>
+              <head>Firstling 2</head>
+              <figDesc>manuscript image</figDesc>
+              <graphic url="./versions/images/litmss-012892-0002.jpg" />
+          </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 2', './versions/images/litmss-012892-0002.jpg', 600, 700, 'manuscript image.'); return false">The
+      next "Firstling" version</a>--> is numbered 2, because it is the only version on the second page. <ref type="figure">On the next page<figure>
+              <head>Erstling 3.1</head>
+              <figDesc>manuscript image</figDesc>
+              <graphic url="./versions/images/litmss-004371-0001.jpg" />
+          </figure></ref><!--<a href="#" onclick="jkpopimage('Erstling 3.1', './versions/images/litmss-004371-0001.jpg', 600, 700, 'manuscript image.'); return false">On the next page</a>-->, an "Erstling" version is 3.1, while the next "Firstling" version is numbered 3.2 because it appears to its right, and so on. </p>
+
+  <p>The edition is further "assembled" by the fact that we have encoded
+ or marked words and phrases in the underlying XML that are related 
+across works. As a result, the reader can click
+    on any line to see and compare other lines in other versions that we
+ have identified as related (see Figure
+      1 for an example). In order to maximize this element of readerly engagement, we
+      are using <ref type="url" target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCAPLK">location-referenced</ref> and <ref type="url" target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCAPPS">parallel
+       segmentation</ref> methods described in the TEI P5 encoding 
+guidelines to note the relationships between the thirty-three versions. 
+The set of tags that the TEI provides for encoding these relationships 
+is particularly useful: the VM interface manifests the code in 
+line-by-line comparisons (with parallel segmentation encoding) alongside
+ comparisons of "chunks" of text (with location-referenced encoding). 
+ For example, Figure 1 shows that the two lines "BLOWN / ROSE" in version <ref type="figure">1.1<figure>
+         <head>Firstling 1.1-1.6</head>
+         <figDesc>manuscript image</figDesc>
+         <graphic url="./versions/images/litmss-012892-0001.jpg" />
+     </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 1.1-1.6','./versions/images/litmss-012892-0001.jpg', 600, 700, 'manuscript image.'); return false">1.1</a>--> expand to three lines (<del type="overstrike">BLOWN</del> ROSE / BLOWN BLOWN / ROSE") in version 1.2 and again to four lines ("ROSE <del type="overstrike">SPRAY</del> / WAY / CAST / <del type="overstrike">BLOWN</del>") in version 1.3. Figure 2 shows a snippet of this encoding in the underlying TEI document.</p> 
+        
+
+
+
+   
+
+<figure xml:id="fig1">
+<head>Figure 1</head>
+<figDesc>Figure 1</figDesc>
+<graphic url="./vm-images/fig1.png"/>
+</figure>
+
+
+    <figure xml:id="fig2">
+        <head>Figure 2</head>
+        <figDesc>Figure 2</figDesc>
+        <graphic url="./vm-images/teifig.png"/>
+    </figure>
+
+       
+    
+      
+    
+    <p>
+      A brief explanation of this encoding will help explain how the 
+edition is assembled. Any words inside the "app" element (in Figure 2)
+ will be highlighted together in the HTML interface. The "rdg" element, 
+denoting one variant reading, includes a "wit" attribute that shows 
+which version (each given a unique ID, such as "v23a") contains which 
+textual variation. Also, the "app" element, which correlates the variant
+ readings, includes a "loc" attribute that will associate any of these 
+chunks of text with any other in the entire document, so that those 
+words will also be highlighted with the words in this "app" element. 
+Displayed in the interface, these encoding structures can be used to 
+show poetic changes that occur over time. Changes over time mean changes
+ that quite often do not fit neatly in line-by-line comparisons, such as
+ changes that cross line boundaries and elude the traditionally 
+hierarchical structures required by other TEI-element sets. For an 
+example, see the evolution of "ROSE" in Figure 1 in the VM interface and the same information in Figure 2 as it appears within the underlying text encoded document.</p>
+        
+        
+       <figure xml:id="fig3">
+           <head>Figure 3</head>
+           <figDesc>Figure 3</figDesc>
+           <graphic url="./vm-images/fig3.png"/>
+       </figure>
+           
+  
+  <p>In this edition, we use images and mouse-over boxes to indicate 
+points in the text that rely on non-linear space to make meaning. Figure 3, for example, shows the word "BLU<del type="overstrike">FF</del>SH"
+ with a dashed line under it to indicate that there is more information 
+about this point in the text. A mouseover shows a pop-up box that 
+indicates that "LUSH BLO" also appears in this spot. Pulling up the 
+manuscript image shows a constellation of words that is non-linear and 
+therefore difficult to represent in text alone.</p>
+  <p>Like the Baroness, who seems to play with the versions and cluster 
+and
+    recluster them, a reader of this edition can disassemble and 
+reassemble
+    the order by which we have chosen to present the versions. The 
+interface allows users to move version panels into any sequence
+    within the horizontal narrative of the page, creating an environment
+ in
+    which the evolution of versions (and the sequential time these 
+documents
+evince) is not imposed entirely by the editors. Figure 4, for instance, shows a comparison between "Firstling" <ref type="figure">1.1<figure>
+        <head>Firstling 1.1-1.6</head>
+        <figDesc>manuscript image</figDesc>
+        <graphic url="./versions/images/litmss-012892-0001.jpg" />
+    </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 1.1-1.6', './versions/images/litmss-012892-0001.jpg', 600, 700, 'manuscript image.'); return false">1.1</a>--> and "Erstling"  <ref type="figure">6<figure>
+            <head>Erstling 6</head>
+            <figDesc>manuscript image</figDesc>
+            <graphic url="./versions/images/litmss-012892-0006.jpg" />
+        </figure></ref><!--<a href="#" onclick="jkpopimage('Erstling 6', './versions/images/litmss-012892-0006.jpg', 600, 700, 'manuscript image.'); return false">6</a>--> with <ref type="figure">Note 4.5<figure>
+                <head>Note 4.5</head>
+                <figDesc>manuscript image</figDesc>
+                <graphic url="./versions/images/litmss-012892-0003b.jpg" />
+            </figure></ref><!--<a href="#" onclick="jkpopimage('Note 4.5', './versions/images/litmss-012892-0003b.jpg', 600, 700, 'manuscript image.'); return false">Note 4.5</a>--> in the middle. As explained above, clicking on any line
+    shows comparisons between poems that are highlighted according to the underlying
+    encoding. In the VM interface,
+    the reader can reorder the panels, or highlight various, multiple clusters
+    across the versions to create and identify new relationships.</p>
+       <figure xml:id="fig4">
+           <head>Figure 4</head>
+           <figDesc>Figure 4</figDesc>
+           <graphic url="./vm-images/fig2.png"/>
+       </figure>
+            
+  
+  
+  
+    <p>We have chosen to include annotations and images of the manuscript pages
+     alongside transcriptions. Both serve to remind readers that these
+     encoded transcriptions reflect a situated, edited instantiation that has
+     been assembled to create a particular kind of reading experience. At the
+     same time, the VM interface also introduces the reader to the disassembled
+     nature of the Baroness's papers. Sometimes, the relationships between versions seem obvious. For example,
+      five tentative versions written in red pen are surrounding the typed "Firstling" on
+      the manuscript page comprising "Firstling" <ref type="figure">1.1-1.6<figure>
+              <head>Firstling 1.1-1.6</head>
+              <figDesc>manuscript image</figDesc>
+              <graphic url="./versions/images/litmss-012892-0001.jpg" />
+          </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 1.1-1.6', './versions/images/litmss-012892-0001.jpg', 600, 700, 'manuscript image.'); return false"> 1.1-1.6</a>-->.
+     All are toying with endings like "heart flayed," "flayed
+     heart," "woeful," "arid," or "woe heart." The
+     Baroness, in her note to Djuna Barnes at the bottom, seems to have
+     worked out "flayed heart" as her preferred expression (see Figure
+     1).</p>
+
+       <!--<figure xml:id="fig5">
+           <head>Figure 5</head>
+           <figDesc>Figure 5</figDesc>
+           <graphic url="./vm-images/fig1.png"/>
+       </figure>-->
+
+
+      
+    <p> On the other hand, some of the relationships between versions are not
+        quite as clear. For example, in the upper right corner of the page on which we find version <ref type="figure">1.4<figure>
+                <head>Firstling 1.1-1.6</head>
+                <figDesc>manuscript image</figDesc>
+                <graphic url="./versions/images/litmss-012892-0001.jpg" />
+            </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 1.1-1.6', './versions/images/litmss-012892-0001.jpg', 600, 700, 'manuscript image.'); return false">1.4</a>-->,
+ there is a unique alternative title "Chest (or: Heart) Apendicitis" 
+[sic], and all six versions on this page fluctuate between "Sun" or 
+"Love" as
+     the agent in the opening line. Further, while preparing this 
+edition,
+     we discovered related versions in unrelated folders, and seemingly 
+related
+     folders without relevant versions. This is partly due to the fact 
+that Anglophone
+     scholars are unaware of earlier German drafts, while those 
+interested in
+     German versions find no indication that a given poem also exists in
+     English. Also, messy versions
+     such as "First Love" (<ref type="figure">8.3<figure>
+             <head>First Love 8.3</head>
+             <figDesc>manuscript image</figDesc>
+             <graphic url="./versions/images/litmss-012892-0009.jpg" />
+         </figure></ref><!--<a href="#" onclick="jkpopimage('First Love 8.3', './versions/images/litmss-012892-0009.jpg', 600, 700, 'manuscript image.'); return false">8.3</a>-->), "[Firstling]" (<ref type="figure">9.2<figure>
+                 <head>9.1</head>
+                 <figDesc>manuscript image</figDesc>
+                 <graphic url="./versions/images/litmss-012892-0010.jpg" />
+             </figure></ref><!--<a href="#" onclick="jkpopimage('9.1', './versions/images/litmss-012892-0010.jpg', 600, 700, 'manuscript image.'); return false">9.2</a>-->), or "He" (<ref type="figure">11<figure>
+                     <head>He 11</head>
+                     <figDesc>manuscript image</figDesc>
+                     <graphic url="./versions/images/litmss-012916-0001.jpg" />
+                 </figure></ref><!--<a href="#" onclick="jkpopimage('He 11', './versions/images/litmss-012916-0001.jpg', 600, 700, 'manuscript image.'); return false">11</a>-->) show that the Baroness used versioning to develop multiple works at the same time (See Figure 3 for an example).</p>  
+  
+ </div>
+<div xml:id="reduct">  <head type="main">Poetic Techniques: Reduction and Translation</head>
+  
+  <p>Between 1910 and 1923 the Baroness moved from Germany to the United
+ States and back to Germany again, all the while writing and living in 
+the languages of both cultures. Upon returning to Germany in 1923, she 
+wrote to Djuna Barnes saying she lamented her weakening skills in 
+English: 
+  
+  <q rend="block">I only move in English sounds. I am homesick for 
+English language, my ear declines, my taste nauseated by German 
+sound&#8212;and yet I lose my facility in English, words come not easy, 
+sometimes meaning is doubtful, new expressions do not present 
+themselves. As much as I read English, it is not alive&#8212;living, because I
+ am not, hence no fluctuation, instigation&#8212;creation . . . must again 
+dream in English . . . I am left drifting old wreck&#8212;no I cannot&#8212;I 
+cannot&#8212;I cannot, I am too proud!
+    I cannot stand the Germans, I cannot stand their language. I am 
+traitor here!<ptr target="#note7" xml:id="nr7" n="7" />
+  </q></p>
+  <p>In particular, the works in this edition show that the Baroness 
+used reduction and translation as techniques that express her 
+perspectives on both German and American cultures and languages as they 
+correspond to her changing life circumstances. The difference between a 
+messy, early version of "Firstling" (<ref type="figure">9.2<figure>
+        <head>Erstling 9.1</head>
+        <figDesc>manuscript image</figDesc>
+        <graphic url="./versions/images/litmss-012892-0010.jpg" />
+    </figure></ref><!--<a href="#" onclick="jkpopimage('Erstling 9.1', './versions/images/litmss-012892-0010.jpg', 600, 700, 'manuscript image.'); return false">9.2</a>-->) and the neat typescript of "Firstling" (<ref type="figure">2<figure>
+            <head>Firstling 2</head>
+            <figDesc>manuscript image</figDesc>
+            <graphic url="./versions/images/litmss-012892-0002.jpg" />
+        </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 2', './versions/images/litmss-012892-0002.jpg', 600, 700, 'manuscript image.'); return false">2</a>-->)
+ indicates that the Baroness started with longer German poems, which she
+ reduced considerably as she translated them into English, a process of 
+reduction we can follow in the edition. </p>
+  <p>Steeped in a neo-romantic movement that was popular in 
+German-speaking countries around 1900, the Baroness's early poems in 
+German are more like sonnets or iambic quatrains that adhere to strictly
+ prescribed
+    forms. The Baroness consistently "reduces" these complete lines by 
+crossing out connective articles, pronouns, conjunctions and 
+prepositions to achieve a simpler, more modern style. In the fourth
+line in version <ref type="figure">13<figure>
+        <head>[Erstling] 13</head>
+        <figDesc>manuscript image</figDesc>
+        <graphic url="./versions/images/litmss-012917-0001.jpg" />
+    </figure></ref><!--<a href="#" onclick="jkpopimage('[Erstling] 13','./versions/images/litmss-012917-0001.jpg', 600, 700, 'manuscript image.'); return false">13</a>-->, for example, "Glieder &#8212; Blei / Limbs &#8212; Lead" undergoes a reduction from <ref type="figure">14.3<figure>
+            <head>[Erstling 14]</head>
+            <figDesc>manuscript image</figDesc>
+            <graphic url="./versions/images/litmss-012917-0003.jpg" />
+        </figure></ref><!--<a href="#" onclick="jkpopimage('[Erstling 14]','./versions/images/litmss-012917-0003.jpg', 600, 700, 'manuscript image.'); return false">14.3</a>-->,
+ "Die Glieder sind schwer wie Blei / The limbs are as heavy as lead." 
+With these examples, we can note how the systematic elimination of the 
+article "die," the verb "sind," the attribute "schwer," and the 
+conjunction "wie" leave the two nouns stripped bare in the later 
+versions. Yet, these works manage to evoke the same essential 
+combination of "lead" and "limbs" with intensity. Reductions of this 
+sort eventually lead to the bare Dada-like word columns in "Erstling" 
+and "Firstling" on image <ref type="figure">3.1<figure>
+        <head>Erstling 3.1</head>
+        <figDesc>manuscript image</figDesc>
+        <graphic url="./versions/images/litmss-004371-0001.jpg" />
+    </figure></ref><!--<a href="#" onclick="jkpopimage('Erstling 3.1', './versions/images/litmss-004371-0001.jpg', 600, 700, 'manuscript image.'); return false">3.1</a>-->. But no matter how monosyllabic these lines may have become, they still carry
+    a faint echo of the original rhymes, as for instance in English "past
+    &#8212; cast," and "wart &#8212; heart" in <ref type="figure">3.2<figure>
+            <head>3.1 and 3.2</head>
+            <figDesc>manuscript image</figDesc>
+            <graphic url="./versions/images/litmss-004371-0001.jpg" />
+        </figure></ref><!--<a href="#" onclick="jkpopimage('3.1 and 3.2', './versions/images/litmss-004371-0001.jpg', 600, 700, 'manuscript image.'); return false">3.2</a>-->. Another example appears in <ref type="figure">9.1<figure>
+                <head>9.1</head>
+                <figDesc>manuscript image</figDesc>
+                <graphic url="./versions/images/litmss-012892-0010.jpg" />
+            </figure></ref><!--<a href="#" onclick="jkpopimage('9.1', './versions/images/litmss-012892-0010.jpg', 600, 700, 'manuscript image.'); return false">9.1</a>--> (a
+      half-sonnet), <ref type="figure">13<figure>
+              <head>[Erstling] 13</head>
+              <figDesc>manuscript image</figDesc>
+              <graphic url="./versions/images/litmss-012917-0001.jpg" />
+          </figure></ref><!--<a href="#" onclick="jkpopimage('[Erstling] 13','./versions/images/litmss-012917-0001.jpg', 600, 700, 'manuscript image.'); return false">13</a>--> (two stanzas with crossed out words), and <ref type="figure">3.1<figure>
+                  <head>3.1 and 3.2</head>
+                  <figDesc>manuscript image</figDesc>
+                  <graphic url="./versions/images/litmss-004371-0001.jpg" />
+              </figure></ref><!--<a href="#" onclick="jkpopimage('3.1 and 3.2', './versions/images/litmss-004371-0001.jpg', 600, 700, 'manuscript image.'); return false">3.1</a>--> (a column), which adheres to the Baroness's method of stripping older poems down into simpler word columns in English. </p>
+  
+  
+  <p>As she reduced, the Baroness also translated imagery and symbols 
+into a more abstract form of expression across the later versions. On 
+note <ref type="figure">5.3 verso<figure>
+        <head>Note 5.3</head>
+        <figDesc>manuscript image</figDesc>
+        <graphic url="./versions/images/litmss-012892-0005.jpg" />
+    </figure></ref><!--<a href="#" onclick="jkpopimage('Note 5.3','./versions/images/litmss-012892-0005.jpg', 600, 700, 'manuscript image.'); return false">5.3 verso</a>-->, the Baroness tells Barnes that the German "Erstling" (<ref type="figure">3.1<figure>
+            <head>Erstling 3.1</head>
+            <figDesc>manuscript image</figDesc>
+            <graphic url="./versions/images/litmss-004371-0001.jpg" />
+        </figure></ref><!--<a href="#" onclick="jkpopimage('Erstling 3.1', './versions/images/litmss-004371-0001.jpg', 600, 700, 'manuscript image.'); return false">3.1</a>-->) was "touching and naiv [sic]," and the English "Firstling" (<ref type="figure">3.2<figure>
+                <head>Firstling 3.2</head>
+                <figDesc>manuscript image</figDesc>
+                <graphic url="./versions/images/litmss-004371-0001.jpg" />
+            </figure></ref><!--<a href="#" onclick="jkpopimage('Firstling 3.2','./versions/images/litmss-004371-0001.jpg', 600, 700, 'manuscript image.'); return false">3.2</a>-->)
+ "bitter and grim". Indeed, these two poems represent two different 
+viewpoints: one is reflecting an 1896 viewpoint, while the other has the
+ hindsight perspective of 1923-24.  We can see this grimness in how the 
+Baroness replaced the entire "Aderbaum" (Vein-Tree) imagery of the six 
+German variants with a "cast-away rose" metaphor that remains constant 
+in all "Firstling" and "He" versions. The soiled innocence of the wilted
+ rose present in the English versions replaces the more immediate 
+sadness or dejection of the German poems that do not use abstract 
+expressions. </p>
+  <p>
+  Finally, the Baroness titles the poems with puns that draw on their 
+biographical context: the "He" of the poems refers to her once-lover 
+Ernst Hardt (1876-1947). She makes several puns out of his first and 
+last names that can only be understood when read bilingually. "Ernest" 
+provides the basis for wordplay such as "Erste" (or "First" in German), 
+"Er" (or "He" in English), "Ernste Lieb" (or "Serious Love") and "To 
+Earny/An Erni," which evokes in English what she saw as Hardt's 
+materialistic, money-making ambitions.<ptr target="#note8" xml:id="nr8" n="8" /> Likewise, his surname, Hardt, 
+becomes "heart" and "hard." The reductions and wordplay are lost if the 
+complex is not read as a performance over time in two languages.</p>
+  
+  
+  
+  </div>
+<div xml:id="concl">
+<head type="main">Conclusion</head>
+   <p> Ultimately, the goal of this edition is to set the multiple 
+dialectics we see at work in the Baroness's "Firstling/Erstling/He" 
+complex in conversation for readers. By presenting this rigorously 
+encoded (and thus deeply structured) and rather complicated edition with
+ many versions of the text that were written in two languages over two 
+decades, we are inviting scholars and readers to explore the dialectic 
+inherent to the creative process of disassembling and assembling text. 
+The fact that we have presented these poems in thirty-three transcribed,
+ translated, and imaged versions means that readers are not only enabled
+ to do their own textual assembling and disassembling, but, in this 
+process, they are invited to consider the role of documentary editing in
+ the digital age. Reduction and translation were some of the Baroness's 
+poetic methods and versioning is the process by which she enacted these 
+methods. Versioning is also the process we have used to create this 
+edition for readers. Certainly, the texts and the relationships we make 
+visible in this way allow readers to explore traditional-looking 
+documents (texts and images) with the kinds of advantages that a digital
+ edition can afford, but the fact that we can make this complex, 
+open-source text available online engages a new kind of affordance in 
+digital documentary editing: we are inviting all willing readers into 
+the messy performance of the textual performance of one text, to 
+explore, to create, and to perform their own readings.
+    </p></div></body>
+<back><div type="notes">
+
+  <note xml:id="note1">Roland Barthes, <hi rend="italic">Nouveaux essais critiques</hi> (Paris: ditions du Seuil, 1972,) 157.</note>
+
+<note xml:id="note2">It should be noted that in some ways this Barthesian sense of "text" and "work" is contrary to how the terms are used by some in the editorial community. </note>
+  
+<note xml:id="note3">See the <ref type="url" target="http://hdl.handle.net/1903.1/1501">biographical introduction</ref>
+ to the Elsa von Freytag-Loringhoven Papers at the University of 
+Maryland. For a thorough account, see  Irene Gammel's cultural biography <hi rend="italic">Baroness Elsa: Gender, Dada, and Everyday Modernity: a Cultural
+        Biography</hi>, Cambridge, Mass.: MIT Press, 2002.</note>
+  
+    <note xml:id="note4">Irene Gammel and Suzanne Zelaso have just published <hi rend="italic">Body Sweats</hi>, an edition of the Baroness's unpublished poems (see <hi rend="italic">Body Sweats: The Uncensored Writings of Elsa von Freytag-Loringhoven</hi>,
+        edited by Irene Gammel and Suzanne Zelaso. Boston: MIT Press, 2011).</note>
+
+
+<note xml:id="note5">Jerome J. McGann, <hi rend="italic">The Textual Condition</hi> (Princeton, N. J.: Princeton University Press, 1991), 21.</note>
+    <note xml:id="note6">Tanya Clement, "Knowledge Representation and Digital Scholarly Editions in
+        Theory and Practice." <hi rend="italic">Journal of the Text Encoding Initiative</hi> 1.1 (2011):
+        2-15.</note>
+<note xml:id="note7">Elsa von Freytag-Loringhoven, "Selections from the Letters of Elsa Baroness Von Freytag-Loringhoven," ed. Djuna Barnes,  <hi rend="italic">transition</hi> 11 (February 1928): 20.</note>
+    <note xml:id="note8">See "To Earny/Erni," <ref type="url" target="http://hdl.handle.net/1903.1/8720">Ser. III, Box 4, Fd. 19</ref>, image 2 of 4. The Baroness also wrote a satirical poem about her affair with Ernst Hardt and his materialistic ambitions; see Elsa von Freytag-Loringhoven, "Es hat mal einen Ernst gegeben," ed. &amp; tr., Gaby Divay &amp; Jan Horner (Winnipeg: University of Manitoba, Archives &amp; Special Collections, 2000), <ref type="url" target="http://home.cc.umanitoba.ca/~divay/frl/txt_hardt.html">http://home.cc.umanitoba.ca/~divay/frl/txt_hardt.html</ref>.</note>
+</div>
+
+<!--<div xml:id="bibl">
+  <list type="simple"><head type="main">Works Cited</head>       
+  <item>Barthes, Roland. <hi rend="italic">Nouveaux essais critiques</hi>. Paris: ditions
+    du Seuil, 1972.</item>
+  <item>Bellemin-Nol, Jean. "Psychoanalytic Reading and the Avant-texte." In <hi rend="italic">Genetic
+    Criticism: Texts and Avant-Textes</hi>, edited by Jed Deppman, Daniel
+    Ferrer, and Michael Groden, 28-35.  Philadelphia: University
+    of Pennsylvania Press, 2004.</item>
+  
+  <item>Clement, Tanya. "Knowledge Representation and Digital Scholarly Editions in
+    Theory and Practice." <hi rend="italic">Journal of the Text Encoding Initiative</hi> 1.1 (2011):
+    2-15.</item>
+      <item>Divay, Gaby. "Abrechnung und Aufarbeitung im Gedicht: Else von Freytag-Loringhoven &#252;ber
+          drei M&#228;nner (E. Hardt, A. Endell, F. P. Greve)." e-Ed, 2007.
+      <ref target="http://home.cc.umanitoba.ca/~divay/psg/frlAbr05.html" type="url">http://home.cc.umanitoba.ca/~divay/psg/frlAbr05.html</ref></item>
+  <item>&#8212;-. "Felix Paul Greve's &amp; Else von Freytag-Loringhoven's 1904/5 'Fanny
+      Essler' Poems: His or Hers?" e-Ed, March 2005. <ref type="url" target="http://home.cc.umanitoba.ca/~divay/FEArt/">http://home.cc.umanitoba.ca/~divay/FEArt/</ref></item>
+  
+  <item>Essler, Fanny. "Gedichte. Ein Portr&#228;t: drei Sonette. Gedichte." <hi rend="italic">Die
+    Freistatt </hi>(1904/5), e-edited by Gaby Divay. 2005.
+      <ref target="http://home.cc.umanitoba.ca/~divay/FEPoems05/index.html#toc" type="url">http://home.cc.umanitoba.ca/~divay/FEPoems05/index.html#toc</ref></item>
+  <item>Freytag-Loringhoven, Elsa von. [Autobiography]. University of Maryland, College Park, Literary Manuscripts. Typescript.</item>
+  <item>&#8212;-. <hi rend="italic">Body Sweats: The Uncensored Writings of Elsa von Freytag-Loringhoven</hi>,
+    edited by  Irene Gammel and Suzanne Zelaso. Boston: MIT Press, 2011.</item>
+      <item>&#8212;-. "Cosmic Arithmetic." In  <hi rend="italic">In Transition</hi>, 2009. <ref type="url" target="http://digital.lib.umd.edu/transition/poem.jsp?pid=umd:55439">http://digital.lib.umd.edu/transition/poem.jsp?pid=umd:55439</ref></item>
+  
+  <item>&#8212;-. <hi rend="italic">The Elsa von Freytag-Loringhoven Papers</hi>. College Park, 
+MD: University
+    of Maryland, Literary Manuscripts. Collection. 
+      <ref type="url" target="http://digital.lib.umd.edu/archivesum/actions.DisplayEADDoc.do?source=MdU.ead.litms.0009.xml&amp;style=ead">http://digital.lib.umd.edu/archivesum/actions.DisplayEADDoc.do?source=MdU.ead.litms.0009.xml&amp;style=ead</ref></item>
+  <item>&#8212;-. "Es hat mal einen Ernst gegeben." Bilingual e-Ed. Feb. 2004. http://home.cc.umanitoba.ca/~divay/frl/txt_hardt.html</item>
+  <item>&#8212;-. "Firstling." In <hi rend="italic"> Body Sweats: The Uncensored Writings
+    of Elsa von Freytag-Loringhoven</hi>, edited by Irene Gammel and Suzanne
+    Zelaso, 55. Boston: MIT Press, 2011. ["Firstling" version 3.2 in the
+    present digitized edition] </item>
+  <item>&#8212;-. <hi rend="italic">In Transition: Selected Poems by the
+    Baroness Elsa von Freytag-Loringhoven</hi>, edited by  Tanya Clement.
+      College Park, MD: University of Maryland Libraries, 2009. <ref type="url" target="http://digital.lib.umd.edu/transition/index.jsp">http://digital.lib.umd.edu/transition/index.jsp</ref></item>
+  
+  <item>&#8212;-. "Puckellonders sonderbare Geschichte." Bilingual
+      e-Ed. 2001. <ref type="url" target="http://home.cc.umanitoba.ca/~divay/frl/txt_endell.html">http://home.cc.umanitoba.ca/~divay/frl/txt_endell.html</ref></item>
+  
+<item>&#8212;-. "Selections from the Letters of Elsa Baroness Von Freytag-Loringhoven." Edited by Djuna Barnes. <hi rend="italic">transition</hi> 11 (February 1928): 19-30.
+</item>
+   
+  <item>Friedrich, Otto. <hi rend="italic">Before the Deluge: a Portrait of Berlin in the 1920s</hi>.
+    New York: Harper Perennial, 1995.</item>
+  <item>Gammel, Irene. <hi rend="italic">Baroness Elsa: Gender, Dada, and Everyday Modernity: a Cultural
+    Biography</hi>. Cambridge, Mass.: MIT Press, 2002.</item>
+  <item>Gammel, Irene, and Suzanne Zelazo. "'Harpsichords Metallic Howl': The Baroness
+    Elsa von Freytag-Loringhoven's Sound Poetry." <hi rend="italic">Modernism/modernity</hi> 18.2
+    (2011): 255-271.</item>
+  
+  <item>Greve, Felix Paul. <hi rend="italic">Fanny Essler: ein Berliner Roman</hi>. Stuttgart: A.
+    Juncker, [1905].</item>
+  <item>Grove, Frederick Philip. <hi rend="italic">The Papers of Frederick Philip Grove</hi>.
+ Winnipeg:
+    University of Manitoba, Archives &amp; Special Collections. 
+Collection. 
+      <ref target="http://www.umanitoba.ca/libraries/units/archives/collections/fpg/index.html" type="url">http://www.umanitoba.ca/libraries/units/archives/collections/fpg/index.html</ref></item>
+  <item>  &#8212;-.<hi rend="italic"> Poems/Gedichte</hi>, edited by  Gaby Divay. Winnipeg: Wolf-Verlag,
+    1993.</item>
+  
+      <item>&#8212;-. <hi rend="italic">Poems/Gedichte</hi>, edited by  Gaby Divay. e-Ed., 2007. <ref type="url" target="http://www.umanitoba.ca/libraries/units/archives/collections/fpg/pEd/index.html">http://www.umanitoba.ca/libraries/units/archives/collections/fpg/pEd/index.html</ref></item>
+  <item>Hardt, Ernst. <hi rend="italic">Briefe an Ernst Hardt: eine Auswahl aus den Jahren
+    1898-1947</hi>, edited by Tilla Goetz-Hardt, Jochen Meyer. Marbach:
+    Deutsches Literaturarchiv, 1975.</item>
+  <item>McGann, Jerome J. <hi rend="italic">The Textual Condition</hi>. Princeton, N. J.: Princeton
+    University Press, 1991.</item>
+      <item>Schrader, B&#228;rbel, and J&#252;rgen Schebera. <hi rend="italic">The Golden Twenties: Art
+    and Literature in the Weimar Republic</hi>. New Haven: Yale University Press,
+    1988.</item>
+  
+      <item>Sch&#252;ssler, Susanne. <hi rend="italic">Ernst Hardt: eine monographische Studie</hi>. Frankfurt
+    ; New York: P. Lang, c1994.</item>
+  <item>Richter, Hans. <hi rend="italic">Dada: Art and Anti-Art</hi>. New York: McGraw-Hill, 1965.</item>
+  <item>Vanhoutte, Edward. "Prose Fiction and Modern Manuscripts." In <hi rend="italic">Electronic
+    Textual Editing</hi>, edited by  Lou
+    Burnard, Katherine O'Brien O'Keeffe, and John Unsworth, 161-180. New York:
+    Modern Language Association of America, 2006.</item></list>
+</div>-->
+
+</back>   
+
+
+    </text>
+</TEI>

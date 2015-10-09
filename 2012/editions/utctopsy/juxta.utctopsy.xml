@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Juxta Instructions: "Uncle Tom's Cabin: A Digital Critical
+                    Edition: 'Topsy'" </title>
+                <author>Wesley Raabe</author>
+                <author>Les Harrison</author>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="wr">Wesley Raabe</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="lh">Les Harrison</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">juxta.utctopsy</idno>
+                <idno type="edition">utctopsy</idno>
+           
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="aag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+             
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            
+            <change when="2012-02-15" who="#awj">Initial Creation</change>
+            <change when="2012-02-15" who="#wr">Minor correction and expansion of instructions.</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+<head type="main">Instructions for Download and Use of Juxta Files</head>
+            <head type="sub">A Selection from &#8220;<hi rend="italic">Uncle
+                Tom&#x2019;s Cabin</hi>: A Digital
+                Critical Edition: &#8216;Topsy,&#8217;&#8239;&#8221; </head>
+            <byline>Wesley Raabe</byline>
+            <byline>Les Harrison</byline>
+        </front>
+        <body>
+            <list type="ordered">
+                <item>Download Juxta software at <ref type="url" target="http://www.juxtasoftware.org/">http://www.juxtasoftware.org/</ref>. Juxta,
+                    available in version 1.6 at this writing, runs on Java 1.5
+                    and is available for Windows, Macintosh, and Linux.
+                    Full documentation for Juxta is available on that site.
+                </item>
+                <item>Install Juxta.</item>
+                <item>Download the zipped or compressed archive for this
+                    edition from <ref type="url" target="http://www.scholarlyediting.org/2012/editions/utctopsy/utc_xml_juxta.zip">this link</ref>,
+                and expand or unzip the file as required by your operating system.</item>
+                <item>Open Juxta. By default, Juxta opens to a welcome file. From the File menu,
+                    click &#8220;Open Comparison Set,&#8221; navigate to the location to which you downloaded
+                    and expanded or unzipped the file named &#8220;utc_xml_juxta.zip&#8221; in the previous step,
+                    and open the file named &#8220;SchEdit_UTC_DigCritEd_Topsy.jxt.&#8221;</item>
+                <item>To create a print apparatus, from the File menu, click &#8220;Generate Critical Apparatus.&#8221; </item>
+                <item>The file ERA.XML contains the <hi rend="italic">National Era</hi> text. The file J2V.XML contains the Jewett two-volume edition text. The file JIL.XML contains the Jewett &#8220;Illustrated Edition&#8221; text. The file JPB.XML contains the Jewett &#8220;Million&#8221; edition text.  And the file HO.XML contains the Houghton Osgood &#8220;New Edition&#8221; text. The files in this archive are copies of the source files presently in use in the edition.
+                </item>
+                
+                
+                <item>You may, as you wish, open and review the XML source files. The encoding
+                    includes regularized forms for line-end hyphenation and UNICODE character references
+                    for thin spaces, ligature letters, etc., which are documented in the TEI header.
+                    To receive fewer variants in Juxta collation results, you may need to experiment with
+                    ignoring white space or punctuation. You may also wish to create a new Juxta
+                    file that ignores certain tagged data. Users who are unfamiliar with XML are advised to begin with the <ref type="url" target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html">the TEI Gentle Introduction to XML</ref> or one of the many resources available for learning XML. 
+                    </item>
+               
+            </list>    
+            
+            <p>This data is available for your use under an Attribution-NonCommercial-ShareAlike 3.0 Unported License. </p>
+           
+</body>
+        
+    </text>
+</TEI>

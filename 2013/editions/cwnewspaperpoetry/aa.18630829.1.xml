@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630829.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Ode to Freedom and Unity</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630829.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#a">Aleph</author>
+                        <title level="a">Ode to Freedom and Unity</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-08-29">29 August 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="a">Unknown</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-28" who="#el">added and encoded additional editorial notes</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-29" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-24" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630829.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18630829.pp1_cropped.jpg"/>
+            </zone> 
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630829.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630829.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630829.pp4.jpg"/> 
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">ODE TO FREEDOM AND UNITY.</head>                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Our</emph> Father's God, to Thee&#8212;</l>
+                    <l rend="indented4">Pillar of Liberty</l>
+                    <l rend="indented4">Unto this hour&#8212;</l>
+                    <l>We lift our longing eyes;</l>
+                    <l>Great Ruler of the skies,</l>
+                    <l>Scatter our enemies</l>
+                    <l rend="indented4">By Thy great Power!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Our Father's Guardian, Thou,</l>
+                    <l>Before Thy throne we bow,</l>
+                    <l rend="indented4">Thine aid implore;</l>
+                    <l>Thou who has kept till now,</l>
+                    <l>And registered each vow,</l>
+                    <l>O be <emph rend="italic">our</emph> Guardian now,</l>
+                    <l rend="indented4">Hence, evermore!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Where mad Ambition reigns,</l>
+                    <l>And desolates our plains</l>
+                    <l rend="indented4">With Treason's harms,</l>
+                    <l>Do Thou thyself attend;</l>
+                    <l>Let War's dread carnage end,</l>
+                    <l>Our liberties defend;</l>
+                    <l rend="indented4">God speed our arms!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Eternal Spirit, deign</l>
+                    <l>O'er all our hearts to reign,</l>
+                    <l rend="indented4">Our country bless;</l>
+                    <l>Bind fast our Union's chain,</l>
+                    <l>O'er island land and main,</l>
+                    <l>Let glorious Freedom reign&#8212;</l>
+                    <l rend="indented4">And Righteousness!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Angel of peace, descend!</l>
+                    <l>To us thy succor lend</l>
+                    <l rend="indented4">In peril's hour;</l>
+                    <l>Come with thine angel-band,</l>
+                    <l>Breathe love through all the land,</l>
+                    <l>Firm may we ever stand</l>
+                    <l rend="indented4">In Love's own power!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Angel of heavenly grace,</l>
+                    <l>Bid all our jarrings cease,</l>
+                    <l rend="indented4">This nation save!</l>
+                    <l>O break the bondman's chain!</l>
+                    <l>Unite us once again!</l>
+                    <l>Let Truth and Justice reign!</l>
+                    <l rend="indented4">Aid thou the brave!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Thou who hadst guided us</l>
+                    <l>Till sin divided us&#8212;</l>
+                    <l rend="indented4">And war arose:</l>
+                    <l>God of immortal power,</l>
+                    <l>Be thou our guide this hour;</l>
+                    <l>Vouchsafe a gracious shower&#8212;</l>
+                    <l rend="indented4">Rebuke our foes!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>We own Thy dreadful hand</l>
+                    <l>Brings evil on our land</l>
+                    <l rend="indented4">In this sad hour;</l>
+                    <l>O God! In mercy, now,</l>
+                    <l>That penitence bestow</l>
+                    <l>Which soothes the bondman's woe,</l>
+                    <l rend="indented4">And aids the poor.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Our sins have caused us shame,</l>
+                    <l>We have blasphemed Thy name&#8212;</l>
+                    <l rend="indented4">Incurred Thine ire:</l>
+                    <l>We've spread oppression's reign,</l>
+                    <l>Mocked at our brother's pain,</l>
+                    <l>Borne Freedom's shield in vain&#8212;</l>
+                    <l rend="indented4">And holy fire!</l>
+            </lg>
+            </lg>
+            
+            <dateline>Ship Island, Miss., July 13, 1863.<note type="editorial" resp="#bw #el">A barren but strategically important island twelve miles off the Mississippi coast, occupied by Union army regiments from December 1861. Fort Massachusetts dominated the island's western end. A prison was established there in 1862; initially for Union and Confederate soldiers and Confederate sympathizers, it served as a Confederate prisoner of war camp after October 1864 (David C. Rankin, ed., <title level="m">Diary of a Christian Soldier: Rufus Kinsley and the Civil War</title> [Cambridge: Cambridge University Press, 2004], 42). Union regiments served on Ship Island throughout the war&#8212;most of them for short periods of time. The Second Regiment of Louisiana Native Guards (later the Second Regiment Corps D'Afrique, then the Seventy-Fourth United States Colored Troops) stayed there for over two years, from January 1863 until fall 1865. One of their main duties was to guard the prisoners.</note></dateline>     
+            <byline rend="right"><emph rend="smallcaps">Aleph</emph>.<note type="editorial" resp="#bw #el">Aleph is the first letter of the Hebrew alphabet. A correspondent who wrote under the pen name "Aleph" provided the <title level="j">Christian Recorder</title> with Cincinnati correspondence between May 1862 and October 1863; it is, however, unlikely that the same writer produced "Ode to Freedom and Unity." Given that there was little on Ship Island to entice most civilians, Aleph was probably a soldier, prisoner, or an interested visitor.</note></byline>
+            <note type="newspaper-editorial">&#8212;<title level="j">New Orleans L'Union</title>.<note type="editorial" resp="#bw #el"><p><title level="j">L'Union</title> was established as a French-language biweekly in September 1862, by a group of free Afro-Creoles based in New Orleans. The <title level="j">Christian Recorder</title> described it as an "Anti-Slavery paper" that "addresses itself, in particular, to the French people of color, to whom it appeals in stirring articles, to join the Union troops and aid them in the establishment of a 'Republican system without stain, of a democracy without fetters'" (November 15, 1862, [3]). Historian David Rankin qualifies the <title level="j">Recorder</title>'s emphasis on abolition: "<title level="j">L'Union</title> had championed the abolition of slavery, but the paper was above all concerned with the special interests of the free colored caste, which was predominantly middle class, French speaking, light colored, free born, and Catholic. Indeed, <title level="j">L'Union</title> feared that the crusade against slavery might totally eclipse the free colored campaign for political equality" (David C. Rankin, introduction to <title level="m">My Passage at the New Orleans <title level="j">Tribune</title>: A Memoir of the Civil War Era</title>, by Jean-Charles Houzeau, trans. Gerard F. Denault [Baton Rouge: Louisiana State University Press, 1984], 34).</p><p>Paul Tr&#233;vigne (1825&#8211;1908) served as the title's editor. Its inaugural editorial comprised a rallying cry addressed to "friends of Progress": "The hour has come for the struggle of the great humanitarian principles against a vile and sordid interest which gives birth to pride, ambition, hypocrisy, and lying, and silences the conscience, that voice of the heavens which cries endlessly to man: 'You were born for liberty and happiness! Do not deceive yourself in this and do not deceive your brother!'" (September 27, 1862, quoted by Rankin, 20). Planters threatened to attack the newspaper's office. <title level="j">L'Union</title> became a triweekly in December 1862. In July 1863 <title level="j">L'Union</title> urged its readers to volunteer in response to Confederate advances. From July 9, 1863 until its closure in mid July 1864, the title was published in French and English (20). In July 1864 Louis Charles Roudanez bought <title level="j">L'Union</title>; two days after its closure, he launched the <title level="j">New Orleans Tribune</title>.</p></note></note>
+        </body>
+        
+    </text>
+</TEI>
+
+
+
+
+
+

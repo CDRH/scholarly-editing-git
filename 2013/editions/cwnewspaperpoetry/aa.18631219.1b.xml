@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18631219.1b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Contraband's Answer</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18631219.1b</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#fewh">F. E. W. Harper</author>
+                        <title level="a">The Contraband's Answer</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-12-19">19 December 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="fewh">Harper, Frances Ellen Watkins, 1825-1911</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>African American families--History--19th century</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Antislavery movements--United States--History--19th century</term>
+                    <term>Citizenship--United States--History--19th century</term>
+                    <term>Confederate States of America--Social conditions</term>
+                    <term>Freedmen--1860-1870</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slaves--Emancipation--United States</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-16" who="#el">revised encoding</change>
+            <change when="2012-10-07" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-29" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-28" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked</change>
+            <change when="2012-05" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18631219.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18631219.pp1b_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18631219.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18631219.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18631219.pp4.jpg"/>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">THE CONTRABAND'S<note type="editorial" resp="#bw #el">General Benjamin F. Butler, commander at Fortress Monroe, defined fugitive slaves as "contraband of war" in the summer of 1861. Labeled as rebel property, runaway slaves could be confiscated by Union troops; doing so would deprive the Confederate war effort of manpower and secure military laborers for federal commanders, without challenging slavery on legal grounds. Secretary of War Simon Cameron approved the policy, which was consolidated by the terms of the First Confiscation Act. See <title level="m">Freedom: A Documentary History of Emancipation, 1861&#8211;1867</title>, ed. Ira Berlin, et al. (Cambridge: Cambridge University Press, 1985), series 1, 1:15&#8211;16.</note> ANSWER.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <head type="sub" subtype="authorial" rend="center">"EVERYTHING IS LOVELY."</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">The</emph> blue sky arching overhead,</l>
+                    <l>The green turf 'neath my daily tread,</l>
+                    <l>All glorified by freedom's light,</l>
+                    <l>Grow fair and lovely to my sight.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The very winds that sweep along,</l>
+                    <l>Seem burdened with a lovely song;</l>
+                    <l>Nor shrieks, nor groans of grief or fear,</l>
+                    <l>Float on their wings and join my ear!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>No more with dull and aching breast,</l>
+                    <l>'Roused by the horn I arise from rest;</l>
+                    <l>Content and cheerful with my lot,</l>
+                    <l>I greet the Sun and leave my cot.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>For darling child and loving wife,</l>
+                    <l>I toll with newly-wakened life;</l>
+                    <l>The light that lingers 'round her smile</l>
+                    <l>The shadows from my soul beguile.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The prattle of my darling boy,</l>
+                    <l>Fills my old heart with untold joy!</l>
+                    <l>Before his laughter, mirth and song,</l>
+                    <l>Fade out long scores of grief and wrong.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Oh! never did the world appear</l>
+                    <l>So lovely to mine eye and ear!</l>
+                    <l>'Till freedom came with joy and peace,</l>
+                    <l>And bade my hateful bondage cease.</l>
+                </lg>
+            </lg>
+            
+            
+            <dateline>Grove City, Ohio, Nov. 9th, 1863.<note type="editorial" resp="#bw #el"><p>The poem's dateline places its composition after the Emancipation Proclamation (January 1, 1863). Lincoln's final Emancipation Proclamation freed slaves throughout Confederacy; although the proclamation did not touch slavery in loyal border states and exempted Union-occupied regions of Louisiana and Virginia as well as Tennessee, abolitionists recognized and celebrated it as a great step forward. Harper marveled at the government's progress, thanking God that "in the hour when the nation's life was convulsed . . . the President reached out his hand through the darkness to break the chains on which the rust of centuries had gathered" (letter quoted in William Still, <title level="m">The Underground Rail Road</title> [Philadelphia: Porter and Coates, 1872], 766).</p><p>During the fall of 1863, Harper would express doubts about Lincoln's commitment to abolition (see <ref target="aa.18631212.4">"The Sin of Achan"</ref> [<title level="j">Anglo-African </title>, December 12, 1863]), but these concerns feature nowhere in "The Contraband's Answer," which celebrates the Proclamation as the agent of a glorious transformation. The poem explores the implications of the quotation-epigraph&#8212;presented as a freedman's emphatic response to an implied question about the effects of emancipation. Readers and listeners are engaged as the intended recipients of the speaker's address.</p></note></dateline>
+            <byline rend="right"><emph rend="smallcaps">F. E. W. Harper</emph>.<note type="editorial" resp="#bw #el"><p>Frances Ellen Watkins Harper (1825&#8211;1911), activist, orator, and writer. Born Frances Ellen Watkins in Baltimore, Maryland, Harper was raised by her aunt and schoolmaster uncle after the death of her parents. She received a rigorous education at the Reverend William Watkins's Academy for Negro Youth and took part in antislavery activities with his family. In her midtwenties, she taught in Ohio and Pennsylvania. She pledged herself to the antislavery movement in response to the death of a free black man whom Maryland authorities had arrested and sent into slavery for the crime of entering the state. In 1854, she began to lecture for the Maine Anti-Slavery Society. Her <title level="m">Poems of Miscellaneous Subjects</title> appeared in the same year (the first of ten volumes of poetry published between 1854 and 1901). In November 1859 she championed militant abolitionist John Brown as "the hero of the nineteenth century" (William Still, <title level="m">The Underground Rail Road</title> [Philadelphia: Porter and Coates, 1872], 762).</p><p>Harper continued to lecture with great success until late 1860, when she married Fenton Harper, a widower with three children. The family moved to a farm in Grove City, Ohio, where Harper managed their domestic life and wrote for the antislavery press. The <title level="j">Christian Recorder</title> of September 27, 1862, printed her criticisms of Lincoln in late September 1862: "The President's dabbling with Colonization just now, suggests to my mind the idea of a man almost dying with a loathsome cancer, and busying himself about having his hair trimmed according to the latest fashion." The Emancipation Proclamation raised her hopes, and she returned to the platform to speak on "the President's Proclamation." "I know that all is not accomplished," she told William Still, "but we may rejoice in what has been already wrought,&#8212;the wondrous change in so short a time" (766). Her poems appeared in the <title level="j">Anglo-African</title>, the <title level="j">Free Nation</title>, and other newspapers. As "a form of public speech addressed to concrete, empirically identifiable others" (Paula Bernat Bennett, <title level="m">Poets in the Public Sphere: The Emancipatory Project of American Women's Poetry, 1800&#8212;1900</title> [Princeton, NJ: Princeton University Press, 2003], 5), these pieces represent a continuation of her mission as a lecturer. The newspaper served as another platform.</p><p>Fenton Harper's death precipitated a financial crisis in May 1864: the contents of the family home were seized by creditors. Harper returned to the lecture circuit and "turned her attention to Reconstruction, temperance, education, moral reform, and women's rights" (Shirley Wilson Logan, <title level="m">'We Are Coming': The Persuasive Discourse of Nineteenth-Century Black Women</title> [Carbondale: Southern Illinois University Press, 1999], 48). She and Edmonia Highgate were the only women to address the National Convention of Colored Men in the fall of 1864. After the war, she lectured throughout the South. Her first serialized novel, <title level="m">Minnie's Sacrifice</title>, appeared in 1869. After the publication of <title level="m">Iola Leroy; or, Shadows Uplifted</title> (1892), she helped found the National Association of Colored Women (1896).</p></note></byline>
+            <note type="newspaper-editorial">&#8212;<title level="j">The Free Nation</title>.<note type="editorial" resp="#bw #el"><p>Published by Amos Moore and edited by the Reverend Charles Brandon Boynton, the Cincinnati-based <title level="j">Free Nation</title> claimed to be the "Largest and Cheapest Literary and Anti-Slavery Family Paper in the West" (<title level="m">Prospectus of the Free Nation</title> [Cincinnati: Moore, 1862]). The weekly paper aimed "to promote the Interests of the whole Human Family&#8212;to remove the great sin of American Slavery&#8212;to teach a pure Christianity without Sectarianism, and to supply the reading public with a high-toned Literature" (<title level="m">Prospectus</title>).</p>
+                
+                <p>Launched in February 1861, the <title level="j">Free Nation</title> was shaped by the secession crisis and the war. In 1862 Moore and Boynton advertised its Unionist character and Republican principles: "As its name implies, it will maintain that the United States are a Nation, 'one and inseparable,' not a mere Confederacy; it will endeavor to strengthen and extend Free Institutions as the only sure ground of permanence and prosperity for all, and in the belief that Freedom is our national idea" (<title level="m">Prospectus</title>). Moore continued to publish a paper under this title until at least 1869 (Geo. E. Stevens, <title level="m">The City of Cincinnati, A Summary of Its Attractions, Advantages, Institutions and Internal Improvements, with a Statement of its Public Charities</title> [Cincinnati: Blanchard, 1869], 190).</p>
+                
+                <p>Antislavery minister Boynton (1806&#8211;1883) led Cincinnati's Vine Street Congregational Church throughout the war. In 1865 he moved to Washington, DC and was appointed chaplain of the House of Representatives (1865&#8211;69). His books included the <title level="m">Free Soil Journey through Kansas; with Sketches of Nebraska</title> (Cincinnati: Moore, Wilstach, Keys and Co, 1855), and the two-volume <title level="m">History of the Navy during the Rebellion</title> (New York: Appleton, 1867&#8211;68).</p></note></note>
+        </body>
+        
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+

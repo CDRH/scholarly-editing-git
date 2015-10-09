@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630627.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Second Louisiana</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630627.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#ghb">George H. Boker</author>
+                        <title level="a">The Second Louisiana</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-06-27">27 June 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="ghb">Boker, George H. (George Henry), 1823-1890</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African American soldiers.</term>
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>United States. Army. Louisiana Infantry Regiment, 2nd (1862-1865)</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-16" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-23" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-21" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630627.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18630627.pp1_cropped.jpg"/>
+            </zone>  
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630627.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630627.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630627.pp4.jpg"/>    
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">THE SECOND LOUISIANA.<note type="editorial" resp="#bw #el"><p>The First and Third Regiments of Louisiana Native Guards bravely attacked Port Hudson on May 27, 1863. Some newspaper correspondents mistakenly reported that it was the Second Regiment which had taken part in the assault. In the summer of 1863 Boker's poem circulated in the antislavery press under the title "The Second Louisiana" (see also "The Second Louisiana" in the <title level="j">Christian Recorder</title>, June 13, 1863, and <ref target="aa.18630627.1">"The Second Louisiana"</ref> in the <title level="j">Anglo-African</title>, June 27, 1863). Boker probably wrote the poem in response to early reports, then changed the title to "The Black Regiment" when the mistake became apparent.</p><p>"Col. Daniel's Second Louisiana negro regiment distinguished itself . . . especially in charging upon the enemy's siege guns, losing killed and wounded over 600," reported the <title level="j">Boston Daily Evening Transcript</title> of June 6, 1863 (quoted by James G. Hollandsworth, <title level="m">The Louisiana Native Guards: The Black Military Experience during the Civil War</title> [Baton Rouge: Louisiana State University Press, 1995], 63). "Nobly done, Second Regiment of Louisiana," proclaimed the <title level="j">Liberator</title> a fortnight later. General Nathaniel Banks's official report praised the First and Third Regiments. The <title level="j">Anglo-African</title> of June 13, 1863, brushed aside reporters' confusion as to which Louisiana regiments had taken part in the battle: "It is immaterial which statement is true, so long as the great fact remains; <emph rend="italic">that no such fighting has been seen since the war began</emph>."</p><p>"The Second Louisiana" had appeared in the <title level="j">National Anti-Slavery Standard</title> of June 20,1863, and it is likely that the <title level="j">Anglo-African</title> reprinted the poem from the <title level="j">Standard</title>. The texts of the <title level="j">Standard</title> and <title level="j">Anglo-African</title> printings are virtually identical; in line 47, the <title level="j">Anglo-African</title>'s "battle-cry" appears as "battle cry" in the <title level="j">Standard</title>, and the <title level="j">Anglo-African</title> text offers colons in place of two semicolons in the <title level="j">Standard</title> text (see lines 25 and 57).</p></note></head>
+                
+                
+                <dateline rend="center">MAY 27TH, 1863.</dateline>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Dark</emph> as the clouds of even,</l>
+                    <l>Ranked in the western heaven,</l>
+                    <l>Waiting the breath that lifts</l>
+                    <l>All the dread mass, and drifts</l>
+                    <l>Tempest and falling brand</l>
+                    <l>Over a ruined land;&#8212;</l>
+                    <l>So still and orderly,</l>
+                    <l>Arm to arm, knee to knee,</l>
+                    <l>Waiting the great event,</l>
+                    <l>Stands the black regiment.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Down the long dusky line</l>
+                    <l>Teeth gleam and eyeballs shine;</l>
+                    <l>And the bright bayonet,</l>
+                    <l>Bristling and firmly set,</l>
+                    <l>Flashed with a purpose grand,</l>
+                    <l>Long ere the sharp command</l>
+                    <l>Of the fierce rolling drum</l>
+                    <l>Told them their time had come,</l>
+                    <l>Told them what work was sent</l>
+                    <l>For the black regiment.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Now," the flag-sergeant cried,</l>
+                    <l>"Though death and hell betide,</l>
+                    <l>Let the whole nation see</l>
+                    <l>If we are fit to be</l>
+                    <l>Free in this land; or bound</l>
+                    <l>Down, like the whining hound&#8212;</l>
+                    <l>Bound with red stripes of pain</l>
+                    <l>In our old chains again!"</l>
+                    <l>Oh! what a shout there went</l>
+                    <l>From the black regiment!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Charge!" Trump and drum awoke;</l>
+                    <l>Onward the bondmen broke;</l>
+                    <l>Bayonet and saber-stroke</l>
+                    <l>Vainly opposed their rush.</l>
+                    <l>Through the wild battle's crush,</l>
+                    <l>With but one thought aflush,</l>
+                    <l>Driving their lords like chaff,</l>
+                    <l>In the guns' mouths they laugh;</l>
+                    <l>Or at the slippery brands</l>
+                    <l>Leaping with open hands,</l>
+                    <l>Down they tear man and horse,</l>
+                    <l>Down in their awful course;</l>
+                    <l>Trampling with bloody heel</l>
+                    <l>Over the crashing steel,</l>
+                    <l>All their eyes forward bent,</l>
+                    <l>Rushed the black regiment.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Freedom!" their battle-cry&#8212;</l>
+                    <l>"Freedom! or leave to die!"<note type="editorial" resp="#bw #el">Here&#8212;and at several other points in the poem&#8212;Boker all but quotes Alfred Lord Tennyson's famous "The Charge of the Light Brigade" (1854). These deliberate references situate the Louisiana soldiers as an African American "Light Brigade" of equal and indisputable bravery. Boker's contemporaries drew the same parallel: a "special" for the <title level="j">Boston Journal</title> reported that "We never saw a more literal rendering of Tennyson's famous 'Charge of the Light Brigade' [than] on the upper works of Port Hudson" (reprinted in the <title level="j">Anglo-African</title>, June 27, 1863).</note></l>
+                    <l>Ah! and they meant the word,</l>
+                    <l>Not as with us 'tis heard,</l>
+                    <l>Not a mere party-shout:</l>
+                    <l>They gave their spirits out;</l>
+                    <l>Trusted the end to God,</l>
+                    <l>And on the gory sod</l>
+                    <l>Rolled in triumphant blood.</l>
+                    <l>Glad to strike one free blow,</l>
+                    <l>Whether for weal or woe<unclear resp="#el" reason="illegible" cert="high">;</unclear></l>
+                    <l>Glad to breathe one free breath,</l>
+                    <l>Though on the lips of death.</l>
+                    <l>Praying&#8212;alas! in vain!&#8212;</l>
+                    <l>That they might fall again,</l>
+                    <l>So they could once more see</l>
+                    <l>That burst to liberty!</l>
+                    <l>This was what "freedom" lent</l>
+                    <l>To the black regiment.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Hundreds on hundreds fell;</l>
+                    <l>But they are resting well;</l>
+                    <l>Scourges and shackles strong</l>
+                    <l>Never shall do them wrong.</l>
+                    <l>O, to the living few,</l>
+                    <l>Soldiers, be just and true!</l>
+                    <l>Hail them as comrades tried;</l>
+                    <l>Fight with them side by side;</l>
+                    <l>Never, in field or tent,</l>
+                    <l>Scorn the black regiment!</l>
+                </lg>
+                
+                
+                <byline rend="right"><emph rend="smallcaps">George H. Boker.</emph><note type="editorial" resp="#bw #el">Philadelphian George Henry Boker (1823&#8211;1890) gave up the law for a literary life in the 1840s. He wrote several plays, but success on the stage proved elusive; nevertheless, his household included several servants by 1860 (census records list his occupation as "Gent"). When the war broke out, Boker turned from drama to patriotic verse. He also cofounded Philadelphia's Union League in the winter of 1862; in addition to serving as the league's secretary, he used public poetry to promote Unionist sentiment in and beyond the city. His tribute to the "The Second Louisiana" was probably part of this larger mission. The poem was a hit in abolitionist circles. Oliver Wendell Holmes went into ecstasies: "I thank God, dear Mr Boker, that he has disposed you to consecrate your fine gifts to the cause of freedom and humanity" (quoted in Edward Sculley Bradley, <title level="m">George Boker: Poet and Patriot</title> [Philadelphia: University of Pennsylvania Press, 1927], 211).</note></byline>
+            </lg>
+        </body>
+        
+    </text>
+</TEI>
+
+
+

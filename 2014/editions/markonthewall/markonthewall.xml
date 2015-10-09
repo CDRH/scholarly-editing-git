@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+ <fileDesc>
+ <titleStmt>
+  <title level="m" type="main">Comparing Marks: A Versioning Edition of Virginia Woolf's "The Mark on the Wall" </title>
+  <respStmt>
+  <resp>Transcription and encoding</resp>
+  <name>Emily McGinn</name>
+  <name>Amy Leggette</name>
+  <name>Matthew Hannah</name>
+  <name>Paul Bellew</name>
+  </respStmt>
+ </titleStmt>
+   <publicationStmt>
+     <idno type="file">markonthewall</idno>
+     <idno type="edition">markonthewall</idno>
+     <authority>Scholarly Editing: The Annual of the Association for Documentary
+       Editing</authority>
+     <address><addrLine>http://www.scholarlyediting.org</addrLine></address>
+     <publisher>Association for Documentary Editing</publisher>
+     <publisher>University of Nebraska–Lincoln</publisher>
+     <distributor>
+       <name>Center for Digital Research in the Humanities</name>
+       <address>
+		        <addrLine>319 Love Library</addrLine>
+		        <addrLine>University of Nebraska–Lincoln</addrLine>
+		        <addrLine>Lincoln, NE 68588-4100</addrLine>
+		        <addrLine>http://cdrh.unl.edu</addrLine>
+		      </address>
+     </distributor>
+     <date>2014</date>
+     <availability>
+       <p>Scholary Editing: The Annual of the Association for Documentary Editing is freely
+         distributed by the Association for Documentary Editing and the Center for Digital
+         Research in the Humanities at the University of Nebraska-Lincoln and licensed
+         under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+         License</p>
+     </availability>
+   </publicationStmt>
+   <seriesStmt>
+     <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+       Editing</title>
+     <respStmt>
+       <resp>editor</resp>
+       <name xml:id="ag">Amanda Gailey</name>
+     </respStmt>
+     <respStmt>
+       <resp>editor</resp>
+       <name xml:id="awj">Andrew Jewell</name>
+     </respStmt>
+     <idno type="vol">35</idno>
+     <idno type="ISSN">2167-1257</idno>
+   </seriesStmt>
+ <sourceDesc>
+     <listWit>
+         <witness xml:id="ho17">Woolf, Virginia. “The Mark on the Wall.” In <emph>Two Stories</emph>. Richmond: Hogarth Press, 1917.</witness>
+         <witness xml:id="ho19">Woolf, Virginia. <emph>The Mark on the Wall</emph>. 2nd ed. Richmond: Hogarth Press, 1919.</witness>
+         <witness xml:id="ho21">Woolf, Virginia. “The Mark on the Wall.” In <emph>Monday or Tuesday</emph>. Richmond: Hogarth Press, 1921.</witness>
+         <witness xml:id="har21">Woolf, Virginia. “The Mark on the Wall.” In <emph>Monday or Tuesday</emph>. New York: Harcourt Brace and Co., 1921.</witness>
+         <witness xml:id="har44">Woolf, Virginia. “The Mark on the Wall.” In <emph>A Haunted House and Other Short Stories</emph>. New York: Harcourt Brace and Co., 1944.</witness>
+         <witness xml:id="ho45">Woolf, Virginia. “The Mark on the Wall.” In <emph>A Haunted House and Other Short Stories</emph>. Mansfield Centre, CT: Martino Press, 2012. Print. Reprint of Woolf, Virginia. “The Mark on the Wall.” In <emph>A Haunted House and Other Short Stories</emph>. London: Hogarth Press, 1944.</witness>
+     </listWit>
+ </sourceDesc>
+ </fileDesc>
+
+ <encodingDesc>
+ <editorialDecl>
+   <p>We have preserved the text as it appears on the page with the exception of removing hyphens at the end of line breaks.</p>
+ </editorialDecl>
+ </encodingDesc>
+</teiHeader>
+  <facsimile>
+        <surfaceGrp corresp="#ho17">
+            <surface n="01">
+                <graphic url="ho17.01.jpg" />
+            </surface>
+            <surface n="02">
+                <graphic url="ho17.02.jpg" />
+            </surface>
+            <surface n="03">
+                <graphic url="ho17.03.jpg" />
+            </surface>
+            <surface n="04">
+                <graphic url="ho17.04.jpg" />
+            </surface>
+            <surface n="05">
+                <graphic url="ho17.05.jpg" />
+            </surface>
+            <surface n="06">
+                <graphic url="ho17.06.jpg" />
+            </surface>
+            <surface n="07">
+                <graphic url="ho17.07.jpg" />
+            </surface>
+            <surface n="08">
+                <graphic url="ho17.08.jpg" />
+            </surface>
+        </surfaceGrp>
+      <surfaceGrp corresp="#ho19">
+          <surface n="01">
+              <graphic url="ho19.01.jpg" />
+          </surface>
+          <surface n="02">
+              <graphic url="ho19.02.jpg" />
+          </surface>
+          <surface n="03">
+              <graphic url="ho19.03.jpg" />
+          </surface>
+          <surface n="04">
+              <graphic url="ho19.04.jpg" />
+          </surface>
+          <surface n="05">
+              <graphic url="ho19.05.jpg" />
+          </surface>
+          <surface n="06">
+              <graphic url="ho19.06.jpg" />
+          </surface>
+          <surface n="07">
+              <graphic url="ho19.07.jpg" />
+          </surface>
+          <surface n="08">
+              <graphic url="ho19.08.jpg" />
+          </surface>
+          <surface n="09">
+              <graphic url="ho19.09.jpg" />
+          </surface>
+          <surface n="10">
+              <graphic url="ho19.10.jpg" />
+          </surface>
+          <surface n="11">
+              <graphic url="ho19.11.jpg" />
+          </surface>
+          <!--<surface n="12">
+              <graphic url="ho19.12.jpg" />
+          </surface>-->
+      </surfaceGrp>
+      <surfaceGrp corresp="#ho21">
+          <surface n="01">
+              <graphic url="ho21.01.jpg" />
+          </surface>
+          <surface n="02">
+              <graphic url="ho21.02.jpg" />
+          </surface>
+          <surface n="03">
+              <graphic url="ho21.03.jpg" />
+          </surface>
+          <surface n="04">
+              <graphic url="ho21.04.jpg" />
+          </surface>
+          <surface n="05">
+              <graphic url="ho21.05.jpg" />
+          </surface>
+          <surface n="06">
+              <graphic url="ho21.06.jpg" />
+          </surface>
+          <surface n="07">
+              <graphic url="ho21.07.jpg" />
+          </surface>
+          <surface n="08">
+              <graphic url="ho21.08.jpg" />
+          </surface>
+          <!--<surface n="09">
+              <graphic url="ho21.09.jpg" />
+          </surface>-->
+      </surfaceGrp>
+      <surfaceGrp corresp="#har21">
+          <surface n="01">
+              <graphic url="har21.01.jpg" />
+          </surface>
+          <surface n="02">
+              <graphic url="har21.02.jpg" />
+          </surface>
+          <surface n="03">
+              <graphic url="har21.03.jpg" />
+          </surface>
+          <surface n="04">
+              <graphic url="har21.04.jpg" />
+          </surface>
+          <surface n="05">
+              <graphic url="har21.05.jpg" />
+          </surface>
+          <surface n="06">
+              <graphic url="har21.06.jpg" />
+          </surface>
+          <surface n="07">
+              <graphic url="har21.07.jpg" />
+          </surface>
+          <surface n="08">
+              <graphic url="har21.08.jpg" />
+          </surface>
+          <surface n="09">
+              <graphic url="har21.09.jpg" />
+          </surface>
+          <surface n="10">
+              <graphic url="har21.10.jpg" />
+          </surface>
+          <surface n="11">
+              <graphic url="har21.11.jpg" />
+          </surface>
+      </surfaceGrp>
+      <surfaceGrp corresp="#har44">
+          <surface n="01">
+              <graphic url="har44.01.jpg" />
+          </surface>
+          <surface n="02">
+              <graphic url="har44.02.jpg" />
+          </surface>
+          <surface n="03">
+              <graphic url="har44.03.jpg" />
+          </surface>
+          <surface n="04">
+              <graphic url="har44.04.jpg" />
+          </surface>
+          <surface n="05">
+              <graphic url="har44.05.jpg" />
+          </surface>
+          <surface n="06">
+              <graphic url="har44.06.jpg" />
+          </surface>
+          <surface n="07">
+              <graphic url="har44.07.jpg" />
+          </surface>
+          <surface n="08">
+              <graphic url="har44.08.jpg" />
+          </surface>
+          <!-- <surface n="09">
+              <graphic url="har44.09.jpg" />
+          </surface>-->
+      </surfaceGrp>
+      <surfaceGrp corresp="#ho45">
+          <surface n="01">
+              <graphic url="ho45.01.jpg" />
+          </surface>
+          <surface n="02">
+              <graphic url="ho45.02.jpg" />
+          </surface>
+          <surface n="03">
+              <graphic url="ho45.03.jpg" />
+          </surface>
+          <surface n="04">
+              <graphic url="ho45.04.jpg" />
+          </surface>
+          <surface n="05">
+              <graphic url="ho45.05.jpg" />
+          </surface>
+          <surface n="06">
+              <graphic url="ho45.06.jpg" />
+          </surface>
+          <!--<surface n="07">
+              <graphic url="ho45.07.jpg" />
+          </surface>
+          <surface n="08">
+              <graphic url="ho45.08.jpg" />
+          </surface>-->
+      </surfaceGrp>
+</facsimile>
+  <text>
+    
+    <body>
+    
+ <head type="main">THE MARK ON THE WALL</head>
+ <p>
+<app>
+ <rdg wit="#ho17" type="alteration">Perhaps</rdg>
+<rdg wit="#ho19" type="alteration">PERHAPS</rdg>
+<rdg wit="#ho21" type="alteration">Perhaps</rdg>
+ <rdg wit="#har21" type="alteration">PERHAPS</rdg>
+  <rdg wit="#har44" type="alteration">PERHAPS</rdg>
+  <rdg wit="#ho45" type="alteration">Perhaps</rdg>
+</app> 
+it was the middle of January in the  
+present year that I first looked up and saw the  
+mark on the wall. In order to fix a date it is  
+necessary to remember what one saw. So now I  
+think of the fire; the steady film of yellow light  
+upon the page of my book; the three chrysanthemums 
+in the round glass bowl on the mantelpiece. 
+Yes, it must have been the winter time,  
+and we had just finished our tea, for I remember 
+that I was smoking a cigarette when I looked  
+up and saw the mark on the wall for the first  
+time. I looked up through the smoke of my  
+cigarette and my eye lodged for a moment upon  
+the burning coals, and that old fancy of the crimson 
+flag flapping from the castle tower came  
+into my mind, and I thought of the cavalcade of  
+red knights riding up the side of the black rock.  
+Rather to my relief the sight of the mark interrupted 
+the fancy, for it is an old fancy, an 
+automatic fancy, made as a child perhaps. The 
+mark was a small round mark, black upon the 
+white wall, about six or seven inches above the 
+mantelpiece.</p>
+<p>
+How readily our thoughts swarm upon a new 
+object, lifting it a little way, as ants carry a 
+blade of straw so feverishly, and then leave <app><rdg wit="#ho17" type="punctuation">it. . . . .</rdg>
+  <rdg wit="#ho19" type="punctuation">it. . . . </rdg>
+  <rdg wit="#ho21" type="punctuation">it. . . . </rdg>
+  <rdg wit="#har21" type="punctuation">it. . . . </rdg>
+   <rdg wit="#har44" type="punctuation">it. . . . </rdg>
+    <rdg wit="#ho45" type="punctuation">it. . . . </rdg>
+</app> If that mark was made by a nail, it can't 
+have been for a picture, it must have been for a 
+miniature&#8212;the miniature of a lady with white 
+powdered curls, powder-dusted cheeks, and lips 
+like red carnations. A fraud of course, for the 
+people who had this house before us would have 
+chosen pictures in that way&#8212;an old picture for 
+an old room. That is the sort of people they 
+were&#8212;very interesting people, and I think of 
+them so often, in such queer places, because one 
+will never see them again, never know what 
+happened 
+<app>
+<rdg wit="#ho17" type="excision">next. She wore a flannel dog collar round her throat, and he drew posters for an oatmeal company, and they</rdg>
+  <rdg wit="#ho19" type="excision">next. She wore a flannel collar round her throat, and he drew posters for an oatmeal company, and they</rdg> 
+  <rdg wit="#ho21" type="excision">next. They</rdg>
+  <rdg wit="#har21" type="excision">next. They</rdg>
+  <rdg wit="#har44" type="excision">next. They</rdg>
+  <rdg wit="#ho45" type="excision">next. They</rdg>
+  <note type="annotation"><p>These two sentences were excised from the versions after 1919 and replaced simply with the word “they.” This description could refer to the previous owners of Asheham or Hogarth House, the Woolfs’ primary residences in this period. However, Woolf may have elected to remove these lines because they referred specifically to people in her life, especially since this story was originally released to a small, private audience. They may have been recognizable to others in Woolf’s circle and the comments are not particularly flattering. The tone is one of mild condescension: Woolf describes the man as a commercial artist, presumably middle class, while the woman is marked as either middle class or at least unfashionable with her flannel collar. Celia Marshik notes the importance of clothing as a social signifier in Woolf’s era in her analysis of the Mackintosh coat in modernist literature as “more and more people came to appreciate the power of clothing (whether fashionable or practical) to shape self-presentation and thus to assert a particular social significance and role.”<note type="editorial">Celia Marshik, “The Modern(ist) Mackintosh,” <hi rend="italic">Modernism/modernity</hi> 19 no. 1 (January 2012): 44.</note> In <hi rend="italic">To the Lighthouse</hi>, this awareness is evident in Charles Tansley’s reaction to Lily Briscoe’s judgmental eye. According to Emily Blair, Lily’s insincerity “causes Charles Tansley to feel his class: ‘his old flannel trousers,’ his roughness, and his isolation from the social manner at the dinner.”<note type="editorial">Emily Blair, <hi rend="italic">Virginia Woolf and the Nineteenth-Century Domestic Novel</hi> (Albany: State University of New York, 2007), 206.</note> His clothing is intertwined with his class and marks him as separate from the group. In a similar manner, the specific reference to the flannel collar marks this woman as apart from the dominant, fashionable, social group. </p>
+
+<p>The excision also comes at a time when the Hogarth Press was becoming a more professional and at the same time more public project. Leonard claims that it was only in 1920 that he and Virginia conceptualized the Hogarth Press as a professional enterprise. Before that, the “Hogarth Press was a hobby, and the hobby consisted in the printing which we did in our spare time in the afternoons.”<note type="editorial">Leonard Woolf, <hi rend="italic">Downhill All the Way</hi> (New York: Harcourt Brace and Co., 1967), 66.</note> Clive Bell recalls that Virginia’s diary and letter writing could often be (sometimes inaccurately) critical of people she knew or encountered. Bell remembers that when Hogarth published extracts from Virginia’s diary, “The editor, himself, very properly cut out a number of passages which were much too personal, not to say libelous, to be published while the victims were alive.”<note type="editorial"><!--fixed-->Clive Bell, “A Genius Who Worked Magic,” <hi rend="italic">in Virginia Woolf: Interviews and Recollections</hi>, edited by J. H. Stape (Iowa City: University of Iowa Press, 1995), 96.</note> This excision may reflect a similar anxiety over libel or simply a remark that might hit too close to home. </p>
+</note>
+</app> wanted to leave this house 
+because they wanted to change their style of 
+furniture, so he said, and he was in process of 
+saying that in his opinion art should have ideas 
+behind it when we were torn asunder, as one is 
+torn from the old lady about to pour out tea and 
+the young man about to hit the tennis ball in the 
+back garden of the suburban villa as one rushes 
+past in the train. </p>
+<p> 
+<app>
+  <rdg wit="#ho17" type="alteration">But as</rdg>
+  <rdg wit="#ho19" type="alteration">But as</rdg>
+  <rdg wit="#ho21" type="alteration">But as</rdg>
+  <rdg wit="#har21" type="alteration">But as</rdg>
+  <rdg wit="#ho45" type="alteration">But</rdg>
+  <rdg wit="#har44" type="alteration">But</rdg>
+</app> for that mark, I'm not sure about it; 
+I don't believe it was made by a nail after all; 
+
+<app>
+  <rdg wit="#ho17" type="correction">its</rdg>
+  <rdg wit="#ho19" type="correction">it's</rdg>
+   <rdg wit="#ho21" type="correction">it's</rdg>
+   <rdg wit="#har21" type="correction">it's</rdg>
+    <rdg wit="#har44" type="correction">it's</rdg>
+    <rdg wit="#ho45" type="correction">it's</rdg>
+</app> too big, too  
+<app>
+<rdg wit="#ho17" type="punctuation">round</rdg>
+  <rdg wit="#ho19" type="punctuation">round,</rdg>
+  <rdg wit="#ho21" type="punctuation">round,</rdg>
+  <rdg wit="#har21" type="punctuation">round,</rdg>
+  <rdg wit="#har44" type="punctuation">round,</rdg>
+  <rdg wit="#ho45" type="punctuation">round,</rdg>
+  
+</app> for that. I might get up, 
+but if I got up and looked at it, ten to one I 
+shouldn't be able to say for certain; because 
+once a thing's done, no one ever knows how it 
+happened. 
+<app>
+ <rdg wit="#ho17" type="alteration">O</rdg>
+ <rdg wit="#ho19" type="alteration">O</rdg>
+ <rdg wit="#ho21" type="alteration">O</rdg>
+  <rdg wit="#har21" type="alteration">Oh!</rdg>
+  <rdg wit="#har44" type="alteration">Oh!</rdg>
+  <rdg wit="#ho45" type="alteration">Oh!</rdg>
+</app> dear me, the mystery of
+<app>
+<rdg wit="#ho17" type="punctuation">life!</rdg>
+ <rdg wit="#ho19" type="punctuation">life!</rdg>
+ <rdg wit="#ho21" type="punctuation">life!</rdg>
+  <rdg wit="#har21" type="punctuation">life;</rdg>
+  <rdg wit="#har44" type="punctuation">life;</rdg>
+  <rdg wit="#ho45" type="punctuation">life;</rdg>
+</app> 
+<app>
+  <rdg wit="#ho17" type="correction">The</rdg>
+  <rdg wit="#ho19" type="correction">The</rdg>
+  <rdg wit="#ho21" type="correction">The</rdg>
+  <rdg wit="#har21" type="correction">The</rdg>
+  <rdg wit="#har44" type="correction">the</rdg>
+  <rdg wit="#ho45" type="correction">the</rdg>
+ 
+</app> inaccuracy of thought! The ignorance of 
+humanity! To show how very little control of 
+our possessions we have&#8212;what an accidental 
+affair this living is after all our 
+<app>
+  <rdg wit="#ho17" type="americanization">civilisation&#8212;let</rdg>
+  <rdg wit="#ho19" type="americanization">civilisation&#8212;let</rdg>
+  <rdg wit="#ho21" type="americanization">civilization&#8212;let</rdg>
+  <rdg wit="#har21" type="americanization">civilization&#8212;let</rdg>
+  <rdg wit="#har44" type="americanization">civilization&#8212;let</rdg>
+  <rdg wit="#ho45" type="americanization">civilization&#8212;let</rdg>  
+</app> 
+me just count over a few of the things lost 
+in one lifetime, beginning, for that seems always 
+the most mysterious  
+<app>
+<rdg wit="#ho17" type="alteration">of all</rdg>
+  <rdg wit="#ho19" type="alteration">of</rdg>
+  <rdg wit="#ho21" type="alteration">of</rdg>
+  <rdg wit="#har21" type="alteration">of</rdg>
+  <rdg wit="#har44" type="alteration">of</rdg>
+  <rdg wit="#ho45" type="alteration">of</rdg>
+</app> losses&#8212;what cat 
+would gnaw, what rat would 
+<app>
+  <rdg wit="#ho17" type="punctuation">nibble&#8212;three</rdg>
+  <rdg wit="#ho19" type="punctuation">nibble three</rdg>
+  <rdg wit="#ho21" type="punctuation">nibble&#8212;three</rdg>
+  <rdg wit="#har21" type="punctuation">nibble&#8212;three</rdg>
+  <rdg wit="#har44" type="punctuation">nibble&#8212;three</rdg>
+  <rdg wit="#ho45" type="punctuation">nibble&#8212;three</rdg>
+</app> pale 
+blue canisters of book-binding tools? Then 
+there were the bird cages, the iron hoops, the 
+steel skates, the Queen Anne coal-scuttle, the 
+bagatelle board, the hand organ&#8212;all gone, and  
+<app>
+ <rdg wit="#ho17" type="punctuation">jewels</rdg>
+ <rdg wit="#ho19" type="punctuation">jewels</rdg>
+  <rdg wit="#ho21" type="punctuation">jewels</rdg>
+  <rdg wit="#har21" type="punctuation">jewels,</rdg>
+  <rdg wit="#har44" type="punctuation">jewels,</rdg>
+  <rdg wit="#ho45" type="punctuation">jewels,</rdg>
+  
+</app>too. Opals and emeralds, they lie about 
+the roots of turnips. What a scraping paring 
+affair it is to be sure! The wonder is that I've 
+any clothes on my back, that I sit surrounded 
+by solid furniture at this moment. Why, if one 
+wants to compare life to anything, one must 
+liken it to being blown through the Tube at fifty 
+miles an hour&#8212;landing at the other end without 
+a single 
+<app>
+ <rdg wit="#ho17" type="correction">hair pin</rdg>
+  <rdg wit="#ho19" type="correction">hairpin</rdg>
+  <rdg wit="#ho21" type="correction">hairpin</rdg>
+  <rdg wit="#har21" type="correction">hairpin</rdg>
+  <rdg wit="#har44" type="correction">hairpin</rdg>
+  <rdg wit="#ho45" type="correction">hairpin</rdg>
+ 
+</app> in one's hair! Shot out at 
+the feet of God entirely naked! Tumbling head 
+over heels in the asphodel meadows like brown 
+paper parcels pitched down a shoot in the post 
+office! With one's hair flying back like the tail 
+of a 
+<app>
+<rdg wit="#ho17" type="correction">race horse.</rdg>
+  <rdg wit="#ho19" type="correction">race-horse.</rdg>
+  <rdg wit="#ho21" type="correction">race-horse.</rdg>
+  <rdg wit="#har21" type="correction">race-horse.</rdg>
+  <rdg wit="#har44" type="correction">race-horse.</rdg>
+  <rdg wit="#ho45" type="correction">race-horse.</rdg>
+</app>Yes, that seems to express the 
+rapidity of life, the perpetual waste and repair; 
+all so casual, all so haphazard. . . . </p>
+<p>But after life. The slow pulling down of 
+thick green stalks so that the cup of the  
+<app>
+<rdg wit="#ho17" type="punctuation">flower</rdg>
+  <rdg wit="#ho19" type="punctuation">flower,</rdg>
+  <rdg wit="#ho21" type="punctuation">flower,</rdg>
+  <rdg wit="#har21" type="punctuation">flower,</rdg>
+  <rdg wit="#har44" type="punctuation">flower,</rdg>
+  <rdg wit="#ho45" type="punctuation">flower,</rdg>
+</app> 
+as it turns  
+<app>
+<rdg wit="#ho17">over</rdg>
+  <rdg wit="#ho19" type="punctuation">over,</rdg>
+  <rdg wit="#ho21" type="punctuation">over,</rdg>
+  <rdg wit="#har21" type="punctuation">over,</rdg>
+  <rdg wit="#har44" type="punctuation">over,</rdg>
+  <rdg wit="#ho45" type="punctuation">over,</rdg>
+</app> deluges one with purple and 
+red light. Why, after all, should one not be 
+born there as one is born here, helpless, speechless, 
+unable to focus one's eyesight, groping at 
+the roots of the grass, at the toes of the Giants? 
+As for saying which are trees, and which are 
+men and women, or whether there are such 
+things, that one won't be in a condition to do 
+for fifty years or so. There will be nothing but 
+spaces of light and dark, intersected by thick 
+stalks, and rather higher up perhaps, rose-shaped 
+blots of an indistinct colour&#8212;dim pinks 
+and blues&#8212;which will, as time goes on, become 
+more definite, become&#8212;I don't know  
+<app>
+ <rdg wit="#ho17" type="punctuation">what.</rdg>
+ <rdg wit="#ho19" type="punctuation">what. . . .</rdg>
+ <rdg wit="#ho21" type="punctuation">what. . . .</rdg>
+ <rdg wit="#har21" type="punctuation">what. . . .</rdg>
+ <rdg wit="#har44" type="punctuation">what. . . .</rdg>
+ <rdg wit="#ho45" type="punctuation">what. . . .</rdg>
+</app> </p>
+<p>And yet that mark on the wall is not a hole 
+at all. It may even be caused by some round 
+black substance, such as a small rose leaf, left 
+over from the summer, and I, not being a very 
+vigilant 
+<app>
+<rdg wit="#ho17" type="correction">house-keeper&#8212;look</rdg>
+ <rdg wit="#ho19" type="correction">housekeeper&#8212;look</rdg>
+   <rdg wit="#ho21" type="correction">housekeeper&#8212;look</rdg>
+   <rdg wit="#har21" type="correction">housekeeper&#8212;look</rdg>
+    <rdg wit="#har44" type="correction">housekeeper&#8212;look</rdg>
+    <rdg wit="#ho45" type="correction">housekeeper&#8212;look</rdg>
+</app> at the dust on the 
+mantelpiece, for example, the dust which, so 
+they say, buried Troy three times over, only 
+fragments of pots utterly refusing annihilation, 
+as one can  
+<app>
+  <rdg wit="#ho17" type="excision"><seg type="p_end">believe. But I know a house-keeper, a woman with the profile of a police-man, those little round buttons marked even upon the edge of her shadow, a woman with a broom in her hand, a thumb on picture frames, an eye under beds and she talks always of art. She is coining nearer and nearer; and now, pointing to certain spots of yellow rust on the fender, she becomes so menacing that to oust her, I shall have to end her by taking action: I shall have to get up and see for myself what that mark&#8212;</seg><seg type="p_beginning">But no. I refuse to be beaten. I will not move. I will not recognise her. See, she fades already. I am very nearly rid of her and her insinuations, which I can hear quite distinctly. Yet she has about her the pathos of all people who wish to compromise. And why should I resent the fact that she has a few books in her house, a picture or two? But what I really resent is that she resents me&#8212;life being an affair of attack and defence after all. Another time I will have it out with her, not now. She must go now. The</seg></rdg>
+  <rdg wit="#ho19" type="excision"><seg type="p_end">believe. ... I know a housekeeper, a woman with the profile of a policeman, those little round buttons marked even upon the edge of her shadow, a woman with a broom in her hand, a thumb on picture frames, an eye under beds, and she talks always of art. She is coming nearer and nearer; and now, pointing to certain spots of yellow rust on the fender, she becomes so menacing that to oust her, I shall have to end her by taking action: I shall have to get up and see for myself what that mark&#8212;</seg><seg type="p_beginning"> But no. I refuse to be beaten. I will not move. I will not recognise her. See, she fades already. I am very nearly rid of her and her insinuations, which I can hear quite distinctly. Yet she has about her the pathos of all people who wish to compromise. And why should I resent the fact that she has a few books in her house, a picture or two? But what I really resent is that she resents me&#8212;life being an affair of attack and defence after all. Another time I will have it out with her,&#8212;not now. She must go now. . . .The</seg></rdg>
+    <rdg wit="#ho21" type="excision"><seg type="p_end">believe.</seg> <seg type="p_beginning">The</seg></rdg>
+    <rdg wit="#har21" type="excision"><seg type="p_end">believe.</seg> <seg type="p_beginning">The</seg></rdg>
+    <rdg wit="#har44" type="excision"><seg type="p_end">believe.</seg> <seg type="p_beginning">The</seg></rdg>
+    <rdg wit="#ho45" type="excision"><seg type="p_end">believe.</seg> <seg type="p_beginning">The</seg></rdg>
+    <note type ="annotation"><p>E. M. Forster in his review [July 1919] of “The Mark on the Wall” claims that “there is, as Mrs. Woolf sadly points out, a moral of a sort; she is a poor housekeeper, or the mark would not be there.”<note type="editorial">E. M. Forster, “Visions,” in <hi rend="italic">Virginia Woolf: The Critical Heritage</hi>, edited by Robin Majumdar and Allen McLaurin (London and Boston: Routledge and Kegan Paul, 1975), 69.</note> This passage, excised from the 1921 and 1944 editions of “The Mark on the Wall,” suggests a number of intriguing possibilities regarding Virginia Woolf’s relationship to servants. Heather Levy argues that the elision of these fourteen sentences reveals that “the narrator eagerly participates in constructing an hermetically sealed space in the final version of the short story which silences the voices of working class women and those defined as racial outsiders by history.”<note type="editorial">Heather Levy, <hi rend="italic">The Servants of Desire in Virginia Woolf’s Shorter Fiction</hi>, vol. 8 of <hi rend="italic">Studies in Twentieth-Century British Literature</hi>, edited by Karen Radell (New York: Peter Lang, 2010), 78.</note> For Levy, Woolf trades in the “upper middle class habit of constructing working class women as shadows.”<note type="editorial">Levy, <hi rend="italic">Servants</hi>, 79.</note> Levy also theorizes that the passage was excised because of Leonard’s growing commitment to British socialism, repeating a trope in Woolf criticism that Virginia operated in the sphere of ivory-tower aestheticism while Leonard worked in the practical, political sphere. Scholars such as Helen Southworth have begun to complicate and question this narrative. Attending to the quotidian functions of the Hogarth Press, Southworth argues that this Virginia/Leonard binary is reductive, illustrating that “the Hogarth Press provided Leonard and Virginia Woolf an opportunity to bridge ‘the gulf’ separating an old world ‘divided by hedges’ from a new ‘world without classes and towers.’”<note type="editorial">Helen Southworth, “‘Going Over’: The Woolfs, the Hogarth Press, and Working-Class Voices,” in <hi rend="italic">Leonard and Virginia Woolf, the Hogarth Press, and the Networks of Modernism</hi>, edited by Helen Southworth (Edinburgh: Edinburgh University Press, 2010), 206.</note></p>
+<p>Reading Virginia’s diaries and letters reveals a complex relationship to servants, a topic dealt with at length by Allison Light in her <hi rend="italic">Mrs. Woolf and the Servants</hi>. Woolf records a variety of interactions between herself and the servants, and these interactions reveal that she was certainly aware of and interested in the daily lives of servants. There are some major interactions mentioned in the diaries with Lily, Lizzie, Maud, and Lottie. Lily was a parlormaid who had worked for the Woolfs at Asheham in 1914 when she had had a baby out of wedlock. Virginia gave her a reference to work with Mrs. Hallett, and her first diary entries display a mixture of empathy and pity toward Lily as she faces new accusations from Mrs. Hallett. Woolf writes on January 1, “Mrs H. is an old angry woman, meticulous, indeed as we knew tyrannical, about her servants; &amp; Lily honestly meant no wrong.”<note type="editorial">Virginia Woolf, <hi rend="italic">The Diary of Virginia Woolf</hi>, edited by Anne Bell (London: Hogarth Press, 1977), 1:3.</note> Later, when Lily is dismissed by Mrs. Hallett for hiding soldiers in the pantry, Woolf, somewhat condescendingly, empathizes with her erstwhile servant and continues to assist her:
+<q rend="block">	Lily’s letter continues the story of the hidden soldier. It brings her very clearly before me, with her charming, stupid, doglike eyes, quite incapable of hurting a fly or thinking a coarse thought, &amp; yet bound eternally to suffer for the sins of stronger characters. In this case, she was at the mercy of a parlourmaid, who invited the soldiers, &amp; Lily had neither the strength of mind to be rude to them when they came, nor to ‘tell tales of a fellow servant’. ‘I would rather do anything than that’&#8212;&amp; that, I imagine, was how she had her baby too. Anyhow, I have ‘spoken’ for her again, &amp; she has promised to have no more to do with soldiers.<note type="editorial">V. Woolf, <hi rend="italic">Diary</hi>, 1:8.</note> </q> 
+When the Woolfs lived at Mrs. Le Grys’s in Richmond, Woolf records that the maid Lizzie was dangerously incompetent. On two occasions, Woolf writes that Lizzie started fires and once “smashed two very nice bits of china for us.”<note type="editorial">V. Woolf, <hi rend="italic">Diary</hi>, 1:15.</note> Lizzie’s replacement, Maud, is described as mentally unstable:
+<q rend="block">	But the fact of the day for me has been a vague kind of discomfort, caused by the eccentric character of the new servant Maud. When one speaks to her, she stops dead &amp; looks at the ceiling. She bursts into the room ‘just to see if you are there’. She is an angular woman of about 40, who never stays long in any place. I believe she lives in dread of something. She puts down plates with a start. Mrs Le Grys says that she herself is going mad, with Maud’s peculiarities. She has just announced that she is the daughter of a Colonel. I am sure her brain is full of illusions, poor creature; &amp; I shouldn’t be surprised at anything. The only question is, how she contrives to exist.<note type="editorial">V. Woolf, <hi rend="italic">Diary</hi>, 1:31.</note></q>
+Woolf’s description of Lottie reveals a bit more haughtiness toward her servants. Virginia consistently exhibited some concern and regard for her servants, but she seems to have run out of patience with Lottie, a housemaid she had hired in 1916 on the recommendation of Roger Fry: 
+<q rend="block">	By rights Lottie should have a whole chapter to herself at this point; but to live through those things is unpleasant enough without reviving them here. At this moment owing to what she overheard L. say to me before breakfast, I am uncertain whether we have 2 servants or not, &amp; to tell the truth, completely indifferent, such is the relief of being without them for a fortnight. Considering their unimportance they must be compared to flies in the eye for the discomfort they can produce in spite of being so small. But let us change the subject.<note type="editorial"> V. Woolf, <hi rend="italic">Diary</hi>, 1:197.</note></q>  
+Certainly, this letter regarding Lottie betrays a certain aristocratic disdain for the servant, but it remains unclear whether this was directed at Lottie herself or her servants more generally. The passage excised from <hi rend="italic">Monday or Tuesday</hi> and <hi rend="italic">A Haunted House</hi> suggests an ominous quality to the housekeeper, an authoritative accusatory profile with bourgeois pretensions. However, in his autobiography, <hi rend="italic">Downhill All the Way</hi>, Leonard remembers that although Virginia was “the least political animal that has lived since Aristotle invented the definition,” she was “intensely interested in things, peoples, and events, and, as her new books show, highly sensitive to the atmosphere which surrounded her.”<note type="editorial">L. Woolf, <hi rend="italic">Downhill</hi>, 27.</note> Perhaps Virginia’s reactions to her servants were predicated on a case-by-case basis.</p>
+<p>An alternative theory for the excision, which Levy does not consider, is that the housekeeper, “with a profile like a police-man,” was an actual person the Woolfs knew and that the passage was excised from the 1921 version of “The Mark on the Wall” because the press was becoming “professional.” Leonard claims that it was only in 1920 that he and Virginia conceptualized the Hogarth Press as a professional enterprise. Before that, the “Hogarth Press was a hobby, and the hobby consisted in the printing which we did in our spare time in the afternoons.”<note type="editorial">L. Woolf, <hi rend="italic">Downhill</hi>, 66.</note> Clive Bell recalls that Virginia’s diary and letter writing could often be (sometimes inaccurately) critical of people she knew or encountered. Bell remembers that, when Hogarth published extracts from Virginia’s diary, “The editor, himself, very properly cut out a number of passages which were much too personal, not to say libelous, to be published while the victims were alive.”<note type="editorial">Bell, “Genius,” 96.</note> 
+Perhaps the housekeeper cut from <hi rend="italic">Monday or Tuesday</hi> represented a real person who had worked for the Woolfs, and after 1920 the image was deemed inappropriate. What is clear is that Woolf’s relationship to her servants is complex and ambiguous, and scholars who accuse Woolf of elitism perhaps miss the point.</p></note>
+</app> tree outside the window taps very gently 
+on the  
+<app>
+<rdg wit="#ho17" type="punctuation">pane.</rdg>
+  <rdg wit="#ho19" type="punctuation">pane. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">pane. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">pane. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">pane. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">pane. . . .</rdg>
+</app> I want to think quietly, 
+calmly, spaciously, never to be interrupted, 
+never to have to rise from my chair,to slip easily 
+from one thing to another, without any sense of 
+hostility, or obstacle. I want to sink deeper 
+and deeper, away from the surface, with its 
+hard separate facts. To steady myself, let me 
+catch hold of the first idea that  
+<app>
+	<rdg wit="#ho17" type="punctuation">passes.</rdg>
+  <rdg wit="#ho19" type="punctuation">passes. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">passes. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">passes. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">passes. . .</rdg>
+  <rdg wit="#ho45" type="punctuation">passes. . .</rdg>
+</app> 
+ 
+<app>
+	<rdg wit="#ho17" type="punctuation">Shakespeare.</rdg>
+  <rdg wit="#ho19" type="punctuation">Shakespeare. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">Shakespeare. . .</rdg>
+  <rdg wit="#har21" type="punctuation">Shakespeare. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">Shakespeare. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">Shakespeare. . . .</rdg>
+</app> 
+Well, he will do as well as 
+another. A man who sat himself solidly in an 
+arm-chair, and looked into the fire, 
+<app>
+	<rdg wit="#ho17" type="punctuation">so&#8212;.</rdg>
+	<rdg wit="#ho19" type="punctuation">so&#8212;.</rdg>
+  <rdg wit="#ho21" type="punctuation">so&#8212; </rdg>
+  <rdg wit="#har21" type="punctuation">so&#8212; </rdg>
+  <rdg wit="#har44" type="punctuation">so&#8212; </rdg>
+  <rdg wit="#ho45" type="punctuation">so&#8212; </rdg>
+  
+</app> A 
+shower of ideas fell perpetually from some very 
+high Heaven down through his mind. He leant 
+his forehead on his hand, and  
+<app>
+	<rdg wit="#ho17" type="punctuation">people</rdg>
+  <rdg wit="#ho19" type="punctuation">people,</rdg>
+  <rdg wit="#ho21" type="punctuation">people,</rdg>
+  <rdg wit="#har21" type="punctuation">people,</rdg>
+  <rdg wit="#har44" type="punctuation">people,</rdg>
+  <rdg wit="#ho45" type="punctuation">people,</rdg>
+</app> looking in 
+through the open 
+<app>
+  <rdg wit="#ho17" type="punctuation">door ,for</rdg>
+  <rdg wit="#ho19" type="punctuation">door,</rdg>
+  <rdg wit="#ho21" type="punctuation">door,</rdg>
+  <rdg wit="#har21" type="punctuation">door,</rdg>
+  <rdg wit="#har44" type="punctuation">door&#8212;for</rdg>
+  <rdg wit="#ho45" type="punctuation">door&#8212;for</rdg>
+</app> this scene is supposed 
+to take place on a summer's 
+<app>
+	<rdg wit="#ho17" type="punctuation">evening, &#8212;But</rdg>
+	<rdg wit="#ho19" type="punctuation">evening, -But&#8212;</rdg>
+	<rdg wit="#ho21" type="punctuation">evening, &#8212;But</rdg>
+  <rdg wit="#har21" type="punctuation">evening&#8212; But</rdg>
+  <rdg wit="#har44" type="punctuation">evening&#8212;But</rdg>
+  <rdg wit="#ho45" type="punctuation">evening&#8212;But</rdg>  
+</app> 
+how dull this is, this historical fiction! It 
+doesn't interest me at all. I wish I could hit 
+upon a pleasant track of thought, a track indirectly 
+reflecting credit upon myself, for those 
+are the pleasantest thoughts, and very frequent 
+even in the minds of modest mouse-coloured 
+people, who believe genuinely that they dislike 
+to hear their own praises. They are not 
+thoughts directly praising oneself; that is the 
+beauty of them; they are thoughts like  
+<app>
+	<rdg wit="#ho17" type="punctuation">this.</rdg>
+  <rdg wit="#ho19" type="punctuation">this:</rdg>
+  <rdg wit="#ho21" type="punctuation">this:</rdg>
+  <rdg wit="#har21" type="punctuation">this:</rdg>
+  <rdg wit="#har44" type="punctuation">this:</rdg>
+  <rdg wit="#ho45" type="punctuation">this:</rdg>
+</app> </p>
+<p>&quot;And then I came into the room. They were 
+discussing botany. I said how I'd seen a flower 
+growing on a dust heap on the site of an old 
+house in Kingsway. The seed, I said, must have 
+been sown in the reign of Charles the First. 
+What flowers grew in the reign of Charles the 
+First 
+<app>
+	<rdg wit="#ho17" type="punctuation">?</rdg>
+	<rdg wit="#ho19" type="punctuation">?</rdg>
+  <rdg wit="#ho21" type="punctuation">?&quot;</rdg>
+  <rdg wit="#har21" type="punctuation">?&quot;</rdg>
+  <rdg wit="#har44" type="punctuation">?&quot;</rdg>
+  <rdg wit="#ho45" type="punctuation">?&quot;</rdg>
+  
+</app> I asked&#8212;( 
+<app>
+  <rdg wit="#ho17" type="correction">but</rdg>
+  <rdg wit="#ho19" type="correction">but</rdg>
+  <rdg wit="#ho21" type="correction">but</rdg>
+  <rdg wit="#har21" type="correction">but</rdg>
+  <rdg wit="#har44" type="correction">But</rdg>
+  <rdg wit="#ho45" type="correction">but</rdg>
+</app> I don't remember the 
+answer 
+<app>
+  <rdg wit="#ho17" type="correction">).</rdg>
+  <rdg wit="#ho19" type="correction">).</rdg>
+  <rdg wit="#ho21" type="correction">).</rdg>
+  <rdg wit="#har21" type="correction">).</rdg>
+  <rdg wit="#har44" type="correction">.)</rdg>
+  <rdg wit="#ho45" type="correction">).</rdg>
+</app> Tall flowers with purple tassels to 
+them perhaps. And so it goes on. All the time 
+I'm dressing up the figure of myself in my own 
+mind, lovingly, stealthily, not openly adoring 
+it, for if I did that, I should catch myself out, 
+and stretch my hand at once for a book in 
+<app>
+	<rdg wit="#ho17" type="correction">self protection</rdg>
+  <rdg wit="#ho19" type="correction">self-protection</rdg>
+  <rdg wit="#ho21" type="correction">self-protection</rdg>
+  <rdg wit="#har21" type="correction">self-protection</rdg>
+  <rdg wit="#har44" type="correction">self-protection</rdg>
+  <rdg wit="#ho45" type="correction">self-protection</rdg>
+</app> . 
+Indeed, it is curious how instinctively 
+one protects the image of oneself from 
+idolatry or any other handling that could make 
+it ridiculous, or too unlike the original to be believed 
+in any longer. Or is it not so very curious 
+after all? It is a matter of great importance. 
+Suppose the 
+<app>
+  <rdg wit="#ho17" type="correction">looking glass</rdg>
+  <rdg wit="#ho19" type="correction">looking glass</rdg>
+  <rdg wit="#ho21" type="correction">looking glass</rdg>
+  <rdg wit="#har21" type="correction">looking glass</rdg>
+  <rdg wit="#ho45" type="correction">looking-glass</rdg>
+  <rdg wit="#har44" type="correction">looking-glass</rdg>
+</app> smashes, the 
+image disappears, and the romantic figure with 
+the green of forest depths all about it is there 
+no longer, but only that shell of a person which 
+is seen by other people&#8212;what an  
+<app>
+	<rdg wit="#ho17" type="punctuation">airless</rdg>
+  <rdg wit="#ho19" type="punctuation">airless,</rdg>
+  <rdg wit="#ho21" type="punctuation">airless,</rdg>
+  <rdg wit="#har21" type="punctuation">airless,</rdg>
+  <rdg wit="#har44" type="punctuation">airless,</rdg>
+  <rdg wit="#ho45" type="punctuation">airless,</rdg>
+</app> shallow, 
+bald, prominent world it becomes! A 
+world not to be lived in. As we face each other 
+in omnibuses and underground railways we are 
+looking into the mirror; that accounts for  
+<app>
+  <rdg wit="#ho17" type="alteration">the</rdg>
+  <rdg wit="#ho19" type="alteration">the expression of</rdg>
+  <rdg wit="#ho21" type="alteration">the</rdg>
+  <rdg wit="#har21" type="alteration">the</rdg>
+  <rdg wit="#har44" type="alteration">the</rdg>
+  <rdg wit="#ho45" type="alteration">the</rdg>
+</app>  
+<app>
+	<rdg wit="#ho17" type="alteration">expression</rdg>
+  <rdg wit="#ho19" type="alteration">vagueness, the gleam of glassiness,</rdg>
+  <rdg wit="#ho21" type="alteration">vagueness, the gleam of glassiness,</rdg>
+  <rdg wit="#har21" type="alteration">vagueness, the gleam of glassiness,</rdg>
+  <rdg wit="#har44" type="alteration">vagueness, the gleam of glassiness,</rdg>
+  <rdg wit="#ho45" type="alteration">vagueness, the gleam of glassiness,</rdg>
+</app> in  
+<app>
+	<rdg wit="#ho17" type="alteration">our vague and almost glassy</rdg>
+  <rdg wit="#ho19" type="alteration">our</rdg>
+  <rdg wit="#ho21" type="alteration">our</rdg>
+  <rdg wit="#har21" type="alteration">our</rdg>
+  <rdg wit="#har44" type="alteration">our</rdg>
+  <rdg wit="#ho45" type="alteration">our</rdg>
+</app> eyes. 
+And the novelists in future will 
+<app>
+	<rdg wit="#ho17" type="americanization">realise</rdg>
+	<rdg wit="#ho19" type="americanization">realise</rdg>
+  <rdg wit="#ho21" type="americanization">realize</rdg>
+  <rdg wit="#har21" type="americanization">realize</rdg>
+  <rdg wit="#har44" type="americanization">realize</rdg>
+  <rdg wit="#ho45" type="americanization">realize</rdg>
+  
+</app> more 
+and more the importance of these reflections, for 
+of course there is not one reflection but an almost 
+infinite number; those are the depths they 
+will explore, those the phantoms they will pursue, 
+leaving the description of reality more and 
+more out of their stories, taking a knowledge 
+of it for granted, as the Greeks did and Shakespeare 
+<app>
+	<rdg wit="#ho17" type="punctuation">perhaps; but</rdg>
+	<rdg wit="#ho19" type="punctuation">perhaps&#8212;but</rdg>
+  <rdg wit="#ho21" type="punctuation">perhaps&#8212;but</rdg>
+  <rdg wit="#har21" type="punctuation">perhaps&#8212;but</rdg>
+  <rdg wit="#har44" type="punctuation">perhaps&#8212;but</rdg>
+  <rdg wit="#ho45" type="punctuation">perhaps&#8212;but</rdg>
+</app> these 
+<app>
+	<rdg wit="#ho17" type="americanization">generalisations</rdg>
+	<rdg wit="#ho19" type="americanization">generalisations</rdg>
+  <rdg wit="#ho21" type="americanization">generalizations</rdg>
+  <rdg wit="#har21" type="americanization">generalizations</rdg>
+  <rdg wit="#har44" type="americanization">generalizations</rdg>
+  <rdg wit="#ho45" type="americanization">generalizations</rdg>
+</app> are 
+very worthless. The military sound of the 
+word is enough. It recalls leading articles, cabinet 
+ministers&#8212;a whole class of things indeed  
+<app>
+  <rdg wit="#ho17" type="punctuation">which</rdg>
+  <rdg wit="#ho19" type="punctuation">which</rdg>
+  <rdg wit="#ho21" type="punctuation">which</rdg>
+  <rdg wit="#har21" type="punctuation">which</rdg>
+  <rdg wit="#har44" type="punctuation">which,</rdg>
+  <rdg wit="#ho45" type="punctuation">which,</rdg>
+</app> as a  
+<app>
+  <rdg wit="#ho17" type="punctuation">child</rdg>
+  <rdg wit="#ho19" type="punctuation">child</rdg>
+  <rdg wit="#ho21" type="punctuation">child</rdg>
+  <rdg wit="#har21" type="punctuation">child</rdg>
+  <rdg wit="#ho45" type="punctuation">child,</rdg>
+  <rdg wit="#har44" type="punctuation">child,</rdg>
+</app> one thought the thing itself, 
+the standard thing, the real thing, from which 
+one could not depart save at the risk of nameless 
+damnation. 
+<app>
+	<rdg wit="#ho17" type="americanization">Generalisations</rdg>
+	<rdg wit="#ho19" type="americanization">Generalisations</rdg>
+  <rdg wit="#ho21" type="americanization">Generalizations</rdg>
+  <rdg wit="#har21" type="americanization">Generalizations</rdg>
+  <rdg wit="#har44" type="americanization">Generalizations</rdg>
+  <rdg wit="#ho45" type="americanization">Generalizations</rdg>
+  
+</app> bring back 
+somehow Sunday in London, Sunday afternoon 
+walks, Sunday luncheons, and also ways of 
+speaking of the dead,  
+<app>
+	<rdg wit="#ho17" type="punctuation">clothes</rdg>
+  <rdg wit="#ho19" type="punctuation">clothes,</rdg>
+  <rdg wit="#ho21" type="punctuation">clothes,</rdg>
+  <rdg wit="#har21" type="punctuation">clothes,</rdg>
+  <rdg wit="#har44" type="punctuation">clothes,</rdg>
+  <rdg wit="#ho45" type="punctuation">clothes,</rdg>
+</app> and habits&#8212;like 
+the habit of sitting all together in one room 
+until a certain hour, although nobody liked it. 
+There was a rule for everything. The rule for 
+tablecloths at that particular period was that 
+they should be made of tapestry with little yellow 
+compartments marked upon them, such as 
+you may see in photographs of the carpets in 
+the corridors of the royal palaces. Tablecloths 
+of a different kind were not real tablecloths. 
+How  
+<app>
+	<rdg wit="#ho17" type="punctuation">shocking</rdg>
+  <rdg wit="#ho19" type="punctuation">shocking,</rdg>
+  <rdg wit="#ho21" type="punctuation">shocking,</rdg>
+  <rdg wit="#har21" type="punctuation">shocking,</rdg>
+  <rdg wit="#har44" type="punctuation">shocking,</rdg>
+  <rdg wit="#ho45" type="punctuation">shocking,</rdg>
+</app> and yet how wonderful it was to 
+discover that these real things, Sunday luncheons, 
+Sunday walks, country 
+<app>
+	<rdg wit="#ho17" type="correction">housse</rdg>
+  <rdg wit="#ho19" type="correction">houses</rdg>
+  <rdg wit="#ho21" type="correction">houses</rdg>
+  <rdg wit="#har21" type="correction">houses</rdg>
+  <rdg wit="#har44" type="correction">houses</rdg>
+  <rdg wit="#ho45" type="correction">houses</rdg>
+</app> , and tablecloths 
+were not entirely real, were indeed half 
+phantoms, and the damnation which visited the 
+disbeliever in them was only a sense of illegitimate 
+freedom. What now takes the place of 
+those  
+<app>
+	<rdg wit="#ho17" type="punctuation">things,</rdg>
+	<rdg wit="#ho19" type="punctuation">things,</rdg>
+  <rdg wit="#ho21" type="punctuation">things</rdg>
+   <rdg wit="#har21" type="punctuation">things</rdg>
+   <rdg wit="#har44" type="punctuation">things</rdg>
+    <rdg wit="#ho45" type="punctuation">things</rdg>
+</app> I wonder, those real standard 
+things? Men perhaps, should you be a woman; 
+the masculine point of view which governs our 
+lives, which sets the standard, which 
+<app>
+  <rdg wit="#ho17" type="alteration">establishes</rdg>
+  <rdg wit="#ho19" type="alteration">establishes</rdg>
+  <rdg wit="#ho21" type="alteration">establishes</rdg>
+  <rdg wit="#har21" type="alteration">establishes</rdg>
+  <rdg wit="#har44" type="alteration">establishes</rdg>
+  <rdg wit="#ho45" type="alteration">established</rdg>
+</app> 
+Whitaker's Table of Precedency, which has become, 
+I suppose, since the 
+<app>
+  <rdg wit="#ho17" type="punctuation">war</rdg>
+  <rdg wit="#ho19" type="punctuation">war</rdg>
+  <rdg wit="#ho21" type="punctuation">war</rdg>
+  <rdg wit="#har21" type="punctuation">war</rdg>
+  <rdg wit="#har44" type="punctuation">war,</rdg>
+  <rdg wit="#ho45" type="punctuation">war,</rdg>
+</app> half a phantom to 
+many men and women, which  
+<app>
+	<rdg wit="#ho17" type="punctuation">soon</rdg>
+  <rdg wit="#ho19" type="punctuation">soon,</rdg>
+  <rdg wit="#ho21" type="punctuation">soon,</rdg>
+  <rdg wit="#har21" type="punctuation">soon,</rdg>
+  <rdg wit="#har44" type="punctuation">soon,</rdg>
+  <rdg wit="#ho45" type="punctuation">soon,</rdg>
+</app> one may  
+<app>
+	<rdg wit="#ho17" type="punctuation">hope</rdg>
+  <rdg wit="#ho19" type="punctuation">hope,</rdg>
+  <rdg wit="#ho21" type="punctuation">hope,</rdg>
+  <rdg wit="#har21" type="punctuation">hope,</rdg>
+  <rdg wit="#har44" type="punctuation">hope,</rdg>
+  <rdg wit="#ho45" type="punctuation">hope,</rdg>
+</app> will be laughed into the dustbin where 
+the phantoms go, the mahogany sideboards  
+<app>
+	<rdg wit="#ho17" type="alteration">and</rdg>
+	<rdg wit="#ho19" type="alteration">and</rdg>
+  <rdg wit="#ho21" type="alteration">and the</rdg>
+  <rdg wit="#har21" type="alteration">and the</rdg>
+  <rdg wit="#har44" type="alteration">and the</rdg>
+  <rdg wit="#ho45" type="alteration">and the</rdg>
+</app> Landseer prints, Gods and Devils, Hell and 
+so forth, leaving us all with an intoxicating 
+sense of illegitimate freedom&#8212;if freedom  
+<app>
+	<rdg wit="#ho17" type="punctuation">exists.</rdg>
+  <rdg wit="#ho19" type="punctuation">exists. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">exists. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">exists. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">exists. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">exists. . . .</rdg>
+</app> </p>
+<p>In certain  
+<app>
+	<rdg wit="#ho17" type="punctuation">lights,</rdg>
+	<rdg wit="#ho19" type="punctuation">lights,</rdg>
+  <rdg wit="#ho21" type="punctuation">lights</rdg>
+  <rdg wit="#har21" type="punctuation">lights</rdg>
+  <rdg wit="#har44" type="punctuation">lights</rdg>
+  <rdg wit="#ho45" type="punctuation">lights</rdg>
+</app> that mark on the wall seems 
+actually to project from the wall. Nor is it entirely 
+circular. I cannot be sure, but it seems to 
+cast a perceptible shadow, suggesting that if I 
+ran my finger down that strip of the wall it   
+<app>
+	<rdg wit="#ho17" type="punctuation">would</rdg>
+  <rdg wit="#ho19" type="punctuation">would,</rdg>
+  <rdg wit="#ho21" type="punctuation">would,</rdg>
+  <rdg wit="#har21 #ho21" type="punctuation">would,</rdg>
+  <rdg wit="#har44" type="punctuation">would,</rdg>
+  <rdg wit="#ho45" type="punctuation">would,</rdg>
+</app> at a certain 
+<app>
+	<rdg wit="#ho17" type="punctuation">point</rdg>
+  <rdg wit="#ho19" type="punctuation">point,</rdg>
+  <rdg wit="#ho21" type="punctuation">point,</rdg>
+  <rdg wit="#har21" type="punctuation">point,</rdg>
+  <rdg wit="#har44" type="punctuation">point,</rdg>
+  <rdg wit="#ho45" type="punctuation">point,</rdg>
+</app> mount and descend a 
+small tumulus, a smooth tumulus like those barrows 
+on the South Downs which are, they say, 
+either tombs or  
+<app>
+	<rdg wit="#ho17" type="punctuation">camps</rdg>
+  <rdg wit="#ho19" type="punctuation">camps.</rdg>
+  <rdg wit="#ho21" type="punctuation">camps.</rdg>
+  <rdg wit="#har21" type="punctuation">camps.</rdg>
+  <rdg wit="#har44" type="punctuation">camps.</rdg>
+  <rdg wit="#ho45" type="punctuation">camps.</rdg>
+  
+</app> Of the two I should 
+prefer them to be tombs, desiring melancholy 
+like most English  
+<app>
+	<rdg wit="#ho17" type="punctuation">people</rdg>
+	<rdg wit="#ho19" type="punctuation">people</rdg>
+  <rdg wit="#ho21" type="punctuation">people,</rdg>
+  <rdg wit="#har21" type="punctuation">people,</rdg>
+  <rdg wit="#har44" type="punctuation">people,</rdg>
+  <rdg wit="#ho45" type="punctuation">people,</rdg>
+  
+  
+</app> and finding it natural 
+at the end of a walk to think of the bones 
+stretched beneath the  
+<app>
+	<rdg wit="#ho17" type="punctuation">turf.</rdg>
+  <rdg wit="#ho19" type="punctuation">turf. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">turf. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">turf. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">turf. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">turf. . . .</rdg>
+</app> There must be 
+some book about it. Some antiquary must have 
+dug up those bones and given them a  
+<app>
+  <rdg wit="#ho17" type="punctuation">name.</rdg>
+  <rdg wit="#ho19" type="punctuation">name. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">name. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">name. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">name. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">name. . . .</rdg>
+</app> What sort  
+<app>
+	<rdg wit="#ho17" type="alteration">of</rdg>
+	<rdg wit="#ho19" type="alteration">of</rdg>
+  <rdg wit="#ho21" type="alteration">of a</rdg>
+  <rdg wit="#har21" type="alteration">of a</rdg>
+  <rdg wit="#har44" type="alteration">of a</rdg>
+  <rdg wit="#ho45" type="alteration">of a</rdg>
+</app> man is an antiquary, I 
+wonder? Retired 
+<app>
+	<rdg wit="#ho17" type="capitalization">colonels</rdg>
+	<rdg wit="#ho19" type="capitalization">colonels</rdg>
+  <rdg wit="#ho21" type="capitalization">Colonels</rdg>
+  <rdg wit="#har21" type="capitalization">Colonels</rdg>
+  <rdg wit="#har44" type="capitalization">Colonels</rdg>
+  <rdg wit="#ho45" type="capitalization">Colonels</rdg>
+</app> for the most part, I 
+daresay, leading parties of aged labourers to 
+the top here, examining clods of earth and stone, 
+and getting into correspondence with the neighbouring 
+clergy,  
+<app>
+	<rdg wit="#ho17" type="punctuation">which</rdg>
+  <rdg wit="#ho19" type="punctuation">which,</rdg>
+  <rdg wit="#ho21" type="punctuation">which,</rdg>
+  <rdg wit="#har21" type="punctuation">which,</rdg>
+  <rdg wit="#har44" type="punctuation">which,</rdg>
+  <rdg wit="#ho45" type="punctuation">which,</rdg>
+</app> being opened at breakfast  
+<app>
+	<rdg wit="#ho17" type="punctuation">time</rdg>
+  <rdg wit="#ho19" type="punctuation">time,</rdg>
+  <rdg wit="#ho21" type="punctuation">time,</rdg>
+  <rdg wit="#har21" type="punctuation">time,</rdg>
+  <rdg wit="#har44" type="punctuation">time,</rdg>
+  <rdg wit="#ho45" type="punctuation">time,</rdg>
+</app> gives them a feeling of importance, 
+and the comparison of 
+<app>
+	<rdg wit="#ho17" type="punctuation">arrowheads</rdg>
+	<rdg wit="#ho19" type="punctuation">arrowheads</rdg>
+  <rdg wit="#ho21" type="punctuation">arrow-heads</rdg>
+  <rdg wit="#har21" type="punctuation">arrow-heads</rdg>
+  <rdg wit="#har44" type="punctuation">arrow-heads</rdg>
+  <rdg wit="#ho45" type="punctuation">arrow-heads</rdg>
+</app> necessitates 
+<app>
+	<rdg wit="#ho17" type="punctuation">cross country</rdg>
+  <rdg wit="#ho19" type="punctuation">cross-country</rdg>
+  <rdg wit="#ho21" type="punctuation">cross-country</rdg>
+   <rdg wit="#har21" type="punctuation">cross-country</rdg>
+   <rdg wit="#har44" type="punctuation">cross-country</rdg>
+    <rdg wit="#ho45" type="punctuation">cross-country</rdg>
+</app> journeys to the county 
+towns, an agreeable necessity both to them and 
+to their elderly wives, who wish to make plum  
+<app>
+	<rdg wit="#ho17" type="punctuation">jam,</rdg>
+	<rdg wit="#ho19" type="punctuation">jam,</rdg>
+  <rdg wit="#ho21" type="punctuation">jam</rdg>
+  <rdg wit="#har21" type="punctuation">jam</rdg>
+  <rdg wit="#har44" type="punctuation">jam</rdg>
+  <rdg wit="#ho45" type="punctuation">jam</rdg>
+</app> or to clean out the study, and have every 
+reason for keeping that great question of the 
+camp or the tomb in perpetual suspension, while 
+the Colonel himself feels agreeably philosophic 
+in accumulating evidence on both sides of the 
+question. It is true that he does finally incline 
+to believe in the camp; and,   
+<app>
+	<rdg wit="#ho17" type="excision">opposed, casts all his arrowheads into one scale, and being still further opposed, indites</rdg>
+  <rdg wit="#ho19" type="excision">opposed, casts all his arrowheads into one scale, and being still further opposed, indites</rdg>
+  <rdg wit="#ho21" type="excision">opposed,indites</rdg>
+  <rdg wit="#har21" type="excision">opposed,indites</rdg>
+  <rdg wit="#har44" type="excision">opposed,indites</rdg>
+  <rdg wit="#ho45" type="excision">opposed,indites</rdg>
+</app>  
+a pamphlet which he is about to read at 
+the quarterly meeting of the local society when 
+a stroke lays him low, and his last conscious 
+thoughts are not of wife or child, but of the 
+camp and that 
+<app>
+	<rdg wit="#ho17" type="punctuation">arrow-head</rdg>
+  <rdg wit="#ho19" type="punctuation">arrowhead</rdg>
+  <rdg wit="#ho21" type="punctuation">arrowhead</rdg>
+  <rdg wit="#har21" type="punctuation">arrowhead</rdg>
+  <rdg wit="#har44" type="punctuation">arrow-head</rdg>
+  <rdg wit="#ho45" type="punctuation">arrow-head</rdg>
+</app> 
+<app>
+	<rdg wit="#ho17" type="punctuation">there </rdg>
+  <rdg wit="#ho19" type="punctuation">there,</rdg>
+  <rdg wit="#ho21" type="punctuation">there,</rdg>
+  <rdg wit="#har21" type="punctuation">there,</rdg>
+  <rdg wit="#har44" type="punctuation">there,</rdg>
+  <rdg wit="#ho451" type="punctuation">there,</rdg> 
+</app> which is now 
+in the case at the local museum, together with 
+the <app>
+	<rdg wit="#ho17" type="alteration">hand</rdg>
+  <rdg wit="#ho19" type="alteration">foot</rdg>
+  <rdg wit="#ho21" type="alteration">foot</rdg>
+  <rdg wit="#har21" type="alteration">foot</rdg>
+  <rdg wit="#har44" type="alteration">foot</rdg>
+  <rdg wit="#ho45" type="alteration">foot</rdg>
+  <note type="annotation"><p>On this list of items on display at the local museum is the foot of a Chinese murderess. Heather Levy connects this severed body part to the history of British Expansion as “the violence of synecdoche,” calling to mind the violent history of colonialism through these representative items.<note type="editorial">Levy, <hi rend="italic">Servants</hi>, 85.</note> She also links the foot, a reference to motion, to the narrator’s inability, or unwillingness, to move from her spot to examine the mark. However, in the 1917 version of this story, the word “foot” originally read “hand.” The change to “foot” was likely to avoid the repetition of the word “hand” further on in the sentence with the reference to a “handful of Elizabethan nails” rather than an explicit connection to the narrator’s immobility.</p> 
+</note>
+</app> of a Chinese murderess, a handful of 
+Elizabethan nails, a great many Tudor clay 
+<app>
+	<rdg wit="#ho17" type="punctuation">pipes</rdg>
+  <rdg wit="#ho19" type="punctuation">pipes,</rdg>
+  <rdg wit="#ho21" type="punctuation">pipes,</rdg>
+  <rdg wit="#har21" type="punctuation">pipes,</rdg>
+  <rdg wit="#har44" type="punctuation">pipes,</rdg>
+  <rdg wit="#ho45" type="punctuation">pipes,</rdg>
+  
+</app> a piece of Roman pottery, and the 
+<app>
+  <rdg wit="#ho17" type="punctuation">wine-glass</rdg>
+  <rdg wit="#ho19" type="punctuation">wine-glass</rdg>
+  <rdg wit="#ho21" type="punctuation">wine-glass</rdg>
+  <rdg wit="#har21" type="punctuation">wine-glass</rdg>
+  <rdg wit="#ho45" type="punctuation">wineglass</rdg>
+  <rdg wit="#har44" type="punctuation">wineglass</rdg>
+</app> that Nelson drank out of&#8212;proving I really 
+don't know what.</p>
+<p>
+No, no, nothing is proved, nothing is known. 
+And if I were to get up at this very moment and 
+ascertain that the mark on the wall is really&#8212;what 
+shall we say?&#8212;the head of a gigantic old 
+nail, driven in two hundred years  
+<app>
+	<rdg wit="#ho17" type="punctuation">ago</rdg>
+  <rdg wit="#ho19" type="punctuation">ago,</rdg>
+  <rdg wit="#ho21" type="punctuation">ago,</rdg>
+  <rdg wit="#har21" type="punctuation">ago,</rdg>
+  <rdg wit="#har44" type="punctuation">ago,</rdg>
+  <rdg wit="#ho45" type="punctuation">ago,</rdg>
+</app> which has 
+now, owing to the patient attrition of many 
+generations of housemaids, revealed its head 
+above the coat of paint, and is taking its first 
+view of modern life in the sight of a white-walled 
+fire-lit room, what should I gain? 
+<app>
+	<rdg wit="#ho17" type="punctuation">Knowledge</rdg>
+  <rdg wit="#ho19" type="punctuation">&#8212;Knowledge</rdg>
+  <rdg wit="#ho21" type="punctuation">&#8212;Knowledge</rdg>
+  <rdg wit="#har21" type="punctuation">&#8212;Knowledge</rdg>
+  <rdg wit="#har44" type="punctuation">&#8212;Knowledge</rdg>
+  <rdg wit="#ho45" type="punctuation">&#8212; Knowledge</rdg>
+</app>? 
+Matter for further speculation? 
+I can think sitting still as well as standing up. 
+And what is knowledge? What are our learned 
+men save the descendants of witches and hermits 
+who crouched in caves and in woods brewing 
+herbs, interrogating  
+<app>
+	<rdg wit="#ho17" type="punctuation">shrew-mice,</rdg>
+	<rdg wit="#ho19" type="punctuation">shrew-mice,</rdg>
+  <rdg wit="#ho21" type="punctuation">shrew-mice</rdg>
+  <rdg wit="#har21" type="punctuation">shrew-mice</rdg>
+  <rdg wit="#har44" type="punctuation">shrew-mice</rdg>
+  <rdg wit="#ho45" type="punctuation">shrew-mice</rdg>
+</app> and writing 
+down the language of the stars? And the less 
+we honour them as our superstitions dwindle 
+and our respect for beauty and health of mind  
+<app>
+	<rdg wit="#ho17" type="punctuation">increases. . . . .</rdg>
+  <rdg wit="#ho19" type="punctuation">increases. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">increases. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">increases. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">increases. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">increases. . . .</rdg>
+</app> Yes, one could imagine a very 
+pleasant  
+<app>
+  <rdg wit="#ho17" type="punctuation">world.</rdg>
+  <rdg wit="#ho19" type="punctuation">world.</rdg>
+  <rdg wit="#ho21" type="punctuation">world</rdg>
+  <rdg wit="#har21" type="punctuation">world.</rdg>
+  <rdg wit="#har44" type="punctuation">world.</rdg>
+  <rdg wit="#ho45" type="punctuation">world.</rdg>
+  
+</app> A  
+<app>
+	<rdg wit="#ho17" type="punctuation">quiet</rdg>
+	<rdg wit="#ho19" type="punctuation">quiet</rdg>
+	<rdg wit="#ho21" type="punctuation">quiet</rdg>
+  <rdg wit="#har21" type="punctuation">quiet,</rdg>
+  <rdg wit="#har44" type="punctuation">quiet,</rdg>
+  <rdg wit="#ho45" type="punctuation">quiet,</rdg>
+</app> spacious world, with 
+the flowers so red and blue in the open fields. 
+A world without professors or specialists or 
+house-keepers with the profiles of policemen, a 
+world which one could slice with 
+<app>
+	<rdg wit="#ho17" type="correction">ones</rdg>
+	<rdg wit="#ho19" type="correction">ones</rdg>
+	<rdg wit="#ho21" type="correction">ones</rdg>
+  <rdg wit="#har21" type="correction">one's</rdg>
+  <rdg wit="#har44" type="correction">one's</rdg>
+  <rdg wit="#ho45" type="correction">one's</rdg>
+</app> thought as 
+a fish slices the water with his fin, grazing the 
+stems of the  
+<app>
+	<rdg wit="#ho17" type="alteration">water-lilies, and</rdg>
+  <rdg wit="#ho19" type="alteration">water-lilies,</rdg>
+  <rdg wit="#ho21" type="alteration">water-lilies,</rdg>
+  <rdg wit="#har21" type="alteration">water-lilies,</rdg>
+  <rdg wit="#har44" type="alteration">water-lilies,</rdg>
+  <rdg wit="#ho45" type="alteration">water-lilies,</rdg>
+</app> hanging suspended 
+over nests of white sea  
+<app>
+  <rdg wit="#ho17" type="punctuation">eggs. . . . . .</rdg>
+	<rdg wit="#ho19" type="punctuation">eggs. . . .</rdg>
+ <rdg wit="#ho21" type="punctuation">eggs. . . .</rdg>
+ <rdg wit="#har21" type="punctuation">eggs. . . .</rdg>
+ <rdg wit="#har44" type="punctuation">eggs. . . .</rdg>
+ <rdg wit="#ho45" type="punctuation">eggs. . . .</rdg>
+</app> How peaceful 
+it is down here, rooted<app>
+  <rdg wit="#ho17" type="alteration">into</rdg>
+  <rdg wit="#ho19" type="alteration">into</rdg>
+  <rdg wit="#ho21" type="alteration">in</rdg>
+  <rdg wit="#har21" type="alteration">in</rdg>
+  <rdg wit="#har44" type="alteration">in</rdg>
+  <rdg wit="#ho45" type="alteration">in</rdg>
+  
+</app> the centre of the 
+world and gazing up through the 
+<app>
+  <rdg wit="#ho17" type="americanization">gray</rdg>
+  <rdg wit="#ho19" type="americanization">gray</rdg>
+  <rdg wit="#ho21" type="americanization">gray</rdg>
+  <rdg wit="#har21" type="americanization">grey</rdg>
+  <rdg wit="#har44" type="americanization">grey</rdg>
+   <rdg wit="#ho45" type="americanization">grey</rdg>
+</app> waters, 
+with their sudden gleams of light, and their
+<app>
+	<rdg wit="#ho17" type="punctuation">reflections&#8212;If</rdg>
+	<rdg wit="#ho19" type="punctuation">reflections&#8212;If</rdg>
+	<rdg wit="#ho21" type="punctuation">reflections&#8212;If</rdg>
+  <rdg wit="#har21" type="punctuation">reflections&#8212;if</rdg>
+  <rdg wit="#har44" type="punctuation">reflections&#8212;if</rdg>
+  <rdg wit="#ho45" type="punctuation">reflections&#8212;if</rdg>
+</app> it were not for 
+<app>
+  <rdg wit="#ho17" type="correction">Whitakers</rdg>
+  <rdg wit="#ho19" type="correction">Whitaker's</rdg>
+  <rdg wit="#ho21" type="correction">Whitaker's</rdg>
+  <rdg wit="#har21" type="correction">Whitaker's</rdg>
+  <rdg wit="#har44" type="correction">Whitaker's</rdg>
+  <rdg wit="#ho45" type="correction">Whitaker's</rdg>
+</app> 
+Almanack&#8212;if it were not for the Table of Precedency! </p>
+<p>I must jump up and see for myself what that 
+mark on the wall really is&#8212;a nail, a rose-leaf, a 
+crack in the wood? </p>
+<p>Here is 
+<app>
+  <rdg wit="#ho17" type="excision">Nature</rdg>
+  <rdg wit="#ho19" type="excision">Nature</rdg>
+  <rdg wit="#ho21" type="excision">Nature</rdg>
+  <rdg wit="#har21" type="excision">nature</rdg>
+  <rdg wit="#har44" type="excision">nature</rdg>
+  <rdg wit="#ho45" type="excision">nature</rdg>
+  <note type="annotation">
+<p>“Nature" is capitalized in the earlier British versions of the story. The lowercase letters in the 1945 Hogarth edition and both Harcourt versions deemphasize the personification of nature. The emphasis on nature in the earlier versions is consistent with Woolf’s preoccupation with nature during that time. She had begun experiencing headaches in March 1915 and quickly slipped into mental illness during which she was placed under constant supervision for months. Her diaries were interrupted by this sustained illness and were not resumed until 1917. During this period, Virginia spent much of her recovery visiting Asheham House in Sussex. Hogarth Press published <hi rend="italic">Publication No. 1 Two Stories</hi> in July 1917. When the diary resumes at Asheham in August after a two-year hiatus, her journal entries had changed from the expansive descriptions of everyday life common to the previous diaries to taciturn discussions of weather and nature. The early entries in the Asheham diary, written during summer 1917, focus almost exclusively on natural phenomena (with some war details), suggesting that Woolf’s engagement with nature was salutary for her convalescence. However, even her descriptions of nature seem shadowed by her recent illness. For example, on Sunday, August 19, 1917, Woolf discovered a caterpillar she had noticed a week earlier. Virginia seems haunted by its transformation: “Sat in the hollow; &amp; found the caterpillar, now becoming a Chrysalis, wh. I saw the other day. A horrid sight: head turning from side to side, tail paralysed; brown colour, purple spots just visible; like a snake in movement. No mushrooms.”<note type="editorial">V. Woolf, <hi rend="italic">Diary</hi>, 1:43.</note> Other letters reveal striking juxtapositions of impressions: “Trees an ugly leaden colour outside, as if shriveled, flowers beaten down &amp; brown; butterflies scarcely flying . . . Lovely night again. A great white owl, looking like a sea gull, sat on the rail, &amp; flew about. Mushrooms started on my patch. L. took wasps.”<note type="editorial">V. Woolf, <hi rend="italic">Diary</hi>, 1:47.</note> Some of her encounters with nature are described in beautiful detail: “Another fine morning. I walked, &amp; L. did the garden. I saw a clouded yellow [<hi rend="italic">Colias edusa</hi>] on the top&#8212;a very deep yellow the first for a long time. Clouds brewed over the sea, &amp; it began to rain at tea; then great thunder claps, &amp; lightning.”<note type="editorial">V. Woolf, <hi rend="italic">Diary</hi>, 1:48.</note> In October, Virginia describes the purchase of paper and pens as “the happiest day that exists for me.”<note type="editorial">V. Woolf, <hi rend="italic">Diary</hi>, 1:55.</note> Whether or not her use of the capital letter “N” in the early versions of “The Mark on the Wall” reflects her exploration of nature as a salve for mental turmoil, comparing the different versions raises interesting questions regarding her experience of (N)ature.</p>
+</note>
+</app> once more at her old game of 
+self-preservation. This train of thought, she 
+perceives, is threatening mere waste of energy, 
+even some collision with reality, for who will 
+ever be able to lift a finger against Whitaker's 
+Table of Precedency? The Archbishop of Canterbury 
+is followed by the Lord High Chancellor; 
+the Lord High Chancellor is followed by 
+the Archbishop of York. Everybody follows 
+somebody, such is the philosophy of Whitaker; 
+and the great thing is to know who follows  
+whom. Whitaker knows, and let that, so Nature 
+counsels, comfort you, instead of enraging 
+you; and if you can't be comforted, if you must 
+shatter this hour of peace, think of the mark on 
+the wall.</p>
+<p>I understand Nature's game&#8212;her prompting 
+to take action as a way of ending any thought 
+that threatens to excite or to pain. Hence, I 
+suppose, comes our slight contempt for men of 
+<app>
+  <rdg wit="#ho17" type="punctuation">action men</rdg>
+  <rdg wit="#ho19" type="punctuation">action&#8212;men</rdg>
+  <rdg wit="#ho21" type="punctuation">action&#8212;men</rdg>
+  <rdg wit="#har21" type="punctuation">action&#8212;men</rdg>
+  <rdg wit="#har44" type="punctuation">action&#8212;men</rdg>
+  <rdg wit="#ho45" type="punctuation">action&#8212;men</rdg>
+</app> ,we assume, who don't think. Still, 
+there's no harm in putting a full stop to one's 
+disagreeable thoughts by looking at a mark on 
+the wall. </p>
+<p>Indeed, now that I have fixed my eyes upon 
+it, I  
+<app>
+  <rdg wit="#ho17" type="alteration">feel</rdg>
+  <rdg wit="#ho19" type="alteration">feel</rdg>
+  <rdg wit="#ho21" type="alteration">feel that</rdg>
+  <rdg wit="#har21" type="alteration">feel that</rdg>
+  <rdg wit="#har44" type="alteration">feel that</rdg>
+  <rdg wit="#ho45" type="alteration">feel that</rdg>
+</app> I have grasped a plank in the sea; 
+I feel a satisfying sense of reality which at once 
+turns the two Archbishops and the Lord High 
+Chancellor to the shadows of shades. Here is 
+something definite, something real. Thus, waking 
+from a midnight dream of  
+<app>
+  <rdg wit="#ho17" type="punctuation">horror</rdg>
+  <rdg wit="#ho19" type="punctuation">horror</rdg>
+  <rdg wit="#ho21" type="punctuation">horror,</rdg>
+  <rdg wit="#har21" type="punctuation">horror,</rdg>
+  <rdg wit="#har44" type="punctuation">horror,</rdg>
+  <rdg wit="#ho45" type="punctuation">horror,</rdg>
+</app> one 
+hastily turns on the light and lies quiescent, 
+worshipping the chest of drawers, worshipping 
+solidity, worshipping reality, worshipping the 
+impersonal world which is a proof of some existence 
+other than ours. That is what one wants 
+to be sure of 
+<app>
+  <rdg wit="#ho17" type="punctuation">....</rdg>
+  <rdg wit="#ho19" type="punctuation">. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">. . . .</rdg>
+</app> Wood is a pleasant thing to 
+think about. It comes from a tree; and trees  
+<app>
+  <rdg wit="#ho17" type="punctuation">grow</rdg>
+  <rdg wit="#ho19" type="punctuation">grow,</rdg>
+  <rdg wit="#ho21" type="punctuation">grow,</rdg>
+  <rdg wit="#har21" type="punctuation">grow,</rdg>
+  <rdg wit="#har44" type="punctuation">grow,</rdg>
+  <rdg wit="#ho45" type="punctuation">grow,</rdg>
+</app> and we don't know how they grow. For 
+years and years they  
+<app>
+  <rdg wit="#ho17" type="punctuation">grow</rdg>
+  <rdg wit="#ho19" type="punctuation">grow,</rdg>
+  <rdg wit="#ho21" type="punctuation">grow,</rdg>
+  <rdg wit="#har21" type="punctuation">grow,</rdg>
+  <rdg wit="#har44" type="punctuation">grow,</rdg>
+  <rdg wit="#ho451" type="punctuation">grow,</rdg>
+</app> without paying any 
+attention to us, in meadows, in  
+<app>
+  <rdg wit="#ho17" type="punctuation">forests</rdg>
+  <rdg wit="#ho19" type="punctuation">forests</rdg>
+  <rdg wit="#ho21" type="punctuation">forests,</rdg>
+  <rdg wit="#har21" type="punctuation">forests,</rdg>
+  <rdg wit="#har44" type="punctuation">forests,</rdg>
+  <rdg wit="#ho45" type="punctuation">forests,</rdg>
+</app> and by 
+the side of rivers&#8212;all things one likes to think 
+about. The cows swish their tails beneath them 
+on hot afternoons; they paint rivers so green 
+that when a 
+<app>
+  <rdg wit="#ho17" type="punctuation">moor-hen</rdg>
+  <rdg wit="#ho19" type="punctuation">moor-hen</rdg>
+  <rdg wit="#ho21" type="punctuation">moorhen</rdg>
+  <rdg wit="#har21" type="punctuation">moorhen</rdg>
+  <rdg wit="#har44" type="punctuation">moorhen</rdg>
+  <rdg wit="#ho45" type="punctuation">moorhen</rdg>
+</app> dives one expects to see 
+its feathers all green when it comes up again. 
+I like to think of the fish balanced against 
+the stream like flags blown out; and of water-beetles 
+slowly raising domes of mud upon the bed 
+of the river. I like to think of the tree  
+<app>
+  <rdg wit="#ho17" type="punctuation">itself;</rdg>
+  <rdg wit="#ho19" type="punctuation">itself;</rdg>
+  <rdg wit="#ho21" type="punctuation">itself:</rdg>
+  <rdg wit="#har21" type="punctuation">itself:</rdg>
+  <rdg wit="#har44" type="punctuation">itself:</rdg>
+  <rdg wit="#ho45" type="punctuation">itself:</rdg>
+</app> 
+
+<app>
+  <rdg wit="#ho17" type="alteration">first</rdg>
+  <rdg wit="#ho19" type="alteration">first</rdg>
+  <rdg wit="#ho21" type="alteration">first</rdg>
+  <rdg wit="#har21" type="alteration">first</rdg>
+  <rdg wit="#har44" type="alteration">first of</rdg>
+  <rdg wit="#ho45" type="alteration">first</rdg>
+</app> the close dry sensation of being wood;  
+<app>
+  <rdg wit="#ho17" type="alteration">then there is</rdg>
+  <rdg wit="#ho19" type="alteration">then there is</rdg>
+  <rdg wit="#ho21" type="alteration">then</rdg>
+  <rdg wit="#har21" type="alteration">then</rdg>
+  <rdg wit="#har44" type="alteration">then</rdg>
+  <rdg wit="#ho45" type="alteration">then</rdg>
+</app> the grinding of the storm; then the slow, delicious 
+ooze of sap
+<app>
+  <rdg wit="#ho17" type="punctuation">.</rdg>
+  <rdg wit="#ho19" type="punctuation">.</rdg>
+  <rdg wit="#ho21" type="punctuation">.</rdg>
+  <rdg wit="#har21" type="punctuation">.</rdg>
+  <rdg wit="#har44" type="punctuation">;</rdg>
+  <rdg wit="#ho45" type="punctuation">.</rdg>
+</app> I like to think of  
+<app>
+  <rdg wit="#ho17" type="punctuation">it</rdg>
+  <rdg wit="#ho19" type="punctuation">it,</rdg>
+  <rdg wit="#ho21" type="punctuation">it,</rdg>
+  <rdg wit="#har21" type="punctuation">it,</rdg>
+  <rdg wit="#har44" type="punctuation">it,</rdg>
+  <rdg wit="#ho45" type="punctuation">it,</rdg>
+</app>  
+<app>
+  <rdg wit="#ho17" type="punctuation">too</rdg>
+  <rdg wit="#ho19" type="punctuation">too,</rdg>
+  <rdg wit="#ho21" type="punctuation">too,</rdg>
+  <rdg wit="#har21" type="punctuation">too,</rdg>
+  <rdg wit="#har44" type="punctuation">too,</rdg>
+  <rdg wit="#ho45" type="punctuation">too,</rdg>
+</app> on 
+winter's nights standing in the empty field with 
+all leaves close-furled, nothing tender exposed 
+to the iron bullets of the moon, a naked mast 
+upon an earth that goes tumbling, tumbling, all 
+night long. The song of birds must sound very 
+loud and strange in June; and how cold the feet 
+of insects must feel upon it, as they make laborious 
+progresses up the creases of the bark, or 
+sun themselves upon the thin green awning of 
+the leaves, and look straight in front of them  
+<app>
+  <rdg wit="#ho17" type="alteration">with huge</rdg>
+  <rdg wit="#ho19" type="alteration">with huge</rdg>
+  <rdg wit="#ho21" type="alteration">with</rdg>
+  <rdg wit="#har21" type="alteration">with</rdg>
+   <rdg wit="#har44" type="alteration">with</rdg>
+   <rdg wit="#ho45" type="alteration">with</rdg>
+</app> diamond-cut red  
+<app>
+  <rdg wit="#ho17" type="punctuation">eyes.</rdg>
+  <rdg wit="#ho19" type="punctuation">eyes. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">eyes. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">eyes. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">eyes. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">eyes. . . .</rdg>
+</app> One by one 
+the fibres snap beneath the immense cold pressure 
+of the earth 
+<app>
+  <rdg wit="#ho17" type="punctuation">;</rdg>
+  <rdg wit="#ho19" type="punctuation">;</rdg>
+  <rdg wit="#ho21" type="punctuation">,</rdg>
+  <rdg wit="#har21" type="punctuation">,</rdg>
+  <rdg wit="#har44" type="punctuation">,</rdg>
+  <rdg wit="#ho45" type="punctuation">,</rdg>
+</app> then the last storm comes and, 
+falling, the highest branches drive deep into the 
+ground again. Even so, life isn't done with; 
+there are a million patient, 
+<app>
+  <rdg wit="#ho17" type="punctuation">watchful</rdg>
+  <rdg wit="#ho19" type="punctuation">watchful,</rdg>
+  <rdg wit="#ho21" type="punctuation">watchful</rdg>
+  <rdg wit="#har21" type="punctuation">watchful</rdg>
+  <rdg wit="#har44" type="punctuation">watchful</rdg>
+  <rdg wit="#ho45" type="punctuation">watchful</rdg>
+</app> lives still 
+for a tree, all over the world, in 
+<app>
+  <rdg wit="#ho17" type="correction">bed-rooms</rdg>
+  <rdg wit="#ho19" type="correction">bedrooms</rdg>
+  <rdg wit="#ho21" type="correction">bedrooms</rdg>
+  <rdg wit="#har21" type="correction">bedrooms</rdg>
+  <rdg wit="#har44" type="correction">bedrooms</rdg>
+  <rdg wit="#ho45" type="correction">bedrooms</rdg>
+</app> , in 
+ships, on the pavement, lining  
+<app>
+  <rdg wit="#ho17" type="punctuation">rooms</rdg>
+  <rdg wit="#ho19" type="punctuation">rooms</rdg>
+  <rdg wit="#ho21" type="punctuation">rooms</rdg>
+  <rdg wit="#har21" type="punctuation">rooms,</rdg>
+  <rdg wit="#har44" type="punctuation">rooms,</rdg>
+  <rdg wit="#ho45" type="punctuation">rooms,</rdg>
+</app> where 
+men and women sit after  
+<app>
+  <rdg wit="#ho17" type="punctuation">tea</rdg>
+  <rdg wit="#ho19" type="punctuation">tea,</rdg>
+  <rdg wit="#ho21" type="punctuation">tea,</rdg>
+  <rdg wit="#har21" type="punctuation">tea,</rdg>
+  <rdg wit="#har44" type="punctuation">tea,</rdg>
+  <rdg wit="#ho45" type="punctuation">tea,</rdg>
+</app>  
+<app>
+  <rdg wit="#ho17" type="alteration">smoking their</rdg>
+  <rdg wit="#ho19" type="alteration">smoking their</rdg>
+  <rdg wit="#ho21" type="alteration">smoking</rdg>
+  <rdg wit="#har21" type="alteration">smoking</rdg>
+  <rdg wit="#har44" type="alteration">smoking</rdg>
+  <rdg wit="#ho45" type="alteration">smoking</rdg>
+</app> cigarettes. 
+It is full of peaceful thoughts, happy 
+thoughts, this tree. I should like to take each 
+one separately&#8212;but something is getting in the 
+way 
+<app>
+  <rdg wit="#ho17" type="punctuation">...</rdg>
+  <rdg wit="#ho19" type="punctuation">. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">. . . .</rdg>
+  <rdg wit="#har441" type="punctuation">. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">. . . .</rdg>
+</app> Where was I? What has it all been 
+about? A tree? A river? The Downs 
+<app>
+  <rdg wit="#ho17" type="punctuation">,</rdg>
+  <rdg wit="#ho19" type="punctuation">,</rdg>
+  <rdg wit="#ho21" type="punctuation">?</rdg>
+  <rdg wit="#har21" type="punctuation">?</rdg>
+  <rdg wit="#har44" type="punctuation">?</rdg>
+  <rdg wit="#ho45" type="punctuation">?</rdg>
+</app> Whitaker's 
+Almanack 
+<app>
+  <rdg wit="#ho17" type="punctuation">, the</rdg>
+  <rdg wit="#ho19" type="punctuation">, the</rdg>
+  <rdg wit="#ho21" type="punctuation">? The</rdg>
+  <rdg wit="#har21" type="punctuation">? The</rdg>
+  <rdg wit="#har44" type="punctuation">? The</rdg>
+  <rdg wit="#ho45" type="punctuation">? The</rdg>
+</app> fields of asphodel? I 
+can't remember a thing. Everything's moving, 
+falling, slipping, vanishing 
+<app>
+  <rdg wit="#ho17" type="punctuation">...</rdg>
+  <rdg wit="#ho19" type="punctuation">. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">. . . .</rdg>
+</app> There is a 
+vast upheaval of matter. Someone is standing 
+over me and 
+<app>
+  <rdg wit="#ho17" type="punctuation">saying&#8212;</rdg>
+  <rdg wit="#ho19" type="punctuation">saying&#8212;</rdg>
+  <rdg wit="#ho21" type="punctuation">saying&#8212;</rdg>
+  <rdg wit="#har21" type="punctuation">saying&#8212;</rdg>
+  <rdg wit="#har44" type="punctuation">saying:</rdg>
+  <rdg wit="#ho45" type="punctuation">saying :</rdg>
+</app></p>
+      <p>&quot;I'm going out to buy a newspaper.&quot; </p>
+<p>
+  <app>
+  <rdg wit="#ho17" type="punctuation">&quot;Yes?&quot;</rdg>
+  <rdg wit="#ho19" type="punctuation">&quot;Yes?&quot;</rdg>
+      <rdg wit="#ho21" type="punctuation">&quot; Yes? &quot;</rdg>
+      <rdg wit="#har21" type="punctuation">&quot;Yes?&quot;</rdg>
+      <rdg wit="#har44" type="punctuation">&quot;Yes ?&quot;</rdg>
+      <rdg wit="#ho45" type="punctuation">&quot;Yes?&quot;</rdg>
+</app> 
+</p>
+<p>
+<app>
+  <rdg wit="#ho17" type="punctuation">Though</rdg>
+  <rdg wit="#ho19" type="punctuation">Though</rdg>
+  <rdg wit="#ho21" type="punctuation">Though</rdg>
+  <rdg wit="#har21" type="punctuation">Though</rdg>
+  <rdg wit="#har44" type="punctuation">Though</rdg>
+  <rdg wit="#ho45" type="punctuation">&quot;Though</rdg>
+</app>it's no  
+<app>
+  <rdg wit="#ho17" type="punctuation">good,</rdg>
+  <rdg wit="#ho19" type="punctuation">good,</rdg>
+  <rdg wit="#ho21" type="punctuation">good</rdg>
+  <rdg wit="#har21" type="punctuation">good</rdg>
+  <rdg wit="#har44" type="punctuation">good</rdg>
+  <rdg wit="#ho45" type="punctuation">good</rdg>
+</app> buying newspapers 
+<app>
+  <rdg wit="#ho17" type="punctuation">......</rdg>
+  <rdg wit="#ho19" type="punctuation">. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">. . . .</rdg>
+  <rdg wit="#har21" type="punctuation">. . . .</rdg>
+  <rdg wit="#har44" type="punctuation">. . . .</rdg>
+  <rdg wit="#ho45" type="punctuation">. . . .</rdg>
+  <note type="annotation"><p>The earliest publication of the story&#8212;from the Hogarth edition of <hi rend="italic">Two Stories</hi>in 1917&#8212;represents the least standardized version in terms of punctuation, but it also allows us to better understand the pacing of the dialogue in the passage. For instance, after the second person in the story announces: “Though it’s no good, buying newspapers,” Woolf uses not a standard ellipsis but six consecutive and unspaced periods before the character continues with “Nothing ever happens.”<note type="editorial">Virginia Woolf, “The Mark on the Wall,” in <hi rend="italic">Two Stories</hi> (Richmond: Hogarth Press, 1917), 31.</note> This unusual punctuation suggests a longer pause than the other, more conventional, ellipses that she utilizes in the passages. Further, in its nonstandard use, the extended ellipsis also hints at the kind of repression in which the entire story participates. Here, the oddly long string of periods draws attention to all that is deliberately avoided in the statement. That is, in 1917, at the height of World War I, much more than “nothing” is happening. In her next revision of the story for the 1919 edition of <hi rend="italic">The Mark on the Wall</hi> by Hogarth following the close of the war, Woolf revises the punctuation into the more standard form of a period followed by an ellipsis&#8212;all evenly spaced apart. Woolf would not change the punctuation again.</p></note>
+</app> Nothing ever happens. Curse this war 
+<app>
+  <rdg wit="#ho17" type="punctuation">!</rdg>
+  <rdg wit="#ho19" type="punctuation">!</rdg>
+  <rdg wit="#ho21" type="punctuation">!</rdg>
+  <rdg wit="#har21" type="punctuation">;</rdg>
+  <rdg wit="#har44" type="punctuation">;</rdg>
+  <rdg wit="#ho45" type="punctuation">;</rdg>
+</app> 
+God damn this war 
+<app>
+  <rdg wit="#ho17" type="punctuation">!...</rdg>
+  <rdg wit="#ho19" type="punctuation">!. . . .</rdg>
+  <rdg wit="#ho21" type="punctuation">! . . .</rdg>
+  <rdg wit="#har21" type="punctuation">! . . .</rdg>
+  <rdg wit="#har44" type="punctuation">!. . .</rdg>
+  <rdg wit="#ho45" type="punctuation">!. . .</rdg>
+    <note type="annotation"><p>In the 1917 version, the text reads: “Curse this war ! God damn this war !...All the same, I don't see why we should have a snail on our wall” with a the period falling outside the quotation marks in the British style. Also one notes the lack of spacing between the second exclamation point and the ellipsis that follows. Again, this may have been a typographical decision, which lends the text a kind of chaotic or confused disposition. In the 1919 and 1921 Hogarth versions, the punctuation is spaced apart, and the final period is moved before the terminal quotation mark&#8212;an Americanization. Woolf changes another bit of punctuation in the passage in the 1921 edition of <hi rend="italic">Monday or Tuesday</hi> published by Harcourt, which reads: “Curse this war; God damn this war! . . . All the same, I don't see why we should have a snail on our wall.”<note type="editorial">Virginia Woolf, “The Mark on the Wall,” in <hi rend="italic">Monday or Tuesday</hi> (New York: Harcourt Brace and Co., 1921), 116.</note> The change is simple but significant. Following the first exclamation of “Curse this war,” she substitutes a semicolon for the original exclamation point. Thus, in the earliest versions&#8212;1917, 1919, and the Hogarth 1921&#8212;the passage has more emotional intensity. Indeed, the speaker is in effect shouting profanity at the daydreaming woman. Thus, a few years after the war has ceased, Woolf can&#8212;at least in part&#8212;subdue the aggressiveness of the man’s expostulation.</p></note>
+</app> 
+All the same, I don't 
+see why we should have a snail on our wall 
+<app>
+  <rdg wit="#ho17" type="punctuation">&quot;.</rdg>
+  <rdg wit="#ho19" type="punctuation">.&quot;</rdg>
+  <rdg wit="#ho21" type="punctuation">.&quot;</rdg>
+  <rdg wit="#har21" type="punctuation">.&quot;</rdg>
+  <rdg wit="#har44" type="punctuation">.&quot;</rdg>
+  <rdg wit="#ho45" type="punctuation">.&quot;</rdg>
+</app> </p>
+<p>Ah, the mark on the wall! 
+<app>
+  <rdg wit="#ho17" type="alteration">For it</rdg>
+  <rdg wit="#ho19" type="alteration">It</rdg>
+  <rdg wit="#ho21" type="alteration">It</rdg>
+  <rdg wit="#har21" type="alteration">It</rdg>
+  <rdg wit="#har44" type="alteration">It</rdg>
+  <rdg wit="#ho45" type="alteration">It</rdg>
+  <note type="annotation"><p>The final paragraph, comprised of two brief sentences, returns to the narrator’s point of view. In the 1917 publication, the passage reads: “Ah, the mark on the wall! For it was a snail.”<note type="editorial">V. Woolf, <hi rend="italic">Two Stories</hi>, 31.</note>  The sentences are concise and lack the anger and intensity present in the previous lines cursing the war. These final two sentences refuse to acknowledge the mention of the war and are far milder in their tone. Woolf made only one change to the final paragraph by removing “for” at the beginning of the final sentence so that every version from 1919 on reads: “Ah, the mark on the wall! It was a snail.”<note type="editorial">Virginia Woolf, <hi rend="italic">The Mark on the Wall</hi> (Richmond: Hogarth Press, 1919), 10.</note> It is a significant omission, particularly given that it is the only change to the wording of the passage. First, the removal of the preposition makes the last sentence simpler and more succinct. It also disconnects the sentence from the previous, since, if the second sentence begins with such a preposition, it is, in a sense, a dependent clause. Here the sentence stands alone. Indeed, when one reaches the final passage, the sentence is so simple and direct, an assertion of what this story has been about, that the reader could easily miss the brief mention of the calamitous war that surrounds the quiet household. That is, the grammatical simplification of the final two sentences in the later version, and their disconnection from the previous sentences, might be read as mirroring the tactic of avoiding and repressing knowledge of the war that the narrator relies on throughout the text.</p>
+</note>
+</app> was a snail. </p>
+
+
+    </body>
+  </text>
+</TEI>

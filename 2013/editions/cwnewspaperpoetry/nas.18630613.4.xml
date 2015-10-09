@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630613.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Our Volunteer</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630613.4</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#mca">Mary Clemmer Ames</author>
+                        <title level="a">Our Volunteer</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-06-13">13 June 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="mca">Ames, Mary Clemmer, 1839-1884</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                    <term>United States--History--Civil War, 1861-1865--Women</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-20" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>            
+            <change when="2012-07-29" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>            
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630613.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630613.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630613.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630613.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630613.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">OUR VOLUNTEER.</head>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">We</emph> gather round the twilight hearth,</l>
+                    <l rend="indented1">Beneath the evening's pallid flame,</l>
+                    <l>And softening every sound of mirth,</l>
+                    <l rend="indented1">We murmur the beloved name.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We try to still the voice of care,</l>
+                    <l rend="indented1">And cheerily say: "One year to-day</l>
+                    <l>The dulcet drum, and bugle blare,</l>
+                    <l rend="indented1">Allured our darling far away."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And stifling back the crowding tear,</l>
+                    <l rend="indented1">We murmur, while our prayers ascend:</l>
+                    <l>"Our Father's saved the boy a year;</l>
+                    <l rend="indented1">He'll surely save him to the end."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>His grand dog smoothes sad, drooping ears</l>
+                    <l rend="indented1">Along my hand in mute regret;</l>
+                    <l>His wistful eyes half read my fears:</l>
+                    <l rend="indented1">"Old boy!" you miss your master yet?</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The ringing voice, the eye of fire,</l>
+                    <l rend="indented1">The lithe young form, the step of pride,</l>
+                    <l>That once made all your heart's desire?</l>
+                    <l rend="indented1">Old pet, they're sunder'd from you wide.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Your gay bark in the hunt is hushed&#8212;</l>
+                    <l rend="indented1">A dearer meaning now you take,</l>
+                    <l>As everything his hand has touched</l>
+                    <l rend="indented1">Is cherished sacred for his sake.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Ah, does he think of home to-night,</l>
+                    <l rend="indented1">And how we sit and talk of him,</l>
+                    <l>Repeat his words with fond delight,</l>
+                    <l rend="indented1">With voices low, and eye-lids dim?</l></lg>
+                
+                <lg type="stanza">
+                    <l>We wonder when, with faces white,</l>
+                    <l rend="indented1"><emph rend="italic">Must</emph> be the next terrific fray;</l>
+                    <l>And if the march began last night,</l>
+                    <l rend="indented1">And where our army is to-day.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We listen to a dear young voice</l>
+                    <l rend="indented1">Sing words of love to music wed;</l>
+                    <l>So mournful, we may not rejoice;</l>
+                    <l rend="indented1">He loved that song in summers fled.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>It says: "O, take me home to die!"<note type="editorial" resp="#bw #el">This line appears in Isaac Baker Woodbury's "Take Me Home to Die, or, The Last Request," a popular song that circulated before and during the war. A host of Civil War songs echoed similar sentiments.</note></l>
+                    <l rend="indented1">What tender pain its rhythms yield;</l>
+                    <l>Not thus, not thus, O Lord, we cry,</l>
+                    <l rend="indented1">Send back our boy from war's red field!<sic>!</sic></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>O, leave us not lest we repine,</l>
+                    <l rend="indented1">If this the "glory" Thou shalt mete;</l>
+                    <l>To die for Truth makes death divine,</l>
+                    <l rend="indented1">To die for Country, it is sweet!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We love Thee, 'neath the heavy rod;</l>
+                    <l rend="indented1">We trust Thee, in the nation's night;</l>
+                    <l>Our only help and hope is God,</l>
+                    <l rend="indented1">That Thou at last will crown the right.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The paradise of spring-time hours</l>
+                    <l rend="indented1">He loved. In all her azure space,</l>
+                    <l>Mid all the Summer pomp of flowers,</l>
+                    <l rend="indented1">We'll yearn in vain to see his face.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>In wasting march, in bloody fight,</l>
+                    <l rend="indented1">All, all in love, yet half in fear,</l>
+                    <l>We pray from morning until night,</l>
+                    <l rend="indented1">That God will save Our Volunteer.</l>
+                </lg>
+            </lg>
+            
+            <byline rend="right"><emph rend="smallcaps">MARY CLEMMER AMES.</emph><note type="editorial" resp="#bw #el"><p>Born in New York, Mary Clemmer (1831?&#8211;1884) moved with her family to Massachusetts in 1847. She attended Westfield Academy before her family's state of financial crisis pushed her into an early marriage with the Reverend Daniel Ames. "All that was spiritually right in this relation, called a marriage," an early biographer wrote, "was its final legal annulment" ("Miss Whiting," quoted by Edmund Hudson, <title level="m">An American Woman's Life and Work: A Memorial of Mary Clemmer</title> [Boston: Ticknor, 1886], 42). In the 1850s her husband moved several times from state to state. Clemmer lived for a period in New York, and began to contribute letters to the <title level="j">Utica Morning Herald</title> and Samuel Bowles's <title level="j">Springfield Republican</title>&#8212;probably with a view to securing financial independence. During the same period, her friendship with celebrated poet sisters Alice and Phoebe Cary allowed her to develop a network of literary associations.</p><p>Before the outbreak of war, Clemmer joined Ames in Harpers Ferry, Virginia, where he was working as a government storekeeper. She was still there when Confederates captured the town in 1862. After a brief spell as a prisoner of war, she turned to nursing and writing in Washington, DC. Her first novel, <title level="m">Victoire</title>, was published in 1864. The following year, she separated from Ames (they would divorce in 1874). The New York <title level="j">Independent</title> published the first of Clemmer's famous Washington letters in March 1866; in the same year, she was able to "[undertake] the entire support of herself and her father and mother" (43). Clemmer's letters concentrated on political news and social issues instead of "society" comings and goings. Her column lasted for more than twenty years.</p></note></byline>
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Springfield Republican</title>.<note type="editorial" resp="#bw #el">Samuel Bowles, III (1826&#8211;1878) founded the <title level="j">Daily Republican</title> in 1844, having worked with his father on the <title level="j">Weekly Republican</title> (est. 1824). Antislavery Whig Bowles opposed disunion and the extension of slavery, but he had little sympathy with Garrisonian abolitionists or their concept of a "higher law." Provoked by the Kansas-Nebraska Act, however, he attacked the Fugitive Slave Law and called for slavery's opponents to form a political union (George S. Merriam, <title level="m">Life and Times of Samuel Bowles</title> [New York: The Century Co., 1885], 1:121). Bowles threw his support behind the Republican Party. His paper "not only upheld without faltering the Union and the war; it supported with equal steadiness the government of President Lincoln" (349). By 1860, the <title level="j">Daily Republican</title> had a circulation of 5,700 (179).</note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

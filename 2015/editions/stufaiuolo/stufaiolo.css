@@ -1,0 +1,236 @@
+/* stufaiolo.css */
+
+
+
+.wrapper:after 							{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.wrapper										{ display: inline-block; } /* Hides from IE-mac \*/
+* html .wrapper 							{ height: 1%; } 
+.wrapper 										{ display: block; } /* End hide from IE-mac */
+
+
+pre {margin-left: 1em;}
+
+pre.eg {font-size: small}
+
+body{font-family: Verdana, sans-serif;
+font-size: 100%;
+text-align: justify;
+margin: 15px 0 0 0;
+padding: 0 0 0 0;
+background-color:#f9f6f0;
+background-repeat: repeat;
+}
+
+
+html { height: 100%; }
+
+div.wrapper { border: solid 1px #897455; margin: 0px auto; width: 900px;  }
+
+
+h3 { font-size: 140%;  }
+
+
+ul{margin-left: 0.5cm;}
+/*.intesta{background-image: url("img/intesta2.jpg"); 
+background-color:transparent; 
+background-repeat: repeat;
+margin: 0 0 0 0;
+padding: 0 0 0 0;}
+*/.img{background-image: url("img/intesta copia.jpg"); 
+background-color:transparent; 
+height:535px;
+width: 200px;
+float:left;
+}
+.main{
+/*float:right;*/
+/*border: hidden;*/ 
+/*height: 535px;*/
+padding: 15px 10px 0 0;
+font-size: 80%;
+line-height: 1.5em;
+margin: 15px 0 0 15px;
+}
+.notes{
+padding: 15px 10px 0 0;
+font-size: 70%;
+line-height: 1em;
+margin: 15px 0 0 15px;        
+}
+/*.box{
+overflow:scroll;
+width: 650px; 
+height: 200px; 
+margin-bottom: 0.3cm;
+margin-left: 0.5cm;
+border: solid 1px black;
+padding-left:5px;
+}*/
+.confronta{
+color:#FF0000; font-style:italic;
+text-align:center;}
+h2.main2{text-align:center;
+padding-top:25px;
+padding-bottom:40px;
+margin:0 0 0 0;
+}
+/*.plain {overflow: scroll; 
+height:520px;
+margin-bottom: 0.3cm;
+margin-left: 0.5cm;
+padding-right:10px;
+}
+*/
+.lista{width: 330px; overflow:scroll;
+height:450px;}
+span.SICB {letter-spacing: +3pt;
+	     font-size: 90%}
+
+.xref { font-weight: bold; 
+        text-decoration: none;     
+        font-size: 90%;
+        font-family: sans-serif;
+          color:#C63904;
+          background-color:#000000;}
+
+.ref { font-weight: bold; 
+        text-decoration: none;     
+        font-size: 90%;
+        font-family: sans-serif;
+          color: #C63904;}
+
+.notelink { font-weight: bold; 
+        text-decoration: none;     
+        font-size: 90%;
+        font-family: sans-serif;
+          color: #C63904; }
+
+.navlink { font-weight: bold; 
+        text-decoration: none;     
+        font-size: 90%;
+        font-family: sans-serif;
+          color: #C63904;}
+
+.xptr { font-weight: bold; 
+        text-decoration: none;     
+        font-size: 90%;
+        font-family: sans-serif;
+          color: #C63904;}
+
+.li { font-weight: bold; 
+        text-decoration: none;     
+        font-size: 90%;
+        font-family: sans-serif;
+          color: #C63904; }
+
+.small { font-size: 8pt; 
+         font-family: Arial, sans-serif;
+         color: #9F9F9F }
+
+a  { font-weight: bold; 
+        text-decoration: none;     
+        font-size: 90%;
+        font-family: sans-serif;
+          color: #C63904	 }
+
+.label    { 	font-weight: bold; 
+background-color: #AAAAAA;
+color:black;}
+tr.label td {   font-weight: bold; 
+background-color: #AAAAAA;
+color:black;}
+
+
+td{
+font-size: 10pt;}
+
+h2{line-height: 160%;}
+.maintitle{text-align:center;
+padding-bottom:10px;
+padding-top:10px}
+
+h4{
+padding-left:10px;
+}
+
+.batt{padding-left:10px;
+padding-bottom:0;
+padding-top:0px;
+margin: 0 auto;
+display:block;
+}
+
+.sp{
+padding-bottom:10px;
+padding-top:10px;
+}
+
+.speaker{
+padding: 0 0 0 0;
+}
+a.frametoc{
+font-size:13pt;
+color:black;
+font-weight:bold;
+padding-bottom:0;
+padding-top:0;
+display:block;
+padding-left:10px;
+margin-top:15px;}
+a.frametoc:visited{
+color:black;
+}
+
+a.frametoc:hover{
+color:brown;
+}
+a.frametoc:focus{
+color:brown;
+}
+
+.occo{border-bottom: solid 1px; 
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+}
+.tipo{width:250px; float: left; }
+
+.occo:after 							{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.occo										{ display: inline-block; } /* Hides from IE-mac \*/
+* html .occo							{ height: 1%; } 
+.occo										{ display: block; } /* End hide from IE-mac */
+
+
+.tipo2{width:220px; float: left;  }
+.num{ float: right; display: block; }
+p span.occo{
+border-bottom: solid 1px; 
+margin: 0 0 0 30px;
+/*display: block;*/}
+.frametoc2{
+line-height: 1.4em;
+font-size:10pt;
+color:brown;
+font-weight:bold;
+display:block;
+padding-left:30px;
+padding-bottom:2px;}
+
+.dida { font-size: 8pt; 
+         font-family: Arial, sans-serif;}
+
+ol li{padding-left:0.5cm}
+
+a.tooltip {outline:none; }
+
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:-30px; margin-left:28px;
+    width:240px; line-height:16px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; color:#111;
+    border:1px solid #DCA; background:#fffAF0;}
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+
+/* */

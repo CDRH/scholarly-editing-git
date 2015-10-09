@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640305.4b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">What of the Day?</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640305.4b</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jgw">John G. Whittier</author>
+                        <title level="a">What of the Day?</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-03-05">5 March 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jgw">Whittier, John Greenleaf, 1807-1892</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Great Western Sanitary Fair (1863 : Cincinnati, Ohio)</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-20" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-13" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-13" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked transcription</change>
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640305.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640305.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640305.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640305.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18640305.pp4b_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">WHAT OF THE DAY?</head>
+                
+                <note type="newspaper-editorial"><p>[The following lines, entitled, "What of the Day?" were <lb/>sent to the Autograph Committee of the Great Western <lb/>Sanitary Fair,<note type="editorial" resp="#bw #el"><p>The Great Western Sanitary Fair (December 21, 1863&#8211;January 9, 1864), one of the major fairs held in cities across the North and West, to raise funds for the relief work of the United States Sanitary Commission.</p><p>The United States Sanitary Commission was established under government authority on June 9, 1861. A vast multilevel civilian organization, it managed the systematic collection of supplies from local soldiers' aid societies and oversaw their effective distribution in Union camps and hospitals and on battlefields ([Charles Brandon Boynton?], <title level="m">History of the Great Western Sanitary Fair</title> [Cincinnati: Vent, 1864], xvi). The commission also supported the Medical Bureau with information and "modest counsel." So-called branches formed the vital link between the commission and hundreds of local societies in a particular region. At central depots, managers oversaw the collection of contributions in kind as well as the purchase of supplies with money from appeals and fairs, and forwarded stocks at the direction of the sanitary commission. Women played a crucial role in the relief effort at the grassroots and branch levels. (See Judith Ann Giesberg, <title level="m">Civil War Sisterhood: The U.S. Sanitary Commission and Women's Politics in Transition</title> [Boston: Northeastern University Press, 2000].)The Cincinnati Branch of the United States Sanitary Commission was organized in November 1861. Its accounts up to August 11, 1864, show total receipts of just over $313,920, of which the Great Fair raised more than $235,400 ([Boynton?], xxx).</p><p>The fair itself was the result of collaboration between members of the Cincinnati Branch and the city's National Union Association. Planning began in November 1863; no less than sixteen committees formed to oversee various aspects of the event's organization.</p></note> at Cincinnati, by John G. Whittier.<note type="editorial" resp="#be #el"><p>John Greenleaf Whittier (1807&#8211;1892) dedicated himself to abolitionist activities in the early 1830s. He was a founding member of the American Anti-Slavery Society (est. December 1833), and held the editorship of the <title level="j">Pennsylvania Freeman</title> from March 1838 until February 1840. Convinced that the Constitution and the ballot could be used to attack slavery, he supported the Liberty Party and played an active part in its members' campaigns. Antislavery journalism continued to feature largely in his life; for thirteen years, he worked as corresponding editor for the <title level="j">National Era</title> (1847&#8211;1860).</p>
+                    <p>Orthodox Quaker Whittier managed to reconcile his abhorrence of war with his support for conflict that furthered the antislavery cause; during the war he urged members of the Society of Friends to assist the war effort in noncombatant roles, as nurses in hospitals and as teachers among the freedpeople (Samuel T. Pickard, <title level="m">Life and Letters of John Greenleaf Whittier</title> [London: Sampson Low, 1895], 2:440&#8211;41; see also "<ref target="nas.18630627.4">In War-Time</ref>"). Poetry had long been integral to his abolitionist mission. His first (unauthorized) collection of poetry, <title level="m">Poems Written during the Progress of the Abolition Question in the United States, between 1830 and 1838</title>, was published by antislavery colleagues in 1837 (Randall Cluff, "Whittier, John Greenleaf," in <title level="m">American National Biography Online</title>). He continued to champion abolition in verse throughout the war. His poems often appeared in the <title level="j">Atlantic Monthly</title> (which he supported from its inception) and in the <title level="j">New York Independent</title>, and were widely reprinted in serials with antislavery sympathies.</p><p>Whittier probably sent the autograph manuscript of "What of the Day?" in response to a request from the "Sub-Committee on Autograph Letters." The committee collected over five hundred letters from "prominent men" and women for display and auction ([Charles Brandon Boynton?], <title level="m">History of the Great Western Sanitary Fair</title> [Cincinnati: Vent, 1864], 417). The lines of introduction that preface "What of the Day?" in the <title level="j">National Anti-Slavery Standard</title> double as an advertisement for the forthcoming sale (held after the fair, in mid-March 1864).</p><p>Whittier's biographer comments that "What of the Day?" "was written in the height of the excitement of the [1856] presidential contest" between Republican John Fr&#233;mont and Democrat James Buchanan (Samuel T. Pickard, <title level="m">Life and Letters of John Greenleaf Whittier</title> [Boston: Houghton, 1894], 1:387). Reprinted as a patriotic contribution to the fundraising efforts of the United States Sanitary Commission, "What of the Day?" became a Civil War poem.</p></note> This <lb/>autograph manuscript, together with a number of other <lb/>autograph poems contributed by the authors, many of <lb/>them unpublished, will be sold at auction on the 15th and <lb/>16th days of March next:]</p></note>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">A sound</emph> of tumult troubles all the air,</l>
+                    <l>Like the low thunder of a sultry sky,</l>
+                    <l>Far rolling ere the downright lightnings glare,</l>
+                    <l>The hills blaze red with warnings; foes draw nigh,</l>
+                    <l>Treading the dark with challenge and reply!</l>
+                    <l>Behold the burden of the Prophet's vision&#8212;</l>
+                    <l>The gathering hosts, the Valley of Decision,<note type="editorial" resp="#bw #el">The place of the last judgment, according to Old Testament prophet Joel: "Multitudes, multitudes in the valley of decision: for the day of the Lord is near in the valley of decision" (3:14).</note></l>
+                    <l>Dusk with the wings of eagles hovering o'er!</l>
+                    <l>Day of the Lord, of darkness and not light,</l>
+                    <l>It breaks in thunder and the whirlwind's roar!<note type="editorial" resp="#bw #el">Whirlwinds are a recurrent biblical image of divine power and anger, associated with the last judgment. See, for example, Isaiah 29:6: "you will be visited by the Lord of hosts / with thunder and with earthquake and great noise, / with whirlwind and tempest, and the flame of a devouring fire."</note></l>
+                    <l>Even so, Father; let Thy will be done</l>
+                    <l>In mercy or in judgment. As for me,</l>
+                    <l>If but the least and frailest, let me be</l>
+                    <l>Ever more numbered with the truly free,</l>
+                    <l>Who find Thy service perfect liberty.</l>
+                    <l>I fain would thank Thee that my mortal life</l>
+                    <l>Has reached the hour (albeit thro' care and pain)</l>
+                    <l>When Good and Evil, as for final strife,</l>
+                    <l>Close dim and vast on Armageddon's plain;</l>
+                    <l>And Michael and his angels once again<note type="editorial" resp="#bw #el">Whittier likens the midcentury contest between "Good" and "Evil" to the battle between the Archangel Michael and Satan, described in the Revelation of St. John, "And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels, / And prevailed not; neither was their place found any more in heaven" (12:7&#8211;8).</note></l>
+                    <l>Drive howling back the spirits of the Night!</l>
+                    <l>Oh! for the faith to read the signs aright,</l>
+                    <l>And from the angel of Thy perfect sight</l>
+                    <l>See Truth's white banner floating on before;</l>
+                    <l>And the good cause, despite of venal friends</l>
+                    <l>And base expedients, move to noble ends;</l>
+                    <l>See Peace with Freedom make to time amends;</l>
+                    <l>And thro' its cloud of dust, Thy threshing floor,<note type="editorial" resp="#bw #el">A reference to the Gospels' agricultural figure for the sifting of the saved from the damned. See Matthew 3:13 and Luke 3:17: "His winnowing fork is in his hand, and he will clear his threshing floor and gather his wheat into the granary, but the chaff he will burn with unquenchable fire."</note></l>
+                    <l>Flailed by Thy thunders, heaped with chaffless grain!</l>
+                </lg>
+            </lg>
+            
+            <byline rend="right"><emph rend="smallcaps">John G. Whittier.</emph></byline>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640123.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Tribute</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640123.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#ca">Celia Abbott</author>
+                        <title level="a">Tribute</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-01-23">23 January 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="ca">Abbott, Celia</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African-American soldiers</term>
+                    <term>Fort Wagner (S.C.)</term>
+                    <term>United States. Army. Massachusetts Infantry Regiment, 54th (1863-1865)</term>
+                    <term>Shaw, Robert Gould, 1837-1863</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>   
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-28" who="#el">revised note about Celia Abbott</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640123.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640123.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640123.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640123.pp4.jpg"/>            
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18640123.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            <lg type="poem">     
+                
+                <head type="main" subtype="authorial" rend="center">TRIBUTE</head> 
+                <head type="sub" subtype="authorial" rend="center">TO THE <choice><sic>MAS<unclear reason="illegible" resp="#el" cert="low">S</unclear>SACHUETTS</sic><corr>MASSACHUSETTS</corr></choice> 54TH (COLORED), AT WAGNER.<note type="editorial" resp="#bw #el"><p>The Fifty-Fourth Massachusetts Regiment; the first regiment of African American volunteers raised in the North, authorized in late January 1863 and mustered into the US service on May 13. Black leaders called on men to enlist and thereby seize their "golden opportunity" and "first best chance" to establish an undeniable claim to the full rights of American citizens (Frederick Douglass, "Men of Color, to Arms!" reprinted in the <title level="j">Anglo-African</title>, March 7, 1863, [2]; editorial, <title level="j">Anglo-African</title>, March 7, 1863, [2]). The Fifty-Fourth quickly filled with men "from virtually every black community in the North" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana: University of Illinois Press, 1998], 31). A number of the new recruits would provide the <title level="j">Anglo-African</title> and the <title level="j">Christian Recorder</title> with correspondence from the front during their term of service. Both titles served as a channel of communication between distant volunteers and the folks at home.</p>      
+                    <p>Under Robert Gould Shaw's command, the regiment took shape at Camp Meigs in Readville, Massachusetts. On May, 28, 1863, after weeks of training, the men paraded through Boston's cheering streets and then embarked on the steamer <name type="ship">De Molay</name>, bound for South Carolina's Sea Islands and the theater of war. (A sister regiment, the Fifty-Fifth, had already begun to form by the time members of the Fifty-Fourth departed for South Carolina.) In the Department of the South, the Massachusetts volunteers had to contend with the prejudiced policies of the US government as well as the Confederate enemy.</p>
+                    <p>On July 18, 1863, Shaw and the Fifty-fourth courageously led a frontal attack on Morris Island's (South Carolina) Fort Wagner. Their bravery could not compensate for General Quincy Gillmore's poor planning; the assault failed, and 272 members of the regiment were killed, wounded, or taken prisoner (Russell Duncan, ed., <title level="m">Blue-Eyed Child of Fortune: The Civil War Letters of Col. Robert Gould Shaw</title> [Athens: University of Georgia Press, 1999], 52). Northern newspapers reported that Wagner's Confederate garrison had buried Shaw in a mass grave with his men. Abolitionists reinterpreted the Confederate gesture of contempt as a mark of distinction.</p>
+                    <p>The charge on Fort Wagner established their Northern reputation as heroes, yet Lincoln's administration refused to pay them as soldiers, at the basic rate of thirteen dollars per month. For more than a year, the Fifty-Fourth and the Fifty-Fifth protested against the injustice by refusing to accept any pay at all. In July 1864, Congress finally passed a law to equalize pay and to reimburse free black soldiers for their full terms of service. Only in January 1865 did the War Department promote Sergeant Stephen A. Swails of the Fifty-Fourth to a commissioned post, making him the army's "first black commissioned officer" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana; Chicago: University of Illinois Press, 1998], 257n).</p></note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY CELIA ABBOTT.<note type="editorial" resp="#be #el">Robert Abbott, founder of the influential African American newspaper the <title level="j">Chicago Defender</title>, had an aunt named Celia Abbott, to whom he dedicated a monument in Georgia; it seems unlikely, however, that the Celia Abbott of "Tribute" is the same person. For Robert Abbott and Celia Abbott, see Roi Ottley, <title level="m">The Lonely Warrior: The Life and Times of Robert S. Abbott</title> (Chicago: H. Regnery, 1955).</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Fling</emph> weapons now in Ignominy's face,</l>
+                    <l>Dauntless defenders of the "outcast" race!</l>
+                    <l>So much for what is bearing on apace.</l>
+                    <l rend="indented5">Fill up the rank;</l>
+                    <l>Press on, press on, ye braves, to victory;</l>
+                    <l>Bear on to death for smiling Liberty,</l>
+                    <l>To prove your manhood, and to make right free,</l>
+                    <l rend="indented5">Whose way is dank.</l>
+                </lg>
+                
+                
+                <lg type="stanza">   
+                    <l>Humid to-day with tears of wearied life,</l>
+                    <l>Grievously lain down in the nameless strife</l>
+                    <l>With which the past oppression's years were rife&#8212;</l>
+                    <l rend="indented5">Forget the sin!</l>
+                    <l>Nor yet forget it, for the blood ye bear;</l>
+                    <l>Strike to the tyrant's heart this quaint despair,</l>
+                    <l>This whirlwind fruit,<note type="editorial" resp="#bw #el">The whirlwind figures divine power and wrath in the Bible. Here, destructive revolution is figured as the natural outgrowth of slavery; "tyrant" slaveholders must harvest the crop they have sown. The line may have been inspired by the language of judgment in the book of Hosea: "For they have sown the wind, and they shall reap the whirlwind" (8:7).</note> upgrown to harvest where</l>
+                    <l rend="indented5">Such seed hath been.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Let those look on who've caviled at the cause,</l>
+                    <l>Say Afric's blood flows not by common laws,</l>
+                    <l><unclear resp="#el" reason="illegible" cert="medium">Then</unclear> <choice><sic>vail</sic><corr>veil</corr></choice> their faces in the cannon's pause!</l>
+                    <l rend="indented5">Lo! there they stand,</l>
+                    <l>And there they fall, and there rush on amain&#8212;</l>
+                    <l>The sable warriors for the sable slain!</l>
+                    <l>What brooding charm is where the death-fires flame</l>
+                    <l rend="indented5">For that doomed band?</l>
+                    <l>O seer! what spell doth yonder rampart bear?</l>
+                    <l>Is Shaw's dear name<note type="editorial" resp="#bw #el"><p>Robert Gould Shaw (1837&#8211;July 18, 1863), colonel of the Fifty-Fourth Massachusetts Regiment. Governor John A. Andrew of Massachusetts received War Department authorization to raise the first Northern regiment of African American volunteers in January 1863. Determined to form a model regiment, Andrew took care to select advisers, officers, and recruiters with antislavery convictions or connections; he offered Shaw the regiment's colonelcy at the end of January, on the basis of the young captain's military record and his wealthy family's influence in reform circles. Shaw turned Andrew down; he did not have abolitionist principles to trump his strong attachment to the Second Massachusetts Infantry. His mother persuaded him to think again.</p><p>Northern newspapers reported that Wagner's Confederate garrison had buried Shaw in a mass grave with his men. Abolitionists reinterpreted the Confederate gesture of contempt as a mark of distinction. Shaw's parents made known their wish that his body should not be disturbed: "We would not have his body removed from where it lies with his brave &#38; devoted soldiers, if we could accomplish it by a word" (Russell Duncan, ed., <title level="m">Blue-Eyed Child of Fortune: The Civil War Letters of Col. Robert Gould Shaw</title> [Athens: University of Georgia Press, 1999], 54).</p><p>Wagner's Confederate garrison evacuated the fort in early September 1863, months before "Tribute" appeared in the <title level="j">Anglo-African</title>.</p></note> alone so potent there&#8212;</l>
+                    <l>Or fallen Shaw enough to bind them where</l>
+                    <l rend="indented5">That banner waves?</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Oh, no! but higher, holier than the flame</l>
+                    <l>That glows in friendship round the honored name,</l>
+                    <l>They heed the earnest of his voice who came</l>
+                    <l rend="indented5">In other days,</l>
+                    <l>Bidding his children harness for the fight;</l>
+                    <l>Who went before them in the fire by night,<note type="editorial" resp="#bw #el">According to Exodus, God in the form of a pillar of cloud and a pillar of fire (13:21) led the Israelites from Egyptian bondage by day and night. He then parted the Red Sea so that they might evade their pursuers; see Exodus 14:21&#8211;30.</note></l>
+                    <l>And all the day rode on the clouds in sight;</l>
+                    <l rend="indented5">Who cleft the sea,</l>
+                    <l>Piled its red waves in wall on either hand,</l>
+                    <l>Then poured the swollen tide on Egypt's band!</l>
+                    <l>They feel the mandate sounding through the land&#8212;</l>
+                    <l rend="indented5">Be free! be free!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Their eager visions through the dimness flee;</l>
+                    <l>They see, where yonder deadly billows be,</l>
+                    <l>The likeness of the God of Galilee</l>
+                    <l rend="indented5">Walking the fire.</l>
+                    <l>Think you their hearts could fail, when freedom's soul</l>
+                    <l>Wrote Toussaint's name<note type="editorial" resp="#bw #el"><p>Toussaint Louverture  (ca.1743&#8211;1803), leader of the Haitian Revolution. Born into slavery in Saint-Domingue, Louverture obtained his freedom fifteen years before the French colony's slave population revolted against their former masters and the colonial governments of France, England, and Spain (Madison Smart Bell, <title level="m">Toussaint Louverture: A Biography</title> [New York: Pantheon Books, 2007], 75). Louverture joined the revolution in 1791, after early rebel success. He emerged as a skilled and charismatic commander committed to the abolition of slavery. As governor general of Saint-Domingue, he invaded Spanish Santo Domingo "in the name of France" and became "the de facto ruler of the entire island" of Hispaniola (Bell, 266). In this capacity, he issued the 1801 Constitution. Napoleon Bonaparte sent an army to reassert his authority and reinstate slavery; after peace negotiations brought fighting to an end, the French broke their pledge of amnesty and arrested Louverture. He died in prison in 1803. His comrade Jean-Jacques Dessalines proclaimed the independence of the Republic of Haiti on January 1, 1804.</p><p>"Tribute: To the Massachusetts 54th" positions the Haitian leader as a battlefield example. The poem comprises a contribution to the larger pattern described by Matthew Clavin: "In public orations and printed texts, African Americans and their white allies insisted that the Civil War was a second Haitian Revolution, a bloody conflict in which tens of thousands of armed bondmen, 'American Toussaints,' would redeem the republic by securing the abolition of slavery and proving the equality of the black race" (Matthew J. Clavin, <title level="j">Toussaint Louverture and the American Civil War: The Promise and Peril of a Second Haitian Revolution</title> [Philadelphia: University of Pennsylvania Press, 2010], 5).</p></note> upon her martyr scroll?</l>
+                    <l>Read more, doubtless, and let truth's anthem roll</l>
+                    <l rend="indented5">On, upward, higher.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>O bosom of the great deep! for the dead</l>
+                    <l>Strewn by oppression's minions on thy bed;<note type="editorial" resp="#bw #el">An acknowledgment of Africans who died during the Middle Passage as a result of horrific conditions aboard slave ships, and whose bodies were consigned to the sea. Here and elsewhere, the poem pays tribute to the Fifty-Fourth Massachusetts Regiment in the context of a history of slavery which takes on transnational dimensions.</note></l>
+                    <l>O South! for graves of those in chains who've bled,</l>
+                    <l rend="indented5">O weary North!</l>
+                    <l>Prone to the dust for despot rule so long&#8212;</l>
+                    <l>Write on your banner, where the red stripes throng,</l>
+                    <l>How Afric's heroes die to conquer wrong!</l>
+                    <l rend="indented5">Carry it forth!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Imprint it on the livid, bannered sky!</l>
+                    <l>New England's granite strikes the triumph high;</l>
+                    <l>The silver bells of Liberty reply:</l>
+                    <l rend="indented5">"Great is the Lord,</l>
+                    <l>And greatly to be praised;"<note type="editorial" resp="#bw #el">See David's song of thanksgiving, 1 Chronicles 16:25.</note> for he rides</l>
+                    <l>Omniscient where the battle-storm abides,</l>
+                    <l>And omnipresent where the tyrant hides.</l>
+                    <l rend="indented5">Strong is His sword.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Dear sable heroes! as ye onward sweep</l>
+                    <l>Into the arms of death, or torture's keep,</l>
+                    <l>For this great cause, and fall like slaughtered sheep&#8212;</l>
+                    <l rend="indented5">Brave and true men,</l>
+                    <l>We deem the heaven's great heart grows rent and sore</l>
+                    <l>For the bold host that will return no more,</l>
+                    <l>And that the inveterate days will soon be o'er.</l>
+                    <l rend="indented5">What would ye then?</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>What meed, strong soldiers on this matchless age?</l>
+                    <l>We'll write your deeds on history's living page&#8212;</l>
+                    <l>We, children of the free, the bard, the sage;</l>
+                    <l rend="indented5">And Freedom's hand</l>
+                    <l>Will twine in chaplet for your brows, dear braves,</l>
+                    <l>And strew upon your monumental graves</l>
+                    <l>The dearest flowers that grow, when blood o'erlaves</l>
+                    <l rend="indented5">No more the land.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>But God, who notes the fall of all the blood</l>
+                    <l>Poured out for Truth, will name the nameless flood,</l>
+                    <l>And crown the names of all the nameless good.</l>
+                    <l rend="indented5">Faith living braves&#8212;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Survivors of that band! the eagle's cry,</l>
+                    <l>The shriek of freedom in her native sky,</l>
+                    <l>Is heard and answered, and shall not die.</l>
+                    <l rend="indented5">Victory! God saves!</l>
+                </lg>
+                
+            </lg>
+            <note type="newspaper-editorial">&#8212;<title level="j">American Baptist</title>.<note type="editorial" resp="#bw #el"><p>The weekly organ of the American Baptist Free Mission Society, based in Utica, New York. Both the Free Mission Society (est. 1843) and the <title level="j">American Baptist</title> claimed to be "intensely abolitionist" (E. W. Brown, <title level="m">The Whole World Kin: A Pioneer Experience Among Remote Tribes, and Other Labors of Nathan Brown</title> [Philadelphia: Hubbard, 1890], 456). The <title level="j">National Era</title> of April 28, 1853, advertised the <title level="j">American Baptist</title> as "the only Baptist newspaper in the United States advocating the principle of non-fellowship with slaveholders, either in ecclesiastical or in voluntary missionary organizations" ([3]). The Reverend Wareham Walker served as the title's editor from 1852? to 1857. Nathan Brown, newly recovered from two decades of missionary work in Burma and Assam, took over the editorship and continued in the post until 1872.</p><p>Brown's wartime unionism was thoroughly informed by his conviction of national sin: "We look upon the union as one and indivisible; a nation raised up by Providence, and bound together in its material interests by the natural configuration of the country. We are also linked together in responsibility for the guilty system of slavery, and together we must work out the problem of its extinction" (editorial, November 1862, quoted in Brown, 462). In late December, on the eve of the Emancipation Proclamation, Brown accompanied George Cheever and William Goodell to the White House to present Lincoln with a memorial requesting a stronger statement against slavery (464). Brown rejoiced on finding that the final proclamation referred to emancipation as "an act of justice": "it writes the name of ABRAHAM LINCOLN among the stars" (474).</p></note></note>
+        </body>
+        
+    </text>
+</TEI>
+

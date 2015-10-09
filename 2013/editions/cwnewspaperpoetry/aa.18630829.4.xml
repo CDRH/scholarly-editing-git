@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630829.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Black Hero of the Cumberland</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630829.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#emb">Miss E. M. Backus</author>
+                        <title level="a">The Black Hero of the Cumberland</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-08-29">29 August 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="emb">Backus, E. M.</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Hampton Roads, Battle of, Va., 1862</term>
+                    <term>Hampton Roads (Va. : Region)--History, Military--19th century</term>
+                    <term>Cumberland (Ship)</term>
+                    <term>United States--History--Civil War, 1861-1865--Military life</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-07" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-25" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-24" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630829.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630829.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630829.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630829.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18630829.pp4_cropped.jpg"/>
+            </zone> 
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body> 
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>
+                                
+                <head type="main" subtype="authorial" rend="center">THE BLACK HERO OF THE CUMBERLAND.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY MISS E. M. BACKUS.<note type="editorial" resp="#bw #el">Unidentified. Possibly Emma M. Backus, who in the 1890s and 1900s published articles in the <title level="j">Journal of American Folklore</title> on such topics as "Negro Ghost Stories" and "Negro Hymns from Georgia."</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <epigraph><ab>"When the Cumberland was sunk, the sword of Capt. <lb/>Morris was saved by his negro servant boy at the risk of <lb/>his life."</ab><note type="editorial" resp="#bw #el"><p>Lieutenant George Upham Morris (1830&#8211;1875), acting commander of the USS <name type="ship">Cumberland</name> on March 8, 1862, when the Confederate ironclad steamer <name type="ship">Virginia</name> (known to Northerners as the <name type="ship">Merrimack</name>) attacked US Navy vessels in the blockade at Hampton Roads, Virginia. The wooden fleet was no match for the ironclad; the battle showed that modern technologies had rendered antebellum navies obsolete.</p><p>The <name type="ship">Cumberland</name> was the first of the <name type="ship">Virginia</name>'s targets. Morris described the encounter in his official report: "We opened fire on her. She stood on and struck us under the starboard fore channels. She delivered her fire at the same time. The destruction was great. We returned the fire with solid shot with alacrity" ("Lieutenant Morris's Report," in <title level="m">The Rebellion Record: A Diary of American Events</title>, ed. Frank Moore [New York: Putnam, 1862], 4:269). At 3:35 p.m., just over two and a half hours after the ironclad "hove in sight," the <name type="ship">Cumberland</name>'s crew "delivered a parting fire" and abandoned the sinking ship, "each man trying to save himself by jumping overboard" (269). The <name type="ship">Cumberland</name> sank with her flag flying. The <name type="ship">Virginia</name> then turned to the <name type="ship">Congress</name>; the wooden frigate exploded when fires reached her magazine.</p><p>The first day of the battle of Hampton Roads was "the worst in the eighty-six-year history of the U.S. navy" (James M. McPherson, <title level="m">Battle Cry of Freedom: The American Civil War</title> [London: Penguin, 1991], 376). The destruction would have continued on March 9, if the Union ironclad <name type="ship">Monitor</name> had not arrived to tackle the <name type="ship">Virginia</name>. Both crews thought they had won the battle that ensued. Morris and the survivors from the <name type="ship">Cumberland</name> and <name type="ship">Congress</name> were welcomed as heroes in New York City on April 10. Henry Wadsworth Longfellow, Herman Melville, and George H. Boker were among those who responded to the battle in verse. A narrative similar to that in "The Black Hero of the Cumberland" appears in Boker's "The Sword-Bearer" (later published in Frank Moore, ed., <title level="m">The Rebellion Record</title> [New York: Putnam, 1862], 4:91&#8211;92).</p><p>The source of Backus's epigraph has not been identified. It was probably taken from newspaper correspondence. The battle of Hampton Roads was widely reported in the press; Americans were hungry for war news, and public interest in triumphant ironclad technology ran high. Backus hints at the extent of the coverage in stanza 6: her speaker addresses an audience who have "read the thrilling story" of the <name type="ship">Cumberland</name>'s resistance and destruction.</p></note></epigraph>
+                                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">In</emph> the glorious, dawning future,</l>
+                    <l rend="indented1">In the time that is to be,</l>
+                    <l>Not a seed of all this sowing,</l>
+                    <l rend="indented1">Cast abroad o'er land and sea,</l>
+                    <l>But shall spring in tenfold harvest,</l>
+                    <l rend="indented1">Though the sowers mourn and weep;</l>
+                    <l>Every hour the seed is growing&#8212;</l>
+                    <l rend="indented1">Growing, even while we sleep.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>For the grave recording angel</l>
+                    <l rend="indented1">Traces now his fairest page;</l>
+                    <l>Never truer saints and martyrs</l>
+                    <l rend="indented1">Lived in any former age.</l>
+                    <l>In our Father's blessed mansions</l>
+                    <l rend="indented1">Many lowly ones shall wear</l>
+                    <l>All their robes of earthly mourning,</l>
+                    <l rend="indented1">Changed to fadeless glory there.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Dark and misty came the morning</l>
+                    <l rend="indented1">All along the Southern shore;</l>
+                    <l>Circling flew the timid sea-birds,</l>
+                    <l rend="indented1">Sullen was the ocean's roar;</l>
+                    <l>From afar, across the water,</l>
+                    <l rend="indented1">Came the cannon's sudden boom,</l>
+                    <l>Sounding through the early twilight,</l>
+                    <l rend="indented1">Fearful as the stroke of doom.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Now, my men," cried Captain Morris,</l>
+                    <l rend="indented1">"Give one thought to home and wife;</l>
+                    <l>Let our country's cause but triumph,</l>
+                    <l rend="indented1">We can say farewell to life."</l>
+                    <l>For an instant there was stillness,</l>
+                    <l rend="indented1">Save that every heart beat loud;</l>
+                    <l>Silent prayers went up to heaven,</l>
+                    <l rend="indented1">Every manly head was bowed.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then they heard another cannon,</l>
+                    <l rend="indented1">Then the bursting of a shell,</l>
+                    <l>And the angry waters hissing</l>
+                    <l rend="indented1">As the fiery fragments fell.</l>
+                    <l>Captain Morris dropped his sabre,</l>
+                    <l rend="indented1">'Twas a heavy, gilded toy,</l>
+                    <l>Saying to his negro servant,</l>
+                    <l rend="indented1">"Take my sword and keep it, boy."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>You have read the thrilling story</l>
+                    <l rend="indented1">Of the part <emph rend="italic">that</emph> vessel bore&#8212;</l>
+                    <l>How her every plank was shivered</l>
+                    <l rend="indented1">And her deck was wet with gore&#8212;</l>
+                    <l>How through all the hot bombardment,</l>
+                    <l rend="indented1">Fastened to her tallest mast,</l>
+                    <l>Waved the grand old flag of freedom,</l>
+                    <l rend="indented1">Flying proudly to the last.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Through the hours of blood and horror,</l>
+                    <l rend="indented1">Dreadful as the sight of hell,</l>
+                    <l>Side by side they stood undaunted,</l>
+                    <l rend="indented1">Fighting fearlessly and well,</l>
+                    <l>Till was heard, "The ship is sinking!</l>
+                    <l rend="indented1">Save your lives, my gallant men!"</l>
+                    <l>Never funeral knell was sadder</l>
+                    <l rend="indented1">Than the voice of Morris then.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Every moment of the battle</l>
+                    <l rend="indented1">"Little Paul" had kept his place,</l>
+                    <l>Sword in hand, beside his master,</l>
+                    <l rend="indented1">With his stern, determined face.</l>
+                    <l>But when warning cry was given</l>
+                    <l rend="indented1">Just before the vessel sank,</l>
+                    <l>Soldiers saw him in the water</l>
+                    <l rend="indented1">Clinging to a piece of plank.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>As they stood, the rescued number,</l>
+                    <l rend="indented1">Grouped together on the deck,</l>
+                    <l>Fighting bravely with the billows,</l>
+                    <l rend="indented1">'Mid the fragments of the wreck&#8212;</l>
+                    <l>Bearing all alone his burden,</l>
+                    <l rend="indented1">Sky above and sea beneath,</l>
+                    <l>Was the Captain's little servant</l>
+                    <l rend="indented1">With the sword between his teeth.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"<emph rend="italic">Drop the sword!</emph>" they shouted to him,</l>
+                    <l rend="indented1">"<emph rend="italic">Drop the sword, or you will drown!</emph></l>
+                    <l>Let it go, you little hero,</l>
+                    <l rend="indented1"><emph rend="italic">Drop the sword&#8212;it drags you down.</emph>"</l>
+                    <l>On he labored, all unheeding,</l>
+                    <l rend="indented1">Though his strength was failing fast,</l>
+                    <l>While the men who gazed upon him</l>
+                    <l rend="indented1">Thought each stroke must be the last.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Captain Morris took his trumpet,</l>
+                    <l rend="indented1">Calling through its brazen throat</l>
+                    <l>To the fainting little figure</l>
+                    <l rend="indented1">Paddling feebly towards the boat,</l>
+                    <l>Loud and clear above the tumult,</l>
+                    <l rend="indented1">Ocean's roar and battle's strife,</l>
+                    <l>Like the echo of a bugle,</l>
+                    <l rend="indented1">"<emph rend="smallcaps">Drop the sword and save your life</emph>!"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Heeding not the soldiers' warnings,</l>
+                    <l rend="indented1">Heeding not his master's call,</l>
+                    <l>Buffeting the hungry waters,</l>
+                    <l rend="indented1">Onward struggled little Paul,</l>
+                    <l>Bearing faithfully his treasure,</l>
+                    <l rend="indented1">Just escaping from his grave;</l>
+                    <l>As the waters bore him near them,</l>
+                    <l rend="indented1">What a shout the soldiers gave!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then they raised him, dripping, senseless,</l>
+                    <l rend="indented1">Helpless as a lump of clay;</l>
+                    <l>And a crowd of brave admirers</l>
+                    <l rend="indented1">Pressed around him as he lay.</l>
+                    <l>Hearts were melted, voices broken,</l>
+                    <l rend="indented1">Tears like Summer rain outpoured,</l>
+                    <l>As he whispered, gasping, eager,</l>
+                    <l rend="indented1">"<emph rend="italic">Cap'n, I have kept your sword.</emph>"</l>
+                </lg>
+            </lg>
+        </body>
+        
+    </text>
+</TEI>
+
+
+
+
+
+
+

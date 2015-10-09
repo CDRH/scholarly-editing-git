@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630516.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Mithridates at Chios</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630516.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jgw">John G. Whittier</author>
+                        <title level="a">Mithridates at Chios</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-05-16">16 May 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jgw">Whittier, John Greenleaf, 1807-1892</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Classical literature --Study and teaching--United States</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slaves--Emancipation--United States</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-02-24" who="#el">added note about Anglo-African printing of same poem</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-15" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>            
+            <change when="2012-07-29" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>  
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630516.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630516.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630516.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630516.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630516.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+       
+        <body>
+            
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center"><choice><orig>MITHRIDATES</orig><reg>Mithradates</reg></choice><note type="editorial" resp="#bw #el">Mithradates VI Eupator (134?&#8211;63 BC), Rome's most formidable opponent in the first century BC. Convinced that the Chians were in alliance with his Roman enemies, Mithradates invaded Chios, a wealthy Aegean Island with a tremendous number of slaves, and demanded an enormous penalty in silver (Adrienne Mayor, <title level="m">The Poison King: The Life and Legend of Mithradates, Rome's Deadliest Enemy</title> [Princeton, NJ: Princeton University Press, 2010], 216). To meet the demand, Chian citizens collected ornaments and jewelry, and both citizens and slaves were ordered to attend its weighing (Mayor, 217). To the Chians' horror, Mithradates's general declared that they had tried to cheat the king (who specialized in dramatic punishment). He then freed the Chians' slaves and marched their devastated former masters to Mithradates's ships. The Chians were forced to labor in the king's mines in Colchis. Whittier's footnote quotes an ancient proverb inspired by the event: the Chians' riches bought them slavery.</note> AT CHIOS.*</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY JOHN G. WHITTIER.<note type="editorial" resp="#bw #el"><p>John Greenleaf Whittier (1807&#8211;1892) dedicated himself to abolitionist activities in the early 1830s. He was a founding member of the American Anti-Slavery Society (est. December 1833), and held the editorship of the <title level="j">Pennsylvania Freeman</title> from March 1838 until February 1840. Convinced that the Constitution and the ballot could be used to attack slavery, he supported the Liberty Party and played an active part in its members' campaigns. Antislavery journalism continued to feature largely in his life; for thirteen years, he worked as corresponding editor for the <title level="j">National Era</title> (1847&#8211;1860).</p>
+                    <p>Orthodox Quaker Whittier managed to reconcile his abhorrence of war with his support for conflict that furthered the antislavery cause; during the war he urged members of the Society of Friends to assist the war effort in noncombatant roles, as nurses in hospitals and as teachers among the freedpeople (Samuel T. Pickard, <title level="m">Life and Letters of John Greenleaf Whittier</title> [London: Sampson Low, 1895], 2:440&#8211;41; see also "<ref target="nas.18630627.4">In War-Time</ref>"). Poetry had long been integral to his abolitionist mission. His first (unauthorized) collection of poetry, <title level="m">Poems Written during the Progress of the Abolition Question in the United States, between 1830 and 1838</title>, was published by antislavery colleagues in 1837 (Randall Cluff, "Whittier, John Greenleaf," in <title level="m">American National Biography Online</title>). He continued to champion abolition in verse throughout the war. His poems often appeared in the <title level="j">Atlantic Monthly</title> (which he supported from its inception) and in the <title level="j">New York Independent</title>, and were widely reprinted in serials with antislavery sympathies. "Mithridates at Chios" was included in the collection <title level="m">In War Time and Other Poems</title> (1864).</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l rend="indented2"><emph rend="smallcaps">Know'st</emph> thou, oh slave-cursed land!</l>
+                    <l rend="indended1">How, when the Chian's cup of guilt</l>
+                    <l rend="indented2">Was full to overflow, there came</l>
+                    <l rend="indented2">God's justice in the sword of flame</l>
+                    <l rend="indented1">That, red with slaughter to its hilt,</l>
+                    <l>Blazed in the Cappadocian victor's hand!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented2">The heavens are still and far;</l>
+                    <l rend="indended1">But, not unheard of awful Jove,</l>
+                    <l rend="indented2">The sighing of the island slave</l>
+                    <l rend="indented2">Was answered, when the &#198;gean wave</l>
+                    <l rend="indented1">The keels of Mithridates clove,</l>
+                    <l>And the vines shriveled in the breath of war.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented2">"Robbers of Chios! hark,"</l>
+                    <l rend="indended1">The victor cried, "to Heaven's Decree!</l>
+                    <l rend="indented2">Pluck your last cluster from the vine,</l>
+                    <l rend="indented2">Drain your last cup of Chian wine,</l>
+                    <l rend="indented1">Slaves of your slaves, your doom shall be</l>
+                    <l>In Colchian mines by Phasis rolling dark."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented2">Then rose the long lament</l>
+                    <l rend="indended1">From dusk Delphinium's holy caves;<note type="editorial" resp="#bw #el">Probably dark caves and chasms on Mount Parnassus, site of the Delphic oracle (the Oracle of Apollo). In these lines, the oracle passes judgment on the Chians; the implication is that God will pass a similar judgment on Southern slaveholders. Whittier revised the stanza for book publication, and changed Apollo for Poseidon: "Then rose the long lament / From the hoar sea-god's dusky caves: / The priestess rent her hair and cried . . ." (John Greenleaf Whittier, <title level="m">In War Time and Other Poems</title> [Boston: Ticknor and Fields, 1864], 39).</note></l>
+                    <l rend="indented2">The priestess rent her hair and cried,</l>
+                    <l rend="indented2">"Woe! woe! The gods are sleepless-eyed!"</l>
+                    <l rend="indented1">And, chained and scourged, the slaves of slaves,</l>
+                    <l>The lords of Chios into exile went.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented2">"The gods at last pay well,"</l>
+                    <l rend="indended1">So Hellas<note type="editorial" resp="#bw #el">Name for Greece, used by Greeks in classical times. As personified by Whittier, all of Greece mocks the Chians.</note> sang her taunting song,</l>
+                    <l rend="indented2">"The fisher in his net is caught,</l>
+                    <l rend="indented2">The Chian hath his master bought,"</l>
+                    <l rend="indented1">And isle from isle, with laughter long,</l>
+                    <l>Took up and sped the mocking parable.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented2">Once more the slow, dumb years</l>
+                    <l rend="indended1">Bring their avenging cycle round,</l>
+                    <l rend="indented2">And, more than Hellas taught of old,</l>
+                    <l rend="indented2">Our wiser lesson shall be told,</l>
+                    <l rend="indented1">Of slaves uprising, freedom-crowned,</l>
+                    <l>To break, not wield, the scourge wet with their blood <lb/>and tears.</l>
+                </lg>
+            </lg>
+            
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Independent</title>.<note type="editorial" resp="#bw #el"><p>The <title level="j">New York Independent</title>, established as a Congregationalist weekly in December 1848. The title's "independent" antislavery stance prevented it from capitalizing on an affiliation with subscribers of any one political persuasion, and "its extreme position with regard to the Fugitive Slave Law almost wrecked it in its second year" (Frank L. Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> [Cambridge, MA: Harvard University Press, 1938], 2:369). In spite of this beginning, the <title level="j">Independent</title> succeeded impressively and had over 35,000 subscribers by the time war broke (Mott, 371). As the war progressed, editorials political and secular nudged matters of religion, Congregationalist or otherwise, to the margins.</p>
+                <p>The celebrity of Henry Ward Beecher (1813&#8211;1887) must have contributed to the <title level="j">Independent</title>'s success. "Star contributor" Beecher was named editor during 1861&#8211;65. Theodore Tilton, his assistant, directed editorial policy and took over the editorship in all but name when Beecher embarked for Europe in 1863; two years later, he was officially recognized as editor-in-chief. By the time war broke out, Tilton had established himself as one of the young stars of the American Anti-Slavery Society. He and William Lloyd Garrison became friends after <title level="j">National Anti-Slavery Standard</title> editor Oliver Johnson introduced them in 1856; Garrison described Tilton as "a fine young man . . . . connected with the N. Y. <title level="j">Independent</title>, who is beginning to take a vital interest in radical abolitionism" (<title level="m">The Letters of William Lloyd Garrison: From Disunionism to the Brink of War, 1850–1860</title>, ed. Louis Ruchames [Cambridge, MA: Belknap Press of Harvard University Press, 1975], 4:415). Johnson, Tilton, and Garrison were united by a common profession as well as shared antislavery convictions. During the war each reprinted items from the other's newspapers.</p>
+                <p>The <title level="j">Anglo-African</title> editors clashed with Tilton in the aftermath of the Draft Riots (July 1863). The <title level="j">Independent</title> published Robert Hamilton's appeal for subscriptions and donations, but to this Tilton appended a comment that challenged the need for a "distinctively 'African' paper": "Our countrymen of African lineage are not primarily and predominantly negroes, but MEN&#8212;most of them, we trust, Christians; and everything which tends to isolate and separate them&#8212;to render them exclusive, peculiar, clannish&#8212;is ill-considered" (<title level="j">Independent</title>, July 30, 1863). His comments riled the Hamiltons, who published editorials defending the value of their newspaper. "Here is <title level="j">The Independent</title>, a newspaper . . . of such high Abolition pretensions, as unblushingly to offer itself as a supplanter or substitute for our poor journal to our colored subscribers and purchasers," wrote "Humanity" (<title level="j">Anglo-African</title>, August 8, 1863). How, a later editorial asked, could Tilton "expect us to trust any man simply because he publishes a paper in which is advocated anti-slavery sentiments?" (<title level="j">Anglo-African</title>, September 19, 1863). The <title level="j">Anglo-African</title> helped African Americans in their struggle to become "citizens of the United States," and its title was "truthful, ethnically speaking" (<title level="j">Anglo-African</title>, September 19, 1863; <title level="j">Anglo-African</title>, October 3, 1863). "Moreover, if we change our name, of what use could it be, unless all the nation should be stricken with color blindness?" (<title level="j">Anglo-African</title>, October 3, 1863).</p>
+                <p>One week after its publication in the <title level="j">National Anti-Slavery Standard</title>, "Mithridates at Chios" appeared in the <title level="j">Anglo-African</title> of <ref target="aa.18630523.4">May 23, 1863</ref>.</p>
+            </note></note>
+            
+            <milestone unit="undeclared" rend="short-bar"/>
+            
+            <note type="authorial">* It is recorded by Nicolas the Peripatetec<note type="editorial" resp="#bw #el">Nicolaus of Damascus (c. 64 BC&#8211;?), "versatile author, friend and historian of Herod the Great" (Klaus Meister, "Nicolaus of Damascus," in <title level="m">The Oxford Classical Dictionary</title>, ed. Simon Hornblower and Anthony Spawforth [Oxford: Oxford University Press, 2009], Oxford Reference Online). He joined the Peripatetic school of philosophy founded by Aristotle in 336. The school met at the Lyceum outside Athens; its name was derived from the walks, or <foreign>peripatoi</foreign>, there.</note> that the <lb/>Chians, when subjugated by Mithridates of Cappadocia, <lb/>were delivered up to their own slaves, to be carried away <lb/>captive to Colchis. Athen&#230;us<note type="editorial" rend="#bw #el">Athenaeus of Naucratis in Egypt, a Greek author.</note> considers this a just <choice><orig>punish-<lb/>ment</orig><reg>punishment</reg></choice> for their wickedness in first introducing the slave-<lb/>trade into Greece. From this ancient villany of the <lb/>Chians the proverb arose: "The Chian hath bought <choice><orig>him-<lb/>self</orig><reg>himself</reg></choice> a master."</note>
+       
+       </body>
+    </text>
+</TEI>
+

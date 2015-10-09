@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640220.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Tony James's Song</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640220.4a</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                            3.0 Unported License
+                            (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be
+                            credited to R. J. Weir and Elizabeth Lorang, made available
+                            non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">34</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#sp">Simon Pure</author>
+                        <title level="a">Tony James's Song</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-20">20 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="sp">Unknown</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African American farmers--Southern States</term>
+                    <term>Confederate States of America</term>
+                    <term>Confederate States of America--Economic conditions</term>
+                    <term>Confederate States of America--Social conditions</term>
+                    <term>Freedmen--Southern States</term>
+                    <term>Freedmen--Southern States--Social conditions</term>
+                    <term>Saxton, Rufus, 1824-1908</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-02-24" who="#el">added note about AA printing</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-15" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-13" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-11" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked transcription</change>
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640220.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640220.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640220.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640220.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18640220.pp4a_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">TONY JAMES'S SONG.<note type="editorial" resp="#bw #el">"Tony James's Song" also appeared in the <title level="j">Anglo-African</title> of <ref target="aa.18640213.1">February 13, 1864</ref>. The text of the poem is the same in both printings.</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <epigraph><ab>"<emph rend="italic">Cotton shall be king more than ever.</emph>"</ab><bibl>&#8212;Gen. Saxton.</bibl><note type="editorial" resp="#bw #el"><p>General Rufus Saxton (1824&#8211;1908), military governor for the Department of the South. On January 16, 1864, Saxton announced Lincoln's new plan for the redistribution of lands appropriated in lieu of federal taxes on the Sea Islands. Previous instructions allowed freedpeople to purchase twenty-acre plots from the small fraction of land reserved from public auction for that purpose; Saxton, missionary Mansfield French, and tax commissioner Abram Smith believed in the necessity of a system that allowed former slaves to buy unreserved lands through preemption "thereby avoiding competition from [Northern] speculators" (<title level="m">Freedom: A Documentary History of Emancipation, 1861&#8211;1867</title>, ed. Ira Berlin, et al. [Cambridge: Cambridge University Press, 1990], series 1, 3:107). French rallied political support in Washington and the president changed his policy: "any loyal resident of St. Helena Parish (black or white)" would be allowed to "preempt a homestead of twenty or forty acres on government land, at $1.25 an acre, with only two-fifths of the purchase price as a down payment" (Berlin, et al., 3:107, 281&#8211;83).</p><p>General Saxton communicated the good news in a circular that concluded with an address to freedmen: "First provide for an ample supply of corn and vegetables, then remember that cotton is the great staple here. I advise you to plant all you can of it. So profitable was its culture in the old days of slavery that your former masters said 'Cotton is King.' It is expected that you will show in a Free South that cotton is more of a king than ever" ("Circular by the Military Governor in the Department of the South," Berlin, et al., 3:283).</p><p>Much to the distress of the freedpeople, preemption's opponents prevailed and Lincoln reverted to his original plan in early February 1864. "Tony James's Song" is dated January 24, 1864; it seems likely that it was composed in the preemption "window," when the hopes of the freedpeople and the scheme's missionary supporters were at their highest.</p></note></epigraph>
+                
+                <lg type="stanza">
+                    <l><choice><orig><emph rend="smallcaps">Ole</emph></orig><reg type="dialect">Old</reg></choice> Tony James he buy a farm,</l>
+                    <l rend="indented1">An' pay his <choice><orig>fitty</orig><reg type="dialect">fifty</reg></choice> dollar;<note type="editorial" resp="#bw #el">Under Lincoln's orders of December 31, 1863, "any loyal resident of St. Helena Parish (black or white)" would be allowed to "preempt a homestead of twenty or forty acres on government land, at $1.25 an acre, with only two-fifths of the purchase price as a down payment" (<title level="m">Freedom: A Documentary History of Emancipation, 1861&#8211;1867</title>, Berlin, et al. [Cambridge: Cambridge University Press, 1990], series 1, 3:107). At this rate, the purchase price for a forty-acre homestead was fifty dollars.</note></l>
+                    <l><choice><orig>Dat's</orig><reg type="dialect">That's</reg></choice> mighty groun' for cotton <choice><orig>dar</orig><reg type="dialect">there</reg></choice>,</l>
+                    <l rend="indented1"><choice><orig>Dat</orig><reg type="dialect">That</reg></choice> patch down in <choice><orig>de</orig><reg type="dialect">the</reg></choice> <choice><orig>hollar</orig><reg type="dialect">hollow</reg></choice>;</l>
+                    <l>An' <choice><orig>massa</orig><reg type="dialect">master</reg></choice> use to <choice><orig>hab</orig><reg type="dialect">have</reg></choice> it plough</l>
+                    <l rend="indented1">An' list up <choice><orig>ebery</orig><reg type="dialect">every</reg></choice> Spring&#8212;</l>
+                    <l>An' <choice><orig>kase</orig><reg type="dialect">because</reg></choice> it bring him pocket full,</l>
+                    <l rend="indented1">He call <choice><orig>de</orig><reg type="dialect">the</reg></choice> cotton king.</l>
+                    <l rend="indented4">Oh! well, <choice><orig>de</orig><reg type="dialect">the</reg></choice> cotton king for <choice><orig>troo</orig><reg type="dialect">true</reg></choice>&#8212;</l>
+                    <l rend="indented5">But not for <choice><orig>massa</orig><reg type="dialect">master</reg></choice>, <choice><orig>neber</orig><reg type="dialect">never</reg></choice>;</l>
+                    <l rend="indented4">Since Tony James is buy a farm,</l>
+                    <l rend="indented5">He king now more <choice><orig>dan</orig><reg type="dialect">than</reg></choice> <choice><orig>eber</orig><reg type="dialect">ever</reg></choice>.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>An' Tony James has got a home,</l>
+                    <l rend="indented1">A home for all his <choice><orig>childin</orig><reg type="dialect">children</reg></choice>,</l>
+                    <l>A place to keep <choice><orig>de</orig><reg type="dialect">the</reg></choice> fowl an' pig,</l>
+                    <l rend="indented1">An raise <choice><orig>de</orig><reg type="dialect">the</reg></choice> little buildin';</l>
+                    <l>He call <choice><orig>de</orig><reg type="dialect">the</reg></choice> <choice><orig>tater</orig><reg type="dialect">potato</reg></choice> now him own,</l>
+                    <l rend="indented1"><choice><orig>De</orig><reg type="dialect">The</reg></choice> corn an' <choice><orig>ebery</orig><reg type="dialect">every</reg></choice> <choice><orig>ting</orig><reg type="dialect">thing</reg></choice>;</l>
+                    <l>An' <choice><orig>den</orig><reg type="dialect">then</reg></choice> <choice><orig>de</orig><reg type="dialect">the</reg></choice> cotton b'longs to him,</l>
+                    <l rend="indented1"><choice><orig>Dat</orig><reg type="dialect">That</reg></choice> <choice><orig>massa</orig><reg type="dialect">master</reg></choice> say been king.</l>
+                    <l rend="indented4">Oh! well, <choice><orig>de</orig><reg type="dialect">the</reg></choice> cotton king, for <choice><orig>troo</orig><reg type="dialect">true</reg></choice>&#8212;</l>
+                    <l rend="indented5">But not for <choice><orig>massa</orig><reg type="dialect">master</reg></choice>, <choice><orig>neber</orig><reg type="dialect">never</reg></choice>;</l>
+                    <l rend="indented4">Since Tony James is buy a farm,</l>
+                    <l rend="indented5">He king now more <choice><orig>dan</orig><reg type="dialect">than</reg></choice> <choice><orig>eber</orig><reg type="dialect">ever</reg></choice>.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>An' Tony James he <choice><orig>bress</orig><reg type="dialect">bless</reg></choice> <choice><orig>de</orig><reg type="dialect">the</reg></choice> Lord,</l>
+                    <l rend="indented1">For all <choice><orig>dis</orig><reg type="dialect">this</reg></choice> kind protection;<note type="editorial" resp="#bw #el">A reference to the measures detailed in General Saxton's circular, which enabled freedmen to purchase homesteads on land seized by the government in lieu of taxes.</note></l>
+                    <l><choice><orig>De</orig><reg type="dialect">The</reg></choice> nigger seen <choice><orig>de</orig><reg type="dialect">the</reg></choice> trouble <choice><orig>troo</orig><reg type="dialect">true</reg></choice>,</l>
+                    <l rend="indented1">An' <choice><orig>dis</orig><reg type="dialect">this</reg></choice> <choice><orig>de</orig><reg type="dialect">the</reg></choice> resurrection;</l>
+                    <l>He <choice><orig>neber</orig><reg type="dialect">never</reg></choice> call his hand his own,</l>
+                    <l rend="indented1">His soul been <choice><orig>massa's</orig><reg type="dialect">master's</reg></choice> <choice><orig>ting</orig><reg type="dialect">thing</reg></choice>,</l>
+                    <l>But now de <choice><orig>bery</orig><reg type="dialect">very</reg></choice> cotton's his</l>
+                    <l rend="indented1"><choice><orig>Dat</orig><reg type="dialect">That</reg></choice> <choice><orig>massa</orig><reg type="dialect">master</reg></choice> say been king.</l>
+                    <l rend="indented4">Oh! well, <choice><orig>de</orig><reg type="dialect">the</reg></choice> cotton king, for <choice><orig>troo</orig><reg type="dialect">true</reg></choice>&#8212;</l>
+                    <l rend="indented5">But not for <choice><orig>massa</orig><reg type="dialect">master</reg></choice>, <choice><orig>neber</orig><reg type="dialect">never</reg></choice>!</l>
+                    <l rend="indented4">Since Tony James is buy a farm,</l>
+                    <l rend="indented5">He king now more <choice><orig>dan</orig><reg type="dialect">than</reg></choice> <choice><orig>eber</orig><reg type="dialect">ever</reg></choice>.</l>
+                </lg>
+            </lg>
+            
+            <dateline>Port Royal, Jan. 24th, 1864.</dateline>
+            <byline rend="right"><emph rend="smallcaps">SIMON PURE.</emph><note type="editorial" resp="#bw #el">Originally the name of a character in an eighteenth-century comedy, "simon-pure" meant "real, genuine" or "pure, honest, upright" in the mid-nineteenth century (<title level="m">Oxford English Dictionary</title>). The writer of "Tony James's Song" was almost certainly one of Northern missionaries on South Carolina's occupied Sea Islands. These "Gideonites" aimed to assist newly free African American men and women with aid and education, and to prove the "economic feasibility of free labor" (Willie Lee Rose, <title level="m">Rehearsal for Reconstruction: The Port Royal Experiment</title> [Indianapolis: Bobbs-Merrill, 1964], 298). But not everyone who came to the Sea Islands shared their priorities, and the different approaches caused rifts within the missionary community itself (Edward Philbrick's profitable missionary enterprise attracted particularly harsh criticism). The pseudonym "Simon Pure" stakes a claim to moral high ground that is best understood in the context of contemporary struggles over the redistribution of Sea Island lands, which the government appropriated in lieu of planters' federal taxes.</note></byline>
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Free South</title>.<note type="editorial" resp="#bw #el"><p>A Republican weekly, established in Beaufort (Port Royal Island, South Carolina) by three Treasury agents in January 1863. Philadelphian editor James Thompson "excoriated secessionists, condemned slavery, and pronounced the state irredeemable until it was remodeled like Massachusetts" (Richard H. Abbott, <title level="m">For Free Press and Equal Rights: Republican Newspapers in the Reconstruction South</title>, ed. John W. Quist [Athens: University of Georgia Press, 2004], 11).</p><p>The <title level="j">Liberator</title>, in its issue of January 23, 1863, praised the <title level="j">Free South</title> on its first appearance: "'Let there be light' in all the dark regions of the South!" The <title level="j">Christian Recorder</title> missed its copies of the journal in October 1863: "What has become of the <title level="j">Free South</title>? . . . If it is alive, will the editor see that we get a copy regularly?" (October 3, 1863, [2]). By the fall of 1864, the title was struggling to make ends meet without the income it had received from government printing and advertisements for tax sales. It closed in November 1864.</p></note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+

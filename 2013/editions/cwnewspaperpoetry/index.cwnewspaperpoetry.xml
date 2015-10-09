@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Index to Civil War Newspaper Poetry Edition</title>
+                <editor role="co-editor">Rebecca J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="file">index.cwnewspaperpoetry</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>
+                <address><addrLine>http://www.scholarlyediting.org</addrLine></address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <distributor><name>Center for Digital Research in the Humanities</name><address><addrLine>319 Love Library</addrLine><addrLine>University of Nebraska–Lincoln</addrLine><addrLine>Lincoln, NE 68588-4100</addrLine><addrLine>http://cdrh.unl.edu</addrLine></address></distributor>
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Rebecca J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j"
+                    >Scholarly Editing: The Annual of the Association for Documentary Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanada Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">34</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl><note>Born digital.</note></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-09-20" who="#awj">created dynamically using XSLT</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="ordered">
+                <head type="main">Index of Poems in Edition</head>
+                <item><bibl><author ref="#lcl" key="Lockwood, L. C. (Lewis Conger), 1815-1904"
+                    >L. C. Lockwood</author>, <ref target="aa.18630502.4">"<title level="a"
+                    key="Marching Along for Freedom"
+                    >Marching Along for Freedom</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-05-02"
+                    >2 May 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#fmj" key="Coppin, Fanny Jackson"
+                    >Fanny M. Jackson</author>, <ref target="aa.18630509.1">"<title level="a"
+                    key="Black Volunteers, The">The Black Volunteers</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-05-09"
+                    >9 May 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgw" key="Whittier, John Greenleaf, 1807-1892"
+                    >John G. Whitter</author>, <ref target="aa.18630523.4">"<title level="a"
+                    key="Mithridates at Chios">Mithridates at Chios</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-05-23"
+                    >23 May 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="aa.18630530.1">"<title level="a"
+                    key="To the 54th Regiment of Massachusetts Volunteers"
+                    >To the 54th Regiment of Massachusetts Volunteers</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-05-30"
+                    >30 May 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#aps" key="Smith, Alfred P.">A. P. Smith</author>, <ref
+                    target="aa.18630530.4">"<title level="a" key="Fast God Hath Appointed, The"
+                    >The Fast God Hath Appointed</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-05-30"
+                    >30 May 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ewb" key="Brown, Elizabeth Whitney"
+                    >E. W. Brown</author>, <ref target="aa.18630613.1">"<title level="a"
+                    key="Slave-Martyr, The">The Slave-Martyr</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-06-13"
+                    >13 June 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="aa.18630620.1">"<title level="a" key="Negro-Volunteer Song, A"
+                    >A Negro-Volunteer Song</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-06-20"
+                    >20 June 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#ghb" key="Boker, George H. (George Henry), 1823-1890"
+                    >George H. Boker</author>, <ref target="aa.18630627.1">"<title level="a"
+                    key="Second Louisiana, The">The Second Louisiana</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-06-27"
+                    >27 June 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgw" key="Whittier, John Greenleaf, 1807-1892"
+                    >John G. Whittier</author>, <ref target="aa.18630627.4">"<title level="a"
+                    key="In War-Time">In War-Time</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-06-27"
+                    >27 June 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#wjw" key="Wilson, William J.">Wm. J. Wilson</author>, <ref
+                    target="aa.18630704.4">"<title level="a" key="Our Dark-Brown Mother"
+                    >Our Dark-Brown Mother</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-07-04"
+                    >4 July 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ejg" key="Gordon, Eliza J."
+                    >Mrs. Eliza J. Gordon</author>, <ref target="aa.18630711.2">"<title level="a"
+                    key="God and Our Race">God and Our Race</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-07-11"
+                    >11 July 1863</date>): <biblScope type="pp">[2]</biblScope></bibl></item>
+                <item><bibl><author ref="#ah" key="Hoyt, A.">A. Hoyt</author>, <ref
+                    target="aa.18630808.4a">"<title level="a" key="Storming of Fort Wagner, The"
+                    >The Storming of Fort Wagner</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-08-08"
+                    >8 August 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#aps" key="Smith, Alfred P.">A. P. Smith</author>, <ref
+                    target="aa.18630808.4b">"<title level="a"
+                    key="Louisiana Native Guard at Port Hudson, The"
+                    >The Louisiana Native Guard at Port Hudson</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-08-08"
+                    >8 August 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#wmf" key="Unknown">W. M. F.</author>, <ref
+                    target="aa.18630822.4">"<title level="a"
+                    key="On Seeing the 54th and 55th Massachusetts (Black) Regiments"
+                    >On Seeing the 54th and 55th Massachusetts (Black) Regiments</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-08-22"
+                    >22 August 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#a" key="Unknown">Aleph</author>, <ref
+                    target="aa.18630829.1">"<title level="a" key="Ode to Freedom and Unity"
+                    >Ode to Freedom and Unity</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-08-29"
+                    >29 August 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#em" key="Murray, Ellen">E. Murray</author>, <ref
+                    target="aa.18630829.2">"<title level="a" key="Col. Robert G. Shaw"
+                    >Col. Robert G. Shaw</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-08-29"
+                    >29 August 1863</date>): <biblScope type="pp">[2]</biblScope></bibl></item>
+                <item><bibl><author ref="#emb" key="Backus, E. M.">Miss E. M. Backus</author>, <ref
+                    target="aa.18630829.4">"<title level="a" key="Black Hero of the Cumberland, The"
+                    >The Black Hero of the Cumberland</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-08-29"
+                    >29 August 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ml" key="Lowell, Maria White, 1821-1853"
+                    >Maria Lowell</author>, <ref target="aa.18630905.4">"<title level="a"
+                    key="Africa">Africa</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-09-05"
+                    >5 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jad" key="Dorgan, John Aylmer, 1836-1867?"
+                    >John A. Dorgan</author>, <ref target="aa.18630912.1">"<title level="a"
+                    key="Black Brigade at Port Hudson, The"
+                    >The Black Brigade at Port Hudson</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-09-12"
+                    >12 September 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#btj" key="Unknown">B. T. J.</author>, <ref
+                    target="aa.18630912.4">"<title level="a" key="American Slavery"
+                    >American Slavery</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-09-12"
+                    >12 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ws" key="Slade, William">William Slade</author>, <ref
+                    target="aa.18630919.1">"<title level="a" key="Slave to His Star, The"
+                    >The Slave to His Star</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-09-19"
+                    >19 September 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#ljl" key="Unknown">L. J. L.</author>, <ref
+                    target="aa.18630919.4">"<title level="a" key="Incident of the New York Riot, An"
+                    >An Incident of the New York Riot</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-09-19"
+                    >19 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jch" key="Hagen, John Cole">J. C. Hagen</author>, <ref
+                    target="aa.18630926.1">"<title level="a" key="Men of Color"
+                    >Men of Color</title>" </ref><title level="j">The Anglo-African</title> (<date
+                    when="1863-09-26">26 September 1863</date>): <biblScope type="pp"
+                    >[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#jwm" key="Menard, John Willis, 1838-1893"
+                    >John Willis Menard</author>, <ref target="aa.18630926.4">"<title level="a"
+                    key="Home Again">Home Again</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-09-26"
+                    >26 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="aa.18631003.1">"<title level="a" key="Father Abraham's Proclamation"
+                    >Father Abraham's Proclamation</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-10-03"
+                    >3 October 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#glt" key="Taylor, George Lansing, 1835-1903"
+                    >Rev. George Lansing Taylor</author>, <ref target="aa.18631003.4">"<title
+                    level="a" key="Scourged Back, The">The Scourged Back</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-10-03"
+                    >3 October 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#fewh" key="Harper, Frances Ellen Watkins, 1825-1911"
+                    >Frances E. W. Harper</author>, <ref target="aa.18631010.1">"<title level="a"
+                    key="Massachusetts Fifty-Fourth, The"
+                    >The Massachusetts Fifty-Fourth</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-10-10"
+                    >10 October 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#aps" key="Smith, Alfred P.">A. P. Smith</author>, <ref
+                    target="aa.18631010.4">"<title level="a"
+                    key="War Song for the Black Volunteers, A"
+                    >A War Song for the Black Volunteers</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-10-10"
+                    >10 October 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#fmj" key="Coppin, Fanny Jackson">F. M. J.</author>, <ref
+                    target="aa.18631017.1">"<title level="a" key="Lines">Lines</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-10-17"
+                    >17 October 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#gwb"
+                    key="Bungay, George W. (George Washington), 1818-1892"
+                    >George W. Bungay</author>, <ref target="aa.18631024.1">"<title level="a"
+                    key="Lines to a Clergyman Who Says Slavery is Not a Sin"
+                    >Lines to a Clergyman Who Says Slavery is Not a Sin</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-10-24"
+                    >24 October 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#lh" key="Unknown">L. H.</author>, <ref
+                    target="aa.18631031.4">"<title level="a" key="To Robert Gould Shaw"
+                    >To Robert Gould Shaw</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-10-31"
+                    >31 October 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#im" key="Macfarlane, Isabella">[Unsigned]</author>, <ref
+                    target="aa.18631107.1">"<title level="a" key="Two Southern Mothers, The"
+                    >The Two Southern Mothers</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-11-07"
+                    >7 November 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#ebs"
+                    key="Sedgwick, Elizabeth Buckminster Dwight, 1801-1864"
+                    >Elizabeth B. Sedgwick</author>, <ref target="aa.18631107.4">"<title level="a"
+                    key="Buried With His Niggers">'Buried With His Niggers'</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-11-07"
+                    >7 November 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#dw" key="Webb, Deborah">D. W.</author>, <ref
+                    target="aa.18631114.1">"<title level="a" key="John Brown's March"
+                    >John Brown's March</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-11-14"
+                    >14 November 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#fdg" key="Gage, Frances Dana, 1808-1884"
+                    >Frances D. Gage</author>, <ref target="aa.18631114.4">"<title level="a"
+                    key="Autumn Days in South Carolina"
+                    >Autumn Days in South Carolina</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-11-14"
+                    >14 November 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="aa.18631121.1">"<title level="a" key="Black Tom"
+                    >Black Tom</title>" </ref><title level="j">The Anglo-African</title> (<date
+                    when="1863-11-21">21 November 1863</date>): <biblScope type="pp"
+                    >[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgw" key="Whittier, John Greenleaf, 1807-1892"
+                    >John G. Whittier</author>, <ref target="aa.18631128.1">"<title level="a"
+                    key="What of the Day?">What of the Day?</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-11-28"
+                    >28 November 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#wam" key="Muhlenberg, William Augustus, 1796-1877"
+                    >Dr. Muhlenberg</author>, <ref target="aa.18631128.4">"<title level="a"
+                    key="Give Thanks All Ye People">Give Thanks All Ye People</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-11-28"
+                    >28 November 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#amh" key="Hamilton, Addie M."
+                    >Addie M. Hamilton</author>, <ref target="aa.18631212.1">"<title level="a"
+                    key="Forgotten">Forgotten</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-12-12"
+                    >12 December 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#fewh" key="Harper, Frances Ellen Watkins, 1825-1911"
+                    >Frances E. Watkins Harper</author>, <ref target="aa.18631212.4">"<title
+                    level="a" key="Sin of Achan, The">The Sin of Achan</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-12-12"
+                    >12 December 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#e" key="Ebed">EBED</author>, <ref target="aa.18631219.1a"
+                    >"<title level="a" key="To the Colored Volunteer"
+                    >To the Colored Volunteer</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1863-12-19"
+                    >19 December 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#fewh" key="Harper, Frances Ellen Watkins, 1825-1911"
+                    >F. E. W. Harper</author>, <ref target="aa.18631219.1b">"<title level="a"
+                    key="Contraband's Answer, The">The Contraband's Answer</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1863-12-19"
+                    >19 December 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="aa.18640116.1">"<title level="a" key="Third Decade, The"
+                    >The Third Decade</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-01-16"
+                    >16 January 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="aa.18640116.2">"<title level="a" key="John Brown's Vision of the Future"
+                    >John Brown's Vision of the Future</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-01-16"
+                    >16 January 1864</date>): <biblScope type="pp">[2]</biblScope></bibl></item>
+                <item><bibl><author ref="#rh" key="Hamilton, Robert">Robert Hamilton</author>, <ref
+                    target="aa.18640116.4">"<title level="a" key="Our Country's Flag"
+                    >Our Country's Flag</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-01-16"
+                    >16 January 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#edp" key="Proctor, Edna Dean, 1829-1923"
+                    >Edna Dean Proctor</author>, <ref target="aa.18640123.1">"<title level="a"
+                    key="Response of the Colored Soldiers"
+                    >Response of the Colored Soldiers</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-01-23"
+                    >23 January 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#ca" key="Abbott, Celia">Celia Abbott</author>, <ref
+                    target="aa.18640123.4">"<title level="a" key="Tribute"
+                    >Tribute</title>" </ref><title level="j">The Anglo-African</title> (<date
+                    when="1864-01-23">23 January 1864</date>): <biblScope type="pp"
+                    >[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#fewh" key="Harper, Frances Ellen Watkins, 1825-1911"
+                    >Frances E. W. Harper</author>, <ref target="aa.18640130.1">"<title level="a"
+                    key="Dying Mother, The">The Dying Mother</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-01-30"
+                    >30 January 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#jrj" key="Randolph, John, Jr.">J. R——, Jr.</author>, <ref
+                    target="aa.18640130.4">"<title level="a" key="Emancipation Song"
+                    >Emancipation Song</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-01-30"
+                    >30 January 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#hhb" key="Brownell, Henry Howard, 1820-1872"
+                    >[Unsigned]</author>, <ref target="aa.18640206.1a">"<title level="a"
+                    key="Bury Them">Bury Them</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-02-06"
+                    >6 February 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#jrj" key="Randolph, John, Jr.">J. R., Jr.</author>, <ref
+                    target="aa.18640206.1b">"<title level="a" key="Union, The"
+                    >The Union</title>" </ref><title level="j">The Anglo-African</title> (<date
+                    when="1864-02-06">6 February 1864</date>): <biblScope type="pp"
+                    >[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#jmb" key="Bell, J. Madison">J. Madison Bell</author>, <ref
+                    target="aa.18640206.4">"<title level="a" key="Black Brigade, The"
+                    >The Black Brigade</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-02-06"
+                    >6 February 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#sp" key="Unknown">Simon Pure</author>, <ref
+                    target="aa.18640213.1">"<title level="a" key="Tony James's Song"
+                    >Tony James's Song</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-02-13"
+                    >13 February 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#sn" key="Unknown">S. N.</author>, <ref
+                    target="aa.18640220.1">"<title level="a" key="Hymn of Jubilee, A"
+                    >A Hymn of Jubilee</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-02-20"
+                    >20 February 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#fm" key="Myers, Frank">Frank Myers</author>, <ref
+                    target="aa.18640220.4">"<title level="a" key="Colored Volunteer, The"
+                    >The Colored Volunteer</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-02-20"
+                    >20 February 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#sg" key="Gomes, Sarah">Mrs. Sarah Gomes</author>, <ref
+                    target="aa.18640227.1a">"<title level="a"
+                    key="To the Colored Men of the United States"
+                    >To the Colored Men of the United States</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-02-27"
+                    >27 February 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#wep" key="Pabor, William E. (William Edgar), b. 1834"
+                    >William E. Pabor</author>, <ref target="aa.18640227.1b">"<title level="a"
+                    key="When the Prince Is Passing By."
+                    >'When the Prince Is Passing By.'</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-02-27"
+                    >27 February 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#lm" key="Miller, Lindley Hoffman, 1834-1864"
+                    >Capt. Lindley Miller</author>, <ref target="aa.18640305.1">"<title level="a"
+                    key="Marching Song of the First Arkansas"
+                    >Marching Song of the First Arkansas</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-03-05"
+                    >5 March 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#wdg" key="Unknown">W. D. G.</author>, <ref
+                    target="aa.18640305.4">"<title level="a" key="Take No Step Backward!"
+                    >Take No Step Backward!</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-03-05"
+                    >5 March 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#hm" key="Unknown">H. M.</author>, <ref
+                    target="aa.18640312.1">"<title level="a" key="Negro's Song of Freedom"
+                    >Negro's Song of Freedom</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-03-12"
+                    >12 March 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#cam"
+                    key="Mason, Caroline A. (Caroline Atherton), 1823-1890"
+                    >Caroline A. Mason</author>, <ref target="aa.18640319.1">"<title level="a"
+                    key="Army Song">Army Song</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-03-19"
+                    >19 March 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#ghb" key="Boker, George H. (George Henry), 1823-1890"
+                    >George H. Boker</author>, <ref target="aa.18640319.4a">"<title level="a"
+                    key="Hymn of the Contrabands">Hymn of the Contrabands</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1864-03-19"
+                    >19 March 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#gwc" key="Curtis, George William, 1824-1892"
+                    >George William Curtis</author>, <ref target="aa.18640319.4b">"<title level="a"
+                    key="American Flag, The">The American Flag</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-03-19"
+                    >19 March 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jch" key="Hagen, John Cole">J. C. Hagen</author>, <ref
+                    target="aa.18640402.1">"<title level="a" key="Hymn of the Corps D'Afrique"
+                    >Hymn of the Corps D'Afrique</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-04-02"
+                    >2 April 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#bcs" key="Clark, Benjamin, Sr."
+                    >B. Clark, Sen.</author>, <ref target="aa.18640402.4">"<title level="a"
+                    key="Be Joyful!">Be Joyful!</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-04-02"
+                    >2 April 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="aa.18640409.1">"<title level="a" key="Easter"
+                    >Easter</title>" </ref><title level="j">The Anglo-African</title> (<date
+                    when="1864-04-09">9 April 1864</date>): <biblScope type="pp"
+                    >[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#jnj" key="Jefferson, James N."
+                    >Jas. N. Jefferson</author>, <ref target="aa.18640409.4a">"<title level="a"
+                    key="Lines, on the Death of Edward A. Cox, Co. F., 14th Regiment R. I. H. A."
+                    >Lines, on the Death of Edward A. Cox, Co. F., 14th Regiment R. I. H. A.</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1864-04-09"
+                    >9 April 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#aclw" key="Waterston, Anna Cabot Lowell Quincy, 1812-1899"
+                    >Anna C. L. Waterston</author>, <ref target="aa.18640409.4b">"<title level="a"
+                    key="Our Work">Our Work</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-04-09"
+                    >9 April 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#w" key="Unknown">W.</author>, <ref target="aa.18640423.1"
+                    >"<title level="a" key="Black Hero, The">The Black Hero</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1864-04-23"
+                    >23 April 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#mab" key="Bigelow, Marion Albina"
+                    >Mrs. Marian A. Bigelow</author>, <ref target="aa.18640430.4">"<title level="a"
+                    key="Martyr of Freedom, Col. Robert G. Shaw, The"
+                    >The Martyr of Freedom, Col. Robert G. Shaw</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-04-30"
+                    >30 April 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#lwj" key="Johnson, Laura Winthrop, 1824-1889"
+                    >[Unsigned]</author>, <ref target="aa.18640514.4">"<title level="a"
+                    key="On Picket Duty">On Picket Duty</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-05-14"
+                    >14 May 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="aa.18640521.4">"<title level="a" key="Birth-day Tribute"
+                    >Birth-day Tribute</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-05-21"
+                    >21 May 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ber" key="Unknown">Brown Eyed Ruth</author>, <ref
+                    target="aa.18640806.2">"<title level="a" key="Dying Soldier, The"
+                    >The Dying Soldier</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-08-06"
+                    >6 August 1864</date>): <biblScope type="pp">[2]</biblScope></bibl></item>
+                <item><bibl><author ref="#jhh" key="Hill, James H.">James H. Hill</author>, <ref
+                    target="aa.18641105.1">"<title level="a" key="My Maryland—My Maryland!"
+                    >'My Maryland—My Maryland!'</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-11-05"
+                    >5 November 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#em" key="Murray, Ellen">Ellen Murray</author>, <ref
+                    target="aa.18641224.4">"<title level="a" key="Olustee"
+                    >Olustee</title>" </ref><title level="j">The Anglo-African</title> (<date
+                    when="1864-12-24">24 December 1864</date>): <biblScope type="pp"
+                    >[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#aqw" key="Waterston, Anna Cabot Lowell Quincy, 1812-1899"
+                    >A. Q. W.</author>, <ref target="aa.18641231.4">"<title level="a"
+                    key="Edmonia Lewis">Edmonia Lewis</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1864-12-31"
+                    >31 December 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#fewh" key="Harper, Frances Ellen Watkins, 1825-1911"
+                    >Frances E. W. Harper</author>, <ref target="aa.18650121.2">"<title level="a"
+                    key="Mother's Blessing, The">The Mother's Blessing</title>" </ref><title
+                    level="j">The Anglo-African</title> (<date when="1865-01-21"
+                    >21 January 1865</date>): <biblScope type="pp">[2]</biblScope></bibl></item>
+                <item><bibl><author ref="#ae" key="Unknown">A. E.</author>, <ref
+                    target="aa.18650204.4">"<title level="a" key="Free Missouri"
+                    >Free Missouri</title>" </ref><title level="j">The Anglo-African</title> (<date
+                    when="1865-02-04">4 February 1865</date>): <biblScope type="pp"
+                    >[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ght" key="Thomas, G. H.">G. H. Thomas</author>, <ref
+                    target="aa.18650225.2">"<title level="a" key="Dulce Est Mori Pro Patria"
+                    >'Dulce Est Mori Pro Patria'</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1865-02-25"
+                    >25 February 1865</date>): <biblScope type="pp">[2]</biblScope></bibl></item>
+                <item><bibl><author ref="#jrj" key="Randolph, John, Jr.">J. R. Jr.</author>, <ref
+                    target="aa.18650311.1">"<title level="a" key="Equal Rights League Song"
+                    >Equal Rights League Song</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1865-03-11"
+                    >11 March 1865</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#sg" key="Greenbrier, Sarah"
+                    >Sarah Greenbrier</author>, <ref target="aa.18650506.1">"<title level="a"
+                    key="Lines on the Death of President Lincoln"
+                    >Lines on the Death of President Lincoln</title>" </ref><title level="j"
+                    >The Anglo-African</title> (<date when="1865-05-06"
+                    >6 May 1865</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#cam"
+                    key="Mason, Caroline A. (Caroline Atherton), 1823-1890"
+                    >Caroline A. Mason</author>, <ref target="nas.18630502.4">"<title level="a"
+                    key="Our Promise to the Slave">Our Promise to the Slave</title>" </ref><title
+                    level="j">National Anti-Slavery Standard</title> (<date when="1863-05-02"
+                    >2 May 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgw" key="Whittier, John Greenleaf, 1807-1892"
+                    >John G. Whittier</author>, <ref target="nas.18630516.4">"<title level="a"
+                    key="Mithridates at Chios">Mithridates at Chios</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-05-16"
+                    >16 May 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jp" key="Pierpont, John, 1785-1866"
+                    >John Pierpont</author>, <ref target="nas.18630523.4a">"<title level="a"
+                    key="Our Country's Call">Our Country's Call</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-05-23"
+                    >23 May 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#frr" key="Unknown">F. R. R.</author>, <ref
+                    target="nas.18630530.4">"<title level="a" key="Confederate Loan, The"
+                    >The Confederate Loan</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-05-30"
+                    >30 May 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#sbg" key="Gookins, S. B. (Samuel Barnes), 1809-1880"
+                    >S. B. Gookins</author>, <ref target="nas.18630606.4">"<title level="a"
+                    key="How Mr. Lincoln Became an Abolitionist"
+                    >How Mr. Lincoln Became an Abolitionist</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-06-06"
+                    >6 June 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#mca" key="Ames, Mary Clemmer, 1839-1884"
+                    >Mary Clemmer Ames</author>, <ref target="nas.18630613.4">"<title level="a"
+                    key="Our Volunteer">Our Volunteer</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-06-13"
+                    >13 June 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ghb" key="Boker, George H. (George Henry), 1823-1890"
+                    >George H. Boker</author>, <ref target="nas.18630620.4">"<title level="a"
+                    key="Second Louisiana, The">The Second Louisiana</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-06-20"
+                    >20 June 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgw" key="Whittier, John Greenleaf, 1807-1892"
+                    >John G. Whittier</author>, <ref target="nas.18630627.4">"<title level="a"
+                    key="In War-Time">In War-Time</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-06-27"
+                    >27 June 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="nas.18630704.4a">"<title level="a" key="Voice from the Crowd, A"
+                    >A Voice from the Crowd</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-07-04"
+                    >4 July 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ewb" key="Brown, Elizabeth Whitney"
+                    >Miss E. W. Brown</author>, <ref target="nas.18630704.4b">"<title level="a"
+                    key="Slave-Martyr, The">The Slave-Martyr</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-07-04"
+                    >4 July 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#em" key="Murray, Ellen">E. Murray</author>, <ref
+                    target="nas.18630711.4">"<title level="a" key="Sunset on Edisto Beach, S. C."
+                    >Sunset on Edisto Beach, S. C.</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-07-11"
+                    >11 July 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#whb" key="Burleigh, William Henry, 1812-1871"
+                    >Wm. H. Burleigh</author>, <ref target="nas.18630725.4">"<title level="a"
+                    key="Prayer of a Nation, The">The Prayer of a Nation</title>" </ref><title
+                    level="j">National Anti-Slavery Standard</title> (<date when="1863-07-25"
+                    >25 July 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#una" key="Unknown">Una</author>, <ref
+                    target="nas.18630801.4">"<title level="a" key="Words of Cheer"
+                    >Words of Cheer</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-08-01"
+                    >1 August 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#em" key="Murray, Ellen">E. Murray</author>, <ref
+                    target="nas.18630822.2">"<title level="a" key="Col. Robert G. Shaw"
+                    >Col. Robert G. Shaw</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-08-22"
+                    >22 August 1863</date>): <biblScope type="pp">[2]</biblScope></bibl></item>
+                <item><bibl><author ref="#bb" key="Bush, Arabella C.">Belle Bush</author>, <ref
+                    target="nas.18630822.4">"<title level="a" key="Not One Hath Died in Vain"
+                    >Not One Hath Died in Vain</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-08-22"
+                    >22 August 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#b" key="Unknown">B.</author>, <ref target="nas.18630829.4"
+                    >"<title level="a" key="Principles and Their Fruits"
+                    >Principles and Their Fruits</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-08-29"
+                    >29 August 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#btj" key="Unknown">B. T. J.</author>, <ref
+                    target="nas.18630905.4">"<title level="a" key="American Slavery"
+                    >American Slavery</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-09-05"
+                    >5 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ml" key="Lowell, Maria White, 1821-1853"
+                    >Maria Lowell</author>, <ref target="nas.18630912.4">"<title level="a"
+                    key="Africa">Africa</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-09-12"
+                    >12 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jp" key="Pierpont, John, 1785-1866"
+                    >Rev. John Pierpont</author>, <ref target="nas.18630919.4">"<title level="a"
+                    key="Refining Fires">Refining Fires</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-09-19"
+                    >19 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#bt" key="Taylor, Bayard, 1825-1878"
+                    >Bayard Taylor</author>, <ref target="nas.18630926.4a">"<title level="a"
+                    key="Thousand Years, A">A Thousand Years</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-09-26"
+                    >26 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#glt" key="Taylor, George Lansing, 1835-1903"
+                    >Rev. George Lansing Taylor</author>, <ref target="nas.18630926.4b">"<title
+                    level="a" key="Scourged Back, The">The Scourged Back</title>" </ref><title
+                    level="j">National Anti-Slavery Standard</title> (<date when="1863-09-26"
+                    >26 September 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgw" key="Whittier, John Greenleaf, 1807-1892"
+                    >John G. Whittier</author>, <ref target="nas.18631003.4">"<title level="a"
+                    key="Barbara Frietchie">Barbara Frietchie</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-10-03"
+                    >3 October 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="nas.18631010.4">"<title level="a" key="Loved and Lost, The"
+                    >The Loved and Lost</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-10-10"
+                    >10 October 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ebs"
+                    key="Sedgwick, Elizabeth Buckminster Dwight, 1801-1864"
+                    >Elizabeth B. Sedgwick</author>, <ref target="nas.18631031.4a">"<title level="a"
+                    key="Buried With His Niggers.">'Buried With His Niggers.'</title>" </ref><title
+                    level="j">National Anti-Slavery Standard</title> (<date when="1863-10-31"
+                    >31 October 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#gwb"
+                    key="Bungay, George W. (George Washington), 1818-1892"
+                    >George W. Bungay</author>, <ref target="nas.18631031.4b">"<title level="a"
+                    key="Lines to a Clergyman Who Says Slavery is Not a Sin"
+                    >Lines to a Clergyman Who Says Slavery is Not a Sin</title>" </ref><title
+                    level="j">National Anti-Slavery Standard</title> (<date when="1863-10-31"
+                    >31 October 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#dw" key="Webb, Deborah">D. W.</author>, <ref
+                    target="nas.18631107.4a">"<title level="a" key="John Brown's March"
+                    >John Brown's March</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-11-07"
+                    >7 November 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="nas.18631107.4b">"<title level="a" key="Hero of Gaza, The"
+                    >The Hero of Gaza</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-11-07"
+                    >7 November 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#fdg" key="Gage, Frances Dana, 1808-1884"
+                    >Frances D. Gage</author>, <ref target="nas.18631114.4">"<title level="a"
+                    key="Autumn Days in South Carolina"
+                    >Autumn Days in South Carolina</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-11-14"
+                    >14 November 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgm" key="McKee, J. G.">J. G. McKee</author>, <ref
+                    target="nas.18631121.4">"<title level="a" key="God's Own Poor"
+                    >God's Own Poor</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-11-21"
+                    >21 November 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="nas.18631205.1">"<title level="a" key="Reverend Mr. Treacle, The"
+                    >The Reverend Mr. Treacle</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-12-05"
+                    >5 December 1863</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Larcom, Lucy, 1824-1893"
+                    >[Unsigned]</author>, <ref target="nas.18631212.4">"<title level="a"
+                    key="Loyal Woman's No, A">A Loyal Woman's No</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1863-12-12"
+                    >12 December 1863</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="nas.18640109.4">"<title level="a" key="Third Decade, The"
+                    >The Third Decade</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-01-09"
+                    >9 January 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jch" key="Hagen, John Cole">J. C. Hagen</author>, <ref
+                    target="nas.18640123.4">"<title level="a" key="Freedman's Offering, The"
+                    >The Freedman's Offering</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-01-23"
+                    >23 January 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#cam"
+                    key="Mason, Caroline A. (Caroline Atherton), 1823-1890"
+                    >Caroline A. Mason</author>, <ref target="nas.18640130.4a">"<title level="a"
+                    key="Sowing In Hope">Sowing In Hope</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-01-30"
+                    >30 January 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#em" key="Murray, Ellen">Ellen Murray</author>, <ref
+                    target="nas.18640130.4b">"<title level="a" key="Workingman, The"
+                    >The Workingman</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-01-30"
+                    >30 January 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ega" key="Adams, Enoch George, 1829-1900"
+                    >Lieut. Enoch G. Adams</author>, <ref target="nas.18640213.4">"<title level="a"
+                    key="Bradley Clay">Bradley Clay</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-02-13"
+                    >13 February 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#sp" key="Unknown">Simon Pure</author>, <ref
+                    target="nas.18640220.4a">"<title level="a" key="Tony James's Song"
+                    >Tony James's Song</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-02-20"
+                    >20 February 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#wdg" key="Unknown">W. D. G.</author>, <ref
+                    target="nas.18640227.4a">"<title level="a" key="Take No Step Backward!"
+                    >Take No Step Backward!</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-02-27"
+                    >27 February 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#gwc" key="Curtis, George William, 1824-1892"
+                    >George William Curtis</author>, <ref target="nas.18640305.4a">"<title level="a"
+                    key="American Flag, The">The American Flag</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-03-05"
+                    >5 March 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgw" key="Whittier, John Greenleaf, 1807-1892"
+                    >John G. Whittier</author>, <ref target="nas.18640305.4b">"<title level="a"
+                    key="What of the Day?">What of the Day?</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-03-05"
+                    >5 March 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#cam"
+                    key="Mason, Caroline A. (Caroline Atherton), 1823-1890"
+                    >Caroline A. Mason</author>, <ref target="nas.18640312.4">"<title level="a"
+                    key="Army Song">Army Song</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-03-12"
+                    >12 March 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#fdg" key="Gage, Frances Dana, 1808-1884"
+                    >Frances D. Gage</author>, <ref target="nas.18640319.4">"<title level="a"
+                    key="Mother's Thoughts, A">A Mother's Thoughts</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-03-19"
+                    >19 March 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jch" key="Hagen, John Cole">J. C. Hagen</author>, <ref
+                    target="nas.18640326.4">"<title level="a" key="Hymn of the Corps D'Afrique"
+                    >Hymn of the Corps D'Afrique</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-03-26"
+                    >26 March 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#rmm"
+                    key="Milnes, Richard Monckton, Baron Houghton, 1809-1885"
+                    >Richard Monckton Milnes</author>, <ref target="nas.18640416.4">"<title
+                    level="a" key="England and America—1863"
+                    >England and America—1863</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-04-16"
+                    >16 April 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#p" key="Unknown">P.</author>, <ref target="nas.18640423.4"
+                    >"<title level="a" key="On the Death of Owen Lovejoy"
+                    >On the Death of Owen Lovejoy</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-04-23"
+                    >23 April 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ack" key="Kimball, Augusta Cooper"
+                    >Augusta Cooper Kimball</author>, <ref target="nas.18640430.4">"<title level="a"
+                    key="Right Triumphs">Right Triumphs</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-04-30"
+                    >30 April 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#lwj" key="Johnson, Laura Winthrop, 1824-1889"
+                    >[Unsigned]</author>, <ref target="nas.18640507.4">"<title level="a"
+                    key="On Picket Duty">On Picket Duty</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-05-07"
+                    >7 May 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#t" key="Unknown">Tennyson</author>, <ref
+                    target="nas.18640514.4a">"<title level="a" key="Garibaldi"
+                    >Garibaldi</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-05-14"
+                    >14 May 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#unk" key="Unknown">[Unsigned]</author>, <ref
+                    target="nas.18640514.4b">"<title level="a" key="Birth-day Tribute"
+                    >Birth-day Tribute</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-05-14"
+                    >14 May 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#c" key="Unknown">Corduroy</author>, <ref
+                    target="nas.18640806.1">"<title level="a" key="Abraam and Columbia"
+                    >Abraam and Columbia</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-08-06"
+                    >6 August 1864</date>): <biblScope type="pp">[1]</biblScope></bibl></item>
+                <item><bibl><author ref="#wb" key="Blake, William, 1757-1827"
+                    >William Blake</author>, <ref target="nas.18640820.4">"<title level="a"
+                    key="Little Black Boy&#34;, The">'The Little Black Boy'</title>" </ref><title
+                    level="j">National Anti-Slavery Standard</title> (<date when="1864-08-20"
+                    >20 August 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#wep" key="Pabor, William E. (William Edgar), b. 1834"
+                    >William E. Pabor</author>, <ref target="nas.18641105.3">"<title level="a"
+                    key="Eve of Election!, The">The Eve of Election!</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-11-05"
+                    >5 November 1864</date>): <biblScope type="pp">[3]</biblScope></bibl></item>
+                <item><bibl><author ref="#em" key="Murray, Ellen">Ellen Murray</author>, <ref
+                    target="nas.18641217.4">"<title level="a" key="Olustee"
+                    >Olustee</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1864-12-17"
+                    >17 December 1864</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#ae" key="Unknown">A. E.</author>, <ref
+                    target="nas.18650128.4">"<title level="a" key="Free Missouri"
+                    >Free Missouri</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1865-01-28"
+                    >28 January 1865</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#jgw" key="Whittier, John Greenleaf, 1807-1892 "
+                    >[Unsigned]</author>, <ref target="nas.18650218.4">"<title level="a"
+                    key="Laus Deo!">Laus Deo!</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1865-02-18"
+                    >18 February 1865</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#sec" key="Carmichael, Sarah E."
+                    >S. E. Carmichael</author>, <ref target="nas.18650311.4">"<title level="a"
+                    key="Amputated">Amputated</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1865-03-11"
+                    >11 March 1865</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+                <item><bibl><author ref="#fbs" key="Sanborn, F. B. (Franklin Benjamin), 1831-1917"
+                    >F. B. Sanborn</author>, <ref target="nas.18650429.4">"<title level="a"
+                    key="Abraham Lincoln">Abraham Lincoln</title>" </ref><title level="j"
+                    >National Anti-Slavery Standard</title> (<date when="1865-04-29"
+                    >29 April 1865</date>): <biblScope type="pp">[4]</biblScope></bibl></item>
+            </list>
+        </body>
+    </text>
+</TEI>

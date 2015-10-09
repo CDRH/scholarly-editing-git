@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">The Firstling/Erstling/He Complex</title>
+                <title level="m" type="sub">Help</title>
+                <author xml:id="tc">Tanya Clement</author>
+                <author xml:id="gd">Gaby Divay</author>
+            </titleStmt>
+            <editionStmt>
+                <edition> <date>2012</date> </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">help.baroness</idno>
+                <idno type="edition">baroness</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor> <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address> </distributor>
+                <date>2012</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j"
+                    >Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="aag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl> <note>Born digital.</note> </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-02-09" who="#awj">markup in TEI XML</change>
+            <change when="2011" who="#tc">Intiatial Creation in HTML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">The Firstling/Erstling/He Complex</head>
+            <head type="sub">Help</head>
+            <byline>Tanya Clement</byline>
+            <byline>Gaby Divay</byline>
+        </front>
+        <body>
+            <head type="main"
+                >Reading The Firstling/Erstling/He Complex in the Versioning Machine</head>
+            <p>More information on the Verioning Machine (VM) can be found at <ref type="url"
+                target="http://v-machine.org"
+                >http://v-machine.org</ref>. More information on how the VM is being used in this project can be found on the "<ref
+                type="url" target="about.html">About the project</ref>" page. </p>
+            <list type="simple">
+                <item><hi rend="bold"
+                    >Alternate choices:</hi> Alternative choices are indicated in the text with dashes under words (e.g., <figure
+                    type="inline">
+<figDesc>underscored word</figDesc>
+                    <graphic url="./vm-images/alternate.png" />
+                    </figure><!--<img height="15px" style="position: relative; border: 1px solid;" src="./vm-images/alternate.png" alt='alternate choices'/>-->). By hovering over dashed words, readers can view alternative choices for a given textual moment. See Figure 3 in the introduction for an example.  </item>
+                <item><hi rend="bold"
+                    >Line and "chunk" comparisons:</hi> Readers can view comparisons between lines or "chunks" of text by clicking on words or phrases.  </item>
+                <item><hi rend="bold"
+                    >Manuscript images:</hi> Thumbnails are links to larger images that readers can move around for best placement.</item>
+                <item><hi rend="bold">Notes:</hi>: Notes by the <hi rend="bold"
+                    >author</hi> that appear on particular versions are marked with an "<hi
+                    rend="bold">a</hi>"; <hi rend="bold"
+                    >critical</hi> notes by the editors are marked with a "<hi rend="bold"
+                    >c</hi>". Longer notes such as "Note 1.7" and "Note 5.3 (recto + verso)" appear in a separate panel. </item>
+                <item><hi rend="bold"
+                    >Recto and verso:</hi> All verso pages are noted with "verso" in the Witness List.</item>
+                <item><hi rend="bold"
+                    >Version comparison:</hi> Readers can open new version panels by clicking on the button "new version" in the menu bar. New Versions will appear in order, scrolling to the right. Readers can reorder versions by choosing a new "Witness" in the dropdown box at the top of each panel.</item>
+                <item><hi rend="bold"
+                    >Translations:</hi> Translations are marked in the Witness List with "translation." These are numbered in the same fashion as the original texts and are not accompanied by images. </item>
+                <item><hi rend="bold"
+                    >Typescripts:</hi> Typescripts are marked in the Witness List with "typescript." </item>
+                <item><hi rend="bold"
+                    >Untitled versions:</hi> Untitled witnesses are marked with brackets in the Witness List (e.g., "[Firstling] 1.1")</item>
+            </list>
+        </body>
+    </text>
+</TEI>

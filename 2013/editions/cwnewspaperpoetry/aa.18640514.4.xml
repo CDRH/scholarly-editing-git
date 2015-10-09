@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640514.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">On Picket Duty</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640514.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                            3.0 Unported License
+                            (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be
+                            credited to R. J. Weir and Elizabeth Lorang, made available
+                            non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">34</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#lwj">[Unsigned]</author>
+                        <title level="a">On Picket Duty</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-05-14">14 May 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="lwj">Johnson, Laura Winthrop, 1824-1889</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Richmond, Virginia</term>
+                    <term>Richmond (Va.)--1860-1870</term>
+                    <term>Richmond (Va.)--History--Civil War, 1861-1865--Prisoners and prisons</term>
+                    <term>Shiloh, Battle of, Tenn., 1862</term>
+                    <term>Shiloh, Battle of, Tenn., 1862--Poetry</term>
+                    <term>United States--History--Civil War, 1861-1865--Military life</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                    <term>United States--History--Civil War, 1861-1865--War work</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-14" who="#el">encoded; added and encoded editorial notes</change>
+            <change when="2012-10-01" who="#kt">variants noted</change>
+            <change when="2012-09-06" who="#el">checked metadata and encoding</change>
+            <change when="2012-09-03" who="#el">created</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640514.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640514.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640514.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640514.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped" corresp="#poem">
+                <graphic url="aa.18640514.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">ON PICKET DUTY.<note type="editorial" resp="#bw #el">"On Picket Duty" is attributed to "Mrs. W. T. Johnson" in the table of contents for volume 13 of the <title level="j">Atlantic Monthly</title>. The poem appeared in the April 1864 issue of the magazine. (According to the magazine's convention, poems were typically unattributed in the body of the magazine, but tables of contents attributed the works.) Laura Winthrop Johnson (1824&#8211;1889) was the sister of Major Theodore Winthrop, an <title level="j">Atlantic Monthly</title> contributor and one of the Union's first martyrs. In 1862, after Winthrop's death, Laura became good friends with Annie Fields, wife of <title level="j">Atlantic</title> editor James T. Fields. They discussed literature, and Laura showed Annie some of her verses. Annie gave one of them, "On Picket Duty," to her husband (Rita K. Gollin, <title level="m">Annie Adams Fields: Woman of Letters</title> [Amherst: University of Massachusetts Press, 2002], 150&#8211;51).</note></head>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Within</emph> a green and shadowy wood,</l>
+                    <l>Circled with spring, alone I stood:</l>
+                    <l>The nook was peaceful, fair, and good.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The wild-plum blossoms lured the bees,</l>
+                    <l>The birds sang madly in the trees,</l>
+                    <l>Magnolia-scents were on the breeze.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>All else was silent; but the ear</l>
+                    <l>Caught sounds of distant bugle clear,</l>
+                    <l>And heard the bullets whistle near&#8212;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>When from the winding river's shore</l>
+                    <l>The Rebel guns began to roar,</l>
+                    <l>And ours to answer, thundering <choice><sic>oer</sic><corr>o'er</corr></choice>;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And echoed from the wooded hill,</l>
+                    <l>Repeated and repeated still,</l>
+                    <l>Through all my soul they seemed to thrill.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>For, as their rattling storm awoke,</l>
+                    <l>And loud and fast the discord broke,</l>
+                    <l>In rude and trenchant <emph rend="italic">words</emph> they spoke.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"<emph rend="italic">We hate!</emph>" boomed fiercely o'er the tide;</l>
+                    <l>"We fear not!" from the other side;</l>
+                    <l>"<emph rend="italic">We strike!</emph>" the Rebel guns replied.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Quick roared our answer, "We defend!"</l>
+                    <l>"<emph rend="italic">Our rights!</emph>" the battle-sounds contend;</l>
+                    <l>"The rights of <emph rend="italic">all</emph>!" we answer send.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"<emph rend="italic">We conquer!</emph>" rolled across the wave;</l>
+                    <l>"We persevere!" our answer gave;</l>
+                    <l>"<emph rend="italic">Our chivalry!</emph>" they wildly rave.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"<emph rend="italic">Ours are the brave!</emph>" "Be <emph rend="italic">ours</emph> the free!"</l>
+                    <l>"<emph rend="italic">Be ours the slave, the masters we!</emph>"</l>
+                    <l>"On us their blood no more shall be!"<note type="editorial" resp="#bw #el">The blood of slaves. The Union declaration&#8212;at once an acknowledgment of the national sin of slavery and a pledge to fight for abolition&#8212;causes the tide of battle to turn in the Union's favor. Johnson suggests that, because God willed slavery's destruction, Union armies would only meet with success once the government attacked slavery as a matter of moral necessity.</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>As when some magic word is spoken,</l>
+                    <l>By which a wizard spell is broken,</l>
+                    <l>There was a silence at that token.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The wild birds dared once more to sing,</l>
+                    <l>I heard the pine-bough's whispering,</l>
+                    <l>And trickling of a silver spring.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then, crashing forth with smoke and din,</l>
+                    <l>Once more the rattling sounds begin,</l>
+                    <l>Our iron lips roll forth, "We win!"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And dull and wavering in the gale</l>
+                    <l>That rushed in gusts across the vale</l>
+                    <l>Came back the faint reply, "<emph rend="italic">We fail!</emph>"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And then a word, both stern and sad,</l>
+                    <l>From throat of huge Columbiad&#8212;<note type="editorial" resp="#bw #el">A Columbiad was an "American cannon invented by Colonel Bomford, of very large calibre, used for throwing solid shot or shells" (Colonel H. L. Scott, <title level="m">Military Dictionary</title> [New York: Van Nostrand, 1863], 164). Civil War Columbiads weighed between 9,000 and nearly 49,000 pounds. Captain Thomas Rodman's innovative casting technique was used to make the largest guns for coastal defenses (see Scott).</note></l>
+                    <l>"Blind fools and traitors! ye are mad!"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Again the rebel answer came,</l>
+                    <l>Muffled and slow, as if in shame&#8212;</l>
+                    <l>"<emph rend="italic">All, all is lost!</emph>" in smoke and flame.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Now bold and strong and stern as Fate,</l>
+                    <l>The Union guns sound forth, "We wait!"</l>
+                    <l>Faint comes the distant cry, "<emph rend="italic">Too late!</emph>"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Return! return!" our cannon said;</l>
+                    <l>And, as the smoke rolled overhead,</l>
+                    <l>"<emph rend="italic">We dare not!</emph>" was the answer dread.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then came a sound, both loud and clear,</l>
+                    <l>A godlike word of hope and cheer&#8212;</l>
+                    <l>"Forgiveness!" echoed far and near;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>As when beside some death-bed still</l>
+                    <l>We watch, and wait God's solemn will,</l>
+                    <l>A blue-bird warbles his soft trill.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>I clenched my teeth at that blest word,</l>
+                    <l>And, angry, muttered, "Not so, Lord!</l>
+                    <l>The only answer is the sword!"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>I thought of Shiloh's tainted air;<note type="editorial" resp="#bw #el">The miasma over the Shiloh battlefield. Approximately 20,000 soldiers were killed or wounded during the Battle of Shiloh (April 6&#8211;7, 1862). The battle introduced mid-nineteenth-century Americans to warfare on a new and terrible scale. On the battle's second day, advancing Union soldiers were confronted with the previous day's dead and wounded (James M. McPherson, <title level="m">Battle Cry of Freedom: The American Civil War</title> [London: Penguin, 1991], 413).</note></l>
+                    <l>Of Richmond's prisons, foul and bare;<note type="editorial" resp="#bw #el">Reports of the horrific conditions in Richmond's military prisons caused outrage in the North, and provided Union editors with ammunition in the ongoing propaganda war. In early December 1863, <title level="j">Harper's Weekly</title> published a double-page illustration of skeletal Union prisoners at Richmond's Belle Isle, heavily guarded by well-fed, smiling men. More shocking illustrations followed in the latter half of the war. Focused on the enemy's crimes, Johnson does not consider the brutal conditions in Union prisons. As Benjamin Cloyd points out, "grim statistics" show that each side failed "to care appropriately for prisoners of war" (Benjamin G. Cloyd, <title level="m">Haunted by Atrocity: Civil War Prisons in American Memory</title> [Baton Rouge: Louisiana State University Press, 2010], 11).</note></l>
+                    <l>And murdered heroes, young and fair&#8212;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Of block and lash and overseer,</l>
+                    <l>And dark, mild faces pale with fear,</l>
+                    <l>Of baying hell-hounds panting near.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>But then the gentle story told</l>
+                    <l>My childhood, in the days of old,</l>
+                    <l>Rang out its lessons manifold.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>O prodigal, and lost! arise</l>
+                    <l>And read the welcome blest that lies</l>
+                    <l>In a kind Father's patient eyes!<note type="editorial" resp="#bw #el">See the parable of the lost or prodigal son, Luke 15:11&#8211;32. Johnson casts the South as the lost son, and the North as his righteous elder brother. In the biblical parable, the "kind Father" is God. However, readers who encountered "On Picket Duty" in the spring of 1864 may have interpreted Johnson's figure as a forgiving Lincoln. The president had issued his Proclamation of Amnesty and Reconstruction on December 8, 1863. For more on the Proclamation, see Eric Foner, <title level="m">Reconstruction: America's Unfinished Revolution, 1863&#8211;1877</title> (New York: Harper Collins, 2002), 35.</note></l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Thy elder brother grudges not</l>
+                    <l>The lost and found should share his lot,</l>
+                    <l>And wrong in concord be forgot.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Thus mused I, as the hours went by,</l>
+                    <l>Till the relieving guard drew nigh,</l>
+                    <l>And then was challenge and reply.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And as I hastened back to line,</l>
+                    <l>It seemed an omen half divine</l>
+                    <l>That "Concord" was the countersign.</l>
+                </lg>
+            </lg>
+            <note type="newspaper-editorial">&#8212;<title level="j">Atlantic Monthly</title><note type="editorial" resp="#bw #el">Although the <title level="j">Anglo-African</title> credited the <title level="j">Atlantic Monthly</title> as the source of "On Picket Duty," the newspaper appears to have actually reprinted the poem from the <title level="j">National Anti-Slavery Standard</title> of <ref target="nas.18640507.4">May 7, 1864</ref>. The <title level="j">Anti-Slavery Standard</title> version is distinguishable from the <title level="j">Atlantic Monthly</title> text in several small ways, including the typographical error "oer" in place of "o'er" in line 12, and variant end-of-line punctuation in stanza 22, among others. The <title level="j">Anglo-African</title> version includes these same textual idiosyncrasies, which suggest it was reprinted from the <title level="j">Standard</title> rather than from the <title level="j">Atlantic Monthly</title>.</note></note>
+        </body>
+    </text>
+    
+</TEI>

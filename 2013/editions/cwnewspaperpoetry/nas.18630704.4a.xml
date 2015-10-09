@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630704.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Voice from the Crowd</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630704.4a</idno> <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#unk">[Unsigned]</author>
+                        <title level="a">A Voice from the Crowd</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-07-04">4 July 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="unk">Unknown</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Confederate States of America--Foreign relations</term>
+                    <term>Confederate States of America--Foreign public opinion, British</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>United States --Foreign relations--1861-1865</term>
+                    <term>United States--History--Civil War, 1861-1865--Foreign public opinion</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-13" who="#el">added and encoded notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>            
+            <change when="2012-07-29" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630704.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630704.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630704.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630704.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630704.pp4a_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">A VOICE FROM THE CROWD.</head>
+                
+                <head type="sub" subtype="authorial" rend="center">DEDICATED TO CHARLES MACKAY, LL.D., "TIMES" SPECIAL <lb/>CORRESPONDENT IN AMERICA.<note type="editorial" resp="#el #bw"><p>Journalist and poet Charles Mackay (1812&#8211;1889) became the <title level="j">London Times</title>' New York correspondent in February 1862. As an editor of proven ability and the author of <title level="m">Life and Liberty in America</title> (1859), he must have looked like a fair prospect for the <title level="j">Times</title>. But upon arriving in the United States, Mackay became embroiled in public controversy, which, historian Martin Crawford writes, "confirmed him as a passionate opponent of federal policy toward the South" (<title level="m">The Anglo-American Crisis of the Mid-Nineteenth Century: <title level="j">The Times</title> and America, 1850&#8211;1862</title> [Athens: University of Georgia Press, 1987], 130). Still, <title level="j">Times</title> managing editor Mowbray Morris seemed pleased with his work, until the decline of the Confederacy could no longer be ignored. Toward the end of the war, Morris changed his tone, and eventually, in April 1865, Mackay was dismissed as a result of his wild, ranting letters.</p>
+                    <p>Mackay's correspondence often celebrated the Confederacy and criticized Lincoln; his views complemented the leaning of the <title level="j">London Times</title>, but they won him little favor in the North. In May 1863, for example, he wrote that in spite of their isolated status and misrepresentation in the North and Britain, "the Confederate States have, nevertheless, won for themselves the respect of all who hold matchless valor in honor, and thrill with the thought that the stubborn energy of their resistance stamps them as what they claim to be&#8212;blood of England's blood and bone of her bone" (<title level="j">Times</title>, May 12, 1863). Pro-Union supporters in Britain were similarly unimpressed by Mackay's letters.</p></note></head>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">There</emph>'s a good time coming, boys,<note type="editorial" resp="#bw #el"><p>"A Voice from the Crowd" identifies Mackay with a larger group of pro-South newspaper correspondents who use their influence to aid the Confederacy. The poem parodies one of Mackay's anti&#8211;Corn Law poems, published in the collection <title level="m">Voices from the Crowd; and Other Poems</title> (1846). In the first edition of <title level="m">Voices</title>, Mackay's poem was titled "Wait a Little Longer"; by 1851 it had been renamed "The Good Time Coming." Versions set to music by Henry Russell and renowned American entertainer Stephen Foster were circulated widely. Performances by the antislavery Hutchinson Family singers helped to establish "The Good Time Coming" as an abolitionist favorite (L. Diane Barnes, "Hutchinson Family," in <title level="m">Encyclopedia of African American History: 1619&#8211;1895, From the Colonial Period to the Age of Frederick Douglass</title>, ed. Paul Finkleman [Oxford: Oxford University Press, 2006], 2:184).</p>
+                        <p>Mackay's "Wait a Little Longer" looks forward to a time when war, oppression, and religious conflict will cease; "A Voice from the Crowd" points up the ironic contrast between Mackay's perfectionist vision and his support for the Confederacy. The poem's title also challenges Mackay's earlier claim to speak for the mass of British people; it is the antislavery speaker, not the <title level="j">Times</title> correspondent and author of <title level="m">Voices from the Crowd</title>, who represents the public's true opinion.</p></note></l>
+                    <l rend="indented2">A good time coming;</l>
+                    <l>We now may see the dawning ray</l>
+                    <l>That ushers in the natal day</l>
+                    <l rend="indented2">Of the good time coming.</l>
+                    <l>Cannons thunder out the news,</l>
+                    <l rend="indented2">Their iron throats are stronger;</l>
+                    <l>Falsehood takes the place of truth&#8212;</l>
+                    <l rend="indented2">Wait a little longer.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>There's a good time coming, boys,</l>
+                    <l rend="indented2">A good time coming;</l>
+                    <l>The Northern fanatics shall wail</l>
+                    <l>When Southern views alone prevail&#8212;</l>
+                    <l rend="indented2">In the good time coming.</l>
+                    <l>The lash, not love, shall rule mankind,</l>
+                    <l rend="indented2">And be acknowledged stronger;</l>
+                    <l>Away with abolition cant&#8212;</l>
+                    <l rend="indented2">Wait a little longer.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>There's a good time coming, boys,</l>
+                    <l rend="indented2">A good time coming;</l>
+                    <l>Freedom in men's eyes shall be</l>
+                    <l>A monster of iniquity,</l>
+                    <l rend="indented2">In the good time coming.</l>
+                    <l>Bondmen cease to live in hope,</l>
+                    <l rend="indented2">Your fetters shall be stronger,</l>
+                    <l>Pile high the heaps of Northern slain,</l>
+                    <l rend="indented2">And wait a little longer.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>There's a good time coming, boys,</l>
+                    <l rend="indented2">A good time coming;</l>
+                    <l>When the Slave Confederacy</l>
+                    <l>Recognized by all shall be</l>
+                    <l rend="indented2">In the good time coming.</l>
+                    <l>Let us aid it all we can,</l>
+                    <l>Correspondents&#8212;every man,</l>
+                    <l rend="indented2">To make the impulse stronger;</l>
+                    <l>We shall well rewarded be</l>
+                    <l>For our grand <choice><sic>apostacy</sic><corr>apostasy</corr></choice>&#8212;</l>
+                    <l rend="indented2">Wait a little longer!</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">London Star and Dial</title>.<note type="editorial" resp="#bw #el"><p>Probably the <title level="j">Evening Star and Dial</title>, a radical London daily edited by Alfred Hutchinson Dymond. Prior to the war, Dymond had worked for the <title level="j">London Morning Star</title>, then the leading opposition paper to the <title level="j">Times</title> (R. J. M. Blackett, <title level="m">Divided Hearts: Britain and the American Civil War</title> [Baton Rouge: Louisiana State University Press, 2001], 151). Like <title level="j">Star</title> editor Samuel Lucas, Dymond was a member of the London Emancipation Society.</p>
+                <p>In attributing the reprint to the <title level="j">London Star and Dial</title>, the <title level="j">National Anti-Slavery Standard</title> presented the reprinted text as a British response to Mackay. Presented thus, the reprinted poem can be seen as advocating for a transatlantic, wartime antislavery alliance grounded in the circulation of material texts; as such, the poem may have qualified readers' concerns about pro-Southern sympathy and abolitionist indifference in Britain.</p></note>            </note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+

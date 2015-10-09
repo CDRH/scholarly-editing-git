@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">On the Five Sevens</title>
+                <author xml:id="HSV">Hugh of St Victor</author>
+                <editor xml:id="AD">Andrew Dunning</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>
+                        2016
+                    </date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>
+                <idno type="file">
+                    dequinqueseptenis.trans
+                </idno>
+                <idno type="edition">
+                    dequinqueseptenis-deorationedominica
+                </idno>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska–Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>
+                    2016
+                </date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Scholarly Editing: The Annual of the Association for Documentary Editing is freely distributed by the Association for Documentary Editing and the Center for Digital Research in the Humanities at the University of Nebraska-Lincoln and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">
+                    37
+                </idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Paris</settlement>
+                        <repository>Bibliothèque Mazarine</repository>
+                        <idno>717</idno>
+                    </msIdentifier>
+                </msDesc>
+                <listBibl>
+                    <biblStruct type="bookSection" xml:id="Baron1969" xml:lang="fr">
+                        <analytic>
+                            <title level="a" xml:lang="la">De quinque septenis</title>
+                            <author>
+                                <name>Hugues de Saint-Victor</name>
+                            </author>
+                            <respStmt>
+                                <resp>translator</resp>
+                                <persName>
+                                    <forename>Roger</forename>
+                                    <surname>Baron</surname>
+                                </persName>
+                            </respStmt>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Six opuscules spirituels</title>
+                            <editor>
+                                <forename>Roger</forename>
+                                <surname>Baron</surname>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <biblScope unit="pages">100–118</biblScope>
+                                <publisher>Cerf</publisher>
+                                <date>1969</date>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">Sources chrétiennes</title>
+                            <biblScope unit="volume">155</biblScope>
+                        </series>
+                    </biblStruct>
+                    <biblStruct type="bookSection" xml:id="Clichtove1506" xml:lang="la">
+                        <analytic>
+                            <title level="a">Hugo de Sancto Victore De quinque septenis</title>
+                            <author>
+                                <name>Hugo de Sancto Victore</name>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">In hoc libro contenta opera Hugonis de Sancto Victore. De institutione novitiorum. De operibus trium dierum. De arra anime. De laude charitatis. De modo orandi. Duplex exposito orationis dominice. De quinque septenis. De septem donis Spiritus Sancti</title>
+                            <editor>
+                                <forename>Josse</forename>
+                                <surname>Clichtove</surname>
+                            </editor>
+                            <editor>
+                                <forename>Pierre</forename>
+                                <surname>de Porta</surname>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <biblScope unit="folio">87v–91r</biblScope>
+                                <publisher>Stephanus</publisher>
+                                <date>1506</date>
+                                <note type="url">http://lib.ugent.be/catalog/bkt01:000321097</note>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookSection" xml:id="PL" xml:lang="la">
+                        <analytic>
+                            <title level="a">De quinque septenis seu septenariis opusculum</title>
+                            <author>
+                                <name>Hugo de Sancto Victore</name>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Hugonis de S. Victore, canonici regularis, Sancti Victoris Parisiensis, tum pietate, tum doctrina insignis; Opera omnia tribus tomis digesta</title>
+                            <editor>
+                                <forename>Jacques Paul</forename>
+                                <surname>Migne</surname>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <biblScope unit="volume">3</biblScope>
+                                <biblScope unit="column">405–414</biblScope>
+                                <publisher>Migne</publisher>
+                                <date>1854</date>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">Patrologia Latina</title>
+                            <biblScope unit="volume">175</biblScope>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <pb n="210v"/>
+            <cb n="a"/>
+            <p>
+                <lb/><milestone unit="chapter" n="1" edRef="#Clichtove1506 #PL"/><milestone unit="column" n="405" edRef="#PL"/>Five sevens, brother, have I found in sacred scripture:
+                <lb/>if I am able, I wish first to recognize them, as
+                <lb/>you ask, by enumerating them in turn one by one;
+                <lb/>and afterwards to show how much
+                <lb/>correspondence they each have among themselves, by
+                <lb/>bringing them together. <milestone unit="section" rend="paragraph"/>In the first place
+                <lb/>the seven vices are put forward: the first pride, the second envy, the third
+                <lb/>anger; the fourth sadness, the fifth greed, the sixth gluttony,
+                <lb/>the seventh lust. <milestone unit="section" rend="paragraph" resp="#B"/>Against these,
+                <lb/>the seven requests included in the Lord’s Prayer are set in the second place.
+                <lb/>The first is the one by which it is said to God, <quote source="Bible.Vul:Matt.6.9 Bible.Vul:Luke.11.2">hallowed be
+                    <lb/>your name</quote>; the second by which it is said, <quote source="Bible.Vul:Matt.6.10 Bible.Vul:Luke.11.2">your
+                    <lb/>kingdom come</quote>; the third by which it is said; <quote source="Bible.Vul:Matt.6.10">your will
+                    <lb/>be done, on earth as in heaven</quote>; the fourth by which it is said,
+                <lb/><quote source="Bible.Vul:Matt.6.11 Bible.Vul:Luke.11.3">give us today our daily bread</quote>; the fifth
+                <lb/>by which it is said, <quote source="Bible.Vul:Matt.6.12">forgive us our debts, as we also have forgiven our debtors</quote>;
+                <lb/>the sixth by which it is said, <quote source="Bible.Vul:Matt.6.13 Bible.Vul:Luke.11.4">lead us not into temptation</quote>;
+                <lb/>the seventh by which it is said, <quote source="Bible.Vul:Matt.6.13">deliver us from evil</quote>.
+                <lb/><milestone unit="section" rend="paragraph" resp="#B"/>In the third place the seven gifts of the Holy Spirit follow:
+                <lb/>first, <seg xml:id="DOD-12">the spirit of the fear of the Lord; second, the spirit
+                    <lb/>of godliness; third, the spirit of knowledge; fourth, the spirit
+                    <lb/>of strength; fifth, the spirit of counsel; sixth,
+                    <lb/>the spirit of understanding; seventh, the spirit of wisdom.</seg>
+                <lb/><milestone unit="section" rend="paragraph" resp="#B"/>Then in the fourth place the seven virtues follow: the first,
+                <lb/><seg xml:id="DOD-13">poverty of spirit, that is humility; the second,
+                    <lb/>graciousness or kindness; the third, remorse or
+                    <lb/>sorrow; the fourth, the hunger for righteousness or good desire;
+                    <lb/>the fifth, mercy; the sixth, cleanness of heart;
+                    <lb/>the seventh, peace.</seg> <milestone unit="section" rend="paragraph" resp="#B"/>Finally, in the fifth place <seg xml:id="DOD-14">the seven beatitudes are set:
+                    <lb/>the first,</seg> <seg xml:id="DOD-15">the kingdom of heaven;
+                    <lb/>the second, the possession of the land of the living; the third,
+                    <lb/>consolation; the fourth, the satisfaction of righteousness; the fifth, mercy;
+                    <lb/>the sixth, the vision of God; the seventh, the sonship of God.</seg> <milestone unit="section" rend="paragraph" resp="#B"/>In this way,
+                <lb/>recognize those in the first place <seg xml:id="DOD-41">so that you may understand vices themselves
+                    <lb/>as if are were certain sicknesses of the soul, or wounds
+                    <lb/>of the inner person. The very person, indeed,
+                    <lb/>is like a patient, and God the physician. The gifts of the Holy
+                    <lb/>Spirit are the remedy. The virtues are healthiness. The
+                    <lb/>beatitudes are the joy of happiness.</seg> <milestone unit="chapter" n="2" edRef="#Clichtove1506 #PL #Baron1969"/><seg xml:id="DOD-1">There are, accordingly,
+                    <lb/>seven capital or principal vices, and from these
+                    <lb/>rise all evils. These are the sources of the dark pit
+                    <cb n="b"/>
+                    <lb/>from which the waters of Babylon flow
+                    <lb/><milestone unit="column" n="406" edRef="#PL"/>and drops of iniquity pour, leading into every land.
+                    <lb/>The psalmist
+                    <lb/>sings about these waters in the person of the faithful people, saying, <quote source="Bible.Vul:Ps.136.1–136.2">By
+                        <lb/>the waters of Babylon we sat down and wept,
+                        <lb/>when we remembered Zion. On the willows in its midst
+                        <lb/>we hung up our instruments.</quote></seg> We will speak, therefore, concerning these seven vices – ravagers, both
+                <lb/>corrupting all uprightness of nature and
+                <lb/>producing the seed of all evils –
+                <lb/>as much as we think is appropriate
+                <lb/>for explaining the present business.
+                <lb/><milestone unit="section" rend="paragraph" resp="#B"/>There are seven, then, and from these, <seg xml:id="DOD-2">the first three strip a person;
+                    <lb/>the fourth whips the stripped; the fifth
+                    <lb/>drives out the whipped; the sixth seduces the person driven out;
+                    <lb/>the seventh subjects the seduced to slavery.
+                    <lb/>For <seg xml:id="DOD-17">pride takes God away from a person;</seg></seg> <seg xml:id="DOD-20">envy takes
+                    <lb/>his neighbour from him;</seg> <seg xml:id="DOD-23">anger takes himself from him;</seg> <seg xml:id="DOD-27">sadness
+                    <lb/>whips the stripped person;</seg> <seg xml:id="DOD-30a" next="#DOD-30b">greed</seg> <seg xml:id="DOD-30b" prev="#DOD-30a">drives out the whipped;</seg>
+                <lb/><seg xml:id="DOD-33">gluttony seduces the person driven out;</seg> <seg xml:id="DOD-38">lust subjects the seduced
+                    <lb/>to slavery.</seg> <milestone unit="section" rend="paragraph"/>Now, turning back, let us explain each in order.
+                <lb/>We say that pride takes God away from a person.
+                <lb/><seg xml:id="DOD-3">For pride is the love of one’s own
+                    <lb/>status, when a soul loves <seg source="Bible.Vul:Luke.12.19">the good that it has</seg>
+                    <lb/>on its own, that is, without him from whom he accepted the good.</seg>
+                <lb/>O destructive pride, what are you urging? <seg xml:id="DOD-4">Why are you suggesting
+                    <lb/>to a small stream that it should separate itself from its source? Why are you suggesting
+                    <lb/>to a ray that it should turn itself away from the sun? Why indeed, unless so that the one,
+                    <lb/>while it ceases to be filled, runs dry; and the other, while
+                    <lb/>it is turned away from the light, becomes dark:<!-- also has sense of evil --></seg>
+                <lb/>indeed, when each ceases to accept that which it does not yet have,
+                <lb/>it immediately loses even what it does have. When you achieve this,
+                <lb/>you direct in your teaching to love the gift apart from the giver,
+                <lb/>so that one who wrongly claims for one’s own a part of a good which has been given by that giver
+                <lb/>loses the whole good which is in
+                <lb/>him. And thus it happens that he is also not able to possess that which he has
+                <lb/>advantageously, while he does not love the one from whom he has the good in him.
+                <lb/><seg xml:id="DOD-5">For in the same way as every good is truly
+                    <lb/>from God, just so can no good be had advantageously outside of God.</seg>
+                <lb/>Indeed, on the contrary, even what one has is lost,
+                <lb/>by the fact that he from which it is held is not loved in him and with him.
+                <lb/>Because <seg xml:id="DOD-6">whoever has not learned
+                    <lb/>to love unless it is the good that he has in himself,
+                    <pb n="211r"/>
+                    <cb n="a"/>
+                    <lb/>while he observes in another a good that he does not have,
+                    <lb/>it is necessary that his own imperfection torments him so bitterly
+                    <lb/>that he does not love him in whom every good exists.
+                    <lb/>And on that account, pride always follows envy,
+                    <lb/>because he who does not fasten love in that place where
+                    <lb/>every good exists is so wickedly elated with pride in himself
+                    <lb/>that he is painfully tormented by the good of another.</seg>
+                <lb/>His penalty, accordingly, is most rightly assigned for his glorification:
+                <lb/>the very one that envy begat from <milestone unit="column" n="407" edRef="#PL"/>itself. Because he has refused to love a good
+                <lb/>for the common benefit of all, he now rightly
+                <lb/>wastes away in the envy of another’s good. How surely
+                <lb/>does the approach of another’s happiness not burn if he,
+                <lb/>though love, holds him in whom every good exists.
+                <lb/><seg xml:id="DOD-7">For he does not even judge the good of another to be detached from himself,
+                    <lb/>if he loves his own in that place where he might possess at the same time
+                    <lb/>the good of both himself and of another. Now therefore, as much as he
+                    <lb/>praises himself through pride against the creator, so much
+                    <lb/>does he fall under his neighbour through envy; and as much as he is
+                    <lb/>deceptively raised there, so much does he here truly cause himself
+                    <lb/>to fall.</seg> <milestone unit="section" rend="paragraph"/>But the disintegration, once begun, cannot stop here.
+                <lb/>For as soon as <seg xml:id="DOD-8">envy has been born from pride,
+                    <lb/>this breeds anger from itself – because the unhappy
+                    <lb/>soul is now angered on account of its own imperfection,
+                    <lb/>since it does not delight through charity in the good of another.
+                    <lb/>And therefore it begins to be displeased even with what it has,
+                    <lb/>because it recognizes in another that which it cannot have.
+                    <lb/>He therefore who could have held the whole through charity, in God,
+                    <lb/>loses even that which he was attempting<!-- present in SP --> to have by pride outside of God
+                    <lb/>through envy and anger,
+                    <lb/>because after he loses God through pride,
+                    <lb/>he loses his neighbour through envy, and through anger himself.
+                    <lb/><milestone unit="section" rend="paragraph"/>Because therefore, when everything is lost, nothing remains
+                    <lb/>from which it can be glad, the unhappy conscience is crushed in itself through sadness,
+                    <lb/>and since it has refused to delight in another’s good faithfully,
+                    <lb/>it is rightly tormented by its own evil. So after
+                    <lb/>pride and envy and anger, which strip a person,
+                    <lb/>sadness immediately follows, which whips
+                    <lb/>the stripped person. Greed approaches him next,
+                    <lb/>which drives out the whipped, because, when inward joy is
+                    <lb/>lost, it drives him to seek consolation outside.
+                    <lb/>Afterwards gluttony draws near, which seduces the person driven out, because
+                    <lb/>it attracts the soul desiring this vice by outer things in the first place,
+                    <cb n="b"/>
+                    <lb/>as if tempting to excess from a neighbour – through natural desire itself.
+                    <lb/>Finally comes
+                    <lb/>lust, which violently subjects the seduced to slavery,
+                    <lb/>because after the flesh is set on fire through gluttony,
+                    <lb/>the weakened and feebly determined soul
+                    <lb/>cannot conquer the oncoming flame of passion.
+                    <lb/>The mind has therefore been enslaved most savagely
+                    <lb/>to coercion, subdued in a disgraceful manner, and unless the requested goodness of the saviour
+                    <lb/>brings relief, it will not now exist: so,
+                    <lb/>serving captivity, its lost freedom may not be restored.</seg>
+                <lb/><milestone unit="chapter" n="3" edRef="#Clichtove1506 #PLL #Baron1969"/><milestone unit="section" rend="paragraph" resp="#B"/><seg xml:id="DOD-9a">Accordingly, seven requests follow</seg> <seg xml:id="DOD-9b">against seven
+                    <lb/>vices</seg>, from which we pray him to come and help who
+                <lb/>also taught us to pray, and promised that he would give his good Spirit to those who pray,
+                <lb/>to heal our wounds and loosen the yoke
+                <lb/>of our captivity.
+                <lb/>But before we may come to the explanation of these,
+                <lb/>we first wish to demonstrate by yet another
+                <lb/>analogy how much disintegration the aforesaid vices produce in us,
+                <lb/>so it may be proven that however more dangerous the disease is, so much greater
+                <lb/>is the necessary medicine. <milestone unit="section" rend="paragraph"/><seg xml:id="DOD-10" next="#DOD-10b">Through pride
+                    <lb/>therefore the heart is caused to swell; through envy it dries up; through anger
+                    <lb/>it cracks; through sadness it is crushed, and reduced as if to
+                    <lb/>dust; through greed it is scattered;
+                    <lb/>through gluttony it is infected, as if it is moistened; through
+                    <lb/><milestone unit="column" n="408" edRef="#PL"/>lust it is trampled and reduced to mud;
+                    <lb/>so that the unhappy person can now say,</seg> <quote source="Bible.Vul:Ps.68.3"><seg xml:id="DOD-10b" prev="#DOD-10">I was stuck
+                        <lb/>in the deep mire, and there is no substance.</seg> I came into
+                    <lb/>the depths of the sea, and a tempest overwhelmed me.</quote>
+                <lb/>And when the soul has been stuck in this deep mire,
+                <lb/>and wrapped up in the mud of defilement and uncleanness,
+                <lb/>it can by no means be pulled out, unless it shouts to him
+                <lb/>and asks for his help, of whom the
+                <lb/>psalmist speaks, saying, <quote source="Bible.Vul:Ps.39.2–39.3">Waiting, I waited for
+                    <lb/>the Lord, and he listened to me. And <seg xml:id="DOD-11">he heard
+                        <lb/>my prayers and drew me out from a pit of wretchedness and from the miry mud</seg>.</quote> As a result of this, therefore,
+                <lb/>he <quote source="Bible.Vul:Luke.11.1">has taught us to to pray</quote>, so that our whole good
+                <lb/>may be from him, that we may also understand that what we ask and what
+                <lb/>we accept of his gifts when we seek them is not of our merit.
+                <lb/><milestone unit="section" rend="paragraph"/><seg xml:id="DOD-16">The first request, therefore, is against
+                    <lb/>pride, by which we say to God, <quote source="Bible.Vul:Matt.6.9 Bible.Vul:Luke.11.2">Hallowed be your name.</quote>
+                    <lb/>For we ask this so that he might allow us to fear
+                    <pb n="211v"/>
+                    <cb n="a"/>
+                    <lb/>his name and treat it as holy, so that we might be obedient to him through humility –
+                    <lb/>we who have stepped forth through pride, rebellious
+                    <lb/>and insubordinate.</seg> For this <seg xml:id="DOD-18">request the
+                    <lb/>spirit of the fear of the Lord is given, so that he, coming to the heart,
+                    <lb/>might create in it the virtue of humility, which
+                    <lb/>may heal the sickness of pride – so that the humble person can come to the kingdom of heaven,
+                    <lb/>which the arrogant angel lost through pride.</seg>
+                <lb/><milestone unit="section" rend="paragraph"/><seg xml:id="DOD-19">The second request is
+                    <lb/>against envy, by which it is said, <quote source="Bible.Vul:Matt.6.10">your kingdom come.</quote>
+                    <lb/>In fact, the kingdom of God is the salvation of mankind,
+                    <lb/>because God is said to reign in people at that moment
+                    <lb/>when people themselves are subject to God,
+                    <lb/>at first devoting themselves to him through faith, and after clinging to him
+                    <lb/>through sight. Who therefore asks that the kingdom of God might come
+                    <lb/>undoubtedly seeks the salvation of human beings. And through
+                    <lb/>this, while he asks for the common salvation of all,
+                    <lb/>he shows that he rejects the vice of envy.</seg>
+                <lb/>For this <seg xml:id="DOD-21">request the spirit of godliness is given, so that he, coming to the heart,
+                    <lb/>might kindle it to kindness, so that
+                    <lb/>that person himself might reach the same possession of the eternal inheritance
+                    <lb/>to which he desires others to reach.<!-- Cf. Matt. 5.4 --></seg> <milestone unit="section" rend="paragraph"/><seg xml:id="DOD-22">The third
+                    <lb/>request is against anger, by which it is said, <quote source="Bible.Vul:Matt.6.10">Your will be done,
+                        <lb/>on earth as in heaven.</quote> For he does not wish to dispute
+                    <lb/>who says, <quote source="Bible.Vul:Matt.6.10">Your will be done</quote>, but he proclaims that whatever the will of God should arrange pleases him,
+                    <lb/>whether in himself or in others, according to
+                    <lb/>the judgement of his graciousness.</seg> For this
+                <lb/><seg xml:id="DOD-24">request, therefore, the spirit of knowledge is given, that he,
+                    <lb/>coming to the heart, might instruct and
+                    <lb/>prick it in a manner beneficial to the soul,
+                    <lb/>that the person might know the evil which is allowed to come into being from
+                    <lb/>his fault; and if he has had some good, that it comes
+                    <lb/>from the mercy of God. Through this, the spirit teaches him not to become angry against the creator,
+                    <lb/>whatever he might endure in evil or lack in goods,
+                    <lb/>but to show his ability to tolerate adversity through everything.</seg>
+                <lb/>Anger and indignation of the heart, then, are best tamed through a prick of remorse in the heart,
+                <lb/>which, with the spirit of knowledge working, is produced within
+                <lb/>from humility;
+                <lb/>because on the other hand <seg xml:id="DOD-25"><quote source="Bible.Vul:Job.5.2">anger kills the foolish</quote>,
+                    <lb/>when in adversities, vexed and blinded through the intolerance of the vices,
+                    <lb/>he either does not recognize that he has deserved the evil
+                    <lb/>or that he accepted the good that he has
+                    <lb/>through grace. Yet the reward of consolation follows this
+                    <lb/>virtue, that is the prick of remorse or sorrow,
+                    <cb n="b"/>
+                    <lb/>so that whoever
+                    <lb/>voluntarily humbles himself here <supplied reason="explanation">on earth</supplied> before God through laments
+                    <lb/><milestone unit="column" n="409" edRef="#PL"/>may there <supplied reason="explanation">in heaven</supplied> deserve to find true joy and happiness.</seg>
+                <lb/><milestone unit="chapter" n="4" edRef="#Clichtove1506 #PL"/><milestone unit="section" rend="paragraph"/><add place="margin" hand="#B"><label>4</label></add><seg xml:id="DOD-26">The fourth request is against sadness, by which it is said,
+                    <lb/><quote source="Bible.Vul:Matt.6.11 Bible.Vul:Luke.11.3">Give us today our daily bread.</quote> For sadness
+                    <lb/>is weariness of the soul with grief, when
+                    <lb/>the mind does not desire inward goods, caused to become dispirited in a certain way, and made bitter by its vice;
+                    <lb/>and with all its liveliness
+                    <lb/>dead, it does not become happy at any desire of spiritual restoration.</seg>
+                <lb/>As a result of this, to heal this vice
+                <lb/>it is necessary for us
+                <lb/>to pray for the mercy of the Lord, so that
+                <lb/>he might, in his usual goodness, apply the nourishment of inward restoration
+                <lb/>to the feeble weariness of his soul,
+                <lb/>so that it might begin to love what it does not know to seek without it
+                <lb/>when it is reminded by the taste of what is available.
+                <lb/>Therefore for this <seg xml:id="DOD-28">request
+                    <lb/>the spirit of strength is given, that it may lift up the weary spirit,
+                    <lb/>in order that, when it has recovered that virtue of its former strength,
+                    <lb/>it might recover from the weakness of its weariness to the desire of inward
+                    <lb/>taste. The spirit of strength accordingly creates
+                    <lb/>in the heart a hunger for righteousness, so that while it is here <supplied reason="explanation">on earth</supplied> intensely kindled through the desire for devoutness,
+                    <lb/>it may pursue full abundance to that place <supplied reason="explanation">in heaven</supplied>
+                    <lb/>for the reward of blessedness.<!-- Cf. Matt. 5.6 --></seg>
+                <lb/><milestone unit="section" rend="paragraph"/><seg xml:id="DOD-29">The fifth request is against greed, by which it is said,
+                    <lb/><quote source="Bible.Vul:Matt.6.12">Forgive us our debts, as we also have forgiven our debtors.</quote>
+                    <lb/>For it is right that when a debt is to be paid back,
+                    <lb/>he should not be anxious who refused to be
+                    <lb/>greedy<!-- or 'bitter' for 'amarus' (Baron, SP) --> in demanding its payment. And for that reason, when the vice of greed is taken from us through the grace of God,
+                    <lb/>it is given in such a manner that<!-- or 'it is taught how' for 'docetur' (Baron) --> we should be absolved from our debt,
+                    <lb/>out of the proposed terms of salvation.</seg>
+                <lb/>For this <seg xml:id="DOD-31">request, therefore, the spirit of counsel is given,
+                    <lb/>who teaches us in this world to pay attention to our sins willingly, so that in
+                    <lb/>the future, when we deliver an account for our sins,
+                    <lb/>we will deserve to find mercy.</seg> <milestone unit="section" rend="paragraph"/><seg xml:id="DOD-32">The sixth request is
+                    <lb/>against gluttony, by which it is said, <quote source="Bible.Vul:Matt.6.13 Bible.Vul:Luke.11.4" xml:id="DQS-Matt6.13a" next="#DQS-Matt6.13b">Lead us not</quote>,
+                    <lb/>that is, do not allow us to be led, <quote xml:id="DQS-Matt6.13b" prev="#DQS-Matt6.13a">into temptation.</quote> This is the temptation
+                    <lb/>by which the pleasures of the flesh often strive
+                    <lb/>to pull us to excess through natural desire, and
+                    <lb/>secretly put pleasure under their control, while openly
+                    <lb/>speaking smoothly about their necessity to us.
+                    <lb/>Assuredly, we will then by no means be led into this
+                    <lb/>temptation
+                    <lb/>if we strive to pay attention to the assistance of nature, following the limit of necessity,
+                    <pb n="212r"/>
+                    <cb n="a"/>
+                    <lb/>so that we will always remember
+                    <lb/>to restrain the appetite from the pleasures of delight.</seg>
+                <lb/>And so that we may have the strength to fulfil this,
+                <lb/><seg xml:id="DOD-34">the spirit of understanding is given to us who ask for it, so that
+                    <lb/>the inward restoration of the word of God might restrain outward desire,
+                    <lb/>and that bodily need might neither
+                    <lb/>have the strength to crush the mind strengthened by spiritual food, nor
+                    <lb/>to overcome the desire of the flesh. For this reason indeed the Lord himself responded
+                    <lb/>to his tempter, while he was making a false hint about the refreshment of outward bread,
+                    <lb/>saying, <quote source="Bible.Vul:Matt.4.4">One does not live by bread alone,
+                        <lb/>but by every word that comes from the mouth of God</quote>, so that he might openly show
+                    <lb/>that when the mind is restored with that bread inwardly,
+                    <lb/>it does not particularly care
+                    <lb/>if the flesh should outwardly undergo hunger for a time.</seg> The spirit of understanding is therefore given against gluttony,
+                <lb/>but he, coming to the heart, <milestone unit="column" n="410" edRef="#PL"/>cleans it thoroughly
+                <lb/>and frees it from moral corruption, and makes the mind’s eye bright and clear,
+                <lb/>healing it by the recognition of the word of God, as if with an eye-salve, that it might be made sharp-sighted for considering even the very brightness of the divine nature.
+                <lb/>Against the vice of gluttony,
+                <lb/>therefore, the cure of the spirit of understanding is placed.
+                <lb/><seg xml:id="DOD-35">From the spirit of understanding, however, cleanness of the heart is born.</seg> <seg xml:id="DOD-36">For cleanness of heart, moreover,
+                    <lb/>the vision of God is promised. As it is written, <quote source="Bible.Vul:Matt.5.8">Blessed are the
+                        <lb/>clean in heart, for they will see God.</quote></seg> <milestone unit="section" rend="paragraph"/><seg xml:id="DOD-37">The seventh petition is against
+                    <lb/>lust, by which it is said, <quote source="Bible.Vul:Matt.6.13">Deliver us from evil.</quote></seg>
+                <lb/>The slave appropriately asks for freedom, and for that reason <seg xml:id="DOD-39">the spirit of wisdom is given for this request, which restores the lost freedom to the prisoner, and through grace he escapes the yoke of sinful
+                    <lb/>coercion, which he did not have the strength to accomplish by his own means.
+                    <lb/><mentioned>Wisdom</mentioned> (<foreign xml:lang="la">sapientia</foreign>), indeed, is so called from
+                    <lb/><mentioned>taste</mentioned> (<foreign xml:lang="la">sapor</foreign>), since the mind, touched by the flavour of inward sweetness,
+                    <lb/>gathers its whole self within through desire,
+                    <lb/>and it is never weakly loosened externally in the pleasure of the flesh,
+                    <lb/>because it holds everything within in which it delights.
+                    <lb/>Sweetness within, therefore, is fittingly placed against external pleasure,
+                    <lb/>so that however much
+                    <lb/>more it may have begun to taste and be pleased, so much more freely and
+                    <lb/>willingly may this be despised, and the mind, finally made peaceful in itself
+                    <lb/>as long as there is nothing it may desire externally,
+                    <lb/>rests within, complete, through love.</seg> <seg xml:id="DOD-40">Therefore the spirit
+                    <cb n="b"/>
+                    <lb/>of wisdom, touching the heart with its sweetness, both
+                    <lb/>regulates the flame of external desire, and creates inward peace when it numbs lust,
+                    <lb/>so that while
+                    <lb/>the mind is entirely gathered to inward joy,
+                    <lb/>a person may fully and completely be restored to the image of God,
+                    <lb/>as it is written, <quote source="Bible.Vul:Matt.5.9">Blessed are the peacemakers, for they shall be called
+                        <lb/>sons of God.</quote></seg> <milestone unit="section" rend="paragraph"/>Behold, brother, I have completed your request not in such a manner as I should have,
+                <lb/>but as I have been able in the meantime.
+                <lb/>Take the small gift on the five sevens that
+                <lb/>you asked for, and when you look on it, remember
+                <lb/>me. May the grace of God be with you. Amen.
+            </p>
+        </body>
+    </text>
+</TEI>

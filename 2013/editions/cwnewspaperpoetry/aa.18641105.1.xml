@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18641105.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">"My Maryland&#8211;My Maryland!"</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18641105.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jhh">James H. Hill</author>
+                        <title level="a">"My Maryland&#8212;My Maryland!"</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-11-05">5 November 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jhh">Hill, James H.</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Antislavery movements--United States--History--19th century</term>
+                    <term>Citizenship--United States--History--19th century</term>
+                    <term>Maryland. Constitution (1864)</term>
+                    <term>Maryland. Constitutional Convention (1864)</term>
+                    <term>Maryland--1860-1870</term>                
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-06-15" who="#el">checked transcription; encoded</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18641105.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18641105.pp1_cropped.jpg"/>
+            </zone>   
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18641105.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18641105.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18641105.pp4.jpg"/>         
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>
+            <lg type="poem">
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>
+                
+                <head type="main" subtype="authorial" rend="center">"MY MARYLAND&#8212;MY MARYLAND!"<note type="editorial" resp="#bw #el">Internally divided slave state Maryland remained in the Union throughout the Civil War. James R. Randall (1839&#8211;1908) wrote "My Maryland" in April 1861, after Confederate sympathizers fired on Union troops passing through Baltimore. The attack raised Randall's hopes that his native state would join the Confederacy (Irwin Silber, ed., <title level="m">Songs of the Civil War</title>, [New York: Dover Publications, 1995], 55). He was at that time teaching in Louisiana; the <title level="j">New Orleans Delta</title> published his poem on April 26, 1861. The piece was widely reprinted, and its words were soon set to music. There were also many Union responses to the poem, including James H. Hill's adaptation, which modifies the song's refrain to celebrate the state's abolition of slavery on November 1, 1864.</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY JAMES H. HILL.<note type="editorial" resp="#bw #el">Probably the same James H. Hill who presided over the editorial board of the <title level="j">True Communicator</title>, a Baltimore weekly launched in the fall of 1865 (<title level="j">Christian Recorder</title>, October 7, 1865). Hill is listed as a "colored" teacher in Baltimore's E. M. Cross and Company city directory for 1863&#8211;64. Whether or not Hill was a native Marylander, he staked a pointed (counter) claim to the state when he revised  Randall's famous lyrics; Hill declares that the state belongs to slavery's opponents, not its defenders.</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Fling</emph> out your banners to the breeze,</l>
+                    <l>Let anthems float among the trees;</l>
+                    <l>Sing hallelujahs loud and grand,</l>
+                    <l>For Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Thou'rt come at last, but not too late,</l>
+                    <l>To be the freeman's noble State;<note type="editorial" resp="#bw #el">Maryland became a free state on November 1, 1864, after a small majority of citizens voted to ratify a new state constitution that provided for the immediate abolition of slavery.</note></l>
+                    <l>In foremost rank now take thy stand,</l>
+                    <l>My Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>In vain the foes their skill did try,</l>
+                    <l>A free Constitution to deny;<note type="editorial" resp="#bw #el"><p>Between April and September 1864, convention delegates developed a new Constitution for Maryland that abolished slavery and addressed a host of other sectional and class issues. Copies of the final draft were circulated throughout the state in September 1864, prior to the October election that would decide the fate of the constitution. Soldiers' votes decided the election in favor of the constitution's ratification (Democrats having failed to get these out-of-state votes thrown out). Even so, the constitution passed by a narrow margin of only 375 votes (William Starr Myers, <title level="m">The Maryland Constitution of 1864</title> [Baltimore: John Hopkins Press, 1901], 97).</p><p>The "foes" in the first line of the stanza probably refers to both the minority of "Conditional Union" men who opposed emancipation during the state Constitutional Convention, and the larger number of conservative citizens who rejected the new Constitution at the polls in October 1863.</p></note></l>
+                    <l>But freed by the Almighty hand,</l>
+                    <l>Is Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Some took the "oath"<note type="editorial" resp="#bw #el"><p>The Constitution barred anyone who had offered any kind of support to "the so-called 'Confederate States of America'" from voting in "any election to be held in this State" or holding "any office of honor, profit or trust under the laws of this State" (article 1, section 4, <title level="m">The Constitution of the State of Maryland. Reported and Adopted by the Convention of Delegates Assembled at the City of Annapolis, April 27th, 1864, and Submitted to and Ratified by the People on the 12th and 13th Days of October, 1864</title> [Baltimore: Murphy, 1864], 22). In order to vote, white male citizens would have to pledge their loyalty with an oath: <floatingText><body><p>"I do swear or affirm that I am a citizen of the United States, that I have never given any aid, countenance or support to those in armed hostility to the United States, that I have never expressed a desire for the triumph of said enemies over the arms of the United States, and that I will bear true faith and allegiance to the United States and support the Constitution and laws thereof as the supreme law of the land, any law or ordinance of any State to the contrary notwithstanding; that I will in all respects demean myself as a loyal citizen of the United States, and I make this oath or affirmation without any reservation or evasion, and believe it to be binding on me" (23).</p></body></floatingText></p> <p>To the horror of Maryland's Democrats (and the Convention minority), the Constitution applied this regulation to the election of October 12&#8211;13. Hill intimates that slavery's defenders took the loyalty oath in order to vote down emancipation.</p></note> that they might vote</l>
+                    <l>Thee deeper into slavery's moat;</l>
+                    <l>Whilst others went in heart and hand,</l>
+                    <l>For Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The auction-block and burning lash,</l>
+                    <l>The master's curses, loud and rash,</l>
+                    <l>Shall never more pollute the land</l>
+                    <l>Of Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The slave in thee no more shall hear</l>
+                    <l>The cry of wife and children dear,</l>
+                    <l>When forced apart by slavery's hand</l>
+                    <l>In Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Except for crime, no more in thee</l>
+                    <l>Shall man be sold;<note type="editorial" resp="#bw #el">The twenty-fourth article in the new constitution's Declaration of Rights declared that "hereafter, in this State, there shall be neither slavery nor involuntary servitude, except in punishment of crime, whereof the party shall have been duly convicted; and all persons held to service or labor as slaves, are hereby declared free" (<title level="m">The Constitution of the State of Maryland. Reported and Adopted by the Convention of Delegates Assembled at the City of Annapolis, April 27th, 1864, and Submitted to and Ratified by the People on the 12th and 13th Days of October, 1864</title> [Baltimore: Murphy, 1864], 16).</note> for all are free;</l>
+                    <l>And for their labor pay demand,</l>
+                    <l>In Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Oh day of freedom! glorious hour!</l>
+                    <l>No more have "<emph rend="italic">Slavocrats</emph>"<note type="editorial" resp="#bw #el">Members of the antebellum "slavocracy," a politically powerful class or collective of slaveholders and their allies. Bartlett's 1859 <title level="m">Dictionary of Americanisms</title> defines "slaveocrat" simply as "a slaveholder" (John Russell Bartlett, <title level="m">Dictionary of Americanisms: A Glossary of Words and Phrases Usually Regarded as Peculiar to the United States</title> [Boston: Little, Brown and Company, 1859], 413).</note> the power</l>
+                    <l>To bid thee bow at their command,</l>
+                    <l>Fair Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Thy sister Free States, welcome thee,</l>
+                    <l>Rejoicing that thou too art free;</l>
+                    <l>They give to thee a true right hand,</l>
+                    <l>My Maryland!&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Thy sable sons in fields of blood,</l>
+                    <l>Undaunted by the crimson flood,</l>
+                    <l>Before the boasting traitors stand,</l>
+                    <l>For Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Free as the lark upon the wing,</l>
+                    <l>Shall Afric's children in thee sing;</l>
+                    <l>And thou shalt hear our voices blend,</l>
+                    <l>Fair Maryland&#8212;My Maryland!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>May benedictions from above,</l>
+                    <l>Descend in plenty, peace, and love,</l>
+                    <l>"<emph rend="italic">Rest and abide</emph>"<note type="editorial" resp="#bw #el">Possibly a reference to John Bunyan's autobiography, <title level="m">Grace Abounding to the Chief Sinners</title> (1666), in which Bunyan writes, "Only this, as I said before, I will say unto you again, that in general, He was pleased to take this course with me; first, to suffer me to be afflicted with temptations concerning them, and then reveal them unto me; as sometimes I should lie under great guilt for sin, even crushed to the ground therewith; and then the Lord would show me the death of Christ; yea, so sprinkle my conscience with His blood, that I should find, and that before I was aware, that in that conscience, where but just now did reign and rage the law, even there would <emph rend="italics">rest and abide</emph> the peace and love of God, through Christ" (emphasis added; see John Bunyan, <title level="m">Grace Abounding to the Chief of Sinners</title> [Philadelphia: Leary and Getz, 1849] 46).</note> <emph rend="italic">on all the land</emph></l>
+                    <l>Of Maryland&#8212;My Maryland!</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+

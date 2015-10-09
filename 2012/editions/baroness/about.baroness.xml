@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">The Firstling/Erstling/He Complex</title>
+                <title level="m" type="sub">About the Project</title>
+                <author xml:id="tc">Tanya Clement</author>
+<author xml:id="gd">Gaby Divay</author>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">about.baroness</idno>
+                <idno type="edition">baroness</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="aag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-02-09" who="#awj">markup in TEI XML</change>
+            <change when="2011" who="#tc">Intiatial Creation in HTML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front><head type="main">The Firstling/Erstling/He Complex</head>
+            <head type="sub">About the Project</head>
+            <byline>Tanya Clement</byline>
+            <byline>Gaby Divay</byline></front>
+        <body>
+             
+            
+            <div><head type="main">Source Information</head>
+            <p> 
+                The encoded <ref type="xml" target="./versions/firstling">XML document</ref> is derived from manuscripts in the <ref type="url" target="http://hdl.handle.net/1903.1/1501">Papers of Elsa von Freytag-Loringhoven</ref>, Special Collections, University of Maryland, College Park, Libraries. Draft clusters of this poetic event may be found on microfilm and in three folders in the Elsa von Freytag-Loringhoven papers archived within Special Collections at the University of Maryland, College Park. </p>
+            
+            <p>Baroness Elsa von Freytag-Loringhoven's poetry is printed here with the support of the University of Maryland Libraries. Permission to reproduce images of Freytag-Loringhoven's manuscripts has also been generously granted by the libraries.</p>
+            
+            <p>Each version is numbered according to the order in which it appears in the folders in special collections.</p>
+            <list type="simple">
+                <item>Firstling (Erstling, He): circa 1923-1924; Reel 4, Frames 54-65; series 3, box 2, folder 3</item>
+                <item>Liebe; Sonnsang: undated; Reel 4, Frame 472; series 3, box 2, folder 67</item>
+                <item>Lilac Old (Alter Flieder); He; Pfingsten: undated; Reel 4, Frames 479 and 481; series 3, box 2, folder 68</item>
+                <item>Pfingst (Fanfare, Pfingstjubel, Pfingsten; Erstling; Ritter in Gold Verzieter R&#252;stung): circa 1923-1924; Reel 5, Frame 244-246, series 3, box 3, folder 23</item>
+                
+            </list>
+            <p>For more information, please see the Finding Aid at <ref type="url" target="http://hdl.handle.net/1903.1/1501">http://hdl.handle.net/1903.1/1501</ref>.</p> 
+            
+            </div>
+           <div> <head type="main">Encoding Principles</head>
+            
+            <p>The DTD (Documente Type Definition) used in this project was created from the TEI P5 poetry base with tagsets for linking, figures, analysis, transcr, textcrit.</p>
+            </div>
+            <div><head type="main">The Interface</head>
+            <p>
+                The <ref type="url" target="http://v-machine.org">Versioning Machine</ref> (VM) interface used for this edition is based on version 4.0. The VM publishing and analysis platform has been updated to include two styling packages containing XSLT, CSS and JavaScript scripts, which leverage the scholar's underlying TEI P5 encoding to transform the texts into an HTML interface. By using both location-referenced and parallel segmentation methods described in the TEI P5 critical apparatus tag set, scholars can use the new VM to show alternative choices within a document and describe both line-by-line comparisons (with parallel segmentation) alongside comparisons of "chunks" of text (with location-referenced encoding) that cross over line boundaries and break traditional hierarchical encoding structures. By using the VM, scholars are creating pop-up notes and links between lines and chunks of texts, which colleagues, students, and other interested users can click to access the scholar's underlying encoded and annotated relationships.
+                
+            </p>
+          </div>  
+           <div> <head type="main">Availability</head>
+            <p> These poems and manuscript drafts are available from this site for demonstration purposes only. Though the intellectual property of Elsa von Freytag-Loringhoven is in the public domain, all annotations and editorial commentary are copyrighted. They may not be reproduced without explicit permission from the copyright holder. For copyright information, please contact Tanya Clement or Gaby Divay.</p>
+            </div>
+            
+           <div> <head type="main">Editors</head>
+            
+            <p>  <hi rend="bold">Tanya Clement</hi> is an Assistant Professor in the School of Information at the University of Texas at Austin. She has a PhD in English Literature and Language and an MFA in fiction. Her primary area of research is scholarly information infrastructure. She has published pieces on digital humanities and digital literacies in several books and on digital scholarly editing, text mining and modernist literature in the <hi rend="italic">Journal of the Text Encoding Initiative</hi>, <hi rend="italic">Literary and Linguistic Computing</hi>, and <hi rend="italic">Texas Studies in Literature and Language</hi>. She is a co-director of the Modernist Versioning Project, the Associate Editor of the <ref type="url" target="http://v-machine.org">the Versioning Machine</ref>, and the editor of <ref type="url" target="http://www.lib.umd.edu/digital/transition/">In Transition: Selected Poems by the Baroness Elsa von Freytag-Loringhoven</ref> at http://www.lib.umd.edu/digital/transition/. </p>
+            
+            
+            <p>
+                <hi rend="bold"> Gaby Divay</hi> is an Academic Librarian in <ref type="url" target="http://www.umanitoba.ca/libraries/units/archives/collections/fpg/">Archives &amp; Special Collections, University of Manitoba (UM)</ref>. She holds a Ph.D. in Renaissance Studies from L'Universit&#233; Laval, Qu&#233;bec, an M.L.S. from McGill University, Montreal, and a post-doctoral M.A. in German Studies from the UM. She has published articles and edited e-texts pertaining to Frederick Philip Grove/Felix Paul Greve (FPG) and Elsa von Freytag-Loringhoven, including FPG's published autobiographies (<ref type="url" target=" http://www.umanitoba.ca/libraries/units/archives/collections/fpg/etexts/Search-America2005/index.html">1927</ref> &amp; <ref type="url" target=" http://www.umanitoba.ca/libraries/units/archives/collections/fpg/etexts/Search-Myself/index.html">1946</ref>), his <ref type="url" target="http://www.umanitoba.ca/libraries/units/archives/collections/fpg/pEd/">complete</ref> poetry, the couple's 1904/5 <ref type="url" target="http://home.cc.umanitoba.ca/~divay/FEPoems05/index.html#toc">'Fanny Essler' poems</ref>, and key-documents like Gide's 1904 "<ref type="url" target="http://www.umanitoba.ca/libraries/units/archives/collections/fpg/gide_conv/index.html">Conversation avec un allemand</ref>." She is also Web-Editor of the Linguistic Circle of Manitoba and North Dakota (<ref type="url" target="http://www.umanitoba.ca/outreach/lcmnd/">LCMND</ref>) and its <ref type="url" target="http://www.umanitoba.ca/outreach/lcmnd/e_journal/"> e-Journal</ref>).</p> 
+            </div>
+           <div> <head type="main">Contacts</head>
+            
+            
+            
+          <p>  For questions regarding the content of this site or about Freytag-Loringhoven's papers in general, please consult the Guide to the <ref type="url" target="http://hdl.handle.net/1903.1/1501">Papers of Elsa von Freytag-Loringhoven</ref>.
+            
+            To report any bugs regarding the operation of the site or to comment on the site, please contact:
+            Tanya Clement
+            (tanyaclement[at]gmail[dot]com). For comments about the context of the Baroness's German poetry or any of the German translations, please contact: Gaby Divay (Gaby_Divay[at]umanitoba[dot]ca). All other inquiries can go to either editor.</p>
+           </div> 
+            
+            
+        </body>
+   
+
+
+    </text>
+</TEI>

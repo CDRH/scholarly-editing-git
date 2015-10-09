@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Alex Haley's Malcolm X: "The Malcolm X I Knew" and
+                    Notecards from <emph>The Autobiography of Malcolm X</emph></title>
+                <author>Amy E. Earhart</author>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="wr">Amy E. Earhart et al.</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">intro.haley</idno>
+                <idno type="edition">haley</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2014</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">35</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-07-26" who="#awj">Altered the encoding to match practices in the
+                following ways: 1. added @type='main' to head 2. put author's name in byline 3.
+                replaced "smart quotes" with straight quotes 4. made encoding match practices for
+                footnotes and footnote pointers 5. Added ISSN number to header and altered vol
+                number and year 6. added ref tags and URLs to referenced web sites 7. added new
+                idnos in publicationStmt </change>
+            <change when="2012-10-30" who="aee">Altered introduction text in response to editors'
+                suggestions.</change>
+            <change when="2012-10-30" who="aee">Revision of text in response to peer
+                review.</change>
+            <change when="2013-08-20" who="aee">Revision of text in response to peer
+                review.</change>
+            <change when="2013-10-20" who="aee">Final revision of text.</change>
+            <change when="2014-01-20" who="aee">corrected dates of saga, added additional
+                information regarding men's magazines</change>
+            <change when="2014-02-25" who="aee">Copyediting corrections made</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Alex Haley's "The Malcolm X I Knew" and Notecards from <emph>The
+                    Autobiography of Malcolm X</emph>
+            </head>
+            <byline>Amy E. Earhart </byline>
+        </front>
+        <body>
+            <div>
+
+                <p> As a subject specialist in African American literature and a digital humanist, I
+                    am dismayed by the dearth of scholarly edited, digitized contemporary African
+                    American literary texts. Even extremely visible figures are not well represented
+                    by digital scholarly materials, a fact not fully excused by the difficulties of
+                    digitizing post-1923 authors due to copyright restrictions. For example, Alex
+                    Haley, who brought African American history to the larger American public
+                    through <emph>Roots,</emph> has no scholarly digital site dedicated to his work,
+                    with his main digital representation resting with the Kunta Kinte-Alex Haley
+                    Foundation website, which focuses on African American genealogy, and the Alex
+                    Haley Tribute Site, a fan site that compiles portions of Haley's works.<ptr
+                        target="#note1" xml:id="nr1" n="1"/> Of course, Haley's case might be
+                    exacerbated due to accusations of plagiarism leveled against <emph>Roots;</emph>
+                    both Margaret Walker and Harold Courlander brought lawsuits against Haley
+                    claiming that he had plagiarized their work. Courlander's 1978 suit was
+                    successful and proved that eighty-one passages from <emph>Roots</emph> were
+                    copied from Courlander's 1967 book, <emph>The African,</emph> which
+                    subsequently led to decreased scholarly interest in Haley.<ptr target="#note2"
+                        xml:id="nr2" n="2"/> Malcolm X's work is also largely undocumented, though
+                    notable exceptions include Abdul Alkalimat's <ref type="url"
+                        target="http://www.brothermalcolm.net/"><emph>Malcolm</emph></ref> website,
+                    the most comprehensive digital scholarly resource to date. Online since 1999,
+                    the site provides videos, timeline, selected texts, and a comprehensive
+                        bibliography.<ptr target="#note3" xml:id="nr3" n="3"/> Additional materials
+                    related to Malcolm X appeared online when Manning Marable began to write
+                        <emph>Malcolm X: A Life of Reinvention</emph> and launched a support
+                    website. Now titled <ref type="url"
+                        target="http://www.columbia.edu/cu/ccbh/mxp/"><emph>The Malcolm X Project at
+                            Columbia University,</emph></ref> the site shares a varied group of
+                    historical and contemporary materials. The site developers also plan to launch a
+                    multimedia edition of <emph>The Autobiography of Malcolm X</emph>, a much needed
+                    project. </p>
+                <p>Because Haley and Malcolm X are critical figures in twentieth-century literature
+                    and history, scholars should be invested in the digitization of their primary
+                    texts. This edition represents my attempt to intervene in the African American
+                    digital canon and to provide a broader set of open-source, scholarly edited,
+                    primary materials than previously available. Focused on Haley's Malcolm X work,
+                    this set of materials includes an unexamined essay that Haley published shortly
+                    after X's death, titled "The Malcolm X I Knew," and notes, forty-one handwritten
+                    and thirty-two typed, that were compiled by Haley as he wrote <emph>The
+                        Autobiography.</emph> The University of Tennessee, Knoxville, houses the
+                    primary repositories of Haley work related to <emph>The Autobiography:</emph>
+                    the Alex Haley Papers and the Anne Romaine Papers. Anne Romaine was appointed by
+                    Haley to be his biographer, and her papers include substantial information that
+                    documents the interaction between X and Haley according to Manning Marable, who
+                    used the Romaine Papers extensively for his recent biography of Malcolm X.<ptr
+                        target="#note4" xml:id="nr4" n="4"/> While the Romaine Papers offer some
+                    insight into Haley's work and are accessible to scholars, the Haley Papers held
+                    at the University of Tennessee are notoriously difficult to access, requiring
+                    researchers to gain permission from the trustee governing Haley's work for each
+                    item of interest. Therefore, the open access release of even some of the
+                    materials that Haley used while writing his important work on X, such as the
+                    attached notes, adds substantially to scholarly knowledge.</p>
+            </div>
+            <div>
+                <head type="main">Manuscript and Publication Information</head>
+                <p>The typed manuscript of the essay and the handwritten and typed notecards from
+                    which these materials are transcribed are housed in the Alex Haley Papers held
+                    by Cushing Library, Special Collections, at Texas A&amp;M University. During the
+                    year and a half of interviews conducted by Haley to gain information for the
+                    book, both Haley and Malcolm X would jot down notes on scrap paper, Haley in
+                    green ink and X in red.<ptr target="#note5" xml:id="nr5" n="5"/> Haley collected
+                    the scribbles, transcribed them into typed and written notes, and eventually
+                    pieced together the notes to write <emph>The Autobiography of Malcolm X</emph>,
+                    published in November 1965, nine months after X's death. A portion of Haley's
+                    typed and handwritten notes are included in this edition. From the contents
+                    listed on this set of notecards, and the telltale green ink, it appears that the
+                    notes were written by Haley during interviews conducted during the last six to
+                    twelve months of X's life. The related essay that is included was originally
+                    published by <emph>Saga</emph> magazine in November 1965, the same month
+                        <emph>The Autobiography</emph> was published. <emph>Saga</emph> was a pulp
+                    men's magazine published by New York's Gambi Publications from 1950 until 1981,
+                    and in 1963 it had a circulation of 280,647. A men's adventure magazine similar
+                    to other pulps of the same period, including <emph>Adventure</emph>,
+                        <emph>Real</emph>, and <emph>True</emph>, <emph>Saga</emph> focused on lurid
+                    tales of sex and adventure targeted at working-class men. For example,
+                        <emph>Saga</emph>'s submission call in the July 1964 <emph>Writer's
+                        Digest</emph> described the magazine as "principally interested in
+                    strong-action picture-stories on non-war adventure themes; man against nature,
+                    man against beast, man against man. We try to stress the 'man triumphant' idea
+                    whenever possible."<ptr target="#note6" xml:id="nr6" n="6"/> Articles such as
+                    "Confessions of an Auto Spy," "How Sex Can Take You to the Top," and "Love Among
+                    the Beach Boys" are contained in the same volume as Haley's essay along with
+                    drawings of scantily clad women and ads promising to remedy baldness. The larger
+                    pulp fiction context in which <emph>Saga</emph> resides is a rich area of study
+                    but beyond the purview of this essay. There is no indication that scholars are
+                    aware of the essay or the small holding of notecards at Texas A&amp;M
+                    University, as even Manning's carefully researched recent biography,
+                        <emph>Malcolm X: A Life of Reinvention,</emph> does not reference these
+                    materials. It is not clear when Haley contracted with <emph>Saga</emph> to
+                    publish the essay "The Malcolm X I Knew," but we do know that Haley was in
+                    severe financial distress prior to the publication of <emph>The
+                        Autobiography</emph> and was looking to quickly publish materials to
+                    increase his cash flow.<ptr target="#note7" xml:id="nr7" n="7"/> According to
+                    Marable, Haley was slow to produce a finished draft of <emph>The
+                        Autobiography</emph> and failed to meet his publisher's deadline of the 1964
+                    presidential election. X's break from the Nation of Islam further delayed
+                    completion of the volume.<ptr target="#note8" xml:id="nr8" n="8"/> In constant
+                    contact with Doubleday, Haley reassured the publisher that the book would not
+                    only be complete but would sell. Marable believes that Doubleday, careful to
+                    protect their financial investment in the book, was heavily involved with
+                    Haley's decision to remove certain controversial statements from the text.
+                    Lawyers for Doubleday vetted the materials that Haley submitted, striking and
+                    reworking sections deemed problematic, concerned about the potential for libel
+                        lawsuits.<ptr target="#note9" xml:id="nr9" n="9"/> Regardless of Haley's
+                    attempts to shape the text in a way that Doubleday would approve, the publisher
+                    dropped the contract after Malcolm X's death. As David Remnick notes, "The
+                    publisher, Nelson Doubleday, fearing for the lives of his staff, cancelled his
+                    deal with Haley," leaving Haley in an even more precarious financial
+                        situation.<ptr target="#note10" xml:id="nr10" n="10"/> During this same
+                    period Haley mined the text for the <emph>Saturday Evening Post</emph> story on
+                    Malcolm X entitled "I'm Talking to You White Man." Given his <emph>Post</emph>
+                    story and his financial distress, it wouldn't be surprising if Haley mined the
+                    volume for another one-off publication in <emph>Saga,</emph> a publication that
+                    suggests a quick turnaround as the quality of editing in the magazine is poor,
+                    with misspellings of Malcolm X's name common ("Malcom"). The published version
+                    in <emph>Saga</emph> is dissimilar to the longer manuscript reproduced in this
+                    edition. The final print version of the essay has been heavily cut and is about
+                    half the size of the original, with the first seven pages of the manuscript
+                    almost entirely missing from the published version. Some stories are included in
+                    both documents, including X's boxing match and the encounter with a train
+                    porter. Left out of the final document are the more controversial Malcolm X
+                    statements, including his take on education, Jews, and race, surprising given
+                        <emph>Saga</emph>'s propensity to use the lurid to spur sales. What is of
+                    question, though, is why Haley dropped the controversial segments. One would
+                    hope to find records of such discussions with the editor of <emph>Saga</emph>,
+                    Al Silverman. However, the Silverman Archive, housed at the New York Public
+                    Library, has revealed no correspondence between Haley and Silverman. While I
+                    have not been able to reproduce the published version of the <emph>Saga</emph>
+                    text due to copyright restrictions, the manuscript version should provide new
+                    information for scholars interested in Malcolm X and Haley's impact on his
+                    legacy. </p>
+                <figure>
+                    <head>Cover of November 1965 <emph>Saga</emph> magazine.</head>
+                    <figDesc>Cover of November 1965 Saga magazine.</figDesc>
+                    <graphic url="haley/images/intro.haley.01.jpg"/>
+                </figure>
+
+            </div>
+            <div>
+                <head type="main">Malcolm X and Alex Haley</head>
+                <p>It is my hope that the materials here published will prove useful to the
+                    interpretation of the complicated relationship between Haley and Malcolm X.
+                    Critics from Arnold Rampersad to William Andrews have questioned Haley's
+                    political agenda and the shaping of X's representation in <emph>The
+                        Autobiography</emph>.<ptr target="#note11" xml:id="nr11" n="11"/> Marable
+                    has cautioned that <emph>The Autobiography</emph> was "more Haley's than its
+                    author's: because Malcolm died in February 1965, he had no opportunity to revise
+                    major elements of what would become known as his political testament." As a
+                    "liberal Republican, Haley held the Nation of Islam's racial separatism and
+                    religious extremism in contempt, but he was fascinated by the tortured tale of
+                    Malcolm's personal life."<ptr target="#note12" xml:id="nr12" n="12"/> Haley was
+                    not alone in attempting to control the representation of X. Malcolm X himself
+                    was invested in reinvention. He "continuously and astutely refashioned his
+                    outward image, artfully redesigning his public style and even language, to
+                    facilitate overtures to different people in varied contexts."<ptr
+                        target="#note13" xml:id="nr13" n="13"/>
+                </p>
+
+                <p>Alex Haley first met Malcolm X when he was interviewing him for a March 1960
+                        <emph>Reader's Digest</emph> article, "Mr. Muhammad Speaks." The first
+                    meeting of the two men would presage the gulf in understanding that would define
+                    their relationship. Haley reported that when he initially met Malcolm X, X
+                    noted, "You're another one of the white man's tools sent to spy!"<ptr
+                        target="#note14" xml:id="nr14" n="14"/> Haley, recently retired after twenty
+                    years in the U.S. Coast Guard, was an aspiring writer. X was the increasingly
+                    popular and visible New York minister of the Lost-Found Nation of Islam, a black
+                    militant pseudo-Islamic religious group. The two men could not have held more
+                    divergent political views. Regardless, Haley continued to focus on X in articles
+                    published in the <emph>Saturday Evening Post</emph> and <emph>Playboy</emph>,
+                    eventually approaching Malcolm X about a coauthored autobiography. With Nation
+                    of Islam leader Elijah Muhammad's permission, X met with Haley for multiple
+                    interviews, developing a working relationship that lasted until X's death. In
+                    addition to <emph>The Autobiography</emph>, Haley would publish several essays
+                    on Malcolm X over the course of his literary career, including "The Malcolm X I
+                    Knew" and a 1983 <emph>Essence</emph> magazine article titled "Alex Haley
+                    Remembers Malcolm." Haley's interest in X seems to have been as a promising
+                    research subject that would generate popular interest and, by extension,
+                    publishing contracts for Haley. From X's critique of the pacifist Civil Rights
+                    Movement to his infamous "chickens coming home to roost" comment after John F.
+                    Kennedy's assassination, Malcolm X proved a visible, controversial, and popular
+                    subject. Regardless of the way in which their relationship began, they would
+                    share much during the two years that they worked together. In part, their
+                    relationship seems to be spurred by X's difficult break from the Nation of Islam
+                    in 1964 and subsequent encounter with Islam during his Hajj, his life-changing
+                    pilgrimage to Mecca. Even if the two men didn't see eye to eye, Malcolm X shared
+                    his experiences with Haley during this crucial period, sending postcards and
+                    letters to Haley when X was on his trip to Mecca. In fact, almost every night of
+                    X's trip abroad, Betty Shabazz, X's wife, would call Alex Haley to learn of her
+                    husband's travels.<ptr target="#note15" xml:id="nr15" n="15"/> While Haley would
+                    call Malcolm X a friend in the essay here published, it is not clear if X ever
+                    felt the same about Haley. The best indication we have of his feelings toward
+                    Haley is a late-night call when X declared that he trusted Haley 70 percent.<ptr
+                        target="#note16" xml:id="nr16" n="16"/> The essay and notes provide
+                    additional textual evidence that should aid scholars in their examination of the
+                    complicated relationship between the men.</p>
+            </div>
+
+            <div>
+                <head type="main">Interpretive Gaps</head>
+
+                <p>Ever in debate with <emph>The Autobiography</emph> is the control that Haley
+                    asserted on the narrative. For example, Garrett A. Felber argues that much of
+                    the final shape of the book is contrary to Malcolm X's wishes, particularly the
+                    introduction and epilogue.<ptr target="#note17" xml:id="nr17" n="17"/> William
+                    Andrews's "Editing 'Minority' Texts" reveals a complicated evolution of the
+                    text, noting that the "epilogue more than hinted at interesting tensions, and
+                    perhaps even pivotal struggles for control of the text, between the writer and
+                    the subject of Malcolm's memoir."<ptr target="#note18" xml:id="nr18" n="18"/>
+                    Andrews goes on to situate the "as told to" approach of <emph>The
+                        Autobiography</emph> within the context of "a well-established tradition in
+                    African American autobiography."<ptr target="#note19" xml:id="nr19" n="19"/>
+                    Other scholars including Manning Marable and John Edgar Wideman are very
+                    critical of Haley's role in the text creation, viewing the final document as
+                    presenting a sanitized version of X's radicalism. The notes provide valuable
+                    clues to the construction of <emph>The Autobiography</emph>, crucially important
+                    because we now know that three chapters penned by Malcolm X titled "The Negro,"
+                    "The End of Christianity," and "Twenty Million Black Muslims" were removed prior
+                    to publication. Selections of the missing materials have been read in public and
+                    portions of the manuscripts have been briefly viewed by a handful of scholars,
+                    but no scholar has read the chapters in their entirety. It is unclear if the
+                    chapters will ever be released due to copyright and ownership issues. One of the
+                    great mysteries of the missing chapters is X's political agenda post-Mecca.
+                    Marable notes: "It seemed rather odd that there's only a fleeting reference to
+                    the OAAU (The Organization of Afro-American Unity) inside of the book that's
+                    supposed to be his political testament. And I wondered about this. And it seemed
+                    like something was missing. Well, as a matter of fact, there is: three chapters.
+                    And those three chapters really represent a kind of political testament that are
+                    outlined by Malcolm X."<ptr target="#note20" xml:id="nr20" n="20"/> Yet the OAAU
+                    is not absent from the notes that Haley took during his interviews. Other notes
+                    are equally revealing. While there is only one documented case of Malcolm X
+                    supporting labor unions&#8212;a 1962 hospital worker strike&#8212;one note indicates that X
+                    thought unions had the potential to create change. Note 54 records that Malcolm
+                    X thought that if Martin Luther King "could have had the attitude of the labor
+                    leaders, what changes he could have wrought. Now they sit down <sic>at</sic>
+                    bargain as equals. Back in the 30s, before Roosevelt, looked upon as scum,
+                    radicals, anarchists. Now they are respectable. Labor Building today in
+                    Washington overlooks the White House." Notecard 80 mentions the M1 carbine that
+                    Malcolm X was famously pictured with in a 1964 issue of <emph>Ebony</emph>
+                    magazine. Interpreted as a sign of X's militancy, the note reveals that X had
+                    "instructed (his) wife to use" the gun to defend their home from possible
+                    attack. The notes also reference passages in <emph>The Autobiography</emph>. For
+                    example, Haley recounts one interview session during which X "was gesturing with
+                    his passport in his hand; he saw that I was trying to read its perforated number
+                    and suddenly he thrust the passport toward me, his neck flushed reddish: 'Get
+                    the number straight, but it won't be anything the white devil doesn't already
+                    know. He issued me the passport.'"<ptr target="#note21" xml:id="nr21" n="21"/>
+                    The passport number is recorded in Haley's hand on notecard 37. As scholars work
+                    with the notes, other such gems will emerge, and we will have a better sense of
+                    the creation of the final text.</p>
+
+            </div>
+            <div>
+                <head type="main"> Editorial Approach</head>
+                <p>This project grew out of an English/Africana Studies undergraduate course in
+                    which I was interested in embedding a hands-on digital project. I am interested
+                    in developing new models of student participation in digital humanities research
+                    and textual recovery and this project is my first experiment in so doing. The
+                    course examined the digitization of a wide set of Africana cultural materials
+                    and considered crucial issues of representation, ownership, and access. As the
+                    students engaged with the materials, they recognized that Africana materials are
+                    underrepresented in the digital literary canon. The Malcolm X project
+                    represented one way that they would be able to alter such a discrepancy. Working
+                    in small, collaborative groups, students transcribed, edited, researched,
+                    applied structural TEI/XML markup, and composed simple notes. For
+                    undergraduates, mastering the concept of basic TEI encoding included the
+                    understanding of how to represent paragraphs, page breaks, people, and places. I
+                    did not ask them to think critically about applying TEI to editorial decisions.
+                    Undergraduate student evaluations revealed that students thought the digital
+                    project was the highlight of the course and the experience invaluable. Most
+                    pointed to the activist nature of the project, of making a difference in the
+                    literary field and representing important cultural materials to a larger public.
+                    The project was so successful that I decided to ask my graduate students to
+                    return to the materials. While the undergraduates had made a first pass through
+                    the documents, there was additional proofing, standardization of annotations,
+                    and extended TEI markup of editorial items&#8212;such as strikethroughs, additions,
+                    and unclear sections&#8212;to complete. As part of a graduate-level class titled
+                    "Introduction to Digital Humanities," I teach my students how to encode
+                    materials with TEI/XML. Instead of completing exercises, graduate student worked
+                    with the Haley materials to add more robust TEI. Stairstepping a project across
+                    multiple semesters, classes, and levels of students has allowed a large group of
+                    students to participate in an important published project and has also convinced
+                    me that applied digital humanities work should be central to the classroom. As
+                    project leader, I have rechecked materials for accuracy and consistency,
+                    regularized the markup, and added the introduction. Texts have been imaged,
+                    transcribed and marked with TEI P5.<ptr target="#note22" xml:id="nr22" n="22"/>
+                    We have indicated changes made to the base text and, where possible, identified
+                    deletions and strikethroughs.</p>
+                <p>The essay and notes are treated with diplomatic transcriptions. We have not
+                    altered mistakes or corrected spellings. Undecipherable passages are marked as
+                    such with the TEI gap tag and marked as illegible, and strikethroughs,
+                    additions, and deletions are noted. While it would have been useful to include
+                    the published version of "The Malcolm X I Knew," we could not secure copyright
+                    to do so. Therefore, only the typed manuscript version is included. Students
+                    provided initial transcriptions, some annotations, and basic TEI. I have added
+                    robust annotations and standardized TEI markup. Annotations are included for
+                    historical events, people, and places. When possible I have included annotations
+                    that connect Haley's notes to the <emph>Autobiography</emph>.</p>
+
+                <p>As I indicated at the start of this essay, contemporary texts are much more
+                    difficult to digitize because of copyright and ownership issues than those
+                    materials produced before 1923. When this project began, I had doubts that the
+                    Haley materials could be published. My search for ownership of Haley's literary
+                    rights revealed that his estate had gone bankrupt, and all interests and royalty
+                    rights were sold to John Palumbo, a Jacksonville investor, for $10,400.<ptr
+                        target="#note23" xml:id="nr23" n="23"/> Palumbo graciously agreed to the
+                    publication of the manuscript transcriptions and images of the materials. I
+                    thank him for his generosity. I would also like to thank Texas A&amp;M
+                    University librarian Rebecca Hankins for her help and support throughout this
+                    process. Without her, this edition would not have been brought public. </p>
+                <p>Finally, and most importantly, the following participated in the transcription,
+                    editing, and markup of the primary source materials: </p>
+                <p>
+                    <emph>Librarian:</emph>
+                </p>
+                <p> Sarah Potvin. </p>
+
+                <p>
+                    <emph>Graduate students:</emph>
+                </p>
+                <p> Karen Davis, Amber Dunai, Jessica Durgan, Elizabeth Grumbach, Tess Habbestad,
+                    Bailey Kelsey, Glynnis Lagarde, Shawn Moore, Laura Perrings, Noah Peterson, and
+                    Sarah Potvin. </p>
+                <p><emph>Undergraduate students:</emph></p>
+                <p>Maria Acosta, Britany Bennett, Clayton Armstrong, Karen Boyd, Lorena Cardenas,
+                    Stephanie Cue, Cedric Dadaille, Manuel De la Llata, Ashlee Guerra, Scott
+                    Hamilton, Cassandra Hanks, Kendall Hardgrove, William Hoferer, Nicole Janssen,
+                    Tia McKinney, Cooper Mclendon, Charles McWhinney, Anju Mohan, Kevin Monsees,
+                    Joshua Montemayor, Parysa Oskouipour, Eric Park, Kerri Prather, Caitlin Red,
+                    Lauren Reynolds, Megan Rhodes, Crystal Riles, Maranda Spinn, Stephanie Straight,
+                    Jose Torres, John Turner, Yiechia Warren, Alexandra Wentz, and Ryan
+                    Williams.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">Alex Haley, <emph>Roots</emph> (Garden City, NY: Doubleday,
+                    1976); "Kunta Kinte&#8211;Alex Haley Foundation: The Genealogy Experience," <ref
+                        type="url" target="http://www.kintehaley.org"
+                        >http://www.kintehaley.org</ref>; "The Alex Haley Tribute Site," <ref
+                        type="url" target="http://www.alex-haley.com"
+                        >http://www.alex-haley.com</ref>. </note>
+                <note xml:id="note2">Herb Boyd, "Plagiarism and the Roots Suits," <emph>First
+                        World</emph> 2, no. 3 (1979): 31&#8211;33, 31&#8211;32. David Chioni Moore, in his review
+                    of the Alex Haley <emph>Roots</emph> Papers, notes that the plagiarism
+                    controversy seems to have contributed to the novel being ignored by literary
+                    critics. See Moore, "Revisiting a Silenced Giant: Alex Haley's
+                        <emph>Roots</emph>," <emph>Resources for American Literary Study</emph> 22,
+                    no. 2 (1996): 195&#8211;249.</note>
+                <note xml:id="note3">"The Malcolm X I Knew" essay does not appear on nor is it
+                    referenced by the site.</note>
+                <note xml:id="note4">Manning Marable, "Interview with <emph>Democracy Now!</emph>,"
+                    February 21, 2005, <ref type="url"
+                        target="http://www.democracynow.org/2005/2/21/the_undiscovered_malcolm_x_stunning_new"
+                        >http://www.democracynow.org/2005/2/21/the_undiscovered_malcolm_x_stunning_new</ref>.</note>
+                <note xml:id="note5">Manning Marable, <emph>Malcolm X: A Life of Reinvention</emph>
+                    (New York: Penguin, 2011), 248.</note>
+                <note xml:id="note6">Adam Parfrey, <emph>It's a Man's World: Men's Adventure
+                        Magazines, The Postwar Pulps</emph> (Los Angeles: Feral House, 2003), 286,
+                    287.</note>
+                <note xml:id="note7"> Marable writes of the increasingly difficult financial
+                    situation of Haley during the completion of <emph>The Autobiography</emph>
+                    primarily due to the lack of progress that Haley made on the manuscript. Haley
+                    was looking for various sources of income and found one such revenue stream in a
+                    "one-shot sale" of a piece of <emph>The Autobiography</emph> for the
+                        <emph>Saturday Evening Post</emph>. Marable, <emph>Malcolm X</emph>, 351. It
+                    is possible that the <emph>Saga</emph> piece was also a quick way for Haley to
+                    earn some income. </note>
+                <note xml:id="note8">Marable, <emph>Malcolm X</emph>, 259.</note>
+                <note xml:id="note9">See Marable, <emph>Black Routes to Islam</emph>, ed. Aidi
+                    Hishaam (New York: Palgrave Macmillan, 2009), 312, and Garrett A. Felber, "'A
+                    Writer Is What I Want, Not an Interpreter': Alex Haley and Malcolm X—Conceiving
+                    the Autobiographical Self and the Struggle for Authorship," <emph>Souls: A
+                        Critical Journal of Black Politics, Culture, and Society</emph> 12 no. 1
+                    (2010): 33&#8211;53, 46.</note>
+                <note xml:id="note10">David Remnick, "This American Life: The Making and Remaking of
+                    Malcolm X," <emph>New Yorker</emph>, April 25, 2011,
+                    <ref type="url"
+                        target="http://www.newyorker.com/arts/critics/books/2011/04/25/110425crbo_books_remnick"
+                        >http://www.newyorker.com/arts/critics/books/2011/04/25/110425crbo_books_remnick</ref>.
+                    For correspondence between Haley and Doubleday's Ken McCormick, see Garret A.
+                    Felber, "Alex Haley Correspondence (1965)," <emph>Souls: A Critical Journal of
+                        Black Politics, Culture, and Society</emph> 12, no. 2 (2010): 182&#8211;85.</note>
+                <note xml:id="note11">See the following: William L. Andrews, "Editing 'Minority'
+                    Texts," in <emph>The Margins of the Text</emph>, ed. David C. Greetham (Ann
+                    Arbor: University of Michigan Press, 1997), 45&#8211;56; Felber, “'A Writer Is What I
+                    Want, Not an Interpreter'"; Arnold Rampersad, "The Color of His Eyes: Bruce
+                    Perry's <emph>Malcolm</emph> and Malcolm's Malcolm" in <emph>Malcolm X: In our
+                        Own Image</emph>, ed. Joe Wood (New York: St. Martin's, 1992), 177&#8211;234; John
+                    Edgar Wideman, "Malcolm X: The Art of Autobiography," in Wood, <emph>Malcolm
+                        X</emph>, 101&#8211;16. </note>
+                <note xml:id="note12"> Marable, <emph>Malcolm X</emph>, 9.</note>
+                <note xml:id="note13"> Manning Marable, "Rediscovering Malcolm's Life:  A
+                    Historian's Adventures in Living History," in <emph>Souls:  A Critical Journal
+                        of Black Politics, Culture, and Society</emph> 7, no. 1 (2005): 20&#8211;35, 27. </note>
+                <note xml:id="note14"> Alex Haley, <emph>The Autobiography of Malcolm X</emph>
+                    (Chicago: Ballantine, 1987), 383.</note>
+                <note xml:id="note15">Marable, <emph>Malcolm X,</emph> 327.</note>
+                <note xml:id="note16">Haley, <emph>The Autobiography</emph>, 400.</note>
+                <note xml:id="note17">Felber, “'A Writer Is What I Want, Not an
+                    Interpreter.'”</note>
+                <note xml:id="note18">Andrews, "Editing 'Minority' Texts," 45&#8211;46.</note>
+                <note xml:id="note19">Andrews, "Editing 'Minority' Texts," 47.</note>
+                <note xml:id="note20"> The OAAU is the Organization of Afro-American Unity, the
+                    organization that X founded in 1964 after his trip to Mecca as an international
+                    Africanist organization. "African American Historian Manning Marable Dies Days
+                    Before Publication of His Biography of Malcolm X," <emph>Democracy Now!</emph>,
+                    <ref type="url"
+                        target="http://www.democracynow.org/2011/4/4/african_american_historian_manning_marable_dies"
+                        >http://www.democracynow.org/2011/4/4/african_american_historian_manning_marable_dies</ref>
+                </note>
+                <note xml:id="note21">Haley, <emph>The Autobiography,</emph> 388.</note>
+                <note xml:id="note22">TEI P5 guidelines are located at
+                        <ref>http://www.tei-c.org/Guidelines/P5/.</ref></note>
+                <note xml:id="note23">"Haley's Literary Rights Sold to Duval Investor,"
+                        <emph>Florida Times-Union,</emph>
+                    <ref type="url"
+                        target="http://jacksonville.com/tu-online/stories/091002/met_10407259.html"
+                        >http://jacksonville.com/tu-online/stories/091002/met_10407259.html</ref>. </note>
+            </div>
+        </back>
+    </text>
+</TEI>

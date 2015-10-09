@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="utcdce.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="utc_variants">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title />
+            </titleStmt>
+            <publicationStmt>
+                <idno type="file">utc.variants</idno>
+                <idno type="edition">utctopsy</idno>
+                
+                <distributor>Scholarly Editing</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+    </address>
+                <availability>
+                    <p>Copyright &#169; 2010 by Wesley Raabe and Les Harrison, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher. Permission to reproduce the graphic
+                        images in this archive has been granted by the owners of the originals for
+                        this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note>The following are responsible for particular readings or for
+                    changes to this file, as noted: 
+                    <name xml:id="wr">Wesley Raabe</name>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Harriet Beecher Stowe</author>
+                        <title>Uncle Tom&#x2019;s Cabin; or, Life among the Lowly. [2
+                            vols.]</title>
+                        <imprint>
+                            <pubPlace>Boston, Mass. and Cleveland, Ohio</pubPlace>
+                            <publisher>John P. Jewett &amp; Company; Jewett, Proctor &amp;
+                                Worthington</publisher>
+                            <date>1852</date>
+                            <biblScope type="pp" from="32" to="52">2 vols.</biblScope>
+                        </imprint>
+                    </monogr>
+                    <monogr>
+                        <author>Harriet Beecher Stowe</author>
+                        <title>Uncle Tom&#x2019;s Cabin; or, Life among the Lowly. [Illustrated
+                            Edition]</title>
+                        <imprint>
+                            <pubPlace>Boston, Mass. and Cleveland, Ohio</pubPlace>
+                            <publisher>John P. Jewett &amp; Company; Jewett, Proctor &amp;
+                                Worthington</publisher>
+                            <date>1853</date>
+                            <biblScope type="pp" from="299" to="316" />
+                        </imprint>
+                    </monogr>
+                    <monogr>
+                        <author>
+                            <choice>
+                                <orig>Mrs. H. B. Stowe</orig>
+                                <reg>Harriet Beecher Stowe</reg>
+                            </choice>
+                        </author>
+                        <title>Uncle Tom\&#x2019;s Cabin: or, Life among the Lowly.</title>
+                        <imprint>
+                            <date when="1851-11-06">November 6, 1851</date>
+                            <biblScope type="pubPlace">
+                                <ref type="address">7th Street, Opposite Odd Fellows' Hall, Washington D. C.</ref>
+                                <name type="editor">Gamaliel Bailey</name>
+                                <name type="editor">John Greenleaf Whittier</name>
+                                <title type="main">National Era</title>
+                            </biblScope>
+                            <biblScope type="pp">177 to 178</biblScope>
+                            <biblScope type="vol">5</biblScope>
+                        </imprint>
+                    </monogr>
+                    <monogr>
+                        <author>Harriet Beecher Stowe</author>
+                        <title>Uncle Tom&#x2019;s Cabin: or, Life among the Lowly. &#8220;An Edition
+                            for the Million.&#8221;</title>
+                        <imprint>
+                            <pubPlace>Boston and Cleveland</pubPlace>
+                            <publisher>John P. Jewett &amp; Company; Jewett, Proctor &amp;
+                                Worthington</publisher>
+                            <date>1852</date>
+                            <biblScope type="pp" from="91" to="96" />
+                        </imprint>
+                    </monogr>
+                    <monogr>
+                        <author>Harriet Beecher Stowe</author>
+                        <title>Uncle Tom&#x2019;s Cabin; or, Life among the Lowly.</title>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>Houghton, Osgood and Company. The Riverside Press,
+                                Cambridge</publisher>
+                            <date>1879</date>
+                            <biblScope type="pp" from="278" to="294" />
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <listWit>
+                    <witness xml:id="era">National Era</witness>
+                    <witness xml:id="j2v">Jewett, First Edition, 2 Vols. (1852)</witness>
+                    <witness xml:id="jpb">Jewett, &#8220;Edition for the Million&#8221; (1852/1853)</witness>
+                    <witness xml:id="jil">Jewett, Illustrated Edition (1853)</witness>
+                    <witness xml:id="ho">Houghton, Osgood, New Edition (1879)</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Converted from PC-CASE conflation lists via PERL scripts to TEI
+                encoding</creation>
+        </profileDesc>
+        <encodingDesc>
+            <variantEncoding method="double-end-point" location="external" />
+            <editorialDecl>
+                <segmentation>
+                    <p>s elements mark sentences editorially normalized across multiple editions and
+                        are numbered sequentially within the chapter div element of attribute type
+                        chapter</p>
+                    <p>p elements mark paragraphs editorially normalized across multiple editions
+                        and are numbered sequentially within the chapter div element of attribute
+                        type chapter</p>
+                </segmentation>
+                <quotation marks="all" form="std">
+                    <p>Opening double quotation marks represented by Unicode Decimal Character 8220;
+                        all closing quotation marks represented by Unicode Decimal Character
+                        8221.</p>
+                    <p>Opening single quotation marks represented by Unicode Decimal Character 8216;
+                        all closing single quotation marks represented by Unicode Decimal
+                        Character 8217.</p>
+                </quotation>
+                <p>Decimal Special Characters<lb />
+                    <!--Unicode Reference
+     Hex	Dec	Name
+     &#xFB00;	&#64256;	LATIN SMALL LIGATURE FF<lb/>
+     &#xFB01;	&#64257;	LATIN SMALL LIGATURE FI<lb/>
+     &#xFB03;	&#64259;	LATIN SMALL LIGATURE FFI<lb/>
+     &#xFB04;	&#64260;	LATIN SMALL LIGATURE FFL<lb/>
+     &#xFB02;	&#64258;	LATIN SMALL LIGATURE FL<lb/>
+     &#x00E1;	&#225;	LATIN SMALL LETTER A WITH ACUTE<lb/>
+     &#x00E0;	&#224;	LATIN SMALL LETTER A WITH GRAVE<lb/>
+     &#x00E6;	&#230;	LATIN SMALL LETTER AE<lb/>
+     &#x00C6;	&#198;	LATIN CAPITAL LETTER AE<lb/>
+     &#x2737;	&#10039;	EIGHT POINTED RECTILINEAR BLACK STAR<lb/>
+     &#x00E9;	&#233;	LATIN SMALL LETTER E WITH ACUTE<lb/>
+     &#x00E8;	&#232;	LATIN SMALL LETTER E WITH GRAVE<lb/>
+     &#x00EB;	&#235;	LATIN SMALL LETTER E WITH DIAERESIS [umlaut]<lb/>
+     &#x00ED;	&#237;	LATIN SMALL LETTER I WITH ACUTE<lb/>
+     &#x00EC;	&#236;	LATIN SMALL LETTER I WITH GRAVE<lb/>
+     &#x2014;	&#8212;	EM DASH<lb/>
+     &#x0153;	&#339;	LATIN SMALL LIGATURE OE<lb/>
+     &#x201C;	&#8220;	LEFT DOUBLE QUOTATION MARK<lb/>
+     &#x2018;	&#8216;	LEFT SINGLE QUOTATION MARK<lb/>
+     &#x201D;	&#8221;	RIGHT DOUBLE QUOTATION MARK<lb/>
+     &#x2019;	&#8217;	RIGHT SINGLE QUOTATION MARK<lb/>
+     &#xa0;	&#160;	NO-BREAK SPACE<lb/>
+     &#x202f;	&#8239;	NARROW NO-BREAK SPACE<lb/>
+     &#x2005;	&#8197;	FOUR-PER-EM SPACE<lb/>
+     &#x202f;	&#8239;	NARROW NO-BREAK SPACE<lb/>
+     &#x200a;	&#8202;	HAIR SPACE<lb/>
+     &#x2001;	&#8193;	EM QUAD<lb/>
+     &#xb6;	&#182;	PILCROW SIGN [in-line paragraph separator ]<lb/>
+    -->
+                </p>
+                <p>Hexadecimal Special Characters<lb />
+                    <!-- &#x2019;		APOSTROPHE (HEXADECIMAL for RIGHT SINGLE QUOTATION MARK)<lb/>
+                        -->
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2010-11-20" who="#lh">Drafted Revision narratives</change>
+            <change when="2010-12-01" who="#wr">Revised revision narratives and converted to TEI
+                format using Perl scripts</change>
+            <change when="2010-12-06" who="#wr">Revised entity coding as character references </change>
+            <change when="2010-12-06" who="#wr">Separated annotation entries and note entries into
+                separate lists, revised XML:ids to reflect new arrangement. </change>
+            
+                <change when="2011-09-19" who="#awj">Added @type='file' to one idno and added another idno with @type='edition'; added seriesStmt</change>
+            <change when="2011-10-31" who="#wr">Changed app with to attribute target UTC20.S180a2 to attribute target UTC20.S180b1 to match era.xml, j2v.xml, jpb.xml, jil.xml and ho.xml, which have anchor with id UTC20.S180b1 after "have nothin"; Updated note with xml:id UTC20.S138n to reflect multiple notes calling same content: First sentence becomes: The Jewett illustrated edition corrects Topsy&#8217;s dialect form &#8220;declar&#8221; to &#8220;declare&#8221;; &#8220;dis yer&#8221;  to &#8220;this yer&#8221;; &#8220;swarin&#8221; to &#8220;swarin&#x2019;&#8202;&#8221;; and &#8220;de time&#8221; to &#8220;the time.&#8221;; Updated note with xml:id UTC20.R195n, which had repeated content.
+                   
+            </change>
+          <change when="2011-11-01" who="#wr">Selection of proofreading changes in wording in notes.</change>           
+            <change when="2011-11-27" who="#wr">Revised tagging for app element from a paired from and to attribute to a single loc attribute. Removed all cross-references in notes. Removed inconsistent ellipses in app UTC20.R285 wit jpb. 
+            </change>
+            
+            <change when="2012-01-13" who="#wr">Reduced length of witness titles, standard shortening;
+                For #UTC20.S180a1, fixed reference to JIL (had two references to PB witness); For #UTC20.R195n, changed "Jewett's proofreader of George. C. Rand's compositor" to "Jewett's proofreader or George. C. Rand's compositor"; Removed XREF in UTC20.R208n; Removed cross reference in UTC20.S270bn. Standardized references to editions to match witness designations.
+            </change>          
+            
+            <change when="2012-02-17" who="#wr">
+             Extensive alterations suggested by peer reviewer. Corrected broken links, corrected line-end hyphenation at page and column breaks, added space before paragraph symbol, altered encoding to allow display of small caps, expanded notes that only describe change to interpret effect on reader, reduced repetion of word Edition, ran spell-check, added articles, reviewed and corrected grammatical parallelism. 
+            </change>    
+                        
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="apparatus-entries">
+                <list>
+                    <item>
+                        <app loc="#UTC20.R285">
+                            <rdg wit="#era">plume herself on the distinction.<lb />&#8193;Miss
+                                Ophelia busied herself</rdg>
+                            <rdg wit="#j2v">plume herself on the distinction.<lb />&#8193;Miss
+                                Ophelia busied herself</rdg>
+                            <rdg wit="#jpb">plume herself on the distinction.<lb />&#8193; <hi
+                                    rend="bold">&#8220;But I&#8239;&#x2019;s
+                                    boun&#x2019; to go to heaven, for all that,
+                                    though,&#8221; she said, one day, after an <hi rend="italic"
+                                        >expos&#233;</hi> of this kind.</hi>
+                                <lb />&#8193;<hi rend="bold">&#8220;Why,
+                                    how&#8239;&#x2019;s that, Tops?&#8221; said her
+                                    master, who had been listening, quite amused.</hi>
+                                <lb />&#8193;<hi rend="bold">&#8220;Why, Miss
+                                    Feely&#8239;&#x2019;s boun&#x2019; to go, any way;
+                                    so they&#8239;&#x2019;ll have me thar. Laws! Miss
+                                    Feely&#8239;&#x2019;s so <hi rend="italic">curous</hi>
+                                    they won&#x2019;t none of &#x2019;em know how to wait on
+                                    her.&#8221;</hi>
+                                <lb />&#8193; Miss Ophelia busied herself</rdg>
+                            <rdg wit="#jil">plume herself on the distinction.<lb />&#8193;Miss
+                                Ophelia busied herself</rdg>
+                            <rdg wit="#ho">plume herself on the distinction.<lb />&#8193;Miss
+                                Ophelia busied herself</rdg>
+                        </app>
+                        <ptr target="#UTC20.R289n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.01head">
+                            <rdg wit="#era">C<hi rend="small caps">hapter</hi>
+                                <hi rend="bold">XIX.</hi>&#8212;<hi rend="italic"
+                                >Topsy</hi>. &#182; One morning,</rdg>
+                            <rdg wit="#j2v">CHAPTER <hi rend="bold">XX.</hi> &#182; <hi
+                                rend="small caps">topsy.</hi> &#182; O<hi rend="small caps"
+                                    >ne</hi> morning,</rdg>
+                            <rdg wit="#jpb">CHAPTER <hi rend="bold">XX.</hi> &#182; <hi
+                                rend="small caps">topsy.</hi> &#182; O<hi rend="small caps"
+                                    >One</hi> morning,</rdg>
+                            <rdg wit="#jil">CHAPTER <hi rend="bold">XX.</hi> &#182; <hi
+                                rend="small caps">topsy.</hi> &#182; O<hi rend="small caps"
+                                    >ne</hi> morning, </rdg>
+                            <rdg wit="#ho">CHAPTER <hi rend="bold">XX.</hi> &#182; <hi
+                                rend="small caps">topsy.</hi> &#182; O<hi rend="small caps"
+                                    >ne</hi> morning,</rdg>
+                        </app>
+                        <ptr target="#UTC20.headbn" />
+                    </item>
+                    <!--Revision Narrative-->
+                    <item>
+                        <app loc="#UTC20.R031a">
+                            <!--UTC20.RO31n-->
+                            <rdg wit="#era">up a <hi rend="bold">Society,</hi> and get</rdg>
+                            <rdg wit="#j2v">up a <hi rend="bold">society,</hi> and get</rdg>
+                            <rdg wit="#jpb">up a <hi rend="bold">society,</hi> and get</rdg>
+                            <rdg wit="#jil">up a <hi rend="bold">society,</hi> and get</rdg>
+                            <rdg wit="#ho">up a <hi rend="bold">society,</hi> and get</rdg>
+                        </app>
+                        <ptr target="#UTC20.RO31n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.R124a">
+                            <!--UTC20.R124n-->
+                            <rdg wit="#era">under the <hi rend="bold">matrass</hi> nice and</rdg>
+                            <rdg wit="#j2v">under the <hi rend="bold">mattress</hi> nice and</rdg>
+                            <rdg wit="#jpb">under the <hi rend="bold">mattress</hi> nice and</rdg>
+                            <rdg wit="#jil">under the <hi rend="bold">mattress</hi> nice and</rdg>
+                            <rdg wit="#ho">under the <hi rend="bold">mattress</hi> nice and</rdg>
+                        </app>
+                        <ptr target="#UTC20.R124n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.R195a">
+                            <!--UTC20.R195n-->
+                            <rdg wit="#era">She can <hi rend="bold">speak for all the world</hi>
+                                just like</rdg>
+                            <rdg wit="#j2v">She can <hi rend="bold">speak, for all the world,</hi>
+                                just like</rdg>
+                            <rdg wit="#jpb">She can <hi rend="bold">speak, for all the world,</hi>
+                                just like</rdg>
+                            <rdg wit="#jil">She can <hi rend="bold">speak, for all the world,</hi>
+                                just like</rdg>
+                            <rdg wit="#ho">She can <hi rend="bold">speak, for all the world,</hi>
+                                just like</rdg>
+                        </app>
+                        <ptr target="#UTC20.R195n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.R208a">
+                            <!--UTC20.R208n-->
+                            <rdg wit="#era">ear that <hi rend="bold">had</hi> never heard</rdg>
+                            <rdg wit="#j2v">ear that <hi rend="bold">has</hi> never heard</rdg>
+                            <rdg wit="#jpb">ear that <hi rend="bold">has</hi> never heard</rdg>
+                            <rdg wit="#jil">ear that <hi rend="bold">has</hi> never heard</rdg>
+                            <rdg wit="#ho">ear that <hi rend="bold">has</hi> never heard</rdg>
+                        </app>
+                        <ptr target="#UTC20.R208n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.R237a">
+                            <!--UTC20.R237n-->
+                            <rdg wit="#era">the former <hi rend="bold">act,</hi> the child</rdg>
+                            <rdg wit="#j2v">the former <hi rend="bold">art,</hi> the child</rdg>
+                            <rdg wit="#jpb">the former <hi rend="bold">art,</hi> the child</rdg>
+                            <rdg wit="#jil">the former <hi rend="bold">art</hi> the child</rdg>
+                            <rdg wit="#ho">the former <hi rend="bold">art,</hi> the child</rdg>
+                        </app>
+                        <ptr target="#UTC20.R237n" />
+                    </item>
+                    <!--start here-->
+                    <item>
+                        <app loc="#UTC20.R264a">
+                            <!--RS177668-->
+                            <rdg wit="#era">o&#64256; the <hi rend="bold">pillow cases,
+                                    putting</hi> her woolly</rdg>
+                            <rdg wit="#j2v">o&#64256; the <hi rend="bold">pillow-cases,
+                                    butting</hi> her woolly</rdg>
+                            <rdg wit="#jpb">o&#64256; the <hi rend="bold">pillow-cases,
+                                    butting</hi> her woolly</rdg>
+                            <rdg wit="#jil">o&#64256; the <hi rend="bold">pillow cases,
+                                    butting</hi> her woolly</rdg>
+                            <rdg wit="#ho">o&#64256; the <hi rend="bold">pillow-cases,
+                                    butting</hi> her woolly</rdg>
+                        </app>
+                        <ptr target="#UTC20.R264n" />
+                    </item>
+                    <!--Substantive Variants-->
+                    <item>
+                        <app loc="#UTC20.S002a">
+                            <!--UTC20.S002n-->
+                            <rdg wit="#era">down here, <hi rend="bold">Cousin,</hi> I&#x2019;ve
+                                something</rdg>
+                            <rdg wit="#j2v">down here, <hi rend="bold">Cousin;</hi> I&#x2019;ve
+                                something</rdg>
+                            <rdg wit="#jpb">down here, <hi rend="bold">cousin;</hi> I&#x2019;ve
+                                something</rdg>
+                            <rdg wit="#jil">down here, <hi rend="bold">cousin;</hi> I&#x2019;ve
+                                something</rdg>
+                            <rdg wit="#ho">down here, <hi rend="bold">cousin;</hi> I&#x2019;ve
+                                something</rdg>
+                        </app>
+                        <ptr target="#UTC20.S002n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S020a">
+                            <!--UTC20.S020n-->
+                            <rdg wit="#era">yourself.&#8221; &#182; &#8220;Yes, <hi
+                                    rend="bold">mass&#x2019;r,&#8221;</hi> said Topsy</rdg>
+                            <rdg wit="#j2v">yourself.&#8221; &#182; &#8220;Yes, <hi
+                                    rend="bold">Mas&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                            <rdg wit="#jpb">yourself.&#8221; &#182; &#8220;Yes, <hi
+                                    rend="bold">Mas&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                            <rdg wit="#jil">yourself.&#8221; &#182; &#8220;Yes, <hi
+                                    rend="bold">mas&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                            <rdg wit="#ho">yourself.&#8221; &#182; &#8220;Yes, <hi
+                                    rend="bold">Mas&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                        </app>
+                        <ptr target="#UTC20.S020n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S022a">
+                            <!--UTC20.S022n-->
+                            <rdg wit="#era">St. Clare. &#182; <hi rend="bold"> &#8220;Oh yes,
+                                    mass&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                            <rdg wit="#j2v">St. Clare. &#182; <hi rend="bold"> &#8220;O yes,
+                                    Mas&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                            <rdg wit="#jpb">St. Clare. &#182; <hi rend="bold"> &#8220;O yes,
+                                    Mas&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                            <rdg wit="#jil">St. Clare. &#182; <hi rend="bold"> &#8220;O, yes,
+                                    mas&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                            <rdg wit="#ho">St. Clare. &#182; <hi rend="bold"> &#8220;O, yes,
+                                    Mas&#x2019;r,&#8221;</hi> said Topsy,</rdg>
+                        </app>
+                        <ptr target="#UTC20.S022n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S025a">
+                            <!--UTC20.S025n-->
+                            <rdg wit="#era">morning, and <hi rend="bold">I</hi> &#64257;nd
+                                one</rdg>
+                            <rdg wit="#j2v">morning, and <hi rend="bold">[<hi rend="italic"
+                                        >omit</hi>]</hi> &#64257;nd one</rdg>
+                            <rdg wit="#jpb">morning, and <hi rend="bold">[<hi rend="italic"
+                                        >omit</hi>]</hi> &#64257;nd one</rdg>
+                            <rdg wit="#jil">morning, and <hi rend="bold">[<hi rend="italic"
+                                        >omit</hi>]</hi> &#64257;nd one</rdg>
+                            <rdg wit="#ho">morning, and <hi rend="bold">[<hi rend="italic"
+                                    >omit</hi>]</hi> &#64257;nd one</rdg>
+                        </app>
+                        <ptr target="#UTC20.S025n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S025a1">
+                            <!--UTC20.S025bn-->
+                            <rdg wit="#era">mopping and <hi rend="bold">moving</hi> and
+                                grinning</rdg>
+                            <rdg wit="#j2v">mopping and <hi rend="bold">mowing</hi> and
+                                grinning</rdg>
+                            <rdg wit="#jpb">mopping and <hi rend="bold">mowing</hi> and
+                                grinning</rdg>
+                            <rdg wit="#jil">mopping, and <hi rend="bold">mowing,</hi> and
+                                grinning</rdg>
+                            <rdg wit="#ho">mopping and <hi rend="bold">mowing</hi> and
+                                grinning</rdg>
+                        </app>
+                        <ptr target="#UTC20.S025bn" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S031a">
+                            <!--UTC20.S031n-->
+                            <rdg wit="#era">to.&#8221; &#182; &#8220;That&#x2019;s
+                                    <hi rend="bold">you, Christians all
+                                    over&#8212;you&#x2019;ll</hi> get up </rdg>
+                            <rdg wit="#j2v">to.&#8221; &#182; &#8220;That&#x2019;s
+                                    <hi rend="bold">you Christians, all
+                                    over!&#8212;you&#x2019;ll</hi> get up </rdg>
+                            <rdg wit="#jpb">to.&#8221; &#182; &#8220;That&#x2019;s
+                                    <hi rend="bold">you Christians, all
+                                    over!&#8212;you&#x2019;ll</hi> get up </rdg>
+                            <rdg wit="#jil">to.&#8221; &#182; &#8220;That&#x2019;s
+                                    <hi rend="bold">you Christians, all
+                                    over!&#8212;you&#x2019;ll</hi> get up </rdg>
+                            <rdg wit="#ho">to.&#8221; &#182; &#8220;That&#x2019;s <hi
+                                    rend="bold">you Christians, all
+                                    over!&#8212;you&#x2019;ll</hi> get up </rdg>
+                        </app>
+                        <ptr target="#UTC20.S031n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S039a">
+                            <!--UTC20.S039n-->
+                            <rdg wit="#era"> &#8220;Well, then, <hi rend="bold"
+                                    >cousin,&#8221;</hi> said St.</rdg>
+                            <rdg wit="#j2v"> &#8220;Well, then, <hi rend="bold"
+                                    >Cousin,&#8221;</hi> said St.</rdg>
+                            <rdg wit="#jpb"> &#8220;Well, then, <hi rend="bold"
+                                    >cousin,&#8221;</hi> said St.</rdg>
+                            <rdg wit="#jil"> &#8220;Well, then, <hi rend="bold"
+                                    >cousin,&#8221;</hi> said St.</rdg>
+                            <rdg wit="#ho"> &#8220;Well, then, <hi rend="bold"
+                                    >cousin,&#8221;</hi> said St.</rdg>
+                        </app>
+                        <ptr target="#UTC20.S002n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S049a">
+                            <!--UTC20.S049n-->
+                            <rdg wit="#era">see what <hi rend="bold">mass&#x2019;r</hi> St.
+                                Clare</rdg>
+                            <rdg wit="#j2v">see what <hi rend="bold">Mas&#x2019;r</hi> St.
+                                Clare</rdg>
+                            <rdg wit="#jpb">see what <hi rend="bold">Mas&#x2019;r</hi> St.
+                                Clare</rdg>
+                            <rdg wit="#jil">see what <hi rend="bold">Mas&#x2019;r</hi> St.
+                                Clare</rdg>
+                            <rdg wit="#ho">see what <hi rend="bold">Mas&#x2019;r</hi> St.
+                                Clare</rdg>
+                        </app>
+                        <ptr target="#UTC20.S049n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S051a">
+                            <!--UTC20.S051n-->
+                            <rdg wit="#era">the world <hi rend="bold">mass&#x2019;r</hi> wanted
+                                another</rdg>
+                            <rdg wit="#j2v">the world <hi rend="bold">Mas&#x2019;r</hi> wanted
+                                another</rdg>
+                            <rdg wit="#jpb">the world <hi rend="bold">Mas&#x2019;r</hi> wanted
+                                another</rdg>
+                            <rdg wit="#jil">the world <hi rend="bold">mas&#x2019;r</hi> wanted
+                                another</rdg>
+                            <rdg wit="#ho">the world <hi rend="bold">Mas&#x2019;r</hi> wanted
+                                another</rdg>
+                        </app>
+                        <ptr target="#UTC20.S020n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S056a">
+                            <!--UTC20.S056n-->
+                            <rdg wit="#era">folks. You <hi rend="bold">aint</hi> nerry one,</rdg>
+                            <rdg wit="#j2v">folks. You <hi rend="bold">an&#x2019;t</hi> nerry
+                                one,</rdg>
+                            <rdg wit="#jpb">folks. You <hi rend="bold">an&#x2019;t</hi> nerry
+                                one,</rdg>
+                            <rdg wit="#jil">folks. You <hi rend="bold">an&#x2019;t</hi> nerry
+                                one,</rdg>
+                            <rdg wit="#ho">folks. You <hi rend="bold">an&#x2019;t</hi> nerry
+                                one,</rdg>
+                        </app>
+                        <ptr target="#UTC20.S056n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S067a">
+                            <!--UTC20.S067n-->
+                            <rdg wit="#era">wonder that <hi rend="bold">mass&#x2019;r</hi> would
+                                buy</rdg>
+                            <rdg wit="#j2v">wonder that <hi rend="bold">Mas&#x2019;r</hi> would
+                                buy</rdg>
+                            <rdg wit="#jpb">wonder that <hi rend="bold">Mas&#x2019;r</hi> would
+                                buy</rdg>
+                            <rdg wit="#jil">wonder that <hi rend="bold">mas&#x2019;r</hi> would
+                                buy</rdg>
+                            <rdg wit="#ho">wonder that <hi rend="bold">Mas&#x2019;r</hi> would
+                                buy</rdg>
+                        </app>
+                        <ptr target="#UTC20.S020n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S087a">
+                            <!--APU77220-->
+                            <rdg wit="#era">short laugh, <hi rend="bold">said&#8212; &#182;
+                                    &#8220;Laws, missis,</hi> there&#x2019;s heaps</rdg>
+                            <rdg wit="#j2v">short laugh, <hi rend="bold">said, &#182;
+                                    &#8220;Laws, Missis,</hi> there&#x2019;s heaps</rdg>
+                            <rdg wit="#jpb">short laugh, <hi rend="bold">said, &#182;
+                                    &#8220;Laws, Missis,</hi> there&#x2019;s heaps</rdg>
+                            <rdg wit="#jil">short laugh, <hi rend="bold">said,&#8212; &#182;
+                                    &#8220;Laws, missis,</hi> there&#x2019;s heaps </rdg>
+                            <rdg wit="#ho">short laugh, <hi rend="bold">said,&#8212; &#182;
+                                    &#8220;Laws, Missis,</hi> there&#x2019;s heaps</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S090a">
+                            <!--UTC20.S090n-->
+                            <rdg wit="#era"> &#8220;Dun no, <hi rend="bold"
+                                    >missis.&#8221;</hi> &#182; &#8220;Is it</rdg>
+                            <rdg wit="#j2v"> &#8220;Dun no, <hi rend="bold"
+                                    >Missis.&#8221;</hi> &#182; &#8220;Is it</rdg>
+                            <rdg wit="#jpb"> &#8220;Dun no, <hi rend="bold"
+                                    >Missis.&#8221;</hi> &#182; &#8220;Is it</rdg>
+                            <rdg wit="#jil"> &#8220;Dun no, <hi rend="bold"
+                                    >missis.&#8221;</hi> &#182; &#8220;Is it</rdg>
+                            <rdg wit="#ho"> &#8220;Dun no, <hi rend="bold"
+                                    >missis.&#8221;</hi> &#182; &#8220;Is it</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S093a">
+                            <!--UTC20.S093n-->
+                            <rdg wit="#era"> &#8220;Laws, <hi rend="bold">missis,</hi> those
+                                low</rdg>
+                            <rdg wit="#j2v">&#8220;Laws, <hi rend="bold">Missis,</hi> those
+                                low</rdg>
+                            <rdg wit="#jpb">&#8220;Laws, <hi rend="bold">Missis,</hi> those
+                                low</rdg>
+                            <rdg wit="#jil">&#8220;Laws, <hi rend="bold">missis,</hi> those
+                                low</rdg>
+                            <rdg wit="#ho">&#8220;Laws, <hi rend="bold">Missis,</hi> those
+                                low</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S102a">
+                            <!--UTC20.S102n-->
+                            <rdg wit="#era">tangible. &#182; &#8220;No, <hi rend="bold"
+                                    >missis.&#8221;</hi> &#182; &#8220;What can</rdg>
+                            <rdg wit="#j2v">tangible. &#182; &#8220;No, <hi rend="bold"
+                                    >Missis.&#8221;</hi> &#182; &#8220;What can</rdg>
+                            <rdg wit="#jpb">tangible. &#182; &#8220;No, <hi rend="bold"
+                                    >Missis.&#8221;</hi> &#182; &#8220;What can</rdg>
+                            <rdg wit="#jil">tangible. &#182; &#8220;No, <hi rend="bold"
+                                    >missis.&#8221;</hi>&#182; &#8220;What can</rdg>
+                            <rdg wit="#ho">tangible. &#182; &#8220;No, <hi rend="bold"
+                                    >Missis.&#8221;</hi> &#182; &#8220;What can</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S108a">
+                            <!--UTC20.S108n-->
+                            <rdg wit="#era">soil there, <hi rend="bold">cousin;</hi> put in</rdg>
+                            <rdg wit="#j2v">soil there, <hi rend="bold">Cousin;</hi> put in</rdg>
+                            <rdg wit="#jpb">soil there, <hi rend="bold">cousin;</hi> put in</rdg>
+                            <rdg wit="#jil">soil there, <hi rend="bold">cousin;</hi> put in</rdg>
+                            <rdg wit="#ho">soil there, <hi rend="bold">cousin;</hi> put in</rdg>
+                        </app>
+                        <ptr target="#UTC20.S002n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S138a">
+                            <!--UTC20.S138n-->
+                            <rdg wit="#era"> &#8220;Missis, I <hi rend="bold">declar</hi>
+                                for&#x2019;t I</rdg>
+                            <rdg wit="#j2v"> &#8220;Missis, I <hi rend="bold">declar</hi>
+                                for&#x2019;t I</rdg>
+                            <rdg wit="#jpb"> &#8220;Missis, I <hi rend="bold">declar</hi>
+                                for&#x2019;t I</rdg>
+                            <rdg wit="#jil"> &#8220;Missis, I <hi rend="bold">declare</hi>
+                                for&#x2019;t, I</rdg>
+                            <rdg wit="#ho"> &#8220;Missis, I <hi rend="bold">declar</hi>
+                                for&#x2019;t I</rdg>
+                        </app>
+                        <ptr target="#UTC20.S138n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S138a1">
+                            <!--UTC20.S138n-->
+                            <rdg wit="#era">it till <hi rend="bold">dis</hi> yer blessed</rdg>
+                            <rdg wit="#j2v">it till <hi rend="bold">dis</hi> yer blessed</rdg>
+                            <rdg wit="#jpb">it till <hi rend="bold">dis</hi> yer blessed</rdg>
+                            <rdg wit="#jil">it till <hi rend="bold">this</hi> yer blessed</rdg>
+                            <rdg wit="#ho">it till <hi rend="bold">dis</hi> yer blessed</rdg>
+                        </app>
+                        <ptr target="#UTC20.S138n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S140a">
+                            <!--UTC20.S140n-->
+                            <rdg wit="#era"> a <hi rend="bold">tellin now&#8212;and aint
+                                    nothin</hi> else.&#8221;</rdg>
+                            <rdg wit="#j2v">a <hi rend="bold">tellin now, and an&#x2019;t
+                                    nothin</hi> else.&#8221;</rdg>
+                            <rdg wit="#jpb">a <hi rend="bold">tellin now, and an&#x2019;t
+                                    nothin</hi> else.&#8221; </rdg>
+                            <rdg wit="#jil">a <hi rend="bold">tellin&#x2019; now, and
+                                    an&#x2019;t nothin&#x2019;</hi> else.&#8221; </rdg>
+                            <rdg wit="#ho">a <hi rend="bold">tellin&#x2019; now, and
+                                    an&#x2019;t nothin&#x2019;</hi> else.&#8221; </rdg>
+                        </app>
+                        <ptr target="#UTC20.S138n"/>
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S142a">
+                            <!--UTC20.S142n-->
+                            <rdg wit="#era">lies so.&#8221; &#182; <hi rend="bold">
+                                    &#8220;Law, missis,</hi> if you&#x2019;s</rdg>
+                            <rdg wit="#j2v">lies so.&#8221; &#182; <hi rend="bold">
+                                    &#8220;Laws, Missis,</hi> if you&#x2019;s</rdg>
+                            <rdg wit="#jpb">lies so.&#8221; &#182; <hi rend="bold">
+                                    &#8220;Laws, Missis,</hi> if you&#x2019;s</rdg>
+                            <rdg wit="#jil">lies so.&#8221; &#182; <hi rend="bold">
+                                    &#8220;Laws, missis,</hi> if you&#x2019;s</rdg>
+                            <rdg wit="#ho">lies so.&#8221; &#182; <hi rend="bold">
+                                    &#8220;Laws, Missis,</hi> if you&#x2019;s</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S145a">
+                            <!--UTC20.S142bn-->
+                            <rdg wit="#era">and shook her. <hi rend="bold"> &#182;
+                                    &#8220;Don&#x2019;t</hi> you tell</rdg>
+                            <rdg wit="#j2v">and shook her. <hi rend="bold"> &#182;
+                                    &#8220;Don&#x2019;t</hi> you tell</rdg>
+                            <rdg wit="#jpb">and shook her. <hi rend="bold"> &#182;
+                                    &#8220;Don&#x2019;t</hi> you tell</rdg>
+                            <rdg wit="#jil">and shook her. <hi rend="bold"> [<hi rend="italic"
+                                >omit</hi>] &#8220;Don&#x2019;t</hi> you tell</rdg>
+                            <rdg wit="#ho">and shook her. <hi rend="bold"> &#182;
+                                    &#8220;Don&#x2019;t</hi> you tell</rdg>
+                        </app>
+                        <ptr target="#UTC20.S142bn" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S156a">
+                            <!--UTC20.S156n-->
+                            <rdg wit="#era">you.&#8221; &#182; &#8220;Laws, <hi
+                                    rend="bold">missis,</hi> I took</rdg>
+                            <rdg wit="#j2v">you.&#8221; &#182; &#8220;Laws, <hi
+                                    rend="bold">Missis!</hi> I took</rdg>
+                            <rdg wit="#jpb">you.&#8221; &#182; &#8220;Laws, <hi
+                                    rend="bold">Missis!</hi> I took</rdg>
+                            <rdg wit="#jil">you.&#8221; &#182; &#8220;Laws, <hi
+                                    rend="bold">missis!</hi> I took</rdg>
+                            <rdg wit="#ho">you.&#8221; &#182; &#8220;Laws, <hi
+                                    rend="bold">Missis!</hi> I took</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S160a">
+                            <!--UTC20.S160n-->
+                            <rdg wit="#era">&#x2019;em.&#8221; &#182; &#8220;Laws,
+                                    <hi rend="bold">missis,</hi> I
+                                can&#x2019;t&#8212;they&#x2019;s</rdg>
+                            <rdg wit="#j2v">Laws, <hi rend="bold">Missis!</hi> I
+                                can&#x2019;t,&#8212;they&#x2019;s </rdg>
+                            <rdg wit="#jpb">Laws, <hi rend="bold">Missis!</hi> I
+                                can&#x2019;t,&#8212;they&#x2019;s</rdg>
+                            <rdg wit="#jil">Laws, <hi rend="bold">missis!</hi> I
+                                can&#x2019;t,&#8212;they&#x2019;s</rdg>
+                            <rdg wit="#ho">Laws, <hi rend="bold">Missis!</hi> I
+                                can&#x2019;t,&#8212;they&#x2019;s</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S171a">
+                            <!--UTC20.S171n-->
+                            <rdg wit="#era">said Miss <hi rend="bold">Ophelia.</hi> &#182;
+                                &#8220;Get it?</rdg>
+                            <rdg wit="#j2v">said Miss <hi rend="bold">Ophelia.</hi> &#182;
+                                &#8220;Get it?</rdg>
+                            <rdg wit="#jil">said Miss <hi rend="bold"
+                                >Ophelia.&#8221;</hi> &#182; &#8220;Get it?</rdg>
+                            <rdg wit="#jpb">said Miss <hi rend="bold">Ophelia.</hi> &#182;
+                                &#8220;Get it?</rdg>
+                            <rdg wit="#ho">said Miss <hi rend="bold">Ophelia.</hi> &#182;
+                                &#8220;Get it?</rdg>
+                        </app>
+                        <ptr target="#UTC20.S171n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S180a">
+                            <!--UTC20.S180n-->
+                            <rdg wit="#era">Topsy?&#8221; &#182; &#8220;Why, <hi
+                                    rend="bold">missis</hi> said I</rdg>
+                            <rdg wit="#j2v">Topsy?&#8221; &#182; &#8220;Why, <hi
+                                    rend="bold">Missis</hi> said I</rdg>
+                            <rdg wit="#jpb">Topsy?&#8221; &#182; &#8220;Why, <hi
+                                    rend="bold">Missis</hi> said I</rdg>
+                            <rdg wit="#jil">Topsy?&#8221; &#182; &#8220;Why, <hi
+                                    rend="bold">missis</hi> said I</rdg>
+                            <rdg wit="#ho">Topsy?&#8221; &#182; &#8220;Why, <hi
+                                    rend="bold">Missis</hi> said I</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S180a1">
+                            <!--UTC20.S180nb-->
+                            <rdg wit="#era">think of <hi rend="bold">nothin</hi> else to</rdg>
+                            <rdg wit="#j2v">think of <hi rend="bold">nothin&#x2019;</hi> else
+                                to</rdg>
+                            <rdg wit="#jpb">think of <hi rend="bold">nothin</hi> else to</rdg>
+                            <rdg wit="#jil">think of <hi rend="bold">nothin&#x2019;</hi> else
+                                to</rdg>
+                            <rdg wit="#ho">think of <hi rend="bold">nothin&#x2019;</hi> else
+                                to</rdg>
+                        </app>
+                        <ptr target="#UTC20.S180n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S183a">
+                            <!--UTC20.S183n-->
+                            <rdg wit="#era"> &#8220;La, there <hi rend="bold">aint</hi> any
+                                such</rdg>
+                            <rdg wit="#j2v"> &#8220;La, there <hi rend="bold"
+                                    >an&#x2019;t</hi> any such</rdg>
+                            <rdg wit="#jpb"> &#8220;La, there <hi rend="bold"
+                                    >an&#x2019;t</hi> any such</rdg>
+                            <rdg wit="#jil"> &#8220;La, there <hi rend="bold"
+                                    >an&#x2019;t</hi> any such</rdg>
+                            <rdg wit="#ho"> &#8220;La, there <hi rend="bold"
+                                    >an&#x2019;t</hi> any such</rdg>
+                        </app>
+                        <ptr target="#UTC20.S056n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S184a">
+                            <!--UTC20.S184n-->
+                            <rdg wit="#era">I was <hi rend="bold">mass&#x2019;r</hi> St.
+                                Clare,</rdg>
+                            <rdg wit="#j2v">I was <hi rend="bold">Mas&#x2019;r</hi> St.
+                                Clare,</rdg>
+                            <rdg wit="#jpb">I was <hi rend="bold">Mas&#x2019;r</hi> St.
+                                Clare,</rdg>
+                            <rdg wit="#jil">I was <hi rend="bold">Mas&#x2019;r</hi> St.
+                                Clare,</rdg>
+                            <rdg wit="#ho">I was <hi rend="bold">Mas&#x2019;r</hi> St.
+                                Clare,</rdg>
+                        </app>
+                        <ptr target="#UTC20.S020n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S197a">
+                            <!--UTC20.S197n-->
+                            <rdg wit="#era">representatives of <hi rend="bold">the</hi> two
+                                extremes</rdg>
+                            <rdg wit="#j2v">representatives of <hi rend="bold">the</hi> two
+                                extremes</rdg>
+                            <rdg wit="#jpb">representatives of <hi rend="bold">[<hi rend="italic"
+                                        >omit</hi>]</hi> two extremes</rdg>
+                            <rdg wit="#jil">representatives of <hi rend="bold">the</hi> two
+                                extremes</rdg>
+                            <rdg wit="#ho">representatives of <hi rend="bold">the</hi> two
+                                extremes</rdg>
+                        </app>
+                        <ptr target="#UTC20.S197n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S224a">
+                            <!--UTC20.S224n-->
+                            <rdg wit="#era">that once <hi rend="bold">and</hi> a while</rdg>
+                            <rdg wit="#j2v">that once <hi rend="bold">and</hi> a while</rdg>
+                            <rdg wit="#jpb">that once <hi rend="bold">in</hi> a while</rdg>
+                            <rdg wit="#jil">that once <hi rend="bold">and</hi> a while</rdg>
+                            <rdg wit="#ho">that once <hi rend="bold">in</hi> a while</rdg>
+                        </app>
+                        <ptr target="#UTC20.S224n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S230a">
+                            <!---->
+                            <rdg wit="#era">in educating, <hi rend="bold">cousin.</hi> I
+                                really</rdg>
+                            <rdg wit="#j2v">in educating, <hi rend="bold">Cousin.</hi> I
+                                really</rdg>
+                            <rdg wit="#jpb">in educating, <hi rend="bold">cousin.</hi> I
+                                really</rdg>
+                            <rdg wit="#jil">in educating, <hi rend="bold">cousin.</hi> I
+                                really</rdg>
+                            <rdg wit="#ho">in educating, <hi rend="bold">cousin.</hi> I really</rdg>
+                        </app>
+                        <ptr target="#UTC20.S002n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S267a">
+                            <!--UTC20.S267n-->
+                            <rdg wit="#era">act so?&#8221; &#182; <hi rend="bold">
+                                    &#8220;Dunno, missis&#8212;I spects cause</hi>
+                                I&#x2019;s so </rdg>
+                            <rdg wit="#j2v">act so?&#8221; &#182; <hi rend="bold">
+                                    &#8220;Dunno, Missis,&#8212;I spects cause</hi>
+                                I&#x2019;s so </rdg>
+                            <rdg wit="#jpb">act so?&#8221; &#182; <hi rend="bold">
+                                    &#8220;Dunno, Missis,&#8212;I spects cause</hi>
+                                I&#x2019;s so </rdg>
+                            <rdg wit="#jil">act so?&#8221; &#182; <hi rend="bold">
+                                    &#8220;Dun no, missis,&#8212;I spects cause</hi>
+                                I&#x2019;s so </rdg>
+                            <rdg wit="#ho">act so?&#8221; &#182; <hi rend="bold">
+                                    &#8220;Dunno, Missis,&#8212;I spects
+                                    &#x2019;cause</hi> I&#x2019;s so </rdg>
+                        </app>
+                        <ptr target="#UTC20.S267n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S269a">
+                            <!--UTC20.S269n-->
+                            <rdg wit="#era">Topsy.&#8221; &#182; &#8220;Law, <hi
+                                    rend="bold">missis,</hi> you must</rdg>
+                            <rdg wit="#j2v">Topsy.&#8221; &#182; &#8220;Law, <hi
+                                    rend="bold">Missis,</hi> you must</rdg>
+                            <rdg wit="#jpb">Topsy.&#8221; &#182; &#8220;Law, <hi
+                                    rend="bold">Missis,</hi> you must</rdg>
+                            <rdg wit="#jil">Topsy.&#8221; &#182; &#8220;Law, <hi
+                                    rend="bold">missis,</hi> you must</rdg>
+                            <rdg wit="#ho">Topsy.&#8221; &#182; &#8220;Law, <hi
+                                    rend="bold">Missis,</hi> you must</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S269a1">
+                            <!--UTC20.S269nb-->
+                            <rdg wit="#era">my old <hi rend="bold">missis</hi> allers whipped</rdg>
+                            <rdg wit="#j2v">my old <hi rend="bold">Missis</hi> allers whipped</rdg>
+                            <rdg wit="#jpb">my old <hi rend="bold">Missis</hi> allers whipped</rdg>
+                            <rdg wit="#jil">my old <hi rend="bold">missis</hi> allers whipped</rdg>
+                            <rdg wit="#ho">my old <hi rend="bold">Missis</hi> allers whipped</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S270a">
+                            <!--UTC20.S270b-->
+                            <rdg wit="#era">me. I <hi rend="bold">aint</hi> used to</rdg>
+                            <rdg wit="#j2v">me. I <hi rend="bold">an&#x2019;t</hi> used to</rdg>
+                            <rdg wit="#jpb">me. I <hi rend="bold">an&#x2019;t</hi> used to</rdg>
+                            <rdg wit="#jil">me. I <hi rend="bold">an&#x2019;t</hi> used to</rdg>
+                            <rdg wit="#ho">me. I <hi rend="bold">an&#x2019;t</hi> used to</rdg>
+                        </app>
+                        <ptr target="#UTC20.S056n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S270a1">
+                            <!--AU177693-->
+                            <rdg wit="#era">used to <hi rend="bold">workin</hi> unless I</rdg>
+                            <rdg wit="#j2v">used to <hi rend="bold">workin&#x2019;</hi> unless
+                                I</rdg>
+                            <rdg wit="#jpb">used to <hi rend="bold">workin&#x2019;</hi> unless
+                                I</rdg>
+                            <rdg wit="#jil">used to <hi rend="bold">workin&#x2019;</hi> unless
+                                I</rdg>
+                            <rdg wit="#ho">used to <hi rend="bold">workin&#x2019;</hi> unless
+                                I</rdg>
+                        </app>
+                        <ptr target="#UTC20.S270an" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S273a">
+                            <!--UTC20.S273n-->
+                            <rdg wit="#era">won&#x2019;t?&#8221; &#182; &#8220;Laws,
+                                    <hi rend="bold">missis,</hi> I&#x2019;s used</rdg>
+                            <rdg wit="#j2v">won&#x2019;t?&#8221; &#182; &#8220;Laws,
+                                    <hi rend="bold">Missis,</hi> I&#x2019;s used</rdg>
+                            <rdg wit="#jpb">won&#x2019;t?&#8221; &#182; &#8220;Laws,
+                                    <hi rend="bold">Missis,</hi> I&#x2019;s used</rdg>
+                            <rdg wit="#jil">won&#x2019;t?&#8221; &#182; &#8220;Laws,
+                                    <hi rend="bold">missis,</hi> I&#x2019;s used</rdg>
+                            <rdg wit="#ho">won&#x2019;t?&#8221; &#182; &#8220;Laws,
+                                    <hi rend="bold">Missis,</hi> I&#x2019;s used</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S275a">
+                            <!--UTC20.S275n-->
+                            <rdg wit="#era">whole a&#64256;air. &#182; <hi rend="bold">
+                                    &#8220;La,</hi> Miss Feely</rdg>
+                            <rdg wit="#j2v">whole a&#64256;air. &#182; <hi rend="bold">
+                                    &#8220;Law,</hi> Miss Feely</rdg>
+                            <rdg wit="#jpb">whole a&#64256;air. &#182; <hi rend="bold">
+                                    &#8220;Law,</hi> Miss Feely</rdg>
+                            <rdg wit="#jil">whole a&#64256;air. &#182; <hi rend="bold">
+                                    &#8220;Law,</hi> Miss Feely</rdg>
+                            <rdg wit="#ho">whole a&#64256;air. &#182; <hi rend="bold">
+                                    &#8220;Law,</hi> Miss Feely</rdg>
+                        </app>
+                        <ptr target="#UTC20.S275n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S278a">
+                            <!--UTC20.S278n-->
+                            <rdg wit="#era">peculiarly distinguishing. &#182; <hi rend="bold">
+                                    &#8220;La,</hi> you niggers,&#8221;</rdg>
+                            <rdg wit="#j2v">peculiarly distinguishing. &#182; <hi rend="bold">
+                                    &#8220;Law,</hi> you niggers,&#8221;</rdg>
+                            <rdg wit="#jpb">peculiarly distinguishing. &#182; <hi rend="bold">
+                                    &#8220;Law,</hi> you niggers,&#8221;</rdg>
+                            <rdg wit="#jil">peculiarly distinguishing. &#182; <hi rend="bold">
+                                    &#8220;Law,</hi> you niggers,&#8221;</rdg>
+                            <rdg wit="#ho">peculiarly distinguishing. &#182; <hi rend="bold">
+                                    &#8220;Law,</hi> you niggers,&#8221;</rdg>
+                        </app>
+                        <ptr target="#UTC20.S278n"/>
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S280a">
+                            <!--UTC20.S280n-->
+                            <rdg wit="#era">ones; but <hi rend="bold">lor, ye aint</hi> any on</rdg>
+                            <rdg wit="#j2v">ones; but <hi rend="bold">lor! ye an&#x2019;t</hi>
+                                any on</rdg>
+                            <rdg wit="#jpb">ones; but <hi rend="bold">Lor! ye an&#x2019;t</hi>
+                                any on</rdg>
+                            <rdg wit="#jil">ones; but <hi rend="bold">lor! ye an&#x2019;t</hi>
+                                any on</rdg>
+                            <rdg wit="#ho">ones; but <hi rend="bold">lor! ye an&#x2019;t</hi>
+                                any on</rdg>
+                        </app>
+                        <ptr target="#UTC20.S280n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S282a">
+                            <!--UTC20.S282n-->
+                            <rdg wit="#era">nobody do <hi rend="bold">nothin</hi> with me.</rdg>
+                            <rdg wit="#j2v">nobody do <hi rend="bold">nothin&#x2019;</hi> with
+                                me.</rdg>
+                            <rdg wit="#jpb">nobody do <hi rend="bold">nothin&#x2019;</hi> with
+                                me.</rdg>
+                            <rdg wit="#jil">nobody do <hi rend="bold">nothin&#x2019;</hi> with
+                                me.</rdg>
+                            <rdg wit="#ho">nobody do <hi rend="bold">nothin&#x2019;</hi> with
+                                me.</rdg>
+                        </app>
+                        <ptr target="#UTC20.S282n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S283a">
+                            <!--UTC20.S282n-->
+                            <rdg wit="#era">keep old <hi rend="bold">missis</hi> a swarin </rdg>
+                            <rdg wit="#j2v">keep old <hi rend="bold">Missis</hi> a
+                                swarin&#x2019; </rdg>
+                            <rdg wit="#jpb">keep old <hi rend="bold">Missis</hi> a
+                                swarin&#x2019; </rdg>
+                            <rdg wit="#jil">keep old <hi rend="bold">Missis</hi> a
+                                swarin&#x2019; </rdg>
+                            <rdg wit="#ho">keep old <hi rend="bold">Missis</hi> a swarin&#x2019;
+                            </rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S283a1">
+                            <!--UTC20.S283na-->
+                            <rdg wit="#era">missis a <hi rend="bold">swarin</hi> at me</rdg>
+                            <rdg wit="#j2v">missis a <hi rend="bold">swarin</hi> at me</rdg>
+                            <rdg wit="#jpb">missis a <hi rend="bold">swarin</hi> at me</rdg>
+                            <rdg wit="#jil">missis a <hi rend="bold">swarin&#x2019;</hi> at
+                                me</rdg>
+                            <rdg wit="#ho">missis a <hi rend="bold">swarin</hi> at me</rdg>
+                        </app>
+                        <ptr target="#UTC20.S138n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S283a2">
+                            <!--UTC20.S283nb-->
+                            <rdg wit="#era">me half <hi rend="bold">de</hi> time. I</rdg>
+                            <rdg wit="#j2v">me half <hi rend="bold">de</hi> time. I</rdg>
+                            <rdg wit="#jpb">me half <hi rend="bold">de</hi> time. I</rdg>
+                            <rdg wit="#jil">me half <hi rend="bold">the</hi> time. I</rdg>
+                            <rdg wit="#ho">me half <hi rend="bold">de</hi> time. I</rdg>
+                        </app>
+                        <ptr target="#UTC20.S138n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S301a">
+                            <!--UTC20.S301n-->
+                            <rdg wit="#era">a fact, <hi rend="bold">cousin,&#8221;</hi> said
+                                St.</rdg>
+                            <rdg wit="#j2v">a fact, <hi rend="bold">Cousin,&#8221;</hi> said
+                                St.</rdg>
+                            <rdg wit="#jpb">a fact, <hi rend="bold">cousin,&#8221;</hi> said
+                                St.</rdg>
+                            <rdg wit="#jil">a fact, <hi rend="bold">cousin,&#8221;</hi> said
+                                St.</rdg>
+                            <rdg wit="#ho">a fact, <hi rend="bold">cousin,&#8221;</hi> said
+                                St.</rdg>
+                        </app>
+                        <ptr target="#UTC20.S002n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S303a">
+                            <!--UTC20.S303n-->
+                            <rdg wit="#era">discussion, with <hi rend="bold">her</hi> hands
+                                decently</rdg>
+                            <rdg wit="#j2v">discussion, with <hi rend="bold">[<hi rend="italic"
+                                        >omit</hi>]</hi> hands decently folded </rdg>
+                            <rdg wit="#jpb">discussion, with <hi rend="bold">[<hi rend="italic"
+                                        >omit</hi>]</hi> hands decently folded </rdg>
+                            <rdg wit="#jil">discussion, with <hi rend="bold">[<hi rend="italic"
+                                        >omit</hi>]</hi> hands decently folded </rdg>
+                            <rdg wit="#ho">discussion, with <hi rend="bold">[<hi rend="italic"
+                                        >omit</hi>]</hi> hands decently folded </rdg>
+                        </app>
+                        <ptr target="#UTC20.S303n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S307a">
+                            <!--UTC20.S307n-->
+                            <rdg wit="#era">Ophelia. &#182; &#8220;Please, <hi rend="bold"
+                                    >missis,</hi> was dat</rdg>
+                            <rdg wit="#j2v">Ophelia. &#182; &#8220;Please, <hi rend="bold"
+                                    >Missis,</hi> was dat</rdg>
+                            <rdg wit="#jpb">Ophelia. &#182; &#8220;Please, <hi rend="bold"
+                                    >Missis,</hi> was dat</rdg>
+                            <rdg wit="#jil">Ophelia. &#182; &#8220;Please, <hi rend="bold"
+                                    >missis,</hi> was dat</rdg>
+                            <rdg wit="#ho">Ophelia. &#182; &#8220;Please, <hi rend="bold"
+                                    >Missis,</hi> was dat</rdg>
+                        </app>
+                        <ptr target="#UTC20.S087n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S307a1">
+                            <!--UA178051-->
+                            <rdg wit="#era">dat ar <hi rend="bold">State</hi>
+                                Kintuck?&#8221; &#182; &#8220;What</rdg>
+                            <rdg wit="#j2v">dat ar <hi rend="bold">state</hi>
+                                Kintuck?&#8221; &#182; &#8220;What</rdg>
+                            <rdg wit="#jpb">dat ar <hi rend="bold">state</hi>
+                                Kintuck?&#8221; &#182; &#8220;What</rdg>
+                            <rdg wit="#jil">dat ar <hi rend="bold">state</hi>
+                                Kintuck?&#8221; &#182; &#8220;What</rdg>
+                            <rdg wit="#ho">dat ar <hi rend="bold">state</hi>
+                                Kintuck?&#8221; &#182; &#8220;What</rdg>
+                        </app>
+                        <ptr target="#UTC20.S307nb" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S308a">
+                            <!--UA178051-->
+                            <rdg wit="#era">Kintuck?&#8221; &#182; &#8220;What <hi
+                                    rend="bold">State,</hi> Topsy?&#8221; &#182;
+                                &#8220;Dat</rdg>
+                            <rdg wit="#j2v">Kintuck?&#8221; &#182; &#8220;What <hi
+                                    rend="bold">state,</hi> Topsy?&#8221; &#182;
+                                &#8220;Dat</rdg>
+                            <rdg wit="#jpb">Kintuck?&#8221; &#182; &#8220;What <hi
+                                    rend="bold">state,</hi> Topsy?&#8221; &#182;
+                                &#8220;Dat</rdg>
+                            <rdg wit="#jil">Kintuck?&#8221; &#182; &#8220;What <hi
+                                    rend="bold">state,</hi> Topsy?&#8221; &#182;
+                                &#8220;Dat</rdg>
+                            <rdg wit="#ho">Kintuck?&#8221; &#182; &#8220;What <hi
+                                    rend="bold">state,</hi> Topsy?&#8221; &#182;
+                                &#8220;Dat</rdg>
+                        </app>
+                        <ptr target="#UTC20.S307nb" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S309a">
+                            <!--UTC20.S309n-->
+                            <rdg wit="#era">to hear <hi rend="bold">mass&#x2019;r</hi> tell
+                                how</rdg>
+                            <rdg wit="#j2v">to hear <hi rend="bold">Mas&#x2019;r</hi> tell
+                                how</rdg>
+                            <rdg wit="#jpb">to hear <hi rend="bold">Mas&#x2019;r</hi> tell
+                                how</rdg>
+                            <rdg wit="#jil">to hear <hi rend="bold">mas&#x2019;r</hi> tell
+                                how</rdg>
+                            <rdg wit="#ho">to hear <hi rend="bold">Mas&#x2019;r</hi> tell
+                                how</rdg>
+                        </app>
+                        <ptr target="#UTC20.S020n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S019a">
+                            <!--UTC20.S019n-->
+                            <rdg wit="#era">new mistress. <hi rend="bold">I&#x2019;m</hi> going
+                                to</rdg>
+                            <rdg wit="#j2v">new mistress. <hi rend="bold">I&#x2019;m</hi> going
+                                to</rdg>
+                            <rdg wit="#jpb">new mistress. <hi rend="bold">I am</hi> going to</rdg>
+                            <rdg wit="#jil">new mistress. <hi rend="bold">I&#x2019;m</hi> going
+                                to</rdg>
+                            <rdg wit="#ho">new mistress. <hi rend="bold">I&#x2019;m</hi> going
+                                to</rdg>
+                        </app>
+                        <ptr target="#UTC20.S019n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S038a">
+                            <!--UTC20.S038n-->
+                            <rdg wit="#era">there are <hi rend="bold">enough now in your house</hi>
+                                to take</rdg>
+                            <rdg wit="#j2v">there are <hi rend="bold">enough now, in your
+                                    house,</hi> to take</rdg>
+                            <rdg wit="#jpb">there are <hi rend="bold">enough, now in your
+                                    house,</hi> to take</rdg>
+                            <rdg wit="#jil">there are <hi rend="bold">enough now, in your
+                                    house,</hi> to take</rdg>
+                            <rdg wit="#ho">there are <hi rend="bold">enough now, in your house,</hi>
+                                to take</rdg>
+                        </app>
+                        <ptr target="#UTC20.S038n" />
+                    </item>
+                    <item>
+                        <app loc="#UTC20.S284a">
+                            <!--UTC20.S284n-->
+                            <rdg wit="#era">the wickedest <hi rend="bold">critter</hi> in the</rdg>
+                            <rdg wit="#j2v">the wickedest <hi rend="bold">critter</hi> in the</rdg>
+                            <rdg wit="#jpb">the wickedest <hi rend="bold">critter</hi> in the</rdg>
+                            <rdg wit="#jil">the wickedest <hi rend="bold">critter</hi> in the</rdg>
+                            <rdg wit="#ho">the wickedest <hi rend="bold">crittur</hi> in the</rdg>
+                        </app>
+                        <ptr target="#UTC20.S284n" />
+                    </item>
+                </list>
+            </div>
+            <div type="notes">
+                <note type="fluid-narr" xml:id="UTC20.R289n" target="#UTC20.R289">
+                    <title>Topsy&#x2019;s Plan for Heaven</title>
+                   
+                    
+                    <p>This brief exchange between St. Clare and Topsy is present only in 
+                        the Jewett &#8220;Million&#8221; (1852/53) edition. Because
+                        the exchange echoes other instances of faulty theological doctrine in the novel, it must be
+                        authorial even though it does not appear 
+                        in the earlier <hi rend="italic">National Era</hi> installment,
+                        inthe Jewett first (1852) and &#8220;Illustrated&#8221; (1853) editions,
+                        or in the Hougton Osgood &#8220;New Edition &#8221; (1879).
+                        One infers, then, that Stowe prepared this revised text for the benefit of
+                        a particular audience, those who could afford the cheapest edition and might succumb
+                        to the seductive hope that the Christian afterlife of the servant
+                        depends on the piety of the mistress. </p>
+                    <p>Though her theological doctrine is faulty, Topsy, perhaps unwittingly, critiques
+                        Ophelia&#x2019;s emphasis on procedure and rules rather than love. 
+                        Topsy appears to believe that Miss Ophelia is bound for a Christian heaven,
+                        but Topsy assumes also that Miss Ophelia&#x2019;s heaven would include a servant
+                        like herself who is capable of performing duties to Miss Ophelia&#x2019;s  satisfaction.
+                        Topsy joins two previous characters in the text who appear to hold a delusive
+                        hope in a theologically doubtful plan for heaven, Mr. Shelby and the slave trader Haley.
+                       Shelby&#x2019;s delusion is that he might gain heaven by his
+                        wife&#x2019;s &#8220;superabundance of qualities to which he had no
+                        particular pretension&#8221; (chap. 1; <hi rend="italic">Era</hi>, 5 Jun. 1851),
+                        and the slave trader
+                        Haley leavens his cruelty with humanity to
+                        gain &#8220;a better chance for comin&#x2019; in the kingdom at
+                        last&#8221; (chap. 8; <hi rend="italic">Era</hi>, 17 Jul. 1851).
+                        If hers is not a case of obvious self-delusion,
+                        Cassy also later in the novel will express a hope that
+                        &#8220;it can&#x2019;t be that the Lord will lay sin to
+                        our account&#8221; (chap. 34; <hi rend="italic">Era</hi>, chap. 33, 12 Feb. 1852).
+                        Topsy thus joins a range of characters
+                        in the novel who hope to avoid damnation but rely on doubtful theological grounds. </p>
+                    <p>The inclusion of Topsy&#x2019;s Plan for Heaven in the &#8220;Million&#8221; edition
+                        suggests that Stowe thought Topsy&#x2019;s sentiments uniquely suited for an audience
+                        lower on the social scale. But if these readers
+                        recognize Topsy&#x2019;s self-delusion, Stowe warns
+                        that Topsy has personal responsibility for her own salvation and
+                        cannot pass that responsibility to her mistress.
+                        Topsy&#x2019;s plan also echoes the doctrine of obedience 
+                        that some slaveholders preached to slaves.
+                        In Stowe&#x2019;s Christian doctrine, everyone has personal
+                        responsibility to achieve salvation, even a slave. </p>
+                    <p>Topsy&#x2019;s image of herself in heaven may comment on George
+                        Aiken&#x2019;s adaptation of the novel which ended, famously, with a
+                        grand tableau &#8220;representing Eva in heaven, amid clouds and a halo
+                        of glory, welcomed by angelic choirs, and accompanied by Uncle Tom and St.
+                        Clare.&#8221; Stowe also included a revised version of this passage in
+                        an adaptation for dramatic reading, <hi rend="italic">The Christian Slave,
+                        A Drama. Founded on a Portion of <hi rend="roman">Uncle Tom&#x2019;s
+                        Cabin</hi>. Dramatized by Harriet Beecher Stowe, Expressly for the Readings of
+                        Mrs. Mary E. Webb</hi> (Boston: Phillips, Sampson, 1855), p. 42.</p>
+                </note>
+                <note type="fluid-narr" xml:id="UTC20.headbn" target="#UTC20.headb">
+                    <title>Chapter Numbering</title>
+                    <p>The <hi rend="italic">National Era</hi> installment of the
+                        &#8220;Topsy&#8221; chapter appeared on 6 November 1851. The chapter
+                        is numbered XIX in the serial. The number XIX continues the chapter-number
+                        sequence in the serial, but the previous installment, 23 October, 
+                        had an error in the sequence. Note that the previous week, 30 October,
+                        is one in which no installment from <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>
+                        is published in the <hi rend="italic">Era</hi>.</p>
+                    <p>On 23 October, the installment was labeled
+                        &#8220;C<hi rend="small caps">hapter</hi> XVIII&#8212;<hi rend="italic">Continued</hi>.&#8221;
+                        A week earlier, 16 October, the serial installment had the same label,
+                        &#8220;C<hi rend="small caps">hapter</hi> XVIII&#8212;<hi rend="italic">Continued</hi>.&#8221;
+                        But the 16 October installment also included a chapter break that is
+                        labeled &#8220;C<hi rend="small caps">hapter</hi> XIX.&#8212;<hi rend="italic">St.
+                        Clare&#x2019;s History and Opinions</hi>,&#8221; a chapter division that is unique
+                        to the <hi rend="italic">Era</hi> version of the text.</p>
+                    <p>We infer that the 23 October chapter was numbered &#8220;18&#8221;
+                        because a newspaper compositor failed to notice the mid-column introduction
+                        of the new chapter named after St. Clare on 16 October.
+                        Therefore, though the chapter number XIX for the Topsy chapter
+                        continues the error from the previous installment,
+                        it continues the number sequence that began 
+                        with Chapter XVIII on 23 October and continued for the remainder of
+                        the serial run.</p>
+                    <p>The error in number sequence is scarcely noticeable in the serial. When
+                        the Jewett text was set into book form, Stowe or her publisher 
+                        may have decided to correct the error in the serial sequence by
+                        creating new chapter divisions, especially as the two chapters labeled as Miss
+                        Ophelia&#x2019;s opinions (XVIII and XIX) close the first volume and
+                        open the second volume of the Jewett first edition (1852). 
+                        The title of the previous chapter in the serial,
+                        &#8220;<hi rend="italic">St. Clare&#x2019;s History and Opinions</hi>&#8221; is a more
+                        apt description of the chapter&#x2019;s content.  
+                        Though Miss Ophelia&#x2019;s experiences are significant
+                        in the first of these two companion chapters, St. Clare&#x2019;s opinions dominate the second.
+                        That chapter titles were not a significant concern in the <hi rend="italic">Era</hi>
+                        is illustrated by the long series of untitled chapters 
+                        between &#8220;<hi rend="italic">Henrique</hi>&#8221; (20 Nov. 1851) and 
+                        &#8220;<hi rend="italic">The Martyr</hi>&#8221; (11 Mar. 1852). All 
+                        later reprints follow the Jewett edition chapter numbers and divisions.
+                    </p>
+                </note>
+                <!--Revision Narrative-->
+                <note type="fluid-narr" xml:id="UTC20.RO31n" target="#UTC20.R031b"
+                        ><title>Capitalization of Society</title>
+                    <!--UTC20.RO31n--> 
+                    <p>The capital &#8220;S&#8221; of Society in <hi rend="italic">National
+                    Era</hi> may refer to a particular beneficent society. Regardless of whether capitalized,
+                    Harriet Beecher Stowe&#x2019;s word is ambiguous, but capitalization may suggest a 
+                    group that serial readers would associate with membership
+                    in a national anti-slavery society. To join a 
+                    Society is to participate in recognized anti-slavery activism, which
+                    the subscribers to the <hi rend="italic">
+                    Era</hi> would hardly consider radical. To join a generic and lower-case 
+                    society, by contrast, could include beneficent activities of a local or limited scope,
+                    a form of political activism that St. Clare may dismiss as ineffective.</p>
+                    <p>Stowe&#x2019;s father Lyman Beecher actively promoted the Cincinnati
+                    Colonization Society, a branch of the American
+                    Colonization Society, which encouraged conciliation with advocates
+                    of slavery and hoped to limit the social
+                    disruption of anti-slavery activism. During the Lane Seminary Debates of 1834,
+                    Beecher&#x2019;s moderation was repudiated by Theodore Weld and his fellow students.
+                    Weld and the Lane Students approved the more radical policies of William Lloyd Garrison
+                    and the American Anti-Slavery Society, which advocated immediate emancipation.
+                    See Joan D. Hedrick, <hi rend="italic">Harriet Beecher Stowe: A Life</hi>
+                    (New York: Oxford University Press, 1994), 102&#8211;05; Thomas D. Matijasic,
+                    &#8220;The African Colonization Movement and Ohio&#x2019;s Protestant Community&#8221;
+                    <hi rend="italic">Phylon</hi> 46 (1985): 20.</p></note>
+                <note type="fluid-narr" xml:id="UTC20.R124n" target="#UTC20.R124b">
+                    <title>An American Spelling, Or an Error</title>
+                    <!--UTC20.R124n--> In the <hi rend="italic">National Era</hi> serial, the
+                    spelling &#8220;matrass&#8221; may be an error for
+                    &#8220;matress,&#8221; which Noah Webster in his <hi rend="italic">American
+                     Dictionary of the English Language</hi> (1830) considered the
+                    &#8220;more correct spelling.&#8221; The spelling
+                    &#8220;mattrass&#8221; (with two t&#x2019;s) was an acceptable
+                    alternative to &#8220;mattress.&#8221; While Stowe may use
+                    antiquated spelling &#8220;matrass,&#8221; with its loss of a &#8220;t&#8221;
+                    as an inflection from Webster, to comment on
+                    Miss Ophelia&#x2019;s old-fashioned notions, it is not Stowe&#x2019;s preferred spelling. In chapter 39 (<hi rend="italic">Era</hi>, chap. 38 [11 Mar. 1852]) Stowe uses the
+                    typical spelling in plural &#8220;mattresses.&#8221; Therefore, the
+                    <hi rend="italic">Era</hi> serial spelling is probably a typesetting error. </note>
+                <note type="fluid-narr" xml:id="UTC20.R195n" target="#UTC20.R195b">
+                    <title>Eva as Representative Child: To Speak for the World</title>
+                    <!--UTC20.R195n-->
+                    <p>In the <hi rend="italic">National Era</hi> serial, Evangeline St. Clare speaks on the
+                        world&#x2019;s behalf.  In later editions, commas set off 
+                        the phrase &#8220;for all the world.&#8221;</p>
+                    <p>
+                        At this moment, Eva censures Rosa&#x2019;s claim that
+                        African Americans can only be managed with recourse to violence.
+                        The revised form in book editions, &#8220;She can
+                        speak, for all the world, just like her papa,&#8221; 
+                        changes dramatically the sense of the statement. 
+                        The world, instead of speaking through Eva, is called
+                        upon to witness the extraordinary character of this
+                        child.  The insertion of these commas should probably be attributed to
+                        one of George C. Rand&#x2019;s compositors or to a
+                        John P. Jewett&#x2019;s proofreader. And while the alteration is in keeping
+                        with a more general effort to conform more closely to norms for syntactic punctuation,
+                        the textual alteration also mythologizes Eva as a model for others.
+                        In chapter 19 (<hi rend="italic">Era</hi> chap. 18 [23 Oct. 1851]), Augustine
+                        St. Clare uses the same phrase, set off by
+                        commas, when he refers to his own father and to Miss Ophelia&#x2019;s
+                        Vermont father as duplicates of one another. Eva&#x2019;s sympathy
+                        for enslaved African Americans derives in part from
+                        her father&#x2019;s influence. </p>
+                    
+                </note>
+                <note type="fluid-narr" xml:id="UTC20.R208n" target="#UTC20.R208b">
+                    <!--UTC20.R208n-->
+                    <title>Topsy as a Unique Child or as a Representative Slave Child</title>
+                    <p>If the word is &#8220;had,&#8221; the <hi rend="italic">National Era</hi>
+                        form, Topsy is singular to this work and a unique individual. As Topsy also
+                        participates in the &#8220;wench&#8221; stereotype
+                        of minstrelsy drama, the serial form asserts that Topsy as a unique individual
+                        transcends the stereotype that roots her in the tradition of a dramatic stock character.
+                        If the word is &#8220;has,&#8221; the version of all book forms,
+                        Topsy represents the neglected slave children still
+                        in bondage.  She is a propagandistic reminder
+                        that slavery permits the abuse of defenseless children.
+                    </p>
+                   
+                </note>
+                <note type="fluid-narr" xml:id="UTC20.R237n" target="#UTC20.R237b">
+                    <title>Reading as &#8220;Act&#8221; or &#8220;Art&#8221;</title>
+                    <!--UTC20.R237n-->
+                    <p>If Topsy&#x2019;s reading is an &#8220;act,&#8221; the <hi rend="italic">National Era</hi> form,
+                        the meaning of  a text is manifest in reading. If Topsy&#x2019;s reading is an &#8220;art,&#8221;
+                        the form in all three Jewett editions and the Houghton Osgood &#8220;New Edition&#8221;
+                        (1879), to arrive at meaning while reading demands active interpretation.
+                    The alteration site highlights the tension in Stowe&#x2019;s work
+                    between a transparent message that is available to all
+                    readers, including children and the lowly,  and the more complex messages
+                    that are accessible only to sophisticated readers.
+                    Soon Miss Ophelia will claim that Topsy, like all children, cannot be expected
+                    to understand the catechism passages that she repeats, but Topsy illustrates
+                    that she is a skeptical reader. </p>
+                    <p>
+                        At multiple points in the novel, Stowe condemns artful reading.
+                        For example, see chapter 14 (11 Sep. 1851) on Tom&#x2019;s reading of
+                        Scripture, where the text before him is
+                        &#8220;evidently true and divine.&#8221; Tom&#x2019;s reading is contrasted to
+                        Cicero&#x2019;s, which demands detailed study and the consultation of
+                        translations and annotations.  Stowe&#x2019;s most
+                        direct critique of artful reading is confined to one version of the text, 
+                        in chapter 12 of the <hi rend="italic">Era</hi> (28 Aug. 1851).
+                        There Stowe &#x2019;s narrator rebukes sophisticated readers,
+                        whom she designates satirically as a &#8220;philosophic friend,&#8221; 
+                        whose reading of Christian scripture is informed by Ralph
+                        Waldo Emerson&#x2019;s <hi rend="italic">Essays</hi>
+                        (1847) and Thomas Carlyle&#x2019;s
+                        <hi rend="italic">Critical and Miscellaneous Essays</hi> (1838). She contrasts
+                        such readers to Uncle Tom, who seeks consolation by reciting scripture to himself. 
+                        The satirical passage on Carlyle and Emerson was omitted for all editions
+                        after the <hi rend="italic">Era</hi>. The
+                        alteration of this word &#8220;act&#8221; may be in parallel to the earlier
+                        revision.</p>
+                    <p>
+                    The recognition of this  tension between plain and artful reading
+                    might be pressed further, to apply also to Stowe&#x2019;s novel as a whole.
+                    To highlight textual alteration is itself a particular type of reading,
+                    which claims, contrary to Stowe&#x2019;s advisory against
+                    Cicero&#x2019;s practice, that the analysis of
+                    textual complexity is an &#8220;art&#8221; with the potential to
+                    enrich the plain &#8220;act&#8221; of reading. 
+                   </p>
+                    
+                </note>
+                <note type="fluid-narr" xml:id="UTC20.R264n" target="#UTC20.R264b">
+                    <!--RS177668-->
+                    <title>Topsy&#x2019;s Head in the Pillows: &#8220;Putting&#8221; or &#8220;Butting&#8221;</title>
+                    <p>In the <hi rend="italic">Era</hi>, the narrator describes Topsy as
+                        &#8220;putting&#8221; her head among the pillows. In all subsequent editions,
+                        her act is described as &#8220;butting&#8221; rather than 
+                        &#8220;putting.&#8221; Whether either version is a typo
+                        or a deliberate authorial revision is impossible to determine.
+                        But if the Jewett two-volume edition (1852) has a typographical error, the
+                        error was repeated in
+                        the &#8220;Million&#8221; (1852/53) and the &#8220;Illustrated Edition&#8221; (1853).
+                        The Houghton Osgood &#8220;New Edition&#8221;
+                        (1879) also has &#8220;butting.&#8221;</p>
+                    <p>The <hi rend="italic">Era</hi> word &#8220;putting&#8221; is merely descriptive of Topsy&#x2019;s play; the word
+                        &#8220;butting&#8221; highlights Topsy&#x2019;s animalistic qualities.
+                        The popular George L. Aiken adaptation of the play (which debuted in Troy, NY in
+                        September 1852) advertised &#8220;Topsy butting the Yankee&#8221; (Aug. 1853)
+                        among its tableaux. In both the book printings and on the stage, the use of the word
+                        &#8220;butting&#8221; stressed Topsy&#x2019;s animal characteristics
+                        and codified the cultural currency of the Jewett editions form.
+                        </p>
+                </note>
+                <!--Substantive Variants-->
+                <note type="substantive" xml:id="UTC20.S002n" target="#UTC20.S002b">
+                    <!--UTC20.S002n-->
+                    <p>The word &#8220;Cousin,&#8221; when capitalized, suggests a formal title. Because
+                        &#8220;Cousin&#8221; is not a formal title, the reader infers that the use of 
+                        capitalization highlights the teasing quality of Augustine St. Clare&#x2019;s banter
+                        with Miss Ophelia. In the  <hi rend="italic">National Era</hi>, St. Clare
+                        only uses the upper-case form once in
+                        this chapter, when he first calls Miss Ophelia so that he can exhibit Topsy for her.
+                        In the two-volume Jewett edition (1852), St. Clare in this chapter uses the upper-case form
+                        &#8220;Cousin&#8221; whenever he addresses Miss Ophelia,
+                        which suggests that he continues to engage in teasing banter.</p>
+                    <p>By contrast, in all subsequent editions, the Jewett &#8220;Million&#8221; (1852/53)
+                        and &#8220;Illustrated&#8221; (1853) and the
+                        Houghton Osgood &#8220;New Edition&#8221; (1879), St. Clare always addresses
+                        Miss Ophelia with the lower-case form &#8220;cousin.&#8221; 
+                        If the text of the <hi rend="italic">Era</hi> serial reflects the manuscript, 
+                        Stowe intended originally to open the chapter with St. Clare&#x2019;s
+                        teasing of Miss Ophelia and then to assume the generic lower-case form of address,
+                        which implies greater sincerity in his later address to her. Either Stowe or a Jewett
+                        compositor chose to capitalize all instances of &#8220;Cousin&#8221; in
+                        the Jewett first edition. When the word is not capitalized,
+                        it tones down the satiric quality and instead
+                        emphasizes St. Clare&#x2019;s genuine insistence that
+                        Miss Ophelia&#x2019;s criticism of slavery as a system is pointless
+                        if not backed up with action.
+                       </p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S020n" target="#UTC20.S020b">
+                    <!--UTC20.S020n-->
+                    <p>In the <hi rend="italic">National Era</hi> serial,
+                        the lower-case form &#8220;mass&#x2019;r&#8221; predominates, which reflects
+                        the practice of lower-case &#8220;masser&#8221; in Stowe&#x2019;s manuscript.
+                        The Jewett two-volume (1852) and  &#8220;Million&#8221;
+                        editions (1852/53) use consistently the capitalized &#8220;Mas&#x2019;r.&#8221;
+                        In the Jewett &#8220;Illustrated Edition&#8221; (1853), an uncapitalized form
+                        of the word appears, &#8220;mas&#x2019;r.&#8221; The &#8220;Illustrated&#8221; 
+                        edition retains the dialect apostrophe of the two-volume
+                        and the &#8220;Million&#8221; editions, but its
+                        form &#8220;mas&#x2019;r,&#8221; like its form &#8220;missis,&#8221; 
+                        may imply that the title of master within slavery is an unlawful convention that
+                        should not be honored with capitalization. </p>
+                    <p>
+                        For the two-volume and  &#8220;Million&#8221;
+                        editions, the printer George C. Rand or publisher Jewett may
+                        have imposed&#8212;and Stowe may have accepted&#8212;the
+                        conventional capitalization of this word form, perhaps so that the
+                        Jewett editions could appeal to a broader audience
+                        than the <hi rend="italic">Era</hi>&#x2019;s anti-slavery readers.
+                        Stowe presumably sought to return the Jewett &#8220;Illustrated Edition&#8221;
+                        word to a form closer to the manuscript and serial practice. 
+                        If the more select audiences of the work in
+                        an anti-slavery newspaper and the &#8220;Illustrated&#8221;
+                        edition are expected to be more sympathetic to the anti-slavery cause,
+                        such readers may appreciate the subtle insinuation that linguistic
+                        conventions that are associated with courtesy
+                        support the perpetuation of slavery as an
+                        unlawful system. The Houghton Osgood 
+                        &#8220;New Edition&#8221; (1879) follows the practice of the
+                        two-volume Jewett edition. Also see variant dialect forms of missis.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S022n" target="#UTC20.S022b">
+                    <!--UTC20.S022n-->
+                    <p>The form &#8220;Oh&#8221; is more common in the <hi rend="italic">National
+                        Era</hi> serial and in Stowe&#x2019;s surviving manuscript
+                        pages. The form &#8220;O&#8221; is the printer&#x2019;s conventional spelling
+                    that predominates in the three Jewett editions. The Houghton Osgood 
+                    &#8220;New Edition&#8221; (1879) follows the practice of the first Jewett edition (1852).</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S025n" target="#UTC20.S025b">
+                    <!--UTC20.S025n-->
+                    <p>In this sentence of multiple parallel clauses, parts of clauses are dropped
+                        out when clauses of similar form are repeated.
+                        As the manuscript section is not extant, and as reason that
+                        &#8220;I&#8221; was retained or dropped is indifferent, the author,
+                        the printer George C. Rand&#x2019;s compositor, or 
+                        a Jewett proofreader may be responsible for the alteration.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S025bn" target="#UTC20.S025b1">
+                    <!--UTC20.S025bn-->
+                    <p>According to the <hi rend="italic">Oxford English Dictionary</hi>, the phrase
+                        &#8220;mopping and mowing&#8221; refers to grimacing and making
+                        faces. The <hi rend="italic">National Era</hi> serial form
+                        &#8220;moving&#8221; may represent an effort to avoid repetition
+                        of sense with the word &#8220;grinning.&#8221; But it is more likely that the newspaper
+                        serial form is an error that originates in the authorial manuscript
+                        or the serial typesetting, which is corrected
+                    in all subsequent editions.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S031n" target="#UTC20.S031b">
+                    <!--UTC20.S031n-->
+                    <p>In the <hi rend="italic">National Era</hi> serial, a comma follows
+                        &#8220;you,&#8221; and no exclamation mark precedes the em dash after
+                        &#8220;over.&#8221; The newspaper form 
+                        suggests that Augustine St. Clare implies a
+                        fault in Miss Ophelia&#x2019;s Christianity: the form of
+                        &#8220;Christians&#8221; is an aspect that she wears, with
+                        an emphasis on outer appearance. The reading is inferred based on
+                        voice inflection that the rhetorical style
+                        of pointing permits.
+                        In  the Jewett editions, two-volume (1852), 
+                        &#8220;Million&#8221; (1852/53), and &#8220;Illustrated&#8221; (1853), and 
+                        in the Houghton Osgood &#8220;New Edition&#8221; (1879), 
+                        all of which use syntactic
+                        punctuation, St. Clare labels Miss Ophelia a representative Christian, and
+                    the exclamation mark emphasizes his act of labeling.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S049n" target="#UTC20.S049b">
+                    <!--UTC20.S049n-->
+                    <p>The capitalized form &#8220;Mas&#x2019;r,&#8221; which
+                        typically appears in the Jewett two-volume (1852) 
+                        and &#8220;Million&#8221; edition (1852/53) and the
+                        Houghton Osgood &#8220;New Edition&#8221; (1879), is
+                        in this instance retained in the &#8220;Illustrated Edition&#8221; (1853).
+                        The <hi rend="italic">National Era</hi> serial has its
+                        usual lower-case form &#8220;mass&#x2019;r,&#8221; which follows the
+                        capitalization practice of the surviving manuscript pages.</p>
+                    <p>Since the &#8220;Illustrated Edition&#8221; generally
+                        has the form &#8220;mas&#x2019;r,&#8221; 
+                        Dinah&#x2019;s use of the capitalized form may
+                        represent a compositor&#x2019;s oversight. However,
+                        Dinah in these words notes her disapproval of her master Augustine St. Clare&#x2019;s
+                        purchase of Topsy. To readers accustomed with the usual capitalization practice in
+                        this edition, Dinah&#x2019;s word form could suggest that
+                        she adopts deliberately the most sycophantic form of address 
+                        to soften her critique of St. Clare&#x2019;s act.
+                        Also see variant dialect forms of master and missis.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S051n" target="#UTC20.S051b">
+                    <!--UTC20.S051n-->
+                    <p>In the surviving manuscript pages and the <hi rend="italic">National Era</hi> serial,
+                        the lower-case form &#8220;mass&#x2019;r&#8221; is predominant. In the 
+                        Jewett &#8220;Illustrated Edition&#8221; (1853),
+                        the lower-case form &#8220;mas&#x2019;r&#8221; is
+                        predominant. The lower-case form
+                        may indicate that the title &#8220;Master,&#8221; like
+                        &#8220;Missis,&#8221; is an unwarranted convention. 
+                        In the Jewett two-volume (1852) and &#8220;Million&#8221; (1852/53) editions,
+                        the publisher may have imposed&#8212;and Stowe may have
+                        accepted&#8212;the conventional and capitalized dialect form &#8220;Mas&#x2019;r.&#8221; The
+                        Houghton Osgood &#8220;New Edition&#8221; (1879) reflects the capitalization and dialect
+                        form of the first Jewett edition. </p>
+                    
+                    <p>For the two-volume and  &#8220;Million&#8221;
+                    editions, the printer George C. Rand or publisher John P. Jewett may
+                    have imposed&#8212;and Stowe may have accepted&#8212;the
+                    conventional capitalization of this word form, perhaps so that the
+                    Jewett editions could appeal to a broader audience
+                    than the <hi rend="italic">Era</hi>&#x2019;s anti-slavery readers.
+                    Stowe presumably sought to return the Jewett &#8220;Illustrated Edition&#8221;
+                    word to a form closer to the manuscript and serial practice. 
+                    If the more select audiences of the work in
+                    an anti-slavery newspaper and the &#8220;Illustrated&#8221;
+                    edition are expected to be more sympathetic to the anti-slavery cause,
+                    such readers may appreciate the subtle insinuation that linguistic
+                    conventions that are associated with courtesy
+                    support the perpetuation of slavery as an
+                    unlawful system. Also see the variant dialect forms of missis.</p>
+                    
+                  
+                </note>
+                <note type="substantive" xml:id="UTC20.S056n" target="#UTC20.S056b">
+                    <!--UTC20.S056n-->
+                    <p>The <hi rend="italic">National Era</hi> serial reflects Stowe&#x2019;s
+                        manuscript preference for &#8220;aint,&#8221; which publisher John P. Jewett
+                        normalized to &#8220;an&#x2019;t&#8221; in the two-volume (1852),
+                        &#8220;Million&#8221; (1852/53), and &#8220;Illustrated&#8221; (1853) editions.
+                        The Houghton Osgood &#8220;New Edition&#8221; (1879) continued the practice. 
+                        The form &#8220;aint&#8221; implies a pejorative difference in class,
+                        region, or race. The form &#8220;an&#x2019;t&#8221;
+                        also departs from conventional English, but the form is less pejorative and emphasizes
+                        instead pronunciation. The execution of dialect is defensible for mid-century 
+                        standards of consistency for spelling but
+                        faulty by standards of the late nineteenth
+                        or the early twentieth century.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S067n" target="#UTC20.S067b">
+                    <!--UTC20.S067n-->
+                    <p>In  the surviving manuscript pages, the <hi rend="italic">National Era</hi> serial,
+                        and the Jewett &#8220;Illustrated Edition&#8221; (1853), the lower-case form
+                        &#8220;mass&#x2019;r&#8221; or
+                        &#8220;mas&#x2019;r&#8221; is predominant. The lower-case form
+                        may indicate that the title of &#8220;Master,&#8221; like
+                        &#8220;Missis,&#8221; is an unwarranted convention.
+                        In the Jewett two-volume (1852) and &#8220;Million&#8221; editions (1852/53)
+                        and the Houghton Osgood &#8220;New Edition&#8221; (1879), the publisher may
+                        have imposed&#8212;and Stowe may have accepted&#8212;the
+                        conventional capitalization of this word form. The choice in capitalization may reflect
+                        judgment about the audience of each publication form. If the select readers of the work in
+                        the anti-slavery <hi rend="italic">Era</hi> newspaper and
+                        the &#8220;Illustrated Edition&#8221; are anticipated
+                        to be more sympathetic to the anti-slavery cause, the lower-case form
+                        could suggest that the upper-case title is unwarranted.
+                        Sympathetic readers may
+                        appreciate the subtle insinuation that courtesy contributes to the
+                        support of slavery as an unlawful system. Also see the
+                        variant dialect forms of missis.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S087n" target="#UTC20.S087b">
+                    <!--APU77220-->
+                    <p>In the surviving manuscript pages, the <hi rend="italic">National Era</hi>
+                        serial, and the Jewett &#8220;Illustrated Edition&#8221; (1853), 
+                        the lower-case form  &#8220;missis&#8221; is predominant. A
+                        lower-case form may indicate that the title &#8220;Missis,&#8221; like
+                        &#8220;Mas&#x2019;r,&#8221; is a convention of courtesy that should be questioned.  In the
+                        Jewett two-volume (1852) and &#8220;Million&#8221; editions (1852/53)
+                        and the Houghton Osgood &#8220;New Edition&#8221; (1879), the
+                        publisher or printer may have imposed&#8212;and Stowe may have
+                        accepted&#8212;the conventional forms. The choice in capitalization may reflect
+                        judgment about the audience of each publication form. 
+                        If the select readers of the work in
+                        the anti-slavery <hi rend="italic">Era</hi> newspaper and
+                        the &#8220;Illustrated Edition&#8221; are anticipated
+                        to be more sympathetic to the anti-slavery cause, the lower-case form
+                        could suggest that the upper-case title is unwarranted.
+                        Sympathetic readers may
+                        appreciate the subtle insinuation that courtesy contributes to the
+                        support of slavery as an unlawful system.  Also see the dialect forms of master.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S090n" target="#UTC20.S090b">
+                    <!--UTC20.S090n-->
+                    <p>In  the surviving manuscript pages, the <hi rend="italic">National Era</hi>
+                        serial, and the Jewett &#8220;Illustrated Edition&#8221; (1853), 
+                        the lower-case form  &#8220;missis&#8221; is predominant. A
+                        lower-case form may indicate that the title &#8220;Missis,&#8221; like
+                        &#8220;Mas&#x2019;r,&#8221; is an unwarranted convention. In the 
+                        Jewett two-volume (1852) and &#8220;Million&#8221; edition (1852/53)
+                        and the Houghton Osgood &#8220;New Edition&#8221; (1879), the
+                        publisher or printer may have imposed&#8212;and Stowe may have
+                        accepted&#8212;the conventional form. The choice in capitalization may reflect
+                        judgment about the audience of each publication form. 
+                        If the select readers of the work in the <hi rend="italic">Era</hi>  and
+                        the Jewett &#8220;Illustrated Edition&#8221;  are anticipated
+                        to be more sympathetic to the anti-slavery cause, they may be more likely
+                        to appreciate the subtle insinuation that courtesy contributes to the
+                        support of slavery as an unlawful system. The lower-case form
+                        could suggest that the upper-case title is unwarranted. Also see the dialect forms of master.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S093n" target="#UTC20.S093b">
+                    <!--UTC20.S093n-->
+                    <p>In  the  surviving manuscript pages, the <hi rend="italic">National Era</hi>
+                        serial and the Jewett &#8220;Illustrated Edition&#8221; (1853), the lower-case form
+                        &#8220;missis&#8221; is predominant. A
+                        lower-case form may indicate that the title &#8220;Missis,&#8221; like
+                        &#8220;Master,&#8221; is an unwarranted convention.  In the 
+                        Jewett two-volume (1852) and &#8220;Million&#8221; edition (1852/53)
+                        and the Houghton Osgood &#8220;New Edition&#8221; (1879), the
+                        publisher or printer may have imposed&#8212;and Stowe may have
+                        accepted&#8212;the conventional form.  The choice in capitalization may reflect
+                        judgment about the audience of each publication form.
+                        If the select readers of the work in
+                        the <hi rend="italic">Era</hi> newspaper and the Jewett &#8220;Illustrated Edition&#8221;  are
+                        anticipated to be more sympathetic to the anti-slavery cause, they may be more likely
+                        to appreciate the subtle insinuation that courtesy contributes to the
+                        support of slavery as an unlawful system. The lower-case form
+                        could suggest that the upper-case title is unwarranted. Also see the dialect forms of master.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S102n" target="#UTC20.S102b">
+                    <p>In  the  surviving manuscript pages, the <hi rend="italic">National Era</hi>
+                        serial and the Jewett &#8220;Illustrated Edition&#8221; (1853), the lower-case form
+                        &#8220;missis&#8221; is predominant. A
+                        lower-case form may indicate that the title &#8220;Missis,&#8221; like
+                        &#8220;Mas&#x2019;r,&#8221; is an unwarranted convention. In the 
+                        Jewett two-volume (1852) and &#8220;Million&#8221; edition (1852/53)
+                        and the Houghton Osgood &#8220;New Edition&#8221; (1879), the
+                        publisher or printer may have imposed&#8212;and Stowe may have
+                        accepted&#8212;the conventional form.  The choice in capitalization may reflect
+                        judgment about the audience of each publication form.
+                        If the select readers of the work in
+                        the <hi rend="italic">Era</hi> newspaper and the Jewett &#8220;Illustrated  
+                        Edition&#8221; are anticipated to be more sympathetic to the anti-slavery cause, they may be more likely
+                        to appreciate the subtle insinuation that courtesy contributes to the
+                        support of slavery as an unlawful system. The lower-case form
+                        could suggest that the upper-case title is unwarranted. Also see dialect forms of master.</p>
+                    <!--UTC20.S102n-->
+                </note>
+                <note type="substantive" xml:id="UTC20.S108n" target="#UTC20.S108b">
+                    <!--UTC20.S108n-->
+                    <p>The capitalization of &#8220;Cousin&#8221; suggests a formal title or
+                        the teasing quality of St. Clare&#x2019;s banter with Miss Ophelia. The
+                        lower-case form may indicate a greater personal connection or sincerity. In
+                        general, the <hi rend="italic">National Era</hi> serial has lower-case
+                        &#8220;cousin,&#8221; the Jewett two-volume edition (1852) has capital
+                        &#8220;Cousin,&#8221; the Jewett &#8220;Million&#8221; edition (1852/53) has lower-case
+                        &#8220;cousin,&#8221; and the Houghton Osgood &#8220;New Edition&#8221; (1879) has
+                        lower-case &#8220;cousin.&#8221; Also see capitalization of varying dialect forms of master.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S138n" target="#UTC20.S138b">
+                    <!--UTC20.S138n-->
+                    <p>In the Jewett &#8220;Illustrated Edition&#8221; (1853) Topsy&#8217;s dialect form
+                        &#8220;declar&#8221; is corrected to &#8220;declare&#8221;; &#8220;dis yer&#8221;
+                        to &#8220;this yer&#8221;; &#8220;swarin&#8221; to &#8220;swarin&#x2019;&#8202;&#8221;;
+                        and &#8220;de time&#8221; to &#8220;the time.&#8221; The Jewett
+                        &#8220;Illustrated Edition&#8221; has fewer dialect word forms and greater use of
+                        apostrophes to indicate omitted letters, to an extent that suggests
+                        systematic alteration. By comparison with the other editions, the use of typical English
+                        word forms rather than dialect may reflect the influence of Miss Ophelia&#x2019;s
+                        training. Stowe or her publisher may have altered 
+                        the dialect practice for the more select audience of the &#8220;Illustrated Edition&#8221;
+                        to suggest the efficacy of educational reform efforts.
+                        </p>  </note>
+                <note type="substantive" xml:id="UTC20.S142bn" target="#UTC20.S145b">
+                    <!--UTC20.S142bn-->
+                    <p>A paragraph break after &#8220;her&#8221; is removed in the Jewett &#8220;Illustrated
+                        Edition&#8221; (1853), presumably because Miss Ophelia remains the speaker.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S171n" target="#UTC20.S171b">
+                    <!--UTC20.S171n-->
+                    <p>The closing quotation mark in the Jewett &#8220;Illustrated
+                        Edition&#8221; (1853) is an error </p>
+                </note>
+                <note type="substantive" xml:id="UTC20.180n" target="#UTC20.S180a1">
+                    <!--UTC20.S180n-->
+                    <p>In the Jewett &#8220;Million&#8221; edition (1852/53),  Topsy&#8217;s dialect form 
+                        &#8220;nothin&#8221; lacks an apostrophe, which recalls the practice for
+                        dialect spelling in
+                        the <hi rend="italic">National Era</hi> serial and Stowe&#8217;s
+                        manuscript. This is one of two instances in the 
+                        &#8220;Million&#8221; edition in which Topsy&#8217;s word &#8220;nothin&#8221;
+                        lacks an apostrophe. The
+                        absence of the apostrophe could suggest to readers that Topsy is unaware of proper
+                        spelling and pronunciation. As the word &#8220;nothin&#8221; 
+                        departs from the usual practice of including dialect apostrophes in the
+                        &#8220;Million&#8221; edition, the apostrophe&#8217;s absence 
+                        puts special emphasis on the word, which
+                        Topsy uses to emphasize her lack of parents and the absence of
+                        matters to confess. Because apostrophes remain in two instances of this
+                        word in Topsy&#8217;s speech,
+                        a compositor&#8217;s inadvertent error seems more probable than authorial alteration.
+                        The Jewett two-volume first edition (1852)
+                        and &#8220;Illustrated Edition&#8221; (1853) and the
+                        Houghton Osgood &#8220;New Edition&#8221; (1879) follow their usual practice of
+                        including apostrophes for the omitted letter.</p>
+                </note>
+                
+                
+                
+                <note type="substantive" xml:id="UTC20.S197n" target="#UTC20.S197b">
+                    <!--UTC20.S197n-->
+                    <p>In the Jewett &#8220;Million&#8221; edition (1852/53) the word
+                        &#8220;the&#8221; is omitted, presumably because a compositor
+                        erred. But the effect, in the &#8220;Million&#8221; edition,
+                        is to imply that extremes other than these two, Topsy and Eva, could exist. 
+                        If the two children are &#8220;representatives of the two extremes,&#8221; 
+                        as the text reads in all other editions, only two extremes exist.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S224n" target="#UTC20.S224b">
+                    <!--UTC20.S224n-->
+                    <p>The phrase &#8220;once and a while,&#8221; though deprecated in
+                        modern usage manuals, was used elsewhere by Stowe and appears to reflect her
+                        preference. The 
+                        <hi rend="italic">National Era</hi> serial, the Jewett two-volume (1852) and the
+                        &#8220;Illustrated Edition&#8221; (1853) use the less familiar form.
+                        The phrase &#8220;once in a while&#8221; was more
+                        common, but the alteration to the more familiar phrase in the
+                        Jewett &#8220;Million&#8221; edition (1852/53) and
+                        the Houghton Osgood &#8220;New Edition&#8221; (1879) is more
+                        likely to reflect a compositor&#x2019;s or
+                        proofreader&#x2019;s preference than authorial correction.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S267n" target="#UTC20.S267b">
+                    <!--UTC20.S267n-->
+                    <p>In this famous line, Topsy asserts that her quality of being wicked
+                       explains her sinful behavior, lying.
+                       She also reflects Miss Ophelia&#x2019;s opinion and recycles the term
+                       &#8220;wicked&#8221; that Miss Ophelia had used to refer to her
+                       act of stealing the ribbon. Miss Ophelia implies that
+                       Topsy&#x2019;s innate wickedness explains her stealing, and Topsy
+                       adapts to the suggestion by repeating it back to Miss Ophelia. The variant capitalization
+                       forms may inflect subtly the quality of their relationship. If the term
+                       &#8220;Missis&#8221; is capitalized, which it is
+                       in the Jewett two-volume (1852) and &#8220;Million&#8221; (1852/53) edition
+                       and the Houghton Osgood &#8220;New Edition&#8221; (1879),
+                     Topsy&#x2019;s ability to adapt to conventional expectations may be implied. 
+                     If &#8220;missis&#8221; is not capitalized, the form of the <hi rend="italic">National Era</hi>
+                        serial and the Jewett &#8220;Illustrated Edition&#8221; (1853), Topsy may resist conventional
+                     expectations. However, the reader&#x2019;s perception of Topsy&#x2019;s resistance
+                     by this form of capitalization would inflect the reading of the entire chapter
+                     because it conforms to the general practice of capitalization in these
+                     editions.
+                   </p>
+                    <p>Based on the surviving manuscript pages, <hi rend="italic">Era</hi>
+                        serial and the &#8220;Illustrated Edition&#8221; (1853), Stowe for the word
+                        &#8220;missis&#8221; probably preferred the lower-case form. A
+                        lower-case form may indicate that the title &#8220;Missis,&#8221; like
+                        &#8220;Mas&#x2019;r,&#8221; is an unwarranted convention. In
+                        the  two-volume (1852) and &#8220;Million&#8221; (1852/53) edition
+                        and the &#8220;New Edition&#8221; (1879), 
+                        the publisher may have imposed&#8212;and Stowe may have
+                        accepted&#8212;the conventional form. The choice may depend on audience.
+                        If readers of work in the <hi rend="italic">Era</hi> and
+                        select readers of the  &#8220;Illustrated
+                        Edition&#8221; are more sympathetic to the anti-slavery cause, they may be more likely
+                        to appreciate the subtle insinuation that courtesy contributes to the
+                        support of slavery as an unlawful system. Also see dialect forms of master.</p>
+                    <p>The apostrophe in &#8220;&#8239;&#x2019;cause,&#8221; which appears in
+                        the Houghton Osgood &#8220;New Edition&#8221; (1879), is probably a
+                        compositor&#x2019;s alteration without authorial authority.</p> 
+                
+                </note>
+                <note type="substantive" xml:id="UTC20.S270an" target="#UTC20.S270a1">
+                    <!--UTC20.S270bn-->
+                    <p>The word &#8220;workin&#8221; in the <hi rend="italic">National Era</hi>
+                        serial reflects the typical typesetting practice in that version, which has fewer
+                        apostrophes to indicate elided letters. The serial version is closer to
+                        Stowe&#x2019;s manuscript practice. An apostrophe is added in the Jewett
+                        two-volume (1852), &#8220;Million&#8221; (1852/53), and &#8220;Illustrated&#8221; (1853)
+                        editions and the Houghton Osgood &#8220;New Edition&#8221; (1879).
+                    </p>
+                   
+                </note>
+                <note type="substantive" xml:id="UTC20.S275n" target="#UTC20.S275a">
+                    <!--UTC20.S278n-->
+                    <p>Both interjections, &#8220;La&#8221; and &#8220;Law,&#8221;
+                        are common, and the distinction does not appear to be systematic in the
+                        <hi rend="italic">National Era</hi> serial. However,
+                        the interjection &#8220;La&#8221; is a seemingly meaningless interjection
+                        whereas the pronunciation &#8220;Law&#8221; in the Jewett
+                        two-volume (1852), &#8220;Million&#8221; (1852/53), and &#8220;Illustrated&#8221; (1853)
+                        editions and the Houghton Osgood &#8220;New Edition&#8221; could imply that whipping
+                        is tolerated in part on the basis of legal statute.
+                        Topsy, by suggesting a connection between law and
+                        cruelty, may provide in her pronunciation another reminder that slavery is
+                        both unlawful and cruel.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S278n" target="#UTC20.S278b">
+                    <!--UTC20.S278n-->
+                    <p>Both interjections, &#8220;La&#8221; and &#8220;Law,&#8221;
+                        are common, and the distinction does not appear to be systematic in the
+                        <hi rend="italic">National Era</hi> serial. However,
+                        the interjection &#8220;La&#8221; in the serial is a seemingly meaningless interjection
+                        whereas the pronunciation &#8220;Law&#8221; the Jewett
+                        two-volume (1852) and &#8220;Million&#8221; (1852/53) and &#8220;Illustrated&#8221; (1853)
+                        editions and the Houghton Osgood &#8220;New Edition&#8221;  (1879)
+                        could imply that &#8220;you niggers&#8221;
+                        are defined as &#8220;sinners&#8221; in part on the basis of legal statute.
+                        Topsy, by suggesting a connection between law and
+                        sin, may provide in her pronunciation another subtle reminder that slavery is
+                        both unlawful and sinful.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S280n" target="#UTC20.S280b">
+                    <!--UTC20.S280n-->
+                    <p>The capitalization of &#8220;Lor&#8221; in the Jewett &#8220;Million&#8221;
+                        edition (1852/53) is
+                        presumably a compositor&#x2019;s alteration, but Topsy&#x2019;s use of the capitalized word form
+                   and thus her emphatic naming of the Christian deity engages in a more pointed disruption
+                   of religious propriety for the audience of the &#8220;Million&#8221; edition.</p>
+
+                </note>
+                <note type="substantive" xml:id="UTC20.S282n" target="#UTC20.S282a">
+                    <!--UTC20.S282n-->
+                    <p>The form &#8220;nothin&#8221; reflects the typical
+                        <hi rend="italic">National Era</hi> serial practice, which has fewer apostrophes to indicate
+                        elided letters. The serial form is closer to Stowe&#x2019;s manuscript
+                        practice. Also see the form &#8220;declar&#8221; or &#8220;declare.&#8221;</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S283na" target="#UTC20.S283b">
+                    <!--UTC20.S283na--> 
+                    <p>In the Jewett &#8220;Illustrated Edition&#8221; (1853), Topsy&#8217;s dialect form
+                        &#8220;declar&#8221; is corrected to &#8220;declare&#8221;; &#8220;dis yer&#8221;
+                        to &#8220;this yer&#8221;; &#8220;swarin&#8221; to &#8220;swarin&#x2019;&#8202;&#8221;;
+                        and &#8220;de time&#8221; to &#8220;the time.&#8221; The 
+                        &#8220;Illustrated Edition&#8221; has fewer dialect word forms and greater use of
+                        apostrophes to indicate omitted letters, to an extent that suggests
+                        systematic alteration. By comparison with the other editions, the use of typical English
+                        word forms rather than dialect may reflect the influence of Miss Ophelia&#x2019;s
+                        training. Stowe or her publisher may have altered 
+                        the dialect practice for the more select audience of the &#8220;Illustrated Edition&#8221;
+                        to suggest the efficacy of educational reform efforts. </p>
+                
+                </note>
+                <note type="substantive" xml:id="UTC20.S283nb" target="#UTC20.S283b2">
+                    <!--UTC20.S283nb--> 
+                    <p>In the Jewett &#8220;Illustrated Edition&#8221; (1853) Topsy&#8217;s dialect form
+                        &#8220;declar&#8221; is corrected to &#8220;declare&#8221;; &#8220;dis yer&#8221;
+                        to &#8220;this yer&#8221;; &#8220;swarin&#8221; to &#8220;swarin&#x2019;&#8202;&#8221;;
+                        and &#8220;de time&#8221; to &#8220;the time.&#8221; The 
+                        &#8220;Illustrated Edition&#8221; has fewer dialect word forms and greater use of
+                        apostrophes to indicate omitted letters, to an extent that suggests
+                        systematic alteration. By comparison with the other editions, the use of typical English
+                        word forms rather than dialect may reflect the influence of Miss Ophelia&#x2019;s
+                        training. Stowe or her publisher may have altered 
+                        the dialect practice for the more select audience of the &#8220;Illustrated Edition&#8221;
+                        to suggest the efficacy of educational reform efforts. </p>
+                
+                </note>
+                <note type="substantive" xml:id="UTC20.S303n" target="#UTC20.S303b">
+                    <!--UTC20.S303n-->
+                    <p>The phrase &#8220;with hands decently folded,&#8221; 
+                        the form in the Jewett first (1852) and all subsequent editions,
+                        suggests greater agency on Topsy&#x2019;s part. The placement of &#8220;her&#8221; in phrase
+                        &#8220;with her hands&#8221; diminishes Topsy&#x2019;s agency and 
+                        increases the prominence of the observer. The emphasis for this
+                        form is Miss Ophelia&#x2019;s astonishment. As Stowe emphasizes Topsy&#x2019;s
+                        agency, the <hi rend="italic">National Era</hi> serial form is probably
+                        an authorial revision or a compositor&#x2019;s error.
+                    </p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S307nb" target="#UTC20.S307b1">
+                    <!--UA178051-->
+                    <p>In the <hi rend="italic">National Era</hi> serial,
+                        &#8220;State,&#8221; &#8220;North&#8221; and
+                        &#8220;South&#8221; are typically capitalized. Because <hi rend="italic">Era</hi> editor
+                        Gamaliel Bailey in his editorials drew a strong distinction
+                        between Slave Power and the Free States, the serial audience
+                        may have been more sympathetic to a sharper distinction between designations
+                        for region and for state. The lower-case form in all three Jewett editions lessened
+                        sectional distinctions. The capitalized form for
+                        &#8220;State&#8221; would also have appealed to antebellum supporters
+                        of state&#x2019;s rights and slavery, but Stowe would not have advocated such a
+                        distinction. </p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S019n" target="#UTC20.S019b">
+                    <!--UTC20.S019n-->
+                    <p>The phrase &#8220;I am&#8221; in the Jewett &#8220;Million&#8221; edition (1852/53)
+                        is presumably an inadvertent compositorial expansion of Stowe&#x2019;s preferred
+                        contraction.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S038n" target="#UTC20.S038b">
+                    <!--UTC20.S038n-->
+                    <p>The <hi rend="italic">National Era</hi> serial often employs rhetorical
+                        punctuation, so no commas set off the adverbial modifier &#8220;now&#8221; to
+                        specify which aspect of Miss Ophelia&#x2019;s sentence it modifies.
+                        The vocal stress that the reader places on &#8220;now&#8221; determines whether Miss
+                        Ophelia intends the word to modify &#8220;enough&#8221; or the prepositional
+                        phrase &#8220;in your house.&#8221; If the former, Miss Ophelia places slightly
+                        greater emphasis on the presence of &#8220;enough&#8221; slaves. If the
+                        latter, she places slightly greater emphasis on the house&#x2019;s capacity for
+                        additional slaves. </p>
+                    <p> The Jewett first edition (1852) and &#8220;Illustrated Edition&#8221; (1853)
+                        and the Houghton Osgood &#8220;New Edition&#8221; (1879) provide more
+                        conventional, but differing,
+                        syntactic punctuation forms, &#8220;enough now,&#8221; by which Miss Ophelia
+                        may imply that her ability to tolerate additional slaves has reached its limit.
+                        The punctuation of the Jewett &#8220;Million&#8221; edition (1852/53), with a comma after
+                        &#8220;enough,&#8221; offers a quizzical distinction, which places a
+                        slightly greater emphasis on the word &#8220;now,&#8221; perhaps to indicate
+                        a rhetorical possibility that is also suggested if commas are omitted,
+                        that a domestic household has a finite capacity for slave children.</p>
+                </note>
+                <note type="substantive" xml:id="UTC20.S284n" target="#UTC20.S284b">
+                    <!--UTC20.S284n-->
+                    <p>Both forms, &#8220;critter&#8221; and &#8220;crittur,&#8221;
+                        are common in all published versions. The form &#8220;critter&#8221;
+                        is more frequent in the <hi rend="italic">National Era</hi> and
+                        the Jewett two-volume (1852), &#8220;Million&#8221; (1852/53),
+                        and &#8220;Illustrated&#8221; (1853) editions.
+                        The spelling &#8220;crittur&#8221; predominates in the Houghton Osgood &#8220;New
+                        Edition&#8221; (1879).
+                    </p>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

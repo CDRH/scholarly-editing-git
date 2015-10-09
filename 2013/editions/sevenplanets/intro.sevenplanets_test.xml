@@ -1,0 +1,2869 @@
+
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Trinity Seven Planets</title>
+            <respStmt>
+               <resp>Transcription, encoding and writing introductory essay</resp>
+               <name xml:id="ah">Alpo Honkapohja</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2012</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno type="file">intro.sevenplanets</idno>
+            <idno type="edition">sevenplanets</idno>
+            <authority>Scholarly Editing: The Annual of the Association for Documentary
+               Editing</authority>
+            <address><addrLine>http://www.scholarlyediting.org</addrLine></address>
+            <publisher>Association for Documentary Editing</publisher>
+            <publisher>University of NebraskaLincoln</publisher>
+            <distributor>
+               <name>Center for Digital Research in the Humanities</name>
+               <address>
+		                <addrLine>319 Love Library</addrLine>
+		                <addrLine>University of NebraskaLincoln</addrLine>
+		                <addrLine>Lincoln, NE 68588-4100</addrLine>
+		                <addrLine>http://cdrh.unl.edu</addrLine>
+		            </address>
+            </distributor>
+            <date>2012</date>
+            <availability>
+               <p>Scholary Editing: The Annual of the Association for Documentary Editing is freely
+                  distributed by the Association for Documentary Editing and the Center for Digital
+                  Research in the Humanities at the University of Nebraska-Lincoln and licensed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+                  License</p>
+               <p>The Manuscript images are made available with the kind permission of the Master
+                  and Fellows of Trinity College Cambridge</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+               Editing</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name xml:id="ag">Amanda Gailey</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name xml:id="awj">Andrew Jewell</name>
+            </respStmt>
+            <idno type="vol">34</idno>
+            <idno type="ISSN">2167-1257</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2012-05-31" who="#ah">Converted from a docx.file, did some formatting, added
+            header </change>
+         <change when="2012-06-28" who="#awj">added idno elements in publicationStmt to follow
+            journal tagging conventions; added seriesStmt for Scholarly Editing in fileDesc</change>
+         <change when="2012-08-08" who="#ah">Changed footnotes to conform to house style.</change>
+         <change when="2012-08-15" who="#ah">revised the contents slightly, added one reference to
+            bibliography</change>
+         <change when="2012-08-16" who="#ah">added dimensions in pixels to image files</change>
+         <change when="2012-08-17" who="#ah">deleted some empty w and seg elements which were left
+            in the conversion</change>
+         <change when="2012-09-14" who="#ah">added figure-elements around graphic-elements to enable
+            captions and easier formatting</change>
+         <change when="2012-09-19" who="#awj">added head elements to figures using the text in
+            figDesc to enable caption styling; added @type='enlargeOnClick' to select images for
+            styling</change>
+         <change when="2012-09-24" who="#awj">Pasted in the style guide written by AH before the
+            glossary</change>
+         <change when="2012-10-04" who="#ah">changed two punctuation marks from PUA character
+            references to ASCII symbols</change>
+         <change when="2012-10-10" who="#ah">changed "tilde" to ~</change>
+         <change when="2013-01-25" who="#ah">made changes suggested by referee1</change>
+         <change when="2013-01-28" who="#ah">made changes suggested by referee1</change>
+         <change when="2013-01-29" who="#ah">made changes suggested by referee1</change>
+         <change when="2013-01-31" who="#awj">added "media/" to image URLs in a few
+            instances</change>
+         <change when="2013-02-07" who="#awj">rearranged the order of the notes and bibliography;
+            changed the head on the bibliography from "References" to "Bibliography"</change>
+         <change when="2013-02-27" who="#ah">copied notes formatted by a copy-editor over the old
+            notes and bibliography.</change>
+         <change when="2013-02-28" who="#ah">carried out language revisions made by the
+            copy-editor</change>
+         <change when="2013-03-01" who="#ah">fixed a couple of typos; made changes suggested by
+            referee2</change>
+         <change when="2013-03-05" who="#ah">fixed one typo</change>
+         <change when="2013-03-05" who="#awj">added ref tags to make links out of URLs in
+            notes</change>
+         <change when="2013-03-06" who="#ah">added acknowledgements</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>The Trinity Seven Planets</head>
+            <byline>Alpo Honkapohja</byline>
+            <div>
+               <head>Introduction</head>
+               <p>The late medieval manuscript Trinity College Cambridge O.1.77 (henceforth Trinity
+                  O.1.77) contains a Middle English treatise on the Seven Planets, which is located
+                  as the final item in a sequence of astrological treatises and is not found in any
+                  of the related manuscripts.<ptr target="#note1" xml:id="nr1" n="1"/> The
+                  manuscript dates from 14591460, or slightly earlier, and shares a number of texts
+                  with the so-called Sloane Group of Middle English manuscripts, which have
+                  attracted scholarly interest, because they may be evidence of systematic book
+                  production in the London metropolitan area prior to Caxton and the first printing
+                  press.</p>
+               <p>Unlike other Middle English items in the manuscript,<ptr target="#note2"
+                     xml:id="nr2" n="2"/> this treatise on Seven Planets has hitherto not appeared
+                  in a modern edition. The present edition will remedy the situation, contributing
+                  to the growing number of Middle English scientific and medical texts made
+                  available in scholarly editions in recent decades. Since the manuscript was
+                  connected to commercial book production in the fifteenth century, the edition will
+                  also contribute to this thriving area of scholarship.</p>
+               <p>The treatise is of interest both from a linguistic point of view, as it contains a
+                  unique translation of a Latin work, and from sociohistorical point of view, as it
+                  gives us information on which types of texts were available for the newly literate
+                  middle classes.<ptr target="#note3" xml:id="nr3" n="3"/></p>
+               <p>The edition has two goals:</p>
+               <list type="ordered">
+                  <item>To present the information faithfully and without editorial intervention, in
+                     order to be of maximum use for historical linguistics.</item>
+                  <item>To be readable to undergraduates and others interested in late medieval
+                     astrology. Thus, the text is also available with a detailed glossary, for the
+                     items that require it.</item>
+               </list>
+            </div>
+            <div>
+               <head>Background</head>
+               <p>The time when the <hi rend="italic">The Trinity Seven Planets</hi> was copied
+                  coincides with a period of popularity for astrological medicine, which was in the
+                  fourteenth and fifteenth centuries.<ptr target="#note4" xml:id="nr4" n="4"/> I
+                  briefly discuss two possible explanations for this, related to catastrophes that
+                  affected medieval Europe in general and medieval England in particular.</p>
+               <p>First, astrological medicine may have been a reaction to the major epidemic that
+                  swept across Europe between 1346 and 1352.<ptr target="#note5" xml:id="nr5" n="5"
+                  /> Described in contemporary sources as "plague" or "pestilence," it and the many
+                  subsequent epidemics that followed in its wake in the following decades and
+                  centuries killed approximately one-third of the population.<ptr target="#note6"
+                     xml:id="nr6" n="6"/> Plague was a challenge to contemporary medical theory,
+                  since it killed people regardless of their complexion, with no respect for the
+                  intricate system of oppositions on which traditional Galenic, Hippocratic, and
+                  Aristotelian medicine was based on.<ptr target="#note7" xml:id="nr7" n="7"/></p>
+               <p>It is important not to overstate this crisis,<ptr target="#note8" xml:id="nr8"
+                     n="8"/> as manuscript sources testify to continuity rather than upheaval.
+                  However, it is quite likely that the greater emphasis on astrological phenomena
+                  was at least partly caused by the plague<ptr target="#note9" xml:id="nr9" n="9"
+                  />. It had become customary to attribute the outbreak of the first epidemic to the
+                  conjunction of three planets, Mars, Saturn, and Jupiter, in 1345, which had
+                  poisoned the air with a lethal miasma.<ptr target="#note10" xml:id="nr10" n="10"
+                  /></p>
+               <p>Another explanation, related more specifically to England, was the Hundred Years'
+                  War and the Wars of the Roses. Because times were very uncertain, people turned to
+                  astrology and other forms of divination for guidance. The 1450s and 1460s saw
+                  England losing territories in France, King Henry VI suffering fits of insanity,
+                  the rebellion of Jack Cade, and the Wars of the Roses erupting with first blood
+                  drawn in St. Albans in 1455.<ptr target="#note11" xml:id="nr11" n="11"/> The
+                  thirty-year power struggle between Yorkists and Lancastrians was particularly
+                  perilous for higher nobility, who were too important not to get politically
+                  involved but, on picking the wrong allegiance, faced the risk of prompt execution,
+                  whereas soldiers of lower rank were often pardoned.<ptr target="#note12"
+                     xml:id="nr12" n="12"/> Civilian population too had its share of horrors, though
+                  neither side in the civil war treated civilians brutally as an intentional
+                     policy,<ptr target="#note13" xml:id="nr13" n="13"/> unlike in some other
+                  medieval conflicts. It is therefore not surprising to see interest in divination
+                  arise in various contexts, not only in the court and the universities, but also
+                  among more middle-class audiences, such as merchants, artisans, or members of
+                  religious orders.<ptr target="#note14" xml:id="nr14" n="14"/></p>
+               <p>It seems quite likely that both plague and war contributed in some degree to the
+                  vast body of astrological and astro-medical texts that survives, particularly from
+                  the second half of the fifteenth century.<ptr target="#note15" xml:id="nr15"
+                     n="15"/> The texts come in many different levels of sophistication, ranging
+                  from university treatises that discuss astronomy or theories derived from Greek
+                  and Arabic sources, to horoscopes of royalty, both official and unofficial, as
+                  well as portable calendars for physicians and popular moon books, which equate
+                  each planet with a day of the week.<ptr target="#note16" xml:id="nr16" n="16"/>
+                  These manuscripts, more often than not, contain several languages, testifying to a
+                  complicated linguistic situation and challenging any simplified notions of clear
+                  division between learned Latin and popular vernacular.<ptr target="#note17"
+                     xml:id="nr17" n="17"/></p>
+               <p>It has to be noted that it is misleading to assume a neat distinction between
+                  astronomy, which can with a good reason be called the first empirical science,<ptr
+                     target="#note18" xml:id="nr18" n="18"/> and astrology, which we are used to
+                  dismissing as a pseudoscience. The terms were used interchangeably, and if a
+                  distinction was made, it was between theoretical and applied aspects of the art,
+                  following Ptolemy.<ptr target="#note19" xml:id="nr19" n="19"/> Despite being based
+                  on premises that from a modern point of view are false, astrology had a logical,
+                  self-consistent foundation in Aristotelian physics<ptr target="#note20"
+                     xml:id="nr20" n="20"/> and was assumed to follow the principles of cause and
+                  effect. As such, it differed from magic and occult, "in which the theoretical
+                  basis" was "deliberately kept esoteric."<ptr target="#note21" xml:id="nr21" n="21"
+                  /></p>
+               <p>Astrology was less a separate discipline than a generally accepted aspect of the
+                  medieval worldview.<ptr target="#note22" xml:id="nr22" n="22"/> It was "rarely
+                  viewed as unworkable in principle" and was considered relevant for many things,
+                  including weather forecasting and agriculture.<ptr target="#note23" xml:id="nr23"
+                     n="23"/> Astrology had also been incorporated into the teaching of university-trained physicians. It belonged to the <hi rend="italic">quadrivium</hi>, the
+                  higher part of the undergraduate degree. But astronomy played the biggest part in
+                  the postgraduate faculty of medicine, and students who specialized in it were
+                  expected to have more advanced knowledge of astronomy,<ptr target="#note24"
+                     xml:id="nr24" n="24"/> but as mentioned above, much of the surviving
+                  astro-medical literature is more utilitarian in its focus, and the theoretical
+                  content is simplified.</p>
+            </div>
+            <div>
+               <head>Trinity O.1.77 and the "Sloane" Group of Middle English Manuscripts</head>
+               <p>The text edited here survives in Trinity College Cambridge O.1.77, a medical
+                  handbook containing texts on medicine, alchemy, and astrology. The manuscript was
+                  described by Voigts in relation to what she calls the Sloane Group of Middle
+                  English manuscripts.<ptr target="#note25" xml:id="nr25" n="25"/> The reason for
+                  the name is that many of the manuscripts were part of the collection of Sir Hans
+                  Sloane, one of the three collections on which the British Library was based.</p>
+               <p>The Sloane Group, as defined by Voigts,<ptr target="#note26" xml:id="nr26" n="26"
+                  /> consists of two groups. Six of the manuscripts share a number of physical
+                  similarities. They are all copied on quarto-sized paper,<ptr target="#note27"
+                     xml:id="nr27" n="27"/> with a very distinctive <hi rend="italic"
+                     >mise-en-page</hi>, characterized by wide margins: the writing frame varies
+                  between 120 by 72 mm and 130 (in one instance 143) by 95 mm. Voigts calls these
+                  the "core group," featuring a set of recurring hands, most of which use a very
+                  compressed form of Secretary script. The six manuscripts she includes in the group are BL
+                  Sloane 1118, Sloane 1313, Sloane 2320, Sloane 2567, Sloane 2948 and the BL
+                  Additional MS 19674. The core manuscripts do not contain any overlapping texts,
+                  but are united by a shared subject matter: medicine, astrology, alchemy, and
+                  magic.</p>
+               <p>Trinity O.1.77, on the other hand, is part of a latter group, which vary more in
+                  terms of their physical appearance but share a number of recurring treatises.
+                  These include three "siblings," Trinity O.1.77, Boston Countway Library of
+                  Medicine MS 19, and BL Sloane 3566, which are smaller in size than the
+                  quarto-manuscripts and two lavish postmedieval (1480s1490s) deluxe codices, Tokyo
+                  Takamiya 33 and Gonville and Caius 336/725, which Voigts calls "the second
+                  generation of a family that has grown prosperous."<ptr target="#note28"
+                     xml:id="nr28" n="28"/> One of the core group manuscripts, Sloane 2320, forms a
+                  link between the two groups, as it also contains shared texts of the sibling
+                  group.</p>
+               <p>In addition, there are a number of manuscripts that cannot be said to qualify for
+                  either group, but do display some resemblance. Oxford Bodleian Library MS
+                  Rawlinson C.815, a medical codex written in 1554, contains two leaves in the end
+                  that display all the characteristics of the core group. One section in British
+                  Library Additional MS 5467, ff. 195204, has a somewhat similar <hi rend="italic"
+                     >mise-en-page</hi>. Wellcome Historical Medical Library MS 784 shares one
+                  plague treatise with the sibling manuscripts, and the writing area is of a similar
+                  size to the core group. However, the hand and the watermarks are not. Voigts
+                  treats these three under the label "some family resemblance."<ptr target="#note29"
+                     xml:id="nr29" n="29"/></p>
+               <p>The Sloane manuscripts have evoked interest for two reasons: (1) they may be
+                  evidence of systematic commercial production of medical texts, in London or its
+                  surrounding areas, slightly before Caxton and the first printing press,<ptr
+                     target="#note30" xml:id="nr30" n="30"/> and (2) Latin and English seem to be
+                  on the same level in them. The English texts do not directly gloss the Latin ones,
+                  and the contents in both languages are of equal sophistication.<ptr
+                     target="#note31" xml:id="nr31" n="31"/></p>
+               <p>There are some external pieces of evidence that connect these manuscripts to the book
+                  trade in London or the surrounding suburbs.<ptr target="#note32" xml:id="nr32"
+                     n="32"/> The BL Additional MS 5467, although its relevance for the group can be
+                  contested, contains items translated by John Shirley, known for his activities as
+                  a scribe, translator, and book collector in mid-fifteenth-century London.<ptr
+                     target="#note33" xml:id="nr33" n="33"/> The core group manuscript Sloane 2948
+                  has a scribal signature stating it was copied in London in July 1462, in the
+                  second year in the reign of Edward IV.<ptr target="#note34" xml:id="nr34" n="34"/>
+                  In the case of one sibling manuscript, Boston MS 19, both the commissioner and
+                  scribe are known. The manuscript was copied by the Westminster scribe William
+                  Ebesham for John Paston II.<ptr target="#note35" xml:id="nr35" n="35"/> Moreover,
+                  the manuscript can be dated and localized with unusual precision, since it is
+                  apparent from the Paston letters that Ebesham undertook the work of copying a
+                  "litill booke of pheesyk" during summer 1468, when Paston was in France for the
+                  wedding of Princess Margaret of York. Ebesham, at the time, was confined to
+                  Westminster on account of his debts.<ptr target="#note36" xml:id="nr36" n="36"
+                  /></p>
+               <p>Professional book production<ptr target="#note37" xml:id="nr37" n="37"/> is
+                  suggested by the fact that in each of the sibling manuscripts the sibling sequence
+                  of texts is written by a single scribe, a different scribe for each
+                     manuscript,<ptr target="#note38" xml:id="nr38" n="38"/> who is able to maintain
+                  consistent quality and clear duct throughout the whole sequence. All the
+                  manuscripts have uniform layout throughout the sibling sequence of texts. The
+                  quality of workmanship in all of them can be deemed to be on a professional level.
+                  Two of them are deluxe items, the rest display good craftsmanship. The material is
+                  paper for Trinity O.1.77, Boston MS 19, and Sloane 2320. Sloane 3566 is on
+                  parchment, as are the two postmedieval codices Gonville and Caius 336/725 and
+                  Tokyo Takamiya 33, which is unusual for medical manuscripts as late as the 1480s
+                  or 1490s and points more toward their being upmarket items.</p>
+               <p>According to Voigts, the Sloane Group manuscripts are important because "they
+                  suggest a uniformity and co-ordination in late medieval English book production
+                  that has not hitherto been noted."<ptr target="#note39" xml:id="nr39" n="39"/> She
+                  further states that "it appears that an individual or a group co-ordinated and
+                  exercised control over the subject matter and presentation of these books. Such a
+                  publisher, who seems to have specialized in scientific and medical books in the
+                  1450s and 1460s, must have been responsible for the uniformity of the Sloane
+                     Group."<ptr target="#note40" xml:id="nr40" n="40"/></p>
+               <div>
+                  <head>Shared Treatises in Trinity O.1.77 and the Sloane Siblings</head>
+                  <p>As mentioned above, the five Sloane sibling manuscripts are united by a kind of
+                     "set text" of joint treatises, after which <hi rend="italic">The Trinity Seven
+                        Planets</hi> appears as an extra item. The sequence of texts can be found in
+                     all the Sloane siblings, even though there may be some minor variation in
+                     order, and the two large postmedieval codices omit some texts. The set texts
+                     can also be found in one of the core group manuscripts, Sloane 2320, in which
+                     it forms an individual booklet at the beginning of the codex.</p>
+                  <p>In this section, I discuss this group in some detail. These texts represent
+                     standardization and attempts at producing copies of popular texts as
+                     efficiently as possible, which is the main reason why the Sloane Group is
+                     considered important evidence of organized book production before printing.
+                     These texts are also the main context for <hi rend="italic">The Trinity Seven
+                        Planets</hi>, which appears integrated into the predominantly Latin
+                     astrological section of the manuscript.</p>
+                  <p>The collection of texts provides information on how to make a prognosis based
+                     on uroscopy or astrology, as well as information on diet, laxative and
+                     purgative medicines, and treatments for the plague.<ptr target="#note41"
+                        xml:id="nr41" n="41"/> The organization resembles, among others, the
+                     commonplace book compiled by John Crophill, bailiff at Wix Priory in Essex from
+                     1455 to 1477, which now survives as BL MS Harley 1735, or the astro-medical
+                     handbook BL Sloane 1315.<ptr target="#note42" xml:id="nr42" n="42"/> The
+                     difference is that in the case of the Sloane siblings, almost identical copies
+                     of the same texts are found, in the same order, in several
+                     commercially produced manuscripts.</p>
+                  <figure type="enlargeOnClick">
+                     <head>The figure illustrates this sequence of texts in Trinity O.1.77.</head>
+                     <figDesc>The figure illustrates this sequence of texts in Trinity
+                        O.1.77.</figDesc>
+                     <graphic n="1001" height="600px" url="media/image1.jpg" rend="inline"/>
+                  </figure>
+                  <p>The anthology starts with a text on laxative, digestive, and purgative remedies
+                     (1). It is followed by three uroscopical treatises, two in Middle English (2
+                     &amp; 3) and one in Latin (4). Text number 5 is a regimen of health, presented
+                     as Aristotle's letter to Alexander the Great (5), after which are two short
+                     texts containing instructions for manufacturing "aqua mirabilis" (6 &amp; 7).
+                     The next three texts are all different versions of the same plague treatise
+                     attributed to John of Burgundy (810), and contain essentially the same
+                        information.<ptr target="#note43" xml:id="nr43" n="43"/> The anthology
+                     concludes with a sequence of astrological texts (1116).</p>
+                  <p>The sequence of set texts includes items that are known only from the Sloane
+                     siblings, as well as very common ones that could be termed, rather
+                     anachronistically, as "best sellers" among medical texts in late medieval
+                     England and are encountered in numerous manuscripts. The former includes the
+                     treatise on laxative and purgative remedies (1) and the shorter Latin uroscopy
+                     text <hi rend="italic">expositiones urinarum in ordine</hi> (4), which are
+                     known only from Sloane siblings.<ptr target="#note44" xml:id="nr44" n="44"/>
+                     The latter includes uroscopical treatises <hi rend="italic">Practica
+                        Urinarum</hi> (2) and especially the <hi rend="italic">Twenty-Jordan
+                        Series</hi> (3), which survives in more than fifty manuscripts.<ptr
+                        target="#note45" xml:id="nr45" n="45"/> The plague treatises attributed to
+                     John of Burgundy (810) are also of a very common type, known to be extant
+                     across Europe. The ubiquituous image of zodiac man (13) also has to be counted
+                     among these, since it survives in hundreds of astro-medical manuscripts from
+                     the eleventh century onward.<ptr target="#note46" xml:id="nr46" n="46"/></p>
+                  <p>
+                     <hi rend="italic">The Trinity Seven Planets</hi> is an interesting exception to
+                     this. All the other Middle English texts are popular items surviving in several
+                     manuscripts, but this manuscript, which does not differ so remarkably from the
+                     other two similar-sized ones, both of which appear to be the work of a
+                     professional scribe, contains a translation of an astrological text that is not
+                     known from other sources.</p>
+                  <figure type="enlargeOnClick">
+                     <head>The figure illustrates how <hi rend="italic">The Trinity Seven
+                           Planets</hi> is located within the manuscript. Texts copied in the hand
+                        of the main scribe are shown as continuous blocks; independent codicological
+                        units are shown as separate ones.</head>
+                     <figDesc>The figure illustrates how The Trinity Seven Planets is located within
+                        the manuscript; Texts copied in the hand of the main scribe are shown as
+                        continuous blocks; independent codicological units are shown as separate
+                        ones.</figDesc>
+                     <graphic n="1002" height="850px" url="media/image2.jpg" rend="inline"/>
+                  </figure>
+                  <p>In all the other manuscripts, except Boston MS 19, the treatises are
+                     accompanied by additional material. There is more variation in the astrological
+                     texts at the end of the shared "set texts" of Sloane siblings than there is in
+                     the preceding ones.<ptr target="#note47" xml:id="nr47" n="47"/> The two
+                     postmedieval deluxe codices, Takamiya 33 and Gonville and Caius 336/725, do not
+                     share with the other four manuscripts the astrological texts at the end, but
+                     they share a number of other texts with each other.</p>
+                  <p>Trinity O.1.77 differs from the other manuscripts by changing the order
+                        slightly,<ptr target="#note48" xml:id="nr48" n="48"/> and by including
+                     additional texts. The treatise on <hi rend="italic">Aqua Mirabilis &amp;
+                        Preciosa</hi> (7) is placed differently in this manuscript. In the other
+                     Sloane siblings it precedes the <hi rend="italic">Tractatus de Regimine
+                        Sanitatis</hi> (5).<ptr target="#note49" xml:id="nr49" n="49"/> The
+                     additional texts include a longer astrological section and two alchemical
+                     texts: the Pseudo-Arnaldian <hi rend="italic">De Vinis</hi> and John of
+                     Rupescissa's <hi rend="italic">Book of Quintessence</hi>.<ptr target="#note50"
+                        xml:id="nr50" n="50"/></p>
+                  <p>However, most importantly, the manuscript includes a longer astrological
+                     section than other Sloane sibling manuscripts. It is made of several texts, and
+                     the order corresponds roughly to the standard organization of astrological
+                     treatises found, for example, in the <hi rend="italic">Speculum
+                        Astronomiae</hi> or Nicole Oresme's <hi rend="italic">Livre de
+                        Divinacions</hi>, and which was derived from Arabic sources.<ptr
+                        target="#note51" xml:id="nr51" n="51"/></p>
+               </div>
+            </div>
+            <div>
+               <head>The Seven Planets</head>
+               <p>Found in a macaronic manuscript, in the middle of Latin texts, <hi rend="italic"
+                     >The Trinity Seven Planets</hi> is an intriguing text. It is neither
+                  particularly popular,<ptr target="#note52" xml:id="nr52" n="52"/> nor does it
+                  represent the most technical type of astrological literature. It could perhaps be
+                  described in the same way as Tavormina describes the <hi rend="italic"
+                     >Twenty-Jordan Series</hi> of uroscopies, that is, occupying an intermediate
+                     position.<ptr target="#note53" xml:id="nr53" n="53"/> This is also very
+                  characteristic of scientific literature of the fifteenth century, which was
+                  practically rather than theoretically oriented, and "regarded science primarily as
+                  a source of information which would help" to "achieve practical results in the
+                     world."<ptr target="#note54" xml:id="nr54" n="54"/></p>
+               <p>The treatise begins with a reference to Ptolemy's <hi rend="italic">Almegest</hi>,<ptr target="#note55" xml:id="nr55" n="55"/> and describes the seven planets
+                  and the "great circle" of zodiac, which is divided in twelve "even equations"
+                  named after "certain beasts and fishes for convenience and likeness in certain
+                  properties." The twelve signs are listed. They are followed by a description of
+                  how long each planet takes in its orbit. This is based on the standard Ptolemaic
+                     cosmology.<ptr target="#note56" xml:id="nr56" n="56"/></p>
+               <p>Other authorities referred to in the text, include "moyses", "raby" (f. 134v) and
+                  "sidrack" (ff. 134v and 135v). "Moyses" very likely refers to the twelfth-century
+                  Jewish scholar Mosheh ben Maimon Maimonides, commonly known as Rabbi Moyses in the
+                  Middle Ages. "Raby" is more problematic. It is possible that the scribe mixed the
+                  order of the names, and the reference is intended as "raby moyses" instead of
+                  "moyses sidrack raby" (f. 134v). Other possibilities are Aaron ben Gershon Abu
+                  Al-Rabi of Catania, who was a cabalist and astrologer in Sicilia, in the fifteenth
+                  century, which may be too late, or Muhiyuddin Muhammad ibn Arabi (11651240), an
+                  Andalusian mystic and philosopher. Sidrack is almost certainly a reference to the
+                  popular book of knowledge, edited as <hi rend="italic">Sidrak and Bokkus</hi>,<ptr
+                     target="#note57" xml:id="nr57" n="57"/> which is an encyclopedic dialogue
+                  between the two main characters, Sidrak and Bokkus, extant in numerous manuscripts
+                  from Italy to Ireland to Denmark.</p>
+               <p>The treatise does not contain detailed instructions on how to calculate the
+                  position of each planet (they can be found in the previous treatise). What it does
+                  include is information on the different regions whose climate is governed by each
+                  sign based on its "property and nature." The locations are in the Mediterranean
+                  region: the east party, Antioch, is governed by Cancer, Leo, and Virgo. The west
+                  party, Armenia, is governed by Capricorn, Aquarius, and Pisces. The south party,
+                  Alexandria, is governed by Libra, Sagittarius, and Scorpio. The north party,
+                  Constantinople, is governed by Aries, Taurus and Gemini.</p>
+               <p>The main part of the treatise is taken by descriptions of the effects of the
+                  various planets, presented in the order of distance from the sun according to
+                  Ptolemaic cosmology. Starting from the farthest, Saturn, and ending with the
+                  closest, the moon. The information includes the "triplicities" for each of
+                     them,<ptr target="#note58" xml:id="nr58" n="58"/> that is, whether they are
+                  masculine or feminine, diurnal or nocturnal, and what element they represent: dry,
+                  moist, airy, or fiery. It is also stated whether the planet is good, evil, or in
+                  between ("mean"). The two evil planets are Saturn and Mars, the two good planets
+                  Jupiter and Venus. The remaining three, Sol, Luna, and Mercury, are in between.
+                  The evil and good planets lessen or increase the effects of other planets. The
+                  description for each planet also includes how long it takes the planet to travel
+                  around the earth. Furthermore, it lists which zodiacal signs are the natural
+                  houses for each planet (one for Sol and Luna, two for the other five). The
+                  descriptions are related to physiognomy, since they include information on what
+                  the children of each planet are like, including both inward and outward
+                  description (the complexion of the patient: whether someone is choleric,
+                  melancholy, and so forth, and what the children look like).</p>
+            </div>
+            <div>
+               <head>Previous Work</head>
+               <p>The manuscript Trinity O.1.77 is described in two printed catalogues of
+                  manuscripts in possession of the Wren Library: James (1900-1904) and Mooney
+                     (1995).<ptr target="#note59" xml:id="nr59" n="59"/> James includes both the
+                  Latin and Middle English sections in the manuscript, and is the only catalogue to
+                  do so. However, some of the information is not completely accurate. Most
+                  importantly, he treats the astrological part as a single block. Mooney is more up
+                  to date with secondary research but only describes the Middle English items in the
+                  manuscript. In addition, the contents of Trinity O.1.77 are among those listed in
+                  the <hi rend="italic">Electronic Voigts and Kurtz</hi> (eVK) and the <hi
+                     rend="italic">Electronic Thorndike and Kibre</hi> (eTK); eVK contains the
+                  Middle English texts and eTK the Latin ones. Most detailed work on the manuscript
+                  has been carried out by Voigts,<ptr target="#note60" xml:id="nr60" n="60"/> who
+                  describes Trinity O.1.77 in relation to the Sloane Group of Middle English
+                  manuscripts. Kurtz and Voigts list five of the Sloane sibling manuscripts as
+                  closely related to the large codex Trinity College Cambridge R.14.52, excluding
+                  only Trinity O.1.77.<ptr target="#note61" xml:id="nr61" n="61"/></p>
+               <p>Claire Jones treats the Sloane Group in relation to identifiable discourse
+                     communities.<ptr target="#note62" xml:id="nr62" n="62"/> She mainly follows
+                  Voigts in her description, noting that "[t]he uniformity of the main Sloane Group
+                  manuscripts does not point to a Westminster medical discourse community, as
+                  Westminster was a centre of book production, and the book producers and stationers
+                  based in the area did business with book buyers from a very wide area."<ptr
+                     target="#note63" xml:id="nr63" n="63"/> With Boston MS 19, she reasons that
+                  "[t]he Paston men spent a great deal of time in London on business, and it is
+                  possible that Paston came across the Sloane Group manuscripts whilst in London,
+                  and decided to have a similar copy made for his family."<ptr target="#note64"
+                     xml:id="nr64" n="64"/> However, Jones also notes connections to other groups of
+                  medical manuscripts localized in the area of Norfolk, East Anglia, and
+                     Lincolnshire.<ptr target="#note65" xml:id="nr65" n="65"/></p>
+               <p>The Sloane manuscripts with a particular interest in Boston MS 19 and the Paston
+                  household are also briefly addressed by Green in her article on women's
+                     literacy.<ptr target="#note66" xml:id="nr66" n="66"/> She mentions the
+                  bilingual Sloane group as a part of a "veritable mass production of volumes of
+                  medical and scientific texts that employed English and Latin on an essentially
+                  equal basis, suggesting that despite the well-documented explosion of vernacular
+                  medical writing in England [] <hi rend="italic">bilingual</hi> [], not
+                  monolingual, readers continued to be the targeted audience of most medical
+                     books."<ptr target="#note67" xml:id="nr67" n="67"/> With respect to Boston MS
+                  19, she wonders whether the Paston women would have "had the skills in logical and
+                  dialectic mathematics to absorb and assimilate the technical explanations of the
+                  'hidden' causes of disease or the calculation of the positions of the moon in the
+                  different houses."<ptr target="#note68" xml:id="nr68" n="68"/></p>
+               <p>Pahta mentions the Sloane group of Middle English manuscripts as an example of
+                  multilingualism in the fifteenth century. The object of her study, however, is
+                  code-switching from Middle English to Latin in texts in which Middle English is
+                  the dominant language, using the <hi rend="italic">Middle English Medical
+                     Texts</hi> corpus. She draws on Voigts for the description: "a bilingual
+                  anthology extant in six fifteenth-century manuscripts related to the Sloane Group
+                  displays an equivalent use of Latin and English, containing, for example, texts on
+                  uroscopy, plague and a regimen of health."<ptr target="#note69" xml:id="nr69"
+                     n="69"/></p>
+               <p>Taavitsainen makes use of Trinity O.1.77 and the Sloane group as anchorage points,
+                  based on the external evidence connecting them to London, in her dialectological
+                  study of the Middle English translations of Guy de Chauliac.<ptr target="#note70"
+                     xml:id="nr70" n="70"/> She remarks that the manuscripts are mostly in Latin,
+                  "but some texts are written in English" and that the "vernacular material is not
+                  very comprehensive, and the scope of the texts varies."<ptr target="#note71"
+                     xml:id="nr71" n="71"/> She finds Trinity O.1.77 the most suitable for a
+                  dialectological analysis among the group, since it contains more Middle English
+                  than the rest,<ptr target="#note72" xml:id="nr72" n="72"/> a fact that mainly
+                  results from the additional longer text on the seven planets.</p>
+               <p>The shorter treatise on Seven Planets found in all Sloane sibling manuscripts has
+                  been edited and published by Harley, who uses the Boston Countway Library MS 19 as
+                  a basis for the edition (1982). Two treatises on Seven Planets, which are not
+                  textually affiliated with the current one, have been published by Brown (1994) and
+                  Carillo-Linares (2006). The former is shorter and more limited than the one in
+                  Trinity O.1.77.<ptr target="#note73" xml:id="nr73" n="73"/> It includes
+                  descriptions of the properties of the seven planets, physiognomical description of
+                  recognizing their "children," and a nativity based on the days of the week on
+                  which one is born. It does not contain tables or instructions for making
+                  calculations on the positions of the planets. The text edited by Carillo-Linares,
+                  on the other hand, is longer and more detailed, presenting information in the
+                  vernacular, which is only found in Latin in the Trinity O.1.77. This is in line
+                  with the ambitious vernacularization program of Trinity 14.52.<ptr
+                     target="#note74" xml:id="nr74" n="74"/> Out of these four vernacular treatises
+                  on the Seven Planets, the Trinity O.1.77 is thus the second longest and second
+                  most detailed.</p>
+               <p>Other texts in the sibling manuscripts that have been edited include the <hi
+                     rend="italic">Twenty-Jordan Series</hi>.<ptr target="#note75" xml:id="nr75"
+                     n="75"/> Tavormina divides various versions of the treatise into subgroups
+                  based on the order in which the urine flasks, jordans, are depicted in them and
+                  what additional information they include. According to her, the treatises in the
+                  Sloane sibling manuscripts form a category of their own based on the order in
+                  which the jordans are presented, called the Rubea group.<ptr target="#note76"
+                     xml:id="nr76" n="76"/> The John of Burgundy treatises have also been subjected
+                  to thorough recent studies by Matheson,<ptr target="#note77" xml:id="nr77" n="77"
+                  /> including an edition of the Middle English version of the text found in Trinity
+                  R 14.52.<ptr target="#note78" xml:id="nr78" n="78"/> Out of the texts in the
+                  sizeable compendium Gonville and Caius 336/725, <hi rend="italic">The Golden
+                     Table of Pythagoras</hi> has been edited by Voigts.<ptr target="#note79"
+                     xml:id="nr79" n="79"/></p>
+            </div>
+            <div>
+               <head>Manuscript Description</head>
+               <p>Like all manuscripts with the O-designation in the Trinity College, Trinity O.1.77
+                  was part of a collection accumulated by Dr. Thomas Gale (1635/61702) and his
+                  eldest son, Roger (16721744), which was donated to the library by the latter in
+                     1738.<ptr target="#note80" xml:id="nr80" n="80"/> An older shelfmark for it is
+                  394. It is, however, not mentioned in the catalogue published by Bernard some
+                  forty years before.<ptr target="#note81" xml:id="nr81" n="81"/></p>
+               <p>There are two earlier collections included in the Gale collection that are of
+                  potential interest. First are relics of the library of Dr. John Dee, most of which
+                  "are alchemical and date from near his own time; but there are also one or two
+                  older manuscripts of considerable value."<ptr target="#note82" xml:id="nr82"
+                     n="82"/> The catalogue of Dee's library, written in his own hand, is also part
+                  of the collections of the Wren Library (R.4.20). However, even though several
+                  works by John of Rupescissa and Arnald of Villa Nova are listed in Trinity R.4.20,
+                  none of the manuscripts described fully matches Trinity O.1.77. Moreover, since
+                  the collections of a figure such as John Dee have evoked considerable interest,
+                  many of the manuscripts owned by him have been identified.<ptr target="#note83"
+                     xml:id="nr83" n="83"/> If Trinity O.1.77 would have been one of them, it would
+                  certainly have become established in second literature, especially considering the
+                  fact that it is part of the Gale collection of Trinity College Cambridge, the
+                  location of many of the manuscripts, including the catalogue.</p>
+               <p>The second possibility is the manuscripts formerly owned by William Dun.
+                  According to James, "There are a good many medical note-books of the sixteenth
+                  century, mostly the property of one William Dun; while medieval astronomy,
+                  astrology and mathematics (especially ecclesiastical arithmetic, or Compotus), are
+                  represented by nearly thirty volumes."<ptr target="#note84" xml:id="nr84" n="84"/>
+                  The subject matter of Trinity O.1.77 would fit this collection. However, the
+                  manuscript originates in the fifteenth not sixteenth century, and there is very
+                  little evidence of sixteenth-century provenance. The conclusion to be drawn is
+                  therefore that the evidence is not sufficient to link Trinity O.1.77 to either of
+                  these collections.</p>
+               <figure type="enlargeOnClick">
+                  <head>Trinity O.1.77</head>
+                  <figDesc>Trinity O.1.77</figDesc>
+                  <graphic n="1003" height="600px" url="media/image3.jpg" rend="inline"/>
+               </figure>
+               <p>The manuscript is bound in a white imitation-vellum spine and purple-gray
+                  cardboard boards. This type of fairly rough, seventeenth- or eighteenth-century
+                  binding is standard for Gale manuscripts, and could well originate with them.<ptr
+                     target="#note85" xml:id="nr85" n="85"/> One of the most striking aspects about
+                  the manuscript is its small size. At only 75 by 100 mm, it can best be described
+                  as pocket-sized.</p>
+               <p>Ff. 204. Paper, with parchment leaves in the beginning and end. 105 by 70 mm.
+                  Frame 70 by 50 mm, containing 1318 lines per folium.</p>
+               <p>COLLATION:<ptr target="#note86" xml:id="nr86" n="86"/> quired in eights 3
+                  flyleaves (2 parchment, 1 paper) + 1<hi rend="superscript">8</hi>14<hi
+                     rend="superscript">8</hi>, 14<hi rend="superscript">81</hi>, 15<hi
+                     rend="superscript">8</hi>18<hi rend="superscript">8</hi>, 19<hi
+                     rend="superscript">6 </hi>, 20<hi rend="superscript">1</hi>, 21<hi
+                     rend="superscript">8</hi>, 22<hi rend="superscript">81</hi>, 23<hi
+                     rend="superscript">8</hi>25<hi rend="superscript">8</hi>, 26<hi
+                     rend="superscript">81</hi> (the final quire is on parchment).</p>
+               <p>The manuscript is mainly written on paper. Parchment can be found in the beginning
+                  and end. First two flyleaves are on parchment, as is the final quire (26) in its
+                  entirety. In addition, the manuscript contains one paper flyleaf (the third one
+                  from the beginning). The foliation runs from 1 to 202. There are two
+                  inconsistencies in numbering. Quire 4 is a regular quire of eight, but the
+                  foliation jumps from 27 to 29. Quire 23 contains leaves numbered 170a and 170b.
+                  The leaves are sextodecimo-sized <ptr target="#note87" xml:id="nr87" n="87"/> as
+                  shown by the chain-lines and watermarks in top right corners of the folia.</p>
+            </div>
+            <div>
+               <head>Paleographical Analysis</head>
+               <p>This section contains a paleographical analysis of the two main hands in the
+                  Trinity O.1.77 manuscript. There are three reasons for carrying it out: <list
+                     type="bulleted">
+                     <item>There has been a growing interest in commercial production of manuscripts
+                        in the metropolitan London area. One of the major contributions is the <hi
+                           rend="italic">Late Medieval English Scribes</hi> website,<ptr
+                           target="#note88" xml:id="nr88" n="88"/> which is a catalogue of all the
+                        hands that appear in the writings of Geoffrey Chaucer, John Gower, John
+                        Trevisa, William Langland, and Thomas Hoccleve. Since the Sloane Group
+                        manuscripts are also connected to commercial book production, one piece of
+                        research that needs to be carried out is comparing the scribal hands in them
+                        to the hands that have copied Middle English literary manuscripts. For that
+                        reason, I use the same format as for that website.</item>
+                     <item>As Hands A and B are very close to each other, this analysis will help
+                        the reader of this edition to distinguish them.</item>
+                     <item>I find the visual presentation of features more useful than the prose
+                        description traditionally used in editions. In order to make use of the
+                        possibilities of the digital format, I prefer to show the hands with
+                        images.</item>
+                  </list>I use the same list of letters employed by the <hi rend="italic">Late
+                     Medieval English Scribes</hi> website: <hi rend="italic">a</hi>, <hi
+                     rend="italic">d</hi>, <hi rend="italic">g</hi>, <hi rend="italic">h</hi>, <hi
+                     rend="italic">r</hi>, <hi rend="italic">s</hi>, <hi rend="italic">w</hi>, <hi
+                     rend="italic">y</hi>. They consider these letters as having "the most variable
+                  forms in late medieval English scripts" and consequently "the best distinguishing
+                  graphs of a scribal hand."</p>
+               <div>
+                  <head>Hand A</head>
+                  <p>The manuscript is, for the most part, written by a single hand, responsible for
+                     both Latin and the Middle English texts in the manuscript. James describes Hand
+                     A as "roughly written."<ptr target="#note89" xml:id="nr89" n="89"/> Voigts
+                     labels it "pointed Anglicana."<ptr target="#note90" xml:id="nr90" n="90"/></p>
+                  <p>The strong presence of Anglicana features differs from the most closely related
+                     manuscripts. Boston MS 19 and Sloane 2320 are both written in Secretary. Sloane
+                     3566 is written in a different hand, whose grade resembles Trinity O.1.77, but
+                     it also shows stronger prevalence for Secretary forms of the letters.</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <head>a</head>
+                     <row>
+                        <cell>
+                           <graphic n="1004" height="90px" url="media/image4.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="1005" height="90px" url="media/image5.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 123r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="1006" height="90px" url="media/image6.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="1007" height="90px" url="media/image7.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 126r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="1008" height="90px" url="media/image8.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="1009" height="90px" url="media/image9.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 136r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10010" height="90px" url="media/image10.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10011" height="90px" url="media/image11.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 127v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10012" height="90px" url="media/image12.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10013" height="90px" url="media/image13.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 123r</cell>
+                     </row>
+                  </table>
+                  <p>The main scribe uses two forms of the letter <hi rend="italic">a</hi>, a
+                     single-compartment <hi rend="italic">a</hi>, which is used in the running text,
+                     and a two-compartment variant, with an upper lobe that extends above the other
+                     letters. The former is characteristic of Secretary and the latter of
+                        Anglicana.<ptr target="#note91" xml:id="nr91" n="91"/> The Anglicana
+                     double-compartment <hi rend="italic">a</hi> is often used as a small capital or
+                        <hi rend="italic">littera notabilior</hi>, but sometimes without clear
+                     functional explanation. The use of Anglicana letter forms as capitals is common
+                     practice in fifteenth-century manuscripts.<ptr target="#note92" xml:id="nr92"
+                        n="92"/> It is frequently highlighted by a red stroke by the rubricator.</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <head>d</head>
+                     <row>
+                        <cell>
+                           <graphic n="10014" height="90px" url="media/image14.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10015" height="90px" url="media/image15.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 122v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10016" height="90px" url="media/image16.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10017" height="90px" url="media/image17.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 128r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10018" height="90px" url="media/image18.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10019" height="90px" url="media/image19.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 132v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10020" height="90px" url="media/image20.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10021" height="90px" url="media/image21.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 133r</cell>
+                     </row>
+                  </table>
+                  <p>The scribe's <hi rend="italic">d</hi> is a round-backed, two-compartment one,
+                     with a looped ascender, a type that originates with Anglicana.<ptr
+                        target="#note93" xml:id="nr93" n="93"/> The letter is typically written with
+                     a heavy left-slant, sometimes considered Secretary influence.<ptr
+                        target="#note94" xml:id="nr94" n="94"/></p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <head>g</head>
+                     <row>
+                        <cell>
+                           <graphic n="10022" height="90px" url="media/image22.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10023" height="90px" url="media/image23.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 123r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10024" height="90px" url="media/image24.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10025" height="90px" url="media/image25.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 130r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10026" height="90px" url="media/image26.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10027" height="90px" url="media/image27.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 134v</cell>
+                     </row>
+                  </table>
+                  <p>The scribe uses a two-compartment 8-shaped <hi rend="italic">g</hi>, with a
+                     closed loop in the descender. This is a typical Anglicana form and differs from
+                     the Secretary form of the letter.<ptr target="#note95" xml:id="nr95" n="95"
+                     /></p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <head>h</head>
+                     <row>
+                        <cell>
+                           <graphic n="10028" height="90px" url="media/image28.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10029" height="90px" url="media/image29.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 122v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10030" height="90px" url="media/image30.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10031" height="90px" url="media/image31.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 124v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10032" height="90px" url="media/image32.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10033" height="90px" url="media/image33.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 128v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10034" height="90px" url="media/image34.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10035" height="90px" url="media/image35.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 135r</cell>
+                     </row>
+                  </table>
+                  <p>The <hi rend="italic">h</hi> is a typical Anglicana form with a long descender,
+                     which developed to distinguish the letter from <hi rend="italic">b</hi><ptr
+                        target="#note96" xml:id="nr96" n="96"/> and a looped ascender. In English,
+                     in word-final position it often has a horizontal stroke through its ascender.
+                     This may sometimes signal a final <hi rend="italic">e</hi>, but may equally
+                     well be otiose.</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <head>r</head>
+                     <row>
+                        <cell>2-shaped r, with long descender</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10044" height="90px" url="media/image44.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10045" height="90px" url="media/image45.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 135r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10046" height="90px" url="media/image46.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10047" height="90px" url="media/image47.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 135r</cell>
+                     </row>
+                     <row>
+                        <cell>small r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10038" height="90px" url="media/image38.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10039" height="90px" url="media/image39.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 122v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10040" height="90px" url="media/image40.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10041" height="90px" url="media/image41.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 123r</cell>
+                     </row>
+                     <row>
+                        <cell>tall r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10036" height="90px" url="media/image36.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10037" height="90px" url="media/image37.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 122v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10042" height="90px" url="media/image42.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10043" height="90px" url="media/image43.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 125r</cell>
+                     </row>
+                  </table>
+                  <p>The scribe uses three variants of the letter <hi rend="italic">r</hi>, a
+                     2-shaped one, with a long descender; a small one, resembling the modern
+                     minuscule <hi rend="italic">r</hi>; and the tall Anglicana one. The last one is
+                     fairly rare.</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <head>s</head>
+                     <row>
+                        <cell>tall s</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10052" height="90px" url="media/image52.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10053" height="90px" url="media/image53.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 122v </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10054" height="90px" url="media/image54.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10055" height="90px" url="media/image55.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 136v</cell>
+                     </row>
+                     <row>
+                        <cell>sigma-shaped s</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10048" height="90px" url="media/image48.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10049" height="90px" url="media/image49.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 122v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10050" height="90px" url="media/image50.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10051" height="90px" url="media/image51.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 123r</cell>
+                     </row>
+                  </table>
+                  <p>A tall <hi rend="italic">s</hi> is used word-initially and -medially. A
+                     sigma-shaped <hi rend="italic">s</hi> is used word-finally. This is a
+                     characteristic Anglicana form of the letter.<lb/>
+                  </p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <head>w</head>
+                     <row>
+                        <cell>
+                           <graphic n="10056" height="90px" url="media/image56.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10057" height="90px" url="media/image57.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 122v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10058" height="90px" url="media/image58.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10059" height="90px" url="media/image59.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 124v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10060" height="90px" url="media/image60.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10061" height="90px" url="media/image61.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 136v</cell>
+                     </row>
+                  </table>
+                  <p>The form used for <hi rend="italic">w</hi> is a typical Anglicana form, in
+                     which two long initial strokes are completed by bows.<ptr target="#note97"
+                        xml:id="nr97" n="97"/></p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <head>y</head>
+                     <row>
+                        <cell>
+                           <graphic n="10062" height="90px" url="media/image62.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10063" height="90px" url="media/image63.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 122v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10064" height="90px" url="media/image64.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10065" height="90px" url="media/image65.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 128r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="10066" height="90px" url="media/image66.png" rend="inline"/>
+                        </cell>
+                        <cell>
+                           <graphic n="10067" height="90px" url="media/image67.png" rend="inline"/>
+                        </cell>
+                        <cell>f. 136v</cell>
+                     </row>
+                  </table>
+                  <p>The letter <hi rend="italic">y</hi> has a long diagonal descender.</p>
+               </div>
+               <div>
+                  <head>Hand B</head>
+                  <figure>
+                     <head>f. 122r</head>
+                     <graphic n="10068" height="110px" url="media/image68.png" rend="inline"/>
+                     <figDesc>f. 122r</figDesc>
+                  </figure>
+                  <figure>
+                     <head>f. 127v</head>
+                     <graphic n="10069" height="500px" url="media/image69.png" rend="inline"/>
+                     <figDesc>f. 127v</figDesc>
+                  </figure>
+                  <figure>
+                     <head>f. 200r</head>
+                     <graphic n="10070" height="600px" url="media/image70.jpg" rend="inline"/>
+                     <figDesc>f. 200r</figDesc>
+                  </figure>
+                  <p>The parchment flyleaves 1 and 2 are in another hand, which I call Hand B.
+                     Letter forms used by Hand B are very similar to Hand A, and it is possible that
+                     it belonged to the same individual.<ptr target="#note98" xml:id="nr98" n="98"/>
+                     The one exception to this is the form used for word-final <hi rend="italic"
+                        >s</hi>. Hand B uses the kidney-shaped <hi rend="italic">s</hi> in word-final position, which is never used by Hand A. The hand is also slightly more
+                     current in appearance. Sections written in it lack rubrication, which indicates
+                     that they were written after the codex had been decorated; even if they were by
+                     the same scribe, they were added later. The following table illustrates letter
+                     forms used by Hand B, which can be found in the marginal comments of <hi
+                        rend="italic">The Trinity Seven Planets</hi>. I do not include examples of
+                        <hi rend="italic">w</hi> and <hi rend="italic">y</hi>, since the passages
+                     are in Latin and I could not locate examples of those letters.</p>
+                  <div>
+                     <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                        <head>a</head>
+                        <row>
+                           <cell>
+                              <graphic n="10071" height="90px" url="media/image71.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10072" height="90px" url="media/image72.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>127v</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10073" height="90px" url="media/image73.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10074" height="90px" url="media/image74.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>127v</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10075" height="90px" url="media/image75.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10076" height="90px" url="media/image76.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>127v</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10077" height="90px" url="media/image77.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10078" height="90px" url="media/image78.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>200</cell>
+                        </row>
+                     </table>
+                     <p>The minuscule single-compartment <hi rend="italic">a</hi> of Hand B
+                        resembles Hand A. Some examples of a two-compartment version can also be
+                        found, but without the red highlighting strokes.</p>
+                  </div>
+                  <div>
+                     <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                        <head>d</head>
+                        <row>
+                           <cell>
+                              <graphic n="10079" height="90px" url="media/image79.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10080" height="90px" url="media/image80.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>127v</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10081" height="90px" url="media/image81.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10082" height="90px" url="media/image82.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>127v</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10083" height="90px" url="media/image83.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10084" height="90px" url="media/image84.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>127v</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10085" height="90px" url="media/image85.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10086" height="90px" url="media/image86.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>200</cell>
+                        </row>
+                     </table>
+                     <p>Hand B uses a round-backed <hi rend="italic">d</hi> similar to that used by
+                        Hand A.</p>
+                  </div>
+                  <div>
+                     <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                        <head>g</head>
+                        <row>
+                           <cell>
+                              <graphic n="10087" height="90px" url="media/image87.png" rend="inline"
+                              />
+                           </cell>
+                           <cell><graphic n="10300" height="90px" url="media/regulaB200.jpg"
+                                 rend="inline"/></cell>
+                           <cell>200</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10088" height="90px" url="media/image88.png" rend="inline"
+                              />
+                           </cell>
+                           <cell><graphic n="10301" height="90px" url="media/gnguB200.jpg"
+                                 rend="inline"/></cell>
+                           <cell>200</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10089" height="90px" url="media/image89.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10302" height="90px" url="media/signoB200.jpg"
+                                 rend="inline"/>
+                           </cell>
+                           <cell>200</cell>
+                        </row>
+                     </table>
+                     <p>The minuscule <hi rend="italic">g</hi> contains a closed-loop descender,
+                        which is another similarity with Hand A.</p>
+                  </div>
+                  <div>
+                     <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                        <head>h</head>
+                        <row>
+                           <cell>
+                              <graphic n="10090" height="90px" url="media/image90.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10091" height="90px" url="media/image91.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>127v</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10092" height="90px" url="media/image92.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10093" height="90px" url="media/image93.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>200</cell>
+                        </row>
+                     </table>
+                     <p>Hand B uses an Anglicana <hi rend="italic">h</hi> with a long descender,
+                        which is similar to the variant written by the main scribe, even though it
+                        is often squeezed or drawn out, which makes it difficult to estimate the
+                        actual resemblance.</p>
+                  </div>
+                  <div>
+                     <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                        <head>r</head>
+                        <row>
+                           <cell>
+                              <graphic n="10094" height="90px" url="media/image94.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10095" height="90px" url="media/image95.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>200</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10096" height="90px" url="media/image96.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10097" height="90px" url="media/image97.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>200</cell>
+                        </row>
+                     </table>
+                     <p>Hand B's <hi rend="italic">r</hi>'s are mostly not written out, but are
+                        represented by abbreviations (e.g., p<hi rend="italic superscript"
+                           >i</hi>ma<hi rend="italic">rum</hi>, f. 200r, line 10). The few examples
+                        that are present are of the small minuscule type.</p>
+                  </div>
+                  <div>
+                     <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                        <head>s</head>
+                        <row>
+                           <cell>tall s</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10400" height="90px" url="media/handBtalls1.jpg"
+                                 rend="inline"/>
+                           </cell>
+                           <cell>
+                              <graphic n="10401" height="90px" url="media/signoB200.jpg"
+                                 rend="inline"/>
+                           </cell>
+                           <cell>200r</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10402" height="90px" url="media/handBtalls2.jpg"
+                                 rend="inline"/>
+                           </cell>
+                           <cell>
+                              <graphic n="10403" height="90px" url="media/existenteB200.jpg"
+                                 rend="inline"/>
+                           </cell>
+                           <cell>200r</cell>
+                        </row>
+                        <row>
+                           <cell>kidney-shaped s</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="10098" height="90px" url="media/image98.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>
+                              <graphic n="10099" height="90px" url="media/image99.png" rend="inline"
+                              />
+                           </cell>
+                           <cell>127v</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="100100" height="90px" url="media/image100.png"
+                                 rend="inline"/>
+                           </cell>
+                           <cell>
+                              <graphic n="100101" height="90px" url="media/image101.png"
+                                 rend="inline"/>
+                           </cell>
+                           <cell/>
+                        </row>
+                        <row>
+                           <cell>
+                              <graphic n="100103" height="90px" url="media/image103.png"
+                                 rend="inline"/>
+                           </cell>
+                           <cell>
+                              <graphic n="100102" height="90px" url="media/image102.png"
+                                 rend="inline"/>
+                           </cell>
+                           <cell>200</cell>
+                        </row>
+                     </table>
+                     <p>Hand B uses a kidney-shaped <hi rend="italic">s</hi> in word-final position.
+                        This letter is never used by Hand A.</p>
+                  </div>
+               </div>
+               <div>
+                  <head>Rubrics</head>
+                  <figure>
+                     <head>f. 137r</head>
+                     <graphic n="100104" height="200px" url="media/image104.png" rend="inline"/>
+                     <figDesc>f. 137r</figDesc>
+                  </figure>
+                  <p>A third hand found in the manuscript belongs to the rubricator. The rubricator
+                     has imitated the scribe's letter forms and uses the same set of abbreviations
+                     with very similar forms. However, the letter forms are more formal, with the
+                     minims for <hi rend="italic">n</hi> and <hi rend="italic">m</hi> not running
+                     together, that is, <hi rend="italic">formata</hi> grade rather than <hi
+                        rend="italic">media</hi>. The <hi rend="italic">m</hi>'s in particular are
+                     constructed of independent minims, and have serifs that are very pronounced, as
+                     opposed to Hand A, which runs them together. In addition, the rubricator has
+                     read the text very closely and corrected scribal mistakes on several occasions.
+                     It is quite likely that despite the different grade, the hand belongs to the
+                     same person as Hand A. In the closely related Boston manuscript, the scribe
+                     William Ebesham handled both. This is evident from his correspondence with Sir
+                     John Paston II. The text on how to use the <hi rend="italic">Tabula
+                        Signorum</hi> refers to the parts of the table that are in red and black,
+                     showing that the different colors were part of the plan all along (ff. 107rv).
+                     It is very unlikely that this type of decoration would have been commissioned
+                     from a separate artisan.<ptr target="#note99" xml:id="nr99" n="99"/></p>
+                  <figure>
+                     <head>f. 100r</head>
+                     <graphic n="100105" height="700px" url="media/image105.JPG" rend="inline"/>
+                     <figDesc>f. 100r</figDesc>
+                  </figure>
+               </div>
+            </div>
+            <div>
+               <head>Marginal Comments</head>
+               <p>The manuscript contains numerous marginal comments, most of which appear to be
+                  near contemporary. The two most common types are recipes and astrological notes.
+                  Almost all these comments are in Latin.</p>
+               <p>Three comments in <hi rend="italic">The Trinity Seven Planets</hi> deserve closer
+                  attention. One of these is a rare gloss in which the "Main scribe or a near
+                  contemporary has added 'Almenake' above 'Almegeste' in the incipit."<ptr
+                     target="#note100" xml:id="nr100" n="100"/> The mistake is an interesting one,
+                  since it is found in a manuscript of such a late date. Medieval use of the word
+                     <hi rend="italic">almanack</hi> differed from the astrological calendars that
+                  would become one of the most popular genres of early printed books in the
+                  following century <ptr target="#note101" xml:id="nr101" n="101"/>: "almanacs gave
+                  the conjunctions and opposition of the sun and the moon, whereas calendars listed
+                  the days of the week and the months of the year." However, in the fifteenth
+                  century it had already become commonplace to combine the two,<ptr
+                     target="#note102" xml:id="nr102" n="102"/> and the advent of printing "opened
+                  the floodgates" for production of cheap astrological calendars for "semi-educated
+                  European populace."<ptr target="#note103" xml:id="nr103" n="103"/> The marginal
+                  note may thus give some clues on the readership of the manuscript. On the one
+                  hand, in the Middle Ages, almanacs were directed toward medical professionals and
+                  students as opposed to the more general calendars,<ptr target="#note104"
+                     xml:id="nr104" n="104"/> and the use could still pertain to that. On the other
+                  hand, Ptolemaic cosmology was the cornerstone of astronomical education in
+                  medieval universities, and the fact that the annotator does not recognize the <hi
+                     rend="italic">Almagest</hi> may be a sign that the he did not receive a
+                  university education.</p>
+               <p>The other one is a note on f. 127v written by Hand B. It is one of two marginal
+                  comments containing a year. Hand B has also added a note on flyleaf 200, on how
+                  the conjunction of the celestial spheres will occur in 1460. The date of the
+                  manuscript has sometimes been stated as 1460.<ptr target="#note105" xml:id="nr105"
+                     n="105"/> This originates with James, who dates the manuscript to that year
+                  based on the markings on f. 200.<ptr target="#note106" xml:id="nr106" n="106"/>
+                  However, their relationship to the rest of the codex is far from clear. The
+                  astrological note on the flyleaf 200 is in Hand B rather than in the hand of the
+                  main scribe, and in a section of the manuscript that is not connected to the
+                  earlier quires by scribal catchwords. It is thus better to take this date as
+                  evidence of provenance, concluding that the manuscript was used by someone who
+                  made astrological calculations in 145960, and that the likely date for its
+                  composition may have been somewhat earlier.<ptr target="#note107" xml:id="nr107"
+                     n="107"/></p>
+               <p>At any rate, the note on f. 127v mentions how the planet Mars has entered its
+                  house Aries in 1459, an event that signifies "stryues &amp; discordes batails
+                  &amp; war" (f. 128r), and the likelihood of war was something that caused great
+                  concern in the 1450s and early 1460s.<ptr target="#note108" xml:id="nr108" n="108"
+                  /> The years 1459 to 1461, in particular, saw some of the major battles in the
+                  wars, culminating in Towton in 1461, quite possibly the largest and bloodiest
+                  battle to be fought on the soil of England to date,<ptr target="#note109"
+                     xml:id="nr109" n="109"/> which led to the ascension of Edward IV and a period
+                  of Yorkist rule in the 1460s.</p>
+               <p>London&#8212;if we presume the manuscript was used where it was copied, which may
+                  not be the case, since a small portable codex could easily have ended up
+                  anywhere&#8212;was never besieged or sacked during the Wars of the Roses, but
+                  there were some close calls. In 1460, a Lancastrian garrison in the Tower of
+                  London commanded by Thomas de Scales, a veteran of the French wars, who had fought
+                  against Joan of Arc in the Loire campaign in 142223, held out against a Yorkish
+                  army for a few weeks, firing its cannons on the city, hurting men, women and
+                  children in the streets.<ptr target="#note110" xml:id="nr110" n="110"/></p>
+               <p>Less than a year later, in the aftermath of a Lancastrian victory at the Battle of
+                   Wakefield on December 30, 1460, Queen Margaret of Anjou and a Lancastrian army
+                  camped outside the city. The army included many Scots and Northerners, who were
+                  feared in London, because they were badly paid and prone to looting. The threat
+                  eventually passed as the army returned back north without being admitted to the
+                  city or attacking it.<ptr target="#note111" xml:id="nr111" n="111"/></p>
+               <p/>
+            </div>
+            <div>
+               <head>Audience</head>
+               <p>What we know about the audience for <hi rend="italic">The Trinity Seven
+                     Planets</hi> and manuscript O.1.77 can be briefly summarized.</p>
+               <p>The physical characteristics of Trinity O.1.77, along with what is known about the
+                  origin and provenance of Boston MS 19, and the fact that the same collection of
+                  texts can be found in all of the sibling manuscripts, would support the hypothesis
+                  that it was commissioned as a single item, a pocket-sized medical handbook, from a
+                  professional scribe, related to the professional book trade of fifteenth century,
+                  by an outside patron who may have practiced medicine by profession, but not
+                  necessarily so, as the Paston connection of Boston MS 19 shows. Marginal comments
+                  point to a readership with good functional literacy in Latin and an interest in
+                  astrology. The one on f. 127v is a Latin comment in the Middle English part of the
+                  text.</p>
+               <p>The small size is characteristic of books meant for practical use. Booklets and
+                  folded parchment compilations, called <hi rend="italic">vade mecums</hi> or girdle
+                  books, survive in considerable numbers from the fourteenth and fifteenth
+                  centuries. They contain short medical treatises as well as tables for making
+                     diagnoses.<ptr target="#note112" xml:id="nr112" n="112"/> A slightly longer
+                  pocket-sized book like Trinity O.1.77 would provide more comprehensive information
+                  while still being very portable. "Only the better sort of physician would have
+                  been able to afford such a handy and beautiful reference tool as he travelled to
+                  visit important patients."<ptr target="#note113" xml:id="nr113" n="113"/></p>
+               <p>The texts in the manuscript are fairly practically oriented, containing
+                  illustrations such as the zodiac or a set of twenty urine glasses for showing
+                  different colors of urine. They are not university texts, but theoretically they
+                  belong to the academic medical tradition, in which sickness was cured by means of
+                  diet, bloodletting, and various remedies aimed at restoring the balance of
+                  elements within the body.<ptr target="#note114" xml:id="nr114" n="114"/> This is
+                  in contrast to surgical treatises, in which the cures were made by surgical
+                     operations,<ptr target="#note115" xml:id="nr115" n="115"/> or folk remedies
+                  such as Margaret Paston's plaster for a sore knee, whose origins are much less
+                     clear.<ptr target="#note116" xml:id="nr116" n="116"/></p>
+               <p>One thing that sets the manuscript apart from the rest of the Sloane sibling
+                  manuscripts is the longer astrological section, which also includes <hi
+                     rend="italic">The Trinity Seven Planets</hi>. In addition to the sibling texts
+                  described above, it includes <hi rend="italic">Tabula Signorum</hi>, tables for
+                  calculating the house of the moon (ff. 99v101r); <hi rend="italic">De
+                     distinctione temporum</hi>, a short treatise on measurements of time (ff.
+                  101r102v); <hi rend="italic">De septem mocione planetarum</hi>, a treatise on the
+                  cycles of each planet, which makes use of the units described in the previous text
+                  (ff. 103r122r), followed by the current treatise, <hi rend="italic">The Trinity
+                     Seven Planets</hi> (ff. 122r136v). The medical emphasis of the astrological
+                  treatises is evident from a closer reading of them. One of the treatises shared by
+                  all Sloane siblings states that it is intended for a <hi rend="italic"
+                     >medicus</hi>,<ptr target="#note117" xml:id="nr117" n="117"/> which makes the
+                  medical connection explicit. Medicus is a general word for a medical practitioner
+                  but is not likely to be a reference to a surgeon, <hi rend="italic"
+                     >chirurgicus</hi>. Bloodletting is also mentioned in <hi rend="italic">De
+                     septem mocione planetarum</hi>.</p>
+               <p>A noteworthy feature of Trinity O.1.77 is the multilingual nature of its contents.
+                  This points toward an audience whose linguistic ability is fairly diverse. This
+                  linguistic diversity, along with the professional quality of the workmanship of
+                  the manuscripts in which the Sloane sibling sequence of texts can be found and
+                  what is known about the commissioning of Boston MS 19, is a feature of the group
+                  that Pahta and Taavitsainen consider to have had the next highest level of
+                  literacy: learned aristocracy.<ptr target="#note118" xml:id="nr118" n="118"/>
+                  "Other sources, such as the Paston letters, show how many households, even those
+                  of wealthy families, tended to treat their own ills wherever possible, and turned
+                  to a doctor as a last resort."<ptr target="#note119" xml:id="nr119" n="119"/>
+                  However, it is equally plausible that Trinity O.1.77, or some of the other Sloane
+                  sibling manuscripts, would have been commissioned or bought by either full- or
+                  part-time medical practitioners.</p>
+            </div>
+            <div>
+               <head>The Editorial Approach</head>
+               <p>My editorial aim is twofold: first, to represent the data with as much fidelity
+                  and transparency as possible so that the text is useful for historical
+                  linguistics, and second, to make the edition readable for nonspecialists in Middle
+                  English by encoding the text with expanded abbreviations and including a glossary
+                  via hyperlinks in the text.</p>
+               <p>Recent decades have seen a good deal of discussion over what is required of edited
+                  texts in order for them to be useful data for historical linguistics.<ptr
+                     target="#note120" xml:id="nr120" n="120"/> In editions directed to historians,
+                  literary scholars, or language learners, the text is often modified in various
+                  ways to suit the needs of the intended readership. Modifications may include
+                  things such as supplying modern punctuation, normalizing spelling variation or
+                  word division, expanding abbreviations, or emending scribal mistakes.<ptr
+                     target="#note121" xml:id="nr121" n="121"/> Using these editions as data for
+                  historical linguistics is problematic because editorial modifications deny the
+                  reader access to information present in the manuscript; they create a hybrid text
+                  that is a mixture of scribal or authorial and editorial language.<ptr
+                     target="#note122" xml:id="nr122" n="122"/> This has consequences, for instance,
+                  for historical dialectology, which is based on examining spelling variation in
+                  medieval vernaculars (LAEME, LALME, LAOS).<ptr target="#note123" xml:id="nr123"
+                     n="123"/> Lass, who is particularly scathing in his criticism, asserts that
+                  "[v]irtually all editorial interventions in early texts represent potential losses
+                  of information, or additions of false information and that [n]o modern (or any)
+                  editor can be said to know the language of a scribe better than the scribe
+                     did."<ptr target="#note124" xml:id="nr124" n="124"/></p>
+               <p>Lass proposes three desiderata that he considers inviolable for an edition or
+                  corpus used as a basis for historical linguistics: maximal information
+                  preservation, no irreversible editorial interference, and maximal flexibility.<ptr
+                     target="#note125" xml:id="nr125" n="125"/> The present edition takes these
+                  points into account. The approach aims to keep all editorial interference
+                  transparent and to include as much information about the source as possible. In
+                  terms of flexibility, the XML-based approach that is applied here actually far
+                  surpasses the ASCII-based markup that is used in LAEME and LAOS.</p>
+               <p>The approach here is a graphemic transcription. It records spelling variation,
+                  taking into account variant letter forms, which are assumed to have phonological,
+                  functional, or lexical significance.<ptr target="#note126" xml:id="nr126" n="126"
+                  /> It does not record the different variants of the same letter when they are
+                  assumed to stand for the same sound, such as the different forms of <hi
+                     rend="italic">s</hi> and <hi rend="italic">r</hi>. However, in the case of
+                  thorn and <hi rend="italic">th</hi>, which are likely to stand for the same sound,
+                  I have retained the distinction. This is because they are known to have
+                  dialectological significance.<ptr target="#note127" xml:id="nr127" n="127"/></p>
+               <div>
+                  <head>Encoding Abbreviations</head>
+                  <p>A main focus is encoding abbreviations. Because of its small size, Trinity
+                     O.1.77 contains a considerable number of these.</p>
+                  <p>In printed editions, the standard practice is to expand the abbreviations,
+                     either silently or in italics, which is partly due to the requirements of the
+                     printed medium and the difficulty of representing the abbreviation signs in
+                     modern typeface, and partly to a philosophy of editing that has favored
+                     critical editions and the construction of a single text from several manuscript
+                        witnesses.<ptr target="#note128" xml:id="nr128" n="128"/> While the
+                     expansion of abbreviations is understandable, and is sufficient for many
+                     research questions, particularly ones focusing on literary texts, it has its
+                     share of problems when used as data for historical linguistics.<ptr
+                        target="#note129" xml:id="nr129" n="129"/></p>
+                  <p>For the study of historical language variants, both the sign of abbreviation
+                     that is used and how it is expanded may be of importance. First of all, the
+                     signs might have dialectal distributions, resembling what was demonstrated by
+                     Benskin to be the case for the graphemes &lt;&#254;&gt; and &lt;y&gt;.<ptr
+                        target="#note130" xml:id="nr130" n="130"/> The practice of including only
+                     the expansion leaves out necessary data for carrying out this type of
+                     research.</p>
+                  <p>Secondly, supplying the expansion also involves a degree of editorial
+                     intervention that may be far from transparent. In vernacular texts, which
+                     contain a large amount of spelling variation, the scribe may use several
+                     spellings for the same word. If he has written <hi rend="italic">er</hi> three
+                     times and <hi rend="italic">ir</hi> once, and otherwise used an abbreviation,
+                     standard editorial practice would lead to always expanding the abbreviation to
+                        <hi rend="italic">er</hi>, possibly hundreds of times, thus seriously
+                     distorting the frequencies of the two forms<ptr target="#note131"
+                        xml:id="nr131" n="131"/> and perhaps creating serious consequences for
+                     research on historical dialectology. Rogos draws attention to the fact that
+                     expanding abbreviations creates a false parallel between something that is
+                     represented by graphemes in a writing system, and symbols, whose relationship
+                     to the abbreviated content is more complex and subject to interpretation.<ptr
+                        target="#note132" xml:id="nr132" n="132"/> Expanding abbreviations thus
+                     leads to a form of linguistic hybridity between editorial and scribal
+                        language.<ptr target="#note133" xml:id="nr133" n="133"/></p>
+                  <p>On the other hand, it is also easy to see the problems with not expanding the
+                     abbreviations. At worst, completely diplomatic editions, which reproduce
+                     manuscript abbreviations, punctuation, and layout, can require knowledge of
+                     paleographic or typographic conventions to be readable.<ptr target="#note134"
+                        xml:id="nr134" n="134"/> Attempts at typographic facsimile editions, such as
+                        <hi rend="italic">William and the Werwolf</hi> (1832) by Madden, have never
+                     achieved much popularity.<ptr target="#note135" xml:id="nr135" n="135"/> A
+                     pocket-sized manuscript such as Trinity O.1.77 contains such numerous
+                     abbreviations that if not expanded, they would seriously reduce the readability
+                     of the text to anyone who is not an expert in fifteenth-century scientific
+                     writings.</p>
+                  <p>With digital markup systems such as TEI Guidelines P5,<ptr target="#note136"
+                        xml:id="nr136" n="136"/> it is possible, for the first time, to encode both
+                     the symbol and its expansion.<ptr target="#note137" xml:id="nr137" n="137"/>
+                     The encoding includes both the abbreviation symbol and its expansion. This can
+                     be achieved by using the &lt;choice&gt;, &lt;abbr&gt;, &lt;expan&gt;,
+                     &lt;ab&gt;, and &lt;ex&gt; tags,<ptr target="#note138" xml:id="nr138" n="138"/>
+                     allowing the user to decide which one he or she wants to work with.</p>
+                  <p>The basic encoding looks like this:</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <row>
+                        <cell>facsimile</cell>
+                        <cell>expansion</cell>
+                        <cell>encoding</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100106" height="90px" url="media/image106.png" rend="inline"/>
+                           <lb/>f. 123r</cell>
+                        <cell>de<hi rend="italic">par</hi>tid</cell>
+                        <cell>
+                           <hi rend="color(000096)">&lt;choice&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;abbr&gt;</hi>de<hi rend="color(000096)"
+                              >&lt;am&gt;</hi><hi rend="color(969600)">&amp;#42833;</hi><hi
+                              rend="color(000096)">&lt;/am&gt;</hi>tid<hi rend="color(000096)"
+                              >&lt;/abbr&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;expan&gt;</hi>de<hi rend="color(000096)"
+                              >&lt;ex&gt;</hi>par<hi rend="color(000096)">&lt;/ex&gt;</hi>tid<hi
+                              rend="color(000096)">&lt;/expan&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;/choice&gt;</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100107" height="90px" url="media/image107.png" rend="inline"/>
+                           <lb/>f. 123r</cell>
+                        <cell>i<hi rend="italic">n</hi>
+                        </cell>
+                        <cell>
+                           <hi rend="color(000096)">&lt;choice&gt; &lt;abbr&gt;</hi>i<hi
+                              rend="color(000096)">&lt;am&gt;</hi>&amp;#x305;<hi
+                              rend="color(000096)">&lt;/am&gt;&lt;/abbr&gt; &lt;expan&gt;</hi>i<hi
+                              rend="color(000096)">&lt;ex&gt;</hi>n<hi rend="color(000096)"
+                              >&lt;/ex&gt;&lt;/expan&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;/choice&gt;</hi>
+                        </cell>
+                     </row>
+                  </table>
+                  <p>The abbreviated content is enclosed in the &lt;abbr&gt; tags, indicating that
+                     they enclose "an abbreviation of any sort." The signs of abbreviation are
+                     surrounded by &lt;am&gt; tags, which contain "a sequence of letters or signs
+                     present in an abbreviation which are omitted or replaced in the expanded form
+                     of the abbreviation." The abbreviation itself is represented by the
+                     corresponding numeric value in Unicode.</p>
+                  <p>The expanded form is included inside the &lt;expan&gt; tags, indicating the
+                     tagged content "contains the expansion of the abbreviation" (cf. TEI P5 3.5.5).
+                     The expanded content marked by &lt;ex&gt; ones, indicating it "contains a
+                     sequence of letters added by an editor or transcriber when expanding an
+                     abbreviation" (cf. TEI P5 11.3.1.2). In the examples above, the signs of
+                     abbreviation could, in a different context, stand for <hi rend="italic"
+                        >per</hi> or <hi rend="italic">por</hi> (first one), or a different nasal or
+                     general sign of abbreviation (the second). The system satisfies the requirement
+                     stipulated by Lass of keeping editorial interference transparent, since
+                     everything inside the &lt;ex&gt; tags is, by definition, editorial
+                        interpretation.<ptr target="#note139" xml:id="nr139" n="139"/></p>
+               </div>
+               <div>
+                  <head>Encoding Superscript Abbreviations</head>
+                  <p>A different approach has been adopted with superscript abbreviations. It would
+                     have been possible to treat each of them as an abbreviation.<ptr
+                        target="#note140" xml:id="nr140" n="140"/> However, since they are a
+                     productive category and could be used to coin new abbreviations, the number of
+                     potential variants would be large. For example, they are frequently used to
+                     denote endings in Latin, as in ext<hi rend="superscript">ea</hi> (ext<hi
+                        rend="italic">rema</hi>) and ext<hi rend="superscript">etas</hi> = (ext<hi
+                        rend="italic">remitas</hi>) <ptr target="#note141" xml:id="nr141" n="141"/>.
+                     In the vernacular, they resulted in innovations like &#254;<hi
+                        rend="superscript">e</hi> (<hi rend="italic">the</hi>), or &#254;<hi
+                        rend="superscript">t</hi> (<hi rend="italic">that</hi>). Thus, the encoding
+                     adopted in the edition is the one found in Cummings, who uses the &lt;hi
+                     rend="superscript"&gt; tags.<ptr target="#note142" xml:id="nr142" n="142"
+                     /></p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <row>
+                        <cell>facsimile</cell>
+                        <cell>expansion</cell>
+                        <cell>encoding</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100108" height="90px" url="media/image108.png" rend="inline"/>
+                           <lb/>f. 124v</cell>
+                        <cell>ge<hi rend="italic">mi</hi>ni</cell>
+                        <cell>
+                           <hi rend="color(000096)">&lt;choice&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;abbr&gt;</hi>ge<hi rend="color(000096)"
+                              >&lt;hi</hi>
+                           <hi rend="color(F5844C)"> rend</hi><hi rend="color(FF8040)">=</hi><hi
+                              rend="color(993300)">"superscript"</hi>
+                           <hi rend="color(000096)">&gt;</hi>i<hi rend="color(000096)"
+                              >&lt;/hi&gt;</hi>ni<hi rend="color(000096)">&lt;/abbr&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;expan&gt;</hi>ge<hi rend="color(000096)"
+                              >&lt;ex&gt;</hi>mi<hi rend="color(000096)">&lt;/ex&gt;</hi>ni<hi
+                              rend="color(000096)">&lt;/expan&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;/choice&gt;</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100109" height="90px" url="media/image109.png" rend="inline"/>
+                           <lb/>f. 126r</cell>
+                        <cell>w<hi rend="italic">ith</hi>yn</cell>
+                        <cell>
+                           <hi rend="color(000096)">&lt;choice&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;abbr&gt;</hi>w<hi rend="color(000096)"
+                              >&lt;hi</hi>
+                           <hi rend="color(F5844C)"> rend</hi><hi rend="color(FF8040)">=</hi><hi
+                              rend="color(993300)">"superscript"</hi>
+                           <hi rend="color(000096)">&gt;</hi>t<hi rend="color(000096)"
+                              >&lt;/hi&gt;</hi>yn<hi rend="color(000096)">&lt;/abbr&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;expan&gt;</hi>w<hi rend="color(000096)"
+                              >&lt;ex&gt;</hi>ith<hi rend="color(000096)">&lt;/ex&gt;</hi>yn<hi
+                              rend="color(000096)">&lt;/expan&gt;</hi>
+                           <lb/>
+                           <hi rend="color(000096)">&lt;/choice&gt;</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </div>
+               <div>
+                  <head>List of Abbreviations</head>
+                  <p>The following table illustrates all of the special characters found in <hi
+                        rend="italic">The Trinity Seven Planets</hi>, and the corresponding unicode
+                     or ASCII symbol used to represent them.</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <row>
+                        <cell>Runic characters</cell>
+                        <cell>Folio</cell>
+                        <cell>Name</cell>
+                        <cell>Sign</cell>
+                        <cell>Encoding</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100110" height="90px" url="media/image110.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 122v</cell>
+                        <cell>Thorn</cell>
+                        <cell>&#254;</cell>
+                        <cell>&amp;#254;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100111" height="90px" url="media/image111.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 122v</cell>
+                        <cell>Yogh</cell>
+                        <cell>&#541;</cell>
+                        <cell>&amp;#541;</cell>
+                     </row>
+                     <row>
+                        <cell>Signs of abbreviation</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100114" height="90px" url="media/image114.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 122v</cell>
+                        <cell>er/e/re</cell>
+                        <cell>&#42864;</cell>
+                        <cell>&amp;#42864;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100115" height="90px" url="media/image115.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 123r</cell>
+                        <cell>is/es</cell>
+                        <cell>&#42861;</cell>
+                        <cell>&amp;#42861;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100116" height="90px" url="media/image106.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 123r</cell>
+                        <cell>per/par</cell>
+                        <cell>&#42833;</cell>
+                        <cell>&amp;#42833;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100117" height="90px" url="media/image116.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 123r</cell>
+                        <cell>pro</cell>
+                        <cell>&#42835;</cell>
+                        <cell>&amp;#42835;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100118" height="90px" url="media/image117.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 123r</cell>
+                        <cell>-us/con-</cell>
+                        <cell>&#42863;</cell>
+                        <cell>&amp;#42863;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100121" height="90px" url="media/image120.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 122v</cell>
+                        <cell>horizontal bar</cell>
+                        <cell>&#x305;</cell>
+                        <cell>&amp;#x305;</cell>
+                     </row>
+                     <row>
+                        <cell>Otiose signs</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100112" height="90px" url="media/image112.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 122v</cell>
+                        <cell>Strike-through h;</cell>
+                        <cell>&#295;</cell>
+                        <cell>&amp;#295;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100113" height="90px" url="media/image113.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 122v</cell>
+                        <cell>Strike-through l;</cell>
+                        <cell>&#322;</cell>
+                        <cell>&amp;#322;</cell>
+                     </row>
+                     <row>
+                        <cell>Punctuation</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100119" height="90px" url="media/image118.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 128r</cell>
+                        <cell>punctus elevatus</cell>
+                        <cell>&#1563;</cell>
+                        <cell>&amp;#1563;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100120" height="90px" url="media/image119.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 124v</cell>
+                        <cell>virgula suspensiva</cell>
+                        <cell>/</cell>
+                        <cell>ASCII</cell>
+                     </row>
+                     <row>
+                        <cell>Other</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100122" height="90px" url="media/image121.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 129v</cell>
+                        <cell>One dot over two dots</cell>
+                        <cell>
+                           <hi rend="color(0E1818)">&#8756;</hi>
+                        </cell>
+                        <cell>&amp;#8756;</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100123" height="90px" url="media/image122.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 133v</cell>
+                        <cell>Dragon's tail/colon with middle comma positura</cell>
+                        <cell>:~</cell>
+                        <cell>ASCII</cell>
+                     </row>
+                  </table>
+                  <p>Out of these, the strikethrough <hi rend="italic">l</hi> and strikethrough <hi
+                        rend="italic">h</hi>, were considered otiose and always tagged with only the
+                     unicode entity-number, even though it is possible that in some instances they
+                     represent a word-final <hi rend="italic">e</hi>.</p>
+                  <p>The Middle English special characters (thorn and yogh) are represented with
+                     corresponding Unicode symbols. The scribe's yogh and <hi rend="italic">z</hi>
+                     are nearly (if not completely) identical. Ones that have been editorially
+                     interpreted as <hi rend="italic">z</hi>'s are reproduced as such (the only
+                     instance is in the marginal note on f. 127v). The same was done for thorn and
+                     yogh as well as punctuation marks such the <hi rend="italic">virgula
+                        suspensiva</hi> and <hi rend="italic">punctus elevatus</hi>. Superscript
+                     endings for numerals were also tagged without alternative expansion inside the
+                     &lt;choice&gt; tags.</p>
+               </div>
+               <div>
+                  <head>Practical Approach</head>
+                  <p>The process of encoding was not as labor-intensive as might first seem, since
+                     it is possible to do preformating with a word processor before converting the
+                     file into XML.<ptr target="#note143" xml:id="nr143" n="143"/> I used Word for
+                     Mac, generated a .docx file and converted it in the web service OxGarage (provided
+                     by Oxford University Computing Services, ident = "TEI_fromDOCX" version
+                        ="2.15.0").<ptr target="#note144" xml:id="nr144" n="144"/></p>
+                  <p>In the transcription, abbreviations were tagged in expanded form in italics,
+                     and superscript abbreviations as italic superscripts.</p>
+                  <p>The four examples given in the sections "Encoding Abbreviations" and "Encoding
+                     Superscript Abbreviations" were thus transcribed as:</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <row>
+                        <cell>de<hi rend="italic">par</hi>tid</cell>
+                     </row>
+                     <row>
+                        <cell>i<hi rend="italic">n</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>ge<hi rend="italic superscript">mi</hi>ni</cell>
+                     </row>
+                     <row>
+                        <cell>w<hi rend="italic superscript">ith</hi>yn</cell>
+                     </row>
+                  </table>
+                  <p>The OxGarage web service converted these to:</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <row>
+                        <cell>de<hi rend="color(000096)">&lt;hi</hi>
+                           <hi rend="color(F5844C)"> rend</hi>
+                           <hi rend="color(FF8040)">=</hi>
+                           <hi rend="color(993300)">"italic"</hi>
+                           <hi rend="color(000096)">&gt;</hi>par<hi rend="color(000096)"
+                              >&lt;/hi&gt;</hi>tid</cell>
+                     </row>
+                     <row>
+                        <cell>i<hi rend="color(000096)">&lt;hi</hi>
+                           <hi rend="color(F5844C)"> rend</hi>
+                           <hi rend="color(FF8040)">=</hi>
+                           <hi rend="color(993300)">"italic"</hi>
+                           <hi rend="color(000096)">&gt;</hi>n<hi rend="color(000096)"
+                              >&lt;/hi&gt;</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>ge<hi rend="color(000096)">&lt;hi</hi>
+                           <hi rend="color(F5844C)"> rend</hi>
+                           <hi rend="color(FF8040)">=</hi>
+                           <hi rend="color(993300)">"italic superscript"</hi>
+                           <hi rend="color(000096)">&gt;</hi>mi<hi rend="color(000096)"
+                              >&lt;/hi&gt;</hi>ni</cell>
+                     </row>
+                     <row>
+                        <cell>w<hi rend="color(000096)">&lt;hi</hi>
+                           <hi rend="color(F5844C)"> rend</hi>
+                           <hi rend="color(FF8040)">=</hi>
+                           <hi rend="color(993300)">"italic superscript"</hi>
+                           <hi rend="color(000096)">&gt;</hi>ith<hi rend="color(000096)"
+                              >&lt;/hi&gt;</hi>yn</cell>
+                     </row>
+                  </table>
+                  <p>I then used a XSLT scripts to convert them to the more semantically justified
+                     ones, and to supply the additional tags, as illustrated by the examples
+                     above.</p>
+               </div>
+               <div>
+                  <head>Punctuation</head>
+                  <p>Scribal punctuation has been reproduced by Junicode symbols, using both the <hi
+                        rend="italic">interpunctus</hi> and the modern full stop. In many cases it
+                     is very difficult to interpret whether a certain dot is used as a sign of
+                     punctuation or to mark an abbreviation that is placed interlinearly or at the
+                     bottom line. Sometimes the placement of the dot has been dictated by where
+                     there is room. I have tried to reproduce the scribe's decision using my twofold
+                     distinction, even though this means forcing the natural creative variation that
+                     is possible with a quill pen into the tight boxes of a binary system. Another
+                     alternative would have been to normalize them all either as <hi rend="italic"
+                        >interpunctus</hi> or as full stops placed on the bottom line. A third
+                     alternative would have been to devise a system based on my interpretation of
+                     what the scribe's system has been (for example, <hi rend="italic"
+                        >interpunctus</hi> in sentence-medial position and a full stop on the bottom
+                     line or <hi rend="italic">punctus elevatus</hi> in sentence-final position).
+                     However, neither approach is adopted here.</p>
+               </div>
+               <div>
+                  <head>Uncertain Expansions</head>
+                  <p>The manuscript contains a number of cases in which editorial expansion is
+                     uncertain. This mainly occurs with the <hi rend="italic">-is</hi> abbreviation,
+                     which can be expanded either as <hi rend="italic">-es</hi> or <hi rend="italic"
+                        >-is</hi>. These have been encoded with the @cert attribute, following TEI
+                     P5 Guidelines 17.3. I used the value @cert="unknown." The agency responsible
+                     (in this case, the editor) is indicated by the @resp attribute. The same
+                     approach is used for expansions of numerals, for which no spelled-out variant
+                     could be found in corpus searches.</p>
+                  <p>In order to determine the most likely variant, I performed corpus searches
+                     using AntConc software. The transcription included not only the Seven Planets
+                     but all sections of the Trinity manuscript that can be safely attributed to
+                     Hand A (5,084 words)</p>
+                  <p>The following table shows the results.</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <row>
+                        <cell>
+                           <hi rend="bold">Voiceless alveolar stops</hi>
+                        </cell>
+                        <cell>
+                           <hi rend="bold">tokens</hi>
+                        </cell>
+                        <cell>
+                           <hi rend="bold">etymology</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>ES</cell>
+                     </row>
+                     <row>
+                        <cell>parties,</cell>
+                        <cell>3</cell>
+                        <cell>Romance</cell>
+                     </row>
+                     <row>
+                        <cell>clymates</cell>
+                        <cell>2</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>qualites</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>delites</cell>
+                        <cell>1</cell>
+                        <cell>Romance</cell>
+                     </row>
+                     <row>
+                        <cell>spirites</cell>
+                        <cell>2</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>facultes</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>fruytes</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>IS</cell>
+                     </row>
+                     <row>
+                        <cell>planetis</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>tretis (treatise, singular)</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>YS</cell>
+                     </row>
+                     <row>
+                        <cell>metys</cell>
+                        <cell>1</cell>
+                        <cell>Old English</cell>
+                     </row>
+                     <row>
+                        <cell>tretys (treatise, singular)</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>contentys</cell>
+                        <cell>1</cell>
+                        <cell>Latin</cell>
+                     </row>
+                     <row>
+                        <cell>*S</cell>
+                     </row>
+                     <row>
+                        <cell>astat*s</cell>
+                        <cell>1</cell>
+                        <cell>Romance (Lat. "status")</cell>
+                     </row>
+                     <row>
+                        <cell>craft*s</cell>
+                        <cell>2</cell>
+                        <cell>Old English</cell>
+                     </row>
+                     <row>
+                        <cell>marchunt*s</cell>
+                        <cell>1</cell>
+                        <cell>Romance</cell>
+                     </row>
+                     <row>
+                        <cell>best*s</cell>
+                        <cell>2</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>planet*s</cell>
+                        <cell>15</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>tempest*s</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>mynut*s</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi rend="bold">Voiced alveolar stops</hi>
+                        </cell>
+                        <cell>
+                           <hi rend="bold">tokens</hi>
+                        </cell>
+                        <cell>
+                           <hi rend="bold">etymology</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>ES</cell>
+                     </row>
+                     <row>
+                        <cell>discordes</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>wordes</cell>
+                        <cell>1</cell>
+                        <cell>Old English</cell>
+                     </row>
+                     <row>
+                        <cell>IS</cell>
+                     </row>
+                     <row>
+                        <cell>thredis</cell>
+                        <cell>1</cell>
+                        <cell>Old English</cell>
+                     </row>
+                     <row>
+                        <cell>almoundis</cell>
+                        <cell>1</cell>
+                        <cell>Romance/Arabic</cell>
+                     </row>
+                     <row>
+                        <cell>cloudis</cell>
+                        <cell>1</cell>
+                        <cell>Old English</cell>
+                     </row>
+                     <row>
+                        <cell>YS</cell>
+                     </row>
+                     <row>
+                        <cell>berdys</cell>
+                        <cell>1</cell>
+                        <cell>Old English</cell>
+                     </row>
+                     <row>
+                        <cell>*S</cell>
+                     </row>
+                     <row>
+                        <cell>ded*s</cell>
+                        <cell>1</cell>
+                        <cell>Old English</cell>
+                     </row>
+                     <row>
+                        <cell>hed*s</cell>
+                        <cell>1</cell>
+                        <cell>Old English</cell>
+                     </row>
+                     <row>
+                        <cell>Emerroud*s</cell>
+                        <cell>1</cell>
+                        <cell>Latin/Romance</cell>
+                     </row>
+                     <row>
+                        <cell>flowd*s</cell>
+                        <cell>1</cell>
+                        <cell>Old English</cell>
+                     </row>
+                  </table>
+
+                  <p>The decision was to encode all the unclear cases as <hi rend="italic">-es</hi>
+                     because it is the form with most word types. However, I have expanded the word
+                     planetis as is <hi rend="italic">-is</hi> (16) because it is found once in its
+                     expanded form; this is standard editorial practice.<ptr target="#note145"
+                        xml:id="nr145" n="145"/> But as you can see from the table above, the word
+                     is found abbreviated fifteen times, resulting in potential distortion of the
+                     data. The single expanded form, on f. 135r, occurs in a context in which the
+                     word is split between two lines.</p>
+                  <figure>
+                     <head>f. 135r</head>
+                     <graphic n="100124" height="150px" url="media/image123.png" rend="inline"/>
+                     <figDesc>f. 135r</figDesc>
+                  </figure>
+               </div>
+               <div>
+                  <head>Scribal Additions and Deletions</head>
+                  <p>Scribal additions and deletions are marked using the standard TEI-elements for
+                     these, &lt;add&gt; and &lt;del&gt;, denoting "letters, words, or phrases
+                     inserted in the text by an author, scribe, annotator, or corrector" or a
+                     "letter, word, or passage deleted, marked as deleted, or otherwise indicated as
+                     superfluous or spurious in the copy text by an author, scribe, annotator, or
+                     corrector," respectively (cf. TEI P5 Guidelines 3.4.3).</p>
+                  <p>The practical approach here was to use plain superscript for scribal
+                     corrections between lines, which were converted into &lt;add&gt; tags. Scribal
+                     deletions were marked as strikethrough, and the web service converted them to
+                        <hi rend="color(000096)">&lt;hi</hi>
+                     <hi rend="color(F5844C)"> rend</hi>
+                     <hi rend="color(FF8040)">=</hi>
+                     <hi rend="color(993300)">"strikethrough"</hi>
+                     <hi rend="color(000096)">&gt; </hi>and<hi rend="color(000096)"> &lt;hi</hi>
+                     <hi rend="color(F5844C)"> rend</hi>
+                     <hi rend="color(FF8040)">=</hi>
+                     <hi rend="color(993300)">"superscript"</hi>
+                     <hi rend="color(000096)">&gt;</hi>. These were then converted to a more
+                     semantically justified mark-up.</p>
+               </div>
+               <div>
+                  <head>Decorated Intials</head>
+                  <p>There are two types of decorated initials in the manuscript. In addition, the
+                     rubricator sometimes highlights words. These have been tagged with @rend using
+                     "decorated initial" and "highlighting stroke" as the values.</p>
+               </div>
+               <div>
+                  <head>Word Division</head>
+                  <p>All of the words in the manuscript have been tagged with &lt;w&gt; tags, which
+                     according to the TEI P5 Guidelines represents "a grammatical (not necessarily
+                     orthographic) word" (17.1.)</p>
+                  <p>The scribe consistently writes "to be" and "shall be" together.</p>
+                  <p>tobe</p>
+                  <table xmlns:html="http://www.w3.org/1999/xhtml" rend="rules">
+                     <row>
+                        <cell>
+                           <graphic n="100125" height="90px" url="media/image124.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 125v</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100126" height="90px" url="media/image125.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 131r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100127" height="90px" url="media/image126.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 134r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100128" height="90px" url="media/image127.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 125r</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <graphic n="100129" height="90px" url="media/image128.png" rend="inline"
+                           />
+                        </cell>
+                        <cell>f. 126r</cell>
+                     </row>
+                  </table>
+                  <p>The solution here has been to tag them without a space, but separated by word
+                     tags:</p>
+                  <p>&lt;w&gt;to&lt;/w&gt;&lt;w&gt;be&lt;/w&gt; and
+                     &lt;w&gt;shal&lt;/w&gt;&lt;w&gt;be&lt;/w&gt;</p>
+                  <figure>
+                     <graphic n="100130" height="150px" url="media/image129.png" rend="inline"/>
+                  </figure>
+                  <p>&lt;w&gt;neuer &#254;e lees&lt;/w&gt; and &lt;w&gt;a bydynge&lt;/w&gt;, on the
+                     other hand, have been tagged as single word, even though the orthographic
+                     practice of the scribe is to write them separately.</p>
+                  <p>&lt;<ref type="url"
+                        target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-w.html"
+                        >http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-w.html</ref>&gt;.</p>
+                  <p>
+                     <hi rend="color(000096)">
+                        <graphic n="100131" url="media/image130.png" rend="inline"/>
+                     </hi>
+                  </p>
+                  <p>Numerals are a special case in which the expanded form of the abbreviation may
+                     affect word division and the word count. For this reason, the word tags in them
+                     are included inside the choice tags rather than outside as in the majority of
+                     cases. In the example below, two of the numerals ("thre" five tokens, e.g. f.
+                     135r, and "hundred," one token, f. 136r) could be by found corpus searches of
+                     the Middle English texts in Trinity O.1.77 written by Hand A. For expanding the
+                     other two, I have used the headword given by the <hi rend="italic">Middle
+                        English Dictionary</hi>.</p>
+                  <p>
+                     <hi rend="color(000096)">&lt;abbr&gt;</hi>
+                  </p>
+                  <p>
+                     <hi rend="color(000096)">&lt;w&gt;</hi>cccxxxviij<hi rend="color(000096)"
+                        >&lt;/w&gt;</hi>
+                  </p>
+                  <p>
+                     <hi rend="color(000096)">&lt;/abbr&gt;</hi>
+                  </p>
+                  <p>
+                     <hi rend="color(000096)">&lt;expan</hi>
+                     <hi rend="color(F5844C)"> cert</hi>
+                     <hi rend="color(FF8040)">=</hi>
+                     <hi rend="color(993300)">"unknown"</hi>
+                     <hi rend="color(F5844C)"> resp</hi>
+                     <hi rend="color(FF8040)">=</hi>
+                     <hi rend="color(993300)">"#ah"</hi>
+                     <hi rend="color(000096)">&gt;</hi>
+                  </p>
+                  <p>
+                     <hi rend="color(000096)">&lt;w&gt;</hi>thre<hi rend="color(000096)"
+                        >&lt;/w&gt;&lt;w&gt;</hi>hundred<hi rend="color(000096)"
+                        >&lt;/w&gt;&lt;w&gt;</hi>thriti<hi rend="color(000096)">&lt;/w&gt;</hi>
+                     <hi rend="color(000096)">&lt;w&gt;</hi>eighte<hi rend="color(000096)"
+                        >&lt;/w&gt;</hi>
+                  </p>
+                  <p>
+                     <hi rend="color(000096)">&lt;/expan&gt;</hi>
+                  </p>
+               </div>
+               <div>
+                  <head>Style Guide</head>
+                  <p>The edition follows the lineation and pagination of the original manuscript
+                     page. Manuscript images are available by clicking the small thumbnails between
+                     pages on the margin in the right-hand side.</p>
+                  <p>Since rubrication is such an important part of the original manuscript, the
+                     presentation of decorated initials is represented by larger blue initials with
+                     red boxes. Red highlighting strokes in <hi rend="italic">litterae
+                        notabiliores</hi> are shown as red background for the letters in question.
+                     Scribal deletions are shown as strikethroughs and scribal additions as
+                     interlinear superscripts.</p>
+                  <p>Uncertain editorial expansions are shown in gray, indicating words not found in
+                     an expanded form elsewhere in the manuscript, and thus the expansion is an
+                     editorial guess based on knowledge of the scribe's orthography or the forms
+                     found in the <hi rend="italic">Middle English Dictionary</hi>.</p>
+                  <p>A button in the top left corner allows the user to toggle between views in
+                     which the abbreviations are expanded and compressed.</p>
+                  <p>Glossed words have yellow underlining, and the gloss will appear in a pop-up
+                     window by clicking the word.</p>
+               </div>
+               <div>
+                  <head>Glossary</head>
+                  <p>Words that are likely to pose difficulty for modern readers, either because
+                     their meaning has changed or because they are related to the specialized field
+                     of medieval astrology, have been glossed. Linguistic glosses are given in a
+                     separate glossary. Textual and historical notes are given as hyperlinks in the
+                     edition.</p>
+               </div>
+               <div>
+                  <head type="main">Acknowledgments</head>
+                  <p>The manuscript images are displayed with a kind permission from the Master and
+                     the Fellows at the Trinity College Library.</p>
+                  <p>I am grateful for the following people. Leena Kahlas-Tarkka and Matti Peikola
+                     examined my Licentiate Thesis, on which the codicological and paleographical
+                     analysis of this article is based. Olga Timofeeva commented on earlier drafts
+                     of this article. Two anonymous reviewers likewise offered several points of
+                     constructive criticism. Taking these comments into account makes the article
+                     much better than it otherwise would have been.</p>
+                  <p>I would also like to thank Karin Dalziel for designing an excellent system in
+                     the user interface which allows switching between the expanded and compressed
+                     forms of the abbreviations, as well as Lona Dearmont for her diligent work copyediting the article, particularly converting my in-line notes to endnotes. The
+                     two editors of the volume, Andrew Jewell and Amanda Gailey, likewise deserve a
+                     lot of credit.</p>
+               </div>
+               <div type="notes">
+                  <note xml:id="note1">The treatise cannot be found in standard manuscript
+                     catalogues, including the electronic database eVK (an expanded and revised
+                     version of Linda Ehrsam Voigts and Patricia Deery Kurtz's <hi rend="italic"
+                        >Scientific and Medical Writings in Old and Middle English: An Electronic
+                        Reference</hi> [CD] (Ann Arbor: University of Michigan Press, 2000), <ref
+                        type="url" target="http://cctr1.umkc.edu/search"
+                        >http://cctr1.umkc.edu/search</ref>), or the<hi rend="italic">Indices of
+                        Middle English Prose</hi>(IMEP). However, as astrological texts are
+                     notoriously badly catalogued (for instance, M. R. James's <hi rend="italic">The
+                        Western Manuscripts in the Library of Trinity College, Cambridge: A
+                        Descriptive Catalogue</hi> [Cambridge, 19001904] typically lumps them in a
+                     single entry) and the IMEP project is still incomplete, it is possible that
+                     other copies will eventually turn up.</note>
+                  <note xml:id="note2">Middle English contents of the closely related Boston MS 19
+                     were edited by Martha Powell Harley, "The Middle English Contents of a
+                     Fifteenth-Century Medical Handbook," <hi rend="italic">Mediaevalia </hi>8
+                     (1982): 17188.</note>
+                  <note xml:id="note3">Sophie Page, "Richard Trewythian and the Uses of Astrology in
+                     Late Medieval England," <hi rend="italic">Journal of the Warburg and Courtauld
+                        Institutes</hi>64 (2001): 19395.</note>
+                  <note xml:id="note4">Nancy G.Siraisi, <hi rend="italic">Medieval and Early
+                        Renaissance Medicine: An Introduction to Knowledge and Practice</hi>
+                     (Chicago: University of Chicago Press, 1990), 68.</note>
+                  <note xml:id="note5">Steven A. Epstein, <hi rend="italic">An Economic and Social
+                        History of Later Medieval Europe, 10001500</hi> (New York: Cambridge
+                     University Press, 2009), 168.</note>
+                  <note xml:id="note6">The common name "Black Death" is anachronistic and not found
+                     in contemporary sources (Epstein, <hi rend="italic">An Economic and Social
+                        History of Later Medieval Europe</hi>, 171). On the later epidemics, see the
+                     list compiled by Brian Williams, available at <ref
+                        target="http://urbanrim.org.uk/plague%20list.htm">
+                        http://urbanrim.org.uk/plague%20list.htm</ref>, or Epstein, 168. For a good
+                     breakdown on the effects of the plague on English society, see Mark Ormrod and
+                     Phillip Lindley,<hi rend="italic">The Black Death in England</hi> (Donington:
+                     Shaun Tyas, 2003).</note>
+                  <note xml:id="note7">Danielle Jacquart, "Medical Scholasticism," ed. Mirko D.
+                     Grmek (Cambridge, MA: Harvard University Press, 1998), 234.</note>
+                  <note xml:id="note8">Cf. Epstein, <hi rend="italic">An Economic and Social History
+                        of Later Medieval Europe</hi>, 16970; David C. Mengel, "A Plague on
+                     Bohemia? Mapping the Black Death,"<hi rend="italic">Past and Present</hi>,<hi
+                        rend="italic"></hi>no. 211 (2011).</note>
+                  <note xml:id="note9">Siraisi,<hi rend="italic">Medieval and Early Renaissance
+                        Medicine</hi>, 68; Epstein, <hi rend="italic">An Economic and Social History
+                        of Later Medieval Europe</hi>, 176.</note>
+                  <note xml:id="note10">Epstein, <hi rend="italic">An Economic and Social History of
+                        Later Medieval Europe</hi>, 176; Jacquart, "Medical Scholasticism,"
+                     234.</note>
+                  <note xml:id="note11">For an overall account, see, for example, Desmond Seward,
+                        <hi rend="italic">A Brief History of Wars of the Roses</hi> (London:
+                     Robinson, 2007); and Trevor Royle, <hi rend="italic">The Wars of the Roses:
+                        England's First Civil War</hi> (London: Abacus, 2009).</note>
+                  <note xml:id="note12">Seward, <hi rend="italic">A Brief History of Wars of the
+                        Roses</hi>, 1112.</note>
+                  <note xml:id="note13">Rosemary Horrox,<hi rend="italic">Fifteenth-Century
+                        Attitudes: Perceptions of Society in Later Medieval England</hi> (Cambridge:
+                     Cambridge University Press, 1994), 10.</note>
+                  <note xml:id="note14">Cf. Page, "Richard Trewythian and the Uses of Astrology in
+                     Late Medieval England," 194.</note>
+                  <note xml:id="note15">Page, "Richard Trewythian and the Uses of Astrology in Late
+                     Medieval England," 194.</note>
+                  <note xml:id="note16">Cf. Irma Taavitsainen, <hi rend="italic">Middle English
+                        Lunaries: A Study of the Genre</hi>, Memoires de la Societe Neophilologique
+                     de Helsinki, vol. 47 (Helsinki: Societe Neophilologique, 1988), 5, 4560; Page,
+                     "Richard Trewythian and the Uses of Astrology in Late Medieval England,"
+                     19395.</note>
+                  <note xml:id="note17">Linda Ehrsam Voigts, "Scientific and Medical Books," in<hi
+                        rend="italic">Book Production and Publishing in Britain, 13751475</hi>
+                     (Cambridge: Cambridge University Press, 1989), 345402; Voigts, "What's the
+                     Word? Bilingualism in Late-Medieval England,"<hi rend="italic"
+                     >Speculum</hi>71, no. 4 (1996): 81326; Page, "Richard Trewythian and the Uses
+                     of Astrology in Late Medieval England."</note>
+                  <note xml:id="note18">Neolithic monuments like Stonehenge prove that prehistoric
+                     people, who have left no written record, were able to calculate the exact
+                     position of the sun during summer and winter solstices (see, for example, J.
+                     D.North, <hi rend="italic">Cosmos: An Illustrated History of Astronomy and
+                        Cosmology</hi> [Chicago: University of Chicago Press, 2008], 613).</note>
+                  <note xml:id="note19">Sophie Page,<hi rend="italic">Astrology in Medieval
+                        Manuscripts</hi> (Toronto: University of Toronto Press, 2002), 7; Hilary M.
+                     Carey, "Medieval Latin Astrology and the Cycles of Life: William English and
+                     English Medicine in Cambridge, Trinity College Ms O.5.26," in<hi rend="italic"
+                        >Astro-Medicine: Astrology and Medicine, East and West</hi>, ed. Anna
+                     Akasoy, Charles Burnett, and Ronit Yoeli-Tlalim (Florence: SismelEdizione del
+                     Galluzo, 2008), 42.</note>
+                  <note xml:id="note20">The universe was seen as consisting of spherical shells,
+                     some of which carried planets, built layer upon layer (North, <hi rend="italic"
+                        >Cosmos</hi>, 8385). The highest layer, the<hi rend="italic">primum
+                        mobile</hi>, was made of unmixed bodies, or the fifth element, ether. It was
+                     in slow but constant rotation, which was transmitted to the lower layers,
+                     composed of the four elements (cf. North, 8384; Jacquart, "Medical
+                     Scholasticism," 233). As opposed to Plato, the movement was thought of as
+                     actual physical movement, which could be studied with the physics of cause and
+                     effect (North, 8384; Carey, "Medieval Latin Astrology and the Cycles of Life,"
+                     38).</note>
+                  <note xml:id="note21">Cf. Mahmoud Manzalaoui, "Chaucer and Science," in<hi
+                        rend="italic">Geoffrey Chaucer</hi>, ed. Derek Brewer (London: Bell and
+                     Sons, 1974), 22425.</note>
+                  <note xml:id="note22">Taavitsainen, <hi rend="italic">Middle English
+                     Lunaries</hi>, 25.</note>
+                  <note xml:id="note23">Page, <hi rend="italic">Astrology in Medieval
+                        Manuscripts</hi>, 5.</note>
+                  <note xml:id="note24">North, <hi rend="italic">Cosmos</hi>, 251.</note>
+                  <note xml:id="note25">Voigts, "Scientific and Medical Books"; Voigts, "The 'Sloane
+                     Group': Related Scientific and Medical Manuscripts from the Fifteenth Century
+                     in the Sloane Collection,"<hi rend="italic">British Library Journal</hi>16
+                     (1990): 2657; Voigts, "What's the Word?"</note>
+                  <note xml:id="note26">Voigts, "The 'Sloane Group.'"</note>
+                  <note xml:id="note27">Even though some contain individual parchment leaves.</note>
+                  <note xml:id="note28">Voigts, "The 'Sloane Group,'" 27.</note>
+                  <note xml:id="note29">Voigts, "The 'Sloane Group,'" 27. In my opinion, to be
+                     argued in more detail in my forthcoming PhD dissertation, the resemblance in
+                     Wellcome 784 and Additional MS 5467 is debatable, but the leaves in MS
+                     Rawlinson C.815 are definitely fragments of a core group manuscript.</note>
+                  <note xml:id="note30">Voigts, "The 'Sloane Group'"; Monica H. Green, "The
+                     Possibilities of Literacy and the Limits of Reading: Women and the Gendering of
+                     Medical Literacy," in <hi rend="italic">Women's Healthcare in the Medieval
+                        West</hi>, ed. Monica H. Green (Bury St. Edmunds: Ashgate, 2000), 3839;
+                     Claire Jones, "Discourse Communities and Medical Texts," in <hi rend="italic"
+                        >Medical Scientific Writing in Late Medieval English</hi>, ed. I.
+                     Taavitsainen and P. Pahta (Cambridge: Cambridge University Press, 2004),
+                     3334.</note>
+                  <note xml:id="note31">Voigts, "The 'Sloane Group'"; Pivi Pahta, "Code-Switching
+                     in Medieval Medical Writing," in <hi rend="italic">Medical and Scientific
+                        Writing in Late Medieval English</hi> (Cambridge: Cambridge University
+                     Press, 2004), 76; Alpo Honkapohja, "Multilingualism in Trinity College
+                     Cambridge Manuscript O.1.77," in <hi rend="italic">Foreign Influences on
+                        Medieval English</hi>, ed. Jacek Fisiak and Magdalena Bator (Frankfurt am
+                     Main: Peter Lang, 2011), 33.</note>
+                  <note xml:id="note32">Voigts, "The 'Sloane Group,'" 37.</note>
+                  <note xml:id="note33">A. I. Doyle, "More Light on John Shirley,"<hi rend="italic"
+                        >Medium Aevum</hi>,<hi rend="italic"></hi>no. 30 (1961): 93101; Margaret
+                     Connolly, <hi rend="italic">John Shirley: Book Production and the Noble
+                        Household in Fifteenth-Century England</hi> (Aldershot: Ashgate,
+                     1998).</note>
+                  <note xml:id="note34">"London perscripti illud die Veneris Julii, 1462 et r.r.
+                     Edwardi 4tianno secundo" (f. 51r). [London, I wrote this down on Friday, ninth
+                     of July 1462, and in the second year of the reign of King Edward IV].</note>
+                  <note xml:id="note35">See A. I. Doyle, "The Work of a Late-Fifteenth-Century
+                     English Scribe, William Ebesham," <hi rend="italic">Bulletin of the John
+                        Rylands Library Manchester</hi> 39 (1956): 298325.</note>
+                  <note xml:id="note36">Doyle, "The Work of a Late-Fifteenth-Century English
+                     Scribe," 299.</note>
+                  <note xml:id="note37">I am following Linne R. Mooney, "Professional Scribes?
+                     Identifying English Scribes Who Had a Hand in More Than One Manuscript," in<hi
+                        rend="italic">New Directions in Later Medieval Manuscript Studies</hi>, ed.
+                     Derek Pearsall (Bury St. Edmunds: York Medieval Press, 2000), 13637, who gives
+                     the following criteria for identifying a hand as belonging to a professional
+                     scribe: the quality of workmanship is high; the scribe writes with "uniform
+                     quality", that is, he is able "to write clearly and maintain a duct, aspect and
+                     consistent style through a long piece of writing"; the hand survives in more
+                     than one manuscript; the scribe is able "to write in more than one style and
+                     maintain consistency in letter forms within a style"; "employment of certain
+                     details of layout, such as writing headings in a different style from text or
+                     accounting for formal glosses or commentary in margins when ruling"; and
+                     "evidence of collaboration with other professional scribes and/or with an
+                     artist or atelier."</note>
+                  <note xml:id="note38">Except for the two large postmedieval codices Gonville and
+                     Caius 336/725 and Tokyo Takamiya 33.</note>
+                  <note xml:id="note39">Voigts, "The 'Sloane Group,'" 27.</note>
+                  <note xml:id="note40">Voigts, "The 'Sloane Group,'" 37.</note>
+                  <note xml:id="note41">Cf. Harley, "The Middle English Contents of a
+                     Fifteenth-Century Medical Handbook," 172.</note>
+                  <note xml:id="note42">Cf. Taavitsainen, <hi rend="italic">Middle English
+                        Lunaries</hi>, 66; Peter Brown, "The Seven Planets," in <hi rend="italic"
+                        >Popular and Practical Science of Medieval England</hi>, ed. L. M. Matheson
+                     (East Lansing: Colleagues Press, 1994), 6.</note>
+                  <note xml:id="note43">Cf. Harley, "The Middle English Contents of a
+                     Fifteenth-Century Medical Handbook," 174; L. M. Matheson, "Medecin Sans
+                     Frontieres?: The European Dissemination of John of Burgundy's Plague
+                        Treatise,"<hi rend="italic">ANQ</hi>18, no. 3 (2005): 1728; L. M.
+                     Matheson, "John of Burgundy: Treatises on Plague," in<hi rend="italic">Sex,
+                        Aging, and Death in a Medieval Medical Compendium: Trinity College Cambridge
+                        R.14.52, Its Texts, Language, and Scribe</hi>, ed. M. Teresa Tavormina
+                     (Tempe: Arizona Center for Medieval and Renaissance Studies, 2006), 569602. It
+                     is not certain, however, whether contemporary readers would have understood
+                     that the texts contained essentially the same information, since the Middle
+                     English treatise (9) is attributed to "John of Bordeaux" instead of John of
+                     Burgundy, which is almost certainly a translation error resulting from
+                     confusing <hi rend="italic">Burgundia </hi>and <hi rend="italic">Burdegalia
+                     </hi>(Matheson 2005: 23). The final plague treatise is of a different
+                     epistolary form (Matheson 2005: 21) and does not mention the name of the
+                     author.</note>
+                  <note xml:id="note44">The incipit of (1) "Omne enim corpus humanum" can, according
+                     to eTK, be found in five manuscripts: British Library Sloane 3566; Boston
+                     Countway Library of Medicine MS 19; Cambridge Gonville and Caius 336/725;
+                     Trinity O.1.77; and British Library Sloane 2320 (<hi rend="italic">Electronic
+                        Thorndike and Kibre</hi> [eTK], a digital resource based on Lynn Thorndike
+                     and Pearl Kibre,<hi rend="italic">A Catalogue of Incipits of Mediaeval
+                        Scientific Writings in Latin</hi> and supplements [Cambridge, MA: Mediaeval
+                     Academy, 1963], <ref type="url" target="http://cctr1.umkc.edu/search"
+                        >http://cctr1.umkc.edu/search</ref>). Tokyo Takamiya 33 is not in the
+                     database but can be added as well, which makes it one of the works specific to
+                     this group of manuscripts. The third uroscopical text is a short Latin piece,
+                     introduced as<hi rend="italic">exposiciones vrinarum in ordine</hi>, which
+                     briefly summarizes the colors of urine. eTK finds its incipit "Color rubeus est
+                     quasi flamma ignis" in three manuscripts: Cambridge Gonville and Caius 336/725,
+                     Cambridge Trinity 1102 (O.1.77), and Countway Library of Medicine 23. eTK lists
+                     three with the incipit "Expositiones colorum urinarum in ordine": MSS Trinity
+                     O.1.77, Boston Countway MS 19, and Gonville and Caius 336/725. Voigts also
+                     mentions Sloane 2320 and Takamiya 33 in "The 'Sloane Group,'" 5253.</note>
+                  <note xml:id="note45">Cf. M. Teresa Tavormina, "The Twenty-Jordan Series: An
+                     Illustrated Middle English Uroscopy Text," <hi rend="italic">ANQ </hi>18, no. 3
+                     (2005): 4064.</note>
+                  <note xml:id="note46">See, for example, Charles West Clark, "The Zodiac Man in
+                     Medieval Medical Astrology" (University of Colorado at Boulder, 1979),
+                     iiiiv.</note>
+                  <note xml:id="note47">Voigts notes that "astrological tables . . . vary from
+                     manuscript to manuscript" ("The 'Sloane Group,'" 32).</note>
+                  <note xml:id="note48">Voigts, "The 'Sloane Group,'" 32.</note>
+                  <note xml:id="note49">Voigts, "The 'Sloane Group,'" 32.</note>
+                  <note xml:id="note50">Medical alchemy like astrology has been seen as a response
+                     to the crisis of scholastic medicine caused by the Black Death and the
+                     subsequent epidemics (cf. Leah DeVun, <hi rend="italic">Prophecy, Alchemy, and
+                        the End of Time: John of Rupescissa in the Late Middle Ages</hi> [New York:
+                     Columbia University Press, 2009], 77).</note>
+                  <note xml:id="note51">Cf. Carey, "Medieval Latin Astrology and the Cycles of
+                     Life," 42.</note>
+                  <note xml:id="note52">I am following L. M. Matheson (<hi rend="italic">Popular and
+                        Practical Science of Medieval England</hi> [East Lansing: Colleagues Press,
+                     1994], xi) and Page ("Richard Trewythian and the Uses of Astrology in Late
+                     Medieval England," 194): "the semantically charged, but slippery term 'popular'
+                     is not intended to carry any political or derogatory connotations. Many of the
+                     texts are representative of the kind of general scientific and medical
+                     knowledge available to a reasonably educated but non-specialist audience. Some
+                     contain popularizations of academic or 'high' science for the use of
+                     non-university professionals. Others, by the fact of their translation into
+                     English, were intended to reach wider readership than their Latin originals; if
+                     the survival of manuscripts and the choice of texts for early printing, then a
+                     number succeeded in this sense of the 'popular' also" (Matheson, xi).</note>
+                  <note xml:id="note53">Tavormina, "The Twenty-Jordan Series," 41.</note>
+                  <note xml:id="note54">Peter Murray Jones, "Information and Science," in <hi
+                        rend="italic">Fifteenth-Century Attitudes: Perceptions of Society in Later
+                        Medieval England</hi>, ed. Rosemary Horrox (Cambridge: Cambridge University
+                     Press, 1994), 100.</note>
+                  <note xml:id="note55">Ptolemy did not include astrology in his main work, the<hi
+                        rend="italic">Mathematike Syntaxis</hi>, known in the west after its Arabic
+                        title<hi rend="italic">al-majist</hi>, as<hi rend="italic">Almagest</hi>,
+                     but he considered it to be a part of the total rational account of the universe
+                     (North, <hi rend="italic">Cosmos</hi>, 289) and wrote a later work, the<hi
+                        rend="italic">Tetrabiblion</hi>, or <hi rend="italic">Quadripartitum</hi> by
+                     its Latin name, on it (North, 120).</note>
+                  <note xml:id="note56">Cf. North, <hi rend="italic">Cosmos</hi>, 120.</note>
+                  <note xml:id="note57">Cf. T. L. Burton, <hi rend="italic">Sidrak and Bokkus</hi>
+                     (Oxford: Oxford University Press, 1998).</note>
+                  <note xml:id="note58">Cf. Page, <hi rend="italic">Astrology in Medieval
+                        Manuscripts</hi>, 23.</note>
+                  <note xml:id="note59">James, <hi rend="italic">The Western Manuscripts in the
+                        Library of Trinity College</hi>; Linne R. Mooney, <hi rend="italic">The
+                        Index of Middle English Prose: Handlist 11, Manuscripts in the Library of
+                        Trinity College, Cambridge</hi> (Woodbridge: Brewer, 1995).</note>
+                  <note xml:id="note60">Voigts, "Scientific and Medical Books"; Voigts, "The 'Sloane
+                     Group'"; Voigts, "What's the Word?"</note>
+                  <note xml:id="note61">Patricia Deery Kurtz and Linda Ehrsam Voigts, "Contents,
+                     Unique Treatises, and Related Manuscripts," in <hi rend="italic">Sex, Aging,
+                        and Death in a Medieval Medical Compendium</hi>, ed. M. Teresa Tavormina
+                     (Tempe: Arizona Center for Medieval and Renaissance Studies, 2006), 40.</note>
+                  <note xml:id="note62">C. Jones, "Discourse Communities and Medical Texts."</note>
+                  <note xml:id="note63">C. Jones, "Discourse Communities and Medical Texts,"
+                     33.</note>
+                  <note xml:id="note64">C. Jones, "Discourse Communities and Medical Texts,"
+                     33.</note>
+                  <note xml:id="note65">C. Jones, "Discourse Communities and Medical Texts," 3334.
+                     British Library Additional MS 19674, which is in the Sloane core layout, shares
+                     texts, including recipes, and advice on diet and bloodletting with manuscripts
+                     with strong East Anglian, Norfolk, and Lincolnshire provenance (cf. C. Jones,
+                     34).</note>
+                  <note xml:id="note66">Green, "The Possibilities of Literacy and the Limits of
+                     Reading."</note>
+                  <note xml:id="note67">Green, "The Possibilities of Literacy and the Limits of
+                     Reading," 39.</note>
+                  <note xml:id="note68">Green, "The Possibilities of Literacy and the Limits of
+                     Reading," 38.</note>
+                  <note xml:id="note69">Pahta, "Code-Switching in Medieval Medical Writing,"
+                     76.</note>
+                  <note xml:id="note70">Irma Taavitsainen, "Scriptorial 'House-Styles' and Discourse
+                     Communities," in <hi rend="italic">Medical and Scientific Writing in Late
+                        Medieval English</hi>, ed. Irma Taavitsainen and Pivi Pahta (Cambridge:
+                     Cambridge University Press, 2004), 20940.</note>
+                  <note xml:id="note71">Taavitsainen, "Scriptorial 'House-Styles' and Discourse
+                     Communities," 217.</note>
+                  <note xml:id="note72">Taavitsainen, "Scriptorial 'House-Styles' and Discourse
+                     Communities," 235.</note>
+                  <note xml:id="note73">Brown, "The Seven Planets"; Mara Jos Carrillo Linares,
+                     "The Seven Planets," in <hi rend="italic">Sex, Aging, and Death in a Medieval
+                        Medical Compendium</hi>, ed. M. Teresa Tavormina (Tempe: Arizona Center for
+                     Medieval and Renaissance Studies, 2006), 68199.</note>
+                  <note xml:id="note74">M. Teresa Tavormina,  ed.<hi rend="italic">Sex, Aging, and Death in
+                        a Medieval Medical Compendium: Trinity College Cambridge MS R.14.52, Its
+                        Texts, Language, and Scribe</hi>. (Tempe: Arizona Center for Medieval and
+                     Renaissance Studies, 2006); Voigts, "What's the Word?"</note>
+                  <note xml:id="note75">Tavormina, "The Twenty-Jordan Series."</note>
+                  <note xml:id="note76">Tavormina, "The Twenty-Jordan Series," 44.</note>
+                  <note xml:id="note77">Matheson, "Medecin Sans Frontieres?"; Matheson, "John of
+                     Burgundy."</note>
+                  <note xml:id="note78">Matheson, "John of Burgundy."</note>
+                  <note xml:id="note79">Linda Ehrsam Voigts, "The Golden Table of Pythagoras."
+                        In<hi rend="italic">Popular and Practical Science of Medieval England</hi>,
+                     ed. L. M. Matheson (East Lansing: Colleagues Press, 1994), 12340.</note>
+                  <note xml:id="note80">James, <hi rend="italic">The Western Manuscripts in the
+                        Library of Trinity College</hi>, v.</note>
+                  <note xml:id="note81">James, <hi rend="italic">The Western Manuscripts in the
+                        Library of Trinity College</hi>, xxvi.</note>
+                  <note xml:id="note82">James, <hi rend="italic">The Western Manuscripts in the
+                        Library of Trinity College</hi>, xi.</note>
+                  <note xml:id="note83">Montague Rhodes James, <hi rend="italic">List of Manuscripts
+                        Formerly Owned by Dr. John Dee</hi> (Oxford: Bibliographical Society,
+                     1921).</note>
+                  <note xml:id="note84">James, <hi rend="italic">List of Manuscripts Formerly Owned
+                        by Dr. John Dee</hi>, xii.</note>
+                  <note xml:id="note85">A. G. Rigg, <hi rend="italic">A Glastonbury Miscellany of
+                        the Fifteenth Century: A Descriptive Index of Trinity College, Cambridge,
+                        Ms.O.9.38</hi> (London: Oxford University Press, 1968), 1. According to the
+                     librarians at the Wren Library, the binding is definitely not a Trinity
+                     binding, but almost all, if not all, the Gale manuscripts are bound in a
+                     similar way. The description in Rigg is of MS O.9.38.</note>
+                  <note xml:id="note86">Voigts, "The 'Sloane Group,'" 51, mentions that the
+                     manuscript is quired in 8s without specifying further, emphasizing its
+                     regularity. James (<hi rend="italic">The Western Manuscripts in the Library of
+                        Trinity College</hi>, 76) gives 202+3 without noting the inconsistencies in
+                     numbering.</note>
+                  <note xml:id="note87">David C. Greetham, <hi rend="italic">Textual Scholarship: An
+                        Introduction</hi>, Garland Reference Library of the Humanities, vol. 1417
+                     (New York: Garland, 1994), 127.</note>
+                  <note xml:id="note88"><hi rend="italic">Late Medieval English Scribes</hi>, <ref
+                        target="http://www.medievalscribes.com/"> http://www.medievalscribes.com/</ref>.</note>
+                  <note xml:id="note89">James, <hi rend="italic">The Western Manuscripts in the
+                        Library of Trinity College</hi>, 76.</note>
+                  <note xml:id="note90">Voigts, "The 'Sloane Group,'" 51.</note>
+                  <note xml:id="note91">Cf. Malcolm Beckwith Parkes, <hi rend="italic">English
+                        Cursive Book Hands, 12501500</hi> (Oxford: Clarendon Press, 1969), xv,
+                     xix.</note>
+                  <note xml:id="note92">Cf. Jane Roberts, <hi rend="italic">Guide to Scripts Used in
+                        English Writings up to 1500</hi> (London: British Library, 2005),
+                     211.</note>
+                  <note xml:id="note93">Parkes, <hi rend="italic">English Cursive Book Hands</hi>,
+                     41.</note>
+                  <note xml:id="note94">Cf. Roberts, <hi rend="italic">Guide to Scripts Used in
+                        English Writings</hi>, 16364.</note>
+                  <note xml:id="note95">Cf. Parkes, <hi rend="italic">English Cursive Book
+                        Hands</hi>, xv.</note>
+                  <note xml:id="note96">Parkes, <hi rend="italic">English Cursive Book Hands</hi>,
+                     xv.</note>
+                  <note xml:id="note97">Roberts, <hi rend="italic">Guide to Scripts Used in English
+                        Writings</hi>, 161.</note>
+                  <note xml:id="note98">Linne R. Mooney uses the wording "main scribe or a near
+                     contemporary" in <hi rend="italic">The Index of Middle English Prose</hi>,
+                     85.</note>
+                  <note xml:id="note99">I am grateful to Matti Peikola for pointing this out.</note>
+                  <note xml:id="note100">Mooney, <hi rend="italic">The Index of Middle English
+                        Prose</hi>, 85, f. 122r.</note>
+                  <note xml:id="note101">See Taavitsainen, <hi rend="italic">Middle English
+                        Lunaries</hi>, 14145; North, <hi rend="italic">Cosmos</hi>, 29294. The
+                     quote is from Taavitsainen, 141.</note>
+                  <note xml:id="note102">Taavitsainen, <hi rend="italic">Middle English
+                        Lunaries</hi>, 141.</note>
+                  <note xml:id="note103">North, <hi rend="italic">Cosmos</hi>, 292, 293.</note>
+                  <note xml:id="note104">Cf. Taavitsainen, <hi rend="italic">Middle English
+                        Lunaries</hi>, 41.</note>
+                  <note xml:id="note105">Cf. Voigts, "The 'Sloane Group,'" 27; Taavitsainen,
+                     "Scriptorial 'House-Styles' and Discourse Communities," 235.</note>
+                  <note xml:id="note106">James, <hi rend="italic">The Western Manuscripts in the
+                        Library of Trinity College</hi>, 77.</note>
+                  <note xml:id="note107">Honkapohja, "Multilingualism in Trinity College Cambridge
+                     Manuscript O.1.77."</note>
+                  <note xml:id="note108">Page, "Richard Trewythian and the Uses of Astrology in Late
+                     Medieval England," 211.</note>
+                  <note xml:id="note109">Royle, <hi rend="italic">The Wars of the Roses</hi>,
+                     282.</note>
+                  <note xml:id="note110">Seward, <hi rend="italic">A Brief History of Wars of the
+                        Roses</hi>, 7980.</note>
+                  <note xml:id="note111">Seward, <hi rend="italic">A Brief History of Wars of the
+                        Roses</hi>, 8789.</note>
+                  <note xml:id="note112">Voigts, "Scientific and Medical Books," 356; Siraisi, <hi
+                        rend="italic">Medieval and Early Renaissance Medicine</hi>, 33.</note>
+                  <note xml:id="note113">P. M. Jones, "Information and Science," 108.</note>
+                  <note xml:id="note114">See, for example, Epstein, <hi rend="italic">An Economic
+                        and Social History of Later Medieval Europe</hi>, 175.</note>
+                  <note xml:id="note115">Irma Taavitsainen, "Transferring Classical Discourse
+                     Conventions into the Vernacular," in <hi rend="italic">Medical and Scientific
+                        Writing in Late Medieval English</hi>, ed. Irma Taavitsainen and Pivi Pahta
+                     (Cambridge: Cambridge University Press, 2004), 49.</note>
+                  <note xml:id="note116">Green, "The Possibilities of Literacy and the Limits of
+                     Reading," 38; C. Jones, "Discourse Communities and Medical Texts," 34.</note>
+                  <note xml:id="note117">The statement reads "ut sciat medicus in quo signo zodiaci
+                     luna fuerit omni die" [so that the medical practitioner shall now in which sign
+                     of the zodiac the moon is all day] (f. 94v).</note>
+                  <note xml:id="note118">Pivi Pahta and Irma Taavitsainen, "Vernacularisation of
+                     Scientific and Medical Writing in Its Sociohistorical Context," in<hi
+                        rend="italic">Medical and Scientific Writing in Late Medieval English</hi>,
+                     ed. I. Taavitsainen and P. Pahta (Cambridge: Cambridge University Press),
+                     118; see also Green, "The Possibilities of Literacy and the Limits of
+                     Reading," 39.</note>
+                  <note xml:id="note119">C. Jones, "Discourse Communities and Medical Texts," 28;
+                     see also Green, "The Possibilities of Literacy and the Limits of Reading,"
+                     3839.</note>
+                  <note xml:id="note120">See, for example, Richard W. Bailey, "The Need for Good
+                     Texts: The Case of Henry Machyn's Day Book, 15501563," in <hi rend="italic"
+                        >Studies in the History of the English Language, II: Unfolding
+                        Conversations</hi>, Topics in English Linguistics 45, ed. Anne Curzan and
+                     Kimberly Emmons (Berlin: Mouton de Gruyter, 2004), 21728; Anne Curzan and
+                     Chris C. Palmer, "The Importance of Historical Corpora, Reliability, and
+                     Reading," in <hi rend="italic">Corpus-Based Studies of Diachronic English</hi>,
+                     ed. Roberta Facchinetti and Matti Rissanen (Bern: Peter Lang, 2006), 1734;
+                     Peter Grund, "Manuscripts as Sources for Linguistic Research: A Methodological
+                     Case Study Based on the Mirror of Lights," <hi rend="italic">Journal of English
+                        Linguistics </hi>34, no. 2 (2006): 10525; Alpo Honkapohja, Samuli
+                     Kaislaniemi, and Ville Marttila, "Digital Editions for Corpus Linguistics:
+                     Representing Manuscript Reality in Electronic Corpora," in <hi rend="italic"
+                        >Corpora: Pragmatics and Discourse: Papers from the 29th International
+                        Conference on English Language Research on Computerized Corpora (Icame 29).
+                        Ascona, Switzerland, 1418 May 2008</hi>, ed. Andreas H. Jucker, Daniel
+                     Schreier, and Marianne Hundt (Amsterdam: Rodopi, 2009), 45174.</note>
+                  <note xml:id="note121">See, for example, Roger Lass, "Ut Custodiant Litteras:
+                     Editions, Corpora and Witnesshood," in <hi rend="italic">Methods and Data in
+                        English Historical Dialectology</hi>, ed. Marina Dossena (Bern: Peter Lang,
+                     2004), 24; Grund, "Manuscripts as Sources for Linguistic Research,"
+                     1056.</note>
+                  <note xml:id="note122">Lass, "Ut Custodiant Litteras," 22.</note>
+                  <note xml:id="note123">LAEME: <hi rend="italic">A Linguistic Atlas of Early Middle
+                        English, 11501325, </hi>comp. Margaret Laing and Roger Lass (Edinburgh: 
+                     2007 The University of Edinburgh), <ref type="url"
+                        target="http://www.lel.ed.ac.uk/ihd/laeme1/laeme1.html"
+                        >http://www.lel.ed.ac.uk/ihd/laeme1/laeme1.html</ref>; LALME: <hi
+                        rend="italic">A Linguistic Atlas of Late Middle English</hi>, ed. Angus
+                     McIntosh, M. L. Samuels, and Michael Benskin (Aberdeen: University Press,
+                     1986); LAOS: <hi rend="italic">A Linguistic Atlas of Older Scots, Phase 1:
+                        13801500</hi> (Edinburgh:  2008 The University of Edinburgh), <ref
+                        type="url" target="http://www.lel.ed.ac.uk/ihd/laos1/laos1.html"
+                        >http://www.lel.ed.ac.uk/ihd/laos1/laos1.html</ref>.</note>
+                  <note xml:id="note124">Lass, "Ut Custodiant Litteras," 26, 25.</note>
+                  <note xml:id="note125">Lass, "Ut Custodiant Litteras," 40.</note>
+                  <note xml:id="note126">Cf. Peter M. W. Robinson, "Is There a Text in These
+                     Variants?," in<hi rend="italic">The Literary Text in the Digital Age</hi>, ed.
+                     Richard J. Finneran (Ann Arbor: University of Michigan Press, 1996), 105; M. J.
+                     Driscoll, "Levels of Transcription," in <hi rend="italic">Electronic Textual
+                        Editing</hi>, ed. Lou Burnard, Katherine O'Brien O'Keeffe, and John Unsworth
+                     (New York: Modern Language Association of America, 2006), 255.</note>
+                  <note xml:id="note127">Cf. Michael Benskin, "The Letters &lt;&#254;&gt; and
+                     &lt;Y&gt; in Later Middle English, and Some Related Matters," <hi rend="italic"
+                        >Journal of the Society of Archivists</hi>, no. 7 (1982): 1330.</note>
+                  <note xml:id="note128">A. S. G. Edwards, "Representing the Middle English
+                     Manuscript," in<hi rend="italic">New Directions in Later Medieval Manuscript
+                        Studies</hi>, ed. Derek Pearsall (Bury St. Edmunds: York Medieval Press,
+                     2000), 7475.</note>
+                  <note xml:id="note129">See, for example, Justyna Rogos, "On the Pitfalls of
+                     Interpretation: Latin Abbreviations in Mss of the Man of Law's Tale," in<hi
+                        rend="italic">Foreign Influences on Medieval English</hi>, ed. Jacek Fisiak
+                     and Magdalena Bator (Frankfurt am Main: Peter Lang, 2011), 4754; Driscoll,
+                     "Levels of Transcription"; Driscoll, "Marking Up Abbreviations in Old
+                     NorseIcelandic Manuscripts," in <hi rend="italic">Medieval TextsContemporary
+                        Media: The Art and Science of Editing in the Digital Age</hi>, ed. M. G.
+                     Saibene and M. Buzzoni (Pavia: Ibis, 2009), 1334.</note>
+                  <note xml:id="note130">Benskin, "The Letters &lt;&#254;&gt; and &lt;Y&gt; in Later
+                     Middle English."</note>
+                  <note xml:id="note131">Cf. Driscoll, "Marking Up Abbreviations in Old
+                     NorseIcelandic Manuscripts," 3132.</note>
+                  <note xml:id="note132">Rogos, "On the Pitfalls of Interpretation," 47.</note>
+                  <note xml:id="note133">Cf. Grund, "Manuscripts as Sources for Linguistic
+                     Research," 106.</note>
+                  <note xml:id="note134">Driscoll, "Levels of Transcription," 254.</note>
+                  <note xml:id="note135">Frederick Madden, <hi rend="italic">The Ancient English
+                        Romance of William and the Werwolf; Edited from an Unique Copy in King's
+                        College Library, Cambridge; with an Introduction and Glossary</hi> (London:
+                     Roxburghe Clube, 1832). See Edwards, "Representing the Middle English
+                     Manuscript," 66.</note>
+                  <note xml:id="note136">TEI: <hi rend="italic">Text Encoding Initiative</hi>, <ref
+                        type="url" target="http://www.tei-c.org/index.xml"
+                        >http://www.tei-c.org/index.xml</ref>.</note>
+                  <note xml:id="note137">See, for example, Driscoll, "Levels of Transcription";
+                     Driscoll, "Marking Up Abbreviations in Old NorseIcelandic Manuscripts"; Jaes
+                     Cummings, "Converting Saint Paul: A New Tei P5 Edition of the Conversion of
+                     Saint Paul Using Stand-Off Methodology," <hi rend="italic">Literary and
+                        Linguistic Computing</hi>, no. 3 (2009): 30717.</note>
+                  <note xml:id="note138">Cf. Driscoll, "Marking Up Abbreviations in Old
+                     NorseIcelandic Manuscripts."</note>
+                  <note xml:id="note139">Lass, "Ut Custodiant Litteras."</note>
+                  <note xml:id="note140">See Driscoll, "Marking Up Abbreviations in Old
+                     NorseIcelandic Manuscripts."</note>
+                  <note xml:id="note141">Adriano Cappelli, <hi rend="italic">Manuali Hoepli: Lexicon
+                        Abbreviaturarum Dizionario Di Abbreviature Latine Ed Italiane</hi> (Milan:
+                     Editore Ulrico Hoepli Milano, 1990), 132.</note>
+                  <note xml:id="note142">Cummings, "Converting Saint Paul."</note>
+                  <note xml:id="note143">Cf. Cummings, "Converting Saint Paul."</note>
+                  <note xml:id="note144">Oxford University Computing Services, OxGarage Conversion,
+                        <ref type="url" target="http://www.tei-c.org/oxgarage/"
+                        >http://www.tei-c.org/oxgarage/</ref>.</note>
+                  <note xml:id="note145">Cf. Driscoll, "Marking Up Abbreviations in Old
+                     NorseIcelandic Manuscripts," 3132.</note>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

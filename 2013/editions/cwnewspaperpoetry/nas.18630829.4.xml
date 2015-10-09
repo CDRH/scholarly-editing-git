@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630829.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Principles and Their Fruits</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630829.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#b">B.</author>
+                        <title level="a">Principles and Their Fruits</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-08-29">29 August 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="b">Unknown</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Copperhead movement</term>
+                    <term>United States. Constitution</term>
+                    <term>Wood, Fernando, 1812-1881</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>
+            <change when="2012-07-31" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>  
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630829.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630829.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630829.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630829.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630829.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANTI-SLAVERY STANDARD.</note>
+                
+                <head type="main" subtype="authorial" rend="center">PRINCIPLES AND THEIR FRUITS.</head>
+                
+                    <l><emph rend="smallcaps">Principles</emph> work from within to without;</l>
+                    <l>So just let us see what the nation's about.</l>
+                    <l>North and South have a motive which time will reveal;</l>
+                    <l>Both of them working, "wheel within wheel."</l>
+                    <l>On the outermost circle of <emph rend="italic">one</emph>, see <emph rend="italic">Secession!</emph></l>
+                    <l>The legitimate fruit of the traitor's profession.</l>
+                    <l>The next, just within, its co-worker will be,</l>
+                    <l>Bearing the man-curse of <emph rend="italic">Disloyalty.</emph></l>
+                    <l>And <emph rend="italic">Slavery</emph> comes next, that dark institution,</l>
+                    <l>Defended by man, and by man's "Constitution."</l>
+                    <l>Not only the slavery of black, but of white;</l>
+                    <l>Only <emph rend="italic">he</emph> is the freeman, whose <emph rend="italic">gold</emph> argues "right."</l>
+                    <l>Slavery, begotten of that next inner wheel,</l>
+                    <l><emph rend="italic">Aristocracy</emph>, laboring its fruits to conceal.</l>
+                    <l><emph rend="italic">Weak</emph> aristocracy, built upon <emph rend="italic">pelf;</emph></l>
+                    <l><emph rend="italic">Sham</emph> aristocracy, boasting of <emph rend="italic">self.</emph></l>
+                    <l>Aye! probing for motive, we find the true sore</l>
+                    <l>Is <emph rend="italic">self-aggrandisement</emph>, the disease at the core.</l>
+                    <l>In the other, the outermost circle shows ever</l>
+                    <l>That "Union" which prompts from the right not to sever;</l>
+                    <l>Union of purpose, which ever will be</l>
+                    <l>The legitimate offspring of true <emph rend="italic">Loyalty.</emph></l>
+                    <l>Then glorious <emph rend="italic">Freedom,</emph> which is ever the "tower</l>
+                    <l>Of strength" to the Union, the Nation's true power.</l>
+                    <l><emph rend="italic">Democracy</emph> moves it&#8212;ah, who knows not that?</l>
+                <l>But Democracy <emph rend="italic">pure,</emph> not your "Peace Democrat."<note type="editorial" resp="#bw #el">A Democrat who argued for peace with the South. Extreme Peace Democrats "were ready for peace without reunion," while moderates "favored peace and reunion"&#8212;but the public made no distinction between these positions (Jerome Mushkat, <title level="m">Fernando Wood: A Political Biography</title> [Kent, OH: Kent State University Press, 1990], 136).</note></l>
+                    <l>Democracy <emph rend="italic">proper</emph>, breathing "good will to man."</l>
+                <l>Not Democracy <emph rend="italic">Wood</emph>-en,<note type="editorial" resp="#bw #el"><p>A reference to Democrat Fernando Wood (1812&#8211;1881), who established himself as a member of New York City's Tammany Hall in the 1830s and jockeyed for political office throughout the war era. Between 1854 and 1861 he served several terms as mayor of New York City. After South Carolina's secession, Mayor Wood suggested that New York City might become an independent municipality&#8212;but he adapted to the pro-Union sentiment that dominated the North after the attack on Fort Sumter. Initially, Wood "saw no inherent contradiction between being a loyal American and a loyal Democrat" (Jerome Mushkat, <title level="m">Fernando Wood: A Political Biography</title> [Kent, OH: Kent State University Press, 1990], 117). His loyalty was repeatedly challenged by Republicans; nevertheless, New York City voters elected him to the House of Representatives in 1862.</p><p>The administration's war policies pushed him toward the Peace Democrats (see note above). Wood took advantage of both war weariness and the arrest of leading Peace Democrat Clement Vallandigham to consolidate support for the faction under his own leadership in June 1863. His efforts to stir up hostility to the national draft backfired when mob violence erupted in New York City, but he nevertheless took his place in the House of Representatives and challenged pro-war groups during the Thirty-Eighth Congress. He reviled abolitionists and manipulated the racial prejudices of his contemporaries for political gain. He was not reelected in 1864 but returned to the House in 1866.</p></note> <emph rend="italic">ex-official</emph> may plan.</l>
+                <l>Democracy free from all "Copperhead"<note type="editorial" resp="#el #bw">A poisonous snake, "Copperhead" became the popular (Republican) name for so-called Peace Democrats, who opposed the administration's war policies and promoted peace with the South. Copperheads were widely associated with disloyalty and treachery on the home front.</note> sting,</l>
+                    <l>Outflowing from <emph rend="italic">Justice,</emph> its pure living spring.</l>
+                    <l>Yes! the principles <emph rend="italic">here,</emph> working outward with might,</l>
+                    <l>Are <emph rend="italic">Justice</emph> and <emph rend="italic">Liberty&#8212;Truth</emph> and the <emph rend="italic">Right.</emph></l>
+                
+            </lg>
+            
+            <dateline>New York, Aug., 1863.<note type="editorial" resp="#bw #el">The aftermath of the Draft Riots occupied the New York press in August. The federal government passed its first Conscription Act in March 1863, and the first draft took place in July. Democrats opposed the draft as unconstitutional (James M. McPherson, <title level="m">Battle Cry of Freedom: The American Civil War</title> [London: Penguin, 1991] 608&#8211;9). The implementation of the draft sparked mob violence in several cities, New York foremost among them. For four days, July 13&#8211;16, rioters attacked African Americans, prominent Republicans, and public officers. More than a hundred people were killed; many more black New Yorkers grappled with trauma and destitution (Carla L. Peterson, <title level="m">Black Gotham: A Family History of African Americans in Nineteenth-Century New York City</title> [New Haven, CT: Yale University Press, 2011], 225&#8211;53).</note></dateline>
+            <byline rend="right">B.</byline>
+        </body>
+    </text>
+</TEI>
+
+
+

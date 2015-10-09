@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630530.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Confederate Loan</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630530.4</idno><idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#frr">F. R. R.</author>
+                        <title level="a">The Confederate Loan</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-05-30">30 May 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="frr">Unknown</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Confederate States of America--Economic conditions</term>
+                    <term>Confederate States of America--Foreign relations</term>
+                    <term>United States --Foreign relations--1861-1865</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>      
+            <change when="2013-03-05" who="#el">corrected citation</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-15" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>            
+            <change when="2012-07-29" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change> 
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630530.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630530.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630530.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630530.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630530.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    
+    <text corresp="#poem #pp4_cropped">
+    
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">THE CONFEDERATE LOAN.<note type="editorial" resp="#bw #el"><p>Desperate for financial capital as well as international recognition, the Confederate government sought to secure an enormous national loan in early 1863. Working with a Parisian firm of bankers, Confederate ambassador John Slidell negotiated a twenty-year loan of three million pounds "convertible in cotton certificates"  (Howard Jones, <title level="m">Blue and Gray Diplomacy: A History of Union and Confederate Foreign Relations</title> [Chapel Hill: University of North Carolina Press, 2010], 292). The end of March saw cotton bonds available for purchase in European cities, including Amsterdam, Frankfurt, London, and Paris (Jones, 292).</p><p>British pro-union and antislavery societies raised their voices against those investors who aided the Confederacy by subscribing to the scheme. A correspondent for the <title level="j">Leeds Mercury</title> of March 21, 1863, regretted that "The subscription is already large enough to show that there are many persons who either approve of the Confederate revolt, or else hold that the goodness or wickedness of the cause they subscribe to support is a matter of perfect indifference." "The Confederate Loan" was part of this chorus of protest.</p></note></head>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Oh</emph>, England! hide thy blushing face,</l>
+                    <l rend="indented1">Or rouse with anger at the thought;</l>
+                    <l>Thy sons forget their name and race,<note type="editorial" resp="#bw #el">In the  years after the passage of the Abolition of the Slave Trade Act (1807), abolition became "a major principle of British foreign policy" (James Walvin, <title level="m">Black Ivory: A History of British Slavery</title> [London: Harper Collins, 1992], 309). Representing a commitment to abolition as central to British national identity F. R. R. charges the speculators who buy Confederate bonds with blighting their nation's antislavery reputation. A call for government intervention is implicit in the line "disown a deed unworthy thee."</note></l>
+                    <l rend="indented1">And help the land where men are bought,</l>
+                    <l>Where right is claimed for foulest wrong,</l>
+                    <l>To sell the helpless to the strong.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not for the myriad groans of men</l>
+                    <l rend="indented1">In hopeless toil or hunted flight,</l>
+                    <l>Nor woman's keener anguish when,</l>
+                    <l rend="indented1">Child after child sold from her sight,</l>
+                    <l>The mother of a scattered race,</l>
+                    <l>Tenfold alone, goes to her place;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not for the lash, the brand, the fire,</l>
+                    <l rend="indented1">The morals that pollute our kind;</l>
+                    <l>But for the guilt that dares aspire</l>
+                    <l rend="indented1">To justify them to mankind&#8212;<note type="editorial" resp="#bw #el">This line is possibly an ironic echo of John Milton's stated purpose in <title level="m">Paradise Lost</title>, to "justify the ways of God to men" (Book 1, line 26).</note></l>
+                    <l>Wake, England! 'Tis an insult hurled</l>
+                    <l>Against the patience of the world.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Wake, mother of the brave and free!</l>
+                    <l rend="indented1">While wondering nations whisper shame,</l>
+                    <l>Disown a deed unworthy thee,</l>
+                    <l rend="indented1">And show that thou art still the same</l>
+                    <l>As when thou gav'st with willing smiles</l>
+                    <l>The ransom of thy Indian isles.<note type="editorial" resp="#bw #el">In order to get legislation abolishing slavery in the British colonies through Parliament, the issue of compensation for West Indian planters had to be resolved. The terms of the Abolition of Slavery Bill (introduced May 1833) were amended as a result of parliamentary debate: slaves in the British West Indies would be freed on August 1, 1834; in return, planters would receive a grant of twenty million pounds, plus the right to the labor of former slaves over the age of six (termed "apprentices") for a period of six years. Although antislavery supporters contested the concept of compensation and the apprenticeship system, the measure passed with majority votes in both houses of Parliament, but the amount of money awarded to the West Indian planters surprised everyone (Robin Blackburn, <title level="m">The Overthrow of Colonial Slavery, 1776&#8211;1848</title> [London: Verso, 1988], 457). Several years later, on August 1, 1838, the "brutal, exploitative" apprenticeship system was abandoned and full freedom for former slaves declared (James Walvin, <title level="m">Black Ivory: A History of British Slavery</title> [London: Harper Collins, 1992],  308).</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Champions of freedom in the West!</l>
+                    <l rend="indented1">Know, with the gold that helps your foes,</l>
+                    <l>From countless hearts of England's best</l>
+                    <l rend="indented1">A loathing malediction goes.</l>
+                    <l>Though pride and mammon blind a few,</l>
+                    <l>The people's heart is all with you.<note type="editorial" resp="#bw #el">F. R. R. suggests that opinion about the Confederacy and the loan divided along class lines; wealthy investors had no qualms about helping the Confederacy, but the sympathies of the majority of the British masses were with the Union. However, as historian R. J. M. Blackett has documented, "the working class did not speak with a united voice" (<title level="m">Divided Hearts: Britain and the American Civil War</title> [Baton Rouge: Louisiana State University Press, 2001], 10). F. R. R.'s statement of support nonetheless took on significance in the context of the extended franchise and ongoing debates about recognition and intervention.</note></l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">London Dial</title>.<note type="editorial" resp="#bw #el"><p>Probably the <title level="j">Evening Star and Dial</title>, a radical London daily edited by Alfred Hutchinson Dymond. Prior to the war, Dymond had worked for the <title level="j">London Morning Star</title>, then the leading opposition paper to the <title level="j">Times</title> (R. J. M. Blackett, <title level="m">Divided Hearts: Britain and the American Civil War</title> [Baton Rouge: Louisiana State University Press, 2001], 151). Like <title level="j">Star</title> editor Samuel Lucas, Dymond was a member of the London Emancipation Society. See also "<ref target="nas.18630704.4a">A Voice from the Crowd</ref>."</p> <p>Attributed to the <title level="j">London Star and Dial</title>, the reprinted poem can be seen as advocating for a transatlantic, wartime antislavery alliance grounded in the circulation of material texts; as such, the poem may have qualified readers' concerns about pro-Southern sympathy and abolitionist indifference in Britain.</p></note></note>
+            <byline rend="right">F. R. R.</byline>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+

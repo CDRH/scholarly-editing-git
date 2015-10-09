@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">Medievalists and the Scholarly Digital Edition</title>
+<title level="a" type="sub">Introduction: A Brief History of Digital Medieval Studies</title>
+<author key="Porter, Dorothy Carr">Dorothy Carr Porter</author>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2013</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<idno type="file">essay.porter</idno>
+<authority>Scholary Editing: The Annual of the Association for Documentary Editing</authority>
+<address>
+ <addrLine>http://www.scholarlyediting.org</addrLine>
+</address>
+<publisher>Association for Documentary Editing</publisher>
+<publisher>University of Nebraska&#8211;Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>http://cdrh.unl.edu</addrLine>
+ </address>
+</distributor>
+<date>2013</date>
+<availability>
+<p>Scholary Editing: The Annual of the Association for Documentary Editing is
+freely distributed by the Association for Documentary Editing and the Center
+for Digital Research in the Humanities at the University of Nebraska-Lincoln
+and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+3.0 Unported License</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>
+<respStmt>
+<resp>editor</resp>
+<name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+</respStmt>
+<respStmt>
+<resp>editor</resp>
+<name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+</respStmt>
+<idno type="vol">34</idno>
+<idno type="ISSN">2167-1257</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<note>Born digital.</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change when="2013-02-14"><name xml:id="lkw" key="Weakly, Laura K.">Laura Weakly</name> markup in TEI XML</change>
+</revisionDesc>
+</teiHeader>
+<text>
+
+
+<front><head type="main">Medievalists and the Scholarly Digital Edition</head>
+    <byline>Dot Porter</byline></front>
+<body><div type="section"><head type="main">Introduction: A Brief History of Digital Medieval Studies</head>
+
+
+<p>In 1971, the Sixth Conference on Medieval Studies was graced with its first digital-themed items in the program. The Congress<ptr target="#note1" xml:id="nr1" n="1" />  was first held in 1962 as "Medieval Originality: A Conference on Medieval Studies," and up until 1971 it had been held biennially. There were a total of eight digital-themed papers in 1971. Those papers were spread amongst three sessions, one of which was the descriptively named "The Medievalist and the Computer" and included contributions with such titles as "A Computer Analysis of Medieval Music" and "A Statistical Examination of Theme as a Style Determiner in Anglo-Saxon Poetry." That the first digital-themed papers did not appear in the conference programs until 1971, and that those papers that did appear focused on statistical analysis rather than on textual editing, should not be surprising if one remembers that in the 1970s and into the early 1980s, scholarly computing (indeed, all computing at a university) would have been done through a mainframe and would have been intermediated by a dedicated computing staff.<ptr target="#note2" xml:id="nr2" n="2" />  </p>
+
+<p>The first paper to focus on editing in an overtly computer-oriented way does not appear in the program until 1974, at the Ninth Conference on Medieval Studies. It was called "Manuscripta et machinae: Computers and Textual Editing" and was presented in a session on "Computer Projects, I." Although the title is ambiguous, most likely the paper focused on using the computer to create an edition that the presenter expected to be printed and delivered as a published codex, rather than published and delivered on a computer. Scholars lacked personal computers or other digital interfaces for interacting with electronically created texts. Through the 1970s, 1980s, and into early 1990s, paper was the interface for electronically created texts.</p>
+
+<p>Reading through the titles of papers and sessions at the Congress through the 1980s, we find the same thing: digital-oriented papers, sessions, and workshops on editing on a computer focus on issues such as statistical analysis as it relates to textual editing, and later, as desktop computers became more widely available, on the selection of word processors, desktop publishing software, fonts, and the like. Not until 1992 do we find the first digital-oriented paper presented to the Congress that describes an edition definitely intended to be published and delivered on a computer: "A New Critical-Diplomatic Edition of Piers Plowman B in Hypertext," by Hoyt Duggan at the University of Virginia. Duggan would go on to found the Society for Early English and Norse Electronic Texts (SEENET),<ptr target="#note3" xml:id="nr3" n="3" />  one of the first and best-known publishers of digital editions on CD-ROM in the 1990s and into the first decade of the twenty-first century.</p>
+
+<p>Starting in 1996 there is a sudden bloom in the number of sessions and papers that are obviously concerned with the creation of scholarly editions to be published on the computer, mainly focused on specific projects: <hi rend="italic">The Electronic Beowulf, Piers Plowman</hi> (published by SEENET), and the various manuscripts edited through the Canterbury Tales Project and its publisher, Scholarly Digital Publications. This is almost certainly a direct reaction to the advent of the Internet and the growing availability of Internet browsers as an interface, both for content published online and for copyrighted or otherwise "closed" content available only via media such as CD-ROM.<ptr target="#note4" xml:id="nr4" n="4" /> </p>
+
+<p>In 2006 was the first of several workshops aimed at teaching Congress attendees the basics of encoding using TEI, guidelines on encoding texts promulgated by the Text Encoding Initiative Consortium. Notably, from 1992 through today, the papers, sessions, and workshops at the Congress that focus on digital editing focus on the creation of those editions, but there is very little if anything to be found on how those editions might be used by the scholarly community. On one hand, scholars of medieval studies have been using editions for decades. They know how to use scholarly editions! But on the other hand, digital editions can be very different animals from print editions.<ptr target="#note5" xml:id="nr5" n="5" />  Although they may contain the same types of content&#8212;edited text, apparatus noting variants among manuscripts, glossary&#8212;in almost every case, the arrangement of those types will be quite different from a print edition, and the arrangement will also vary between digital editions. There is no standard for an interface of a digital edition.<ptr target="#note6" xml:id="nr6" n="6" />  Additionally, many digital editions include manuscript images, which are not often included in print editions (except perhaps as samples, to show general paleographic practices or general condition of the manuscript). Including images adds yet another dimension to the edition-using experience.</p>
+
+<p>My entr&#233;e into the world of digital medieval studies came in 2002, just two years before the steepest growth in the representation of general digital work (not specifically digital editing) at the Congress.<ptr target="#note7" xml:id="nr7" n="7" />  In May 2001 I graduated with an MA from the Medieval Institute at Western Michigan University, with a focus on Anglo-Saxon language, literature, and religious culture. I had taken a traditional course of work, including courses in paleography and codicology, Old English, Middle English, and Latin language and literature, and several courses on the reading of religious texts, primarily hagiographical texts. I was keenly aware of the importance of primary source materials to the study of the middle ages, and I was also aware that there were CD-ROMs available that made primary materials, and scholarly editions of them, available at the fingertips. There were even at this time the first online collections of medieval manuscripts (notably the Early Medieval Manuscript Collection at the Bodleian Library at Oxford, which is still available).<ptr target="#note8" xml:id="nr8" n="8" />  But I was curious about how much these new electronic editions (and electronic journals and databases, too) were actually being used by scholars.</p>
+</div>
+
+    <div type="section">
+<head type="main">Medievalists and Their Use of Digital Resources</head>
+
+        <p>It may be helpful to take a quick look at the field of medieval studies, and to examine what defines the medievalist. Arts-humanities.net is a database of digital humanities projects developed and managed by the Centre for e-Research (CeRch) at King's College London (<ref type="url" target="http://arts-humanities.net/node/about">arts-humanities.net/node/about</ref>). The database allows projects to be labeled according to a number of different aspects; for the purposes of this paper, I focused on two: content type and discipline. Content type refers to whether the project is text, image, moving image, and so on, and discipline refers to the project's field of study (history, archaeology, law, philosophy, for example). A keyword search for "medieval" turned up 130 projects from the database.<ptr target="#note9" xml:id="nr9" n="9" />  Content types included in these projects were text (84), dataset/structured data (i.e., databases) (75), still image/graphics (55), spatial (e.g., GIS data) (11), 3-D objects (6), and sound (e.g., music and recordings of readings) (5). The numbers do not add up to 130 because the projects may include more than one type of content. Disciplines reflected in the projects are likewise numerous, and a single project may be labeled with multiple disciplines.<ptr target="#note10" xml:id="nr10" n="10" />  Clearly medieval studies is a broad discipline&#8212;one might call it a metadiscipline or an interdiscipline itself&#8212;as it involves interdisciplinary work with an interest in many different types of materials and content types.</p>
+
+<p>As illustrated by the session programs from the Congress, medievalists have had a long-standing interest in using computers to move their work forward. In 2002, as a graduate student in library school at UNC–Chapel Hill, I attempted to answer the question, "Are these electronic resources we are creating being used?" I conducted a survey of medievalists, asking them about their attitudes toward, and use of, electronic resources.<ptr target="#note11" xml:id="nr11" n="11" />  I wrote my findings in a research paper, "Medievalists' Use of Electronic Resources: The Results of a National Survey of Faculty Members in Medieval Studies."<ptr target="#note12" xml:id="nr12" n="12" /> </p>
+
+<p>Much has changed since 2002. Google Books was first introduced in 2004, and the public interface was launched in 2007. <ptr target="#note13" xml:id="nr13" n="13" /> The American Council of Learned Societies released its final report on cyberinfrastructure in 2006.<ptr target="#note14" xml:id="nr14" n="14" />  The National Endowment for the Humanities, which had long supported digital projects, awarded the first Digital Humanities Start-Up Grants in 2007 and founded the Office of Digital Humanities in 2008.<ptr target="#note15" xml:id="nr15" n="15" />  In medieval studies, more and more digital resources are released every year. There is an established community of "Digital Medievalists," and as detailed above, the International Congress on Medieval Studies has seen steady growth in the number and profile of presentations and events on issues relating to digitization. And yet, in 2011, the question still remained: Are scholars using these resources that are being created for them?</p>
+
+<p>In September 2011, I disseminated a survey that was very similar but not identical to the one that went out in 2002.<ptr target="#note16" xml:id="nr16" n="16" />  It found, not surprisingly, a shift from the use of print resources to the use of electronic resources, for the most part. This article focuses on the survey findings with regard to scholarly editions. I also present, in comparison, the findings with regard to journals and facsimiles. Although the survey respondents have a general interest in digital resources, and show a willingness to use them, there are complications surrounding electronic editions that still need to be addressed by the scholarly editing community.</p>
+</div>
+ 
+    <div type="section">
+<head type="main">Methodology: 2002 vs. 2011</head>
+ 
+<p>I certainly expected some differences in survey responses from 2002 to 2011, but there were some unanticipated differences even in the questions asked in the survey, as well as methodology in the new project.<ptr target="#note17" xml:id="nr17" n="17" /> </p>
+ 
+<p>In 2002, it was very important for me that the survey be disseminated to average scholars&#8212;that is, scholars not particularly predisposed toward or against electronic resources. I wanted a controlled random sample: individuals randomly selected within a group that represented the variety of specializations under the umbrella of medieval studies. To compile this group, I scoured the websites of the programs listed on the CARA data project at the Medieval Academy of America (<ref type="url" target="http://www.acmrs.org/academic-programs/online-resources/CARA">http://www.acmrs.org/academic-programs/online-resources/CARA</ref>) and sent surveys to 92 faculty members (out of an initial 100) selected from eight public universities that offer graduate degrees with an emphasis in medieval studies. Forty-three surveys (46.7% of the total sent) were returned, not a bad response rate at all.</p>
+ 
+<p>The first major difference between the 2002 study and the 2011 study is that I did not even consider releasing the 2002 survey online. Surveymonkey.com (the site I used to disseminate the 2011 survey) was founded in 1999, so theoretically I could have used it or something similar in 2002. Instead, I sent introductory e-mails explaining that I would be following up with a paper survey sent in the mail. The introductory e-mail included an option for the recipient to receive an e-mailed survey instead of a paper survey. Six respondents chose this option. Altogether, 86 paper surveys were sent out by US mail and six were sent out by e-mail, for a total of 92.</p>
+
+<p>The state of the art for surveys is quite different now than in 2002. Of course I was going to release the 2011 survey online. And since it is so easy to point people to an online survey, I decided to take a two-pronged approach for the 2011 study. In addition to making a random selection of faculty from the CARA data project, I created a second survey, identical in all points, and made that one available for anyone who was interested in filling it out. I disseminated it on several medieval studies listservs, sent out announcements on Twitter, and posted it to Facebook. </p>
+
+<p>This approach led to a different set of respondents in 2011 than in 2002. While the respondents from 2002 were selected, and were all faculty in medieval studies programs, most of the respondents to the 2011 survey were self-selected. The 2011 survey included responses not only from faculty but from graduate students, undergraduates, and librarians.</p>
+
+<p>I did not anticipate how popular the public survey would be nor how low the response rate would be for the invited group. I received 142 responses to the open survey and 27 responses (a 27% response rate) to the invited, for a combined response number of 169. Considering that the online survey was easier to complete and return than a paper one, I was a bit surprised by the low number of responses from the invited group. At the same time, I am aware that a graduate student may be more sympathetic than a professional information science researcher. </p>
+
+<p>The main difference between the two surveys is that in 2002 I did not ask about the use of electronic books. Although e-books have been around since the 1970s (Michael S. Hart, the creator of <hi rend="italic">Project Gutenberg</hi>, can be credited as the inventor of the e-book),<ptr target="#note18" xml:id="nr18" n="18" />  and they have been available from some libraries as early as the late 1990s, they did not become widely popular until the advent of the Google Books Library Project in 2004. And it has only been in the past couple of years that the use of e-books has really taken off, with the popularity of e-readers such as the Kindle and the Nook and tablet computers such as the iPad (assisted in no small part by the space crunch in university libraries, which encourages off-site storage and the purchase of digital resources). </p>
+</div>
+
+    <div type="section">
+<head type="main">Medievalists' Use of Journals</head>
+
+<p>Although the main focus of this article is medievalists' use of editions, I want to start by looking at their use of journals. Journals provide an interesting comparison with editions because (1) everyone uses them,<ptr target="#note19" xml:id="nr19" n="19" />  and (2) over the past decade publishers have worked very hard to make journals, both old and new, available online, mainly through library subscriptions. In a case study at the University of Saskatchewan Library, Diana Kichuk examines the growth of electronic resources, including journals, and presents five "internal and external factors linked to growth" that are "strongly associated" with positive growth in the number of electronic resources included in the library catalog (and thus made available to faculty and students): market availability, library consortium membership, print migration to online, user expectation, and functionality development.<ptr target="#note20" xml:id="nr20" n="20" />   User expectation is only one aspect in the growth of electronic resources. What is actually available (what is online, what is subscribed to by the library either as an individual subscription or through consortial membership) is a much larger piece of the puzzle.<ptr target="#note21" xml:id="nr21" n="21" /> </p>
+
+<p>In 2002, no survey respondents reported using only or mostly electronic journals. A very small number (2, or 4%) reported using electronic and print equally, while the great majority (27, or 63%) reported using mostly print. About a third (14, or 32%) reported using only print.<ptr target="#note22" xml:id="nr22" n="22" /> </p>
+
+<p>The shift toward the use of electronic journals in 2011 is striking. Close to half of all respondents (77, or 46%) report using mostly electronic journals. More than a third (58, or 35%) report using electronic and print equally. Smaller numbers report using mostly print (26, or 16%) and electronic only (5, or 3%), while the smallest number of respondents now report using only print (1, or 0.60%).<ptr target="#note23" xml:id="nr23" n="23" /> </p>
+
+ 
+<figure>
+<graphic url="images/Figure1.png"/><head>Figure 1: Comparing journal usage, 2002 to 2011.</head>
+</figure>
+
+    <p>The use of journals shows a clear shift from print to electronic. The exact reasons for the shift would be the topic of another article. What I can say is that, going by comments made by survey respondents, some of them clearly prefer print while others clearly prefer electronic; however, that preference is not what leads them to the sources they end up using. The decision about whether to use a resource comes down to its availability, and for journals, what is available is mostly electronic.</p>
+<p>Let us now compare the findings for editions.</p>
+</div>
+    <div type="section">
+<head type="main">Medievalists' Use of Editions</head>
+
+<p>Hans Walter Gabler states that "the digital medium will be the native medium of the scholarly edition of the future. It will be the medium to study and use editions; while the print medium will remain the medium to read texts."<ptr target="#note24" xml:id="nr24" n="24" />  Is this in fact the case? At the Digital Humanities 2012 conference, Daniel Sondheim says, "Despite the preponderance of informed opinion as to the superiority of digital editions over printed ones, the fact remains that printed scholarly editions do continue to be produced, sometimes even by those who also make digital ones."<ptr target="#note25" xml:id="nr25" n="25" />  He points to the disconnect between these two statements: (1) "Theoretical discourse supports superiority of digital scholarly editions" and (2) "Continued production and sale of printed scholarly editions implies that they are still useful." Sondheim closes his presentation with the comment, "Claims to the effect that 'printed scholarly editions are obsolete' seem somewhat premature." Indeed, this is a serious understatement. The results of my survey bear out the continued usefulness, or at least continued use, of print editions: medievalists are using print editions more than they are using digital editions, and the use of digital editions has not grown over the past nine years, as it has, for example, for digital journals.</p>
+
+ 
+<figure><graphic url="images/Figure2.png"/><head>Figure 2: Survey results for editions, 2002.<ptr target="#note26" xml:id="nr26" n="26" /> </head></figure>
+
+<p>In 2002, we have responses from scholars representing the disciplines of English, foreign languages, history, philosophy/religion, art/art history, and music. All respondents reported using scholarly editions in their work. Forty-eight percent of all respondents (21 of 43) reported using only print editions, while 44% (19) reported using mostly print. A much smaller number, 7% (3), reported using electronic and print editions equally as often. </p>
+
+<p>Comparing usage amongst the different disciplines, it appears that faculty from English and philosophy/religion may be slightly less conservative. (Among English faculty, 7 out of 10 use print mostly compared with 3 out of 10 using print only, and in philosophy/religion, 3 out of 5 use print mostly compared with 1 out of 4 using print only). Foreign languages and history faculty are slightly more conservative. (Of the former, 4 out of 15 use print mostly compared with 10 out of 15 using print only, and of the latter, 3 out of 10 use print mostly compared with 6 out of 10 using print only.) However, the numbers are too small to say very much with confidence. It may simply be that in 2002, there existed digital resources in the specializations for those who responded from English departments while they did not exist for those who responded from foreign language departments. What is clear is that in 2002, there was a definite preference from all who replied for the use of print resources over electronic, whether due to an actual preference for print or because relevant electronic resources do not exist.</p>
+
+<p>Let us now turn to the 2011 survey results.</p>
+
+<figure>
+<graphic url="images/Figure3.png"/>
+<figDesc>Discipline	Electronic only	Electronic mostly	Electronic and print	Print mostly	Print only
+English	0	3	6	35	13
+Foreign language	0	0	4	12	6
+History	0	5	4	12	4
+Philosophy/Religion	0	1	0	6	4
+Art/Art history	0	0	1	5	2
+Library	0	0	0	5	1
+Music	0	0	1	1	1
+Other	0	1	1	6	2
+Not identified	0	3	4	19	6
+TOTAL	0	13	21	101	39
+		7%	12%	58%	22%</figDesc>
+<head>Figure 3: Survey results for editions, 2011.</head>
+</figure>
+<p>In 2011, we have responses from scholars representing home departments in English, foreign languages, history, philosophy/religion, art/art history, and music, as in 2011, but we also have respondents from libraries and others (whose identified specializations did not fall clearly into the other groups), as well as several who did not identify their specialization or discipline. All respondents except for one each from history and library reported using scholarly editions in their work. </p>
+
+<p>Comparing usage amongst the different disciplines, unlike in 2002 when it appeared that faculty from English and philosophy/religion departments may be slightly less conservative, and foreign languages slightly more conservative, the numbers for 2011 are more or less conservative across the board. A majority of all groups except for music (33%) and history (46%) responded that they use mostly print editions,<ptr target="#note27" xml:id="nr27" n="27" />  and the vast majority of all groups responded that they use print mostly or only.<ptr target="#note28" xml:id="nr28" n="28" />  The outlier is history, responding that they use print mostly or only (62%). More respondents in history also reported using print and electronic equally, and electronic mostly (a combined 35%).<ptr target="#note29" xml:id="nr29" n="29" />  Medievalist historians who responded to the survey show a clear preference over the others for the use of digital scholarly editions. It may be that there are simply more resources available for the specific historians who responded to the survey, or for medievalist historians in general. It will take another focused study to determine the exact reasons for their notable preference for using electronic editions.</p>
+
+<p>Twenty-two percent of all respondents reported using only print editions (down from 48% in 2002), while 58% reported using mostly print (up from 44% in 2002). This is where the largest single shift occurred&#8212;not from a clear preference for print to a clear preference for electronic, but from a clear preference for print to a slightly less clear preference for print. Twelve percent of respondents (up from 7% in 2002) reported using electronic and print editions equally often, and 7% reported using mostly electronic editions. </p>
+
+<figure> 
+<graphic url="images/Figure4.png"/><head>Figure 4: Comparing edition usage, 2002 and 2011</head>
+</figure>
+<p>
+Viewed in chart form, the shift in edition usage between 2002 and 2011 is much less striking than it is for journals usage. </p>
+</div>
+
+    <div type="section">
+<head type="main">Medievalists' Use of Facsimiles</head>
+
+<p>Looking at the numbers for the use of electronic vs. print editions, one might posit the argument that the reason for the small amount of movement from print to electronic between 2002 and 2011 is because medievalists simply are not interested in using digital resources. Journals, it may be argued, present a special case because of the "push" toward electronic versions, by journal publishers and in turn by academic libraries, over the past ten years. In an effort to counter this anticipated argument, I present the findings of the survey in relation to facsimiles, which show a significant movement from print to digital in the same time period that editions show very slight movement. I also suggest some reasons for the strong uptake of digital facsimiles that do not apply to electronic editions.</p>
+
+ 
+<figure>
+<graphic url="images/Figure5.png"/>
+<head>Figure 5: Survey results for facsimiles, 2002</head>
+<p>A note on Figure 5: The total percentage only adds up to 84% because the percentages take into account the respondents who indicated that they "do not use" facsimiles in their work (a total of 14% of all respondents). When recalculated taking into account only those respondents who do use facsimiles, the percentages change: electronic mostly, 3%; electronic and print equally, 5%; print mostly, 38%; print only, 54%.</p></figure>
+
+<p>In 2002 it appeared that faculty from the disciplines of English and philosophy/religion may be slightly less conservative in their use of electronic editions, and foreign languages slightly more conservative. Likewise, respondents from English departments are generally less conservative in their use of electronic facsimiles (6 out of 9 using print mostly and 3 out of 9 using print only) while foreign languages are slightly more conservative (7 out of 10 using print only and 2 out of 10 using print mostly, although one foreign language respondent did report using electronic mostly). History is about evenly split in reported usage. Generally, however, there is a clear preference for using print facsimiles, with 92% of all respondents reporting that they use print only or mostly, and only 8% reporting that they use electronic mostly or electronic or print equally.</p>
+
+
+<figure>
+<graphic url="images/Figure6.png"/>
+<figDesc>Discipline	Electronic only	Electronic mostly	Electronic and print	Print mostly	Print only
+English	5	32	8	5	1
+Foreign language	3	6	7	1	4
+History	10	5	5	5	0
+Philosophy/Religion	1	3	2	2	2
+Art/Art history	1	2	4	0	0
+Library	0	5	2	1	0
+Music	0	2	1	0	0
+Other	3	3	1	1	0
+Not identified	4	13	5	5	1
+TOTAL	27	71	35	20	8
+	17%	44%	22%	12%	5%</figDesc>
+<p>Figure 6: Survey results for facsimiles, 2011.<ptr target="#note30" xml:id="nr30" n="30" /> </p></figure>
+
+<p>Comparing the shifts from 2002 to 2011 between the use of editions and facsimiles is illuminating.  </p>
+
+<p>Unlike with editions, with facsimiles there is a clear shift from use of print to use of electronic, across all disciplines. Respondents from English have the highest preference for electronic, with a combined 66% responding that they use electronic only or mostly (this follows the trend from 2002, where English respondents were less conservative than the other disciplines in their use of electronic facsimiles). Respondents from foreign languages are still slightly more conservative, as in 2002, with a combined 41% responding that they use electronic mostly or only. While history respondents were much less conservative in their use of electronic editions in 2011, they are more middle-of-the-road in their use of electronic facsimiles, with a combined 58% using electronic only or mostly. Philosophy/religion and art/art history are more conservative, reporting a usage of electronic only or mostly of 36% and 38%, respectively. </p>
+
+<p>The shift is general as well. Respondents who used electronic and print equally moved from 5% in 2002 to 22% in 2011. Print mostly fell from 38% in 2002 to 12% in 2011. Print only dropped almost a full 50 percentage points, from 54% in 2002 to 5% in 2011. Electronic mostly, on the other hand, gained over 40 percentage points, from 3% in 2002 to 44% in 2011. In 2002, no respondents said that they used electronic facsimiles only, while in 2011 17% of respondents reported doing so.<ptr target="#note31" xml:id="nr31" n="31" /> </p>
+
+ 
+<figure>
+<graphic url="images/Figure7.png"/><head>Figure 7: Comparing facsimile usage, 2002 and 2011.</head></figure>
+
+</div>
+    <div type="section">
+<head type="main">Summary</head>
+
+<p>In all three resources looked at in this article, there has been some shift from use of print to use of electronic, more or less depending on the individual discipline and the type of resource.<ptr target="#note32" xml:id="nr32" n="32" />  In general, there was a very dramatic shift in the use of journals, most likely due to the sheer growth in availability of electronic journals in the years between 2002 and 2011. There was also a fairly dramatic shift in the use of facsimiles. This may be due mostly or entirely to the dramatic increase in the number of digital facsimiles made available since 2002. In 2002, I listed several collections of digital facsimiles available online, many of which are still available.<ptr target="#note33" xml:id="nr33" n="33" />  The list included the collections of the DScriptorium at Brigham Young University, two collections from the Bodleian Library, one from the Biblioth&#232;que nationale de France, another from the Universit&#233; de Li&#232;ge, and facsimiles of the Magna Carta from the British Library and of the Aberdeen Bestiary from the University of Aberdeen. I also noted that there were many individual digital facsimiles available for purchase on CD-ROM. Not a small number of digital facsimiles in total, to be sure, but nothing compared to the vast number of digitized manuscript images available to us today. </p>
+
+<p>Today, many individual libraries and consortia make digitized versions of their holdings available online, and other sites serve as finding aids for tracking down relevant holdings. A search of the Digitised Manuscripts catalog at the British Library, for manuscripts written between 500 and 1500, returns 536 results (<ref type="url" target="http://www.bl.uk/manuscripts/">http://www.bl.uk/manuscripts/</ref>). This site grows out of the British Library's Greek Manuscript Digitisation Project, started in 2010.<ptr target="#note34" xml:id="nr34" n="34" />  Another notable cultural institution that has made its own holdings available is the Walters Art Museum in Baltimore, with nearly 200 codices and individual leaves on its Digital Walters site (<ref type="url" target="http://www.thedigitalwalters.org/">http://www.thedigitalwalters.org/</ref>). Among notable consortia, piloted in 2005, e-codices: Virtual Manuscript Library of Switzerland (<ref type="url" target="http://www.e-codices.unifr.ch/en/">http://www.e-codices.unifr.ch/en/</ref>) has 902 manuscripts from 40 libraries across Switzerland and aims to digitize all manuscripts owned by libraries in that country. The Roman de la Rose Digital Library (<ref type="url" target="http://romandelarose.org/">http://romandelarose.org/</ref>) is a different sort of consortium, which seeks to digitize and make available every extant manuscript copy of that work. The site currently includes 142 manuscripts (as of March 12, 2012).<ptr target="#note35" xml:id="nr35" n="35" />  Regarding catalogs and listings of available digitized manuscripts, the Catalog of Digitized Medieval Manuscripts at the Center for Medieval and Renaissance Studies at UCLA (<ref type="url" target="http://manuscripts.cmrs.ucla.edu/index.php">http://manuscripts.cmrs.ucla.edu/index.php</ref>), begun in 2006, lists 3,127 individual manuscripts,<ptr target="#note36" xml:id="nr36" n="36" />  while the site Manuscripts of Medieval France with Vernacular Texts (<ref type="url" target="http://www.utm.edu/staff/bobp/vlibrary/frmedmss.shtml">http://www.utm.edu/staff/bobp/vlibrary/frmedmss.shtml</ref>) has a rather specialized focus and contains links to over 800 digitized manuscripts or parts of manuscripts.</p>
+
+<p>Clearly, since 2002 there has been significant growth in the number and range of digitized manuscripts available online, and it may be that the increase in the reported use of digitized facsimiles simply follows the increasing availability of those facsimiles. But what of scholarly editions? Can the lower reported usage of electronic editions be attributed solely to the fact that so few are available? And if so, that leads to the next obvious question: Why are so few electronic editions being created? If scholars are not opposed to using digital resources generally, why are they not actively creating electronic editions instead of print ones?</p>
+
+<p>It is a bit difficult to gauge the number of editions available because they tend to be individual projects, as opposed to facsimiles, which tend to be made available as collections. The closest thing that I have found to an extensive list of electronic editions is Patrick Sahle's "Catalog of Digital Scholarly Editions" (<ref type="url" target="http://www.uni-koeln.de/~ahz26/vlet/index.html">http://www.uni-koeln.de/~ahz26/vlet/index.html</ref>). Sahle's catalog includes nine premedieval editions, 80 medieval, and 49 early modern, a total of 138 digital scholarly editions from the premedieval through early modern eras, a much smaller number than what is available for digitized manuscript facsimiles. Why is there not a large number of electronic editions for medieval studies?</p>
+</div>
+
+    <div type="section">
+<head type="main">Conception of the Digital Edition</head>
+
+<p>There is a small number of electronic editions relative to electronic facsimiles. However, it is worthwhile to take a step back and consider how the survey respondents conceive of electronic editions, in comparison with scholars who create and study such editions. The reader may note that I have been using the term "electronic edition" up to now to describe an edition presented in a computer (and this is the term I used in the survey, with no definition provided for it), but there is a more specific term that I would like to introduce, and which I actually had in mind when I conceived of the survey: <hi rend="italic">digital scholarly edition</hi> or <hi rend="italic">scholarly digital edition</hi>.</p>
+
+<p>In discussing what is included in his catalog, Patrick Sahle says: "Digital scholarly editions are not just scholarly editions in digital media. I distinguish between digital and digitized. A digitized print edition is not a 'digital edition' in the strict sense used here. A digital edition cannot be printed without a loss of information and/or functionality. The digital edition is guided by a different paradigm. If the paradigm of an edition is limited to the two-dimensional space of the 'page' and to typographic means of information representation, than it's not a digital edition."<ptr target="#note37" xml:id="nr37" n="37" />  A similar definition, much more drawn out, is presented by Gabler and also by Pierazzo.<ptr target="#note38" xml:id="nr38" n="38" />  There is general agreement within the digital scholarly editing community that a purpose-built scholarly digital edition is distinctly different from a digitized edition, which is primarily identical to a print edition except it is made available through digital mediation.</p>
+
+<p>From the survey respondents' comments about their use of editions, I was surprised to find that some of the survey respondents do not share this agreement about what "makes" a digital scholarly edition. </p>
+
+<p>The comments in question include:
+
+<list><item>"I often rely on online sources for older editions, especially pre-1900. Despite how slow online interfaces operate, it is still less hassle than frequently paging materials in rare books rooms."</item>
+<item>"[I use electronic] if I needed to peruse what's out there through Google books."</item>
+<item>"[I use electronic because they are] easy to use, reference through Google Books."</item>
+<item>"[I use electronic] only if the print edition is difficult to access (e.g. not held by my library). Even then, if I am using it extensively, I will obtain a print copy through interlibrary loan. Chances are that if electronic versions of the older editions exist, they appear in Google Books or something like that and the reproduction is sometimes faulty."</item></list></p>
+
+<p>These comments do not correlate with those from the 2002 findings. (Moreover, I would go so far as to say that these comments simply would not have been possible in 2002). The comments about editions point to a sea change that has occurred in digital materials over the past ten years, a real shift in the way digital resources are being created and used by scholars. I attribute this primarily to the rise of Google Books (and related initiatives, such as HathiTrust and the Internet Archive),<ptr target="#note39" xml:id="nr39" n="39" />   which have made digitized print books so easily accessible, and which have influenced at least some scholars' conceptions of what "digital edition" means. These comments also point to what I think is, and will be, a serious problem in communication, both between librarians and scholars and within the scholarly community.</p>
+
+<p>The serious issue in the scholarly community is credit toward tenure and promotion for scholars who focus their efforts on creating digital editions and other projects. If we say "digital edition" and our colleagues and administrators think "Google Books" when what we really mean is "Electronic Beowulf," that is a huge gulf. And we might not even know it exists unless we get the chance to talk in more detail about what exactly we mean by "digital edition." I argue that we need a shared vocabulary, with shared definitions, so everyone can be on the same page when discussing digital scholarly editions. Undoubtedly, scanned older editions have an important role to play in scholarly research, but there needs to be a distinction made in terminology between scanned print editions and digital editions built purposely for being used on a computer.</p>
+
+<p>Peter Robinson has said, "The whole scholarly community needs to be persuaded that digital editions are indeed superior to print; and it needs to have access to tools so that any scholar who can make a print edition can make a digital edition instead."<ptr target="#note40" xml:id="nr40" n="40" />  My findings strongly suggest that there is a disconnect between scholarly interest in electronic resources in general and in reported use of digital scholarly editions, and that this disconnect may be related not only to a relative lack of digital editions but also to a lack of understanding by non-digital-editing medievalists about what exactly a digital scholarly edition is. Before we can encourage the scholarly community to take up tools and develop digital editions instead of print, we need to ensure that there are clear definitions regarding "digital" vs. "digitized" editions so that scholars are aware of what they are getting into.</p>
+
+</div>
+
+    <div type="section">
+<head type="main">Appendices</head>
+                
+                    <figure type="enlargeOnClick">
+                        <graphic url="images/Appendix1.png"/><head>Appendix 1: Comparison of the Use of Journals, Editions, and Facsimiles from 2002 and 2011</head>
+                    </figure>
+                    <ab>Appendix 2: <ref type="pdf" target="../pdf/porter.survey">Full Survey: Medievalists' use of digital resources</ref></ab>
+                
+</div>
+ 
+
+</body>
+<back>
+<div type="notes">
+
+ <note xml:id="note1"> Now called the International Congress on Medieval Studies. When referring to the ongoing event I will call it "the Congress," although it was not called by that name until 1979. The programs for the Congress are available through the Western Michigan University digital repository:  <ref type="url" target="http://scholarworks.wmich.edu/medieval_cong_archive/">http://scholarworks.wmich.edu/medieval_cong_archive/</ref>.</note>
+<note xml:id="note2">  See section "Consolidation: 1970s to mid-1980s" in Susan Hockey, "The History of Humanities Computing," in <hi rend="italic">A Companion to Digital Humanities</hi>, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Oxford: Blackwell, 2004), accessed July 31, 2012, <ref type="url" target="http://www.digitalhumanities.org/companion/">http://www.digitalhumanities.org/companion/</ref>.</note>
+
+
+<note xml:id="note3">  <ref type="url" target="http://www3.iath.virginia.edu/seenet/">http://www3.iath.virginia.edu/seenet/</ref>.</note>
+<note xml:id="note4">  See §9–11 in Roberto Rosselli Del Turco, "After the Editing Is Done: Designing a Graphic User Interface for Digital Editions," <hi rend="italic">Digital Medievalist</hi> 7 (2011), accessed July 31, 2012, <ref type="url" target="http://digitalmedievalist.org/journal/7/rosselliDelTurco/">http://digitalmedievalist.org/journal/7/rosselliDelTurco/</ref>.</note>
+ <note xml:id="note5"> See the discussion in Elena Pierazzo, "A Rationale of Digital Documentary Editions," <hi rend="italic">LLC</hi> 26 (2011): 463–77.</note>
+<note xml:id="note6">  The need and requirements for a standard interface are subjects of ongoing debate. See Del Turco, "After the Editing Is Done"; Pierazzo, "Rationale of Digital Documentary Editions"; Joris van Zundert, "If You Build It, Will We Come? Large Scale Digital Infrastructures as a Dead End for Digital Humanities," <hi rend="italic">Historical Social Research</hi> 37, no. 3 (2012): 165–86, on p. 178. See also the presentation by Daniel Sondheim et al., "Digital Scholarly Editions: A Functional Perspective," in the panel "Designing Interactive Reading Environments for the Online Scholarly Edition" at Digital Humanities 2012, Hamburg, Germany, July 2012 (<ref type="url" target="http://lecture2go.uni-hamburg.de/konferenzen/-/k/14010">http://lecture2go.uni-hamburg.de/konferenzen/-/k/14010</ref>, begin at the 4:00 mark).</note>
+
+
+<note xml:id="note7">  In 2002 I count 35 individual items (papers, workshops, panels) divided into 17 sessions. There were 587 sessions total during the 2002 Congress, so 2.9% of all sessions contained at least one digital item. Additionally, the ratio of items to sessions is quite high (0.486), which may indicate more "mixed" sessions, or sessions that contain both "digital" and "traditional" work presented alongside one another. The concept of the "mixed" session is quite interesting as it may indicate an acceptance of "digital" work by the general scholarly community. Between 1992 and 2002, an average of 2.33% of all sessions contained a digital-themed item, and the average ratio of items to sessions is 0.473. From 2002 through 2012, an average of 3.33% of total sessions included at least one digital-themed item, and the average ratio of items to sessions is 0.537. Both of these metrics show a clear, though small, growth when comparing the ten years following 2002 to the ten years prior to 2002.</note>
+ <note xml:id="note8"> Early Medieval Manuscript Collection, accessed July 31, 2012, <ref type="url" target="http://image.ox.ac.uk/">http://image.ox.ac.uk/</ref>.</note>
+ <note xml:id="note9"> The search was done on July 6, 2012.</note>
+
+
+ <note xml:id="note10"> History, 73; archaeology, 26; modern languages, 22; English literature and language, 20; architecture history, theory, and practice, 20; theology, divinity, and religious studies, 14; linguistics, 13; librarianship, information, and museum studies, 12; classics and ancient history, 9; law, 9; visual arts, 5; music, 4; community arts, 4; design, 3; philosophy, 2; drama and theater studies, 1.</note>
+<note xml:id="note11">  I use "electronic resources" throughout this paper, although today one might expect to call these resources "digital." It refers to any resource accessed through a computer, whether online or offline. The only exception is "scholarly digital edition," which is used to refer to a specific type of electronic edition.</note>
+<note xml:id="note12">  Dorothy Carr Porter, "Medievalists' Use of Electronic Resources: The Results of a National Survey of Faculty Members in Medieval Studies" (University of North Carolina–Chapel Hill, 2002), accessed July 31, 2012, archived by the UNC–Chapel Hill Library (<ref type="url" target="http://ils.unc.edu/MSpapers/2807.pdf">http://ils.unc.edu/MSpapers/2807.pdf</ref>) and in IUScholarWorks (<ref type="url" target="http://hdl.handle.net/2022/14060">http://hdl.handle.net/2022/14060</ref>).</note>
+<note xml:id="note13">  "History of Google Books," accessed July 31, 2012,  <ref type="url" target="http://www.google.com/googlebooks/history.html">http://www.google.com/googlebooks/history.html</ref>.</note>
+<note xml:id="note14">  "Our Cultural Commonwealth," the report of the American Council of Learned Societies Commission on Cyberinfrastructure for the Humanities and Social Sciences, accessed July 31, 2012, <ref type="url" target="http://www.acls.org/uploadedFiles/Publications/Programs/Our_Cultural_Commonwealth.pdf">http://www.acls.org/uploadedFiles/Publications/Programs/Our_Cultural_Commonwealth.pdf</ref>.</note>
+ <note xml:id="note15"> Jason Rhody, NEH ODH Program Officer, personal correspondence with author, January 18, 2011.</note>
+ <note xml:id="note16"> See Appendix 1 for a list of the questions asked in the 2011 survey.</note>
+
+
+<note xml:id="note17">  Full methodology for the first survey is in Porter, "Medievalists' Use of Electronic Resources," 29–35.</note>
+
+ <note xml:id="note18"> Marie Lebert, "1971: Project Gutenberg Is the First Digital Library," in <hi rend="italic">A Short History of eBooks</hi> (NEF, University of Toronto, 2009), 5–13, accessed July 31, 2012, <ref type="url" target="http://www.etudes-francaises.net/dossiers/ebookEN.pdf">http://www.etudes-francaises.net/dossiers/ebookEN.pdf</ref>.</note>
+ <note xml:id="note19"> All respondents to the 2002 and 2011 surveys indicated that they refer to journal articles as part of their research work.</note>
+<note xml:id="note20">  Diana Kichuk, "Electronic Collection Growth: An Academic Library Case Study," <hi rend="italic">Collection Building</hi> 29, no. 2 (2010): 55–64.</note>
+
+
+ <note xml:id="note21"> For an earlier case study, focusing only on issues of availability, see Gary Ives, "Transition to E-Journals at Texas A&amp;M University, 1995–2004," <hi rend="italic">Serials Librarian</hi> 47, no. 4 (2005): 71–78. Ives charts the growth at TAMU from the first electronic journal in 1995 to more than 35,000 unique serial titles in 2004 just nine years later. The largest single jump in the number of electronic journals came in 2002, when TAMU began subscribing to Serials Solutions: "With these [new records] added to our Public Access Menu, our listed offerings exploded from about 4,200 titles to over 35,000 unique titles overnight!" (p. 75).</note>
+ <note xml:id="note22"> Porter, "Medievalists' Use of Electronic Resources," 36.</note>
+ <note xml:id="note23"> Two respondents did not answer the question.</note>
+
+
+ <note xml:id="note24"> Hans Walter Gabler, "Theorizing the Digital Scholarly Edition," <hi rend="italic">Literature Compass</hi> 7, no. 2 (2010): 43–56.</note>
+ <note xml:id="note25"> Sondheim, "Digital Scholarly Editions."</note>
+<note xml:id="note26">  Tables from 2002 are reproduced from Porter, "Medievalists' Use of Electronic Resources."</note>
+
+
+<note xml:id="note27">  English, 61%; foreign language, 55%; philosophy, 55%; art/art history, 63%; library, 63%; other, 60%; not identified, 59%. There were only three respondents for music, however, which skews the results (each individual counts as 33.33% of the total).</note>
+<note xml:id="note28">  English, 84%; foreign language, 82%; philosophy, 91%; art/art history, 88%; library, 75%; music, 67%; other, 80%; not identified, 78%.  </note>
+<note xml:id="note29">  Compare to the other groups: English, 16%; foreign language, 18%; philosophy, 9%; art/art history, 13%; library, 0%; music, 33%; other, 20%; not identified, 22%.</note>
+
+
+<note xml:id="note30">  Thirteen respondents total indicated that they do not use facsimiles: 5 from English, 1 each from foreign language, history, philosophy, art/art history, and other, and 3 not identified. </note>
+<note xml:id="note31">  The percentages of users who responded that they "do not use" facsimiles at all remains constant between the two surveys, 6 respondents in 2002 (6.5%), to 13 respondents in 2011 (7%).</note>
+
+
+ <note xml:id="note32"> See Appendix 2 for a chart comparing all three resources for 2002 and 2011.</note>
+ <note xml:id="note33"> Porter, "Medievalists' Use of Electronic Resources," 25–26.</note>
+
+
+ <note xml:id="note34"> Juan Garc&#233;s, "The British Library's Greek Manuscript Digitisation Project," February 8, 2010, Medieval and Earlier Manuscripts blog, accessed July 31, 2012, <ref type="url" target="http://britishlibrary.typepad.co.uk/digitisedmanuscripts/2010/02/the-british-librarys-greek-manuscript-digitisation-project.html">http://britishlibrary.typepad.co.uk/digitisedmanuscripts/2010/02/the-british-librarys-greek-manuscript-digitisation-project.html</ref>.</note>
+ <note xml:id="note35"> David Reynolds, "New Manuscript Images Available," Roman de la Rose blog, accessed July 31, 2012, <ref type="url" target="http://romandelarose.blogspot.com/2012/03/new-manuscript-images-available.html">http://romandelarose.blogspot.com/2012/03/new-manuscript-images-available.html</ref>. The Roman de la Rose Digital Library actually started in 1996 and the first manuscripts were online in 1998, but there has been significant growth in the number of manuscripts made available since 2007 (see <ref type="url" target="http://romandelarose.org/#project">http://romandelarose.org/#project</ref>).</note>
+<note xml:id="note36">  All numbers are current as of August 1, 2012.</note>
+
+
+<note xml:id="note37">  Patrick Sahle, "Definition of 'Digital Scholarly Edition,'" accessed July 31, 2012, <ref type="url" target="http://www.uni-koeln.de/~ahz26/vlet/vlet-about.html">http://www.uni-koeln.de/~ahz26/vlet/vlet-about.html</ref>.</note>
+<note xml:id="note38">  Gabler, "Theorizing the Digital Scholarly Edition"; Pierazzo, "A Rationale of Digital Documentary Editions." </note>
+
+
+<note xml:id="note39">  <ref type="url" target="http://archive.org/details/texts">http://archive.org/details/texts</ref>; <ref type="url" target="http://books.google.com">http://books.google.com</ref>; <ref type="url" target="http://www.hathitrust.org/">http://www.hathitrust.org/</ref>.</note>
+<note xml:id="note40">  Peter Robinson, §5 in "Current Issues in Making Digital Editions of Medieval Texts&#8212;or, Do Electronic Scholarly Editions Have a Future?" <hi rend="italic">Digital Medievalist</hi> 1 (Spring 2005), accessed July 31, 2012, <ref type="url" target="http://digitalmedievalist.org/journal/1.1/robinson/">http://digitalmedievalist.org/journal/1.1/robinson/</ref>.</note>
+
+</div>
+
+</back>
+</text>
+</TEI>

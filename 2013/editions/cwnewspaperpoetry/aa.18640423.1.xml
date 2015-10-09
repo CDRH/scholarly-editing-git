@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640423.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Black Hero</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640423.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#w">W.</author>
+                        <title level="a">The Black Hero</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-04-23">23 April 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="w">Unknown</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African-American soldiers</term>
+                    <term>United States--History--Civil War, 1861-1865--Military life</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                    <term> 	United States. Army. Colored Infantry Regiment, 5th (1863-1865)</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-06-15" who="#el">checked transcription; encoded</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640423.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18640423.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640423.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640423.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640423.pp4.jpg"/>            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>  
+            
+            <lg type="poem">
+            
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>            
+            
+            
+                <head type="main" subtype="authorial" rend="center">THE BLACK HERO.</head>
+            
+                <epigraph><p>"In the fight at Suffolk," writes J. W. Jackson,<note type="editorial" resp="#bw #el"><p>Probably John W. Jackson (b. 1839, Virginia). The 1860 census describes Jackson as a black farmer living in Scioto, Ross County, Ohio. He was one of the first men to enlist in 127th Ohio Volunteer Infantry Regiment (Colored), later renamed the Fifth Regiment United States Colored Troops. Ohio governor David Tod received War Department authorization to raise this regiment on June 16, 1863; the first recruits were mustered into the ranks on June 22. Jackson joined Company C on June 26. The regiment formed at Camp Delaware throughout the summer and fall; it was ordered south, to Norfolk, Virginia, in November 1863. Jackson was promoted to sergeant major in early December.</p><p>The Fifth Regiment United States Colored Troops served in Virginia, at Norfolk and Portsmouth, until January 1864; then they moved to Yorktown, where they stayed until May. The soldiers took part in operations against Petersburg and Richmond between June and December 1864. Jackson was mustered out of the service on September 20, 1865. The 1870 census describes him as a clerk in a livery stable at Chillicothe, and newly married.</p><p>The source of the epigraph has not been identified; given Jackson's formal identification within the text, newspaper correspondence seems probable. The form and style of the epigraph must have conveyed meaning to contemporary readers; they did not necessarily need to know the source of a particular quotation in order to recognize the poem as a response to a public account of an African American soldier's courageous resistance. The epigraph's authority is rooted in the testimony of a distinguished soldier&#8212;Sergeant Major Jackson&#8212;rather than the name of a particular newspaper. Both Jackson's name and the form of the epigraph serve to mark the story of "The Black Hero" as established fact.</p></note> Sergeant-<lb/>Major of the 5th U. S. Colored Troops, from Balfour <choice><orig>Hospi-<lb/>tal</orig><reg>Hospital</reg></choice>, Portsmouth, Va., "seventy-five of our Black Virginia <lb/>Cavalry<note type="editorial" resp="#bw #el">The First and Second Regiments of United States Colored Cavalry (USCC) were organized in Virginia, in late December 1863 under the auspices of General Benjamin Butler. The Second USCC, commanded by Colonel George W. Cole, served at Fort Monroe, Portsmouth, and Williamsburg, Virginia, during the first half of 1864. The "fight at Suffolk" comprised the unit's first battle experience. On March 9, 1864, the Second USCC "skirmished with Rebel infantry (said to belong to Ransom's Brigade) near Bethel Church, outside Suffolk, Virginia" (Noah Andre Trudeau, "'Proven Themselves In Every Respect to Be Men': Black Cavalry in the Civil War," in <title level="m">Black Soldiers in Blue: African American Troops in the Civil War Era</title>, ed. John David Smith [Chapel Hill: University of North Carolina Press, 2002], 288). An isolated company found itself faced with a larger Confederate force; after the arrival of four more companies, the cavalrymen of the Second USCC were able to make a stand outside Suffolk. Confederate cavalry and artillery forced them to retreat (288).</note> were surrounded by three regiments of rebel <choice><orig>in-<lb/>fantry</orig><reg>infantry</reg></choice>, and gallantly cut through them, and an orderly-<lb/>sergeant killed with his sabre six of the enemy, and escaped <lb/>with the loss of an arm by grape-shot. He lies in an <choice><orig>ad-<lb/>joining</orig><reg>adjoining</reg></choice> room, and is slowly recovering."</p></epigraph>
+         
+                
+                    <lg type="stanza">
+                        <l><emph rend="smallcaps">Brave</emph> man! Thy deeds shall fill the trump of fame,</l>
+                        <l rend="indented1">And wake responsive echoes far and wide,</l>
+                        <l>And on contemners of thy race cast shame,</l>
+                        <l rend="indented1">For thou has nobly with the noblest vied.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Thy deeds recall the charge at Balaklava,<note type="editorial" resp="#bw #el">The Nattle of Balaclava (October 25, 1854) took place during the Crimean War (1853&#8211;1856). In "The Charge of the Light Brigade" (1854), poet laureate Alfred Tennyson paid tribute to the British cavalrymen who charged Russian guns as a result of bungled orders. The Light Brigade lost more than 500 of its 700 troopers; Tennyson used "six hundred" not "seven hundred" in his refrain, because "six" was better suited to his metrical scheme. The poem proved hugely popular on both sides of the Atlantic, and was oft-quoted during the Civil War. Abolitionist poets affirmed that African American soldiers were as brave as Tennyson's famous Light Brigade, acknowledged representatives of mid-nineteenth-century heroism. See also George H. Boker's <ref target="aa.18630627.1">"The Second Louisiana"</ref> (<title level="j">Anglo-African</title>, June 27, 1863) and J. Madison Bell's <ref target="aa.18640206.4">"The Black Brigade"</ref> (<title level="j">Anglo-African</title>, February 6, 1864).</note></l>
+                        <l rend="indented1">Wherein six hundred were immortalized;</l>
+                        <l>Not any hero of that charge was braver</l>
+                        <l rend="indented1">And thy great valor shall be recognized.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>No wolf pursued by hounds o'er hill and plain,</l>
+                        <l rend="indented1">At last more savagely stands up at bay,</l>
+                        <l>Finding past efforts to escape all vain,</l>
+                        <l rend="indented1">Then cleaves through dying hounds his bloody way.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Thine was the task amid war's wild alarm,</l>
+                        <l rend="indented1">The valor of thy race to vindicate;</l>
+                        <l>Now admiration all true bosoms warm</l>
+                        <l rend="indented1">And places thee among the gallant great.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>It thrills our hearts to think upon the strife</l>
+                        <l rend="indented1">In which, surrounded by the rebel host,</l>
+                        <l>Thou didst deal death for liberty and life,</l>
+                        <l rend="indented1">And freedom win, although an arm was lost.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Oh, lion-hearted hero, whose fierce sword</l>
+                        <l rend="indented1">Made breathless thy oppressors, bravely bear</l>
+                        <l>Thy sufferings; for our sympathies are poured</l>
+                        <l rend="indented1">For thee and gladly would relieve or share.</l>
+                    </lg>
+                </lg>
+            
+            
+            <dateline>Chillicothe, April 7th, 1864.</dateline>
+            <byline rend="right">W.</byline>  
+        </body>
+    </text>
+</TEI>
+

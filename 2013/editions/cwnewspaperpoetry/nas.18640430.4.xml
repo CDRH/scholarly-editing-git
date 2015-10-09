@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640430.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Right Triumphs</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640430.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#ack">Augusta Cooper Kimball</author>
+                        <title level="a">Right Triumphs</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-04-30">30 April 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>                   
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>
+                
+                <biblStruct xml:id="supplied">
+                    <monogr>
+                        <author ref="#ack">Augusta Cooper Kimball</author>
+                        <title level="m">Poems</title>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>Adams and Co.</publisher>
+                            <date when="1868">1868</date>
+                        </imprint>
+                        <biblScope type="pp">152</biblScope>
+                    </monogr>
+                </biblStruct>
+                
+                
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="ack">Kimball, Augusta Cooper</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Burial--Social aspects--United States--History--19th century</term>
+                    <term>Burial--United States--Psychological aspects--History--19th century</term>
+                    <term>Classical literature --Study and teaching--United States</term>
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Women</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-20" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-13" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-11" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked transcription</change>
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640430.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640430.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640430.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640430.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18640430.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">RIGHT TRIUMPHS.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY AUGUSTA COOPER KIMBALL.<note type="editorial" resp="#bw #el"><p>Augusta Cooper Bristol (1835&#8211;1910). Cooper, born in Croyden, New Hampshire, taught at a local school for seven years before she married printer Gustavus Kimball in 1858. They had a child and moved west on the eve of the Civil War. When the marriage failed in 1862, Cooper moved back to her parents' home with her daughter. Kimball divorced her, "on the ground of desertion" (Bessie Bristol Mason, "Biographical Sketch," in <title level="m">The Present Phase of Woman's Advancement and Other Addresses</title> by Augusta Cooper Bristol [Boston: Christopher, 1916], 7).</p><p>During the war, Cooper contributed poetry to newspapers and magazines, including the <title level="j">Christian Inquirer</title>, the <title level="j">Continental Monthly</title>, the <title level="j">New York Independent</title> and the <title level="j">National Anti-Slavery Standard</title>. She moved to Carbondale, Illinois, after marrying Louis Bristol in 1866. <title level="m">Poems</title>, her first collection, was published by a Boston firm two years later. Abiel Abbot Livermore&#8212;Unitarian minister and <title level="j">Christian Inquirer</title> editor&#8212;supplied the book's laudatory introduction. After the war, she began to lecture, and "for twenty years, she was constantly occupied as a public speaker" (8). In the early 1880s her subjects included "The Evolution of Character," "The Philosophy of Comte and Spencer," "The Scientific Basis of Morality," and "Labor and Capital." She undertook European research and spoke on topics relating to social science at national and international events. Cooper also supported currency reform and was actively involved in the Association for the Advancement of Women.</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <epigraph><p>"A rebel ball crashed through a large house, entering <lb/>the corner of the roof, and through the aperture was run <lb/>up the Union flag."</p><bibl>&#8212;<emph rend="italic">Chaplain's Notes</emph>.</bibl><note type="editorial" resp="#bw #el">The source of this epigraph is unidentified, beyond the attribution provided by Cooper ("Chaplain's Notes").</note></epigraph>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">The</emph> man who fired that traitorous charge,</l>
+                    <l rend="indented1">Purposed to feed a grave;</l>
+                    <l>But only made destructive rent,</l>
+                    <l>Where Freedom's pennon, star-besprent,</l>
+                    <l rend="indented1">More gloriously should wave.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Oppression clutched at Liberty,</l>
+                    <l rend="indented1">And thought to stop her breath,</l>
+                    <l>He fixed his fingers in her throat;</l>
+                    <l>It was a thought o'er which to gloat&#8212;</l>
+                    <l rend="indented1">A Nation choked to death!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>But lo! God works a miracle;</l>
+                    <l rend="indented1">Oppression yields the ghost!</l>
+                    <l>Our Country brightens from her night;</l>
+                    <l>The blood wrung out shall wash her white</l>
+                    <l rend="indented1">As Heaven's immor<supplied reason="missing" source="#supplied" resp="#el">t</supplied>al host.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>O rebels! in our noble dead,</l>
+                    <l rend="indented1">Ye give us precious dower.</l>
+                    <l>Their graves undying life shall breed!</l>
+                    <l>Sprouted in blood, the buried seed</l>
+                    <l rend="indented1">Shall yield the richest flower.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We will not call these valleys where</l>
+                    <l rend="indented1">Our dead boys lie concealed&#8212;</l>
+                    <l>The battle-hill and river shore&#8212;</l>
+                    <l>"Our grave yards!" they are something more:</l>
+                    <l rend="indented1">They're one grand harvest field!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>For every one of Freedom's sons</l>
+                    <l rend="indented1">Who sleeps with death-closed eyes;</l>
+                    <l>For every mound that hides a face</l>
+                    <l>Scarred for our Country&#8212;in its place</l>
+                    <l rend="indented1">Ten patriot men shall rise.<note type="editorial" resp="#bw #el"><p>Cooper describes Union volunteers as American Spartoi. In Greek mythology, the Spartoi sprang from dragon teeth. After Cadmus killed a dragon guarding the Spring of Ares, he sowed half its teeth like seeds&#8212;as the goddess Athena had told him. The warriors who rose from the earth were known as the "Sown Men" (Pierre Grimal, <title level="m">Dictionary of Classical Mythology</title> [London: Penguin, 1990], 79).</p><p>Cooper's vision of an infinite number of Union volunteers was a patriotic fantasy. The federal government introduced a national draft in 1863. Nevertheless, the hopes of pro-Union Northerners ran high in the spring of 1864. Before Grant crossed the Rapidan River in early May, the Union armies seemed poised for significant success (James M. McPherson, <title level="m">Battle Cry of Freedom: The American Civil War</title> [London: Penguin, 1991], 718). Shocking numbers of casualties and a lack of military success, however, caused Northern morale to collapse over the course of the summer. By mid-August Lincoln expected that ex-general and "War Democrat" George B. McClellan would win the upcoming presidential election.</p></note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>For every arm now stark and stiff,</l>
+                    <l rend="indented1">That fell in final pause,</l>
+                    <l>Fighting for Justice and for Truth,</l>
+                    <l>And battling with the zeal of youth&#8212;</l>
+                    <l rend="indented1">Ten more shall aid the cause.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And over every hideous rent</l>
+                    <l rend="indented1">Where cannon balls crash through,</l>
+                    <l>Shall float the white and crimson bars,</l>
+                    <l>The pennon, with its undimmed stars,</l>
+                    <l rend="indented1">In their loved field of blue.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>O matchless priests of Liberty,</l>
+                    <l rend="indented1">Ordained her fires to keep!</l>
+                    <l>Let not the lights burn faint nor low</l>
+                    <l>Within her <unclear reason="illegiblie" cert="high" resp="#el">fane</unclear>, but tower and glow,</l>
+                    <l rend="indented1">And flash with lightning-leap.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>O countrymen with royal souls!</l>
+                    <l rend="indented1">Let heart and nerve be strong,</l>
+                    <l>Till Right shall reign from North to South,</l>
+                    <l>And lay her hand upon the mouth</l>
+                    <l rend="indented1">Of every gun of wrong!</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j">Christian Inquirer</title>.<note type="editorial" resp="#bw #el">A leading Unitarian weekly, based in New York City (Frank L. Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> [Cambridge, MA: Harvard University Press, 1938], 2:72). Founded by William Kirkland in late 1846, the <title level="j">Inquirer</title> was published under the auspices of the Unitarian Association of the State of New York. After Kirkland's death, Henry Bellows served as "chief editor" until 1850. From 1856 until 1863, the Reverend Abiel Abbot Livermore edited the paper; Livermore passed his responsibilities into the collective "hands of the Unitarian clergymen of New York, Brooklyn, and the vicinity" until a "proper editor" could be found to replace him (<title level="j">Christian Inquirer</title>, September 12, 1863, 2).</note></note>
+            
+        </body>
+    </text>
+</TEI>
+
+
+

@@ -1,0 +1,3919 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="tei_ms.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ric">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+       <title level="m" type="main"><hi rend="italics">Lo Stufaiuolo</hi> by Anton Francesco Doni: A Synoptic Edition (R)</title>
+    <author>Anton Francesco Doni</author>
+    <editor xml:id="ep">Elena Pierazzo</editor>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2015</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+       
+    <authority>Scholarly Editing: The Annual of the Association for 
+     Documentary Editing</authority>
+    <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+            </address>
+    <publisher>Association for Documentary Editing</publisher>
+    <publisher>University of Nebraska–Lincoln</publisher>
+    <distributor>
+     <name>Center for Digital Research in the Humanities</name>
+     <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska–Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+    </distributor>
+    <date>2015</date>
+    <availability>
+     <p>Scholarly Editing: The Annual of the Association for Documentary 
+      Editing is freely distributed by the Association for Documentary 
+      Editing and the Center for Digital Research in the Humanities at 
+      the University of Nebraska-Lincoln and licensed under a Creative 
+      Commons Attribution-NonCommercial-Share Alike 3.0 Unported 
+      License</p>
+    </availability>
+        <idno type="file">stufaiuolo.riccardiana</idno>
+       <idno type="edition">stufaiuolo</idno>
+   </publicationStmt>
+   <seriesStmt>
+    <title level="j">Scholarly Editing: The Annual of the Association for 
+     Documentary Editing</title>
+    <respStmt>
+     <resp>editor</resp>
+     <name xml:id="ag">Amanda Gailey</name>
+    </respStmt>
+    <respStmt>
+     <resp>editor</resp>
+     <name xml:id="awj">Andrew Jewell</name>
+    </respStmt>
+    <idno type="vol">36</idno>
+    <idno type="ISSN">2167-1257</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <settlement>Florence</settlement>
+      <repository>Biblioteca Riccardiana</repository>
+      <idno>ms. 1184</idno>
+     </msIdentifier>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <foliation>404</foliation>
+       </supportDesc>
+      </objectDesc>
+      <bindingDesc>
+       <condition>average condition</condition>
+       <p>Rilegatura ottocentesca di cartone con rinforzi sul dorso e angoli in pelle. Carta
+        marmorizzato verde incollata sui piatti</p>
+      </bindingDesc>
+     </physDesc>
+     <msPart>
+      <msIdentifier>
+       <idno>MS 1184</idno>
+      </msIdentifier>
+      <msContents>
+       <msItem>
+        <locus>1-24ff</locus>
+        <title/>
+       </msItem>
+      </msContents>
+      <physDesc>
+       <objectDesc>
+        <supportDesc>
+         <support>
+          <material>Paper; chain lines at 32 mm, <locus>f. 2</locus>;
+           <watermark>lily inscribed within a circle and a star, similar to Briquet
+             7116/7</watermark></material>
+          <material>Paper; chain lines at 31 mm, <locus>ff. 4, 5, 7, 10, 12, 15, 16, 17,
+            19</locus><watermark>crown surmounted by star, similar to Briquet 4833
+           </watermark></material>
+          <material>Paper; chain lines at 32mm, <locus>f. 21</locus>, <watermark>two crossed arrows
+            with a star in the middle. End part of the arrows in the shape of a drop, similar to
+             Briquet 6299</watermark></material>
+         </support>
+         <extent>
+          <dimensions>
+           <height unit="mm">329</height>
+           <width unit="mm">230</width>
+          </dimensions>
+         </extent>
+         <foliation>1–24 ff.</foliation>
+         <collation>Sequence of twelve bifolia </collation>
+         <condition>Generally in good condition. Dried humidity stains on several pages, in
+          particular the upper right corner of versos and from <locus>f. 20</locus>,  also the upper internal
+          corner.</condition>
+        </supportDesc>
+        <layoutDesc>
+         <layout>No sign of ruling or pricking. The layout is very regular; the text occupies an
+          area of <dim unit="mm">240</dim> ×
+          <dim unit="mm">132</dim> that gradually becomes  <dim unit="mm">135</dim>. On the large left
+          margin (usually about <dim unit="mm">56</dim> on the versos and <dim unit="mm">34</dim> on
+          the rectos) we find the name of the speakers. No speaker for the dedication or the
+          prologue (<locus>ff. 3–4</locus>). Top margin ranges from <dim unit="mm">39</dim> (at
+           <locus>f. 3r</locus>) to <dim unit="mm">33</dim> (at <locus>f. 20r</locus>). Bottom margin
+          around <dim unit="mm">52</dim> throughout apart from <locus>f. 22v</locus> where margin is <dim unit="mm">42</dim>. Average of 28 lines per page throughout, apart from the dedication,
+          which is much shorter (<locus>f. 3r</locus>).</layout>
+        </layoutDesc>
+       </objectDesc>
+       <handDesc>
+        <handNote xml:id="doni" scribe="AFDoni" scope="major">Humanistic</handNote>
+        <handNote xml:id="doni2" scribe="AFDoni" scope="minor">Humanistic cursive (italics), used
+         for dedication, prologue, stage direction and the embedded letter at <locus>f.
+         12r</locus></handNote>
+       </handDesc>
+       <decoDesc>
+        <decoNote type="frontespiece"><locus>f. 2r</locus>, <dim unit="mm">240x160</dim>
+        </decoNote>
+        <decoNote type="penwork-initials">
+         <locus>f. 10r</locus>: "L" </decoNote>
+        <decoNote type="penwork-initials">
+         <locus>f. 10r</locus>: "S" </decoNote>
+        <decoNote type="penwork-initials">
+         <locus>f. 15v</locus>: "A" </decoNote>
+        <decoNote type="penwork-initials">
+         <locus>f. 18v</locus>: "S" </decoNote>
+        <decoNote type="drop-capital"><locus>f. 4r</locus> "S," <dim unit="mm">49 × 33</dim> × 5
+         lines, penwork</decoNote>
+        <decoNote type="drop-capital"><locus>f. 5r</locus> "T," <dim unit="mm">17 × 17</dim> × 3
+         lines, boxed, similar to woodcut</decoNote>
+        <decoNote type="headpiece"><locus>f. 4r</locus>
+         <dim unit="mm">27 × 132</dim></decoNote>
+        <decoNote type="headpiece"><locus>f. 5r</locus>
+         <dim unit="mm">45 × 132</dim></decoNote>
+        <decoNote type="tailpiece">
+         <locus>f. 9v</locus>
+         <dim unit="mm">103 × 133</dim>
+        </decoNote>
+        <decoNote type="tailpiece">
+         <locus>f. 12v</locus>
+         <dim unit="mm">150 × 135</dim>, embedding <q>LO STVFAIUOLO COMMEDIA DEL DONI</q>
+        </decoNote>
+        <decoNote type="tailpiece">
+         <locus>f. 15v</locus>
+         <dim unit="mm">39 × 134</dim>, embedding <q>FINE DEL III ATTO</q>
+        </decoNote>
+        <decoNote type="tailpiece">
+         <locus>f. 18r</locus>
+         <dim unit="mm">49 × 132</dim>, embedding <q>FINE DEL QUARTO ATTO</q>
+        </decoNote>
+        <decoNote type="tailpiece">
+         <locus>f. 22v</locus>
+         <dim unit="mm">46 × 139</dim>
+        </decoNote>
+        <decoNote type="cadel"><locus>f. 1r</locus></decoNote>
+        <decoNote type="cadel"><locus>f. 5r</locus></decoNote>
+        <decoNote type="cadel"><locus>f. 10r</locus></decoNote>
+        <decoNote type="cadel"><locus>f. 10v</locus></decoNote>
+        <decoNote type="cadel"><locus>f. 12r</locus></decoNote>
+        <decoNote type="cadel"><locus>f. 12v</locus></decoNote>
+        <decoNote type="cadel"><locus>f. 18v</locus></decoNote>
+        <decoNote type="cadel"><locus>f. 20v</locus></decoNote>
+        <decoNote type="cadel"><locus>f. 22r</locus></decoNote>
+        <decoNote type="panel"><locus>f. 10r</locus>
+         <dim unit="mm">132x17</dim></decoNote>
+        <decoNote type="panel"><locus>f. 13r</locus>
+         <dim unit="mm">139x41</dim></decoNote>
+        <decoNote type="panel"><locus>f. 15v</locus>
+         <dim unit="mm">137x41</dim></decoNote>
+        <decoNote type="panel"><locus>f. 18V</locus>
+         <dim unit="mm">135x65</dim>, embedding <q>SCENA PRIMA Niccoló Magnano et Maddalena</q>
+        </decoNote>
+       </decoDesc>
+       <additions>Ownership note at <locus>f. 2r</locus>, at the bottom of the frontispiece:
+         "Questa Co<ex>m</ex>media é del s<ex>ignor</ex> Cav. Raff<ex>aell</ex>o di Lionardo
+         Carnesecchi."
+       </additions>
+      </physDesc>
+      <history>
+       <origin>Written in 1559 by Doni after he left Venice, probably while living in Ancona or in
+        Ferrara, as per date written on the frontispisce <locus>f. 2r</locus> (the text itself was
+        composed ante 1551). The dedicatee is Giacomo Piccolomini duke of Montemarciano, but he
+        probably lived in Siena, where his son Alfonso is reported to have born. reagion.</origin>
+       <provenance>The ownership note at <locus>f. 2r</locus> declares that the manuscript was owned
+        by Raffaello di Lionardo Carnesecchi (1547-1621). It is not clear how the manuscript got in
+        the possession of Carnesecch; the possession of Alfonso Piccolomini where confiscated by the
+        Pope (in Montemarciano) and the granduke of Tuscany in Siena, so it si possible that the
+        accession of the Carnessecchi was a consequence of the dispersion of the Piccolomini estate
+        after teh execution of Alfonso (1591). Carnesecchi died in 1615.</provenance>
+       <provenance>Next we know the manuscript having been possessed by Anton Maria Salvini, who
+        died in 1729. After his death the heairs negotiated the sale of his library to Gabriello
+        Riccardi. The shelfmark <idno>1184</idno>is the original shelfmark attributed by Gabriello. </provenance>
+       <acquisition> It is not very clear how the Stufaiuolo ended up consociated with the other
+        items that compose the miscellaneous and way it was originally coolcated toward the end of
+        such miscellanea, since the shelfmark was not changed. The miscellanea assumes its present
+        configuarion in 1858 when the pieces get bound by XXX</acquisition>
+
+      </history>
+     </msPart>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <charDecl>
+    <glyph xml:id="qm">
+     <glyphName>Question-Exclamation mark</glyphName>
+     <desc>Glyph graphically similar to a Punctus Interrogativus and semantically in between a
+      question and an exclamation mark</desc>
+     <mapping type="standard">?</mapping>
+     <mapping type="diplomatic">‽</mapping>
+     <mapping type="MUFi">F160 Punctus Interrogativus</mapping>
+    </glyph>
+    <glyph xml:id="per">
+     <glyphName>Period</glyphName>
+     <desc>Marks the end of a period</desc>
+     <mapping type="diplomatic">:~</mapping>
+     <mapping type="standard">.</mapping>
+    </glyph>
+   </charDecl>
+   <editorialDecl>
+    <quotation>
+     <p>There are no quotation marks in the original; all marks have been added by the editor</p>
+    </quotation>
+    <normalization>
+     <p>Normalized capitalization is handled via couples of <gi>reg</gi> and <gi>orig</gi> elements,
+      where the value of the <att>type</att> or <att>subtype</att> takes one of the following
+      values: <list>
+       <head>Capitalization</head>
+       <item><label>U2L-reg</label> Uppercase to lowercase due to changed orthographic habits</item>
+       <item><label>l2U-reg</label> Lowercase to Uppercase due to changed orthographic habits</item>
+       <item><label>U2L-pc</label>Uppercase to lowercase due to changed punctuation</item>
+       <item><label>l2U-pc</label>Lowercase to Uppercase due to changed punctuation</item>
+      </list></p>
+
+     <p>Orthography is normalized via couples of <gi>reg</gi> and <gi>orig</gi> elements, where the
+      value of the <att>type</att> takes one of the following values: <list>
+       <head>Latinisms</head>
+       <item><label>lat</label>: graphical Latinism </item>
+       <item><label>lat-h</label>: graphical etymological or pseudo-etymological 'h'. Subset of
+        Latinisms</item>
+      </list>
+      <list>
+       <head>Word separation</head>
+       <item><label>w-separation</label>: editorially added spaces between words or editorially
+        deleted spaces between parts of words </item>
+
+      </list>
+      <list>
+       <head>Diacritics</head>
+       <item><label>accent-add</label>: editorially added accent</item>
+       <item><label>accent-del</label>: editorially suppressed accent</item>
+       <item><label>dir-acc</label>: accent direction editorially regularized </item>
+       <item><label>apo-add</label>: editorially added apostrophe</item>
+       <item><label>apo-del</label>: editorially suppressed apostrophe</item>
+      </list>
+      <list>
+       <head>Spelling</head>
+       <item><label>diacritic-i</label>: editorially removed over-abundant diacritic "i"</item>
+       <item><label>mp-mb</label>: editorial regularization of "np" and "nb" into "mp" and
+        "mb"</item>
+       <item><label>graphematic</label>: editorial regularization of graphemes (j, &amp;, ß)</item>
+       <item><label>spelling</label>: editorial regularization of other irregular spellings.</item>
+      </list>
+     </p>
+     <p>The use of "u" for "v" has been silently corrected since the author's use is totally
+      consistent. Therefore: <list>
+       <item>All lowercase "v" where originally "u".</item>
+       <item>All uppercase "U" where originally "V".</item>
+      </list>
+     </p>
+     <p>Punctuation has been marked and regularised with the help of the <gi>pc</gi> element whcih
+      has been provided with a <att>resp</att> attribute; the value of which is: <list>
+       <item><label>doni</label>: for the original punctuation;</item>
+       <item><label>ep</label>: for the editorial punctuation;</item>
+       <item><label>doni ep</label>: for the original punctuation that was validated by the
+        editor</item>
+      </list>
+      <q>ep</q>f</p>
+    </normalization>
+   </editorialDecl>
+  </encodingDesc>
+ </teiHeader>
+ <text>
+  
+  <body>
+   <pb n="1r" facs="c1r"/>
+   <div>
+    <p>Allo Ill<ex>ustrissi</ex>mo Sig<ex>nor</ex> il <orig>Signor</orig> Iacopo <orig>Piccol huomini</orig> 
+     mio s<ex>ignor</ex> sempre
+      osserva<ex>n</ex>diss<ex>i</ex>mo</p>
+    <p><orig>a</orig>
+     <orig>mo<ex>n</ex>te marciano</orig></p>
+   </div>
+   <pb n="1v" facs="c1v"/>
+   <pb n="2r" facs="c2r"/>
+
+   <div>
+    <ab>
+     <ptr xml:id="fr1"/>LO  STUFAIUOLO  COMMEDIA  DEL DONI F<ex>RANCESCO</ex>
+     
+    </ab>
+    <epigraph>
+     <p>ALLO ILLUSTRISS<ex>IMO</ex>
+       SI<ex>GNOR</ex> SILVIO PICCOLOMINI
+      
+      <orig>MDLVIIII</orig>
+     </p>
+    </epigraph>
+
+   </div>
+   <pb n="2v" facs="c2v"/>
+
+   <pb n="3r" facs="c3r"/>
+
+   <div type="dedica">
+    <opener>Allo <orig>Illustrissimo</orig>: s<ex>ignore</ex>:
+     il
+     <orig>Signor</orig> <orig>Jacopo</orig> <orig>Piccolhuomini</orig> mio sig<ex>nore</ex>
+    </opener>
+    
+    <p>
+     <ptr xml:id="ded"/>
+     <orig>Poi che</orig> la cortesia, ha trovato il proprio nido suo nella <orig>Casa</orig> se<ex>m</ex>pre 
+     <orig>Ill<ex>ustrissi</ex>ma</orig>
+     <orig>Et</orig>
+     <orig>Ecc<ex>ellentissi</ex>ma</orig>
+     <orig>et</orig> che la <orig>nobiltá</orig> veramente ha posto il seggio ne la persona vostra <orig>Illustris<ex>sima</ex></orig>
+     <orig>et</orig> degna
+     <orig>Io</orig>
+     <orig>obligatßimo</orig> servitore d’<orig>un’</orig>
+     <orig>si</orig> mirabile splendor di sangue <orig>et</orig> di <orig>virtú</orig>; vengo co<ex>n</ex> questo debil principio <orig>et</orig> picciol dono, a <orig>presentar’</orig> la S<ex>ignoria</ex> V<ex>ostra</ex>
+     <orig>Ill<ex>ustrissi</ex>ma</orig>
+     <orig>In sino</orig> a  tanto che seguendo co<ex>n</ex> maggiore opera, io possi scolpire nell’<orig>eternitá</orig>
+      del mondo, quanto sieno i meriti di quella <orig>et</orig> il debito della <orig>servitú</orig> mia
+    </p>
+    <signed rend="right">Il Doni
+    </signed>
+   </div>
+   <pb n="3v" facs="c3v"/>
+
+   <set>
+    <p>
+     <ptr xml:id="set"/>
+     <emph>La <orig>Scena</orig>
+      <orig>é</orig> la <orig>Cittá</orig> di Vinegia
+     </emph>
+    </p>
+   </set>
+   <castList>
+    <head>
+     <ptr xml:id="cast"/>
+     <hi rend="sc">PERSONE DELLA FAVOLA
+     </hi>
+    </head>
+    <castItem>
+     <name xml:id="ce">Cesare</name>:
+     <role>
+      <orig>et</orig>
+     </role>
+    </castItem>
+    <castItem>
+     <name xml:id="md">Maddalena</name>
+     <role> suo donna
+     </role>
+    </castItem>
+    <castItem>
+     <name xml:id="la">Laura</name>
+     <role> moglie di m<ex>esser</ex>
+      <orig>Niccoló</orig>.</role>
+    </castItem>
+    <castItem>
+     <name xml:id="ta">Taddea</name>
+     <role> sorella di m<ex>esser</ex>
+      <orig>Nic<ex>colo</ex>
+       </orig>.
+     </role>
+    </castItem>
+    <castItem>
+     <name xml:id="vi">Vincenzo</name>
+     <role> inamorato</role>
+    </castItem>
+    <castItem>
+     <name xml:id="ca">Caterina</name>
+     <role> fante di Lau<ex>ra</ex>
+     </role>
+    </castItem>
+    <castItem>
+     <name xml:id="ni">
+      <orig>Niccoló</orig>
+     </name>
+     <role> vecchio</role>.
+    </castItem>
+    <castItem>
+     <name xml:id="st">Gottardo</name>
+     <role>
+      <orig>Stufaiuolo</orig>.
+     </role>
+    </castItem>
+    <castItem>
+     <name xml:id="bi">Bigio</name>
+     <role> famiglio</role>.
+    </castItem>
+    <castItem>
+     <name xml:id="co">Corrieri</name>
+    </castItem>
+    <castItem>
+     <name xml:id="dr">Druda</name>
+     <role>
+      <orig>Todesca</orig>
+      <orig>Cortigiana</orig></role>.
+     <orig>et</orig> un </castItem>
+    <castItem>
+     <name xml:id="ma">Magnano</name>
+    </castItem>
+   </castList>
+   <pb n="4r" facs="c4r"/>
+
+   <div type="prologo">
+    <head>PROLOGO</head>
+    <p>
+     <ptr xml:id="pro"/>
+     <orig>SIGNORI</orig>
+     <orig>Spettatori</orig> voi <orig>in sieme</orig> con tutte queste <orig>nobilißime</orig>,
+     <orig>et</orig>
+     <orig>bellißime</orig> donne siate i ben trovati E’ son forse sei mesi che io  mi accoppiai <orig>cosi</orig> posticciamente con una bella <orig>Cortigiana</orig>
+     <orig>Tedesca</orig>: la quale come
+      udirete
+      ha presa la lingua tanto bene, che la par nata in Italia Io sono 
+     <orig>Stufaiuolo</orig>
+     <orig>de</orig> primi di questa <orig>Cittá</orig>
+     <orig>per che</orig> appicco mirabilme<ex>n</ex>te
+     <orig>Cornetti</orig>
+     <orig>et</orig> ho nome Gottardo pur di razza <orig>Tedesca</orig>; ma sono attalianato
+      benissimo,
+     <orig>et</orig> per questo credo che la <orig>S<ex>ignora</ex>
+      </orig> Druda
+     <orig>che</orig>
+     <orig>cosi</orig> si fa chiamare m’<orig>habbia</orig> posto amore
+     <orig>&amp;</orig> per tenere del sangue del paese meglio <orig>sodisfó</orig> all’apetito suo:
+     <orig>et</orig> poi la <orig>Carne</orig> tira
+     <orig>Hora</orig> io sto qui a stufare tenendo a camere locande
+     <orig>et</orig> pur <orig>hora</orig>
+      come mi vedete sotto questa vesta nudo della stufa io vengo Lei  sta qui <orig>a canto</orig>
+     <orig>et</orig>
+     <orig>in sieme</orig> per una porta falsa che l’ha dietro;
+      entro <orig>et</orig> esco;
+     <orig>et</orig> ella accomoda da ogni parte <orig>ne</orig> letti, i nudi stufati:
+     <orig>cosi</orig> usiamo ogni <orig>masseritia</orig> sottosopra lei <orig>et</orig> io p<ex>er</ex> indiviso
+    </p>
+    <p>Io son qui, adunque per farvi uno argomento ancora che io non  sia <orig>spetiale</orig> d’una nuova <orig>Commedia</orig> un caso di poche <orig>hore</orig>,
+     <orig>&amp;</orig>
+      spedirovvi tosto
+     <orig>poi che</orig> ho rizzata la fantasia, <orig>a cioche</orig> sommariamente la contiene;
+     <orig>et</orig> no<ex>n</ex>
+     <orig>istaró</orig> a menare la cosa lenta, o lunga facendovi stentare come fanno i vecchi che dicono le lor cose
+     <pb n="4v" facs="c4v"/>
+      adagio agiatamente col tornare <orig>hora</orig>
+     <orig>in dietro</orig>,
+     <orig>et</orig>
+     <orig>hora</orig> con l’adoppiare le parole onde la risolvono
+     in fummo Porgetemi voi donne da un canto
+     <orig>et</orig> voi <orig>huomini</orig> dall’altro gratamente udienza
+    </p>
+    <p>Uno il quale veste da mag<ex>nifi</ex>co s’egli <orig>é</orig> poi io no<ex>n</ex> lo so
+     <orig>stá</orig> in questa casa
+     <orig>et</orig> ha una moglie che tolse per amore
+     <orig>Una</orig> fanciulla <orig>Genovese</orig> rubata, co<ex>n</ex> un suo fratello per la guerra poi allevata in casa <orig>Sua</orig>
+     
+     <orig>&amp;</orig> si chiama Laura una delle belle giovani di questa <orig>cittá</orig> Ella  ha due ama<ex>n</ex>ti, uno <orig>stá</orig> qui co<ex>n</ex> la mia cortigiana un ricco
+      mercata<ex>n</ex>te, sconosciuto credo io che sia <orig>fuor’uscito</orig> della sua terra:
+     <orig>et</orig> ha la do<ex>n</ex>na sua chiamata Maddalena
+     la quale sta per governo <distinct type="fiorentino">in casa questo che mag<ex>nifi</ex>co
+      si chiama</distinct> una donna certo da governo In questa mia stufa l’altro inamorato fa no<ex>n</ex> so che
+      rubame<ex>n</ex>ti di panni onde voi  vedrete variar molti <orig>habiti</orig>:
+     <orig>alla</orig> fine una vedova la quale <orig>é</orig> sorella di questo che <orig>ge<ex>n</ex>tilhuomo</orig> gli pare essere
+     <orig>et</orig>
+     <orig>é</orig> inamorata d’uno  di quegli ama<ex>n</ex>ti di Laura
+     <orig>et</orig> lei <orig>é</orig> cagione che ogni cosa torni a  segno
+     <orig>La</orig>
+     <orig>stá</orig> qui
+     <orig>et</orig> da essa in fuori, si travestiscono tutti.
+     <orig>Una</orig> bella rinvoltura vi prometto Se starete
+     cheti la <orig>Commedia</orig> vi <orig>parrá</orig>
+     
+     <orig>piu</orig> bella <orig>et</orig> v’<orig>insegnerá</orig> nelle <orig>Stoltitie</orig> d’amore a raffrenarvi
+      imparerete a tollerare gli affanni, sempre sperando bene,
+     <orig>Conoscerete</orig> che no<ex>n</ex>
+     <orig>é</orig> da fidarsi <orig>cosi</orig> di donne <orig>intutto</orig>: sarete cauti nel tenere
+     fante insieme co<ex>n</ex> il famiglio;
+     <orig>per che</orig> vedrete di che tacca e’ sono:
+     
+     <orig>&amp;</orig> fuggirete le pazzie della vecchiaia le quali son molto <orig>licentiose</orig>
+     
+     <orig>Et</orig> p<ex>er</ex> tenervi allegri,
+     <orig>et</orig> senza sonno vi so dire che voi riderete quasi dal 
+     principio alla fine Ma ecco apunto chi di qua viene, p<ex>er</ex> cominciare <orig>á</orig>
+      recitare, attendete adunque a loro che <orig>piu</orig> inanzi entreranno co<ex>n</ex> la  cosa,
+     <orig>et</orig> meglio
+     <orig>per che</orig>
+     <orig>sará</orig> vedendo, come se voi toccaste co<ex>n</ex> mano
+     <orig>ma</orig>
+      no<ex>n</ex> lo crediate altrimenti;
+     <orig>p<ex>er</ex> che</orig> q<ex>ue</ex>llo che fu <orig>giá</orig>
+     <orig>dadovero</orig>
+     <orig>é</orig>
+     <orig>hora</orig> ridotto  in <orig>Co<ex>m</ex>media</orig> e chiamasi lo STUFAIUOLO:
+     <orig>mi</orig> raccomando
+    </p>
+   </div>
+  
+   <pb n="5r" facs="c5r"/>
+
+   <div type="atto">
+    <head>
+     <ptr xml:id="a1"/>ATTO PRIMO</head>
+    <div type="scena">
+     <head>
+      <ptr xml:id="a1sc1"/>Scena Prima</head>
+
+     <stage><orig>CESARE</orig>
+      <orig>&amp;</orig>
+      <orig>MADDALENA</orig></stage>
+     <sp who="ce">
+      <speaker>
+       <ptr xml:id="ce1"/>
+       <supplied>Ces<ex>are</ex>.</supplied>
+      </speaker>
+      <p><orig>TU</orig>, sai la compagnia che io ti ho fatta, tanti
+       e tanti anni che <orig>hoggi mai</orig>
+       <distinct type="fiorentino">possian</distinct> dire d’esser vecchi
+       <orig>hora</orig> tu vedi come io sono afflitto <orig>et</orig> non posso dire <orig>per che</orig>.~
+      </p>
+     </sp>
+     <sp who="ma">
+      <speaker>
+       <ptr xml:id="ma1"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Questo <orig>é</orig> il mio dolore di non saper qual cagione ti stringe a
+        ta<ex>n</ex>to  martiro,
+       <orig>lo</orig> esser fuori della patria tanto tempo, mai ti ha dato al  cuore tanto tormento; lo <orig>havere</orig> smarriti
+       (o perduti) due figliuoli; lo  essere quasi schiava: no<ex>n</ex> mi pesa
+       <orig>ne</orig> a te mai lo <orig>star’</orig>
+       <orig>cosi</orig> sconosciuti  ti ha aggravato No<ex>n</ex> ho io in
+        petto,
+       <orig>et</orig> nella cassa, tante gioie,
+       <orig>et</orig> danari.~ da provederti, se voglia alcuna di andare di riposarti, o far qualche impresa, che ti
+        conforti. Dimmi caro marito <orig>horamai</orig> la pena tua.
+        Io son pur colei che ho tutti i tuoi segreti suggellati nel cuore;
+       <orig>per che</orig>
+        non mi palesi, tanta tua, malinconia.~</p>
+     </sp>
+     <sp who="ce">
+      <speaker>
+       <ptr xml:id="ce2"/>Ces<ex>are</ex>.</speaker>
+      <p>Poi, che tu mi stringi co<ex>n</ex> l’amore da <orig>un’</orig>ca<ex>n</ex>to,
+       <orig>et</orig> lo esser condotto  vicino alla morte dall’altro; io ti prego <orig>ad’</orig> aiutarmi che puoi a 
+       conservare questa vita, la quale <orig>é</orig> ultimamente tua
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma2"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Io vo pur pensando dove viene il male tuo: Venga
+       dove si voglia
+       <orig>di</orig>
+        via allegramente
+       <orig>che</orig> per aiutarti son p<ex>er</ex> metterci la propria vita.</p>
+     </sp>
+     <pb n="5v" facs="c5v"/>
+
+     <sp who="ce">
+      <speaker>
+       <ptr xml:id="ce3"/>Ces<ex>are</ex>.</speaker>
+      <p>Ecco che no<ex>n</ex> senza rossor di viso,
+       <orig>et</orig> con gran fatica io mando fuori questa
+        parola,
+       <orig>LAURA</orig>,
+       <orig>é</orig> quella che mi priva di tutti i diletti <orig>et</orig>
+        della vita
+       <orig>Et</orig> il tuo amarmi, mi ha condotto al fine
+       come tu vedi
+        volendo <orig>piu tosto</orig> morire, che palesarti tanto mio pensiero Se ti  piace che io muoia
+       <orig>che</orig> altro rimedio no<ex>n</ex> ho eccomi allo estremo:
+       <orig>se</orig>
+        due volte mi vuoi dar la vita perdonami,
+       <orig>et</orig> aiutami; tu far lo 
+        puoi ancora che mal fatto sia: ma contro alle forze d’amore in questa mia
+       matura <orig>etá</orig> non ho trovato riparo alcuno che baste;
+       <orig>a</orig> ogni  altra cosa ho posto termine salvo
+       che a questo che lo conosco errore
+        errore certo, potente errore da
+        fuggire:
+       <orig>aiutami</orig>, o Dio
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma3"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Ritorna in te;
+       <orig>sta</orig> allegro;
+       <orig>et</orig> pensa che a tutte o a la maggior parte  delle
+        cose ci si trova rimedio se
+        no<ex>n</ex> tutto in parte
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>
+       <ptr xml:id="ce4"/>Ces<ex>are</ex>.</speaker>
+      <p>O quanto <orig>é</orig> infinito, l’amore che tu mi porti.</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma4"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Certame<ex>n</ex>te che da capo alle piante tutta mi son com<ex>m</ex>ossa:
+       <orig>per cioche</orig>
+        due estremi casi in un punto medesimo, m’hanno assalita; il piacere della tua vita,
+       <orig>et</orig> il dispiacere di lei
+       <orig>laquale</orig> so certo esser giovane <orig>honestissima</orig> da no<ex>n</ex> la co<ex>m</ex>muovere p<ex>er</ex>
+       alcuna cosa o di pregio, o di valore
+       
+       <orig>ell</orig>’<orig>é</orig> tutta casta tutta savia tutta <orig>honesta</orig>;
+       <orig>et</orig> mi pesa che questo tuo  amore no<ex>n</ex> sia in quale esser si
+       voglia donna, che io conosca salvo che  in
+        costei,
+       <orig>de</orig> guarda sorte.~</p>
+     </sp>
+     <sp who="ce">
+      <speaker>
+       <ptr xml:id="ce5"/>Ces<ex>are</ex>.</speaker>
+      <p>Maligna p<ex>er</ex> me
+       <orig>poi che</orig> la mi <orig>torrá</orig> la vita.</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma5"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Non dire altro,
+       <orig>che</orig> io spero di farti qualche utile rimedio Bisogna che
+        io ti lasci,
+       <orig>che</orig> la vedova esce di casa,
+       <orig>vattene</orig>
+       <orig>et</orig> ritorna che Dio, ci
+       <orig>aiuterá</orig></p>
+     </sp>
+     <sp who="ce">
+      <speaker>
+       <ptr xml:id="ce6"/>Ces<ex>are</ex>.</speaker>
+      <p><orig>Sta</orig> sana:
+       <orig>o</orig> infelice la mia <orig>etá</orig>
+      </p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head><ptr xml:id="a1sc2"/> Scena <orig>Seconda</orig>;
+     </head>
+     <stage>Laura Taddea <orig>et</orig> Maddalena
+     </stage>
+     <sp who="la">
+      <speaker>
+       <ptr xml:id="la1"/>Lau<ex>ra</ex>.</speaker>
+      <p>
+       <orig>Si che</orig> tu hai udito cara <orig>Cognata</orig> quante ne <orig>fá</orig> questo vecchio,
+       <orig>ma</orig> io  mi dispongo in ogni modo di giungerlo una volta sul fatto se tu mi  aiuti, come m’hai promesso
+      </p>
+     </sp>
+     <pb n="6r" facs="c6r"/>
+
+     
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta1"/>Tad<ex>dea</ex>.</speaker>
+      <p>
+       <orig>Et</orig> non son p<ex>er</ex> mancarti,
+       <orig>a</orig> Dio</p>
+     </sp>
+     <sp who="ma">
+      <speaker>
+       <ptr xml:id="ma6"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Molto no<ex>n</ex> restate che <orig>é</orig> notte</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta2"/>Tad<ex>dea</ex>.</speaker>
+      <p>Non mancherebbe altro, a star senza licenza:
+       <orig>conforta</orig> Laura
+       <orig>che</orig>
+        quel vecchio la fa vivere discontenta;
+       <orig>va</orig> poi tu,
+       <orig>et</orig> maritati co<ex>n</ex> q<ex>ue</ex>sti 
+       <orig>simil’</orig>
+       <orig>huomini</orig> randagi
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma7"/>Mad<ex>dalena</ex>.</speaker>
+      <p>A ogni modo l’<orig>é</orig> mala cosa, a dar di naso a qua<ex>n</ex>te carogne sbarcano
+        in questa <orig>Cittá</orig>:
+       <orig>purche</orig> una volta ei creda di no<ex>n</ex> l’<orig>haver</orig> veduta
+       <orig>piu</orig>
+       
+       <orig>e</orig> fa la pratica
+       <orig>et</orig> tre giorni innanzi bisognano, a mettersi in ordine;
+       
+       <orig>il</orig> tutto <orig>é</orig> che se ne vanta, quando egli <orig>é</orig> allegro dopo cena la sera
+       
+       <orig>et</orig>
+       <orig>é</orig> geloso, sopramercato.</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta3"/>Tad<ex>dea</ex>.</speaker>
+      <p>Egli <orig>é</orig> mio fratello, ma no<ex>n</ex>
+       <orig>gne ne</orig> risparmio una, sempre gli dico villania mostrando ch’egli ha mille torti,
+       <orig>ma</orig> tutti i pari suoi in quella <orig>etá</orig>
+        sanno di scemo bene bene
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma8"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Forse che Laura no<ex>n</ex> vale un castello.~</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta4"/>Tad<ex>dea</ex>.</speaker>
+      <p>Bene <orig>é</orig> vero.
+       <orig>Hor</orig> lasciamo andar questo caso;
+       <orig>et</orig> saltiamo in <orig>un’</orig>altro,
+       
+       <orig>dimmi</orig> cara sorella mi poss’io fidar di te.~
+       <orig>et</orig> senza farti <orig>piu</orig> parole sco<ex>n</ex>giuri,
+       <orig>et</orig> preghi poss’io realme<ex>n</ex>te,
+       sfogarmi teco d’un mio segreto.~</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma9"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Io ho sempre udito dire, che chi no<ex>n</ex> vuole che un segreto si
+        sappia no<ex>n</ex> lo  dica, ma in questo caso tu lo dirai a <orig>temedesima</orig> Ma se tu no<ex>n</ex> lo puoi  tenere come lo <orig>riterrá</orig>
+       <orig>un’</orig>altro.~
+       <orig>pure</orig> lo <orig>haver</orig> bisogno d’aiuto forse ti  sforza Se voi di soccorso a me possibile <orig>havete</orig> di mestieri dite sicuramente, no<ex>n</ex> accadendo
+        opera, che io possi fare in <orig>pró</orig> vostro tenetelo nel  core
+       <orig>per che</orig> molto meglio fia allogato in voi, che in qual altra persona
+        si voglia,
+       <orig>questo</orig> mi pare buon ricordo</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta5"/>Tad<ex>dea</ex>.</speaker>
+      <p>Non posso far di manco;
+       <orig>et</orig>
+       <orig>per che</orig> io so qua<ex>n</ex>ta sia la <orig>realitá</orig> tua senza 
+       <orig>piu</orig>
+       <orig>ciancie</orig> ti dico che d’un bel forestieri, inamorato di Laura, io sono  tanto invaghita, che no<ex>n</ex> so stare altrove che in
+       questa casa,
+       <orig>per che</orig> pochi  giorni fallano che no<ex>n</ex> ci passi:
+       <orig>et</orig> io ne ho co<ex>n</ex>tento,
+       <orig>et</orig> diletto grande
+      </p>
+     </sp>
+     <pb n="6v" facs="c6v"/>
+
+     
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma10"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Laura <orig>da</orig> ella occhio, a cotestui forse.~</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta6"/>Tad<ex>dea</ex>.</speaker>
+      <p>Apunto
+       <orig>ne anche</orig> volge pur gli occhi se p<ex>er</ex> sorte la si abbatte
+       alla gelosia
+        come colei <orig>laquale</orig>
+       <orig>é</orig> di <distinct type="fiorentino">diaccio</distinct> impastata; Io sono come tu vedi
+        vedova e apena viddi il marito,
+       <orig>et</orig> mi pare strano, perdere la mia <orig>gioventu</orig>
+       <orig>et</orig> nessuno ci pensa</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma11"/>Mad<ex>dalena</ex>.</speaker>
+      <p>
+       <orig>Et</orig> che effetto, che vi giovi posso far io, in questo caso.~</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta7"/>Tad<ex>dea</ex>.</speaker>
+      <p>Dimmi prima, se tu mi vuoi aiutare</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma12"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Con <orig>honor</orig> di casa,
+       <orig>et</orig> mio
+       <orig>faró</orig> ogni cosa</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta8"/>Tad<ex>dea</ex>.</speaker>
+      <p>No<ex>n</ex> ne fia nulla.</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma13"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Adunque ci ha d’andare l’<orig>honor</orig> di tutti.~
+       <orig>o</orig> questa <orig>é</orig> poca fatica <orig>ad’</orig>
+        accomodarsi come la si <orig>da</orig> p<ex>er</ex> il mezzo basta</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta9"/>Tad<ex>dea</ex>.</speaker>
+      <p>Intendi cara sorella l’<orig>honore</orig>
+       <orig>inqua<ex>n</ex>to</orig> che ogni cosa sia coperta,
+       <orig>esso</orig>
+        tu,
+       <orig>et</orig> io che saremo tre lo sapremo altri <orig>nó</orig></p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma14"/>Mad<ex>dalena</ex>.</speaker>
+      <p>
+       <orig>Pur che</orig> no<ex>n</ex> sieno come dice il vulgo;
+       <seg type="proverb">chi va, chi viene,
+        <orig>et</orig> chi <orig>stá</orig></seg>:
+       <orig>ma</orig>
+        fatemi questo conto <orig>piu</orig> particolarmente</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta10"/>Tad<ex>dea</ex>.</speaker>
+      <p>I modi ci sono assai,
+       <orig>pur che</orig> una di casa mi sia fidata e a te no<ex>n</ex>
+       <orig>mancherá</orig> stratagemmi
+       <orig>et</orig> a me che son punta dal foco amoroso assotigliatore 
+       <orig>de</orig> cervelli grossi, co<ex>n</ex> il nome di Laura, lo inganneremo
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma15"/>Mad<ex>dalena</ex>.</speaker>
+      <p>A condur bene le cose bisogna, ottimame<ex>n</ex>te pensare,
+       <orig>et</orig> meglio seguire,
+       
+       <orig>ma</orig> ditemi voletelo p<ex>er</ex> marito.~</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta11"/>Tad<ex>dea</ex>.</speaker>
+      <p>Se io <orig>potró</orig>
+       <orig>si</orig> qua<ex>n</ex>to che <orig>nó</orig> p<ex>er</ex> amante</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma16"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Io <orig>favelleró</orig> con voi, in altra maniera fuori
+       del vostro discorrere: Conosco
+       apertamente la vergogna di casa,
+       <orig>et</orig> la rovina vostra se voi no<ex>n</ex> vi mutate di fantasia Voi dite che <orig>Amore</orig>
+       <orig>é</orig> buon maestro in questi casi ma  egli <orig>é</orig> peggio la <orig>cecitá</orig> della mente: che la grossezza del cervello Laura, non ha ella marito.~
+       <orig>come</orig> cotestui si <orig>troverrá</orig> da voi ingan<ex>n</ex>ato
+        come <orig>andrá</orig> ella.~</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta12"/>Tad<ex>dea</ex>.</speaker>
+      <p>Potrebbe essere che io lo rivolgessi al mio intento; co<ex>n</ex> le
+        parole co<ex>n</ex> la 
+       <pb n="7r" facs="c7r"/>
+       
+       <orig>pietá</orig> con l’amore con preghi,
+       <orig>et</orig> altre cose assai</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma17"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Una certa perdita <orig>é</orig> qui, co<ex>n</ex> un dubbioso acquisto,
+       <orig>gli</orig>
+       <orig>huomini</orig> son  duri di cuore i <orig>piu</orig>:
+       <orig>et</orig> di lor fantasia, poco si <orig>curerá</orig> di voi:
+       <orig>io</orig> non  ci veggo nulla di buon taglio:
+       <orig>pure</orig> il pensare qualch’<orig>hora</orig> sopra  questo caso; potrebbe far nascere qualche buon
+        fungo:
+       <orig>in</orig> questo mezzo, consigliatevi con il vero; no<ex>n</ex> vi lasciate ingannare all’ombra
+       <orig>&amp;</orig>
+        di me tutto promettetevi</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta13"/>Tad<ex>dea</ex>.</speaker>
+      <p>Sia con Dio,
+       <orig>io</orig>
+       <orig>andró</orig> a casa inanzi che sia <orig>piu</orig> buio,
+       <orig>vedete</orig>
+       <orig>la</orig> non  so chi che guarda</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma18"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Guardi quanto vuole</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta14"/>Tad<ex>dea</ex>.</speaker>
+      <p>La prima occasione che mi venga di tornare di <orig>quá</orig>, proverremo  il possibile</p>
+     </sp>
+     <sp who="md">
+      <speaker>
+       <ptr xml:id="ma19"/>Mad<ex>dalena</ex>.</speaker>
+      <p>Cotesto si <orig>fará</orig> tosto ma all’<orig>inpossibile</orig> pare a me che s’<orig>habbia</orig> da  provedere;
+       <orig>andate</orig> via che si fa notte vi ricordo,
+       <orig>buona</orig> sera
+      </p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta15"/>Tad<ex>dea</ex>.</speaker>
+      <p>Mi ti raccomando</p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head rend="italics">Scena <orig>Terza</orig>,
+     </head>
+     <stage>
+      <ptr xml:id="a1sc3"/>Vincenzo;
+      <orig>et</orig> Caterina
+     </stage>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi1"/>Vin<ex>cenzo</ex>.</speaker>
+      <p><orig>Da poi</orig> che il mio padrone ricco mercatante,
+       come si <orig>sá</orig> mi tolse da  piccolo
+       sempre mi ha tenuto in viaggi di nave:
+       <orig>almanco</orig> no<ex>n</ex> mi <orig>havessi</orig> egli fatto <orig>havere</orig>
+       <orig>giá</orig> due anni sono tanto <orig>otio</orig>; che io no<ex>n</ex> sarei <orig>cosi</orig> trafitto dalla passione continua d’<orig>Amore</orig>. Lo andare p<ex>er</ex> questa <orig>Cittá</orig> co<ex>n</ex>
+        gli occhi fissi nel volto di questa,
+       <orig>et</orig> quell’altra giovane senza pensiero
+        alcuno,</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca1"/>Cat<ex>erina</ex>.</speaker>
+      <p><orig>Ú</orig>, che uscio, fastidioso.</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi2"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>
+       <orig>Mi</orig> ha condotto, a tal termine che io
+        no<ex>n</ex> ho <orig>un </orig><orig>hora</orig> di bene;
+       <ptr xml:id="vi3"/>
+       <orig>ne</orig> riposo  giorno,
+       <orig>et</orig> notte;
+       <ptr xml:id="vi4"/>O Laura del mio cor, fermo pensiero
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca2"/>Cat<ex>erina</ex>.</speaker>
+      <p>So che quell’uscio, m’ha fatto dimenare un pezzo Io credo che sia <orig>piu</orig> di  sei mesi, che q<ex>uesto</ex> uscio di dietro
+        no<ex>n</ex> s’<orig>é</orig> tocco:
+       <ptr xml:id="ca3"/><orig>et</orig> se non era il Bigio famiglio 
+       <orig>anc</orig>’all’<distinct type="fiorentino"><orig>hotta</orig></distinct> non ne facevo nulla; ma egli mi <orig>fastidí</orig> tanto una sera, nel 
+       <pb n="7v" facs="c7v"/>
+        voler fare, un suo servigio
+       <orig>a cioche</orig> il vecchio no<ex>n</ex> lo vedessi uscir fuori
+        no<ex>n</ex>
+       <orig>havrei</orig> messo mano a quella via La porta <orig>é</orig> comune a tutti di qua  dinanzi
+       <orig>et</orig> egli di <orig>lá</orig> volle quella <orig>comoditá</orig> p<ex>er</ex> no<ex>n</ex> esser visto:
+       <orig>et</orig>
+       <orig>cosi</orig> andai a contentarlo
+       <orig>che</orig> nessun di casa, se ne accorse: La padrona me lo  ha fatto usare stasera un’altra volta,
+       <orig>et</orig> son tutta traffelata; p<ex>er</ex> la pena  d’aprirlo. Egli s’era, come no<ex>n</ex>
+       usato quasi apiccato l’uno sportello co<ex>n</ex> l’altro,
+       <orig>et</orig>
+       <orig>cosi</orig> son fuori senza saputa del vecchio. <orig>Io</orig> vo a chiamar
+       Taddea  che venga a far no<ex>n</ex> so che rinvoltura p<ex>er</ex> il vecchio La poteva pur dimorare 
+       <orig>un’</orig>altro poco, senza darmi questa stracca.</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi5"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Che cicala questa cornacchia.~
+       <orig>egli</orig>
+       <orig>é</orig> meglio ch’io m’accosti:
+       <orig>o</orig> quella  giovane.~ ricogliete il benduccio</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca4"/>Cat<ex>erina</ex>.</speaker>
+      <p>Gran mercé Ma, state;
+       <orig>e</orig> no<ex>n</ex>
+       <orig>é</orig> mio,
+       <orig>che</orig> ci son danari.</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi6"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Tanto meglio p<ex>er</ex> voi
+       <orig>ne</orig> mio ancora, guardate bene</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca5"/>Cat<ex>erina</ex>.</speaker>
+      <p>Io guardo che moneta <orig>é</orig> questa.~
+       <orig>no<ex>n</ex></orig> mi strignete la mano.</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi7"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>
+       <orig>Accio</orig> no<ex>n</ex> vi cadessi</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca6"/>Cat<ex>erina</ex>.</speaker>
+      <p>Mai <orig>piu</orig> ne ho veduti
+       <orig>et</orig> questa <orig>si</orig> grande.~</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi8"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Cotesti si chiamano <orig>cornabó</orig></p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca7"/>Cat<ex>erina</ex>.</speaker>
+      <p>
+       <orig>Ú</orig>
+       <orig>ú</orig>,
+       <orig>no<ex>n</ex></orig> mi toccate,
+       <orig>e</orig> par che voi mi vogliate <distinct type="fiorentino">spriemere</distinct>, co<ex>n</ex>
+       <orig>ta<ex>n</ex>tj</orig> atti.</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi9"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>No<ex>n</ex> posso io
+       <orig>poi che</orig> sono stato cagione, che cotesti danari,
+       sien vostri farvi  carezze,
+       <orig>et</orig>
+       <orig>madesi</orig>
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca8"/>Cat<ex>erina</ex>.</speaker>
+      <p>Belle carezze,
+       <orig>voi</orig>
+       <orig>havete</orig> quelle man sode:
+       <orig>andate</orig> a toccar la v<ex>ost</ex>ra inamorata.</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi10"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Chi <orig>é</orig> bella, ha da essere ancora ge<ex>n</ex>tile cara massaretta</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca9"/>Cat<ex>erina</ex>.</speaker>
+      <p>Se io <orig>havessi</orig> i miei panni dal <orig>di</orig> delle feste: no<ex>n</ex> mi dileggeresti.</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi11"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Io lo so, tu pari una co<ex>n</ex>tessa;
+       <orig>ma</orig> dimmi che <orig>é</orig> della padrona tua bella.~
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca10"/>Cat<ex>erina</ex>.</speaker>
+      <p>
+       <distinct type="fiorentino">
+        <orig>Enne</orig></distinct> bene
+       <orig>p<ex>er</ex> che</orig>.~</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi12"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Vuogli tu dare questa lettera.~</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca11"/>Cat<ex>erina</ex>.</speaker>
+      <p>Dio me ne liberi,
+       <orig>no<ex>n</ex></orig> porto polli,
+       <orig>et</orig> il vecchio n’ha troppa cura,
+       <orig>lasciatemi</orig>
+        andare a fare una faccenda
+       <orig>p<ex>er</ex> che</orig> l’importa <orig>hor</orig>
+       <orig>hora</orig>
+      </p>
+     </sp>
+     <pb n="8r" facs="c8r"/>
+
+     
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi13"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Puossi ella sapere.~</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca12"/>Cat<ex>erina</ex>.</speaker>
+      <p>
+       <orig>Si</orig> ma no<ex>n</ex> dite nulla a persona
+       <ptr xml:id="ca13"/>vo a chiamare la <orig>Cognata</orig> che venga  a starsi seco;
+       <orig>p<ex>er</ex> che</orig> il vecchio va <orig>infrega</orig> dietro a una cortigiana alla <orig>Stufa</orig> La crede che no<ex>n</ex>
+       <orig>tornerá</orig>
+       <orig>peró</orig> manda p<ex>er</ex> costei p<ex>er</ex> passare <orig>que</orig>
+        fastidi,
+       <orig>et</orig> quella <orig>tristitia</orig> stanotte</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi14"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Almanco togliessi ella me, in quello scambio,
+       <orig>togli</orig> questa lettera,
+       <orig>et</orig>
+       <orig>fa</orig> di  raccomandarmi co<ex>n</ex> essa molto
+       <orig>et</orig> piglia questo mozzanigo p<ex>er</ex> caparra</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca14"/>Cat<ex>erina</ex>.</speaker>
+      <p>No<ex>n</ex> vo di portante
+       <orig>nó</orig>
+       <orig>nó</orig>: Sciagurata a me
+       <orig>e</orig> si lieva la luna,
+       <orig>a rivederci</orig>, quel bel giovane</p>
+     </sp>
+     <sp who="vi">
+      <speaker>
+       <ptr xml:id="vi15"/>Vin<ex>cenzo</ex>.</speaker>
+      <p>Ascolta,
+       <orig>tu</orig> no<ex>n</ex> odi;
+       <orig>aspetta</orig>,
+       <orig>va</orig> in <orig>mal hora</orig>,
+       <orig>poi che</orig> tu sei cosi frettolosa
+       
+       <orig>E</orig> si suol dire che i proverbi son veri:
+       <seg type="proverb">al primo colpo no<ex>n</ex> casca l’albero</seg>,
+        a tre fazzoletti costei <orig>é</orig> mia certo.
+       <orig>E</orig> si dice ancora;
+       <seg type="proverb">fico basso, <orig>et</orig> fantesca d’<orig>hosteria</orig> palpeggiando si matura</seg>
+       Quando un fico <orig>é</orig> basso ogni  uno che passa, tasta s'egli <orig>é</orig>
+       <orig>mézzo</orig> tanto che in poche tastate da
+        ta<ex>n</ex>te  spremiture
+       <orig>e</orig> gocciola;
+       <orig>Et</orig>
+       <orig>cosi</orig> la fante di cucina,
+       <orig>hoggi</orig> viene un forestieri
+       <orig>et</orig> la pizzica da un lato le palpa un fianco: domani ve ne capita  un altro
+       <orig>et</orig> stringe un braccio: chi gli tocca la
+        mano,
+       <orig>et</orig> chi gli mette  le dita sotto il mento; onde in poche settimane ell’<orig>é</orig> cottoia Costei poche spremiture pare a me la ridurrebbono:
+       <orig>ma</orig>
+       <orig>sará</orig> meglio, che io  vadia a far altro
+       <orig>che</orig> Laura mia, no<ex>n</ex> sono io per vedere a quest’<orig>hora</orig>
+        altrime<ex>n</ex>ti Ma ecco il vecchio; guarda chi gode tanto bene,
+       <orig>lascia</orig>mi andar via
+       <orig>che</orig> questo uccellaccio, no<ex>n</ex> mi vegga</p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena IIII ,
+     </head>
+     <stage>
+      <ptr xml:id="a1sc4"/>
+      <orig>Niccolo</orig> Bigio <orig>et</orig> Stufaiuolo
+     </stage>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni1"/>Nic<ex>colò</ex>.</speaker>
+      <p>Cenerai Laura
+       <orig>et</orig> poi vanne a letto,
+       <orig>et</orig> aspettami</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi1"/>Big<ex>io</ex>.</speaker>
+      <p> Fatto l'<orig>Olio</orig>,
+       <orig>so</orig> che l’<orig>havrá</orig> un bello aspettare</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni2"/>Nic<ex>colò</ex>.</speaker>
+      <p>Bigio.~
+       <orig>o</orig> Bigio,
+       <orig>tu</orig> no<ex>n</ex> odi tu no<ex>n</ex> rispondi,
+       <orig>se</orig> tu sordo Bigio.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi2"/>Big<ex>io</ex>.</speaker>
+      <p>Io non sono altrimenti sordo messer <orig>nó</orig>:<ptr xml:id="Bi3"/>
+       <orig>ma</orig> dove <orig>havete</orig> voi trovato  che si chiami uno che sia altrui <orig>su gli</orig> occhi.~
+       <orig>e</orig> si chiamano coloro che 
+       <pb n="8v" facs="c8v"/>
+        son discosto:
+       <orig>se</orig> voi vedete che io son qui che accade gridar <q>Bigio 
+        <orig>bigio</orig></q>.~
+       <orig>no<ex>n</ex></orig> sapete voi dire,
+       <orig>cioche</orig> volete senza farmi tanto rispondere
+         <q>messere messere.~</q> cento volte.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni3"/>Nic<ex>colò</ex>.</speaker>
+      <p>
+       <orig>De</orig> vedi bestia,
+       <orig>sto</orig> io co<ex>n</ex> esso teco.~
+       <orig>sta</orig> pure a vedere che tu vorrai  esser me,
+       <orig>et</orig> che io sia te.</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi4"/>Big<ex>io</ex>.</speaker>
+      <p>State pur voi, a vedere che se
+        no<ex>n</ex> dormirete in casa; che una notte  voi sarete <orig>un’</orig>altro
+       <orig>et</orig>
+       <orig>un’</orig>altro <orig>sará</orig> voi</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni4"/>Nic<ex>colò</ex>.</speaker>
+      <p>In che modo.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi5"/>Big<ex>io</ex>.</speaker>
+      <p> In modo d’archetti,
+       <orig>p<ex>er</ex></orig> ora <distinct type="fiorentino">lascianla</distinct> passare;
+       <orig>et</orig> ditemi quel ch'io ho  da fare:
+       <orig>no<ex>n</ex></orig> udite voi mai, i sospiri che volano p<ex>er</ex> casa,
+       <orig>et</orig> i <orig>Zufoli</orig> della via.~</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni5"/>Nic<ex>colò</ex>.</speaker>
+      <p>
+       <orig>To</orig> questa chiave,
+       <orig>et</orig> serra ben quell’uscio, poi <orig>Zufoli</orig> chi vuole
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi6"/>Big<ex>io</ex>.</speaker>
+      <p>Ecco fatto togliete</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni6"/>Nic<ex>colò</ex>.</speaker>
+      <p>Conficcasti tu, tutte le finestre.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi7"/>Big<ex>io</ex>.</speaker>
+      <p>Messer <orig>si</orig>.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni7"/>Nic<ex>colò</ex>.</speaker>
+      <p>
+       <orig>Et</orig> quella del <orig>Tetto</orig>.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi8"/>Big<ex>io</ex>.</speaker>
+      <p>La fu la prima</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni8"/>Nic<ex>colò</ex>.</speaker>
+      <p>Quella della volta.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi9"/>Big<ex>io</ex>.</speaker>
+      <p>Messer <orig>si</orig>.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni9"/>Nic<ex>colò</ex>.</speaker>
+      <p>E quella del granaio fu confitta.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi10"/>Big<ex>io</ex>.</speaker>
+      <p>Messer <orig>si</orig> quella del pollaio quella
+       della dispensa quella della <orig>Stalla</orig>
+        della <orig>Colombaia</orig> della <orig>Cucina</orig>:
+       <orig>et</orig> quella del palco delle mele:
+       <orig>qua<ex>n</ex>do</orig>
+        alla prima ho detto tutte che accade ta<ex>n</ex>te tanie.~</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni10"/>Nic<ex>colò</ex>.</speaker>
+      <p>Se io no<ex>n</ex>
+       <orig>havessi</orig> il bisogno che io ho di te:
+       <orig>hor’</orig>
+       <orig>hora</orig> ti ficcherei questo  stocco <orig>ne</orig> fianchi;
+       <orig>guarda</orig> chi mi vuole insegnare;
+       <orig>che</orig> palandra  hai tu su la spalla.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi11"/>Big<ex>io</ex>.</speaker>
+      <p>Voglio adoperarla se l’<orig>é</orig> ben vostra:
+       <orig>la</orig>
+       <orig>discretione</orig>
+       <orig>é</orig> madre <orig>de gli</orig> asini,
+        voi messere l’altre notte andate alle signore,
+       <orig>et</orig> io fo mula di medico, egli <orig>é</orig> questa brezza, che mi <orig>da</orig> una mala notte</p>
+     </sp>
+     <pb n="9r" facs="c9r"/>
+
+     
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni11"/>Nic<ex>colò</ex>.</speaker>
+      <p>Mettitela un poco in <orig>doßo</orig>,
+       <orig>et</orig>
+       <orig>va</orig>
+       <orig>la</orig> due passi. ah.~
+       <orig>ah</orig>.~
+       <orig>ah</orig>.~
+       <orig>che</orig> cavar te la possino <orig>e’</orig> becchini;
+       <orig>tu</orig> sei il bel pazzo.~
+       <orig>so</orig> che io sto fresco  come una rosa a
+       famiglio balordo.</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi12"/>Big<ex>io</ex>.</speaker>
+      <p>Voi messere,
+       <orig>et</orig> io sian due, se tre altri ci volessino
+       far correre, io sono  senza corsaletto,
+       <orig>et</orig> voi senza rotella</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni12"/>Nic<ex>colò</ex>.</speaker>
+      <p>O vedi bravo,
+       <orig>camina</orig> poltrone
+       <orig>et</orig> picchia allo stufaiuolo.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi13"/>Big<ex>io</ex>.</speaker>
+      <p>Tic, tac,
+       <orig>o</orig> maestro,
+       <orig>ou</orig>,
+       <orig>ola</orig>.~ Il ma<ex>gnifi</ex>co mio
+       messer <orig>quá</orig>, si vuol fare  apiccare stasera,
+       due cornetti aprite.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni13"/>Nic<ex>colò</ex>.</speaker>
+      <p>Che <orig>di</orig> tu ignorante;
+       <orig>no<ex>n</ex></orig>
+       <orig>vo</orig> cavarmi sangue,
+        altrime<ex>n</ex>ti.</p>
+     </sp>
+     <sp who="st">
+      <speaker>
+       <ptr xml:id="st1"/>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Stasera no<ex>n</ex> si <orig>puó</orig> io ho dismesso
+        mag<ex>nifi</ex>co padrone: e domani <orig>é</orig> la n<ex>ost</ex>ra festa</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi14"/>Big<ex>io</ex>.</speaker>
+      <p>A casa n<ex>ost</ex>ra p<ex>er</ex>
+       <orig>quel’</orig> ch’<orig>io</orig> veduto la si <orig>fará</orig> stasera
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni14"/>Nic<ex>colò</ex>.</speaker>
+      <p>
+       <orig>E</orig> bisogna servire,
+       <orig>voi</orig> sapete che un par mio, no<ex>n</ex>
+       <orig>puó</orig>
+       <orig>cosi</orig> disagiarsi ogni sera,
+        aprite,
+       <orig>et</orig> pagatevi</p>
+     </sp>
+     <sp who="st">
+      <speaker>
+       <ptr xml:id="st2"/>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>La <orig>Stufa</orig>
+       <orig>é</orig> fredda</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni15"/>Nic<ex>colò</ex>.</speaker>
+      <p>Scalderetela</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Cosa difficile</p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni16"/>Nic<ex>colò</ex>.</speaker>
+      <p> Tu m’hai fracido, no<ex>n</ex>
+       <orig>piu</orig> novelle,
+       <orig>fa</orig> ch’io no<ex>n</ex> m’adiri</p>
+     </sp>
+     <sp who="st">
+      <speaker>
+       <ptr xml:id="st3"/>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Voi starete <orig>adisagio</orig> un pezzo</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi15"/>Big<ex>io</ex>.</speaker>
+      <p>Che importa
+       <orig>pur ch’</orig>egli stia al caldo; no<ex>n</ex> gli <orig>da</orig> noia
+       <orig>et</orig> io <orig>dormiró</orig> nello  spogliatoio,
+       <orig>o</orig> che gran sonno apri apri al
+        padrone.</p>
+     </sp>
+     <sp who="st">
+      <speaker>
+       <ptr xml:id="st4"/>Stuf<ex>aiuolo</ex>.</speaker>
+      <p><orig>A</orig> padroni, no<ex>n</ex> si <orig>puó</orig> dir di <orig>nó</orig> venite dentro</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="b16"/>Big<ex>io</ex>.</speaker>
+      <p>Dice <orig>ben’</orig> l’avverbio, che <seg type="proverb">a cuocer bene,
+        <orig>un’</orig>
+        <orig>huovo</orig> fresco fare il letto a  un cane insegnare a <orig>un’</orig> fiorentino,
+        <orig>et</orig> servire a uno inamorato,
+        <orig>son’</orig> le 
+        <orig>piu</orig>
+        <orig>difficil’</orig> cose che si faccino</seg>, Dio voglia
+       che q<ex>uesto</ex>
+       <orig>Stufaiuolo</orig> stasera <orig>Co<ex>n</ex>tenti</orig>
+        q<ex>uesto</ex> mio messere
+       <orig>ilquale</orig>
+       <orig>é</orig>
+       <orig>piu</orig> fastidioso che la vecchiaia
+       <orig>et</orig> se no<ex>n</ex> me lo  credete dimandatene la
+        n<ex>ost</ex>ra fante <orig>colá</orig> o se la vedeva in <orig>mal hora</orig> era.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Bigio.~ vien dentro matto spacciato.</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Che vi dissi,
+       <orig>o</orig> che fantastico,
+       <orig>io</orig> vo de<ex>n</ex>tro</p>
+     </sp>
+    </div>
+    <pb n="9v" facs="c9v"/>
+
+    <div type="scena">
+     <head rend="italics">Scena V:</head>
+     <stage>
+      <ptr xml:id="a1sc5"/>Caterina,
+      <orig>et</orig> Taddea
+     </stage>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta15b"/>Tad<ex>dea</ex>.</speaker>
+      <p>Se ben si va di notte egli <orig>é</orig> per carnesciale, in terra libera</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca15"/>Cat<ex>erina</ex>.</speaker>
+      <p>L’uscio <orig>é</orig>
+       <distinct type="fiorentino">diacciato</distinct>,
+       il vecchio ha preso il volo,
+       <orig>andiamo</orig> pure di qua  per l’uscio dove sono io uscita</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta16"/>Tad<ex>dea</ex>.</speaker>
+      <p>A che fine hai tu aperto <orig>costá</orig> di dietro.~</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca16"/>Cat<ex>erina</ex>.</speaker>
+      <p>Bisogna accomodarsi <orig>a</orig> tempi cara madonna,
+       <orig>il</orig> vecchio vuole aprire 
+       <orig>et</orig> serrare la porta dinanzi come gli piace,
+       che volete che noi stiamo  in prigione.~
+       <orig>la</orig> sarebbe bella.</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta17"/>Tad<ex>dea</ex>.</speaker>
+      <p><orig>Et</orig> se tornasse,
+       <orig>et</orig> mi ritrovassi in casa che diremo.~
+       <orig>e</orig> si <orig>penserá</orig> a qualche male</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca17"/>Cat<ex>erina</ex>.</speaker>
+      <p>Mancheranno le scuse</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta18"/>Tad<ex>dea</ex>.</speaker>
+      <p>Cento volte sono stata in questa casa,
+       <orig>et</orig> mai usai questa porta falsa</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca18"/>Cat<ex>erina</ex>.</speaker>
+      <p>Ell’<orig>é</orig> una <orig>comoditá</orig> no<ex>n</ex> conosciuta a me ha ella giovato <orig>piu</orig> volte</p>
+     </sp>
+     <sp who="ta">
+      <speaker>
+       <ptr xml:id="ta19"/>Tad<ex>dea</ex>.</speaker>
+      <p>
+       <orig>Hor su</orig> entriamo co<ex>n</ex> buona ve<ex>n</ex>tura</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Madonna <orig>si</orig>; che un <orig>di</orig> la ci potrebbe venire, la buona ve<ex>n</ex>tura;
+       <orig>che</orig> peccato, che voi perdiate ta<ex>n</ex>to
+        tempo; so che la Caterina no<ex>n</ex> istarebbe
+        tanto,
+        a denti secchi
+      </p>
+     </sp>
+    </div>
+    <trailer>Fine del primo Atto</trailer>
+   </div>
+   <pb n="10r" facs="c10r"/>
+
+   <div type="atto">
+    <head>ATTO SEC<ex>ONDO</ex>:</head>
+    <div type="scena">
+     <head>Scena <orig>prima</orig>
+      </head>
+     <stage>VINCENZO solo
+     </stage>
+     <sp who="vi">
+      <p><orig>LA</orig> sciocca opinione del vulgo, un tempo mi ha tenuto un pensiero nella mente, che Cupido sia Dio
+       che abruci saetti,
+       <orig>et</orig> infiammi i cuori di noi miseri amanti: O
+       sciocca plebe accecata dalla 
+       <orig>Ignoranza</orig>: Per dirlo in una parola io credo che amore sia un male naturale, che ciascuno ha nell’ossa.
+       <orig>Una</orig> certa <orig>spetie</orig> sottile di doglia mescolata co<ex>n</ex>
+       un pensiero dilettevole che per malattia  no<ex>n</ex> si
+        stima Appicasi questa bestiale <orig>infirmitá</orig> per <orig>piu</orig> vie:
+       <orig>et</orig>
+        pigliasi da ciascuno,
+       <orig>et</orig> di tutti i tempi No<ex>n</ex>
+       <orig>é</orig> per dire il vero male  che
+       paragoni questo
+       <orig>per che</orig>
+       <orig>é</orig> naturale,
+       <orig>et</orig> no<ex>n</ex> viene da <orig>humori</orig>
+        Egli <orig>é</orig> un sottilissimo fuoco, che <orig>tal volta</orig> nella parola si porta;
+       <orig>p<ex>er</ex> che</orig>
+        nel raccontare le bellezze d’una donna ancora che la sia di
+        lontano
+        tu te ne guasti Dio ne guardi ciascuno. Che cosa no<ex>n</ex> ha fatto l’<orig>huomo</orig> infuriato da questa febbre.~
+       <orig>et</orig> la donna.~
+       <orig>distrutto</orig>
+       <orig>cittá</orig> paesi
+       
+       <orig>et</orig> regni, amazzato amici; strangolato rivali tagliato a pezzi parenti,
+       <orig>et</orig> lor medesimi impiccati Per amore am.~
+       <orig>lieva</orig> la gamba:
+       
+       <orig>la</orig> madre no<ex>n</ex> si cura del figliuolo la moglie no<ex>n</ex> pensa al marito
+       <orig>ne</orig>
+        il marito alla moglie Io concludo, che
+        amore,
+       <orig>é</orig> un male senza rimedio
+       <orig>et</orig> io lo provo No<ex>n</ex> so, se mi
+       par di vederein calze,  <orig>et</orig> farsetto  fuor della <orig>Stufa</orig> il galante della mia Laura; vita mia 
+       che bel fante.~
+       
+       <orig>Vo</orig> seguirlo di traccia, forse che <orig>amore</orig> mosso a <orig>pietá</orig>
+       <orig>de</orig> miei tormenti 
+       <orig>dará</orig> mano, a sollevarmi di tanto dolore: intanto <orig>staró</orig> qui nascosto
+      </p>
+     </sp>
+    </div>
+    <pb n="10v" facs="c10v"/>
+
+    <div type="scena">
+     <head>Scena <orig>seconda</orig>
+      </head>
+     <stage>
+      <orig>Niccoló</orig> Bigio Stufaiuolo <orig>et</orig> Vincenzo
+     </stage>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p><orig>E</orig> non <orig>é</orig> la <orig>piu</orig> dura cosa, che lo aspettare con disagio massimamente  quando v’interviene amorazzi,
+       <orig>et</orig> quello che importa <orig>piu</orig> la co<ex>n</ex>clusione</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Alla 
+        <orig>mag<ex>nificen</ex>za</orig>
+        
+        v<ex>ostra</ex> no<ex>n</ex> doverrebbe dar molta noia;
+       <orig>un </orig><orig>hora</orig> di <orig>piu</orig>, a ogni modo
+       quanto <orig>piu</orig> state meglio <orig>é</orig> p<ex>er</ex> voi <orig>p<ex>er</ex> che</orig> la notte vi <orig>parrá</orig>
+       <orig>piu</orig> corta</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Tu entri sempre in qualche cetera che no<ex>n</ex> ti tocca; Io debbo lavorare  forse a giornate bestia.~</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>La S<ex>ignoria</ex> V<ex>ostra</ex>
+       <orig>potrá</orig> andare,
+       <orig>et</orig> cominciare a spogliarsi;
+       <orig>che</orig> io <orig>saró</orig> in ordine, in un tratto; se <orig>havete</orig> da sdilacciare un pezzo
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p> Diascol’<orig>é</orig>,
+       <orig>in</orig> un tratto son bello,
+       <orig>et</orig> ignudo; no<ex>n</ex> ho brachieri,
+       <orig>et</orig> no<ex>n</ex> sono
+        come io ti paio al pelo vecchio: Bigio ricordati come io mi
+        stufo, di guardar bene la cassa <orig>de</orig> panni</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Io mi vi <orig>adormenteró</orig> sopra, andate pur senza pensiero a
+        pulirvi</p>
+     </sp>
+     <sp who="vi">
+      <speaker>Vin<ex>cenzo</ex>.</speaker>
+      <p>Che <orig>si</orig> che la sorte mi <orig>vorrá</orig> aiutare improvisamente,
+       <orig>et</orig> farmi quello  che mille discorsi, no<ex>n</ex> mi hanno
+        fatto. Lasciami pensare un poco: quattro passeggiate; Io ho trovato l’inchiodatura. O <orig>la</orig>.~
+       <orig>o</orig>
+       <orig>la</orig>, padron  Gottardo.~ Stufaiuolo,
+       <orig>o</orig>
+       <orig>la</orig>.~</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Che vi piace signore.</p>
+     </sp>
+     <sp who="vi">
+      <speaker>Vin<ex>cenzo</ex>.</speaker>
+      <p>Potrei io stasera, a mio comodo lavarmi.~</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Io ho uno che mi pare <orig>ge<ex>n</ex>tilhuomo</orig>, che apunto vuol ire nella <orig>Stufa</orig>, q<ex>ua</ex>n<ex>do</ex> lo 
+       <orig>havró</orig> servito no<ex>n</ex> posso ma<ex>n</ex>care
+       <orig>Et</orig> servirei la S<ex>ignoria</ex> V<ex>ostra</ex> inanzi: ma ho da fare  co<ex>n</ex> vecchi
+       <orig>et</orig> anco se vi pare state <orig>cosi</orig> un poco,
+       <orig>et</orig> alla sprovista venire de<ex>n</ex>tro Io <orig>saró</orig> intorno al mag<ex>nifi</ex>co <orig>et</orig> co<ex>n</ex> qualche trattenime<ex>n</ex>to dando un
+       colpo, sul  cerchio,
+       <orig>et</orig> uno su la botte
+       <orig>laveró</orig> similmente la S<ex>ignoria</ex> V<ex>ostra</ex></p>
+     </sp>
+     <sp who="vi">
+      <speaker>Vin<ex>cenzo</ex>.</speaker>
+      <p>Ordina al tuo garzone che no<ex>n</ex> lasci venire altri che me stasera
+       <orig>p<ex>er</ex> che</orig> voglio esser solo: piglia
+       questi marcelli p<ex>er</ex> parte
+       <orig>et</orig> servimi</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Padrone gran mercé;
+       Io vi <orig>ringratio</orig> p<ex>er</ex> mille volte o voi siate mag<ex>nifi</ex>co.~
+        Io son chiamato. verrete a posta vostra
+      </p>
+     </sp>
+     <pb n="11r" facs="c11r"/>
+
+     <sp who="vi">
+      <speaker>Vin<ex>cenzo</ex>.</speaker>
+      <p>Ho pensato il <orig>piu</orig> nuovo trovato del mondo:
+       <orig>pur che</orig> la mi riesca.
+       o <orig>Sorte</orig>
+        questa volta,
+       <orig>et</orig> poi no<ex>n</ex>
+       <orig>piu</orig>. Io credo che in questa <orig>Cittá</orig> che <orig>é</orig> tanto popolata p<ex>er</ex> varie <orig>nationi</orig> egli ci accaggia di belle novelle Io ne so quelle quattro; chi  ha da
+       spendere gli capitano mille bei partiti p<ex>er</ex> le mani: pure ci sono ancora  di dure nespole da maturare:
+       <orig>et</orig> Laura mia,
+       <orig>é</orig> asprissima
+       <orig>E</orig> no<ex>n</ex> ci <orig>é</orig> stato  mai pollastriera
+       <orig>si</orig>
+       <orig>suffitiente</orig>, che gli sia bastato l’animo d’affrontare quel  torrione: tutte dicono che la rocca <orig>é</orig> inespugnabile; anzi
+       <orig>piu</orig> che lo assedio  no<ex>n</ex> la farebbe arrendere Pure le son certe cose, che Dio <orig>sá</orig> come l’andasse
+        a quelle strette ci sono di mai passi,
+       <orig>il</orig> letto il buio la <orig>comoditá</orig> i danari
+        la fede del segreto, fanno gran violenza
+       <orig>Sará</orig> meglio che io me ne vadia  dentro inanzi che
+        coloro, mi si apressino <orig>piu</orig>; e a un bisogno si volessino  stufare, ancora loro
+       <orig>et</orig>
+       <orig>andró</orig> vedendo <orig>sel’</orig> mio pensiero debbe <orig>havere</orig>
+        effetto, e trar sul libro dell’occasione all’improvista co<ex>n</ex> i dadi falsi dello inganno,
+       <orig>et</orig> chiarirmi se a Vinegia ne posso anch’io far una; o savia, o pazza  che la mi riesca:
+       <orig>con</orig> questa passione no<ex>n</ex> ci <orig>é</orig> ordine a vivere altrimenti
+      </p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena <orig>Terza</orig>
+      </head>
+     <stage>Cesare
+      <orig>Un</orig> Corriere:
+      <orig>et</orig> Druda
+     </stage>
+     <sp who="co">
+      <speaker>Cor<ex>riere</ex>.</speaker>
+      <p>Chi ha <orig>patienza</orig> nelle <orig>tribolationi</orig>, il <orig>piu</orig> delle volte viene aiutato
+       
+       <orig><distinct type="fiorentino">suo</distinct></orig>
+       <orig>maestá</orig> rimette la S<ex>ignoria</ex> V<ex>ostra</ex>
+       <orig>et</orig> co<ex>n</ex> i vostri signori della <orig>Cittá</orig> giustificato benissimo</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>La mia innocenza m’ha fatto favore; Iddio non
+       abandona mai chi  spera nella sua <orig>bontá</orig> Questa <orig>é</orig> la mia <orig>habitatione</orig>, stata
+       <orig>cosí</orig> sconosciuto, a canto a questa stufa Qua <orig>é</orig> la porta principale la padrona si chiama Druda; Venite domattina
+        p<ex>er</ex> le lettere,
+       <orig>et</orig> se volete potete star meco, qua<ex>n</ex>to
+       voi qui starete: Questa <orig>é</orig> la mancia  della buona nuova; godi
+       questi venticinque scudi
+      </p>
+     </sp>
+     <sp who="co">
+      <speaker>Cor<ex>riere</ex>.</speaker>
+      <p>Baciovi, la cortese mano</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p><orig>Va</orig> alle faccende: O quanto <orig>é</orig> fallace il mondo o qua<ex>n</ex>to <orig>é</orig>
+       <orig>ben’</orig> contrapesato ogni cosa. Stolto <orig>é</orig> colui; che delle sue promesse si fida.
+       <pb n="11v" facs="c11v"/>
+        Non <orig>é</orig>
+       <orig>si</orig> tosto distrutto in bocca il <orig>Zucchero</orig>
+       che l’apetito, ti fa venire <orig>un’</orig>
+        amaro desiderio di qualche altra cosa La nuova del ritornare
+       alla patria 
+       <orig>é</orig> dolcissima ma il lasciar Laura <orig>é</orig> un fiele crudelissimo;
+       <orig>o</orig> sorte crudele.</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Signor Cesare che fate voi di fuori al freddo.~
+       <orig>voi</orig> siate vi ricordo di qualch<ex>e</ex>
+        tempo
+       <orig>et</orig> meglio staresti, in casa</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Travagliava la mia mente Ecco le lettere della mia innocenza;
+       <orig>che</orig> il  ritorno della patria liberame<ex>n</ex>te m’<orig>é</orig> concesso</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>O, qua<ex>n</ex>ti falsi concetti, si fanno
+       molti principi,
+       <orig>et</orig> signori nella mente,
+       <orig>cose</orig>
+        da no<ex>n</ex> se ne maravigliare molto
+       <orig>poi che</orig> tante esperienze di giorno in  giorno se ne son vedute Le cose degli stati son molto tenere
+       <orig>et</orig> si vede  tal mosca, che pare uno elefante,
+       <orig>et</orig> un castello in aria</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>E principi, son netti e i signori che
+        dominano, sinceri di cuore;
+       ma molti 
+       <orig>huomini</orig> son ben pessimi
+       <orig>iquali</orig> bene spesso comodame<ex>n</ex>te hanno le loro  orecchie, dove scolpiscono la <orig>malitia</orig> Beato a quella <orig>cittá</orig>,
+       <orig>et</orig> a quel signore, che ha ministri giusti
+       <orig>et</orig> male p<ex>er</ex> quelle dove regnano i <orig>vitiosi</orig>
+        Qua<ex>n</ex>ti cittadini di mala me<ex>n</ex>te che governano aspettano l’occasione, da  poter profondare <orig>un’</orig>altro cittadino, o dargli una ferita su l’<orig>honore</orig>
+       <orig>et</orig>
+        su la roba un graffio:
+       <orig>et</orig> se bene <orig>é</orig> torto fatto ch’egli <orig>é</orig> bisogna che sia  diritto
+       <orig>ne</orig> di questi casi bestiali, o accidenti del mondo, se ne <orig>puo</orig> assegnare le ragioni
+       <orig>p<ex>er</ex> che</orig> la <orig>veritá</orig> sta di sopra:
+       <orig>ma</orig> lasciamo questa tragedia ditemi dove andate voi <orig>si</orig> bella.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Faceva pensiero di montare in barca,
+       <orig>et</orig> due <orig>hore</orig>
+       passare il tempo attorno
+        a ogni modo tra le pelli,
+       <orig>et</orig> le <orig>comoditá</orig> della gondola no<ex>n</ex>
+       <orig>sentiró</orig> freddo:
+       <orig>et</orig> no<ex>n</ex> ad altro fine; se non per ischivare un
+       fastidioso vecchio il quale  molti <orig>di</orig> sono, mi tormenta:
+       <orig>et</orig> io come sapete sono
+        dive<ex>n</ex>tata un’altra donna</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p><orig>E</orig> egli nobile.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Dicono che <orig>é</orig>
+       <orig>de</orig> primi della co<ex>n</ex>trada <orig>de</orig> Niccolotti,
+       <orig>et</orig> grand’avvocato di palazzo</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Io no<ex>n</ex> ho molta pratica di <orig>si</orig> fatte cose</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Io ho qui una lettera
+       <orig>et</orig> p<ex>er</ex>
+       <orig>importunitá</orig> ho detto al ma<ex>n</ex>dato suo; di co<ex>m</ex>piacergli come importuno p<ex>er</ex>
+       tormelo dinanzi; ma <orig>sará</orig> no:
+       <orig>leggetela</orig>,
+       <orig>et</orig> riderete eccovela <pb n="12r" facs="c12r"/>
+       
+       <q>
+        <floatingText rend="italic">
+         <body>
+          <opener>Al cristallino specchietto della mia effigie, tutto
+            indorato
+            la <orig>Marchesana</orig> Druda di Tedescheria,
+           <orig>et</orig>
+            del mio stomaco mag<ex>nifi</ex>co <orig>Zucchero</orig>
+           <orig>Rosato</orig> ecc</opener>
+          
+          <p>R<ex>everendissi</ex>ma risplendente luna come sapete
+           <orig>piu</orig> volte la S<ex>ignoria</ex> V<ex>ostra</ex> che la mia 
+           mag<ex>nificen</ex>za ha discorso in materia del mio amore;
+           <orig>et</orig> concluso sopra le prove fatte a diverse signore venute di nuovo
+           nella nostra <orig>Cittá</orig>
+           <foreign xml:lang="lat"><orig>domina</orig> dominantio</foreign> i favori che io posso
+            p<ex>er</ex> tutte le <orig>spetierie</orig>,
+           <orig>et</orig> pescatori
+           <orig>peró che</orig> vale assai un pari mio.
+           <orig>Peró</orig> procuro <orig>a gli</orig>
+           <orig>officij</orig> delle 
+           <orig>pompe</orig>
+           <orig>et</orig> disputo <orig>a</orig>
+           <orig>signori</orig>
+           <orig>dinotte</orig>
+           <foreign xml:lang="lat">Ideo</foreign>, desidero essequire stasera
+            da le quattro, alle tre <orig>hore</orig> in <orig>lá</orig>: tanto mio amore strenuo;
+           <orig>cedino</orig>
+            le v<ex>ost</ex>re tappezzate bellezze,
+           <orig>et</orig> invitte; alla <orig>servitu</orig> del v<ex>ost</ex>ro <orig>Colombo</orig>
+            schiavo,
+           <orig>et</orig> impaniato baciandovi la <orig>Zecchina</orig> mano, co<ex>n</ex> q<ex>uest</ex>o S<ex>an</ex> Marco
+            d’oro</p>
+          <closer> Il v<ex>ost</ex>ro Niccoletto il <orig>piu</orig> rovente ama<ex>n</ex>te di V<ex>ostra</ex> S<ex>ignoria</ex>.
+            che scaldassi il letto; senza scaldaletto</closer>
+         </body>
+        </floatingText>
+       </q>
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p><orig>Poi che</orig> giuoca di scudi, se gli <orig>puo</orig> dar del magnifico,
+       <orig>lo</orig> pigliasti forse.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Lo rimandai indietro, p<ex>er</ex> il famiglio</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p><orig>Pur che</orig> no<ex>n</ex> se lo <orig>habbia</orig>
+       (dicendo <orig>haverlo</orig> dato) ritenuto</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Questo sarebbe peggio</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Gran fatto credete che no<ex>n</ex> ci sieno mille <orig>si</orig> fatti <orig>marihuoli</orig>.~ Se no<ex>n</ex> fussino i
+         buoni ordini; q<ex>uest</ex>a terra che <orig>é</orig> un paradiso parrebbe uno <orig>Inferno</orig>: Qua<ex>n</ex>te  buone leggi ci
+        sono,
+       <orig>et</orig>
+       <orig>comoditá</orig> rare am signora.~ No<ex>n</ex>
+       <orig>é</orig>
+       <orig>citta</orig>
+       <orig>almondo</orig> che  la passi di <orig>dignitá</orig> No<ex>n</ex>
+       <orig>é</orig> questa una cosa bella, che un principe un prelato
+        un pari mio viva <orig>quá</orig> libero,
+       <orig>et</orig> signore di <orig>se</orig>,
+       <orig>et</orig> del suo.~ che in altro 
+        luogo, di raro si trova questo. La S<ex>ignoria</ex> V<ex>ostra</ex> si riduca a casa
+       <orig>p<ex>er</ex> che</orig> se voi  no<ex>n</ex> vorrete dargli fatti
+       daretegli parole:
+       <orig>et</orig> no<ex>n</ex> beffate mai nessuno</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p><orig>Poi che</orig> ho la compagnia vostra, da ragionare penseremo qualche rimedio p<ex>er</ex> questa faccenda:</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Entrate in casa ch’io sento aprir la porta della <orig>Stufa</orig></p>
+     </sp>
+    </div>
+    <pb n="12v" facs="c12v"/>
+
+    <div type="scena">
+     <head>Scena <orig>Quarta</orig>
+      </head>
+     <stage> Vincenzo solo
+     </stage>
+     <sp who="vi">
+      <p><orig>Ha</orig>.~
+       <orig>ha</orig>.~
+       <orig>ha</orig>.~
+       <orig>tutti</orig> i famigli, alla conclusione; son
+        famigli:
+       <orig>ne</orig> hanno <orig>piu</orig> cervello che gli bisogni. I danari,
+       <orig>et</orig> le <orig>ciancie</orig>
+        hanno fatto, che il Bigio del mag<ex>nifi</ex>co;
+       <orig>et</orig> il Zucca dello <orig>Stufaiuolo</orig>;
+        si sieno trafugati per quelle corti,
+       <orig>et</orig> magazzini
+       <orig>et</orig> sapete eglino ha<ex>n</ex>no <orig>in Zuccato</orig> bene,
+       <orig>et</orig> no<ex>n</ex> male;
+       <orig>Hora</orig> se voi volete vedere due  poltroni dormire sbracatame<ex>n</ex>te; entrate qua dentro, come tassi son per domani ripostisi. S’io posso finire la tela che io ho ordita
+       spero  di far ridere tutta <add place="interlinear">la</add> vicinanza o metterla tutta sottosopra: Io vo  dentro a pigliare un’altra sorte di vestime<ex>n</ex>ti; no<ex>n</ex> ve ne ridete poi,
+        q<ex>ua</ex>n<ex>do</ex>
+        mi vedrete in <orig>Zazzera</orig> amore n’<orig>é</orig> cagione di farci pazzi tenere:
+       <orig>hor sú</orig> chi ha tempo faccia
+       <orig>per che</orig> l’aspettare poi tempo, si perde l’occasione; cosa molto difficile poi, a
+        ritrovare
+      </p>
+     </sp>
+    </div>
+    <trailer> Fine del second’Atto
+    </trailer>
+    <trailer>LO STUFAIUOLO COMMEDIA DEL DONI</trailer>
+   </div>
+   <pb n="13r" facs="c13r"/>
+
+   <div type="atto">
+    <head>ATTO TERZO.
+    </head>
+    <div type="scena">
+     <head>Scena Prima </head>
+     <stage>Maddalena,
+      <orig>et</orig> Cesare
+     </stage>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Egli <orig>é</orig> desso
+       <orig>apunto</orig> venivo signor mio per trovarti</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Con buone nuove.~</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p><orig>Ne</orig> nuove,
+       <orig>ne</orig> vecchie
+       <orig>ne</orig> cattive,
+       <orig>ne</orig> buone: ma per dirti che noi  siamo
+       tutte disperate in casa La Taddea vedova,
+       vedova tenuta  all’usanza della terra: ma il marito datogli la mano <orig>andó</orig> in Aleppe
+       <orig>et</orig> nel ritorno la fortuna ruppe la nave;
+       <orig>et</orig> tutti perirono.
+       
+       <orig>e</orig> si tiene che la sia come l’usci del guscio
+       <orig>et</orig>
+       <orig>per che</orig> il tempo vola
+        la s’<orig>é</orig> scoperta co<ex>n</ex> tutti d’essere inamorata d’un galante di Laura  che la
+        muore:
+       <orig>et</orig> no<ex>n</ex> ha <orig>ne</orig> giorno,
+       <orig>ne</orig> notte,
+       <orig>un </orig><orig>hora</orig> di riposo Laura  di costei se ne ride da un
+        canto dall’altro piange p<ex>er</ex>
+       <orig>se</orig>, d’essere afogata in un bicchier d’acqua
+        co<ex>n</ex> quel vecchio, il quale oltre
+       che le fa  cattiva <distinct type="fiorentino">diacitura</distinct> ogni settimana <orig>e</orig> va, a vettura da questa <orig>et</orig> da  quell’altra femina;
+       <orig>ma</orig> noi lo vogliamo còrre stanotte dalla <orig>Stufaiuola</orig> tua padrona dove sappiamo ch’egli va</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Certo egli <orig>é</orig> quello, che poco fa la me ne ragionava:
+       <orig>hor</orig> sia <orig>inbuon</orig>
+       <orig>hora</orig>
+        Sai tu ch’io venivo p<ex>er</ex> ritrovarti con una buona anzi ottima nuova.~
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>E quale.~</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Ecco la patente del nostro ritorno alla patria co<ex>n</ex> le
+       possessioni libere 
+       <orig>et</orig> ogni nostro <orig>havere</orig>
+      </p>
+     </sp>
+     <pb n="13v" facs="c13v"/>
+
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>O <orig>signore</orig>
+       <orig>ringratiato</orig> sia tu sempre. Io ho del
+       co<ex>n</ex>tinuo sperato nella sua 
+       <orig>bontá</orig>,
+       <orig>et</orig> ho fede di ritrovare un giorno,
+       <orig>al meno</orig>, uno <orig>de</orig> n<ex>ost</ex>ri figliuoli
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p><orig>Eime</orig> dolente
+       <orig>giá</orig> me gli sono scordati.</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>No<ex>n</ex>
+       <orig>giá</orig> io:
+       <orig>et</orig> ho a mente la voglia di vino che ha la Fiammetta sul  braccio
+       <orig>et</orig> i nei grossi della spalla</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p><orig>Et</orig> i nei grossi di lei, son di ricordo ma <orig>piu</orig> di Gianni <orig>batino</orig> quei cinq<ex>ue</ex>
+        ceci sotto la poppa ma<ex>n</ex>ca:
+       <orig>et</orig>
+       <orig>un’</orig>rosso dall’altra Le son cose impossibili da 
+        ritrovare,
+       <orig>guarda</orig>
+       <orig>piu tosto</orig> di farmi consolato, in questa n<ex>ost</ex>ra partita</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>La ventura ti vien dietro; Fra poco, la <orig>condurró</orig> dalla Druda, che in  cambio suo la corichi
+        co<ex>n</ex> il vecchio vedi che lei vi metta te inanzi
+       <orig>et</orig> co<ex>n</ex>tentati Io la <orig>lasceró</orig> nel tuo diminio</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>O felice a me, se tu fai cotesto:
+       <orig>sará</orig> ella poi <orig>cosí</orig>; che tu la meni, in casa.~</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p><orig>Sta</orig> di buona voglia che io ho fede,
+       che la ti <orig>verrá</orig>
+       <orig>inbraccio</orig>, ancora vole<ex>n</ex>tieri
+       <orig>ti</orig> contenti tu.~</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p><orig>Oime</orig>.~</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p><orig>Hor</orig> vedi s’io ti sono una dabben moglie.</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>No<ex>n</ex> posso p<ex>er</ex> l’allegrezza rispondere</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Io vo dunque a condurla; risponderami poi:
+       <orig>et</orig> poi co<ex>n</ex> doppia allegrezza  del nostro ritorno faremo festa</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p> Due fatiche ha l’<orig>huomo</orig> in questo mondo, che no<ex>n</ex> si considerano,
+       <orig>et</orig> pur son  grandi.
+       <orig>Una</orig> si vede,
+       <orig>et</orig> l’altra <orig>nó</orig> La prima <orig>é</orig> mantenersi.
+       <orig>L’</orig>altra il sostentare  la sua pazzia No<ex>n</ex> bastavano i travagli del mondo i quali da una parte  mi danno affanno che dall’altra la pazzia d’<orig>Amore</orig> no<ex>n</ex> mi sia a cuore
+       <orig>E</orig> si  suol dire che nelle cose averse il ricco si sa prosperare; ma in questi <distinct type="fiorentino">mia</distinct> passati,
+       <orig>et</orig> presenti travagli; no<ex>n</ex> mi hanno ancora saputo far,
+       questo <orig>servitio</orig> in  modo che l’<orig>huomo</orig> ha <orig>piu</orig> da <orig>ringratiare</orig> Dio, d’esserci nato savio che ricco
+       
+       <orig>che</orig> se <orig>cosi</orig> fosse stato:
+       a dirla alla reale io no<ex>n</ex>
+       sarei in questi laberinti, Se  io mi sviluppo <orig>hora</orig> mai <orig>piu</orig> mi aggiro per <orig>si</orig> fatte strade. Lasciami andare<pb n="14r" facs="c14r"/>
+        a casa a condurre il resto della mia pazzia a fine
+       <orig>Pur che</orig>
+       <orig>qualch’uno</orig> no<ex>n</ex> m’<orig>habbia</orig> udito a dir le mie <orig>stoltitie</orig>,
+       <orig>o</orig> gran <orig>servitú</orig> di questa <orig>Stufa</orig> sempre, entra<ex>n</ex>
+       <orig>et</orig> escono brigate</p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena II,
+     </head>
+     <stage>Laura Madalena Druda;
+      <orig>et</orig> Vincenzo
+     </stage>
+     <sp who="vi">
+      <speaker>Vin<ex>cenzo</ex>.</speaker>
+      <p>Ah.~
+       <orig>ah</orig>.~
+       <orig>so</orig> che io rido stanotte. Dal viso <orig>infuori</orig>, no<ex>n</ex> paio io il magnifico.~
+        In cambio di stufarmi,
+       <orig>vo</orig> vedere di coricarmi in un letto;
+       <orig>come</orig> bene ho  fatto il furto di questi panni di sotto a quel gaglioffo.
+       <orig>E</orig> dorme <orig>si</orig> sodo, che  no<ex>n</ex> lo desterebbono le
+        bo<ex>m</ex>barde,
+       <orig>il</orig> vecchio v’<orig>é</orig> per due <orig>hore</orig> egli si sta al  caldo, del quale se ne <orig>rifá</orig>
+       <orig>et</orig>
+       <orig>é</orig> entrato in un cicaleccio <orig>de</orig> suoi amori  lungo, lungo Lo
+       <orig>Stufaiuolo</orig> dice,
+       <q><orig>madesi</orig></q>: e tira il cordovano
+       <orig>et</orig> a un  bisogno m’aspetta.
+       <orig>Et</orig> io me ne <orig>vó</orig> in qua.
+       <orig>Pure</orig> che io torni a tempo da  rimettere i panni al luogo suo Ecco la chiave ecco il lanternino da ladri,
+        per vedere tutta la casa
+       <orig>Stà</orig> io odo brigate;
+       <orig>tosto</orig> dentro no<ex>n</ex> mi fare  stentare, o chiave di <orig>gratia</orig>:
+       <orig>chi</orig> no<ex>n</ex> s’<distinct type="fiorentino">arristia</distinct> no<ex>n</ex>
+        guadagna,
+       <orig>la</orig> vacca <orig>é</orig>
+        nostra, dentro Vincenzo.</p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>La fante s’<orig>é</orig> adormentata al fuoco,
+       <orig>et</orig> la Taddea debbe essere sul buono  del primo sonno</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Bella cosa questa <orig>Cittá</orig> libera;
+       <orig>guarda</orig> che nessuno ci dia fastidio; ma <orig>cosi</orig>
+        vestite da <orig>huomo</orig>, paiamo signori</p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>Insegnatemi come debbo chiamar la cortigiana.~</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Lascia pur dire a me</p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>Andate dunque voi innanzi che sapete l’uscio</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Tic toc tac:</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Chi <orig>é</orig>
+       <orig>lá</orig>.~</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Son due forestieri, che cercano camere locande</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Adesso vengo alle Signorie V<ex>ost</ex>re</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Farai co<ex>n</ex> quell’altro amico, la mostra di <orig>cioch’</orig>io ti ho insegnato:
+       <orig>et</orig> no<ex>n</ex> uscire come io ti ho detto del segno punto p<ex>er</ex> punto
+      </p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Venite dentro, ch’io sento brigate o che
+       maledetta <orig>Stufa</orig>.</p>
+     </sp>
+     <pb n="14v" facs="c14v"/>
+
+    </div>
+    <div type="scena">
+     <head>Scena <orig>Terza</orig>;
+     </head>
+     <stage>Caterina <orig>et</orig> Bigio
+     </stage>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>La vesta del messere,
+       <orig>é</orig> su la tavola
+       <distinct type="fiorentino">la suo camera</distinct>
+       <orig>é</orig> serrata di dentro cosa che mai si <orig>usó</orig>: Io sono stata a
+        sorrecchiare all’uscio,
+       <orig>et</orig> m’<orig>é</orig>
+        paruto di sentire, dimenare la lettiera;
+       <orig>del</orig> resto la casa <orig>é</orig> netta  come un bacino da <orig>Barbiere</orig> Dio <orig>sá</orig> dove son l’altre donne,
+       <orig>va</orig> rinvergale tu per questa terrra. Anch’io voglio andare a cercare il  Bigio: ma <orig>Eccolo</orig> che ne vien piangendo;
+       <orig>o</orig>
+       <orig>ve</orig> fantoccio vestito:
+       <orig>de</orig>
+        vedi bel bambino che piagne.
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Io son rovinato
+       <orig>oime</orig>
+       <orig>sciagurato</orig> a me:
+       <orig>va</orig> portami Caterina <orig>un’</orig>coltello, ch’io mi voglio sgozzare.</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Che cosa <orig>é</orig> stata.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>O Dio
+       <orig>la</orig> vesta del messere la vesta um.~
+       <orig>um</orig>.~
+       <orig>la</orig> chiave la chiave  del messere la lanterna.
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Che vesta pazzerello,
+       <orig>l</orig>’<orig>é</orig> su la tavola,
+       <orig>et</orig> messere fa un gran tentennare stanotte di lettiera: L’uscio no<ex>n</ex> lo vedi aperto.~
+       <orig>tu</orig>
+       <orig>se</orig>
+       <orig>briaco</orig>.
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Sogn’io <orig>ó</orig> dormo,
+       <orig>come</orig> ha fatto il messere a volar nel letto a casa: senza me.
+       <orig>E</orig> mi par che sia in istufa ancora:
+       <orig>e</orig> panni mi sono stati rubati  da uno che gli ha scambiati co<ex>n</ex> i suoi
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Chi <orig>é</orig> adunq<ex>ue</ex> nel letto.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Dillo tu che sei stata in casa.</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Io ho dormito in cucina al fuoco</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex></speaker>
+      <p><orig>Et</orig> io ho sonniferato un poco su la cassa <orig>de</orig> panni</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>E d’<orig>un’</orig>bel sonniferare
+       <orig>poi che</orig> messere o altri ti ha tolto la vesta di sotto,
+       <orig>et</orig> no<ex>n</ex> l’hai <orig>ne</orig> veduto,
+       <orig>ne</orig> sentito.
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Io <distinct type="fiorentino"><orig>gne ne</orig></distinct> dovetti dare inanzi ch’io dormissi.</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Ah.~
+       <orig>ah</orig>.~
+       <orig>e</orig> il padrone nella <orig>Stufa</orig> da dovero.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Credo di <orig>si</orig> lasciami veder prima la vesta
+       <orig>et</orig> poi ti <orig>diró</orig> se egli vi <orig>é</orig>: o <orig>si</orig> o <orig>nó</orig></p>
+     </sp>
+     <pb n="15r" facs="c15r"/>
+
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Sai tu <orig>cioch’</orig>io voglio che noi facciamo.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Che.~</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Mentre che le donne son fuori insino che le tornano,
+       <distinct type="fiorentino">andiancene</distinct> a  letto
+       <orig>vedi</orig> che va<ex>n</ex> gente <orig>la</orig> attorno carnescialando,
+       <orig>et</orig>
+       <orig>anchor</orig> noi.</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Lasciami veder la vesta,
+       <orig>et</orig> poi,
+       <orig>faró</orig>
+       <orig>ciocche</orig> tu vuoi</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p><orig>Si</orig> anima mia
+       <orig>va</orig>
+       <orig>la</orig></p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Passi la S<ex>ignoria</ex> V<ex>ostra</ex> donna <distinct type="latinismo">Chaterina</distinct> bella</p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena <orig>Quarta</orig>,
+     </head>
+     <stage>Druda:
+      <orig>&amp;</orig> Maddalena
+     </stage>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>O che allegrezza.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>La compassione del povero <orig>gentilhuomo</orig>, mi ha fatto comportare un 
+       <orig>si</orig> fatto inganno di mettere uno scambio
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Ah.~
+       <orig>ah</orig>.~
+       <orig>ah</orig>.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Voi ridete;
+       <orig>se</orig> mi fosse stato marito come <orig>é</orig> a voi: no<ex>n</ex> lo comportava 
+        mai, morto a <distinct type="fiorentino">suo</distinct> posta.
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Ho ben fatto uno incanto, basta, basta.</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Incanti mi piacque,
+       <orig>voi</orig>
+       <orig>havete</orig> un buono stomaco,
+       <orig>come</orig>
+       <orig>andra</orig> ella.~
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Benissimo
+       <orig>et</orig> lo vedrete tosto</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p><orig>Hor</orig> via andatevene a <orig>Casa</orig>,
+       <orig>et</orig> io <orig>andró</orig> a trattenere il vecchio
+       <orig>et</orig> di  tutto lo scompiglio, lascio il carico a voi
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p><orig>Si</orig>,
+       <orig>si</orig>: Che vuol dire quest’uscio aperto: Che <orig>sará</orig> mai.~ Il vecchio 
+       <orig>é</orig> pur nella trappola. Dio voglia che quel
+       famiglio porco,
+       <orig>et</orig> la nostra  scrofa, no<ex>n</ex>
+       <orig>habbia<ex>n</ex></orig> fatto qualche <orig>maladitione</orig>: Sempre ci nasce qualche  matassa
+       da sviluppare Intanto, io <orig>entrerró</orig> di qui,
+       <orig>et</orig>
+       <orig>serreró</orig> tutti gli  usci, chi <orig>vorrá</orig> venir poi in casa; mi <orig>fará</orig> motto
+      </p>
+     </sp>
+    </div>
+    <trailer>FINE DEL III ATTO</trailer>
+   </div>
+   <pb n="15v" facs="c15v"/>
+
+   <div type="atto">
+    <head>ATTO <orig>IIII</orig></head>
+    <div type="scena">
+     <head>Scena Prima:</head>
+     <stage>Vincenzo,
+      <orig>et</orig> Maddalena
+     </stage>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Tutte le <orig>disgratie</orig> quando le cominciano, sogliono venire a un’<distinct type="fiorentino">otta</distinct>
+       <orig>et</orig>
+        le <orig>gratie</orig> a una, a una: ma
+       questa volta le <orig>felicitá</orig> mi son venute tutte  a un tratto,
+       <orig>favello</orig> delle cose del mondo</p>
+     </sp>
+     <sp who="vi">
+      <speaker>Vin<ex>cenzo</ex>.</speaker>
+      <p>Chi direbbe mai che la sorte m’<orig>havesse</orig> fatto tanto favore.~
+       <orig>et</orig> in che modo: Son ito in una
+        stufa, a diventar ladro, e truffatore
+       <orig>et</orig> in una patria lontana dalla mia, tante
+       centinaia di miglia a <distinct type="fiorentino">ristio</distinct> di capitar male
+        travestitomi aperto l’altrui case,
+       <orig>et</orig> violato gli altrui letti; le son pur  cose, che a pena si credono.
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p><orig>Et</orig> io ci venni,
+       <orig>et</orig> mi posi come p<ex>er</ex> ischiava in nuove contrade,
+       <orig>et</orig> fra ge<ex>n</ex>te  in altra maniera nutrite,
+       <orig>et</orig> alla fine, mi son condotta a condurre la  povera
+        figliuola, a cercare i difetti del marito
+       Ma questi discorsi non  sono p<ex>er</ex>
+       <orig>hora</orig> d’allungargli <orig>piu</orig>: Io <orig>andró</orig> da Laura: della Taddea ne 
+       <orig>lasceró</orig> a te la cura come io torno si <orig>terminerá</orig> il tutto,
+       <orig>hor</orig>
+       <orig>va</orig>
+       <orig>disopra</orig>
+      </p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena <orig>Seconda</orig>
+      </head>
+     <stage>Maddalena <orig>et</orig> Druda
+     </stage>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>V’aspettavo al passo vedendovi in qua venire:</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Come la fa Laura.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Ah.~
+       <orig>ah</orig>.~
+       <orig>so</orig> che il signore ha avuto il mele,
+       <orig>et</orig> le mosche</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p><orig>Ecci</orig> nulla di rotto.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Nulla, insino a <orig>hora</orig></p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Si debbe esser contentato a modo suo, questa volta</p>
+     </sp>
+     <pb n="16r" facs="c16r"/>
+
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Il vostro incanto credo che sia giovato anzi stato da dovero,
+       <orig>&amp;</orig> no<ex>n</ex>
+        so dirvi altro, se no<ex>n</ex> che la gli disse no<ex>n</ex> so
+       che pian piano; poi volle  il lume,
+       <orig>et</orig> mostrogli le braccia le spalle, e
+       ’l petto; tanto ch’egli <orig>entró</orig> in un pianto dirotto, che mai ha fatto altro che lagrimare No<ex>n</ex>
+        piangete ancor voi;
+       <orig>che</orig> no<ex>n</ex> ha fatto nulla:</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Piango d’allegrezza</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p> Io resto stupida anch’io:
+       <orig>et</orig> egli (credo che sia) matto di Laura</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>O che nuovo accidente,
+       <orig>andiamo</orig> dentro,
+       <orig>et</orig> lo intenderete Laura  poi s’ha da
+       riempire d’un nuovo diletto
+       <orig>et</orig> voi, e tutti:
+       <orig>Hor</orig> ditemi
+        che fu di messer vecchio.~
+      </p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Lo stufaiuolo, gli <orig>mostró</orig> la scala segreta che viene in casa
+       <orig>&amp;</orig>
+        egli <orig>picchió</orig> un pezzo
+       <orig>bravó</orig>:
+       <orig>et</orig>
+       <orig>pregó</orig>; ma nulla gli valse,
+       <orig>ne</orig> fu  di giovamento:
+       <orig>per che</orig> io <orig>haveva</orig> pontato i piedi al muro, di no<ex>n</ex>
+        ce lo volere Credo che si gettassi per il sonno sul letto
+        dopo la <orig>coletione</orig> dello <orig>Stufaiuolo</orig>, a dormire Ma udite, che grida <orig>a corr’huomo</orig>,
+       <distinct type="fiorentino">entriancene</distinct> in casa
+      </p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena <orig>Terza</orig>
+      </head>
+     <stage>
+      <ptr xml:id="a4sc3"/><orig>Niccolo</orig>,
+      <orig>&amp;</orig> Stufaiuolo
+     </stage>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni-a"/>Nic<ex>colò</ex>.</speaker>
+      <p>Ribaldi
+       <orig>marihuoli</orig>: asassini
+       <orig>Traditori</orig>,
+       <orig>a</orig> questo modo am.~
+       <orig>poltrona</orig>
+       <orig>Tedesca</orig>; gaglioffa,
+       <orig>a</orig>
+       <orig>signori</orig>
+       <orig>dinotte</orig>
+       <orig>criminali</orig> truffatori
+       <orig>canj</orig>
+       <orig>a</orig> un <orig>ge<ex>n</ex>tilhuomo</orig> Niccolotto,
+       <orig>de</orig> primi,
+       <orig>de</orig> primi.~ Io ho <orig>piu</orig> di <distinct type="fiorentino">dumila</distinct>
+        ducati d’entrata;
+       <orig>et</orig> gli <orig>vo</orig> spender tutti p<ex>er</ex> ritrovare il Bigio che  voi m’<orig>havete</orig> amazzato: Stradaiuolo,
+       <orig>et</orig> no<ex>n</ex>
+       <distinct type="fiorentino">istufaiuolo</distinct>. Lascia che  io mi vadi a rivestire vedrai se io ti
+        <distinct type="fiorentino"><orig>gastigheró</orig></distinct>. Vinegia no<ex>n</ex>
+       <orig>é</orig>
+       <distinct type="veneziano">miga</distinct>
+        il <orig>bosco</orig> di Baccano.
+      </p>
+     </sp>
+     <sp who="st">
+      <speaker>
+       <ptr xml:id="st-a"/>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Messer mag<ex>nifi</ex>co se voi sete <orig>gentilhuomo</orig>
+       <orig>Io</orig> sono <orig>huomo</orig> da bene,
+       <orig>et</orig>
+        che sia il vero
+       <orig>Ecco</orig> che il vostro famiglio, nel truffarmi e panni 
+       <orig>et</orig> fuggirsi gli <orig>é</orig> caduto la v<ex>ost</ex>ra borsa vedetela qua togliete.~
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>
+       <ptr xml:id="ni-b"/>Nic<ex>colò</ex>.</speaker>
+      <p>Tu menti p<ex>er</ex> la gola:
+       <orig>che</orig> la borsa l’ho <orig>quá</orig>, e sempre l’ho tenuta 
+       <pb n="16v" facs="c16v"/>
+        nelle mutande:
+       <orig>o</orig> poveretto Bigio che strana morte debbi tu <orig>haver</orig>
+        fatta,
+       <orig>almanco</orig>
+       <orig>havessi</orig> tu potuto far testame<ex>n</ex>to <orig>de</orig> danari che io ti  ho dati in <orig>XXV</orig> anni che tu stai meco.
+      </p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Questa borsa <orig>fará</orig>
+       <orig>ingiuditio</orig> testimonianza della mia innocenza</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p><orig>Va</orig> pure alla <orig>mal’hora</orig> ribaldo
+      </p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Io non so tante cose la mia cassa v’ha renduto,
+       un saio di velluto una  berretta co<ex>n</ex> una
+       medaglia d’oro un pennacchio di trinca, per una  vesta <orig>cosi</orig>
+       <orig>cosi</orig>: senza il tabarro,
+       che val due veste.
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Tu vuoi cento stoccate
+       <orig>ne vero</orig>.~</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Io serro l’uscio, stoccate,
+       <orig>et</orig> fate,
+       <orig>et</orig> dite qua<ex>n</ex>to vi piace.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Da dovero, ch’io paio uno sbricco. di questa tresca me ne <orig>verrá</orig> guadagnato,
+       <orig>ma</orig> all’andare in casa sta il punto
+       <orig>Oime</orig> la sarcinesca <orig>é</orig>
+        aperta la mi <orig>sara</orig> stata sforacchiata co<ex>n</ex> qualch’altra chiave. Tic tac.
+        Io posso picchiare, e’ saranno morti, Toc tac,
+       <orig>questa</orig> sarebbe bella
+        truffato rubato asassinato,
+       <orig>et</orig> fuor di casa,
+       <orig>ou</orig>
+       <orig>ou</orig>:
+       <orig>tic</orig> tic toc: tac.
+        Laura Caterina Maddalena.~ Saranno sotterrati tutti, nel sonno.
+       
+       <orig>Sará</orig> meglio ch’io vadi p<ex>er</ex> un <orig>Magnano</orig>,
+       <orig>et</orig> faccimi aprire altrime<ex>n</ex>ti  io no<ex>n</ex>
+       ci veggo <distinct type="fiorentino">grascia</distinct>; altro che far
+       mula di medico:
+       <orig>de</orig> cattivi partiti bisogna pigliare il migliore: vedi a quello che <orig>é</orig> condotta la mia  magnificenza.
+       Voglio tastare innanzi ch’io vadia, se l’uscio di qua <orig>foßi</orig>
+        aperto p<ex>er</ex>
+       <orig>disgratia</orig>: e poi <orig>andró</orig> via
+       <orig>E</orig> par co<ex>n</ex>fitto
+       <orig>si</orig> sta forte.
+      </p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena <orig>Quarta</orig>
+      </head>
+     <stage>
+      <ptr xml:id="a4sc4"/>Bigio <orig>et</orig> Caterina
+     </stage>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi-1"/>Big<ex>io</ex>.</speaker>
+      <p>Chi domine era quello che voleva rovinare la porta Caterina.~</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca-1"/>Cat<ex>erina</ex>.</speaker>
+      <p><orig>Va</orig> indovinalo tu:
+       <orig>che</orig>
+       <orig>si</orig> che noi <orig>reditiamo</orig> questa casa.~ La <orig>Camera</orig>
+       <orig>é</orig>
+        chiusa,
+       <orig>et</orig> la vesta di messere si sta su la tavola co<ex>n</ex> la berretta Vogliamo  noi andare su qualche ballo in maschera.~
+       <orig>tu</orig> vedi, noi siam padroni,
+       <orig>che</orig>
+        ogni uno <orig>é</orig> perduto
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi-2"/>Big<ex>io</ex>.</speaker>
+      <p>Come ci travestiremo.~</p>
+     </sp>
+     <pb n="17r" facs="c17r"/>
+
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca-2"/>Cat<ex>erina</ex>.</speaker>
+      <p>Con la vesta di messere io: e tu co<ex>n</ex> la
+        tua: o co<ex>n</ex> la mia</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi-3"/>Big<ex>io</ex>.</speaker>
+      <p>
+       <orig>Va</orig> per esse,
+       <orig>et</orig> andiamo
+       <ptr xml:id="bi-4"/>Io sto a pensare quello che si <orig>fará</orig> di <orig>si</orig>
+        gran casa La voglio affittar mezza almanco, per i cama<ex>n</ex>giari
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca-3"/>Cat<ex>erina</ex>.</speaker>
+      <p>Piglia vestiti:
+       <orig>et</orig> daremo, una giravolta <orig>su</orig> balli</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi-5"/>Big<ex>io</ex>.</speaker>
+      <p>
+       <orig>Et</orig> poi alla <orig>Stufa</orig>; a veder come egli <orig>é</orig> morto bene:
+       <ptr xml:id="bi-5bis"/><orig>coteste</orig> maschere.~</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca-4"/>Cat<ex>erina</ex>.</speaker>
+      <p>L’ho tolte di camera di madonna Lena Dimmi Bigio
+       <orig>sará</orig> meglio che  noi ci amogliamo insieme</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi-6"/>Big<ex>io</ex>.</speaker>
+      <p>Senza dote no<ex>n</ex>
+       <orig>faró</orig> io cotesta pazzia.</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca-5"/>Cat<ex>erina</ex>.</speaker>
+      <p>No<ex>n</ex> ho io a Poppi, un <orig>Forno</orig>, co<ex>n</ex> un boschetto <orig>a torno</orig> attorno.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi-7"/>Big<ex>io</ex>.</speaker>
+      <p>Tu hai una rendita d’un podere.</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca-6"/>Cat<ex>erina</ex>.</speaker>
+      <p>
+       <orig>Con’</orig>
+       <orig>un’</orig>pezzo d’orto,
+       o che terreno grasso co<ex>n</ex> nespole,
+       <orig>et</orig> fichi lardegli  tanto lunghi E se io ci <orig>havessi</orig> tenuto sempre <orig>un’</orig>ortolano di buon  nerbo farebbe tanta rendita <orig>hora</orig>, che te ne staresti agiato largame<ex>n</ex>te,
+        ma egli <orig>é</orig> bisognato che io ci <orig>habbi</orig> messo, a chi io mi sono abbattuta; in  modo che la maggior parte del tempo,
+       <orig>e</orig> si sta sodo
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi-8"/>Big<ex>io</ex>.</speaker>
+      <p><orig>Secosi</orig>
+       <orig>é</orig> ti <orig>torró</orig>,
+       <orig>et</orig> metterovvi di bei nesti</p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca-7"/>Cat<ex>erina</ex>.</speaker>
+      <p>Se tu provederai qualche marza rigogliosa la si <orig>appiccherá</orig> bene</p>
+     </sp>
+     <sp who="bi">
+      <speaker>
+       <ptr xml:id="bi-9"/>Big<ex>io</ex>.</speaker>
+      <p>
+       <orig>Va</orig> che io son contento, di far <orig>cioche</orig> tu vuoi Volta volta, di qua
+        no<ex>n</ex> vedi tu qua<ex>n</ex>ta ge<ex>n</ex>te,
+       <orig>che</orig> no<ex>n</ex> sia il Bargello.
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>
+       <ptr xml:id="ca-8"/>Cat<ex>erina</ex>.</speaker>
+      <p>Anzi <orig>nó</orig> che son <orig>ge<ex>n</ex>tilhuomini</orig>,
+       <distinct type="fiorentino">aspettiangli</distinct>
+       <orig>piu tosto</orig> che <distinct type="fiorentino">possian</distinct> noi perdere,
+       <orig>et</orig> andremo di brigata:
+       <orig>ma</orig>
+       <distinct type="fiorentino">mettianci</distinct> le maschere</p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Sce<ex>na</ex> V:</head>
+     <stage>Laura Cesare Druda Madalena
+      <orig>Catherina</orig>,
+      <orig>et</orig> Bigio
+     </stage>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Si lamentano poi i padri, quando <orig>noi altre</orig> donne facciamo <distinct type="fiorentino">figlioli</distinct>
+        co<ex>n</ex> qualche segno le voglie sono state pur <orig>hora</orig> buone.</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Dal viso in fuori no<ex>n</ex> mi son mai dispiaciuti i segni</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Quanto sono io stata in casa, inanzi che acorta me ne sia.~
+       <orig>nel</orig> governarla nel letto amalata, la riconobbi a
+       quella voglia maggiore
+       <orig>et</orig> me ne  certificai co<ex>n</ex> il restante,
+       <orig>fu</orig> ancor grande il raccontare della presa
+      </p>
+     </sp>
+     <pb n="17v" facs="c17v"/>
+
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>Che io vi seppi, ogni cosa dire</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p><orig>Si</orig> certo
+       <orig>et</orig> eri pur piccina</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p><orig>Et</orig> io che me ne andava presa alle grida, quando la menavi qua
+        come alla beccheria:
+       <orig>voi</orig>
+       <distinct type="fiorentino">sete</distinct> una prudente donna e
+        voi m<ex>esser</ex> Cesare
+        come la vi ha beffato bene.
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>All’amore che io portava a costei, mi pareva gran cosa, che no<ex>n</ex> ci  fosse, un
+       sopranaturale legamento.
+      </p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>Voi no<ex>n</ex> vedete <orig>la</orig>, m<ex>esser</ex>
+       <orig>Niccoló</orig>
+       <orig>p<ex>er</ex></orig> la mia fede ch’egli ha seco una femina, e ci ha veduto
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>La vesta era in casa: come <orig>é</orig> possibile, che sia desso.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>E <orig>pur’</orig>
+       <orig>é</orig>
+       e in maschera.~</p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>La mal trovata <orig>saró</orig> io.</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Ogni cosa si <orig>acconcerá</orig>, lasciate dire a me, che io <orig>cominceró</orig> co<ex>n</ex> le  brusche
+       <orig>et</orig> poi verremo alle dolci parole: all’,
+       <orig>et</orig> pare<ex>n</ex>tadi
+       
+       <orig>Do</orig> vecchio senza pensieri
+       <orig>é</orig> questa <orig>hora</orig> da un pari vostro, a ritrovarsi, in maschera.~
+      </p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Bella gentilezza, volere sforzare, la mia
+        porta.</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>State forti voi volete fuggire:
+       <orig>tien</orig> costei o Druda.~</p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>Poverina a me;
+       <orig>si</orig> vede bene ch’io no<ex>n</ex> ho nessuno, in questi paesi.</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Vedete come questo vecchio <orig>stá</orig> intirizzato.~</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Sentite come questa vacchetta sotto la maschera ride.~</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Cavatevi coteste maschere mostrateci il viso.</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Le mi paiono le n<ex>ost</ex>re di casa</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Ah.~
+       <orig>a</orig>.~
+       <orig>ah</orig>.~ Io v’ho pur fatto tutti
+        ridere:
+       <orig>ah</orig>.~
+       <orig>á</orig>,
+       <orig>ah</orig>.~</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Che cascar ti possi egli mezzo, il naso;
+       <orig>vedi</orig> quest’altra pazzerella;
+       
+       <orig>dove</orig> sian noi stanotte.~ guardate
+       come ci trattano i famigli.
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>No<ex>n</ex>
+       <orig>piu</orig> risa di <orig>gr<ex>ati</ex>a</orig> lasciategli andare <orig>aspasso</orig>: e q<ex>ua</ex>n<ex>do</ex> torna lor bene se  ne venghino a casa:</p>
+     </sp>
+     <pb n="18r" facs="c18r"/>
+
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>Che volete di nuovo far qualche commedia.~
+       <orig>rimeniamo</orig> costei a <orig>Casa</orig>,
+       
+       <orig>et</orig> quell’altro cerchi di messere
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Dove volete ch’io lo ritrovi se fosse morto.~</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p><orig>Si</orig>,
+       <orig>si</orig>; egli <orig>é</orig> morto,
+       <orig>et</orig> noi tutti andiamo a Padova,
+       <orig>date</orig> qua le mie  maschere: andate alla
+        stufa:
+       <distinct type="fiorentino"><orig>habbian</orig></distinct> forse da tener co<ex>n</ex>to noi, di <orig>si</orig>
+        fatta <orig>generatione</orig> qua<ex>n</ex>to peggio fanno,
+       meglio <orig>é</orig>;
+       <orig>a</orig> q<ex>uest</ex>o modo messere s’<orig>accorgerá</orig> co<ex>n</ex> che gente egli ha da fare:
+       <orig>andate</orig>,
+       <orig>aspasso</orig> andate.~
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Se dicono che noi andiamo che stai tu a vedere;
+       <orig>loro</orig> se ne debbono  fuggire a Padova <orig>cosi</orig> ben vestiti
+       <orig>poi che</orig> messere,
+       <orig>é</orig> morto:
+       <orig>povero</orig>
+        vecchio; q<ex>ua</ex>n<ex>do</ex>
+       mi baciava di nascosto in cucina,
+       <orig>e</orig> diceva;
+       <q><orig>no<ex>n</ex></orig> dir nulla  a madonna vedi</q>
+       .
+       <orig>Oibó</orig> gli putiva la bocca:
+       <orig>spú</orig>,
+       <orig>spú</orig>:
+       <orig>bavoso</orig>.
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>
+       <distinct type="fiorentino">Andiancene</distinct> a chiarire alla stufa se egli <orig>é</orig>, o <orig>si</orig>, o <orig>nò</orig> morto;
+       <orig>et</orig> poi  venderemo la casa
+       <orig>che</orig> no<ex>n</ex> ci <orig>é</orig> la <orig>piu</orig> stretta pare<ex>n</ex>te di te se ti baciava
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p><orig>Madesi</orig>
+       <orig>va</orig>
+       <orig>la</orig></p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Gli hanno lasciato aperto,
+       <orig>va</orig> tien servidori come ho
+        detto
+       <orig>si</orig> fatti
+       <orig>fidatevj</orig>
+        brigata di <orig>si</orig> fatta razza che spegner se ne possa la semenza.
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Io <orig>torneró</orig> a casa a rivestirmi da pari mio
+       <orig>&amp;</orig>
+       <orig>ritorneró</orig> all’allegrezze,
+       <orig>et</orig> la Druda dello <orig>Stufaiolo</orig> anch’ella si <orig>fara</orig> da bene
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>A ogni modo lo sposo debbe, co<ex>n</ex> ragione dormire</p>
+     </sp>
+     <sp who="dr">
+      <speaker>Dru<ex>da</ex>.</speaker>
+      <p>Buona notte p<ex>er</ex> un pezzo.</p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>Buona notte,
+       <orig>et</orig> buon anno: Tornate tosto caro padre
+      </p>
+     </sp>
+    </div>
+    <trailer>FINE DEL QUARTO ATTO.</trailer>
+   </div>
+   <pb n="18v" facs="c18v"/>
+
+   <div type="atto">
+    <head>ATTO QUINTO.</head>
+    <div type="scena">
+     <head>SCENA PRIMA</head>
+     
+     <stage>
+      <orig>Niccoló</orig> Magnano <orig>et</orig> Maddalena</stage>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>So che voi dormite sodo, Io ho avuto a
+       rovellarmi intorno a quel  vostro sportello di bottega e hai penato poi <orig>un </orig><orig>hora</orig> a venire.</p>
+     </sp>
+     <sp who="ma">
+      <speaker>Mag<ex>nano</ex>.</speaker>
+      <p>I pari nostri lavorano il <orig>di</orig>
+       <orig>et</orig> la notte, a questa <orig>hora</orig> siamo come 
+       <orig>briachi</orig> nel sonno:
+       <orig>et</orig> forse l’uno,
+       <orig>et</orig> l’altro
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>No<ex>n</ex>
+       <orig>piu</orig> parole eccoci qua sul fatto:
+       <orig>guarda</orig> che nel girare co<ex>n</ex> il  grimandello p<ex>er</ex> quella saracinesca, tu no<ex>n</ex> mi rovinassi qualche cosa
+      </p>
+     </sp>
+     <sp who="ma">
+      <speaker>Mag<ex>nano</ex>.</speaker>
+      <p>La v<ex>ost</ex>ra mag<ex>nificen</ex>za no<ex>n</ex> dubiti.
+       <orig>Io</orig> sono uso a tastare altre serrature che  la vostra
+       Io ho rimesso tali rimbrencioli di toppa insieme che p<ex>er</ex>
+        volerla aprire co<ex>n</ex> chiavi grosse che no<ex>n</ex> vi affacevano, erano tutte <orig>stranbellate</orig>, una brutta cosa da vedere
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>In effetto, co<ex>n</ex> destrezza si fanno le cose bene</p>
+     </sp>
+     <sp who="ma">
+      <speaker>Mag<ex>nano</ex>.</speaker>
+      <p>Chi l’ha aperta.~</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Che vuoi tu ch’io ne sappia
+       <orig>p<ex>er</ex> che</orig>.~</p>
+     </sp>
+     <sp who="ma">
+      <speaker>Mag<ex>nano</ex>.</speaker>
+      <p><orig>Per che</orig> no<ex>n</ex>
+       <orig>havete</orig>
+       <orig>si</orig> gagliardo braccio, da sfondarla.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Il famiglio <orig>haveva</orig> la chiave,
+       <orig>et</orig> la <orig>serró</orig>
+       <orig>iersera</orig></p>
+     </sp>
+     <sp who="ma">
+      <speaker>Mag<ex>nano</ex>.</speaker>
+      <p>No<ex>n</ex> fidate mai a famigli, la chiave della porta
+        principale:
+       <orig>la</orig>
+       v<ex>ostra</ex> mag<ex>nificen</ex>za
+        no<ex>n</ex>
+       <orig>é</orig> ella da casa Capretta.~
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Io son da casa Becco:
+       <orig>hor</orig> vedi, quel che tu vai cercando
+      </p>
+     </sp>
+     <pb n="19r" facs="c19r"/>
+
+     <sp who="ma">
+      <speaker>Mag<ex>nano</ex>.</speaker>
+      <p>Per saper se voi siate <orig>ge<ex>n</ex>tilhuomo</orig>
+       <orig>et</orig> se l’<orig>é</orig> v<ex>ost</ex>ra questa casa la quale  mi pare ch’<orig>habbi</orig>
+       <orig>piu</orig> bisogno di sconficcare, che del grimandello; altrime<ex>n</ex>ti voi starete <orig>difuori</orig>
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Ben sai che l’<orig>é</orig> mia
+       <orig>peró</orig> sconficca sco<ex>n</ex>ficca
+       <orig>no<ex>n</ex></orig> mi far <orig>piu</orig> stentare
+      </p>
+     </sp>
+     <sp who="ma">
+      <speaker>Mag<ex>nano</ex>.</speaker>
+      <p>Tof. Tof, Taf. Tic, Tuf.
+       <orig>toc</orig>,
+       <orig>tac</orig> Touf. Se la
+        no<ex>n</ex>
+       <orig>é</orig> v<ex>ost</ex>ra no<ex>n</ex> mi fate andare sopra un paio di
+        forche
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p><orig>É</orig> lavora i<ex>n</ex>viatame<ex>n</ex>te.</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Chi rompe la mia porta.~
+       <orig>via</orig> al ladro al ladro co<ex>n</ex> i grimandegli.</p>
+     </sp>
+     <sp who="ma">
+      <speaker>Mag<ex>nano</ex>.</speaker>
+      <p>Cacasangue,
+       <orig>dissi</orig> ben io,
+       <q>Ser bestia</q>,
+       <orig>et</orig> no<ex>n</ex>
+       <orig>ge<ex>n</ex>tilhuomo</orig>.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Tu fuggi magnano,
+       <orig>sta</orig> forte,
+       <orig>torna</orig>:
+       <orig>va</orig> tienlo tu: Il padrone so<ex>n</ex> io: Io  sono il messere in <orig>malhora</orig>.
+      </p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Egli <orig>é</orig> alla stufa;
+       <orig>et</orig> no<ex>n</ex> veste alla forestiera, tu
+       mi pari, un soldato
+       <orig>correte</orig> correte vicini,
+       <orig>al</orig> ladro, al ladro.
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p><orig>Sta</orig> cheta arrabbiata.</p>
+     </sp>
+     <sp who="md">
+      <speaker>Mad<ex>dalena</ex>.</speaker>
+      <p>Al ladro,
+       <orig>de</orig> grimandegli,
+       <orig>al</orig> ladro.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Dio, m’aiuti
+       <orig>sará</orig> ben fuggirsi,
+       <orig>et</orig> incantonarsi se io son veduto <orig>cosi</orig>
+        rimango svergognato Diavol che no<ex>n</ex> ci passi, qualche mio conosce<ex>n</ex>te
+      </p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena <orig>Seconda</orig>
+      </head>
+     <stage>Caterina Bigio,
+      <orig>et</orig> Stufaiuolo
+     </stage>
+     <sp who="st">
+      <speaker>Stu.</speaker>
+      <p><orig>To</orig> qui la sua borsa
+       <orig>et</orig>
+       <orig>va</orig> cercane altrove, di questo tuo magnifico</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>No<ex>n</ex> ti ho io detto che <orig>sará</orig> affogato, e inpantanato in qualche canale
+        puzzolente.~
+       <orig>gettavia</orig> cotesto brachiere, e <distinct type="fiorentino">andiancene</distinct> a casa:
+       
+       <orig>che</orig> noi, siamo gli <orig>heredi</orig> Io voglio Bigio caro
+        marito che tu, ti  ritiri, dalla parte di dietro
+       <orig>et</orig> goderemo da vecchietti:
+       <orig>p<ex>er</ex> che</orig> io <orig>affitteró</orig> dinanzi,
+       <orig>et</orig> ne caveremo un buon dato di pigione La <orig>Sala</orig>
+       
+       <orig>é</orig> larga,
+       <orig>et</orig> sonvi camere camerette,
+       <orig>et</orig> mille stanzini, godibili
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>No<ex>n</ex> lo so io.~
+       <orig>e</orig> v’<orig>é</orig> da alloggiar p<ex>er</ex> tutto largame<ex>n</ex>te Ma
+       se tu tenessi  a camere locande p<ex>er</ex> tutto
+        no<ex>n</ex> sarebbe meglio.~
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p><orig>Si</orig> bene:
+       <orig>et</orig> guadagnerassi <orig>piu</orig>, ancora
+      </p>
+     </sp>
+     <pb n="19v" facs="c19v"/>
+
+     
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p><orig>Pur che</orig> tu possi la fatica, di reggere alla ge<ex>n</ex>te che <orig>verrá</orig>;
+       <orig>E</orig>
+       <orig>vien’ </orig> tal poltroncione ad alloggiare, che si porta com’<orig>un’</orig>asino, no<ex>n</ex> so come tu  starai <orig>patiente</orig> co<ex>n</ex> costoro.
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Come <orig>é</orig> saranno <orig>cosi</orig> disonesti io <orig>voltero</orig> lor le spalle, che gli allogino altrove,
+       <orig>si</orig> fatti carichi no<ex>n</ex> mi <orig>tireró</orig> io mai adosso
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Io ti ricordo poi, che le stanze son capace di molti
+       <orig>et</orig> volendo servire  al corso che tu <orig>harai</orig>
+       <orig>et</orig> massime alle furie della Sensa che tutto il
+       mo<ex>n</ex>do  ci capita:
+       <orig>vo</orig> dire che <orig>sará</orig> bene <orig>torre</orig> una buona massara;
+       <orig>p<ex>er</ex> che</orig> io so certo che tu no<ex>n</ex> potrai supplire di qua, e di <orig>la</orig>, a tanti e ti rovinerai le reni pur <orig>fa</orig> tu
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p><orig>Nó</orig>
+       <orig>nó</orig>: Io voglio esser sola,
+       <orig>et</orig> mi sento gagliarda e mi basta ben l’animo
+       di soddisfare a <orig>XXV</orig> e cinquanta p<ex>er</ex> una <orig>necessitá</orig>
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p><orig>Poi che</orig> ti contenti <orig>cosi</orig> andiamo a <orig>metter’</orig> la scritta su la porta
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Quanti danari caveremo noi, qua<ex>n</ex>do <orig>havró</orig> pieno per tutto,
+       <orig>e</orig> mi gio<orig>verá</orig> pure, a tirare di quelle poste di <orig>que</orig> mozzanighi larghi,
+       <orig>et</orig> di  quei marcelli, che empiono la borsa.
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>La fava;
+       <orig>a</orig> marcelli,
+       <orig>et</orig> mozzanighi:
+       <orig>e</orig> vi ti pare essere <orig>giá</orig> co<ex>n</ex>te<ex>n</ex>tati  pur di grossetti. Ma <orig>sta</orig> salda chi <orig>é</orig> quel bravaccio co<ex>n</ex> quella spada 
+       <orig>et</orig> co<ex>n</ex> quel pennacchio incantonato.~
+      </p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>Scena <orig>Terza</orig>
+      </head>
+     <stage>
+      <orig>Niccoló</orig> Caterina,
+      <orig>et</orig> Bigio
+     </stage>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Dove vai tu ladro, co<ex>n</ex> la mia vesta intorno.~
+       <orig>ó</orig>
+       <orig>ó</orig>
+       <orig>tu</orig> sei la Caterina,
+       
+       <orig>chi</orig> ti ha dato cotesti panni. Quest’altra
+       massara chi <orig>é</orig>.~
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Sono il vostro Bigio caro, caro.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>O bestiaccia imbriaco,
+       <orig>tu</orig> m’hai rubato, p<ex>er</ex> fuggirti co<ex>n</ex> costei forse.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Perdonatemi padrone io vi <orig>diró</orig> tutta la cosa</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p><orig>Di</orig> la <orig>veritá</orig> se no<ex>n</ex> ti ficco questo nella gola.</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p><orig>Uú</orig>,
+       <orig>u</orig>;
+       <orig>messere</orig> no<ex>n</ex> fate:
+       <orig>datemi</orig> inanzi ve<ex>n</ex>ticinq<ex>ue</ex> frugate a me
+       <orig>piu</orig>
+        tosto che ferire il poveretto, che no<ex>n</ex> ci ha colpa;
+       <orig>udite</orig>
+       <orig>inprima</orig>
+      </p>
+     </sp>
+     <pb n="20r" facs="c20r"/>
+
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p><orig>Sta</orig> cheta tu.</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Voi siate <orig>sí</orig> bello
+       mag<ex>nifi</ex>co messere di velluto.
+       <orig>o</orig> voi siate bene <orig>si</orig> ben  vestito,
+       <orig>andate</orig> voi <orig>inbasciadore</orig> scrivano su la nave Dolfina.~
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Taci bestia:
+       <orig>di</orig> su la <orig>veritá</orig> Bigio.</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Io dormivo sopra la vesta
+       <orig>et</orig> la mi fu tolta p<ex>er</ex> incanto
+       <orig>et</orig> poi trovai  l’uscio aperto,
+       <orig>et</orig> la camera su la vesta che la tavola era serrata,
+       <orig>et</orig>
+        la berretta era accesa dalla lanterna: in
+        casa in casa: su
+       in casa
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>E io filavo al fuoco dormendo dove <orig>senti</orig> uno spirito folletto, che dimenava forte forte
+       la v<ex>ost</ex>ra lettiera, co<ex>n</ex> madonna serratisi in
+        camera
+        eravate forse vostra mag<ex>nificen</ex>za.~
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Qui sta il punto messere se eri voi, o il folletto:
+       <orig>p<ex>er</ex> che</orig>
+       <orig>harete</orig> un  pezzo che fare, a levarvi di capo queste
+        diavolerie
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Io v’ho pianto per morto,
+       <distinct type="fiorentino">sete</distinct> forse ancora.~</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Il malanno che Dio vi dia
+       <orig>Furfanti</orig>: O sciagurato a me, io no<ex>n</ex>
+       <orig>potró</orig>
+       <orig>piu</orig>
+        comparire in palazzo ad avocare,
+       <orig>et</orig> sono svergognato.
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p><orig>Di</orig> su Bigio, quel che dice lo stufaiuolo, di quel signore</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Che signore.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>No<ex>n</ex> vi so dir altro, se no<ex>n</ex> che madonna Laura
+        stanotte,
+       <orig>colá</orig>
+       <orig>colá</orig> vi cercava, co<ex>n</ex> la Maddalena uno <orig>Imbasciadore</orig> una <orig>Reina</orig> che so io che no<ex>n</ex>
+        conosco: e ’l <orig>Doge</orig> doveva essere con la <orig>signoria</orig>,
+       <orig>et</orig> si ridevono di voi
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>E la villania che gli dissono;
+       <q>castronaccio
+        <orig>marihuolo</orig> bestia</q>.</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>A me.~</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>A me, che avevo la mag<ex>nificen</ex>za della v<ex>ost</ex>ra
+        vesta</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Siete voi imbriachi,
+       <orig>et</orig> loro <orig>a fatto</orig> no<ex>n</ex> si conosce dal viso di questa <orig>marihuola</orig>, al mio che ho la barba.~
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Noi eravamo in maschera
+       <orig>et</orig> la <orig>maddalena</orig> ce le ha tolte, per andare  a Padova
+       <orig>pur che</orig> la madonna no<ex>n</ex> vadi via per sempre
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Tanto che <distinct type="fiorentino">sete</distinct> iti in maschera <orig>dadovero</orig>.</p>
+     </sp>
+     <pb n="20v" facs="c20v"/>
+
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Messer <orig>sí</orig>
+       <orig>accioche</orig> no<ex>n</ex> foste conosciuto,
+       <orig>et</orig> fu bene,
+       <orig>p<ex>er</ex> che</orig> la madonna;
+        quando la vi diceva <q>puttanieri asassino</q>; la no<ex>n</ex> disse a voi
+       <orig>ne</orig> a me
+       <orig>p<ex>er</ex> che</orig> io no<ex>n</ex> ero voi:
+       <orig>et</orig> la maschera no<ex>n</ex> era me
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Che ha da far Padova
+       <orig>Maschera</orig>,
+       <orig>et</orig> madonna fuori:
+       <orig>no<ex>n</ex></orig> credo, nulla voi 
+       <distinct type="fiorentino">siate</distinct> cotti dal vino:
+       <orig>et</orig> io se gli <orig>é</orig> vero tal novella no<ex>n</ex> saprei mai con
+        q<ex>uest</ex>e  bestie che fare,
+       <orig>et</orig> la vergogna
+       <orig>a</orig> che siamo: o povero Niccolotto <orig>de</orig>
+        primi della contrada: Andate <orig>la</orig> a casa inanzi gaglioffi ch’io
+        p<ex>er</ex> la prima  mi <orig>vo</orig> chiarire di questo folletto, che va  le lettiere <orig>cosi</orig> forte:
+       
+       <orig>Sará</orig> forse stato q<ex>ue</ex>llo, che m’<orig>havrá</orig> co<ex>n</ex> la chiave guasta la serratura
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>No<ex>n</ex> vi diss’io messere no<ex>n</ex> ci mettete coteste toppe ge<ex>n</ex>tili, alla <orig>Genovese</orig>;
+        ve lo dissi pure: Queste nostrali le quali son maschie s’usano <orig>hoggi di</orig>
+       
+       <orig>che</orig> da un canto,
+       <orig>et</orig> dall’altro, si possono adoperare
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p> Tu m’hai fracido,
+       <orig>oltre</orig> ch’io son fuori,
+       <orig>et</orig> come svergognato, mi rima<ex>n</ex>go
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Fermatevi messere se voi volete toccar la mano, a quel <orig>Re</orig>,
+       <orig>et</orig> quella <orig>Reina</orig>, che v’ha detto Caterina;
+       <orig>e</orig> son qua dietro
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Lasciami veder, un poco questi miracoli</p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>SCE<ex>NA</ex> IIII:</head>
+     <stage>Caterina
+      <orig>Niccoló</orig> Cesare:<supplied> Druda</supplied>
+      <orig>et</orig> Bigio
+     </stage>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Ben trovato m<ex>esser</ex>
+       <orig>Niccoló</orig></p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>O <orig>lá</orig> voi mi conoscete stravestito:
+       <orig>voi</orig> chi <distinct type="fiorentino">siate</distinct>.~</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Sono un <orig>gentilhuomo</orig>
+       <orig>Genovese</orig>, mercatante, e ho da spendere  parecchi mila ducati</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Il mio messere, no<ex>n</ex>
+       <orig>puo</orig> vendere
+       <orig>che</orig> <orig/> suoi beni son di fede sco<ex>m</ex>messi</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Diavol cheta questa bestiaccia.</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p><orig>Et</orig> Maddalena
+       <orig>laquale</orig>
+       <orig>é</orig>
+       <orig>incasa</orig> la S<ex>ignoria</ex> V<ex>ostra</ex>
+       <orig>é</orig> mia consorte <orig>et</orig> cara do<ex>n</ex>na</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Voi ne tenete un bel conto, a tenerla p<ex>er</ex> fante;
+       <orig>andategli</orig> dietro no<ex>n</ex>
+       <orig>é</orig> ella  ita a Padova.~
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Via famigliacci andate in <orig>la</orig>: q<ex>ua</ex>n<ex>do</ex> favellano i <orig>gentilhuomini</orig>.
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Noi sconosciutame<ex>n</ex>te, fuggimmo dalla patria,
+       <orig>et</orig> siamo incogni<fw>ti</fw><pb n="21r" facs="c21r"/>ti, co<ex>n</ex> altro nome;
+       <orig>hora</orig> ci conviene palesare
+       <orig>et</orig> co<ex>n</ex> quello <orig>honore</orig>
+        ritornare a Genova che si conviene:
+       <orig>havendo</orig> giustificato il mo<ex>n</ex>do  co<ex>n</ex> l’innocenza mia
+       <orig>et</orig> sono per dire il tutto alla S<ex>ignoria</ex>
+        V<ex>ostra</ex>
+       <orig>Padre</orig> di  Laura v<ex>ost</ex>ra moglie;
+       <orig>et</orig> mi chiamo Gregorio Spinola
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Voi <distinct type="fiorentino">sete</distinct> suo padre.~
+       <orig>et</orig>
+       <orig>maddalena</orig>
+       <distinct type="fiorentino">suo</distinct> madre.~</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Al v<ex>ost</ex>ro <orig>servitio</orig> messer mio caro <orig>piu</orig> che padre</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Io son tutto intenerito,
+       <orig>Oime</orig> voi siate mio padrone, e tutta la <orig>Casa</orig>
+       
+       <orig>et</orig>
+       <orig>cioche</orig> io ho,
+       <orig>é</orig> vostro:
+       <orig>o</orig> moglie mia cara mi par mill’anni di vederla
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Questa <orig>é</orig> la <orig>S<ex>ignora</ex></orig> Druda, la quale ho fatto <orig>tor’</orig> p<ex>er</ex> moglie allo <orig>Stufaiuolo</orig>.
+       
+       <orig>et</orig> io gli <orig>dó</orig> la dota;
+       <orig>et</orig> meco <orig>tutte</orig> due verranno a Genova, dove staranno
+        benissimo Io la mia donna,
+       <orig>et</orig> essa venivamo stanotte p<ex>er</ex> notificarvi il tutto e trovarvi infaccendato intorno a quella porta, che la  S<ex>ignoria</ex> V<ex>ostra</ex> volle sforzare;
+        p<ex>er</ex> venire di sopra, a questa femina <orig>hora</orig> da bene
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Perdonatemi tutti gli <orig>huomini</orig> son di carne</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Caterina.~ Senti che son
+        pare<ex>n</ex>ti
+       <orig>e</orig> somiglia ancora tutto colui che mi dette  i mozzanighi;
+       <orig>am</orig>.~
+       <orig>signore</orig> il mio messere vuol ch’io stia <orig>Cheto</orig>; ditemi
+       
+       <orig>é</orig> v<ex>ost</ex>ro figliuolo, q<ex>ue</ex>llo che forse m’ha
+       rubato i panni.
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>La vostra veste, co<ex>n</ex> inganno, gli fu
+       rubata da colui di chi sono cotesti  panni; per farvi a parlar netto vergogna in casa;
+       <orig>chi</orig> la tolse,
+       <orig>et</orig> come  l’<orig>é</orig> andata udirete tosto che siamo tutti in casa
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Che <orig>si</orig> che noi <distinct type="fiorentino"><orig>faren’</orig></distinct> nozze;</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p><orig>Ringratiato</orig> sia Dio io son tornato in me,
+       <orig>et</orig>
+       <orig>potró</orig> co<ex>m</ex>parire:
+       <orig>andiamo</orig>
+        in casa, ch’io veggo che la ci viene aperta
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Tu no<ex>n</ex> vedi <orig>la</orig> Bigio lo <orig>Stufaiuolo</orig>, che s’<orig>é</orig> rivestito,
+       <orig>et</orig> passeggia al fresco.~</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>A <distinct type="fiorentino">suo </distinct> posta, e io <orig>andró</orig> a sedere al caldo;
+       <orig>mi</orig> sa male, che noi <orig>habbiamo</orig>
+        perduto la casa Chi fa il conto senza l’<orig>hoste</orig>.~ fa <orig>cosí</orig>
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>A <distinct type="fiorentino">suo</distinct> posta,
+       <orig>va</orig> pur dentro, che io credo che messere gli paia mill’<orig>annj</orig>
+        di saper chi tentennava la sua lettiera,
+       <orig>et</orig> anch’a me.
+      </p>
+     </sp>
+    </div>
+    <pb n="21v" facs="c21v"/>
+
+    <div type="scena">
+     <head>SCENA.
+      <orig>QUINTA</orig>.
+     </head>
+     <stage><orig>Stufaiuolo</orig>. Solo
+     </stage>
+     <sp who="st">
+      <p>Chi direbbe, ch’io fussi quello dal berrettino,
+       o cappelletto di paglia.~
+       <orig>no<ex>n</ex></orig> paio un <orig>gentilhuomo</orig> forse.~
+       <orig>tal</orig> mi diceva <q>ignudo poltrone</q>, che  mi <orig>dará</orig> del signore
+       <orig>Hor su</orig> il mondo,
+       <orig>é</orig> una gabbia da pazzi. La 
+       <orig>virtú</orig> no<ex>n</ex> si fa valere, se la no<ex>n</ex> ha <orig>de</orig> tif taffi attorno, come si sente  sonar la seta le
+       sberrettate volano,
+       <q>signor <orig>si</orig> messer qua
+        <orig>et</orig> ill<ex>ustrissi</ex>mo <orig>la</orig></q>: Se fosse l’<orig>Imperadore</orig> in un saio di cotone
+       <orig>e</orig>
+       <orig>tocchera</orig>, del <q>tu</q>,
+       <orig>et</orig> del <q>fatti in <orig>la</orig></q>.~ Facciamo a dire il
+        vero, che cosa <orig>é</orig> la ricchezza alla fine.~
+       
+       <orig>Et pure</orig> di tutti i ricchi,
+       <orig>e</orig> tenuto <orig>piu</orig> conto;
+       <orig>da i</orig>
+       <orig>piu</orig> dico; che <orig>de</orig> virtuosi Io ho lavato nella mia stufa, di grand’<orig>huomini</orig>, i quali venivano <orig>la</orig> dentro nudi.
+       <orig>Io</orig> no<ex>n</ex> conoscevo differenza alcuna,
+       <orig>et</orig> la ma<ex>n</ex>dava  tonda all’uno,
+       <orig>et</orig> all’altro:
+       <orig>ma</orig> poi nello spogliatoio questo era di velluto,
+       <orig>et</orig> quell’altro di saia vestito in modo ch’io attendevo a
+       quelle sete.
+       
+       <orig>et</orig>
+        da canto la lana Vien poi veggendo i mal vestiti i <orig>piu</orig> erano i sapienti;
+       <orig>et</orig> quegli altri parevano, un pezzo di carne co<ex>n</ex> due
+        occhi: Vedete a quello, che noi siamo sottoposti, a essere
+       schiavi <orig>a</orig> ben vestiti Volete
+       voi altro, che d’una tanta <orig>stoltitia</orig> nostra: me ne crepa il core.~
+        Se lo dicesse il sole, tutti <orig>habbiamo</orig> a essere  ignudi,
+       <orig>et</orig> in catasta.
+        e no<ex>n</ex> ne <orig>riporterá</orig>
+       <orig>piu</orig> il <orig>Re</orig> che il <orig>filosopho</orig> in mano: tanto <orig>varra</orig> il  lino, qua<ex>n</ex>to la stoppa
+       <orig>Ringratiato</orig> sia Iddio, Io sono uscito di stufaiuolo;
+       <orig>dice</orig> bene il vero, chi ha da <orig>haver</orig> ve<ex>n</ex>tura sia dove si voglia
+        poco senno basta; la lo trova <orig>in sin</orig> nelle stufe. Io me ne <orig>andro</orig> a Genova, co<ex>n</ex> questo ricco
+        mercatante; co<ex>n</ex> la Druda, la quale <orig>sposeró</orig>,
+       <orig>et</orig>
+       
+       <orig>usciró</orig> di stenti
+       <orig>Havete</orig> voi veduti qua<ex>n</ex>ti casi in poche <orig>hore</orig>.~
+       <orig>ne</orig> vedrete <orig>de gli</orig> altri,
+       <orig>et</orig> qui, e altrove; il
+       mondo <orig>é</orig> sopra un certo carro  che gli sdrucciola malame<ex>n</ex>te Lasciami accostare,
+       <orig>et</orig> entrare un  poco nella lega del <orig>gentilhuomo</orig> Tic toc. Dio sa se sentiranno, in  tanto
+       piacere debbono essere Tac tac
+      </p>
+     </sp>
+    </div>
+    <pb n="22r" facs="c22r"/>
+
+    <div type="scena">
+     <head>SCENA, VI.
+     </head>
+     <stage>Stufaiuolo Bigio;
+      <orig>et</orig> Caterina
+     </stage>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Chi picchia.~ O <orig>Stufaiuolo</orig>,
+       <orig>tu</orig> sei <orig>si</orig> ripulito.~
+       <orig>tu</orig> no<ex>n</ex> sapete voi
+       che  quello che mi <orig>rubó</orig> i panni,
+       <orig>et</orig> la <orig>Chiave</orig>,
+       <orig>et</orig> mi dette da imbriacarmi, era fratello di
+        Laura.~
+       <orig>et</orig> era inamorato di lei,
+       <orig>et</orig> no<ex>n</ex> sapeva che  la fosse sua sorella. Il bello fu che egli <orig>entró</orig> nel letto, p<ex>er</ex> co<ex>n</ex>trafare  messere
+       <orig>et</orig> vi <orig>trovó</orig> la Taddea vedova, in cambio di Laura Vedi  che ventura l’<orig>hebbe</orig>
+       <orig>poi che</orig> la gli voleva bene.
+      </p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Io so ogni cosa,
+       <orig>et</orig> madonna Madalena,
+       <orig>é</orig> stata quella che ha riconosciuto suo figliuolo trovandolo nel letto
+       <orig>et</orig> gli ha fatti <orig>torre</orig> p<ex>er</ex> marito <orig>et</orig>
+        moglie:
+       <orig>&amp;</orig> io ho presa la Druda
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>E tu hai Bigio da sposarmi, lo <orig>diró</orig> a messere, se no<ex>n</ex>
+       <distinct type="fiorentino"><orig>gne ne</orig></distinct>
+       <orig>di</orig> tu:
+       <orig>Dilá</orig>
+        in camera terrena su quel canto di cassa, me lo promettesti
+      </p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p><orig>Sará</orig> ben fatto, che tu gli manchi di fede,
+       <orig>volli</orig> dir <orig>malfatto</orig>:
+       <orig>et</orig> farete una coppia, e un paio;
+       <orig>et</orig>
+       <orig>cosí</orig> co<ex>n</ex> tre paia di nozze faremo una  bella festa:
+       <orig>hor</orig> lasciami salir la scala
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Eccogli <orig>giu</orig> tutti <orig>hora</orig>:
+       <orig>che</orig>
+       <distinct type="fiorentino">vogliono andare, a casa madonna
+        sposa</distinct>
+      </p>
+     </sp>
+    </div>
+    <div type="scena">
+     <head>SCENA Ultima.
+     </head>
+     <stage rend="underlined">Tutti fuori</stage>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>L’allegrezza, mi <orig>fará</orig> tre <orig>di</orig> lagrimare</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Buon pro vi facci signori a tutti
+       <orig>et</orig> voi messere p<ex>er</ex>donatemi vi
+        prego</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Ti perdono messer <orig>si</orig> volentieri, io ti perdono</p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Ben venga, m<ex>esser</ex> Gottardo, no<ex>n</ex> si <orig>dirá</orig>
+       <orig>piu</orig> <orig>Stufaiuolo</orig>.</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p> I panni rifanno le stanghe, io ho <orig>giá</orig> guadagnato il messere da la  S<ex>ignoria</ex> V<ex>ostra</ex>
+       <orig>pian</orig> piano <orig>andró</orig> al signore.
+      </p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>O padre mio buono o fratel caro,
+       <orig>chi</orig>
+       <orig>havrebbe</orig> mai creduto che noi  dopo tanti anni, e tanti
+        travagli, fussimo insieme.~
+      </p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>La mia vecchiaia <orig>ringiovanirá</orig>
+       <orig>XXV</orig> anni.</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Messere io ho pensato d’uscire <orig>hoggimai</orig> di tanti fastidi</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Tu farai bene ma in che modo.~</p>
+     </sp>
+     <pb n="22v" facs="c22v"/>
+
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Io voglio tor qui la v<ex>ost</ex>ra fante di cucina</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Vedi balordo:
+       <orig>di</orig> madonna Caterina.</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>La <orig>Signora</orig> Chaterina
+       <orig>et</orig> copularmi come coma<ex>n</ex>da la legge</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>
+       <orig>Fa</orig> prima un salto
+       
+      </p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Ecco fatto</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Tu no<ex>n</ex> facesti mai il <orig>piu</orig> cattivo,
+       <orig>va</orig> che io son co<ex>n</ex>tento</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Io gli <orig>dó</orig> quanta dote e’ vuole e <orig>giá</orig> gli ho dati parecchi <orig>cornabó</orig>
+       <orig>ma</orig> io ne voglio contratto <orig>informa</orig> di <orig>Camera</orig>
+      </p>
+     </sp>
+     <sp who="ce">
+      <speaker>Ces<ex>are</ex>.</speaker>
+      <p>Egli <orig>é</orig> bene il dovere</p>
+     </sp>
+     <sp who="bi">
+      <speaker>Big<ex>io</ex>.</speaker>
+      <p>Voi che mi darete
+       <orig>S<ex>ignor</ex></orig> Vincenzo che mi togliesti la vesta.~</p>
+     </sp>
+     <sp who="vi">
+      <speaker>Vin<ex>cenzo</ex>.</speaker>
+      <p>Tutti i vestime<ex>n</ex>ti ch’io lasciai alla stufa;
+       <orig>poi che</orig> ho trovato lodato Dio
+        padre madre moglie
+       <orig>et</orig> sorella: p<ex>er</ex>
+       <orig>si</orig> fatta cagione.
+      </p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Voi messere che gli darete.~</p>
+     </sp>
+     <sp who="ni">
+      <speaker>Nic<ex>colò</ex>.</speaker>
+      <p>Quella testa di <orig>Cerbio</orig> grande, p<ex>er</ex> metterla all’arme vostra</p>
+     </sp>
+     <sp who="ca">
+      <speaker>Cat<ex>erina</ex>.</speaker>
+      <p>Sarebbe troppo gran presente, essendo stato cimieri di casa
+        ta<ex>n</ex>ti anni,
+       
+       <orig>no<ex>n</ex></orig> voglio che vi priviate d’una <orig>si</orig> fatta requilia
+      </p>
+     </sp>
+     <sp who="la">
+      <speaker>Lau<ex>ra</ex>.</speaker>
+      <p>Andiamo che no<ex>n</ex>
+       <orig>ma<ex>n</ex>cherá</orig>, che dare a ciascuno</p>
+     </sp>
+     <sp who="st">
+      <speaker>Stuf<ex>aiuolo</ex>.</speaker>
+      <p>Voi, vedete spettatori le nozze di Taddea
+       si vanno a ordire, con  tutte l’allegrezze del mondo Quelle del Bigio son tessute parecchi  giorni sono;
+       <orig>chi</orig> vuol di quelle buone torni domani
+       <orig>et</orig> di queste di  Caterina, a chi ne piace,
+       <orig>puo</orig> restare;
+       <orig>delle</orig>
+       <distinct type="fiorentino">mia</distinct> a dirvi il vero no<ex>n</ex>
+        so il giorno appunto ma io le <orig>vo</orig> fare tanto grande,
+       <orig>che</orig> se ne dica p<ex>er</ex>
+        tutta questa <orig>cittá</orig>:
+       <orig>peró</orig> vi invito tutti, e co<ex>n</ex> questo,
+       ciascuno co<ex>n</ex> meco  ne faccia festa
+      </p>
+     </sp>
+    </div>
+    <trailer>Il fine della Commedia
+    </trailer>
+   </div>
+   <pb n="23r" facs="c23r"/>
+
+  </body>
+ </text>
+</TEI>

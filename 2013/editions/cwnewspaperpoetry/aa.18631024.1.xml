@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18631024.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lines to a Clergyman Who Says Slavery is Not a Sin</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18631024.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>                        
+                        <author ref="#gwb">George W. Bungay</author>
+                        <title level="a">Lines to a Clergyman Who Says Slavery is Not a Sin</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-10-24">24 October 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="gwb">Bungay, George W. (George Washington), 1818-1892</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Antislavery movements--United States</term>
+                    <term>Antislavery movements--United States--History--19th century</term>
+                    <term>Confederate States of America--Religion</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>Slavery and the church--United States--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">added comma in note referencing Sumner, Whittier, and Douglass</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-02-24" who="#el">revised note about NAS printing</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-14" who="#el">encoded; added and encoded editorial notes</change>
+            <change when="2012-10-01" who="#kt">variants noted</change>
+            <change when="2012-09-30" who="#el">checked</change>
+            <change when="2012-09-03" who="#el">created</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18631024.pp1.jpg"/>
+            <zone xml:id="pp1_cropped" corresp="#poem">
+                <graphic url="aa.18631024.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18631024.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18631024.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18631024.pp4.jpg"/> 
+            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">LINES TO A CLERGYMAN WHO SAYS SLAVERY <lb/>IS NOT A SIN.<note type="editorial" resp="#bw #el">This poem also appeared in the <title level="j">National Anti-Slavery Standard</title> of <ref target="nas.18631031.4b">October 31, 1863</ref>. The text of the poem is the same in both printings.</note></head>
+                
+                
+                <lg type="stanza">
+                    <l>No sin to buy and sell and hold<note type="editorial" resp="#bw #el">Proslavery ministers like Bungay's clergyman supported their position by pointing to a range of scriptural quotations. As historian Mark A. Noll observes, "biblical defenses of slavery were once widespread throughout the western world"; however, "by the mid-nineteenth century, the force of the biblical proslavery argument had weakened everywhere except in the United States. There . . . it remained strong among Bible believers in the North as well as among Bible believers in the South" (Mark A. Noll, <title level="m">The Civil War as a Theological Crisis</title> [Chapel Hill: University of North Carolina Press, 2006], 34). Slavery's defenders continued to argue that "slavery was blessed by the Bible, had existed throughout human history (a sure sign of God's approval), and established a sacred duty upon masters to be as benevolent toward their slaves as God was toward mankind" (Phillip Shaw Paludan, "Religion and the American Civil War," in <title level="m">Religion and the American Civil War</title>, ed. Randall M. Miller, et al. [Oxford: Oxford University Press, 1998], 22). Pointing to the manifold ways in which slavery violated human rights and relations, Bungay reclaims the Bible for the antislavery cause. In the latter half of 1863, after the Union Army's Independence Day victories, an increasing number of Northerners came to believe that God willed slavery's destruction.</note></l>
+                    <l rend="indented1">The negro in his galling gyves,</l>
+                    <l>And pocket the blood-crusted gold,</l>
+                    <l rend="indented1">The price of human hearts and lives?</l>
+                    <l>No sin to steal an African,</l>
+                    <l rend="indented1">And rob him of each sacred right;</l>
+                    <l>Wipe from his brow the stamp of man,</l>
+                    <l rend="indented1">And blot the stars out of his night?</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>No sin to score his quivering back</l>
+                    <l rend="indented1">With the red lash dripping there,</l>
+                    <l>Because his Maker made him black,</l>
+                    <l rend="indented1">Thickened his lips and crisped his hair?</l>
+                    <l>No sin to tear his frantic wife</l>
+                    <l rend="indented1">From his outreaching arms of love;</l>
+                    <l>What God has joined, divorce for life,</l>
+                    <l rend="indented1">Though Heaven forbid it from above?</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>No sin to steal the clinging child</l>
+                    <l rend="indented1">From the fond mother's dear embrace,</l>
+                    <l>And leave her broken-hearted, wild,</l>
+                    <l rend="indented1">And crazed, to curse her ebon race?</l>
+                    <l>God gave the black a living soul,</l>
+                    <l rend="indented1">A conscience and a heart to feel;</l>
+                    <l>Wrote freedom on his spirit's scroll,</l>
+                    <l rend="indented1">And sealed it with His holy seal.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Woe unto him who breaks the chart</l>
+                    <l rend="indented1">Endorsed by God's unerring hand,</l>
+                    <l>A curse shall smite his cruel heart,</l>
+                    <l rend="indented1">His brow shall wear the slaver's brand.</l>
+                    <l>No greater, grosser crime than this</l>
+                    <l rend="indented1">Can man commit who steps aside;</l>
+                    <l>Christ in the slave, with leprous kiss,</l>
+                    <l rend="indented1">Is thus betrayed and crucified.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>When hoary priest, with honeyed tongue,</l>
+                    <l rend="indented1">Long face and lubricated knees,</l>
+                    <l>Bows low before this brazen wrong,</l>
+                    <l rend="indented1">And prates like the old Pharisees,<note type="editorial" resp="#bw #el">The <title level="m">Oxford English Dictionary</title> defines a "Pharisee" as "[a] member of a religious party within Judaism between the 2nd cent. B.C. and New Testament times, distinguished by its rigorous interpretation and observance of the written Mosaic Law as well as the traditions of the elders." Bungay's lines draw on New Testament representations that characterize Pharisees as hypocrites and quibblers. See, for example, Matthew 23:23&#8211;24: "Woe to you, scribes and Pharisees, hypocrites! For you tithe mint and dill and cumin, and have neglected the weightier matters of the law: justice and mercy and faithfulness. These you ought to have done, without neglecting the others. You blind guides, straining out a gnat and swallowing a camel!"</note></l>
+                    <l>We look to see the earth divide,</l>
+                    <l rend="indented1">And falling fire from Heaven consume</l>
+                    <l>The impious babbler in his pride,</l>
+                    <l rend="indented1">And leave no mourners at his tomb.</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Evening Post</title>.<note type="editorial" resp="#bw #el">The <title level="j">New York Evening Post</title>, founded by Alexander Hamilton in 1801. William Cullen Bryant (1794&#8211;1878) began to write for the title in 1826, having struggled to make a living as a poet; by 1830 he was the <title level="j">Post</title>'s editor-in-chief, and the daily's financial prospects looked good (Allan Nevins, <title level="m">The Evening Post: A Century of Journalism</title> [New York: Russell and Russell, 1968], 134-136). Committed to Free Soil principles, Bryant severed the <title level="j">Post</title>'s connection with the Democratic Party in response to the Kansas-Nebraska Act (1854) and backed the fledgling Republican Party in 1856. He threw his weight behind Lincoln's presidential campaign in 1860. Although the <title level="j">Post</title> remained staunchly Republican throughout the war, Bryant did not shrink from criticizing Lincoln's policies. The <title level="j">Post</title> "shared with the <title level="j">Tribune</title> the advocacy of what came to be called the 'radical' Republican doctrines during the Civil War&#8212;namely, emancipation, the need of strong and swift military measures, and the removal of pro-slavery and Democratic leaders from the government and army" (Frank Luther Mott, <title level="m">American Journalism: A History of Newspapers in the United States Through Twenty Years, 1690&#8211;1940</title> [New York: Macmillan, 1941], 5:344).</note></note>
+            <byline rend="right"><emph rend="smallcaps">George W. Bungay.</emph><note type="editorial" resp="#bw #el">George Washington Bungay (1818&#8211;1892), an advocate of temperance and abolition. His temperance crusade in Canada earned him notice as "the Canadian Gough" ("Married," <title level="j">The Lily: A Monthly Journal Devoted to Temperance and Literature</title>, 1 [February 1849]: 16). He was actively involved in antislavery politics during the 1850s and used verse as a campaign tool. <title level="m">Nebraska: A Poem, Personal and Political</title> (published anonymously in 1854) condemned the Kansas-Nebraska Act of 1854, representing senator Stephen A. Douglas as a satanic figure who sought to turn Nebraska territory into "[a] vast plantation filled with suffering slaves!" (14). Sensational imagery and rhetorical questions feature in both <title level="j">Nebraska</title> and "Lines." Bungay supported Lincoln's presidential campaign by editing <title level="m">The Bobolink Minstrel, or Republican Songster, for 1860</title>. His <title level="j">New York Times</title> obituary remarked on his associations with a number of prominent politicians and abolitionists, including Charles Sumner, John Greenleaf Whittier, and Frederick Douglass. Sumner secured him a patronage position as storekeeper at the New York Custom House during Lincoln's administration&#8212;a post Bungay held until 1887 (<title level="j">New York Times</title>, July 13, 1892, [4]). Although Bungay was well connected and his poems were published in a host of reform papers, he remained a relatively inconspicuous figure in the mid-nineteenth-century literary landscape.</note></byline>
+        </body>
+    </text>
+    
+</TEI>

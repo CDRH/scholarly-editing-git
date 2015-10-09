@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640227.1b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">"When the Prince Is Passing By."</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640227.1b</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>                        
+                        <author ref="#wep">William E. Pabor</author>
+                        <title level="a">"When the Prince Is Passing By."</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-27">27 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This edition of the newspaper and poem is a facsimile edition. No transcription of the original text is provided.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="wep">Pabor, William E. (William Edgar), b. 1834</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Lincoln, Abraham, 1744-1786</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slaves--Emancipation--United States</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-31" who="#el">added and encoded additional editorial notes</change>
+            <change when="2012-10-28" who="#el">added and encoded editorial notes</change>
+            <change when="2012-10-28" who="#el">transcribed, encoded</change>
+            <change when="2012-09-06" who="#el">checked metadata and encoding</change>
+            <change when="2012-09-03" who="#el">created</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640227.pp1.jpg"/>
+            <zone xml:id="pp1_cropped" corresp="#poem">
+                <graphic url="aa.18640227.pp1b_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640227.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640227.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640227.pp4.jpg"/>             
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>
+            <lg type="poem">                
+                
+                <head type="main" subtype="authorial" rend="center">"WHEN THE PRINCE IS PASSING BY."<note type="editorial" resp="#bw #el">"When the Prince Is Passing By" also appeared in the <title level="j">National Anti-Slavery Standard</title> of February 20, 1864. The <title level="j">Anglo-African</title> and <title level="j">Standard</title> texts are virtually identical, with the exception of the note "Written for the Anti-Slavery Standard," which appeared only in the latter.</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <head type="sub" subtype="authorial" rend="center">(INSCRIBED TO ABRAHAM LINCOLN.)</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">In</emph> <choice><orig>Corea</orig><reg>Korea</reg></choice>, when the Prince passes by with step of state,</l>
+                    <l>All the people shut their doors, and their windows closely <lb/>bar;</l>
+                    <l>And woe betide the laggard who is caught without the <lb/>gate,</l>
+                    <l>When the Prince is passing by, under sun or under star!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Partly fear and partly hate prompts them thus to hide <lb/>away</l>
+                    <l>When the Prince is passing by, so that silence reigns <choice><orig>su-<lb/>preme</orig><reg>supreme</reg></choice>,</l>
+                    <l>As in cities in the sea, visible at close of day,</l>
+                    <l>Or in the enchanted hall, in the poet's princely dream.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>But it matters little now, save to illustrate the lay,</l>
+                    <l>And contrast it with this hour, when another Prince goes <lb/>by!</l>
+                    <l>When Emancipation rides through his broad domains <lb/>to-day,</l>
+                    <l>And we do not close the doors or the windows from his eye.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>But we open wide each gate, and from every outpost fling</l>
+                    <l>To the breeze his stainless flag, fearing not to stand and see</l>
+                    <l>How the shadows backward leap, and the sunbeams <choice><orig>for-<lb/>ward</orig><reg>forward</reg></choice> spring,</l>
+                    <l>And the Nation's pulse is quickened by the President's <lb/>decree.<note type="editorial" resp="#bw #el">President Abraham Lincoln (1809&#8211;1865) issued his final Emancipation Proclamation on January 1, 1863. In it, he declared that "all persons held as slaves" in rebel states "are, and henceforward shall be free"; he also pledged that "the Executive government of the United States, including the military and naval authorities thereof" would "recognize and maintain the freedom of said persons" (Roy P. Basler, ed., <title level="m">The Collected Works of Abraham Lincoln</title> [New Brunswick, NJ: Rutgers University Press, 1953], 6:29&#8211;30). Although the proclamation did not touch slavery in loyal border states and exempted Union-occupied regions of Louisiana and Virginia as well as Tennessee, abolitionists recognized and celebrated it as a great step forward.</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And the Prince is passing by! Waited for&#8212;expected long&#8212;</l>
+                    <l>Prayed for by the slave in chains&#8212;on the block and at the <lb/>stake&#8212;</l>
+                    <l>Patient-hearted under wrong&#8212;suffering, yet growing <lb/>strong&#8212;</l>
+                    <l>Looking forward to the day when he should their shackles <lb/>break.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>How they throng the path he takes; how they follow in <lb/>his tread!</l>
+                    <l>How the very infants spring in their mothers' arms to-day!</l>
+                    <l>What blessings are invoked, as he bows his stately head,</l>
+                    <l>And smiles upon the Freedmen as he passes on his way.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Are there any bolted doors? Are there any windows <lb/>draped?</l>
+                    <l>Be sure no child of freedom calls that his home and hearth;</l>
+                    <l>The viper's head is hidden, for the victim has escaped</l>
+                    <l>From the land of sin and shame that has darkened all the <lb/>earth!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And the Prince is passing by! Send your shouts of <choice><orig>wel-<lb/>come</orig><reg>welcome</reg></choice> forth!</l>
+                    <l>Never heed the <choice><orig>Corean</orig><reg>Korean</reg></choice> law,<note type="editorial" resp="#bw #el">The "Corean law" to which Pabor here refers has not been identified.</note> in this later, brighter day;</l>
+                    <l>Now the freedmen of the South are as freemen in the <lb/>North,</l>
+                    <l>And Slavery's doom is sealed, and the Curse has passed <lb/>away.</l>
+                </lg>
+            </lg>
+            
+            
+            <dateline>Harlem, N. Y., Feb. 3d, 1864.</dateline>
+            <byline rend="right"><emph rend="smallcaps">William E. Pabor</emph><note type="editorial" resp="#bw #el">William Edgar Pabor (1834&#8211;1911), wartime postmaster of Harlem, New York (<title level="j">New York Tribune</title>, April 1, 1861, [8]). In the 1850s and 1860s his poems were published in <title level="j">Godey's Lady's Book</title>, <title level="j">Graham's American Monthly Magazine</title>, and <title level="j">Peterson's Magazine</title>, as well as the <title level="j">National Anti-Slavery Standard</title>. He served as secretary of the Twelfth Ward Republican Association and produced poems and song sheets for Lincoln's presidential campaigns in 1860 and 1864. In 1870 Pabor moved to Colorado, where he helped to establish Greeley, Fort Collins, and Colorado Springs (Faith Barrett and Cristanne Miller, eds. <title level="m">Words for the Hour: A New Anthology of American Civil War Poetry</title> [Amherst: University of Massachusetts Press, 2005], 388).</note></byline>
+        </body>
+    </text>
+    
+</TEI>

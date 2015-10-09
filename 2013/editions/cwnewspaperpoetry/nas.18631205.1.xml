@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18631205.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Reverend Mr. Treacle</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18631205.1</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#unk">[Unsigned]</author>
+                        <title level="a">The Reverend Mr. Treacle</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-12-05">5 December 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="unk">Unknown</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Confederate States of America--Foreign public opinion, British</term>
+                    <term>Henry Ward Beecher (1813-1887)</term>
+                    <term>Lincoln, Abraham, 1809-1865</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Foreign public opinion</term>
+                    <term>United States--Foreign relations--1861-1865</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-04" who="#el">returned idno @type file to TEI header, with file name</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01-09" who="#el">revised sic encoding</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>            
+            <change when="2012-09-13" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-02" who="#el">checked transcription and encoding</change>
+            <change when="2012-07-28" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>   
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18631205.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="nas.18631205.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18631205.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18631205.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18631205.pp4.jpg"/> 
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+    
+        <body>
+            
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">THE REVEREND MR. TREACLE.</head>
+                
+                <lg type="stanza">
+                    <l rend="indented3">Mr. Beecher,</l>
+                    <l rend="indented3">Yankee preacher,</l>
+                    <l>Is, just now, a London feature,<note type="editorial" resp="#bw #el"><p>Henry Ward Beecher (1813&#8211;1887) joined Brooklyn's Plymouth Church in 1847. Over the next sixteen years, his commitments increased with his fame. When his exertions as a celebrity lecturer and "star" contributor began to tell in mid-1863, his concerned congregation sponsored a recuperative tour of Europe (Clifford E. Clark, <title level="m">Henry Ward Beecher: Spokesman for a Middle-Class America</title> [Chicago: University of Illinois Press, 1978], 157). At the end of this tour (June&#8211;October 1863), Beecher returned to Britain and took to the platform as an advocate for the Union in Manchester, Glasgow, Edinburgh, Liverpool, and London: cities with vested interests in the American struggle, where Union and Confederate groups were active. Commentators in Britain and America regarded Beecher's short tour as an embassy&#8212;though the pro-South <title level="j">Punch</title> showed its disdain for his "Yankee" brand of diplomacy by likening him to a professional entertainer ("a feature").</p>
+                        <p>During the war, Beecher was "a power within the Republican party" (Clifford E. Clark, "Beecher, Henry Ward," in <title level="m">American National Biography Online</title>), but there is no evidence that Lincoln "sent" him to Britain, as <title level="j">Punch</title> suggested. He refused invitations to speak for the Union prior his arrival in England, claiming that he cared little for British opinion and intended to enjoy his rest. Theodore Tilton praised his friend's tactful silence during the first leg of his tour: friends "without exception" thought Beecher had "managed sensibly and wisely" in England (letter dated August 7, 1863, quoted in Clark, <title level="m">Henry Ward Beecher</title>, 157). Yet the role of national spokesman must have held attractions for a famous orator who interpreted the war as a moral contest and possessed the skills to score a Union victory in the ongoing struggle for British hearts and minds.</p>                        
+                        <p>"The Reverend Mr. Treacle" appeared in the October 31, 1863, issue of <title level="j">Punch</title>, as a poetic commentary on a cartoon captioned "Beecher's American Soothing Syrup." The illustration shows Beecher, smooth-faced and spruce to the point of slickness; he offers a spoonful of treacle to a disinterested British lion, a spilled keg labeled "brimstone" discarded behind his back. Lines from Beecher's Exeter Hall speech, emphasizing Anglo-American like-mindedness, gave <title level="j">Punch</title> readers a taste of Beecher's sweet words: "I feel that the two nations are still one in the cause of civilisation, of religion, and I trust we shall continue to be one in international policy, and one in every enterprise." <title level="j">Punch</title> was not convinced. As historian R. J. M. Blackett has observed, "[t]he war reignited nationalist passions that had lain dormant for more than a decade" (<title level="m">Divided Hearts: Britain and the American Civil War</title> [Baton Rouge: Louisiana State University Press, 2001], 19). For <title level="j">Punch</title>, Beecher's "remedy" to neutrality was as ineffectual as any quack nostrum.</p></note></l>
+                    <l rend="indented3">Sent, we're thinking,</l>
+                    <l rend="indented3">By Abe Lincoln,</l>
+                    <l>To become <choice><sic>Brittania's</sic><corr>Britannia's</corr></choice> teacher.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented3">Execrations;</l>
+                    <l rend="indented3">Ululations;</l>
+                    <l>Yankee yelling; Pat's<note type="editorial" resp="#bw #el">A contemporary slang term for an Irishman (<title level="m">A Dictionary of Modern Slang, Cant, and Vulgar Words</title> [London: Hotten, 1859], 71). Frequently derogatory, as here. With imperial arrogance, <title level="j">Punch</title> dismisses the speeches of American and Irish nationalists as so much noise.</note> orations;</l>
+                    <l rend="indented3">Menace frantic,</l>
+                    <l rend="indented3">O'er the Atlantic</l>
+                    <l>Stir not this most bland of nations.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented3">Try new order,</l>
+                    <l rend="indented3">Use soft sawder,<note type="editorial" resp="#bw #el">From "sawder" or "solder"; "flattery, blarney" (<title level="m">Oxford English Dictionary</title>).</note></l>
+                    <l>Praise <choice><sic>Brittania</sic><corr>Britannia</corr></choice>, hymn her, laud her,</l>
+                    <l rend="indented3">Reverend brother,</l>
+                    <l rend="indented3">Call her Mother,</l>
+                    <l>Soothe her, pat her, and applaud her.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented3">From his master</l>
+                    <l rend="indented3">Comes the pastor,</l>
+                    <l>Casts aside the pepper-castor,</l>
+                    <l rend="indented3">And stands cooing,</l>
+                    <l rend="indented3">Suing, wooing,</l>
+                    <l>Blister, bless you&#8212;poor man's plaister.<note type="editorial" resp="#bw #el">A "blister" was a medical term for anything applied to blister the skin; irritants were often spread on material to form a kind of plaster. <title level="j">Punch</title> likens this harsh treatment to the aggressive nationalist rhetoric that Beecher avoided during his 1863 tour. According to the <title level="m">Oxford English Dictionary</title>, "blister" was also nineteenth-century slang for an annoying person: the echo of "Beecher" in "Blister" invites <title level="j">Punch</title> readers to identify Beecher himself as a blessed annoyance ("Blister, bless you . . ."). The implication is that, in spite of his change of tactics, Beecher still irritates where he would soothe.</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l rend="indented3">Wheedle, Beecher,</l>
+                    <l rend="indented3">Gentle preacher,</l>
+                    <l>All your wiles won't over-reach her,</l>
+                    <l rend="indented3">Give instruction,</l>
+                    <l rend="indented3">In egg-suction,<note type="editorial" resp="#bw #el">"Egg-suction" refers to the saying, "to teach one's grandmother how to suck eggs"&#8212;that is, "to tell somebody how to do something that they already know" (<title level="m">Brewer's Dictionary of Phrase and Fable</title>, 17th edition [London: Weidenfeld and Nicolson, 2005]). <title level="j">Punch</title> uses the phrase to cast Britannia as (Old World) "Granny," wiser than wiley American Beecher.</note></l>
+                    <l>Granny knows all <emph rend="italic">you</emph> can teach her.</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Punch</title>.<note type="editorial" resp="#bw #el"><p><title level="j">Punch, or the London Charivari</title>, a richly illustrated comic journal established by Mark Lemon and Henry Mayhew in 1841. Lemon edited the title until his death in 1870. <title level="j">Punch</title>'s clever combination of images and text offered readers a mixture of political and social commentary and humor fit for a drawing room, which proved popular on both sides of the Atlantic. "In the [1840s] <title level="m">Punch</title> was radical-humanitarian, anti-aristocratic, anti-clerical"&#8212;but on the eve of the Civil War, it occupied a more conservative position (Oscar Maurer, "<title level="j">Punch</title> on Slavery and Civil War in America, 1841&#8211;1865," <title level="j">Victorian Studies</title> 1 [1957]: 6). During the war itself, imperialist <title level="j">Punch</title> bristled at Northern newspapers' anti-British reaction to Queen Victoria's proclamation of neutrality, and foamed in response to the US Navy's seizure of Confederate agents aboard the British steamer <name type="ship">Trent</name> (November 8, 1861). As a result, "[f]rom late in 1861 until nearly the end of the war, Punch prophesied the defeat of the North in terms which reflected wishful thinking" (Maurer, 14). For <title level="j">Punch</title>, Henry Ward Beecher's soothing words came too late.</p>                
+                <p>As far as <title level="j">Punch</title> was concerned, Northern defeat did not mean the defeat of abolition, because Lincoln's administration fought for the Union, not for the destruction of slavery. Cartoons and poems presented the Emancipation Proclamation as an act of "cynical opportunism" on Lincoln's part&#8212;which is not to say that all <title level="j">Punch</title> contributors concurred with such a view, or with the currents of popular opinion that seem to have influenced the journal's stance on Civil War issues (Maurer, 23, 28). Unlike <title level="j">Punch</title>, the editors of the <title level="m">National Anti-Slavery Standard</title> associated a pro-Southern position with a proslavery attitude: Oliver Johnson or one of his associates reprinted "The Reverend Mr. Treacle" at the head of the <title level="j">Standard</title>'s occasional front page "Pro-Slavery" column. Lengthy transcriptions of Beecher's speeches at Manchester, Edinburgh, and London featured prominently in three <title level="j">Standard</title> issues (October 31, 1863, [1]; November 7, 1863, [1&#8211;2]; November 14, 1863, [1&#8211;2]). After Beecher's last appearance at Exeter Hall, the <title level="j">Standard</title> applauded his tour as "a great and noble work for his country and for liberty" ("Mr. Beecher in Exeter Hall," November 7, 1863, [2]).</p></note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+

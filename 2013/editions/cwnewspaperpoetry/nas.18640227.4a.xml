@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640227.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Take No Step Backward!</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640227.4a</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                            3.0 Unported License
+                            (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be
+                            credited to R. J. Weir and Elizabeth Lorang, made available
+                            non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">34</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#wdg">W. D. G.</author>
+                        <title level="a">Take No Step Backward!</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-27">27 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="wdg">Unknown</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African-American soldiers</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-02-24" who="#el">added note about AA printing</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-20" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-13" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-13" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked transcription</change>
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640227.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640227.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640227.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640227.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18640227.pp4a_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+    
+        <body>
+
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">TAKE NO STEP BACKWARD!<note type="editorial" resp="#bw #el">"Take No Step Backward" also appeared in the <title level="j">Anglo-African</title> of <ref target="aa.18640305.4">March 5, 1864</ref>. The <title level="j">Anglo-African</title> and <title level="j">Standard</title> texts are nearly identical. In fact, the single apparent difference&#8212;the end-of-line punctuation at line 30&#8212;is questionable because of the quality of the microfilm reproduction.</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <head type="sub" subtype="authorial" rend="center">EARNESTLY INSCRIBED TO THE THIRTY-EIGHTH CONGRESS <lb/>OF THE UNITED STATES.<note type="editorial" resp="#bw #el">The Thirty-Eighth Congress convened for its first session on December 7, 1863, and adjourned its second session on March 3, 1865. In the issue of March 12, 1864, <title level="j">National Anti-Slavery Standard</title> editor Oliver Johnson complained that "[t]he present congress has already passed more than half of its long session . . . and a very small portion of the work which the nation expected at its hands has yet been done" ([2]). Johnson had anticipated the furtherance of antislavery measures including the formation of "a Bureau of Emancipation," "the Repeal of the Fugitive Slave law," "an Amendment to the Constitution abolishing Slavery by the direct action of the people," and "an Act declaring all Slaves in States or Territories free citizens and making their reenslavement a punishable crime" ([2]). While Johnson did not doubt that Lincoln and the majority of Republicans in Congress "personally" wished the Fugitive Slave Law "annulled and annihilated," he feared they might not think it "politically advisable" to do so: "It will be so comfortable to pass these questions over to the next year! To wait until the voice of the nation has been authentically uttered next November in its choice of President!" Published in the <title level="j">Standard</title> two weeks before Johnson's editorial, however, "Take No Step Backward" offers the Thirty-Eighth Congress encouragement rather than criticism.</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">I.</head>
+                    <l><emph rend="smallcaps">Take</emph> no step backward! The eternal Ages</l>
+                    <l rend="indented1">Look down upon you from their height sublime,</l>
+                    <l>And witness the events which History's pages</l>
+                    <l rend="indented1">Shall class among the noblest of all time.</l>
+                    <l>Right onward now the path of duty lieth,</l>
+                    <l rend="indented1">Though it may lead to dangers that appall.</l>
+                    <l>"Right onward! onward!" Justice sternly crieth,</l>
+                    <l rend="indented1">And Mercy joins with Justice in the call.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center"><choice><sic>I.</sic><corr>II.</corr></choice></head>
+                    <l>Take no step backward! Centuries of oppression</l>
+                    <l rend="indented1">Are culminating 'midst our Nation's throes;</l>
+                    <l>And wrong that might have stood, with fair concession,</l>
+                    <l rend="indented1">Yields to the force of self-inflicted blows.</l>
+                    <l>The hand grown horny in the life-long labor</l>
+                    <l rend="indented1">That clothed and pampered those who held it bound,</l>
+                    <l>Now grasps the gun, or wields the flashing sabre,</l>
+                    <l rend="indented1">And wins and wears its honors on the ground.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">III.</head>
+                    <l>Take no step backward! Contraband,<note type="editorial" resp="#bw #el">General Benjamin F. Butler, commander at Fortress Monroe, defined fugitive slaves as "contraband of war" in the summer of 1861. Labeled as rebel property, runaway slaves could be confiscated by Union troops; doing so would deprive the Confederate war effort of manpower and secure military laborers for federal commanders, without challenging slavery on legal grounds. Secretary of War Simon Cameron approved the policy, which was consolidated by the terms of the First Confiscation Act. See <title level="m">Freedom: A Documentary History of Emancipation, 1861&#8211;1867</title>, ed. Ira Berlin, et al. (Cambridge: Cambridge University Press, 1985), series 1, 1:15&#8211;16.</note> or chattel,</l>
+                    <l rend="indented1">Or slave, or "person"&#8212;what you will&#8212;<emph rend="italic">they're men;</emph></l>
+                    <l>And if <emph rend="italic">we</emph> stand or fall in this dread battle,</l>
+                    <l rend="indented1"><emph rend="smallcaps">God</emph> leads the bondman from his thrall again.<note type="editorial" resp="#bw #el">Author "W. D. G." likens the emancipation of American slaves to the exodus of the Israelites; see Exodus 13:21, "And the Lord went before them by day in a pillar of cloud, to lead them the way; and by night in a pillar of fire, to give them light; to go by day and night."</note></l>
+                    <l>The pillar of a cloud by day is hazing</l>
+                    <l rend="indented1">The atmosphere where'er the battles lie:</l>
+                    <l>The pillar of a fire by night is blazing</l>
+                    <l rend="indented1">Where conflagration paints yon Southern skies.</l></lg>
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">IV.</head>
+                    <l>Take no step backward! Ye have sorely smitten,</l>
+                    <l rend="indented1">At hip and thigh, the Evil and the Wrong.</l>
+                    <l>What ye have said, now verify! what written,</l>
+                    <l rend="indented1">Seal with the seal of action, broad and strong.</l>
+                    <l>Be not alarmed at apparitions dire</l>
+                    <l rend="indented1">Of flaming swords that hurtle into view;</l>
+                    <l>The element that purifies is fire:</l>
+                    <l rend="indented1">Pass firmly in, and resolutely through.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">V.</head>
+                    <l>Take no step backward! Ye, whom God now uses</l>
+                    <l rend="indented1">To solve the problems of Man's destiny,</l>
+                    <l>To rectify his wrongs, right his abuses,</l>
+                    <l rend="indented1">The grand accomplishment ye may not see:</l>
+                    <l>But in the future&#8212;in the years of glory</l>
+                    <l rend="indented1">That peace restored shall bring our land again&#8212;</l>
+                    <l>Your names shall glitter in the noblest story</l>
+                    <l rend="indented1">That celebrates the deeds of noblest men.</l>
+                </lg>
+            </lg>
+            
+            <dateline>Kentucky, Jan. 8, 1864.<note type="editorial" resp="#bw #el">The dateline situates the poem's statement of support for antislavery legislation in border state Kentucky (a slave state). Keenly aware of the state's strategic importance and its divided loyalties, Lincoln had taken great care to craft his policies so as to keep Kentucky in the Union during the early stages of the war. (For example, he revoked General John Fr&#233;mont's command that rebel-owned slaves in Missouri should be freed, then removed the general himself.) Dated just after the first anniversary of the Emancipation Proclamation (January 1, 1863), "Take No Step Backward" suggests the situation in the state has changed: far from acting as a brake on antislavery reform, "Kentucky" calls for antislavery progress. This representation is, of course, misleading, because "throughout the war [Kentucky] remained under the control of a conservative Unionist coalition that steadfastly opposed all federal policies that threatened to undermine slavery" (Eric Foner, <title level="m">Reconstruction: America's Unfinished Revolution, 1863&#8211;1877</title> [New York: HarperCollins, 2002], 37).</note></dateline>
+            <byline rend="right">W. D. G.</byline>
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Tribune</title>.<note type="editorial" resp="#bw #el"><p>Horace Greeley (1811&#8211;1872) established the <title level="j">New York Tribune</title> as a Whig daily in 1841. From its earliest days, the title was animated by a spirit of reform. By the mid-1850s, the various editions of the paper&#8212;daily, weekly, and semiweekly&#8212;had almost 280,000 subscribers (Adam Tuchinsky, <title level="m">Horace Greeley's New-York Tribune: Civil War-Era Socialism and the Crisis of Free Labor</title> [Ithaca, NY: Cornell University Press, 2009], 2). Greeley, a force in the fledgling Republican Party, adopted a more radical stance against slavery in the 1850s. During the war, the <title level="j">Tribune</title> "advocated vigorous prosecution of the war and expansion of its meaning: namely, that the war should become an emancipationist crusade, and that the emancipated slaves ought to be armed" (Tuchinsky, 171&#8211;72).</p><p>Former <title level="j">National Anti-Slavery Standard</title> editor Sydney Howard Gay managed the <title level="j">Tribune</title> from 1862 until 1865. Gay sidelined his own abolitionist convictions and concentrated on satisfying the general hunger for timely war news (Tuchinsky, 217). But Greeley, in his famous editorial address of August 1862, "The Prayer of Twenty Millions," urged Lincoln to make war on slavery as a matter of military and moral necessity. Lincoln, then waiting to announce the preliminary Emancipation Proclamation, responded by stating that "My paramount object in this struggle is to save the Union, and is not either to save or to destroy slavery" (Roy P. Basler, ed., <title level="m">The Collected Works of Abraham Lincoln</title> [New Brunswick, NJ: Rutgers University Press, 1953], 5:388).</p></note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+

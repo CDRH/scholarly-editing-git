@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Editors' Introduction to the 2015 Issue of <hi
+                        rend="italic">Scholarly Editing: The Annual of the Association for
+                        Documentary Editing</hi>
+                </title>
+
+                <author>Amanda Gailey</author>
+                <author>Andrew Jewell</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.v36intro</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+          <addrLine>http://www.scholarlyediting.org</addrLine>
+        </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+            <addrLine>319 Love Library</addrLine>
+            <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+            <addrLine>Lincoln, NE 68588-4100</addrLine>
+            <addrLine>http://cdrh.unl.edu</addrLine>
+          </address>
+                </distributor>
+                <date>2015</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="aag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">36</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2015-03-23" who="#aag">markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Editors' Introduction to the 2015 Issue of <hi rend="italic">Scholarly
+                    Editing: The Annual of the Association for Documentary Editing</hi></head>
+            <byline>Amanda Gailey</byline>
+            <byline>Andrew Jewell</byline>
+
+        </front>
+
+        <body>
+            <p>The fourth issue of <hi rend="italic">Scholarly Editing: The Annual of the
+                    Association for Documentary Editing</hi> includes two new developments. First,
+                we are pleased to introduce a new feature, "Reflections on the Editor's Craft,"
+                where we will publish the views of experienced editors on practical aspects of
+                editing. In our inaugural essay, <ref type="html"
+                    target="../../2015/essays/essay.gordon">"Editing Death: An Element
+                    of Craft,"</ref> Ann D. Gordon discusses the challenge editors face in handling
+                a subject's death, and offers the case of Elizabeth Cady Stanton as an example.
+                Also, this issue of <hi rend="italic">Scholarly Editing: The Annual of the
+                    Association for Documentary Editing</hi> includes for the first time an edition
+                that eschews the linear presentation of text favored by TEI (Text Encoding
+                Initiative) markup. Daniel Carter's <ref type="html"
+                    target="../../2015/editions/intro.hejinian">edition of Language poet Lyn
+                    Hejinian's autobiographical <hi rend="italic">My Life</hi></ref> uses comma
+                separated values, Python, and Javascript to visualize repetition and variation in
+                the work. Carter also includes "What's Missing from <hi rend="italic">My Life</hi>,"
+                Hejinian's essay that expands upon on the work Carter has edited. We are excited to
+                present this experimental method of digital editing.</p>
+            <p>Laura L. Mielke and Martha Baldwin have contributed an edition of a play by Kate
+                Edwards Swayze, <ref type="html" target="../../2015/editions/intro.swayzedrama"
+                        ><hi rend="italic">“a black diamond among thim American wifes”: Kate Edwards
+                        Swayze’s Antislavery Adaptation of George Colman’s </hi>Inkle and
+                    Yarico</ref>. Swayze's abolitionist play adapted a popular British comic opera
+                about an interracial romance by placing it firmly in the context of American
+                slavery. The edition makes available a fascinating and neglected antislavery
+                document, and even offers a Juxta visualization of the difference between Swayze's
+                drama and her British source text.</p>
+            <p>Another edition in this year's issue also focuses on an antislavery text. Todd
+                Thompson and Jessica Showalter have edited <ref type="html"
+                    target="../../2015/editions/intro.lowelledition">a satirical poem by James
+                    Russell Lowell</ref> that criticizes the US-Mexico War and was reprinted in
+                    several American newspapers. The edition presents the text of "LETTER FROM
+                A VOLUNTEER IN SALTILLO," noting all the variants that occurred among the six
+                reprints as it was recontextualized in different periodicals, producing, as the
+                editors put it, "not just a study of textual variants but also a story about editors
+                and their choices."</p>
+            <p>We continue to offer editions of texts in languages other than English. Elena
+                Pierazzo's <ref type="html" target="../../2015/editions/intro.stufaiuolo">Lo
+                    Stufaiuolo <hi rend="italic">by Anton Francesco Doni: A Scholarly
+                    Edition</hi></ref> presents the sixteenth-century Italian comedy in a triple
+                format, with facsimile, diplomatic, and reading editions of two different manuscript
+                versions of the play. The diplomatic editions have been put into Juxta to visualize
+                their differences. Pierazzo's careful introduction and detailed editing have
+                produced a flexible and robust edition. </p>
+
+
+            <p>This issue of <hi rend="italic">Scholarly Editing</hi> also offers an essay by Amanda
+                Gagel, <ref type="html" target="../../2015/essays/essay.gagel">"Letters as Critical Texts: A Consideration of Mark Twain’s 'Ashcroft-Lyon
+                Manuscript,'"</ref> which examines the theoretical difficulties surrounding letters, and
+                <ref type="html" target="../../2015/essays/essay.2015presidentialaddress">James P. McClure's address</ref> as the president of the Association for Documentary
+                Editing, presented at the annual meeting in 2014. We are also pleased to offer reviews of three
+                new scholarly editions and an annotated list of recently published editions. </p>
+            <p>All of this material reflects the vibrant and varied world of
+                editorial scholarship in both print and digital environments.</p>
+
+
+        </body>
+
+
+
+
+
+    </text>
+</TEI>

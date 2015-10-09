@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18631010.4">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title type="main">A War Song for the Black Volunteers</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor role="co-editor">R. J. Weir</editor>
+            <editor role="co-editor">Elizabeth Lorang</editor>
+            <editor role="assistant">Kristen Treen</editor>
+            <respStmt>
+                <resp>transcription and encoding</resp>
+                <persName xml:id="kt">Kristen Treen</persName>
+                <persName xml:id="bw">R. J. Weir</persName>
+                <persName xml:id="el">Elizabeth Lorang</persName>
+            </respStmt>                    
+        </titleStmt>        
+        <publicationStmt>
+            <idno type="file">aa.18631010.4</idno>                        
+            <idno type="edition">cwnewspaperpoetry</idno>
+            <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+            <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+            <publisher>Association for Documentary Editing</publisher>                 
+            <publisher>University of Nebraska–Lincoln</publisher>                 
+            <distributor>                     
+                <name>Center for Digital Research in the Humanities</name>                     
+                <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+            </distributor>                        
+            <date>2012</date>
+            <availability>
+                <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                </licence>
+            </availability>
+        </publicationStmt>
+        <seriesStmt>                 
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+            <respStmt>                     
+                <resp>editor</resp>                     
+                <name xml:id="ag">Amanda Gailey</name>                 
+            </respStmt>                 
+            <respStmt>                     
+                <resp>editor</resp>                     
+                <name xml:id="awj">Andrew Jewell</name>                 
+            </respStmt>                 
+            <idno type="vol">34</idno>                 
+            <idno type="ISSN">2167-1257</idno>             
+        </seriesStmt>
+        <sourceDesc>
+        <biblStruct xml:id="poem">
+            <analytic>
+                <author ref="#aps">A. P. Smith</author>
+                <title level="a">A War Song for the Black Volunteers</title>
+            </analytic>
+            <monogr>
+                <title xml:id="paper" level="j">The Anglo-African</title>
+                <imprint>
+                    <date xml:id="issue_date" when="1863-10-10">10 October 1863</date>                    
+                </imprint>
+                <biblScope type="pp">[4]</biblScope>                    
+            </monogr>
+            <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>            
+        </biblStruct>
+            
+            <biblStruct xml:id="issue">               
+                <monogr>
+                    <title level="j" sameAs="#paper"/>
+                    <imprint>
+                        <date sameAs="#issue_date"/>                  
+                    </imprint>              
+                </monogr>                   
+            </biblStruct>                        
+        </sourceDesc>       
+    </fileDesc>
+    <encodingDesc> 
+        <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+    </encodingDesc>
+    <profileDesc>
+        <creation>
+            <persName xml:id="aps">Smith, Alfred P.</persName>
+            <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+            <date when="1863">1863</date>
+        </creation>
+        <langUsage>
+            <language ident="en-US">modern American English</language>
+        </langUsage>
+        <textClass>
+            <classCode scheme="http://authorities.loc.gov">
+                <term>African-American soldiers</term>
+            </classCode>
+        </textClass>
+    </profileDesc>
+    <revisionDesc>
+        <change when="2013-03-02" who="#el">made copyediting changes</change>
+        <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+        <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+        <change when="2012-10-02" who="#el">added and encoded editorial notes</change>
+        <change when="2012-09-30" who="#el">checked transcription and encoding</change>
+        <change when="2012-09-02" who="#el">checked basic encoding</change>
+        <change when="2012-05-30" who="#el">checked transcription; encoded</change>
+        <change when="2012-04-29" who="#bw">checked transcription</change>
+        <change when="2012-05-23" who="#kt">transcribed</change>
+    </revisionDesc>
+</teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18631010.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18631010.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18631010.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18631010.pp4.jpg"/>            
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18631010.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            
+            <lg type="poem">
+            
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>         
+                
+                <head type="main" subtype="authorial" rend="center">A WAR SONG FOR THE BLACK VOLUNTEERS.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/> 
+                
+                <byline rend="center">BY A. P. SMITH.<note type="editorial" resp="#bw #el"><p>Alfred P. Smith (1832&#8211;1901), journalist and editor. Born in Saddle River, New Jersey, the son of day laborer and farmer Peter, Alfred Smith received a public school education (David Steven Cohen, "Alfred P. Smith: Bergen County's Latter-Day Ben Franklin," <title level="j">Journal of Rutgers University Libraries</title> 38 [1977]: 23&#8211;24). In the winter of 1858&#8211;59, Smith petitioned New Jersey's state legislature to "take the initiatory steps to give colored persons the right of suffrage" (<title level="m">Minutes of Votes and Proceedings of the Eighty-Third General Assembly of the State of New Jersey, Convened at Trenton, Jan. 11, 1859</title> [Salem, NJ: Sharp, 1859], 388). During the war years, he contributed letters to the <title level="j">Paterson Daily Guardian</title>. The <title level="j">Anglo-African</title> printed a cluster of poems attributed to Smith over a seven-month period in 1863: "A Tribute: In Memory of Edward M. Thomas" (April 18, 1863); "The Patriot's Vow" (May 16, 1863); "The Fast God Hath Appointed" (May 30, 1863); <ref target="aa.18630808.4b">"The Louisiana Native Guard at Port Hudson"</ref> (August 8, 1863); "To A Young Friend" (August 15, 1863); and <ref target="aa.18631010.4">"A War Song for the Black Volunteers"</ref> (October 10, 1863). Smith's <title level="j">Anglo-African</title> verse expresses his strong support for African American soldiers. Earlier in the war, he took a strong stand against colonization schemes (see "Letter to the President," <title level="j">Paterson Daily Guardian</title>, reprinted in <title level="j">Douglass' Monthly</title>, October 1862, [730&#8211;31].</p><p>According to T. Robins Brown and Schuyler Warmflash, from 1876 until his death, Smith took care of his widowed mother and largely stayed at home, because of "increased disability" (<title level="m">The Architecture of Bergen County, New Jersey: The Colonial Period to the Twentieth Century</title> [New Brunswick, NJ: Rutgers University Press, 2001], 170). At home, however, he worked a press and established <title level="j">A. P. Smith's Paper</title> in 1881. The title, reminiscent of <title level="j">Frederick Douglass' Paper</title>, did not last long; Smith renamed his publication <title level="j">The Landscape: A Country Newspaper</title> in 1882. The monthly ran until July 1901.</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l>Oh, brothers, long we've waited, praying for this hour,</l>
+                    <l>While oft the <unclear reason="illegible" cert="low" resp="#el">noodles</unclear><note type="editorial" resp="#bw #el"><p>Probably "noodles." Webster's <title level="m">American Dictionary</title> of 1828 defined "noodle" as a colloquial insult, meaning "simpleton." The word made occasional appearances in Civil War-era magazines. In Smith's line, "the noodles" are those who dismissed African American would-be volunteers prior to 1863&#8212;a group that included the majority of white Northerners as well state and federal officials.</p><p>After the Confederate attack on Fort Sumter (April 12&#8211;13, 1861), African American men from Northern cities "rushed to volunteer for military duty . . .  But black hopes for [interracial] unity against the slave power quickly vanished. Throughout the North, whites rebuffed black patriotism" and rejected their offers of military service (Donald Yacovone, ed., <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana: University of Illinois Press, 1998], 14). The Emancipation Proclamation sanctioned the recruitment of "suitable" freedmen, and thus "signaled a major reversal in policy" (John David Smith, "Let Us All Be Grateful That We Have Colored Troops That Will Fight," in <title level="m">Black Soldiers in Blue: African American Troops in the Civil War Era</title>, ed. John David Smith [Chapel Hill: University of North Carolina Press, 2002], 1). Alfred Smith contrasts past with present, white foolishness and arrogance with black patriotism and "power."</p></note> boasted they didn't need our power,</l>
+                    <l>But lo! the angel Death<note type="editorial" resp="#bw #el">Smith interprets the war's death toll as a divine rebuke to the "haughty" Northerners who denied African American manhood. The US Army has been annihilated, like the army of king Sennacherib (2 Kings 19:35; Isaiah 37:36) or the firstborn of Egypt (Exodus 12:29&#8211;30).</note> has made the haughty cower,</l>
+                    <l rend="indented5">And we're marching on.<note type="editorial" resp="#bw #el">Smith wrote new lyrics for "John Brown's Body"&#8212;an immensely popular Civil War melody associated with abolitionist martyr Brown and his militant antislavery message. "John Brown's Body" placed the abolitionist "in the army of the Lord" (Frank Moore, ed., <title level="m">The Rebellion Record: A Diary of American Events, With Documents, Narratives, Illustrative Incidents, Poetry, Etc.</title> [New York: Putnam, 1862], 2:105); in "A War Song," God commands an earthbound army of African American volunteers. Historian Christian McWhirter has noted that abolitionists used "John Brown's Body" "to recruit black soldiers" (<title level="m">Battle Hymns: The Power and Popularity of Music in the Civil War</title> [Chapel Hill: The University of North Carolina Press, 2012], 50); in the <title level="j">Anglo-African</title> poetry column, Smith's "Song" became part of the Hamilton brothers' larger recruitment campaign.</note></l>
+                    <l>In the army of Jehovah, in the army of Jehovah, in the <lb/>army of Jehovah,</l>
+                    <l rend="indented5">For freedom marching on.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The shop and field we left to shoulder now the gun;</l>
+                    <l>Forgiving injuries past, we hail the day begun;</l>
+                    <l>And where we meet the foe some traitor blood will run</l>
+                    <l rend="indented5">As we're marching on, etc.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The rebel flag accursed sustains the trader's greed,</l>
+                    <l>And there beneath the lash our injured sisters bleed,</l>
+                    <l>Great God! these cruel wrongs for vengeance loudly plead,</l>
+                    <l rend="indented5">And we're marching on, etc.</l>
+                    <l>To ransom, Massachusetts bears the crown and sword;</l>
+                    <l>The Carolina troops their valor high record;</l>
+                    <l>And Louisiana blood into the tide is poured,</l>
+                    <l rend="indented5">As we're marching on, etc.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>From every other State the boys are coming too,</l>
+                    <l>For glorious is the work their hands have found to do,</l>
+                    <l>And by the powers above they'll do it <emph rend="italic">through and through</emph>,</l>
+                    <l rend="indented5">While they're marching on, etc.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>To face the battle storm we move at God's command,</l>
+                    <l>For kin and country too we'll strike with heavy hand,</l>
+                    <l>And never, never rest till Freedom rules the land,</l>
+                    <l rend="indented5">With God we're marching on, etc.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Though horrors of the deep now rise upon the wave,</l>
+                    <l>And fiends from hell unloosed around our doors may rave,</l>
+                    <l>Nought can deter our course&#8212;our flag still high we wave,</l>
+                    <l rend="indented5">For we are marching on, etc.</l>
+                </lg>    
+            </lg>
+        </body>
+    </text>
+</TEI>

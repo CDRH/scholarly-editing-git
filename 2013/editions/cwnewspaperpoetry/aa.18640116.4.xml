@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640116.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Our Country's Flag</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640116.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#rh">Robert Hamilton</author>
+                        <title level="a">Our Country's Flag</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-01-16">16 January 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Slaves--Emancipation--United States</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious Aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-08-25" who="#el">corrected Robert Hamilton's year of birth and year of death in first footnote</change>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640116.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640116.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640116.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640116.pp4.jpg"/>            
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18640116.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            
+            <lg type="poem">
+            
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>                        
+                
+                <head type="main" subtype="authorial" rend="center">OUR COUNTRY'S FLAG.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY ROBERT HAMILTON.<note type="editorial" resp="#bw #el"><title level="j">Anglo-African</title> editor Robert Hamilton (1819&#8211;1870) embarked on a six-month tour of the occupied South in mid-September 1863. Leaving the newspaper in his brother Thomas's experienced hands, he explored the area around Washington, DC, as well as Virginia and the coastal region of North Carolina. He sent the <title level="j">Anglo-African</title> vivid letters describing the activities of the freedpeople, missionaries, and African American regiments. Throughout his tour, he sought new subscribers for the <title level="j">Anglo-African</title> and promoted racial solidarity at meetings in churches and camps. Debra Jackson offers a full account of his activities in "A Black Journalist in Civil War Virginia: Robert Hamilton and the <title level="j">Anglo-African</title>," <title level="j">Virginia Magazine of History and Biography</title>, 116 (2008): 42&#8211;72. Thomas Hamilton announced his brother's homecoming on March 5, 1864. Before the year was out, the <title level="j">Anglo-African</title> editor had embarked on a new tour of the West and Southwest. [Editors' note: The original version of this footnote gave Robert Hamilton's year of birth as 1817 and year of death as 1878. These typographical errors were corrected on August 25, 2014.]</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza"> 
+                    <head type="main" subtype="authorial" rend="center">I.</head>
+                    <l><emph rend="smallcaps">Where</emph> o'er our starry banner</l>
+                    <l rend="indented1">In all its beauty glows&#8212;</l>
+                    <l>Whether by calm savannah</l>
+                    <l rend="indented1">Or mid our mountain snows;</l>
+                    <l>If't floats o'er Western prairie,</l>
+                    <l rend="indented1">Or on the billows ride;</l>
+                    <l>Let freemen round it rally,</l>
+                    <l rend="indented1">For now 'tis freedom's pride.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">II.</head>
+                    <l>In other days, when traitors</l>
+                    <l rend="indented1">With pride and pomp stood forth,</l>
+                    <l>And with their legion praters</l>
+                    <l rend="indented1">Hoodwinked the patient North&#8212;</l>
+                    <l>With <choice><orig>honied</orig><reg>honeyed</reg></choice> words of freedom,</l>
+                    <l rend="indented1">Their dark and bloody aim</l>
+                    <l>Was (guilt exceeding Sodom<note type="editorial" resp="#bw #el">See Genesis 19:24: the towns of Sodom and Gomorrah were devastated by "brimstone and fire from the Lord out of heaven" because of the wickedness of the people who lived there. For many of Hamilton's contemporaries, Sodom represented extreme sinfulness and certain divine punishment.</note>)</l>
+                    <l rend="indented1">To bring our flag to shame.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">III.</head>
+                    <l>But God, by wondrous dealing,</l>
+                    <l rend="indented1">Has overthrown their plan,</l>
+                    <l>And liberty's sweet healing</l>
+                    <l rend="indented1">Has raised up fallen man.</l>
+                    <l>Then thanks to Him whose power</l>
+                    <l rend="indented1">Has set our country free,</l>
+                    <l>And held, in that dark hour,</l>
+                    <l rend="indented1">Our flag of Liberty.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">IV.</head>
+                    <l>We'll gather round it ever,</l>
+                    <l rend="indented1">God being all our trust;</l>
+                    <l>And inf'mous tyrants never</l>
+                    <l rend="indented1">Shall trail it in the dust.</l>
+                    <l>Its glittering stars, far beaming,</l>
+                    <l rend="indented1">A hope shall ever be</l>
+                    <l>To those whose tears, once streaming,</l>
+                    <l rend="indented1">Are dried by liberty.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">V.</head>
+                    <l>Let loud huzzahs be given</l>
+                    <l rend="indented1">In Abraham Lincoln's praise;</l>
+                    <l>Let Butler, Grant and Sherman<note type="editorial" resp="#bw #el"><p>Three celebrated Union generals: Benjamin F. Butler (1818&#8211;1893), Ulysses S. Grant (1822&#8211;1885), and William T. Sherman (1820&#8211;1891).</p><p> While in command at Fortress Monroe, Virginia, Benjamin Butler refused to return fugitive slaves to the enemy on the grounds that they were "contraband of war" (May 1861); his approach became War Department policy. During his military governorship of captured New Orleans, he determined to quash Confederate sympathies and&#8212;crucially, for Hamilton&#8212;raised Afro-Creole regiments of Louisiana Native Guards. In late 1863 he was given the command of the Department of Virginia and North Carolina.</p><p>Grant's daring Vicksburg campaigns resulted in the city's surrender on July 4, 1863; Lincoln, already a staunch supporter of the fighting general, pledged himself to Grant. After Grant's victory at Missionary Ridge (November 1863), Lincoln appointed him general in chief of all Union armies. In 1864 Grant put his plan for coordinated Union offensives into action.</p><p>Sherman worked closely with Grant. He contributed to the capture of Vicksburg in July 1863, and was appointed commander of the Department of the Army of the Tennessee in the fall. He began his controversial campaign against Southern civilians in February 1864; in March, he was made head of military operations in the West. By capturing Atlanta in September 1864, he revived Lincoln's election hopes.</p></note></l>
+                    <l rend="indented1">Be heard in freedom's lays.</l>
+                    <l>Nor let our glad songs languish,</l>
+                    <l rend="indented1">But sound them clear and loud;</l>
+                    <l>We shall no more in anguish</l>
+                    <l rend="indented1">Lament a coward crowd.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <head type="main" subtype="authorial" rend="center">VI.</head>
+                    <l>Our valiant army trebles,</l>
+                    <l rend="indented1">And with a step most grand</l>
+                    <l>It marches scatt'ring rebels</l>
+                    <l rend="indented1">"Like chaff before the wind."<note type="editorial" resp="#bw #el">The simile recurs in the Psalms, and appears in the books of Job and Isaiah. In Psalm 35:5, for example, David prays for the confusion of his enemies: "Let them be as chaff before the wind: and let the angel of the Lord chase them."</note></l>
+                    <l>Its gallant braves have sworn</l>
+                    <l rend="indented1">To Him who rules on high:</l>
+                    <l>"Our beauteous flag, though worn,</l>
+                    <l rend="indented1">Shall ever kiss the sky."<note type="editorial" resp="#bw #el">The source or point of reference of this quotation is unidentified.</note></l>
+                </lg>
+                
+            </lg>
+            
+            <dateline>Newbern, N. C.,<note type="editorial" resp="#bw #el"><p>A city on the North Carolina coast, situated where the Trent River met the Neuse. New Bern (or "Newbern") was occupied by Union forces in mid-March 1862 as part of General Ambrose Burnside's movement to gain control of North Carolina's coastal region. The town became "a magnet for most black refugees" (Richard M. Reid, <title level="j">Freedom for Themselves: North Carolina's Black Soldiers in the Civil War Era</title> [Chapel Hill: University of North Carolina Press, 2008], 221), and camps were set up for those who could not find other accommodation. Henry Clapp's census of the freed black population of North Carolina, completed by March 1863, suggested there were no fewer than 8,500 black refugees in and near New Bern (13). Many of the men enlisted in United States Colored Troops regiments.</p><p>No less than three of Hamilton's tour letters appeared in the issue of the <title level="j">Anglo-African</title> that included "Our Country's Flag." In these articles, Hamilton introduced readers to New Bern and Washington. He described the activities of the towns' African American citizens and paid particular attention to their businesses, schools, and churches. The front page letter dated December 31 suggests that he used New Bern as a base between December 16, 1863, and January 1, 1864. New Year's Day would see the first anniversary of Lincoln's Emancipation Proclamation; in "A Trip to Washington, N.C." Hamilton reported that he had promised to speak at New Bern's Emancipation Day celebrations. Poetry and song played a crucial part in Hamilton's public discourse; "Our Country's Song" was almost certainly performed during the program.</p></note> Dec. 31, 1863.</dateline>
+        </body>
+        
+    </text>
+</TEI>
+

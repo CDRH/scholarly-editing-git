@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640319.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Mother's Thoughts</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640319.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#fdg">Frances D. Gage</author>
+                        <title level="a">A Mother's Thoughts</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-03-19">19 March 1864</date>                   
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="fdg">Gage, Frances Dana, 1808-1884</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Women</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-16" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-16" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked transcription</change>
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640319.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640319.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640319.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640319.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18640319.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">A MOTHER'S THOUGHTS.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/> 
+                
+                <byline rend="center">BY FRANCES D. GAGE.<note type="editorial" resp="#bw #el"><p>By the time the war began, Ohioan Frances Dana Barker Gage (1808&#8211;1884) had established herself as a leading advocate of women's rights and abolition, in the reform press and on the platform. A laudatory biographical sketch in <title level="m">Eminent Women of the Age</title> (1868) describes how she found time "to read, and write for leading journals, and often to speak, too, on temperance, slavery, and woman's rights" while raising a family of eight ([Elizabeth Cady Stanton], "Frances D. Gage," in <title level="m">Eminent Women of the Age; Being Narratives of the Lives and Deeds of the Most Prominent Women of the Present Generation</title>, by James Parton, et al. [Hartford, CT: Betts, 1868], 383). Gage contributed to journals such as the <title level="j">Ladies' Repository</title>, the <title level="j">Ohio Cultivator</title>, the <title level="j">Lily: A Monthly Journal Devoted to Temperance and Literature</title>, the <title level="j">Saturday Visitor</title>, and the <title level="j">National Anti-Slavery Standard</title>&#8212;a mixture of titles linked by her reform agendas and regional affiliations. In the early 1850s Gage also presided over a number of statewide and national women's rights conventions, including the Akron convention of 1851, where Sojourner Truth challenged the patriarchy and delegates' racial prejudices. Gage's recollections of Truth's speech were published in the <title level="j">Standard</title> halfway through the war (<title level="j">National Anti-Slavery Standard</title>, May 2, 1863, [4]).</p>
+                    <p>In 1862 Gage and her daughter Mary joined the Northern mission to educate the freedpeople and prove the moral and economic superiority of free labor on South Carolina's Sea Islands. Gage stayed on Parris Island for over a year, without an official title or salary, as "supervisor" to approximately 500 freedmen, women, and children. During this period, she supplied the <title level="j">New York Independent</title> and the <title level="j">National Anti-Slavery Standard</title> with "South Carolina correspondence." She returned to the North in the winter of 1863 and embarked on a lecture tour to raise relief funds. Gage continued her war work as "an unsalaried agent of the Sanitary Commission" in Memphis, Vicksburg, and Natchez ([Stanton], "Frances D. Gage," 384&#8211;85).</p></note></byline>
+                
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Silent</emph> and lone, silent and lone!</l>
+                    <l>Where, tell me where, are my little ones gone,</l>
+                    <l>That used to be playing about my knee,</l>
+                    <l>With their noisy mirth and boisterous glee?</l>
+                    <l>Who littered the carpets and misplaced the chairs,</l>
+                    <l>And scattered their playthings all unawares;</l>
+                    <l>Who called for their suppers with eager shout,</l>
+                    <l>And while they were getting, ran in and out;</l>
+                    <l>Who kept all the apples and nuts from spoiling,</l>
+                    <l>And never saved jackets nor pants from soiling;</l>
+                    <l>Had ever a want and ever a will</l>
+                    <l>That added a care to my heart, until</l>
+                    <l>I sometimes sighed for the time to come</l>
+                    <l>When they'd all be big and go out from home.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Silent and lone, silent and lone!</l>
+                    <l>Where, tell me where, are my little ones gone<unclear resp="#el" reason="illegible" cert="high">?</unclear></l>
+                    <l>There are no little faces to wash to-night,</l>
+                    <l>No little troubles for mother to right,</l>
+                    <l>No little blue eyes to be sung to sleep,</l>
+                    <l>No little playthings to put up to keep,</l>
+                    <l>No little garments to be hung on the rack,</l>
+                    <l>No little tales to tell, no nuts to crack,</l>
+                    <l>No little trundle-bed, brimful of rollick,</l>
+                    <l>Calling for mamma to settle the frolic,</l>
+                    <l>No little soft lips to press me with kisses&#8212;</l>
+                    <l>(O! such a sad, lonely evening as this is<unclear reason="illegible" cert="high" resp="#el">!</unclear>)</l>
+                    <l>No little voices to shout with delight,</l>
+                    <l>"Good night, dear mamma, good night, good night."</l>
+                    <l>Silent the house is; no little ones here,</l>
+                    <l>To startle a smile or chase back a tear.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Silent and lone, silent and lone!</l>
+                    <l>Where, tell me where, are my little ones gone?</l>
+                    <l>It seemeth but yesterday since they were young;</l>
+                    <l>Now, they are all scattered, the world's paths among.</l>
+                    <l>Out where the great rolling trade-stream is flowing;</l>
+                    <l>Out where new fire-sides with love-lights are glowing;</l>
+                    <l>But where in the graves their life-hopes are sleeping,</l>
+                    <l>Not to be comforted&#8212;weeping, still weeping;</l>
+                    <l>Out where the high hills of science are blending</l>
+                    <l>Up 'mid the cloud-rifts, up, up, still ascending,</l>
+                    <l>Seeking the sunshine that rests on the mountain,</l>
+                    <l>Drinking and thirsting still, still at the fountain;</l>
+                    <l>Out in life's thoroughfares all of them moiling;</l>
+                    <l>Out in the wide, wide world, striving and toiling.</l>
+                    <l>Little ones, loving ones, playful ones, all,</l>
+                    <l>That went when I bade, and came at my call,</l>
+                    <l>Have ye deserted me? Will ye not come</l>
+                    <l>Back to your mother's arms&#8212;back to the home?</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Silent and lone, silent and lone!</l>
+                    <l>Where, tell me where, are my little ones gone?</l>
+                    <l>Useless my cry is. Why do I complain?</l>
+                    <l>They'll be my little ones never again!</l>
+                    <l>Can the great oaks to the acorns return?</l>
+                    <l>The broad rolling stream flow back to the byrne?</l>
+                    <l>The mother call childhood again to her knee,</l>
+                    <l>That in manhood went forth the strong and the free?</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Nay, nay, no true mother would ask for them back;</l>
+                    <l>Her work nobly done, their firm tramp on life's track</l>
+                    <l>Will come like an organ note, lofty and clear,</l>
+                    <l>To lift up her soul and her spirits to cheer!</l>
+                    <l>And though the tears fall, when she's silent and lone,</l>
+                    <l>She'll know it is best they are scattered and gone!</l>
+                    <l>Silent and lone, silent and lone!</l>
+                    <l>Thy will, O Father, not my will, be done!</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

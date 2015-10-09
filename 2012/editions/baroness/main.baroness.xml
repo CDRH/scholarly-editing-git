@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">The Firstling/Erstling/He Complex</title>
+                <title level="m" type="sub">Main</title>
+                <author xml:id="tc">Tanya Clement</author>
+                <author xml:id="gd">Gaby Divay</author>
+            </titleStmt>
+            <editionStmt>
+                <edition> <date>2012</date> </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">main.baroness</idno>
+                <idno type="edition">baroness</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor> <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address> </distributor>
+                <date>2012</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j"
+                    >Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="aag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl> <note>Born digital.</note> </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-02-09" who="#awj">markup in TEI XML</change>
+            <change when="2011" who="#tc">Intiatial Creation in HTML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">The Firstling/Erstling/He Complex</head>
+            <head type="sub">by Baroness Elsa von Freytag-Loringhoven</head>
+            <byline>Tanya Clement</byline>
+            <byline>Gaby Divay</byline>
+        </front>
+        <body> 
+            <head type="main">Abstract</head>
+            <p>
+                
+                "The Firstling/Erstling/He Complex" is an open-source, scholarly edition and a collaborative attempt to represent and access the genesis of a poetic event. It includes a cluster of works that represent one text (in the Barthesian sense): This "complex" includes thirty-three versions of a poem with multiple titles in two languages by the Baroness Elsa von Fretytag Loringhoven (1874-1927). All of the versions represented here are based on images created at the University of Maryland (UM), College Park, Libraries, where the original manuscripts reside in the Papers of Elsa von Freytag-Loringhoven (<ref type="url" target="http://hdl.handle.net/1903.1/1501">http://hdl.handle.net/1903.1/1501</ref>) in the Library's Literary Manuscripts Collection . The entire cluster can be dated to 1923/24 when the Baroness had just returned to Berlin after twelve years in the United States. About one third of the poems are in German and tend to be composed in traditional form and style. Two thirds are in English. As the edition shows, the Baroness rewrote her poems in the two different languages to incorporate adaptations or re-creations rather than straight translations.</p>
+            
+            <p>Underlying this edition is one TEI-P5 XML file accompanied by twenty-two, full color, documentary images.  We are using location-referenced and parallel segmentation methods described in the TEI P5 critical apparatus tag set to encode the relationships between the thirty-three versions while the <ref type="url" target="http://vmachine.org">Versioning Machine</ref> interface allows readers to  compare these relationships across this poetic event.</p>
+            <p>In the introduction and the comments that accompany the edition, we discuss why we chose to edit this particular cluster, why we present it with two different, yet complementary critical approaches, and why the formal process of versioning helps reveal the shifting content of the Baroness's constantly revised and transformed texts. Ultimately, the goal of this edition is to set the multiple dialectics we see at work in the Baroness's Firstling/Erstling/He poems in conversation. Enjoy.
+            </p>
+            
+            <signed><name>English transcriptions, text encoding, and interface development by Tanya Clement</name>
+                <name>German translations and transcriptions by Gaby Divay</name>
+                </signed>
+</body>
+    </text>
+</TEI>

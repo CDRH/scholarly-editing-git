@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640123.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Response of the Colored Soldiers</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640123.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#edp">Edna Dean Proctor</author>
+                        <title level="a">Response of the Colored Soldiers</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-01-23">23 January 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="edp">Proctor, Edna Dean, 1829-1923</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African-American soldiers</term>
+                    <term>Freedmen--Southern States</term>
+                    <term>Freedman--Southern States-_Social Conditions</term>
+                    <term>Slavery--United States--History--19th Century</term>
+                    <term>Slaves--Emancipation--United States</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640123.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18640123.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640123.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640123.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640123.pp4.jpg"/>            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        
+        <body>
+            
+            <lg type="poem"> 
+                
+                <head type="main" subtype="authorial" rend="center">RESPONSE OF THE COLORED SOLDIERS.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY EDNA DEAN PROCTOR.<note type="editorial" resp="#bw #el"><p>Born in New Hampshire and educated in Concord, Massachusetts, Proctor (1829&#8211;1923) moved to Brooklyn "at an early age" (<title level="j">New York Times</title>, December 30, 1923). She established her literary reputation with patriotic antislavery war poems, several of which were published in the <title level="j">New York Independent</title>; in addition to "Response of the Colored Soldiers," see "The Virginia Mother" (March 31, 1864), "The Hundred Days' Men" (May 19, 1864), "Heaven, O Lord, I Cannot Lose" (September 22, 1864), "Sherman" (October 6, 1864), and "The Star-Spangled Banner" (November 17, 1864). Her first collection of verse, <title level="m">Poems</title>, appeared in 1866. She continued to write poetry and advocate reform throughout the latter half of the nineteenth century.</p><p>As a literary member of Brooklyn's Plymouth Church, Proctor probably knew both Henry Ward Beecher and Theodore Tilton, wartime editors of the <title level="j">Independent</title>. Proctor certainly knew Beecher well: she began taking notes of his Sunday sermons and Wednesday lectures in 1856. These notes were published in 1858 as <title level="m">Life Thoughts: Gathered from the Extemporaneous Discourses of Henry Ward Beecher</title>. During the Tilton-Beecher scandal of 1874&#8211;75, Francis Moulton alleged that Proctor and Beecher had an affair; Proctor filed and won a case for libel.</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                
+                <lg type="stanza">
+                    <l>To God be the glory! They call us! we come!</l>
+                    <l>How clear rings the bugle, how bold beats the drum!</l>
+                    <l>Our "Ready!" rings clear: our hearts bolder beat:</l>
+                    <l>The strongest our right arms, the swiftest our feet;</l>
+                    <l>No danger can daunt us; no malice o'erthrow;</l>
+                    <l>For country, for honor, rejoicing we go.<note type="editorial" resp="#bw #el">Proctor presents the soldiers of the title as Southern freedmen who joyfully respond to the federal government's call for African American recruits. By the time the poem appeared in the <title level="j">Anglo-African</title>, that call had been widely reiterated by recruiters at work in Union-occupied regions of the South. In early 1863, Secretary of War Edwin Stanton "authorized free state governors to send more than one thousand agents to Louisiana, North Carolina, and the Mississippi Valley to recruit slaves and fugitive slaves" (John David Smith, "Let Us All Be Grateful That We Have Colored Troops That Will Fight," in <title level="m">Black Soldiers in Blue: African American Troops in the Civil War Era</title>, ed. John David Smith [Chapel Hill: University of North Carolina Press, 2002], 25). The Bureau of the Colored Troops (established May 1863) supervised systematic recruitment in Northern and Southern states.</note></l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>How watchful, how eager we waited for this,</l>
+                    <l>In terror lest all were betrayed with a kiss!<note type="editorial" resp="#bw #el">According to the Gospels, Judas betrayed Jesus with a kiss (see Matthew 26:48&#8211;49, Mark 14:43&#8211;45, and Luke 22:47&#8211;48).</note></l>
+                    <l>Yet, weary in cabin or toiling in field,</l>
+                    <l>The sweet hope of freedom we never would yield;</l>
+                    <l>But steadfast we trusted, through sorest delay,</l>
+                    <l>That the beam on our night was the dawning of day.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>'Tis dawning! 'tis morning! the hills are aglow!</l>
+                    <l>God's angels roll backward the clouds of our woe!&#8212;</l>
+                    <l>One grasp of the rifle, one glimpse of the fray,</l>
+                    <l>And chattel and bondman have vanished for aye!</l>
+                    <l>Stern men they will find us who venture to feel</l>
+                    <l>The shock of our cannon, the thrust of our steel.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The bright Flag above us, exultant we hail;</l>
+                    <l>Beneath it what rapture the ramparts to scale!</l>
+                    <l>Or, true to our leader, o'er mountain, through hollow,</l>
+                    <l>Its stars never setting, with fleet foot to follow.</l>
+                    <l>Till, shrill for the battle, the bugle-notes blow,</l>
+                    <l>And proudly we plant it in face of the foe.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And then, when the conflict is done, in the gleam</l>
+                    <l>Of the camp-fire at midnight, how gayly we dream;</l>
+                    <l>The slave is the citizen&#8212;coveted name</l>
+                    <l>That lifts him from loathing, that shields him from shame;</l>
+                    <l>His cottage unravished; and blithesome as he,</l>
+                    <l>His wife by the hearthstone&#8212;his babe on her knee.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The cotton grows fair by the sea, as of old;</l>
+                    <l>The cane yields its sugar; the orange its gold;<note type="editorial" resp="#bw #el">Proctor's vision of postwar plenty implies that free labor will be as productive and profitable as slave labor&#8212;if not more so. Representing a rosy future for key crops in the South, she responds to fears that abolition would lead to economic collapse in former slave states, with dire consequences for the whole nation. Cotton, widely regarded as a mainstay of the U.S. economy in the lead-up to the war, will grow "fair by the sea, <emph rend="italic">as of old</emph>" (emphasis added).</note></l>
+                    <l>Light rustle the corn-leaves; the rice-fields are green;</l>
+                    <l>And, free as the white man, he smiles at the scene;</l>
+                    <l>The drum beats&#8212;we start from our slumbers and pray</l>
+                    <l>That the dream of the night find an answering day.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>To God be the glory! They call us! we come!</l>
+                    <l>How welcome the watchword, the hurry, the hum!</l>
+                    <l>Our hearts are aflame as our good swords we bare&#8212;</l>
+                    <l>"For Freedom! for Freedom: soft echoes the air;</l>
+                    <l>The bugle rings cheerly<unclear reason="illegible" cert="medium" resp="#kt">;</unclear> our banners float high;</l>
+                    <l>O comrades, all forward <unclear reason="illegible" cert="medium" resp="#el">!</unclear> we'll triumph or die!"</l>
+                </lg>
+                
+            </lg>
+            
+            
+            <note type="newspaper-editorial">&#8212;<title level="j">Independent</title>.<note type="editorial" resp="#bw #el"><p>The <title level="j">New York Independent</title>, established as a Congregationalist weekly in December 1848. The title's "independent" antislavery stance prevented it from capitalizing on an affiliation with subscribers of any one political persuasion, and "its extreme position with regard to the Fugitive Slave Law almost wrecked it in its second year" (Frank L. Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> [Cambridge, MA: Harvard University Press, 1938], 2:369). In spite of this beginning, the <title level="j">Independent</title> succeeded impressively and had over 35,000 subscribers by the time war broke (Mott, 371). As the war progressed, editorials political and secular nudged matters of religion, Congregationalist or otherwise, to the margins.</p>
+                <p>The celebrity of Henry Ward Beecher (1813&#8211;1887) must have contributed to the <title level="j">Independent</title>'s success. "Star contributor" Beecher was named editor during 1861&#8211;65. Theodore Tilton, his assistant, directed editorial policy and took over the editorship in all but name when Beecher embarked for Europe in 1863; two years later, he was officially recognized as editor-in-chief. By the time war broke out, Tilton had established himself as one of the young stars of the American Anti-Slavery Society. He and William Lloyd Garrison became friends after <title level="j">National Anti-Slavery Standard</title> editor Oliver Johnson introduced them in 1856; Garrison described Tilton as "a fine young man . . . . connected with the N. Y. <title level="j">Independent</title>, who is beginning to take a vital interest in radical abolitionism" (<title level="m">The Letters of William Lloyd Garrison: From Disunionism to the Brink of War, 1850–1860</title>, ed. Louis Ruchames [Cambridge, MA: Belknap Press of Harvard University Press, 1975], 4:415). Johnson, Tilton, and Garrison were united by a common profession as well as shared antislavery convictions. During the war each reprinted items from the other's newspapers.</p><p>The <title level="j">Anglo-African</title> editors clashed with Tilton in the aftermath of the Draft Riots. The <title level="j">Independent</title> published Robert Hamilton's appeal for subscriptions and donations, but to this Tilton appended a comment that challenged the need for a "distinctively 'African' paper": "Our countrymen of African lineage are not primarily and predominantly negroes, but MEN&#8212;most of them, we trust, Christians; and everything which tends to isolate and separate them&#8212;to render them exclusive, peculiar, clannish&#8212;is ill-considered" (<title level="j">Independent</title>, July 30, 1863). His comments riled the Hamiltons, who published editorials defending the value of their newspaper. "Here is <title level="j">The Independent</title>, a newspaper . . . of such high Abolition pretensions, as unblushingly to offer itself as a supplanter or substitute for our poor journal to our colored subscribers and purchasers," wrote "Humanity" (<title level="j">Anglo-African</title>, August 8, 1863). How, a later editorial asked, could Tilton "expect us to trust any man simply because he publishes a paper in which is advocated anti-slavery sentiments?" (<title level="j">Anglo-African</title>, September 19, 1863). The <title level="j">Anglo-African</title> helped African Americans in their struggle to become "citizens of the United States," and its title was "truthful, ethnically speaking" (<title level="j">Anglo-African</title>, September 19, 1863; <title level="j">Anglo-African</title>, October 3, 1863). "Moreover, if we change our name, of what use could it be, unless all the nation should be stricken with color blindness?" (<title level="j">Anglo-African</title>, October 3, 1863).</p></note></note>
+            
+        </body>
+        
+    </text>
+</TEI>
+

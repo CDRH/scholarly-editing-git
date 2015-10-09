@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18650506.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lines on the Death of President Lincoln</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18650506.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#sg">Sarah Greenbrier</author>
+                        <title level="a">Lines on the Death of President Lincoln</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1865-05-06">6 May 1865</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="sg">Greenbrier, Sarah</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1865">1865</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+                <language ident="latin">Latin</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Booth, John Wilkes, 1838-1865</term>
+                    <term>Booth, John Wilkes, 1838-1865--Poetry</term>
+                    <term>Death--Social aspects--United States--History--19th century.</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>Lincoln, Abraham, 1744-1786</term>     
+                    <term>Lincoln, Abraham, 1809-1865--Assassination</term>
+                    <term>Lincoln, Abraham, 1809-1865--Assassination--Public opinion</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-29" who="#el">added and encoded additional editorial notes</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-07" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-06-15" who="#el">checked transcription; encoded</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18650506.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18650506.pp1_cropped.jpg"/>
+            </zone>   
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18650506.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18650506.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18650506.pp4.jpg"/>         
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>
+                
+                <head type="main" subtype="authorial" rend="center">LINES <lb/>ON THE DEATH OF PRESIDENT LINCOLN.<note type="editorial" resp="#bw #el">Abraham Lincoln (1809&#8211; April 15, 1865) was assassinated by John Wilkes Booth (1838&#8211;April 26, 1865), days after General Robert E. Lee surrendered his Confederate Army to General Ulysses S. Grant at Appomattox Courthouse. A native of Maryland and a devotee of the Confederacy, Booth shot Lincoln in the back of the head as he watched an evening performance of <title level="m">Our American Cousin</title> at Ford's Theatre. At the same time, one of Booth's co-conspirators attacked Secretary of State William Seward at his home. Lincoln died the following morning; the news turned Northern elation into shocked grief. Twenty-five thousand people came to the White House to pay their respects as Lincoln's body lay in state (Drew Gilpin Faust, <title level="m">This Republic of Suffering: Death and the American Civil War</title>[New York: Knopf, 2008], 156). Processions and gatherings took place across the country on the day of the funeral (April 19) and at each stop on the corpse's subsequent journey to Springfield, Illinois. The funeral train reached Cleveland, Ohio, on the morning of April 28; a procession accompanied the coffin to the city's Public Square, where a service was held. That evening, the train continued to Columbus, Ohio. Lincoln was finally buried in Springfield's Oak Ridge cemetery on May 4.</note></head>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">At</emph> morn, upon the startled wire,</l>
+                    <l rend="indented1">Like lightning,<note type="editorial" resp="#bw #el">Telegraph wire. The comparison was well established: antebellum Americans referred to electric telegraphy as communication by "lightning." See, for example, the telegraph operator's announcement "that Buffalo and New York are no longer separated&#8212;they can talk to each other by lightning" (<title level="j">Scientific American</title>, September 26, 1846, 5). Telegraphic bulletins (and the newspapers that printed them) quickly spread the news of Lincoln's death, and within twelve hours, newspapers across the United States shared the story with their readers (Richard D. Brown, <title level="m">Knowledge Is Power: The Diffusion of Information in Early America, 1700&#8211;1865</title> [New York: Oxford University Press, 1989], 258).</note> flashed the tragic tale;</l>
+                    <l>Business is hushed&#8212;lips now are dumb,</l>
+                    <l rend="indented1">Eyes are bedimmed, and cheeks turn pale.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Tell us, O God! can this be true,</l>
+                    <l rend="indented1">Is our great statesman dead?</l>
+                    <l>Palsied be the traitor's arm,</l>
+                    <l rend="indented1">That thus, his life-blood, shed.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>O, tell us, will his manly voice,</l>
+                    <l rend="indented1">In Senate halls, be heard no more?</l>
+                    <l>His deeds of kindness, words of love,</l>
+                    <l rend="indented1">Are they, on earth, now o'er?</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>I pause to wipe the scalding tears,</l>
+                    <l rend="indented1">Which down my cheeks now freely steal;</l>
+                    <l>The cruel thought I cannot bear&#8212;</l>
+                    <l rend="indented1">With horror now my senses reel.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Friend of humanity, thy name</l>
+                    <l rend="indented1">Is sounded forth, from every hill;</l>
+                    <l>'Tis wafted on the morning breeze,</l>
+                    <l rend="indented1">And murmured mid the bubbling rill.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>'Tis echoed from the fettered slave,</l>
+                    <l rend="indented1">As he offers up his evening prayer;</l>
+                    <l>And when beneath the cruel lash,</l>
+                    <l rend="indented1">'Tis freely whispered by him there.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>'Tis stamped on every manly heart,</l>
+                    <l rend="indented1">'Twill live while ages fade away;</l>
+                    <l>Empires may rise and empires fall,</l>
+                    <l rend="indented1">But still thy name shall hold the sway.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Let us now as one man rush forth,</l>
+                    <l rend="indented1">And avenge our leader's cruel death!</l>
+                    <l>Strike down the man who now shall dare</l>
+                    <l rend="indented1">Pollute his name with traitorous breath.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Hurl from the earth yon tyrant bold,</l>
+                    <l rend="indented1">And let us in his vile ears hiss;</l>
+                    <l>The words which he so proudly spoke,</l>
+                    <l rend="indented1"><emph rend="italic">Sic semper tyrannis.</emph><note type="editorial" resp="#bw #el">"Thus always to tyrants"; assassin John Wilkes Booth shouted the classical phrase (also Virginia's state motto) moments after he shot Lincoln.</note></l>
+                </lg>
+            </lg>
+            
+            <dateline>Cleveland, Ohio.</dateline>
+            <byline rend="right"><emph rend="smallcaps">Sarah Greenbrier.</emph><note type="editorial" resp="#bw #el">The Cleveland, Ohio, city directory for 1869 lists a Sarah Greenbrier as a teacher living at 98 Woodbine. Also living at the same address was an Ann Greenbrier, seamstress (<title level="m">Cleveland Leader Annual City Director for 1869&#8211;1870</title> [Cleveland: Cleveland Leader Printing Company, 1869]). In the directory, Sarah is listed as being a boarder at the address. The relationship between Sarah and Ann is unknown, but Ann may have been Sarah's mother, sister, sister-in-law (Ann was a widow), or other relation. Additional information about Sarah is unknown; however, the federal census offers details about Ann that may potentially help to illuminate Sarah's biography. The 1870 census lists her as "Anna Greenbrier," age fifty-four, a white female born in Virginia whose occupation is "keeping house." Four other Greenbriers between the ages of twelve and twenty-one also lived in the house at this time (Sidney, Mary, George, and Clarkson). The 1880 census identifies her as "Ann Greenbrier," age sixty-four, born in Virginia to a Virginia-born mother and English-born father. Tellingly, Greenbrier's race in the 1880 census was initially recorded as "W" for "white" and overwritten with "Mu" for mulatto. This fact, combined with her identification as white in the 1870 census, suggests that Greenbrier and members of the family may have "passed" as white. In the 1880 census, four children lived in Greenbrier's home: Sidney (son, 32), Mary (daughter, 30), Emma (daughter, 26), George (son, 24), and Clarkson (son, 24). All the children were identified as mulatto. Sidney was employed as a sleeping car conductor, George was a porter on the railroad, and Clarkson worked in a doctor's office. The occupation category identifies daughters Emma and Mary simply as "at home."</note></byline>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+

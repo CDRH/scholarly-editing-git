@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Digital Documentary Editions and the Others</title>
+                <author key="Pierazzo, Elena">Elena Pierazzo</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.pierazzo</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+ <addrLine>http://www.scholarlyediting.org</addrLine>
+</address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>http://cdrh.unl.edu</addrLine>
+ </address>
+                </distributor>
+                <date>2014</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">35</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2014-01-28"><name xml:id="gk" key="Weakly, Laura K.">Gabrielle
+                    Kirilloff</name> markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Digital Documentary Editions and the Others</head>
+
+            <byline>Elena Pierazzo</byline>
+        </front>
+        <body>
+            <p>It is a truth universally acknowledged that documentary editions have found a very
+                welcoming home in cyberspace. Documentary editing has often been considered a lower
+                form of scholarship, as suggested by its being commonly called "noncritical
+                editing," a name that barely hides the conviction of its being a non- or
+                prescholarly endeavor.<ptr target="#note1" xml:id="nr1" n="1"/> However, this
+                allegedly humble form of editing has now taken a leading role in the digital arena,
+                boosted, it seems, by the availability of digital facsimiles. This rise in scholarly
+                esteem has led to a worried call by Peter Robinson for editors to go back to
+                preparing multiwitness critical editions. While conceding that "one can welcome this
+                attention to documents as a long overdue correction to the millennia-long
+                concentration of scholarly editors on the work rather than on the document," he sees
+                "dangers" because "if we make only digital documentary editions, we will distance
+                ourselves and our editions from the readers"; furthermore, "such editions [i.e.,
+                digital documentary editions], with their narrow focus on editor and document, fall
+                far short of achieving the potential of editions in the digital world."<ptr
+                    target="#note2" xml:id="nr2" n="2"/> Franz Fischer has presented a not
+                dissimilar line: if not detrimental, the provision of proper critical editions is
+                much more worth pursuing than diplomatic editions of the sources. As he declares, if
+                "all texts are equal, critical texts are more equal than others."<ptr
+                    target="#note3" xml:id="nr3" n="3"/> However, one must ask if this is really
+                true. Does the provision of documentary editions represent a threat to the work of
+                the editor and to the entire digital textual scholarship?</p>
+            <p>The fact that these scholars have felt the need to defend the benefit of critical
+                editions based on multiple witnesses, associated with the fear that "[i]f we make
+                only digital documentary editions, we will distance ourselves and our editions from
+                    readers,"<ptr target="#note4" xml:id="nr4" n="4"/> clearly demonstrates the
+                central role that documentary editing has assumed in the digital environment. This
+                is, in fact, the format chosen by many high-profile digital editions, for instance
+                    <hi rend="italic">Jane Austen’s Fiction Manuscripts</hi>, the edition of the <hi
+                    rend="italic">Manuscrits de Madame Bovary</hi>, the <hi rend="italic">Walt
+                    Whitman Archive</hi>, the <hi rend="italic">William Blake Archive</hi>, and many
+                    others.<ptr target="#note5" xml:id="nr5" n="5"/> It is remarkable to note that
+                as recently as 2007 Gabler felt the need to advocate for new attention to
+                documentary editions, which, in his opinion, were still underestimated in the
+                editorial scene, and he claimed that the digital environment is the most suitable
+                for this type of edition.<ptr target="#note6" xml:id="nr6" n="6"/> Apparently he was
+                right; his position has been so successful that it has now, only a few years later,
+                generated the opposite reaction among the scholarly community, namely a call for a
+                renewed attention to critical editions based on multiple witnesses. Such editions
+                may be produced according to different editorial methodologies, such as, for
+                instance, copy-text, where different versions of the same work are considered as a
+                single artistic endeavor with different level of authorial engagements; stemmatics,
+                where the lost original or archetype is reconstructed from several witnesses,
+                organized according to genealogical principles; or phylogenetic, where the variation
+                of witnesses is organized following the models developed to map and predict genetic
+                    mutation.<ptr target="#note7" xml:id="nr7" n="7"/> But before discussing whether
+                the new centrality of digital documentary editions represents a real threat to
+                digital textual scholarship, it is perhaps necessary to investigate the reasons why
+                the digital medium has so much favored this type of edition over the critical
+                edition based on multiple witnesses. We must first define the objects of such
+                investigation.</p>
+            <p>For the purposes of this discussion, I define a documentary edition as an edition of
+                a text based on a single document, which attempts to reproduce a certain degree of
+                the peculiarities of the document itself, even if this may cause disruption to the
+                normal flow of the text presented by the document. It can assume different formats,
+                by presenting the textual content of the document as semi-diplomatic, diplomatic,
+                    ultra-diplomatic,<ptr target="#note8" xml:id="nr8" n="8"/> or even facsimile
+                editions, which differentiate themselves by the level of editorial intervention,
+                ranging from the largest to the smallest concession to the reading habits of the
+                public of choice. The documentary edition differs from transcription in the sense
+                that a documentary edition is meant to be publicly distributed, while a
+                transcription represents the private first stage of the editorial work; a
+                transcription can become a documentary edition in the moment its creator (the
+                editor) decides it is accurate enough and follows accepted scholarly conventions
+                well enough to be distributed publicly.<ptr target="#note9" xml:id="nr9" n="9"/> As
+                with all definitions, it is hard to convey the different aspects and shades of a
+                multiform scholarly practice (and it might be noted that Kline and Perdue, in order
+                to respond to the question "What Is Documentary Editing?" have preferred to give
+                historical accounts of how it has established itself, rather than giving a
+                definition as such).<ptr target="#note10" xml:id="nr10" n="10"/> However, this
+                definition could be considered as a useful starting point for the discussion that
+                follows. Digital documentary editions (henceforth DDEs) have been defined as "the
+                recording of as many features of the original document as are considered meaningful
+                by the editors, displayed in all the ways the editors consider useful for the
+                readers, including all the tools necessary to achieve such a purpose."<ptr
+                    target="#note11" xml:id="nr11" n="11"/> This definition includes not only the
+                textual content but also the digital infrastructure (visible to the final user or
+                not) necessary for the publication and exploitation of such content. DDEs can assume
+                the form of diplomatic, ultra-diplomatic, semi-diplomatic, or reading editions on
+                demand, thanks to digital (usually online) delivery of an appropriately encoded
+                text, transformed in many ways by customized scripts and tools.</p>
+            <p>The availability of digital facsimiles and their ease of publication on the web have
+                already been cited as one of the main reasons for the success of DDEs: enthusiasm
+                for the opportunity given by digital photography made Kevin Kiernan propose the
+                image-based scholarly edition and declare that this type of edition "subsumes the
+                purpose of a diplomatic edition."<ptr target="#note12" xml:id="nr12" n="12"/> This
+                claim has been already refuted elsewhere,<ptr target="#note13" xml:id="nr13" n="13"
+                /> but it is recalled here to highlight one crucial feature of diplomatic editions,
+                namely that historically they were conceived and used as a substitute for facsimile
+                editions when the latter were impractical or too expensive. Kiernan’s declaration
+                implies an assumption that, once digital images are made easily available, the need
+                for diplomatic editions would fade. Time has demonstrated that this assumption is
+                wrong. In fact, the availability and the improved publishing opportunities offered
+                by the different digital formats (CD-ROMs, DVDs, and the Web) and the subsequent
+                publication online of millions of digital facsimiles, has by no means made
+                diplomatic and more generally non-image-based documentary editions redundant: quite
+                the contrary. The fact that DDEs have proven to be one of the most successful
+                digital editorial formats demonstrates that their alleged function as surrogate
+                facsimiles is only one of their possible purposes, and possibly the least important
+                one at that. Far from being subsumed by image-based editions, DDEs have <hi
+                    rend="italic">de facto</hi> incorporated them, because the most common format
+                for digital documentary editions is the side-by-side layout, in which the diplomatic
+                (or ultra-diplomatic) edition is juxtaposed with its digital facsimile. In this
+                format the editor engages in a sort of competition with the facsimile where, as
+                noted by Kathryn Sutherland, "the editor is continually on trial, open to account
+                and correction."<ptr target="#note14" xml:id="nr14" n="14"/> The dialectic
+                relationship between the diplomatic edition and the facsimile representation, while
+                demanding extreme editorial rigor, engages the users in close inspection of the
+                    transcriptions/translations<ptr target="#note15" xml:id="nr15" n="15"/> enacted
+                by the editor in a sort of imaginary competition. The diplomatic edition alongside
+                the facsimile provides the reader with a simplified, mediated, interpreted version
+                of "what’s on the page"; therefore, the diplomatic edition, instead of being made
+                redundant by the presence of the image, represents a sort of map and key for the
+                understanding and navigation of that image. Just as a map of any given area of the
+                Earth provides the user with a way to navigate an unfamiliar place, the diplomatic
+                edition provides the reader with the tools to decipher the linguistic and
+                bibliographic codes that inform the document.<ptr target="#note16" xml:id="nr16"
+                    n="16"/> Therefore, while the provision of high-quality digital facsimiles has
+                effectively made redundant the provision of diplomatic editions as a substitute for
+                facsimile editions—since facsimile editions can now be provided easily—they have
+                also revealed that diplomatic editions (and especially DDEs) are scholarly tools and
+                not surrogates, the provision of which is worthwhile because they are indispensible
+                interpretative tools. Consequently, the more we offer digital facsimiles of primary
+                sources, the greater the need for DDEs will become.</p>
+            <p>The (implicit) recognition of this type of functionality has considerably helped the
+                establishment of DDEs among scholarly practices, but this alone is perhaps not
+                enough to explain their sudden success. The provision of digital documentary
+                editions based on text encoding, which enables the possibility of presenting the
+                users with many outputs from the same source-encoded files, has made DDEs a very
+                powerful and versatile tool. Perhaps these types of editions could be called <hi
+                    rend="italic">paradigmatic editions</hi>, as they embed many alternative options
+                for the same string of text in a nonlinear way, as opposed to editions that can only
+                display the text in one format (such as printed editions, among others), which could
+                instead be called <hi rend="italic">syntagmatic editions</hi>. Text encoding has in
+                fact enabled editors to have their cake and eat it: features that were once
+                normalized without mercy to produce reading, critical (or syntagmatic) editions can
+                now be retained and simply switched on and off at leisure to please different
+                audiences, thereby opening the way to new scholarship and readership. In fact, one
+                can store as much information or alternative points of view as one wishes for each
+                string of text, following the paradigmatic axis, in a nonlinear way, and processed
+                differently according to the editorial vision. These functions have attracted the
+                attention of scholars for whom documents and documentary evidences have a central
+                role, namely those engaged with New (or Material) Philology and Genetic Criticism:
+                scholars that recognize themselves as belonging to these editorial orientations were
+                in fact among the first to embrace the digital medium.<ptr target="#note17"
+                    xml:id="nr17" n="17"/> As paradigmatic editions are able to store an indefinite
+                amount of information, it is therefore possible to remain faithful to the document
+                (retaining for instance, old and odd spellings, abbreviations, scribal errors,
+                etc.), as well as to make concessions to the reader who is then given the
+                opportunity to choose which version to read. This is the case, for instance, in the
+                LangScape project, where the passages describing land bounds contained within the
+                corpus of Anglo-Saxon charters are presented as semi-diplomatic, edited, or
+                linguistically glossed texts.<ptr target="#note18" xml:id="nr18" n="18"/></p>
+            <p>Yet this is not all: as it happens, digital critical editions based on multiple
+                witnesses gave a decisive boost to the fortunes of digital documentary editions.
+                This is due to the fact that collation—the essential, time-consuming activity that
+                consists in the comparison of text proposed by many documents (the witnesses)—can be
+                done automatically only if all the witnesses are individually transcribed.
+                Experiments in digital collation were one of the first activities attempted by
+                practitioners of the embryonic digital humanities: comparing strings is an activity
+                for which computers are much more gifted than human beings, and so automatic or
+                computer-assisted collation seemed almost inevitable.<ptr target="#note19"
+                    xml:id="nr19" n="19"/> This task proved to be much more complicated than
+                expected, yet the necessity of producing transcriptions of all witnesses in order to
+                be collated has <hi rend="italic">de facto</hi> generated many documentary editions
+                once these transcription are made publicly available, one for each witness, for any
+                critical edition. This is the case in the editions published under the umbrella of
+                the <hi rend="italic">Canterbury Tales Project</hi>, for instance.<ptr
+                    target="#note20" xml:id="nr20" n="20"/> Access to the sources has always been
+                one of the biggest limitations offered by traditional critical editions, where only
+                the categories of variants considered relevant by the editor were collected and
+                organized in the <hi rend="italic">apparatus criticus</hi>. Again, it seemed
+                natural, then, that together with a critical edition, the diplomatic edition of the
+                sources would be offered for readers’ inspection in digital form, where the space
+                constraints that have determined the format and the selectiveness of the printed
+                apparatus no longer apply.</p>
+            <p>Perhaps the main reason behind the success of DDEs is that we can unashamedly “do”
+                them: the fact that there are already quite a few of them out there and that they
+                have become so versatile and powerful have made them more attractive than ever.
+                Editors have always had to face the question of what to edit, texts or documents (or
+                texts of works vs. texts of documents);<ptr target="#note21" xml:id="nr21" n="21"/>
+                they have resolved this mostly by choosing texts (i.e., texts of works) over (texts
+                of) documents, given the cost of and the traditionally smaller readership for
+                diplomatic editions. This choice has been almost inevitable for works for which many
+                witnesses survive: who indeed, apart from the editor and possibly a couple of other
+                scholars, would be interested in buying and/or consulting seven hundred versions of
+                Dante’s <hi rend="italic">Commedia</hi>, one for each of the surviving witnesses?
+                Historically, in cases like these, the only sensible solution has been to
+                reconstruct the version that corresponded most with the theoretical orientation of
+                the editor,<ptr target="#note22" xml:id="nr22" n="22"/> and to serialize the
+                rejected variant readings in the apparatus. The result is the provision of a clean,
+                reading edition, where the variants are conveniently marginalized at the bottom of
+                the page or at the end of the volume, in the name of ease of reading. However, such
+                a format has generated a fair amount of criticism because it gives texts a false
+                impression of stability and purity, and makes it almost impossible to really
+                appreciate the editorial work and the complexity of the tradition.<ptr
+                    target="#note23" xml:id="nr23" n="23"/> But, while this was (and in many
+                respects still is) the most pragmatic solution for texts with a large tradition, it
+                is not necessarily the best solution in other cases, such as when only one witness
+                survives. However, a sort of critical edition has traditionally still been provided
+                even for texts preserved in a single witness, with the provision of a clear reading
+                text, with internal variations and apparent errors appropriately set aside, in order
+                to avoid disturbing the reading experience. This is the case, for instance, with
+                editions of Jane Austen’s <hi rend="italic">Juvenilia</hi> and other unfinished
+                works unpublished in her lifetime. These were first published by R. W. Chapman from
+                the 1920s; the text Chapman printed is a clean, “final” version, with all the
+                authorial workflow that can be reconstructed through a deep investigation of the
+                original source material relegated to notes at the end of the book. This has been
+                the only way readers have known these particular works, at least until the online
+                publication of <hi rend="italic">Jane Austen’s Fiction Manuscripts Digital
+                    Editions</hi> in 2010. In cases like this, it can be argued that the edition of
+                the manuscripts as critical text is the only sensible way to edit the material.
+                Certainly the provision of a critical text is of fundamental importance to the
+                general readership; however, the edition of the manuscript as document can also be
+                justified on scholarly grounds. This is demonstrated by the fact that the
+                publication of the digital edition has generated a considerable debate around Jane
+                Austen’s authorial habits, with readers and scholars alike expressing their
+                disbelief in discovering that she was not the polished, organized writer that was
+                presented through the edited pages.<ptr target="#note24" xml:id="nr24" n="24"/> The
+                reception of Hans Walter Gabler’s edition of <hi rend="italic">Ulysses</hi> shows
+                the same situation: by presenting the documentary evidence of the autograph
+                manuscripts in a synoptic manner, dense with symbolism, he shocked his audience,
+                which was not used to being exposed to the messiness of the authorial work.<ptr
+                    target="#note25" xml:id="nr25" n="25"/> Indeed, the same story holds for many
+                literary works: even when the survival of only one or a handful of witnesses could
+                have made a documentary edition viable, this has rarely been done. When it has been
+                done, it has been often attacked as “dangerous”: Paul Eggert beautifully recounts
+                the polemic led by Fredson Bowers, champion of the authorial intention and critical
+                editing, against editors of variorum editions and documentary editions, a battle
+                continued by Thomas Tanselle at the expense of historical documentary editors.<ptr
+                    target="#note26" xml:id="nr26" n="26"/></p>
+            <p>The battle for critical editing versus documentary editing<ptr target="#note27"
+                    xml:id="nr27" n="27"/> has been fought on many fronts: disciplinary,
+                theoretical, methodological, and economic. The point here is that the attitude
+                toward one or the other editorial framework (documentary or critical) has always
+                been colored by strong theoretical positions. The question has very rarely been
+                which editorial framework was best for the type of document under consideration,<ptr
+                    target="#note28" xml:id="nr28" n="28"/> but rather which was the theoretical
+                orientation of the editor.<ptr target="#note29" xml:id="nr29" n="29"/> Of a
+                different opinion is Peter Shillingsburg, who argues that a certain level of
+                influence among theories (“orientations”) is always present, determined by
+                “particular circumstances surrounding a textual problem,” but then his reference to
+                “fierce editorial debates between partisans of these basic positions” shows how the
+                influence among these orientations is more a “matter of fact” accident rather than a
+                conscious theoretical decision, namely that editors tend to adopt converging
+                methodologies in spite of their theoretical positions more or less when the
+                materials they are editing force them to do so.<ptr target="#note30" xml:id="nr30"
+                    n="30"/> Historically, this conflict has tended to pit historians against
+                literary scholars,<ptr target="#note31" xml:id="nr31" n="31"/> with the former
+                traditionally associated with the documentary edition at least in the Anglo-American
+                editorial tradition. From a theoretical point of view, advocates of documentary
+                editions accused critical editors of hybridizing their texts from many sources,
+                building texts that never existed and hence altering the evidence from the past.<ptr
+                    target="#note32" xml:id="nr32" n="32"/> This latter attitude also characterizes
+                the theoretical positions of New Philology, the arguments of which are based in turn
+                on fundamental critiques advanced by Joseph Bédier regarding the Lachamannian
+                    method.<ptr target="#note33" xml:id="nr33" n="33"/></p>
+            <p>Another episode of this debate has focused on methodological issues, and in
+                particular the rigor and accountability of criteria for transcription, with literary
+                scholars (mainly Tanselle) accusing historians of having a cavalier attitude toward
+                their transcription criteria. This episode served as a “wake-up call” for
+                documentary editors, initiating a period of reexamination of their methodological
+                approaches and procedures.<ptr target="#note34" xml:id="nr34" n="34"/></p>
+            <p>And again, the discussion has been over what readers want: a nice reading edition
+                without any hint about a potentially complex tradition, or a critical edition with a
+                critical apparatus and extensive commentary, or a documentary edition (or editions),
+                possibly accompanied by many facsimiles to allow inspection of the original
+                documents by themselves?<ptr target="#note35" xml:id="nr35" n="35"/> In this latter
+                case the documentary editions have generally been considered unsuitable for the
+                wider public, unreadable, or both. Genetic editing and genetic editions could also
+                be included here: indeed, genetic editions resemble documentary editions a great
+                deal, with the former also trying to embed information about the different phases of
+                writing and rewriting of the manuscript. The most prestigious theoretical framework
+                for the understanding and editing of draft manuscripts has been provided by the
+                French school of <hi rend="italic">Critique Génétique</hi>, which is concentrated
+                around the activities promoted by the ITEM (<hi rend="italic">Institut des Textes et
+                    Manuscrits Modernes</hi>).<ptr target="#note36" xml:id="nr36" n="36"/> Yet while
+                the scholarly methodologies of the French school have generally been judged
+                positively, printed genetic editions have been criticized as unreadable, unusable,
+                time-consuming, and, in general, deceptive.<ptr target="#note37" xml:id="nr37"
+                    n="37"/> The obscure, intricate symbolism that necessarily characterizes such
+                editions in print is perhaps the principal reason for their cold reception by the
+                academic community.<ptr target="#note38" xml:id="nr38" n="38"/> Economic factors
+                have also been considered: the cost of producing a documentary edition has often
+                been seen as not justified by the small number of prospective readers except in the
+                case of very important, unique documentary sources.<ptr target="#note39"
+                    xml:id="nr39" n="39"/> In the United States, however, documentary and diplomatic
+                editions have been used to a great extent for the publication of historical
+                documents of the Founding Fathers (Jefferson’s and Washington’s, for instance), but
+                this fact, instead of encouraging the diffusion of such an editorial formula, has
+                increased the theoretical and disciplinary divide, with literary scholars
+                consistently producing critical editions based on the editorial framework of the
+                copy-text and historians championing documentary editions. A documentary edition for
+                works of literature in the Anglo-American world seems to be rarer than, say, in
+                France, Germany, or Italy,<ptr target="#note40" xml:id="nr40" n="40"/> and this
+                applies also to authors for whom we only have works transmitted by one witness, such
+                as, for instance, the <hi rend="italic">Juvenilia</hi> or the unfinished novels of
+                Jane Austen, as discussed above. French-style genetic editions or German-style <hi
+                    rend="italic">Historisch-Kritische Ausgaben</hi> are even more rare in the
+                English-speaking world.<ptr target="#note41" xml:id="nr41" n="41"/> One can see, for
+                instance, the relative misfortune of the edition of Austen’s <hi rend="italic">Sir
+                    Charles Grandison</hi> edited by Brian Southam, whose editorial choice has been
+                rejected by Michael Hunter: “For, painstaking as it is, it fails to replicate all
+                features of the original—not only different handwritings and letterforms, but also
+                ink blots, different methods of striking through words, or exact details of the
+                layout, for which only a pictorial facsimile suffices.”<ptr target="#note42"
+                    xml:id="nr42" n="42"/></p>
+            <p>In Eggert’s view the cultural hegemony exerted by the copy-text theory (the so-called
+                Greg-Bowers-Tanselle line) can be held responsible for the perceived lack of
+                interest in documentary editions by (mainly Anglophone) literary scholars. However,
+                this methodological hegemony has been tolerated with increasing irritation by the
+                scholarly community. The most famous reaction to this editorial approach is
+                represented by Jerome McGann’s theory of the social text and by the rise in favor of
+                New (or “material”) Philology. Both these theories focus on the importance of the
+                material support: the “bibliographical codes” of McGann can be paired, in a way,
+                with the <hi rend="italic">codex</hi> of Cerquiglini.<ptr target="#note43"
+                    xml:id="nr43" n="43"/> Both these contributions were elaborated around 1990,
+                more or less in the same period when digital editions began to be produced, thus it
+                might not be a coincidence that practitioners of innovative textual theories have
+                looked into an innovative publishing medium to convey their editorial products.
+                Richard J. Finneran notes that the advent of new technologies “coincided with a
+                fundamental shift in textual theory, away from the notion of a single-text
+                ‘definitive edition,’” remarking that while “a traditional print edition is able to
+                accommodate this new thinking in textual theory either awkwardly or not at all,
+                digital technology is its necessary and inevitable realization.”<ptr
+                    target="#note44" xml:id="nr44" n="44"/></p>
+            <p>As we have seen, documentary editions have been at the center of a long-lasting
+                theoretical debate, as they have been identified as the ideal editorial framework of
+                those scholars who reject the creation of critical editions based on multiple
+                witnesses. However, <hi rend="italic">per se</hi>, they are simply an editorial
+                methodology that has no particular theoretical implication in itself. This is
+                demonstrated by the fact that documentary editions have been serving different
+                theoretical positions, that is, the “best-text” method,<ptr target="#note45"
+                    xml:id="nr45" n="45"/> the social edition, historical edition, genetic edition,
+                and material philology, to name a few, without demanding one.<ptr target="#note46"
+                    xml:id="nr46" n="46"/> So documentary editions do not constitute or do not aim
+                at constituting a theory of digital editions.<ptr target="#note47" xml:id="nr47"
+                    n="47"/> Rather, they happen to have been chosen as an editorial format by
+                scholars who had a theoretical position, but not necessarily the same one. They are
+                “tools,” not theories. It is not surprising, then, that the elaboration of the new
+                model of the Text Encoding Initiative (TEI) for the encoding of documents represents
+                the result of the collaboration of scholars coming from many of the above-mentioned
+                theoretical positions, as well as from different disciplinary areas.<ptr
+                    target="#note48" xml:id="nr48" n="48"/> A Venetian proverb says that “an
+                umbrella can be useful for more than one rainfall”; here we can perhaps say that
+                (digital) documentary editions can be useful for more than one theory. The reasons
+                for their digital diffusion are therefore varied and diverse, but ultimately, in my
+                opinion, once they have been attempted in digital form, scholars have discovered
+                documentary editions to offer far more scholarly value than was suggested by the
+                “noncritical” label and their supposed surrogate function. Furthermore, DDEs seem
+                able to answer old and new scholarly questions that have never found a proper answer
+                before, particularly not in print-based editions. Documents are information-rich
+                sites, and “putting the text back into context” is bound to reveal much more about
+                the text than if we considered documents as simple supports.<ptr target="#note49"
+                    xml:id="nr49" n="49"/> For instance, are quantitative data about spellings and
+                use of punctuation able to provide evidences over the diffusion of literacy or the
+                influence of certain type of publications? Is there any difference in the spelling
+                habits or punctuation of men and women? How much does the type of writing tools
+                influence the tendency for revision? When and why do drafts become so messy, and is
+                there any influence in the way the text is authored and in the type of work that is
+                produced? The adoption of documentary editions is then likely to be connected with
+                the desire to fill a gap in textual scholarship, now that the technology supports it
+                and makes it a worthwhile pursuit.</p>
+            <p>While the provision of digital documentary editions <hi rend="italic">per se</hi>
+                does not represent an editorial theory, it is likely that new theories will be
+                developed by experimenting with the increased representational capabilities offered
+                by computers. Let us consider, for instance, the possibilities that are offered to
+                editors who are interested in the process that has produced the manuscripts rather
+                than in the end result, that is to say, the representation of the manuscript as
+                process rather than as a static “normalized” photograph like that provided by a
+                diplomatic edition. This approach recognizes that manuscripts embed an implicit
+                dynamicity: writing is always a process that develops in time. This is even more
+                true for authoring (as opposed to copying), which includes not simply linear writing
+                but also rewriting, adding, deleting, transposing, and so on.<ptr target="#note50"
+                    xml:id="nr50" n="50"/> Draft manuscripts are complex, data-rich objects that
+                require the long, patient work of scholars to unpack them and make them “consumable”
+                by people other than the specialists. Because of the complexity offered by these
+                materials, they have rarely taken a central role in scholarship beyond that of their
+                editors. The problem is that draft manuscripts present texts before they become
+                readable, before they become texts. The nonlinear, fragmented, paradigmatic
+                textuality of most drafts proves to be opaque, tiring, and only rewarding if one
+                commits a substantial amount of time to the task; they are often overlooked as a
+                result, in spite of representing a mine of information on the work of authors.<ptr
+                    target="#note51" xml:id="nr51" n="51"/> The printed-book model has proved to be
+                unsuitable for the task of presenting such material in an accessible way to scholars
+                other than editors, let alone for members of the general public. The digital
+                environment, however, has shown great potential in dealing with the complexities of
+                draft manuscripts, or pre-texts (the French <hi rend="italic"
+                    >avant-textes</hi>).<ptr target="#note52" xml:id="nr52" n="52"/></p>
+            <p>The interactivities we now expect in any web page can easily be used to the advantage
+                of digital editions, making them much more accessible and, it is hoped, giving them
+                a much more prominent role in the scholarly discourse. These principles are at the
+                base of a small prototype of a few pages of a notebook of Proust’s, which has been
+                developed with the collaboration of Julie André and Raffaele Viglianti.<ptr
+                    target="#note53" xml:id="nr53" n="53"/> In this website the user is initially
+                presented with the “clean” image of one opening of Cahier 46 (folios 46v–47r); then,
+                by clicking on the image, the zones containing the transcribed text appear in the
+                order in which they are presumed to have been written. Different colors have been
+                used as background for the zones according to the different level of certainty and
+                confidence that the editor had in ordering the sequences: the darker the color, the
+                greater the uncertainty. In this way, a visual semiotic codification conveys the
+                doubts and decisions of scholars in an intuitive way. A timeline bar marks the
+                passing of time for the writing sequences, allowing the user to go back in time, so
+                to speak, and reenact the process of authoring as many times as is wished. The zones
+                of transcription can also be moved around at will to reveal the underlying
+                facsimile, or they can be minimized and then restored following an order that
+                differs from the one provided by the editor, enabling users and scholars to test new
+                hypotheses. This prototype has been “powered by TEI,”<ptr target="#note54"
+                    xml:id="nr54" n="54"/> and in particular by the new documentary encoding
+                proposed by the TEI as a sort of proof of concept in order to test its viability in
+                a real project. Although the experiment has been quite successful and has inspired
+                further research and theoretical reflection, it has proved to be quite
+                labor-intensive and requires considerable technical skills: without a strong
+                financial investment in the development of editorial tools it seems unlikely that
+                this type of encoding will substitute the more “traditional” text-based TEI
+                encoding. This consideration could also be made for digital critical editions based
+                on multiple witnesses: without large investment in developing tools that can support
+                the editorial work, it seems unlikely that this type of edition will take off on the
+                web anytime soon.</p>
+            <p>However, tool development is held back by more than lack of investment. According to
+                Tara Andrews, there is resistance within the editorial community that prevents the
+                agreement necessary to enable the development of effective tools. She writes, almost
+                bitterly, that “flexibility and customizability is currently much more important to
+                textual scholars than the sort of standardization that would allow for true progress
+                toward digital critical editions.”<ptr target="#note56" xml:id="nr56" n="56"/> DDEs,
+                on the other hand, require less investment. If one is able to find an editor who is
+                brave enough to accept the challenge offered by XML-TEI encoding, and is able to
+                develop a style sheet or can find a small grant to support web development, then DDEs&#8212;including dynamic documentary editions on the model of the Proust
+                prototyp&#8212;become a viable option much more easily than other types of editions.
+                Critical editions require considerable effort on many fronts, starting from the
+                development of tools to support the many operations that are part of producing such
+                an edition, such as transcription, collation, stemma generation, and web publishing,
+                among others. Before this, however, and most importantly, is the development of
+                scholarly agreement over standard manipulations and management operations like the
+                ones just mentioned (transcription, collation, and so on). Is this agreement
+                achievable? At the moment there are a few positive signals in this direction, but
+                perhaps too few.<ptr target="#note57" xml:id="nr57" n="57"/> Andrews seems doubtful
+                about the feasibility of such an agreement.<ptr target="#note58" xml:id="nr58"
+                    n="58"/> I have expressed a similar opinion;<ptr target="#note59" xml:id="nr59"
+                    n="59"/> faced with the options either of not having computing support or of
+                compromising on scholarly traditions (not quality), scholars will choose to remain
+                faithful to the habits and approaches of their disciplinary and national areas. One
+                of the reasons for the TEI’s establishment as the <hi rend="italic">de facto</hi>
+                standard data-model for the preparation of digital scholarly editions is precisely
+                in the very “flexibility and customizability” which is dreaded by developers.
+                Blaming scholars does not help here, though. One of the reasons for choosing
+                flexibility over standardization may lie in the need to validate digital outputs and
+                to convince the more “traditional” scholarly community. The recognizability of the
+                editorial methods and interfaces, idiosyncrasies included, may be necessary to
+                demonstrate that digital editions are “as good as” printed ones.<ptr
+                    target="#note60" xml:id="nr60" n="60"/></p>
+            <p>On the other hand, documentary editions come with much lighter baggage. They require
+                less computational efforts, and having been neglected as poorer relatives of
+                critical editions, they have resulted in a greater flexibility and adaptability to
+                new conditions. Furthermore, as discussed above, the digital environment has proved
+                to be a much more suitable environment for them. </p>
+            <p>Here I have listed many possible explanations why documentary editions are thriving
+                in the digital environment while other editorial forms seem to find more difficulty
+                in establishing themselves within the new medium. The convergence of scholarly,
+                disciplinary, and technological reasons is, then, at the base of this unexpected
+                    development.<ptr target="#note61" xml:id="nr61" n="61"/> But is the success of
+                digital documentary editions a danger for textual scholarship and the digital
+                humanities in general? According to Peter Robinson, the answer is yes, and this
+                danger consists in “fall[ing] short of achieving the potential of editions in the
+                digital world,” with the “flood of facsimile editions in digital form” failing to
+                address questions such as “how the received text changed over time, how was it
+                received, how was it altered, transformed, passed into different currencies.”<ptr
+                    target="#note62" xml:id="nr62" n="62"/> The discussion above shows how many
+                different and complex conditions have favored the establishment of documentary
+                editions in digital form, but perhaps, more simply, documentary editions may just be
+                the best editorial scenario for some types of documents, like those listed in an
+                article I co-authored with Peter Stokes in 2010.<ptr target="#note63" xml:id="nr63"
+                    n="63"/> A documentary edition is not only the best editorial solution but also,
+                most often, the only scholarly justifiable choice in the following cases:<list
+                    type="ordered">
+                    <item>The process of making the document is at least as important as the text,
+                        meaning that the history of the making, as deduced from the document,
+                        represents perhaps the most important research object rather than the final
+                        product. This applies to some very stratified documents that contain many
+                        layers of writing, such as draft manuscripts, but also to historical
+                        “living” documents, like the medieval <hi rend="italic">libri vitae</hi>,
+                        for instance, within which one can distinguish hundreds of hands that have
+                        added names and annotations for hundreds of years. In this case, an edition
+                        that does not investigate the evidence of the documents and does not put
+                        this at the center will seriously misrepresent its content and historical
+                        value. A more modern example is Puccini’s <hi rend="italic">Tosca</hi>, the
+                        draft manuscripts of which result from the coauthoring process by four
+                        people over the course of two years. The final version of <hi rend="italic"
+                            >Tosca</hi> is rather uncontroversial, and it is quite different from
+                        that suggested by the evidence of the drafts, the importance of which
+                        resides, then, in witnessing the way Puccini and his librettists worked
+                        collaboratively. For these types of documents, the “text” simply cannot be
+                        considered out of context.</item>
+                    <item>The text is determined by the documents, that is, some features of the
+                        supporting document have determined in a fundamental way the text’s content
+                        or its reception. Letters limited by space and by the convention of the
+                        genre can be mentioned here, but also fundamental works such as <hi
+                            rend="italic">Beowulf</hi>, the only surviving manuscript of which has
+                        been through many events, such as a fire, and at least one reordering of the
+                        quires, all of which have seriously undermined our understanding of the work
+                        itself.</item>
+                    <item>The text is graphically presented, as in the case of graphic poetry such
+                        as <hi rend="italic">calligrames</hi>, a type of poetry practiced in
+                        particular by French poets of the past century (Guillaume Apollinaire is
+                        perhaps the most famous of them), or the medieval <hi rend="italic">carmina
+                            figurata</hi>. In both cases, an edition that does not respect the
+                        precise layout of the original document will lose almost every aspect of the
+                        original work.</item>
+                    <item>There is no text. Draft manuscripts, for example, have been defined as <hi
+                            rend="italic">avant-textes</hi>, “pre-texts,” or “recipes to make texts”
+                        rather than finished texts.<ptr target="#note64" xml:id="nr64" n="64"/>
+                        Therefore, their evidence must be presented “as is” in the documents. In
+                        many cases drafts propose alternative, paradigmatic readings, with or
+                        without a clear indication from the author about which would be the final or
+                        preferred version. In theses cases, too, the provision of “a text” seems
+                        unsuitable for the type of evidence. </item>
+                </list></p>
+            <p>Documentary editions, thanks to the digital medium, are establishing themselves in
+                the editorial arena as equals to critical editions. This is done on scholarly bases:
+                there are cases for which they are simply the best editorial framework. Seeing this
+                as a menace means ignoring the scholarly reasons why they have been chosen to convey
+                the editorial vision and understanding of the particular text. Franz Fischer
+                maintains that critical texts are “more equal than others,” that they are more
+                important than other types of texts such as diplomatic and documentary editions, but
+                this assertion of his is like declaring literature to be more important than
+                history, which, of course, is nonsense. History and literature both have their
+                fundamental function and position at the heart of textual scholarship. Different
+                editorial frameworks may be suitable to different types of text or to different
+                types of research questions. There might be some editions that are therefore more
+                equal than others, but this attribution needs to be contextualized considering the
+                type of document, the type of text, the research question, and so on. Attributing
+                the supremacy of one editorial framework over another <hi rend="italic">a
+                    priori</hi> would be an error. The diffusion of DDEs is offering the opportunity
+                of opening new paths to scholarship, exploring and unpacking the bibliographic and
+                “codicological codes” of our texts,<ptr target="#note65" xml:id="nr65" n="65"/> with
+                consequences to textual studies that have yet to be quantified but are hard to
+                overestimate.</p>
+            <p>While it is true that DDEs have found a comfortable home on the web, to blame them
+                for the slow establishment of critical editions based on many witnesses also means
+                ignoring the real reasons why critical editions seem to find more difficulties in
+                the digital medium. Having been invented and informed by print technology, and
+                having been the arena for the confrontation of many theoretical, disciplinary, and
+                national debates, they seem to resist the switch to the new medium. This resistance
+                can perhaps only be overcome by a deep rethinking of their functions, requirements,
+                and publics.<ptr target="#note66" xml:id="nr66" n="66"/> Underlying this, however,
+                is the need for a strong intellectual investment in standardization, which in turn
+                requires interdisciplinary and international collaborations. It is this that is
+                called for here, and perhaps then, once this is in place, critical editions with
+                multiple witnesses may finally have their day in digital form.</p>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">See Mary-Jo Kline and Susan Holbrook Perdue, <hi rend="italic"
+                        >A Guide to Documentary Editing</hi> (Charlottesville: University of
+                    Virginia Press, 2008), 3, who feel obliged to insist on the amount of critical
+                    work necessary to produce a documentary edition: “The documentary editor’s goal
+                    is not to supply the words or phrases of a vanished archetype but rather to
+                    preserve the nuances of a source that has survived the ravages of time.
+                    Documentary editing, although noncritical in terms of classical textual
+                    scholarship, is hardly an <hi rend="italic">un</hi>critical endeavor. It demands
+                    as much intelligence, insight, and hard work as its critical counterpart,
+                    combined with a passionate determination to preserve for modern readers the
+                    nuances of evidence” (italics in the source). Paul Eggert defines the <hi
+                        rend="italic">Guide to Documentary Editing</hi> as “a manifesto of
+                    intellectual independence from the Greg-Bowers school and a claim of
+                    methodological and theoretical coherence” (<hi rend="italic">Securing the Past:
+                        Conservation in Art, Architecture and Literature</hi> [Cambridge: Cambridge
+                    University Press, 2009], 184).</note>
+                <note xml:id="note2">Peter Robinson, “Towards a Theory of Digital Editions,” <hi
+                        rend="italic">Variants</hi> 10 (2013): 105–32, p. 127.</note>
+                <note xml:id="note3">Franz Fischer, “All texts are equal, but . . . Textual
+                    Plurality and the Critical Text in Digital Scholarly Editions,” <hi
+                        rend="italic">Variants</hi> 10 (2013): 77–92, p. 90.</note>
+                <note xml:id="note4">Robinson, “Towards a Theory of Digital Editions,” 127.</note>
+                <note xml:id="note5">Respectively: <hi rend="italic">Jane Austen’s Fiction
+                        Manuscripts: A Digital Edition</hi>, edited by Kathryn Sutherland (2010),
+                        <ref type="url" target="http://www.janeausten.ac.uk"
+                        >http://www.janeausten.ac.uk</ref>; <hi rend="italic">Le manuscripts de
+                        Madame Bovary</hi>, Bibliothèque de Rouen, Centre Flaubert de l'Université
+                    de Rouen, <ref type="url" target="http://www.bovary.fr"
+                        >http://www.bovary.fr/</ref>; <hi rend="italic">The Walt Whitman
+                        Archive</hi>, edited by Ed Folsom and Kenneth M. Price, Center for Digital
+                    Research in the Humanities at the University of Nebraska–Lincoln, <ref
+                        type="url" target="http://whitmanarchive.org/"
+                        >http://whitmanarchive.org/</ref>; <hi rend="italic">The William Blake
+                        Archive</hi>, edited by Morris Eaves, Robert N. Essick and Joseph Viscomi,
+                        <ref type="url" target="http://www.blakearchive.org/blake/"
+                        >http://www.blakearchive.org/blake/</ref>.</note>
+                <note xml:id="note6">Hans Walter Gabler, “The Primacy of the Document in Editing,”
+                        <hi rend="italic">Ecdotica</hi> 4 (2007): 197–207.</note>
+                <note xml:id="note7">For a more detailed overview, see D. C. Greetham, <hi
+                        rend="italic">Textual Scholarship: An Introduction</hi> (New York: Garland,
+                    1994).</note>
+                <note xml:id="note8">An ultra-diplomatic edition aims to preserve the layout of the
+                    document as well as its textual content.</note>
+                <note xml:id="note9">For a historical overview of different types of edition, see
+                    Greetham, <hi rend="italic">Textual Scholarship</hi>, 347–72.</note>
+                <note xml:id="note10">Kline and Perdue, <hi rend="italic">A Guide to Documentary
+                        Editing</hi>, 1–34.</note>
+                <note xml:id="note11">Elena Pierazzo, “A Rationale of Digital Documentary Editions,”
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 26, no. 4 (2011)
+                    463–77, p. 475.</note>
+                <note xml:id="note12">Kevin Kiernan, “Digital Facsimile in Editing,” in <hi
+                        rend="italic">Electronic Textual Editing</hi>, ed. John Unsworth, Lou
+                    Burnard, and Katherine O’Brien O’Keefe (New York: Modern Language Association of
+                    America, 2006), 262–68, p. 266.</note>
+                <note xml:id="note13">Pierazzo, “A Rationale of Digital Documentary Editions,”
+                    472–73.</note>
+                <note xml:id="note14">Kathryn Sutherland and Elena Pierazzo, “The Author’s Hand:
+                    From Page to Screen,” in <hi rend="italic">Collaborative Research in the Digital
+                        Humanities</hi>, ed. Marilyn Deegan and Willard McCarty (Aldershot: Ashgate,
+                    2011), 191–212.</note>
+                <note xml:id="note15">On the concept of transcription as a form a translation, see
+                    Peter Robinson and Elizabeth Solopova, “Guidelines for Transcription of the
+                    Manuscripts of the Wife of Bath’s Prologue,” in <hi rend="italic">The Canterbury
+                        Tales Project: Occasional Papers</hi>, ed. N. F. Blake and P. M. W. Robinson
+                    (Oxford: Oxford University Computing Services, Office for Humanities
+                    Communication, 1993), 1:19–52: “transcription of a primary textual source cannot
+                    be regarded as an act of substitution, but as a series of acts of translation
+                    from one semiotic system (that of the primary source) to another semiotic system
+                    (that of the computer). Like all acts of translation, it must be seen as
+                    fundamentally incomplete and fundamentally interpretative” (p. 21).</note>
+                <note xml:id="note16">"Bibliographical codes” is an expression crafted by Jerome
+                    McGann in The <hi rend="italic">Textual Condition</hi> (Princeton: Princeton
+                    University Press, 1991). As McGann mainly refers to printed books, I have
+                    proposed in a forthcoming article the expression “codicological codes” as a
+                    similar concept applied to manuscripts (Elena Pierazzo, “Of Time and Space: A
+                    New Framework for Digital Editions of Draft Manuscripts,” <hi rend="italic"
+                        >Variants</hi> 2014 [forthcoming]).</note>
+                <note xml:id="note17">See M. J. Driscoll, “The Words on the Page: Thoughts on
+                    Philology, Old and New,” in <hi rend="italic">Creating the Medieval Saga:
+                        Versions, Variability, and Editorial Interpretations of Old Norse Saga
+                        Literature</hi>, ed. Judy Quinn and Emily Lethbridge (Odense: Syddansk
+                    Universitetsforlag, 2010), 85–102; and Jean-Louis Lebrave, “De l’édition
+                    informatisée à l’édition électronique,” in <hi rend="italic">L’Édition du
+                        Manuscrit: De l’Archive de Création au Scriptorium Électronique, Au Coeur
+                        des Textes</hi>, ed. Aurèle Crasson (Louvain-La-Neuve: Academia Bruylant,
+                    2008), 169–88.</note>
+                <note xml:id="note18">See the project website (<ref type="url"
+                        target="http://www.langscape.org/">http://www.langscape.org/</ref>) and
+                    Peter Stokes and Elena Pierazzo, “Encoding the Language of Landscape: XML and
+                    Databases at the Service of Anglo-Saxon Lexicography,” in <hi rend="italic"
+                        >Perspectives on Lexicography in Italy and Europe</hi>, ed. Silvia Bruti,
+                    Roberta Cella, and Marina Foschi Albert (Newcastle: Cambridge Scholars
+                    Publishing, 2009), 203–38.</note>
+                <note xml:id="note19">See, for instance, TuStep, a software suite developed since
+                    the sixties at the University of Tübingen under the direction of Wilhelm Ott,
+                    assisting scholars in the creation of scholarly editions—including collation.
+                    See Ott, “Strategies and Tools for Textual Scholarship: The Tübingen System for
+                    Text Processing Program (TUSTEP),” <hi rend="italic">Literary and Linguistic
+                        Computing</hi> 15, no. 1 (2000): 93–108. But see also P. Gilbert, “Automatic
+                    Collation: A Technique for Medieval Texts,” <hi rend="italic">Computers and the
+                        Humanities</hi> 7, no. 3 (1973): 139–47.</note>
+                <note xml:id="note20"><hi rend="italic">The Canterbury Tales Project</hi> is
+                    directed by Peter Robinson, <ref type="url"
+                        target="http://www.canterburytalesproject.org/index.html"
+                        >http://www.canterburytalesproject.org/index.html</ref>. See a sample of <hi
+                        rend="italic">The Nun’s Priest’s Tale</hi>, edited by Paul Thomas, at the
+                    publisher’s website: <ref type="url"
+                        target="http://www.sd-editions.com/AnaAdditional/NPEx/index.html"
+                        >http://www.sd-editions.com/AnaAdditional/NPEx/index.html</ref>. Here, by
+                    clicking on “Compare,” one can compare different diplomatic editions of the
+                    various witnesses that compose the tradition of that tale.</note>
+                <note xml:id="note21">G. Thomas Tanselle, <hi rend="italic">A Rationale of Textual
+                        Criticism</hi> (Philadelphia: University of Pennsylvania Press, 1989). The
+                    terminology has been adopted by Robinson, “Towards a Theory of Digital
+                    Editions.”</note>
+                <note xml:id="note22">The oldest preserved, the best survived, the closest to the
+                    authorial intentions, the latest editions, and so on. Peter Shillingsburg does a
+                    very good job in putting different theoretical editorial position into an
+                    historical perspective: “Each generation seems to hope for the best answer and
+                    finds the effort of the older generations to be inadequate. Soon it will be our
+                    turn to have failed.” Shillingsburg, <hi rend="italic">From Gutenberg to
+                        Google</hi> (Cambridge: Cambridge University Press, 2006), p. 153. </note>
+                <note xml:id="note23">“The smoothness of the clear reading text, a hall mark of
+                    critical editing, in effect denies us an immediate awareness of the actual
+                    roughness of the textual record, and textuality itself.” John Bryant, <hi
+                        rend="italic">The Fluid Text: A Theory of Revision and Editing for Book and
+                        Screen</hi> (Ann Arbor: University of Michigan Press, 2002), 27. Peter
+                    Shillingsburg complains about the format and content of the apparatus which
+                    leave readers “between wanting [. . .] to know the variant versions of the work [. . .]
+                    and, on the other hand to forget the whole thing as more trouble than the effort
+                    of deciphering and sifting an apparatus was worth.” Shillingsburg, <hi
+                        rend="italic">Scholarly Editing in the Computer Age: Theory and
+                        Practice</hi> (Ann Arbor: University of Michigan Press, 1996), 118. See also
+                    J. Lavagnino, “Access,” <hi rend="italic">Literary and Linguistic Computing</hi>
+                    24, no. 1 (2009): 63–76.</note>
+                <note xml:id="note24">See <ref type="url"
+                        target="http://www.bbc.co.uk/news/entertainment-arts-11610489"
+                        >http://www.bbc.co.uk/news/entertainment-arts-11610489</ref>.</note>
+                <note xml:id="note25">See the story beautifully told by Eggert, <hi rend="italic"
+                        >Securing the Past</hi>, 164–78.</note>
+                <note xml:id="note26">Eggert, <hi rend="italic">Securing the Past</hi>, 180–84. See
+                    also Kline and Perdue, <hi rend="italic">A Guide to Documentary Editing</hi>,
+                    1–34.</note>
+                <note xml:id="note27">Or the battle of the intentionalists against the materialists,
+                    to use Bryant’s terminology (<hi rend="italic">The Fluid Text</hi>).</note>
+                <note xml:id="note28">By “best” it is here meant which editorial framework is better
+                    able to respond to the editors’ research questions. Fredson Bowers, in spite of
+                    being a strong champion of critical eclectic editing, seems to hint toward this
+                    direction in his essay of 1991, where he declares that it might be advisable in
+                    some cases to provide different editions for different types of readers, with
+                    documentary editions offered to scholars and critical editions for the general
+                    public (“Authorial Intention and the Editorial Problems,” <hi rend="italic"
+                        >Text</hi> 5 [1991]: 55, 61).</note>
+                <note xml:id="note29">In the Italian tradition of textual scholarship (in which I
+                    was trained), the contrary is true: editors approach works to be edited
+                    differently, according to the type of tradition that transmits the texts,
+                    “contaminating” methodologies in the search of the “most economic working
+                    hypothesis accounting for the data we possess” (“l’ipotesi di lavoro più
+                    economica che tenga conto dei dati”) (Gianfranco Contini, <hi rend="italic"
+                        >Breviario di Ecdotica</hi> [Torino: Einaudi, 1989]). Alfredo Stussi has
+                    elaborated an approach he calls <hi rend="italic">filologia d’autore</hi>
+                    (“philology of the author”), which suggests, in particular for modern authors,
+                    that editors apply the method that is better able to account for the surviving
+                    evidence (Stussi, <hi rend="italic">Introduzione agli Studi di Filologia
+                        Italiana</hi> [Bologna: Il Mulino, 2006]).</note>
+                <note xml:id="note30">Shillingsburg, <hi rend="italic">Scholarly Editing in the
+                        Computer Age</hi>, 26.</note>
+                <note xml:id="note31">“For the sake of convenience, they [i.e. documentary and
+                    critical editing] came to be known as historical and literary editing, a
+                    division many regarded as unrealistic and unfortunate” (Kline and Perdue, <hi
+                        rend="italic">A Guide to Documentary Editing</hi>, 11).</note>
+                <note xml:id="note32">See this position accounted for in Shillingsburg, <hi
+                        rend="italic">Scholarly Editing in the Computer Age</hi>, 17. The criticism
+                    of the critical editor is mostly implicit in Kline and Perdue, <hi rend="italic"
+                        >A Guide to Documentary Editing</hi> (cf., for instance, the mention of the
+                    “vanished archetype” at p. 3); however, it is mostly the principal argument of
+                    German editorial theories against Anglo-American copy-text orientation (cf.
+                    Shillingsburg, <hi rend="italic">From Gutenberg to Google</hi>, 173–88, for an
+                    account of the debate).</note>
+                <note xml:id="note33">See Greetham, <hi rend="italic">Textual Scholarship</hi>, and
+                    Bernard Cerquiglini, <hi rend="italic">Éloge de la variante: Histoire critique
+                        de la philologie</hi> (Paris: Seuil, 1989), English translation by Betsy
+                    Wing, <hi rend="italic">In Praise of the Variant: A Critical History of
+                        Philology</hi> (Baltimore: Johns Hopkins University Press, 1999).</note>
+                <note xml:id="note34">This criticism lies at the heart of the polemic between
+                    Tanselle and the ADI: see G. Thomas Tanselle, “The Editing of Historical
+                    Documents,” <hi rend="italic">Studies in Bibliography</hi>, 31 (1978): 1–56, and
+                    Kline and Perdue, <hi rend="italic">A Guide to Documentary Editing</hi>,
+                    19–22.</note>
+                <note xml:id="note35">Edward Vanhoutte, “Every Reader His Own Bibliographer—An
+                    Absurdity?” in <hi rend="italic">Text Editing, Print and the Digital World</hi>,
+                    ed. Marilyn Deegan and Kathryn Sutherland (Aldershot: Ashgate, 2009),
+                    99–110.</note>
+                <note xml:id="note36">More information about ITEM can be found at the Institute website at <ref type="url" target="http://www.item.ens.fr/"
+                        >http://www.item.ens.fr/</ref>.</note>
+                <note xml:id="note37">Almuth Grésillon, <hi rend="italic">Eléments de critique
+                        génétique: Lire les manuscrits modernes</hi> (Paris: Presses universitaires
+                    de France, 1994), 195–202.</note>
+                <note xml:id="note38">A particularly good (or bad) example of this is represented by the genetic edition of Gustave Flaubert’s <hi rend="italic">Hérodias</hi>, edited by Giovanni Bonaccorso et al. (Paris: Nizet, 1991); this edition encompasses nine different types of arrows to mark the location of interlinear and marginal insertions belonging to four different revision campaigns. But see also Michael Hunter, <hi
+                        rend="italic">Editing Early Modern Texts: An Introduction to Principles and
+                        Practice</hi> (New York: Palgrave Macmillan, 2007), 118–20, for complaints
+                    about similar issues in documentary editions of early modern texts.</note>
+                <note xml:id="note39">See, for instance, the diplomatic edition of the Domesday Book
+                    by Abraham Farley and Herry Ellis in 1783.</note>
+                <note xml:id="note40">An exception is some of the editions sponsored by the Early
+                    English Text Society (EETS), whose focus is on Old and Middle English texts,
+                    covering works that have literary, linguistic, and historical interest.</note>
+                <note xml:id="note41">One of the rare exceptions is represented, for instance, by
+                    Hans Walter Gabler’s edition of <hi rend="italic">Ulysses</hi>, which has been
+                    mentioned before. It is not, strictly speaking, a <hi rend="italic"
+                        >Historisch-Kritische Ausgaben</hi> nor a genetic edition but an
+                    adaptation of their methodologies to specific case. It is not a surprise,
+                    then, that such an edition was conceived in a country with a more favorable
+                    attitude toward this type of edition (James Joyce, <hi rend="italic">Ulysses: A
+                        Critical and Synoptic Edition</hi>, ed. Hans Walter Gabler [New York:
+                    Garland, 1984]). </note>
+                <note xml:id="note42">Hunter, <hi rend="italic">Editing Early Modern Texts</hi>,
+                    75.</note>
+                <note xml:id="note43">Cerquiglini, <hi rend="italic">In Praise of the Variant</hi>;
+                    McGann, <hi rend="italic">The Textual Condition</hi>. Cf. Driscoll, “The Words
+                    on the Page.”</note>
+                <note xml:id="note44">Richard J. Finneran, ed., <hi rend="italic">The Literary Text
+                        in the Digital Age</hi> (Ann Arbor: University of Michigan Press, 1996),
+                    x.</note>
+                <note xml:id="note45">Supported by Joseph Bédier, “La tradition manuscrite du Lai de
+                    l’Ombre: Réflexions sur l’art d’éditer les anciens textes,” <hi rend="italic"
+                        >Romania</hi> 54 (1928): 61–96, 321–56.</note>
+                <note xml:id="note46">Cf. Shillingsburg, <hi rend="italic">Scholarly Editing in the
+                        Computer Age</hi>, 16–27. </note>
+                <note xml:id="note47">This is what Peter Robinson seems to fear the most: “The
+                    dominance of the document model of textual editing in the digital realm suggests
+                    that a theory of digital editions is emerging, based on page-by-page
+                    transcription of individual documents, which asserts that a digital edition
+                    should concentrate on documents alone” (“Towards a Theory of Digital Editions,”
+                    126).</note>
+                <note xml:id="note48">The people that contributed to the elaboration of the new
+                    model are: Anne Bohnenkamp (Goethe Universität), John Bryant (Hofstra
+                    University), Aurèle Crasson (ITEM), Jean-Daniel Fekete (INRIA), Daniel Ferrer
+                    (ITEM), Hans Walter Gabler (Ludwig-Maximilians Universität München), Axel
+                    Gellhaus (Institut für Germanistische und Allgemeine Literaturwissenschaft der
+                    RWTH Aachen), Almuth Grésillon (ITEM), Claus Huitfeldt (University of Bergen),
+                    Dirk van Hulle (Universitte of Antwerp), Jean-Louis Lebrave (ITEM), Wolfgang
+                    Lukas, Kenneth M. Price (University of Nebraska–Lincoln), Kathryn Sutherland
+                    (St. Anne’s College, Oxford University). Members of the working group were
+                    Fotis Iannidis (University of Würzburg), Gregor Middell, Moritz Wissenbach
+                    (University of Würzburg), Malte Rehbein (University of Passau), Lou Burnard
+                    (University of Oxford), Paolo D’Iorio (ITEM), and Elena Pierazzo (King’s College
+                    London).</note>
+                <note xml:id="note49">See Elena Pierazzo and Peter A. Stokes, “Putting the Text Back
+                    into Context: A Codicological Approach to Manuscript Transcription,” in <hi
+                        rend="italic">Kodikologie und Paläographie im Digitalen Zeitalter
+                        2—Codicology and Palaeography in the Digital Age 2</hi>, ed. Franz Fischer,
+                    Christiane Fritze, and Georg Vogeler, Schriften des Instituts für Dokumentologie
+                    und Editorik 3 (Norderstedt, 2010), 397–430, urn:nbn:de:hbz:38-43605.</note>
+                <note xml:id="note50">Elena Pierazzo, “Digital Genetic Editions: The Encoding of
+                    Time in Manuscript Transcription,” in <hi rend="italic">Text Editing, Print and
+                        the Digital World</hi>, ed. Marilyn Deegan and Kathryn Sutherland, 169–86
+                    (Aldershot: Ashgate, 2009), p. 169.</note>
+                <note xml:id="note51">See, for instance, some of the work done by Dirk Van Hulle
+                    over Samuel Beckett’s draft manuscripts, and in particular D. Van Hulle, <hi
+                        rend="italic">The Making of Samuel Beckett's “Stirrings Still / Soubresauts”
+                        and “Comment dire /what is the word”</hi> (Brussels: Academic Scientific
+                    Publishers, 2011). The book represents the theoretical counterpart of the <hi
+                        rend="italic">Samuel Beckett Digital Manuscript Project</hi>, direction by
+                    Dirk Van Hulle and Mark Nixon and technical realization by Vincent Neyt, <ref
+                        type="url" target="http://www.beckettarchive.org/"
+                        >http://www.beckettarchive.org/</ref>.</note>
+                <note xml:id="note52">Again, the works of Samuel Beckett included in the Beckett’s
+                    archive, edited by Dirk Van Hulle, demonstrates how flexible and suitable the
+                    web is in accommodating the complexities of the draft manuscripts.</note>
+                <note xml:id="note53">See J. André and E. Pierazzo, “Le codage en TEI des brouillons
+                    de Proust: vers une édition numérique,” <hi rend="italic">Genesis</hi> 36
+                    (2013): 155–61, and Pierazzo, “Of Time and Space.”</note>
+                <note xml:id="note54">Citing one of the badges proposed by the TEI: <ref type="url"
+                        target="http://www.tei-c.org/About/Badges/"
+                        >http://www.tei-c.org/About/Badges/</ref>.</note>
+                <note xml:id="note55">See the experience of the Faust Edition Project in using the
+                    documentary encoding on a full-scale project: Gerrit Brüning, Katrin Henzel, and
+                    Dietmar Pravida, “Multiple Encoding in Genetic Editions: The Case of ‘Faust,’”
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> 4 (2013),
+                        <ref type="url"
+                        target="http://jtei.revues.org/697;
+                        DOI:10.4000/jtei.697"
+                        >http://jtei.revues.org/697; DOI:10.4000/jtei.697</ref>.</note>
+                <note xml:id="note56">Tara Andrews, “The Third Way: Philology and Critical Edition
+                    in the Digital Age,” <hi rend="italic">Variants</hi> 10 (2013): 63.</note>
+                <note xml:id="note57">See the excellent work and reflections developed within the
+                    Interedition project (<ref type="url" target="http://www.interedition.eu/"
+                        >http://www.interedition.eu/</ref>); the seminars and meetings organized by
+                    the NeDiMAH network (<ref type="url" target="http://www.nedimah.eu/"
+                        >http://www.nedimah.eu/</ref>); the recent workshop “Easy Tools for
+                    Difficult Texts” organized by the Huygens Institute for the History of the
+                    Netherlands in The Hague (<ref type="url"
+                        target="http://easytools.huygens.knaw.nl/"
+                        >http://easytools.huygens.knaw.nl/</ref>); and many other initiatives along
+                    these lines. </note>
+                <note xml:id="note58">Andrews, “The Third Way,” 73.</note>
+                <note xml:id="note59">See Elena Pierazzo, “The Role of Technology in Scholarly
+                    Editing” (paper presented at the TEI Members’ Meeting at the University of
+                    Würzburg, 2011), abstract available at <ref type="url"
+                        target="http://www.tei-c.org/Vault/MembersMeetings/2011/tei_mm_2011/abstracts/abstracts_papers/index.html"
+                        >http://www.tei-c.org/Vault/MembersMeetings/2011/tei_mm_2011/abstracts/abstracts_papers/index.html</ref>.</note>
+                <note xml:id="note60">But see also Tim McLoughlin’s illuminating contribution over
+                    the intellectual difficulties that editors have to face once confronted with the
+                    standardization required by the use of digital methodologies: McLoughlin,
+                    “Bridging the Gap,” in <hi rend="italic">Jahrbruch für Computerphilologie</hi>,
+                    ed. Malte Rehbein and Sean Ryder, 10 (2010): 37–54, <ref type="url"
+                        target="http://computerphilologie.tu-darmstadt.de/jg08/mclough.pdf"
+                        >http://computerphilologie.tu-darmstadt.de/jg08/mclough.pdf</ref>.</note>
+                <note xml:id="note61">Unexpected by its own supporters: as mentioned above, in 2007
+                    only Gabler was advocating for a renewed scholarly interest in documentary
+                    editions (Gabler, “The Primacy of the Document”). </note>
+                <note xml:id="note62">Robinson, “Towards a Theory of Digital Editions,” 127.</note>
+                <note xml:id="note63">Pierazzo and Stokes, “Putting the Text Back into
+                    Context.”</note>
+                <note xml:id="note64">Daniel Ferrer, “The Open Space of the Draft Page: James Joyce
+                    and Modern Manuscripts,” in T<hi rend="italic">he Iconic Page in Manuscript,
+                        Print and Digital Culture</hi>, ed. George Bornstein and Theresa Tinkle,
+                    249–67 (Ann Arbor: University of Michigan Press, 1998).</note>
+                <note xml:id="note65">Pierazzo, “Of Time and Space.”</note>
+                <note xml:id="note66">See, for instance, the very promising research undertaken by
+                    Edward Vanhoutte in several of his contributions such as “Every
+                    Reader His Own Bibliographer” and “Defining Electronic Editions: A Historical
+                    and Functional Perspective” in <hi rend="italic">Text and Genre in Reconstruction: Effects of
+                    Digitalization on Ideas, Behaviours, Products and Institutions</hi>, ed. Willard
+                    McCarty, 119–44 (Cambridge: Open Book Publisher, 2010).</note>
+
+            </div>
+        </back>
+    </text>
+</TEI>

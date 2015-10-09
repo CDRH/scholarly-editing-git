@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18631212.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Loyal Woman's No</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18631212.4</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#unk">[Unsigned]</author>
+                        <title level="a">A Loyal Woman's No</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-12-12">12 December 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="unk">Larcom, Lucy, 1824-1893</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Women</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-02" who="#el">checked transcription and encoding</change>
+            <change when="2012-07-28" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>            
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18631212.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18631212.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18631212.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18631212.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18631212.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">A LOYAL WOMAN'S NO.<note type="editorial" resp="#bw #el">Unattributed in the <title level="j">National Anti-Slavery Standard</title>, "A Loyal Woman's No" was by New England poet Lucy Larcom (1824&#8211;1893). Larcom's friend John Greenleaf Whittier wrote to her in December 1863 to congratulate her on "Loyal Woman's No!": "It is grand in its indignant pride of patriotism. I see it is immensely popular&#8212;a proof that the people regard it as a 'word in season'" (Samuel T. Pickard, <title level="m">Life and Letters of John Greenleaf Whittier</title> [Boston: Houghton, 1894], 2:471).</note></head>
+                
+                <lg type="stanza">
+                    <l>No! is my answer from this cold, bleak ridge,</l>
+                    <l rend="indented1">Down to your valley: you may rest you there:</l>
+                    <l>The gulf is wide, and none can build a bridge</l>
+                    <l rend="indented1">That your gross weight would safely hither bear.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Pity me, if you will. I look at you</l>
+                    <l rend="indented1">With something that is kinder far than scorn,</l>
+                    <l>And think, "Ah, well! I might have grovelled, too;</l>
+                    <l rend="indented1">I might have walked there, fettered and forsworn."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>I am of nature weak as others are;</l>
+                    <l rend="indented1">I might have chosen comfortable ways;</l>
+                    <l>Once from these heights I shrank, beheld afar,</l>
+                    <l rend="indented1">In the soft lap of quiet, easy days.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>I might (I will not hide it)&#8212;once I might</l>
+                    <l rend="indented1">Have lost, in the warm whirlpools of your voice,</l>
+                    <l>The sense of Evil, the stern cry of Right;</l>
+                    <l rend="indented1">But Truth has steered me free, and I rejoice:</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not with the triumph that looks back to jeer</l>
+                    <l rend="indented1">At the poor herd that call their misery bliss;</l>
+                    <l>But as a mortal speaks when God is near,</l>
+                    <l rend="indented1">I drop you down my answer: it is this:</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>I am not yours, because you seek in me</l>
+                    <l rend="indented1">What is the lowest in my own esteem:</l>
+                    <l>Only my flowery levels can you see,</l>
+                    <l rend="indented1">Nor of my heaven-smit summits do you dream.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>I am not yours, because you love yourself;</l>
+                    <l rend="indented1">Your heart has scarcely room for me beside,</l>
+                    <l>I could not be shut in with name and pelf;</l>
+                    <l rend="indented1">I spurn the shelter of your narrow pride!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not yours&#8212;because you are not man enough</l>
+                    <l rend="indented1">To grasp your country's measure of a man!<note type="editorial" resp="#bw #el">In rejecting her civilian suitor's proposal of marriage, the patriotic woman speaker promotes enlistment. The poem is one of the war's many "prescriptive enlistment fables" that represented "young women renouncing and chastising those men who refused to enlist" (Alice Fahs, <title level="m">The Imagined Civil War: Popular Literature of the North and South, 1861&#8211;1865</title> [Chapel Hill: University of North Carolina Press, 2001], 125). The speaker's assertion of her own political commitment and agency aligns her with Union women who "began to hold themselves to a new standard of patriotism, grappling with the ideological and political content of their patriotism and making their political and ideological utterances their own" (Nina Silber, <title level="m">Gender and the Sectional Conflict: The Steven and Janice Brose Lectures in the Civil War Era</title>, ed. William Blair [Chapel Hill: University of North Carolina Press, 2008], 58).</note></l>
+                    <l>If such as you, when Freedom's ways are rough,</l>
+                    <l rend="indented1">Cannot walk in them, learn that women can!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not yours, because in this the nation's need,</l>
+                    <l rend="indented1">You stoop to bend her losses to your gain,<note type="editorial" resp="#bw #el">The suitor is a businessman or profiteer who sees the war as an opportunity for personal gain.</note></l>
+                    <l>And do not feel the meanness of your deed;</l>
+                    <l rend="indented1">I touch no palm defiled with such a stain!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Whether man's thought can find too lofty steeps</l>
+                    <l rend="indented1">For woman's scaling, care not I to know;</l>
+                    <l>But when he falters by her side, or creeps,</l>
+                    <l rend="indented1">She must not clog her soul with him to go.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Who weds me must at least with equal pace</l>
+                    <l rend="indented1">Sometimes move with me at my being's height:</l>
+                    <l>To follow him to his more glorious place,</l>
+                    <l rend="indented1">His purer atmosphere, were keen delight.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>You lure me to the valley: men should call</l>
+                    <l rend="indented1">Up to the mountains, where the air is clear.</l>
+                    <l>Win me and help me climbing, if at all!</l>
+                    <l rend="indented1">Beyond these peaks rich harmonies I hear,&#8212;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The morning chant of Liberty and Law!</l>
+                    <l rend="indented1">The dawn pours in, to wash out Slavery's blot:</l>
+                    <l>Fairer than aught the bright sun ever saw</l>
+                    <l rend="indented1">Rises a nation without stain or spot.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The men and women mated for that time</l>
+                    <l rend="indented1">Tread not the soothing mosses of the plain:</l>
+                    <l>Their hands are joined in sacrifice sublime;</l>
+                    <l rend="indented1">Their feet firm set in upward paths of pain.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Sleep your thick sleep, and go your drowsy way!</l>
+                    <l rend="indented1">You cannot hear the voices in the air!</l>
+                    <l>Ignoble souls will shrivel in that day:</l>
+                    <l rend="indented1">The brightness of its coming can you bear?</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>For me I do not walk these hills alone:</l>
+                    <l rend="indented1">Heroes who poured their blood out for the Truth,</l>
+                    <l>Women whose hearts bled, martyrs all unknown,</l>
+                    <l rend="indented1">Here catch the sunrise of immortal youth</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>On their pale cheeks, and consecrated brows!</l>
+                    <l rend="indented1">It charms me not,&#8212;your call to rest below:</l>
+                    <l>I press their hands, my lips pronounce their vows:</l>
+                    <l rend="indented1">Take my life's silence for your answer: No!</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Atlantic Monthly</title> <emph rend="italic">for December.</emph><note type="editorial" resp="#bw #el">Supported by a number of New England writers (Whittier among them), Francis Underwood founded the <title level="j">Atlantic Monthly</title> in 1857. The <title level="j">Atlantic</title>'s circulation was smaller than that of its competitors, but "it often carried greater intellectual prestige" (Ellery Sedgwick, <title level="m">The Atlantic Monthly, 1857&#8211;1909: Yankee Humanism at High Tide and Ebb</title> [Boston: University of Massachusetts Press, 1994], 2&#8211;3). Under the editorial management of James Russell Lowell (1857&#8211;61) and James T. Fields (1861&#8211;71), the title's political sympathies were shaped by its strong antislavery stance. The strategic approach of publisher Fields resulted in a significant increase in the <title level="j">Atlantic</title>'s circulation, "from 32,000 in 1861 to over 50,000 by 1866, the largest readership it was to reach in the nineteenth century" (Sedgwick, 81).</note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640402.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Be Joyful!</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640402.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#bcs">B. Clark, Sen.</author>
+                        <title level="a">Be Joyful!</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-04-02">2 April 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="bcs">Clark, Benjamin, Sr.</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>African-American soldiers</term>
+                    <term>Copperhead movement</term>
+                    <term> 	United States. Army. Michigan Cavalry Brigade (1862-1865)</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                    <term>United States--History--Civil War, 1861-1865--Songs and music</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-14" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640402.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640402.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640402.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640402.pp4.jpg"/>            
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18640402.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">BE JOYFUL!</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <head type="sub" subtype="authorial" rend="center">TO THE FIRST COLORED REGIMENT OF MICHIGAN.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY B. CLARK, SEN.<note type="editorial" resp="#bw #el"><p>Benjamin Clark, Senior (1801&#8211;1864), born in Maryland. He described himself as the son "of parents, on the one side, who, like many others, had the good fortune to become emancipated after more than thirty years of unrequited toil" (B. Clark, Sen., <title level="m">The Past, Present and Future in Poetry and Prose</title> [Toronto: Adam, Stevenson and Co., 1867], 7). At some point before 1831, Clark and his wife, Caroline, moved north to Pennsylvania with their two sons. Census records for 1850 place the Clark family in York, Pennsylvania. Benjamin and Caroline lived with ten children aged one through twenty-four. Their eldest boys had established trades&#8212;one a tailor, another a shoemaker. Clark himself was a successful "blue dyer," with real estate worth $1,000. He was troubled by his lungs, perhaps as a result of a life in dye works. In 1861 he moved to Detroit City, Michigan, to recover his health. He died there on February 10, 1864; an <title level="j">Anglo-African</title> obituary of March 12, 1864, describes him as a member of the African Methodist Episcopal Church and a temperance advocate.</p><p>Throughout his life, Clark wrote occasional verse on political, religious, and domestic subjects. Several pieces attributed to "B. Clark, SEN" appeared in <title level="j">Frederick Douglass' Paper</title> and the <title level="j">Weekly Anglo-African</title>. These and other poems were published in a collection of his writing, <title level="m">The Past, Present and Future in Prose and Poetry</title> (1867). "Be Joyful!," one of Clark's last poems, is the final piece in the book. Before he died, he outlined his aims and assumed a posture of humility in introductory paragraphs headed "Autobiography": "an earnest desire to assist in swelling the tide of righteous indignation against a system of oppression and wrong inflicted upon a helpless and inoffensive portion of his brethren, is his only apology for appearing before the public" (8).</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Two</emph> years gone by, then we were told</l>
+                    <l rend="indented1">We do not want your aid;</l>
+                    <l>Our fighting all we mean to do,</l>
+                    <l rend="indented1">And dying, too, 'twas said.</l>
+                    <l>Truth now maintains her ancient strife</l>
+                    <l rend="indented1">With Slavery, loud and long,</l>
+                    <l>In deadly grasp they struggle on,</l>
+                    <l rend="indented2">'Till Right shall conquer Wrong.</l>
+                </lg>
+                
+                
+                <lg type="chorus">
+                    <l><emph rend="italic">Chorus</emph>&#8212;Oh, it will be joyful, joyful, joyful,</l>
+                    <l rend="indented2">Oh, it will be joyful, when slavery is no more!</l>
+                    <l>When slavery is no more, when slavery is no more,</l>
+                    <l>Oh, then we'll sing, an offering bring,</l>
+                    <l rend="indented3">When Slavery is no more.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The Wolverines of Michigan,</l>
+                    <l rend="indented1">The colored First, though new,</l>
+                    <l>Will boldly march upon the plain,</l>
+                    <l rend="indented1">And strike for Freedom, too.</l>
+                    <l>With Milliken's, with Hudson and</l>
+                    <l rend="indented1">Fort Wagner now in view,<note type="editorial" resp="#bw #el">African American troops distinguished themselves in combat at Milliken's Bend (June 7, 1863), Port Hudson (May 27, 1863), and Fort Wagner (July 18, 1863). Northern newspapers with antislavery sympathies reported the soldiers' feats, and thus challenged widespread contemporary prejudice against African American enlistment. The bravery of these regiments helped to turn the tide of Northern public opinion in favor of African American military service and the abolition of slavery.</note></l>
+                    <l>We'll bleed and die for Liberty,</l>
+                    <l rend="indented1">As Freemen only do.</l>
+                    <l rend="indented4"><emph rend="italic">Chorus</emph>&#8212;Oh, that will be joyful, etc.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>To make our country what it should</l>
+                    <l rend="indented1">Have always been of right,</l>
+                    <l>A land of justice, equal laws,</l>
+                    <l rend="indented1">And not of force and might;</l>
+                    <l>A place where not a fettered slave</l>
+                    <l rend="indented1">Shall ever clank his chains,</l>
+                    <l>But where, without regard to caste,</l>
+                    <l rend="indented1">Freedom and Truth shall reign.</l>
+                    <l rend="indented4"><emph rend="italic">Chorus</emph>&#8212;Oh, it will be joyful, etc.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l> What, then, shall our status be</l>
+                    <l rend="indented1">When victory shall be won&#8212;</l>
+                    <l>When, marked and scarred, with tattered flag,</l>
+                    <l rend="indented1">We from the battle come?</l>
+                    <l>We care not what we then shall be,</l>
+                    <l rend="indented1">But if we're true and brave,</l>
+                    <l>Be what we will, with arms in hand,</l>
+                    <l rend="indented1">Not one shall be a slave.</l>
+                    <l rend="indented4"><emph rend="italic">Chorus</emph>&#8212;Oh, it will be joyful, etc.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We fight for God and Liberty,</l>
+                    <l rend="indented1">For Justice, Truth and Right,</l>
+                    <l>The freedom of the helpless slave,</l>
+                    <l rend="indented1">Against the tyrant's might.</l>
+                    <l>We do not doubt which will succeed</l>
+                    <l rend="indented1">In such a cause as this;</l>
+                    <l>The bullets of a freeman's arm</l>
+                    <l rend="indented1">Were never known to miss.</l>
+                    <l rend="indented4"><emph rend="italic">Chorus</emph>&#8212;Oh, it will be joyful, etc.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We be heard from Louisiana,</l>
+                    <l rend="indented1">The Bay State, and from Penn.,</l>
+                    <l>And last&#8212;not least&#8212;here comes the sons</l>
+                    <l rend="indented1">Of good old Michigan.</l>
+                    <l>And now three cheers for Mr. Barns,<note type="editorial" resp="#bw #el">Henry Barns (1815&#8211;?), owner and editor of the <title level="j">Detroit Tribune and Daily Advertiser</title>. Barns was instrumental in the formation of Michigan's First African American regiment. After making numerous appeals, he received authorization to raise a black regiment on August 12, 1863. He conducted a vigorous recruitment campaign, in spite of Copperhead opposition. By the end of March 1864, the regiment was full and ready to leave Camp Ward. Orders were received on March 25; the regiment left three days later, on March 28, with Barns as its colonel (a post he gave up to a man better qualified some days later). Before its departure, the regiment "halted on Jefferson avenue to give friends and relatives an opportunity to bid the brave boys good-bye" (<title level="j">Advertiser</title>, March 28, 1864). Clark may well have written "Be Joyful!" in response to the regiment's preparations for departure&#8212;which he may have witnessed firsthand or read about in the columns of Detroit papers like the <title level="j">Tribune and Advertiser</title>. Barns's name does not appear in the later book version of the poem.</note></l>
+                    <l rend="indented1">Who has the soldiers made,</l>
+                    <l>And three loud groans for Copperheads,<note type="editorial" resp="#bw #el">A poisonous snake, "Copperhead" became the popular (Republican) name for so-called Peace Democrats, who opposed the administration's war policies and promoted peace with the South. Copperheads were widely associated with disloyalty and treachery on the home front.</note></l>
+                    <l rend="indented1">Who will not lend them aid.</l>
+                    <l rend="indented4"><emph rend="italic">Chorus</emph>&#8212;Oh, it will be joyful, etc.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
+

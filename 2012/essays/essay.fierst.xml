@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A 'Succession of Little Occurrences'</title>
+                <title level="a" type="sub"
+                    >Scholarly Editing and the Organization of Time in John Tanner's <hi
+                    rend="italic">Narrative</hi></title>
+                <author>John T. Fierst</author>
+            </titleStmt>
+            <editionStmt>
+                <edition> <date>2012</date> </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.fierst</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+          <addrLine>http://www.scholarlyediting.org</addrLine>
+        </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor> <name>Center for Digital Research in the Humanities</name>
+                    <address>
+            <addrLine>319 Love Library</addrLine>
+            <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+            <addrLine>Lincoln, NE 68588-4100</addrLine>
+            <addrLine>http://cdrh.unl.edu</addrLine>
+          </address> </distributor>
+                <date>2012</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j"
+                    >Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl> <note>Born digital.</note> </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-01-23" who="#awj">markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">A "Succession of Little Occurrences"</head>
+            <head type="sub">Scholarly Editing and the Organization of Time in John Tanner's <hi
+                rend="italic">Narrative</hi></head>
+            <byline>John T. Fierst</byline>
+            <epigraph>
+                <cit>
+                    <quote>"It is to be remembered, that the life of the savage, like that of the civilized man, is made up of a succession of little occurrences, each unimportant by itself, but which require to be estimated in making up an opinion of the character of either."</quote>
+                    <bibl>&#8212;Edwin James<ptr target="#note1" xml:id="nr1" n="1" /></bibl>
+                </cit>
+            </epigraph>
+        </front>
+        <body>
+            <div type="section">
+                <p>In the spring of 1790 <hi rend="italic">Manidoogiizhig</hi> and his son <hi
+                    rend="italic"
+                    >Giishkako</hi>, with five other Anishinaabe warriors, made their way down the Great Miami River to its confluence with the Ohio, a mile below present-day Cincinnati.  Across the Ohio River they hid themselves at the edge of Rev. John Tanner's station and hours later took Tanner's wandering nine-year-old son John captive.<ptr
+                    target="#note2" xml:id="nr2" n="2"
+                     />  In 1818, twenty-eight years after his capture, and six years after Reverend Tanner's death, John Tanner, <hi
+                    rend="italic"
+                    >Zhaazhaawanibiisens</hi>, returned to Kentucky for the first time, having spent his life with the Odawa in the Red River country west of Lake Superior.  In 1830 with the assistance of Edwin James, Tanner published an account of his experiences.</p>
+                <p>That April, when G. &amp; C. &amp; H. Carvill, a bookseller in New York, brought out Tanner's four hundred and twenty-six page memoir, the publishers adorned it with a lengthy title typical of the captivity genre: <hi
+                    rend="italic"
+                    >A Narrative of the Captivity and Adventures of John Tanner (U. S. Interpreter at the Saut De Ste. Marie,) during Thirty Years Residence among the Indians in the Interior of North Americ</hi>a<hi
+                    rend="italic"
+                    >.  </hi>North American captivity narratives, stories of Euro-Americans taken captive by Native Americans, were once thought to comprise a uniquely American genre.  According to historian Joe Snader, however, they actually form but "one strand" in a long tradition of captivity literature that flowered in the British press in the seventeenth and eighteenth centuries.<ptr
+                    target="#note3" xml:id="nr3" n="3"
+                     />  In that North American strand, certain narratives are familiar to American readers, <hi
+                    rend="italic">The Sovereignty &amp; Goodness of God: </hi><hi rend="italic"
+                    >Being a Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson</hi>, for example, or the <hi
+                    rend="italic"
+                    >Narrative of the Life of Mrs. Mary Jemison</hi>, who was taken captive during the French and Indian War.  John Tanner's account, describing his life among the Great Lakes Anishinaabeg, is less well known, although it can be argued that it is perhaps the richest of all North American captivity narratives.  The ornate title under which it was published is unfortunate, both because "captivity and adventures" belies the true nature of Tanner's account and also because the wording "residence among the Indians" denies the depth of John Tanner's transculturation.  When Tanner recorded the <hi
+                    rend="italic"
+                    >Narrative</hi>, his worldview was Anishinaabe.  The principles though which he internalized experience were Anishinaabe.  He could neither read nor write English.  Although Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi> has been narrowly classified as captivity literature, what makes it truly remarkable and singular is the experience of transculturation that informs it.</p>
+                <figure>
+                    <head>From Henry Inman's 1828 portrait of John Tanner, Cephas G. Childs prepared the lithograph that appears as the frontispiece to the 1830 edition of Tanner’s <hi
+                        rend="italic">Narrative</hi>.</head>
+                    <figDesc>From Henry Inman's 1828 portrait of John Tanner, Cephas G. Childs prepared the lithograph that appears as the frontispiece to the 1830 edition of Tanner’s Narrative.
+                    </figDesc>
+                    <graphic url="images/essay.fierst.01.jpg" />
+                </figure>
+                <p>Tanner's <hi rend="italic"
+                    >Narrative</hi> is made up of three parts: Edwin James's long introduction; the narrative proper; and a set of ethnographic appendices.<ptr
+                    target="#note4" xml:id="nr4" n="4"
+                     />  It has been reprinted numerous times with an identical British edition coming out the same year the <hi
+                    rend="italic">Narrative</hi> was published in New York.<ptr target="#note5"
+                    xml:id="nr5" n="5"
+                     />  A year later, during his travels in Michigan Territory in 1831, Alexis De Tocqueville met Tanner at Sault Ste. Marie and took Tanner's <hi
+                    rend="italic"
+                    >Narrative </hi>back to France where he had it translated into French.  French and German editions were released afterwards.  Alexander Pushkin even translated sections of the French edition into Russian and published them in his journal.<ptr
+                    target="#note6" xml:id="nr6" n="6" />  In the twentieth century the <hi
+                    rend="italic"
+                    >Narrative</hi> was reissued six times, a number that does not include all the derivative microfilm and microform copies that were also produced.  Today one can find eBook copies of the <hi
+                    rend="italic"
+                    >Narrative</hi> online as well as an electronic reproduction of the original 1830 edition.  Nonetheless, despite the numerous times it has been reprinted, Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi> remains a relatively obscure, albeit intriguing, text.  It would be better known today and its importance as a significant work of American literature more fully appreciated if at some time it had been edited as an historical document.</p>
+                <p>Tanner, however, presents some daunting editorial challenges.  Anishinaabe place names occur throughout the text, making it difficult for most readers to understand the geography of the <hi
+                    rend="italic">Narrative</hi>, and in the entire fifteen chapters of the <hi
+                    rend="italic"
+                    >Narrative</hi> proper only two numerical dates are given, and they are incorrect.  This lack of dates makes it difficult to locate the events of the <hi
+                    rend="italic"
+                    >Narrative</hi> in Western time.  (The editorial importance of being able to locate events in Western time will be taken up later in this essay.)  The original manuscript of the <hi
+                    rend="italic"
+                    >Narrative</hi> moreover has never been located, nor is there an archive or collection of Tanner papers.  These issues are small, however, compared to the central question of voice that the composition of the <hi
+                    rend="italic">Narrative</hi> raises.  The <hi rend="italic"
+                    >Narrative </hi>is essentially an Indian document, an oral accounting, probably delivered in an Odawa dialect mixed with broken English then recast in Standard English by Edwin James.  The foremost challenge for the editor, then, is to come to terms with the dual nature of this very complicated text, an Anishinaabe account rendered in English.  Behind this challenge lies a reality that the text vividly exposes, a reality often ignored, and that is that scholarly editing itself is a culturally bound practice.  Scholars have become more sensitive to the levels of meaning embodied in the texts they study, more aware of the cultural hegemony that can inform the writing of history, more sensitive to discourse, but an ethnohistorical account like Tanner's makes clear just how wide the gap between text and understanding can be.</p>
+                <p>Until recently, readers generally have ignored the central issue of voice.<ptr
+                    target="#note7" xml:id="nr7" n="7"
+                     />   Consequently, ever since it first appeared in print the <hi rend="italic"
+                    >Narrative</hi> has been underappreciated by both its detractors and its defenders.  Not long after its publication, the Indian agent at Sault Ste. Marie for whom Tanner in the late 1820s served as interpreter, the celebrated ethnologist Henry Rowe Schoolcraft, dismissed the <hi
+                    rend="italic"
+                    >Narrative</hi> outright.  He accused Edwin James of being credulous.  James, according to Schoolcraft, had not questioned Tanner's fidelity and had made a "pack-horse of Indian opinions of him."<ptr
+                    target="#note8" xml:id="nr8" n="8"
+                     />    Others would erase the presence of James altogether, perhaps to emphasize the Anishinaabe character of the <hi
+                    rend="italic"
+                    >Narrative</hi>.  In the 1994 Penguin Books edition, for example, this leads to confusion where James's original footnotes are retained but are not attributed to him.  There is much to learn about the <hi
+                    rend="italic"
+                    >Narrative </hi>by addressing the question of voice and the role of Edwin James.  If anything, such an editorial approach shows how much Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi>, though recorded in English, is foremost an Anishinaabe account.  Not all questions about Tanner's voice can be answered, but an editorial methodology that brings together the practices of both ethnohistory and documentary editing has much to contribute to a deepening appreciation of the <hi
+                    rend="italic">Narrative</hi>.</p>
+                <p>A goal of documentary editing is to make the documents editors work with easier to understand and to provide readers the historical context needed to study those documents.  The editors on the John Tanner Project want to provide readers&#8212;Anishinaabe and non-Anishinaabe&#8212;a reliable source on which to build and extend their own understanding of the <hi
+                    rend="italic"
+                    >Narrative</hi>.  No single perspective can provide a definitive edition of this work.  We are all bound by the limits of our own cultural perspectives, and the content of the <hi
+                    rend="italic"
+                    >Narrative</hi> calls for different types of close readings.  As editors, our goal is to provide readers with as clear a text of the <hi
+                    rend="italic"
+                    >Narrative</hi> as the available evidence, and our understanding of that evidence, makes possible.  Tanner's reality, of course, cannot be recreated, but through different lines of inquiry the actual events, people, places, language, customs, etc., of the <hi
+                    rend="italic"
+                    >Narrative</hi> can be discerned and quite often verified, something that can be accomplished while respecting cultural boundaries.  By preserving the <hi
+                    rend="italic">evidentiary</hi> value of the <hi rend="italic"
+                    >Narrative</hi> and assisting readers to discover the nuances of meaning found therein, we hope to foster recognition of the importance of Tanner's account.</p>
+                <p>To explicate the <hi rend="italic"
+                    >Narrative </hi>properly requires a variety of approaches to evidence, from straightforward archival research to linguistic fieldwork among Ojibwe speakers.   Other than Patricia Galloway's "Dearth and Bias: Issues in the Editing of Ethnohistorical Materials," little has been written about this subject.<ptr
+                    target="#note9" xml:id="nr9" n="9"
+                     />  Galloway makes clear how important it is to call attention to ethnohistorical material embedded in Euro-American documents.  In Tanner one of the notable features of the text are the many Ojibwe words of cultural importance.  Edwin James gave especially careful attention to Ojibwe names for people (<hi
+                    rend="italic">Waagigaad</hi>, for example) and places (<hi rend="italic"
+                    >Akiko-baawitig</hi>).<ptr target="#note10" xml:id="nr10" n="10" />  The <hi
+                    rend="italic"
+                    >Narrative</hi>, however, is not simply a Euro-American document with a sprinkling of Ojibwe words, and not simply a document containing ethnohistorical material.  Much more than that, it is largely an Anishinaabe account recorded in English.  I do not mean to suggest that it has not been changed through translation nor shaped by the priorities of its editor, publisher, and audience, nor to suggest that Tanner delivers his account from some pure Anishinaabe experience.  But I do mean to say that the Anishinaabe contents of the <hi
+                    rend="italic"
+                    >Narrative</hi>, the Anishinaabe perspectives discernible throughout the <hi
+                    rend="italic"
+                    >Narrative</hi>, and, as I intend to show, the Anishinaabe structure of the <hi
+                    rend="italic"
+                    >Narrative</hi>, that is, its temporal organization, are foreign to European conventions and make this the unique document it is.  To edit the <hi
+                    rend="italic"
+                    >Narrative</hi> requires close readings and contributions from anthropologists, linguists, historians, and members of Anishinaabe communities.</p>
+                <p>Since the original manuscript of the <hi rend="italic"
+                    >Narrative </hi>has not been recovered, we are using as our source text the version of the <hi
+                    rend="italic"
+                    >Narrative</hi> closest to that manuscript, the 1830 Carvill edition.  The noncritical documentary edition of Tanner we will produce nonetheless requires the same kind of exhaustive investigation and use of critical methods that documentary editors employ to edit and publish manuscripts.  Such investigations have helped us to correct mistaken facts and impressions often repeated about the <hi
+                    rend="italic"
+                    >Narrative</hi>. For instance, Tanner was not taken captive in 1789 by the Shawnee, as is so often repeated.  The year was 1790, and his captors Saginaw Ojibwe.  Such details make a profound difference in trying to understand the text.  Nor does Tanner's Anishinaabe name, <hi
+                    rend="italic"
+                    >Zhaazhaawanibiisens</hi>, translate to "the Falcon," as misrepresented by the original publisher, and repeated by so many others, more than likely to emphasize Tanner's fierceness.  Swallow, or "the Swallow," is the true translation.  The repeated misrepresentation of Tanner as a tormented white man, torn between two worlds, no doubt originally expressing the stigma associated with, or the exotic attraction to, the idea of "going native," has characterized the <hi
+                    rend="italic">Narrative</hi> in a harmful way.  It has led, along with the <hi
+                    rend="italic"
+                    >Narrative's</hi> unfortunate title, to a general dismissal of Tanner's authority as well as a dismissal of the Anishinaabe center of his account.<ptr
+                    target="#note11" xml:id="nr11" n="11" /></p>
+                <p>Because the <hi rend="italic"
+                    >Narrative</hi> covers such a long span of time and is so detailed, to bring both documentary and ethnohistorical evidence to bear on it is a demanding task.  Richly remembered details running throughout Tanner's entire account set it apart from other captivity narratives.   Tanner had a full and powerful memory and the credibility of his account rests on the accuracy of his memory.  On the north side of the Ohio River, before being rushed along the Great Miami to his Anishinaabe destiny, Tanner with his captors looked back at his home, a memory he would carry with him.  "My father's house was plainly to be seen from the place where we stood; they pointed at it, looked at me, and laughed."<ptr
+                    target="#note12" xml:id="nr12" n="12"
+                     />  His memories are plentiful, meticulously recorded, and overall incredibly accurate.  He remembers correctly that it took four days to reach the point where the Mad River flows into the Great Miami (Dayton, Ohio).<ptr
+                    target="#note13" xml:id="nr13" n="13"
+                     />  Twice on the journey they stop to build canoes, and, as he accurately reports, they build them out of hickory bark&#8212;the birch normally used by the Ojibwe to construct canoes being unavailable to them this far south.<ptr
+                    target="#note14" xml:id="nr14" n="14" /></p>
+            </div>
+            <div type="section">
+                <head type="main">The <hi rend="italic">Narrative</hi> Proper.</head>
+                <p>The narrative proper is fifteen chapters long, approximately 110,000 words.  Tanner knew he had a remarkable story to tell, and surgeon Edwin James, after having spent so many close hours with Tanner in the fort on Mackinac Island during its recording, no doubt knew it as well.  The period that defines Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi>, 1790 to 1824, is a difficult one for the Anishinaabeg, who at the end of it are forced to relinquish most of their land and much of their way of life.  The Seven Years War, the Revolution, the Indian Wars of the 1790s, and the War of 1812 in the West&#8212;for Native Americans of the Ohio Valley and Great Lakes region all were part of a long struggle to protect their homelands and preserve their culture.  Tanner bears witness to, and his narrative reflects, the general destruction of an Indian way of life in the Great Lakes region.  It is that destruction and the resistance it stirred up that led to his capture in the first place and that ultimately accounts for the existence of his <hi
+                    rend="italic">Narrative</hi>.</p>
+                <p>More accurately, one should say that this historical context <hi rend="italic"
+                    >informs</hi> Tanner's <hi rend="italic"
+                    >Narrative</hi>, as the historical setting of the <hi rend="italic"
+                    >Narrative</hi> is not readily apparent and needs to be supplied from the outside.  By identifying a simple place name, personal name, or Ojibwe term, in some instances the editors can connect the <hi
+                    rend="italic"
+                    >Narrative</hi> to the broader political and social reality in which it is set. "The earliest event of my life, which I distinctly remember," Tanner begins his account, "is the death of my mother. . . . I cannot recollect the name of the settlement at which we lived, but I have since learned it was on the Kentucky river, at a considerable distance from the Ohio." To know that that settlement was Boonesborough, and that Tanner's father brought his family there in 1780, in the middle of the Revolution, opens the <hi
+                    rend="italic"
+                    >Narrative</hi> to new connections and sets it in a clearer context.</p>
+                <p>The first chapter in the <hi rend="italic"
+                    >Narrative</hi> provides the background and circumstances of Tanner's capture and covers the first two years he spent in Saginaw, in the family of <hi
+                    rend="italic">Manidoogiizhig</hi> before being sold.  <hi rend="italic"
+                    >Manidoogiizhig</hi> sold him to his relative <hi rend="italic"
+                    >Naadinookwa</hi>, an Odawa woman from a village near the Straits of Mackinac. Chapters two through six are built around the close bond Tanner (<hi
+                    rend="italic"
+                    >Zhaazhaawanibiisens</hi>) forms with his adoptive mother.  The first third of the <hi
+                    rend="italic">Narrative</hi> is a tribute to this strong woman.<ptr
+                    target="#note15" xml:id="nr15" n="15" />  In 1795 <hi rend="italic"
+                    >Naadinookwa</hi> decides to make a journey to the Red River country, ostensibly to trap beaver that she intends to trade upon her return to Mackinac Island.<ptr
+                    target="#note16" xml:id="nr16" n="16" />  The geographic setting of the <hi
+                    rend="italic"
+                    >Narrative</hi> is an area that now includes sections of Michigan, Minnesota, Ontario, Manitoba, and North Dakota.  <hi
+                    rend="italic"
+                    >Naadinookwa</hi> makes it to Red River after many difficulties&#8212;her husband <hi
+                    rend="italic">Tagaweninne</hi> is murdered and her oldest son <hi rend="italic"
+                    >Giiwedin</hi> dies after an accidental fall.  Her small family is left without hunters to provide for them, Tanner and her other son <hi
+                    rend="italic">Wamegonibiew</hi> being too young to do so.  <hi rend="italic"
+                    >Peshaube</hi>, a celebrated Odawa leader, hears of <hi rend="italic"
+                    >Naadinookwa</hi>'s situation when she first arrives at Red River, and he locates her and her family at the Prairie Portage (Portage la Prairie, Manitoba).  They follow him north on a long journey to Clearwater Lake where he has his winter camp.  <hi
+                    rend="italic"
+                    >Peshaube</hi> becomes Tanner's advocate and teaches him to hunt, and Tanner establishes an identity for himself as an expert Anishinaabe hunter.</p>
+                <p>In the middle chapters, <hi rend="italic"
+                    >Naadinookwa</hi> is frustrated in her attempts to return to Lake Huron.  Tanner marries and becomes the provider for his family.  He gains renown as one of the best animal hunters in the country.  Tanner describes the animals he pursues, his hunting practices and rituals, his struggle against a harsh environment, his place in Anishinaabe society, and his dealings with white traders.  His descriptions are distinct, detailed.<ptr
+                    target="#note17" xml:id="nr17" n="17"
+                     /> In these chapters Tanner grows into his own estate.  He is feared, respected, and spiritually powerful.  He tells of two war parties he joins that go against the Dakota (or Sioux), in 1804 and 1805.  Behind this warfare lies the heated competition for the harvesting of furs among British, Canadian, and American traders.  To sustain their way of life, Great Lakes Anishinaabeg had become dependent on the fur trade.  Tanner is encouraged by the white traders in several instances to return to the States, and he also hears for the first time the message of the Shawnee Prophet&#8212;portending the trouble that lies ahead for him.  </p>
+                <p>The later chapters in the <hi rend="italic"
+                    >Narrative</hi> unfold in a time of warfare and societal crisis in the Great Lakes country and need to be read against this backdrop.  New spiritual leaders come forward and demand loyalty and conformity from Indian communities.  Chapters eleven and twelve cover Tanner's involvement in the war that broke out in 1811 when Lord Selkirk of the Hudson's Bay Company tried to establish an agricultural colony at the forks of the Red River (Winnipeg).  Northwest Company officials perceived this as an attempt by the Hudson's Bay Company to disrupt their trade.  Tanner served as Lord Selkirk's guide in the capture of two Northwest Company forts.  Selkirk rewarded him with the promise of a yearly stipend and helped to locate Tanner's white relatives, then living in Kentucky and Missouri.  These events occur in part while the War of 1812 is being waged.  The war in the western Great Lakes region goes against Great Britain and her Indian allies, ending the hope for a separate Indian state and intensifying the atmosphere of uncertainty and suspicion.  These chapters mark the beginning of Tanner's estrangement from his first wife and his troubles with his in-laws, who accuse him of shooting bad medicine at them and who are nearly successful in their attempts to kill him.  Chapters thirteen and fourteen cover Tanner's return to Kentucky, and chapter fifteen, the last chapter, his failed attempt to bring the Anishinaabe children of his first marriage back to the United States.</p>
+            </div>
+            <div type="section">
+                <head type="main">Edwin James and the Recording of the Narrative.  </head>
+                <p>The English language in the <hi rend="italic"
+                    >Narrative</hi> is that of Edwin James, and it is his voice with which the editor needs to come to terms.  Born in 1797 in Weybridge, Vermont, James graduated in 1816 from Middlebury College, where he had studied natural history.  He went on to study medicine under his brothers, who were doctors, and to study botany under Amos Eaton and John Torrey.<ptr
+                    target="#note18" xml:id="nr18" n="18"
+                     />  He served as botanist on Stephen Long's 1820 expedition to the Rocky Mountains and published the official history of that expedition.<ptr
+                    target="#note19" xml:id="nr19" n="19"
+                     />  Afterwards he was assigned to outposts in the far northwest, Fort Snelling (Minneapolis), Fort Crawford (Prairie du Chien), Fort Mackinac (Mackinac Island), and Fort Brady (Sault Ste. Marie).  During those assignments he studied Indian languages, and in the last two locations he worked with Tanner to record Tanner's story and to have it published.</p>
+                <figure>
+                    <head>Dr. Edwin James. Courtesy of the State Historical Society of Iowa, Des Moines.</head>
+                    <figDesc>Portrait of Dr. Edwin James.
+                    </figDesc>
+                    <graphic url="images/essay.fierst.02.jpg" />
+                </figure>
+                <p>Tanner's story of course cannot be separated from James's English; the text does not allow for such definition, and James needs to be treated as an integral part of the <hi
+                    rend="italic"
+                    >Narrative</hi>.  In other words, we have to consider both the "adventures" of John Tanner and the editorial experience of Edwin James.  James too must be viewed in context&#8212;he is caught up in the "savage and civilized" rhetoric of the time.   But instead of downplaying James's role or erasing him altogether (James's name does not even appear in the 1994 Penguin edition) the documentary editor is required to embrace him&#8212;this compassionate, righteous New Englander, who later in his life joined the abolitionist cause and ran a station on the Underground Railroad in Iowa. As a young naturalist in the waning period of the Enlightenment, he held an almost religious belief in reason as the measure of truth.  Scientific observer and rational reformer: James's perspective explains in part his interest in Tanner and Tanner's story.  Undoubtedly, Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi> benefitted from James's scientific training.  The plentiful detail in the <hi
+                    rend="italic"
+                    >Narrative</hi> is there not only because Tanner could remember it, but also because James meticulously recorded it.  Unsurprisingly, in many places the language in the <hi
+                    rend="italic"
+                    >Narrative</hi> expresses the "Enlightened" idealistic beliefs of Tanner's editor.  James's anticlericalism, his posture as impartial neutral observer, and his attacks on Indian superstition&#8212;all are expressive of what one historian has referred to as "the heroic model of science."<ptr
+                    target="#note20" xml:id="nr20" n="20" /> </p>
+                <p>From the beginning, Tanner's story was never simply his own. In the 1820s he and his <hi
+                    rend="italic"
+                    >Narrative</hi> became part of the debate over the Indian question.  The federal government was gradually surrendering its Indian policy of so-called reform to one of removal, and the divide between savagism and civilization was broadening into an impassable gulf.  In the 1820s the governor of Michigan Territory Lewis Cass championed the removalist cause in several essays in the <hi
+                    rend="italic"
+                    >North American Review</hi> that were intended to shape public opinion in favor of the changing policies of the War Department and the Administration.  Cass laid the blame for the Indians' decline on the Indians themselves, on their inveterate savage nature, not on the surge of white settlement that followed the close of both the Revolution and the War of 1812.  Opposing Cass, Edwin James, an outspoken anti-removalist, made plain his disgust for removal in the introduction to Tanner's <hi
+                    rend="italic">Narrative</hi>.<ptr target="#note21" xml:id="nr21" n="21"
+                     />   Indeed the introduction is puzzling unless framed within the national debate over the fate of the Indians.  The Removal Bill passed through the Senate in the same month Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi> was published, April 1830.  Tanner and the reputation of his <hi
+                    rend="italic"
+                    >Narrative</hi> suffered in the defeat of the anti-removalist cause.</p>
+                <p>Many readers expected to find&#8212;and therefore found&#8212;confirmed in Tanner's <hi
+                    rend="italic">Narrative</hi> the misery they associated with savage life.<ptr
+                    target="#note22" xml:id="nr22" n="22"
+                     />  Cass's lieutenant Henry Rowe Schoolcraft went out of his way to dismiss the <hi
+                    rend="italic"
+                    >Narrative</hi>, though one wonders if he had ever read it, and to personally discredit Tanner, who had "lost every virtue of the white man, and accumulated every vice of the Indian."  Tanner, Schoolcraft wrote, "had so long looked on the dark side of human nature that he seldom or never smiled.  He considered everybody an enemy.  His view of the state of Indian society in the wilderness made it a perfect hell."<ptr
+                    target="#note23" xml:id="nr23" n="23"
+                     />  Schoolcraft's testimony is untrustworthy due to the longstanding hostility he and Tanner felt toward one another.<ptr
+                    target="#note24" xml:id="nr24" n="24"
+                     />  Yet the view of John Tanner at war with the world would be carried forward into the twentieth century.  The most egregious expression of it can be found in Janet Lewis's <hi
+                    rend="italic"
+                    >The Invasion</hi>, an historic romance about Schoolcraft's in-laws the Johnston family of Sault Ste. Marie, in which Tanner is depicted as a gothic villain.<ptr
+                    target="#note25" xml:id="nr25" n="25" /> </p>
+                <p>It is easy to assume that Tanner felt caught between two worlds.  He did have memories of the early years of his life, as shown on the first pages of the <hi
+                    rend="italic"
+                    >Narrative</hi>, and he did attempt later to rejoin his white relations and to find a place for himself in the white world.  But overwhelmingly evidence does not support the argument that Tanner felt conflicted or ambivalent about his Anishinaabe identity; rather evidence points to his thorough transculturation.  Tanner was only nine years old when taken captive, and for the rest of his life he lived as an Anishinaabe.  He would have had memories of childhood, especially of events that carried strong emotions, such as the death of his mother or the severe whipping he had received from his father for missing school.  This is clear from the first pages of the <hi
+                    rend="italic"
+                    >Narrative</hi>.   But his young mind, his brain, wasn't formed yet as it would be in his pre-adolescent, adolescent, and adult years.  He had been told and believed that all the members of his family had been killed.  When he did return to the United States later, he never lived comfortably in the community of whites.  He had forgotten his last name and remembered very little English.  He could never have rendered in English the account of his life that was published in 1830.  Tanner returned to the United States to find a way to protect and to provide for himself and his family.  The War of 1812 and its aftermath had a profound effect on the Great Lakes Anishinaabeg as they struggled to adjust to the harsh realities of colonization.  In 1823 the merger of the North West Company and the Hudson's Bay Company into the new Hudson's Bay Company brought to a close the fur trade as the Anishinaabeg had known it.    Tanner assumed the ideal role for him was to serve as an interpreter.  At Sault Ste. Marie where he lived until 1846, when he allegedly shot and killed Henry Schoolcraft's brother, he lived in the Indian community at the Little Rapids.   Like many Anishinaabe leaders he had conflicts with the new American authorities.  The real causes of those conflicts were disregarded at the time and the conflicts instead attributed to Tanner's savagism.  "So inveterately savage," Schoolcraft described him, "that he could not tolerate civilization."<ptr
+                    target="#note26" xml:id="nr26" n="26" /></p>
+                <p>To Schoolcraft and most Euro-American scholars in the period, the idea of history excluded Indian history altogether.  History was written and progressive.  The oral traditions of American Indians, a static race doomed to extinction, were timeless mythologies.  Since there were no written records, no chronologies&#8212;Indian accounts could not be relied upon.  By extension Tanner could not be relied upon.   One might argue that the approach to the editing of the <hi
+                    rend="italic"
+                    >Narrative</hi> should be similar to the approach taken by the editors of culturally complex texts that are tied closely to oral tradition.  Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi> shares much in common with such texts but is also substantially different.<ptr
+                    target="#note27" xml:id="nr27" n="27"
+                     />  Although there certainly are elements of both performance and oral tradition found within the <hi
+                    rend="italic">Narrative</hi> (the <hi rend="italic"
+                    >Midewiwin </hi>song texts in the appendices immediately come to mind), technically Tanner's account was not an oral performance.  He spoke about his own life, about events that occurred during his lifetime.  Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi> is very much an historical account.   It could also be argued that the <hi
+                    rend="italic"
+                    >Narrative </hi>does not fit into the genre of captivity literature, and that by referring to it as <hi
+                    rend="italic"
+                    >The Captivity and Adventures of John Tanner</hi> continues to raise doubts about the <hi
+                    rend="italic">Narrative</hi>'s authenticity.  The <hi rend="italic"
+                    >Narrative</hi> of course is more than a simple story of captivity.  Our entire effort contradicts this.  It is important to remember, however, that that was how the <hi
+                    rend="italic"
+                    >Narrative</hi> was given to the public and how readers first received it.  From the standpoint of the documentary editor, the history of its publication is a part of the historical record.</p>
+                <p>It is generally held that captivity narratives cannot be considered reliable historical texts, since most are filtered through the voice of a mediator or an editor.  At best they reflect the anxieties of the dominant culture.  Since Richard Vanderbeets's article "The Indian Captivity Narrative as Ritual," published in 1972, the tendency has been to treat captivity narratives collectively.  Vanderbeets identified what he considered the unifying pattern that lay at the heart of all captivity narratives&#8212;the myth of "the Hero embarked upon the archetypal journey of initiation."<ptr
+                    target="#note28" xml:id="nr28" n="28"
+                     />
+                    Since Vanderbeets's essay the study of captivity narratives for the most part has remained the province of literary scholars.  In <hi
+                    rend="italic">Naked and</hi> <hi rend="italic"
+                    >Alone in a Strange New World: Early Modern Captivity and its Mythos</hi>, published in 2009, Benjamin Mark Allen analyzed a set of "chronicled narratives" associated with Spanish conquest in the new world between the years 1510 and 1630.  Allen claims that these early colonial narratives cannot be viewed as reliable historical records.  "They are in fact heroic-style mythologies that reveal less about the actual events and more about the subconscious anxieties affecting the authors and their society."<ptr
+                    target="#note29" xml:id="nr29" n="29"
+                     />  For these early Spanish narratives this may well hold true, that they tells us more about "the <hi
+                    rend="italic"
+                    >mentalit&#233;s</hi> of the authors and the era" than they do about events,<ptr
+                    target="#note30" xml:id="nr30" n="30"
+                     /> but it is not true for the kind of ethnographic narratives written in the late eighteenth and early nineteenth centuries, of which Tanner's is a prime example.  According to Joe Snader, in this later period ethnographic descriptions took a more prominent place within accounts of captivity.  Indeed the "ethnographic impulse" in many of the narratives was so strong "as to overwhelm narration of the captive's personal experiences."<ptr
+                    target="#note31" xml:id="nr31" n="31"
+                     />  These ethnographic narratives, despite their biases and imperfections, can be, as historian Linda Colley has written, "astonishingly rich and revealing."  The best of them "form the closest approximation we have for the past to the kind of analyses supplied by anthropologists and ethnographers immersed in alien societies today." The richness of an account can depend on a variety of factors, such as the age of the captive at the time of capture, the years a captive spent in captivity, and the thoroughness of the captive's transculturation.  Full-length captivity accounts, Colley argues, can accurately reflect the larger macro-narrative of western expansionism.  They can be used "to investigate and reassess far wider national, imperial and global histories."  They are stories that reveal in human terms the cost of the pursuit of empire to myriads of ordinary men, women, and children.  As an example of the best of these narratives, for length and quality, Colley cites Robert Drury's Madagascar captivity, which lasted fifteen years.<ptr
+                    target="#note32" xml:id="nr32" n="32" />   Tanner's <hi rend="italic"
+                    >Narrative</hi> by comparison covers a period of twenty-eight years, and the detail and accuracy of Tanner's account, as we intend to show, is simply extraordinary.</p>
+                <p>In Tanner's case, the bringing together of ethnographic insight and documentary evidence has been editorially rewarding.  What Tanner claims at many points in the <hi
+                    rend="italic"
+                    >Narrative</hi> can be corroborated in the documentary evidence surrounding his account and can be linked to the broader historical events of the time.  The <hi
+                    rend="italic"
+                    >Narrative</hi> provides an important reflection on the history of North America for the period in which it is set, 1790 to 1824, and integrates areas of historical investigation that are commonly studied separately: the trans-Appalachian settlement ("invasion," to use James Axtell's word<ptr
+                    target="#note33" xml:id="nr33" n="33"
+                     />) of the Ohio Valley by people of European stock that began in earnest during the American Revolution; the wars of resistance fought in Kentucky and Ohio, and elsewhere, to curtail these incursions; the refocusing of the Canadian fur trade to regions west of Lake Superior partly in response to the warfare in Ohio; the history of the Ojibwe and their warfare with the Dakota; the struggle between the two major fur trading concerns, the Hudson's Bay Company and the Northwest Company in the first decades of the nineteenth century; and the American colonization of the Great Lakes region after the War of 1812. </p>
+                <p>The effectiveness of this integrated approach is best demonstrated in the way it has enabled us to construct an accurate chronology for the <hi
+                    rend="italic"
+                    >Narrative</hi>.  The chronology, which allows us to locate Tanner in Western time, has facilitated the search for corresponding evidence outside the <hi
+                    rend="italic"
+                    >Narrative</hi>.  To build that chronology, as explained in the next section, we successfully brought together a thorough search for documents, the work of anthropologists, and the knowledge of cultural concepts provided by Ojibwe speakers.  To inquire into the organization of time in the <hi
+                    rend="italic"
+                    >Narrative</hi> is to inquire into its fundamental structure and to go to the heart of questions about the <hi
+                    rend="italic">Narrative</hi>'s authenticity. </p>
+            </div>
+            <div type="section">
+                <head type="main">The Organization of Time in Tanner's <hi rend="italic"
+                    >Narrative</hi></head>
+                <p>In 1796 Tanner with his Odawa family wintered at Clearwater Lake, now Clear Lake in Riding Mountain National Park, Manitoba.  In an interesting passage in the third chapter of his <hi
+                    rend="italic"
+                    >Narrative</hi>, Tanner described the shortness of the winter days at Clearwater Lake: "When going to hunt, we started long before the sun rose, and returned long after it set.  At noon, the sun would scarce rise to the tops of the trees, though they are very low there."  What is striking about that passage is the phrase "scarce rise to the tops of the trees."  It is an expression the Ojibwe used to indicate the position of the sun during the day, <hi
+                    rend="italic"
+                    >ekwaagak e-bi-agoojing giizis</hi>, "tops of trees when hangs the sun."  According to the anthropologist A. Irving Hallowell, this was one of two expressions used by the Berens River Ojibwe, when referring to the position of the sun before it emerges into full view, the other, <hi
+                    rend="italic"
+                    >anaamaatig e-bi-agoojing giizis</hi>, indicates the point in time when the sun is still behind the tree-tops, "beneath trees when hangs the sun."  Hallowell identified this pattern of making reference to particular concrete events as "the fundamental pattern of Native temporal orientation."<ptr
+                    target="#note34" xml:id="nr34" n="34"
+                     />    Hallowell observed how the Ojibwe of Berens River marked the passage of time through the day, how they marked the passage of time through the seasons, and how they reckoned past events, that is, how they marked the passage of time over a number of years (although the year, traditionally, did not function actively as a temporal unit).  The principle&#8212;concrete event as reference point&#8212;is reflected in the nomenclature the Ojibwe used to describe the different moons: Suckers-begin-to-run moon, Crusted-snow-supporting-man moon, Flowering moon, Wild-rice-gathering moon, Deer-rutting moon.<ptr
+                    target="#note35" xml:id="nr35" n="35" /> </p>
+                <p>If the principles through which Tanner internalized experience were Anishinaabe, then the <hi
+                    rend="italic"
+                    >Narrative</hi> should reflect Anishinaabe methods for estimating time, which indeed it does.  The same patterns Hallowell identified manifest themselves in Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi>, most clearly in the way Tanner estimates seasonal time in the <hi
+                    rend="italic"
+                    >Narrative</hi>.    Tanner, like the Ojibwe of Berens River, recognized seasonal units, with winter as the standard of reference.  Tanner's account bears out what Hallowell and many others have said about seasonal change among the Ojibwe: that seasons are defined by observable changes in natural phenomena.   How Tanner located himself temporally within winter by the physical changes the cold weather produced illustrates this quite well.  In the <hi
+                    rend="italic"
+                    >Narrative</hi> the first part of winter (Lake-freezing moon) is characterized by snowfall, the advent of cold weather, and ice forming in the lakes and streams, making it difficult to hunt beaver and procure food: "We continued here hunting beaver, and killing great numbers, until the ice became too thick"; "cold weather had scarce commenced, and the snow was no more than a foot deep, when we began to be pinched with hunger."  Mid-winter is characterized by severe cold, deep snow, thick ice, and hunger: "With the deep snow and thick ice, came poverty and hunger.  We were no longer able to take beaver in traps." "When the snow had fallen, and the weather began to be cold, so that we could no longer kill beaver, we began to suffer from hunger."  Late winter (Suckers-begin-to-run moon, Crusted-snow-supporting-man moon) is characterized generally by a crust on the snow, scarcity and the threat of starvation, and the pursuit of large game: "When the snow began to have a crust upon it, the men said they must leave me with the women, as they were about to go to Clear Water Lake to make canoes"; "as the snow began to harden on top . . . the men of our band . . . went to make a hunting camp at some distance"; "reduced to the apprehension of immediate starvation, I was compelled to go in pursuit of buffaloe."</p>
+                <p>The point to be made from all of this is that divisions of seasonal time known to the Ojibwe characterize John Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi>.  Elastic though these divisions are, they allow us, in conjunction with other sources, to draw from the <hi
+                    rend="italic">Narrative</hi> a seasonal chronology and to represent the <hi
+                    rend="italic"
+                    >Narrative</hi> in Western time.  Less apparent in Tanner than concepts for describing the passage of the seasons is the accuracy with which Tanner described the passage of years in the <hi
+                    rend="italic"
+                    >Narrative</hi>.  He used traditional means of keeping track of past events: associating them with significant happenings (the death of <hi
+                    rend="italic">Giiwedin</hi> or of <hi rend="italic"
+                    >Peshaube</hi>).  Sometimes the association, or cue, is with an event that marks his maturation (killing his first bear, taking his first sturgeon, joining his first war party).  Often he associates events with spiritual phenomena ("early in the spring, we had much severe thunder and lightning.")<ptr
+                    target="#note36" xml:id="nr36" n="36"
+                     />  Tanner's memory was surprisingly full and accurate.  Such robust memory is difficult to account for.  But it is important to remember that the <hi
+                    rend="italic"
+                    >Narrative</hi> had its origins in a culture that trusted the authority of the spoken word.</p>
+                <p>Elliott Coues used the Tanner <hi rend="italic"
+                    >Narrative</hi> while editing the manuscript journals of Alexander Henry the Younger, a trader for the Northwest Company, who wintered in the Red River country between 1799 and 1808, years Tanner was in the same area.<ptr
+                    target="#note37" xml:id="nr37" n="37"
+                     />   Coues was impressed by the coherency and consecutiveness of Tanner's story.  He called the <hi
+                    rend="italic"
+                    >Narrative</hi> "the Indian side of the story told in Henry's Journal."<ptr
+                    target="#note38" xml:id="nr38" n="38" /> </p>
+                <p>This coherency and consecutiveness that Coues sensed is inseparable from the fabric of Tanner's story as he related it orally to Edwin James.  James did not possess enough information to impose a temporal frame of reference upon the <hi
+                    rend="italic">Narrative</hi>.  The sequence of the <hi rend="italic"
+                    >Narrative</hi> was unknown to James and, like the prodigious amount of detail found within the <hi
+                    rend="italic"
+                    >Narrative</hi>, had to have originated with Tanner.  James would have had time afterwards to rework the <hi
+                    rend="italic"
+                    >Narrative</hi>.  But the fact that he later imposed on it two incorrect dates suggests that he himself was never certain of the <hi
+                    rend="italic"
+                    >Narrative</hi>'s chronology.  The chronology is woven into the story; it is tied to events, and is an expression of Tanner's inner sense of time. </p>
+                <p>Coues claimed, though he did not demonstrate it, that it was "possible to construct a Tanner chronology so accurately that we are seldom a single year out of the way."<ptr
+                    target="#note39" xml:id="nr39" n="39" />   It is true that by comparing the <hi
+                    rend="italic"
+                    >Narrative</hi> to well-known contemporary sources, to the journals of traders like Henry, Daniel Harmon, and John McKay, we can build a rough chronology for the <hi
+                    rend="italic"
+                    >Narrative</hi>, but one that, upon close examination, remains somewhat elusive, approximate&#8212;leaving one to guess that the lack of precision lies with the vagueness of Tanner's memory or with problems encountered in his communicating the story orally to Edwin James.<ptr
+                    target="#note40" xml:id="nr40" n="40"
+                     />  The truth is that the chronology is better than even Coues assumed.  Simply put, it is seasonally accurate.  A seasonal chronology can be drawn for the <hi
+                    rend="italic"
+                    >Narrative</hi>.   The greatest obstacle to dating Tanner's account is not its lack of dates (of which Coues complained) or Tanner's imprecision, but James's interference.  James interfered with the chronology in two ways: one, as mentioned before, he attempted in two places to impose numerical dates on the <hi
+                    rend="italic"
+                    >Narrative</hi> to determine the year of capture and, two, he removed from the finished manuscript a complete year of Tanner's reminiscences, from the fall of 1811 to the fall of 1812, no doubt part of the "retrenchment" the publisher required and James referred to in his introduction to the <hi
+                    rend="italic">Narrative</hi>.<ptr target="#note41" xml:id="nr41" n="41" /></p>
+                <p>That there were no calendrical dates in the <hi rend="italic"
+                    >Narrative</hi> should not be surprising, since it would have been uncharacteristic for Tanner to think in terms of the Julian calendar.  Aware of the confusion this want of dates would cause, James seems to have looked for opportunities when he could safely provide them for Tanner's readers.  Yet the two dates he did supply were incorrect.  In the fourteenth chapter, through a series of miscalculations, he figures the year of Tanner's capture to be 1789.  In fact Tanner was captured in the spring of 1790, verified by the "Deposition of John Garnett," taken down on May 12, 1790.  Garnett's deposition was part of the large volume of complaints the federal government in Philadelphia received at the time concerning raids and atrocities in the western territories.</p>
+                <p>Tanner's capture and the pursuit that followed typified the retaliatory warfare between whites and Indians then taking place throughout the Ohio Valley.  Since the Revolution thousands of white Americans had been crossing the mountains to lay claim to the lands of the Trans-Appalachian west.  Western Indians joined together to contest the invading stream of flatboats and wagons entering the valley from the east.  Shawnee, Delaware, Wyandot, Mingo, Miami, Cherokee, Anishinaabe&#8212;Indian confederates fought a brutal partisan war with United States militiamen from the proliferating western settlements.  Indians struck at settlements and ambushed traffic on the Ohio and its tributaries; Kentuckians raided villages and set fire to cornfields north of the river. Garnett's deposition places Tanner's abduction in the context of this warfare.  It specifically places it in context of raids along the Ohio River in 1790, in which the Saginaw Ojibwe, Tanner's captors, played a conspicuous part and which led the Federal government to send an army into the Ohio country that fall.  The army under General Josiah Harmar was routed by the Indian confederacy, suffering a loss of nearly two hundred men.  Robert Johnson took down Garnett's deposition under oath:</p>
+                <q rend="block"
+                    ><p>Deposition of John Garnett taken before Robt. Johnson, M. for W. C.  May 12th, 1790</p>
+                    <p>WOODFORD COUNTY, ss.</p>
+                    <p>John Garnett, of full age, being duly sworn, saith: That he was at Mr. John Tanner's station, on the Ohio, in said county, about five miles below the mouth of the Big Miami, and that said Tanner informed him, that, about the last of April, or first of May, five Indians came and lay in ambush, a little over one hundred yards from his house, between the house and his field, and took a son of said Tanner's, about nine years old, and carried him off, across the Ohio; and further saith, that Indians have been, since, within about two miles of said station, and this deponent further saith not.<ptr
+                    target="#note42" xml:id="nr42" n="42" /></p></q>
+                <p>The deposition is the key to the chronology.  With the year of capture, 1790, firmly fixed, we can establish an accurate counting of the seasons.  This is accomplished by ignoring James's numerical dates and instead paying attention to any place in the <hi
+                    rend="italic"
+                    >Narrative</hi> where Tanner indicates the passage of time.  Season to season, for the length of the <hi
+                    rend="italic"
+                    >Narrative</hi> (discounting the year that James removed) Tanner's chronology is accurate.  Because Tanner's seasonal chronology is so accurate, we are able to verify a great deal about the <hi
+                    rend="italic"
+                    >Narrative</hi>.  It can be dated and in many places verified by parallel texts, primarily the journals of the Hudson's Bay Company traders who operated in the Red River District, which can be found in the Hudson's Bay Company Archives in Winnipeg.</p>
+                <p>None of this is to suggest that to be valid the <hi rend="italic"
+                    >Narrative</hi> has to measure up to a Western chronology or to Western perspectives.  Too often Western scholars have looked at the <hi
+                    rend="italic"
+                    >Narrative</hi> as an interesting but secondary resource.  On the contrary, the <hi
+                    rend="italic"
+                    >Narrative</hi> stands on its own.  Tanner lived in an oral culture and his memory was unusually strong.  The chronology of the <hi
+                    rend="italic"
+                    >Narrative</hi> originated with Tanner and is based on Anishinaabe methods for estimating time.  James's experience and personality made him an ideal recorder of Tanner's account.  James worked carefully to preserve Tanner's meanings.  The accuracy of the <hi
+                    rend="italic"
+                    >Narrative</hi>'s chronology, which demonstrates this, is in the last analysis a testament to the authenticity of Tanner's remarkable story. </p>
+            </div>
+            <div type="section">
+                <head type="main">Tanner's Return and the Recording of the <hi rend="italic"
+                    >Narrative</hi></head>
+                <p>John Tanner's <hi rend="italic"
+                    >Narrative</hi> is about many things, but at its heart it is about dislocation and loss.  Tanner endured with the Anishinaabeg the disruption to their way of life in this tumultuous period of their history.  His <hi
+                    rend="italic"
+                    >Narrative</hi> and accounts of his later life reflect in a personal way the dislocation that the European drive to colonize the Great Lakes region forced on its Native inhabitants.  The loss to Tanner's original family was also profound, as he states in the first chapter: "My father's distress, when he found I was indeed taken away by the Indians, was, I am told, very great."<ptr
+                    target="#note43" xml:id="nr43" n="43"
+                     />  His attachment to his older brother Edward and Edward's hope of finding him again provide the <hi
+                    rend="italic"
+                    >Narrative</hi> with its most poignant moment.  The same Anishinaabe fighters who had captured Tanner in 1790, the following year had come down again to Kentucky, to Rev. Tanner's picketed station, and had captured Edward.  Edward had learned from his captors (whom he escaped) that his brother John was still living, and for many years afterwards he searched for his missing brother.  Nothing else was learned of Tanner, until he returned twenty-eight years after he had been taken.</p>
+                <p> </p>
+                <p>In 1818 when Tanner first appeared in Detroit, Lewis Cass, the territorial governor, was preparing to negotiate several treaties with the Indians at St. Mary's in northwestern Ohio.  Cass listened to Tanner's story through an interpreter and had Tanner's return announced in the newspapers.  He then sent Tanner ahead to the treaty grounds, where a nephew came for him and brought him back to Kentucky.   The visit to Kentucky was cut short when Tanner learned that his brother Edward had gone in search of him.  Tanner returned north and two days from Detroit came upon Edward.  In the <hi
+                    rend="italic"
+                    >Narrative</hi> Tanner describes how he was unable to make himself known to Edward: "I met a man in the road with a Sioux pipe in his hand, whose strong resemblance to my father immediately arrested my attention.  I endeavoured to make him stop and take notice of me, but he gave me a hasty look, and passed on.  When I arrived, two days afterwards, at Detroit, I learned that this man was, as I supposed, my brother."  Edward had learned the truth from Indian traders along the way and had then returned to Detroit.  "He held me a long time in his arms," Tanner relates in the <hi
+                    rend="italic"
+                    >Narrative</hi>, "but on account of my ignorance of the English language, we were unable to speak to each other except through an interpreter."  One of Edward's first acts toward Tanner was to cut his hair, to restore him to the status of a white man.  "He [Edward] next cut off my long hair, on which, till this time, I had worn strings of brooches, in the manner of the Indians."  Governor Cass also expressed satisfaction that Tanner had "laid aside the Indian costume."  But Tanner found the dress of a white man extremely uncomfortable "so that I was, from time to time, compelled to resume my old dress for the sake of convenience."<ptr
+                    target="#note44" xml:id="nr44" n="44" /></p>
+                <p>Consider the depth of Tanner's transculturation and it is not difficult to understand why repatriation would have been troublesome for him.  After visiting relatives in Kentucky and Missouri, Tanner returned north, to Lake of the Woods.  In the spring of 1820 he again set out for the States, bringing with him to Kentucky several of his Ojibwe children. He stayed in Kentucky for two years until he became so uncomfortable with life there that in 1822 he took his family to live on Mackinac Island.  On the island he went to work for the American Fur Company and again made his way to the upper country beyond Lake Superior.  On the Malign River located east of Rainy Lake and north of the Minnesota border in what is now Quetico Provincial Park, in a complicated attempt to bring his remaining Indian children &#8211; the  children of his first marriage &#8211; down to the states, he was shot and left for dead.  Traders from the Hudson's Bay Company discovered him and brought him back to the Rainy River post.  This would have been in 1823.  Late that summer, members of Major Stephen Long's St. Peter's or Minnesota River expedition, which had originated in Philadelphia, came across Tanner at Rainy Lake.<ptr
+                    target="#note45" xml:id="nr45" n="45"
+                     />  They attempted to take Tanner back down to the states and during the return journey intended to have Thomas Say, naturalist and antiquary to the expedition, record his story.  But Tanner in his wounded condition found the journey too difficult to manage.  Stephen Long's party had to leave him, and he came down on his own the following year.</p>
+                <p>Returning to Mackinac Island after he had recovered from his wound, Tanner found employment at the U.S. Indian agency as an interpreter.  At some point in the mid-1820s he met U.S. army surgeon Edwin James, and together they recorded Tanner's story.  We know from a letter James wrote to his brother that by August 10, 1827 he and Tanner had nearly completed their recording:
+<q
+                    rend="block"
+                    >If my labors meet with no interruption I shall have completed the narrative in less than a fortnight and there will be matter for about 300 open octave pages.  One hundred pages more I shall wish to append to the work in the form of dissertations, notes, vocabularies, etc.  I am doubtful whether you will think this work worthy of publication, but for my own part I feel confident that [it is] as important in its kind as any relating to Indian affairs.  If Tanner himself would travel to procure subscriptions the circulation of the book might be somewhat extensive.<ptr
+                    target="#note46" xml:id="nr46" n="46" /></q></p>
+                <p>James was right:  It is "as important in its kind as any relating to Indian affairs."  Although there are problems with James's transcription&#8212;James's English, after all, was not Tanner's Odawa&#8212;James proved to be an ideal person for taking down the account.  That summer on Mackinac Island, he and Tanner were working together in very favorable circumstances, and the time and the means for recording the <hi
+                    rend="italic"
+                    >Narrative</hi> were available to them.  James's methods for doing fieldwork were very good; James kept his input to a minimum.   One gets a strong impression that James listened as Tanner spoke, and Tanner probably spoke forcefully, performed in a sense: "his quick and piercing blue eyes," in James's words, "bespeak[ing] the stern, the violent, and unconquerable spirit."<ptr
+                    target="#note47" xml:id="nr47" n="47"
+                     />  Obviously there were repeated interviews, more than likely daily interviews, which allowed Tanner and James to build confidence and trust in each other.  Their interviews had to have been mutually accommodating, without which the depth of information found in the <hi
+                    rend="italic">Narrative</hi> would never have been recorded.</p>
+                <p>In Tanner's case it is critically important to try and identify the conceptual categories and language practices of the <hi
+                    rend="italic"
+                    >Narrative</hi>'s editor, Edwin James, and to be aware of the "subconscious anxieties" (to use Benjamin Mark Allen's term) expressed in the language of the <hi
+                    rend="italic"
+                    >Narrative</hi>.  But textual analysis, as important as it is, does not sufficiently illuminate the <hi
+                    rend="italic">Narrative</hi>. The whole of Tanner's <hi rend="italic"
+                    >Narrative</hi> is rich in ethnographic information that is beautifully located in time.  For the period 1790-1824 many of the customs and cultural patterns of the Anishinaabeg are discernible in the <hi
+                    rend="italic"
+                    >Narrative</hi>&#8212;dreams, divinations, warfare, games, agriculture, language, the seasonal rounds of the Anishinaabeg, as well as other beliefs and practices.  The documentary edition of the <hi
+                    rend="italic"
+                    >Narrative</hi> being prepared will include not only a new introduction but also a new typescript of the <hi
+                    rend="italic">Narrative</hi>, and of course<hi rend="italic">
+                    </hi>maps, chronologies, annotation, subject indexes, and a full treatment of the ethnographic appendices.  </p>
+                <p>As editors working in American Indian materials we are challenged to do what documentary editors do best&#8212;to provide context and relate documents to the larger history.  An account like Tanner's allows us to do that in vivid, unexpected ways, but this requires an interdisciplinary approach to the editing.   Behind Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi>, or informing it, is the larger story of American Indian resistance to the Euro-American invasion of the Ohio Valley/Great Lakes region.  Tanner's <hi
+                    rend="italic"
+                    >Narrative</hi> is a destabilizing document that contradicts the myth of the country's heroic advance westward. That advance came at a cost to North Americans both Native and non-Native.  As Tanner shows, North American Indian history is not something separate that runs parallel to the central westering narrative.  Instead, it&#8212;in its resistance&#8212;is central to that narrative.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">Edwin James, introduction to <hi rend="italic"
+                    >A Narrative of the Captivity and Adventures of John Tanner. . . . </hi>(New York: G. &amp; C. &amp; H. Carvill, 1830), 5.  Hereafter John Tanner's <hi
+                    rend="italic">Narrative</hi> will be cited as Tanner, <hi rend="italic"
+                    >Narrative</hi>.</note>
+                <note xml:id="note2"
+                    >  Anishinaabe refers to the Algonquian nations that make up the Three Fires: the Ojibwe, the Odawa, and the Potawatomi.  Anishinaabeg is collective.  Ojibwe is the principle language; Odawa, a dialect of Ojibwe.  John D. Nichols, co-editor on the John Tanner Project, supplied the transcriptions of Ojibwe names.  Stations were fortified residences that looked very much like small forts and were generally occupied by several families, often related.
+        </note>
+                <note xml:id="note3"
+                    >The evolution of the captivity tradition is the focus of Joe Snader's book, <hi
+                    rend="italic"
+                    >Caught between Worlds: British Captivity Narratives in Fact and Fiction</hi> (Lexington: The University Press of Kentucky, 2000).   Snader traces the roots of the tradition to the Middle Ages.  The flowering of captivity narratives in the popular British press, which occurred in the seventeenth and eighteenth centuries and accompanied Britain's pursuit of global hegemony, can be traced, according to Snader, to the Mediterranean power struggles of the late sixteenth century.  See Snader<hi
+                    rend="italic">, Caught between Worlds</hi>, 1-10.  See also Linda Colley, <hi
+                    rend="italic"
+                    >Captives: The Story of Britain's Pursuit of Empire and How its Soldiers and Civilians were Held Captive by the Dream of Global Supremacy, 1600-1850</hi> (New York: Random House, Inc., 2002). </note>
+                <note xml:id="note4"
+                    > 
+            The appendices, an early study of North American Indian culture, are half as long as the narrative proper.  The appendices, like Edwin James's introduction, are an important part of Tanner's account.  James based the appendices on what he had learned from Tanner and on ethnographic information he had gathered on his own, either through his studies or through observations made during his military assignments in the West.  </note>
+                <note xml:id="note5">A link to a table showing the publication history of the <hi
+                    rend="italic"
+                    >Narrative</hi> can be found on the first page of this essay. The table is not reproduced in the PDF version of the essay. See <ref
+                    type="url"
+                    target="http://www.scholarlyediting.org/2012/essays/essay.fierst_table.html"
+                    >http://www.scholarlyediting.org/2012/essays/essay.fierst_table.html</ref>.</note>
+                <note xml:id="note6"
+                    >In 1836 Pushkin published his "Dzhon Tenner" in the third issue of his journal.  This information is taken from Joseph Thomas Shaw, <hi
+                    rend="italic"
+                    >Pushkin: Poet and Man of Letters and His Prose </hi>(Los Angeles: Charles Schlacks, Jr., 1995), 231.</note>
+                <note xml:id="note7"
+                    >When I use the term voice, I am not referring to the distinctive style of the writer, rather I am referring to the ideas and concepts being expressed.  There are two voices in the <hi
+                    rend="italic"
+                    >Narrative</hi>, that of Edwin James and that of John Tanner.  Tanner's voice refers to the ideas and concepts belonging to him, even though those ideas and concepts are conveyed in the language of the <hi
+                    rend="italic"
+                    >Narrative</hi>, James's English.  While acknowledging the influence of James and his translation on the meanings conveyed, I still believe that predominantly the voice of the <hi
+                    rend="italic"
+                    >Narrative</hi> is Tanner's voice.  I am in agreement with Edward Watts who finds the <hi
+                    rend="italic"
+                    >Narrative</hi> "alien enough to mid nineteenth-century conventions to trust James's relatively unbiased transcription of Tanner's story."  See Edward Watts, <hi
+                    rend="italic"
+                    >An American Colony: Regionalism and the Roots of Midwestern Culture </hi>(Athens, Ohio University Press, 2002), 243 n. 12.</note>
+                <note xml:id="note8"
+                    >"Dr. James, who made, by the way, a mere pack-horse of Indian opinions of him. . . ."  Henry Rowe Schoolcraft, <hi
+                    rend="italic"
+                    >Personal Memoirs of a Residence of Thirty Years with the Indian Tribes on the American Frontiers. . . . </hi>(Philadelphia: Lippincott, Grambo and Co., 1851), 601.</note>
+                <note xml:id="note9"
+                    >Patricia Kay Galloway, "Dearth and Bias: Issues in the Editing of Ethnohistorical Materials," <hi
+                    rend="italic"
+                    >Newsletter of the Association for Documentary Editing</hi> 3, no. 2 (1981): 1-6.</note>
+                <note xml:id="note10"><hi rend="italic"
+                    >Waagigaad, </hi>spelled "Wah-ge-kaut Crooked Legs" in the <hi rend="italic"
+                    >Narrative</hi>, is a personal name from the verb '<hi rend="italic"
+                    >waagigaade</hi> have crooked leg(s)'; <hi rend="italic"
+                    >Akiko-baawitig</hi>, spelled "Ah-kee-ko-bow-we-tig Kettle Falls" in the <hi
+                    rend="italic">Narrative</hi>,<hi rend="italic">
+                    </hi>is a compound noun from the noun <hi rend="italic"
+                    >akik</hi> (stem akikw-) 'kettle, pail' and the noun <hi rend="italic"
+                    >baawitig</hi> 'falls.'  Kettle Falls is located between Namakan and Rainy Lakes on the border between Minnesota and Ontario.  The writing system that James used does not adequately reflect the sounds of Ojibwe.  For James's original transcriptions of Ojibwe words John Nichols has prepared retranscriptions, glosses, and analyses, as shown here.  In 2010, in a paper delivered at the annual conference of the Association for Documentary Editing, held in Philadelphia, Nichols, whose linguistic studies have focused on Algonquian languages, discussed the editorial problems that Ojibwe names and words present in Tanner.</note>
+                <note xml:id="note11"
+                    >Most nineteenth century accounts of Tanner followed Henry Schoolcraft's lead and depicted Tanner as a white man who had fallen to the level of a savage.  George Bryce saw "very little of the heroic in the life of Tanner.  He was one of a type of men . . . living loose and unhappy lives.  Contact with border life tends to lower men to the level of the savage." Tanner has been continually depicted as failing in his attempt to regain his social standing as a white man.   In 1962 Walter O'Meara wrote "one can glimpse the struggle waged in the darkness and confusion of a desperate man's soul&#8212;the agonizing effort of John Tanner to become white again."  The insistence on his liminal status has persisted, even among scholars.  Gordon Sayre writes that even though he "could not establish an Indian identity, he seemed to relish the role of outcast."  I would argue that the <hi
+                    rend="italic"
+                    >Narrative</hi> provides strong evidence of Tanner's Odawa identity, and that without linking Tanner and his <hi
+                    rend="italic"
+                    >Narrative</hi> closely to that identity (which the new documentary edition will do), an identity that is not simply kinship based, one is likely to misrepresent him.  June Namias calls Tanner a braggart and doubts the truth of his hunting claims, but we need more context before judging Tanner to be either an outcast or a braggart.  See George Bryce, "Sketch of the Life of John Tanner, A Famous Manitoba Scout.  A Border Type," <hi
+                    rend="italic"
+                    >Transactions of the Historical and Scientific Society of Manitoba</hi>, No. 30 (Winnipeg: Manitoba Free Press Print, 1888), 4;  Walter O'Meara, <hi
+                    rend="italic"
+                    >The Last Portage</hi> (Boston: Houghton Mifflin Company, the Riverside Press edition, 1962), 259; Gordon Sayre, "Abridging between Two Worlds: John Tanner as American Indian Autobiographer," <hi
+                    rend="italic"
+                    >American Literary History</hi>, vol. 11, no. 3 (Autumn, 1999), 487; and June Namias, <hi
+                    rend="italic"
+                    >White Captives: Gender and Ethnicity on the American Frontier </hi>(Chapel Hill: University of North Carolina Press, 1993), 78.   </note>
+                <note xml:id="note12">Tanner, <hi rend="italic">Narrative</hi>, 27.</note>
+                <note xml:id="note13"
+                    >"It was, I think, four days after we left the Ohio, that we came to a considerable river, running, as I suppose, into the Miami. This river was wide, and so deep, that I could not wade across it; the old man took me on his shoulders and carried me over; the water was nearly up to his arm pits."  Tanner<hi
+                    rend="italic"
+                    >, Narrative</hi>, 28.  The distance is eighty miles from the mouth of the Great Miami River.  This in turn allows us to estimate that his Indian captors were covering on foot about twenty miles a day.  </note>
+                <note xml:id="note14"
+                    >"As soon as we came near the river, the Indians were suddenly scattered about the woods examining the trees, yelling and answering each other. They soon selected a hickory tree, which was cut down, and the bark stripped off, to make a canoe."  Tanner, <hi
+                    rend="italic">Narrative</hi>, 29. </note>
+                <note xml:id="note15"
+                    >Instances of their shared affection can be found throughout these chapters.  See for instance the story in chapter four of the live rabbit that Tanner places under the cover of a kettle.  Tanner, <hi
+                    rend="italic">Narrative</hi>, 67. </note>
+                <note xml:id="note16"
+                    >This is the country around the Red River of the North, which flows out of North Dakota in a northerly direction along the Minnesota border, crosses into Manitoba, and empties into Lake Winnipeg.</note>
+                <note xml:id="note17"
+                    >A descriptive example is the account he relates of his trouble with wolves.  See Tanner, <hi
+                    rend="italic">Narrative</hi>, 180.</note>
+                <note xml:id="note18"
+                    >Amos Eaton (1776-1842) popularized the study of natural history in his day.  His <hi
+                    rend="italic"
+                    >Manual of Botany for the Northern States</hi> saw eight editions.  Trained as a lawyer, he was imprisoned on false charges of forgery.  He later went on to teach natural history at Yale, where William Cullen Bryant studied under him.  While in prison, Eaton taught botany to the prison inspector's son John Torrey (1796-1873) who became one of the leading botanists of his time.  Edwin James attended some of Eaton's lectures in New York.  Eaton introduced James to Torrey who in turn recommended him to Stephen Long to serve on the Rocky Mountain expedition.  Many of the specimens James collected on the expedition were sent back to Torrey.  See Howard Ensign Evans, <hi
+                    rend="italic"
+                    >Pioneer Naturalists: The Discovery and Naming of North American Plants and Animals</hi> (New York: Henry Holt and Company, 1993), 71-73, 114-16.</note>
+                <note xml:id="note19"
+                    >Major Stephen H. Long (1784-1864) was assigned in 1814 to the Army Corps of Engineers.  In his early career he headed several U.S. Army explorations of the American West.  In 1820 he led the scientific expedition to the Rocky Mountains on which James served as botanist.  Long's party was to ascend the Platte River to the Rockies and return along the Spanish border, studying the geography and natural resources of the area along the way.  On their return journey they failed to reach their destination, mistaking the Canadian River for the Red.  Later in his career Long served as a consulting engineer in railroad design, and in 1861 he was made Colonel of the U.S. Corps of Topographical Engineers.  He and James remained friends throughout their lives. Edwin James, <hi
+                    rend="italic"
+                    >Account of an Expedition from Pittsburgh to the Rocky Mountains: Performed in the Years 1819, 1820 by Order of the Hon. J.C. Calhoun, under the Command of Maj. S.H. Long </hi>(London: Longman, Hurst, Rees, Orme, and Brown, 1823). See also Roger L. Nichols and Patrick L. Halley, <hi
+                    rend="italic"
+                    >Stephen Long and American Frontier Exploration</hi> (Norman: University of Oklahoma Press, Oklahoma Paperbacks edition, 1995).<hi
+                    rend="italic"> </hi> </note>
+                <note xml:id="note20">Joyce Appleby, Lynn Hunt, and Margaret Jacob, <hi
+                    rend="italic"
+                    >Telling the Truth about History</hi> (New York: W. W. Norton and Company, 1994), 15.</note>
+                <note xml:id="note21"
+                    >For more on the controversy between James and Cass see John Fierst, "Rationalizing Removal: Anti-Indianism in Lewis Cass's <hi
+                    rend="italic">North American Review</hi> Essays" <hi rend="italic"
+                    >Michigan Historical Review</hi> 36, no. 2 (Fall 2010): 1-35.</note>
+                <note xml:id="note22"
+                    >Even so astute an observer as Tocqueville could not escape this popular self-evident truth that equated savagery with misery, not misery with expansionism.  In a long footnote in the first volume of <hi
+                    rend="italic"
+                    >Democracy in America</hi> Tocqueville wrote: There is in the adventurous life of the hunter a certain irresistible charm, which seizes the heart of man and carries him away in spite of reason and experience.  This is plainly shown by the <hi
+                    rend="italic"
+                    >Memoirs of Tanner</hi>. . . . Nothing can be conceived more appalling than the miseries that he describes. . . .  Tanner shared in all these miseries. . . . When he came into civilized society, he declared that the rude existence, the miseries of which he described, had a secret charm for him which he could not define. . . . I saw Tanner myself at the lower end of Lake Superior: he seemed to me more like a savage than a civilized being. Alexis de Tocqueville, <hi
+                    rend="italic"
+                    >Democracy in America</hi>, vol. 1 (New York: Random House, Vintage Books Edition, July 1990), 347, note 18.</note>
+                <note xml:id="note23">Schoolcraft, <hi rend="italic"
+                    >Memoirs</hi>, 316; see also the note on 316.</note>
+                <note xml:id="note24"
+                    >See John Fierst, "'Return to Civilization': John Tanner's Troubled Years at Sault Ste. Marie," <hi
+                    rend="italic">Minnesota History</hi> 50 (Spring 1986), 23-36.</note>
+                <note xml:id="note25">Janet Lewis, <hi rend="italic"
+                    >The Invasion: A Narrative of Events Concerning the Johnston Family of St. Marys</hi> (Chicago: Swallow Press, 1960), 218-30, 265-69, 286-302.  <hi
+                    rend="italic">The Invasion</hi> was originally copyrighted in 1932.</note>
+                <note xml:id="note26">Schoolcraft, <hi rend="italic">Memoirs</hi>, 316.</note>
+                <note xml:id="note27"
+                    >This does not suggest that it is less important to have members of the Ojibwe community sharing in the work as part of the editorial team.  </note>
+                <note xml:id="note28"
+                    >All captivity narratives, according to Vanderbeets, derived their integrity from this universal pattern. Basing his analysis on Jungian theories popularized by Joseph Campbell, Vanderbeets argued that Indian captivity narratives were bound into a coherent whole by the "unfolding narrative pattern of abduction, detention/adoption, and return" and that these corresponded to the three phases&#8212;"separation, transformation, and enlightened return"&#8212;of the myth of "the Hero embarked upon the archetypal journey of initiation."  Vanderbeets intended to break the exclusive hold historians had upon the study of captivity narratives and to subordinate a narrow historical and cultural focus to "the core of ritual acts and patterns" that informed and unified the narratives collectively and from which the narratives derived "their essential integrity."  Richard Vanderbeets, "The Indian Captivity Narrative as Ritual," <hi
+                    rend="italic">American Literature </hi>43 (1972): 548-62.</note>
+                <note xml:id="note29"
+                    >"When considered collectively and individually, these early captivity narratives are more myth than they are history if we apply the more commonly accepted definition of the latter as a factually substantiated human event authenticated by written sources subject to scholarly scrutiny." Benjamin Mark Allen, <hi
+                    rend="italic">Naked and</hi> <hi rend="italic"
+                    >Alone in a Strange New World: Early Modern Captivity and its Mythos </hi>(New Castle: Cambridge Scholars Publishing, 2009), 3.</note>
+                <note xml:id="note30">Ibid., 8.</note>
+                <note xml:id="note31">Snader, <hi rend="italic"
+                    >Caught between Worlds</hi>, 38.</note>
+                <note xml:id="note32">Linda Colley, <hi rend="italic"
+                    >Captives</hi>, 14-15.  Those with more than a passing interest in captivity literature will find themselves, like the author, indebted to Colley's study. </note>
+                <note xml:id="note33"
+                    >James Axtell, "The Invasion Within: The Contest of Cultures in Colonial North America," in his <hi
+                    rend="italic"
+                    >The European and the Indian: Essays in the Ethnohistory of Colonial North America</hi> (New York: Oxford University Press, 1981), 39-86.</note>
+                <note xml:id="note34"
+                    >Hallowell developed this thought in an essay that first appeared in the <hi
+                    rend="italic"
+                    >American Anthropologist</hi> in 1937 and was later reprinted as chapter eleven in his <hi
+                    rend="italic"
+                    >Culture and Experience</hi>.  A. Irving Hallowell, "Temporal Orientation in Western Civilization and in Preliterate Society" in <hi
+                    rend="italic"
+                    >Culture and Experience</hi> (Philadelphia: University of Pennsylvania Press, First Pennsylvania Paperback Edition, 1974), 216-35.</note>
+                <note xml:id="note35"
+                    >  The names for the moons varied from place to place, reflecting the local environment.  The non-celestial phenomena to which the names of the moons relate&#8212;the falling of the leaves, the rutting of the deer, the freezing of the lakes&#8212;were, according to Hallowell, "only loosely coordinated" with particular moons.  For the Ojibwe, in determining seasonal time, the real emphasis was less on the waxing and waning of the moon and more on these non-celestial phenomena themselves.  The succession of these non-celestial events provided the Ojibwe their real temporal guides.  Correlating non-celestial phenomena with lunar periodicities, however, did provide a way of creating "elastic, yet standardized, divisions of time"&#8212;divisions of time that the observation of natural phenomena alone would be insufficient to establish.</note>
+                <note xml:id="note36">The <hi rend="italic"
+                    >Animikiig</hi> (Thunderers) have such an important place in the traditional Ojibwe world, it seems unlikely that Tanner would be referring simply to meteorological events.</note>
+                <note xml:id="note37"><hi rend="italic"
+                    >New Light on the Early History of the Greater Northwest: The Manuscript Journals of Alexander Henry, Fur Trader of the Northwest Company, and of David Thompson, Official Geographer and Explorer of the Same Company, 1799-1814</hi>, edited by Elliott Coues, vol. 1, <hi
+                    rend="italic"
+                    >The Red River of the North</hi> (Minneapolis: Ross  and Haines, 1965).</note>
+                <note xml:id="note38">Ibid., 97-98.</note>
+                <note xml:id="note39">Ibid.</note>
+                <note xml:id="note40"
+                    >Like Henry, Daniel Harmon was a trader for the Northwest Company.  See <hi
+                    rend="italic"
+                    >Sixteen Years In The Indian Country: The Journal of Daniel Williams Harmon 1800-1816</hi> edited by William Kay Lamb (Toronto: Macmillan of Canada, 1957).  John McKay served in the area as a factor for the Hudson's Bay Company.  His journals can be found in Hudsons Bay Company Archives in Winnipeg.</note>
+                <note xml:id="note41"
+                    >"It is probable the narrator might have proved more acceptable to many of his readers, had this retrenchment been carried to a greater extent; but it is to be remembered, that the life of the savage, like that of the civilized man, is made up of a succession of little occurrences, each unimportant by itself, but which require to be estimated in making up an opinion of the character of either." Tanner, <hi
+                    rend="italic">Narrative</hi>, 5. </note>
+                <note xml:id="note42"><hi rend="italic"
+                    >American State Papers: Indian Affairs</hi> 4:39.</note>
+                <note xml:id="note43">Tanner, <hi rend="italic">Narrative</hi>, 26.</note>
+                <note xml:id="note44">Ibid., 252.</note>
+                <note xml:id="note45">This is one of Long's northern expeditions.  See <hi
+                    rend="italic"
+                    >The Northern Expeditions of Stephen H. Long: The Journals of 1817 and 1823 and Related Documents</hi>, edited by Lucile M. Kane, June D. Holmquist, and Carolyn Gilman (St. Paul: Minnesota Historical Society Press, 1978).</note>
+                <note xml:id="note46">L. H. Pammel, "Dr. Edwin James," <hi rend="italic"
+                    >Annals of Iowa</hi> 8 (October 1907): 180.  The letter is fully transcribed on pages 180 and 181.</note>
+                <note xml:id="note47">Tanner, <hi rend="italic">Narrative</hi>, 3.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

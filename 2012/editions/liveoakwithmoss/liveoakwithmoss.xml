@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title level="m" type="main">Live Oak, with Moss.</title>
+				<title level="m" type="sub">a machine readable transcription</title>
+				<author>Walt Whitman</author>
+				<editor>Steven Olsen-Smith</editor>
+				<respStmt>
+					<resp>Transcription and encoding</resp>
+					<name xml:id="sos">Steven Olsen-Smith</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding and technical consultation</resp>
+					<name xml:id="jj">Jeremy Jensen</name>
+				</respStmt>
+			    
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<date>2010</date>
+				</edition>
+			</editionStmt>
+		    <publicationStmt>
+		        <idno type="file">liveoakwithmoss</idno>
+		        <idno type="edition">liveoakwithmoss</idno>
+		        <authority>Scholary Editing: The Annual of the Association for Documentary
+		            Editing</authority>
+		        <address>
+		            <addrLine>http://www.scholarlyediting.org</addrLine>
+		        </address>
+		        <publisher>Association for Documentary Editing</publisher>
+		        <publisher>University of Nebraska&#8211;Lincoln</publisher>
+		        <distributor>
+		            <name>Center for Digital Research in the Humanities</name>
+		            <address>
+		                <addrLine>319 Love Library</addrLine>
+		                <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+		                <addrLine>Lincoln, NE 68588-4100</addrLine>
+		                <addrLine>http://cdrh.unl.edu</addrLine>
+		            </address>
+		        </distributor>
+		        <date>2012</date>
+		        <availability>
+		            <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+		                freely distributed by the Association for Documentary Editing and the Center
+		                for Digital Research in the Humanities at the University of Nebraska-Lincoln
+		                and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+		                3.0 Unported License</p>
+		        </availability>
+
+		    </publicationStmt>
+			
+		    <seriesStmt>
+		        <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+		            Editing</title>
+		        <respStmt>
+		            <resp>editor</resp>
+		            <name xml:id="ag">Amanada Gailey</name>
+		        </respStmt>
+		        <respStmt>
+		            <resp>editor</resp>
+		            <name xml:id="awj">Andrew Jewell</name>
+		        </respStmt>
+		        <idno type="vol">33</idno>
+		        <idno type="ISSN"><!-- need to insert ISSN number --></idno>
+		    </seriesStmt>
+		    <notesStmt><note>This is an unpublished sequence of poems that were individually printed as parts of the "Calamus" cluster of Walt Whitman's Leaves of
+		        Grass (Boston: Thayer and Eldridge, 1860).</note></notesStmt>
+			<sourceDesc>
+				<bibl>
+					<author> Walt Whitman </author>
+					<title>MSS3829 Leaves of Grass, Volume 1, items 43, 48, 40, 51, 37, 60, 39, 38, 59, 64, 58, and 62</title>
+					<orgName>Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</orgName>
+				</bibl>
+			</sourceDesc>
+		    
+		</fileDesc>
+	    
+		<encodingDesc>
+			<projectDesc>
+				<p>Encoded for submission to Scholarly Editing: The Annual for the Association of Documentary Editing, with accompanying introductory essay, "The Inscription of Walt Whitman's 'Live Oak, with Moss' Sequence: A Restorative Edition," which includes a statement of editorial policy</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date>ca 1859</date>
+			</creation>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+			<textClass>
+				<keywords scheme="internal">
+					<term>live oak</term>
+					<term>manly love</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	    <revisionDesc>
+<change when="2012-07-07" who="#sos">Supplied terminal period to sequence title, with adjustment in wording to Note 1. Supplied em dash at 11.3, with adjustment to Note 55.</change>
+<change when="2012-03-15" who="#sos">Corrected misplaced line break codes at 1.3, 2.8, 2.9, and 8.9. Supplied omitted comma at 3.10</change>
+<change when="2012-02-13" who="#sos">Made minor adjustments to encoding</change>
+<change when="2012-02-06" who="#sos">Adjusted encoding for class 4 revisions</change>
+<change when="2011-09-19" who="#awj">fixed incorrect image file names in section VII</change>
+<change when="2011-09-18" who="#sos">Corrections to wording in selected notes</change>
+<change when="2011-09-08" who="#awj">Added a seriesStmt, altered the publicationStmt, and moved old publicationStmt to a new notesStmt section</change>
+			<change when="2011-09-01" who="#sos">Minor changes to wording in selected notes</change>
+			<change when="2011-07-27" who="#sos">Made the following changes:
+			1.  Removed markup codes for deletions and insertions, which are documented in the notes
+			2.  Added spaces after colons in the notes</change>
+			<change when="2011-05-02" who="#awj">Made several small markup changes in consultation with Steven Olsen-Smith, as follows:
+			1.  Added @xml:id to names in respStmt
+			2.  Added Andrew Jewell respStmt entry
+			3.  Moved the highest-level close linegroup tag to before the beginning of the notes list
+			4.  Added a div element to surround list of notes
+			5.  Added @xml:id to each ptr element
+			6.  Closed the body tag at the end of the transcription and put the notes in a back tag</change>
+			<change when="2011-02-01" who="#sos">Changes to markup in response to feedback by Andrew Jewell</change>
+         		<change when="2010-12-12" who="#sos #jj">Changes to markup in response to feedback by Andrew Jewell</change>
+         		<change when="2010-12-01" who="#sos #jj">Conversion of Word files to Notepad with XML markup added</change>    
+			<change when="2010" who="#sos">Initial Creation in MS Word</change>
+      		</revisionDesc>
+	</teiHeader>
+	<text type="manuscript">
+		<body>
+			<lg type="cluster">
+				<pb facs="liveoakwithmoss.01" type="recto"/>
+				<head type="main-authorial" rend="underline">Live Oak, with Moss.<ptr target="#note1" xml:id="nr1" /></head>
+				<lg type="poem">
+					<head type="main-authorial">I.</head>
+					<l>
+						Not the heat flames up and 
+						<choice>
+							<orig>con-<lb/>sumes,</orig>
+							<reg>consumes,</reg>
+						</choice>
+					</l>
+					<l>
+						Not the sea-waves hurry in and<lb/>
+						out,
+					</l>
+					<l>
+						Not the air, delicious and dry, the<lb/>
+						air of the ripe summer, bears<lb/>
+						lightly along white down-balls<lb/>
+						of myriads of seeds, wafted,<lb/>
+						sailing gracefully, to drop<lb/>
+						where they may,
+					</l>
+					<l>
+						Not these&#8212;O none of these, more<lb/>
+						than the flames of me,
+						<choice>
+							<orig>con-<lb/>suming,</orig>
+							<reg>consuming,</reg>
+						</choice> burning for his love<lb/>
+						whom I love&#8212;O none, more<lb/>
+						than I,  hurrying in and out;
+					</l>
+					<l>
+						Does the tide hurry, seeking 
+						<choice>
+							<orig>some-<lb/>thing</orig>
+							<reg>something</reg>
+						</choice><ptr target="#note2" xml:id="nr2" /> and never give up?&#8212;O<lb/>
+						I, the same, to<ptr target="#note3" xml:id="nr3" /> seek my life-long
+						<lb/>
+						lover;
+					</l>
+					<l>
+						O nor down-balls, nor perfumes, nor<lb/>
+						the high rain-emitting clouds,<lb/>
+						are borne through the open air,<lb/>
+						more than my copious soul is<lb/>
+						borne through the open air, wafted<lb/>
+						in all directions, for friendship, for<lb/>
+						love.&#8212;
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.01b" type="verso"/>
+				<pb facs="liveoakwithmoss.02" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">II.<ptr target="#note4" xml:id="nr4" /></head>
+					<l>
+						I saw in Louisiana a<lb/>
+						live-oak growing,
+					</l>
+					<l>
+						All alone stood it, and the<lb/>
+						moss hung down from the<lb/>
+						branches,
+					</l>
+					<l>
+						Without any companion it grew<lb/>
+						there, glistening out with<ptr target="#note5" xml:id="nr5" /><lb/>
+						joyous leaves of dark green,
+					</l>
+					<l>
+						And its look, rude, unbending,<lb/>
+						lusty, made me think of<lb/>
+						myself;
+					</l>
+					<l>
+						But I wondered how it could<lb/>
+						utter joyous leaves, standing<lb/>
+						alone there without its friend,<lb/>
+						its lover&#8212;For I knew I could<lb/>
+						not;
+					</l>
+					<l>
+						And I plucked a twig with<lb/>
+						a certain number of leaves<lb/>
+						upon it, and twined around<lb/>
+						it a little moss, and brought<lb/>
+						it away&#8212;And I have placed<lb/>
+						it in sight in my room,
+					</l>
+					<pb facs="liveoakwithmoss.02b" type="verso"/>
+					<pb facs="liveoakwithmoss.02.02" type="recto"/>
+					<l>
+						It is not needed to remind<lb/>
+						me as of my friends, (for I<lb/>
+						believe <add type="insertion" place="supralinear">lately</add><ptr target="#note6" xml:id="nr6" /> 
+						I think of little<lb/>
+						else than of them,)
+					</l>
+					<l>
+						Yet it remains to me a<lb/>
+						curious token&#8212;I write<lb/>
+						these pieces, and name<lb/>
+						them after it;<ptr target="#note7" xml:id="nr7" />
+					</l>
+					<l>
+						For all that, and though the<lb/>
+						live oak<ptr target="#note8" xml:id="nr8" /> glistens there in
+						<choice>
+							<orig>Louis-<lb/>iana,</orig>
+							<reg>Louisiana,</reg>
+						</choice> solitary in a wide<lb/>
+						flat space, uttering joyous<lb/>
+						leaves all its life, without<lb/>
+						a friend, a lover, near&#8212;I<lb/>
+						know very well I could<lb/>
+						not.
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.02.02b" type="verso"/>
+				<pb facs="liveoakwithmoss.03" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">III.<ptr target="#note9" xml:id="nr9" /></head>
+					<l>
+						When I heard at the close of<lb/>
+						the day how I had been<lb/>
+						praised in the Capitol, still<lb/>
+						it was not a happy night<lb/>
+						for me that followed;<ptr target="#note10" xml:id="nr10" />
+					</l>
+					<l>
+						And else,<ptr target="#note11" xml:id="nr11" /> when I caroused&#8212;Or<ptr target="#note12" xml:id="nr12" /><lb/>
+						when my plans<ptr target="#note13" xml:id="nr13" /> were 
+						<choice>
+							<orig>accom-<lb/>plished</orig>
+							<reg>accomplished</reg>
+						</choice>&#8212;it was well enough&#8212;<ptr target="#note14" xml:id="nr14" /><lb/>
+						Still I was not happy;<ptr target="#note15" xml:id="nr15" />
+					</l>
+					<l>
+						But 
+							<subst>
+								<del type="overstrike" seq="1">that</del> 
+								<add type="unmarked" place="supralinear" seq="2">the</add>
+							</subst><ptr target="#note16" xml:id="nr16" /> 
+						day when<ptr target="#note17" xml:id="nr17" /> I rose
+						<lb/>
+						at dawn from the bed of<lb/>
+						perfect health, electric, 
+						<choice>
+							<orig>in-<lb/>haling</orig>
+							<reg>inhaling</reg>
+						</choice> sweet breath,
+					</l>
+					<l>
+						When I saw the full moon<lb/>
+						in the west grow pale and<lb/>
+						disappear in the morning light,
+					</l>
+					<l>
+						When I wandered alone over the<lb/>
+						beach, and undressing, bathed,<lb/>
+						laughing with the waters, and<lb/>
+						saw the sun rise,
+					</l>
+					<pb facs="liveoakwithmoss.03b" type="verso"/>
+					<pb facs="liveoakwithmoss.03.02" type="recto"/>
+					<pb facs="liveoakwithmoss.03.03" type="recto"/>
+					<l>
+						And when I thought how<lb/>
+						my friend, my lover, was<lb/>
+						coming, then I<ptr target="#note18" xml:id="nr18" /> was happy;
+					</l>
+					<l>
+						O then each<ptr target="#note19" xml:id="nr19" /> breath tasted<lb/>
+						sweeter&#8212;and all that day my<lb/>
+						food nourished me more&#8212;And<lb/>
+						the beautiful day passed well,
+					</l>
+					<l>
+						And the next came with equal<lb/>
+						joy&#8212;And with the next,<ptr target="#note20" xml:id="nr20" /> at<lb/>
+						evening, came my friend,
+					</l>
+					<l>
+						And that night, O you happy<lb/>
+						waters, I heard you beating<lb/>
+						the shores&#8212;But my heart<lb/>
+						beat happier than you&#8212;for<lb/>
+						he I love was<ptr target="#note21" xml:id="nr21" /> returned and<lb/>
+						sleeping by my side,
+					</l>
+					<l>
+						And that night in the stillness<lb/>
+						his face was inclined toward<lb/>
+						me, while the moon's clear<lb/>
+						beams shone,
+					</l>
+					<l>
+						And his arm lay lightly over my<lb/>
+						breast&#8212;And that night I<lb/>
+						was happy.<ptr target="#note22" xml:id="nr22" />
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.03.02b" type="verso"/>
+				<pb facs="liveoakwithmoss.04" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">IV.</head>
+					<l>
+						This moment as I sit alone,<lb/>
+						yearning and pensive, it<lb/>
+						seems to me there are other<lb/>
+						men, in other lands, yearning<lb/>
+						and pensive.
+					</l>
+					<l>
+						It<ptr target="#note23" xml:id="nr23" />
+						seems to me I can look<lb/>
+						over and behold them, in<lb/>
+						Germany, France, Spain&#8212;Or<lb/>
+						far away in China, or in<ptr target="#note24" xml:id="nr24" /><lb/>
+						Russia&#8212;talking other dialects,<ptr target="#note25" xml:id="nr25" />
+					</l>
+					<l>
+						And it seems to me if I<lb/>
+						could know those men better<ptr target="#note26" xml:id="nr26" /><lb/>
+						I should love them as I<lb/>
+						love men in my own lands,
+					</l>
+					<l>
+						It seems to me they are as<lb/>
+						wise, beautiful, benevolent,<lb/>
+						as any in my own lands;
+					</l>
+					<l>
+						O I know we should be<lb/>
+						brethren&#8212;I know<ptr target="#note27" xml:id="nr27" /> I should<lb/>
+						be happy with them.
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.04b" type="verso"/>
+				<pb facs="liveoakwithmoss.05" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">V.</head>
+					<l>
+						Long I thought that knowledge<lb/>
+						alone would suffice me&#8212;O<lb/>
+						if I could but obtain<lb/>
+						knowledge!
+					</l>
+					<l>
+						Then my lands<ptr target="#note28" xml:id="nr28" /> engrossed me&#8212;<ptr target="#note29" xml:id="nr29" /><lb/>
+						For them I would live&#8212;I<lb/>
+						would be their orator;
+					</l>
+					<l>
+						Then I met the examples of old<lb/>
+						and new heroes&#8212;I heard the<lb/>
+						examples<ptr target="#note30" xml:id="nr30" /> of warriors, sailors,<lb/>
+						and all dauntless persons&#8212;<lb/>
+						And it seemed to me I too<lb/>
+						had it in me to be as<lb/>
+						dauntless as any, and would<lb/>
+						be so;
+					</l>
+					<l>
+						And then to finish all, it<lb/>
+						came to me to strike up the<lb/>
+						songs of the New World&#8212;And<lb/>
+						then I believed my life must<lb/>
+						be spent in singing;
+					</l>
+					<l>
+						But now take notice, Land of<lb/>
+						the prairies, Land of the south<lb/>
+						savannas, Ohio's land,
+					</l>
+					<pb facs="liveoakwithmoss.05b" type="verso"/>
+					<pb facs="liveoakwithmoss.05.02" type="recto"/>
+					<l>
+						Take notice, you Kanuck woods<lb/>
+						&#8212;and you, Lake<ptr target="#note31" xml:id="nr31" /> Huron&#8212;and<lb/>
+						all that with you roll toward<lb/>
+						Niagara&#8212;and you Niagara<lb/>
+						also,
+					</l>
+					<l>
+						And you, Californian mountains&#8212;<lb/>
+						that you all find some one else<lb/>
+						that he be your singer of songs,
+					</l>
+					<l>
+						For I can be your singer of songs<lb/>
+						no longer&#8212;I have passed ahead&#8212;<ptr target="#note32" xml:id="nr32" /><lb/>
+						I have ceased to enjoy them.
+					</l>
+					<l>
+						I have found him who loves me,<lb/>
+						as I him, in perfect love,
+					</l>
+					<l>
+						With the rest I dispense&#8212;I sever<lb/>
+						from all that I thought would<lb/>
+						suffice me, for it does not&#8212;it<lb/>
+						is now empty and tasteless<lb/>
+						to me,
+					</l>
+					<l>
+						I heed knowledge, and the grandeur<lb/>
+						of The States, and the examples<lb/>
+						of heroes, no more,
+					</l>
+					<pb facs="liveoakwithmoss.05.02b" type="verso"/>
+					<pb facs="liveoakwithmoss.05.03" type="recto"/>
+					<l>
+						I am indifferent to my own<lb/>
+						songs&#8212;I am to go with<lb/>
+						him I love, and he is to<lb/>
+						go with me,
+					</l>
+					<l>
+						It is to be enough for each<lb/>
+						of us that we are together&#8212;<lb/>
+						We never separate again.&#8212;
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.05.03b" type="verso"/>
+				<pb facs="liveoakwithmoss.06" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">VI.</head>
+					<l>
+						What think you I have<lb/>
+						taken my pen to record?
+					</l>
+					<l>
+						Not the battle-ship, perfect-<lb/>
+						model'd, majestic, that I saw<lb/>
+						to day arrive in the offing,<lb/>
+						under full sail,
+					</l>
+					<l>
+						Nor the splendors of the past<lb/>
+						day&#8212;nor the splendors of<lb/>
+						the night that envelopes me&#8212;<lb/>
+						Nor the glory and growth of<lb/>
+						the great city spread around<lb/>
+						me,
+					</l>
+					<l>
+						But the two <del type="overstrike">young</del>men<ptr target="#note33" xml:id="nr33" /> I saw<lb/>
+						to-day on the pier, parting<lb/>
+						the parting of dear friends.
+					</l>
+					<l>
+						The one 
+							<subst>
+								<del type="overstrike" seq="1">who</del> 
+								<add type="unmarked" place="supralinear" seq="2">to</add> 
+							</subst>
+							<subst>
+								<del type="overstrike" seq="1">remained</del> 
+								<add type="unmarked" place="supralinear" seq="2">remain</add>
+							</subst><ptr target="#note34" xml:id="nr34" /> 
+						hung on<lb/>
+						the other's neck and passionately<lb/>
+						kissed him&#8212;while the one<lb/>
+						
+							<subst>
+								<del type="overstrike" seq="1">who departed</del> 
+								<add type="unmarked" place="supralinear" seq="2">to depart</add>
+							</subst><ptr target="#note35" xml:id="nr35" /> 
+						tightly prest the<lb/>
+						one 
+							<subst>
+								<del type="overstrike" seq="1">who remained</del> 
+								<add type="unmarked" place="supralinear" seq="2">to remain</add>  
+							</subst><ptr target="#note36" xml:id="nr36" />
+						in his arms.
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.06b" type="verso"/>
+				<pb facs="liveoakwithmoss.07" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">VII.</head>
+					<l>
+						You bards of ages hence!<ptr target="#note37" xml:id="nr37" /> when<lb/>
+						you refer to me, mind not<lb/>
+						so much my poems,
+					</l>
+					<l>
+						Nor speak of me that I 
+						<choice>
+							<orig>pro-<lb/>phesied</orig>
+							<reg>prophesied</reg>
+						</choice> of The States and led<lb/>
+						them the way of their glories,
+					</l>
+					<l>
+						But come, I will inform you<lb/>
+						who I was underneath that<lb/>
+						impassive exterior&#8212;I will<lb/>
+						tell you what to say of me,
+					</l>
+					<pb facs="liveoakwithmoss.07b" type="verso"/>
+					<pb facs="liveoakwithmoss.07.02" type="recto"/>
+					<l>
+						Publish my name and hang up<lb/>
+						my picture as that of the<lb/>
+						tenderest lover,
+					</l>
+					<l>
+						The friend, the lover's portrait, of<lb/>
+						whom his friend, his lover,<lb/>
+						was fondest,
+					</l>
+					<l>
+						Who was not proud of his songs,<lb/>
+						but of the measureless ocean<lb/>
+						of love within him&#8212;and<lb/>
+						freely poured it forth,
+					</l>
+					<l>
+						Who often walked lonesome walks<lb/>
+						thinking of his dearest friends,<lb/>
+						his lovers,
+					</l>
+					<l>
+						Who pensive, away from one he<lb/>
+						loved, often lay sleepless and<ptr target="#note38" xml:id="nr38" /><lb/>
+						dissatisfied at night,
+					</l>
+					<l>
+						Who, dreading lest the one he loved<lb/>
+						might after all be indifferent<lb/>
+						to him, felt the sick feeling&#8212;<lb/>
+						O sick! sick!
+					</l>
+					<l>
+						Whose happiest days were those, far<lb/>
+						away 
+						<add type="insertion" place="supralinear">through fields,</add><ptr target="#note39" xml:id="nr39" /> 
+						in woods, 
+						<del type="overstrike" seq="1">or</del> on<ptr target="#note40" xml:id="nr40" /> hills, he<lb/>
+						and another, wandering hand in<lb/>
+						hand, they twain, apart from<lb/>
+						other men.
+					</l>
+					<l>
+						Who ever, as he sauntered the<lb/>
+						streets, curved with his arm<lb/>
+						the manly shoulder of his<lb/>
+						friend&#8212;while the curving<lb/>
+						arm of his friend rested<lb/>
+						upon him also.
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.07.02b" type="verso"/>
+				<pb facs="liveoakwithmoss.08" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">VIII.<ptr target="#note41" xml:id="nr41" /></head>
+					<l>
+						Hours continuing long, sore<lb/>
+						and heavy-hearted,
+					</l>
+					<l>
+						Hours of the dusk,<ptr target="#note42" xml:id="nr42" /> when I<lb/>
+						withdraw to a lonesome and<lb/>
+						unfrequented spot, seating<ptr target="#note43" xml:id="nr43" /><lb/>
+						myself, leaning my face<lb/>
+						in my hands,
+					</l>
+					<l>
+						Hours sleepless, deep in the night,<lb/>
+						when I go forth, speeding<lb/>
+						swiftly the country roads, or<lb/>
+						through the city streets, or<lb/>
+						pacing miles and miles, stifling<lb/>
+						plaintive cries,
+					</l>
+					<pb facs="liveoakwithmoss.08b" type="verso"/>
+					<pb facs="liveoakwithmoss.08.02" type="recto"/>
+					<l>
+						Hours discouraged, distracted,<lb/>
+						&#8212;For he, the one I cannot<lb/>
+						content myself without&#8212;<lb/>
+						soon I saw him content<ptr target="#note44" xml:id="nr44" /> <lb/>
+						himself without me,
+					</l>
+					<l>
+						Hours when I am forgotten<ptr target="#note45" xml:id="nr45" /> 
+						&#8212;<lb/>
+						(O weeks and months are<lb/>
+						passing, but I believe I am<lb/>
+						never to forget!)
+					</l>
+					<l>
+						Sullen and suffering hours&#8212;<lb/>
+						(I am ashamed&#8212;but it is<lb/>
+						useless&#8212;I am what I am;)
+					</l>
+					<l>
+						Hours of my<ptr target="#note46" xml:id="nr46" /> torment&#8212;I<lb/>
+						wonder if other men ever<lb/>
+						have the like, out of the<lb/>
+						like feelings?
+					</l>
+					<l>
+						Is there even one other like<lb/>
+						me<ptr target="#note47" xml:id="nr47" />&#8212;distracted&#8212;his friend,<lb/>
+						his lover, lost to him?
+					</l>
+					<l>
+						Is he too as I am now?  Does<lb/>
+						he still rise in the morning,<lb/>
+						dejected, thinking who is lost to him?<ptr target="#note48" xml:id="nr48" /><lb/>
+						And at night, awaking, think who is<lb/>
+						lost?
+					</l>
+					<l>
+						Does he too harbor his friendship 
+						<choice>
+							<orig>si-<lb/>lent</orig>
+							<reg>silent</reg>
+						</choice> and endless?  Harbor his anguish<lb/>
+						and passion?
+					</l>
+					<l>
+						Does some stray reminder, or the<lb/>
+						casual mention of a name, bring<lb/>
+						the fit back upon him, taciturn<lb/>
+						and deprest?
+					</l>
+					<l>
+						Does he see himself reflected in me?<lb/>
+						In these hours does he see the<lb/>
+						face of his hours reflected?
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.08.02b" type="verso"/>
+				<pb facs="liveoakwithmoss.09" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">IX.</head>
+					<l>
+						I dreamed in a dream of a<lb/>
+						city where all the men<lb/>
+						were like brothers,
+					</l>
+					<l>
+						O I saw them tenderly love<lb/>
+						each other&#8212;I often saw<lb/>
+						them, in numbers, walking<lb/>
+						hand in hand;
+					</l>
+					<l>
+						I dreamed that was the city<lb/>
+						of robust friends&#8212;Nothing<lb/>
+						was greater there than the<lb/>
+						quality of<ptr target="#note49" xml:id="nr49" /> manly love&#8212;it<lb/>
+						led the rest,
+					</l>
+					<l>
+						It was seen every hour in the<lb/>
+						actions of the men of that city,<lb/>
+						and in all their looks and<lb/>
+						words.&#8212;
+					</l>
+				</lg> 
+				<pb facs="liveoakwithmoss.09b" type="verso"/>
+				<pb facs="liveoakwithmoss.10" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">X.<ptr target="#note50" xml:id="nr50" /></head>
+					<l>
+						O you whom I <add type="insertion" place="supralinear">often and</add><ptr target="#note51" xml:id="nr51" /> silently come<lb/>
+						where you<ptr target="#note52" xml:id="nr52" /> are, that<lb/>
+						I may be with you,
+					</l>
+					<l>
+						As I walk by your side, or<lb/>
+						sit near, or remain in<lb/>
+						the same room with you,
+					</l>
+					<l>
+						Little you know the subtle<lb/>
+						electric fire that for<lb/>
+						your sake is playing<lb/>
+						within me.&#8212;
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.10b" type="verso"/>
+				<pb facs="liveoakwithmoss.11" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">XI.</head>
+					<l>
+						Earth! My likeness!<ptr target="#note53" xml:id="nr53" /> Though<lb/>
+						you look so impassive,<lb/>
+						ample and spheric 
+						<subst>
+							<add type="insertion" place="inline" seq="1">there,</add>
+							<del type="wipe" seq="2">,</del>
+						</subst><ptr target="#note54" xml:id="nr54" />
+						<lb/>
+						&#8212;I now suspect that<lb/>
+						is not all,
+					</l>
+					<l>
+						I now suspect there is<lb/>
+						something terrible in you,<lb/>
+						ready to break forth,
+					</l>
+					<l>
+						For<ptr target="#note55" xml:id="nr55" /> an athlete loves me,<lb/>
+						&#8212;and I him&#8212;But toward<lb/>
+						him there is something<lb/>
+						fierce and terrible in me,
+					</l>
+					<l>
+						I dare not tell it in words&#8212;<lb/>
+						not even in these songs.
+					</l>
+				</lg>
+				<pb facs="liveoakwithmoss.11b" type="verso"/>
+				<pb facs="liveoakwithmoss.12" type="recto"/>
+				<lg type="poem">
+					<head type="main-authorial">XII.<ptr target="#note56" xml:id="nr56" /></head>
+					<l>
+						To the young man, many<lb/>
+						things to absorb, to engraft,<lb/>
+						to develope,<ptr target="#note57" xml:id="nr57" /> I teach, that<lb/>
+						he be my eleve,
+					</l>
+					<l>
+						But if through him rolls<ptr target="#note58" xml:id="nr58" /><lb/>
+						not the blood<ptr target="#note59" xml:id="nr59" /> of<lb/>
+						divine<ptr target="#note60" xml:id="nr60" /> friendship, hot<lb/>
+						and red&#8212;If he be not<lb/>
+						silently selected by lovers,<lb/>
+						and do not silently select<lb/>
+						lovers&#8212;of what use were<lb/>
+						it for him to seek to<lb/>
+						become eleve of mine?<ptr target="#note61" xml:id="nr61" />
+					</l>
+				</lg></lg>
+			<pb facs="liveoakwithmoss.12b" type="verso"/>
+</body>
+<back>
+				<div type="notes"><note xml:id="note1">
+				Title: Live Oak, with Moss.] Struck out by a single horizontal line, with
+				the title "Calamus-Leaves" and a period inscribed above&#8212;all in light brown ink.
+				</note>
+				<note xml:id="note2">
+				1.5: something] A horizontal blue pencil line has been supplied under an
+				end-line double hyphen following "some."  If intended for hyphenation, as 
+				Bowers seems to assert ("the hyphen has been mended in blue pencil"), 
+				the blue line is superfluous because the double hyphen is clearly legible; 
+				see <hi rend="italic">Whitman's Manuscripts: Leaves of Grass (1860) A 
+				Parallel Text</hi> (Chicago and London: University of Chicago Press), 
+					92 (hereafter cited parenthetically).
+				</note>
+				<note xml:id="note3">
+				1.5: to] The "t" is superimposed over a smudged letter or letters, possibly "th."
+				</note>
+				<note xml:id="note4">
+				2: II.] The period is omitted by Whitman, and is supplied here following the precedent 
+				established in his heading to Poem I and observed by him in headings IV through 
+				IX and XI.
+				</note>
+				<note xml:id="note5">
+				2.3: with] Crossed out in pencil.
+				</note>
+				<note xml:id="note6">
+				2.7: lately] Interlined with a caret in black ink.
+				</note>
+				<note xml:id="note7">
+				2.8: I write . . . after it] Struck out by horizontal lines, with "&#8212;it makes me think of 
+				manly love." interlined above&#8212;all in light brown ink.
+				</note>
+				<note xml:id="note8">
+				2.9: live oak] Interlined with a caret above "tree," which is struck out by a 
+				diagonal slash; unnoted by Bowers (102), in "live" Whitman initially inscribed an <hi rend="italic">f</hi> 
+				and subsequently over-wrote it with a <hi rend="italic">v</hi>, probably before going on to
+				inscribe the terminal <hi rend="italic">e</hi>&#8212;all in black ink.
+				</note>
+				<note xml:id="note9">
+				3: III.] The period is omitted by Whitman, and is supplied here following the precedent 
+				established in his heading to Poem I and observed by him in headings IV through IX and XI.
+				</note>
+				<note xml:id="note10">
+				3.1: followed] The ending "ed" is superimposed over "d" in the same ink.
+				</note>
+				<note xml:id="note11">
+				3.2: And else,] Crossed out, with "Nor" substituted above&#8212;all in pencil.
+				</note>
+				<note xml:id="note12">
+				3.2: Or] Crossed out at the line ending, with a dash interlined above, and "&#8212;Nor" interlined 
+				with a caret at the start of the next line before "when"&#8212;all in pencil.
+				</note>
+				<note xml:id="note13">
+				3.2: my plans] The word "favorite" is interlined with a caret in pencil between "my" and "plans".
+				</note>
+				<note xml:id="note14">
+				3.2: it was well enough] Crossed out, with "was I really happy," interlined above&#8212;all in pencil.
+				</note>
+				<note xml:id="note15">
+				3.2: Still I was not happy] Crossed out in pencil.
+				</note>
+				<note xml:id="note16">
+				3.3: the] Interlined above "that," which is struck out by a diagonal slash&#8212;all in black ink. 
+				The substitution of "the" was subsequently amended in pencil to "that". This was later 
+				entirely crossed out in pencil, again with the substitution of "the" in pencil, which was 
+				later struck out yet again, with "that" restored in pencil. The original black ink substitution 
+				is observed here.
+				</note>
+				<note xml:id="note17">
+				3.3: when] Crossed out in pencil, with another "when" later interlined and then crossed out in pencil. 
+				</note>
+				<note xml:id="note18">
+				3.6: then I] The upper-case letter "O" is interlined with a caret (both in pencil) between "then" and "I".
+				</note>
+				<note xml:id="note19">
+				3.7: O then each] "O" crossed out, with "then" emended to "Then"&#8212;all in pencil. Later, "Then" was 
+				crossed out, with "each" emended to "Each"&#8212;all in pencil.
+				</note>
+				<note xml:id="note20">
+				3.8: next,] Bowers identifies the comma as accidentally smudged by Whitman in the process of erasing 
+				"some illegible word" beneath it (88), but no such erasure is evident. The comma is instead largely 
+				obscured by a layer of paste transferred in the process of Whitman's paste-over revision of 
+				lines 24-26, and Bowers seems to have mistaken contours in the dried paste (likely applied by 
+				Whitman's thumb print or finger print) for an erased word.
+				</note>
+				<note xml:id="note21">
+				3.9: was] Bowers erroneously reads "is" (88).
+				</note>
+				<note xml:id="note22">
+				3.9-11: And that night . . . I was happy] Canceled by a paste-over leaf, on which the following four 
+				lines are substituted in a black ink ({i} signifies an insertion in the same ink):
+				<l>And that night, while all<lb/>
+				was still, I heard the<lb/>
+				waters roll slowly continually<lb/>
+				up the shores</l>
+				<l>I heard the hissing rustle of<lb/>
+				the liqu{i}d and sands, as directed<lb/>
+				to me, whispering to congratulate<lb/>
+				me,&#8212;For the friend I love lay<lb/>
+				sleeping by my side,</l>
+				<l>In the stillness his face was 
+					<choice>
+						<orig>in-<lb/>clined</orig>
+						<reg>inclined</reg>
+					</choice> towards me, while the<lb/>
+				moon's clear beams shone,</l>
+				<l>And his arm lay lightly over my<lb/>
+				breast&#8212;And that night I was happy.</l>
+				</note>
+				<note xml:id="note23">
+				4.2: It] As Bowers observes, "Whitman began the line with 'I,' and then emended it to a t, prefixing 
+				capital I," in effect beginning the line anew at a point closer to the right edge of the leaf, and 
+				at a position more closely aligned with the starting point of line 27 directly above (106).
+				</note>
+				<note xml:id="note24">
+				4.2: China, or in] The word "India" and a comma are interlined with a caret between "China," and "or"; 
+				the word "in" (immediately preceding "Russia") is crossed out&#8212;all in pencil.
+				</note>
+				<note xml:id="note25">
+				4.2: dialects,] The comma is faint here not from erasure but apparently a flaw at the point of Whitman's 
+				pen, as further indicated by similar imperfections in the script from here to the end of the leaf. That 
+				Whitman paused in transcription to replace or repair his implement is indicated by the absence of 
+				such flaws on the following leaf 8, which contains the first 5 lines of Poem V.
+				</note>
+				<note xml:id="note26">
+				4.3: better] Crossed out, with a comma interlined after "men" but later crossed out&#8212;all in pencil.
+				</note>
+				<note xml:id="note27">
+				4.5: know . . . know] Both instances of "know" are crossed out, with "think" interlined above at both 
+				points&#8212;all in pencil.
+				</note>
+				<note xml:id="note28">
+				5.2: my lands] Struck out by a single line, with "the Land of the Prairies" interlined above&#8212;all in pencil.
+				</note>
+				<note xml:id="note29">
+				5.2: me&#8212;] Interlined above "me" in pencil is the clause "&#8212;the south Savannahs engrossed me&#8212;".
+				</note>
+				<note xml:id="note30">
+				5.3: I heard the examples] The clause, "the examples" is struck out by diagonal slashes in black ink.
+				</note>
+				<note xml:id="note31">
+				5.6: Lake] Originally inscribed with a lower case "l," but emended to upper case in the same ink.
+				</note>
+				<note xml:id="note32">
+				5.8: I have passed ahead&#8212;] Crossed out in pencil.
+				</note>
+				<note xml:id="note33">
+				6.4: two men] The word, "young" is struck out by diagonal slashes in between "two" and "men" in black ink.
+				</note>
+				<note xml:id="note34">
+				6.5: to remain] Interlined above "who remained," which is struck out by diagonal slashes&#8212;all in black ink.
+				</note>
+				<note xml:id="note35">
+				6.5: to depart] Interlined above "who departed," which is struck out by a horizontal line&#8212;all in black ink.
+				</note>
+				<note xml:id="note36">
+				6.5: to remain] Interlined above "who remained," which is struck out by a horizontal line&#8212;all in black ink.
+				</note>
+				<note xml:id="note37">
+				7.1: !] Added above a comma, which is struck out by diagonal slashes&#8212;all in black ink.
+				</note>
+				<note xml:id="note38">
+				7.8: and] The "a" overwrites an illegible letter in the same ink.
+				</note>
+				<note xml:id="note39">
+				7.10: through fields,] Interlined with a caret in black ink.
+				</note>
+				<note xml:id="note40">
+				7.10: woods, on] Preceding "on" is the word "or", crossed out in black ink.
+				</note>
+				<note xml:id="note41">
+				8: VIII.] Supplied in black ink above canceled "IX." The poem overwrites an erased pencil inscription, 
+				"finished in the other city" within enlarged parentheses.
+				</note>
+				<note xml:id="note42">
+				8.2: dusk] It is not clear whether the "k" is "heavily mended," as Bowers asserts (83), or inadvertently smudged.
+				</note>
+				<note xml:id="note43">
+				8.2: seating] As Bowers observes, the "ing" overwrites a smudge that may have been an "ed" that was effaced 
+				while the ink was still wet (82).
+				</note>
+				<note xml:id="note44">
+				8.4: him content] The "c" overwrites an aborted pen stroke in the same ink.
+				</note>
+				<note xml:id="note45">
+				8.5: forgotten] The "en" overwrites unidentified letters in the same ink.
+				</note>
+				<note xml:id="note46">
+				8.7: my] Omitted by Bowers (84).
+				</note>
+				<note xml:id="note47">
+				8.8: me] Bowers asserts "me" to be "written over a smudge, probably representing an erasure" (84). As with "lost to" 
+				directly below, the "smudge" is in fact dried glue transferred from the point where original notebook leaf 
+				14 and the top portion of 15 were joined (between lines 69 and 70 above). The displaced glue was wiped by 
+				Whitman using a thumb or finger, the print of which is discernable at the spot.
+				</note>
+				<note xml:id="note48">
+				8.9: lost to] Bowers asserts "lost to him?" to be "written over a smudged erasure" (84). As with "me" directly above, 
+				the "smudged erasure" is in fact dried glue transferred from the point where original notebook leaf 14 and 
+				the top portion of 15 were joined (between lines 69 and 70 above). The displaced glue was wiped by Whitman 
+				using a thumb or finger, the print of which is discernable at the spot. An identical situation appears at 
+				the end of the line with "lost?", unnoted by Bowers.
+				</note>
+				<note xml:id="note49">
+				9.3: the quality of] Crossed out in pencil.
+				</note>
+				<note xml:id="note50">
+				10: X.] The period is omitted by Whitman, and is supplied here following the precedent established in his heading 
+				to Poem I and observed by him in headings IV through IX and XI.
+				</note>
+				<note xml:id="note51">
+				10.1: often and] Interlined with a caret in black ink.
+				</note>
+				<note xml:id="note52">
+				10.1: where you] Preceding "you" is the word "I", struck out by diagonal slashes in black ink.
+				</note>
+				<note xml:id="note53">
+				11.1: My likeness!] Struck out by diagonal slashes in black ink. The "n" in "likeness" is smeared but not verifiably 
+				"mended over some smudged-out letter," as Bowers asserts (114).
+				</note>
+				<note xml:id="note54">
+				11.1: spheric there] Unnoted by Bowers (114), the line originally ended with a period at "spheric," presumably in error. 
+				Whitman added "there" followed by a comma or (less likely) a semi-colon, which he wiped out while the ink was still wet. 
+				He neglected to cancel the period following "spheric," which is omitted here.
+				</note>
+				<note xml:id="note55">
+				11.3: For] The "o" in "For" is smeared and perhaps written over an "a", as reported by Bowers (114). Also noted by Bowers, in the same ink Whitman used a caret to insert an em dash before "and" at the start of the next textual line (114). The revision observes faithfully Whitman's canceled draft version of this poem, where the opening em dash was retained when Whitman interlined "and I him&#8212;but" (see <hi rend="italic">Whitman Archive</hi> loc.0025.001 &lt;<ref type="url" target="http://www.whitmanarchive.org/manuscripts/figures/loc.00225.001.jpg">http://www.whitmanarchive.org/manuscripts/figures/loc.00225.001.jpg</ref>&gt;.</note>
+				<note xml:id="note56">
+				12: XII.] The period is omitted by Whitman, and is supplied here following the precedent established in his heading 
+				to Poem I and observed by him in headings IV through IX and XI.
+				</note>
+				<note xml:id="note57">
+				12.1: develope] Terminal "e" struck out in pencil.
+				</note>
+				<note xml:id="note58">
+				12.2: rolls] Crossed out, with the word "speed" interlined above&#8212;all in pencil.
+				</note>
+				<note xml:id="note59">
+				12.2: the blood] Preceding "blood" is the word "red," struck out by diagonal slashes in black ink.
+				</note>
+				<note xml:id="note60">
+				12.2: divine] Crossed out in pencil.
+				</note>
+				<note xml:id="note61">
+				12.2: mine?] The lower portion of the question mark is smudged, but not verifiably inserted or emended, as suggested 
+				by Bowers (119).
+				</note></div>
+			
+		</back>
+	</text>
+</TEI>

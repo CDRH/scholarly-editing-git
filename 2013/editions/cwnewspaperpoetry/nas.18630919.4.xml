@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630919.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Refining Fires</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630919.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jp">Rev. John Pierpont</author>
+                        <title level="a">Refining Fires</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-09-19">19 September 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jp">Pierpont, John, 1785-1866</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-15" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>
+            <change when="2012-08-26" who="#el">checked basic encoding</change>
+            <change when="2012-07-31" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>            
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630919.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630919.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630919.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630919.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630919.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">REFINING FIRES.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY REV. JOHN PIERPONT.<note type="editorial" resp="#bw #el"><p>John Pierpont (1785&#8211;1866) served as minister at Boston's Unitarian Hollis Street Church from 1819 until 1845, when he resigned after a long struggle with parish members who objected to his reform-oriented sermons. His poems appeared in the antislavery press during this period; Oliver Johnson, wartime editor of the <title level="j">National Anti-Slavery Standard</title>, published <title level="m">The Anti-Slavery Poems of John Pierpont</title> in 1843.</p><p>Pierpont moved to the First Unitarian Church of Troy, in New York, then settled at the First Congregational (Unitarian) Church of West Medford, Massachusetts (1849&#8211;1858). He supported the Liberty, Free Soil, and Republican parties (Reinhard O. Johnson, <title level="m">The Liberty Party, 1840&#8211;1848: Antislavery Third-Party Politics in the United States</title> [Baton Rouge: Louisiana State University Press, 2009], 365). The outbreak of Civil War prompted him to enlist as a chaplain for the Twenty-Second Massachusetts Volunteers, but poor health forced the seventy-six year-old to give up the post after less than a month. "Our Country's Call" suggests that he continued to champion the war effort as a Union League member. He worked as a treasury clerk in Washington, DC from 1861 until his death.</p></note></byline>
+        
+                <milestone unit="undeclared" rend="short-bar"/>
+        
+                <epigraph>
+                    <ab>"Behold. I have refined thee, but not with silver."</ab><bibl>&#8212;<lb/><emph rend="italic">Isaiah xlviii.</emph> 10.</bibl><note type="editorial" resp="#bw #el"><p>The whole verse reads, "Behold, I have refined thee, but not with silver; I have chosen thee in the furnace of affliction" (Isaiah 48:10). Pierpont delivers a somber sermon in verse on meaningful and necessary suffering. In the context of the war, Pierpont's narrative of individual purification through suffering merged with a larger national narrative: God's chosen nation would be redeemed through the sacrifice and suffering of its people (see Phillip Shaw Paludan, "Religion and the American Civil War," in <title level="m">Religion and the American Civil War</title>, ed. Randall M. Miller, et al. [Oxford: Oxford University Press, 1998], 24&#8211;27).</p>
+                        <p>While Pierpont's opening stanza hints that self-culture enables mankind to purify body and soul, subsequent stanzas quickly establish the futility of human effort; divine afflictions must be endured. In formal terms, the consolation of the closing line barely serves as a counterweight to the preceding list of afflictions. The poem's grim aspect qualifies the triumphalism of <ref target="nas.18630523.4a">"Our Country's Call."</ref></p></note>
+                </epigraph>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Not</emph> with silver, not with gold,</l>
+                    <l rend="indented1">Every gift of every mine,</l>
+                    <l>Multiplied a thousandfold,</l>
+                    <l rend="indented1">Doth our God the soul refine.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Not from broad and fertile fields,</l>
+                    <l rend="indented1">Nor from any form of wealth</l>
+                    <l>That Earth's face or bosom yields,</l>
+                    <l rend="indented1">Comes "the soul's eternal health."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>But "true riches"<note type="editorial" resp="#el #bw">Luke 16:11: "If therefore ye have not been faithful in the unrighteous mammon, who will commit to your trust the true riches?"</note> come from toil</l>
+                    <l rend="indented1">Of the muscles or the mind,</l>
+                    <l>And, by culture of the soil,</l>
+                    <l rend="indented1">Or the soul, is man refined.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>With the chastening power of pain,</l>
+                    <l rend="indented1">Tossings on a sleepless bed,</l>
+                    <l>Cares that gnaw upon the brain,</l>
+                    <l rend="indented1">Bleeding heart and throbbing head;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>With our sorrows for the past,</l>
+                    <l rend="indented1">With our fears of coming ill,</l>
+                    <l>That their forward shadows cast</l>
+                    <l rend="indented1">On our pathway dark and chill;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>With the discipline of tears,</l>
+                    <l rend="indented1">Over loved and lost ones shed,</l>
+                    <l>With our loves of early years</l>
+                    <l rend="indented1">Dying out, or wholly dead;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>With the depths of voiceless woe</l>
+                    <l rend="indented1">That have whelmed our hearts so much,</l>
+                    <l>Hopes that withered long ago</l>
+                    <l rend="indented1">Under Disappointment's touch;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>With the agonizing pang,</l>
+                    <l rend="indented1">Felt from Folly's Parthian dart,<note type="editorial" resp="#bw #el">A "Parthian shot" is a "pointed glance" or "cutting remark delivered . . . at the moment of departure" (<title level="m">Oxford English Dictionary</title>). The phrase refers to the battle tactics of agile Parthian horsemen, who twisted in their saddles to shoot back at enemies even as they appeared to retreat. Here, Folly personified throws a "Parthian dart"; its "pang" comprises one of the soul's trials and is linked by rhyme with "Remorse's . . . fang."</note></l>
+                    <l>With Remorse's viperous fang</l>
+                    <l rend="indented1">Struck into the guilty heart;</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>With our fruitless efforts, made</l>
+                    <l rend="indented1">To attain some shining goal,</l>
+                    <l>Labors lost, and trust betrayed&#8212;</l>
+                    <l rend="indented1">Doth our God refine the soul.</l>
+                </lg>
+            </lg>
+        
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

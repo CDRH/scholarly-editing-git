@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640130.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Sowing In Hope</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640130.4a</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#cam">Caroline A. Mason</author>
+                        <title level="a">Sowing In Hope</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-01-30">30 January 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="cam">Mason, Caroline A. (Caroline Atherton), 1823-1890</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Antislavery movements--United States--History--19th century</term>
+                    <term>Garrison, William Lloyd, 1805-1879</term>
+                    <term>Garrison, William Lloyd, 1805-1879--Influence</term>
+                    <term>Garrison, William Lloyd, 1805-1879--Political and social views</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-20" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-13" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-13" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked transcription</change>
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640130.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640130.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640130.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640130.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18640130.pp4a_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANTI-SLAVERY STANDARD.</note>
+                
+                <head type="main" subtype="authorial" rend="center">SOWING IN HOPE.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <head type="sub" subtype="authorial" rend="center">INSCRIBED TO W. L. G.<note type="editorial" resp="#bw #el"><p>Probably William Lloyd Garrison (1805&#8211;1879), abolitionist leader and editor.</p><p>For almost thirty-five years, Garrison's Boston-based <title level="j">Liberator</title> (January 1, 1831&#8211;December 29, 1865) championed immediate abolition in the strongest terms and advocated a host of other reform causes. By 1831 Garrison had already gained a hero's reputation among abolitionists for serving time in a Baltimore jail as a result of his antislavery journalism. He played a key role in founding the American Anti-Slavery Society in 1833. Ideological differences caused the society to split in 1840; Garrison became the American Anti-Slavery Society's president in 1843.</p><p>Prior to the war, Garrison condemned the Constitution as a proslavery document and advocated disunionism. On July 4, 1854, official state support for the return of fugitive slave Anthony Burns prompted him to burn copies of the Constitution and the Fugitive Slave Law. In the wake of John Brown's Harpers Ferry raid, Lincoln's election, and the outbreak of Civil War, he reconsidered both his pacifism and disunionism: "Garrison would not sacrifice his voice for abolition at the culminating moment of the struggle, even if that meant acceptance of the violent measures he had always deplored" (Henry Mayer, <title level="m">All on Fire: William Lloyd Garrison and the Abolition of Slavery</title> [New York: St. Martin's Press, 1998], 520). During the first half of the war, he exerted moral pressure on the administration and greeted the preliminary Emancipation Proclamation with cautious approbation; the Emancipation Proclamation gave him more confidence in Lincoln.</p><p>At the Massachusetts Anti-Slavery Society's annual meeting in January 1864, Garrison defended the president's commitment to emancipation in the face of harsh criticism and affirmed his support for the administration in the lead-up to the presidential election. Prominent society members rejected his arguments and sided with Wendell Phillips, who would replace Garrison as president of the American Anti-Slavery Society. For Garrison, the ratification of the Thirteenth Amendment and the dissolution of the society "would mark the close of a chapter" (587); when his move to dissolve the society was voted down in May 1865, he resigned from the presidency.</p></note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l>"<emph rend="smallcaps">My</emph> words are poor and weak," I said; "they pass</l>
+                    <l>Like summer wind above the summer grass.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"To utter them seems idle and in vain;</l>
+                    <l>I cannot hope to gather them again.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"How know I that one link of sin is broke</l>
+                    <l>For any word that I have writ or spoke?</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"And yet, impelled by some deep, inward voice,</l>
+                    <l>I must work on; I have no other choice.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"But oh, my words are poor and weak," I said;</l>
+                    <l>"The truth is quick; the utterance cold and dead."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Nay, nay, not so," he answered; "sow thy seed</l>
+                    <l>Unquestioning; God knoweth there is need!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"For every grain of Truth in weakness sown</l>
+                    <l>He watches over who protects His own.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Though buried long, it shall spring up at length,</l>
+                    <l>And shake like Lebanon its fruitful strength!"<note type="editorial" resp="#bw #el">Probably a reference to Psalm 72:16: "There shall be a handful of corn in the earth upon the top of the mountains; the fruit thereof shall shake like Lebanon: and they of the city shall flourish like grass of the earth."</note></l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>He said and left me, while I pondered o'er</l>
+                    <l>The old-time truths so often heard before.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And while I pondered, unaware there stole</l>
+                    <l>A strange, sweet, subtle strength through all my soul.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>I rose and went my way, and asked no more</l>
+                    <l>If word of mine had any fruit in store&#8212;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Content to drop my patient seed, although</l>
+                    <l>My hands shall never gather where they strow;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Leaving the harvest, be it great or small,</l>
+                    <l>In His dear keeping who is All in All!</l>
+                </lg>
+            </lg>
+            
+            <byline rend="right"><emph rend="smallcaps">Caroline A. Mason.</emph><note type="editorial" resp="#bw #el"><p>Caroline Atherton (Briggs) Mason (1823&#8211;1890), poet. Mason's early poems appeared in local newspapers under the name "Caro." In 1852 she moved with her family from Marblehead to Fitchburg, Massachusetts. <title level="m">Utterance; or Private Voices to the Public Heart</title>, the only collection of Mason's poetry to appear in her lifetime, was published in the same year. She married Fitchburg lawyer Charles Mason in 1853. During the 1850s she contributed poetry to Washington's <title level="j">National Era</title>; her choice of publication suggests that she had antislavery and reform sympathies.</p><p>Throughout the war, Mason contributed poems to a host of newspapers, including the <title level="j">Liberator</title>, the <title level="j">New York Independent</title>, the <title level="j">Christian Inquirer</title>, the <title level="j">Fitchburg Daily Sentinel</title>, the <title level="j">Boston Commonwealth</title> and the <title level="j">National Anti-Slavery Standard</title>. She also tackled more explicitly antislavery subjects at this time (see "<ref target="nas.18630502.4">Our Promise to the Slave</ref>," <title level="j">National Anti-Slavery Standard</title>, May 2, 1863). "Sowing in Hope" suggests that she was a friend of <title level="j">Liberator</title> editor Garrison, who apparently encouraged her to have faith in the moral influence of her words. Although she was primarily known as a poet, Mason also wrote "short stories, essays . . . and frequent letters to local newspapers" (Schlesinger Library, Radcliffe Institute, "Briggs Family Papers, 1820&#8211;1915: A Finding Aid"). Her husband published a posthumous collection of her verse, <title level="m">The Lost Ring and Other Poems</title>, in 1891.</p></note></byline>
+            <dateline>Fitchburg, Mass., Nov., 1863.</dateline>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

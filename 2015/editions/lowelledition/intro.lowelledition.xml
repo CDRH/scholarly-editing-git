@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Satire in Circulation: James Russell Lowell's "LETTER
+                    FROM A VOLUNTEER IN SALTILLO"</title>
+                <author key="Last name, first name">Thompson, Todd</author>
+                <author key="Last name, first name">Showalter, Jessica</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">intro.lowelledition</idno>
+                <idno type="edition">lowelledition</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2015</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">36</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2014-08-24"><name xml:id="jms" key="Showalter, Jessica">Jessica
+                    Showalter</name> markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Introduction</head>
+            <byline>Todd Thompson</byline>
+            <byline>Jessica Showalter</byline>
+        </front>
+        <body>
+            <div type="section">
+                <p>On August 27, 1847, a poem from the <hi rend="italic">Boston Courier</hi> was
+                    reprinted in the <hi rend="italic">National Anti-Slavery Standard</hi> under the
+                    headline "LATE FROM MEXICO," situating it as news from the still-raging
+                    US-Mexico War. An editorial note stated that the versified letter "is certainly
+                    the most valuable document we have yet received from the seat of war." Subheaded
+                    "LETTER FROM A VOLUNTEER IN SALTILLO," the poem unmasks the contradictions
+                    between recruiting rhetoric and the actual war, a typical subject in similar
+                    "letters from the front" then popular in newspapers. But "LETTER FROM A
+                    VOLUNTEER IN SALTILLO" was not a real letter; rather, it was one of nine protest
+                    poems written pseudonymously by James Russell Lowell (in the guise of
+                    farmer-poet Hosea Biglow) between 1846 and 1848 that satirized the war. Each
+                    poem was printed initially in either the <hi rend="italic">Boston Courier</hi>
+                    or the <hi rend="italic">National Anti-Slavery Standard</hi>, and each was
+                    reprinted widely across the nation. Eventually, Lowell collected these poems
+                    into book form in 1848. This digital edition offers a comparison of changes in
+                    orthography and punctuation as the dialect poem migrated from reprint to
+                    reprint, but more importantly, it situates the poem within the context of
+                    surrounding newspaper articles. Appearing next to news of the events it targets,
+                    Lowell's satire both comments on that news and re-presents it through poetry. As
+                    this digital edition demonstrates, the meaning of the poem shifts as its news
+                    context shifts from rival northeastern reform newspapers to a cosmopolitan
+                    periodical focused on international affairs, to a Democratic newspaper on the
+                    Texas frontier, to a Whig newspaper in a small New Hampshire town, then in its
+                    dramatically revised book form, and ultimately, to a Pennsylvanian newspaper's
+                    remix of that book edition. This digital edition of "LETTER FROM A VOLUNTEER IN
+                    SALTILLO" is thus not just a study of textual variants but also a story about
+                    editors and their choices.</p>
+                <p>Lowell's series of poems protesting the war is "ranked high as a classic of
+                    American political satire" and is "perhaps the US-Mexico War text that is most
+                    familiar to scholars today." <note n="1">Robert W. Johannsen, <hi rend="italic"
+                            >To the Halls of the Montezumas: The Mexican War in the American
+                            Imagination</hi> (New York: Oxford University Press, 1985), 218; Shelley
+                        Streeby, "1846, June: James Russell Lowell's Biglow Papers Are Cut from the
+                        Boston Courier and Pasted onto Workshop Walls All over Boston," in <hi
+                            rend="italic">A New Literary History of America</hi>, ed. Greil Marcus
+                        and Werner Sollors (Cambridge, MA: Harvard University Press, 2009),
+                        260.</note> Of the nine Biglow poems, we chose to present "LETTER FROM A
+                    VOLUNTEER IN SALTILLO" for several reasons. First, unlike several other Biglow
+                    poems, the poem features interplay between all three of Lowell's main satiric
+                    characters: the Massachusetts farmer-poet Hosea Biglow, in whose dialect verse
+                    all the poems appear; his parson, editor, and literary patron Homer Wilbur, who
+                    occasionally introduces these pieces and is referred to often; and Biglow's
+                    friend Birdofredum Sawin, whose letters from the front in Mexico Biglow
+                    sometimes transcribes into verse. Second, the poem's persistent allusions to
+                    contemporary people, perspectives, and events offer useful historical insight
+                    but also require contextualizing annotations for the twenty-first-century
+                    reader. Third, more than any other Biglow poem, the "LETTER FROM A VOLUNTEER IN
+                    SALTILLO"&#8212;in its title, format, and content&#8212;is presented as a
+                    firsthand account from the seat of war and is therefore offered (and treated by
+                    editors) as, to a certain extent, news, thus revealing the blurriness of lines
+                    between literature and news in mid-nineteenth-century periodicals. Our edition
+                    seeks to recreate the multiple contexts in which Lowell's very popular poem was
+                    situated and read in newspapers.</p>
+                <p>As Kevin G. Barnhurst and John Nerone have argued, "Readers do not read bits of
+                    text and pictures. What they read is the paper, the tangible object as a whole.
+                    They enter the news environment and interact with its surface textures and
+                    deeper shapes. Readers don't read the news; they swim in it." <note n="2">Kevin
+                        G. Barnhurst and John Nerone, <hi rend="italic">The Form of News: A
+                            History</hi> (New York: Guilford Press, 2001), 7.</note> In viewing the
+                    images that depict "LETTER FROM A VOLUNTEER IN SALTILLO" on a full page of
+                    newsprint alongside other stories about the war, readers of this digital edition
+                    temporarily "enter the news environment." When the reader considers the original
+                    poem and six newspaper and periodical reprints presented in this variorum, a
+                    story emerges about the power of editors to shape readers' reception of
+                    literature as well as news. Editors, in making decisions about the form of a
+                    newspaper issue&#8212;that is, which stories to reprint from other sources,
+                    whether and how to attribute them, what topical heads to use, layout, order, and
+                    so on&#8212;shape the "meaning making" of the content represented on those
+                    pages. Again according to Barnhurst and Nerone, "Once readers enter the
+                    newspaper, they continue to make choices, but the form imposes tacit rules that
+                    allow for certain reading practices and work against others. . . . the form of
+                    news constructs the audience's field of vision." <note n="3">Barnhurst and
+                        Nerone, <hi rend="italic">Form of News</hi>, 6&#8211;7.</note> In an era
+                    that featured rampant reprinting of stories from other papers, newspapers
+                    differed not so much in the specific news items they presented as in how they
+                    presented them. This edition highlights such re-presentations by identifying the
+                    different editorial uses to which one very timely and political poem was put
+                    over an eighteen-month span.</p>
+            </div>
+            <div type="section">
+                <head type="sub">Hosea Biglow and the Culture of Reprinting</head>
+                <p>The poem in the <hi rend="italic">National Anti-Slavery Standard</hi> was itself
+                    reprinted from the <hi rend="italic">Boston Courier</hi>, and was reprinted many
+                    times in other newspapers and periodicals across the country. According to
+                    Lowell, his Biglow poems were "copied everywhere," and he "saw them pinned up in
+                    workshops" and "heard them quoted, and their authorship debated." <note n="4"
+                        >James Russell Lowell, <hi rend="italic">The Biglow Papers: Second
+                            Series</hi> (Boston: Ticknor and Fields, 1867), vii&#8211;viii.</note>
+                    Reviews of the 1848 book edition also tended to mention the Biglow poems'
+                    previous popularity and wide circulation in the press. <hi rend="italic"
+                        >Holden's Review</hi> in early 1849 claimed the poems "have been copied in
+                    every paper of the Union, from Maine to Texas, and . . . have been almost as
+                    extensively copied into English periodicals"; the <hi rend="italic">Literary
+                        World</hi> referred to the poems as "known to the people of the North
+                    through the Boston newspapers"; and <hi rend="italic">Harbinger Review</hi> in
+                    its review of the book claimed that the poems "as they first came long detached
+                    in newspapers had not a little influence in bringing Massachusetts and the North
+                    upon their feet, to take the moral ground, amid wicked political party issues."
+                        <note n="5">"Meliboeus Hipponax . . . ," <hi rend="italic">Holden's
+                            Review</hi>, January 1, 1849, 50; "New England Satire," <hi
+                            rend="italic">Literary World</hi>, December 2, 1848, 872; "Review," <hi
+                            rend="italic">Harbinger Review</hi>, December 23, 1848, 62.</note>
+                    Indeed, the poems were written and disseminated during a time when a "culture of
+                    reprinting" prevailed in the United States. <note n="6">On reprinting in
+                        nineteenth-century America, see Richard Brodhead, <hi rend="italic">Culture
+                            of Letters: Scenes of Reading and Writing in Nineteenth-Century
+                            America</hi> (Chicago: University of Chicago Press, 1995), and Meredith
+                        L. McGill, <hi rend="italic">American Literature and the Culture of
+                            Reprinting, 1834&#8211;1853</hi> (Philadelphia: University of
+                        Pennsylvania Press, 2002).</note> Postal rates for newspapers (the "mammoth
+                    weeklies" excepted) remained, even after the Postal Reform Act of 1845, at 1792
+                    levels of a maximum of 1.5 cents for delivery anywhere in the country.
+                    Additionally, the 1845 act stipulated that newspapers garnered free postage when
+                    delivered within thirty miles of the place of publication. Free exchange of
+                    newspapers among editors remained in place. <note n="7">Richard B. Kielbowicz,
+                            <hi rend="italic">News in the Mail: The Press, Post Office, and Public
+                            Information, 1700&#8211;1860s</hi> (New York: Greenwood Press, 1989), 3,
+                        58, 84.</note> By one estimate, news accounted for approximately 95 percent
+                    of the total weight of US mail by the 1830s. <note n="8">Leonard C. Thomas, <hi
+                            rend="italic">News for All: America's Coming-of-Age with the Press</hi>
+                        (New York: Oxford University Press, 1995), 13.</note> This statistic reveals
+                    the intensity of circulating news in the antebellum United States. As a result,
+                    newspapers in the era of the partisan press tended to be amalgams of other
+                    newspapers, "all filtered through the editor's voice." <note n="9">Barnhurst and
+                        Nerone, <hi rend="italic">Form of News</hi>, 102.</note> This would soon
+                    change as use of the electric telegraph&#8212;patented in 1837 by Samuel
+                    Morse&#8212;led to the advent of wire services. This shift began during the
+                    US-Mexico War but was not particularly widespread at the time of Lowell's
+                    writing.</p>
+                <p>This culture of reprinting, of course, gave Lowell's poems a much wider audience
+                    than they would otherwise have. Lowell pointed out in a letter to Mary Peabody
+                    (wife of transcendentalist and education reformer Horace Mann) that "M<hi
+                        rend="superscript">r</hi> Biglow has a thousand readers for my one, &amp;
+                    that he has raised the laugh at War &amp; Slavery &amp; Doughfaces to some
+                    purpose." <note n="10">James Russell Lowell, quoted in Thomas Wortham,
+                        introduction to <hi rend="italic">The Biglow Papers</hi> [First Series], by
+                        James Russell Lowell (DeKalb: Northern Illinois University Press, 1977),
+                        xiv.</note> In fact, without editors' exchanges, his work from the <hi
+                        rend="italic">National Anti-Slavery Standard</hi> might not have reached
+                    Southern readers at all. In a move emblematic of the power of postal workers as
+                    censors, a Baltimore mail clerk in 1843 tore up a copy of the <hi rend="italic"
+                        >National Anti-Slavery Standard</hi> in front of its subscriber, saying, "I
+                    can't pass this." Postmasters at this time often served a surveillance function,
+                    noting who took in abolitionist papers, and they had government support: as
+                    president, Andrew Jackson proposed that postal records be published to identify
+                    Americans subscribing to "subversive" papers. <note n="11">Thomas, <hi
+                            rend="italic">News for All</hi>, 14.</note> But Lowell's antislavery
+                    poems did make it into Southern papers (though stripped of their radicalism),
+                    thanks in part to the vast network of circulating newspapers and editorial
+                    reprinting.</p>
+                <p>Lowell certainly recognized the power of reprinting and encouraged it. After
+                    publishing his first Biglow poem in the <hi rend="italic">Boston Courier</hi> in
+                    1846, Lowell wrote to Sydney H. Gay, editor of the <hi rend="italic">National
+                        Anti-Slavery Standard</hi> (where Lowell had recently signed on as
+                    corresponding editor), "You will find a squib of mine in this week's <hi
+                        rend="italic">Courier</hi>. I wish it to continue anonymous, for I wish
+                    Slavery to think it has as many enemies as possible. . . . I suppose you will
+                    copy it, and, if so, I wish you would correct a misprint or two." <note n="12"
+                        >James Russell Lowell to Sydney H. Gay, June 16, 1846, in <hi rend="italic"
+                            >The Letters of James Russell Lowell</hi>, ed. Charles Eliot Norton (New
+                        York: Harper and Brothers, 1894), 115&#8211;16.</note> Here Lowell
+                    encourages Gay to reprint his Biglow poem, acknowledges the power of anonymity
+                    in a publishing environment where his byline and initials commonly appear
+                    underneath antislavery essays, and recognizes, cheerfully enough, the
+                    instability of a reprinted text. Lowell was also intensely aware of the
+                    importance of timeliness to the reception of his Biglow satires. In a letter to
+                    Gay on April 27, 1848, Lowell enclosed two poems and wrote, "Both will keep a
+                    week, I think." <note n="13">James Russell Lowell to Sydney H. Gay, April 27,
+                        1848, in <hi rend="italic">Letters</hi>, 128&#8211;29.</note> Similarly, in
+                    explaining to Gay why he sent his fifth Biglow poem, "The Debate in the Sennit,
+                    Sot to a Nursery Rhyme," to the <hi rend="italic">Boston Courier</hi> instead of
+                    the <hi rend="italic">National Anti-Slavery Standard</hi>, he wrote, "Had I
+                    thought of writing it soon enough I should have sent it to you. But it would not
+                    have kept so well for a fortnight." <note n="14">James Russell Lowell to Sydney
+                        H. Gay, May 5, 1848, in <hi rend="italic">Letters</hi>, 128&#8211;29.</note>
+                    In both cases, Lowell implied that his satire had an expiration date and needed
+                    to be fresh to be effective. It is interesting, then, that Lowell spent so much
+                    time and effort in revising the poems into a book in 1848.</p>
+                <p>To an extent, our research verifies Lowell's self-reporting of the popularity of
+                    his Biglow poems. We have found reprints of the poems in newspapers printed in
+                    Massachusetts, New York, New Hampshire, Vermont, Maine, Pennsylvania, Ohio, New
+                    Jersey, South Carolina, Georgia, Texas, and Washington, DC, geographical
+                    coverage that encompasses much of the pre-1848 United States. We have even
+                    tracked down reprints in newspapers printed in Leeds and Liverpool, England.
+                    Access to online databases that in many cases offer advanced full-text searching
+                    options has accelerated our search for reprints. To date, we have mined digital
+                    databases including <hi rend="italic">Nineteenth Century US Newspapers</hi>; <hi
+                        rend="italic">America's Historical Newspapers</hi>; <hi rend="italic"
+                        >American Periodicals Series (1740&#8211;1900)</hi>; <hi rend="italic"
+                        >American Antiquarian Society Historical Periodicals Collection: Series
+                        3</hi>; <hi rend="italic">Accessible Archives</hi>; <hi rend="italic"
+                        >Chronicling America</hi>; <hi rend="italic">Nineteenth-Century British
+                        Library Newspapers</hi>; <hi rend="italic">British Periodicals</hi>; <hi
+                        rend="italic">British Newspapers 1600&#8211;1950</hi>; and the <hi
+                        rend="italic">London Times</hi>. Our search strategies were expressly
+                    developed with the nineteenth-century "culture of reprinting" in mind. For
+                    example, the Biglow poems rarely appeared with attributions, and if they did,
+                    the byline was often a pseudonym ("H. B." or "B. Sawin"), so author searches
+                    were largely futile. Title searches also proved to be a dead end in that
+                    newspapers regularly retitled the reprinted material. Keyword searches based on
+                    character and place names were more effective, as were searches for phrases such
+                    as first lines or refrains. However, keeping in mind that the dialect poems
+                    featured irregular spelling, punctuation, and slang, we often tried several
+                    versions of the same line to accumulate results. As of October 2014, our
+                    searches harvested almost fifty reprints of the nine Biglow poems, including the
+                    first appearance of "LETTER FROM A VOLUNTEER IN SALTILLO" in the August 18,
+                    1847, <hi rend="italic">Boston Courier</hi> and the following six newspaper
+                    reprints of that poem: <list type="bulleted">
+                        <item><hi rend="italic">National Anti-Slavery Standard</hi> (August 26,
+                            1847)</item>
+                        <item><hi rend="italic">The Liberator</hi> (August 27, 1847)</item>
+                        <item><hi rend="italic">Littell's Living Age</hi> (September 11,
+                            1847)</item>
+                        <item><hi rend="italic">Texas Union</hi> (October 16, 1847)</item>
+                        <item><hi rend="italic">New Hampshire Sentinel</hi> (November 11,
+                            1847)</item>
+                        <item><hi rend="italic">Sunbury American</hi> (December 23, 1848)</item>
+                    </list>The original and these six reprints, as well as the 1848 book edition
+                        (<hi rend="italic">Meliboeus-Hipponax: The Biglow Papers</hi>), serve as
+                    eight witnesses in this edition. While we have identified textual variants from
+                    one printing to the next, our main interest lies in how the poem's presentation
+                    in various periodicals shifts its reception by news-hungry readers. As this
+                    variorum of Lowell's poem shows, editorial decisions ranging from
+                    letter-by-letter typesetting to arrangement on the page juxtaposing it against
+                    other news alters its meaning.</p>
+            </div>
+            <div type="section">
+                <head type="sub"><hi rend="italic">Boston Courier</hi></head>
+                <p>The poem first appeared on the front page of the <hi rend="italic">Boston
+                        Courier</hi> under the heading "LETTER FROM A VOLUNTEER IN SALTILLO,"
+                    alongside various advertisements and several articles about religion. The <hi
+                        rend="italic">Boston Courier</hi> was a "lively and literary" Boston
+                    newspaper edited by Joseph T. Buckingham and an organ for Massachusetts
+                    politician Daniel Webster. According to newspaper historian Frank Luther Mott,
+                    Buckingham was "one of the most respected newspaper men in New England." <note
+                        n="15">Mott, <hi rend="italic">American Journalism: A History of Newspapers
+                            in the United States through 260 Years: 1690 to 1950</hi>, rev. ed. (New
+                        York: Macmillan, 1950), 262.</note> Buckingham generally "applauded the
+                    prosecution of the war with Mexico" but seems to have been open to dissenting
+                    voices, including those of James Russell Lowell and Henry David Thoreau. <note
+                        n="16">See Gary Scharnhorst, "'Conflict of Laws': A Lost Essay by Henry
+                        David Thoreau," <hi rend="italic">New England Quarterly</hi> 61 (1988):
+                        569&#8211;71.</note> Lowell mentions this divergence of political opinion in
+                    a letter to the editor that precedes the poem. Hosea Biglow, who misspells
+                    Buckingham's name and addresses the letter to "Mister Buckinum," explains that
+                    Parson Wilbur encouraged him to send the anti-war poem specifically to
+                    Buckingham despite his pro-war sentiments. According to Hosea, the parson "don't
+                    ollers agree" with Buckingham, but he does "like a feller that ain't a
+                    Feared."</p>
+                <p>The poem's speaker, an enlisted man named Birdofredum Sawin, explains that
+                    rhetoricians like former Massachusetts secretary of state John Augustus Bolles
+                    inspired him to enlist with jingoistic propaganda. But upon his arrival in
+                    Mexico, Sawin quickly learns to separate reality from nationalist banalities.
+                    "[S]axons would be handy," he writes, "to do the berryin' down here upon the Rio
+                    Grandy," where he is ordered to kill Mexicans, whom, before arriving on the
+                    scene of war, he'd thought "worn't huming beans." He has since come to realize
+                    that "come to look at 'em, they ain't much diff'rent from wot we be." Sawin
+                    describes a harsh reality much different from the Mexico sold to him by
+                    unscrupulous recruiters, and he has come to question the morality of his
+                    mission. Sawin ultimately decides, "This goin' where glory waits ye, haint one
+                    agreeable feetur," thus sapping the romance from the popular press's call to
+                    arms. Historian Robert Johannsen writes, "For many [soldiers] the romance of the
+                    war was dispelled by the realities of the soldier's life in a strange and often
+                    inhospitable environment. . . . The visions of a romantic war in an exotic land,
+                    dreams of 'citron groves or perfumed bowers,' quickly evaporated once the
+                    volunteers arrived on the Rio Grande." <note n="17">Johannsen, <hi rend="italic"
+                            >To the Halls of the Montezumas</hi>, 86&#8211;87.</note> Sawin gives
+                    voice to this disenchantment by versifying and fictionalizing the letter from
+                    the front genre. Through Sawin's comparisons of the ideality of recruiters' and
+                    romanticizing writers' visions of the war with its mundane and vicious
+                    realities, Lowell responds <hi rend="italic">in</hi> the popular press to the
+                    largely pro-war rhetoric <hi rend="italic">of</hi> the popular press on the
+                    front page of a newspaper that featured both sides of the debate.</p>
+            </div>
+            <div type="section">
+                <head type="sub"><hi rend="italic">National Anti-Slavery Standard</hi></head>
+                <p>In the <hi rend="italic">National Anti-Slavery Standard</hi>, too, the poem
+                    appeared not in the page 4 "Poetry" section but on the front page, interspersed
+                    with other news of the day. In an otherwise monolithic block of text on a large
+                    sheet, the runover line breaks create extra white space, which attracts the
+                    reader's eye, visually announcing it as a poem. But at the same time, it is
+                    sandwiched on the front page between editorials and other "news"; its placement
+                    among news items lends it textual authority even as it calls into question the
+                    accuracy of standard "news" accounts of the war. This differs extensively from
+                    how poetry was usually presented in the <hi rend="italic">National Anti-Slavery
+                        Standard</hi>&#8212;on the back page. In the August 26, 1847, issue, the
+                    poem "Eternal Justice" is separated from the prose, cordoned off in the far left
+                    margin under a genre-labeling header (not to mention the fact that it is
+                    remanded to the last page). This nonsatirical poetry thus has its poetry-ness,
+                    not its newsworthiness, highlighted. With the Biglow poem, both are highlighted
+                    simultaneously.</p>
+                <p>Similar sentiments to those ironically expressed in Sawin's letter appear in an
+                    editorial in the <hi rend="italic">National Anti-Slavery Standard</hi> on page 2
+                    titled "The Golden Bracelet," which muses on the difference between false
+                    recruiting rhetoric and the realities of the war in Mexico. The author
+                    editorializes, <q rend="block">The last winter they were enlisting men in our
+                        vicinity for this War with Mexico. . . . What invited them from their New
+                        England mountains and shores and sky?&#8212;from their fathers and mothers,
+                        their brothers and sisters, and dearer than these? Soulless presses, inhuman
+                        voices, of Statesmen and partisans, vociferate patriotism, generous love of
+                        their father-land and of freedom; then these same presses and sad voices cry
+                        out with immitigable eagerness against tories and traitors: Yes, the Tories,
+                        to whom God's truth is holier than a Government's Lie, and the sacred laws
+                        of nature are dearer than the situates of Tyranny, and loyalty to Heaven is
+                        a deeper reverence than slavery to a nefarious administration and a
+                        crouching Congress. <note n="18">"The Golden Bracelet," <hi rend="italic"
+                                >National Anti-Slavery Standard</hi>, August 26, 1847,
+                        50.</note></q>This, too, is a moral protest against politicians and presses
+                    for drawing young men into an immoral war. Both pieces contrast the dictates of
+                    national expansion with biblical injunctions and "sacred laws." Though the
+                    article is deadly earnest and the poem at points downright silly, both offer the
+                    same take on the same topic from different angles in an issue-oriented reform
+                    newspaper dedicated to abolishing slavery and to preventing any extension of
+                    slavery into Mexico as a result of the war.</p>
+            </div>
+            <div type="section">
+                <head type="sub"><hi rend="italic">The Liberator</hi></head>
+                <p>Whereas the page layout of the reprint in the <hi rend="italic">National
+                        Anti-Slavery Standard</hi> conflates news and poetry, the poem appeared on
+                    the back page in the "Poetry" column in controversial abolitionist editor
+                    William Lloyd Garrison's <hi rend="italic">The Liberator</hi> on August 27,
+                    1847. But in spite of the layout's separation of Sawin's letter from "news," the
+                    contents of that letter connect extremely well to the news items surrounding it.
+                    Most jarring in its juxtaposition with the comic poem is a piece entitled
+                    "Returning Volunteers," which appears on the same page. Reprinted from the <hi
+                        rend="italic">Cambridge Chronicle</hi>, this letter from a woman traveling
+                    through Cincinnati to a relative in Cambridge enumerates several encounters with
+                    volunteer soldiers returning from the war as she passed through New Orleans,
+                    Vicksburg, Louisville, and Cincinnati. She recounts a funeral procession in New
+                    Orleans for several officers killed at Buena Vista before detailing with some
+                    pathos the crowds on the banks in Vicksburg set to receive returning Mississippi
+                    volunteers, "or what was left of them. Out of nine hundred, only three hundred
+                    lived to return. Poor fellows, they looked as though they had seen hard
+                    services: they were sun burnt, and many appeared as though they were not long
+                    for this world." Later in the letter, she writes, "From their appearance one
+                    would suppose the volunteers had had enough of Mexico. . . . If you could hear
+                    some of them relate their hair breath [<hi rend="italic">sic</hi>] escapes it
+                    would make your hair rise on your head." This woman's description offers a
+                    chilling counterpoint to Sawin's misadventures just two columns over. Sawin,
+                    too, has seen some "hard service," describes a couple close calls, and is
+                    certainly sick of Mexico, but he is not yet close to death (though in a later
+                    letter he would become a triple amputee), and the ludicrousness of the poem
+                    blunts soldiers' disillusionment with considerable levity. Incredibly, the
+                    woman's letter goes on to describe the grim irony of a deadly welcome to
+                    soldiers in Cincinnati, where a cannon shot meant to "salute" the returning
+                    volunteers killed one and blew both arms off another, one day after having
+                    killed another soldier on a different boat with the same cannon. <note n="19"
+                        >"Returning Volunteers," <hi rend="italic">The Liberator</hi>, August 27,
+                        1847, 140.</note></p>
+                <p>Also on the same page as Sawin's letter is the piece "Assassination of a
+                    Massachusetts Volunteer," reprinted from the <hi rend="italic">Boston Post</hi>.
+                    This brief article describes the killing of a soldier traveling "from Monterey
+                    to Ceralvo" with several other soldiers. His party "learnt from a straggling
+                    Mexican, that one of the Mariner band had caught him with a lasso, and that his
+                    throat had been cut, and his body dragged into a chapparal." <note n="20"
+                        >"Assassination of a Massachusetts Volunteer," <hi rend="italic">The
+                            Liberator</hi>, August 27, 1847, 140.</note> This account offers a more
+                    grotesque version of Sawin's statement, "You see a feller peekin' out, and, fust
+                    you know, a lariat / If [<hi rend="italic">sic</hi>] round your throat and you a
+                    copse, 'fore you can say, 'Wat are ye at?'" Of course, the rest of this issue of
+                        <hi rend="italic">The Liberator</hi> also included commentary on the war,
+                    including a reprinted item from the <hi rend="italic">St. Louis Republican</hi>
+                    titled "More Volunteers Wanted" and two front-page stories: a reprint from the
+                        <hi rend="italic">Ashtabula Sentinel</hi> detailing a speech by Congressman
+                    C. F. Adams about the war and a report that David Hale, editor of the <hi
+                        rend="italic">Journal of Commerce</hi> and previous supporter of President
+                    Polk, had "come out over his own signature against the origin and prosecution of
+                    the war." <note n="21">Untitled news item, <hi rend="italic">The Liberator</hi>,
+                        August 27, 1847, 137.</note> So, even though <hi rend="italic">The
+                        Liberator</hi> separated "LETTER FROM A VOLUNTEER IN SALTILLO" into its own
+                    "Poetry" column, it still spoke to the rest of the news in the paper, offering a
+                    comically distorted mirror of news from the Mexican front.</p>
+            </div>
+            <div type="section">
+                <head type="sub"><hi rend="italic">Littell's Living Age</hi></head>
+                <p>The context and reception of "LETTER FROM A VOLUNTEER IN SALTILLO" as it appeared
+                    in <hi rend="italic">Littell's Living Age</hi> in September 1847 differs because
+                    the medium differs. Unlike the charged, single-minded reform newspapers the <hi
+                        rend="italic">National Anti-Slavery Standard</hi> and <hi rend="italic">The
+                        Liberator</hi>, <hi rend="italic">Littell's Living Age</hi> was a
+                    politically eclectic general interest magazine that, aiming to be a cosmopolitan
+                    miscellany for an American audience, mostly reprinted works from European
+                    (typically British) sources, thus taking advantage of the absence of an
+                    international copyright law. <note n="22">Meredith L. McGill, "Lurking in the
+                        Blogosphere of the 1840s," <hi rend="italic">Common-Place</hi> 7.2 (2007),
+                        accessed August 15, 2014, <ref type="url"
+                            target="http://www.common-place.org/vol-07/no-02/reading/"
+                            >http://www.common-place.org/vol-07/no-02/reading/</ref>.</note> In this
+                    context, Sawin's letter appears not as a plebian voice in debates about the
+                    US-Mexico War, but one of many pieces in the magazine describing exotic foreign
+                    lands to American readers. A quick perusal of other titles in the September 11,
+                    1847, issue of <hi rend="italic">Littell's Living Age</hi>&#8212;"Protest of the
+                    Proceedings of the British Near Canton" (in China), "The Out-Station; Or, Jaunts
+                    in the Jungle" (set in Ceylon), "A Chinese Ghost Story," "Elections in England,"
+                    "The Prussian Die," "Switzerland," and so on&#8212;attest to this. In keeping
+                    with this sense of bringing the news of the world home, editor Eliakim Littell's
+                    preface to "LETTER FROM A VOLUNTEER IN SALTILLO," like those in the reform
+                    newspapers, sets up the poem as war correspondence. He writes, "Having copied
+                    many letters from the army in Mexico, we now add one from a correspondent of the
+                        <hi rend="italic">Boston Courier</hi>." <note n="23">"Letter from a
+                        Volunteer in Saltillo," <hi rend="italic">Littell's Living Age</hi>,
+                        September 11, 1847, 503.</note> In this reprinting, then, Biglow goes
+                    international, and is situated as one of many points in a constellation of
+                    global affairs mediated by an American editor.</p>
+            </div>
+            <div type="section">
+                <head type="sub"><hi rend="italic">Texas Union</hi></head>
+                <p>A month later, Lowell's poems had circulated from these northeastern newspapers
+                    published in New York and Boston to a Texas frontier town, San Augustine,
+                    situated on the Louisiana border. The reprint in the <hi rend="italic">Texas
+                        Union</hi> excerpts only the final fourteen lines of the poem. The heading,
+                    "SEEN THE ELEPHANT," makes reference to a common nineteenth-century phrase used
+                    to describe disillusionment when the reality of a situation does not correspond
+                    with what was imagined. <note n="24">For more on the widespread use of this
+                        phrase to describe soldiers' disillusionment, see Johannsen, <hi
+                            rend="italic">To the Halls of the Montezumas</hi>, 87.</note> According
+                    to the editor's preface, Sawin has "seen the elephant" because he has discovered
+                    that the "officers at home and the same officers in Mexico, are just as
+                    different as 'sodgering in fun' and 'in earnest.'" In the excerpt, Sawin
+                    complains that the accommodating, alcohol-proffering officers at the recruiting
+                    rallies at home in Massachusetts become demanding tyrants in the field. He
+                    considers desertion, but he acknowledges that he would face capital punishment
+                    if caught, and concludes, "wal, tain't no use a jawin', / I'm safe enlisted for
+                    the war." Sawin's poem about "seeing the elephant" directly links to another
+                    article on the front page of the <hi rend="italic">Texas Union</hi>, titled
+                    "Wanted to See the Animal" and credited to the <hi rend="italic">Boston
+                        Times</hi>. In this anecdote, a visiting yokel sees a signboard advertising
+                        <hi rend="italic">Littell's Living Age</hi>&#8212;interestingly, the home of
+                    the aforementioned September reprint of Lowell's poem&#8212;at a print shop. One
+                    of the articles in <hi rend="italic">Littell's Living Age</hi> mentions "seeing
+                    the elephant," and the yokel, taking the metaphor literally and speaking in
+                    dialect akin to Sawin's vernacular, asks to buy a ticket to the circus.
+                    Misunderstandings and a near riot ensue before the yokel escapes to the nearest
+                    train station to go home to the country. This anecdote preps readers for the
+                    title and theme of "SEEN THE ELEPHANT." Significantly, the anecdote about the
+                    yokel's mistake is labeled "HUMOROUS," which places it into the category of a
+                    joke; on the other hand, Lowell's poem is not labeled as fictional or humorous.
+                        <note n="25">"Wanted to See the Animal," <hi rend="italic">Texas Union</hi>,
+                        October 16, 1847, 1.</note> In fact, the editor's preface identifies Sawin
+                    as a "pretended Yankee poet, writing home from Mexico," treating Sawin as a
+                    genuine soldier and an ersatz poet, when in fact the reverse is true.</p>
+                <p>Whereas Sawin's disillusionment serves as an opportunity to campaign against the
+                    war in the northeastern reform papers, the editor of the <hi rend="italic">Texas
+                        Union</hi> uses it for a different purpose. The editor, William N. Harman,
+                    is explicit about his support of the war. In an editorial on page 2, Harman
+                    announces, "Taking it for granted then, that every true friend of this
+                    country&#8212;every patriotic Texan, is a supporter of all those measures
+                    growing out of annexation, the <hi rend="italic">Texas Union</hi> will
+                    fearlessly enter the lists in defence of those measures, and hold itself in
+                    readiness to repel the assaults of the Whig Press." In addition to this outright
+                    declaration of the paper's support for the Democrat Party and, concurrently, the
+                    war, an ode titled "Hero Portraits," which depicts idealized US generals
+                    including Taylor and Scott, appears on page 4. Also, Harman celebrates the
+                    success of recruitment rallies in Kentucky, Tennessee, and Indiana in an article
+                    titled "Military." The editor praises the "chivalry" of the "brave b'hoys" who
+                    volunteered, and he also draws special attention to the Tennessee rallies, in
+                    which muster quotas were not only met but surpassed. Harman writes, "Huzza for
+                    East Tennessee! She can't be beat in patriotic devotion to country! Her sons are
+                    ever foremost when their country calls!" Keeping in mind this fervent praise for
+                    volunteers, Harman's decision to excerpt the section of Sawin's poem that
+                    mentions his desire to desert may seem contradictory. Yet Harman is careful to
+                    point out that Sawin and his flip-flopping officers are from Massachusetts. In
+                    this context, Sawin's disillusionment is portrayed as Yankee cowardice in
+                    contrast to the Southern volunteers, who do not question "the justice or
+                    injustice of the cause—as to the right or wrong of the thing—but only [ask],
+                    'does the country need our services? If so, we are ready!'" <note n="26"
+                        >"Military," <hi rend="italic">Texas Union</hi>, October 16, 1847,
+                    2.</note></p>
+                <p>Harman's political leanings were typical of Texan printers during this time
+                    period. According to Marilyn McAdams Sibley's study of antebellum Texas
+                    newspapers, editors "tied the appreciation in value of [their] land and business
+                    to the continued growth of the republic" and as a result "subscribed
+                    wholeheartedly not only to the unwritten rule of printing nothing that would
+                    hurt the country but also to the corollary of that rule, that what would hurt
+                    the country would also hurt them." Editors needed to please local advertisers
+                    and subscribers to prosper, and the "predominance of the Democrats and the
+                    weakness of other parties" dictated those tastes. <note n="27">Marilyn McAdams
+                        Sibley, <hi rend="italic">Lone Stars and State Gazettes: Texas Newspapers
+                            before the Civil War</hi> (College Station: Texas A&amp;M University
+                        Press, 1983), 9, 153.</note> Situated in San Augustine, a frontier town in
+                    which basic institutions such as a library, district court, and school were all
+                    still under construction, Harman's newspaper business was tenuous. In addition
+                    to this generalized fear of pecuniary pain, Harman may have been further
+                    motivated by fear of bodily harm. Harman's predecessor, James Russell, had been
+                    murdered in a gunfight with another editor, Henry A. Kendall, who then fled
+                    town. <note n="28">Sibley, <hi rend="italic">Lone Stars and State Gazettes</hi>,
+                        364&#8211;65.</note> Anxious to put that drama to bed, Harman bought
+                    Russell's and Kendall's competing papers and united them under the new title <hi
+                        rend="italic">Texas Union</hi>, the first issue of which reprinted the
+                    Lowell poem. Harman's pro-Southern, pro-war sentiments, geared to please his
+                    local community, shaped his reframing of Lowell's poem from anti-war satire to
+                    anti-Yankee propaganda.</p>
+            </div>
+            <div type="section">
+                <head type="sub"><hi rend="italic">New Hampshire Sentinel</hi></head>
+                <p>The <hi rend="italic">Texas Union</hi>'s editor rails against the Whig press in
+                    the issue in which the excerpt appears. But avowedly Whig newspapers, of course,
+                    also reprinted the Sawin poem. For example, in November 1847, the <hi
+                        rend="italic">New Hampshire Sentinel</hi> (Keene, NH) reprints "LETTER FROM
+                    A VOLUNTEER IN SALTILLO" as well as Hosea Biglow's frame letter under the
+                    heading "Miscellaneous." Abutting the poem are several other authentic letters
+                    about Mexico. Immediately following it is "A Mexican Letter," which describes
+                    the capture of Mexico City. Interestingly, this letter was written by a Mexican
+                    citizen, providing a viewpoint that contrasts with the typical "letter from the
+                    front" genre. The letter describes the US soldiers as a "patrol of foreigners,
+                    who entered triumphant, shedding the blood of our people." <note n="29">"A
+                        Mexican Letter," <hi rend="italic">New Hampshire Sentinel</hi>, November 11,
+                        1847, 2.</note> Another letter on the same page from an American soldier
+                    encamped at the Mexican National Palace gives a detailed description of a battle
+                    in which Colonel Ransom and several other US soldiers were killed. Yet another
+                    letter written by a Southerner explains that the war is necessary because the
+                    South "must have an outlet for our slaves." The editor prints this letter as
+                    proof of the immorality of the war, which he deems "unconstitutional" and
+                    "unnatural." <note n="30">"The War, and What It Is For," <hi rend="italic">New
+                            Hampshire Sentinel</hi>, November 11, 1847, 2.</note> On the same page,
+                    in an article titled "War News," the editor writes that since there have been
+                    "no official despatches" from Mexico, he must rely on "scattering small official
+                    and private letters" for news from the front lines. <note n="31">"War News," <hi
+                            rend="italic">New Hampshire Sentinel</hi>, November 11, 1847, 2.</note>
+                    In this context, Sawin's letter is treated as one of several letters that give
+                    firsthand accounts of the war. In this same issue, the <hi rend="italic">New
+                        Hampshire Sentinel</hi> also reprints another Biglow poem; "What Mr.
+                    Robinson Thinks" is printed on page 4 under the heading "Orchestra." This poem's
+                    critique of Massachusetts politics links to the newspaper's celebration of the
+                    recent victories of several Whig politicians, whom the editor champions in part
+                    because of their anti-war sentiments.</p>
+                <p>The <hi rend="italic">New Hampshire Sentinel</hi> was founded in 1799 by John
+                    Prentiss, who passed the editorial torch to his son J. W. Prentiss in 1846, the
+                    year before the Biglow poems appeared in the newspaper. Both Prentiss senior and
+                    junior shaped the paper to reflect their Whig politics, condemnation of the war,
+                    and support for temperance, religious freedom, and education reform. <note
+                        n="32">Cornelius Raily Lyle II, "New Hampshire's '<hi rend="italic"
+                            >Sentinel</hi>': The Editorial Life of John Prentiss, 1799&#8211;1846"
+                        (PhD diss., Northwestern University, 1972), 435&#8211;52 (Proquest).</note>
+                    This interest in reform may explain how Prentiss came in contact with the Lowell
+                    poems; for instance, Prentiss, like many editors, culled material from exchange
+                    papers, and he may have subscribed to reform papers like the <hi rend="italic"
+                        >National Anti-Slavery Standard</hi> and <hi rend="italic">The
+                        Liberator</hi>. In addition, Prentiss apprenticed in Boston and had been a
+                    member of elite literary and printing circles in the city. <note n="33">John W.
+                        Moore, <hi rend="italic">Moore's Historical, Biographical, and Miscellaneous
+                            Gatherings in the Form of Disconnected Notes Relative to Printers,
+                            Printing, Publishing, and Editing of Books, Newspapers, Magazines and
+                            Other Literary Productions, Such as the Early Publications of New
+                            England, the United States, and the World, from the Discovery of the
+                            Art, or from 1420 to 1886</hi> (Concord, NH: Republican Press
+                        Association, 1886), 530 (Internet Archive); Lyle, "New Hampshire's '<hi
+                            rend="italic">Sentinel</hi>,'" 13&#8211;14.</note> This personal network
+                    may help explain the circulation of the Biglow poems to Keene, New Hampshire.
+                    This close contextualization of the intertwined personal and political
+                    connections between printers and editors evinces the way in which the very local
+                    can telescope outward to reveal the dynamics of distribution and the stories
+                    behind the links between regional and urban nodes in the antebellum US print
+                    network.</p>
+            </div>
+            <div type="section">
+                <head type="sub"><hi rend="italic">Meliboeus-Hipponax: The Biglow Papers</hi></head>
+                <p>In 1848, Lowell set out to collect his Biglow poems into a book edition, making
+                    copious corrections to the poems. As the comparison of witnesses in this digital
+                    edition shows, he tinkered endlessly with Biglow's New England dialect. An even
+                    bigger and more time-consuming revision involved a huge expansion of the role of
+                    Parson Homer Wilbur, Biglow's fictional editor. Whereas in the <hi rend="italic"
+                        >National Anti-Slavery Standard</hi> pieces Wilbur makes only a few brief
+                    introductory or explanatory appearances, in the book his role swells egregiously
+                    to over half the manuscript, thus overshadowing the more interesting characters
+                    of the folksy Biglow and the raucous Sawin. For instance, in the <hi
+                        rend="italic">National Anti-Slavery Standard</hi> reprint the editorial
+                    framing, including headline, amounts to just over 250 words. In the book
+                    version, Wilbur's tiresome introduction and afterword framing the poem add up to
+                    over 1,600 words, approximately the same word count as the poem itself. As
+                    Lowell later explained this decision, "When I came to collect them and publish
+                    them in a volume, I conceived my parson-editor with his pedantry and verbosity,
+                    his amiable vanity and superiority to the verses he was editing, as a fitting
+                    artistic background and foil. It gave me the chance, too, of glancing obliquely
+                    at many things which were beyond the horizon of my other characters." <note
+                        n="34">James Russell Lowell to Thomas Hughes, September 13, 1859, in <hi
+                            rend="italic">Letters</hi>, 296&#8211;97.</note> But in these dense and
+                    highly allusive prose interventions, Lowell as Wilbur prattles wanderingly about
+                    poetry, his parishioners, and historical precedents for the invasion of Mexico.
+                    Thus Wilbur's interruptions are more a Swiftian satire on the book than a
+                    critique of the US-Mexico War. Additionally, the juxtaposition of Wilbur's
+                    pedantry to Biglow's unlearned but earnest fervor is quite jarring. Cameron
+                    Nickels aptly describes the numbing effect that Wilbur's prominence in the book
+                    has on the satire: "Although his [Wilbur's] learned notes do often address the
+                    issues raised by the dialect letter-poems, his elaborate, scholarly analyses,
+                    abundant with Latin quotations and etymologies, too often undercut the moral
+                    thrust of the rustic, ironic speakers and reduce their humorous admissions of
+                    guilt to tediously pedantic inconsequentiality." <note n="35">Cameron C.
+                        Nickels, <hi rend="italic">New England Humor: From the Revolutionary War to
+                            the Civil War</hi> (Knoxville: University of Tennessee Press, 1993),
+                        205.</note></p>
+                <p>Lowell's wholesale changes also delayed publication of the book. He complained to
+                    Gay in early September 1848, "I am as busy as I can be with Mr. Biglow's poems,
+                    of which I have got between twenty and thirty pages already printed. It is the
+                    hardest book to print that I ever had anything to do with, and, what with
+                    corrections and Mr. Wilbur's annotations, keeps me more employed than I care to
+                    be." <note n="36">James Russell Lowell to Sydney H. Gay, September 2, 1848, in
+                            <hi rend="italic">Letters</hi>, 138.</note> Lowell had hoped to publish
+                    it in time to influence the November presidential election, steering antislavery
+                    voters away from General Zachary Taylor and toward the Free-Soil Party
+                    candidate, Martin Van Buren. But by the time <hi rend="italic"
+                        >Meliboeus-Hipponax: The Biglow Papers</hi> was published by Putnam in
+                    December 1848, the war was over; Whig Zachary Taylor, a target of two Biglow
+                    poems, was elected president; and Lowell's satire was already out of date. <note
+                        n="37">For a meticulously edited edition of the Biglow poems in book form,
+                        see <hi rend="italic">The Biglow Papers</hi> [First Series], ed. Thomas
+                        Wortham (DeKalb: Northern Illinois University Press, 1977). "LETTER FROM A
+                        VOLUNTEER IN SALTILLO" appears on pages 57&#8211;68.</note> The once
+                    hot-button issues the poems addressed were suddenly old news.</p>
+            </div>
+            <div type="section">
+                <head type="sub"><hi rend="italic">Sunbury American</hi></head>
+                <p>Soon after the book's publication, an excerpt of "LETTER FROM A VOLUNTEER IN
+                    SALTILLO" appeared in the <hi rend="italic">Sunbury American</hi>, a local
+                    weekly newspaper printed in Sunbury, Pennsylvania. Titled "Sogering in Mexico,"
+                    the reprint includes sixteen lines from "LETTER FROM A VOLUNTEER," as well as
+                    thirty-two lines from "A Second Letter from B. Sawin, Esq.," which was published
+                    almost a year after the first Sawin letter. The reprint appears without
+                    attribution or any sort of preface, meaning the editor does not explain that the
+                    reprint samples two separate poems. Instead, the editor seamlessly weaves the
+                    excerpts into a single, cohesive poem that reflects on Sawin's disillusionment
+                    about war. In the remixed reprint, Sawin notes that his training was much
+                    different from actually killing a man, and the recruiter's promises of gold,
+                    glory, and "<hi rend="small caps">Glorious Fun</hi>" never materialized, at
+                    least not for the enlisted men; his superior officers, on the other hand, did
+                    get to "revel in the halls o' Montezumy." Because this version of the poem was
+                    printed after the war had ended, the editor treats it as fiction rather than
+                    news from the front. He labels it as "Select Poetry," and it abuts a sentimental
+                    Christmas story and anecdotes about two literary figures, John Keats and Sir
+                    Walter Scott.</p>
+                <p>However, the editor did manage to make his remixed Sawin poem timely in that it
+                    accompanies several articles about the discovery of gold in California,
+                    territory newly acquired by the United States as a result of the war. Johannsen
+                    points out that only "[s]ix weeks after President Polk had declared the Mexican
+                    War officially at an end, a letter from a New York volunteer in California . . .
+                    [mentioned] that a 'gold mine' had recently been discovered," which led pro-war
+                    espousers of manifest destiny to believe that "God had kept the gold hidden
+                    until the land came into the possession of the American republic." <note n="38"
+                        >Johannsen, <hi rend="italic">To the Halls of the Montezumas</hi>,
+                        310&#8211;11.</note> In the <hi rend="italic">Sunbury American</hi>, "The
+                    Gold Fever" discusses the costs of different routes to California, one of which
+                    traveled through Vera Cruz and Acapulco, sites of previous US-Mexico War
+                    battles. Both "California&#8212;Its Commercial Advantages, &amp;c." and
+                    "Official&#8212;The Gold Essayed&#8212;Extraordinary Purity" comment on the
+                    potential financial opportunities of this spoil of the war. However, the editor
+                    tempers these temptations with several reality checks. He reprints
+                    "Congressional Proceedings," which reports on Congress's dismissal of a bill
+                    requesting the convening of a state constitutional convention to include both US
+                    and former Mexican citizens, suggesting that the incorporation of this new
+                    territory into the US body politic may be more complicated than it seems. The
+                    editor also expresses his skepticism about the Gold Rush in two articles. "The
+                    Gold Region" reviews several travel narratives about California and surmises
+                    that "we ascribe three fourths to exaggeration, produced by excitement. Each of
+                    the narrators seems to have been dazzled, and in no condition to consider sober
+                    realities." <note n="39">"The Gold Region," <hi rend="italic">Sunbury
+                            American</hi>, December 23, 1848, 2.</note> Likewise, in "California
+                    Gold Mines," the editor writes, "The present excitement, in regard to the gold
+                    mines in California will result in the speedy settlement of that country by
+                    American citizens, but we venture to predict that nine tenths of those who go
+                    out to realize fortunes in hunting for gold will be disappointed." <note n="40"
+                        >"California Gold Mines," <hi rend="italic">Sunbury American</hi>, December
+                        23, 1848, 2.</note> The editor's suggestion that the promise of the gold
+                    rush may not match up with the reality thematically connects to his remix of the
+                    Sawin poems, in which Sawin laments the disconnect between recruiter's promises
+                    and the realities of war.</p>
+                <p>This balanced viewpoint fits with the overall tone of the newspaper, which was
+                    "generally regarded as the expression of conservative and unbiased opinion,"
+                    according to a local historian. So unbiased was the editor, the local history
+                    claims, that he occasionally used this Democratic organ in a Democratic county
+                    to support non-Democratic candidates. The editor of the <hi rend="italic"
+                        >Sunbury American</hi>, Henry B. Masser, was a self-educated
+                    lawyer-turned-newspaperman who was "recognized as a trenchant and forcible
+                    writer, and a sagacious observer of the political and social movements of the
+                    day." Under his tenure, the periodical was "one of the most influential journals
+                    in central Pennsylvania" and enjoyed "extensive circulation throughout this
+                    section of the State." <note n="41">Herbert C. Bell, <hi rend="italic">History
+                            of Northumberland County, Pennsylvania</hi> (Chicago: Brown, Runk and
+                        Company, 1891), 282, 807 (HathiTrust).</note> Further expanding the
+                    influence of his newspaper, Masser published a German-language version, <hi
+                        rend="italic">Der Deutsche Amerikaner</hi>; unfortunately, we have yet to
+                    track down a copy of the December 23, 1848, issue of <hi rend="italic">Der
+                        Deutsche Amerikaner</hi> to examine if it prints a German translation of the
+                    Sawin remix poem. Considering the wide circulation, multilingual editions, and
+                    local reputation of Masser, the <hi rend="italic">Sunbury American</hi>
+                    demonstrates not only that Lowell's poems infiltrated beyond urban centers but
+                    also that local papers were powerful sites for the distribution and
+                    dissemination of information in their own right.</p>
+                <p>The <hi rend="italic">Sunbury American</hi>'s deployment of Sawin's poem after
+                    the war had ended shows how the poem lived on beyond Lowell's original intent as
+                    a satirical, anti-war, antislavery protest poem. Later iterations of the poem in
+                    reprints further demonstrate its longevity. For instance, fifty years after its
+                    first publication, four lines from the poem appeared in a Honolulu newspaper,
+                        <hi rend="italic">The Independent</hi>, in an editorial about the US
+                    annexation of Hawaii. The editorial takes its title from Lowell's poem and links
+                    US colonialism in Hawaii to the US-Mexico War, noting that in both cases "the
+                    white men" used the ideology of manifest destiny and the civilizing mission as a
+                    cover for "committing the highest crime known in international
+                    relations&#8212;stealing from a people their government and their lands." <note
+                        n="42">"Scrounging Them Out," <hi rend="italic">The Independent</hi>, March
+                        9, 1898, 2.</note> In the early twentieth century, an untitled article in
+                    Greenville, Kentucky's <hi rend="italic">The Record</hi> cites the poem. After
+                    announcing that "[a]ll the dark-skinned races look alike to the white man," the
+                    racist article claims, "It is true that we believe, in our political literature,
+                    that all men were created free and equal, but practically we make the
+                    qualification of Hosea Biglow during the Mexican war, that 'every man don't mean
+                    a nigger or a Mexican.'" <note n="43">Untitled news item, <hi rend="italic">The
+                            Record</hi>, June 15, 1911, 2.</note> In its original incarnation, this
+                    line parodied the racist pro-Anglo-Saxon rhetoric of one of the war's major
+                    military figures, Caleb Cushing. However, in <hi rend="italic">The Record</hi>,
+                    the editor misreads the poem's satirical rhetoric, quotes a single line stripped
+                    of context, and uses it to defend de facto discrimination in a reversal of
+                    Lowell's spirit of protest. Although we do not include these two mentions as
+                    witnesses in our digital edition because of their brevity, they evince the
+                    malleable afterlife of the poem in the hands of editors across a spectrum of
+                    political motivations.</p>
+            </div>
+            <div type="section">
+                <head type="sub">Editorial Approach</head>
+                <p>To prepare this digital edition, we began by transcribing each reprint as a
+                    separate text file. In these diplomatic transcriptions, we preserved all
+                    irregular spelling and punctuation in the original because we wanted to record
+                    the dialect as is without correction. We decided to record each line of poetry
+                    without arbitrary line breaks or indentation caused by varying column widths. We
+                    also did not record stanza breaks because they varied and were often difficult
+                    to discern on newspaper pages. Once all the transcriptions were complete, we
+                    collated the witnesses with Juxta Commons, an online editorial tool developed by
+                    NINES that offers collation of comparison sets, several forms of visualization
+                    of variants, the option to export as TEI P5 file, and the option to publish
+                    results online. In particular, we chose Juxta Commons because it creates a TEI
+                    file that uses parallel segmentation to juxtapose the different witnesses.
+                    According to the TEI P5 guidelines, parallel segmentation is "useful where
+                    editors do not wish to privilege a text as the 'base' or when editors wish to
+                    present parallel texts." <note n="44">To access the TEI P5 guidelines, see <ref
+                            type="url" target="http://www.tei-c.org/Guidelines/P5/"
+                            >http://www.tei-c.org/Guidelines/P5/</ref>.</note> This element of
+                    openness reflects our desire to privilege multiplicity rather than an
+                    authoritative text. Web technology, of course, is perfectly suited to such an
+                    approach. Whereas traditional print editing identifies different versions of a
+                    text, creates a conspectus of various readings, makes a single text through a
+                    process of combination, and presents to the reader a single text, digital
+                    editing, as Peter Robinson points out in "New Directions in Critical Editing,"
+                    allows editors to bypass these last two stages and to "simply present all the
+                    accumulated evidence for all the different states of the text." <note n="45"
+                        >Peter Robinson, "New Directions in Critical Editing," in <hi rend="italic"
+                            >Electronic Text: Investigations in Method and Theory</hi>, ed. Kathryn
+                        Sunderland (Oxford: Clarendon Press, 1997), 153, 159.</note> This edition is
+                    the embodiment of an argument that circulating texts like Lowell's Biglow poems
+                    should not be seen as either going "from bad to worse" <note n="46">William
+                        Proctor Williams and Craig S. Abbot, <hi rend="italic">An Introduction to
+                            Bibliographical and Textual Studies</hi> (New York: Modern Language
+                        Association, 2009), 8.</note> as they appear and reappear or as imperfect
+                    instantiations to be collated into an authoritative text representing the
+                    author's ultimate intention. Rather, this digital edition invites readers to
+                    consider these reprints as separate iterations that shift to fit the needs of
+                    different news contexts. Hence, we want to highlight not our own editorial
+                    decisions, but those of newspaper editors in 1847&#8211;48, as well as the role
+                    that readers&#8212;then and now&#8212;play in making meaning through the reading
+                    of the poem as it appears in juxtaposition with the news content it adumbrates.
+                    The parallel segmentation structure created by collating our witnesses through
+                    Juxta Commons helps us achieve this goal.</p>
+                <p>Our first trial run using Juxta Commons proved problematic because of the wide
+                    variety in our witnesses: some had extensive prefatory material, while others
+                    had none. Also, two of our witnesses, the <hi rend="italic">Texas Union</hi> and
+                    the <hi rend="italic">Sunbury American</hi>, were excerpts, which created
+                    misalignments when the Juxta collation attempted to match up the texts line by
+                    line. Our second run, in which we only included the body of the poem in the
+                    witnesses that reprinted the entire poem, was much clearer. Then we manually
+                    added any prefatory material, the excerpts, and the concluding prose appended to
+                    the poem in the book edition. We structured the XML document to reflect this
+                    variety of formats. In the front matter, we listed various titles under the
+                    "head," any introductory text penned by the editor as "preface," and Hosea
+                    Biglow's framing text as "letter." Then we placed the poem in the "body." One of
+                    the reprints, the book edition, included an appendix, which is included in the
+                    markup as back matter. To ensure that we had not introduced error or
+                    accidentally autocorrected an irregular dialect spelling during this
+                    transcription process, we performed a round of double-checking. At this stage,
+                    we also manually entered instances of italics or small caps, tagged the markup
+                    with "placeName" and "persName," and demarcated uses of Latin and Ancient Greek
+                    as foreign languages. We decided not to mark the Spanish words within the poem
+                    as foreign because at the time the poem was printed, these words were
+                    incorporated into the US vernacular and would not have required translation. As
+                    Johannsen points out, the "Mexican War brought many more Spanish words and
+                    phrases into American speech. . . . Such words as adobe, ranchero, chaparral,
+                    sombrero, lasso, corral, hacienda, peon, calaboose, fandango, and patio (the
+                    list could go on) came into common use." <note n="47">Johannsen, <hi
+                            rend="italic">To the Halls of the Montezumas</hi>, 205.</note> Several
+                    of these specific words&#8212;including "chaparral," "fandango," and
+                    "lasso"&#8212;appear in Lowell's poem.</p>
+                <p>In the next stage of our editorial process, we marked each site of variance
+                    between the witnesses as one of four categories: punctuation, orthographic,
+                    alteration, and substantive. This categorization revealed several trends as the
+                    poem evolved over time. First, the majority of the variants were due to changes
+                    in punctuation and spelling that occurred when Lowell compiled the book edition.
+                    He systematically made the dialect more irregular. For instance, the standard
+                    "and" in the earlier newspaper reprints is universally changed to "an'" in the
+                    book, and the same occurs with "as" to "ez," "was" to "wuz," "that" to "thet,"
+                    "had" to "hed," and so on. In the glossary that he created for his <hi
+                        rend="italic">Biglow Papers</hi> book, Lowell offered "translations" of
+                    these slang spellings into proper English. Categorization of variants by type
+                    also revealed that the <hi rend="italic">Sunbury American</hi> tends to follow
+                    the book's spelling and punctuation, leading us to believe that the editor of
+                    that newspaper used the book, not an exchange paper, as his source. (That the
+                        <hi rend="italic">Sunbury American</hi> reprints a later Sawin poem and
+                    appeared after the book's publication strengthens this claim of lineage.) In
+                    addition to noting instances of orthographic or punctuation changes, we also
+                    marked substantive variants in which entire words or phrases were altered. In
+                    particular, following line 98, Lowell added four lines to the book version. The
+                    other major variation among witnesses has to do with Hosea Biglow's explanatory
+                    notes. Four of the newspapers reprints include these notes, interspersing them
+                    throughout the poem. The book includes all but one of these notes but locates
+                    them beneath the poem as footnotes. The book also includes an explanatory note
+                    signed by Homer Wilbur. Two of the witnesses excised the notes. For the
+                    witnesses that included them, we transcribed each of these explanatory notes and
+                    marked them as "authorial." In a few cases, we also classified a variant as an
+                    alteration when the appearance of a word or phrase differed, but largely the
+                    appearance stayed the same from edition to edition. Finally, we added
+                    annotations to the poem about context such as historical figures, literary
+                    allusions, and nineteenth-century slang to help modern readers understand the
+                    poem.</p>
+                <p>Though, as this introduction shows, we are most interested in investigations of
+                    the poem's relationship to the news surrounding it in each edition, we
+                    ultimately decided not to transcribe and encode selected articles from each
+                    newspaper. Instead, we invite readers to review the images of these pages and,
+                    building on the juxtapositions we have elaborated here, to identify their own
+                    connections between Lowell's poem and other news content. This, we hope, engages
+                    the reader in a receptive process similar to that of news-addicted subscribers
+                    reading the poem in 1847 and 1848 and fits with our contention that each
+                    separate context offers a horizon fruitful for meaning-making.</p>
+            </div>
+            <div type="section">
+                <head type="sub">Acknowledgments</head>
+                <p>Special thanks to Dawn Childress of Penn State Libraries, who generously shared
+                    her knowledge of TEI with us in a series of hands-on workshops in spring 2014.
+                    We also thank Molly Hardy, Paul Erickson, Ashley Cataldo, Jaclyn Donovan Penny,
+                    and the rest of the staff at the American Antiquarian Society, which has
+                    supported this project in many ways, including awarding us remote access to
+                    their proprietary databases for our reprint searches, providing high-resolution
+                    scans, and engaging in productive conversation about creating this digital
+                    edition. Finally, we thank Harrison Wick, who provided us with scans of the
+                    first edition of <hi rend="italic">Meliboeus-Hipponax: The Biglow Papers</hi>
+                    housed in Indiana University of Pennsylvania's Special Collections, research
+                    assistant Kaitlin Tonti, and project contributor Erin Guydish.</p>
+            </div>
+            <div type="section">
+                <head type="sub">Image Credits</head>
+                <p><hi rend="italic">Boston Courier</hi> (August 18, 1847), <hi rend="italic"
+                        >National Anti-Slavery Standard</hi> (August 26, 1847), <hi rend="italic"
+                        >The Liberator</hi> (August 27, 1847), <hi rend="italic">Littell's Living
+                        Age</hi> (September 11, 1847), <hi rend="italic">Texas Union</hi> (October
+                    16, 1847), and <hi rend="italic">New Hampshire Sentinel</hi> (November 11, 1847)
+                    all courtesy of the American Antiquarian Society; <hi rend="italic">Sunbury
+                        American</hi>, (December 23, 1848), Library of Congress; from <hi
+                        rend="italic">Meliboeus-Hipponax: The Biglow Papers</hi>, courtesy of IUP
+                    Special Collections and University Archives.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

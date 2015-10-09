@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630822.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">On Seeing the 54th and 55th Massachusetts (Black) Regiments</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630822.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#wmf">W. M. F.</author>
+                        <title level="a">On Seeing the 54th and 55th Massachusetts (Black) Regiments</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-08-22">22 August 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>
+
+                <biblStruct xml:id="supplied">
+                    <analytic>
+                        <author ref="#wmf">W. M. F.</author>
+                        <title level="a">On Seeing the 54th and 55th Massachusetts (Black) Regiments</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">The Living Age</title>
+                        <imprint>
+                            <date when="1863-08-15">15 August 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">290</biblScope>                    
+                    </monogr>                                
+                </biblStruct>                
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="wmf">Unknown</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African American soldiers</term>
+                    <term>United States. Army. Massachusetts Infantry Regiment, 54th (1863-1865)</term>
+                    <term>United States. Army. Massachusetts Infantry Regiment, 55th (1863-1865)</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-25" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-24" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630822.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630822.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630822.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630822.pp4.jpg"/>
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18630822.pp4_cropped.jpg"/>
+            </zone>  
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">ON SEEING THE 54TH<note type="editorial" resp="#bw #el"><p>The Fifty-Fourth Massachusetts Regiment; the first regiment of African American volunteers raised in the North, authorized in late January 1863 and mustered into the US service on May 13. Black leaders called on men to enlist and thereby seize their "golden opportunity" and "first best chance" to establish an undeniable claim to the full rights of American citizens (Frederick Douglass, "Men of Color, to Arms!" reprinted in the <title level="j">Anglo-African</title>, March 7, 1863, [2]; editorial, <title level="j">Anglo-African</title>, March 7, 1863, [2]). The Fifty-Fourth quickly filled with men "from virtually every black community in the North" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana: University of Illinois Press, 1998], 31). A number of the new recruits would provide the <title level="j">Anglo-African</title> and the <title level="j">Christian Recorder</title> with correspondence from the front during their term of service. Both titles served as a channel of communication between distant volunteers and the folks at home.</p>      
+                    <p>Under Robert Gould Shaw's command, the regiment took shape at Camp Meigs in Readville, Massachusetts. On May, 28, 1863, after weeks of training, the men paraded through Boston's cheering streets and then embarked on the steamer <name type="ship">De Molay</name>, bound for South Carolina's Sea Islands and the theater of war. (A sister regiment, the Fifty-Fifth, had already begun to form by the time members of the Fifty-Fourth departed for South Carolina.) In the Department of the South, the Massachusetts volunteers had to contend with the prejudiced policies of the US government as well as the Confederate enemy.</p>
+                    <p>On July 18, 1863, Shaw and the Fifty-fourth courageously led a frontal attack on Morris Island's (South Carolina) Fort Wagner. Their bravery could not compensate for General Quincy Gillmore's poor planning; the assault failed, and 272 members of the regiment were killed, wounded, or taken prisoner (Russell Duncan, ed., <title level="m">Blue-Eyed Child of Fortune: The Civil War Letters of Col. Robert Gould Shaw</title> [Athens: University of Georgia Press, 1999], 52). Northern newspapers reported that Wagner's Confederate garrison had buried Shaw in a mass grave with his men. Abolitionists reinterpreted the Confederate gesture of contempt as a mark of distinction.</p>
+                    <p>The charge on Fort Wagner established their Northern reputation as heroes, yet Lincoln's administration refused to pay them as soldiers, at the basic rate of thirteen dollars per month. For more than a year, the Fifty-Fourth and the Fifty-Fifth protested against the injustice by refusing to accept any pay at all. In July 1864, Congress finally passed a law to equalize pay and to reimburse free black soldiers for their full terms of service. Only in January 1865 did the War Department promote Sergeant Stephen A. Swails of the Fifty-Fourth to a commissioned post, making him the army's "first black commissioned officer" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana; Chicago: University of Illinois Press, 1998], 257n).</p></note> AND 55TH<note type="editorial" resp="#bw #el"><p>Sister regiment to the Fifty-Fourth Massachusetts, organized at Readville, Massachusetts, and mustered into service on June 22, 1863. More volunteers arrived at Camp Meigs than could be accommodated in the ranks of the Fifty-Fourth; the first men enlisted in the newly formed Fifty-Fifth regiment on May 12, 1863 (Charles B. Fox, <title level="m">Record of the Service of the Fifty-Fifth Regiment of Massachusetts Volunteer Infantry</title> [Cambridge, MA: Wilson, 1868], 1). At the end of May, the Fifty-Fourth left Massachusetts for active service in the region of South Carolina's Sea Islands. To mark the occasion of their departure, they paraded through Boston: cheering crowds lined the streets. Meanwhile, the Fifty-Fifth continued to train at Camp Meigs as new recruits filled its ranks. In mid-July the regiment received orders to leave for the South. The authorities intended the Fifty-Fifth to sail from New York City, but the outbreak of the draft riots prompted a change of plan; the men embarked at Boston on July 21, 1863 (Fox, 7). Like the Fifty-Fourth, the Fifty-Fifth paraded through streets filled with spectators. They reached New Bern, North Carolina, at the end of July, and from there moved to South Carolina's Sea Islands, where they took part in General Quincy Gillmore's operations against Charleston.</p><p>The men also contended with the government's prejudiced policies regarding promotion, protection, and pay. The government's injustice drove Private Wallace Baker to mutinous protest, for which he was executed; almost a month after Baker's execution, more than seventy members of Company D wrote to Lincoln, with a demand for pay and immediate discharge. (See <title level="m">Freedom's Soldiers: The Black Military Experience in the Civil War</title>, ed. Ira Berlin, Joseph P. Reidy, and Leslie S. Rowland [Cambridge: Cambridge University Press, 1998], 125).</p><p>The Fifty-Fifth fought on James Island in May and July 1864, and took part in battles at Honey Hill and Deveaux Neck later in the year. The regiment was disbanded after the men returned to Boston in late September 1865.</p></note> <choice><orig>MASSACHU<lb/>SETTS</orig><reg>MASSACHUSETTS</reg></choice> (BLACK) REGIMENTS.</head>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">I saw</emph> a gathering cloud&#8212;light shone upon it&#8212;</l>
+                    <l rend="indented1">Rising portentous, black with threatening power,</l>
+                    <l>A thousand thunderbolts seemed hid within it,</l>
+                    <l rend="indented1">Ready to strike and signalize the hour.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Long had we waited, dallied with the foe,</l>
+                    <l rend="indented1">And seen the thousands of our country falling,</l>
+                    <l><supplied reason="illegible" resp="#kt" source="#supplied">Nor dared</supplied> to strike the fierce effective blow<note type="editorial" resp="#bw #el">At once the abolition of slavery and the enlistment of African American soldiers; a reference to Lincoln's Emancipation Proclamation (January 1, 1863) is implicit in the next stanza ("At last we rallied").</note></l>
+                    <l rend="indented1">For what th' eternal God seemed ever calling.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>At last we rallied! Fate-like, just and awful,</l>
+                    <l rend="indented1">Pouring along our streets the solemn host&#8212;</l>
+                    <l>No longer in derision spoke the scornful,</l>
+                    <l rend="indented1">The serried columns came&#8212;stern Freedom's boast!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>From many a Southern field they trembling came,</l>
+                    <l rend="indented1">Fled from the lash, the fetter, and the chain;</l>
+                    <l>Return they, now, not at base Slavery's claim,<note type="editorial" resp="#bw #el"><p>A reference to the notorious Fugitive Slave Law of 1850. Part of the Compromise of 1850, it provided for the enforcement and extension of the 1793 law that "authorized slaveowners to cross state lines to recapture their property and bring it before any local magistrate or federal court to prove ownership," while denying the "fugitive" legal rights (James M. McPherson, <title level="m">Battle Cry of Freedom: The American Civil War</title> [London: Penguin, 1991], 78). The law of 1850 swept aside personal liberty laws enacted by free states and rewarded federal commissioners for ruling in favor of claimants seeking to return fugitives to slavery. It gave US marshals the power to enlist citizens in the work of capture and threatened to fine marshals and deputies who refused to assist slaveowners.</p><p>The law also criminalized those who aided fugitives&#8212;and thus struck at the network of conductors and stationmasters on the Underground Railroad. Abolitionists were foremost among those Northerners who insisted that the government had no right to dictate to conscience; declaring their allegiance to a "higher law," they resisted attempts to seize fugitives. In spite of their efforts, more than three hundred alleged fugitives were returned during the decade of the 1850s (McPherson, 80). By contrasting the southward journey of powerless fugitives with that of empowered citizen-soldiers, the poem triumphantly declares that war has transformed the federal government's proslavery stance&#8212;and predicts the ultimate destruction of a "foe" yet "guilty" of the sin of slavery.</p></note></l>
+                    <l rend="indented1">To meet th' oppressor on the battle plain.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>They lift the flag&#8212;the starry banner waves</l>
+                    <l rend="indented1">From out that throng of Afric's darkened van;</l>
+                    <l>Thousands of bayonets foretell the graves</l>
+                    <l rend="indented1">Where they must lie who spurn the rights of man!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Ah! never yet was Justice seen more fitting,</l>
+                    <l rend="indented1">Her whips, scorns, terrors, more divinely sent;</l>
+                    <l>And never yet her graceful form found sitting</l>
+                    <l rend="indented1">In more poetic sense of punishment.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And ne'er before, in all <emph rend="italic">our</emph> history,</l>
+                    <l rend="indented1">Has truer glory from that banner shone,</l>
+                    <l>Of <supplied reason="illegible" resp="#el" source="#supplied">manlier</supplied> sons, with high toned minstrelsy,</l>
+                    <l rend="indented1">Exultant in the march to honor gone.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>It is the hour, the dread, foretelling hour,</l>
+                    <l rend="indented1">O the great trial of the nation's heart:</l>
+                    <l>From Afric's <emph rend="italic">self</emph>, perchance, shall spring a power</l>
+                    <l rend="indented1">From which, at last, the guilty foe shall start!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Contagious, dreadful, spreading far and wide,</l>
+                    <l rend="indented1">Ere long this cloud, so threatening in our wake,</l>
+                    <l>O'er the South heavens shall spread, and woe betide</l>
+                    <l rend="indented1">The base-born minions where its thunders break!</l>
+                </lg>
+            </lg>
+            
+            <dateline>Boston, Mass.</dateline>
+            <note type="newspaper-editorial">&#8212;<title level="j">Liberator</title>.<note type="editorial" resp="#bw #el"><p>William Lloyd Garrison's weekly antislavery newspaper. Launched in January 1831, the Boston-based <title level="j">Liberator</title> quickly gained a reputation for agitation and controversy. Garrison (1805&#8211;1879) was a founding member of the American Anti-Slavery Society (est. 1833) and served as its president from 1843 until 1865. He proposed to disband the Anti-Slavery Society after the abolition of American slavery; when the motion was voted down, he resigned the presidency. The Thirteenth Amendment was ratified on December 6, 1865. Garrison closed the <title level="j">Liberator</title> at the end of December 1865.</p><p>In late November 1864, Garrison's good friend and long-time colleague Oliver Johnson urged him to merge the <title level="j">Liberator</title> with the <title level="j">National Anti-Slavery Standard</title> (the official organ of the American Anti-Slavery Society). Garrison resisted, maintaining that each paper was "distinctive" and that a merger was impracticable at a moment when Lincoln's reelection foretold the imminent destruction of "the whole slave system." He went on to outline what he saw as the <title level="j">Liberator</title>'s strengths. In addition to its unique "historic position" and "moral prestige," the title possessed "completeness" as a journal: "If the <title level="j">Liberator</title> has been at all effective in the past, it has been owing to its completeness, as a whole, from week to week, and not to what I have written. This is the true value of every journal. My selections have cost me much labor, and they have been made with all possible discrimination as to their interest, ability, and appositeness. The amount of communicated original matter has always been much larger than that of the <title level="j">Standard</title>; and though not always of special interest or value, it has made the <title level="j">Liberator</title> less a transcript, and more readable on that account" (<title level="m">The Letters of William Lloyd Garrison</title>, ed. Walter M. Merrill [Cambridge, MA: Belknap Press of Harvard University Press, 1979], 5:240&#8211;241).</p></note></note>
+            <byline rend="right">W. M. F.<note type="editorial" resp="#bw #el">Unidentified.</note></byline>
+        </body>
+        
+    </text>
+</TEI>
+
+
+
+

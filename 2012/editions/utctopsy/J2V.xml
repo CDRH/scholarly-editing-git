@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="utcdce.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="utc.j2v.20">
+
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title level="m" type="main">Selection from <hi rend="italic">Uncle Tom&#x2019;s Cabin: A Digital Critical Edition</hi>: &#8220;Topsy&#8221;: Jewett First Edition, 2 vols., 1852</title>
+   <title level="m" type="sub">a machine readable transcription</title>
+   <author>Harriet Beecher Stowe</author>
+   <editor>Wesley Raabe</editor>
+   <editor>Les Harrison</editor>
+   <respStmt>
+    <resp>Transcription and encoding</resp>
+    <name>Wesley Raabe</name>
+    <name>Les Harrison</name>
+   </respStmt>
+  </titleStmt>
+  <editionStmt>
+   <edition>
+    <date>2010</date>
+   </edition>
+  </editionStmt>
+  <publicationStmt>
+      <idno type="file">J2V</idno>
+      <idno type="edition">utctopsy</idno>
+   <idno>utc.j2v.20</idno>
+   <distributor>Scholarly Editing</distributor>
+   <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+    </address>
+   <availability>
+    <p>Copyright &#169; 2010 by Wesley Raabe and Les Harrison, all rights
+     reserved. Items in the Archive may be shared in accordance with the Fair Use
+     provisions of U.S. copyright law. Redistribution or republication on other
+     terms, in any medium, requires express written consent from the editors and
+     advance notification of the publisher. Permission to reproduce the graphic images in this archive has
+     been granted by the owners of the originals for this publication only.</p>
+   </availability>
+  </publicationStmt>
+     <seriesStmt>
+         <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+             Editing</title>
+         <respStmt>
+             <resp>editor</resp>
+             <name xml:id="ag">Amanda Gailey</name>
+         </respStmt>
+         <respStmt>
+             <resp>editor</resp>
+             <name xml:id="awj">Andrew Jewell</name>
+         </respStmt>
+         <idno type="vol">33</idno>
+         <idno type="ISSN">2167-1257</idno>
+     </seriesStmt>
+  <notesStmt>
+   <note>The following are responsible for particular readings or for
+    changes to this file, as noted: 
+    <name>Wesley Raabe</name>
+   </note>
+  </notesStmt>
+  
+  <sourceDesc>
+   
+    <biblStruct>
+    <monogr>
+    <author>Harriet Beecher Stowe</author>
+     <title>Uncle Tom&#x2019;s Cabin; or, Life among the Lowly. [2 vols.]</title>
+     <imprint>
+     <pubPlace>Boston, Mass. and Cleveland, Ohio</pubPlace>
+    <publisher>John P. Jewett &amp; Company; Jewett, Proctor &amp; Worthington</publisher>
+    <date>1852</date>
+    <biblScope type="pp" from="32" to="52">2 vols.</biblScope>
+    </imprint>
+    </monogr>
+    </biblStruct>
+
+
+  </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+  <variantEncoding method="double-end-point" location="external" xml:id="utc_variants"></variantEncoding>
+  
+  <editorialDecl>
+   
+   <segmentation>
+    <p>s elements mark sentences editorially normalized across multiple editions and are numbered sequentially within the chapter div1 element of attribute type chapter</p>
+    
+    <p>p elements mark paragraphs editorially normalized across multiple editions and are numbered sequentially within the chapter div1 element of attribute type chapter</p>
+    
+   </segmentation>
+   
+   <quotation marks="all" form="std">
+    <p>Opening double quotation marks represented by Unicode Decimal Character
+     8220; all closing quotation marks
+     represented by Unicode Decimal Character 8221.</p>
+    <p>Opening single quotation marks represented by Unicode Decimal Character
+     8216; all closing single quotation marks
+     represented by by Unicode Decimal Character 8217.</p>
+   </quotation> 
+   
+   <p>Decimal Special Characters<lb/>
+    <!--
+     Unicode Hex	Unicode Dec	Name
+     
+     &#xFB00;	&#64256;	LATIN SMALL LIGATURE FF<lb/>
+     &#xFB01;	&#64257;	LATIN SMALL LIGATURE FI<lb/>
+     &#xFB03;	&#64259;	LATIN SMALL LIGATURE FFI<lb/>
+     &#xFB04;	&#64260;	LATIN SMALL LIGATURE FFL<lb/>
+     &#xFB02;	&#64258;	LATIN SMALL LIGATURE FL<lb/>
+     &#x00E1;	&#225;	LATIN SMALL LETTER A WITH ACUTE<lb/>
+     &#x00E0;	&#224;	LATIN SMALL LETTER A WITH GRAVE<lb/>
+     &#x00E6;	&#230;	LATIN SMALL LETTER AE<lb/>
+     &#x00C6;	&#198;	LATIN CAPITAL LETTER AE<lb/>
+     &#x2737;	&#10039;	EIGHT POINTED RECTILINEAR BLACK STAR<lb/>
+     &#x00E9;	&#233;	LATIN SMALL LETTER E WITH ACUTE<lb/>
+     &#x00E8;	&#232;	LATIN SMALL LETTER E WITH GRAVE<lb/>
+     &#x00EB;	&#235;	LATIN SMALL LETTER E WITH DIAERESIS [umlaut]<lb/>
+     &#x00ED;	&#237;	LATIN SMALL LETTER I WITH ACUTE<lb/>
+     &#x00EC;	&#236;	LATIN SMALL LETTER I WITH GRAVE<lb/>
+     &#x2014;	&#8212;	EM DASH<lb/>
+     &#x0153;	&#339;	LATIN SMALL LIGATURE OE<lb/>
+     &#x201C;	&#8220;	LEFT DOUBLE QUOTATION MARK<lb/>
+     &#x2018;	&#8216;	LEFT SINGLE QUOTATION MARK<lb/>
+     &#x201D;	&#8221;	RIGHT DOUBLE QUOTATION MARK<lb/>
+     &#x2019;	&#8217;	RIGHT SINGLE QUOTATION MARK<lb/>
+     &#xa0;		&#160;	NO-BREAK SPACE<lb/>
+     &#x202f;		&#8239;	NARROW NO-BREAK SPACE<lb/>
+     &#x2005;	&#8197;	FOUR-PER-EM SPACE<lb/>
+     &#x202f;		&#8239;	NARROW NO-BREAK SPACE<lb/>
+     &#x200a;	&#8202;	HAIR SPACE<lb/>
+     &#x2001;	&#8193;	EM QUAD<lb/>
+     &#xb6;		&#182;	PILCROW SIGN [in-line paragraph separator ]<lb/>
+    -->
+   </p>
+   <p>Hexadecimal Special Characters<lb/>
+    <!-- &#x2019;		APOSTROPHE (HEXADECIMAL for RIGHT SINGLE QUOTATION MARK)<lb/>
+    -->
+   </p>
+   
+  </editorialDecl>
+  
+ </encodingDesc>
+<revisionDesc>
+    <change when="2011-09-22" who="#awj">Converted references to page images to pb tags; removed milestones previously marking page breaks and instead put the @n on the pb element</change>
+<change when="2011-09-19" who="#awj">Added revisionDesc; added two idnos; added seriesStmt</change>
+ <change when="2011-10-31" who="#wr">Repaired accent in r&#233;gime; Added line break to following sentences: 8, 67, 228, 298</change>
+ <change when="2011-11-27" who="#wr">Changed variant reference system from paired anchor elements to ref tags.  For addition to Million edition, removed xml-id from p element and added ref with note. For p element designated by n attribute with value 157, revised tagging from anchor style on s element to independent ref style tag with note. Changed head element type attribute value to chaptitle_chapnumb.
+ </change>
+ <change when="2012-02-17" who="#wr">
+  Corrected broken links, corrected line-end hyphenation at page and column breaks, and altered encoding to allow display of small caps.
+ </change>
+</revisionDesc>
+</teiHeader>
+<text>
+ <body>
+ <div1 n="20" type="chapter">
+<pb facs="_v2_0045" n="32"/>
+  <head type="chaptitle_chapnumb"><ref target="UTC20.01head">CHAPTER XX.<lb/>
+   <space quantity="1" unit="ems" dim="vertical"/><hi rend="small caps">topsy.</hi></ref></head>
+  <space quantity="1" unit="ems" dim="vertical"/>
+  <p n="1"><s n="1">O<hi rend="small caps">ne</hi> morning, while Miss Ophelia was busy in some of her<lb/>
+domestic cares, St. Clare&#x2019;s voice was heard, calling her at the<lb/>
+foot of the stairs.</s></p>
+<p n="2"><s n="2">&#8220;Come down here, <ref target="UTC20.S002a">Cousin;</ref> I&#8239;&#x2019;ve something to show you.&#8221;</s></p>
+<p n="3"><s n="3">&#8220;What is it?&#8221; said Miss Ophelia, coming down, with her<lb/>
+sewing in her hand.</s></p>
+<p n="4"><s n="4">&#8220;I&#8239;&#x2019;ve made a purchase for your department,&#8212;see here,&#8221;<lb/>
+said St. Clare; and, with the word, he pulled along a little<lb/>
+negro girl, about eight or nine years of age.</s></p>
+<p n="5"><s n="5">She was one of the blackest of her race; and her round,<lb/>
+shining eyes, glittering as glass beads, moved with quick and<lb/>
+restless glances over everything in the room.</s> <s n="6">Her mouth,<lb/>
+half open with astonishment at the wonders of the new Mas&#x2019;r&#x2019;s<lb/>
+parlor, displayed a white and brilliant set of teeth.</s> <s n="7">Her<lb/>
+woolly hair was braided in sundry little tails, which stuck out<lb/>
+in every direction.</s> <s n="8">The expression of her face was an odd<lb/>
+ mixture of shrewdness and cunning, over which was oddly<lb/>
+drawn, like a kind of veil, an expression of the most doleful<lb/>
+gravity and solemnity.</s> <s n="9">She was dressed in a single &#64257;lthy,<lb/>
+ragged garment, made of bagging; and stood with her hands<lb/>
+demurely folded before her.</s> <s n="10">Altogether, there was <choice><orig>some-<lb/>thing</orig>
+ <reg>something<lb/></reg></choice> odd and goblin-like about her appearance,&#8212;something,<lb/>
+as Miss Ophelia afterwards said, &#8220;so heathenish,&#8221; as to <choice><orig>in-<lb/>spire</orig>
+ <reg>inspire<lb/></reg></choice> that good lady with utter dismay; and, turning to St.<lb/>
+Clare, she said,</s></p>
+<pb facs="_v2_0046" n="33"/>
+<p n="6"><s n="11">&#8220;Augustine, what in the world have you brought that<lb/>
+thing here for?&#8221;</s></p>
+<p n="7"><s n="12">&#8220;For you to educate, to be sure, and train in the way she<lb/>
+should go.</s> <s n="13">I thought she was rather a funny specimen in<lb/>
+the Jim Crow line.</s> <s n="14">Here, Topsy,&#8221; he added, giving a<lb/>
+whistle, as a man would to call the attention of a dog, &#8220;give<lb/>
+us a song, now, and show us some of your dancing.&#8221;</s></p>
+<p n="8"><s n="15">The black, glassy eyes glittered with a kind of wicked <choice><orig>droll-<lb/>ery,</orig>
+ <reg>drollery,<lb/></reg></choice> and the thing struck up, in a clear shrill voice, an odd<lb/>
+negro melody, to which she kept time with her hands and<lb/>
+feet, spinning round, clapping her hands, knocking her knees<lb/>
+together, in a wild, fantastic sort of time, and producing in<lb/>
+her throat all those odd guttural sounds which distinguish the<lb/>
+native music of her race; and &#64257;nally, turning a summerset or<lb/>
+two, and giving a prolonged closing note, as odd and <choice><orig>un-<lb/>earthly</orig>
+ <reg>unearthly<lb/></reg></choice> as that of a steam-whistle, she came suddenly down<lb/>
+on the carpet, and stood with her hands folded, and a most<lb/>
+sanctimonious expression of meekness and solemnity over her<lb/>
+face, only broken by the cunning glances which she shot<lb/>
+askance from the corners of her eyes.</s></p>
+<p n="9"><s n="16">Miss Ophelia stood silent, perfectly paralyzed with <choice><orig>amaze-<lb/>ment.</orig>
+ <reg>amazement.<lb/></reg></choice></s></p>
+<p n="10"><s n="17">St. Clare, like a mischievous fellow as he was, appeared to<lb/>
+enjoy her astonishment; and, addressing the child again, said,</s></p>
+<p n="11"><s n="18">&#8220;Topsy, this is your new mistress.</s> <s n="19"><ref target="UTC20.S019a">I&#8239;&#x2019;m</ref> going to give<lb/>
+you up to her; see now that you behave yourself.&#8221;</s></p>
+<p n="12"><s n="20">&#8220;Yes, <ref target="UTC20.S020a">Mas&#x2019;r,&#8221;</ref> said Topsy, with sanctimonious gravity, her<lb/>
+wicked eyes twinkling as she spoke.</s></p>
+<p n="13"><s n="21">&#8220;You&#8239;&#x2019;re going to be good, Topsy, you understand,&#8221; said<lb/>
+St. Clare.</s></p>
+<p n="14"><s n="22"><ref target="UTC20.S022a">&#8220;O yes, Mas&#x2019;r,&#8221;</ref> said Topsy, with another twinkle, her<lb/>
+hands still devoutly folded.</s></p>
+<pb facs="_v2_0047" n="34"/>
+<p n="15"><s n="23">&#8220;Now, Augustine, what upon earth is this for?&#8221; said Miss<lb/>
+Ophelia.</s> <s n="24">&#8220;Your house is so full of these little plagues, now,<lb/>
+that a body can&#x2019;t set down their foot without treading on &#x2019;em.</s><lb/>
+<s n="25">I get up in the <ref target="UTC20.S025a">morning, and &#64257;nd one</ref> asleep behind the door,<lb/>
+and see one black head poking out from under the table, one<lb/>
+lying on the door-mat,&#8212;and they are mopping and <ref target="UTC20.S025a1">mowing</ref><lb/>
+and grinning between all the railings, and tumbling over the<lb/>
+kitchen &#64258;oor!</s> <s n="26">What on earth did you want to bring this one<lb/>
+for?&#8221;</s></p>
+<p n="16"><s n="27">&#8220;For you to educate&#8212;did&#8239;n&#x2019;t I tell you?</s> <s n="28">You&#8239;&#x2019;re always<lb/>
+preaching about educating.</s> <s n="29">I thought I would make you a<lb/>
+present of a fresh-caught specimen, and let you try your<lb/>
+hand on her, and bring her up in the way she should go.&#8221;</s></p>
+<p n="17"><s n="30">&#8220;<hi rend="italic">I</hi> don&#x2019;t want her, I am sure;&#8212;I have more to do with<lb/>
+&#x2019;em now than I want to.&#8221;</s></p>
+  <p n="18"><s n="31">&#8220;That&#8202;&#x2019;s <ref target="UTC20.S031a">you Christians, all over!&#8212;you&#8239;&#x2019;ll</ref> get up a <ref target="UTC20.R031a"><choice><orig>soci-<lb/>ety,</orig>
+   <reg>society,<lb/></reg></choice></ref> and get some poor missionary to spend all his days among<lb/>
+just such heathen.</s> <s n="32">But let me see one of you that would<lb/>
+take one into your house with you, and take the labor of<lb/>
+their conversion on yourselves!</s> <s n="33">No; when it comes to that,<lb/>
+they are dirty and disagreeable, and it&#8202;&#x2019;s too much care, and<lb/>
+so on.&#8221;</s></p>
+<p n="19"><s n="34">&#8220;Augustine, you know I did&#8239;n&#x2019;t think of it in that light,&#8221;<lb/>
+said Miss Ophelia, evidently softening.</s> <s n="35">&#8220;Well, it might be<lb/>
+a real missionary work,&#8221; said she, looking rather more <choice><orig>favor-<lb/>ably</orig>
+ <reg>favorably<lb/></reg></choice> on the child.</s></p>
+<p n="20"><s n="36">St. Clare had touched the right string.</s> <s n="37">Miss Ophelia&#x2019;s<lb/>
+conscientiousness was ever on the alert.</s> <s n="38">&#8220;But,&#8221; she added,<lb/>
+&#8220;I really did&#8239;n&#x2019;t see the need of buying this one;&#8212;there are<lb/>
+<ref target="UTC20.S038a">enough now, in your house,</ref> to take all my time and skill.&#8221;</s></p>
+<p n="21"><s n="39">&#8220;Well, then, <ref target="UTC20.S039a">Cousin,&#8221;</ref> said St. Clare, drawing her aside,<lb/>
+&#8220;I ought to beg your pardon for my good-for-nothing<lb/>
+
+ <pb facs="_v2_0048" n="35"/>
+speeches.</s> <s n="40">You are so good, after all, that there&#8239;&#x2019;s no sense<lb/>
+in them.</s> <s n="41">Why, the fact is, this concern belonged to a couple<lb/>
+of drunken creatures that keep a low restaurant that I have<lb/>
+to pass by every day, and I was tired of hearing her <choice><orig>scream-<lb/>ing,</orig>
+ <reg>screaming,<lb/></reg></choice> and them beating and swearing at her.</s> <s n="42">She looked<lb/>
+bright and funny, too, as if something might be made of her;<lb/>
+&#8212;so I bought her, and I&#8239;&#x2019;ll give her to you.</s> <s n="43">Try, now, and<lb/>
+give her a good orthodox New England bringing up, and see<lb/>
+what it&#8239;&#x2019;ll make of her.</s> <s n="44">You know I have&#8202;n&#x2019;t any gift that<lb/>
+way; but I&#8202;&#x2019;d like you to try.&#8221;</s></p>
+<p n="22"><s n="45">&#8220;Well, I&#8239;&#x2019;ll do what I can,&#8221; said Miss Ophelia; and she<lb/>
+approached her new subject very much as a person might be<lb/>
+supposed to approach a black spider, supposing them to have<lb/>
+benevolent designs toward it.</s></p>
+<p n="23"><s n="46">&#8220;She&#8239;&#x2019;s dreadfully dirty, and half naked,&#8221; she said.</s></p>
+<p n="24"><s n="47">&#8220;Well, take her down stairs, and make some of them clean<lb/>
+and clothe her up.&#8221;</s></p>
+<p n="25"><s n="48">Miss Ophelia carried her to the kitchen regions.</s></p>
+<p n="26"><s n="49">&#8220;Don&#x2019;t see what <ref target="UTC20.S049a">Mas&#x2019;r</ref> St. Clare wants of &#x2019;nother <choice><orig>nig-<lb/>ger!&#8221;</orig>
+ <reg>nigger!&#8221;<lb/></reg></choice> said Dinah, surveying the new arrival with no friendly<lb/>
+air.</s> <s n="50">&#8220;Won&#x2019;t have her round under <hi rend="italic">my</hi> feet, <hi rend="italic">I</hi> know!&#8221;</s></p>
+<p n="27"><s n="51">&#8220;Pah!&#8221; said Rosa and Jane, with supreme disgust; &#8220;let<lb/>
+her keep out of our way!</s> <s n="52">What in the world <ref target="UTC20.S051a">Mas&#x2019;r</ref><lb/>
+wanted another of these low niggers for, I can&#x2019;t see!&#8221;</s></p>
+<p n="28"><s n="53">&#8220;You go long!</s> <s n="54">No more nigger dan you be, Miss Rosa,&#8221;<lb/>
+said Dinah, who felt this last remark a re&#64258;ection on herself.</s><lb/>
+<s n="55">&#8220;You seem to tink yourself white folks.</s> <s n="56">You <ref target="UTC20.S056a">an&#x2019;t</ref> nerry<lb/>
+one, black <hi rend="italic">nor</hi> white.</s> <s n="57">I&#8202;&#x2019;d like to be one or turrer.&#8221;</s></p>
+<p n="29"><s n="58">Miss Ophelia saw that there was nobody in the camp that<lb/>
+would undertake to oversee the cleansing and dressing of the<lb/>
+new arrival; and so she was forced to do it herself, with some<lb/>
+very ungracious and reluctant assistance from Jane.</s></p>
+<pb facs="_v2_0049" n="36"/>
+<p n="30"><s n="59">It is not for ears polite to hear the particulars of the &#64257;rst<lb/>
+toilet of a neglected, abused child.</s> <s n="60">In fact, in this world,<lb/>
+multitudes must live and die in a state that it would be too<lb/>
+great a shock to the nerves of their fellow-mortals even to<lb/>
+hear described.</s> <s n="61">Miss Ophelia had a good, strong, practical<lb/>
+deal of resolution; and she went through all the disgusting<lb/>
+details with heroic thoroughness, though, it must be confessed,<lb/>
+with no very gracious air,&#8212;for endurance was the utmost to<lb/>
+which her principles could bring her.</s> <s n="62">When she saw, on the<lb/>
+back and shoulders of the child, great welts and calloused<lb/>
+spots, ine&#64256;aceable marks of the system under which she had<lb/>
+grown up thus far, her heart became pitiful within her.</s></p>
+<p n="31"><s n="63">&#8220;See there!&#8221; said Jane, pointing to the marks, &#8220;don&#x2019;t<lb/>
+that show she&#8202;&#x2019;s a limb?</s> <s n="64">We&#8202;&#x2019;ll have &#64257;ne works with her,<lb/>
+ I reckon.</s> <s n="65">I hate these nigger young uns!</s> <s n="66">so disgusting!</s> <s n="67">I<lb/>
+wonder that <ref target="UTC20.S067a">Mas&#x2019;r</ref> would buy her!&#8221;</s></p>
+<p n="32"><s n="68">The &#8220;young un&#8221; alluded to heard all these comments with<lb/>
+the subdued and doleful air which seemed habitual to her,<lb/>
+only scanning, with a keen and furtive glance of her &#64258;ickering<lb/>
+eyes, the ornaments which Jane wore in her ears.</s> <s n="69">When<lb/>
+arrayed at last in a suit of decent and whole clothing, her hair<lb/>
+cropped short to her head, Miss Ophelia, with some <choice><orig>satisfac-<lb/>tion,</orig>
+ <reg>satisfaction,<lb/></reg></choice> said she looked more Christian-like than she did, and in<lb/>
+her own mind began to mature some plans for her instruction.</s></p>
+<p n="33"><s n="70">Sitting down before her, she began to question her.</s></p>
+<p n="34"><s n="71">&#8220;How old are you, Topsy?&#8221;</s></p>
+<p n="35"><s n="72">&#8220;Dun no, Missis,&#8221; said the image, with a grin that showed<lb/>
+all her teeth.</s></p>
+<p n="36"><s n="73">&#8220;Don&#8202;&#x2019;t know how old you are?</s> <s n="74">Did&#8239;n&#x2019;t anybody ever<lb/>
+tell you?</s> <s n="75">Who was your mother?&#8221;</s></p>
+<p n="37"><s n="76">&#8220;Never had none!&#8221; said the child, with another grin.</s></p>
+<pb facs="_v2_0050" n="37"/>
+<p n="38"><s n="77">&#8220;Never had any mother?</s> <s n="78">What do you mean?</s> <s n="79">Where<lb/>
+were you born?&#8221;</s></p>
+<p n="39"><s n="80">&#8220;Never was born!&#8221; persisted Topsy, with another grin,<lb/>
+that looked so goblin-like, that, if Miss Ophelia had been at<lb/>
+all nervous, she might have fancied that she had got hold of<lb/>
+some sooty gnome from the land of Diablerie; but Miss<lb/>
+Ophelia was not nervous, but plain and business-like, and she<lb/>
+said, with some sternness,</s></p>
+<p n="40"><s n="81">&#8220;You must&#8239;n&#x2019;t answer me in that way, child; I&#8239;&#x2019;m not<lb/>
+playing with you.</s> <s n="82">Tell me where you were born, and who<lb/>
+your father and mother were.&#8221;</s></p>
+<p n="41"><s n="83">&#8220;Never was born,&#8221; reiterated the creature, more <choice><orig>emphati-<lb/>cally;</orig>
+ <reg>emphatically;<lb/></reg></choice> &#8220;never had no father nor mother, nor nothin&#x2019;.</s> <s n="84">I was<lb/>
+raised by a speculator, with lots of others.</s> <s n="85">Old Aunt Sue<lb/>
+used to take car on us.&#8221;</s></p>
+<p n="42"><s n="86">The child was evidently sincere; and Jane, breaking into a<lb/>
+short laugh, said,</s></p>
+<p n="43"><s n="87"><ref target="UTC20.S087a">&#8220;Laws, Missis,</ref> there&#8239;&#x2019;s heaps of &#x2019;em.</s> <s n="88">Speculators buys<lb/>
+&#x2019;em up cheap, when they&#8239;&#x2019;s little, and gets &#x2019;em raised for<lb/>
+market.&#8221;</s></p>
+<p n="44"><s n="89">&#8220;How long have you lived with your master and <choice><orig>mis-<lb/>tress?&#8221;</orig>
+ <reg>mistress?&#8221;<lb/></reg></choice></s></p>
+<p n="45"><s n="90">&#8220;Dun no, <ref target="UTC20.S090a">Missis.&#8221;</ref></s></p>
+<p n="46"><s n="91">&#8220;Is it a year, or more, or less?&#8221;</s></p>
+<p n="47"><s n="92">&#8220;Dun no, Missis.&#8221;</s></p>
+<p n="48"><s n="93">&#8220;Laws, <ref target="UTC20.S093a">Missis,</ref> those low negroes,&#8212;they can&#x2019;t tell; they<lb/>
+don&#x2019;t know anything about time,&#8221; said Jane; &#8220;they don&#x2019;t<lb/>
+know what a year is; they don&#x2019;t know their own ages.&#8221;</s></p>
+<p n="49"><s n="94">&#8220;Have you ever heard anything about God, Topsy?&#8221;</s></p>
+<p n="50"><s n="95">The child looked bewildered, but grinned as usual.</s></p>
+<p n="51"><s n="96">&#8220;Do you know who made you?&#8221;</s></p>
+  <fw type="sig" place="bottom">&#8193;<hi rend="small caps">vol. ii.</hi>&#8193;4</fw>
+<pb facs="_v2_0051" n="38"/>
+<p n="52"><s n="97">&#8220;Nobody, as I knows on,&#8221; said the child, with a short<lb/>
+laugh.</s></p>
+<p n="53"><s n="98">The idea appeared to amuse her considerably; for her eyes<lb/>
+twinkled, and she added,</s></p>
+<p n="54"><s n="99">&#8220;I spect I grow&#x2019;d.</s> <s n="100">Don&#x2019;t think nobody never made me.&#8221;</s></p>
+<p n="55"><s n="101">&#8220;Do you know how to sew?&#8221; said Miss Ophelia, who<lb/>
+thought she would turn her inquiries to something more <choice><orig>tan-<lb/>gible.</orig>
+ <reg>tangible.</reg></choice></s></p>
+<p n="56"><s n="102">&#8220;No, <ref target="UTC20.S102a">Missis.&#8221;</ref></s></p>
+<p n="57"><s n="103">&#8220;What can you do?&#8212;what did you do for your master and<lb/>
+mistress?&#8221;</s></p>
+<p n="58"><s n="104">&#8220;Fetch water, and wash dishes, and rub knives, and wait<lb/>
+on folks.&#8221;</s></p>
+<p n="59"><s n="105">&#8220;Were they good to you?&#8221;</s></p>
+<p n="60"><s n="106">&#8220;Spect they was,&#8221; said the child, scanning Miss Ophelia<lb/>
+cunningly.</s></p>
+<p n="61"><s n="107">Miss Ophelia rose from this encouraging colloquy; St. Clare<lb/>
+was leaning over the back of her chair.</s></p>
+<p n="62"><s n="108">&#8220;You &#64257;nd virgin soil there, <ref target="UTC20.S108a">Cousin;</ref> put in your own ideas,<lb/>
+&#8212;you won&#x2019;t &#64257;nd many to pull up.&#8221;</s></p>
+<p n="63"><s n="109">Miss Ophelia&#x2019;s ideas of education, like all her other ideas,<lb/>
+were very set and de&#64257;nite; and of the kind that prevailed in<lb/>
+New England a century ago, and which are still preserved in<lb/>
+some very retired and unsophisticated parts, where there are<lb/>
+no railroads.</s> <s n="110">As nearly as could be expressed, they could be<lb/>
+comprised in very few words: to teach them to mind when<lb/>
+they were spoken to; to teach them the catechism, sewing,<lb/>
+and reading; and to whip them if they told lies.</s> <s n="111">And<lb/>
+though, of course, in the &#64258;ood of light that is now poured<lb/>
+on education, these are left far away in the rear, yet it is<lb/>
+an undisputed fact that our grandmothers raised some <choice><orig>toler-<lb/>ably</orig>
+ <reg>tolerably<lb/></reg></choice> fair men and women under this r&#233;gime, as many of<lb/>
+
+ <pb facs="_v2_0052" n="39"/>
+us can remember and testify.</s> <s n="112">At all events, Miss Ophelia<lb/>
+knew of nothing else to do; and, therefore, applied her<lb/>
+mind to her heathen with the best diligence she could <choice><orig>com-<lb/>mand.</orig>
+ <reg>command.</reg></choice></s></p>
+<p n="64"><s n="113">The child was announced and considered in the family as<lb/>
+Miss Ophelia&#x2019;s girl; and, as she was looked upon with no <choice><orig>gra-<lb/>cious</orig>
+ <reg>gracious<lb/></reg></choice> eye in the kitchen, Miss Ophelia resolved to con&#64257;ne her<lb/>
+sphere of operation and instruction chie&#64258;y to her own <choice><orig>cham-<lb/>ber.</orig>
+ <reg>chamber.<lb/></reg></choice></s> <s n="114">With a self-sacri&#64257;ce which some of our readers will<lb/>
+appreciate, she resolved, instead of comfortably making her<lb/>
+own bed, sweeping and dusting her own chamber,&#8212;which she<lb/>
+had hitherto done, in utter scorn of all o&#64256;ers of help from the<lb/>
+chambermaid of the establishment,&#8212;to condemn herself to the<lb/>
+martyrdom of instructing Topsy to perform these operations,<lb/>
+&#8212;ah, woe the day!</s> <s n="115">Did any of our readers ever do the same,<lb/>
+they will appreciate the amount of her self-sacri&#64257;ce.</s></p>
+<p n="65"><s n="116">Miss Ophelia began with Topsy by taking her into her<lb/>
+chamber, the &#64257;rst morning, and solemnly commencing a<lb/>
+course of instruction in the art and mystery of bed-making.</s></p>
+<p n="66"><s n="117">Behold, then, Topsy, washed and shorn of all the little<lb/>
+braided tails wherein her heart had delighted, arrayed in a<lb/>
+clean gown, with well-starched apron, standing reverently<lb/>
+before Miss Ophelia, with an expression of solemnity well<lb/>
+be&#64257;tting a funeral.</s></p>
+<p n="67"><s n="118">&#8220;Now, Topsy, I&#8239;&#x2019;m going to show you just how my bed is<lb/>
+to be made.</s> <s n="119">I am very particular about my bed.</s> <s n="120">You must<lb/>
+learn exactly how to do it.&#8221;</s></p>
+<p n="68"><s n="121">&#8220;Yes, ma&#x2019;am,&#8221; says Topsy, with a deep sigh, and a face<lb/>
+of woful earnestness.</s></p>
+<p n="69"><s n="122">&#8220;Now, Topsy, look here;&#8212;this is the hem of the sheet,&#8212;<lb/>
+this is the right side of the sheet, and this is the wrong;&#8212;<lb/>
+will you remember?&#8221;</s></p>
+<pb facs="_v2_0053" n="40"/>
+<p n="70"><s n="123">&#8220;Yes, ma&#x2019;am,&#8221; says Topsy, with another sigh.</s></p>
+<p n="71"><s n="124">&#8220;Well, now, the under sheet you must bring over the<lb/>
+bolster,&#8212;so,&#8212;and tuck it clear down under the <ref target="UTC20.R124a">mattress</ref><lb/>
+nice and smooth,&#8212;so,&#8212;do you see?&#8221;</s></p>
+<p n="72"><s n="125">&#8220;Yes, ma&#x2019;am,&#8221; said Topsy, with profound attention.</s></p>
+<p n="73"><s n="126">&#8220;But the upper sheet,&#8221; said Miss Ophelia, &#8220;must be<lb/>
+brought down in this way, and tucked under &#64257;rm and smooth<lb/>
+at the foot,&#8212;so,&#8212;the narrow hem at the foot.&#8221;</s></p>
+<p n="74"><s n="127">&#8220;Yes, ma&#x2019;am,&#8221; said Topsy, as before;&#8212;but we will add,<lb/>
+what Miss Ophelia did not see, that, during the time when<lb/>
+the good lady&#x2019;s back was turned, in the zeal of her <choice><orig>manipula-<lb/>tions,</orig>
+ <reg>manipulations,<lb/></reg></choice> the young disciple had contrived to snatch a pair of<lb/>
+gloves and a ribbon, which she had adroitly slipped into her<lb/>
+sleeves, and stood with her hands dutifully folded, as before.</s></p>
+<p n="75"><s n="128">&#8220;Now, Topsy, let&#8239;&#x2019;s see <hi rend="italic">you</hi> do this,&#8221; said Miss Ophelia,<lb/>
+pulling o&#64256; the clothes, and seating herself.</s></p>
+<p n="76"><s n="129">Topsy, with great gravity and adroitness, went through the<lb/>
+exercise completely to Miss Ophelia&#x2019;s satisfaction; smoothing<lb/>
+the sheets, patting out every wrinkle, and exhibiting, through<lb/>
+the whole process, a gravity and seriousness with which her<lb/>
+instructress was greatly edi&#64257;ed.</s> <s n="130">By an unlucky slip, <choice><orig>how-<lb/>ever,</orig>
+ <reg>however,<lb/></reg></choice> a &#64258;uttering fragment of the ribbon hung out of one of<lb/>
+her sleeves, just as she was &#64257;nishing, and caught Miss <choice><orig>Ophe-<lb/>lia&#x2019;s</orig>
+ <reg>Ophelia&#x2019;s<lb/></reg></choice> attention.</s> <s n="131">Instantly she pounced upon it.</s> <s n="132">&#8220;What&#8239;&#x2019;s<lb/>
+this?</s> <s n="133">You naughty, wicked child,&#8212;you&#8239;&#x2019;ve been stealing<lb/>
+this!&#8221;</s></p>
+<p n="77"><s n="134">The ribbon was pulled out of Topsy&#x2019;s own sleeve, yet was<lb/>
+she not in the least disconcerted; she only looked at it with<lb/>
+an air of the most surprised and unconscious innocence.</s></p>
+<p n="78"><s n="135">&#8220;Laws! why, that ar&#8239;&#x2019;s Miss Feely&#x2019;s ribbon, an&#x2019;t it?<lb/></s>
+<s n="136">How could it a got caught in my sleeve?&#8221;</s></p>
+<pb facs="_v2_0054" n="41"/>
+<p n="79"><s n="137">&#8220;Topsy, you naughty girl, don&#x2019;t you tell me a lie,&#8212;you<lb/>
+stole that ribbon!&#8221;</s></p>
+<p n="80"><s n="138">&#8220;Missis, I <ref target="UTC20.S138a">declar</ref> for&#8239;&#x2019;t, I did&#8239;n&#x2019;t;&#8212;never seed it till <ref target="UTC20.S138a1">dis</ref><lb/>
+yer blessed minnit.&#8221;</s></p>
+<p n="81"><s n="139">&#8220;Topsy,&#8221; said Miss Ophelia, &#8220;don&#x2019;t you know it&#8239;&#x2019;s<lb/>
+wicked to tell lies?&#8221;</s></p>
+<p n="82"><s n="140">&#8220;I never tells no lies, Miss Feely,&#8221; said Topsy, with<lb/>
+virtuous gravity; &#8220;it&#8239;&#x2019;s jist the truth I&#8239;&#x2019;ve been a <anchor xml:id="UTC20.S140a"/>tellin<lb/>
+now, and an&#x2019;t nothin<anchor xml:id="UTC20.S140b"/> else.&#8221;</s></p>
+<p n="83"><s n="141">&#8220;Topsy, I shall have to whip you, if you tell lies so.&#8221;</s></p>
+<p n="84"><s n="142"><ref target="UTC20.S142a">&#8220;Laws, Missis,</ref> if you&#8239;&#x2019;s to whip all day, could&#8239;n&#x2019;t say no<lb/>
+other way,&#8221; said Topsy, beginning to blubber.</s> <s n="143">&#8220;I never<lb/>
+seed dat ar,&#8212;it must a got caught in my sleeve.</s> <s n="144">Miss<lb/>
+Feely must have left it on the bed, and it got caught in the<lb/>
+clothes, and so got in my sleeve.&#8221;</s></p>
+<p n="85"><s n="145">Miss Ophelia was so indignant at the barefaced lie, that<lb/>
+ she caught the child and shook <anchor xml:id="UTC20.S145a"/>her.</s></p>
+<p n="86"><s n="147">&#8220;Don&#x2019;t<anchor xml:id="UTC20.S145b"/> you tell me that again!&#8221;</s></p>
+<p n="87"><s n="148">The shake brought the gloves on to the &#64258;oor, from the<lb/>
+other sleeve.</s></p>
+<p n="88"><s n="149">&#8220;There, you!&#8221; said Miss Ophelia, &#8220;will you tell me now,<lb/>
+you did&#8239;n&#x2019;t steal the ribbon?&#8221;</s></p>
+<p n="89"><s n="150">Topsy now confessed to the gloves, but still persisted in<lb/>
+denying the ribbon.</s></p>
+<p n="90"><s n="151">&#8220;Now, Topsy,&#8221; said Miss Ophelia, &#8220;if you&#8239;&#x2019;ll confess all<lb/>
+about it, I won&#x2019;t whip you this time.&#8221;</s> <s n="152">Thus adjured, Topsy<lb/>
+confessed to the ribbon and gloves, with woful protestations<lb/>
+of penitence.</s></p>
+<p n="91"><s n="153">&#8220;Well, now, tell me.</s> <s n="154">I know you must have taken other<lb/>
+things since you have been in the house, for I let you run<lb/>
+about all day yesterday.</s> <s n="155">Now, tell me if you took anything,<lb/>
+and I shan&#x2019;t whip you.&#8221;</s></p>
+  <fw type="sig" place="bottom">&#8193;<hi rend="small caps">vol. ii.</hi>&#8193; 4&#10039;<lb/></fw>
+<pb facs="_v2_0055" n="42"/>
+<p n="92"><s n="156">&#8220;Laws, <ref target="UTC20.S156a">Missis!</ref> I took Miss Eva&#x2019;s red thing she wars on<lb/>
+her neck.&#8221;</s></p>
+<p n="93"><s n="157">&#8220;You did, you naughty child!&#8212;Well, what else?&#8221;</s></p>
+<p n="94"><s n="158">&#8220;I took Rosa&#x2019;s yer-rings,&#8212;them red ones.&#8221;</s></p>
+<p n="95"><s n="159">&#8220;Go bring them to me this minute, both of &#x2019;em.&#8221;</s></p>
+<p n="96"><s n="160">&#8220;Laws, <ref target="UTC20.S160a">Missis!</ref></s> <s n="161">I can&#x2019;t,&#8212;they&#8239;&#x2019;s burnt up!&#8221;</s></p>
+<p n="97"><s n="162">&#8220;Burnt up!&#8212;what a story!</s> <s n="163">Go get &#x2019;em, or I&#8239;&#x2019;ll whip<lb/>
+you.&#8221;</s></p>
+<p n="98"><s n="164">Topsy, with loud protestations, and tears, and groans,<lb/>
+declared that she <hi rend="italic">could</hi> not.</s> <s n="165">&#8220;They&#8239;&#x2019;s burnt up,&#8212;they<lb/>
+was.&#8221;</s></p>
+<p n="99"><s n="166">&#8220;What did you burn &#x2019;em up for?&#8221; said Miss Ophelia.</s></p>
+<p n="100"><s n="167">&#8220;Cause I&#8239;&#x2019;s wicked,&#8212;I is.</s> <s n="168">I&#8239;&#x2019;s mighty wicked, any how.</s><lb/>
+<s n="169">I can&#x2019;t help it.&#8221;</s></p>
+<p n="101"><s n="170">Just at this moment, Eva came innocently into the room,<lb/>
+with the identical coral necklace on her neck.</s></p>
+<p n="102"><s n="171">&#8220;Why, Eva, where did you get your necklace?&#8221; said<lb/>
+Miss <ref target="UTC20.S171a">Ophelia.</ref></s></p>
+<p n="103"><s n="172">&#8220;Get it?</s> <s n="173">Why, I&#8239;&#x2019;ve had it on all day,&#8221; said Eva.</s></p>
+<p n="104"><s n="174">&#8220;Did you have it on yesterday?&#8221;</s></p>
+<p n="105"><s n="175">&#8220;Yes; and what is funny, Aunty, I had it on all night.</s><lb/>
+<s n="176">I forgot to take it o&#64256; when I went to bed.&#8221;</s></p>
+<p n="106"><s n="177">Miss Ophelia looked perfectly bewildered; the more so, as<lb/>
+Rosa, at that instant, came into the room, with a basket of<lb/>
+newly-ironed linen poised on her head, and the coral <choice><orig>ear-<lb/>drops</orig>
+<reg>ear-drops<lb/></reg></choice> shaking in her ears!</s></p>
+<p n="107"><s n="178">&#8220;I&#8239;&#x2019;m sure I can&#x2019;t tell anything what to do with such a<lb/>
+child!&#8221; she said, in despair.</s> <s n="179">&#8220;What in the world did you<lb/>
+tell me you took those things for, Topsy?&#8221;</s></p>
+<p n="108"><s n="180">&#8220;Why, <ref target="UTC20.S180a">Missis</ref> said I must &#x2019;fess; and I could&#8239;n&#x2019;t think of<lb/>
+<ref target="UTC20.S180a1">nothin&#x2019;</ref> else to &#x2019;fess,&#8221; said Topsy, rubbing her eyes.</s></p>
+<p n="109"><s n="181">&#8220;But, of course, I did&#8239;n&#x2019;t want you to confess things you<lb/>
+
+ <pb facs="_v2_0056" n="43"/>
+did&#8239;n&#x2019;t do,&#8221; said Miss Ophelia; &#8220;that&#8239;&#x2019;s telling a lie, just as<lb/>
+much as the other.&#8221;</s></p>
+<p n="110"><s n="182">&#8220;Laws, now, is it?&#8221; said Topsy, with an air of innocent<lb/>
+wonder.</s></p>
+<p n="111"><s n="183">&#8220;La, there <ref target="UTC20.S183a">an&#x2019;t</ref> any such thing as truth in that limb,&#8221;<lb/>
+said Rosa, looking indignantly at Topsy.</s> <s n="184">&#8220;If I was <ref target="UTC20.S184a">Mas&#x2019;r</ref><lb/>
+St. Clare, I&#8239;&#x2019;d whip her till the blood run.</s> <s n="185">I would,&#8212;I&#8239;&#x2019;d<lb/>
+let her catch it!&#8221;</s></p>
+<p n="112"><s n="186">&#8220;No, no, Rosa,&#8221; said Eva, with an air of command, which<lb/>
+the child could assume at times; &#8220;you must&#8239;n&#x2019;t talk so,<lb/>
+Rosa.</s> <s n="187">I can&#x2019;t bear to hear it.&#8221;</s></p>
+<p n="113"><s n="188">&#8220;La sakes! Miss Eva, you&#8239;&#x2019;s so good, you don&#x2019;t know<lb/>
+nothing how to get along with niggers.</s> <s n="189">There&#160;&#x2019;s no way but<lb/>
+to cut &#x2019;em well up, I tell ye.&#8221;</s></p>
+<p n="114"><s n="190">&#8220;Rosa!&#8221; said Eva, &#8220;hush!</s> <s n="191">Don&#x2019;t you say another word<lb/>
+of that sort!&#8221;</s> <s n="192">and the eye of the child &#64258;ashed, and her cheek<lb/>
+deepened its color.</s></p>
+<p n="115"><s n="193">Rosa was cowed in a moment.</s></p>
+<p n="116"><s n="194">&#8220;Miss Eva has got the St. Clare blood in her, that&#8239;&#x2019;s<lb/>
+plain.</s> <s n="195">She can <ref target="UTC20.R195a">speak, for all the world,</ref> just like her papa,&#8221;<lb/>
+she said, as she passed out of the room.</s></p>
+<p n="117"><s n="196">Eva stood looking at Topsy.</s></p>
+<p n="118"><s n="197">There stood the two children, <anchor xml:id="UTC20.S197a"/>representatives of the two<lb/>
+extremes<anchor xml:id="UTC20.S197b"/> of society.</s> <s n="198">The fair, high-bred child, with her<lb/>
+golden head, her deep eyes, her spiritual, noble brow,<lb/>
+and prince-like movements; and her black, keen, subtle,<lb/>
+cringing, yet acute neighbor.</s> <s n="199">They stood the representatives<lb/>
+of their races.</s> <s n="200">The Saxon, born of ages of cultivation, <choice><orig>com-<lb/>mand,</orig>
+ <reg>command,<lb/></reg></choice> education, physical and moral eminence; the Afric,<lb/>
+born of ages of oppression, submission, ignorance, toil, and<lb/>
+vice!</s></p>
+<p n="119"><s n="201">Something, perhaps, of such thoughts struggled through<lb/>
+
+ <pb facs="_v2_0057" n="44"/>
+Eva&#x2019;s mind.</s> <s n="202">But a child&#x2019;s thoughts are rather dim, <choice><orig>unde-<lb/>&#64257;ned</orig>
+ <reg>unde&#64257;ned<lb/></reg></choice> instincts; and in Eva&#x2019;s noble nature many such were<lb/>
+yearning and working, for which she had no power of <choice><orig>utter-<lb/>ance.</orig>
+ <reg>utterance.<lb/></reg></choice></s> <s n="203">When Miss Ophelia expatiated on Topsy&#x2019;s naughty,<lb/>
+wicked conduct, the child looked perplexed and sorrowful, but<lb/>
+said, sweetly,</s></p>
+<p n="120"><s n="204">&#8220;Poor Topsy, why need you steal?</s> <s n="205">You&#8239;&#x2019;re going to be<lb/>
+taken good care of, now.</s> <s n="206">I&#8239;&#x2019;m sure I&#8239;&#x2019;d rather give you <choice><orig>any-<lb/>thing</orig>
+ <reg>anything<lb/></reg></choice> of mine, than have you steal it.&#8221;</s></p>
+<p n="121"><s n="207">It was the &#64257;rst word of kindness the child had ever heard<lb/>
+in her life; and the sweet tone and manner struck strangely<lb/>
+on the wild, rude heart, and a sparkle of something like a<lb/>
+tear shone in the keen, round, glittering eye; but it was <choice><orig>fol-<lb/>lowed</orig>
+ <reg>followed<lb/></reg></choice> by the short laugh and habitual grin.</s> <s n="208">No! the ear<lb/>
+that <ref target="UTC20.R208a">has</ref> never heard anything but abuse is strangely <choice><orig>incred-<lb/>ulous</orig>
+ <reg>incredulous<lb/></reg></choice> of anything so heavenly as kindness; and Topsy only<lb/>
+thought Eva&#x2019;s speech something funny and inexplicable,&#8212;<lb/>
+she did not believe it.</s></p>
+<p n="122"><s n="209">But what was to be done with Topsy?</s> <s n="210">Miss Ophelia<lb/>
+found the case a puzzler; her rules for bringing up did&#8239;n&#x2019;t<lb/>
+seem to apply.</s> <s n="211">She thought she would take time to think<lb/>
+of it; and, by the way of gaining time, and in hopes of some<lb/>
+inde&#64257;nite moral virtues supposed to be inherent in dark<lb/>
+closets, Miss Ophelia shut Topsy up in one till she had<lb/>
+arranged her ideas further on the subject.</s></p>
+<p n="123"><s n="212">&#8220;I don&#x2019;t see,&#8221; said Miss Ophelia to St. Clare, &#8220;how I&#8239;&#x2019;m<lb/>
+going to manage that child, without whipping her.&#8221;</s></p>
+<p n="124"><s n="213">&#8220;Well, whip her, then, to your heart&#x2019;s content; I&#8239;&#x2019;ll give<lb/>
+ you full power to do what you like.&#8221;</s></p>
+<p n="125"><s n="214">&#8220;Children always have to be whipped,&#8221; said Miss Ophelia;<lb/>
+&#8220;I never heard of bringing them up without.&#8221;</s></p>
+<p n="126"><s n="215">&#8220;O, well, certainly,&#8221; said St. Clare; &#8220;do as you think<lb/>
+
+ <pb facs="_v2_0058" n="45"/>
+best.</s> <s n="216">Only I&#8239;&#x2019;ll make one suggestion: I&#8239;&#x2019;ve seen this child<lb/>
+whipped with a poker, knocked down with the shovel or<lb/>
+tongs, whichever came handiest, &amp;c.; and, seeing that she is<lb/>
+used to that style of operation, I think your whippings will<lb/>
+have to be pretty energetic, to make much impression.&#8221;</s></p>
+<p n="127"><s n="217">&#8220;What is to be done with her, then?&#8221; said Miss Ophelia.</s></p>
+<p n="128"><s n="218">&#8220;You have started a serious question,&#8221; said St. Clare;<lb/>
+&#8220;I wish you&#8239;&#x2019;d answer it.</s> <s n="219">What is to be done with a human<lb/>
+being that can be governed only by the lash,&#8212;<hi rend="italic">that</hi> fails,&#8212;<lb/>
+it&#160;&#x2019;s a very common state of things down here!&#8221;</s></p>
+<p n="129"><s n="220">&#8220;I&#8239;&#x2019;m sure I don&#x2019;t know; I never saw such a child as<lb/>
+this.&#8221;</s></p>
+<p n="130"><s n="221">&#8220;Such children are very common among us, and such<lb/>
+men and women, too.</s> <s n="222">How are they to be governed?&#8221; said<lb/>
+St. Clare.</s></p>
+<p n="131"><s n="223">&#8220;I&#8239;&#x2019;m sure it&#8239;&#x2019;s more than I can say,&#8221; said Miss Ophelia.</s></p>
+<p n="132"><s n="224">&#8220;Or I either,&#8221; said St. Clare.</s> <s n="225">&#8220;The horrid cruelties and<lb/>
+outrages that once <ref target="UTC20.S224a">and</ref> a while &#64257;nd their way into the papers,<lb/>
+&#8212;such cases as Prue&#x2019;s, for example,&#8212;what do they come<lb/>
+from?</s> <s n="226">In many cases, it is a gradual hardening process on<lb/>
+both sides,&#8212;the owner growing more and more cruel, as the<lb/>
+servant more and more callous.</s> <s n="227">Whipping and abuse are like<lb/>
+laudanum; you have to double the dose as the sensibilities<lb/>
+decline.</s> <s n="228">I saw this very early when I became an owner; and<lb/>
+ I resolved never to begin, because I did not know when I<lb/>
+should stop,&#8212;and I resolved, at least, to protect my own<lb/>
+moral nature.</s> <s n="229">The consequence is, that my servants act like<lb/>
+spoiled children; but I think that better than for us both to<lb/>
+be brutalized together.</s> <s n="230">You have talked a great deal about<lb/>
+our responsibilities in educating, <ref target="UTC20.S230a">Cousin.</ref></s> <s n="231">I really wanted you<lb/>
+to <hi rend="italic">try</hi> with one child, who is a specimen of thousands among<lb/>
+us.&#8221;</s></p>
+<pb facs="_v2_0059" n="46"/>
+<p n="133"><s n="232">&#8220;It is your system makes such children,&#8221; said Miss<lb/>
+Ophelia.</s></p>
+<p n="134"><s n="233">&#8220;I know it; but they are <hi rend="italic">made</hi>,&#8212;they exist,&#8212;and what<lb/>
+<hi rend="italic">is</hi> to be done with them?&#8221;</s></p>
+<p n="135"><s n="234">&#8220;Well, I can&#x2019;t say I thank you for the experiment.</s> <s n="235">But,<lb/>
+then, as it appears to be a duty, I shall persevere and try, and<lb/>
+do the best I can,&#8221; said Miss Ophelia; and Miss Ophelia,<lb/>
+after this, did labor, with a commendable degree of zeal and<lb/>
+energy, on her new subject.</s> <s n="236">She instituted regular hours<lb/>
+and employments for her, and undertook to teach her to read<lb/>
+and to sew.</s></p>
+<p n="136"><s n="237">In the former <ref target="UTC20.R237a">art,</ref> the child was quick enough.</s> <s n="238">She<lb/>
+learned her letters as if by magic, and was very soon able<lb/>
+to read plain reading; but the sewing was a more di&#64259;cult<lb/>
+matter.</s> <s n="239">The creature was as lithe as a cat, and as active as<lb/>
+a monkey, and the con&#64257;nement of sewing was her <choice><orig>abomina-<lb/>tion;</orig>
+ <reg>abomination;<lb/></reg></choice> so she broke her needles, threw them slyly out of<lb/>
+windows, or down in chinks of the walls; she tangled, broke,<lb/>
+and dirtied her thread, or, with a sly movement, would<lb/>
+throw a spool away altogether.</s> <s n="240">Her motions were almost<lb/>
+as quick as those of a practised conjurer, and her command<lb/>
+of her face quite as great; and though Miss Ophelia could<lb/>
+not help feeling that so many accidents could not possibly<lb/>
+happen in succession, yet she could not, without a <choice><orig>watchful-<lb/>ness</orig>
+ <reg>watchfulness<lb/></reg></choice> which would leave her no time for anything else, detect<lb/>
+her.</s></p>
+<p n="137"><s n="241">Topsy was soon a noted character in the establishment.</s><lb/>
+<s n="242">Her talent for every species of drollery, grimace, and <choice><orig>mim-<lb/>icry,</orig>
+ <reg>mimicry,<lb/></reg></choice>&#8212;for dancing, tumbling, climbing, singing, whistling,<lb/>
+imitating every sound that hit her fancy,&#8212;seemed <choice><orig>inexhausti-<lb/>ble.</orig>
+ <reg>inexhaustible.<lb/></reg></choice></s> <s n="243">In her play-hours, she invariably had every child in the<lb/>
+establishment at her heels, open-mouthed with admiration<lb/>
+<pb facs="_v2_0060" n="47"/>
+and wonder,&#8212;not excepting Miss Eva, who appeared to be<lb/>
+fascinated by her wild diablerie, as a dove is sometimes<lb/>
+charmed by a glittering serpent.</s> <s n="244">Miss Ophelia was uneasy<lb/>
+that Eva should fancy Topsy&#x2019;s society so much, and implored<lb/>
+St. Clare to forbid it.</s></p>
+<p n="138"><s n="245">&#8220;Poh! let the child alone,&#8221; said St. Clare.</s> <s n="246">&#8220;Topsy will<lb/>
+do her good.&#8221;</s></p>
+<p n="139"><s n="247">&#8220;But so depraved a child,&#8212;are you not afraid she will<lb/>
+teach her some mischief?&#8221;</s></p>
+<p n="140"><s n="248">&#8220;She can&#x2019;t teach her mischief; she might teach it to some<lb/>
+children, but evil rolls o&#64256; Eva&#x2019;s mind like dew o&#64256; a <choice><orig>cabbage-<lb/>leaf,</orig>
+ <reg>cabbage-leaf,<lb/></reg></choice>&#8212;not a drop sinks in.&#8221;</s></p>
+<p n="141"><s n="249">&#8220;Don&#x2019;t be too sure,&#8221; said Miss Ophelia.</s> <s n="250">&#8220;I know I&#8239;&#x2019;d<lb/>
+never let a child of mine play with Topsy.&#8221;</s></p>
+<p n="142"><s n="251">&#8220;Well, your children need&#8239;n&#x2019;t,&#8221; said St. Clare, &#8220;but mine<lb/>
+may; if Eva could have been spoiled, it would have been<lb/>
+done years ago.&#8221;</s></p>
+<p n="143"><s n="252">Topsy was at &#64257;rst despised and contemned by the upper<lb/>
+servants.</s> <s n="253">They soon found reason to alter their opinion.</s> <s n="254">It<lb/>
+was very soon discovered that whoever cast an indignity on<lb/>
+Topsy was sure to meet with some inconvenient accident<lb/>
+shortly after;&#8212;either a pair of ear-rings or some cherished<lb/>
+trinket would be missing, or an article of dress would be <choice><orig>sud-<lb/>denly</orig>
+ <reg>suddenly<lb/></reg></choice> found utterly ruined, or the person would stumble<lb/>
+accidentally into a pail of hot water, or a libation of dirty slop<lb/>
+would unaccountably deluge them from above when in full gala<lb/>
+dress;&#8212;and on all these occasions, when investigation was<lb/>
+made, there was nobody found to stand sponsor for the<lb/>
+indignity.</s> <s n="255">Topsy was cited, and had up before all the <choice><orig>domes-<lb/>tic</orig>
+ <reg>domestic<lb/></reg></choice> judicatories, time and again; but always sustained her<lb/>
+examinations with most edifying innocence and gravity of<lb/>
+appearance.</s> <s n="256">Nobody in the world ever doubted who did the<lb/>
+
+ <pb facs="_v2_0061" n="48"/>
+things; but not a scrap of any direct evidence could be found<lb/>
+to establish the suppositions, and Miss Ophelia was too just to<lb/>
+feel at liberty to proceed to any lengths without it.</s></p>
+<p n="144"><s n="257">The mischiefs done were always so nicely timed, also,<lb/>
+as further to shelter the aggressor.</s> <s n="258">Thus, the times for<lb/>
+revenge on Rosa and Jane, the two chamber-maids, were<lb/>
+always chosen in those seasons when (as not unfrequently<lb/>
+happened) they were in disgrace with their mistress, when<lb/>
+any complaint from them would of course meet with no <choice><orig>sym-<lb/>pathy.</orig>
+ <reg>sympathy.<lb/></reg></choice></s> <s n="259">In short, Topsy soon made the household <choice><orig>under-<lb/>stand</orig>
+ <reg>understand<lb/></reg></choice> the propriety of letting her alone; and she was let alone,<lb/>
+accordingly.</s></p>
+<p n="145"><s n="260">Topsy was smart and energetic in all manual operations,<lb/>
+learning everything that was taught her with surprising<lb/>
+quickness.</s> <s n="261">With a few lessons, she had learned to do the<lb/>
+proprieties of Miss Ophelia&#x2019;s chamber in a way with which<lb/>
+even that particular lady could &#64257;nd no fault.</s> <s n="262">Mortal hands<lb/>
+could not lay spread smoother, adjust pillows more accurately,<lb/>
+sweep and dust and arrange more perfectly, than Topsy, when<lb/>
+she chose,&#8212;but she did&#8239;n&#x2019;t very often choose.</s> <s n="263">If Miss Ophelia,<lb/>
+after three or four days of careful and patient supervision, was<lb/>
+so sanguine as to suppose that Topsy had at last fallen into<lb/>
+her way, could do without overlooking, and so go o&#64256; and busy<lb/>
+herself about something else, Topsy would hold a perfect <choice><orig>car-<lb/>nival</orig>
+ <reg>carnival<lb/></reg></choice> of confusion, for some one or two hours.</s> <s n="264">Instead of<lb/>
+making the bed, she would amuse herself with pulling o&#64256; the<lb/>
+<ref target="UTC20.R264a">pillow-cases, butting</ref> her woolly head among the pillows, till<lb/>
+it would sometimes be grotesquely ornamented with feathers<lb/>
+sticking out in various directions; she would climb the posts,<lb/>
+and hang head downward from the tops; &#64258;ourish the sheets<lb/>
+and spreads all over the apartment; dress the bolster up in<lb/>
+  Miss Ophelia&#x2019;s night-clothes, and enact various scenic <choice><orig>per-<lb/>formances</orig>
+ <reg>performances</reg></choice>
+
+<pb facs="_v2_0062" n="49"/>
+with that,&#8212;singing and whistling, and making<lb/>
+grimaces at herself in the looking-glass; in short, as Miss<lb/>
+Ophelia phrased it, &#8220;raising Cain&#8221; generally.</s></p>
+<p n="146"><s n="265">On one occasion, Miss Ophelia found Topsy with her very<lb/>
+best scarlet India Canton crape shawl wound round her head<lb/>
+for a turban, going on with her rehearsals before the glass in<lb/>
+great style,&#8212;Miss Ophelia having, with carelessness most<lb/>
+unheard-of in her, left the key for once in her drawer.</s></p>
+<p n="147"><s n="266">&#8220;Topsy!&#8221; she would say, when at the end of all patience,<lb/>
+&#8220;what does make you act so?&#8221;</s></p>
+<p n="148"><s n="267"><ref target="UTC20.S267a">&#8220;Dunno, Missis,&#8212;I spects cause</ref> I&#8239;&#x2019;s so wicked!&#8221;</s></p>
+<p n="149"><s n="268">&#8220;I don&#x2019;t know anything what I shall do with you, Topsy.&#8221;</s></p>
+<p n="150"><s n="269">&#8220;Law, <ref target="UTC20.S269a">Missis,</ref> you must whip me; my old <ref target="UTC20.S269a1">Missis</ref> allers<lb/>
+whipped me.</s> <s n="270">I <ref target="UTC20.S270a">an&#x2019;t</ref> used to <ref target="UTC20.S270a1">workin&#x2019;</ref> unless I gets whipped.&#8221;</s></p>
+<p n="151"><s n="271">&#8220;Why, Topsy, I don&#x2019;t want to whip you.</s> <s n="272">You can do<lb/>
+well, if you&#8239;&#x2019;ve a mind to; what is the reason you won&#x2019;t?&#8221;</s></p>
+<p n="152"><s n="273">&#8220;Laws, <ref target="UTC20.S273a">Missis,</ref> I&#8239;&#x2019;s used to whippin&#x2019;; I spects it&#8239;&#x2019;s good<lb/>
+for me.&#8221;</s></p>
+<p n="153"><s n="274">Miss Ophelia tried the recipe, and Topsy invariably made<lb/>
+a terrible commotion, screaming, groaning and imploring,<lb/>
+though half an hour afterwards, when roosted on some <choice><orig>projec-<lb/>tion</orig>
+ <reg>projection<lb/></reg></choice> of the balcony, and surrounded by a &#64258;ock of admiring<lb/>
+&#8220;young uns,&#8221; she would express the utmost contempt of the<lb/>
+whole a&#64256;air.</s></p>
+<p n="154"><s n="275"><ref target="UTC20.S275a">&#8220;Law,</ref> Miss Feely whip!&#8212;would&#8239;n&#x2019;t kill a skeeter, her<lb/>
+whippins.</s> <s n="276">Oughter see how old Mas&#x2019;r made the &#64258;esh &#64258;y;<lb/>
+old Mas&#x2019;r know&#x2019;d how!&#8221;</s></p>
+<p n="155"><s n="277">Topsy always made great capital of her own sins and <choice><orig>enor-<lb/>mities,</orig>
+ <reg>enormities,<lb/></reg></choice> evidently considering them as something peculiarly<lb/>
+distinguishing.</s></p>
+<p n="156"><s n="278"><ref target="UTC20.S278a">&#8220;Law,</ref> you niggers,&#8221; she would say to some of her auditors,<lb/>
+&#8220;does you know you&#8239;&#x2019;s all sinners?</s> <s n="279">Well, you <choice><orig>is&#8212;every-<lb/>body</orig>
+ <reg>is&#8212;everybody<lb/></reg></choice>
+ <fw type="sig">&#8193;<hi rend="small caps">vol. ii.</hi>&#8193; 5</fw>
+
+<pb facs="_v2_0063" n="50"/>
+is.</s> <s n="280">White folks is sinners too,&#8212;Miss Feely says so; but<lb/>
+ I spects niggers is the biggest ones;</s><s n="281"> but <ref target="UTC20.S280a">lor! ye an&#x2019;t</ref> any on ye<lb/>
+up to me.</s> <s n="282">I&#8239;&#x2019;s so awful wicked there can&#x2019;t nobody do <ref target="UTC20.S282a">nothin&#x2019;</ref><lb/>
+with me.</s> <s n="283">I used to keep old <ref target="UTC20.S283a">Missis</ref> a <ref target="UTC20.S283a1">swarin&#x2019;</ref> at me half <ref target="UTC20.S283a2">de</ref><lb/>
+time.</s> <s n="284">I spects I&#8239;&#x2019;s the wickedest <ref target="UTC20.S284a">critter</ref> in the world;&#8221; and<lb/>
+Topsy would cut a summerset, and come up brisk and shining<lb/>
+ on to a higher perch, and evidently plume herself on the <choice><orig>dis-<lb/>tinction.</orig>
+ <reg>distinction.</reg></choice></s></p>
+  <p n="157"><ref target="UTC20.R285"><note resp="editor">Three paragraphs added in the &#8220;Million&#8221; edition.</note></ref></p>
+  <p n="160"><s n="289">Miss Ophelia busied herself very earnestly on Sundays,<lb/>
+teaching Topsy the catechism.</s> <s n="290">Topsy had an uncommon<lb/>
+verbal memory, and committed with a &#64258;uency that greatly<lb/>
+encouraged her instructress.</s></p>
+<p n="161"><s n="291">&#8220;What good do you expect it is going to do her?&#8221; said<lb/>
+St. Clare.</s></p>
+<p n="162"><s n="292">&#8220;Why, it always has done children good.</s> <s n="293">It&#8239;&#x2019;s what<lb/>
+children always have to learn, you know,&#8221; said Miss Ophelia.</s></p>
+<p n="163"><s n="294">&#8220;Understand it or not,&#8221; said St. Clare.</s></p>
+<p n="164"><s n="295">&#8220;O, children never understand it at the time; but, after<lb/>
+they are grown up, it&#8239;&#x2019;ll come to them.&#8221;</s></p>
+<p n="165"><s n="296">&#8220;Mine has&#8239;n&#x2019;t come to me yet,&#8221; said St. Clare, &#8220;though<lb/>
+I&#8239;&#x2019;ll bear testimony that you put it into me pretty thoroughly<lb/>
+when I was a boy.&#8221;</s></p>
+  <p n="166"><s n="297">&#8220;Ah, you were always good at learning, Augustine.</s> <s n="298">I<lb/>
+used to have great hopes of you,&#8221; said Miss Ophelia.</s></p>
+<p n="167"><s n="299">&#8220;Well, have&#8239;n&#x2019;t you now?&#8221; said St. Clare.</s></p>
+<p n="168"><s n="300">&#8220;I wish you were as good as you were when you were a<lb/>
+boy, Augustine.&#8221;</s></p>
+<p n="169"><s n="301">&#8220;So do I, that&#8202;&#x2019;s a fact, <ref target="UTC20.S301a">Cousin,&#8221;</ref> said St. Clare.</s> <s n="302">&#8220;Well,<lb/>
+go ahead and catechize Topsy; may be you&#8239;&#x2019;ll make out<lb/>
+something yet.&#8221;</s></p>
+<p n="170"><s n="303">Topsy, who had stood like a black statue during this <choice><orig>dis-<lb/>cussion, </orig>
+<reg>discussion, </reg></choice>
+
+<pb facs="_v2_0064" n="51"/>
+<ref target="UTC20.S303a">with hands</ref> decently folded, now, at a signal from<lb/>
+Miss Ophelia, went on:</s></p>
+<p n="171"><s n="304">&#8220;Our &#64257;rst parents, being left to the freedom of their own<lb/>
+will, fell from the state wherein they were created.&#8221;</s></p>
+<p n="172"><s n="305">Topsy&#x2019;s eyes twinkled, and she looked inquiringly.</s></p>
+<p n="173"><s n="306">&#8220;What is it, Topsy?&#8221; said Miss Ophelia.</s></p>
+<p n="174"><s n="307">&#8220;Please, <ref target="UTC20.S307a">Missis,</ref> was dat ar <ref target="UTC20.S307a1">state</ref> Kintuck?&#8221;</s></p>
+<p n="175"><s n="308">&#8220;What <ref target="UTC20.S308a">state,</ref> Topsy?&#8221;</s></p>
+<p n="176"><s n="309">&#8220;Dat state dey fell out of.</s> <s n="310">I used to hear <ref target="UTC20.S309a">Mas&#x2019;r</ref> tell how<lb/>
+we came down from Kintuck.&#8221;</s></p>
+<p n="177"><s n="311">St. Clare laughed.</s></p>
+<p n="178"><s n="312">&#8220;You&#8239;&#x2019;ll have to give her a meaning, or she&#8239;&#x2019;ll make one,&#8221;<lb/>
+said he.</s> <s n="313">&#8220;There seems to be a theory of emigration <choice><orig>sug-<lb/>gested</orig>
+ <reg>suggested<lb/></reg></choice> there.&#8221;</s></p>
+<p n="179"><s n="314">&#8220;O! Augustine, be still,&#8221; said Miss Ophelia; &#8220;how can<lb/>
+I do anything, if you will be laughing?&#8221;</s></p>
+<p n="180"><s n="315">&#8220;Well, I won&#x2019;t disturb the exercises again, on my honor;&#8221;<lb/>
+and St. Clare took his paper into the parlor, and sat down,<lb/>
+till Topsy had &#64257;nished her recitations.</s> <s n="316">They were all very<lb/>
+well, only that now and then she would oddly transpose some<lb/>
+important words, and persist in the mistake, in spite of every<lb/>
+e&#64256;ort to the contrary; and St. Clare, after all his promises<lb/>
+of goodness, took a wicked pleasure in these mistakes, calling<lb/>
+Topsy to him whenever he had a mind to amuse himself, and<lb/>
+getting her to repeat the o&#64256;ending passages, in spite of Miss<lb/>
+Ophelia&#x2019;s remonstrances.</s></p>
+<p n="181"><s n="317">&#8220;How do you think I can do anything with the child, if<lb/>
+you will go on so, Augustine?&#8221; she would say.</s></p>
+<p n="182"><s n="318">&#8220;Well, it is too bad,&#8212;I won&#x2019;t again; but I do like to hear<lb/>
+the droll little image stumble over those big words!&#8221;</s></p>
+<p n="183"><s n="319">&#8220;But you con&#64257;rm her in the wrong way.&#8221;</s></p>
+<pb facs="_v2_0065" n="52"/>
+<p n="184"><s n="320">&#8220;What&#8239;&#x2019;s the odds?</s> <s n="321">One word is as good as another to<lb/>
+her.&#8221;</s></p>
+<p n="185"><s n="322">&#8220;You wanted me to bring her up right; and you ought to<lb/>
+remember she is a reasonable creature, and be careful of your<lb/>
+in&#64258;uence over her.&#8221;</s></p>
+<p n="186"><s n="323">&#8220;O, dismal!</s> <s n="324">so I ought; but, as Topsy herself says, &#8216;I&#8239;&#x2019;s<lb/>
+so wicked!&#8217;&#8202;&#8221;</s></p>
+<p n="187"><s n="325">In very much this way Topsy&#x2019;s training proceeded, for a<lb/>
+year or two,&#8212;Miss Ophelia worrying herself, from day to<lb/>
+day, with her, as a kind of chronic plague, to whose in&#64258;ictions<lb/>
+she became, in time, as accustomed, as persons sometimes do<lb/>
+to the neuralgia or sick head-ache.</s></p>
+<p n="188"><s n="326">St. Clare took the same kind of amusement in the child<lb/>
+that a man might in the tricks of a parrot or a pointer.</s><lb/>
+<s n="327">Topsy, whenever her sins brought her into disgrace in other<lb/>
+quarters, always took refuge behind his chair; and St. Clare,<lb/>
+in one way or other, would make peace for her.</s> <s n="328">From him<lb/>
+she got many a stray picayune, which she laid out in nuts and<lb/>
+candies, and distributed, with careless generosity, to all the<lb/>
+children in the family; for Topsy, to do her justice, was<lb/>
+good-natured and liberal, and only spiteful in self-defence.</s><lb/>
+<s n="329">She is fairly introduced into our <hi rend="italic">corps de ballet</hi>, and will<lb/>
+&#64257;gure, from time to time, in her turn, with other performers.</s></p>
+</div1>
+ </body>
+ </text>
+</TEI>

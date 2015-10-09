@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640227.1a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">To the Colored Men of the United States</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640227.1a</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#sg">Mrs. Sarah Gomes</author>
+                        <title level="a">To the Colored Men of the United States</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-27">27 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="sg">Gomes, Sarah</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African-American soldiers</term>
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+<change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+<change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640227.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18640227.pp1a_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640227.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640227.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640227.pp4.jpg"/>            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>
+            <lg type="poem">
+                <note type="newspaper-editorial" rend="center">FOR THE <choice><sic>ANGLO AFRICAN</sic><corr>ANGLO-AFRICAN</corr></choice>.</note>
+                                
+                <head type="main" subtype="authorial" rend="center">TO THE COLORED MEN OF THE UNITED STATES.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY <choice><sic>MRS</sic><corr>MRS.</corr></choice> SARAH GOMES.<note type="editorial" resp="#bw #el">Unidentified.</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Awake</emph>! ye sons of Africa,</l>
+                    <l rend="indented1">Your morn of triumph's dawned;</l>
+                    <l>You are called upon to bravely fight,</l>
+                    <l rend="indented1">With the noble and the strong.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Awake! though at the eleventh hour,</l>
+                    <l rend="indented1">You are recognized as men;<note type="editorial" resp="#bw #el">The War Department's decision to enlist African American men was interpreted by activists and reformers as an official acknowledgment&#8212;albeit implicit and begrudging&#8212;of black manhood. This undermined legal definitions that categorized slaves as less than men, and the popular assumption that African Americans lacked the necessary qualities to serve as soldiers.</note></l>
+                    <l>Yet shrink not from the glorious cause,</l>
+                    <l rend="indented1">But fight your rights to win.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Awake! and let all nations see</l>
+                    <l rend="indented1">How Afric's noble blood,</l>
+                    <l>That has been spilt by scourge and whip,</l>
+                    <l rend="indented1">The battle-field can flood.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Awake! march on as martyrs true,</l>
+                    <l rend="indented1">And let your watchword be:</l>
+                    <l>We fight and die, as Toussaint<note type="editorial" resp="#bw #el"><p>Toussaint Louverture  (ca.1743&#8211;1803), leader of the Haitian Revolution. Born into slavery in Saint-Domingue, Louverture obtained his freedom fifteen years before the French colony's slave population revolted against their former masters and the colonial governments of France, England, and Spain (Madison Smart Bell, <title level="m">Toussaint Louverture: A Biography</title> [New York: Pantheon Books, 2007], 75). Louverture joined the revolution in 1791, after early rebel success. He emerged as a skilled and charismatic commander committed to the abolition of slavery. As governor general of Saint-Domingue, he invaded Spanish Santo Domingo "in the name of France" and became "the de facto ruler of the entire island" of Hispaniola (Bell, 266). In this capacity, he issued the 1801 Constitution. Napoleon Bonaparte sent an army to reassert his authority and reinstate slavery; after peace negotiations brought fighting to an end, the French broke their pledge of amnesty and arrested Louverture. He died in prison in 1803. His comrade Jean-Jacques Dessalines proclaimed the independence of the Republic of Haiti on January 1, 1804.</p><p>"Tribute: To the Massachusetts 54th" positions the Haitian leader as a battlefield example. The poem comprises a contribution to the larger pattern described by Matthew Clavin: "In public orations and printed texts, African Americans and their white allies insisted that the Civil War was a second Haitian Revolution, a bloody conflict in which tens of thousands of armed bondmen, 'American Toussaints,' would redeem the republic by securing the abolition of slavery and proving the equality of the black race" (Matthew J. Clavin, <title level="j">Toussaint Louverture and the American Civil War: The Promise and Peril of a Second Haitian Revolution</title> [Philadelphia: University of Pennsylvania Press, 2010], 5).</p></note> did,</l>
+                    <l rend="indented1">For the cause of Liberty.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Awake! and join the noble ones,</l>
+                    <l rend="indented1">Who've showed to the world at large</l>
+                    <l>How brave and true our colored race,</l>
+                    <l rend="indented1">Can stand a fiery charge.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Awake! and when you've fought and died,</l>
+                    <l rend="indented1">To gain your rights as men;</l>
+                    <l>You'll join the angel host on high,</l>
+                    <l rend="indented1">And be crowned with glory then.</l>
+                </lg>
+                
+            </lg>
+            <dateline>Waterbury, Conn., Jan. 16, 1864.<note type="editorial" resp="#bw #el">While author Sarah Gomes addressed her words to a national collective, she might have be inspired by events in Connecticut. On November 23, 1863, Governor Buckingham called for African American recruits for the state's newly formed Twenty-Ninth Regiment. The Twenty-Ninth was declared full on January 12; another call was issued for men to enlist in the Thirtieth Regiment (W. A. Crofftus and John M. Morris, <title level="m">The Military and Civil History of Connecticut During the War of 1861&#8212;65</title> [New York: Bill, 1868], 461). Acting <title level="j">Anglo-African</title> editor Thomas Hamilton served as a recruiting agent for the Twenty-Ninth Regiment during the fall of 1863; less than a fortnight before the regiment was mustered into service, Gomes's "To the Colored Men of the United States" appeared in the <title level="j">Anglo-African</title>.</note></dateline>
+        </body>
+    </text>
+</TEI>
+

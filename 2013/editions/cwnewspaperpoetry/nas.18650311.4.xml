@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18650311.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Amputated</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18650311.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address><addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#sec">S. E. Carmichael</author>
+                        <title level="a">Amputated</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1865-03-11">11 March 1865</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="sec">Carmichael, Sarah E.</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1865">1865</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>United States--History--Civil War, 1861-1865--Military life</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-16" who="#el">checked transcription and encoding; added and encoded editorial notes</change>
+            <change when="2012-08-26" who="#el">checked basic encoding</change>
+            <change when="2012-07-25" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>             
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18650311.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18650311.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18650311.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18650311.pp4.jpg"/>   
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18650311.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANTI-SLAVERY STANDARD.</note>
+                
+                <head type="main" subtype="authorial" rend="center">AMPUTATED.</head>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Good by</emph>, right arm!<note type="editorial" resp="#bw #el">Amputation was the most common operation carried out during the war. Historian Megan Nelson estimates that 40,000 Union soldiers and 20,000 Confederate soldiers had limbs amputated during the war (<title level="m">Ruin Nation: Destruction and the American Civil War</title> [Athens: University of Georgia Press, 2012], 176). As empty sleeves and crutches became common sights in and beyond Richmond and Washington, DC, civilians and soldiers sought to define lost limbs as symbols of the war amputees' masculinity and patriotism. Carmichael's "Amputated" comprises one such attempt to stabilize the meaning of the transformed soldier body. Despite the patriotic symbolism that came to be popularly associated with amputation, however, "concerns about the masculinity of war amputees persisted" (Nelson, 199). In seeking to fix the meaning of a lost limb, "Amputated" also gestures toward the very anxieties that necessitated such acts of definition.</note> 'tis hard to part</l>
+                    <l rend="indented1">With one so true and tried,</l>
+                    <l>And that so long hath served my heart,</l>
+                    <l rend="indented1">And waited at my side.</l>
+                    <l>Thy work is done, thy pain is o'er;</l>
+                    <l rend="indented1">When tear-drops dim my eye,</l>
+                    <l>Thy hand will dash them forth no more&#8212;</l>
+                    <l rend="indented1">Good by, right arm! good by.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Good by, right arm! on many a field</l>
+                    <l rend="indented1">Thy strength has served me well,</l>
+                    <l>And thou hast been my bosom's shield</l>
+                    <l rend="indented1">Where blows like rain-drops fell;</l>
+                    <l>But never more in honor's strife</l>
+                    <l rend="indented1">Thou wilt be lifted high,</l>
+                    <l>Thy last blow saved this heart its life&#8212;</l>
+                    <l rend="indented1">Good by, right arm! good by.</l>
+                </lg>
+        
+        
+                <lg type="stanza">
+                    <l>Good by, right arm! no more thou'lt start</l>
+                    <l rend="indented1">Eager to greet my friend,</l>
+                    <l>Yet this poor one that's near my heart</l>
+                    <l rend="indented1">No colder clasp will lend.</l>
+                    <l>And, should my country ever need</l>
+                    <l rend="indented1">A guard so maimed as I,</l>
+                    <l>It would be just as proud to bleed&#8212;<note type="editorial" resp="#bw #el"><p>Soldier expressions of pride in the loss of a limb marked amputation as patriot sacrifice. Considering left-handed penmanship contests for soldiers in 1866 and 1867, historian Frances Clarke argues that "the Civil War took place within, and helped to create, a context of meaning that enabled many [Northern amputees] to consider their injuries as unambiguously 'honorable scars'" ("'Honorable Scars': Northern Amputees and the Meaning of Civil War Injuries," in <title level="m">Union Soldiers on the Northern Home Front: Wartime Experiences, Postwar Adjustments</title> [New York: Fordham University Press, 2002],  363).</p><p>Carmichael's soldier-speaker not only defines his newly amputated arm as a patriot's sacrifice, he also confirms his dedication to cause and country by pledging to give still more of his flesh and blood, if it be required. Yet he also addresses the injured limb as a beloved friend with whom he must part forever; mourning and regret inflect the discourse of sacrifice. The soldier in Carmichael's poem depicts what Clarke has described as a common motif of wartime culture, wherein amputees "conceptualized loss [of a limb] in terms of a sentimental death scene" (391). Writers also parodied this convention, with pieces like "L-E-G on my LEG" (attributed to a "German volunteer" in <title level="j">Harper's Weekly</title> of September 26, 1863).</p></note></l>
+                    <l rend="indented1">Good by, right arm! good by.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Good by, right arm! I should not grieve,</l>
+                    <l rend="indented1">For thou hast done thy part,</l>
+                    <l>And yet I scarce can bear to leave</l>
+                    <l rend="indented1">Thee, senseless as thou art.</l>
+                    <l>My poor scarr'd hand, I hold thee near</l>
+                    <l rend="indented1">To lips that trembling sigh,</l>
+                    <l>And gem thee once more with a tear&#8212;</l>
+                    <l rend="indented1">Good by, right arm! Good by.</l>
+                </lg>
+            </lg>            
+            
+            <byline rend="right"><emph rend="smallcaps">S. E. Carmichael.</emph><note type="editorial" resp="#bw #el">Sarah Elizabeth Carmichael (1838&#8211;1901). Born in Long Island, Carmichael moved west with her parents at a young age; they "joined the Latter-day Saints at Nauvoo" in the fall of 1842 and eventually settled in Salt Lake City, Utah, in 1850 (Miriam B. Murphy, "Sarah Elizabeth Carmichael: Poetic Genius of Pioneer Utah," in <title level="m">Worth Their Salt: Notable but Often Unnoted Women of Utah</title>, ed. Colleen Whitley [Logan: Utah State University Press, 1996], 62). Her poetry started to appear in the <title level="j">Deseret News</title> in 1858. Toward the end of the war, she  contributed regularly to the <title level="j">National Anti-Slavery Standard.</title> Her friends secured her permission to publish a slim volume of her verse, <title level="m">Poems</title>, in 1866 "for private circulation" (title page, <title level="m">Poems</title> [San Francisco: Towne, 1866]). <title level="m">Poems</title> includes "Amputated" and several other war pieces. She married army surgeon Jonathan M. Williamson in November 1866. According to Nina Baym, Carmichael "apparently had a nervous breakdown in 1867 and stopped publishing" (Baym, <title level="m">Women Writers of the American West, 1833&#8211;1927</title> [Urbana: University of Illinois Press, 2012], 270).</note></byline>
+        
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+

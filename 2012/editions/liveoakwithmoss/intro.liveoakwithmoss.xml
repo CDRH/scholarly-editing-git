@@ -1,0 +1,2586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">The Inscription of Walt Whitman's "Live Oak, with Moss"
+                    Sequence</title>
+                <title level="m" type="sub">A Restorative Edition</title>
+                <author>Steven Olsen-Smith</author>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="sos">Steven Olsen-Smith</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">intro.liveoakwithmoss</idno>
+                <idno type="edition">liveoakwithmoss</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanada Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+<change when="2014-03-14" who="#sos">In the opening four paragraphs, altered references to Hershel Parker's editing  
+of "Live Oak, with Moss" so as to make clear his was an edition based on the manuscript, not a reprint of Bowers's 
+edition; added content to note 1 documenting that change; added new note 8 and adjusted later note numbers; relocated 
+content from origingal note 13 (now 14) to the new note; updated external link in note 26; corrected typographical errors.</change>
+<change when="2012-07-21" who="#sos">Supplied terminal period to content in cell 3, row 2, of Table 2. Added class 1 revision "11.3 &#8212;and" to cell 1, row 14, of Table 2. Corrected typographical error "transcendantal" in section on interpretive significance.</change>
+<change when="2012-02-21" who="#sos">Altered wording in note 18</change>
+<change when="2012-02-15" who="#sos">Removed hard returns in selected figure references to improve web display and made additions to section on interpretive significance</change>
+<change when="2012-02-13" who="#sos">Made an adjustment to Table 2 and additions to section on interpretive significance</change>
+<change when="2012-02-06" who="#sos">Added content to section on interpretive significance</change>
+<change when="2012-01-31" who="#sos">Supplied headings to tables</change>
+<change when="2012-01-30" who="#sos">Added section divisions with headings and adjusted table encoding</change>
+<change when="2012-01-22" who="#sos">Supplied figure reference codes to tables with assistance from Jessica Ewing</change>
+<change when="2012-01-16" who="#awj">Fixed the name of an attribute on "graphic" element</change>
+<change when="2012-01-11" who="#sos">Added remaining url's, corrected a table, and made modest changes to wording</change>            
+<change when="2012-01-09" who="#awj">Made minor revision to encoding of "Acknowledgments"</change>
+<change when="2012-01-09" who="#sos">Completed edits based on peer review input and added/renamed illustrations</change>
+<change when="2011-09-19" who="#sos">Corrected spacing errors introduced by changes performed on 2011-09-18, and removed italics from "Live Oak" title references</change>
+<change when="2011-09-18" who="#sos">Altered wording in some portions of the main text and selected notes, and added one note</change>
+<change when="2011-09-13" who="awj">Altered the encoding as follows:  
+1. Added a ref element around figures
+2. Altered the attribute and value of the graphic element within the figures to use the attribute "facs" and point to an image file in a way that is consistent with the rest of the site.</change>
+            <change when="2011-09-06" who="#sos">Corrected typographical and spacing errors</change>
+            <change when="2011-09-01" who="#awj">made the file well-formed; altered url in two
+figures to not point to Whitman Archive directly</change>
+            <change when="2011-09-01" who="#sos">Made the following changes:
+            1.  Expanded sections on editorial history and commentary
+            2.  Supplied captions to figure references</change>
+            <change when="2011-07-28" who="#sos">Made the following changes:
+            1.  Supplied markup for figure references
+            2.  Expanded final body paragraph to clarify editorial policies
+            3.  Replaced URL referenced in note 8</change>
+            <change when="2011-05-19" who="#awj">made additional minor typographical revisions in consultation with Steven
+                Olsen-Smith</change>
+            <change when="2011-05-17" who="#awj">made minor typographical revisions in consultation with Steven
+Olsen-Smith</change>
+            <change when="2011-05-02" who="#awj">Corrected missing single and double quotation marks
+                in the notes section</change>
+            <change when="2011-04-18" who="#awj">markup in TEI XML</change>
+            <change when="2010" who="#sos">Initial Creation in MS Word</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+            <front><head type="main">The Inscription of Walt Whitman's "Live Oak, with Moss"
+                Sequence:</head>
+            <head type="sub">A Restorative Edition</head>
+<byline>Steven Olsen-Smith</byline></front>
+             <body>
+                <div>
+            <p>Walt Whitman's twelve-poem "Live Oak, with Moss" sequence, composed in the 
+                late 1850s then broken up and dispersed by the poet among thirty-three other poems 
+                for the "Calamus" cluster of the third (1860) edition of <hi rend="italic">Leaves of
+                    Grass</hi>, was first printed in 1953 by Fredson Bowers in the journal 
+                <hi rend="italic">Studies in Bibliography</hi>, and it is now available in 
+                several literature anthologies and collections of Whitman's writings.<ptr 
+                    target="#note1" xml:id="nr1" n="1" /> Apparently inspired by a failed same-sex attachment 
+                and its psychological aftermath, "Live Oak, with Moss" was neglected for forty years 
+                after Bowers reassembled the sequence from Whitman's surviving manuscripts for the 
+                1860 <hi rend="italic">Leaves</hi>. But it became the subject of critical and editorial 
+                controversy in the 1990s, when Alan Helms printed the sequence from the revised 
+                "Calamus" versions of the twelve poems and Hershel Parker edited the sequence from the manuscript, 
+                with both proponents defending their versions in the journal 
+                <hi rend="italic">Nineteenth-Century Literature</hi>.<ptr target="#note2"
+                    xml:id="nr2" n="2" /> In that exchange, Parker's argument for the manuscript version prevailed, 
+                and it has rightly served as the basis for subsequent printings&#8212;most 
+                recently Betsy Erkkila's version of the poems alongside photo-facsimile 
+                reproductions of the manuscript leaves (see note 1). Yet Erkkila's unqualified 
+                reference to the leaves as "clean and elegantly handwritten" (xii) typifies an ongoing 
+                failure by editors adequately to consider the state of the "Live Oak" manuscript. 
+                Whereas his initial inscription of this work can indeed be described as clean and elegant, Whitman's 
+                clear and present revisions to the leaves raise significant questions about the form 
+                of the sequence and his evolving intentions for its twelve poems. As I will demonstrate 
+                in this essay, Bowers's editorial focus on the final versions of the sundered manuscripts 
+                was not well suited for "Live Oak, with Moss," and the approach has resulted in the incorporation 
+                of changes that Whitman made to the poems after breaking the sequence apart. Along with 
+                detailing the transmission of the sequence in manuscript, this essay concludes with an 
+                edition of "Live Oak, with Moss" that restores the sequence to its original, integrated 
+                state. The restorative edition more accurately conveys the themes and intentions that 
+                inform "Live Oak, with Moss," and more clearly illustrates its significance in the 
+                development of Whitman's thought.</p></div>
+                 <div>
+                     <head type="small-main">The "Live Oak" Manuscript and the Flaw of Final Versions</head>
+            <p>"Live Oak, with Moss" presents a challenging situation for scholarly editing. Its twelve
+                poems were inscribed fairly by Whitman into a notebook he assembled by folding a 
+                stack of eleven paper sheets into conjugate halves and stitching them together at 
+                two points along the folds, producing 22 leaves.<ptr target="#note3" xml:id="nr3"
+                    n="3" /> As Bowers discovered in his work on the surviving manuscripts for the 1860 edition 
+                of <hi rend="italic">Leaves of Grass</hi>, the "Live Oak" notebook leaves are clearly 
+                distinguishable from other drafts of the published "Calamus" poems by their Roman numeral 
+                headings and by the contours where they were originally folded and stitched 
+                (<hi rend="italic">Whitman's Manuscripts</hi> lxv-lxvi; see <ref type="figure">figure 1<figure>
+                        <head>Figure 1: Notebook leaves 20 and 3</head>
+                        <p>Notebook leaf 3, displaying Poem II of "Live Oak, with Moss" (right), and the 
+                            verso of its conjugate half, leaf 20 (left), with their adjacent edges revealing 
+                            where the sheet was originally folded and stitched to others.</p>
+                        <figDesc>Notebook leaf 3, displaying Poem II of "Live Oak, with Moss" (right), and the 
+                            verso of its conjugate half, leaf 20 (left), with their adjacent edges revealing 
+                            where the sheet was originally folded and stitched to others.
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.17"/>
+                    </figure></ref>). 
+                Whitman inscribed the sequence on the rectos of leaves 2 through 18 of the notebook in 
+                continuous fashion, with successive poems starting where previous ones concluded. Its 
+                fair-copy notebook state represents the final form of "Live Oak, with Moss" as a stable 
+                and integrated sequence, for Whitman's decision to disassemble the notebook began a new 
+                phase of transmission in which the poems reverted to draft status and were combined with 
+                others for the formation of a larger work. He dismantled the notebook by separating its 
+                folded leaves from one another and severing these at their folds into conjugate halves. 
+                This was followed by further division of some individual halves and the pasting of those 
+                scissored portions to others so as to reconstitute poems that had originally occupied 
+                multiple notebook leaves. For example, Poem VI of the sequence ("What think you I have 
+                taken my pen to record?") originally extended from the lower section of notebook leaf 10
+                (containing lines 1-3) to the upper section of leaf 11 (containing lines 4 and 5).
+                Following dismantlement, Whitman cut leaves 10 and 11 in half and pasted their
+                respective lower and upper sections together, creating a new leaf that contained all
+                five lines (see <ref type="figure">figure 2<figure>
+ 			<head>Figure 2: Poem VI</head>
+ 			<p>Poem VI, reconstituted from the severed lower and upper sections of "Live Oak"
+ 			notebook leaves 10 and 11.</p>
+ 			<figDesc>Photograph of Poem VI, reconstituted from the severed lower and upper 
+ 			sections of "Live Oak" notebook leaves 10 and 11.
+			</figDesc>
+                    <graphic url="liveoakwithmoss.18"/>
+                </figure></ref>).
+                Whitman foliated the detached leaves at their lower left corners, thereby documenting 
+                their former notebook order, but he also began rearranging the "Live Oak" poems into 
+                different groupings, as revealed by holes at their tops and centers where he pinned and 
+                threaded leaves together, and where he appears also to have tacked groups to a surface 
+                at his workspace (see <ref type="figure">figure 3<figure>
+                        <head>Figure 3: Lower half of notebook leaf 11</head>
+                        <p>Lower half of notebook leaf 11, displaying thread and holes.</p>
+                        <figDesc>Lower half of notebook leaf 11, displaying thread and holes.
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.19"/>
+                    </figure></ref>).<ptr target="#note4" xml:id="nr4" n="4" /></p>
+            <p>Eventually Whitman had the poems set up in type, with many others, at the Brooklyn
+                printing firm operated by his friends, T. H. Rome and Brothers, with proofs made for
+                the author.<ptr target="#note5" xml:id="nr5" n="5" /> In this preliminary proof stage, 
+                Whitman completed the process of dispersing the poems among thirty-three others for 
+                the "Calamus" cluster of the 1860 <hi rend="italic">Leaves of Grass</hi> (the original 
+                manuscripts remained with the Rome Brothers), thereby publishing all of the twelve "Live 
+                Oak" poems, but not as a sequence, and in a way that destroyed their narrative of love, 
+                loss, and resolve. Throughout the sundered manuscript and proof stages, Whitman made 
+                revisions to the poems. Displaying various cancellations and interlineations, the 
+                manuscripts reveal multiple stages of pencil and ink revision, and, in the instance 
+                of Poem III ("When I heard at the close of day"), a substantial paste-over revision. 
+                Although the Rome proof sheets are not known to be extant, Bowers demonstrated that 
+                Whitman revised these still further before submitting them with other material to the Boston 
+                firm of Thayer and Eldridge as printer's copy for the 1860 <hi rend="italic">Leaves</hi> 
+                (xxiv); for the published "Calamus" texts of the twelve poems vary at numerous points 
+                from the revised texts of the "Live Oak" manuscripts.<ptr target="#note6" xml:id="nr6" n="6" /></p>
+            <p>It is easy to see why a focus on late revisions might seem to offer a reliable method
+                for editing "Live Oak, with Moss." As formulated by Sir Walter Greg in 1950, the
+                editorial principle of final authorial intention distinguishes among early and late
+                versions of a literary work and observes authorial revisions leading up to its final
+                    state.<ptr target="#note7" xml:id="nr7" n="7" /> Despite what seems to have been
+                his original intention of preserving the sequence in manuscript, Whitman went on to
+                publish revised versions of its twelve poems, and the changes made to them for
+                inclusion in the 1860 "Calamus" cluster are clearly authorial. Their states of
+                authorized finality seem to have underlain Helms's decision to assemble his edition of
+                "Live Oak, with Moss" from the printed "Calamus" versions of the twelve poems, for
+                although Helms does not invoke Greg's rationale, he does identify the "Calamus"
+                versions as the texts "Whitman approved for publication" ("Whitman's 'Live Oak with
+                Moss'" 187). The problem with Helms's decision is that the versions he reprinted were
+                approved by Whitman as parts of the published "Calamus" cluster, not as the
+                unpublished "Live Oak, with Moss." As Parker observed, "Greg's theory of final
+                authorial intention does not apply to poems that have been taken apart from a
+                sequence and then shuffled, in revised form, among other poems" as parts of a
+                different work ("Commentary" 416). What Helms did was arrange the twelve revised
+                "Calamus" versions of the poems in the sequential order of their manuscript states
+                as an earlier work. He did not print "Live Oak, with Moss." In editing the sundered 
+                manuscripts of the poems, Parker came much closer to the state of the sequence as 
+                Whitman inscribed it. Yet his version in the 4th edition of the  
+                <hi rend="italic">Norton Anthology of American Literature</hi> and all subsequent 
+                editions of the sequence currently in print have tended to represent Whitman's manuscript 
+                readings in their final states&#8212;an approach paralleling that of Bowers for his version 
+                in <hi rend="italic">SB</hi>.<ptr target="#note8" xml:id="nr8" n="8" /> Bowers, of course, is so 
+                thoroughly identified with Greg's principle of final authorial intention that its practice 
+                has been known for the past half-century as the "Greg-Bowers" formula, which is justly 
+                esteemed for producing some of the finest scholarly editions in existence. But aside from its 
+                observance of late revisions, the edition of "Live Oak, with Moss" Bowers published 
+                fails ultimately to exemplify the principle. Although he had already endorsed Greg's 
+                rationale in 1950,<ptr target="#note9" xml:id="nr9" n="9" /> Bowers did not refer to it 
+                in his 1953 essay on "Live Oak, with Moss," nor indeed to any editorial formula aimed at 
+                representing Whitman's intentions for the sequence.</p>
+            <p>The absence of a principled editorial approach in "Whitman's Original Manuscripts for
+                the 'Calamus' Poems" is curiously out of keeping with the significance of the
+                discoveries disclosed by Bowers. In his essay he observed: (1) that the twelve "Live
+                Oak" poems "make up an artistically complete story of attachment, crisis, and
+                reconstitution"; (2) that they "are manifestly fair copies" in their original
+                inscriptions; and (3) that "the calamus symbol is nowhere mentioned in these poems,"
+                which instead feature the live oak (264). These three points establish the autonomy
+                of the sequence during its notebook state as a discretely inscribed work, one
+                Whitman wrote under what were apparently compelling biographical circumstances.
+                Whitman's motives for recording the sequence may be suggested by his note on the
+                verso of a canceled draft fragment of Poem II, "I saw in Louisiana a live-oak
+                growing": <quote>
+                    <l>A cluster of poems, sonnets expressing the thoughts, pictures,&#8212;aspirations, &amp;c.</l>
+                    <l>Fit to be perused during the days of the approach of Death.</l>
+                    <l>That I have prepared myself for that purpose.</l>
+                    <l>Remember now&#8212;</l>
+                    <l>Remember then&#8212;<ptr target="#note10" xml:id="nr10" n="10" /></l>
+                </quote>As Bowers surmised of this note, "the reference to Whitman having himself prepared the 
+                cluster is very likely to his having assembled and copied out the poems in a form to 
+                be kept by him" (<hi rend="italic">Whitman's Manuscripts</hi> lxvii). Several details 
+                supply strong indication that the designated cluster was "Live Oak, with Moss" and that 
+                the form in question was the "Live Oak" notebook. Occupying different sides of the same 
+                leaf, the note and draft fragment display a documentary connection between Whitman's
+                reference to a commemorative cluster of poems and the title poem of "Live Oak, with Moss." 
+                Whereas Whitman's surviving papers furnish many examples of recto/verso inscriptions
+                that lack clear genetic relationships, his revisions to the canceled recto draft are 
+                observed exactly in the notebook inscription of Poem II, indicating the leaf served as 
+                copy for the notebook version. Whitman subsequently canceled the draft with a vertical 
+                line, and the order of draft inscription and cancellation (on the recto, where the draft 
+                is cropped along a verse line at the leaf's head) followed by note inscription (on the 
+                verso, where the note is neatly situated with no content lost to cropping) makes it likely 
+                that Whitman's act of inscribing the note followed his act of transcribing the fair-copy 
+                version of "Live Oak, with Moss." The note's reference to an already "prepared" collection 
+                of poems may therefore aptly signify the "Live Oak" notebook&#8212;a medium well suited for 
+                keepsake purposes. Identification of the memorial cluster with "Live Oak, with Moss" seems further 
+                bolstered by aspects of the inscribed sequence that are manifestly autobiographical, such 
+                as its retrospective account of Whitman's ambition to become America's representative 
+                poet&#8212;an ambition he there abandons in preference for intimate love and companionship.</p>
+            <p>Whatever the intentions surrounding his note about having prepared a cluster for perusal 
+                in old age, the fair-copy state of its inscription reveals that Whitman completed "Live 
+                Oak, with Moss" in its notebook form. But Bowers's descriptions of the sundered manuscripts 
+                display undue emphasis on the radically different fate of the "Live Oak" poems as dispersed 
+                and shuffled components of a later work. Despite his recognition of the sequence as an
+                artistically complete product that predated Whitman's conception of "Calamus," he
+                described "Live Oak, with Moss" as "the inception of the 'Calamus' cluster and the
+                original poems which comprised it," and he published his research as "Whitman's
+                Manuscripts for the Original 'Calamus' Poems" (257). This tendency to conceive of the
+                "Live Oak" poems in terms that look forward to their published states demonstrably
+                influenced Bowers's editing of the sequence. His most revealing decision along these
+                lines was his adherence to a revision in the manuscript of Poem II, "I saw in
+                Louisiana a live-oak growing," which portrays the speaker meditating about the
+                tree's resemblance to himself. As originally inscribed on leaf 4 of the intact
+                notebook (the second leaf of Poem II), lines 6 through 8 of the poem convey
+                Whitman's sense of "Live Oak, with Moss" as an integrated whole organized around its
+                titular symbol: <quote>
+                    <l>And I plucked a twig with a certain number of leaves upon it, and twined
+                        around it a little moss, and brought it away&#8212;And I have placed it
+                        in sight in my room,</l>
+                    <l>It is not needed to remind me as of my friends, (for I believe lately I think
+                        of little else than of them,)</l>
+                    <l>Yet it remains to me a curious token&#8212;I write these pieces, and name
+                        them after it; (2.6-8)</l>
+                </quote>The revision in question involves Whitman's decision to strike the final
+                two clauses, "I write these pieces, and name them after it," and interline above the
+                canceled words the clause, "it makes me think of manly love." To perform the revision, 
+                Whitman used a light brown ink he also used to cancel the title "Live Oak, with Moss" 
+                on what had been the opening leaf of the sequence and supply above it the title 
+                "Calamus-Leaves" (see <ref type="figure">figure 4<figure>
+ 			<head>Figure 4: Brown ink revisions</head>
+ 			<p>Brown ink cancellation of the title, "Live Oak, with Moss," and corresponding revision to Poem II.</p>
+                    <figDesc>Brown ink cancellation of the title, "Live Oak, with Moss," and corresponding 
+                        revision to Poem II.</figDesc>
+                    <graphic url="liveoakwithmoss.20"/>
+                </figure></ref>).
+                Whitman's replacement of the title "Live Oak, with Moss" by "Calamus-Leaves" and his 
+                cancellation in Poem II are the only two instances of light brown ink revisions in the 
+                "Live Oak" manuscript. According to Bowers's inclusive examination of Whitman's manuscripts 
+                for the 1860 <hi rend="italic">Leaves</hi>, the light brown medium represents "the final 
+                or near-to-final" transmission stage for the entire mass of manuscripts Whitman surrendered 
+                to the printing firm of T. H. Rome and Brothers (xxvii). Shortly before relinquishing the 
+                mss, Whitman used grades of the same brown ink to inscribe new opening poems for the now-assembled 
+                "Calamus" cluster, which in Bowers's words "performed for the calamus what poems I and II 
+                had done for the live oak as an association" (lxx). Whitman also used the brown ink for a section 
+                introducing the theme of companionship to the already drafted "Premonition" (published as 
+                "Proto-Leaf" in the 1860 <hi rend="italic">Leaves</hi>; see <hi rend="italic">Whitman's 
+                Manuscripts</hi> 12). The presence of the light brown ink in the manuscripts thus corresponds 
+                in time with Whitman's decision to publish an "evangel-poem of lovers and comrades," as he 
+                described "Calamus" in the material he added to "Premonition" (12), and post-dates his dismantlement 
+                of the "Live Oak" notebook and dispersal of its poems among others for the newly conceived 
+                cluster. The related content of the revisions suggests further that the two brown-ink 
+                changes were performed in relation to each other after Whitman conceived of a new controlling 
+                image&#8212;the calamus plant&#8212;for a larger poetic cluster that would incorporate the 
+                "Live Oak" poems. Yet although Bowers restored the title "Live Oak, with Moss" to his edition 
+                of the sequence, he let stand Whitman's collateral substitution of "It makes me think of manly 
+                love" for "I write these pieces, and name them after it." Bowers's edition therefore prints 
+                the sequence under its correct title, but it omits Poem II's reference to that title, and to 
+                the poems themselves as a collective whole.</p>
+            <p>Whereas Bowers's adherence to the principle of final authorial intention can be seen
+                in his declared but unexplained decision to print the manuscripts "in the final
+                versions of their texts" (259), the influence of Greg's principle on his edition of
+                "Live Oak, with Moss" was clearly conceptual rather than methodological. For the
+                purpose of capturing a stand-alone work from manuscripts later absorbed within a
+                larger one, a precise application of the principle of final authorial intention
+                would require the editor to identify their final states as the product of that
+                original intention, observing only revisions made by the author up to that point.
+                But along with neglecting to provide a justification for final versions, Bowers
+                chose not to address the question of whether different revisions in the manuscript
+                could be associated with Whitman's differing intentions for these poems, first, as
+                an integrated sequence and, later, as parts of a larger work. Indeed, Bowers's
+                decision to print the final versions "without notes as to the originals of the
+                various revisions contained in them" (260) reveals that his essay was designedly
+                reportorial rather than analytical. He seems to have conceived of the sequence as
+                illuminating a significant stage in the genetic history of "Calamus," but not as
+                warranting critical establishment of a copy-text for reprinting and anthologization
+                of "Live Oak, with Moss." Although he described the sequence as "artistically
+                complete," its superseded status apparently exempted it from consideration as a work
+                requiring thorough bibliographic investigation in its own right.</p>
+            <p>Bowers described his 1953 essay as a "preview and synopsis" and announced that "the
+                bare bones of this present story will be fleshed with the proper evidence when the
+                full texts and their appropriate introductions are published" (257), and he did go
+                on to identify material and textual features of the "Live Oak" manuscripts in his
+                1955 monograph <hi rend="italic">Whitman's Manuscripts: Leaves of Grass (1860)</hi>.
+                But there again he restricted his analysis of the manuscripts to their status as
+                early drafts of "Calamus" poems. He did not print the "Live Oak, with Moss" poems in
+                their sequential order, nor did he take up the question of how their revisions
+                should be classified in relation to Whitman's radical transmission of the poems from
+                one work to another. In a revealing slip, he there even referred to the "Live Oak"
+                notebook as "the 'Calamus' notebook" (lxviii).<ptr target="#note11" xml:id="nr11"
+                    n="11" /> His focus on the poems as early drafts of "Calamus" likely contributed
+                to neglect of "Live Oak, with Moss" over the decades that followed, for we see it
+                influencing dismissive reactions to his discovery that the poems had originally
+                constituted an earlier work. James E. Miller, Jr., concluded from Bowers's research
+                that the existence of "Live Oak, with Moss" had been "tenuous" from the start, and
+                David Cavitch concluded that in the act of inscribing the sequence Whitman had
+                merely "toyed" with arranging "Calamus" poems into a smaller cluster.<ptr
+                    target="#note12" xml:id="nr12" n="12" /> These attitudes characterized criticism
+                for four decades despite the significance of Whitman's original collective reference
+                to the sequence in Poem II, despite its fair-copy state, and despite the compelling
+                implications of Whitman's note on the draft fragment of Poem II&#8212;all of
+                which evidence predates Whitman's adoption of the calamus image for a larger work
+                that would incorporate the twelve sundered poems.<ptr target="#note13" xml:id="nr13"
+                    n="13" /></p>
+            <p>Long-standing neglect of "Live Oak, with Moss" has been attributed to discomfort with
+                its subject matter and to its limited circulation in a specialized bibliographical
+                journal. But considerable explanation may also be found in the conceptual approach
+                that has dictated its form to date. Its appearance in modern literary collections
+                means it is now being conceived not merely as the "first and limited form of
+                'Calamus'" (Bowers, <hi rend="italic">Whitman's Manuscripts</hi> xxxvi), but as the
+                outcome of quite different earlier intentions. Whether or not we associate "Live
+                Oak, with Moss" with Whitman's declared intent to privately commemorate matters of
+                personal experience, there is no denying the fair-copy state of its notebook
+                inscription, and its status as a completed manuscript warrants analytical
+                bibliographic treatment. But the version of "Live Oak, with Moss" currently in print
+                is not a product of bibliographic analysis. It is a blanket transcription of the final 
+                versions of the manuscripts that restores the title of the sequence but indiscriminately 
+                observes every other revision to its twelve poems. Continuing acceptance and application 
+                of this approach is newly displayed in the most recent edition by Betsy Erkkila, who 
+                prints the final states of the texts alongside facsimile reproductions of the manuscript 
+                leaves but does not address their revisions and does not explain her editorial procedure.<ptr target="#note14"
+                    xml:id="nr14" n="14" /></p>
+            <p>"Live Oak, with Moss" should be edited not by representing the latest revised versions 
+                of its dispersed manuscripts, but by restoring it as closely as possible to the state 
+                in which it was inscribed as an integrated work. Restoration is made possible by revisory 
+                ink offsetting and bleeding in the original notebook leaves, and by connections of this 
+                evidence to the hinge points where notebook leaves were originally folded and stitched 
+                and to pinholes where Whitman reattached leaves of individual poems during the revision 
+                stages that followed dismantlement. The rest of the present study details the "Live Oak, 
+                with Moss" notebook as it was originally assembled and dismantled, distinguishes revisions 
+                Whitman made to the poems during their notebook existence from those he made following 
+                dismantlement, and supplies a new edition of "Live Oak, with Moss" that recaptures the 
+                notebook state of its text.</p>
+                 </div>
+                 <div>
+                     <head type="small-main">Assembly, Inscription, and Disassembly of the "Live Oak" Notebook</head>
+                 <p>The following table updates and expands tabular data in Bowers's <hi rend="italic">Whitman's 
+                     Manuscripts</hi> (lxiv-lxv), listing the leaves of Whitman's "Live Oak, with Moss" notebook
+                along with details of their order, content, and composition in connected and separated states. 
+                It adopts Bowers's "<hi rend="small-caps">w</hi>1" designation for the white wove paper of
+                which the notebook was assembled by Whitman, with "<hi rend="small-caps">w</hi>1a"
+                signifying leaves 1 through 11 of the notebook, and "<hi rend="small-caps">w</hi>1b"
+                signifying their conjugate leaves 12 through 22. Die stamps at the lower right
+                corners of leaves 18, 19, and 20 show this paper to be from the mill of Owen
+                &amp; Hurlbut Paper Company in South Lee, Massachusetts. The total of 22
+                conjugate halves from 11 folded sheets of paper corrects Bowers's tally of 20 leaves
+                from 10 sheets (<hi rend="italic">Whitman's Manuscripts</hi> lxiv-lxv), and so
+                assigns different numbers to the leaves and their conjugate mates. The table and ensuing 
+                analysis also observe Bowers's designation of a black ink fair-copy inscription, with black 
+                and brown ink revisions, although the mediums are not always easily distinguished. It 
+                may be that some of the color variations constitute not separate inks but different 
+                grades of the same medium. Such variations could have resulted from differences of 
+                consistency in Whitman's ink well at different work stages and&#8212;as his light brown
+                revisions might indicate&#8212;from dilutions performed by Whitman for the purpose of 
+                stretching out his supply. All of the "Live Oak" poems were inscribed by Whitman on 
+                the rectos of the notebook leaves, of which the versos were left blank.</p>
+            <table>
+                <head type="main">Table 1</head>
+                <row>
+                    <cell>
+                        <hi rend="bold">Notebook Leaf</hi>
+                   </cell>
+                    <cell>
+                        <hi rend="bold">
+                            <hi rend="italic">Whitman Archive</hi> ID</hi>
+                   </cell>
+                    <cell>
+                        <hi rend="bold">Content</hi>
+                   </cell>
+                    <cell>
+                        <hi rend="bold">Foliation</hi>
+                   </cell>
+                    <cell>
+                        <hi rend="bold">Paper</hi>
+                   </cell>
+                    <cell>
+                        <hi rend="bold">Medium</hi>
+                   </cell>
+                    <cell>
+                        <hi rend="bold">Conjugate</hi>
+                        <hi rend="bold">Mate</hi>
+                   </cell>
+                </row>
+                <row>
+                    <cell>1</cell>
+                    <cell>n/a</cell>
+                    <cell>Unknown</cell>
+                    <cell>n/a</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Brown ink</cell>
+                    <cell>22</cell>
+                </row>
+                <row>
+                    <cell>2</cell>
+                    <cell><ref type="figure">uva.00310.001<figure>
+                            <head>uva.00310.001</head>
+                            <p>Notebook leaf 2, displaying Poem I of "Live Oak, with Moss."</p>
+                            <figDesc>Notebook leaf 2, displaying Poem I of "Live Oak, with Moss."
+                            </figDesc>
+                            <graphic url="liveoakwithmoss.01"/>
+                        </figure></ref>; 
+                            <ref type="figure">uva.00310.002<figure>
+                                <head>uva.00310.002</head>
+                                <p>Verso of notebook leaf 2.</p>
+                                <figDesc>Verso of notebook leaf 2.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.01b"/>
+                            </figure></ref>
+                     </cell>
+                    <cell>
+                        "Live Oak" I</cell>
+                    <cell>1</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black and brown ink</cell>
+                    <cell>21</cell>
+                </row>
+                <row>
+                    <cell>3</cell>
+                    <cell>
+                        <ref type="figure">uva.00316.001<figure>
+                                <head>uva.00316.001</head>
+                                <p>Notebook leaf 3, displaying Poem II of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 3, displaying Poem II of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.02"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00316.003<figure>
+                                <head>uva.00316.003</head>
+                                <p>Verso of notebook leaf 3.</p>
+                                <figDesc>Verso of notebook leaf 3.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.02b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" II</cell>
+                    <cell>2</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black ink and pencil</cell>
+                    <cell>20</cell>
+                </row>
+                <row>
+                    <cell>4</cell>
+                    <cell>
+                        <ref type="figure">uva.00316.002<figure>
+                            <head>uva.00316.002</head>
+                            <p>Notebook leaf 4, displaying Poem II of "Live Oak, with Moss."</p>
+                            <figDesc>Notebook leaf 4, displaying Poem II of "Live Oak, with Moss."
+                            </figDesc>
+                            <graphic url="liveoakwithmoss.02.02"/>
+                        </figure></ref>; 
+                        <ref type="figure">uva.00316.004<figure>
+                                <head>uva.00316.004</head>
+                                <p>Verso of notebook leaf 4.</p>
+                                <figDesc>Verso of notebook leaf 4.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.02.02b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" II</cell>
+                    <cell>3</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black and brown ink</cell>
+                    <cell>19</cell>
+                </row>
+                <row>
+                    <cell>5</cell>
+                    <cell>
+                        <ref type="figure">uva.00339.001<figure>
+                                <head>uva.00339.001</head>
+                                <p>Notebook leaf 5, displaying Poem III of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 5, displaying Poem III of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.03"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00339.002<figure>
+                                <head>uva.00339.002</head>
+                                <p>Verso of notebook leaf 5.</p>
+                                <figDesc>Verso of notebook leaf 5.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.03b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" III</cell>
+                    <cell>4</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black ink and pencil</cell>
+                    <cell>18</cell>
+                </row>
+                <row>
+                    <cell>6</cell>
+                    <cell>
+                        <ref type="figure">uva.00339.003<figure>
+                                <head>uva.00339.003</head>
+                                <p>Notebook leaf 6, displaying Poem III of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 6, displaying Poem III of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.03.02"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00339.004<figure>
+                                <head>uva.00339.004</head>
+                                <p>Verso of notebook leaf 6.</p>
+                                <figDesc>Verso of notebook leaf 6.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.03.02b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" III</cell>
+                    <cell>5</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black ink and pencil</cell>
+                    <cell>17</cell>
+                </row>
+                <row>
+                    <cell>7</cell>
+                    <cell>
+                        <ref type="figure">uva.00331.001<figure>
+                                <head>uva.00331.001</head>
+                                <p>Notebook leaf 7, displaying Poem IV of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 7, displaying Poem IV of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.04"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00331.002<figure>
+                                <head>uva.00331.002</head>
+                                <p>Verso of notebook leaf 7.</p>
+                                <figDesc>Verso of notebook leaf 7.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.04b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" IV</cell>
+                    <cell>6</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black ink and pencil</cell>
+                    <cell>16</cell>
+                </row>
+                <row>
+                    <cell>8</cell>
+                    <cell>
+                        <ref type="figure">uva.00321.001<figure>
+                                <head>uva.00321.001</head>
+                                <p>Notebook leaf 8, displaying Poem V of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 8, displaying Poem V of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.05"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00321.004<figure>
+                                <head>uva.00321.004</head>
+                                <p>Verso of notebook leaf 8.</p>
+                                <figDesc>Verso of notebook leaf 8.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.05b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" V</cell>
+                    <cell>7</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black ink and pencil</cell>
+                    <cell>15</cell>
+                </row>
+                <row>
+                    <cell>9</cell>
+                    <cell>
+                        <ref type="figure">uva.00321.002<figure>
+                                <head>uva.00321.002</head>
+                                <p>Notebook leaf 9, displaying Poem V of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 9, displaying Poem V of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.05.02"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00321.005<figure>
+                                <head>uva.00321.005</head>
+                                <p>Verso of notebook leaf 9.</p>
+                                <figDesc>Verso of notebook leaf 9.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.05.02b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" V</cell>
+                    <cell>8</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black ink and pencil</cell>
+                    <cell>14</cell>
+                </row>
+                <row>
+                    <cell>10</cell>
+                    <cell>
+                        <ref type="figure">uva.00321.003<figure>
+                                <head>uva.00321.003</head>
+                                <p>Upper portion of notebook leaf 10, displaying Poem V of "Live Oak, with Moss."</p>
+                                <figDesc>Upper portion of notebook leaf 10, displaying Poem V of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.05.03"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00321.006<figure>
+                                <head>uva.00321.006</head>
+                                <p>Verso of upper portion of notebook leaf 10.</p>
+                                <figDesc>Verso of upper portion of notebook leaf 10.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.05.03b"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00338.001<figure>
+                                <head>uva.00338.001</head>
+                                <p>Lower portion of notebook leaf 10 (top) affixed to upper portion of leaf 11 (bottom), displaying Poem VI of "Live Oak, with Moss."</p>
+                                <figDesc>Lower portion of notebook leaf 10 (top) affixed to upper portion of leaf 11 (bottom), displaying Poem VI of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.06"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00338.002<figure>
+                                <head>uva.00338.002</head>
+                                <p>Lower portion verso of notebook leaf 10 (top) affixed to upper portion verso of leaf 11 (bottom).</p>
+                                <figDesc>Lower portion verso of notebook leaf 10 (top) affixed to upper portion verso of leaf 11 (bottom).
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.06b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" V and VI</cell>
+                    <cell>8&#189; and 9</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1a</cell>
+                    <cell>Black ink</cell>
+                    <cell>13</cell>
+                </row>
+                <row>
+                    <cell>11</cell>
+                    <cell>
+                        <ref type="figure">uva.00338.001<figure>
+                                <head>uva.00338.001</head>
+                                <p>Upper portion of notebook leaf 11 (bottom) affixed to lower portion of leaf 10 (top), displaying Poem VI of "Live Oak, with Moss."</p>
+                                <figDesc>Upper portion of notebook leaf 11 (bottom) affixed to lower portion of leaf 10 (top), displaying Poem VI of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.06"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00338.002<figure>
+                                <head>uva.00338.002</head>
+                                <p>Upper portion verso of notebook leaf 11 (bottom) affixed to lower portion verso of leaf 10 (top).</p>
+                                <figDesc>Upper portion verso of notebook leaf 11 (bottom) affixed to lower portion verso of leaf 10 (top).
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.06b"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00340.001<figure>
+                                <head>uva.00340.001</head>
+                                <p>Lower portion of notebook leaf 11, displaying Poem VII of "Live Oak, with Moss."</p>
+                                <figDesc>Lower portion of notebook leaf 11, displaying Poem VII of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.07"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00340.002<figure>
+                                <head>uva.00340.002</head>
+                                <p>Lower portion verso of notebook leaf 11.</p>
+                                <figDesc>Lower portion verso of notebook leaf 11.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.07b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" VI and VII</cell>
+                    <cell>9 and 9&#189;</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Black ink</cell>
+                    <cell>12</cell>
+                </row>
+                <row>
+                    <cell>12</cell>
+                    <cell>
+                        <ref type="figure">uva.00340.003<figure>
+                                <head>uva.00340.003</head>
+                                <p>Notebook leaf 12 (top) affixed to upper portion of leaf 13 (bottom), displaying Poem VII of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 12 (top) affixed to upper portion of leaf 13 (bottom), displaying Poem VII of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.07.02"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00340.004<figure>
+                                <head>uva.00340.004</head>
+                                <p>Verso of notebook leaf 12 (top) affixed to upper portion verso of leaf 13 (bottom).</p>
+                                <figDesc>Verso of notebook leaf 12 (top) affixed to upper portion verso of leaf 13 (bottom).
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.07.02b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" VII</cell>
+                    <cell>10</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Black ink</cell>
+                    <cell>11</cell>
+                </row>
+                <row>
+                    <cell>13</cell>
+                    <cell>
+                        <ref type="figure">uva.00340.003<figure>
+                                <head>uva.00340.003</head>
+                                <p>Upper portion of notebook leaf 13 (bottom) affixed to leaf 12 (top), displaying Poem VII of "Live Oak, with Moss."</p>
+                                <figDesc>Upper portion of notebook leaf 13 (bottom) affixed to leaf 12 (top), displaying Poem VII of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.07.02"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00340.004<figure>
+                                <head>uva.00340.004</head>
+                                <p>Upper portion verso of notebook leaf 13 (bottom) affixed to verso of leaf 12 (top).</p>
+                                <figDesc>Upper portion verso of notebook leaf 13 (bottom) affixed to verso of leaf 12 (top).
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.07.02b"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00314.001<figure>
+                                <head>uva.00314.001</head>
+                                <p>Lower portion of notebook leaf 13, displaying Poem VIII of "Live Oak, with Moss."</p>
+                                <figDesc>Lower portion of notebook leaf 13, displaying Poem VIII of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.08"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00314.002<figure>
+                                <head>uva.00314.002</head>
+                                <p>Lower portion verso of notebook leaf 13.</p>
+                                <figDesc>Lower portion verso of notebook leaf 13.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.08b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" VII and VIII</cell>
+                    <cell>10 and 11</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Black ink</cell>
+                    <cell>10</cell>
+                </row>
+                <row>
+                    <cell>14</cell>
+                    <cell>
+                        <ref type="figure">uva.00314.003<figure>
+                                <head>uva.00314.003</head>
+                                <p>Notebook leaf 14 (top) affixed to upper portion of leaf 15 (bottom), displaying Poem VIII of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 14 (top) affixed to upper portion of leaf 15 (bottom), displaying Poem VIII of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.08.02"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00314.004<figure>
+                                <head>uva.00314.004</head>
+                                <p>Verso of notebook leaf 14 (top) affixed to upper portion verso of leaf 15 (bottom).</p>
+                                <figDesc>Verso of notebook leaf 14 (top) affixed to upper portion verso of leaf 15 (bottom).
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.08.02b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" VIII</cell>
+                    <cell>12</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Black ink</cell>
+                    <cell>9</cell>
+                </row>
+                <row>
+                    <cell>15</cell>
+                    <cell>
+                        <ref type="figure">uva.00314.003<figure>
+                                <head>uva.00314.003</head>
+                                <p>Upper portion of notebook leaf 15 (bottom) affixed to leaf 14 (top), displaying Poem VIII of "Live Oak, with Moss."</p>
+                                <figDesc>Upper portion of notebook leaf 15 (bottom) affixed to leaf 14 (top), displaying Poem VIII of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.08.02"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00314.004<figure>
+                                <head>uva.00314.004</head>
+                                <p>Upper portion verso of notebook leaf 15 (bottom) affixed to verso of leaf 14 (top).</p>
+                                <figDesc>Upper portion verso of notebook leaf 15 (bottom) affixed to verso of leaf 14 (top).
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.08.02b"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00315.001<figure>
+                                <head>uva.00315.001</head>
+                                <p>Lower portion of notebook leaf 15, displaying Poem IX of "Live Oak, with Moss."</p>
+                                <figDesc>Lower portion of notebook leaf 15, displaying Poem IX of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.09"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00315.002<figure>
+                                <head>uva.00315.002</head>
+                                <p>Lower portion verso of notebook leaf 15.</p>
+                                <figDesc>Lower portion verso of notebook leaf 15.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.09b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" VIII and IX</cell>
+                    <cell>12 and 13</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Black ink and pencil</cell>
+                    <cell>8</cell>
+                </row>
+                <row>
+                    <cell>16</cell>
+                    <cell>
+                        <ref type="figure">uva.00324.001<figure>
+                                <head>uva.00324.001</head>
+                                <p>Notebook leaf 16, displaying Poem X of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 16, displaying Poem X of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.10"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00324.002<figure>
+                                <head>uva.00324.002</head>
+                                <p>Verso of notebook leaf 16.</p>
+                                <figDesc>Verso of notebook leaf 16.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.10b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" X</cell>
+                    <cell>14</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Black ink</cell>
+                    <cell>7</cell>
+                </row>
+                <row>
+                    <cell>17</cell>
+                    <cell>
+                        <ref type="figure">uva.00312.001<figure>
+                                <head>uva.00312.001</head>
+                                <p>Notebook leaf 17, displaying Poem XI of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 17, displaying Poem XI of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.11"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00312.002<figure>
+                                <head>uva.00312.002</head>
+                                <p>Verso of notebook leaf 17.</p>
+                                <figDesc>Verso of notebook leaf 17.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.11b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" XI</cell>
+                    <cell>15</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Black ink</cell>
+                    <cell>6</cell>
+                </row>
+                <row>
+                    <cell>18</cell>
+                    <cell>
+                        <ref type="figure">uva.00337.001<figure>
+                                <head>uva.00337.001</head>
+                                <p>Notebook leaf 18, displaying Poem XII of "Live Oak, with Moss."</p>
+                                <figDesc>Notebook leaf 18, displaying Poem XII of "Live Oak, with Moss."
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.12"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00337.002<figure>
+                                <head>uva.00337.002</head>
+                                <p>Verso of notebook leaf 18.</p>
+                                <figDesc>Verso of notebook leaf 18.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.12b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        "Live Oak" XII</cell>
+                    <cell>16</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Black ink and pencil</cell>
+                    <cell>5</cell>
+                </row>
+                <row>
+                    <cell>19</cell>
+                    <cell>
+                        <ref type="figure">uva.00313.001<figure>
+                                <head>uva.00313.001</head>
+                                <p>Notebook leaf 19, displaying "Calamus" Nos. 44 and 38.</p>
+                                <figDesc>Notebook leaf 19, displaying "Calamus" Nos. 44 and 38.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.15"/>
+                            </figure></ref>; 
+                        <ref type="figure">uva.00313.002<figure>
+                                <head>uva.00313.002</head>
+                                <p>Verso of notebook leaf 19.</p>
+                                <figDesc>Verso of notebook leaf 19.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.15b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>"Calamus" Nos. 44 and 38</cell>
+                    <cell>n/a</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Brown ink</cell>
+                    <cell>4</cell>
+                </row>
+                <row>
+                    <cell>20</cell>
+                    <cell>
+                        <ref type="figure">uva.00328.001<figure>
+                                <head>uva.00328.001</head>
+                                <p>Notebook leaf 20, displaying "Calamus" No. 39.</p>
+                                <figDesc>Notebook leaf 20, displaying "Calamus" No. 39.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.16"/>
+                            </figure></ref>;
+                        <ref type="figure">uva.00328.002<figure>
+                                <head>uva.00328.002</head>
+                                <p>Verso of notebook leaf 20.</p>
+                                <figDesc>Verso of notebook leaf 20.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.16b"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>"Calamus" No. 39</cell>
+                    <cell>n/a</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Brown ink</cell>
+                    <cell>3</cell>
+                </row>
+                <row>
+                    <cell>21</cell>
+                    <cell>n/a</cell>
+                    <cell>Unknown</cell>
+                    <cell>n/a</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Unknown</cell>
+                    <cell>2</cell>
+                </row>
+                <row>
+                    <cell>22</cell>
+                    <cell>
+                        <ref type="figure">uva.00232.014<figure>
+                                <head>uva.00232.014</head>
+                                <p>Upper portion verso of notebook leaf 22, displaying revision to "So Long!"</p>
+                                <figDesc>Upper portion verso of notebook leaf 22, displaying revision to "So Long!"
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.13"/>
+                            </figure></ref>;
+                        <ref type="figure">uva.00023.001<figure>
+                                <head>uva.00023.001</head>
+                                <p>Lower portion verso of notebook leaf 22, displaying revision to "Calamus" No. 18.</p>
+                                <figDesc>Lower portion verso of notebook leaf 22, displaying revision to "Calamus" No. 18.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.14"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>Paste-over Revisions to "So Long!" and "Calamus" No. 18</cell>
+                    <cell>n/a</cell>
+                    <cell>
+                        <hi rend="small-caps">w</hi>1b</cell>
+                    <cell>Brown ink</cell>
+                    <cell>1</cell>
+                </row>
+            </table>
+            <p>In describing Whitman's notebook as consisting of 20 leaves, Bowers concluded that
+                the opening poem of the sequence was inscribed on leaf 1 and that the final Poem XII
+                was inscribed on leaf 17, with the notebook's remaining three <hi rend="small-caps"
+                    >w</hi>1b leaves left blank. After dismantlement, Whitman used two of these <hi
+                    rend="small-caps">w</hi>1b leaves to inscribe the poems that would become
+                "Calamus" Nos. 44 and 38 (leaf 19 in the above table) and No. 39 (leaf 20) in
+                brown ink (see <ref type="figure">figures 5<figure>
+                        <head>Figure 5: Notebook leaf 19</head>
+                        <p>Notebook leaf 19, displaying "Calamus" 44 and 38</p>
+                        <figDesc>Notebook leaf 19, displaying "Calamus" 44 and 38</figDesc>
+                        <graphic url="liveoakwithmoss.71"/>
+                    </figure></ref>
+                and <ref type="figure">6<figure>
+                        <head>Figure 6: Notebook leaf 20</head>
+                        <p>Notebook leaf 20, displaying "Calamus" 39</p>
+                        <figDesc>Notebook leaf 20, displaying "Calamus" 39</figDesc>
+                        <graphic url="liveoakwithmoss.72"/>
+                    </figure></ref>). 
+                Bowers identified the upper half of the remaining third 
+                <hi rend="small-caps">w</hi>1b leaf (leaf 22) as Whitman's paste-over revision 
+                to manuscript leaf 7 of "So Long!," and assumed its lower half to be lost 
+                (<hi rend="italic">Whitman's Manuscripts</hi> lxvii). But the surviving evidence 
+                shows Bowers's account to be flawed. The paste-over revision to "So Long!" is indeed 
+                from a <hi rend="small-caps">w</hi>1b notebook leaf, but that leaf's lower half is 
+                present among Whitman's surviving manuscripts. Inverted from its original notebook orientation, 
+                it exists as a paste-over revised opening affixed by Whitman to a draft that would 
+                become "Calamus" No. 18, "City of my walks and joys" (see <ref type="figure">figures 7<figure>
+ 			<head>Figure 7: Upper portion of leaf 22</head>
+ 			<p>The severed upper portion of notebook leaf 22, here used by Whitman as a paste-over 
+ 			revision to "So Long!"</p>
+ 			<figDesc>Photograph of the severed upper portion of notebook leaf 22, used by Whitman 
+ 			as a paste-over revision to "So Long!"</figDesc>
+                    <graphic url="liveoakwithmoss.73"/>
+                </figure></ref>
+                and <ref type="figure">8<figure>
+ 			<head>Figure 8: Lower portion of leaf 22</head>
+ 			<p>The severed lower portion of notebook leaf 22, here used by Whitman as a paste-over 
+ 			revised opening to "Calamus" No. 18.</p>
+ 			<figDesc>Photograph of the severed lower portion of notebook leaf 22, here used by 
+ 			Whitman as a paste-over revised opening to "Calamus" No. 18.</figDesc>
+                    <graphic url="liveoakwithmoss.74"/>
+                </figure></ref>). 
+                The contour of its scissored bottom edge corresponds with the bottom edge of the paste-over
+                revision to "So Long!" and trim marks at its right edge correspond with the right
+                edges of all of the surviving <hi rend="small-caps">w</hi>1b leaves. (Their lower-right 
+                jagged edges indicate the 11 notebook sheets that formed the "Live Oak" notebook were 
+                originally among the end-sheets of a stack of paper that was too thick to allow a clean 
+                cut.) Most tellingly, a crease and two pinholes at the left of the paste-over on "Calamus" 
+                No. 18 and at the right of the paste-over on leaf 7 of "So Long" correspond with the areas 
+                where the notebook sheets were originally folded and stitched, and thus identify them as 
+                having once been parts of a notebook leaf.</p>
+            <p>The two paste-overs together constitute the final leaf of the "Live Oak" notebook,
+                but unlike other surviving notebook leaves, the one affixed to "Calamus" No. 18
+                retains a considerable portion of its conjugate half. Contrary to Bowers's
+                assumptions, this does not match the internal edge of Poem I of the "Live Oak"
+                sequence (leaf 2 in the above table). It must therefore be identified as the <hi rend="small-caps">w</hi>1b
+                conjugate half of the actual leaf 1, now unlocated along with <hi rend="small-caps"
+                    >w</hi>1b leaf 21, which was the actual conjugate half of leaf 2. It is of 
+                course no surprise that Whitman would have used opening and 
+                closing leaves as a cover for the notebook and commenced his inscription of "Live 
+                Oak, with Moss" on its second leaf rather than on its first. In all likelihood the 
+                opening leaf was left blank, for pen strokes in the light brown ink of Whitman's 
+                late revisions can be seen at the severed edges of the "Calamus" No. 
+                18 and "So Long!" paste-overs, which indicates that Whitman used leaf 1 for some 
+                form of inscription after he detached it from the notebook, but before he separated 
+                its conjugate half for the paste-over revisions to those poems.</p>
+            <p>The above evidence establishes that Whitman's original "Live Oak, with Moss" notebook
+                consisted of 22 leaves, with the sequence inscribed on the rectos of leaves 2
+                through 18. Leaves 19, 20, and 22 were left blank and used by Whitman for
+                inscription of different verses after the notebook was dismantled, as were in all
+                likelihood the lost leaves 1 and 21. However, inscription of the sequence into the
+                notebook appears not to have been carried out in a single stage or sitting. On the
+                originally constituted leaf 13 (which Whitman later severed), and positioned in the
+                very midst of the second line of Poem VIII ("Hours continuing long"), an erased
+                pencil notation in Whitman's hand reads: "finished in the other city" (see <ref type="figure">figure 9<figure>
+ 			<head>Figure 9: Section of notebook leaf 13</head>
+ 			<p>Section of notebook leaf 13, displaying opening lines of Poem VIII and (through enhanced imaging) 
+ 			    Whitman's erased notation, "finished in the other city".</p>
+                <figDesc>Section of notebook leaf 13, displaying opening lines of Poem VIII and (through enhanced 
+                    imaging) Whitman's erased notation, "finished in the other city".</figDesc>
+                    <graphic url="liveoakwithmoss.75"/>
+                </figure></ref>). 
+                The note appears to have been inscribed before Poem VIII was added to this leaf, but 
+                after Whitman had inscribed the closing line of Poem VII ("You bards of ages hence!")
+                    at its head.<ptr target="#note15" xml:id="nr15" n="15" /> In other words, Whitman's 
+                inscription of Poem VII continued from leaf 12 to the top of leaf 13, beneath which he 
+                recorded in pencil that the inscription was "finished in the other city"&#8212;a reference 
+                probably to Manhattan, as distinct from Whitman's resident city of Brooklyn (not consolidated
+                with New York City until 1898). But he subsequently erased the notation and went on
+                to inscribe Poems VIII through XII onto this and succeeding leaves, recording line 2
+                of Poem VIII directly over the erasure. Additional evidence that an interval
+                occurred at this point in the inscription consists of the fact that Whitman at first
+                mistakenly recorded the numeral "IX" as a heading for Poem VIII, and that he was
+                obliged to strike the erroneous heading and supply "VIII" beside it. Numeral
+                headings of the remaining poems follow accurately from the correction, which reveals
+                Whitman spotted the error before continuing the inscription of "Live Oak, with Moss"
+                beyond Poem VIII.<ptr target="#note16" xml:id="nr16" n="16" /></p>
+            <p> Whitman's temporary decision to finish the notebook inscription with Poem VII is difficult 
+                to explain. In Poems I through VII, the speaker distinguishes his capacity and need for 
+                companionship from the self-sufficiency of the natural world, and renounces his role 
+                as national poet for "him who loves me, as I him, in perfect love" (5.9). The speaker's 
+                rejections of nature and nation in favor of love and companionship culminate in Poem VII, 
+                where he demands of posterity that he be remembered not as a great poet but as the 
+                "tenderest lover" (7.4). Ending the sequence with Poem VII's triumphant endorsement of 
+                private companionship would have produced an expression remarkably different from the one 
+                he went on to complete as "Live Oak, with Moss." Moreover, it would also have lacked the 
+                coherence of the 12-poem cluster. The ebullience of Poem VII is qualified toward its conclusion 
+                by the speaker's expressed fear that his lover may actually be "indifferent" to him&#8212;a 
+                topic that would have been left undeveloped if Whitman had finished inscription with this 
+                poem. For it is in the following Poem VIII ("Hours continuing long") that the speaker tells 
+                of being rejected by his lover and describes his ensuing grief in moving detail. The remaining 
+                four poems inscribed by Whitman into the notebook illustrate the speaker's emergence from his 
+                grief as a newly anointed prophet of "manly love"&#8212;first with a visionary experience that 
+                introduces the expression (Poem IX), and finally with the intent to "engraft" this principle upon 
+                a disciple who is receptive to his teaching (Poem XII). This horticultural reference recalls 
+                the speaker's action in Poem II of plucking a twig from the live oak tree as a token for the 
+                meaning of the sequence and contributes to the thematic unity of the work. The movement from 
+                heartache to resolve suggests a process of sublimation that would result in the published 
+                "Calamus" cluster. Indeed, with the late brown ink he used to re-title the sequence, 
+                Whitman went on to inscribe the poem that became "Calamus" No. 39 on leaf 20 of the 
+                dismantled "Live Oak" notebook. "Calamus" No. 39 expresses similar principles of visionary 
+                compensation and resolve (see <ref type="figure">figure 6<figure>
+                        <head>Figure 6: Notebook leaf 20</head>
+                        <p>Notebook leaf 20, displaying Calamus 39</p>
+                        <figDesc>Notebook leaf 20, displaying Calamus 39</figDesc>
+                        <graphic url="liveoakwithmoss.72"/>
+                    </figure></ref>): 
+                <quote>
+                    <l>Sometimes, with one I love I fill myself with rage for fear I effuse unreturned 
+                        love;</l>
+                    <l>But now I think there is no unreturned love,&#8212;the pay is certain, one 
+                        way or another,</l>
+                    <l>Doubtless I could not have perceived the universe or written one of my songs, 
+                        if I had not freely given myself to comrades, to love.&#8212;<ptr target="#note17" xml:id="nr17" n="17" /></l>
+                </quote> 
+                That Whitman commenced inscription with the intention of including all twelve poems seems 
+                likely from the number of leaves he folded and stitched together for his notebook. A shorter 
+                notebook would have sufficed if he had planned to copy out a sequence comprising only the 
+                first seven. Whatever the reasons for the pause, Whitman resumed inscription and completed 
+                his fair-copy version of all twelve poems under the title, "Live Oak, with Moss."</p>
+            <p>The act of dismantlement corresponded with or led to Whitman's new conception of the twelve
+                poems as parts of a different cluster, one to which he would devote at least two of
+                the remaining blank notebook leaves for three new poems, and in which he would develop 
+                the equation of love and camaraderie with universal vision.<ptr
+                    target="#note18" xml:id="nr18" n="18" /> In foliating the sixteen separated
+                notebook leaves, Whitman documented the fair-copy order of the poems. But the
+                assortment of holes among the leaves reveals they underwent various groupings in
+                their detached states. In processes of perusal and revision Whitman attached,
+                detached and reattached the loose leaves of individual poems at different times by
+                pinning them together at their centers, at their center heads, and at their upper
+                left corners. Additional holes along the tops of all the leaves and in the centers
+                of some indicate they were tacked to a surface&#8212;presumably the
+                wall by Whitman's work space (see note 4 and <ref type="figure">figure 3<figure>
+                        <head>Figure 3: Lower half of notebook leaf 11</head>
+                        <p>Lower half of notebook leaf 11, displaying thread and holes.</p>
+                        <figDesc>Lower half of notebook leaf 11, displaying thread and holes.
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.19"/>
+                    </figure></ref>). 
+                But in no instance can these holes be said to align on all of the leaves that comprise 
+                the original sequence, and a considerable difference in the quantities of holes at the 
+                heads of leaves 2 through 8 and leaves 9 through 18 would seem to indicate that Whitman 
+                divided the poems into two or more groups. A pattern of twelve holes with duplicate spatial 
+                relationships occurs on leaves 9-18, among other holes that are not a part of the pattern. 
+                A surviving strand of thread in one of these twelve holes at the corner of leaf 11 suggests 
+                Whitman once stitched these leaves together along their heads into a single group. It is odd 
+                that the sequence of threaded holes commences on leaf 9, for this leaf constitutes the second 
+                leaf of Poem V (displaying lines 6 through 11), of which the beginning leaf 8 displays only five 
+                pin and tack holes at its head and two at its upper left corner, none of which correspond with 
+                the threaded pattern on leaves 9 through 18 (see <ref type="figure">figure 10<figure>
+                        <head>Figure 10: Notebook leaves 8 through 18</head>
+                        <p>Notebook leaves 8 through 18, displaying a proliferation of thread holes that commences 
+                            with leaf 9 (the second leaf of Poem V). The holes circled in red correspond with the 
+                            threaded hole on leaf 11 and begin a pattern of 12 holes that is identical on leaves 9 
+                            through 18, indicating they were sewn together at these points.</p>
+                        <figDesc>Notebook leaves 8 through 18, displaying a proliferation of thread holes that commences 
+                            with leaf 9 (the second leaf of Poem V). The holes circled in red correspond with the 
+                            threaded hole on leaf 11 and begin a pattern of 12 holes that is identical on leaves 9 
+                            through 18, indicating they were sewn together at these points.</figDesc>
+                        <graphic url="liveoakwithmoss.76"/>
+                    </figure></ref>).</p>
+            <p> Poem I displays only a single tack hole at its head (as distinct from pin holes created by its being 
+                pinned to other leaves), and nine at its center. Poem I was at one point pinned together at the center 
+                with Poem II, as were possibly Poems XI and XII. But matching glue vestiges on the right verso edge of 
+                Poem XI (leaf 17), on the left recto and right verso of what would become "Calamus" 37 ("A leaf for 
+                hand-in-hand!"), and on the left recto edge of Poem XII (leaf 18) reveal Whitman's temporary grouping 
+                of these three poems in that order at some point after disassembly of the notebook
+                (see <ref type="figure">figures 11<figure>
+                        <head>Figure 11: Notebook leaf 17 and "Calamus" 37</head>
+                        <p>Verso of notebook leaf 17 and recto of leaf displaying "Calamus" 37, with enhanced imaging at 
+                            their adjacent edges to illustrate a residual glue pattern where these leaves were temporarily 
+                            attached after dismantlement of the "Live Oak" notebook.</p>
+                        <figDesc>Verso of notebook leaf 17 and recto of leaf displaying "Calamus" 37, with enhanced 
+                            imaging at their adjacent edges to illustrate a residual glue pattern where these leaves 
+                            were temporarily attached after dismantlement of the "Live Oak" notebook.</figDesc>
+                        <graphic url="liveoakwithmoss.77"/>
+                    </figure></ref>
+                and <ref type="figure">12<figure>
+                        <head>Figure 12: "Calamus" 37 and notebook leaf 18</head>
+                        <p>Verso of "Calamus" 37 and recto of notebook leaf 18, with enhanced imaging at their adjacent edges 
+                            to illustrate a residual glue pattern where these leaves were temporarily attached after 
+                            dismantlement of the "Live Oak" notebook.</p>
+                        <figDesc>Verso of "Calamus" 37 and recto of notebook leaf 18, with enhanced imaging at their adjacent 
+                            edges to illustrate a residual glue pattern where these leaves were temporarily attached after 
+                            dismantlement of the "Live Oak" notebook.</figDesc>
+                        <graphic url="liveoakwithmoss.78"/>
+                    </figure></ref>). 
+                A matching pattern of tack holes in the center of Poem I and the center of what
+                would become "Calamus" 2 ("Scented herbage of my breast") suggests Whitman combined
+                these two temporarily as well when he was still conceiving of "Not the heat flames
+                up and consumes" as an introductory poem that would commence the larger cluster he
+                projected as "Calamus-Leaves." The variation of pin and tack holes among the leaves 
+                shows that although Whitman grouped numbers of the twelve poems together,
+                he also combined them with new poems and did not regroup all twelve in this manner 
+                after dismantlement. As Bowers noted, emendations in the foliation suggest that 
+                Whitman considered alternative arrangements in the process of numbering the leaves 
+                at their lower left corners (<hi rend="italic">Whitman's Manuscripts</hi>
+                lxvi). Whereas the foliation documents the original notebook order of
+                the poems, it does not indicate their reconstitution as a sequence during this
+                revisory work stage of their history.</p></div>
+                 <div>
+                     <head type="small-main">Revisions to the "Live Oak" Poems</head>
+            <p> The evidence of shuffling and dispersal indicates that the "Live Oak, with Moss" 
+                sequence quickly lost integrity following Whitman's dismantlement of the notebook. 
+                In that earlier form it assumed its most stable state as a discretely inscribed work, 
+                whereas in disassembly the poems commenced new stages of revision, transmission, and 
+                absorption within Whitman's new agenda for a larger cluster of poems intended for 
+                publication in the third edition of <hi rend="italic">Leaves of Grass</hi>. The following 
+                table classifies Whitman's revisions to the manuscripts. The number designations refer to 
+                poem numbers and verse line numbers (as with the Class 1 revision identified as "1.5" 
+                for Poem I, line 5) in the restorative edition that follows the present essay.</p>
+            <table>
+                <head type="main">Table 2</head>
+                <row>
+                    <cell>
+                        
+                            <hi rend="bold">Class 1 Ink</hi>
+                        
+                   </cell>
+                    <cell>
+                        
+                            <hi rend="bold">Class 2 Ink</hi>
+                        
+                   </cell>
+                    <cell>
+                        
+                            <hi rend="bold">Class 3 Ink</hi>
+                        
+                   </cell>
+                    <cell>
+                        
+                            <hi rend="bold">Class 4 Ink</hi>
+                        
+                   </cell>
+                    <cell>
+                        
+                            <hi rend="bold">Pencil</hi>
+                        
+                   </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">1.5 to
+                            <figure>
+                                <head>Class 1 revision, 1.5 to</head>
+                                <figDesc>Class 1 revision, 1.5 to
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.21"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">2.9 live oak
+                            <figure>
+                                <head>Class 2 revision, 2.9 live oak</head>
+                                <figDesc>Class 2 revision, 2.9 live oak
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.22"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">Title Live Oak, with Moss.
+                            <figure>
+                                <head>Class 3 revision, Title Live Oak, with Moss.</head>
+                                <figDesc>Class 3 revision, Title Live Oak, with Moss.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.23"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">2.7 lately
+                            <figure>
+                                <head>Class 4 revision, 2.7 lately</head>
+                                <figDesc>Class 4 revision, 2.7 lately
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.24"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">2.3 with
+                            <figure>
+                                <head>Pencil revision, 2.3 with</head>
+                                <figDesc>Pencil revision, 2.3 with
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.25"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">3.1 followed
+                            <figure>
+                                <head>Class 1 revision, 3.1 followed</head>
+                                <figDesc>Class 1 revision, 3.1 followed
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.26"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">7.1 !
+                            <figure>
+                                <head>Class 2 revision, 7.1 !</head>
+                                <figDesc>Class 2 revision, 7.1 !
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.27"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">2.8 I write . . . after it
+                            <figure>
+                                <head>Class 3 revision, 2.8 I write . . . after it</head>
+                                <figDesc>Class 3 revision, 2.8 I write . . . after it
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.28"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.3 the
+                            <figure>
+                                <head>Class 4 revision, 3.3 the</head>
+                                <figDesc>Class 4 revision, 3.3 the
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.29"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.2 Or
+                            <figure>
+                                <head>Pencil revision, 3.2 Or</head>
+                                <figDesc>Pencil revision, 3.2 Or
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.30"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">4.2 It
+                            <figure>
+                                <head>Class 1 revision, 4.2 It</head>
+                                <figDesc>Class 1 revision, 4.2 It
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.31"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">3.9-11 And that night . . . I was happy
+                            <figure>
+                                <head>Class 3 revision, 3.9-11 And that night . . . I was happy</head>
+                                <figDesc>Class 3 revision, 3.9-11 And that night . . . I was happy
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.32"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">6.4 two men
+                            <figure>
+                                <head>Class 4 revision, 6.4 two men</head>
+                                <figDesc>Class 4 revision, 6.4 two men
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.33"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.2 And else,
+                            <figure>
+                                <head>Pencil revision, 3.2 And else,</head>
+                                <figDesc>Pencil revision, 3.2 And else,
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.34"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">5.6 Lake
+                            <figure>
+                                <head>Class 1 revision, 5.6 Lake</head>
+                                <figDesc>Class 1 revision, 5.6 Lake
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.35"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">5.3 I heard the examples
+                            <figure>
+                                <head>Class 3 revision, 5.3 I heard the examples</head>
+                                <figDesc>Class 3 revision, 5.3 I heard the examples
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.36"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">6.5 to remain
+                            <figure>
+                                <head>Class 4 revision, 6.5 to remain (first instance)</head>
+                                <figDesc>Class 4 revision, 6.5 to remain (first instance)
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.37"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.2 my plans
+                            <figure>
+                                <head>Pencil revision, 3.2 my plans</head>
+                                <figDesc>Pencil revision, 3.2 my plans
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.38"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">7.8 and
+                            <figure>
+                                <head>Class 1 revision, 7.8 and</head>
+                                <figDesc>Class 1 revision, 7.8 and
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.39"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">11.1 My likeness!
+                            <figure>
+                                <head>Class 3 revision, 11.1 My likeness!</head>
+                                <figDesc>Class 3 revision, 11.1 My likeness!
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.40"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">6.5 to depart
+                            <figure>
+                                <head>Class 4 revision, 6.5 to depart</head>
+                                <figDesc>Class 4 revision, 6.5 to depart
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.41"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.2 it was well enough
+                            <figure>
+                                <head>Pencil revision, 3.2 it was well enough</head>
+                                <figDesc>Pencil revision, 3.2 it was well enough
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.42"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">8 VIII.
+                            <figure>
+                                <head>Class 1 revision, 8 VIII.</head>
+                                <figDesc>Class 1 revision, 8 VIII.
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.43"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">6.5 to remain
+                            <figure>
+                                <head>Class 4 revision, 6.5 to remain (second instance)</head>
+                                <figDesc>Class 4 revision, 6.5 to remain (second instance)
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.44"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.2 Still I was not happy
+                            <figure>
+                                <head>Pencil revision, 3.2 Still I was not happy</head>
+                                <figDesc>Pencil revision, 3.2 Still I was not happy
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.45"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">8.2 dusk
+                            <figure>
+                                <head>Class 1 revision, 8.2 dusk</head>
+                                <figDesc>Class 1 revision, 8.2 dusk
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.46"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">7.10 through fields,
+                            <figure>
+                                <head>Class 4 revision, 7.10 through fields,</head>
+                                <figDesc>Class 4 revision, 7.10 through fields
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.47"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.3 the
+                            <figure>
+                                <head>Pencil revision, 3.3 the</head>
+                                <figDesc>Pencil revision, 3.3 the
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.48"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">8.2 seating
+                            <figure>
+                                <head>Class 1 revision, 8.2 seating</head>
+                                <figDesc>Class 1 revision, 8.2 seating
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.49"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">7.10 woods, on
+                            <figure>
+                                <head>Class 4 revision, 7.10 woods, on</head>
+                                <figDesc>Class 4 revision, 7.10 woods, on
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.50"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.3 when
+                            <figure>
+                                <head>Pencil revision, 3.3 when</head>
+                                <figDesc>Pencil revision, 3.3 when
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.51"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">8.4 him content
+                            <figure>
+                                <head>Class 1 revision, 8.4 him content</head>
+                                <figDesc>Class 1 revision, 8.4 him content
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.52"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">10.1 often and
+                            <figure>
+                                <head>Class 4 revision, 10.1 often and</head>
+                                <figDesc>Class 4 revision, 10.1 often and
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.53"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.6 then I
+                            <figure>
+                                <head>Pencil revision, 3.6 then I</head>
+                                <figDesc>Pencil revision, 3.6 then I
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.54"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">8.5 forgotten
+                            <figure>
+                                <head>Class 1 revision, 8.5 forgotten</head>
+                                <figDesc>Class 1 revision, 8.5 forgotten
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.55"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">11.1 spheric there
+                            <figure>
+                                <head>Class 4 revision, 11.1 spheric there</head>
+                                <figDesc>Class 4 revision, 11.1 spheric there
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.56"/>
+                            </figure></ref>
+                    </cell>
+                    <cell>
+                        <ref type="figure">3.7 O then each
+                            <figure>
+                                <head>Pencil revision, 3.7 O then each</head>
+                                <figDesc>Pencil revision, 3.7 O then each
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.57"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">10.1 where you
+                            <figure>
+                                <head>Class 1 revision, 10.1 where you</head>
+                                <figDesc>Class 1 revision, 10.1 where you
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.58"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">4.2 China, or in
+                            <figure>
+                                <head>Pencil revision, 4.2 China, or in</head>
+                                <figDesc>Pencil revision, 4.2 China, or in
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.59"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">11.3 For
+                            <figure>
+                                <head>Class 1 revision, 11.3 For</head>
+                                <figDesc>Class 1 revision, 11.3 For
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.60"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">4.3 better
+                            <figure>
+                                <head>Pencil revision, 4.3 better</head>
+                                <figDesc>Pencil revision, 4.3 better
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.61"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <ref type="figure">11.3 &#8212;and
+                            <figure>
+                                <head>Class 1 revision, 11.3 &#8212;and</head>
+                                <figDesc>Class 1 revision, 11.3 &#8212;and
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.60"/>
+                            </figure></ref>
+                    </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">4.5 know . . . know
+                            <figure>
+                                <head>Pencil revision, 4.5 know . . . know</head>
+                                <figDesc>Pencil revision, 4.5 know . . . know
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.63"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                        <cell><ref type="figure">12.2 the blood
+                            <figure>
+                                <head>Class 1 revision, 12.2 the blood</head>
+                                <figDesc>Class 1 revision, 12.2 the blood
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.62"/>
+                            </figure></ref></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">5.2 my lands
+                            <figure>
+                                <head>Pencil revision, 5.2 my lands</head>
+                                <figDesc>Pencil revision, 5.2 my lands
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.64"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">5.2 me&#8212;
+                            <figure>
+                                <head>Pencil revision, 5.2 me&#8212;</head>
+                                <figDesc>Pencil revision, 5.2 me&#8212;
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.65"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">5.8 I have passed ahead&#8212;
+                            <figure>
+                                <head>Pencil revision, 5.8 I have passed ahead&#8212;</head>
+                                <figDesc>Pencil revision, 5.8 I have passed ahead&#8212;
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.66"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">9.3 the quality of
+                            <figure>
+                                <head>Pencil revision, 9.3 the quality of</head>
+                                <figDesc>Pencil revision, 9.3 the quality of
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.67"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">12.1 develope
+                            <figure>
+                                <head>Pencil revision, 12.1 develope</head>
+                                <figDesc>Pencil revision, 12.2 develope
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.68"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">12.2 rolls
+                            <figure>
+                                <head>Pencil revision, 12.2 rolls</head>
+                                <figDesc>Pencil revision, 12.2 rolls
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.69"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>
+                        <ref type="figure">12.2 divine
+                            <figure>
+                                <head>Pencil revision, 12.2 divine</head>
+                                <figDesc>Pencil revision, 12.2 divine
+                                </figDesc>
+                                <graphic url="liveoakwithmoss.70"/>
+                            </figure></ref>
+                    </cell>
+                </row>
+            </table>
+            <p>Whitman's ink revisions to the poems of "Live Oak, with Moss" are here classified as
+                follows: 1) black ink emendations made in the process of its fair copy inscription;
+                2) black ink revisions possibly made after initial inscription but demonstrably before 
+                dismantlement; 3) black and brown ink revisions made to the poems after dismantlement; 
+                4) black ink revisions that cannot with certainty be identified as preceding or following 
+                dismantlement. Returning the poems as closely as possible to their notebook states requires 
+                observance of ink revisions classified as 1, 2, and 4, and restoration of original wording 
+                altered or canceled by Whitman in class 3 revisions. Class 1 revisions consist of in-line 
+                emendations Whitman made to errors he committed while copying the sequence into the notebook 
+                from drafts. These include corrections Whitman made by wiping away the wet ink of the 
+                mis-written letter and inscribing the correct character at the site of the wipe (e.g. <ref type="figure">1.5 to<figure>
+                        <head>Class 1 revision, 1.5 to</head>
+                        <figDesc>Class 1 revision, 1.5 to
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.21"/>
+                    </figure></ref> in Table 2) 
+                and instances of direct overwriting where the nature of the error and material appearance of 
+                the emendation indicate it was performed mid-inscription with the same ink (e.g. <ref type="figure">3.1 followed<figure>
+                        <head>Class 1 revision, 3.1 followed</head>
+                        <figDesc>Class 1 revision, 3.1 followed
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.26"/>
+                    </figure></ref>). 
+                Two class 1 revisions (<ref type="figure">10.1 where you<figure>
+                            <head>Class 1 revision, 10.1 where you</head>
+                            <figDesc>Class 1 revision, 10.1 where you
+                            </figDesc>
+                            <graphic url="liveoakwithmoss.58"/>
+                        </figure></ref> 
+                and <ref type="figure">12.2 the blood<figure>
+                            <head>Class 1 revision, 12.2 the blood</head>
+                            <figDesc>Class 1 revision, 12.2 the blood
+                            </figDesc>
+                            <graphic url="liveoakwithmoss.62"/>
+                        </figure></ref>) 
+                include strikeouts that correct what were apparently eye-skips, with Whitman erroneously 
+                transcribing a word from his draft at the wrong point of a line in the notebook, then 
+                immediately catching the error, cancelling it with diagonal pen strokes, and proceeding 
+                with the correct word. Class 2 revisions consist of alterations Whitman made to leaves 4 
+                (<ref type="figure">2.9 live oak<figure>
+                        <head>Class 2 revision, 2.9 live oak</head>
+                        <figDesc>Class 2 revision, 2.9 live oak
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.22"/>
+                    </figure></ref>) 
+                and 12 (<ref type="figure">7.1 !<figure>
+                        <head>Class 2 revision, 7.1 !</head>
+                        <figDesc>Class 2 revision, 7.1 !
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.27"/>
+                    </figure></ref>) 
+                of the intact notebook. The first comprises two sequential changes to line 9 of Poem II: 
+                Whitman's alteration of "tree" to "live oak," involving his mis-inscription of <hi rend="italic">f</hi> for <hi rend="italic">v</hi>, 
+                and his emendation of the error. The second is Whitman's replacement of a comma by an 
+                exclamation point at line 1 of Poem VII.<ptr target="#note19" xml:id="nr19" n="19" />  
+                The ambiguous class 4 revisions consist of black-ink cancellations and/or additions made 
+                by Whitman in Poems II, III, VI, VII, X, and XI (see the class 4 column in Table 2). None 
+                produced offsets on the versos of leaves that had preceded them in the intact notebook, and 
+                this fact alone might suggest that their leaves were detached at the time of revision. But 
+                since class 4 changes cannot certainly be identified as following dismantlement, they are 
+                observed in the text of the restored edition with XML encoding. All of the class 4 changes 
+                can be described as stylistic in character, involving local alterations in phraseology and 
+                word choice. Their neatness of execution indicates a closer relationship to Whitman's fair-copy 
+                inscription than to the untidy redrafting stage of his later pencil alterations (discussed below).</p>
+            <p>Class 3 revisions are identifiable as such by their ink varieties, by their offsets
+                on the versos of leaves to which they were pinned after dismantlement, and, in the
+                case of a paste-over revision to Poem III, by ink clouding that occurred where the
+                two dismantled leaves comprising this poem were pinned together before the revisory
+                ink and glue were dry.<ptr target="#note20" xml:id="nr20" n="20" /> The two brown ink
+                class 3 revisions constitute Whitman's cancellation of the title "Live Oak, with Moss" 
+                and substitution of "Calamus-Leaves" and his likely corresponding revision to Poem II, 
+                line 8, which eliminated the poem's collective reference to the sequence. As discussed 
+                above, the ink medium of both revisions associates them with a late stage of transmission 
+                in Whitman's manuscripts for the 1860 <hi rend="italic">Leaves</hi>. In addition, offsets on the 
+                verso of the first leaf of Poem II from Whitman's brown ink strikeouts and interlineations 
+                on the next leaf match with their origins when pinholes at the tops of the leaves are aligned rather 
+                than when the notebook hinge points of the leaves are aligned (see  
+                <ref type="figure">figure 13<figure>
+ 			<head>Figure 13: Revision site on notebook leaf 4 and corresponding ink offsets on verso 
+ 			of leaf 3</head>
+                    <p>Revision site on notebook leaf 4 from enhanced images displaying Whitman's brown-ink cancellation and interlineation 
+ 			(top), ink offsets from the revision on the verso of leaf 3 (middle, flipped horizontally), and a merged image 
+ 			of both showing the match-up of offsets with their origins (bottom) while hinge points 
+ 			of the two leaves (circled in red) are misaligned.</p>
+                    <figDesc>Revision site on notebook leaf 4 from enhanced images displaying Whitman's brown-ink cancellation and 
+ 			interlineation (top), ink offsets from the revision on the verso of leaf 3 (middle), and 
+ 			a merged image of both showing the match-up of offsets with their origins (bottom) while 
+ 			hinge points of the two leaves (circled in red) are misaligned.</figDesc>
+                    <graphic url="liveoakwithmoss.79"/>
+                </figure></ref>).
+                The combined evidence of ink medium and offset alignment demonstrates that the revision to 
+                Poem II occurred after dismantlement.</p>
+            <p>The three remaining class 3 revisions involve alterations to Poems III, V, and XI.
+                The case of Poem III constitutes the most substantial change Whitman made to the
+                "Live Oak" poems after disassembly, and ranks with his light brown ink alteration of
+                Poem II as the most consequential for matters of critical interpretation of the
+                sequence. Inscribed on notebook leaves 5 and 6, Poem III of "Live Oak, with Moss"
+                begins with the speaker explaining that his experiences of fame, carousal, and
+                personal accomplishment have not brought him happiness, moves on to his account of
+                meeting with his lover in a natural beach setting, and concludes with his
+                recollection that this meeting alone brought him joy. The original notebook version
+                includes his address to the ocean waves: "And that night O you happy waters, I heard
+                you beating the shores&#8212;But my heart beat happier than you&#8212;for he
+                I love was returned and sleeping by my side" (3.9; see <ref type="figure">figures 14<figure>
+ 			<head>Figure 14: Back-lit image of Notebook leaf 5 (1 of 2)</head>
+                    <p>A back-lit image of the verso of notebook leaf 5, flipped horizontally.
+                        Select "next" to display an enhanced version that isolates Whitman's original 
+                        lines 9-11 of Poem III.</p>
+                    <figDesc>A back-lit image of the verso of notebook leaf 5, flipped horizontally.
+                        Select "next" to display an enhanced version that isolates Whitman's original 
+                        lines 9-11 of Poem III.</figDesc>
+                    <graphic url="liveoakwithmoss.03.03"/>
+                </figure></ref>
+                and <ref type="figure">15<figure>
+ 			<head>Figure 15: Back-lit image of Notebook leaf 5 (2 of 2)</head>
+ 			<p>A back-lit image of the verso of notebook leaf 5, flipped horizontally and enhanced 
+ 			    to reveal Whitman's original lines 9-11 of Poem III.</p>
+                    <figDesc>A back-lit image of the verso of notebook leaf 5, flipped horizontally and enhanced
+                        to reveal Whitman's original lines 9-11 of Poem III.</figDesc>
+                    <graphic url="liveoakwithmoss.80"/>
+                </figure></ref>). 
+                His subordination of natural processes to human emotional experience follows 
+                consistently from similar motifs in Poems I and II, where the speaker has declared 
+                that nature cannot fulfill or compare with the needs and capacities of the emotionally 
+                endowed self. But Whitman changed the conclusion to Poem III with a paste-over revision 
+                on white wove paper that has the speaker recollecting "the hissing rustle of the liquid 
+                and sands, as directed to me, whispering, to congratulate me," thus replacing its original 
+                subordinating address with a sympathetic identification between the self and nature 
+                (see <ref type="figure">figure 16<figure>
+ 			<head>Figure 16: Paste-over revision to Poem III</head>
+ 			<p>Whitman's paste-over revision for lines 9-12 of Poem III on notebook leaf VI.</p>
+ 			<figDesc>Photograph of Whitman's paste-over revision for lines 9-12 of Poem III on notebook leaf VI.</figDesc>
+                    <graphic url="liveoakwithmoss.81"/>
+                </figure></ref>).</p>
+            <p>Bowers observed of the leaf 6 paste-over that it "seems to have been added after the
+                leaf was removed from the notebook" (<hi rend="italic">Whitman's Manuscripts</hi>
+                lxvi), but he offered no explanation or support for this judgment. That the revision
+                to Poem III was indeed undertaken by Whitman after dismantlement is revealed by
+                several material details. The verso of leaf 5 displays ink offsets from the
+                opening line of the paste-over revision: "And that night, while all was still, I
+                heard the waters roll slowly continually up the shores." In Whitman's act of
+                inscribing this line, ink accumulated in the initial downward pen strokes of the <hi
+                    rend="italic">w</hi>'s in the words "was" and "waters." These two points produced
+                offsets when Whitman went on to pin leaves 5 and 6 back to front, with the revisory
+                paste-over on the recto of leaf 6 making contact with the verso of leaf 5. Scarcity
+                of additional offsets on the verso of leaf 5 indicates that by the time of contact
+                the surface of the paste-over had mainly dried except for the two pen strokes that
+                begin "was" and "waters," each of which commences a new line of text, and each of
+                which apparently followed fresh replenishments of ink to the point of Whitman's pen
+                during inscription.</p>
+            <p>Matching the ink offsets from "was" and "waters" on the verso of leaf 5 with their
+                origins on leaf 6 results in simultaneous alignment of both the middle pinholes of 
+                these two leaves and the original notebook hinge points of the leaves; and
+                therefore the spatial correspondence of offsets and pinholes does not by itself
+                confirm that the paste-over revision was applied to Poem III after rather than
+                before dismantlement. Post-dismantlement revision is confirmed, however, by additional
+                evidence that the revisory ink was still wet beneath the surface of inscription when
+                Whitman pinned the two detached notebook leaves at their middles, most especially by
+                ink bleeding in the opening line of the revision where the pin penetrated the
+                paste-over leaf. The pin pierced the paste-over at the apex of the <hi rend="italic"
+                    >t</hi> in "night," and the extra compression of the paste-over onto the
+                underlying leaf at this point of pressure caused the fresh ink to mix with the wet
+                layer of glue beneath, producing a cloud of diluted ink that envelopes both the <hi
+                    rend="italic">h</hi> and the <hi rend="italic">t</hi> at the end of "night" (see 
+                <ref type="figure">figure 17<figure>
+ 			<head>Figure 17: Detail of notebook leaf 5</head>
+ 			<p>Details of notebook leaf 5 from unenhanced and back-lit images illustrating the entry 
+ 			    and exit holes (at "my" and "night," respectively) of the pin that connected this leaf 
+ 			    to notebook leaf 4, along with the wet ink and glue clouding that resulted from the compression.</p>
+                <figDesc>Details of notebook leaf 5 from unenhanced and back-lit images illustrating the entry 
+                    and exit holes (at "my" and "night," respectively) of the pin that connected this leaf 
+                    to notebook leaf 4, along with the wet ink and glue clouding that resulted from the compression.</figDesc>
+                    <graphic url="liveoakwithmoss.82"/>
+                </figure></ref>). 
+                An identical effect resulted around the dot of the <hi rend="italic">i</hi> in the 
+                adjacent word "while" at the right of "night." Directly to the left of this central 
+                point, glue was squeezed out from under the pasteover where Whitman pinched the left 
+                edges of the separate leaves together while pinning them. This seepage temporarily 
+                bonded the two leaves at this position, and a vestige of the glue remains on the verso 
+                of leaf 5 where the bonding occurred. Each of these areas signifies a high-pressure 
+                point where Whitman grasped and pinned leaves 5 and 6 at their middles. With the 
+                corresponding offsets from the
+                    <hi rend="italic">w</hi>'s at "was" and "waters," which also are situated in this
+                vicinity where Whitman handled the leaves to pin them together, the ink clouding and
+                vestigial glue supply material proof that leaves 5 and 6 were not joined at the
+                hinges of an intact notebook when Whitman applied the past-over patch to Poem III, 
+                but existed as separate leaves at the time of revision.<ptr target="#note21" xml:id="nr21" n="21" /></p>
+            <p>Another class 3 revision occurred on leaf 8 when Whitman revised Poem V ("Long I
+                thought that knowledge alone would suffice me") by striking "the examples" from the
+                clause, "I heard the examples of warriors," with five diagonal black ink strokes
+                (5.3). The four cancellation strokes applied to "examples" offset to the verso of the preceding
+                leaf 7 when Whitman pinned the two leaves together at the top, and these offsets
+                align with the original pen strokes on leaf 8 when the pinholes are aligned, but
+                not when the notebook hinge points of the leaves are aligned (see <ref type="figure">figure 18<figure>
+                        <head>Figure 18: Revision site on notebook leaf 8 and corresponding ink offsets on verso 
+                            of leaf 7</head>
+                        <p>Revision site on notebook leaf 8 from enhanced images displaying Whitman's cancellation of "examples" 
+                            (top), ink offsets from the revision on the verso of leaf 7 (middle, flipped horizontally), 
+                            and a merged image of both showing the match-up of offsets with their origins (bottom) 
+                            while hinge points of the two leaves (circled in red) are misaligned.</p>
+                        <figDesc>Revision site on notebook leaf 8 from enhanced images displaying Whitman's cancellation of "examples" 
+                            (top), ink offsets from the revision on the verso of leaf 7 (middle, flipped horizontally), 
+                            and a merged image of both showing the match-up of offsets with their origins (bottom) while 
+                            hinge points of the two leaves (circled in red) are misaligned.</figDesc>
+                        <graphic url="liveoakwithmoss.83"/>
+                    </figure></ref>). 
+                The final class 3 revision was made by Whitman on leaf 17 to the opening line of Poem XI, 
+                which in its notebook state begins "Earth! My likeness!" (11.1). Whitman cancelled the 
+                expression "My likeness!" with three diagonal strokes in a black ink. The ink offset to the verso 
+                of leaf 16, but the offsets fail to match with the positions of the original pen strokes when either 
+                the hinge points or the pinholes are aligned (see <ref type="figure">figure 19<figure>
+                        <head>Figure 19: Revision site on notebook leaf 17 and corresponding ink offsets on verso 
+                            of leaf 16</head>
+                        <p>Revision site on notebook leaf 17 from enhanced images displaying Whitman's cancellation of "My likeness!" 
+                            (top), ink offsets from the revision on the verso of leaf 16 (middle, flipped horizontally), 
+                            and a merged image of both showing the mis-match of offsets with their origins (bottom) 
+                            while hinge points of the two leaves are aligned.</p>
+                        <figDesc>Revision site on notebook leaf 17 from enhanced images displaying Whitman's cancellation of "My likeness!" 
+                            (top), ink offsets from the revision on the verso of leaf 16 (middle, flipped horizontally), 
+                            and a merged image of both showing the mis-match of offsets with their origins (bottom) 
+                            while hinge points of the two leaves are aligned.</figDesc>
+                        <graphic url="liveoakwithmoss.84"/>
+                    </figure></ref>). 
+                In fact, the pen strokes and their offsets do not even align uniformly with one another when any one of 
+                the strikeouts on leaf 17 is matched to its offset on leaf 16. Perhaps the best explanation for this 
+                nonalignment is that it resulted from some modest degree of paper shuffling by Whitman when the 
+                ink from the pen strokes was still wet, which itself suggests that the leaves were detached from 
+                the notebook when the revision was made. Whatever the case, non-alignment between the offsets 
+                and hinge points supplies conclusive proof that the leaves existed in detached states at the time 
+                of revision.</p>
+            <p>Whitman's ink alterations to the "Live Oak" poems display a level of care and
+                neatness of execution that indicates considerable concern to preserve their neat
+                appearance. But no such care is evident in his pencil alterations, in which
+                cancellations appear not as precise diagonal slashes and single horizontal strikes
+                but as rapidly executed cross-outs and scribbled blots (e.g., <ref type="figure">2.3 with<figure>
+                        <head>Pencil revision, 2.3 with</head>
+                        <figDesc>Pencil revision, 2.3 with
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.25"/>
+                    </figure></ref>). 
+                The execution of pencil interlineations, too, reveals a compression of script and untidy 
+                placement much more characteristic of draft status than of finalized copy (e.g., <ref type="figure">5.2 me&#8212;<figure>
+                        <head>Pencil revision, 5.2 me&#8212;</head>
+                        <figDesc>Pencil revision, 5.2 me&#8212;
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.65"/>
+                    </figure></ref>). 
+                From his broad survey of the manuscripts in the Barrett Collection at the University of 
+                Virginia, Bowers identified a revision sequence of pencil, dark ink, pencil again, and 
+                brown ink (<hi rend="italic">Whitman's Manuscripts</hi> lii and xxvii). While additional 
+                sub-stages are likely, the superseding of a class 4 black ink revision by multiple pencil 
+                stages on leaf 5, Poem III (<ref type="figure">3.3 the<figure>
+                        <head>Class 4 revision, 3.3 the</head>
+                        <figDesc>Class 4 revision, 3.3 the
+                        </figDesc>
+                        <graphic url="liveoakwithmoss.29"/>
+                    </figure></ref>), 
+                indicates Whitman's pencil revisions to the "Live Oak" poems can be classified as among 
+                those that occurred later rather than earlier in the sequence of revision. But it is their 
+                work-stage appearance that most clearly indicates Whitman had ceased to be concerned about 
+                the visual appearance of the manuscripts when he made the pencil changes. They contrast 
+                markedly with the fair-copy state of the ink inscription, and can be grouped with the class 
+                3 ink revisions as changes that followed disassembly.</p></div>
+                 <div>
+                     <head type="small-main">Interpretive Significance of the Restorations</head>
+            <p>The original "Live Oak, with Moss" sequence displays powerful thematic patterns that
+                are muddled by the versions currently in print. The speaker's reference to the
+                sequence as a collective whole in Poem II ("I saw in Louisiana a live-oak growing") 
+                would seem naturally to imply such unifying elements. But in addition to removing
+                the reference itself, Whitman's brown-ink revision to this poem prematurely
+                introduces the concept of "manly love" that had originally not appeared in the
+                sequence until Poem IX ("I dreamed in a dream"), where it emerged with climactic 
+                effect in the speaker's dream vision of a fraternal urban stronghold. Whitman, of 
+                course, had no intention of diminishing this culminative impact when he made the 
+                revision, for he had already disassembled the sequence and was focused instead on 
+                incorporating Poem II within a larger cluster of poems. As "Calamus" No. 20, Poem 
+                II has become one of Whitman's best known poems, and it is widely anthologized apart 
+                from the "Calamus" cluster. Its reference to "manly love" has come to be associated 
+                with his signature comradeship theme perhaps more routinely than any other line in 
+                <hi rend="italic">Leaves of Grass</hi>. But its presence in Poem II has a dampening 
+                effect on the role Whitman originally intended for the concept in "Live Oak, with Moss," 
+                where in Bowers's edition its early intrusion diminishes the original impact it carried 
+                near the end of the sequence in Poem IX.</p>
+            <p>The paste-over alteration to Poem III has similarly distorting effects when it is
+                allowed to stand as a legitimate revision to "Live Oak, with Moss." At the very
+                outset of the sequence in Poem I, Whitman established a motif of emotional primacy
+                over nature with the speaker's avowal that "Not the heat flames up and consumes, /
+                Not the sea-waves hurry in and out . . . more than the flames of me, consuming,
+                burning for his love whom I love&#8212;O none, more than I, hurrying in and out"
+                (1.1-4). The rhetoric of negation extends to Poem II, where the speaker distances
+                himself from nature in the form of the live oak tree that stands "alone there
+                without its friend, its lover&#8212;For I knew I could not" (11). The notebook
+                state of Poem III follows coherently from the previous two, with the speaker
+                declaring his happiness in terms that combine his subordinating conception of nature
+                in Poem I and his rejection of the tree's solitary joy in Poem II (see <ref type="figure">figure 15<figure>
+                    <head>Figure 15: Back-lit image of Notebook leaf 5 (2 of 2)</head>
+                    <p>A back-lit image of the recto of notebook leaf 5, flipped horizontally and enhanced 
+                        to reveal Whitman's original lines 9-11 of Poem III.</p>
+                    <figDesc>A back-lit image of the recto of notebook leaf 5, flipped horizontally and enhanced
+                        to reveal Whitman's original lines 9-11 of Poem III.</figDesc>
+                    <graphic url="liveoakwithmoss.80"/>
+                </figure></ref>): 
+                <quote>
+                    <l>And that night O you happy waters, I heard you beating the
+                        shores&#8212;But my heart beat happier than you&#8212;for he I love
+                        was returned and sleeping by my side,</l>
+                    <l>And that night in the stillness his face was inclined toward me while the
+                        moon's clear beams shone,</l>
+                    <l>And his arm lay lightly over my breast&#8212;And that night I was happy.
+                        (3.9-11)</l>
+                </quote>
+                These lines depict the natural world quite differently from the post-dismantlement 
+                version's chorus of "liquid and sands" that directly address the speaker, "whispering to 
+                congratulate" him on his union with his lover. Instead, the above lines reveal the speaker's 
+                subordination of natural processes to his own emotional experience and his rejection of 
+                nature's self-sufficiency as a standard for behavior&#8212;conceptions that correspond with 
+                the speaker's attitudes toward natural phenomena in Poems I and II. In supplanting the 
+                above lines with the paste-over revision, Whitman substantially altered the speaker's conception 
+                of nature from one of aloofness to sympathetic endorsement, but his act of doing so had no 
+                bearing on the form and meaning of "Live Oak, with Moss." By the time he replaced the 
+                speaker's subordinating address to nature in Poem III with the radically different version, 
+                Whitman had ceased thinking of the poem as the third section of an intact sequence that 
+                continued motifs present in Poems I and II. The notebook was disassembled, and he had begun 
+                to conceive of the "Live Oak" poems as parts of a different work with a different artistic plan.</p>
+            <p>To be sure, critics of the versions of "Live Oak, with Moss" currently in print have had 
+                no difficulty attributing significance to this and other post-dismantlement revisions in 
+                their efforts to interpret the sequence. But however relevant their pronouncements 
+                may be to the revised forms of the poems as Whitman published them in "Calamus," they are not 
+                applicable to "Live Oak, with Moss." In particular, critics interpreting the sequence have 
+                commonly read Poem II's reference to "manly love" and Poem III's congratulatory approval as 
+                natural affirmations of same-sex love that counter a socially imposed hetero-normative standard 
+                against which the speaker is said to struggle in the sequence. These judgments inform Helms's 
+                strident verdict that "homophobia wins the determining agon of 'Live Oak'" (190) and Erkkila's 
+                foreboding sense of "something that threatens and disturbs" in the imagery of Whitman's 
+                paste-over revision to Poem III (105). Erkkila's reading of nature in the post-dismantlement 
+                version is representative: "Far from being shocked by this scene of two men sleeping together 
+                as a crime against nature, the rhythmic flow of nature appears to be at one with their erotic 
+                union, as the sea congratulates the poet on his love choice" (106).<ptr target="#note22" xml:id="nr22" n="22"/> 
+                But along with discrediting such interpretations of nature in "Live Oak, with Moss," the restoration 
+                to Poem III should prompt us to reconsider the heavy emphasis critics have placed on the forces 
+                of social proscription in the sequence.</p>
+            <p>The emotional progress of the sequence&#8212;from anticipation to fulfillment, from parting to 
+                rupture, and from heartache to resolve&#8212;overwhelmingly concerns the speaker's dissatisfaction 
+                with solitude rather than a conflict with social norms.<ptr target="#note23" xml:id="nr23" n="23"/> 
+                Whereas some passages in the sequence may suggest the anxiety and secrecy of social marginalization, 
+                the consistent attitude toward nature in the opening three poems reveals the speaker's primary conflict 
+                is not with an oppressive society but with a constraining intellectual and philosophical tradition, 
+                namely the well-known nineteenth-century association of spiritual transcendence with isolated natural 
+                experience. When considered in that context, the thematic trajectory of "Live Oak" Poems I, II, and III provides unique 
+                insight on Whitman's increasing commitment to the transcendent value of love and comradeship in 
+                the years following the first two editions of <hi rend="italic">Leaves of Grass</hi>, for nowhere 
+                else in Whitman's writings do we find the quintessentially romantic coordination of solitude and 
+                nature negated with such sustained and controlled deliberateness as this. In the 1855 and 1856 
+                editions of <hi rend="italic">Leaves</hi>, the equation from English and American literary 
+                sources (with origins in German philosophy) is apparent in Whitman's opening self-portrayal, 
+                "I lean and loafe at my ease . . . . observing a spear of summer grass."<ptr target="#note24" xml:id="nr24" n="24"/> 
+                Although Whitman had there gone on to present a broadened version of transcendent experience encompassing 
+                sympathetic interaction among fellow human beings, nowhere in <hi rend="italic">Leaves</hi> did he come 
+                close to denying the compatibility of the natural world with individual experience. But in "Live Oak, 
+                with Moss," the poet's highly controlled subordination of natural phenomena to the bliss of human 
+                affections and his outright rejection of the tree's solitary joy mark a pointed moment in transatlantic 
+                and native literary influence. The sequence reveals Whitman's extraordinary refutation of the transcendental pose 
+                informing many important contemporaneous works, from William Wordsworth's assertion of "the bliss of 
+                solitude" in "I Wandered Lonely as a Cloud" (1807) to Ralph Waldo Emerson's account of isolated interfusion 
+                as a "transparent eyeball" in <hi rend="italic">Nature</hi> (1836).<ptr target="#note25" xml:id="nr25" n="25"/></p>
+            <p> The subordinating rhetoric of Poem I suggests a break in particular with transcendentalist notions of mutual
+                attunement between the self and nature, as illustrated by Emerson's assertion in "The American Scholar" that 
+                "nature is the opposite of the soul, answering to it part for part" (55). The poem's repeated denial of nature's 
+                correspondence with the soul and its gravitation instead toward love and friendship illustrate an alternative 
+                ethos of sympathetic exchange among men. The attitude towards nature is present in an entry Whitman inscribed in 
+                another notebook kept by him in the 1850s:<q rend="block">The air which furnishes me the breath to speak is subtle 
+                and boundless&#8212;but what is it compared to the things it serves me to speak&#8212;the meanings&#8212;.<ptr target="#note26" xml:id="nr26" n="26"/></q> 
+                While Emerson would not have disputed Whitman's emphasis on the expressive role of the poet in this passage, its 
+                open-ended query indicates the same divergence in Whitman's debt to transcendentalism that we see in Poem I, where 
+                the speaker's capacities to express and receive love distinguish him from the rest of creation.<ptr target="#note27" xml:id="nr27" n="27"/>
+                Perhaps this position of philosophical dissent explains the "curious" quality of the title image in Poem II, where 
+                its incongruousness may derive from what the speaker there terms its superfluity as a memento of friendship. Owing 
+                to the tree's self-sufficiency, the token is in its own right unsuitable as a symbol of camaraderie. The image 
+                acquires meaning only through the poet's imaginative appropriation of material phenomena for the purpose of humanistic 
+                expression, an act not to be fulfilled until the speaker bonds with a fellow human being. Thus construed, the 
+                ambiguity associated with the live oak twig and moss in Poem II becomes resolved at the end of the sequence with the 
+                speaker's determination to "engraft" his knowledge of love and heartache on one who is predisposed to receive his message.</p>
+            <p>In contrast to the mutual attunement attributed to the soul and nature by Emerson, Whitman uses parallel rhetoric 
+                at many points of the sequence to illustrate the speaker's desire for balanced reciprocity between himself and other 
+                men, e.g. "This moment as I sit alone, yearning and pensive, it seems to me there are other men, in other lands, 
+                yearning and pensive" (4.1), and "I am to go with him I love, and he is to go with me" (5.12). Among additional 
+                examples in the sequence, an especially meaningful instance derives from the heartache of Poem VIII ("Hours 
+                continuing long") when the speaker endeavors to visualize another man capable of identifying with his pain: "Does he see 
+                himself reflected in me? In these hours does he see the face of his hours reflected?" (8.12). The sole exception 
+                occurs in Poem XI ("Earth! My Likeness!"), where the speaker confesses without qualification that the earth's 
+                volcanic forces correspond with "something fierce and terrible" in himself (11.3). But here the reversal is 
+                in keeping with the work's elevation of human interaction over natural isolation, for in Poem XI the 
+                exception occurs within a context of emotional insecurity prompted by the speaker's fears that his affection 
+                may be unreturned.<ptr target="#note28" xml:id="nr28" n="28"/> Coming after the episode of rupture and heartache 
+                in the sequence, its subject matter contrasts starkly with the ebullience of desire and anticipation depicted in 
+                Poem I.</p>
+            <p>With his breaking up of the sequence, Whitman abandoned its dissenting stance on nature, as revealed by 
+                his post-dismantlement portrayal of a natural world that endorses human love and affection in Poem III. 
+                In a similar reversal, Whitman's revision of Poem II abruptly identifies the "live oak" image with "manly 
+                love," diminishing substantially the alluring ambiguity it had lent to the sequence in its notebook state 
+                and replacing that tension with an internal contradiction: the speaker's direct association of a fraternal 
+                principle with the tree whose solitude he has just rejected. Odd as it sounds in light of the status "I saw 
+                in Louisiana a live-oak growing" now holds among Whitman's writings, the effect of the revision may well have 
+                been more inadvertent than meaningful, prompted more by his need to eliminate its reference to the abandoned 
+                sequence than by any artistic impulse to develop its content. Although Poem I was transferred to "Calamus" 
+                without similar revisions, none of the new poems composed by Whitman for the larger cluster displays its 
+                dissent from the romantic ideal of mutual attunement with nature.</p>
+            <p>After dismantlement Whitman likewise abandoned the linear coherence by which Bowers first recognized 
+                "Live Oak, with Moss" as an integrated story of crisis and reconstitution. Exact details of how the 
+                alteration in plans occurred are beyond knowing. But Whitman's changing succession of titles for the 
+                post-dismantlement cluster sheds some light on its evolution. At some point after he disassembled the 
+                notebook, but apparently before substituting the title "Calamus-Leaves" for "Live Oak, with Moss" at 
+                the head of Poem I, Whitman recorded the following idea for what would become "Enfans d'Adam" in the 
+                1860 edition of <hi rend="italic">Leaves of Grass</hi> ("Children of Adam" in later editions):
+                <q rend="block">A string of Poems, (short, &amp;c.) embodying the amative love of woman&#8212;the same 
+                as Live Oak Leaves do the passion of friendship for man.<ptr target="#note29" xml:id="nr29" n="29"/></q>
+                The emergence of "Live Oak Leaves" as title for a work embodying the passion of male
+                friendship would appear to have derived from Whitman's alternate groupings and combination of
+                "Live Oak" poems with additional poems after dismantlement of the notebook. This
+                reordering and expansion of the 12-poem cluster involved a corresponding alteration
+                in the rhetorical character of the cluster, for the now-pluralized title "Live Oak Leaves" 
+                suggests Whitman likewise abandoned the linear narrative approach that had characterized the
+                poems in their notebook order. With other poems in preparation for the next edition of 
+                <hi rend="italic">Leaves of Grass</hi>, Whitman was already experimenting with titles 
+                such as "Buds," "Droppings," and "Leaves" to label composite groupings of poems loosely 
+                connected by shared subjects. Rather than connoting the linear narrative of his original 
+                sequence, the loose plurality implied by the title "Live Oak Leaves" suggests instead the 
+                nonlinear deployment of leitmotifs implied by the names of these groupings. The early title 
+                "Live Oak Leaves" forecasts Whitman's increasing adoption of this approach with the still-greater 
+                expansion of poems identified by his next intervening title, "Calamus-Leaves"&#8212;an 
+                approach fully displayed in the published "Calamus" cluster.</p></div>
+                 <div>
+                     <head type="small-main">The Restorative Edition of "Live Oak, with Moss"</head>
+            <p>Whitman abandoned his original intention to privately commemorate "the thoughts, 
+                pictures&#8212;aspirations, &amp;c. Fit to be perused during the days of the approach 
+                of Death." But the product of that intention can be studied in the form of the following 
+                digital edition, one that observes and rejects Whitman's changes to the manuscript 
+                in accordance with the classifications described above. The restorative edition thus
+                observes class 1 and 2 revisions, as well as Whitman's ambiguous class 4 changes. It rejects 
+                Whitman's post-dismantlement class 3 revisions and pencil revisions. Whitman's non-standard 
+                spellings such as "prest" for "pressed" (6.5) are preserved, as is the period spelling "develope" 
+                (12.1), which he altered in pencil. All changes to the manuscript are described in the accompanying 
+                notes&#8212;where appropriate with reference to Bowers's versions of the texts in <hi rend="italic">Whitman's Manuscripts</hi> 
+                (cited in note 3). Presented as an electronically encoded reading text, the restorative edition 
+                supplies markup for class 4 revisions to observe their contingent character. Whitman's line breaks 
+                are observed to facilitate comparison of the reading text with the accompanying images. With the 
+                sole exception of the hyphenated expression, "perfect-model'd," in textual lines 11 and 12 of original 
+                notebook leaf 10 (verse line 2 of Poem VI), Whitman's line-end hyphenations consist of single-word 
+                compounds that should be represented as unhyphenated words in quotations or transcriptions 
+                based on the restorative edition. Double hyphens used for line-end, single-word, and 
+                double-word hyphenation are represented as single hyphens. According to Bowers, a former owner of 
+                Whitman's manuscripts for the 1860 <hi rend="italic">Leaves</hi>, Barnet J. Beyer, is likely the 
+                source of pencil annotations at the heads of the leaves identifying them with their "Calamus" 
+                numberings (<hi rend="italic">Whitman's Manuscripts</hi> xxiii).</p>
+                 </div>
+             </body>      
+        <back><div type="acknowledgments">
+<head type="small-main">Acknowledgments</head>
+            <p>This electronic edition is dedicated to Hershel Parker, who brought Whitman's "Live Oak, 
+                with Moss" to the attention of scholars and students broadly when he anthologized the 
+                sequence for the first time in the <hi rend="italic">Norton Anthology of American Literature</hi>, 
+                4th ed. (1994). The Introduction has benefited from feedback by Matt Cohen and from the anonymous
+                peer reviewers for <hi rend="italic">Scholarly Editing</hi>, whose co-editor Andrew Jewell created 
+                the initial XML file for the introduction and was generous with his time and expertise throughout 
+                production. Jewell and co-editor Amanda Gailey offered helpful final edits, and Jessica Ewing assisted 
+                with late additions to the table encoding. Jeremy Jensen provided essential technical support for my 
+                creation of the edition file, and Shawna Hanel supplied advice and help with imaging. I am also 
+                grateful to the staff of University of Virginia's Albert and Shirley Small Special Collections 
+                Library for access to Whitman's manuscripts, and to the University of Virginia Library administration 
+                for its generous reproduction policies. Finally, Ed Folsom, Kenneth Price, and the staff of the 
+                <hi rend="italic">Walt Whitman Archive</hi> have transformed opportunities for scholarship on 
+                Whitman, and this project could not have been completed in its present form without their 
+                previous work.</p>
+            <p>For the first print-based version of this edition, assembled by Rutherford Witthus (<ref target="http://rutherfordwitthus.com/"
+                        type="url">http://rutherfordwitthus.com/</ref>), see Walt Whitman, 
+                <hi rend="italic">Live Oak, with Moss: A Restorative Edition</hi> (Walpole, NH: Rutherford Witthus, 2012). 
+                Correspondence with Mr. Witthus during print assembly led to several changes to punctuation in the digital 
+                version, each of which is documented in the XML file headings. I am grateful to him for his constructive 
+                editorial feedback and for the care and expertise he applied to the printed version, which includes a 
+                foreword by Richard Tayson, illustrations by Roger Crossgrove, and an afterward excerpted from the above 
+                section on the interpretive significance of the restorations.</p>
+        </div>
+            <div type="notes">
+                <note xml:id="note1"> Fredson Bowers, "Whitman's Manuscripts for the Original 'Calamus' 
+                    Poems," <hi rend="italic">Studies in Bibliography</hi> 6 (1953 [for 1954]), 257-65.  
+                    On 14 March 2014, revisions were made to the opening paragraphs of this introduction 
+                    to distinguish clearly between Bowers's edition of "Live Oak, with Moss" and that of 
+                    Hershel Parker in <hi rend="italic">The Norton Anthology of American Literature</hi>, 
+                    eds. Baym et al., 4th through 8th Eds. (New York: W. W. Norton &amp; Co., 1994-2011). 
+                    Other current printings of the sequence include 
+                    <hi rend="italic">The Columbia Anthology of Gay Literature</hi>, ed. Byrne R. S. Fone 
+                    (New York: Columbia University Press, 2001), 552-58; <hi rend="italic">Leaves of Grass and 
+                    Other Writings</hi>, ed. Michael Moon (New York: W. W. Norton &amp; Co., 2002), 
+                    752-56; <hi rend="italic">The Portable Walt Whitman</hi>, ed. Michael Warner 
+                    (London: Penguin, 2003), 204-10;  and <hi rend="italic">Walt Whitman's Songs of Male 
+                    Intimacy and Love: "Live Oak, with Moss" and "Calamus,"</hi> ed. Betsy Erkkila 
+                    (Iowa City: University of Iowa Press, 2011), 1-37.</note>
+                <note xml:id="note2"> Alan Helms and Hershel Parker, "Commentary" in <hi rend="italic">Nineteenth-Century Literature</hi> 
+                    52 (December 1997), 413-16. Helms's rearrangement of the "Calamus" versions of the 12 
+                    "Live Oak" poems appeared in "Whitman's 'Live Oak with Moss'" in Robert K. Martin, ed., 
+                    <hi rend="italic">The Continuing Presence of Walt Whitman: The Life After the Life</hi> 
+                    (Iowa City: University of Iowa Press, 1992), 185-205. Parker's manuscript-based version first 
+                    appeared in <hi rend="italic">The Norton Anthology of American Literature</hi>, 4th ed., ed.
+                    Nina Baym, et al., 2 vols. (New York: W. W. Norton and Company, 1994),
+                    1:2,097&#8211;2,101. Parker discusses his and Helms's versions in "The Real 'Live
+                    Oak, with Moss': Straight Talk about Whitman's 'Gay Manifesto,'" <hi rend="italic"
+                        >Nineteenth-Century Literature</hi> 51 (September 1996), 145-60. The essays by Helms and Parker 
+                    and their ensuing exchange are available among selected criticism at the 
+                    <hi rend="italic">Walt Whitman Archive</hi> &lt;<ref target="http://whitmanarchive.org/criticism/current/index.html"
+                        type="url">http://whitmanarchive.org/criticism/current/index.html</ref>&gt;. Kenneth M.
+                    Price discusses the controversy and issues raised by it in "Sex, Politics, and
+                    'Live Oak, with Moss'" &lt;<ref target="http://www.classroomelectric.org/volume3/price/index.html"
+type="url">http://www.classroomelectric.org/volume3/price/index.html</ref>&gt;, and
+                    with Ed Folsom in <hi rend="italic">Re-Scripting Walt Whitman: An Introduction
+                        to His Life and Work</hi> (New York: Blackwell Publishers, 2005),
+                    64-66.</note>
+                <note xml:id="note3"> As explained below, this count corrects Bowers's conclusion that 
+                    the notebook consisted of 20 leaves in <hi rend="italic">Whitman's Manuscripts: 
+                    Leaves of Grass (1860) A Parallel Text</hi> (Chicago &amp; London: University of 
+                    Chicago Press, 1955), lxv. The manuscripts are housed in the Clifton Waller Barrett 
+                    Collection, "Walt Whitman Calamus MSS," Binder 3829, Albert and Shirley Small Special 
+                    Collections Library, the University of Virginia; hereafter, all references 
+                    to the manuscripts apply to this resource, with poem and line numbers keyed parenthetically 
+                    to the restored edition that follows this essay. Images of the rectos and versos 
+                    linked to the restored edition were first published in Ed Folsom and Kenneth M. 
+                    Price, eds., <hi rend="italic">Walt Whitman Archive</hi> &lt;<ref type="url" 
+target="http://www.whitmanarchive.org/manuscripts">http://www.whitmanarchive.org/manuscripts</ref>&gt;. 
+                    For the <hi rend="italic">Whitman Archive</hi> identification numbers assigned to 
+                    each leaf of the "Live Oak" notebook, see Table 1.</note>
+                <note xml:id="note4"> Holes in the manuscripts caused by pins consist of corresponding entry 
+                    and exit points where Whitman used the pins to fasten leaves together. Tack holes constitute 
+                    single, straight-in-and-out punctures where he apparently fixed leaves to surfaces. 
+                    A strand of thread still exists at the upper left corner of Poem VII (original notebook 
+                    leaf 11). The marks of a paper clip are visible at the upper left corner of Poem V (original 
+                    notebook leaf 8) and the upper right corner of the verso of its closing section (the upper 
+                    half of original notebook leaf 10).</note>
+                <note xml:id="note5"> For the transition from holograph to proof copy and the role of 
+                    the Rome Brothers, see Bowers, <hi rend="italic">Whitman's Manuscripts</hi>, xxiv-vi 
+                    and xxxi-xxxiii. As documented by Bowers on xix-xx, many of the manuscripts now located 
+                    in the Barrett Collection appear on a sales list entitled "Walt Whitman Manuscripts 
+                    in Possession of T. H. Rome, 513 Lafayette Avenue, Brooklyn, N. Y.".</note>
+                <note xml:id="note6"> The 1860 "Calamus" numberings of the twelve "Live Oak" poems are 
+                    14, 20, 11, 23, 8, 32, 10, 9, 34, 43, 36, and 42.</note>
+                <note xml:id="note7"> W. W. Greg, "The Rationale of Copy-Text," <hi rend="italic">Studies 
+                    in Bibliography</hi> 3 (1950-51), 19-36.</note>
+                <note xml:id="note8">On the basis of research performed in early stages of the present study, 
+                    Whitman's original wording has been restored to Poem II of "Live Oak, with Moss" in the 
+                    <hi rend="italic">Norton Anthology of American Literature</hi> (5th, 6th, 7th, and 8th eds.) 
+                    and in the Norton Critical Edition of <hi rend="italic">Leaves of Grass</hi> (2nd ed). Other 
+                    collections featuring "Live Oak, with Moss" (see note 1) duplicate Bowers's editing of Poem II, 
+                    and all current printings correspond to his edition in other instances of final revision.</note>
+                <note xml:id="note9"> Fredson Bowers, "Current Theories of Copy-Text, with an Illustration 
+                    from Dryden" <hi rend="italic">Modern Philology</hi> 48.1 (August 1950), 12-20.</note>
+                <note xml:id="note10"> Bowers, "Whitman's Manuscripts for the Original 'Calamus' Poems" 259 and 
+                    <hi rend="italic">Whitman's Manuscripts</hi> lxvii; for digital images of the note and draft 
+                    fragment, see Walt Whitman, "[I saw in Louisiana a live-oak growing]" Ms. leaf verso, 
+                    <hi rend="italic">Walt Whitman Manuscripts</hi>, NYPL Digital Gallery
+                    &lt;<ref target="http://digitalgallery.nypl.org/nypldigital/id?M_1169339" type="url">http://digitalgallery.nypl.org/nypldigital/id?M_1169339</ref>&gt;
+                    and &lt;<ref target="http://digitalgallery.nypl.org/nypldigital/id?M_1169338" type="url">http://digitalgallery.nypl.org/nypldigital/id?M_1169338</ref>&gt;</note>
+                <note xml:id="note11"> Although its "Introduction" includes extensive discussion of the 
+                    "Live Oak" notebook and the reconstituted character of some of its separated leaves, 
+                    <hi rend="italic">Whitman's Manuscripts</hi> (published two years after the appearance 
+                    of Bowers's 1953 <hi rend="italic">SB</hi> essay) includes a degree of analysis that 
+                    seems to predate Bowers's realization that the manuscripts had originally constituted 
+                    a sequence. For instance, in describing the joined leaves of Poem VI (see <ref type="figure">figure 2<figure>
+                            <head>Figure 2: Poem VI</head>
+                            <p>Poem VI, reconstituted from the severed lower and upper sections of "Live Oak"
+                                notebook leaves 10 and 11.</p>
+                            <figDesc>Photograph of Poem VI, reconstituted from the severed lower and upper 
+                                sections of "Live Oak" notebook leaves 10 and 11.
+                            </figDesc>
+                            <graphic url="liveoakwithmoss.18"/>
+                        </figure></ref>), 
+                    Bowers erroneously identifies its top section (lines 1-3) as a "fair-copy revised
+                    opening" rather than as the original lower section of the notebook leaf that had
+                    preceded the formerly separate leaf containing lines 4 and 5 (116).</note>
+                <note xml:id="note12"> <hi rend="italic">A Critical Guide to </hi>Leaves of Grass (Chicago: The
+                    University of Chicago Press, 1957), 59; David Cavitch, <hi rend="italic">My Soul
+                        and I: The Inner Life of Walt Whitman</hi> (Boston: Beacon Press, 1985),
+                    131.</note>
+                <note xml:id="note13"> For a survey of critical pronouncements on "Live Oak, with Moss" 
+                    in published studies of Whitman, see Steven Olsen-Smith and Hershel Parker, "'Live Oak, with 
+                    Moss' and 'Calamus': Textual Inhibitions in Whitman Criticism, <hi rend="italic">Walt 
+                    Whitman Quarterly Review</hi> 14 (1997), 153-65.</note>
+                <note xml:id="note14"> Erkkila's edition (1-38) includes the title "Calamus-Leaves" and 
+                    duplicates Bowers's editing of the 12 poems in <hi rend="italic">Whitman's Manuscripts</hi> 
+                    except for several missed textual line breaks in her transcription of poems III and V 
+                    as well as numerous and apparently inadvertent upper- to lower-case letter changes in 
+                    her transcription of poems 3 through 9.</note>
+                <note xml:id="note15"> Other possibilities are difficult to credit. According to Bowers 
+                    (who misread a fiber in the paper as a comma after "finished"), "one can only speculate 
+                    whether the application is to this poem [Poem VIII], or else was a note added after 
+                    the inscription of no. VII" (<hi rend="italic">Whitman's Manuscripts</hi> 82). But 
+                    the ink inscription of Poem VIII reveals no sign of abrasion that would normally 
+                    result from the act of erasure, nor is it likely that Whitman would have recorded 
+                    the pencil note directly onto the fair copy text of Poem VIII. If he had wished 
+                    to append such a comment to Poem VIII, there was sufficient blank space beside the 
+                    Roman numeral heading immediately above the first line of the poem.</note>
+                <note xml:id="note16"> Whitman's notebook ordering of "Live Oak, with Moss" appears 
+                    to have been the culmination of previous trial arrangements. In addition to the 
+                    draft fragment of Poem II that displays on its verso Whitman's note about a cluster 
+                    of poems "fit to be perused in the days of the approach of death," canceled draft 
+                    fragments also exist for what would become "Live Oak" Poems III ("When I heard at 
+                    the close of day"), VIII ("Hours continuing long"), and XI ("Earth! My likeness!"). 
+                    In these canceled draft states, Poems III and XI are numbered IV and VI, indicating 
+                    Whitman completed an earlier arrangement of at least six of the twelve poems before 
+                    inscribing them in the notebook version of "Live Oak, with Moss." The drafts exist 
+                    on the versos of un-canceled mss: see <hi rend="italic">Whitman Archive</hi> 
+                    uva.00179.016 &lt;<ref type="url" target="http://www.whitmanarchive.org/manuscripts/figures/uva.00179.016.jpg">http://www.whitmanarchive.org/manuscripts/figures/uva.00179.016.jpg</ref>&gt;, 
+                    duk.00282.001 (for an image of Whitman's note headed "Religious Canticles," 
+                    with the verso's fragment of "Hours continuing long" faintly discernible) &lt;<ref type="url" 
+                        target="http://www.whitmanarchive.org/manuscripts/figures/duk.00282.001.jpg">http://www.whitmanarchive.org/manuscripts/figures/duk.00282.001.jpg</ref>&gt;, and loc.00225.001 &lt;<ref type="url" target="http://www.whitmanarchive.org/manuscripts/figures/loc.00225.001.jpg">http://www.whitmanarchive.org/manuscripts/figures/loc.00225.001.jpg</ref>&gt;. 
+                    Bowers erroneously identifies the earlier Roman numbering of Poem III as "V" in <hi rend="italic">
+                    Whitman's Manuscripts</hi>, 89. Each of the surviving drafts was struck through by 
+                    Whitman with a vertical ink line to signify its superseded state.</note>
+                <note xml:id="note17"> For the 1867 edition of <hi rend="italic">Leaves of Grass</hi> 
+                    Whitman altered the third line of this poem to read in part, "I loved a certain 
+                    person ardently and my love was not return'd"; see <hi rend="italic">Leaves of Grass: 
+                    A Textual Variorum of the Printed Poems</hi>, ed. Sculley Bradley et al. 3 Vols. 
+                    (New York: New York University Press, 1980) 2: 404. For a fuller consideration of 
+                    the possibility of sublimation, and an analysis of unifying elements in "Live Oak, 
+                    with Moss," see Steven Olsen-Smith, "'Live Oak, with Moss,' 'Calamus,' and 'Children 
+                    of Adam'" in Donald Kummings, ed., <hi rend="italic">A Companion to Walt Whitman</hi>, 
+                    Oxford: Blackwell Publishing, 2006), 508-21.</note>
+                <note xml:id="note18"> Residual glue and lavender-colored paper on the left edge of 
+                    <hi rend="small-caps">w</hi>1a leaf 2 may indicate that Whitman first removed the 
+                    blank outer conjugate notebook leaves 1 and 22 and attempted to preserve the remaining 
+                    leaves intact with a more visually distinctive cover.</note>
+                <note xml:id="note19"> Both revisions produced wet ink that transferred to the preceding verso 
+                    when Whitman closed the notebook after making the changes. In his revision to Poem II 
+                    the diagonal down-stroke of the <hi rend="italic">f</hi> in "life" offset to the recto 
+                    of leaf 2. The offset matches with the original pen stroke when the notebook hinge points 
+                    of the separated leaves are aligned, and they do not match when the connective pinholes 
+                    of leaves 1 and 2 are aligned, showing that the revision was made when the notebook was 
+                    still intact. Whitman over-wrote the <hi rend="italic">f</hi> with a <hi rend="italic">v</hi> 
+                    in the same ink, likely before going on to inscribe the terminal <hi rend="italic">e</hi>. 
+                    In the same manner, the exclamation point added by Whitman to line 1 of Poem VII offset to 
+                    the preceding verso of leaf 10 of the intact notebook.</note>
+                <note xml:id="note20"> Offset alignments were established, first, with a Porta-Trace fluorescent 
+                    light panel (mfd. by Gagne Associates, Inc. Binghamton, N. Y.) supplied by staff of the 
+                    Albert and Shirley Small Special Collections Division, University of Virginia Library, and, 
+                    later, with imaging software tools in Adobe Photoshop.</note>
+                <note xml:id="note21"> The question naturally arises whether or not the white wove 
+                    paste-over patch derives from one of the two unlocated notebook leaves. 
+                    As observed above, vestiges of brown ink letter forms at the severed edges of 
+                    paste-over revisions to "Calamus" 37 and "So Long!" reveal that 
+                    <hi rend="small-caps">w</hi>1a notebook leaf 1 (of which these two 
+                    paste-over leaves were originally its conjugate half) was used for some other 
+                    purpose of inscription, and so leaf 1 can be ruled out on that basis. No such 
+                    vestiges remain of the missing <hi rend="small-caps">w</hi>1b notebook leaf 21, 
+                    but it too can be ruled out on the basis of material evidence. The bottom edge of 
+                    the leaf 6 paste-over is a straight factory cut resembling the clean bottom edges 
+                    of all the leaves from which Whitman assembled his notebook, the other three edges 
+                    of which were unevenly cut. If the leaf 6 paste-over derived from the missing leaf 
+                    21, it would therefore have to be from the lower portion of the leaf that preserved the
+                    straight factory edge. But a machine-direction line running immediately parallel
+                    to the bottom edge of notebook leaf 2 (leaf 21's conjugate half) is not to be
+                    found on the leaf 6 paste-over, revealing that the patch derives from some other
+                    sheet of white wove paper and never constituted a portion of the notebook.</note>
+                <note xml:id="note22"> See also Richard Tayson, who emphasizes "that the natural world 
+                    approves of Whitman's homosexual union with his friend, his lover, and of their 
+                    'manly love'" in "The Casualties of Walt Whitman," <hi rend="italic">Virginia 
+                    Quarterly Review</hi> 81 (Spring 2005): 79-95. While observing the paste-over revision 
+                    to Poem III in their editions of "Live Oak, with Moss" (see note 1), Fone and Erkkila 
+                    each reprint Bowers's transcription of Whitman's original conclusion in a footnote, 
+                    with both duplicating Bowers's erroneous reading of "is" for "was" in "he I love was 
+                    returned and sleeping by my side" (see Bowers, <hi rend="italic">Whitman's Manuscripts</hi> 
+                    88).</note>
+                <note xml:id="note23"> The attribution of linear coherence is contested by Erkkila, who 
+                    asserts of Poems I through III that "there is no logical narrative progression in 
+                    these three poems" and argues that the sequence as a whole should be construed as 
+                    moving "paratactically, by juxtaposition and association rather than by any clear, 
+                    logical, or linear development" (106). But there is no need to accept this choice 
+                    between mutually exclusive narrative and montage. Whitman indeed violates strict 
+                    linear development from poem to poem in the sequence by alternating between 
+                    recollection and meditation, and by sometimes communicating the speaker's thoughts 
+                    and experiences by proxy in his depictions of other men. But these rhetorical 
+                    innovations augment rather than diminish the significance of the narrative account, 
+                    much as similarly multivalent rhetorical applications augment Whitman's account of 
+                    a life journey in "Song of Myself" and the poet's progress from mourning to recovery 
+                    in "When Lilacs Last in the Dooryard Bloom'd." In "Live Oak, with Moss," Whitman's 
+                    rhetorical freedoms play out within a logically ordered sequence of emotional 
+                    experiences and attitudes that make up the narrative account of love, heartache, 
+                    and reconstitution.</note>
+                <note xml:id="note24">Walt Whitman, <hi rend="italic">Leaves of Grass: A Textual Variorum of 
+                    the Printed Poems</hi>, ed. Sculley Bradley et al. 3 vols. (New York: New York University 
+                    Press, 1980), 1:1.</note>
+                <note xml:id="note25">William Wordsworth, <hi rend="italic">Poems, in Two Volumes, and 
+                    Other Poems, 1800-1807</hi>, ed. Jared Curtis (Ithaca: Cornell University Press, 1983), 
+                    207. Ralph Waldo Emerson, <hi rend="italic">Nature, Addresses, and Lectures</hi>, eds. 
+                    Robert E. Spiller and Albert R. Ferguson (Cambridge, MA: Harvard University Press, 1971), 
+                    10.</note>
+                <note xml:id="note26"> See "Poet at Work: Walt Whitman Notebooks 1850s-1860s" (Notebook LC #86), 
+                    American Memory from Library of Congress &lt;<ref type="url" target="http://www.loc.gov/resource/whitman.086/seq-12#seq-26">http://www.loc.gov/resource/whitman.086/seq-12#seq-26</ref>&gt;</note>
+                <note xml:id="note27"> Among Whitman's documented responses to Emerson's ideas is his written 
+                    reflection on <hi rend="italic">Essays: First Series</hi> (Boston: Munroe, 1847), where 
+                    among enthusiastic praise for Emerson's essays he noted, "Those on Friendship and Love 
+                    are the least good in the volume"; see <hi rend="italic">Walt Whitman Manuscripts</hi> NYPL Digital Gallery &lt;<ref type="url" target="http://digitalgallery.nypl.org/nypldigital/id?m_1169328">http://digitalgallery.nypl.org/nypldigital/id?m_1169328</ref>&gt;</note>
+                <note xml:id="note28"> See Olsen-Smith (516-17) for a fuller discussion of Poem XI and its 
+                    likely concern with unreturned affection, particularly in connection with the poem 
+                    that would become "Calamus" 39, which Whitman inscribed on leaf 20 of the disassembled 
+                    "Live Oak" notebook (see <ref type="figure">figure 6<figure>
+                        <head>Figure 6: Notebook leaf 20</head>
+                        <p>Notebook leaf 20, displaying Calamus 39</p>
+                        <figDesc>Notebook leaf 20, displaying Calamus 39</figDesc>
+                        <graphic url="liveoakwithmoss.72"/>
+                    </figure></ref>).</note>
+                <note xml:id="note29"> See <hi rend="italic">Whitman Archive</hi> nyp.00115 &lt;<ref type="url" 
+                    target="http://www.whitmanarchive.org/manuscripts/figures/nyp.00115.001.jpg">http://www.whitmanarchive.org/manuscripts/figures/nyp.00115.001.jpg</ref>&gt;.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

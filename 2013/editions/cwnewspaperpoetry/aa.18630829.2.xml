@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630829.2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Col. Robert G. Shaw</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630829.2</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#em">E. Murray</author>
+                        <title level="a">Col. Robert G. Shaw</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-08-29">29 August 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[2]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="em">Murray, Ellen</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-02-24" who="#el">updated note about printing of poem in the NAS</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-14" who="#el">encoded; added and encoded editorial notes</change>
+            <change when="2012-10-01" who="#kt">variants noted</change>
+            <change when="2012-09-29" who="#el">checked</change>
+            <change when="2012-09-03" who="#el">created</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630829.pp1.jpg"/>            
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630829.pp2.jpg"/>
+            <zone xml:id="pp2_cropped" corresp="#poem">
+                <graphic url="aa.18630829.pp2_cropped.jpg"/>
+            </zone> 
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630829.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630829.pp4.jpg"/>             
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp2_cropped">
+        <body>
+            <lg type="poem">                               
+                
+                <head type="main" subtype="authorial" rend="center">COL. ROBERT G. SHAW.<note type="editorial" resp="#bw #el"><p>Robert Gould Shaw (1837&#8211;July 18, 1863) was colonel of the Fifty-Fourth Massachusetts Regiment, the first regiment of African American volunteers raised in the North, authorized in late January 1863 and mustered into the US service on May 13. Governor John A. Andrew of Massachusetts received War Department authorization to raise the first Northern regiment of African American volunteers in January 1863. Determined to form a model regiment, Andrew took care to select advisers, officers, and recruiters with antislavery convictions or connections; he offered Shaw the regiment's colonelcy at the end of January, on the basis of the young captain's military record and his wealthy family's influence in reform circles. Shaw turned Andrew down; he did not have abolitionist principles to trump his strong attachment to the Second Massachusetts Infantry. His mother persuaded him to think again.</p>
+                    <p>Black leaders called on men to enlist and thereby seize their "golden opportunity" and "first best chance" to establish an undeniable claim to the full rights of American citizens (Frederick Douglass, "Men of Color, to Arms!" reprinted in the <title level="j">Anglo-African</title>, March 7, 1863, [2]; editorial, <title level="j">Anglo-African</title>, March 7, 1863, [2]). The Fifty-Fourth quickly filled with men "from virtually every black community in the North" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana: University of Illinois Press, 1998], 31). A number of the new recruits would provide the <title level="j">Anglo-African</title> and the <title level="j">Christian Recorder</title> with correspondence from the front during their term of service. Both titles served as a channel of communication between distant volunteers and the folks at home.</p>
+                    <p>Under Shaw's command, the regiment took shape at Camp Meigs in Readville, Massachusetts. On May, 28, 1863, after weeks of training, the men paraded through Boston's cheering streets and then embarked on the steamer <name type="ship">De Molay</name>, bound for South Carolina's Sea Islands and the theater of war. On July 18, 1863, Shaw and the Fifty-Fourth courageously led a frontal attack on Morris Island's (South Carolina) Fort Wagner. Their bravery could not compensate for General Quincy Gillmore's poor planning; the assault failed, and 272 members of the regiment were killed, wounded, or taken prisoner (Russell Duncan, ed., <title level="m">Blue-Eyed Child of Fortune: The Civil War Letters of Col. Robert Gould Shaw</title> [Athens: University of Georgia Press, 1999], 52). Northern newspapers reported that Fort Wagner's Confederate garrison had buried Shaw in a mass grave with his men. Abolitionists reinterpreted the Confederate gesture of contempt as a mark of distinction. Shaw's parents made known their wish that his body should not be disturbed: "We would not have his body removed from where it lies surrounded by his brave &#38; devoted soldiers, if we could accomplish it by a word" (letter dated August 3, 1863, quoted in Duncan, 54).</p></note></head>
+                
+                <lg type="stanza">
+                    <l>"How did he die?" we asked. His comrades turned <lb/>away,</l>
+                    <l>With trembling lips that scarce the mournful words could <lb/>say:</l>
+                    <l>"We cannot tell, we know but that he led us on,</l>
+                    <l>And, mid the smoke and flame, fell on the rampart won."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"How did he die?" His men, with sudden energy,</l>
+                    <l>Answered from low cot beds:<note type="editorial" resp="#bw #el">Fort Wagner's casualties were taken to hospitals in Beaufort, South Carolina. In the aftermath of the battle, Charlotte Forten, an African American teacher from Philadelphia, volunteered as a nurse and spent time with members of the Fifty-Fourth regiment. Her diary suggests that she was impressed by their "attachment to their gallant young colonel"; casualties "almost started from their couches" when a report gave them hope that Shaw lived (<title level="m">The Journal of Charlotte L. Forten</title>, ed. Ray Allen Billington [New York: Dryden Press, 1953], 195). As Forten and author Ellen Murray were friends, they may have spoken about the hospitalized soldiers. Beaufort's local newspaper, the weekly <title level="j">Free South</title>, also reported on "Our Hospitals&#8212;The Wounded" (July 25, 1863) and quoted Shaw's rallying cry: "Onward, my brave boys, onward."</note> "We only seem to see,</l>
+                    <l>In waking and in dreams, his bright form on the wall,</l>
+                    <l>And hear in every wind his well-known rallying call."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>"How did he die?" the foe made answer brief: "He <lb/>died;</l>
+                    <l>We laid him 'neath the earth, his soldiers by his side."</l>
+                    <l>And none can ever know if parting word or prayer</l>
+                    <l>Breathed from his dying lips upon that smoke-filled air.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We know but how he lived&#8212;that young and gallant form,</l>
+                    <l>Breasting, with dauntless brow, the battle's fiercest storm,</l>
+                    <l>And shouting to his men the "Onward," which shall be</l>
+                    <l>Henceforth to them the voice of beckoning victory.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Over the conquered heap of citadel and town</l>
+                    <l>His troops shall yet rush on, bearing oppression down,</l>
+                    <l>And when their deeds are praised, point to a low grave <lb/>then,</l>
+                    <l>Saying, "We end <emph rend="italic">their</emph> work&#8212;our Colonel and his men."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>On the fair Saxon brow, upon the sunny hair,</l>
+                    <l>The South sand lieth warm, and those his rest who share</l>
+                    <l>Are fitting body-guard, none nobler could we crave,</l>
+                    <l>To glorify the spot and share the hero's grave.</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial"><title level="j">Anti-Slavery Standard</title>.<note type="editorial" resp="#bw #el">"Col. Robert G. Shaw" had appeared in the <title level="j">National Anti-Slavery Standard</title> of <ref target="nas.18630822.2">August 22, 1863</ref>. The <title level="j">Anglo-African</title> and <title level="j">Standard</title> texts are identical, including their placement in each newspaper, on page 2. Both papers more typically featured poems on pages 1 and 4.</note></note>
+            
+            <byline rend="right"><emph rend="smallcaps">E. Murray.</emph><note type="editorial" resp="#bw #el"><p>In the summer of 1862 Ellen Murray (1834&#8211;1908) joined her good friend Laura Matilda Towne on South Carolina's Sea Islands. When South Carolinian planters abandoned the islands to federal troops after the Battle of Port Royal (November 7, 1861), they left behind them empty mansions, cotton plantations, and a population of former slaves. Northern antislavery philanthropists saw the region as a field for missionary endeavor and founded societies for the relief and education of the newly free islanders. Towne, an abolitionist physician, accompanied an early shipment of aid from the Port Royal Relief Committee (subsequently the Pennsylvania Freedmen's Relief Association). "I shall want Ellen's help," she wrote in her diary on April 17, 1862, soon after her arrival (<title level="m">Letters and Diary of Laura M. Towne: Written From the Sea Islands of South Carolina, 1862&#8211;1884</title>, ed. Rupert Sargent Holland [Cambridge, MA: Riverside Press, 1912], 8). Working as a team, Murray and Towne threw their energies into a larger educational mission on the islands. They founded Penn School on St. Helena in September 1862, and Murray, an experienced teacher, took over its day-to-day running and served as its principal. In spite of periods of illness and increasing financial difficulties, both women taught there for the next forty years. For more on Towne and Murray, see Ronald E. Butchart, "Laura Towne and Ellen Murray: Northern Expatriates and the Foundations of Black Education in South Carolina, 1862&#8211;1908," in <title level="m">South Carolina Women: Their Lives and Times</title>, ed. Marjorie Julian Spruill, et al. (Athens: University of Georgia Press, 2010), 12&#8211;30.</p>
+                
+                <p>During the war, Murray found time to write a number of poems for the <title level="j">Anti-Slavery Standard</title>. At least fifteen pieces were attributed to "Ellen," "E. Murray," or "Ellen Murray" between April 1861 and March 1865. In addition to "Col. Robert G. Shaw," see "The Martyr of December 2, 1859" (October 26, 1861); "Deus Eversor!" (November 16, 1861); "Our Watchword" (May 10, 1862); "Tamar's Prayer" (August 2, 1862); "Half-Way" (October 4, 1862); "The First Day of January, 1863" (December 27, 1862); "God with Us" (April 18, 1863); <ref target="nas.18630711.4">"Sunset on Edisto Beach, S. C."</ref> (July 11, 1863); "Moonlight on Edisto Beach" (July 18, 1863); <ref target="nas.18640130.4b">"The Workingman"</ref> (January 30, 1864); "The Freed Land" (August 13, 1864); <ref target="nas.18641217.4">"Olustee"</ref> (December 17, 1864); and "Going Home to Edisto" (March 18, 1865). The "St. Helena" datelines identified Murray's poems as a form of literary testimony from the Sea Islands, akin to the prose in the <title level="j">Standard</title>'s "South Carolina correspondence" column. Several of these poems were reprinted in the <title level="j">Anglo-African</title>.</p></note></byline>
+        </body>
+    </text>
+    
+</TEI>

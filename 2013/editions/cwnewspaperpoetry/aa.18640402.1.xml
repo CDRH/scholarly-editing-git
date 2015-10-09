@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640402.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Hymn of the Corps D'Afrique</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640402.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska–Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                            3.0 Unported License
+                            (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be
+                            credited to R. J. Weir and Elizabeth Lorang, made available
+                            non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">34</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jch">J. C. Hagen</author>
+                        <title level="a">Hymn of the Corps D'Afrique</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-04-02">2 April 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jch">Hagen, John Cole</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+                <persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+                <language ident="fr">French</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African American soldiers</term>
+                    <term>Corps d'Afrique, 13th Regiment (1863-1864)</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slaves--Emancipation--United States</term>
+                    <term>United States--History--Civil War, 1861-1865--Military life</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                    <term>United States--History--Civil War, 1861-1865--Songs and music</term>
+                </classCode>
+            </textClass>            
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-14" who="#el">encoded; added and encoded editorial notes</change>
+            <change when="2012-10-01" who="#kt">variants noted</change>
+            <change when="2012-09-06" who="#el">checked</change>
+            <change when="2012-09-03" who="#el">created</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640402.pp1.jpg"/>
+            <zone xml:id="pp1_cropped" corresp="#poem">
+                <graphic url="aa.18640402.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640402.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640402.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640402.pp4.jpg"/> 
+            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>
+            
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">HYMN OF THE CORPS <foreign rend="roman" corresp="#fr">D'AFRIQUE</foreign>.<note type="editorial" resp="#bw #el">General Nathaniel Banks, commander of the Department of the Gulf, ordered the formation of "the Corps d'Afrique" on May 1, 1863. The corps assimilated a number of existing regiments, including the Louisiana Native Guards. By mid-September, Banks had gathered enough recruits to organize the Corps d'Afrique into two divisions. In 1864, the Bureau for Colored Troops (est. May 1863) reorganized and renamed the regiments of the Corps d'Afrique as the United States Colored Troops.</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY J. C. HAGEN.<note type="editorial" resp="#bw #el">John Cole Hagen (1815?&#8211;?), author of <title level="m">Foot-prints of Truth; Or, Voice of Humanity</title> (1853) and <title level="m">Ballads of the Revolution</title> (1866). Hagen contributed a handful of pieces to the <title level="j">Christian Inquirer</title> during the war. "The Freedman's Offering" and "The Second Coming of the Truth" (<title level="j">Christian Inquirer</title>, March 14, 1863) suggest that he was a member of the Reverend Octavius Brooks Frothingham's reform-oriented congregation in New York.</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <note type="authorial" rend="center"><emph rend="smallcaps">Tune</emph>&#8212;<emph rend="italic">Hail to the Chief.</emph><note type="editorial" resp="#bw #el">The tune "Hail to the Chief" was composed by James Sanderson to accompany one of the songs in a theatrical adaptation of Sir Walter Scott's <title level="m">The Lady of the Lake</title>. By 1815, productions including the tune had pleased audiences on both sides of the Atlantic. The tune became "a regular tribute to the U.S. president under the administration of John Tyler (1841&#8211;45)" (Elise K. Kirk, "'Hail to the Chief': The Origins and Legacies of an American Ceremonial Tune," <title level="j">American Music</title> 15 [1997]: 133). Closely associated with American patriotism and triumphant advance, the march complemented Hagen's martial subject. His "Hymn," however, identifies God, rather than the president, as chiefly responsible for emancipation and military victory.</note></note>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Glory</emph> to God, who our fetters has broken!</l>
+                    <l rend="indented1">Filled be our hearts with thanksgiving and praise!</l>
+                    <l>Glory to God for the word he has spoken&#8212;</l>
+                    <l rend="indented1">The word that to freemen a people can raise;</l>
+                    <l rend="indented4">Giving us strength and will</l>
+                    <l rend="indented4">Bravely our place to fill,</l>
+                    <l>Till none so blind but our manhood can see;</l>
+                    <l rend="indented4">Teaching the traitor throng,</l>
+                    <l rend="indented4">Blasting the earth so long,</l>
+                    <l>All in God's image made shall be free!</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Proudly the star-spangled banner waves o'er us;</l>
+                    <l rend="indented1">Dark though the deeds 'neath its folds to us done,</l>
+                    <l>Now like an angel of promise before us,</l>
+                    <l rend="indented1">Cheering us onward, it gleams in the sun.</l>
+                    <l rend="indented4">Never again to wave</l>
+                    <l rend="indented4">Over the hapless slave,</l>
+                    <l>Terror of tyrants for aye it shall be;</l>
+                    <l rend="indented4">All 'neath its folds who dwell</l>
+                    <l rend="indented4">Shall the glad tidings tell&#8212;</l>
+                    <l>Where that blessed banner floats, man is free!</l>
+                </lg>
+                
+                <lg type="stanza"> 
+                    <l>Victory awaits us, for God has decreed it,</l>
+                    <l rend="indented1">Countless and strong though the foes that assail.</l>
+                    <l>Scoffers revile us, but little we heed it;</l>
+                    <l rend="indented1">Ours is the truth, and the truth must prevail.</l>
+                    <l rend="indented4">Firm as a rock we stand,</l>
+                    <l rend="indented4">Guarding some sea-girt land;</l>
+                    <l>Pledged heart and hand, Freedom's champions are we,</l>
+                    <l rend="indented4">Never to cease the strife</l>
+                    <l rend="indented4">While we have breath of life,</l>
+                    <l>Till all can proudly say, "We are free!"</l>
+                </lg>
+            </lg>            
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Christian Inquirer</title>.<note type="editorial" resp="#bw #el"><p>Although the <title level="j">Anglo-African</title> credited the <title level="j">Christian Inquirer</title> as the source of the poem, "Hymn of the Corps D'Afrique" also appeared in the <title level="j">National Anti-Slavery Standard</title> of <ref target="nas.18640326.4">March 26, 1864</ref>. Whether the <title level="j">Anglo-African</title> actually reprinted it from the <title level="j">Inquirer</title> or from the <title level="j">Standard</title> is not clear. The <title level="j">Standard</title> and <title level="j">Anglo-African</title> texts are identical.</p><p>A leading Unitarian weekly, based in New York City (Frank L. Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> [Cambridge, MA: Harvard University Press, 1938], 2:72). Founded by William Kirkland in late 1846, the <title level="j">Inquirer</title> was published under the auspices of the Unitarian Association of the State of New York. After Kirkland's death, Henry Bellows served as "chief editor" until 1850. From 1856 until 1863, the Reverend Abiel Abbot Livermore edited the paper; Livermore passed his responsibilities into the collective "hands of the Unitarian clergymen of New York, Brooklyn, and the vicinity" until a "proper editor" could be found to replace him (<title level="j">Christian Inquirer</title>, September 12, 1863, 2).</p></note></note>
+            
+        </body>
+    </text>
+    
+</TEI>

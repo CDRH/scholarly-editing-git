@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Sunset Wings</title>
+                <author>Dante Gabriel Rossetti</author>
+                <editor>Marianne Van Remoortel</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="mvr">Marianne Van Remoortel</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition> <date>2013</date> </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">sunsetwings</idno>
+                <idno type="edition">sunsetwings</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor> <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address> </distributor>
+                <date>2013</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j"
+                    >Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">34</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl> <note>Born digital.</note> </bibl>
+<listWit>
+<witness xml:id="v1"><emph>Athenaeum</emph> (London), May 24, 1873</witness>
+<witness xml:id="v2"><emph>New York Times</emph> (New York, NY), June 8, 1873</witness>
+<witness xml:id="v3"><emph>Boston Daily Advertiser</emph> (Boston, MA), June 9, 1873</witness>
+<witness xml:id="v4"><emph>Bangor Daily Whig &amp; Courier</emph> (Bangor, ME), June 12, 1873</witness>
+<witness xml:id="v5"><emph>Albion</emph> (New York, NY), June 14, 1873</witness>
+<witness xml:id="v6"><emph>Springfield Republican</emph> (Springfield, MA), June 18, 1873</witness>
+<witness xml:id="v7"><emph>Buffalo Daily Courier</emph> (Buffalo, NY), June 28, 1873</witness>
+<witness xml:id="v8"><emph>Daily Evening Bulletin</emph> (San Francisco, CA), June 28, 1873</witness>
+<witness xml:id="v9"><emph>Every Saturday</emph> (Boston, MA), June 28, 1873</witness>
+<witness xml:id="v10"><emph>Massachusetts Ploughman</emph> (Boston, MA), June 28, 1873</witness>
+<witness xml:id="v11"><emph>Frank Leslie's Illustrated Newspaper</emph> (New York, NY), July 5, 1873</witness>
+<witness xml:id="v12"><emph>Newport Mercury</emph> (Newport, RI), July 5, 1873</witness>
+<witness xml:id="v13"><emph>New-Hampshire Patriot</emph> (Concord, NH), July 9, 1873</witness>
+<witness xml:id="v14"><emph>Youth's Companion</emph> (Boston, MA), August 28, 1873</witness>
+<witness xml:id="v15"><emph>Independent Statesman</emph> (Concord, NH), September 4, 1873</witness>
+<witness xml:id="v16"><emph>Morning Oregonian</emph> (Portland, OR), March 20, 1898</witness>
+<witness xml:id="v17"><emph>Philadelphia Inquirer</emph> (Philadelphia, PA), May 23, 1902</witness>
+<witness xml:id="v18"><emph>Dallas Morning News</emph> (Dallas, TX), June 9, 1902</witness>
+<witness xml:id="v19"><emph>Sunday Oregonian</emph> (Portland, OR), July 13, 1902</witness>
+<witness xml:id="v20"><emph>Yuma Pioneer</emph> (Yuma, CO), August 22, 1902</witness>
+<witness xml:id="v21"><emph>Kansas City Star</emph> (Kansas City, MO), July 5, 1911</witness>
+<witness xml:id="v22"><emph>Arizona Republican</emph> (Phoenix, AZ), October 25, 1911</witness>
+<witness xml:id="v23"><emph>Daily Oklahoman</emph> (Oklahoma City, OK), August 19, 1912</witness>
+<witness xml:id="v24"><emph>Christian Science Monitor</emph> (Boston, MA), April 6, 1916</witness>
+<witness xml:id="v25"><emph>Dallas Morning News</emph> (Dallas, TX), November 29, 1918</witness>
+<witness xml:id="v26"><emph>Christian Science Monitor</emph> (Boston, MA), February 23, 1920</witness>
+<witness xml:id="v27"><emph>Dallas Morning News</emph> (Dallas, TX), March 6, 1920</witness>
+<witness xml:id="v28"><emph>Springfield Republican</emph> (Springfield, MA), April 28, 1921</witness>
+<witness xml:id="v29"><emph>Albany Evening News</emph> (Albany, NY), July 19, 1927</witness>
+<witness xml:id="v30"><emph>World Herald</emph> (Omaha, NE), May 14, 1935</witness>
+</listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2012-07-27" who="#awj"
+                >Altered the encoding to match practices in the following ways:
+                1. replaced em tags with emph, which follows the TEI recommendation
+                2. Added most of the teiheader 
+                3. replaced small tags with hi @rend='smallcaps'
+                4. replaced mdash with Unicode equivalent
+                5. moved listWit to sourceDesc
+                6. added @type='main' to head
+                7. added @type='poem' to the outer-most lg
+                8. changed signed at front of poem to byline and removed title tag, leaving only head
+            </change>
+            <change when="2012-09-01" who="#mvr">
+             1. corrected several encoding errors 
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+<text>
+
+
+
+
+<body>
+<lg type="poem"><head type="main">
+<app>
+<rdg wit="#v1 #v5 #v29">SUNSET WINGS</rdg>
+<rdg wit="#v2 #v4 #v7 #v8 #v9 #v10 #v11 #v14 #v15 #v16 #v18 #v21 #v22 #v23 #v25 #v27">SUNSET WINGS.</rdg>
+<rdg wit="#v3"><emph>SUNSET WINGS</emph>.</rdg>
+<rdg wit="#v6 #v12 #v13 #v19">Sunset Wings.</rdg>
+<rdg wit="#v17 #v24 #v26 #v28">Sunset Wings</rdg>
+<rdg wit="#v20 #v30"><emph>Sunset Wings</emph>.</rdg>
+</app>
+</head>
+<byline>
+<app>
+<rdg wit="#v4 #v5">BY DANTE G. ROSSETTI.</rdg>
+<rdg wit="#v10"><hi rend="smallcaps">BY DANTE G. ROSSETTI.</hi></rdg>
+<rdg wit="#v11"><hi rend="smallcaps">BY</hi><lb/> D<hi rend="smallcaps">ANTE</hi> G. R<hi rend="smallcaps">OSSETTI</hi>.</rdg>
+<rdg wit="#v12"><hi rend="smallcaps">BY DANIEL G. ROSSETTI.</hi></rdg>
+<rdg wit="#v15">BY DANTE G. ROSSETI.</rdg>
+<rdg wit="#v19">Dante Gabriel Rossetti.</rdg>
+<rdg wit="#v28">[By Dante Gabriel Rossetti.]</rdg>
+<rdg wit="#v29">By Dante Gabriel Rossetti.</rdg>
+<rdg wit="#v30">BY DANTE GABRIEL ROSSETTI.</rdg>
+</app>
+</byline>
+<lg type="stanza">
+<l n="1">
+<app>
+<rdg wit="#v1 #v9 #v11 #v27">T<hi rend="smallcaps">O-NIGHT</hi> this sunset spreads two golden wings</rdg>
+<rdg wit="#v2 #v4 #v5 #v6 #v7 #v8 #v10 #v12 #v13 #v20">To-night this sunset spreads two golden wings</rdg>
+<rdg wit="#v3 #v16 #v19 #v24 #v26 #v28">Tonight this sunset spreads two golden wings</rdg>
+<rdg wit="#v25 #v30">Tonight the sunset spreads two golden wings</rdg>
+<rdg wit="#v14 #v15 #v17">To-night this sunset spreads two golden wings,</rdg>
+<rdg wit="#v18 #v21 #v22 #v23">Tonight the sunset spreads two golden wings,</rdg>
+<rdg wit="#v29">T<hi rend="smallcaps">ONIGHT</hi> this sunset spreads two golden wings</rdg>
+</app></l>
+<l n="2">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v17 #v19 #v21 #v22 #v24 #v25 #v26 #v27 #v28 #v29 #v30">Cleaving the western sky;</rdg>
+<rdg wit="#v18 #v20">Cleaving the Western sky;</rdg>
+<rdg wit="#v23">Cleaving the western sky,</rdg>
+</app>
+</l>
+<l n="3">
+<app>
+<rdg wit="#v1 #v2 #v4 #v5 #v7 #v8 #v9 #v10 #v12 #v13 #v24 #v25 #v26 #v28 #v29 #v30">Winged too with wind it is, and winnowings</rdg>
+<rdg wit="#v3">Winged too with with wind it is, and winnowings</rdg>
+<rdg wit="#v6 #v11 #v14 #v15 #v17 #v18 #v19 #v20 #v21 #v22 #v23 #v27">Winged, too, with wind it is, and winnowings</rdg>
+<rdg wit="#v16">Wing'd too with wind it is, and winnowings</rdg>
+</app>
+</l>
+<l n="4">
+<app><rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v17 #v18 #v19 #v20 #v21 #v22 #v23 #v25 #v28 #v29 #v30">Of birds; as if the day's last hour in rings</rdg>
+<rdg wit="#v24 #v26">Of birds; . . .</rdg>
+<rdg wit="#v27">Of birds</rdg></app>
+</l>
+<l n="5">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v13 #v14 #v15 #v16 #v17 #v18 #v19 #v20 #v21 #v22 #v23 #v25 #v28 #v29">Of strenuous flight must die.</rdg>
+<rdg wit="#v12">Of strenuous tight must die.</rdg>
+<rdg wit="#v30">Of strenuous flight may die.</rdg>
+<rdg wit="#v24 #v26 #v27"/>
+</app>
+</l>
+</lg>
+
+<lg type="stanza">
+<l n="6">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v13 #v14 #v15 #v17 #v18 #v19 #v20 #v21 #v22 #v24 #v25 #v26 #v27 #v28 #v30">Sun-steeped in fire, the homeward pinions sway</rdg>
+<rdg wit="#v10 #v12">Sun-steeped to fire, the homeward pinions sway</rdg>
+<rdg wit="#v11 #v23 #v29">Sun steeped in fire, the homeward pinions sway</rdg>
+<rdg wit="#v16">Sun-steep'd in fire, the homeward pinions sway</rdg>
+</app>
+</l>
+<l n="7">
+<app>
+<rdg wit="#v1 #v17">Above the dove-cote tops;</rdg>
+<rdg wit="#v2 #v3 #v4 #v5 #v6 #v8 #v9 #v11 #v14 #v16 #v19 #v20 #v24 #v26 #v27 #v28 #v30">Above the dovecote-tops;</rdg>
+<rdg wit="#v7 #v10 #v12 #v13 #v25">Above the dovecote tops;</rdg>
+<rdg wit="#v15">Above the dovecot-tops;</rdg>
+<rdg wit="#v18">Above the dovecote's tops;</rdg>
+<rdg wit="#v21 #v22">Above the dove-cote's tops;</rdg>
+<rdg wit="#v23">Above the dovescote's tops;</rdg>
+<rdg wit="#v29">Above the dove cote tops;</rdg>
+</app>
+</l>
+<l n="8">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #7 #v8 #v9 #v10 #v11 #v13 #v14 #v15 #v16 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v25 #v26 #v27 #v28 #v29 #v30">And clouds of starlings, ere they rest with day,</rdg>
+<rdg wit="#v12">And clouds of starling, ere they rest with day,</rdg>
+<rdg wit="#v17">And clouds of starlings, ere they rest with day</rdg>
+</app>
+</l>
+<l n="9">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v16 #v17 #v18 #v19 #v20 #v24 #v25 #v26 #v27 #v28">Sink, clamorous like mill-waters, at wild play,</rdg>
+<rdg wit="#v5">Sink, clamorous like mill waters, at wild play,</rdg>
+<rdg wit="#v14 #v15 #v29 #v30">Sink, clamorous, like mill-waters, at wild play,</rdg>
+<rdg wit="#v21 #v22 #v23">Sink clamorous like mill waters, at wild play,</rdg>
+</app>
+</l>
+<l n="10">
+<app>
+<rdg wit="#v1 #v2 #v7 #v9 #v11 #v16 #v24 #v26 #v27 #v28 #v30">By turns in every copse:</rdg>
+<rdg wit="#v3 #v4 #v5 #v6 #v13 #v14 #v15 #v18 #v23 #v25 #v29">By turns in every copse.</rdg>
+<rdg wit="#v8 #v10 #v12 #v17 #v19 #v20 #v21 #v22">By turns in every copse;</rdg>
+</app>
+</l>
+</lg>
+
+<lg type="stanza">
+<l n="11">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v16 #v24 #v28">Each tree heart-deep the wrangling rout receives,&#8212;</rdg>
+<rdg wit="#v13">Each tree heart-deep the wrangling rout receives,</rdg>
+<rdg wit="#v14">Each tree, heart-deep, the wrangling rout receives,&#8212;</rdg>
+<rdg wit="#v15">Each tree, heart-deep, the wrangling rout receives&#8212;</rdg>
+<rdg wit="#v18 #v21 #v22 #v23">Each tree, heart-deep the wrangling rout receives&#8212;</rdg>
+<rdg wit="#v17 #v19 #v20 #v26 #v27 #v30">Each tree heart-deep the wrangling rout receives&#8212;</rdg>
+<rdg wit="#v25">Each tree heart-deep the wringing rout receives&#8212;</rdg>
+<rdg wit="#v29">Each tree heart deep the wrangling rout receives,&#8212;</rdg>
+</app>
+</l>
+<l n="12">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15">But for the whirr within,</rdg>
+<rdg wit="#v6">But for the whirl within,</rdg>
+<rdg wit="#v16 #v17 #v18 #v19 #v20 #v21 #v22 #v23 #v25 #v26 #v27 #v28 #v29 #v30">Save for the whirr within,</rdg>
+<rdg wit="#v24">Save for the whir within,</rdg>
+</app>
+</l>
+<l n="13">
+<app>
+<rdg wit="#v1 #v2 #v3 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v25 #v27 #v28 #v29 #v30">You could not tell the starlings from the leaves;</rdg>
+<rdg wit="#v4 #v6">You could not tell the startlings from the leaves;</rdg>
+<rdg wit="#v5">You could not tell the starlings from the leaves,</rdg>
+<rdg wit="#v26">You could not tell the starlings from the leaves</rdg>
+</app>
+</l>
+<l n="14">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v14 #v15 #v16 #v17 #v18 #v19 #v20 #v21 #v24 #v25 #v26 #v27 #v28 #v29 #v30">Then one great puff of wings, and the swarm heaves</rdg>
+<rdg wit="#v13">Then one great puff of wings, and the swarm</rdg>
+<rdg wit="#v22 #v23">Then one great puff of wings and the swarm heaves</rdg>
+</app>
+</l>
+<l n="15">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v14 #v15 #v16 #v17 #v18 #v19 #v20 #v21 #v22 #v24 #v25 #v26 #v27 #v28 #v29 #v30">Away with all its din.</rdg>
+<rdg wit="#v13">Heaves away with all its din.</rdg>
+</app>
+</l>
+</lg>
+
+<lg type="stanza">
+<l n="16">
+<app>
+<rdg wit="#v1 #v2 #v5 #v8 #v9 #v11 #v16 #v25 #v28 #v30">Even thus Hope's hours, in ever-eddying flight,</rdg>
+<rdg wit="#v3 #v4">Even thus Hope's hours, in every edding flight,</rdg>
+<rdg wit="#v6">Even thus Hope's hours, in every eddying flight</rdg>
+<rdg wit="#v7 #v13">Even thus Hope's hours, in ever eddying flight,</rdg>
+<rdg wit="#v10 #v12">Even thus Hope's hours, in ever-eddying night,</rdg>
+<rdg wit="#v14 #v15">Even thus, Hope's hours, in ever-eddying flight,</rdg>
+<rdg wit="#v29">Even thus Hope's hours in ever eddying flight,</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="17">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v25 #v29 #v30">To many a refuge tend;</rdg>
+<rdg wit="#v5">To many a refuge tend,</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="18">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v14 #v15 #v25 #v28 #v29 #v30">With the first light she laughed, and the last light</rdg>
+<rdg wit="#v16">With the first light she laugh'd, and the last light</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="19">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v8 #v10 #v12 #v16 #v28 #v29 #v30">Glows round her still; who natheless in the night</rdg>
+<rdg wit="#v7 #v9 #v11 #v13 #v25">Glows round her still; who nathless in the night</rdg>
+<rdg wit="#v14 #v15">Glows round her still; who, nathless in the night,</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="20">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v25 #v28 #v29 #v30">At length must make an end.</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+</lg>
+
+<lg type="stanza">
+<l n="21">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v14 #v15 #v16 #v25 #v28 #v29 #v30">And now the mustering rooks innumerable</rdg>
+<rdg wit="#v13">And now the muttering rooks innumerable</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="22">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v25 #v28 #v29 #v30">Together sail and soar,</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="23">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v28 #v29 #v30">While for the day's death, like a tolling knell,</rdg>
+<rdg wit="#v5">While for the day's death, like a tooling knell,</rdg>
+<rdg wit="#v25">While for the day's death-like tolling knell,</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="24">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v12 #v13 #v16 #v28 #v30">Unto the heart they seem to cry, Farewell,</rdg>
+<rdg wit="#v11 #v14 #v15">Unto the heart they seem to cry Farewell,</rdg>
+<rdg wit="#v25">Unto the heart they seem to say, Farewell,</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+<rdg wit="#v29">Unto the heart may seem to cry, Farewell,</rdg>
+</app>
+</l>
+<l n="25">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v25 #v28 #v29 #v30">No more, farewell, no more!</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+</lg>
+
+<lg type="stanza">
+<l n="26">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v25 #v28 #v29 #v30">Is Hope not plumed, as 'twere a fiery dart?</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="27">
+<app>
+<rdg wit="#v1">And oh thou dying day,</rdg>
+<rdg wit="#v2 #v5 #v8 #v10">And, oh, thou dying day,</rdg>
+<rdg wit="#v3 #v4">And O thou dying day,</rdg>
+<rdg wit="#v6">And O thy dying day,</rdg>
+<rdg wit="#v7 #v9 #v13">And oh, thou dying day,</rdg>
+<rdg wit="#v11 #v15 #v25">And, oh! thou dying day,</rdg>
+<rdg wit="#v12">And, oh, thy dying day,</rdg>
+<rdg wit="#v14">And O, thou dying day;</rdg>
+<rdg wit="#v16 #v28 #v29">And oh! thou dying day,</rdg>
+<rdg wit="#v30">And oh; thou dying day,</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="28">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v7 #v8 #v9 #v10 #v11 #v12 #v16 #v25 #v28 #v29 #v30">Even as thou goest must she too depart,</rdg>
+<rdg wit="#v13">Even as thou goest must she too depart</rdg>
+<rdg wit="#v6 #v14 #v15">Even as thou goest must she, too, depart,</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="29">
+<app>
+<rdg wit="#v1 #v2 #v7 #v8 #v9 #v11 #v14 #v15 #v16 #v28 #v29 #v30">And Sorrow fold such pinions on the heart</rdg>
+<rdg wit="#v3 #v4 #v6">And Sorrow fold such pinions on the earth</rdg>
+<rdg wit="#v5 #v10 #v12 #v13">And sorrow fold such pinions on the heart</rdg>
+<rdg wit="#v25">And sorrow told such pinions on the heart</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+<l n="30">
+<app>
+<rdg wit="#v1 #v2 #v3 #v4 #v5 #v6 #v7 #v8 #v9 #v10 #v11 #v12 #v13 #v14 #v15 #v16 #v25 #v28 #v29 #v30">As will not fly away?</rdg>
+<rdg wit="#v17 #v18 #v19 #v20 #v21 #v22 #v23 #v24 #v26 #v27"/>
+</app>
+</l>
+</lg>
+
+<signed>
+<app>
+<rdg wit="#v1 #v3 #v9 #v14">D<hi rend="smallcaps">ANTE</hi> G. R<hi rend="smallcaps">OSSETTI</hi>.</rdg>
+<rdg wit="#v2">DANTE G. ROSSETTI.</rdg>
+<rdg wit="#v6 #v7 #v8"><emph>Dante G. Rossetti</emph></rdg>
+<rdg wit="#v13">C<hi rend="smallcaps">HRISTINA</hi> G. R<hi rend="smallcaps">OSETTI</hi>.</rdg>
+<rdg wit="#v16 #v26 #v27">D. G. Rossetti.</rdg>
+<rdg wit="#v17 #v20 #v24">Dante Gabriel Rossetti.</rdg>
+<rdg wit="#v18">Dante Gabriel Rosetti.</rdg>
+<rdg wit="#v21"><emph>Dante Gabriel Rosetti.</emph></rdg>
+<rdg wit="#v22">Dante Gabriel Rosetti.</rdg>
+<rdg wit="#v23">Dante Gabriel Rossetti</rdg>
+<rdg wit="#v25">Dante Gabrielle Rosetti.</rdg>
+ </app>
+</signed>
+
+</lg>
+</body>
+
+</text>
+</TEI>
+

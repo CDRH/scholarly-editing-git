@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18631017.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lines</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18631017.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#fmj">F. M. J.</author>
+                        <title level="a">Lines</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-10-17">17 October 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="fmj">Coppin, Fanny Jackson</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-29" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-25" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked</change>
+            <change when="2012-05" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18631017.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18631017.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18631017.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18631017.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18631017.pp4.jpg"/>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>                
+                
+                <head type="main" subtype="authorial" rend="center">LINES</head>                
+                
+                <head type="sub" subtype="authorial" rend="center">WRITTEN ON THE DEATH OF JESSIE VICTORIA, INFANT <choice><orig>DAUGH-<lb/>TER</orig><reg>DAUGHTER</reg></choice> OF JOSEPHINE AND CARTER A. STEWART, ESQ.,<note type="editorial" resp="#bw #el">Carter A. Stewart, born in Virginia in about 1827, established himself as a barber in Washington, DC prior to the outbreak of the war. The 1860 census suggests that he owned real estate worth $2,000. At this time, he and Josephine had a six-year-old son (Carter) and a one-year-old daughter (Josephine); Jessie Victoria was born after the 1860 census, and her age at death is unknown. According to the <title level="j">Anglo-African</title> of July 2, 1864, Carter A. Stewart was one of the Washington leaders who signed the call for a "National Convention of Colored Men." A prominent figure in postwar city politics, he was elected to the common council in 1868 and to the board of aldermen in 1869 (Kate Masur, <title level="m">An Example for All the Land: Emancipation and the Struggle over Equality in Washington, DC</title> [Chapel Hill: University of North Carolina Press, 2010], 153; <title level="m">Congressional Dictionary for the First Session of the Forty-First Congress of the United States of America</title>, comp. Ben. Perley Poore, 2nd ed. [Washington: Government Printing Office, 1869], 101). Little is known about Josephine. She was born in the District of Columbia about 1830.</note> <lb/>OF WASHINGTON, D. C.</head>
+                                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">I think</emph> I see thy fair young face</l>
+                    <l>Beaming with truth and childish grace;</l>
+                    <l>The soulful light that lit thine eyes</l>
+                    <l>Too radiant shone for <emph rend="italic">our</emph> skies,</l>
+                    <l rend="indented2">And Jesus called thee home.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Thy woesome feet will never tread</l>
+                    <l>The rugged path of life, o'erspread</l>
+                    <l>With thorny cares; nor will thy youth,</l>
+                    <l>In blindly groping for the truth,</l>
+                    <l rend="indented2">Fall in the tempter's snare.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The soul's fierce battles fought with sin,</l>
+                    <l>Which we must conquer ere we win</l>
+                    <l>The crown of life&#8212;and sore defeat</l>
+                    <l>That follows oft our wayward feet&#8212;</l>
+                    <l rend="indented2">All these thou can'st not know.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>No longer suffering, pale and weak,</l>
+                    <l>Heaven's genial airs have kissed thy cheek,</l>
+                    <l>And left eternal freshness on</l>
+                    <l>Thine infant face, where lately shone</l>
+                    <l rend="indented2">The glistening dews of death.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Thy voice with seraph's now is blending</l>
+                    <l>In a chorus far transcending</l>
+                    <l>Earth's divinest harmonies;</l>
+                    <l>Yes, Jessie's glad refrain now is</l>
+                    <l rend="indented2">The song of the redeemed.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And when the viewless waves of time</l>
+                    <l>Have borne <emph rend="italic">us</emph> to that happier clime,</l>
+                    <l>Then shall our eyes with joy behold</l>
+                    <l>In rarest loveliness unfold</l>
+                    <l rend="indented2">The bud that withered here.</l>
+                </lg>
+            </lg>
+            
+            
+            <dateline>Washington, D. C., Oct. 3, 1863.</dateline>
+            <byline rend="right">F. M. J.<note type="editorial" resp="#bw #el"><p>Fanny Marion Jackson Coppin (1837&#8211;1913), born into slavery in the District of Columbia and emancipated by an aunt before her tenth birthday. She moved to New Bedford, Massachusetts, and then to Newport, Rhode Island, where she combined domestic work with study in order to enter the Rhode Island State Normal School. During the Civil War years, Jackson attended Oberlin College, "then the only College in the United States where colored students were permitted to study" (Fanny Jackson-Coppin, <title level="m">Reminiscences of School Life, and Hints on Teaching</title> [Philadelphia: A. M. E. Book Concern, 1913], 12).</p><p>At Oberlin, Jackson took "the gentleman's course" with "plenty of Latin and Greek in it, and as much mathematics as one could shoulder" (12). She distinguished herself as an exceptional scholar. "I never rose to recite in my classes at Oberlin but I felt that I had the honor of the whole African race upon my shoulders," she recalled in <title level="m">Reminiscences of School Life, and Hints on Teaching</title> (15). The faculty recognized her academic achievements when they gave her preparatory classes to teach in her junior year. During her time at Oberlin, she also led evening classes for freedpeople and raised funds for African American soldiers. At the same time, she supported the <title level="j">Anglo-African</title> with occasional contributions, and collected funds to send copies of the newspaper to soldiers. At the same time, she supported the <title level="j">Anglo-African</title>, collecting funds to send copies of the newspapers to soldiers and assisting in the organization of a "National Fair" in aid of the paper (<title level="j">Anglo-African</title>, June 4, 1864, [2]; January 21, 1865, [3]).</p><p>After graduation, Jackson began her career as a teacher at Philadelphia's Institute for Colored Youth. In 1869 Jackson was appointed as principal of the whole school; the promotion broke new ground, as "no woman at this time headed a coeducational institution that had both male and female faculty" (Linda M. Perkins, "Coppin, Fanny Jackson," in <title level="m">American National Biography Online</title>). She continued her pioneering work as an educator after marrying minister Levi Jenkins Coppin in 1881. Like Coppin, Jackson was a dedicated member of the African Methodist Episcopal Church. In 1878 she established a "Women's Department" in the <title level="j">Christian Recorder</title>. For more on Jackson's life and work, see Linda M. Perkins's biography, <title level="m">Fanny Jackson Coppin and the Institute for Colored Youth, 1865&#8211;1902</title> (London: Garland, 1987).</p></note></byline>
+        </body>
+        
+    </text>
+</TEI>
+
+
+

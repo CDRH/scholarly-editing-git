@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18630606.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">How Mr. Lincoln Became an Abolitionist</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18630606.4</idno> <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#sbg">S. B. Gookins</author>
+                        <title level="a">How Mr. Lincoln Became an Abolitionist</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-06-06">6 June 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="sbg">Gookins, S. B. (Samuel Barnes), 1809-1880</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Emancipation Proclamation</term>
+                    <term>Lincoln, Abraham, 1744-1786</term>
+                    <term>United States. Constitution</term>
+                    <term>Vallandigham, Clement L. (Clement Laird), 1820-1871</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01-10" who="#el">revised first editorial note</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-01" who="#el">checked transcription and encoding</change>            
+            <change when="2012-07-29" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18630606.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18630606.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18630606.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18630606.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18630606.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">HOW MR. LINCOLN BECAME AN ABOLITIONIST.<note type="editorial" resp="#bw #el">
+                    <p>The poem's humorous conversion narrative obscures the messy historical realities of Lincoln's position in the summer of 1863. Few abolitionists believed that Lincoln shared their priorities; the poem's title is a wry comment on Lincoln's policy of emancipation, as set out in the preliminary and final Emancipation Proclamations. These war measures abolished slavery in rebel states, without touching slavery in loyal border states or occupied regions of Louisiana and Virginia. Nonetheless, contemporaries recognized that "abolition in the Confederacy would fatally undermine slavery everywhere" (Eric Foner, <title level="m">The Fiery Trial: Abraham Lincoln and American Slavery</title> [New York: Norton, 2010], 231).</p> 
+                    
+                    <p>Each proclamation was the work of a shrewd lawyer-politician, not an abolitionist "fanatic" (see penultimate stanza, line 14). Lincoln was keenly aware that the issue of border state loyalty, precious and precarious, was inextricably intertwined with the government's attitude toward slavery. In August 1862 Lincoln stated his position in a public response to antislavery criticism from <title level="j">New York Tribune</title> editor Horace Greeley: "My paramount object in this struggle is to save the Union, and is not either to save or to destroy slavery" (letter dated August 22, 1862, in <title level="m">The Collected Works of Abraham Lincoln</title>, ed. Roy P. Basler [New Brunswick, NJ: Rutgers University Press, 1953], 5:388). He also pointed out the stark contrast between his "official duty" and his "personal wish that all men everywhere could be free" (389).</p>
+                    
+                    <p>As the war dragged on, however, measures that struck at the Confederacy's resources&#8212;including slave labor&#8212;gathered support from Northern Republicans and War Democrats. By the time Lincoln wrote to Greeley, he had already drafted the preliminary Emancipation Proclamation (issued against the backdrop of battlefield success of Antietam on September 22, 1862). This measure decreed that if rebellious states did not return to the Union by January 1, 1863, "all persons held as slaves" in such states at that time would be "then, thenceforward, and forever free" (<title level="m">The Collected Works of Abraham Lincoln</title>, 5:434). The proclamation offered border states incentives to support gradual emancipation, in the form of compensation and colonization schemes. These incentives were probably intended to soften the blow but, in mid-1862 a hostile reaction was a risk that Lincoln was willing to take. The final Emancipation Proclamation made no reference to colonization schemes or to compensated emancipation&#8212;instead Lincoln made provision for African American enlistment in the US military.</p>
+                    
+                    <p>Many Northerners regarded Lincoln's preliminary proclamation as "a dramatic about-face" (John David Smith, "Let Us All Be Grateful that We Have Colored Troops that will Fight," in <title level="m">Black Soldiers in Blue: African American Troops in the Civil War Era</title>, ed. John David Smith [Chapel Hill: University of North Carolina Press, 2002], 18). Diminishing complexities, "How Mr. Lincoln Became an Abolitionist" presents an isolated moment in the evolution of Lincoln's policy as a clear-cut triumph of (constitutional) common sense.</p>
+                    
+                </note></head>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">The</emph> woodman one night was roused by a clatter,<note type="editorial" resp="#bw #el">The poet's extended allegory presents rail-splitter Lincoln as the "woodman" and a slaveocrat as the "burglar"; slave property is "the ladder," and the United States the "house" (a conceit Lincoln himself used in his famous "House Divided" speech of 1858). The poem is essentially a Republican response to Peace Democrat charges that Lincoln's Emancipation Proclamation was unconstitutional. The fable might also allude to Lincoln's reputation for homespun wisdom.</note></l>
+                    <l>Each one in the house crying, "Ho! what's the matter?"</l>
+                    <l>All jumped out of bed and ran hither and thither,</l>
+                    <l>Scarce knowing amid their alarm why or whither;</l>
+                    <l>But soon it was found mid the tumult and din</l>
+                    <l>That burglars were making attempts to break in.</l>
+                    <l>And now there arose o'er the turmoil and noise</l>
+                    <l>The woodman's loud summons addressed to "the boys."</l>
+                    <l>"The boys" quickly came, and on looking around,</l>
+                    <l>At one of the windows a ladder was found,</l>
+                    <l>And on it a burglar, who, plying his trade,</l>
+                    <l>A burglarious opening already had made.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Now the woodman, though making this nocturnal sortie</l>
+                    <l>All armed and equipped, at the rate of "two-forty,"<note type="editorial" resp="#el #bw">Fast; a colloquial phrase, derived from a record mile in a trotting race: two minutes, forty seconds (<title level="m">Oxford English Dictionary</title>).</note></l>
+                    <l>Called a halt, and proposed, before firing a gun,</l>
+                    <l>To question with care what had better be done.</l>
+                    <l>Forthwith he assembled a council of war,</l>
+                    <l>To gravely consider how fast and how far</l>
+                    <l>In a case of this kind it was lawful to go.</l>
+                    <l>Some said, "Smash the ladder," but others said, "No,</l>
+                    <l>There were many objections to that, and the chief</l>
+                    <l>Was the constitutional rights of the thief;</l>
+                    <l>That the ladder was property all men agreed,</l>
+                    <l>And as such was protected, secured, guaranteed;</l>
+                    <l>And if 'twas destroyed, our greatest of laws</l>
+                    <l>Could not be upheld and maintained 'as it was.'"</l>
+                    <l>But others replied, "That ladder's the chief</l>
+                    <l>Supporter, as all men may see, of the thief;</l>
+                    <l>Let's aim at the ladder, and if it should fall,</l>
+                    <l>Let the burglar fall with it, or hang by the wall</l>
+                    <l>As well as he can; and by the same token,</l>
+                    <l>Whose fault will it be if his neck should be broken?"</l>
+                    <l>To which it was answered, "That ladder may be</l>
+                    <l>The chattel of some honest man, d'ye see."</l>
+                    <l>"Well, then, we will pay for't." "No, never!" says V.,<note type="editorial" resp="#bw #el"><p>Democrat Clement Laird Vallandigham (1820&#8211;1871) was elected to the Ohio state legislature in 1845. An ambitious and driven politician, he scrapped for a variety of positions in the 1850s (a judgeship, a lieutenant governorship, and a seat in Congress). He won a seat in the House of Representatives in 1858 and was reelected in 1860, but not in 1862, after he called for peace on any terms.</p><p>As a result of his willingness to challenge Lincoln's policies, Vallandigham emerged as a leader of the Peace Democrats, whom Republicans regarded as treacherous Copperheads. The activities of prominent Peace Democrats led Ohio's military governor Ambrose Burnside to issue General Order No. 38 in April 1863, which declared that supporting or sympathizing with the Confederacy was tantamount to treason in the military district of Ohio and that such actions would be punished. Defiant, Vallandigham was arrested on May 5, 1863 following a speech denouncing Lincoln's policies and was found guilty at trial (Allen C. Guelzo, <title level="m">Lincoln's Emancipation Proclamation: The End of Slavery in America</title> [New York: Simon and Schuster, 2004], 206). Lincoln commuted the sentence of imprisonment to one of exile.  After less than a month in the Confederacy, Vallandigham went to Canada in August 1863 and returned to Ohio in June 1864. On his return, he helped to shape the "Peace Plank" in the Democratic Party's platform for the presidential election of 1864. After the war, Vallandigham returned to law and tried to reestablish himself in politics without much success. He accidentally shot himself in 1871 (James Laird Vallandigham, <title level="m">A Life of Clement L. Vallandigham</title> [Baltimore: Turnbull Brothers, 1872).</p></note></l>
+                    <l>"To be taxed for that ladder I'll never agree;</l>
+                    <l>You have brought on this fuss," said V., mad and still <lb/>madder;</l>
+                    <l>"You always intended to break the man's ladder;</l>
+                    <l>You have been for a long time the people deceiving</l>
+                    <l>With false and pretended objections to thieving;</l>
+                    <l>You never desired to have robbing abolished;</l>
+                    <l>You only have sought to have ladders demolished."</l>
+                    <l>"Pray, hold!" said another, "perhaps, while we're trifling</l>
+                    <l>About this old ladder, the thief will be rifling</l>
+                    <l>The house of its contents, or, venturing further,</l>
+                    <l>May set it on fire&#8212;the children may murder."</l>
+                    <l>"Can't help it," says V.; "though he murder to-day,</l>
+                    <l>Who knows but to-morrow the murderer may</l>
+                    <l>Repent and reform; then who shall restore</l>
+                    <l>The ladder all perfect and sound as before?</l>
+                    <l>But whether or no, I can never consent</l>
+                    <l>That the thief and the ladder should make a descent,</l>
+                    <l>Which haply might hurt a burglarious brother,</l>
+                    <l>Or totally wreck and demolish the other."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The woodman bade "Silence!" He cried out "Ho! list!<choice><sic>'</sic><corr>"</corr></choice></l>
+                    <l>Then called on the burglar his work to desist,</l>
+                    <l>And made proclamation<note type="editorial" resp="#bw #el">Lincoln issued the preliminary Emancipation Proclamation September 22, 1862. He began by restating his primary war aim as the restoration of a "constitutional relation between the United States, and each of the states, and the people thereof" in those states where it had been "suspended or disturbed" (Abraham Lincoln, <title level="m">Abraham Lincoln: Selected Speeches and Writings</title> [New York: Library of America, 2009], 345). He then encouraged loyal slave states to adopt "immediate, or gradual emancipation within their respective limits" by offering both financial aid and a colonization scheme. "How Mr. Lincoln Became an Abolitionist" refers to the most prominent part of Lincoln's plan; on January 1, 1863, he would declare forever free "all persons held as slaves" within any rebellious state or region (<title level="m">Lincoln: Selected Speeches</title>, 345). Lincoln officially charged the military and navy with "recogniz[ing] and maintain[ing] the freedom of such persons." He went on to assure rebellious states that if they returned to the Union and were represented in the US Congress on January 1 (by members elected by reconstructed state governments), they would not be considered as "in rebellion" and their slaves would not be freed under the Emancipation Proclamation.</note> throughout all the town</l>
+                    <l>That if in a specified time he came down</l>
+                    <l>And gave a firm pledge of obeying the laws,</l>
+                    <l>He might keep his old ladder all safe "as it was";</l>
+                    <l>But if he pursued his felonious intent</l>
+                    <l>Beyond the time given, he'd cause to be sent</l>
+                    <l>'Mid the conflict of arms and the cannon's loud thunder,</l>
+                    <l>A missile to knock his old ladder from under.</l>
+                    <l>Then pausing to see the effect of his speech,</l>
+                    <l>He saw nought but the thief still at work at the breach;</l>
+                    <l>And, being opposed to thieves visiting attics,</l>
+                    <l>Combined with those vile anti-ladder fanatics,<note type="editorial" resp="#bw #el">Abolitionists, widely regarded as "fanatics" in the decades before the war.</note></l>
+                    <l>And sent a projectile which left the thief where</l>
+                    <l>Thieves and traitors should all be, suspended in air,</l>
+                    <l>Except that he lacked what was due to his calling,</l>
+                    <l>A hempen attachment to keep him from falling.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then burglars, and thieves, and traitors, and all</l>
+                    <l>Their friends sympathetic forthwith 'gan to bawl,</l>
+                    <l>"We're ruined! we're ruined! To what a condition</l>
+                    <l>The country is brought by this man's abolition!"</l>
+                    <l>And echo replied: "Oh! dreadful condition!</l>
+                    <l>Abolition&#8212;bolition&#8212;bolition&#8212;abolition!"</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<emph rend="italic">S. B. Gookins,</emph><note type="editorial" resp="#bw #el">Samuel Barnes Gookins (1809&#8211;1880). Born in Vermont, Gookins moved with his mother to Terra Haute, Indiana, in 1823. From 1834 until 1850, Gookins worked in the newspaper trade. By 1852 he was a member of the Indiana House of Representatives. After an unsuccessful bid for a justiceship on the Indiana Supreme Court in 1852, Gookins became the fifteenth justice of the Indiana Supreme Court in 1855. Just two years later, in 1857, Gookins moved to Chicago, where he practiced law until 1875. See Minde C. Browning, Richard Humphrey, and Bruce Kleinschmidt, "Biographical Sketches of Indiana Supreme Court Justices," <title level="j">Indiana Law Review</title> 30, no. 329 (1997): 349&#8211;50.</note> <emph rend="italic">in</emph> <title level="j" rend="italic">The Continental Monthly</title>.<note type="editorial" resp="#bw #el"><p><title level="j">The Continental Monthly: Devoted to Literature and National Policy</title>. The first issue of James Roberts Gilmore's Boston-based monthly appeared in January 1862. It closed at the end of 1864. Charles Godfrey Leland, <title level="j">Continental</title> editor, defined the magazine in terms of its unshakable commitment to the Union, Republicanism, emancipation, and free labor. "We shall advocate the holy cause of the UNION with might and main, and leave no means whatever neglected to urge the most vigorous prosecution of this war," he wrote in his inaugural issue. "Believing in Emancipation, subject to the will of the majority and the action of the administration, we shall still welcome to our pages the properly expressed views of <emph rend="italic">every</emph> sound 'Union man' or woman on this or other subjects, however differing from our own" ("Editor's Table," 99). Leland edited the <title level="j">Continental</title> until April 1863, when Gilmore replaced him with Martha E. D. Walker Cook (sister of part-owner Robert J. Walker). The title failed as a result of the economic pressures of the war era (Frank Luther Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> [Cambridge, MA: Harvard University Press, 1938], 2:543).</p><p>"How Mr. Lincoln became an Abolitionist" was published in the June 1863 issue of the <title level="j">Continental Monthly</title>; in reprinting the piece, the <title level="j">National Anti-Slavery Standard</title> cut introductory lines which identified the poem as a sequel to an earlier piece, "Tom Johnson's Bear" (<title level="j">Continental Monthly</title>, October 1862, 491&#8211;93).</p></note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

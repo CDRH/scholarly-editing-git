@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">A Digital Edition of Christopher Pearse Cranch's
+                    'Journal. 1839.'</title>
+                <author>Christopher M. Ohge</author>
+                <respStmt>
+                    <resp>Creation and encoding</resp>
+                    <name xml:id="cmo">Christopher M. Ohge</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">intro.cranchjournal</idno>
+                <idno type="edition">cranchjournal</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2014</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">35</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#cmo">Initial creation</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">"Lest we get too transcendental": Christopher Pearse Cranch's Changes
+                of Mind in "Journal. 1839."</head>
+            <byline>Christopher M. Ohge</byline>
+        </front>
+        <body>
+            <div>
+                <epigraph>
+                    <lg type="poem">
+                        <l>If death be final, what is life, with all</l>
+                        <l>Its lavish promises, its thwarted aims,</l>
+                        <l>Its lost ideals, its dishonored claims,</l>
+                        <l>Its uncompleted growth? A prison wall,</l>
+                        <l>Whose heartless stones but echo back our call;</l>
+                        <l>An epitaph recording but our names;</l>
+                        <l>A puppet-stage where joys and griefs and shames</l>
+                        <l>Furnish a demon jester’s carnival;</l>
+                        <l>A plan without a purpose or a form;</l>
+                        <l>A roofless temple; an unfinished tale.</l>
+                        <l>And men like madrepores through calm and storm</l>
+                        <l>Toil, die to build a branch of fossil frail,</l>
+                        <l>And add from all their dreams, thoughts, acts, belief,</l>
+                        <l>A few more inches to a coral-reef.</l>
+                    </lg>
+                    <bibl>Christopher Pearse Cranch, "Sonnet XXXL: Life and Death"<note
+                            type="editorial" resp="#cmo"><hi rend="italic">Ariel and Caliban, With
+                                Other Poems</hi> (Cambridge: Houghton Mifflin, 1887),
+                        162.</note></bibl>
+                </epigraph>
+                <p>A casual reader of this sonnet might suspect Christopher Pearse Cranch
+                    (1813&#8211;1892) was a dark romantic, yet he was a transcendentalist with
+                    unique versatility, a man seemingly engrossed in second thoughts. He was
+                    humorous, playful, and uncommitted, yet earnest and philosophically resourceful;
+                    a rugged individualist in the Emersonian spirit, yet (as Coleridge said of
+                    Spenser) "a mind constitutionally tender, delicate," exhibiting a "melancholy
+                    grace" in much of his writings.<note type="editorial" resp="#cmo">Chapter 2 of
+                            <hi rend="italic">Biographia Literaria: The Collected Works of Samuel
+                            Taylor Coleridge</hi>, ed. Walter Jackson Bate et al. (Princeton:
+                        Princeton University Press, 1985), 7:36.</note> It was in Cranch’s 1839
+                    "Journal" that he meticulously recorded his changes of mind in a watershed
+                    moment in his life: not yet a transcendentalist, he was about to quit the
+                    Unitarian Church, befriend his idol Emerson, and make a life for himself as a
+                    visual artist. His "Journal" clearly illustrates his intellectual development
+                    alongside the progress of transcendentalism when both were in flux.</p>
+                <div>
+                    <milestone unit="undeclared" rend="asterisks"/>
+                    <p>Cranch is an intriguing figure who warrants further scholarly attention, not
+                        merely for his status as an instrumental transcendentalist but also for his
+                        commendable artistic failures. As a relative to the storied Adamses,
+                        Greenleafs, and Eliots (and a great-uncle to T. S. Eliot), a close friend to
+                        Emerson, James Russell Lowell, the Brownings, and Margaret Fuller, one of
+                        the very few transcendentalists Edgar Allan Poe praised,<note
+                            type="editorial" resp="#cmo">In the 1846 issue of <hi rend="italic"
+                                >Godey’s</hi>, Poe called Cranch "the least intolerable of the
+                            school of Boston transcendentalists&#8212;and, in fact, I believe that
+                            he has at last ‘come out from among them,’ abandoned their doctrines
+                            (whatever they are) and given up their company in disgust. [He] seems to
+                            me to possess unusual vivacity of fancy and dexterity of expression,
+                            while his versification is remarkable for its accuracy, vigor, and even
+                            for its originality of effect."</note> and the artist responsible for
+                        the famous parody of Emerson’s "transparent eye-ball" passage in <hi
+                            rend="italic">Nature</hi>, Cranch has faded into near-obscurity.<note
+                            type="editorial" resp="#cmo">Cranch’s obscurity may be the result of
+                            articles such as J. C. Levinson’s "Christopher Pearse Cranch: The Case
+                            History of a Minor Artist in America," <hi rend="italic">American
+                                Literature</hi> 21, no. 4 (January 1950): 415&#8211;26.</note> But
+                        the wit and accessibility of his caricatures of New England
+                        transcendentalism eventually helped make what was then a fairly
+                        self-enclosed regional movement into a nationally identifiable aesthetic.
+                        Cranch’s characteristically transcendental expressions on the divinity of
+                        nature, juxtaposed with darker musings on the limits of human understanding,
+                        distinguishes him among a transcendentalist cohort that continues to be
+                        understood largely in terms of its unmitigated optimism.</p>
+                    <p>Like Fuller, Cranch was one of the few transcendentalists to leave New
+                        England for substantial periods of time. While he saw the Boston area as an
+                        intellectual haven&#8212;"that little world, that vortex of life, that spot
+                        of all others in the country where life in all its various aspects is so
+                        concentrated and distilled"<note type="editorial" resp="#cmo">From an April
+                            11, 1842, letter to Miss Julia Myers. Quoted in Lenora Cranch Scott, <hi
+                                rend="italic">The Life and Letters of Christopher Pearse
+                                Cranch</hi> (Boston: Houghton Mifflin, 1917), 77.</note>&#8212;he
+                        often escaped it, traveling to the midwestern United States in the late
+                        1830s as well as Europe in 1846–49, 1853–63, and 1880–82. His 1839 "Journal"
+                        mostly documents the end of his travels to the new frontiers of Kentucky and
+                        Ohio, as he trained to be a Unitarian minister while seeking "Independence
+                        of mind and of conduct. To be myself&#8212;and not another&#8212;to be
+                        natural and free."<note type="editorial" resp="#cmo">"Journal. 1839," 7. For
+                            a biographical introduction to the "Journal," see Francis B. Dedmond,
+                            "Christopher Pearse Cranch's ‘Journal. 1839,’" in <hi rend="italic"
+                                >Studies in the American Renaissance 1983</hi>, ed. Joel Myerson
+                            (Charlottesville: University Press of Virginia, 1983), 129–35.</note> He
+                        attended the Semi-Colon discussion groups, frequented the literary salon of
+                        George Keats (and was an early appreciator of his brother John), and spent
+                        substantial periods of time with James Freeman Clarke and John Sullivan
+                        Dwight. At the end of the "Journal" he records his return to the East Coast,
+                        trying yet again to find a better sense of purpose and career direction.
+                        Never ordained as a minister, Cranch instead traveled widely, was published
+                        in early issues of the <hi rend="italic">Dial</hi>, continued to write in
+                        commonplace and sketch books, and spent the rest of his life painting in the
+                        manner of the Hudson River school and occasionally writing poetry and
+                        children’s literature. Throughout his life he endeavored to capture the
+                        material facts from which Emerson’s philosophy sprang, sometimes
+                        demonstrating Emerson’s thought more clearly in one drawing or painting than
+                        Emerson himself did in paragraphs. Yet he also defied exclusive association
+                        with any identifiable profession or artistic convention: he was, in the
+                        estimation of Van Wyck Brooks, "a man who had taken Emerson at his word and
+                        planted himself on his instincts, wherever they led him."<note
+                            type="editorial" resp="#cmo">See Hazen C. Carpenter, "Emerson and
+                            Christopher Pearse Cranch," <hi rend="italic">New England Quarterly</hi>
+                            37 (March 1964): 18–42; Van Wyck Brooks, <hi rend="italic">The Flowering
+                                of New England, 1815&#8211;1865</hi> (New York: Modern Library, 1941),
+                            258.</note> Cranch settled in Cambridge, Massachusetts, in 1873, and
+                        died in 1892 a minor transcendentalist in an era of realism. Herman
+                        Melville, who died only a year before Cranch, had written a poem toward the
+                        end of his life implying the plight of creating unappreciated art&#8212; <lg
+                            type="poem">
+                            <l>Craftsmen, in dateless quarries dim,</l>
+                            <l>Stones formless into form did trim,</l>
+                            <l>Usurped on Nature’s self with Art,</l>
+                            <l>And bade this dumb I AM to start,</l>
+                            <l>Imposing Him.<note type="editorial" resp="cmo">"The Great Pyramid,"
+                                        <hi rend="italic">Published Poems: The Writings of Herman
+                                        Melville</hi>, ed. Robert C. Ryan et al (Chicago and
+                                    Evanston: The Newberry Library and Northwestern University
+                                    Press, 2002), 11:316. I am also reminded of Cranch when reading
+                                    Melville’s ironic opening lines to "The Fiddler": "So my poem is
+                                    damned, and immortal fame is not for me! I am nobody forever and
+                                    ever. Intolerable fate!" In various aspects Cranch also
+                                    resembles Jones Very (1813&#8211;1880): they were both
+                                    spiritually attuned poets, good friends with leading
+                                    Transcendentalists (including Emerson), devoted to the
+                                    cultivation of the intellect and the spirit, and experienced
+                                    brief moments of fame in their lifetime only to retire to very
+                                    quiet, unassuming lives.</note></l>
+                        </lg> Melville’s pun on "I AM" with <hi rend="italic">iamb</hi> suggests the
+                        uneasy relationship between the crafting of poetry and identity, which
+                        imposes itself, one foot after another, on Nature in order to make sense of
+                        its place in a chaotic world. Although Cranch, like Melville, enjoyed only a brief period of notoriety in his lifetime, both of them saw art as the
+                        raison d’être of their everyday lives. Melville eventually got his
+                        recrudescence, yet Cranch still remains an oddity, an obscure American
+                        metaphysical artist. In 1917, Cranch’s daughter, Lenora Cranch Scott,
+                        published what remains the only comprehensive biography of him.<note
+                            type="editorial" resp="#cmo">In his book <hi rend="italic">Andrew
+                                Jackson Downing and the Architecture of Popular Antebellum
+                                Literature, 1835&#8211;1855</hi> (Hanover, NH: University Press of
+                            New England, 1996), 200, Adam Sweeting points out the need for a modern
+                            biography on Cranch. See also David Robinson’s essay "Christopher Pearse
+                            Cranch," in <hi rend="italic">The Transcendentalists: A Review of
+                                Research and Criticism,</hi> Ed. Joel Myerson (New York: Modern
+                            Language Association, 1984), 123&#8211;30.</note> Despite the wealth of
+                        unedited materials available on this enigmatic figure, and some recent
+                        interest in Cranch’s children’s literature, a scholarly industry on him is
+                        still lacking.<note type="editorial" resp="#cmo">See <hi rend="italic">Three
+                                Children’s Novels by Christopher Pearse Cranch</hi>, edited, with an
+                            introduction, by Greta D. Little and Joel Myerson (Athens: University of
+                            Georgia Press, 1993; reprint edition, 2010).</note></p>
+                    <p>Until now, the most significant scholarly work on the "Journal" was Francis
+                        B. Dedmond’s transcription of it, which was published in 1983.<note
+                            type="editorial" resp="#cmo">Dedmond, "Cranch’s ‘Journal. 1839,’"
+                            136–49. The most effective critical work on the significance of the
+                            journal is Julie M. Norko’s "Christopher Pearse Cranch’s Struggles with
+                            the Muses," <hi rend="italic">Studies in the American Renaissance
+                                1992</hi>, ed. Joel Myerson (Charlottesville: University Press of
+                            Virginia, 1992), 209–27.</note> My purpose is to improve upon Dedmond’s
+                        work with updated technology and information, and to reopen a critical
+                        conversation that Dedmond likely had in mind with his publication. Dedmond
+                        lacked the advantages of TEI encoding, high-resolution images, and open
+                        access journals, and his transcription does not record manuscript changes,
+                        explain his editorial principles, or record all textual features (such as
+                        line and paragraph breaks). His transcription is also supported by only
+                        three low-quality black-and-white facsimiles.<note type="editorial"
+                            resp="#cmo">Dedmond’s transcription has quite a few minor
+                            errors&#8212;and a few substantive ones&#8212;which are recorded in the
+                            xml document under <hi rend="bold">sic</hi> tags (within <hi rend="bold"
+                                >choice</hi>).</note> Here presented is the entire "Journal 1839,"
+                        digitized for the first time and encoded in TEI with an updated apparatus
+                        and a corrected reading text available for download.</p>
+                </div>
+                <div>
+                    <head type="main">Significance of the "Journal": Diffidence, Allusion, and the
+                        Fate of Transcendentalism</head>
+                    <p>Cranch’s 1839 "Journal" presents an immediate, humane, and compelling account
+                        of his quest for personal advancement as a young man. It is the only
+                        surviving handwritten document from a crucial moment in Cranch’s life when
+                        he turned away from the Unitarian ministry and toward transcendentalism and
+                        the uncertain path of a multigenre artist. The "Journal" also demonstrates
+                        Cranch’s budding aesthetic process: working through his philosophical
+                        forefathers and using devices borrowed from Carlyle, Emerson, and the German
+                        romantics to convey a sense of self that is in frustrating progress, he
+                        echoes Horace’s plea to Maecenas to be patient and seek action, "To make the
+                        world serve me, not me the world" (Epistle I).<note type="editorial"
+                            resp="#cmo">As translated by David Ferry in his <hi rend="italic"
+                                >Epistles of Horace: A Bilingual Edition</hi> (New York: Farrar,
+                            Straus &amp; Giroux, 2001), 5.</note></p>
+                    <p>In his "Journal" Cranch displays an allusiveness masked in a modesty topos
+                        that prefigures a similar tactic in T. S. Eliot’s prose, in addition to
+                        channeling a curious tradition of diffidence in English poetry.<note
+                            type="editorial" resp="#cmo">I borrow the "modesty topos" idea from
+                            Christopher Ricks, <hi rend="italic">Decisions and Revisions in T. S.
+                                Eliot</hi> (London: British Library, 2003). </note> The dominant
+                        view of Cranch is that he was a <hi rend="italic">diffident</hi> man. The
+                        word "diffidence" (or "diffident") appears nine times in Scott’s biography;
+                        Julie M. Norko’s article has it four times, as to his "struggles with the
+                        muse"; and Dedmond twice, in relation to the "Journal." Cranch admitted to
+                        Clarke in an August 1837 letter that he is <quote>"reserved, secretive,
+                            proud, indolent, but above all diffident. This besetting diffidence lies
+                            at the root of all my reserve, and keeps me again and again silent and
+                            seemingly cold, when no one could tell how deep and strong the stream
+                            which ran hidden within."</quote><note type="editorial" resp="#cmo"
+                            >Quoted in Scott, <hi rend="italic">Life and Letters</hi>, 35. See also
+                            note 36 to the "Journal" edition.</note> Perhaps Cranch knew of
+                        Emerson’s warning in his 1838 "Literary Ethics" oration that "the diffidence
+                        of mankind in the soul has crept over the American mind."<note
+                            type="editorial" resp="#cmo">"Literary Ethics: An Oration Delivered
+                            before the Literary Societies of Dartmouth College, July 24, 1838," in <hi
+                                rend="italic">Nature, Addresses, and Lectures: Collected Works of
+                                Ralph Waldo Emerson</hi>, ed. Alfred R. Ferguson et al. (Cambridge:
+                            Harvard University Press, 1971), 1:100. Cited hereafter as <hi
+                                rend="italic">CW</hi>.</note> Diffidence, in the currently rare
+                        sense, is a "Want of confidence or faith; mistrust, distrust, misgiving,
+                        doubt," and in the common usage, a "Distrust of oneself; want of confidence
+                        in one’s own ability, worth, or fitness; modesty, shyness of disposition"
+                            (<hi rend="italic">Oxford English Dictionary</hi>). "Sickness," Pope
+                        once said in a letter to Richard Steele, "teaches us a diffidence in our
+                        earthly state."<note type="editorial" resp="#cmo">June 15, 1712, letter to
+                            Sir Richard Steele, in <bibl><hi rend="italic">Mr. Pope’s Literary
+                                    Correspondence for Thirty Years; from 1704 to 1734: Being a
+                                    Collection of Letters Which Passed between Him and Several
+                                    Eminent Persons</hi> (London, 1735), 1:166.</bibl></note> Given
+                        the many untimely deaths Cranch witnessed in childhood, Pope’s words may
+                        shed some light on Cranch’s demeanor. Furthermore, Cranch's psychic
+                        "sickness" (otherwise referred to as his "problem" in his letters and
+                        reminiscences) usually follows a conceit about cosmic injustice, his lack of
+                        talent, or his longing for beauty. He may have known Countess Teresa
+                        Guiccioli's assessment of Byron's modesty, in which she quoted "a great
+                        moralist of the present day" who said that "no real modesty" exists "without
+                        the diffidence of self, inspired by a deep sense of the beautiful and by the
+                        fear of not being able to reach the perfection we conceive."<note
+                            type="editorial" resp="#cmo"><bibl>Countess Guiccioli, <hi rend="italic"
+                                    >My Recollections of Lord Byron</hi> (London: Richard Bentley,
+                                1869), 278.</bibl></note> (Later in this essay I quote Cranch's
+                        thoughts on the "Byronic" nature of early transcendentalism.) The first
+                        sense of <hi rend="italic">diffidence</hi> suggests that the person in
+                        question is plainly distrustful, but the meaning has shifted to apperception
+                        (a "distrust of oneself")&#8212;which is odd in Cranch's case, because his
+                        friends and acquaintances all found him immensely trustworthy and talented.
+                        Yet in <hi rend="italic">An Essay on Criticism</hi> Pope takes the common
+                        sense of diffidence further: "Be <hi rend="italic">silent</hi> always when
+                        you <hi rend="italic">doubt</hi> your Sense; / And <hi rend="italic"
+                            >speak</hi>, tho’ <hi rend="italic">sure</hi>, with <hi rend="italic"
+                            >seeming Diffidence</hi>" (lines 566&#8211;7)<note type="editorial"
+                            resp="#cmo"><bibl><hi rend="italic">The Poems of Alexander Pope, Volume
+                                    I: Pastoral Poetry and An Essay on Criticism</hi>, ed. E. Audra
+                                and Aubrey Williams (London: Methuen &amp; Co. Ltd., 1961),
+                                305.</bibl></note>. Diffidence can be part of a performance, a <hi
+                            rend="italic">seeming</hi> shyness or modesty resulting from a
+                        calculated effort not to play the prattler. When Cranch first arrived in
+                        Cincinnati, he himself suggested that "I feel that I must be another man
+                        before I can enter into [the ministry] as I ought. At times I feel zealous,
+                        resolute &amp; full of faith&#8212;but I am usually, while looking at it, in
+                        prospect, a perfect coward&#8212;the slave of self, the sport of habits,
+                        temperament, and a wavering faith and purpose."<note type="editorial"
+                            resp="#cmo">Letter to Edward P. Cranch, January 1, 1839, quoted in
+                            Dedmond, "Cranch's 'Journal. 1839,'" 134.</note> Want of faith and trust
+                        in oneself, despite a zealous feeling&#8212;these are Cranch’s "problems" on
+                        first glance, yet they ought not to be confused with, for instance, a
+                        "spiritual depression."<note type="editorial" resp="#cmo">Dedmond explains
+                            Cranch’s lack of boldness as "recurring seasons of doubt and spiritual
+                            depression" ("Cranch's 'Journal. 1839,'" 131).</note> Noticing Elizabeth
+                        Barrett Browning’s "diffidence" when he met her and Robert Browning in
+                        Florence in 1849, Cranch may have associated the term with an artistic
+                            temperament.<note type="editorial" resp="#cmo">See also Norko, "Cranch's
+                            Struggles with the Muses," 216.</note> He sometimes uses the term not
+                        only to provoke action but also to weigh his words, again, in seeming
+                        diffidence. The modesty topos is to speak surely to himself, but with
+                        restraint, as a careful poet should. His self-deprecations lead to second
+                        thoughts, revisions of himself, avoiding the danger of self-satisfaction. He
+                        professes to be more of a searcher than an oracular bard or rigid
+                        philosopher.</p>
+                    <p>Cranch’s diffidence conveys a subtle modesty, juxtaposed with his
+                        indebtedness to thinkers in the romantic tradition, including the principle
+                        that revelation comes after crisis (that joy and suffering go hand in hand).
+                        Cranch employs several romantic tropes&#8212;announcing himself ("I begin
+                        this day a Journal"; "I am <hi rend="double-underline">Here</hi>"),
+                        espousing his individualism ("I must be a more independent <hi
+                            rend="underline">thinker</hi>"), lambasting himself throughout for
+                        slothfulness, and exercising religious doubt ("I need to be <hi
+                            rend="underline">based</hi> more firmly upon eternal truths. I want a
+                        sound philosophy to prop up my too wavering faith"). The void still haunts
+                        him at the end of the "Journal"; he does not capitalize "eternal truths,"
+                        and still seeks a "sound philosophy" for an unmoored faith. His modesty in
+                        the "Journal" is analogous to Wordsworth’s tension between the
+                        transcendental ecstasy of the natural world and the works of great poets in
+                            <hi rend="italic">The Prelude</hi>: "this only let me add / From
+                        heart-experience, and in humblest sense / Of modesty" (Book V, lines
+                            584&#8211;86).<note type="editorial" resp="#cmo">For more on
+                            Wordsworth’s (and, by extension, the Romantics’), use of "sense," see
+                            William Empson's "Sense in the <hi rend="italic">Prelude</hi>," in <hi
+                                rend="italic">The Structure of Complex Words</hi> (London: Hogarth
+                            Press, 1985), 289&#8211;305. The word changes throughout Wordsworth’s
+                            career, going from the "wavering and untrammeled natural growth" in the
+                            early work to the "unrelaxing Will" (a la Milton) in the later work
+                            (294). In <hi rend="italic">The Prelude</hi>, sense "means both the
+                            process of sensing and the supreme act of imagination, and unites them
+                            by a jump; the same kind of jump as that in the sentence about crossing
+                            the Alps, which identifies the horror caused by the immediate sensations
+                            with the exultation that developed from them" (304). Cranch uses "sense"
+                            in a similar way, not only relating to perception but also to that mix
+                            of imagination and indeterminacy in his writings and drawings.</note>
+                        Triumph paradoxically breeds the deepest sadness; diffidence (or modesty)
+                        comes from this sadness, leaving one perplexed, and leading to rethinking.
+                        In the words of T. H. Green (on Wordsworth): "The natural man is the passive
+                        man." Cranch’s sense of "natural and free"&#8212;coupled with his
+                        diffidence&#8212;is a voice of his own nature as well as the humility of
+                        "perplexed persistence."<note type="editorial" resp="#cmo">The "perplexed
+                            persistence"&#8212;itself a borrowing of the "sad perplexity" from
+                            "Tintern Abbey"&#8212;comes from A. C. Bradley’s discussion of
+                            Wordsworth’s "Resolution and Independence" in <hi rend="italic">Oxford
+                                Lectures On Poetry</hi>, 2nd ed. (1909; reprint, London: St.
+                            Martin's Press, 1965), 131; T. H. Green, <hi rend="italic">Works of
+                                Thomas Hill Green</hi>, ed. R. L. Nettleship (London: Longmans,
+                            Green, 1888), 3:119.</note> Cranch’s modesty sets the tenor for his
+                        earnest devotion to art and spiritual well-being, his contemplation of
+                        nature and the writers who attempted to channel it.<note type="editorial"
+                            resp="#cmo">While he was in Louisville, on October 14, Cranch wrote his
+                            sister Margaret as he was putting together the November number of the
+                                <hi rend="italic">Western Messenger</hi>: "I have contributed
+                            several articles. . . . I would stuff it with more poetry but I am
+                            ashamed that so many pieces should go forth with ‘C.P.C.’ dangling at
+                            the end" (Scott, <hi rend="italic">Life and Letters</hi>, 37&#8211;38).
+                            He continued to contribute for two more years.</note> Therefore his
+                        diffidence is more complicated than merely a "conflict between religion and
+                        aestheticism" or a spiritual depression&#8212;it imitates Pope and
+                            Wordsworth.<note type="editorial" resp="#cmo">See Norko, "Cranch's
+                            Struggles with the Muses," 212.</note> It is a product of his devouring
+                        various ethical and aesthetic ideas, weighing them against himself,
+                        attempting, as Emerson says in <hi rend="italic">Nature</hi>, to achieve the
+                        poet’s vision&#8212;"a property in the horizon which no man but he whose eye
+                        can integrate all the parts"&#8212;and then getting the whiff of mortality
+                        even if he believes he succeeds.<note type="editorial" resp="#cmo">From the
+                            first chapter of <hi rend="italic">Nature</hi>, in <hi rend="italic"
+                                >CW</hi>, 1:9.</note></p>
+                    <div>
+                        <milestone unit="undeclared" rend="asterisks"/>
+                        <p>Cranch’s allusiveness constitutes another kind of rethinking, the
+                            necessary move to turn away from the dogma of Unitarianism and toward
+                            the spiritual, transcendental ideals of Carlyle, Emerson, and the German
+                            romantics who preceded him.<note type="editorial" resp="#cmo">This came
+                                just before the Andrews Norton–George Ripley controversy following
+                                Emerson’s "Divinity School Address" that would settle the chasm
+                                between the Unitarians and Transcendentalists. See F. DeWolfe
+                                Miller, <hi rend="italic">Christopher Pearse Cranch and His
+                                    Caricatures of New England Transcendentalism</hi> (Cambridge:
+                                Harvard University Press, 1951), 51&#8211;54, for a more detailed
+                                account of Cranch’s involvement in this controversy after he
+                                returned to Boston in July 1839. Cranch’s caricaturing played a part
+                                in the controversy; he sent Clarke a sketch, which is supposed to be
+                                a fairly accurate representation of Norton, satirizing Norton’s
+                                claim that the Transcendentalists are not Christians because they
+                                deny miracles and the personality of God. See the image at <ref
+                                    type="url"
+                                    target="http://nrs.harvard.edu/urn-3:FHCL.Hough:2317956"
+                                    >http://nrs.harvard.edu/urn-3:FHCL.Hough:2317956</ref>.</note>
+                            Leon Jackson has argued that Cranch's reading of Carlyle’s <hi
+                                rend="italic">Sartor Resartus</hi> focused on "three very specific
+                            chapters of the book dealing with the protagonist’s spiritual journey
+                            out of context, but in an intensive fashion, using them as a guide to,
+                            or catalyst for, conversion."<note type="editorial" resp="#cmo">Leon
+                                Jackson, "The Reader Retailored: Thomas Carlyle, His American
+                                Audiences, and the Politics of Evidence," <hi rend="italic">Book
+                                    History</hi> 2 (1999): 151, 158&#8211;59.</note> Taking the book
+                            in parts, Cranch certainly made his "Journal" Sartorish, but a thorough
+                            reading of the "Journal" shows little evidence that Cranch read the book
+                            out of context or engaged in "selective appropriations." The following
+                            discussion and the footnotes in the edition of the "Journal" show that
+                            he understood Carlyle quite well. Carlyle does serve as a template for
+                            Emerson, and for Cranch’s ideal self, who aspires to key conversion
+                            experiences from <hi rend="italic">Sartor</hi>.</p>
+                        <p>Carlyle’s looming presence in the "Journal" suggests the pervasive value
+                            of "work" and the quest toward the Everlasting Yea. Whereas Emerson
+                            relied on Carlyle and European romanticism for its questions (and many
+                            of its answers), Cranch commiserates with his British and European
+                            counterparts, swinging on a pendulum of No and Yea throughout his
+                            "Journal" without settling the dispute.<note type="editorial"
+                                resp="#cmo">See David Greenham’s <hi rend="italic">Emerson’s
+                                    Transatlantic Romanticism</hi> (New York: Palgrave Macmillan,
+                                2012), which discusses Emerson's reliance on European romanticism,
+                                yet he does not discuss Cranch, or how Emerson’s transatlanticism
+                                was interpreted by his followers. Cranch came under the spell of
+                                German literature&#8212;due to Harvard Divinity School, under the
+                                direction of Dr. Charles Follen&#8212;before he was entirely exposed
+                                to Emerson’s "transatlanticism."</note> That Cranch says on page 8
+                            that Clarke "swallows all formulas" suggests that he read Carlyle
+                            closely, for he refers to the Duke of Mirabeau’s <hi rend="italic"
+                                >Memoirs</hi>, which was translated by Carlyle and quoted in his <hi
+                                rend="italic">French Revolution</hi>.<note type="editorial"
+                                resp="#cmo">See also note 22 of the edition.</note> Cranch’s
+                            idiosyncratic comparison is even more instructive if one considers the
+                            thrust of Carlyle’s passage, that human action cannot be quantified,
+                            contra the British sensibility of the hedonic calculus, so a formula for
+                                <hi rend="italic">Seele</hi> (soul) or <hi rend="italic">Geist</hi>
+                            (spirit) is a presumptuous endeavor. Cranch followed suit in the
+                            tradition of German idealism, though he would later deny that
+                            affiliation to his father;<note type="editorial" resp="#cmo">On July 11,
+                                1840, Cranch wrote his father to allay his concerns that he is
+                                "inclined to the Transcendental sentiments of the German
+                                theologist’s"; Cranch’s response offered a subtle distinction
+                                between him and the transcendentalists: "The Philosophy of Kant,
+                                Fichte, Hegel, Schelling, etc., which is what I suppose to be the
+                                Transcendental philosophy, has always, from the very slight idea I
+                                have of it, struck me as a cold, barren system of Idealism, not
+                                calculated to strengthen the soul’s faith in the external realities
+                                of the spiritual world, or enable it as a perfect philosophy should,
+                                to give a reason for the hope that is in us; although to some minds
+                                it may have this effect" (quoted in Scott, <hi rend="italic">Life
+                                    and Letters</hi>, 50).</note> and in 1839 he distinguished
+                            himself from utilitarian thinking. Ultimately Cranch’s journal is a
+                            spiritual autobiography in the mold of <hi rend="italic">Sartor
+                                Resartus</hi>: passing through the "grim desert" of infidelity, he
+                            experiences the skepticism of hopeless despair, and with each and every
+                            turn, the world responds to his questions with negations.<note
+                                type="editorial" resp="#cmo"><hi rend="italic">Sartor Resartus: The
+                                    Life and Opinions of Herr Teufelsdröckh</hi>, ed. Rodger L. Tarr
+                                et al. (Berkeley: University of California Press, 2000), 122.</note>
+                            What then is the intellectual significance of Cranch’s appropriating
+                            Carlyle’s mythology if he keeps returning to doubt?</p>
+                        <p>Cranch’s journal-writing may be examined in relation to the dialectical
+                            method that he likely intuited from Emerson’s <hi rend="italic"
+                                >Nature</hi> (which Emerson borrowed from Coleridge)&#8212;namely,
+                            that the more one seeks to "realize," the "vaster the horizon
+                            assimilated by the Soul," and thus, the greater the freedom of being
+                            both in the world and above the throng of everyday perception. As in
+                            Coleridge’s <hi rend="italic">The Friend</hi>, in which the "living
+                            soul" of "universal knowledge" is "sending sovereign glances to the
+                            circumference of things," Emerson responds with the idea that "The
+                            health of the eye seems to demand a horizon. We are never tired, so long
+                            as we can see far enough."<note type="editorial" resp="#cmo"><hi
+                                    rend="italic">CW</hi>, 1:13. See also Barry Wood, "The Growth of
+                                the Soul: Coleridge's Dialectical Method and the Strategy of
+                                Emerson's <hi rend="italic">Nature</hi>," <hi rend="italic"
+                                    >PMLA</hi> 91, no. 3 (May 1976): 387.</note> Emerson calls for a
+                            poetical kind of seeing, which Cranch attempts to realize in the
+                            "Journal." In "Self-Reliance" Emerson would call the work of genius
+                            "alienated majesty"; that is, genius recognizes its own "rejected
+                            thoughts" as much as we do. The idea of "alienated majesty" was itself a
+                            second thought, originating in his recognition of "Otherism" in <hi
+                                rend="italic">Nature</hi>, which Geoffrey Hill writes has the double
+                            sense of <hi rend="italic">Entfremdung</hi> (estrangement) and <hi
+                                rend="italic">Verfremdung</hi> (artistic distancing).<note
+                                type="editorial" resp="#cmo">Emerson’s "Otherism" is recorded in a
+                                November 24, 1836 journal entry; see Geoffrey Hill, "Alienated
+                                Majesty: Ralph Waldo Emerson," in <hi rend="italic">Collected
+                                    Critical Writings</hi>, ed. Kenneth Haynes (Oxford: Oxford
+                                University Press, 2008), 494.</note> Cranch’s sense of estrangement,
+                            distancing (especially in his eschewing the ministry to the poor), the
+                            need for a certain kind of seeing&#8212;all these are at play in the
+                            "Journal," two years before Emerson published "Self-Reliance."</p>
+                        <p>The other crucial metaphors in Emerson’s dialectic are growth and
+                            compensation. In addition to his use of Coleridge’s distinction between
+                            Reason and Understanding, Emerson appropriated from <hi rend="italic"
+                                >The Friend</hi> and <hi rend="italic">Aids to Reflection</hi> the
+                            concept of "polarity," which he links with spiritual development.<note
+                                type="editorial" resp="#cmo">Wood, "The Growth of the Soul,"
+                                389.</note> In the "Language" chapter of <hi rend="italic"
+                                >Nature</hi>, Emerson establishes a connection between logical
+                            thought and poetical language, saying that "man is an analogist, and
+                            studies relations in all objects. He is placed in the centre of beings,
+                            and a ray of relation passes from every other being to him." This
+                            unification of <hi rend="italic">mythos</hi> and <hi rend="italic"
+                                >logos</hi> leads to "proper creation," the "blending of experience
+                            with the present action of the mind."<note type="editorial" resp="#cmo"
+                                    ><hi rend="italic">CW</hi>, 1:19, 20&#8211;21.</note> Like
+                            vision, growth involves the progress toward self-reliance: one moves
+                            farther away from the world in order to fully understand it.</p>
+                        <p>Compensation is not merely the fruits of good acts (in the sense of <hi
+                                rend="italic">karma</hi> and <hi rend="italic">phala</hi>); it is a
+                            balanced wholeness. Following this line of thought, Cranch uses the word
+                            "compensation" on page 9 of the "Journal" while musing on traveling and
+                            respecting the land&#8212;which is intriguing, given the fact that
+                            Emerson’s poem-essay "Compensation" would not appear until 1841 in his
+                                <hi rend="italic">Essays: First Series</hi>. Furthermore, Cranch’s
+                            nod to Wordsworth’s "Tintern Abbey" (to "see into the life of
+                                things")<note type="editorial" resp="#cmo">Coleridge’s concise
+                                analysis of "Tintern Abbey" is also analogous to Cranch’s absorption
+                                of intuition: in a February&#8211;March 1801 journal entry,
+                                Coleridge indicated that to "see into life of things" means, "By
+                                deep feeling we make our Ideas dim&#8212;&amp; this is what we mean
+                                by our Life&#8212;ourselves [. . .] Now (let me) think of <hi
+                                    rend="italic">myself</hi>&#8212;of the thinking Being&#8212;the
+                                Idea becomes dim whatever it be&#8212;so dim that I know not what it
+                                is&#8212;but the Feeling is deep &amp; steady&#8212;and this I call
+                                    <hi rend="italic">I</hi>" (Bollingen Series of <hi rend="italic"
+                                    >The Notebooks of Samuel Taylor Coleridge</hi>, ed. Kathleen
+                                Coburn [New York: Pantheon Books, 1957], entry 921). Entry 923 also
+                                features the follow-up thought, "of <hi rend="italic">Thinking</hi>
+                                as distinguished from <hi rend="italic">Thoughts</hi>."</note> also
+                            points to the <hi rend="italic">intueri</hi> (literally, seeing into) of
+                            Milton’s archangel Raphael, who instructs Adam: <quote>
+                                <lg type="poem">
+                                    <l>So from the root</l>
+                                    <l>Springs lighter the green stalk, from thence the leaves</l>
+                                    <l>More aerie, last the bright consummate floure</l>
+                                    <l>Spirits odorous breathes: flours and thir fruit</l>
+                                    <l>Mans nourishment, by gradual scale sublim’d</l>
+                                    <l>To vital Spirits aspire, to animal,</l>
+                                    <l>To intellectual, give both life and sense,</l>
+                                    <l>Fansie and understanding, whence the Soule</l>
+                                    <l>Reason receives, and reason is her being,</l>
+                                    <l>Discursive, or Intuitive (Book V, lines 479&#8211;87)<note
+                                            type="editorial" resp="#cmo">Milton, <hi rend="italic"
+                                                >Paradise Lost</hi>, The Riverside Milton, ed. Roy
+                                            Flannagan (Boston: Houghton Mifflin, 1998),
+                                        491.</note></l>
+                                </lg>
+                            </quote> Milton’s metaphor of organic life&#8212;"one first matter all,"
+                            which originates from the same divine source, and the "root" giving
+                            "flours and thir fruit"&#8212;allows for a different kind of reasoning.
+                            Milton's call for a well-nourished mind morphed into Coleridge's Reason
+                            and Understanding distinction, and Emerson’s intuition and growth. As
+                            Keane suggests, the ideas of Milton, "once ‘filtered’ through the
+                            transatlantic pipeline, Coleridge, and conveyed (by himself and through
+                            Wordsworth) to New England, came out as American
+                                Transcendentalism."<note type="editorial" resp="#cmo">Patrick J.
+                                Keane, <hi rend="italic">Emerson, Romanticism, and Intuitive Reason:
+                                    The Transatlantic "Light of All Our Day"</hi> (Columbia:
+                                University of Missouri Press, 2005), 3.</note> But Cranch himself
+                            said several times in 1839 that he was not yet a transcendentalist; he
+                            was merely absorbing the flow of ideas, and still wavering, to use
+                            Norko’s words, "between service to the Unitarian God and service to the
+                                Muses."<note type="editorial" resp="#cmo">Norko, "Cranch's Struggles
+                                with the Muses," 219.</note> That Cranch quoted Wordsworth’s
+                            "Resolution and Independence" illustrates his struggle to <hi
+                                rend="italic">reflect</hi> beauty, just as Wordsworth portrayed the
+                            leech-gatherer, one vagrant muse to another.<note type="editorial"
+                                resp="#cmo">I owe the "vagrant muse" to Gary Lee Harrison’s <hi
+                                    rend="italic">Wordsworth’s Vagrant Muse: Poetry, Poverty, and
+                                    Power</hi> (Detroit: Wayne State Press, 1994), 135, where he
+                                discusses how the leech gatherer’s "indeterminacy" disturbs the
+                                poet.</note> Wordsworth uses the "mind’s eye" to elevate the
+                            suffering of the wanderer. Geoffrey Hartman’s comments about
+                            Wordsworth’s poem (channeling Bradley)&#8212;"We feel the poet’s
+                            distraught perplexity, as if this could not be, or could not
+                            last"&#8212;suggests too that Cranch may sympathize with Wordsworth’s
+                            performance of a living mind open to the terror of indeterminacy.<note
+                                type="editorial" resp="#cmo">Geoffrey Hartman, <hi rend="italic"
+                                    >Wordsworth’s Poetry: 1787&#8211;1814</hi> (New Haven: Yale
+                                University Press, 1971), 268.</note> Yet a spirit of striving abates
+                            the terror; on page 6 of the "Journal" Cranch says, "I must begin to <hi
+                                rend="underline">Live</hi>. Then I shall begin to <hi
+                                rend="underline">Realize</hi> &#8212;then to think, feel, act,
+                            grow." In this way Cranch illustrates what Coleridge said about
+                            Wordsworth that "his genius was not a spirit that descended to him
+                            through the air; it sprang out of the ground like a flower"&#8212;or,
+                            say, like <hi rend="italic">flours and thir fruit</hi>, the <hi
+                                rend="italic">outgrowth</hi> of the earth and the air, nature and
+                            imagination, in loving opposition.<note type="editorial" resp="#cmo"
+                                >Wood connects the outgrowth idea in Coleridge’s dialectical method
+                                to Emerson’s interest in compensation: "The growth of a plant
+                                involves a seed in position (thesis), a nourishing environment in
+                                op-position (antithesis), an equilibrium of the two (mesothesis),
+                                and the composition (synthesis) of a plant out of this dialectic.
+                                The importance of this illustration for Emerson can hardly be over-stated, for it not only reinforced his earlier notion about the
+                                growth of the soul by assimilation, but also forced upon him the
+                                crucial connection between the growth of the soul and the logical
+                                method of thought. At one stroke the importance of the organic
+                                metaphor became clear: organic growth was a dialectical process;
+                                logical thought was dialectical thought [. . .]" ("The Growth of the
+                                Soul," 390). The concerns of philosophical essayist and poet
+                                coincide.</note></p>
+                        <p>The point of Coleridge’s dialectic is that the opposition meets at some
+                            point to support the overall being, like the arch. Cranch used this
+                            metaphor about himself in an 1837 letter: "I must not feel myself
+                            detached from society, but as forming a stone in the arch, helping to
+                            support the building."<note type="editorial" resp="#cmo">October 1837
+                                letter to his sister (quoted in Scott, <hi rend="italic">Life and
+                                    Letters</hi>, 39).</note> His talents may well have contributed
+                            to this detachment, and he likely remembered Emerson’s warning in the
+                            "The American Scholar" that American literary culture suffers from "men
+                            of talent, that is, who start wrong, who set out from accepted dogmas,
+                            not from their own sight of principles."<note type="editorial"
+                                resp="#cmo"><hi rend="italic">CW</hi>, 1:56.</note> His life, in all
+                            its parts, aspired to a work of art, which explains his assorted
+                            engagements with art and literature in the "Journal," as well as his
+                            self-criticisms for slothfulness, but he struggled with the "sight" of
+                            his principles, and his responsibility to the public (what it meant to
+                            see himself in relation to the whole). And his self-absorption in the
+                            "Journal" does not exactly suggest a serious engagement with the natural
+                            world but a set of ethical concerns about how to live well (and make a
+                            living). He knew from Emerson that "Genius creates"; and so, in the
+                            "Journal" he attempts creation with what he calls "practical
+                            illustration," anticipates the doomed intimations of failure, and then
+                            fails to fail better. He nevertheless understood that action and growth
+                            lead to the "pure efflux" of the divine. It should be no surprise, then,
+                            that Cranch’s embrace of the Carlyle–Wordsworth–Coleridge phalanx led to
+                            two drawings of Emerson that depict vision and growth. While Emerson is
+                            Cranch’s foremost philosophical guide (only slightly more important than
+                            Carlyle), Cranch still engaged in an education of a well-balanced
+                            aesthetic livelihood, as well as the unencumbered musical mysticism of
+                            the German romantics.</p>
+                    </div>
+                    <div>
+                        <milestone unit="undeclared" rend="asterisks"/>
+                        <p>Besides Carlyle and Coleridge, Clarke and Dwight provided Cranch the most
+                            immediate conduit of German thought, which lends a new perspective to
+                            the "Journal."<note type="editorial" resp="#cmo">Greenham, 21–22, points
+                                out that Emerson changed his mind about the literal authority of the
+                                Bible under the influence of Dr. Edward Everett, who also taught
+                                Cranch and studied with the early philologist Johann Gottfried
+                                Eichhorn on the German Higher Criticism that called the accuracy of
+                                the Bible into question. Theodore Parker is another friend of
+                                Cranch’s who taught him about German literature. The <hi
+                                    rend="italic">New Philosophy</hi> scrapbook has a drawing of
+                                Parker going after an entire shelf of books at a German library.
+                                More evidence suggests that at this time Cranch was more affected by
+                                Dwight and Clarke. Dwight was a more effective communicator of
+                                German ideas, since he (like Cranch) was more of a poet-musician,
+                                whereas Parker had a more scholarly temperament. </note> Two years
+                            before his "Journal" Cranch told his sister Margaret that he "spent most
+                            of the evening with [Clarke], talking and looking over Retzsch’s
+                            illustrations of the Second Part of ‘Faust.’"<note type="editorial"
+                                resp="#cmo">Quoted in Scott, <hi rend="italic">Life and
+                                Letters</hi>, 39.</note> In 1839 Clarke published translations of
+                            Goethe’s "For Life," "Forever," "In Memory of Schiller," and "Orphic
+                            Sayings," and Schiller’s "Thekla: A Spirit’s Voice," so Goethe and
+                            Schiller must have been topics of conversation in Louisville.</p>
+                        <p>Cranch also absorbed German music and musical criticism from Dwight.<note
+                                type="editorial" resp="#cmo">Norko, "Cranch's Struggles with the
+                                Muses," 219, briefly mentions Cranch’s use of musical metaphor in
+                                his prose pieces, but she does not connect it to the source of
+                                German aesthetics vis-à-vis Dwight.</note> In the words of J. Wesley
+                            Thomas, Dwight became "the greatest influence in the assimilation of
+                            this Romanticism into American culture" (as well as being the great
+                            arbiter of American music).<note type="editorial" resp="#cmo">J. Wesley
+                                Thomas, "John Sullivan Dwight: A Translator of German Romanticism,"
+                                    <hi rend="italic">American Literature</hi> 21, no. 4 (January
+                                1950): 427.</note> When he entered Harvard Divinity School in 1832,
+                            with his new friends and classmates Cranch and Theodore Parker, Dwight
+                            actively studied German culture, even though the Unitarian Church
+                            largely frowned upon German philosophers and artists.<note
+                                type="editorial" resp="#cmo">See Thomas, "John Sullivan Dwight,"
+                                428</note> The condemnation of New England divines did not concern
+                            Dwight and Cranch, who did not wholly adopt the strict philosophical
+                            systems of Kant, Fichte, and Schelling. Both were censured by fellow
+                            friends in Unitarianism and transcendentalism alike for their aloofness,
+                            or "deficiency" in embracing the cult of self development.<note
+                                type="editorial" resp="#cmo">As to Dwight’s "deficiency," I quote
+                                from Thomas, "John Sullivan Dwight," 428&#8211;29. Cranch’s
+                                "deficiency" has received due attention most clearly from Norko,
+                                "Cranch's Struggles with the Muses."</note> Dwight and Cranch
+                            remained unpretentious, practical intellectuals, religiously open-minded
+                            mystics, and keenly attuned appreciators of music and lyric poetry.</p>
+                        <p>Cranch probably knew Dwight’s translation of Schiller’s "Lied an die
+                            Freude," which was published in the May 1835 issue of <hi rend="italic"
+                                >New England Magazine</hi>. German romanticism provided the
+                            foundation for Dwight’s aesthetic sensibility in poetry and music; it
+                            also inspired Cranch in his "Journal" to capture the intuitive, sublime,
+                            indefinite, <hi rend="italic">wogende Aussummen</hi> that characterizes
+                            the German aesthetic, uplifting <hi rend="italic">Dichtkunst</hi> into
+                                <hi rend="italic">Saiten und Töne</hi>. Some passages in the
+                            "Journal" illustrate a nebulous impressionism, where feeling aspires to
+                            the bliss of music, such as when he praises Clarke’s "poetic imagination
+                            with the tenderest feeling" (8). Cranch may have appropriated this sense
+                            from Dwight, whose commencement address at the Harvard Divinity School
+                            in 1836 struck the same chords: <floatingText>
+                                <body>
+                                    <p>The rare Lyric,&#8212;the choicest flower on poetic soil,
+                                        which is not <hi rend="italic">made</hi> but <hi
+                                            rend="italic">flows</hi>, which cannot be imitated, for
+                                        it is the work of nature, which springs from feeling, shapes
+                                        itself under the most delicate touch of the purest sense of
+                                        the beautiful,&#8212;every drop in whose composition is from
+                                        the soul’s depth, every tint and hue elaborated from
+                                        wondrous machinery within, whose shadowy shapes suggested
+                                        the eye but dimly sees, for it sees through tears, whose
+                                        sound never comes to a determinate close upon the ear, for
+                                        it touches the creative sympathies of every heart and lives
+                                        on there forever.<note type="editorial" resp="#cmo">"On the
+                                            Proper Character of Poetry and Music for Public
+                                            Worship," <hi rend="italic">Christian Examiner</hi> 21,
+                                            no. 262 (November 1836); quoted in Thomas, "John
+                                            Sullivan Dwight," 431.</note></p>
+                                </body>
+                            </floatingText> As the "natural expression of certain feelings," music
+                            ties to Cranch’s search in his "Journal" for being "natural and
+                            free"&#8212;another idea perhaps borrowed from Dwight, who once wrote in
+                            a letter to Carlyle that in his translations he "pondered and digested
+                            the substance, and in this way has the literal imitation become natural
+                            and free."<note type="editorial" resp="#cmo">George Willis Cooke, <hi
+                                    rend="italic">John Sullivan Dwight</hi> (Boston, 1898),
+                                23.</note> In the year of his "Journal" Cranch also saw the
+                            publication of his translation of Schiller’s "The Division of the Earth"
+                            in Dwight’s collection of the <hi rend="italic">Select Minor Poems
+                                Translated from the German of Goethe and Schiller</hi> (which is
+                            dedicated to Carlyle).<note type="editorial" resp="#cmo">The poem
+                                appears on pp. 290–91 of <hi rend="italic">Select Minor Poems
+                                    Translated from the German of Goethe and Schiller</hi>, ed. John
+                                Sullivan Dwight (Boston: Hilliard, Gray, 1839).</note> This poem
+                            captures the same kinds of anxieties about his profession reflected in
+                            his "Journal": Jove tells his "elves," "HERE, Take the world!" and
+                            divide the wealth of the land among themselves. The farmers take to the
+                            land, merchants the "warehouse loads," and so on. Then, <quote>
+                                <lg type="poem">
+                                    <l>Quite late, long after all had been divided,</l>
+                                    <l rend="left_2em">The Poet came, from distant wandering </l>
+                                    <l>Alas! the thing was every where decided,&#8212;</l>
+                                    <l rend="left_2em">Proprietors for every thing! (lines
+                                        13–16)</l>
+                                </lg>
+                            </quote> The poet-wanderer is not concerned with material things,
+                            choosing instead to be close to the divine; and, appropriate to Cranch’s
+                            own experience, the poem comes with a conceit: <quote><lg type="poem">
+                                    <l rend="left_2em">"Ah, woe is me! shall I alone of all</l>
+                                    <l rend="left_2em">Forgotten be &#8212;I, thy most faithful
+                                        son?"</l>
+                                    <l>In loud lament he thus began to bawl,</l>
+                                    <l rend="left_2em">And threw himself before Jove’s throne.
+                                        (lines 14–17)</l>
+                                </lg>
+                            </quote> Jove reveals that the poet's "home" is with the divine spirit,
+                            and the poet suggests that poetry and music intermingle: "Mine eyes hung
+                            on thy countenance so bright, / Mine ear drank in thy Heaven’s harmony"
+                            (lines 22&#8211;23). He echoes this sentiment in his "Journal" when he
+                            recalls a musical evening: "My passion for music is such that I
+                            sometimes wonder tis not all-absorbing. No enjoyment of my existence is
+                            greater. When I sit down at twilight to the piano forte, and roam over
+                            the soul like chords of that glorious instrument, I can feel what <hi
+                                rend="underline">perfect beauty</hi> is. What <hi rend="underline"
+                                >God</hi> is. I can feel what the language of the angels must be.
+                            That language <hi rend="underline">must</hi> be music." Not just music
+                            but the <hi rend="italic">language</hi> of the divine, just as he
+                            conveys in his rendering of the Schiller poem. Also in the "Journal,"
+                            when Cranch quotes from "Tintern Abbey," he must also have in mind the
+                            way in which "harmony, and the deep power of joy" allows one to "see
+                            into the life of things." Schiller’s sentiment about "professions," his
+                            aestheticism as a poet, and the aspirations of his work to the power of
+                            harmony in music&#8212;all of these appealed to Cranch. Harmony and
+                            language find common ground in music, creating not only a congruity of
+                            feeling and sentiment but also tuneful sound. Poe shrewdly recognized
+                            Cranch’s capacity for "harmonious combinations of thought," but he
+                            compares those conceits to the metaphysical poets Donne and Cowley,
+                            suggesting, according to Poe, "uncommon pains to make a fool of
+                            himself." Nevertheless, Cranch’s "Journal" anticipates the harmony in
+                            his "Lines on Hearing Triumphant Music," where <quote>
+                                <lg type="poem">
+                                    <l>a light Shines in to-night</l>
+                                    <l>Round the good angels trooping to their posts,</l>
+                                    <l>And the black cloud is rent in twain</l>
+                                    <l>Before the ascending strain.</l>
+                                </lg>
+                            </quote> Even as Emerson attempted a harmonious combination of thought
+                            in the "The American Scholar," Cranch caricatured "This is my music;
+                            this is myself" with a chimera whose nose is a clarinet.<note
+                                type="editorial" resp="#cmo"><hi rend="italic">CW</hi>, 1:63. For
+                                the drawing, see <ref type="url"
+                                    target="http://nrs.harvard.edu/urn-3:FHCL.Hough:2317945"
+                                    >http://nrs.harvard.edu/urn-3:FHCL.Hough:2317945</ref></note></p>
+                        <p>Dwight suggests in his Goethe and Schiller edition that the
+                            Schiller&#8211;Beethoven collaboration in the "Ode to Joy" conclusion to
+                            the Ninth Symphony is the highest artistic achievement: "The boundless
+                            yearning, which is the foundation of our being, and which is nothing
+                            less than a yearning to embrace the whole, has found its natural
+                            language in music."<note type="editorial" resp="#cmo">Dwight, <hi
+                                    rend="italic">Select Minor Poems of Goethe and Schiller</hi>,
+                                436.</note> Cranch’s perpetual yearning in his "Journal" not only
+                            appropriates German romantic aesthetics from Dwight, it also subtly
+                            merges the project of self-development, literature, and music into the
+                            same language. Music, poetry, and ethics spring from the same fount. The
+                            "Journal" unpretentiously records the impressionistic <hi rend="italic"
+                                >Sturm und Drang</hi>, and the quasi-mystical zeal, of the German
+                            idols of his time&#8212;Goethe, E. T. A. Hoffmann, Jean Paul, Beethoven,
+                            Schumann. Introductory comparisons between Cranch and Dwight must
+                            emphasize that they both sought a path toward the Unitarian ministry
+                            only to quit it for the agency of art. Both amalgamated the pursuit of
+                            philosophy and poetry into music, believing that the <hi rend="italic"
+                                >Dichtkunst</hi> could improve peoples’ spiritual lives. Not only
+                            was Cranch in the midst of his defining moment as a transcendentalist,
+                            not only was he using caricatures to humorously work through Emerson’s
+                            new philosophy&#8212;he was also attempting to achieve that musical
+                            sense that he learned from German romanticism.<note type="editorial"
+                                resp="#cmo">For more on Cranch’s writings on German music, see Ora
+                                Frishberg Saloman’s "American Writers on Beethoven, 1838&#8211;1849:
+                                Dwight, Fuller, Cranch, Story," <hi rend="italic">American Music,
+                                    Music of the Nineteenth Century</hi> 8, no. 1, (Spring 1990):
+                                12&#8211;28.</note> When Cranch lambasts himself in the "Journal"
+                            for not reading enough, and then speaks of his pure love for music, he
+                            may be recalling Goethe’s "Lina" (as translated by Dwight): "Wildly set
+                            the chords to ringing, / And then o’er the book incline; &#8212; / But
+                            not reading &#8212;only singing: / So shall every leaf be thine." Rather
+                            than being the bookworm, Cranch aspired to the higher forms of musical
+                            bliss, as evident in his later poem "The Three Muses": <quote><lg
+                                    type="poem">
+                                    <l>all the subtler shades of feeling live</l>
+                                    <l>Perfected life, when wed to chord and tone.</l>
+                                    <l>And thou shalt know how tone embodies love,</l>
+                                    <l>As speech embodies thought, and haply reach</l>
+                                    <l>The large, creative power of those who move</l>
+                                    <l>The heart by music.</l>
+                                </lg></quote> Cranch’s new philosophy was to be an amalgamation of
+                            Carlyle’s <hi rend="italic">Sartor Resartus</hi>, Emerson's aphoristic
+                            artistry, and German romantic music, all of which, as he suggests in
+                            "Enosis," "Shall be all absorbed again, / Melting, flowing into one."
+                            Transcendentalism, Swedenborgianism, German idealism&#8212;these were
+                            unhelpful labels, "the glancing of a dream." He also surpassed
+                            Unitarianism, for Cranch seemed to only value social awareness and
+                            unique style of preaching, practiced best by William Henry Channing, as
+                            lasting Unitarian values.<note type="editorial" resp="#cmo">See David
+                                Robinson’s "William Henry Channing’s Political Oddysey," <hi
+                                    rend="italic">American Quarterly</hi> 34, no. 2 (Summer 1982):
+                                165&#8211;84.</note> His process of echoing others’ writings
+                            involves a peculiar form of anxiety; his acts of allusion and
+                            self-criticism couched in the modesty topos constitute "an imaginative
+                            form of second thought, itself revising or revisionary" that made the
+                            confidence of "Correspondences" and "Enosis" possible.<note
+                                type="editorial" resp="#cmo">Ricks, <hi rend="italic">Decisions and
+                                    Revisions in T. S. Eliot</hi>, 3.</note> Nevertheless, Cranch’s
+                            journal might also be self-staging, just another performance of the
+                            dilettante on the other side of the mountains. Yet for this earnest
+                            truth-seeker, modesty and majesty (not ministry) rendezvous in the heart
+                            and mind.</p>
+                        <p>Cranch’s growth narrative, coupled with his modesty topos, has him going
+                            forth into experience, wavering from the bale-fire Unitarianism of his
+                            1838 poem "The True Christian"&#8212;where "The stars shine bright in
+                            eternal light, / Nor storm, nor rain, can ever blight / One ray of their
+                                purity"<note type="editorial" resp="#cmo">Published in the May 1838
+                                edition of the <hi rend="italic">Western Messenger</hi>,
+                                5:182.</note>&#8212;to a "dreadful <hi rend="underline"
+                                >indifference</hi>" and "night-mare life in death" (borrowed from
+                            Coleridge) in his 1839 "Journal." Whether coincidental or not, it is
+                            fitting that Cranch ends his "Journal" (at least in its present state)
+                            with the word "gesture."</p>
+                        <p>The "Journal" attempts a conversion narrative using <hi rend="italic"
+                                >Sartor Resartus</hi> as a spiritual template; and, making use of
+                            the "noble doubt" in <hi rend="italic">Nature</hi> that "perpetually
+                            suggests itself," he moves toward faith in himself, and then the world
+                            responds by producing doubt.<note type="editorial" resp="#cmo"><hi
+                                    rend="italic">CW</hi>, 1:29. I owe the "conversion narrative"
+                                idea to Jackson’s "The Reader Retailored," 159&#8211;64.</note>
+                            Carlyle’s No and Yea and the Coleridge-Emerson dialectic coalesce into a
+                            new ethical system of self-reliance. Cranch’s diffidence resembles
+                            Emersonian doubt, synthesizing faith and skepticism about nature into
+                            spirit. Like Emerson and Coleridge before him, he saw the "steps of
+                            thought" as an organic process, "as the life of the tree puts forth new
+                            branches and leaves through the pores of the old."<note type="editorial"
+                                resp="#cmo"><hi rend="italic">CW</hi>, 1:38.</note> Yet Cranch
+                            undergoes no epiphany in the "Journal": still going far and wide, he had
+                            more traveling to do on his "life’s pilgrimage."</p>
+                    </div>
+                    <div>
+                        <milestone unit="undeclared" rend="asterisks"/>
+                        <p>Many years after writing his "Journal" Cranch reflected on this crucial
+                            time with his "Sermon on Transcendentalism and Emerson," which not only
+                            challenges the idea that he left the West as a full-fledged
+                            transcendentalist (as some have suggested)<note type="editorial"
+                                resp="#cmo">Miller makes this point in <hi rend="italic">Cranch and
+                                    His Caricatures</hi>, 12&#8211;13, which was then re-affirmed by
+                                Norko, "Cranch's Struggles with the Muses," 214. Furthermore, the
+                                poem in Appendix 2 of this edition at least shows his uneasiness
+                                with being called a transcendentalist in late 1839.</note>&#8212;it
+                            also reveals his unique observations on transcendentalism's growing
+                            pains.</p>
+                        <p>In his sermon Cranch indicates that Emerson’s <hi rend="italic"
+                                >Nature</hi> "was like the sunrise" and "seemed to open new and
+                            undiscovered vistas in a world of ideas, along which breathed all the
+                            perfume and hope of a morning in June."<note type="editorial"
+                                resp="#cmo">From here I quote from an unpublished typescript in Box
+                                2 of the Cranch Papers at the Massachusetts Historical Society, an
+                                omitted section from Scott’s <hi rend="italic">Life and
+                                Letters</hi>. </note> After <hi rend="italic">Nature</hi> came the
+                            "Divinity School Address," which Cranch said "was like a chapter from
+                            the Prophets," exceeding <hi rend="italic">Nature</hi>, and illustrating
+                            "a dangerous error and delusion which the professors demanded from the
+                            pulpit": <floatingText>
+                                <body>
+                                    <p>It was this discourse that drew the dividing line between
+                                        orthodox and heterodox Unitarianism, between schools of
+                                        thought which daily seemed to see a chasm widening between
+                                        them. I well remember at the time I made preaching my
+                                        profession, and was in the West, talking with a young
+                                        minister a little younger than myself, about this famous
+                                        "Divinity School Address." To me it was profound and
+                                        refreshing truth: to him it was delusion and heresy. And I
+                                        saw at once there was a split in the Unitarian Church, a
+                                        chasm destined never to be closed or bridged over, when the
+                                        young were so divided as to the grounds and essence of
+                                        authority in matters of faith.</p>
+                                    <p>When after two years I came East again, your pastor<note
+                                            type="editorial" resp="#cmo">The "pastor" is probably
+                                            Theodore Parker.</note> was in the mélée of the fight.
+                                        He had thrown down the gauntlet, and the lists were ringing
+                                        with the shock of arms.</p>
+                                    <p>In my own imperfect way I spoke the truth as I conceived it,
+                                        and found many who believed as I did. Gradually the pulpits
+                                        were being closed to the Transcendentalists.</p>
+                                </body>
+                            </floatingText> How slyly he speaks the truth in his "own imperfect
+                            way," while clearly staking his claim as one of the happy warriors.
+                            Cranch went on to clarify that the Unitarians succeeded with "the more
+                            peaceful and liberal attitude of that church which was then so
+                            belligerent and exclusive to the wide extension of liberal thought of
+                            today, to a revival of common sense in theological matters, to the
+                            gradual secularization of the Church and co-extensive sanctification of
+                            the platform, to the reforms of Temperance, of Anti-slavery societies,
+                            to the philanthropic institutions, to schools and colleges, [. . .] though
+                            with many signal failures, to a healthier tone in political
+                            organization." Nevertheless, the eventual triumph of transcendentalism
+                            came from its insistence on "first truths and first principles, without
+                            any meditation on the part of old authorities": <floatingText>
+                                <body>
+                                    <p>Transcendentalism is but one of the streams by which our time
+                                        is blessed, blended with other familiar tendencies, and all
+                                        flowing from this Divine Providence working with the human
+                                        tendencies of the time, which we call the spirit of the
+                                        age.</p>
+                                    <p>No doubt in the first stages of New England Transcendentalism
+                                        there was a good deal that was mere restlessness under worn
+                                        out conventions, or partly somewhat exaggerated
+                                        individualism, if not egotism, forgetful that the individual
+                                        is, after all, one member of a great societal body.
+                                        Transcendentalism was sometimes very sentimental and
+                                        Byronic. These were the infant mumps and measles. It outgrew
+                                        them long before the war of our rebellion. That certainly
+                                        did drive out all lingering vestiges of the complaint.</p>
+                                </body>
+                            </floatingText> In hindsight, Cranch saw his early years when he was
+                            transitioning from Unitarian to transcendentalist as full of
+                            sentimentality and fervor, with the brashness of a new revolution. </p>
+                        <p>From German romanticism to the Transcendentalist Club to the present age,
+                            they advocated, as Dwight said, "the insignificance of creeds compared
+                            with life and practice," providing the basis for pragmatism.<note
+                                type="editorial" resp="#cmo">Quoted in Thomas, "John Sullivan
+                                Dwight," 434.</note> In 1883 William James responded to Cranch's
+                            avowed appreciation of his writings, saying "I naturally find myself
+                            pleased and flattered enough," and adding that his philosophy seeks to
+                            reinstate common sense "against more pretentious ways of formulating
+                                things."<note type="editorial" resp="#cmo">Quoted in Scott, <hi
+                                    rend="italic">Life and Letters</hi>, 342.</note> The word cloud
+                            of the "Journal" shows the dominance of <hi rend="italic">shall</hi>,
+                            not only inspired by Carlyle and Emerson ("To think is to act"), but
+                            also a main tenet in pragmatism&#8212;the implicitness of an ideal in
+                            action. <figure>
+                                <head>Word cloud of the 1839 "Journal"</head>
+                                <p>Screenshot of a Cirrus word cloud produced with Voyant Tools <ref
+                                        target="http://voyant-tools.org/" type="url"
+                                        >http://voyant-tools.org/</ref></p>
+                                <graphic url="Cranch_1839_Journal_word_cloud.png"/>
+                                <figDesc>Screenshot of a Cirrus word cloud produced with Voyant
+                                    Tools: <ref target="http://voyant-tools.org/"/></figDesc>
+                            </figure> Implicitness entails that the full consequences of our values
+                            are not entirely in our consciousness when we embrace them (the act of
+                            embracing is the crucial thing). James delineates the personal aspect of
+                            implicitness in his <hi rend="italic">Principles of
+                            Psychology</hi>&#8212;namely, "the emotion that beckons me on is
+                            indubitably the pursuit of an ideal social self, of a self that is at
+                            least <hi rend="italic">worthy</hi> of approving recognition by the
+                            highest <hi rend="italic">possible</hi> judging companion, if such
+                            companion there be."<note type="editorial" resp="#cmo">William James,
+                                    <hi rend="italic">Principles of Psychology</hi> (New York:
+                                Cosimo, 2007), 1:315. Toward the end of Cranch’s life, he knew and
+                                appreciated James, who initially inspired him to write a poem
+                                "suggested by a very remarkable article ["A Word to Philosophers"]
+                                which I have been re-reading for the fourth or fifth time, written
+                                by a friend of ours, Dr. William James, son of Henry James, senior,
+                                and published in the January number, 1878, of the St. Louis ‘Journal
+                                of Speculative Philosophy.’ I wish you would look it up and read it.
+                                It is a sharp and very able criticism of Herbert Spencer’s
+                                ‘Definition of Mind.’ Dr. James is also Professor James, Professor
+                                of Philosophy in Harvard,&#8212;and promises, I think, to make a
+                                great mark as a philosophical writer" (quoted in Scott, <hi
+                                    rend="italic">Life and Letters</hi>, 303). James was then a
+                                frequent guest in Cranch’s study, and they continued to exchange
+                                letters. For more on the Emerson–Nietzsche–Pragmatism connections,
+                                see the "Emerson and Pragmatism, Emerson and Nietzsche" section of
+                                Lawrence Buell’s <hi rend="italic">Emerson</hi> (Cambridge: Harvard
+                                University Press, 2003), 218&#8211;38.</note> Nietzsche, like James,
+                            was fond of Emerson for his "benevolent and intelligent serenity which
+                            discourages all severity"<note type="editorial" resp="#cmo">From
+                                aphorism 13 of <hi rend="italic">Twilight of the Idols</hi>, as
+                                translated by Hermann Hummel in his article "Emerson and Nietzsche,"
+                                    <hi rend="italic">New England Quarterly</hi> 19, no. 1 (March
+                                1946): 64.</note>&#8212;the positive willing in the spirit of
+                            Goethe. Despite all the emphases on Cranch’s diffidence, he was
+                            implicitly working toward transcendentalist ideals in a practical
+                            fashion, even in spite of his occasional ennui. Cranch was also an
+                            iconoclast, yet an inoffensive one. His open-mindedness in his 1839
+                            "Journal" anticipates pragmatism&#8212;but what makes him unique in
+                            these recorded moments is the modesty topos in the face of serious
+                            artistic endeavor, and the grace and severity with which he strove for
+                            the ideals that the pragmatists eventually articulated.</p>
+                        <p>Soon after his "Journal," Cranch found himself in the middle of Emerson’s
+                            "recruiting efforts." David Dowling has claimed that "Emerson was
+                            arguably the least successful promoter of aspiring writers of the entire
+                            American nineteenth century. Despite his lack of success in this area,
+                            Emerson's keen interest ‘in modifications to the various callings of
+                            men, and the customs of business,’ along with his own successful career
+                            shift from Unitarian minister to full-time writer and lecturer, made him
+                            particularly susceptible to the temptation of discovering and growing
+                            young authorial talent."<note type="editorial" resp="#cmo">David
+                                Dowling, <hi rend="italic">Literary Partnerships and the
+                                    Marketplace</hi> (Baton Rouge: Louisiana State University Press,
+                                2012), 117.</note> Dowling lists Cranch, along with Jones Very and
+                            William Ellery Channing, as Emerson’s "failed projects" during the years
+                                1838&#8211;42.<note type="editorial" resp="#cmo">Dowling, <hi
+                                    rend="italic">Literary Partnerships and the Marketplace</hi>,
+                                209&#8211;10. For more on this story, see William Moss, "‘So Many
+                                Promising Youths’: Emerson’s Disappointing Discoveries of New
+                                England Poet-Seers," <hi rend="italic">New England Quarterly</hi>
+                                49, no. 1 (1976): 47. </note> The "Journal" situates him in the
+                            beginning of that endeavor: by 1840 Cranch is meeting and corresponding
+                            with Emerson,<note type="editorial" resp="#cmo">Scott’s fourth chapter
+                                of <hi rend="italic">Life and Letters</hi> is devoted to the
+                                Cranch–Emerson correspondence.</note> and only two years later
+                            Cranch once again finds himself at a loss, and decides to be a
+                            painter.</p>
+                        <p>Was Cranch was a "wasted talent" or a "minor artist"? Even Emerson told
+                            Cranch in 1874 that all the muses conspired against him, that he was
+                            "the victim of your own various gifts."<note type="editorial"
+                                resp="#cmo">Scott, <hi rend="italic">Life and Letters</hi>,
+                                281.</note> To use Samuel Johnson’s remark about Cowley, perhaps
+                            Cranch was "beloved by every muse he courted"&#8212;and he courted many
+                            muses, making him "equally qualified for sprightly sallies, and for
+                            lofty flights." Norko argues that the standard views of Cranch&#8212;his
+                            humor, multifaceted talents, and failures as an artist&#8212;are too
+                                simplistic.<note type="editorial" resp="#cmo">Norko, "Cranch's
+                                Struggles with the Muses," 209.</note> Not just simplistic but
+                            vague; for the intelligence and grace in some of his poems rival the
+                            forcefulness of Jones Very, his diffidence anticipates the loafing
+                            spirit of Whitman, and the ideas-in-progress in the "Journal" should at
+                            least allow us to rethink Cranch’s "failures" as part of a protracted
+                            intellectual development. His intelligence is flush with second
+                            thoughts, his revisions of himself and his philosophy, and his talent
+                            was often masked in seeming diffidence, which became a self-fulfilling
+                            prophecy (in that he was accused of lacking the courage of his
+                            convictions).</p>
+                        <p>A record of ministerial Unitarian life in the frontier lands, Cranch’s
+                            1839 "Journal" is one of his few surviving journals, showing the
+                            original drafts of two of his best-known caricatures of Emerson and the
+                            crucibles of thought preceding his best-known poems, "Correspondences"
+                            and "Enosis." Critical speculation aside, the journal does exist in
+                            scraps, just as the caricatures exist in many scraps, which is a fine
+                            complement to <hi rend="italic">Sartor Resartus</hi>; so we, like the
+                            editor of Herr Teufelsdröckh’s papers, must continue to patch the scraps
+                            together to make sense of his narrative, after the eccentric Mr. Cranch
+                            has long disappeared.</p>
+                    </div>
+                    <div>
+                        <head type="main">Versions of the Caricatures</head>
+                        <p>Of particular interest in Cranch’s "Journal" are the two consecutive
+                            rough drafts of Emerson caricatures appearing on pages 10 and 11. Since
+                            F. DeWolfe Miller’s small book on Cranch's caricatures, and Dedmond’s
+                            transcription of the "Journal," very little attention has been paid to
+                            these caricatures, despite their widespread use in American literature
+                            courses. Most scholarship on these two caricatures cites not the
+                            original drawings in the "Journal" but published clips of the drawings
+                            from Clarke’s <hi rend="italic">New Philosophy</hi> scrapbook at
+                            Harvard’s Houghton Library. A thorough study of Cranch’s drawings has
+                            yet to be published since Miller’s work.</p>
+                        <p>The drawings reveal Cranch’s serious purpose&#8212;one of self-reliance
+                            and self-improvement&#8212;as well as a sense of humor that is not
+                            regularly associated with transcendentalists. As Cranch says on page 8,
+                            having just caricatured Wordsworth, he intends to produce "Illustrations
+                            which have a sense&#8212;Carlylean graphic-ness&#8212;and truth. There
+                            can be a touch of comicality in them too &#8212;to give them a relish."
+                            This "graphic-ness" began at a young age, and surviving evidence
+                            suggests that he considered his poetry and visual art to be equally
+                            important enterprises. For example, a draft of an illustrated poem
+                            called "Childe Christopher," which he wrote into a journal-book in 1836,
+                            is a playful send-up of Byron’s "Childe Harold," with annotations in the
+                            manner of Coleridge’s "Rime of the Ancient Mariner."</p>
+                        <p>What did Cranch mean by "Illustrations which have a sense"? The
+                            "Transparent Eyeball" sketch reflects Cranch’s willingness to entertain
+                            multiple perspectives on the intellectual movement with which he was
+                            eventually identified. While Miller only devotes a few paragraphs to the
+                            "Transparent Eyeball" and "Corn and Melons" sketches, he nevertheless
+                            shows how they follow an interesting thread: in the paragraph in <hi
+                                rend="italic">Nature</hi> where the "transparent eye-ball" appears (in <hi
+                                    rend="italic">CW</hi>, 1:10),
+                            Emerson distinguishes himself from Wordsworth, suggesting that "Nature
+                            always wears the colors of the spirit," which poetically renders the
+                            individual’s engagement with nature.<note type="editorial" resp="#cmo"
+                                >Cranch suggests a similar interpretation of this passage in one of
+                                his best sketches, where Emerson joyfully tosses his hat in the air
+                                amidst a bleak surrounding (Miller, <hi rend="italic">Cranch and His
+                                    Caricatures</hi>, 40&#8211;41): <figure>
+                                    <head>Cranch's caricature of Emerson tossing his hat</head>
+                                    <p>This is a drawing from the <hi rend="italic">New Philosophy
+                                            Scrapbook</hi> depicting Emerson in ecstasy (printed as
+                                        Figure 2 in Miller, <hi rend="italic">Cranch and His
+                                            Caricatures</hi>)</p>
+                                    <graphic url="Cranch_Emerson_Ecstasy_drawing.png"/>
+                                    <figDesc>This is a drawing from the <hi rend="italic">New
+                                            Philosophy Scrapbook</hi> depicting Emerson in ecstasy
+                                        (printed as Figure 2 in Miller, <hi rend="italic">Cranch and
+                                            His Caricatures</hi>)</figDesc>
+                                </figure></note> Nature is a mood intensifier for whatever the
+                            individual feels at the moment, so "the same scene which yesterday
+                            breathed perfume and glittered as for the frolic of the nymphs, is
+                            overspread with melancholy today."<note type="editorial" resp="#cmo"><hi
+                                    rend="italic">CW</hi>, 1:10.</note> Cranch’s sketch of Emerson’s
+                            bliss quotes the passage from the first edition of <hi rend="italic"
+                                >Nature</hi> that Emerson revised in the second edition: "Almost I
+                            fear to think how glad I am," when in the midst of the common, or the
+                            "bare ground."<note type="editorial" resp="#cmo"><hi rend="italic"
+                                    >CW</hi>, 1:10.</note> Nature becomes almost Gothicized, and
+                            uncanny, yet further in the paragraph Emerson takes the mystical turn,
+                            where "all
+                            mean egotism vanishes," and the individual morphs into the "transparent eye-ball." The annihilation of ego follows the Hindu <hi
+                                rend="italic">anatman</hi> doctrine, that the self in pure austerity
+                            becomes the no-self. Bliss is ego annihilation. Now Cranch likely saw
+                            this passage not in terms of its Hindu precursor, but in terms of pure
+                            ecstasy, the sheer optimism that "nothing can befall me in life." The
+                            drawing illuminates Cranch’s process of ethical growth, and the
+                            attainment of a less restrained self. He arrives at Emerson’s "new
+                            philosophy" of unmitigated delight and poetic exhilaration after
+                            starting with Wordsworth’s line to "see into the life of things" and
+                            Carlyle’s <hi rend="italic">work and action</hi>. He approached
+                            Emerson’s passage with some irony: in a thought about losing oneself in
+                            the presence of the natural world, and attempting a direct relation with
+                            the Divine Presence (or the Over-Soul, as he would later call it),
+                            Cranch headed the drawing with the full name of the figure portrayed
+                            below, "Ralph Waldo Emerson." Miller rightly points out that Cranch
+                            caricatured "in the days of Thomas Nast when the practice of caricature
+                            was frequently vicious and underhanded and always caustic," so Cranch
+                            took pains to assure others that he meant no ridicule by the
+                                drawings.<note type="editorial" resp="#cmo">Miller, <hi
+                                    rend="italic">Cranch and His Caricatures</hi>, 51.</note> Here
+                            again modesty plays a role, for Cranch probably obliterated the Emerson
+                            inscription so as not to seem too disrespectful to his forerunner.
+                            Comparing two versions of this drawing reveals some intriguing details:
+                                <figure type="enlargeOnClick">
+                                <head>Two versions of the "Transparent Eyeball" caricature: 1839
+                                    "Journal" (left), <hi rend="italic">New Philosophy
+                                        scrapbook</hi> (right).</head>
+                                <p>Christopher P. Cranch journal, 1839. Page 10. Original Manuscript
+                                    from the Christopher P. Cranch Papers. Massachusetts Historical
+                                    Society; Christopher Pearse Cranch, 1813&#8211;1892. Illustrations of
+                                    the New Philosophy: drawings, [ca. 1837&#8211;1839] (MS Am 1506).
+                                    Houghton Library, Harvard University, Cambridge, Massachusetts.
+                                    See the drawing (Image 4) at <ref type="url"
+                                        target="http://nrs.harvard.edu/urn-3:FHCL.Hough:2317939"
+                                        >http://nrs.harvard.edu/urn-3:FHCL.Hough:2317939</ref></p>
+                                <graphic url="transparent_eyeball_comparison.jpg"/>
+                                <figDesc>Christopher P. Cranch journal, 1839. Page 10. Original
+                                    Manuscript from the Christopher P. Cranch Papers. Massachusetts
+                                    Historical Society; Cranch, Christopher Pearse, 1813&#8211;1892.
+                                    Illustrations of the New Philosophy: drawings,
+                                    [ca. 1837&#8211;1839] (MS Am 1506). Houghton Library, Harvard
+                                    University, Cambridge, Massachusetts. See the drawing (Image 4)
+                                    at <ref type="url"
+                                        target="http://nrs.harvard.edu/urn-3:FHCL.Hough:2317939"
+                                    />http://nrs.harvard.edu/urn-3:FHCL.Hough:2317939</figDesc>
+                            </figure> The original draft lacks the tails on the coat, the details of
+                            the town in the valley, and perhaps a pair of trousers.<note
+                                type="editorial" resp="#cmo">Another version of the "Transparent
+                                Eyeball" sketch is housed in the Joel Myerson Collection of American
+                                Literature at the University of South Carolina. It resembles the
+                                original draft more than the Houghton copy, suggesting that the
+                                Myerson sketch is the middle phase of Cranch’s revisions to the
+                                drawing. The Concord Library has featured an image of the sketch in
+                                the Myerson collection: <ref type="url"
+                                    target="http://www.concordlibrary.org/scollect/CT/70.html"
+                                    >http://www.concordlibrary.org/scollect/CT/70.html</ref>
+                            </note> It also features a decidedly different gaze: whereas Clarke’s
+                            copy has a clear upward gaze, perhaps indicating the idealism intended
+                            in the passage, the original has the eyeball staring straight ahead, and
+                            the right foot appears to be lifting itself, about to walk. The
+                            unfinished business of Cranch’s travels out West suggests an uneasy
+                            perpetual motion, and Cranch’s own struggles seem to shine through much
+                            better in the original draft. Here again Cranch shows his sensitivity to
+                            his forbearers: the vacant gaze of the walking eyeball recalls Milton’s
+                            thoughts on blankness in <hi rend="italic">Paradise Lost</hi>:
+                                    <quote><lg type="poem">
+                                    <l>But cloud in stead, and ever-during dark</l>
+                                    <l>Surrounds me, from the chearful wayes of men</l>
+                                    <l>Cut off, and for the Book of knowledg fair</l>
+                                    <l>Presented with a Universal blanc</l>
+                                    <l>Of Natures works to mee expung’d and ras’d,</l>
+                                    <l>And wisdome at one entrance quite shut out. (Book III, lines
+                                        45&#8211;50)<note type="editorial" resp="#cmo">Milton, <hi rend="italic"
+                                        >Paradise Lost</hi>, 417</note></l>
+                                </lg></quote> Coleridge's
+                            interpretation of the "Universal blanc" shows in his "Dejection"
+                            ode&#8212;"And still I gaze&#8212;and with how blank an eye! / And those
+                            thin clouds above, in flakes and bars, / That give away their motion to
+                            the stars" (which is more attuned to Virgil’s <hi rend="italic">lacrimae
+                                rerum</hi>)&#8212;and Wordsworth’s "Immortality Ode" shows how the
+                            "Blank misgivings" lead to the sight of the immortal sea. Emerson’s
+                            understanding of Wordsworth's and Coleridge's readings of blankness in
+                                <hi rend="italic">Nature</hi> culminates in the phrase that "The
+                            ruin or the blank, that we see when we look at nature, is in our own
+                                eye."<note type="editorial" resp="#cmo"><hi rend="italic">CW</hi>,
+                                1:43.</note> This shows how the "gentle shock of mild surprise"
+                            allows us to see into the life of things.<note type="editorial"
+                                resp="#cmo">See also Keane, <hi rend="italic">Emerson, Romanticism,
+                                    and Intuitive Reason</hi>, 208.</note> The final, most
+                            frequently cited Cranch drawing of the eyeball in Clarke’s scrapbook is
+                            a more mature rendering of the spirit of Emerson’s idea: the eyeball is
+                            about to lose himself in the clouds. Cranch’s original draft, however,
+                            with the blank eye staring straight ahead, implies that he is still on
+                            his way. Toward the end of the "Journal" (page 21), Cranch, having left
+                            the comforts of home life, curiously says that he is "once more <hi
+                                rend="underline">be mistered</hi>," which suggests his attentiveness
+                            to blurred vision, the <hi rend="italic">bemisting</hi> of his
+                            spirit.<note type="editorial"
+                                resp="#cmo">See the <hi rend="italic">Oxford English
+                                    Dictionary</hi>, entry for "bemist": 1. "To overtake with, or
+                                involve in mist; fig. to confuse the senses of, bepuzzle, bewilder,"
+                                as well as the sense of "becloud" in 2.</note></p>
+                        <p>The "Corn and Melons" draft alongside Clarke’s copy in the <hi
+                                rend="italic">New Philosophy scrapbook</hi> indicates the same
+                            optimism in the former sketch: "I have no hostility to nature, but a
+                            child’s love to it. I expand and live in the warm day like corn and
+                            melons."<note type="editorial" resp="#cmo"><hi rend="italic">CW</hi>,
+                                1:35.</note> While the "Corn and Melons" drawings do not exhibit
+                            the striking differences between the "Transparent Eyeball," they still
+                            show different gazes: in the first draft the eyes are once again turned
+                            downward, looking content; the later iteration has a more stern face
+                            looking slightly upward. <figure type="enlargeOnClick">
+                                <head>Two versions of the "Corn and Melons" caricature: "Journal.
+                                    1839." (left), <hi rend="italic">New Philosophy scrapbook</hi>
+                                    (right).</head>
+                                <p>Christopher P. Cranch journal, 1839. Page 11. Original Manuscript
+                                    from the Christopher P. Cranch Papers. Massachusetts Historical
+                                    Society; Christopher Pearse Cranch, 1813-1892. Illustrations of
+                                    the New Philosophy: drawings, [ca.1837&#8211;1839] (MS Am 1506).
+                                    Houghton Library, Harvard University, Cambridge, Massachusetts.
+                                    See the drawing at <ref type="url"
+                                        target="http://nrs.harvard.edu/urn-3:FHCL.Hough:2317938"
+                                    >http://nrs.harvard.edu/urn-3:FHCL.Hough:2317938</ref></p>
+                                <graphic url="corn_and_melons_comparison.jpg"/>
+                                <figDesc>Christopher P. Cranch journal, 1839. Page 11. Original
+                                    Manuscript from the Christopher P. Cranch Papers. Massachusetts
+                                    Historical Society; Cranch, Christopher Pearse, 1813-1892.
+                                    Illustrations of the New Philosophy: drawings,
+                                    [ca.1837&#8211;1839] (MS Am 1506). Houghton Library, Harvard
+                                    University, Cambridge, Massachusetts. See the drawing at <ref
+                                        type="url"
+                                        target="http://nrs.harvard.edu/urn-3:FHCL.Hough:2317939"
+                                        >http://nrs.harvard.edu/urn-3:FHCL.Hough:2317939</ref></figDesc>
+                            </figure> Miller suggests that the figure’s round head makes it unlikely
+                            to be a representation of Emerson (unlike the "Transparent Eyeball" and
+                            "Almost I fear to think how glad I am!" drawings)&#8212;so it is at once
+                            a more respectful rendering of Emerson as well as a clue that Cranch
+                            understood the thrust of the passage: man and vegetable, vegetable and
+                            man, are part of the same underlying unity.<note type="editorial"
+                                resp="#cmo">Miller, <hi rend="italic">Cranch and His
+                                    Caricatures</hi>, 43.</note> The companion piece to the "Corn
+                            and Melons" drawing is a vegetable with the face of a man, so Cranch
+                            incorporates both the idealism and the commonsense materialism of
+                            Emerson’s passage in the closing paragraph in <hi rend="italic"
+                                >Nature</hi>.<note type="editorial" resp="#cmo">The companion
+                                drawing on the frontispiece of the <hi rend="italic">New
+                                    Philosophy</hi> scrapbook can be accessed at <ref type="url"
+                                    target="http://nrs.harvard.edu/urn-3:FHCL.Hough:2317937"
+                                    >http://nrs.harvard.edu/urn-3:FHCL.Hough:2317937</ref></note>
+                            With the full context of Emerson’s passages and Cranch’s "Journal"
+                            considered, these two drawings suggest his sympathy with Emerson's
+                            thought and a humorous tolerance of escapism. While both drawings depict
+                            vision and growth, vision clearly underlies the changes made from draft
+                            to revised scraps: seeing into the life of things meant to embrace the
+                            "doctrine that man is one," not to take himself too seriously, and not
+                            to blindly follow any dogma, whether religious or philosophical.</p>
+                        <p>Soon afterward Cranch abandoned doing caricatures. On February 12, 1841,
+                            he wrote Dwight from Bangor, Maine, that "I use the pencil not for
+                            comical subjects or devils&#8212;I am out of that vein&#8212;but in
+                            landscape sketching."<note type="editorial" resp="#cmo">Quoted in Scott,
+                                    <hi rend="italic">Life and Letters</hi>, 69.</note> Even if he
+                            did not caricature for long, his drawings took fresh eyes to Emerson.
+                            Cranch’s playfulness makes him a unique, more subtle thinker amidst a
+                            philosophical school that might be criticized for being too abstract,
+                            mystical, anti-intellectual, and optimistic. These caricatures expand
+                            the historical account of transcendentalism into a multifarious
+                                aesthetic.<note type="editorial" resp="#cmo">This is not to neglect
+                                the extensive exhibit on Cranch's transcendentalist landscapes,
+                                titled "At Home and Abroad," which was held at the Lyman Allyn Art
+                                Museum in New London, Connecticut (2007–8). The exhibition
+                                catalogue, to which scholars such as David Robinson, Nancy Stula,
+                                Barbara Novak, and Joel Myerson made contributions, is a good
+                                starting point for studying Cranch's visual sense.</note> A volume
+                            dedicated to his neglected paintings would add to his small literary
+                            reputation, showing how he transformed a transcendentalist poetic
+                            sensibility into the Hudson River school of painting.</p>
+                    </div>
+                    <div>
+                        <head type="main">Editorial Principles</head>
+                        <p>Cranch fashioned the journal book, initially consisting of sixteen sheets
+                            (21 1/2 x 28 cm), into quarto segments and expanded it to thirty leaves.
+                            The resulting sixty-page soft cover notebook was bound with a gray cover
+                            of heavy stock paper and stitched at the fold with string. The journal
+                            survives in fifteen manuscript leaves, with handwritten text in pen on
+                            thirty pages (and six of those pages cut away) housed at the
+                            Massachusetts Historical Society.</p>
+                        <p>My primary purpose is to provide a diplomatic transcription of each
+                            manuscript page that preserves most of the stylistic characteristics of
+                            this important piece of documentary evidence. Dedmond's transcription is
+                            not entirely faithful to the manuscript, leaving out aspects such as
+                            cancellations, insertions, line breaks, and false starts, among other
+                            things. His transcription also does not distinguish single- and
+                            double-underlined words (and his decision to italicize both kinds of
+                            underlining disregards Cranch's varying emphases). Against Tanselle's
+                            principles, Dedmond's work "is altering the nature of the document and
+                            is obscuring evidence of potential significance for interpreting the
+                            author's state of mind and motivation."<note type="editorial"
+                                resp="#cmo">G. Thomas Tanselle, "Textual Scholarship," in <hi
+                                    rend="italic">Introduction to Scholarship in Modern Languages
+                                    and Literatures</hi>, ed. Joseph Gibaldi (New York: Modern
+                                Language Association, 1981), 34.</note> For this transcription I use
+                            the "plain text" rationale of the Mark Twain Project's letters edition,
+                            that "the editor essentially defines what is possible by deciding what
+                            can be transcribed legibly," and creates a critical text by making
+                            decisions about how the newly created text will differ from the
+                                document.<note type="editorial" resp="#cmo">See Tanselle, "Textual
+                                Scholarship," 32 and 47; and the Mark Twain Project's "Guide to
+                                Editorial Practice," <ref type="url"
+                                    target="http://www.marktwainproject.org/xtf/view?docId=letters/MTDP00005.xml;brand=mtp;style=letter"
+                                >http://www.marktwainproject.org/xtf/view?docId=letters/MTDP00005.xml;brand=mtp;style=letter</ref></note>
+                            While the diplomatic transcription has retained as many textual
+                            features&#8212;line breaks, hyphenation, punctuation, variant spellings,
+                            and abbreviations&#8212;as possible in the source text, it was not
+                            possible to record all nuances. I did not render the ornamentation on
+                            the cover of the "Journal," because a high-resolution facsimile of the
+                            original is available, which does more work than an attempt at
+                            replicating the border in the transcription. See also, for example, the
+                            horizontal rule on page 19 of the edition that appears to morph into
+                            leaves, which reflects Cranch's interest in visual art and the natural
+                            world. The transcription follows Tanselle's principles of documentary
+                            editing&#8212;namely, to transcribe the document as faithfully as
+                            possible&#8212;while also adopting the plain text approach to critical
+                            editing, which gives the editor the impetus to decide what ought to be
+                            transcribed. This edition omits the notes in pencil (in the form of "X"
+                            marks and "use" notes), because they were probably written by Scott as
+                            she compiled notes for her biography.<note type="editorial" resp="#cmo"
+                                >See in particular Jerome McGann's "extrapolation" of Tanselle's
+                                plea for more accurate documentary editing in "The Socialization of
+                                Texts" in <bibl><hi rend="italic">The Textual Condition</hi>
+                                    (Princeton: Princeton University Press, 1991),
+                                    69&#8211;87</bibl>. While I agree with McGann and McKenzie on
+                                the importance of visual and non-linguistic components of texts,
+                                Cranch's "Journal" stands outside of "the full range of social
+                                realities" that "directs us to consider the human motives and
+                                interactions which texts involve at every stage of their production,
+                                transmission, and consumption," because the "Journal" consists of
+                                the author's private papers, which were not originally meant to be
+                                transmitted and consumed, so my purpose is primarily documentary (D.
+                                F. McKenzie, <title>Bibliography and the Sociology of Texts</title>
+                                [Cambridge: Cambridge University Press, 1999], 15). See also
+                                Tanselle's <bibl>"Textual Criticism and Literary Sociology,"
+                                        <title>Studies in Bibliography</title> 44 (1991): 129n70,
+                                    142–43.</bibl></note> As these marks do not aid in the
+                            legibility of the transcription, they are excluded as corruptions of the
+                            manuscript.</p>
+                        <p>The document presented some transcription issues. The first involves
+                            Cranch's use of dashes. Because this is a journal not intended for
+                            publication, Cranch did not seem to engage in systematic dash-writing;
+                            instead, he used them frequently as arbitrary pauses (and sometimes full
+                            stops). This is not unusual for a nineteenth-century writer, but it
+                            bears explaining here that every dash was treated in the transcription
+                            as an em-dash (as that was probably Cranch's intended effect), and that
+                            sometimes it is unclear whether some horizontal markings were meant to
+                            be dashes or full stops.</p>
+                        <p>I also did not choose to modernize and normalize the text.<note
+                                type="editorial">Dedmond silently modernized his text&#8212;e.g.,
+                                his changing of Cranch's "shew" into "show."</note> For example, I
+                            retained capitalized nouns: as a nineteenth-century writer, Cranch
+                            frequently capitalized nouns, and I see no reason to change, for
+                            example, "Spirit" to lower case, especially as it is not consistently
+                            capitalized in the journal. I also retained minor oddities in Cranch's
+                            word usage, mostly concerning his compounds ("vestry room" versus
+                            "vestryroom" on pages 12 and 14, and "newyear" on page 2). In some
+                            cases, it appears that two words may be blended together (such as "of
+                            mind" on page 3), but Cranch sometimes made a continuous stroke of the
+                            pen after ending a word with an "f," and it seems unlikely that he meant
+                            those words to be compounded. Cranch also inconsistently dotted (and in
+                            one or two cases encircled) page numbers; it is not clear if those pages
+                            were meant to be more important than the unmarked ones, but these
+                            features were retained in the diplomatic transcription.</p>
+                        <p>As for the few abbreviations Cranch used (e.g., "wh" for "which" and
+                            "shd" for "should"), I have left the words as seen on the page and coded
+                            them with <hi rend="bold">abbr</hi> tags. Since Cranch did not engage in
+                            widespread or eccentric abbreviating, I saw little justification to
+                            include accompanying <hi rend="bold">expan</hi> tags. The reading text,
+                            however, does expand some of the abbreviations that may be
+                            confusing.</p>
+                        <p>Some words are unclear or scribbled hastily and difficult to identify
+                            with full confidence; a search of the accompanying XML file will show
+                            which words are unclear and which have high or low certainty values. In
+                            the edition unclear words are colored gray. </p>
+                        <p>From the diplomatic transcription I have also established a new reading
+                            text for the purposes of making this the standard text for American
+                            literature researchers and students.</p>
+                        <p>My principle regarding endnotes is to focus on contextual and
+                            intertextual instances that provide clarification of Cranch’s journey
+                            and intellectual development (i.e., context for understanding a major
+                            person or clarifying the subject of a given passage). As Cranch was
+                            steeped in the thoughts of Carlyle, Emerson, and the German romantics,
+                            among others, I considered it important to gloss instances in the
+                            "Journal" where he echoes or quotes from those writers. In most cases, I
+                            did not choose to put biographical information in endnotes; instead,
+                            that information is encoded within <hi rend="bold">persName</hi> tags in
+                            the XML document (with the more prominent names and relevant information
+                            included within the TEI header under <hi rend="bold">listPerson</hi>
+                            tags) and featured in the edition as optional hyperlinked notes separate
+                            from the endnotes. Some persons mentioned in the edition did not recieve notes,
+                            either because they were not essential to understanding the edition
+                            (e.g., Bertha Wood's sister Kate) or because they simply could not be
+                            identified (e.g., Mr. Lynch). Because I envisage a readership here that
+                            would know such literary luminaries as Wordsworth and Carlyle, it was
+                            also not necessary to provide elaborate notes on them (but I still find
+                            that birth and death dates are helpful).</p>
+                        <p>As I indicate in the edition, the manuscript was altered: starting with
+                            the April 18 entry, three pages are cut in half or cut in thirds, and a
+                            total of fifteen leaves are entirely cut out. For each instance of excision I
+                            explain how much of the page was taken out, and whether or not the
+                            excised page or leaf contained writing in Cranch's hand, but I did not
+                            choose to transcribe the letters (and portions of letters) in the
+                            gutters of the excised pages because it would not aid in the
+                            intelligibility of the transcription. I hope that providing the
+                            manuscript images will satisfy the curiosity of those who wish to
+                            investigate the missing pages. The group of excised leaves nevertheless
+                            remains one of the most enigmatic aspects of the manuscript. We can
+                            never know who altered the journal, though it seems unlikely that Cranch
+                            did it himself: out of the five boxes of manuscript material, this journal
+                            is the only one that is altered in like fashion. </p>
+                    </div>
+                    <div>
+                        <head type="main">Acknowledgments</head>
+                        <p>My thanks go to the Office of the Dean of the College of Liberal Arts and
+                            Sciences at the University of Maine, which provided financial support
+                            for the digitization of Cranch’s "Journal"; Amanda Gailey and Andrew
+                            Jewell, editors of <hi rend="italic">Scholarly Editing</hi>, as well as
+                            my peer reviewers, for their helpful comments; Dr. Marcia Karp and
+                            Professor Christopher Ricks, both of whom commented on an
+                            early version of this project; Professor Steven Olsen-Smith, who helped
+                            me with my proposal and with moral and intellectual support; Rob
+                            Velella, of the Longfellow
+                            House in Cambridge, who commented on a draft of the edition, and
+                            led me to Cranch’s grave at Mount Auburn Cemetery (which does not list
+                            Cranch's grave as one of its prominent attractions); Professor Robert Brinkley, my colleague when I was at the
+                            University of Maine, who commented on the introduction and
+                            provided essential expertise to the Wordsworth and Coleridge
+                            connections; and finally, pride of last place to Jillian Saucier, who
+                            commented on this introduction and engaged in many conversations
+                            about Cranch.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

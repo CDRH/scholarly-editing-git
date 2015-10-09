@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18631121.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">God's Own Poor</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18631121.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jgm">J. G. McKee</author>
+                        <title level="a">God's Own Poor</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-11-21">21 November 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jgm">McKee, J. G.</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-02" who="#el">checked transcription and encoding</change>
+            <change when="2012-08-26" who="#el">checked basic encoding</change>
+            <change when="2012-07-30" who="#kt">encoded</change>            
+            <change when="2012-06" who="#bw">transcribed</change>           
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18631121.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18631121.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18631121.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18631121.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18631121.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body>
+            
+            <lg type="poem">
+               
+                <note type="newspaper-editorial" rend="center">FOR THE ANTI-SLAVERY STANDARD.</note>
+                
+                <head type="main" subtype="authorial" rend="center">GOD'S OWN POOR.</head>
+        
+        
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Tell</emph> me not of <choice><orig>Burmah's</orig><reg>Burma's</reg></choice> heathen,</l>
+                    <l rend="indented1">Far away o'er ocean's foam;</l>
+                    <l>Teach them, <emph rend="italic">teach them,</emph> who can reach them;</l>
+                    <l rend="indented1"><emph rend="italic">We</emph> have heathen nearer home&#8212;</l>
+                    <l rend="indented5">God's own Poor.</l>
+                </lg>
+        
+        
+                <lg type="stanza">
+                    <l>Tell me not of <choice><orig>Hindoo</orig><reg>Hindu</reg></choice> mothers,</l>
+                    <l rend="indented1">By the Gunja<note type="editorial" resp="#bw #el">Ambiguous. Context implies the River Ganges, or "Ganga Ma"&#8212;the holiest of India's rivers.</note> weeping wild:</l>
+                    <l>Our own <choice><orig>crockodiles</orig><reg>crocodiles</reg></choice> of slavery</l>
+                    <l rend="indented1">Swallow many a mother's child&#8212;</l>
+                    <l rend="indented5">God's own Poor.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Slavery's prison-pens unpeopled,</l>
+                    <l rend="indented1">Slavery's <choice><orig>bastile</orig><reg>bastille</reg></choice><note type="editorial" resp="#bw #el">Prison fortress in Paris, stormed by Revolutionaries in 1789; a symbol of oppression.</note> bolts unbarred,</l>
+                    <l>On us pour their pleading thousands,</l>
+                    <l rend="indented1">Crushed in soul, in body scarred&#8212;</l>
+                    <l rend="indented5">God's own Poor.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>From the camp and hut and hovel</l>
+                    <l rend="indented1">Comes the Macedonian cry,<note type="editorial" resp="#bw #el">A cry for help, from Acts 16:9: "a vision appeared to Paul in the night: There stood a man of Macedonia, and prayed him, saying, Come over into Macedonia, and help us." The phrase "Come over and help us!" was much quoted by nineteenth-century Christian missionaries.</note></l>
+                    <l>Come and clothe us ere we perish,</l>
+                    <l rend="indented1">Come and teach us ere we die&#8212;</l>
+                    <l rend="indented5">Helpless Poor.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Now unshackled Ethiopia</l>
+                    <l rend="indented1">Stretches out her hands to thee;<note type="editorial" resp="#bw #el">Psalm 68:31, "Princes shall come out of Egypt; Ethiopia shall soon stretch out her hands unto God." A crucial text for abolitionists and activists, interpreted as a prophecy of salvation and liberation.</note></l>
+                    <l>Teach her now to read the story</l>
+                    <l rend="indented1">How Christ "makes <emph rend="italic">His</emph> people free"&#8212;<note type="editorial" resp="#bw #el">Probably a reference to Galatians 5:1: "Stand fast in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage."</note></l>
+                    <l rend="indented5">His own Poor.</l>
+                </lg>
+            </lg>
+            
+            <byline rend="right"><emph rend="smallcaps">J. G. McKee,</emph> <lb/>Missionary to the Freedmen.<note type="editorial" resp="#bw #el"><p>Joseph G. McKee (1832&#8211;1868), Presbyterian minister and missionary. At about fourteen, McKee left Ireland for the United States (Rev. James M'Neal, "Biographical Sketch of Rev. Jos. G. McKee," in <title level="m">A History of the Colored Schools of Nashville, Tennessee</title>, comp. G. W. Hubbard [Nashville, TN: Wheeler, 1874], 31). He attended Westminster College in New Wilmington, Pennsylvania, and joined the ministry of the United Presbyterian Church on completing his theological training. Thereafter he worked as a missionary in Nebraska (31). He had been preparing himself to join his uncle's mission in India when the Second Synod of the West chose him to led their first mission among the freedpeople of Nashville, Tennessee (Rev. J. W. Wait, "The United Presbyterian Mission among the Freedmen in Nashville," in Hubbard, <title level="m">A History of the Colored Schools of Nashville</title>, 7).</p><p>McKee arrived in Nashville in late September 1863; on October 13 he opened a large missionary school for freedpeople in the city's northwest Baptist Church. In the winter of 1863&#8211;64, "the suffering [of the freedpeople] was so great the teachers' time was employed in giving relief, distributing food, clothing, fuel, obtaining homes for the houseless, etc." (7). McKee's health broke down, forcing him to return north in March 1864. He rejoined the mission in late December. For nearly four years, McKee dedicated himself to subsequent Presbyterian missions in Nashville, in spite of poor health, which continued to limit his activities. In 1865 the McKee School was built with funds he had raised in the North. Illness forced him to resign his post as superintendent of the mission in the summer of 1868, and he died on September 25.</p></note></byline>
+            <dateline>Nashville, Tenn., Oct., 1863.<note type="editorial" resp="#bw #el">The dateline of October 1863 identifies this poem as having been written shortly after McKee's arrival in Nashville and near the time of the opening of the missionary school there.</note></dateline>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+

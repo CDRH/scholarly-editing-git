@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Letters as Critical Texts</title>
+                <title level="a" type="sub">A Consideration of Mark Twain’s “Ashcroft-Lyon
+                    Manuscript”</title>
+                <author key="Gagel, Amanda">Amanda Gagel</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.gagel</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+ <addrLine>http://www.scholarlyediting.org</addrLine>
+</address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>http://cdrh.unl.edu</addrLine>
+ </address>
+                </distributor>
+                <date>2015</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">36</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2015-01-14"><name xml:id="gk" key="Kirilloff, Gabi">Gabi Kirilloff</name>
+                markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Letters as Critical Texts</head>
+            <head type="sub">A Consideration of Mark Twain’s “Ashcroft-Lyon Manuscript”</head>
+            <byline>Amanda Gagel</byline>
+        </front>
+        <body>
+            <div type="section"><p>The “Ashcroft-Lyon manuscript” is a 429-page diatribe written in 1909, one year
+                before Samuel L. Clemens's (Mark Twain's) death. The text will appear in the third and final volume of
+                his <hi rend="italic">Autobiography</hi>, the current publishing endeavor of the
+                Mark Twain Project.<ptr target="#note1" xml:id="nr1" n="1"/> The document is Twain’s
+                rancorous attack on, and laborious account of, ways that his secretary, Isabel Lyon,
+                and business manager, Ralph Ashcroft, allegedly embezzled money from him during the
+                years 1907 to 1909, as well as manipulated Twain’s relationship with his youngest
+                daughter, Jean, resulting in her needless residence in sanitariums for three
+                    years.<ptr target="#note2" xml:id="nr2" n="2"/> There have been monographs
+                written about this manuscript as well as a number of articles.<ptr target="#note3"
+                    xml:id="nr3" n="3"/> The text itself has never been published but has been
+                readily available in the Mark Twain Papers and is often cited as evidence of either
+                Lyon’s and Ashcroft’s guilt or Twain’s overzealous persecution of them.</p>
+            <p>Putting aside the contextual life of this manuscript, editing the work itself has
+                presented unique challenges for the editors, at least in part because it was written
+                in the guise of an unsent letter to Twain’s good friend William Dean Howells. The
+                editors argue that this device was an autobiographical strategy that
+                Twain was experimenting with at the time, that is, writing a letter that would never
+                be sent, in order to free himself from the constraints inherent in writing a letter
+                (or anything else) that was intended for publication. While Twain was composing the
+                final form of his autobiography, from roughly 1905 to 1909, he worked chiefly by
+                dictating to a stenographer, a practice that he felt also allowed him a degree of
+                freedom to say the (conventionally) unsayable, but after three years of dictating,
+                this practice too seemed deficient.<ptr target="#note4" xml:id="nr4"
+                    n="4"/></p>
+            <p>The letter form of the Ashcroft-Lyon manuscript provides us with an alternative
+                approach to crafting an autobiographical narrative, but one the author did not
+                continue to use after this composition. Twain did <hi rend="italic">not</hi> intend
+                for the manuscript to be a part of his autobiography, because he was meticulous
+                about marking which dictations and manuscripts should be included in it. Also, it is
+                noted in letters that he meant for the manuscript to be held privately and used only
+                if Ashcroft and Lyon ever threatened legal or other action against the
+                    Clemenses.<ptr target="#note5" xml:id="nr5" n="5"/> Regardless, he did at
+                times view the “letter” as a preferred way to relate a more honest account of an
+                event from his life than he could achieve in his dictations. Therefore, including
+                this text with the <hi rend="italic">Autobiography</hi> required the editors to
+                rethink how the text should be presented, compared to the presentation of the
+                dictations. Since it is technically a letter, should it be transcribed in plain text
+                as are the letters published by the Mark Twain Project? Or should it be printed in
+                clear text as are the dictations of the <hi rend="italic">Autobiography</hi>?</p>
+            <p>The editorial deliberation over these questions also raised, at least for me, a
+                number of larger questions. How does this manuscript affect our understanding and
+                definition of the “letter”? What do we understand letters to be when editing them
+                for inclusion in a scholarly edition or elsewhere? Are they text of a conversation?
+                Are they literature? Are they notes? Are they a dramatic performance? Are they
+                private or public documents or both? Letters are sometimes all these things and
+                more, and the expectation of what they accomplish as a textual medium changes
+                depending on, among other things, what century of letter writing one is studying
+                and the context of their composition. That said, they are a fascinating example of
+                how a genre of text can evolve. So what can we learn from deliberations over the
+                Ashcroft-Lyon manuscript, since the dynamic nature of letters is something not easy
+                to pin down?</p>
+            <p>Within this frame of analysis, this article reviews the current thinking on the
+                epistolary form and identifies where more nuanced thought is lacking when it comes
+                to a critical textual study of letters being presented in different media formats. I
+                will use Twain’s Ashcroft-Lyon manuscript and other examples to question various
+                long-held assumptions about the “letter.”</p></div>
+<div type="section">
+<p>The handwritten missive of past centuries,
+                the “private conversation of distant friends,”<ptr target="#note6" xml:id="nr6"
+                    n="6"/> as Harriet Martineau described it, is typically a text that relies on
+                the tension of being both a private and a public document. As Margaretta Jolly and
+                Liz Stanley claim, “letters inhabit an interesting ontological as well as
+                epistemological ‘space,’ situated as they are <hi rend="italic">on the boundaries of
+                    personal</hi> [private] <hi rend="italic">and impersonal</hi> [public].”<ptr
+                    target="#note7" xml:id="nr7" n="7"/> In fact, the argument about whether a
+                letter is ever completely private or public has been the most pervasive and
+                genre-defining in the study of correspondence, including attempts to theorize the
+                so-called epistolarium.<ptr target="#note8" xml:id="nr8" n="8"/> Twain’s
+                manipulation and use of the letter form is one of many examples, surely, of how it
+                can be both. Regardless, theorists and editors often use the private-public binary
+                as a point of engagement for discussing letters, and for choosing appropriate
+                editorial treatments, most specifically, in deciding whether letters require a
+                documentary or a critical approach.</p>
+            <p>Due to the perceived “documentary” nature of letters (personal, historically
+                significant), D. C. Greetham and Thomas Tanselle, two of the most prolific writers
+                on textual theory, devote fewer pages to choosing an appropriate theory or method of
+                editing letters than they do to other topics of textual inquiry. However, this is
+                very likely because letters editions are not usually considered to consist of
+                “critical” texts—that is, texts (such as literary fiction) that require a
+                sophisticated practice for emending a copy-text from variant readings. Since letters
+                    <hi rend="italic">most often</hi> consist of just one unique manuscript, there
+                is usually no need to choose between variants. However, this is not always true,
+                because sent letters may sometimes have preliminary drafts to them, as well as
+                various public printings, all of which may bear on the establishment of a text for
+                an edition.<ptr target="#note9" xml:id="nr9" n="9"/> Taking this into account, one
+                could argue that letters <hi rend="italic">are</hi> literary works and should <hi
+                    rend="italic">not</hi> be treated strictly as historical documents, if indeed
+                there is a difference, for as Tanselle has pointed out, “Any approach to editing
+                that attempts to justify differing treatment for ‘literature’ and for other works is
+                thus built on an insecure foundation, for the simple reason that ‘literature’ is not
+                a fixed body of material and what constitutes ‘literature’ is a matter of
+                    judgment.”<ptr target="#note10" xml:id="nr10" n="10"/> Admittedly, in this
+                deliberation, Tanselle was discussing literary fiction as compared to philosophical
+                works and the like, but the statement stands, I believe, with regard to letters as
+                well. Editors do and should engage in judgment in the practice of editing, because
+                it is inescapable. Therefore, attempting to assign immutable treatments for genres
+                of writing in an attempt to deny subjective judgments about the content is a futile
+                practice.</p>
+            <p>In fact, discriminating between “literary” and “documentary” letters, and making their
+                editorial treatment reflect that, is a distinction rejected by Tanselle: “[T]he real
+                distinction is between writings of the kind normally intended for publication and
+                those of the kind normally not so intended (critical editions often being most
+                appropriate for the former, diplomatic transcriptions for the latter).”<ptr
+                    target="#note11" xml:id="nr11" n="11"/> Greetham admits that this is a difficult
+                distinction to draw for pre-Gutenberg letters,<ptr target="#note12" xml:id="nr12"
+                    n="12"/> but it is also a difficult distinction to draw for a number of letters
+                in the modern era. A letter may have been a private communication at its inception,
+                but it became public when it entered the postal delivery service, was passed among
+                friends, or when it was (perhaps) published in a public forum such as a periodical.
+                Also, writers who are well-known figures might well expect their letters to be
+                published one day, perhaps even having this in mind at the time of composition.
+                Twain, for example, did expect this, and four years before he died he appointed
+                specific people to be editors of his letters. Determining an editorial policy based
+                on the public-private, literary-documentary binary may actually result in editors
+                making compromises to construct a policy that incorporates aspects of both.
+                Nonetheless, those ideas about the genre have influenced areas outside literary and
+                textual scholarship that are concerned with the epistolary form.</p>
+            <p>Interestingly enough, some of the current critical work on epistolary theory and the
+                formal aspects of the “letter” are in the fields of social science and history, and
+                more specifically genre theory, in which scholars are establishing the
+                characteristic parameters of the letter form. Social scientists and historians who
+                study “life writing” (diaries, letters, etc.) find that establishing or sometimes
+                deconstructing the formal and stylistic attributes of letters helps to codify the
+                study of them and of the culture or persons they concern.<ptr target="#note13"
+                    xml:id="nr13" n="13"/> However, the conclusions most often drawn have not
+                identified any kind of useful categorization, but rather have tended to highlight
+                the “‘infinitely malleable features’ of letters, finding that letter writing is a
+                social practice that morphs into and across genres and across historical periods in
+                spite of (varyingly) prescriptive conventions.”<ptr target="#note14" xml:id="nr14"
+                    n="14"/> Then what becomes most useful for social scientists interested in just
+                the <hi rend="italic">content</hi> of letters and how the form supports or
+                manipulates the writer’s life story is to decipher the “truth value” of an author’s
+                writings—that is, how much of what an author describes in letters can be counted on
+                as truthful after the reader takes into account, for example, the style, voice, and
+                possible performance and manipulation of voice that the author uses. This type of
+                study may be, also, how some literature scholars contribute with their interest in
+                letters: as a way to unearth points of formation of an author’s creative ideas,
+                perhaps, or the identification of influences in the professional lives of writers.
+                The most common use of letters, though, has always been to construct the biography
+                of a figure. Simply put, a biographer, historian, or social scientist will collect
+                details from a primary source to serve a scholarly argument or construct a life
+                story.</p>
+            <p>Whether it is genre theory, social science, history, literary criticism, or
+                biographical work, one area could stand more rigorous questioning of its <hi
+                    rend="italic">perception</hi> of letters: that of scholarly editing, which more
+                often than not provides other scholars with a text to study. The debate of public
+                versus private documents alone leads to confusion, as we have seen. However,
+                traditionally, a way for editors to determine policies for editions of any text has
+                been to identify the definitional aspects of the text: what makes it a draft,
+                manuscript, proofs, and so on, and how we can best, typographically, represent those
+                    aspects.<ptr target="#note15" xml:id="nr15" n="15"/> Then what were the author’s
+                intentions for the manuscript, or on the other hand, what was the social text
+                disseminated to the reading public? Various characteristics have been
+                assigned to letters, such as: they have a writer and usually a recipient or at least
+                an addressee, they are sent through the postal service or by some other carrier,
+                they are thought of as covering distance and inhabiting a geographical space, they
+                have attached to them an <hi rend="italic">expectation</hi> of privacy (almost
+                always met), they have reciprocity built in, and the writing of them has
+                “referential aspects.”<ptr target="#note16" xml:id="nr16" n="16"/> However, in the
+                end, many find that letters are still a transitionary form and a “particularly
+                difficult text object to define: after all almost anything can be put in the form of
+                a letter.”<ptr target="#note17" xml:id="nr17" n="17"/></p>
+            <p>An editor may admit that any attempt to assign a formal or genre definition to a text
+                is continually challenged by exceptions to that genre—an admission thrown into
+                relief when trying to use established characteristics in order to formulate an
+                editorial policy. Genre-defining can serve a useful purpose in some areas of
+                critical study but with editing it can lead to quick judgments, misunderstandings, and
+                confusion as to how a text should be published. An early attempt (within the current
+                era of scholarly editing) at defining a methodology for editing correspondence was
+                done by Robert Stephen Becker in 1984.<ptr target="#note18" xml:id="nr18" n="18"/>
+                He surveyed the field of editions being produced at that time and looked for
+                patterns of similar approaches to handling correspondence. In short, he found that
+                “fifty percent of the canvassed editors would not recommend any edition of letters
+                as a model. In general, they felt that individual problems created by an author’s
+                correspondence are too great to be solved or even managed with a formula” (262).
+                This survey and study grew from what at the time was a quickly moving current toward
+                more diplomatic transcriptions of text. In editing, “diplomatic” can mean different
+                things, but here I refer to a very general move away from heavily emended,
+                truncated, and censored texts (e.g., in letters editions made in the nineteenth to
+                mid-twentieth centuries), to transcriptions that showed in their printed surrogates
+                the deletions, additions, and other marks a writer makes, for either deliberate or
+                unconscious reasons.</p>
+            <p>This shift signaled a kind of crisis for letters editions, as touched on above in the
+                literary versus documentary debate. Varying degrees of diplomatic transcription were
+                a result, as was a more careful attention to the presentation of a holograph letter
+                in a published form. Letters editions can still range from giving very literal,
+                documentary texts, to giving clear texts with lists of textual alterations in the
+                back of the book, and one might say that this latter approach preserved a kind of
+                literary aura around letters editions that critical editions had held for years.</p>
+            <p>At this point it is important to remember that the resulting edited text is “already
+                something other than what the writers in most cases intended them to be. . . .
+                Editions of letters are so much a fixture of literate culture that it is easy to
+                forget that in its published state a correspondence leads the second of two distinct
+                generic lives.”<ptr target="#note19" xml:id="nr19" n="19"/> The recognition that
+                what an editor creates is something different from the actual letter is important,
+                and where an editor goes from there in the editing process matters; that is, how do
+                the assumptions about letters, which I explained above, lead us astray in editorial
+                decisions? Letters editions produced from approximately the late eighteenth through
+                the nineteenth centuries were made under the theory that an edition should work
+                toward creating one long narrative of the subject’s life, or highlight some aspect
+                of it while suppressing others.<ptr target="#note20" xml:id="nr20" n="20"/> This
+                coincidentally resulted in page after page<ptr target="#note21" xml:id="nr21" n="21"
+                /> of blocks of texts, short excerpts, and all in all an aesthetic experience that
+                appeared more like a literary tome or novel (consider the epistolary novel) than
+                corresponding letters, which by their very nature are disjointed things: interrupted
+                conversations, notes of reply in no context, fleeting invitations, utterances in
+                transit sent to someone next door or across the world. In fact, most of the
+                canvassed editors of Becker’s survey confirmed “that the regular form and spacing of
+                print, its size on the page and the bound page itself, are all intrinsic elements of
+                the printed medium that are foreign, even contrary, to the corresponding elements of
+                the holograph.”<ptr target="#note22" xml:id="nr22" n="22"/> Could it be that the
+                reason scholars edit volumes of letters is that they are influenced by the idea that
+                “letters have an intrinsic value, which might indeed raise them to the level of
+                    literature”?<ptr target="#note23" xml:id="nr23" n="23"/> If so, as Robert
+                Halsband surmised, “they intended their editions to be enjoyed by a reading public
+                interested in genuine literature but intolerant of pedantry and dullness.”<ptr
+                    target="#note24" xml:id="nr24" n="24"/></p>
+            <p>Fortunately, then, letters are never just gossip or informal conversation about
+                commonplace domestic matters, nor finely crafted literary prose. They are complex
+                textual documents that contemporary editors can only attempt to represent on a
+                printed page or in a digital frame. It is not just a matter of representing
+                typographically the cancellations and insertions in a letter but also a consideration
+                of the purpose and aesthetics of them. Some might wonder why it matters, since we
+                are only offering a surrogate to readers anyway. But what the editorial artifact
+                gives us, through its very content, is an additional, metatextual framework of
+                information, as well as a different aesthetic experience from the actual letter,
+                which in turn manipulates our understanding of it and, I argue, distances us even
+                further from what the letter accomplished decades and centuries ago. Our editorial
+                policy and annotation policy should hope to rely on the reader's conception of the
+                social and geographical space that letters inhabit and their varied purposes,
+                intentions, and styles, whether it be in print or online.</p></div>
+            <div type="section"><p>A number of examples can be found among letters written throughout the centuries that
+                challenge the conception of the so-called traditional letter, or that do not fit
+                into the genre categories mentioned above. I by no means claim that Twain’s letters
+                are the only letters that present challenges to the traditional definitions; rather,
+                I imagine many letters by other writers would show the same kind of playful
+                genre-bending that his sometimes do.</p>
+            <p>The Ashcroft-Lyon manuscript gives us an opportunity to unpack and rethink what the
+                letter is. To begin with editorial policy: the dictations included in the three
+                volumes of the <hi rend="italic">Autobiography</hi>, with few exceptions, are
+                printed in a clear, critical text.<ptr target="#note25" xml:id="nr25" n="25"/> This
+                means the editors collated different versions of the dictations (such as one or more
+                typed copies made by the stenographer, sometimes holograph manuscript, sometimes
+                published text, and often one or more typescripts with Twain’s holograph revisions)
+                and used these to establish a text, and a textual apparatus was constructed listing
+                variants and emendations. The goal was to get as close as possible to the text Twain
+                wanted published after his death. He indeed intended all of it to be published, some
+                during his lifetime in modified form in periodicals, and some only long after his
+                    death.<ptr target="#note26" xml:id="nr26" n="26"/> In other words, the
+                autobiography was “finished” before he died, in that he was done giving dictation,
+                had completed some revisions to the typescripts produced, and had written what he
+                declared to be the end of the work. That being the case, one’s initial thought could
+                be that the Ashcroft-Lyon manuscript should be handled the same way as the
+                dictations and published as clear text. However, it is not part of the dictations,
+                and was written after most of the dictations were completed. It was crafted as a
+                narrative of events in his life, but there is where its similarities to
+                the dictations end. First, Twain wrote it himself, in manuscript. It is in more or
+                less a rambling informal prose style, which is not uncommon for him, but the
+                manuscript does give less appearance than the dictation transcripts do of being
+                revised for a purpose beyond drafting. Second, he never intended for the manuscript
+                to be <hi rend="italic">formally</hi> published (which I will address further on),
+                but he did expect unknown others to read it. Here it begins to inhabit this nebulous
+                space of being both a private and public document. Third, it is in the form of a
+                letter that he never intended to send. He never used this literary device in his
+                dictations, but this form has surfaced elsewhere in his writings. So if it is a
+                letter, what kind of a letter is it, and are we justified even calling it that (as
+                Twain himself did) when it is first and foremost, by content, autobiographical and
+                not “correspondence” in the traditional sense?<ptr target="#note27" xml:id="nr27"
+                    n="27"/> Should content or form or both decide our methodology for choosing our
+                policy?</p>
+            <p>In the end, we opted for plain text rather than clear text for all the reasons given
+                above as to how it differed from the autobiographical dictations. However, we soon
+                ran into problems when trying to adhere to the specifications of plain text
+                transcription. Plain text at the Mark Twain Project is a transcription method that
+                was devised by general editor Robert H. Hirst for the editing and printing of Twain’s
+                letters and other texts. Through certain typographical elements and symbols (e.g.,
+                strikethrough, slash, caret), it represents on the page the cancellations, insertions,
+                and other substantive markings that constitute the <hi rend="italic">sent</hi>
+                letter. But it is also a <hi rend="italic">faithful</hi> transcription, that is,
+                faithful to what is literally on the page but also faithful to the intentions of the
+                author. This means that in plain text, editors will also use their best editorial
+                judgment <hi rend="italic">not</hi> to transcribe words or phrases in a way that
+                will confuse the reader, but rather offer them a transcription that benefits a
+                comprehensive reading:<q rend="block">We assume that the purpose of publishing
+                    letters is to make them easier to read than they are in the original documents.
+                    On that assumption, a successful transcription must include enough of the text
+                    to enable someone to rely on <hi rend="italic">it</hi>, rather than the
+                    original, and it must exclude enough to make the transcribed text easier to read
+                    (or at least not more difficult to read) than the original. Thus, when the
+                    documents originally sent are intact and available, we transcribe them as fully
+                    and precisely as is compatible with a highly inclusive <hi rend="italic"
+                        >critical text</hi>—not a literal, or all-inclusive one, but a typographical
+                    transcription that is optimally legible and, at the same time, maximally
+                    faithful to the text that Clemens himself transmitted.<ptr target="#note28"
+                        xml:id="nr28" n="28"/></q>For the transcription of letters, this makes good
+                sense, because as we have found, one of the hallmarks of letters is their
+                idiosyncrasy, the nature of a text in the midst of being crafted but not polished,
+                and this deserves a critical treatment. For the Ashcroft-Lyon manuscript, the plain
+                text retained the integrity of the document: that of a drafted letter, loosely
+                composed. Twain’s strikeouts, additions, many inserted documents, and tireless
+                repetition of events and facts display quite literally his frustration and mounting
+                anger over the period of five months when he wrote the manuscript. Also, Twain
+                stipulates in the manuscript itself that “This original Manuscript will be locked up
+                &amp; put away, &amp; no copy of it made.” Copies would have introduced other
+                witnesses to the text and perhaps made it necessary to collate and emend a
+                copy-text, but with a unique manuscript, plain text is all the more called for.
+                However, using the plain text rules that were established for editing letters did
+                not always allow us to transcribe the manuscript satisfactorily. Much of this challenge
+                came from the extraordinarily diverse components of the text. It is a long
+                manuscript “letter,” but it also includes newspaper clippings, testimonies written
+                by the author’s daughters, Clara and Jean, legal contracts, household bills and accounts,
+                and typed documents. Are we justified in treating these as plain text items as well?
+                Do we retain the common misspellings that occur in newspaper articles where clearly
+                the typesetter was inept? Do we treat Clara’s and Jean’s manuscripts as we treat
+                Twain’s? This is where it became difficult to treat this “letter” like other
+                letters, relying on preconceived notions. What resulted in this case was using plain
+                text but also making allowances for the other types of text included so as to
+                produce a faithful text, a historically accurate text, and one that does not obscure
+                the author’s intentions.<ptr target="#note29" xml:id="nr29" n="29"/></p>
+            <p>Twain’s purpose behind writing this document was the other guiding force for the
+                editors in deciding how to treat it. Why did Twain choose to unburden himself of all
+                his accusations against Ashcroft and Lyon in an “unsent letter” to Howells? His
+                intention was not to publish it, but rather to keep it so that the family or Twain’s
+                lawyer would have it at hand in case Ashcroft or Lyon ever tried to take legal
+                action against the family. That way, even after his death, Twain’s daughter Clara
+                would be protected with the document. But why the letter form? He had been attracted
+                for many years to the catharsis of the “unsent letter.” It was a way of unburdening
+                himself of a topic that might not be suitable for others to read. He expresses this
+                quite well in an actual sent letter to Howells written just a few days before he
+                started composing the Ashcroft-Lyon manuscript:<q rend="block">My mind’s present
+                    scheme is a good one; I could not like it better if I had invented it myself. It
+                    is this: to write letters to friends <hi rend="italic">&amp; not send them</hi>.
+                    I will now try it on you as a beginning, &amp; see how it works. Dictating
+                    Autobiography has certain irremovable drawbacks. . . . Talking to the same,
+                    same, same old one-character stenographer all the time, is talking to the
+                    vague—with [unsent letters] there’s no definite target for each letter, &amp;
+                    you can choose the target that’s going to be the most sympathetic for what you
+                    are hungering and thirsting to say . . . you can talk with a quite unallowable
+                    frankness &amp; freedom, because you are not going to send the letter. . . .
+                    When you are on fire with a good thing that’s indecent you’ll save it for
+                    Howells, who will love it. As he will never see it, you can make it really
+                    indecenter than he could stand; &amp; so no harm is done, yet a vast advantage
+                    is gained.<ptr target="#note30" xml:id="nr30" n="30"/></q>Twain considered the
+                Ashcroft-Lyon affair to be indecent because in his own words, directed toward Lyon
+                but written in a letter to his daughter Clara, it was about someone who was “a liar,
+                a forger, a thief, a hypocrite, a drunkard, a sneak, a humbug, a traitor, a
+                conspirator, a filthy-minded &amp; salacious slut pining for seduction &amp; always
+                getting disappointed.”<ptr target="#note31" xml:id="nr31" n="31"/> He chooses
+                this “freer” and more honest form of the letter, but throughout the manuscript his
+                language toward Ashcroft and Lyon becomes increasingly violent and exaggerated, and
+                he begins to utter not a number of honest statements but rather half-truths and
+                sometimes complete falsehoods.<ptr target="#note32" xml:id="nr32" n="32"/> He claims
+                to be his most honest self in this text, but instead he uses it to give voice to
+                his version of truth in whatever language he chooses, which could admittedly be
+                another kind of honesty. This in turn lends itself to the “truth value” study that
+                social scientists are concerned with in life writing, which also is of concern to
+                editors. The interesting part of Twain’s use of the letter form in other instances
+                is that he often bends the truth in order to effect a response from the reader, a
+                literary device found in several of his writings.</p>
+            <p>One example that displays Twain’s use of a letter
+                to compose a type of fiction is one he wrote in 1874 to, again, William Dean
+                    Howells.<ptr target="#note33" xml:id="nr33" n="33"/> It gives the reader a
+                multilayered address through the “correspondence” of a letter addressed to his wife
+                (“Dear Livy”) but sent to Howells and dated 1935. It is a “prophecy,” as Twain later
+                termed it, a fictional letter to Livy written when Twain would have been one
+                hundred, Livy ninety, and Howells ninety-eight. He sent this letter as an exercise
+                in “forecasting the Monarchy and imagining what the country would be like when the
+                Monarchy should replace the Republic,” revealing his cynical view of how one
+                powerful political party in America essentially functioned as a monarchy
+                (Autobiographical Dictation for July 16 and September 12, 1908, forthcoming in
+                volume 3). He imagines that the Irish have taken over politically on the East Coast
+                and have renamed some of the major cities, Boston being named “Limerick.” He and his
+                close friend the Reverend Joseph Twichell are visiting Howells in New York and Twain
+                reports on the trip to Livy. Most of what he says involves the technological
+                advances that will be at their disposal in 1935, such as “air-ships,” and even more
+                telling, he gives his thoughts on advances in communication. It is in a sense a
+                monologue on what he finds to be the benefits of the “old” written word, transmitted
+                through letters and telegraphs, versus the new vogue in 1935 of “thought
+                transference,” when people will telepathically transfer their thoughts to one
+                another instead of writing:<q rend="block">The gentlemen-in-waiting stare to see me
+                    sit here <hi rend="italic">telegraphing</hi> this letter to you, &amp; no doubt
+                    they are smiling in their sleeves. But <hi rend="italic">let</hi> them! The slow
+                    old fashions are good enough for me, thank God, &amp; I will none other. When I
+                    see one of these modern fools sit absorbed, holding the end of a telegraph wire
+                    in his hand, &amp; reflect that a thousand miles away there is another fool
+                    hitched to the other end of it, it makes me frantic with rage; &amp; then am I
+                    more <del type="strikethrough">than</del> implacably fixed &amp; resolved than
+                    ever, to continue taking twenty minutes to telegraph you what I might
+                    communicate in <del type="strikethrough">thre</del> ten seconds by the new way
+                    if I would so debase myself. And when I see a whole silent, solemn drawing-room
+                    full of idiots sitting with their hands on each other’s foreheads “communing,” I
+                    tug the white hairs from my head &amp; curse till my asthma brings me the
+                    blessed relief of suffocation. In our old day<del type="strikethrough">s</del> such a gathering talked <add rend="caret" place="inline">pure</add> drivel &amp; “rot,” mostly, but better that, a thousand times, than these dreary
+                    conversational funerals that oppress our spirits in this mad generation.<ptr
+                        target="#note34" xml:id="nr34" n="34"/></q>This letter defies many genre
+                staples. It serves as a communication to three or more addressees, and is not
+                private to Livy. It was sent to Howells, and he in turn “passed it around” to Thomas
+                Bailey Aldrich and James R. Osgood.<ptr target="#note35" xml:id="nr35" n="35"/>
+                Twain then publishes the letter himself by including it in his <hi rend="italic"
+                    >Autobiography</hi>, in one of his dictations, thirty-four years later. It was
+                first a creative exercise, in 1874, and then a platform from which to divulge his
+                views on the country’s political system, in 1908. It was never just a letter to
+                Livy; rather, it displayed Twain’s early fascination with the letter as a malleable
+                literary device.</p>
+            <p>One other instance of Twain’s rumination over the unsent letter is a humorous sketch
+                he wrote but never published, titled “Unmailed Letters,”<ptr target="#note36"
+                    xml:id="nr36" n="36"/> advice to a young letter writer. It explains his idea
+                that there can be two versions of letters: an honest, bilious unmailed version and a
+                truncated, dishonest sent version. Writing these two versions was a practice Twain
+                saved for recipients such as reporters, reviewers, and overzealous fans who sent him
+                endless obtrusive requests.<q rend="block">When you get an exasperating letter, what
+                    happens? If you are young, you answer it, promptly, instantly—&amp; mail the
+                    thing you have written. At forty what do you do? By that time you have found out
+                    that a letter written in a passion is a mistake, in 99 cases out of a hundred,
+                    that it usually wrongs two persons, &amp; always wrongs one—yourself.</q>Instead,
+                he gives the young writer advice to lay out all his passionate outrage in a letter
+                and stick it in a pigeonhole instead of mailing it, and then write a letter void of
+                offense and mail that to the recipient. This advice is followed by amusing examples
+                of such versions. Yes, this is a humorous exercise, but it speaks to a larger point,
+                that the so-called Ur-text of a letter can have various limbs, expressions, and
+                versions, and be used for various purposes.</p>
+            <p>By 1909 and the writing of the Ashcroft-Lyon manuscript, Twain is very interested in
+                the so-called truthful form of letters, and he engages in a conscious manipulation
+                of the form when he writes the manuscript to Howells. His preface to the letter
+                (note that the use of a preface blurs the lines between its being a literary
+                manuscript or a letter) reads:<q rend="block">I have set this history down in the
+                    form of a Letter—a letter to an old &amp; sympathetic friend, a friend of
+                    thirty-five years’ standing, the novelist William Dean Howells. This was to give
+                    me freedom, utter freedom, limitless freedom, liberty to talk right out of my
+                    heart, without reserve. I could not talk like that to the general public, I
+                    could not strip myself naked before company.</q>Here and elsewhere he believes
+                in the ultimate freedom found in letter writing. In 1905, when Twain and Lyon were
+                still close, he spoke to her about the kind of honesty that can only be given in
+                letters, and he added the necessary component of an addressee or an interlocutor to
+                his theory. A recipient, or at least the concept of a recipient, provided Twain with
+                the accepting audience he required in order for his communication to be genuine. In
+                her diary entry for June 2, 1905, Lyon recorded that Twain said the following:<q
+                    rend="block">People think things—know things, but they don’t dare to say things.
+                    If a man pokes his head up over the crowd &amp; dares tell the truth, he has
+                    potatoes hurled at him by people who know that what he says is true. . . . [but]
+                    he never dared to burst out with the things that he could put into a letter—a
+                    letter to a man like Twichell—for Twichell is sympathetic—They wouldn’t be
+                    things you could print, except to weave into a volume of letters. Letters would
+                    be the best kind of biography any way.<ptr target="#note37" xml:id="nr37" n="37"
+                    /></q>Consider this along with the fact that writing a letter is, yes, to
+                (sometimes) correspond with someone else, but it is also a performance for an
+                interlocutor. For, as Bruce Redford has pointed out, the letter is a text feigning a
+                conversation, thus a performance of conversation and rhetoric.<ptr target="#note38"
+                    xml:id="nr38" n="38"/></p>
+            <p>This is key, because more than anything else it is this feigned interaction that
+                attracted Twain to the letter form. Consider what he was doing with his
+                autobiographical dictations; he was performing for and interacting with his
+                different stenographers, whom he prized for their skills as sounding boards for him.
+                (This list includes his first biographer, Albert Bigelow Paine, and the
+                later-accused Isabel Lyon, to whom, before their falling out, he would read aloud
+                sections from the dictations.) Lyon wrote in her 1906 diary, “Mr. Clemens was saying
+                that Mr. Paine and Miss Hobby [the stenographer] make a good audience, and quite
+                enough too.”<ptr target="#note39" xml:id="nr39" n="39"/></p>
+            <p>They provided him with listeners and acted, in a way, as an audience. However, he
+                still found these “audience members” as lacking in certain respects. In the
+                previously quoted April 17 letter to Howells, Twain wrote, “A stenographer is a
+                lecture-audience; you are always conscious of him; he is a restraint . . . you are
+                not talking to yourself; you are not thinking aloud—processes which insure a free
+                &amp; unembarrassed delivery—for that petrified audience person is always there, to
+                block that game.” With the Ashcroft-Lyon manuscript, however, the correspondent
+                (Howells) is not there sitting in front of him, and this fact gives him the best of
+                both worlds, a person he can still perform for in the text (in the form of asides he
+                writes to Howells throughout) but who isn’t there reacting in person and implicitly
+                encouraging Twain to censor himself. Howells, or the concept of Howells, is an
+                audience that will “beguile me into dwelling leisurely &amp; lovingly upon it, &amp;
+                enjoying the taste of it in my mouth” (ibid.).</p>
+            <p>Through the Ashcroft-Lyon “letter,” he gives us a bridge from the traditional letter
+                to that of prose autobiography. Twain’s manuscript does not fit into the parameters
+                that current scholarship attempts to assign to letters: that the sender writes with
+                the thought that the letter will travel through a specific geographical space, and
+                that there is an expectation of privacy with one recipient. Twain has both these
+                characteristics in mind and works toward a hybrid form. First, he takes away the
+                idea of distance and keeps it local, writing to someone who is real but present only
+                in his imagination. Second, there is an expectation of privacy to this letter but
+                not completely: he is not, albeit imaginatively, just corresponding with Howells,
+                because his daughters (Clara and Jean) are also involved in the composition of the
+                manuscript by giving him their accounts of events. It is a collaborative, performing
+                correspondence that he wants to be kept private for the time being, but that he
+                knows one day will be read by others. Consider that his preface to the manuscript is
+                addressed “To the Unborn Reader,” for he thinks that one day the text will be read
+                by a stranger, be it in a court of law or by the general public. Suffice to say,
+                with this statement he is introducing yet another correspondent, an unknown “other”
+                that he is likely also performing to. Therefore, we have a three-layered addressee,
+                similar to his 1874 letter to Livy and Howells.</p>
+            <p>So, to bring us back to where we started, policy: with all of these observations and
+                considerations in mind, the editors of the Ashcroft-Lyon manuscript used plain text because it was the truest option for us
+                to represent this document, but when we make these decisions we are weighing
+                ontological arguments about what form is and how it is considered against the
+                significance of the content. This exercise of editing the Ashcroft-Lyon manuscript
+                helped me to more closely evaluate what a letter is and what it may accomplish in
+                different authors’ hands, and consequently how an editor’s decisions could be
+                affected by these conceptions. Editors will, one hopes, continue to weigh
+                considerations with regard to form, content, and aesthetics when producing editions of
+                letters, whether they be in print or online. Mark Twain as letter writer is only one
+                example of an author producing unorthodox “letters”; therefore, there must be a
+                considered regard in editorial scholarship for how different kinds of letters look
+                and how they are read. One assumes that more options will be available in terms of
+                rendering letters digitally as technology advances, but efforts in this vein should
+                begin with a closer look at what letters accomplish beyond our preconceived
+                notions.</p></div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">Volume 3 is forthcoming in the fall of 2015. All volumes are
+                    published simultaneously in print and online at <ref type="url"
+                        target="http://www.marktwainproject.org/"
+                        >http://www.marktwainproject.org/</ref>. The website also holds
+                    editions of more than 2,000 of Mark Twain’s letters and electronic texts of scholarly
+                    editions of <hi rend="italic">Adventures of Huckleberry Finn</hi> and <hi
+                        rend="italic">Huck Finn and Tom Sawyer among the Indians</hi>, with more
+                    titles forthcoming.</note>
+                <note xml:id="note2">The author’s youngest daughter, Jean Clemens (1880–1909), suffered
+                    from epilepsy most of her adult life. The causes of epilepsy in the late
+                    nineteenth century were often misunderstood and the treatments various, but Jean
+                    had always lived at home under the watchful and loving eye of her mother,
+                    Olivia. When Olivia died in 1904 and Isabel Lyon took over management of the
+                    Clemens household, she eventually convinced Twain that Jean’s welfare was too
+                    much to handle for her and the other servants. In 1906 Jean was sent to live at
+                    a sanitarium and stayed there for fifteen months, after which she moved among
+                    different homes with paid caretakers, including a stay in Berlin under the care
+                    of a specialist. When Jean was not at home, Lyon controlled her communications
+                    with her father, and vice versa, because she wanted to shield Twain from worries
+                    about his daughter. Unfortunately, this resulted in Jean feeling abandoned by
+                    her family and Twain shut out from her affairs. After Lyon was dismissed from
+                    her position, Jean finally returned to her father and lived happily at home with
+                    him in Redding, Connecticut, from April 1909 to Christmas Eve of that year, when
+                    she died from complications related to a seizure (Ashcroft-Lyon manuscript,
+                    45–48, Mark Twain Papers, Bancroft Library, UC Berkeley; Karen Lystra, <hi
+                        rend="italic">Dangerous Intimacy: The Untold Story of Mark Twain’s Final
+                        Years</hi> [Berkeley: University of California Press, 2004], 223).</note>
+                <note xml:id="note3">See Hamlin Hill, <hi rend="italic">Mark Twain: God’s Fool</hi>
+                    (New York: Harper &amp; Row, 1973); Lystra, <hi rend="italic">Dangerous
+                        Intimacy</hi>; Michael Sheldon, <hi rend="italic">Mark Twain: Man in
+                        White</hi> (New York: Random House, 2010); and Laura Skandera Trombley, <hi
+                        rend="italic">Mark Twain’s Other Woman: The Hidden Story of His Final
+                        Years</hi> (New York: Alfred Knopf, 2010).</note>
+                <note xml:id="note4">In letters to friends and family, Twain expressed his
+                    frustration with working with stenographers. Usually his complaints involved a
+                    need to censor himself depending on to whom he dictated (Twain to Jean
+                    Clemens, February 8, 1909, Detroit Public Library; Twain to William Dean
+                    Howells, April 17, 1909, Houghton Library, Harvard University).</note>
+                <note xml:id="note5">See Clara Clemens to Harriet E. Whitmore, August 5, 1910, Mark
+                    Twain Memorial Home, Hartford, CT: “Father left me <hi rend="italic">one</hi>
+                    weapon to use in case they troubled me any more &amp; I used it.—He wrote out a
+                    full description of their entire story of dishonesty which I was to publish if
+                    there was no other way to keep them quiet.” Also, in a preface he wrote for the
+                    manuscript, addressed to the “Unborn Reader,” Twain was explicit as to the
+                    purpose of the manuscript and who should read it: “In your day, a hundred years
+                    hence, this Manuscript will have a distinct value” as documentation of events in
+                    his private life. Until then, he instructs, “this original Manuscript will be
+                    locked up &amp; put away, &amp; no copy of it made. Your eye, after mine, will
+                    be the first to see it.” After Twain’s death, the manuscript was left, along
+                    with the author’s other papers, to his literary executors, Albert Bigelow Paine
+                    and Clara Clemens. For more on the provenance of the document, see “Editorial
+                    Preface” to the Ashcroft-Lyon manuscript in <hi rend="italic">Autobiography of
+                        Mark Twain</hi>, vol. 3, forthcoming.</note>
+                <note xml:id="note6">Harriet Martineau, <hi rend="italic">Life in the Sick Room:
+                        Essays by an Invalid</hi> (London, 1844), 91.</note>
+                <note xml:id="note7">Margaretta Jolly and Liz Stanley, “Letters as/not a Genre,” <hi
+                        rend="italic">Life Writing</hi> 2, no. 2 (2005): 95.</note>
+                <note xml:id="note8">See, for example, David Barton and Nigel Hall, eds., <hi
+                        rend="italic">Letter Writing as a Social Practice</hi> (Amsterdam: John
+                    Benjamins Publishing Co., 2000); William Merrill Decker, <hi rend="italic"
+                        >Epistolary Practices: Letter Writing in America before
+                        Telecommunications</hi> (Chapel Hill: University of North Carolina Press,
+                    1998); James How, <hi rend="italic">Epistolary Spaces</hi> (London: Ashgate,
+                    2003); Sarah Poustie, “Re-Theorising Letters and ‘Letterness,’” Working Papers,
+                    Olive Schreiner Letters Project, 2010, <ref type="url"
+                        target="http://www.oliveschreinerletters.ed.ac.uk/WorkingPaperSeries.html"
+                        >http://www.oliveschreinerletters.ed.ac.uk/WorkingPaperSeries.html</ref>;
+                    Carol Poster, “The Case of the Purloined Letter-Manuals: Archival Issues in
+                    Ancient Epistolary Theory,” <hi rend="italic">Rhetoric Review</hi> 27, no. 1
+                    (2008): 1–19; Liz Stanley, “The Epistolarium: On Theorizing Letters and
+                    Correspondences,” <hi rend="italic">Auto/Biography</hi> 12 (2004):
+                    201–35.</note>
+                <note xml:id="note9">See John A. Walker, “Editing Zola’s Correspondence: When Is a
+                    Letter Not a Letter?” in <hi rend="italic">Editing Correspondence</hi>, ed. J.
+                    A. Dainard (New York: Garland, 1979), 93–112, for an early deliberation on the
+                    challenges editors face when deciding whether drafts of letters and letters
+                    revised for publication should be included in printed editions of
+                    correspondence.</note>
+                <note xml:id="note10">G. Thomas Tanselle, “Literary Editing,” in <hi rend="italic"
+                        >Literary and Historical Editing</hi>, ed. George L. Vogt and John Bush
+                    Jones (Lawrence: University Press of Kansas, 1981), 36.</note>
+                <note xml:id="note11">G. Thomas Tanselle, <hi rend="italic">Textual Criticism Since
+                        Greg: A Chronicle, 1950–2000</hi> (Charlottesville: University of Virginia
+                    Press, 2005), 113.</note>
+                <note xml:id="note12">D. C. Greetham, “Editing the Text: Scholarly Editing,” in <hi
+                        rend="italic">Textual Scholarship: An Introduction</hi> (New York: Garland,
+                    1994), 350–51.</note>
+                <note xml:id="note13">Barton and Hall, <hi rend="italic">Letter Writing</hi>;
+                    Rebecca Earle, ed., <hi rend="italic">Epistolary Selves: Letters and
+                        Letter-Writers, 1600–1945</hi> (London: Ashgate, 1999); Poustie,
+                    “Re-Theorising Letters”; Jolly and Stanley, “Letters as/not a Genre.”</note>
+                <note xml:id="note14">Poustie, “Re-Theorising Letters,” 15.</note>
+                <note xml:id="note15">This holds true for transcriptions in print as well as digital
+                    editions; however, complicated typographical symbols can potentially be rendered
+                    in more advanced ways on a digital screen than on the printed page if a very
+                    literal transcription is intended.</note>
+                <note xml:id="note16">See How, <hi rend="italic">Epistolary Spaces</hi>, and Jolly
+                    and Stanley, “Letters as/not a Genre,” 91–118.</note>
+                <note xml:id="note17">Barton and Hall, <hi rend="italic">Letter Writing</hi>,
+                    1.</note>
+                <note xml:id="note18">Robert Stephen Becker, “Challenges in Editing Modern Literary
+                    Correspondences,” <hi rend="italic">Text</hi> 1 (1984): 257–70, is an analysis
+                    of a useful but limited (in scope) survey of forty-seven letters editions
+                    published after 1900.</note>
+                <note xml:id="note19">Decker, <hi rend="italic">Epistolary Practices</hi>, 6.</note>
+                <note xml:id="note20">See, for example, the picture of the field that Robert
+                    Halsband presents in “Editing the Letters of Letter-Writers,” in <hi
+                        rend="italic">Art and Error: Modern Textual Editing</hi>, ed. Ronald
+                    Gottesman and Scott Bennett (Bloomington: University of Indiana Press, 1970),
+                    124–39.</note>
+                <note xml:id="note21">A similar aesthetic experience may or may not be replicated on
+                    a computer screen, depending on when a digital edition was made and the design
+                    of the website. Early digital editions and archives of letters sometimes did
+                    display the letter texts one after another in one long frame. Other sites often
+                    link to letter texts from index-like entries.</note>
+                <note xml:id="note22">Becker, “Challenges,” 266.</note>
+                <note xml:id="note23">Mark Storey, “‘Creeping into Print’: Editing the Letters of
+                    John Clare,” in <hi rend="italic">The Theory and Practice of Text-Editing</hi>,
+                    ed. Ian Small and Marcus Walsh (Cambridge: Cambridge University Press, 1991),
+                    67–68.</note>
+                <note xml:id="note24">Halsband, “Editing the Letters,” 125.</note>
+                <note xml:id="note25">For a complete explanation of the editorial policy used and
+                    the critical text established, see <ref type="url"
+                        target="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;chunk.id=bm0019;style=work;brand=mtp"
+                        >http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;chunk.id=bm0019;style=work;brand=mtp</ref>,
+                    or in print, Harriet Elinor Smith et al., eds., <hi rend="italic">Autobiography
+                        of Mark Twain</hi> (Berkeley: University of California Press, 2010),
+                    1:669–79.</note>
+                <note xml:id="note26">For a detailed review of Twain’s intentions for publication
+                    and the publication history of the autobiographical dictations, see <hi
+                        rend="italic">Autobiography of Mark Twain</hi>, 1:1–4: <ref type="url"
+                        target="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;chunk.id=fm0100;toc.depth=1;toc.id=fr0011;citations=;style=work;brand=mtp#X"
+                        >http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;chunk.id=fm0100;toc.depth=1;toc.id=fr0011;citations=;style=work;brand=mtp#X</ref>.</note>
+                <note xml:id="note27">Incidentally, when the Ashcroft-Lyon manuscript was first
+                    discovered in private hands in the late 1960s, it was often referred to in news
+                    articles as a “long letter” to William Dean Howells and titled as such (“Newly
+                    Found Mark Twain Letter Accuses Business Aide of Theft,” <hi rend="italic">New
+                        York Times</hi>, June 25, 1970, 1). That stopped being a common title for
+                    it, however, and the current “Ashcroft-Lyon manuscript” was assigned to it out
+                    of necessity once scholars understood the events it concerned. The title given
+                    to an unpublished document is telling in this instance because once it is termed
+                    a “manuscript” instead of just a “letter,” a reader may understand this to mean
+                    something lengthy, rare, beautiful, and literary. These are not words
+                    immediately impressed upon us when we think of a “letter.” Of course this is
+                    wrong, as many manuscripts are not beautiful and literary, and many letters are,
+                    but there is an unconscious assigning of meaning and significance given by a
+                    title chosen for an unpublished work.</note>
+                <note xml:id="note28">Harriet Elinor Smith, Richard Bucci, and Lin Salamo, eds., <hi
+                        rend="italic">Mark Twain’s Letters</hi> (Berkeley: University of California
+                    Press, 2002), 6; see "Guide to Editorial Practice," by Robert H. Hirst, p. 698.</note>
+                <note xml:id="note29">One example of where we had to veer from plain text practice
+                    was with marginal notes that Twain wrote on a handful of pages of the
+                    manuscript. These notes did not constitute new content, but rather were words,
+                    such as “carnelian beads,” that served as reminders Twain wrote to himself to
+                    cover that topic in the manuscript, which he always did. In plain text these
+                    would have to be transcribed diplomatically where they fell on the page.
+                    However, such placement would have been difficult in this case because these
+                    notes are not attached “by sense” to any word or sentence on the page, because
+                    he might cover that topic of “carnelian beads” two or three pages later. In this
+                    way these marginal notes differed from those that an author writes as an
+                    elaboration or annotation to the text on a page. Therefore, we opted to take
+                    these notes out of the main text and place them in the apparatus with an
+                    explanation.</note>
+                <note xml:id="note30">Twain to William Dean Howells, April 17, 1909, Houghton
+                    Library, Harvard University.</note>
+                <note xml:id="note31">Twain to Clara Clemens, March 6, 1910, Special Collections,
+                    University of Virginia Library.</note>
+                <note xml:id="note32">His mischaracterization of Lyon as being a seductress is one
+                    of the more egregious, but other examples include his version of events leading
+                    to daughter Jean’s tenure in sanitariums, and false statements as to whether
+                    Ralph Ashcroft was a paid employee of his. See Lystra, <hi rend="italic"
+                        >Dangerous Intimacy</hi>, for more on the events surrounding the writing of
+                    the manuscript and the lives of Isabel Lyon and Ralph Ashcroft.</note>
+                <note xml:id="note33">Twain to William Dean Howells, November 20, 1874 (<hi
+                        rend="italic">Mark Twain’s Letters</hi>, 6:289–92).</note>
+                <note xml:id="note34">The idea of “mental telegraphy” is one that continued to
+                    fascinate Twain for years afterward. See “Mental Telegraphy. A Manuscript with
+                    a History,” <hi rend="italic">Harper's</hi> 84 (December 1891): 95–104, and a
+                    lecture he gave to the Saturday Morning Club (Boston) on April 15, 1882
+                    (“Minutes,” Saturday Morning Club, Boston, April 15, 1882, Schlesinger Library
+                    Special Collections, Radcliffe College, Harvard University).</note>
+                <note xml:id="note35">William Dean Howells to Mark Twain, November 23, 1874,
+                    photocopy in Mark Twain Papers, Bancroft Library, UC Berkeley.</note>
+                <note xml:id="note36">Mark Twain Papers, Bancroft Library, UC Berkeley.</note>
+                <note xml:id="note37">Isabel Lyon’s diary is held in the Mark Twain Papers,
+                    Bancroft Library, UC Berkeley.</note>
+                <note xml:id="note38">Bruce Redford, <hi rend="italic">The Converse of the Pen</hi>
+                    (Chicago: University of Chicago Press, 1986).</note>
+                <note xml:id="note39">Isabel Lyon’s diary, entry for February 12, 1906.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

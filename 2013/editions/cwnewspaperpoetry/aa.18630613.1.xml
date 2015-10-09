@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630613.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Slave-Martyr</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630613.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#ewb">E. W. Brown</author>
+                        <title level="a">The Slave-Martyr</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-06-13">13 June 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="ewb">Brown, Elizabeth Whitney</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                    <term>Washington (N.C.)--History--Siege, 1863</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-04" who="#el">removed child paragraph from authorial note</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-16" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-23" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-18" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630613.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18630613.pp1_cropped.jpg"/>
+            </zone>  
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630613.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630613.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630613.pp4.jpg"/>    
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        
+        <body> 
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">From The American Baptist.<note type="editorial" resp="#bw #el"><p>The weekly organ of the American Baptist Free Mission Society, based in Utica, New York. Both the Free Mission Society (est. 1843) and the <title level="j">American Baptist</title> claimed to be "intensely abolitionist" (E. W. Brown, <title level="m">The Whole World Kin: A Pioneer Experience Among Remote Tribes, and Other Labors of Nathan Brown</title> [Philadelphia: Hubbard, 1890], 456). The <title level="j">National Era</title> of April 28, 1853, advertised the <title level="j">American Baptist</title> as "the only Baptist newspaper in the United States advocating the principle of non-fellowship with slaveholders, either in ecclesiastical or in voluntary missionary organizations" ([3]). The Reverend Wareham Walker served as the title's editor from 1852? to 1857. Nathan Brown, newly recovered from two decades of missionary work in Burma and Assam, took over the editorship and continued in the post until 1872.</p><p>Brown's wartime unionism was thoroughly informed by his conviction of national sin: "We look upon the union as one and indivisible; a nation raised up by Providence, and bound together in its material interests by the natural configuration of the country. We are also linked together in responsibility for the guilty system of slavery, and together we must work out the problem of its extinction" (editorial, November 1862, quoted in Brown, 462). In late December, on the eve of the Emancipation Proclamation, Brown accompanied George Cheever and William Goodell to the White House to present Lincoln with a memorial requesting a stronger statement against slavery (464). Brown rejoiced on finding that the final proclamation referred to emancipation as "an act of justice": "it writes the name of ABRAHAM LINCOLN among the stars" (474).</p></note></note>
+                
+                <head type="main" subtype="authorial" rend="center">THE SLAVE-MARTYR.<note type="editorial" resp="#bw #el">This poem also appeared in the <title level="j">National Anti-Slavery Standard</title> of <ref target="nas.18630704.4b">July 4, 1863</ref>. There are several small differences between the <title level="j">Anglo-African</title> and <title level="j">National Anti-Slavery Standard</title> versions of the poem. In line 1, the <title level="j">Anglo-African</title> text reads "ricochetting," while the <title level="j">Standard</title> text reads "ricocheting"; in line 5, the <title level="j">Anglo-African</title> reads "far," and the <title level="j">Standard</title> "for"; in line 27, the <title level="j">Anglo-African</title> offers "God-like," with the <title level="j">Standard</title> text reading "Godlike." There are several differences in punctuation as well, in lines 10, 17, and 25.</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY E. W. BROWN.<note type="editorial" resp="#bw #el">Probably Elizabeth Whitney Brown (daughter of Nathan and Eliza, born in 1838). Census records for 1860 and 1870 suggest that the family lived together in Jersey City during the war.</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <note type="authorial">[During the siege of Washington, N. C.,<note type="editorial" resp="#bw #el"><p>A town at the juncture of the Tar and Pamlico Rivers, north of New Bern, North Carolina. Union troops under General Ambrose Burnside's command occupied Washington in March 1862, as part of a larger operation against important coastal locations. In March 1863 General Daniel Hill's Confederate forces attempted to retake Washington by breaking the garrison's supply lines; by the end of March, the Union garrison was effectively under siege (John G. Barrett, <title level="m">The Civil War in North Carolina</title> [Chapel Hill: University of North Carolina Press, 1963], 156). The stalemate was broken in mid-April, when the steamer <name type="ship">Escort</name> ran Confederate batteries to deliver reinforcements and supplies. The <name type="ship">Escort</name> left Washington with department commander John Forster, but the siege was abandoned before he could return with more men.</p><p>Like other occupied towns in the region, Washington attracted a population of former slaves from the surrounding areas. Vincent Colyer, former superintendent of the poor in the Department of North Carolina, estimated that there were 1,500 freedpeople at Washington, Hatteras, Carolina, and Beaufort in mid 1862 (<title level="m">Freedom: A Documentary History of Emancipation 1861&#8211;1867</title>, ed. Ira Berlin, et al. [Cambridge: Cambridge University Press, 1990], series 1, 2:123).</p></note> a flat <lb/>full of soldiers, with a few negroes, got aground <lb/>under rebel fire. A heroic African said, "<choice><orig>Some-<lb/>body's</orig><reg>Somebody's</reg></choice> got to die to get us out of this, and it <lb/>may as well be me!" He then deliberately got <lb/>out and pushed the boat off, and fell into it, <lb/>pierced by five bullets.]</note>
+                
+                
+                <lg type="stanza">
+                    <l>The surf with <choice><orig>ricochetting</orig><reg>ricocheting</reg></choice> balls</l>
+                    <l rend="indented1">Was churned and splashed around us;</l>
+                    <l>I heard my comrades' hurried calls,</l>
+                    <l rend="indented1">"The rebel guns have found us."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Our vessel shivered; far beneath</l>
+                    <l rend="indented1">The treacherous sand had caught her;</l>
+                    <l>What man will leap to instant death</l>
+                    <l rend="indented1">To shove her into water?</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Strange light shone in our hero's eye;</l>
+                    <l rend="indented1">His voice was strong and steady<unclear reason="illegible" cert="low" resp="#kt">:</unclear></l>
+                    <l>"My brothers, one of us must die,</l>
+                    <l rend="indented1">And I, thank God! am ready."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>A shell flew toward us, hissing hate,</l>
+                    <l rend="indented1">Then screaming like a demon;</l>
+                    <l>He calmly faced the awful fate,</l>
+                    <l rend="indented1">Resolved to die a freeman!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>He fell, his heart cut through with shot.</l>
+                    <l rend="indented1">The true blood of that martyr</l>
+                    <l>Out from his body spurted hot,</l>
+                    <l rend="indented1">To flee the shame of barter.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>We lifted up the brave man's <choice><orig>corse</orig><reg>corpse</reg></choice>;</l>
+                    <l rend="indented1">We thought him fair and saintly;</l>
+                    <l>The rebel bullets round us hoarse</l>
+                    <l rend="indented1">We heard, but dull and faintly.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>'Tis ever so: a great deed wrought,</l>
+                    <l rend="indented1">The doer falls that moment,</l>
+                    <l>As if to save the God-like thought</l>
+                    <l rend="indented1">From any human comment.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Heroes are dead men by that fact;</l>
+                    <l rend="indented1">Fame haunts our grave-yards, sighing,</l>
+                    <l>"Alas! that man's divinest act</l>
+                    <l rend="indented1">Should be the act of dying."</l>
+                </lg>
+            </lg>
+            
+        </body>
+        
+    </text>
+</TEI>
+

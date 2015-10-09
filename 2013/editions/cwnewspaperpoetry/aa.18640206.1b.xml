@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640206.1b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Union</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640206.1b</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jrj">J. R., Jr.</author>
+                        <title level="a">The Union</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-06">6 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jrj">Randolph, John, Jr.</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>United States--History--Civil War, 1861-1865--Songs and music</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-02-05" who="#el">corrected values of @url on graphic element</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-14" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640206.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18640206.pp1b_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640206.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640206.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640206.pp4.jpg"/>            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        <body>
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>                
+                
+                <head type="main" subtype="authorial" rend="center">THE UNION.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY J. R., JR.<note type="editorial" resp="#bw #el"><p>John Randolph, Jr. (1827&#8211;1890?). Randolph was born into slavery near Washington, North Carolina; freedom arrived with the Union Army (David S. Cecelski, <title level="m">The Fire of Freedom: Abraham Galloway and the Slaves' Civil War</title> [Chapel Hill: University of North Carolina Press, 2012], 74, 245 n46). Sidney Andrews described him as "a carpenter by trade and teacher by profession, radical in desire, but conservative in action, longing for much, but content to make haste slowly" (Andrews, <title level="m">The South since the War: As Shown by Fourteen Weeks of Travel and Observation in Georgia and the Carolinas</title> [Boston: Ticknor and Fields, 1866], 125). He worked closely with Abraham Galloway and other black activists in the region.</p><p>One of New Bern's political leaders, Randolph was elected secretary of the State Equal Rights League in 1865 (<title level="m">Minutes of the Freedmen's Convention, Held in the City of Raleigh</title> [Raleigh, NC: Standard Book and Job Office, 1866], 20). In October 1866 circumstances prevented Randolph from attending the convention&#8212;and the league's first annual meeting&#8212;but he wrote a letter urging delegates to discuss the education, political rights, and "laboring interests" of "our people" (20). He advised his associates to "show yourselves 'as harmless as doves, but as wise as serpents,' to the end that we all may be benefitted, and peace and good-will prevail" (20).</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <note type="authorial" rend="center">Air&#8212;"<emph rend="italic">Life let us cherish.</emph>"<note type="editorial" resp="#bw #el">A popular tune, which some publishers attributed to Mozart. It circulated in the United States throughout the first half of the nineteenth century.</note></note>
+                
+                
+                <lg type="stanza"> 
+                    <l><emph rend="smallcaps">There's</emph> union of waters and union of lands&#8212;</l>
+                    <l>There's union of hearts and there's union of hands&#8212;</l>
+                    <l>There's union in heaven, there's union on earth,</l>
+                    <l>This glorious union that gave us our birth.</l>
+                </lg>
+                
+                
+                <lg type="chorus">
+                    <l rend="indented1"><emph rend="italic">Chorus</emph>&#8212;Sing, Hallelujah!</l>
+                    <l rend="indented2">There's union below and there's union above,</l>
+                    <l rend="indented5">Sing, Hallelujah!</l>
+                    <l rend="indented2">The Union, the Union we love.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The American Union, at home and abroad,</l>
+                    <l>Respected and honored, beloved and adored;</l>
+                    <l>Though severed by traitors, 'tis only to be</l>
+                    <l>United more truly, the land of the free.</l>
+                </lg>
+                
+                
+                <lg type="chorus">
+                    <l rend="indented1"><emph rend="italic">Chorus</emph>&#8212;Sing, Hallelujah, etc.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The night of war seems dark and long,</l>
+                    <l>And enemies standing thick and strong,</l>
+                    <l>But Union men, ye cannot fail,</l>
+                    <l>Your cause is just, and must prevail.</l>
+                </lg>
+                
+                
+                <lg type="chorus">
+                    <l rend="indented1"><emph rend="italic">Chorus</emph>&#8212;Sing, Hallelujah! etc.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then grasp your arms, men, for the fight;</l>
+                    <l>Strike for your freedom and the right;</l>
+                    <l>The Union&#8212;let your motto be;</l>
+                    <l>Your watchword&#8212;Justice, Liberty.</l>
+                </lg>
+                
+                <lg type="chorus">
+                    <l rend="indented1"><emph rend="italic">Chorus</emph>&#8212;Sing, Hallelujah! etc.</l>
+                </lg>
+            </lg>
+            
+            <dateline>Washington, N. C.,<note type="editorial" resp="#bw #el"><p>A Union-occupied town on the Pamlico River, north of New Bern, North Carolina. General Ambrose Burnside seized Washington in March 1862 as part of a larger operation against important coastal locations. Like other occupied towns, Washington attracted a population of freedpeople from the surrounding areas. Vincent Colyer, former superintendent of the poor in the Department of North Carolina, estimated that there were 1,500 freedpeople at Washington, Hatteras, Carolina, and Beaufort in mid-1862 (<title level="m">Freedom: A Documentary History of Emancipation 1861&#8211;1867</title>, ed. Ira Berlin, et al. [Cambridge: Cambridge University Press, 1990], series 1, 2:123).</p><p>It is important to note that <title level="j">Anglo-African</title> editor Robert Hamilton was at this time touring the occupied South (while his brother Thomas managed the paper). Hamilton left New York on September  17, 1863, and moved to Norfolk, Virginia, after spending two months in the region of Washington, D.C Between mid-November 1863 and late January 1864, he visited civilian communities and military camps in Virginia and North Carolina, and sent regular letters back to the <title level="j">Anglo-African</title>. New Year's Eve saw him at New Bern, North Carolina (<title level="j">Anglo-African</title>, January 16, 1864, [1]).</p><p>Hamilton probably met John Randolph, Jr. when he visited Washington in December 1863 (<title level="j">Anglo-African</title>, January 16, 1864, [1&#8211;2]). He certainly spent time with Randolph's colleague Abraham H. Galloway. <title level="j">Anglo-African</title> readers who did not recognize Randolph could use "Washington, N.C." to situate the text as a variety of "Southern correspondence"&#8212;all of which furthered Hamilton's aim to unite African Americans north and south via the <title level="j">Anglo-African</title>. As Debra Jackson has argued, Hamilton worked to establish his newspaper as "a critical conduit linking the free people of the North to the freemen and freedpeople of the Union-occupied areas of the Upper South during a revolutionary moment in time" (Debra Jackson, "A Black Journalist in Civil War Virginia: Robert Hamilton and the Anglo-African," <title level="j">Virginia Magazine of History and Biography</title> 116 [2008]: 66).</p></note> Jan., 1864.</dateline>
+        </body>
+    </text>
+</TEI>
+

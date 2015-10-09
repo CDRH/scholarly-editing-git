@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18650121.2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Mother's Blessing</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18650121.2</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#fewh">Frances E. W. Harper</author>
+                        <title level="a">The Mother's Blessing</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1865-01-21">21 January 1865</date>                    
+                        </imprint>
+                        <biblScope type="pp">[2]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="fewh">Harper, Frances Ellen Watkins, 1825-1911</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1865">1865</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                    <term>United States--History--Civil War, 1861-1865--Women</term>                    
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-12-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-07" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-06-15" who="#el">checked transcription; encoded</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18650121.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18650121.pp2.jpg"/>
+            <zone xml:id="pp2_cropped"  corresp="#poem">
+                <graphic url="aa.18650121.pp2_cropped.jpg"/>
+            </zone>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18650121.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18650121.pp4.jpg"/>         
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp2_cropped">
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">THE MOTHER'S BLESSING.</head>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Oh</emph>! my heart had grown so weary,</l>
+                    <l>With its many cares opprest;</l>
+                    <l>All my soul's high aspirations,</l>
+                    <l>Languished in a prayer for rest.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>I was like a lonely stranger,</l>
+                    <l>Pining in a distant land;</l>
+                    <l>Bearing on his lips a language,</l>
+                    <l>None around him understand.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Longing for a close communion,</l>
+                    <l>With some kindred mind and heart;</l>
+                    <l>But whose language is a jargon,</l>
+                    <l>Past his skill and past his art.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>God in mercy looked upon me,</l>
+                    <l>Saw my fainting, pain and strife;</l>
+                    <l>Sent to me a blest evangel,</l>
+                    <l>Through the gates of light and life.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then my desert leafed and blossomed,</l>
+                    <l>Beauty decked its deepest wild;</l>
+                    <l>Hope, and joy, peace and blessing</l>
+                    <l>Met me in my firstborn child.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>When the tiny hands so feeble,</l>
+                    <l>Brought me smiles and joyful tears;</l>
+                    <l>Lifted from my life the shadows,</l>
+                    <l>That had gathered there for years.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>God! I thank thee for the blessing,</l>
+                    <l>That at last has crowned my life;</l>
+                    <l>Soothed its weary lonely anguish,</l>
+                    <l>Stayed its fainting, calmed its strife.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Gracious Parent! shield and shelter</l>
+                    <l>In thine arms my darling child,</l>
+                    <l>Till she treads the streets of jasper,</l>
+                    <l>Spotless, pure and undefiled.</l>
+                </lg>
+            </lg>
+            
+            
+            <byline rend="right"><emph rend="smallcaps">Frances E. W. Harper.</emph><note type="editorial" resp="#bw #el"><p>Frances Ellen Watkins Harper (1825&#8211;1911), activist, orator, and writer. Born Frances Ellen Watkins in Baltimore, Maryland, Harper was raised by her aunt and schoolmaster uncle after the death of her parents. She received a rigorous education at the Reverend William Watkins's Academy for Negro Youth and took part in antislavery activities with his family. In her midtwenties, she taught in Ohio and Pennsylvania. She pledged herself to the antislavery movement in response to the death of a free black man whom Maryland authorities had arrested and sent into slavery for the crime of entering the state. In 1854, she began to lecture for the Maine Anti-Slavery Society. Her <title level="m">Poems of Miscellaneous Subjects</title> appeared in the same year (the first of ten volumes of poetry published between 1854 and 1901). In November 1859 she championed militant abolitionist John Brown as "the hero of the nineteenth century" (William Still, <title level="m">The Underground Rail Road</title> [Philadelphia: Porter and Coates, 1872], 762).</p><p>Harper continued to lecture with great success until late 1860, when she married Fenton Harper, a widower with three children. The family moved to a farm in Grove City, Ohio, where Harper managed their domestic life and wrote for the antislavery press. The <title level="j">Christian Recorder</title> of September 27, 1862, printed her criticisms of Lincoln in late September 1862: "The President's dabbling with Colonization just now, suggests to my mind the idea of a man almost dying with a loathsome cancer, and busying himself about having his hair trimmed according to the latest fashion." The Emancipation Proclamation raised her hopes, and she returned to the platform to speak on "the President's Proclamation." "I know that all is not accomplished," she told William Still, "but we may rejoice in what has been already wrought,&#8212;the wondrous change in so short a time" (766). Her poems appeared in the <title level="j">Anglo-African</title>, the <title level="j">Free Nation</title>, and other newspapers. As "a form of public speech addressed to concrete, empirically identifiable others" (Paula Bernat Bennett, <title level="m">Poets in the Public Sphere: The Emancipatory Project of American Women's Poetry, 1800&#8212;1900</title> [Princeton, NJ: Princeton University Press, 2003], 5), these pieces represent a continuation of her mission as a lecturer. The newspaper served as another platform.</p><p>Fenton Harper's death precipitated a financial crisis in May 1864: the contents of the family home were seized by creditors. Harper returned to the lecture circuit and "turned her attention to Reconstruction, temperance, education, moral reform, and women's rights" (Shirley Wilson Logan, <title level="m">'We Are Coming': The Persuasive Discourse of Nineteenth-Century Black Women</title> [Carbondale: Southern Illinois University Press, 1999], 48). She and Edmonia Highgate were the only women to address the National Convention of Colored Men in the fall of 1864. After the war, she lectured throughout the South. Her first serialized novel, <title level="m">Minnie's Sacrifice</title>, appeared in 1869. After the publication of <title level="m">Iola Leroy; or, Shadows Uplifted</title> (1892), she helped found the National Association of Colored Women (1896).</p></note></byline>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+

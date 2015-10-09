@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640409.4b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Our Work</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640409.4b</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#aclw">Anna C. L. Waterston</author>
+                        <title level="a">Our Work</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-04-09">9 April 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This edition of the newspaper and poem is a facsimile edition. No transcription of the original text is provided.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="aclw">Waterston, Anna Cabot Lowell Quincy, 1812-1899</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-28" who="#el">added and encoded editorial notes</change>
+            <change when="2012-10-28" who="#el">transcribed, encoded</change>
+            <change when="2012-09-04" who="#el">checked metadata and encoding</change>
+            <change when="2012-09-03" who="#el">created</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640409.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640409.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640409.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640409.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped" corresp="#poem">
+                <graphic url="aa.18640409.pp4b_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">OUR WORK.<note type="editorial" resp="#bw #el">"Our Work" also appeared in the <title level="j">National Anti-Slavery Standard</title> of April 2, 1864. The <title level="j">Anglo-African</title> appears to have reprinted the poem form the <title level="j">Standard</title>, as the texts of the poem in both printings are identical, including the typographical error "Commisston" in the note that precedes the poem.</note></head>
+                
+                <note type="newspaper-editorial">[At the late Fair held at Boston for the benefit of the <choice><orig>San-<lb/>itary</orig><reg>Sanitary</reg></choice> <choice><sic>Commisston</sic><corr>Commission</corr></choice>,<note type="editorial" resp="#bw #el"><p>Boston's "Great Fair" (December 14&#8211;21, 1863) was one of several huge fairs held in cities across the North and West, including Baltimore, Chicago, Cincinnati, New York, Philadelphia, Pittsburgh, and St. Louis, to raise funds for the relief work of the United States Sanitary Commission (<title level="j">Boston Evening Transcript</title>, December 11, 1863, [3]). The <title level="j">Boston Evening Transcript</title> remarked that "the whole population of the State seemed to have emptied itself into the metropolis for the purpose of patronizing the Fair" (December 18, 1863, [5]). According to the paper, "For many months, hundreds of patriotic women, scattered throughout New England, have labored in the preparation of articles for this grand sale." Visitors could enjoy tables loaded with a rich variety of items for sale, as well as exhibitions, games, and music. Battle flags and arms were displayed in the Music Hall, and a Sanitary Commission tent dominated the center of the Hall's platform. The Boston Athenaeum housed a large exhibition of painting and sculpture, while Allston Hall hosted tableaux. The fair raised more than one hundred thousand dollars during its week-long run (<title level="j">Boston Evening Transcript</title>, December 22, 1863, [2]).</p><p>The United States Sanitary Commission was established under government authority on June 9, 1861. A vast multilevel civilian organization, it managed the systematic collection of supplies from local soldiers' aid societies and oversaw their effective distribution in Union camps and hospitals and on battlefields ([Charles Brandon Boynton?], <title level="m">History of the Great Western Sanitary Fair</title> [Cincinnati: Vent, 1864], xvi). The commission also supported the Medical Bureau with information and "modest counsel." So-called branches formed the vital link between the commission and hundreds of local societies in a particular region. At central depots, managers oversaw the collection of contributions in kind as well as the purchase of supplies with money from appeals and fairs, and forwarded stocks at the direction of the sanitary commission. Women played a crucial role in the relief effort at the grassroots and branch levels. (See Judith Ann Giesberg, <title level="m">Civil War Sisterhood: The U.S. Sanitary Commission and Women's Politics in Transition</title> [Boston: Northeastern University Press, 2000].)</p></note> the proceeds of which, after paying its <lb/>expenses, amounted to a hundred and forty thousand <choice><orig>dol-<lb/>lars</orig><reg>dollars</reg></choice>, the following touching lines by Mrs. <emph rend="smallcaps">Anna C. L.</emph> <lb/><emph rend="smallcaps">Waterston</emph><note type="editorial" resp="#bw #el"><p>Anna Cabot Lowell Quincy Waterston (1812&#8211;1899). Born to a distinguished New England family, her father was Josiah Quincy, US congressman, mayor of Boston, and president of Harvard University. Her mother was Eliza Susan Morton Quincy. Anna had a very limited formal education, although she was educated at home under the guidance of her mother. An abolitionist, she married Unitarian minister Robert Cassie Waterston in 1840. The couple had two children, neither of whom survived to adulthood. She published both poetry and prose in the 1860s, including the volume <title level="m">Verses</title> (Boston: John Wilson and Son) and pieces in the prestigious <title level="j">Atlantic Monthly</title>. In the early 1870s she was a founding member of the Women's Education Association. For these details and others, see Beverly Wilson Palmer, ed., <title level="m">A Woman's Wit and Whimsy: The 1833 Diary of Anna Cabot Lowell Quincy</title> (Boston: Northeastern University Press, 2003), 3&#8211;14.</p><p>Waterston's "Our Work" appeared in the <title level="j">Boston Evening Transcript</title>'s Fair "Supplement" (December 18, 1863, [6]). Here, the poem's introduction did not identify Waterston by name: "The following poem was contributed to the Fair by a lady of this city, whose verses are widely copied whenever anything from her pen appears in print. Copies beautifully printed can be obtained at Table No. 10 at the Music Hall."</p></note> were laid on the counters and purchased by the <lb/>visitors as a memorial of the occasion:]</note>
+                
+                <lg type="stanza"> 
+                    <l><emph rend="smallcaps">On</emph> the wide battle-field,</l>
+                    <l rend="indented1">Or close to its edge,</l>
+                    <l>Stand we with tent-cloth,</l>
+                    <l rend="indented1">Cordage and wedge;</l>
+                    <l>Lift up the canvas;</l>
+                    <l rend="indented1">Shake out the straw;</l>
+                    <l>Have ready the cordials;</l>
+                    <l rend="indented1">Cooling draughts draw.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Bear in the wounded;</l>
+                    <l rend="indented1">Bend gently down:</l>
+                    <l>(Some mother's sons they are&#8212;</l>
+                    <l rend="indented1">This day our own.)</l>
+                    <l>Woman with soft touch</l>
+                    <l rend="indented1">Bathe this young brow;</l>
+                    <l>You with the strong arm</l>
+                    <l rend="indented1">Raise that soldier now.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>A cup of cold water</l>
+                    <l rend="indented1">For him wounded sore<unclear resp="#el" reason="illegible" cert="high">:</unclear></l>
+                    <l>He asks if a brother</l>
+                    <l rend="indented1">Needs it not more.</l>
+                    <l>Look! on this dark skin</l>
+                    <l rend="indented1">Grim slave-scars are found,</l>
+                    <l>Where blood rushes red</l>
+                    <l rend="indented1">From the freedman's deep wound.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Few words are spoken&#8212;</l>
+                    <l rend="indented1">We bandage and feed</l>
+                    <l>Our soldiers and prisoners</l>
+                    <l rend="indented1">In perilous need,</l>
+                    <l>Comfort and light throw</l>
+                    <l rend="indented1">Over Death's passage,</l>
+                    <l>And for beloved ones</l>
+                    <l rend="indented1">Receive the last message.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Pale lips have uttered</l>
+                    <l rend="indented1">Thanks for our care;</l>
+                    <l>Seldom a groan is heard;</l>
+                    <l rend="indented1">Oft whispered prayer;</l>
+                    <l>God and man aid us</l>
+                    <l rend="indented1">In work to be done,</l>
+                    <l>Till, through the struggle,</l>
+                    <l rend="indented1">Freedom is won.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+    
+</TEI>

@@ -1,0 +1,20 @@
+# ignore omeka projects
+rossetti/
+2013/editions/sunsetwings/map/
+
+# just in case an omeka project slips through my fingers, ignore the db file
+*/db.ini
+
+# ignore xsl config file
+*/config.xsl
+
+# ignore all images except those inside the images directory
+*.jpg
+*.JPG
+*.tif
+*.TIF
+*.tiff
+*.gif
+*.png
+!images/*
+

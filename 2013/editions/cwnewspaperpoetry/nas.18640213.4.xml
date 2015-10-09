@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640213.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Bradley Clay</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640213.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#ega">Lieut. Enoch G. Adams</author>
+                        <title level="a">Bradley Clay</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-13">13 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="ega">Adams, Enoch George, 1829-1900</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Military life.</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-15" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-13" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-11" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked transcription</change>
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640213.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640213.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640213.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640213.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18640213.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE <choice><sic>ANTI SLAVERY</sic><corr>ANTI-SLAVERY</corr></choice> STANDARD.</note>
+                
+                <head type="main" subtype="authorial" rend="center">BRADLEY CLAY.<note type="editorial" resp="#bw #el"><p>Eighteen year-old Bradley Clay enlisted in the Second New Hampshire Regiment on May 10, 1861, and was officially mustered into the US Army less than four weeks later, on June 1. Census data for 1850 suggest that he was the eldest son of a Merrimack County farmer.</p><p>On June 20, 1861, the New Hampshire volunteers moved south to Washington, DC, where they settled into Camp Sullivan. The regiment took part in the battle of Bull Run on July 21, and suffered casualties. Enoch Adams reported at least six men missing from Clay's company (Duane E. Shaffer, <title level="m">Men of Granite: New Hampshire's Soldiers in the Civil War</title> [Columbia: University of South Carolina Press, 2008], 36). Clay died on October 6, 1861, while the regiment manned Washington defenses at Bladensburg, Maryland. He may have succumbed to wounds or to one of the several diseases that were a deadly, everyday feature of army life.</p></note></head>
+                
+                <head type="sub" subtype="authorial"><emph rend="italic">(The first soldier that died in Company D.)</emph></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">By Lieut. <emph rend="smallcaps">Enoch G. Adams</emph>, Co. D., 2d N. H. Regt.<note type="editorial" resp="#el #bw"><p>Like Bradley Clay, Enoch George Adams (1829&#8211;1900) enlisted as a private in the Second New Hampshire Regiment's Company D. In a letter to his mother dated November 26, 1861, Adams "credited himself, as a Union soldier, with loosening 'every fetter from the trembling slave'" (David A. Cecere, "Carrying the Home Front to War: Soldiers, Race, and New England Culture during the Civil War," in <title level="m">Union Soldiers and the Northern Home Front: Wartime Experiences, Postwar Adjustments</title> [New York: Fordham University Press, 2002], 299). If the phrase hints that Adams was prone to self-aggrandizement, it also provides evidence of his antislavery sympathies. This early commitment to a war of emancipation is less surprising, given that Adams's family was "the New Hampshire branch of the illustrious Massachusetts Adamses" (Cecere, 306).</p><p>Days before Bradley Clay's death, Adams was promoted to the rank of sergeant. He was wounded in the neck at the Battle of Williamsburg (May 5, 1862) and returned home to recover. Adams rejoined his regiment in September as second lieutenant (Duane E. Shaffer, <title level="m">Men of Granite: New Hampshire's Soldiers in the Civil War</title> [Columbia: University of South Carolina Press, 2008], 62). He survived the regiment's subsequent engagements and was mustered out in early May 1864. He rejoined the army in the winter of 1864 and served at bleak Fort Rice in Dakota Territory.</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">When</emph> the daylight died away,</l>
+                    <l>Died the life of Bradley Clay.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>When the moon climbed up the hill,</l>
+                    <l>Climbed his spirit higher still.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>When the zenith she attained,</l>
+                    <l>He a higher zenith gained.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Folding up the tent of life,</l>
+                    <l>He had gone beyond our strife.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>He was at the tattoo blown</l>
+                    <l>By the bugles 'round the Throne,</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Far beyond this Earth's control,</l>
+                    <l>Where archangels call the roll,</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And the stars, like calcium lights,<note type="editorial" resp="#el #bw">In early June 1861, Lincoln's War Department arranged to test calcium lights at Fortress Monroe, Virginia. The powerful lights had been recommended for trial by an officer in the Engineer Corps "as an efficient method of illuminating everything within effective gun range, in our fortified channels and roadsteads" ("The Calcium Light," <title level="j">New York Times</title>, June 1, 1861, 1). Adams must have been impressed by this new military technology.</note></l>
+                    <l>Guard lest fiends should storm the heights.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Knapsack he had laid aside</l>
+                    <l>For a state beatified.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Haversack and canteen lay,</l>
+                    <l>Thrown by Death's ravine away:</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>For he heard the banquet call</l>
+                    <l>Through the depth of ether<note type="editorial" resp="#bw #el">Both "upper regions of space beyond the clouds" and a form of anesthetic (<title level="m">Oxford English Dictionary</title>).</note> fall,</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Hung equipments on a rack,</l>
+                    <l>Laid his musket on the stack.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Death had whispered in his ear</l>
+                    <l>Countersign that passed him clear.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>To him were new weapons given</l>
+                    <l>From the armory of Heaven.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>In a uniform of white,</l>
+                    <l>Marched he up the streets of light,</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Where the glistering tents are spread,</l>
+                    <l>Like a palm-tree overhead,</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And the great All-Chief and staff</l>
+                    <l>From the fount of glory quaff.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>He the first fruits we had given</l>
+                    <l>To our Country's Cause and Heaven.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+

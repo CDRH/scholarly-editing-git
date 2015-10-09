@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640130.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Dying Mother</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640130.1</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#fewh">Frances E. W. Harper</author>
+                        <title level="a">The Dying Mother</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-01-30">30 January 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="fewh">Harper, Frances Ellen Watkins, 1825-1911</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Women</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640130.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="aa.18640130.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640130.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640130.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640130.pp4.jpg"/>            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        
+        <body>
+            <lg type="poem">
+                
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>
+                
+                <head type="main" subtype="authorial" rend="center">THE DYING MOTHER.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY FRANCES E. W. HARPER.<note type="editorial" resp="#bw #el"><p>Frances Ellen Watkins Harper (1825&#8211;1911), activist, orator, and writer. Born Frances Ellen Watkins in Baltimore, Maryland, Harper was raised by her aunt and schoolmaster uncle after the death of her parents. She received a rigorous education at the Reverend William Watkins's Academy for Negro Youth and took part in antislavery activities with his family. In her midtwenties, she taught in Ohio and Pennsylvania. She pledged herself to the antislavery movement in response to the death of a free black man whom Maryland authorities had arrested and sent into slavery for the crime of entering the state. In 1854, she began to lecture for the Maine Anti-Slavery Society. Her <title level="m">Poems of Miscellaneous Subjects</title> appeared in the same year (the first of ten volumes of poetry published between 1854 and 1901). In November 1859 she championed militant abolitionist John Brown as "the hero of the nineteenth century" (William Still, <title level="m">The Underground Rail Road</title> [Philadelphia: Porter and Coates, 1872], 762).</p><p>Harper continued to lecture with great success until late 1860, when she married Fenton Harper, a widower with three children. The family moved to a farm in Grove City, Ohio, where Harper managed their domestic life and wrote for the antislavery press. The <title level="j">Christian Recorder</title> of September 27, 1862, printed her criticisms of Lincoln in late September 1862: "The President's dabbling with Colonization just now, suggests to my mind the idea of a man almost dying with a loathsome cancer, and busying himself about having his hair trimmed according to the latest fashion." The Emancipation Proclamation raised her hopes, and she returned to the platform to speak on "the President's Proclamation." "I know that all is not accomplished," she told William Still, "but we may rejoice in what has been already wrought,&#8212;the wondrous change in so short a time" (766). Her poems appeared in the <title level="j">Anglo-African</title>, the <title level="j">Free Nation</title>, and other newspapers. As "a form of public speech addressed to concrete, empirically identifiable others" (Paula Bernat Bennett, <title level="m">Poets in the Public Sphere: The Emancipatory Project of American Women's Poetry, 1800&#8212;1900</title> [Princeton, NJ: Princeton University Press, 2003], 5), these pieces represent a continuation of her mission as a lecturer. The newspaper served as another platform.</p><p>Fenton Harper's death precipitated a financial crisis in May 1864: the contents of the family home were seized by creditors. Harper returned to the lecture circuit and "turned her attention to Reconstruction, temperance, education, moral reform, and women's rights" (Shirley Wilson Logan, <title level="m">'We Are Coming': The Persuasive Discourse of Nineteenth-Century Black Women</title> [Carbondale: Southern Illinois University Press, 1999], 48). She and Edmonia Highgate were the only women to address the National Convention of Colored Men in the fall of 1864. After the war, she lectured throughout the South. Her first serialized novel, <title level="m">Minnie's Sacrifice</title>, appeared in 1869. After the publication of <title level="m">Iola Leroy; or, Shadows Uplifted</title> (1892), she helped found the National Association of Colored Women (1896).</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Come</emph> closer to me, husband!<note type="editorial" resp="#bw #el"><p>The stanzas describe a "good death" in the tradition of the <emph rend="italic">ars moriendi</emph>. In mid-nineteenth-century America, such a death required the bedside presence of family members and the utterance of precious last words, as well as the manifestation of signs of the dying person's salvation (Drew Gilpin Faust, <title level="m">This Republic of Suffering: Death and the American Civil War</title> [New York: Knopf, 2008], 10&#8211;11). These beliefs and conventions persisted during the Civil War, even as the distant deaths of hundreds of thousands of soldiers challenged established rituals of grief and mourning.</p><p>Convinced of an afterlife in heaven, Harper's mother provides consolation and instruction in her last moments; the lyric comprises a dramatic form of didactic devotional literature. Lines 11 and 12 ("Tell her she must <emph rend="itlaic">meet</emph> her mother / In the blessed world above") suggests that childbirth may have caused the speaker's death (emphasis added).</p></note></l>
+                    <l rend="indented1">Now the aching leaves my breast;</l>
+                    <l>But my eyes are dim and weary,</l>
+                    <l rend="indented1">And to-night I fain would rest.</l>
+                    <l>Clasp me closer to your bosom</l>
+                    <l rend="indented1">Ere I calmly sleep in death;</l>
+                    <l>With your arms enfolded round me</l>
+                    <l rend="indented1">I would yield my parting breath.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Bring me now my darling baby&#8212;</l>
+                    <l rend="indented1">God's own precious gift of love;</l>
+                    <l>Tell her she must meet her mother</l>
+                    <l rend="indented1">In the blessed world above.</l>
+                    <l>When her little feet grow stronger,</l>
+                    <l rend="indented1">To walk life's paths untrod,</l>
+                    <l>That earnest, true and hopeful</l>
+                    <l rend="indented1">She must lay her hands on God.</l>
+                </lg>
+                
+                
+                <lg type="stanza"> 
+                    <l>Tell my other little children</l>
+                    <l rend="indented1">They must early seek His face&#8212;</l>
+                    <l>That His love is a strong tower,</l>
+                    <l rend="indented1">And His arms a hiding-place.</l>
+                    <l>Tell them&#8212;but my voice grows fainter&#8212;</l>
+                    <l rend="indented1">Surely, husband, this is death.</l>
+                    <l>Tell them that their dying mother</l>
+                    <l rend="indented1">Blessed them with her latest breath.</l>
+                </lg>
+            </lg>  
+            
+            <dateline>Grove City, O., Jan. 14, 1864.</dateline>
+            
+        </body>
+    </text>
+</TEI>
+

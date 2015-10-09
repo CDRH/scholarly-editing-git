@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640123.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Freedman's Offering</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640123.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jch">J. C. Hagen</author>
+                        <title level="a">The Freedman's Offering</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-01-23">23 January 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jch">Hagen, John Cole</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Frothingham, Octavius Brooks, 1822-1895</term>
+                    <term>Slaves--Emancipation--United States</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-15" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-13" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-13" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked transcription</change>
+            <change when="2012-06" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640123.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640123.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640123.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640123.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18640123.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+     
+        <body>
+ 
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">THE FREEDMAN'S OFFERING.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY J. C. HAGEN.<note type="editorial" resp="#bw #el">John Cole Hagen (1815?&#8211;?), author of <title level="m">Foot-prints of Truth; Or, Voice of Humanity</title> (1853) and <title level="m">Ballads of the Revolution</title> (1866). Hagen contributed a handful of pieces to the <title level="j">Christian Inquirer</title> during the war&#8212;"The Freedman's Offering" and "The Second Coming of the Truth" (<title level="j">Christian Inquirer</title>, March 14, 1863) suggest that he was a member of the Reverend Octavius Brooks Frothingham's reform-orientated congregation in New York.</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <note type="authorial"><p>Rev. Mr. <emph rend="smallcaps">Frothingham</emph>,<note type="editorial" resp="#el #bw"><p>Radical Unitarian Octavius Brooks Frothingham (1822&#8211;1895) left North Church in Salem, Massachusetts, over an abolitionist sermon he delivered in response to the reenslavement of Anthony Burns (1854). In 1859 he moved to New York and established the Third Unitarian Society (later the Independent Liberal Church); based in the city throughout the war, he ministered to an eclectic congregation united by strong reform impulses. He was one of the founding members of the National Freedmen's Relief Association of New York (est. February 22, 1862) and served as its corresponding secretary. He was later appointed to the Committee on Teachers and Publications (American Freedmen's Union Commission).</p><p>After the war, Frothingham cofounded and presided over the Free Religious Association (1867&#8211;1878). In addition to his religious discourses, he published <title level="m">Transcendentalism in New England: A History</title> (1876) and biographies of contemporary reformers&#8212;including that of his good friend Theodore Parker. These works established his reputation as one of Transcendentalism's earliest historians. See Susan M. Ryan, "Frothingham, Octavius Brooks," in <title level="m">American National Biography Online</title>.</p></note> a few Sundays ago, called the <lb/>attention of his congregation to a vase of Autumnal <choice><orig>flow-<lb/>ers</orig><reg>flowers</reg></choice> standing on his pulpit. They were sent to him, he said, <lb/>from Newbern,<note type="editorial" resp="#bw #el"><p>A city on the North Carolina coast, situated where the Trent River met the Neuse. New Bern (or "Newbern") was occupied by Union forces in mid-March 1862 as part of General Ambrose Burnside's movement to gain control of North Carolina's coastal region. The town became "a magnet for most black refugees" (Richard M. Reid, <title level="j">Freedom for Themselves: North Carolina's Black Soldiers in the Civil War Era</title> [Chapel Hill: University of North Carolina Press, 2008], 221), and camps were set up for those who could not find other accommodation. Henry Clapp's census of the freed black population of North Carolina, completed by March 1863, suggested there were no fewer than 8,500 black refugees in and near New Bern (13). Many of the men enlisted in United States Colored Troops regiments.</p></note> by Scipio and Peggy, two colored people, <lb/>late slaves, but who are now free. The flowers were <lb/>reared by themselves, in a garden of their own&#8212;the first <lb/>flowers of freedom!<note type="editorial" resp="#bw #el">The gift may been an offering to celebrate the first anniversary of the Emancipation Proclamation of January 1, 1863.</note></p></note>
+                
+                
+                <lg type="stanza">
+                    <l>No glittering wreath of jewels rare,</l>
+                    <l rend="indented1">No gold to fill thy coffers;</l>
+                    <l>A simple vase of Autumn flowers</l>
+                    <l rend="indented1">The grateful freedman offers.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And though this humble offering see<unclear reason="illegible" cert="medium" resp="#el">m</unclear></l>
+                    <l rend="indented1">As scarcely worth possessing,</l>
+                    <l>It bears to thee the freedman's thanks;</l>
+                    <l rend="indented1">It bears the freedman's blessing.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>These flowers, to us, are Heaven's smile,</l>
+                    <l rend="indented1">For freedom has endeared them;</l>
+                    <l>Free now's the soil that gave them birth,</l>
+                    <l rend="indented1">And free the hands that reared them.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Of those who long had patiently</l>
+                    <l rend="indented1">With woes unnumbered striven,</l>
+                    <l>They come, a message from the heart,</l>
+                    <l rend="indented1">In the heart's language given.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Their bloom shall fade; the hands that reared</l>
+                    <l rend="indented1">Their tender growth shall perish;</l>
+                    <l>Not so the fruit of generous deeds</l>
+                    <l rend="indented1">That grateful bosoms cherish.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>And let this humble gift of ours</l>
+                    <l rend="indented1">Forever be a token</l>
+                    <l>Of all the things that never die,</l>
+                    <l rend="indented1">And kind words bravely spoken!</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Christian Inquirer</title>.<note type="editorial" resp="#bw #el">A leading Unitarian weekly, based in New York City (Frank L. Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> [Cambridge, MA: Harvard University Press, 1938], 2:72). Founded by William Kirkland in late 1846, the <title level="j">Inquirer</title> was published under the auspices of the Unitarian Association of the State of New York. After Kirkland's death, Henry Bellows served as "chief editor" until 1850. From 1856 until 1863, the Reverend Abiel Abbot Livermore edited the paper; Livermore passed his responsibilities into the collective "hands of the Unitarian clergymen of New York, Brooklyn, and the vicinity" until a "proper editor" could be found to replace him (<title level="j">Christian Inquirer</title>, September 12, 1863, 2).</note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

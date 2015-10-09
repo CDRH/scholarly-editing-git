@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630502.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Marching Along for Freedom</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630502.4</idno>
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#lcl">L. C. Lockwood</author>
+                        <title level="a">Marching Along for Freedom</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-05-02">2 May 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="lcl">Lockwood, L. C. (Lewis Conger), 1815-1904</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Antislavery movements--United States--History--19th century</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>Slaves--Emancipation--United States</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                    <term>United States--History--Civil War, 1861-1865--Songs and music.</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-03-02" who="#el">revised Lockwood note</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+<change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+<change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-02" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-23" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-17" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630502.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630502.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630502.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630502.pp4.jpg"/>
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18630502.pp4_cropped.jpg"/>
+            </zone>            
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <note type="newspaper-editorial" rend="center">For the Anglo-African.</note>
+                                
+                <head type="main" subtype="authorial" rend="center">MARCHING ALONG FOR FREEDOM.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY <unclear reason="illegible" cert="high" resp="#kt">L.</unclear> C. LOCKW<unclear reason="illegible" cert="high" resp="#el">OOD</unclear>.<note type="editorial" resp="#bw #el">Lewis Conger Lockwood (1815&#8211;1904). Ordained by the Cincinnati Presbytery in 1842, Lockwood held pastorates in Ohio, New York, and Connecticut during the 1850s (William I. Chalmers, <title level="m">A History of the Congregational Church in Aquebogue, Long Island, N.Y.</title> [Aquebogue, NY: n.p., 1910], 62&#8211;63). In August 1861, the American Missionary Association appointed him as "their first missionary to the freedmen" at Fortress Monroe, Virginia ("Appendix: Mission to the Freedmen," in <title level="m">Mary S. Peake: The Colored Teacher at Fortress Monroe</title> by Lewis C. Lockwood [Boston: American Tract Society, 1862], 54). For just over a year, he participated in the relief effort and ran church meetings and schools. Christian McWhirter notes that Lockwood also made an early attempt to transcribe and publish a slave song in antislavery newspapers and as sheet music. "Let My People Go!" ("Go Down Moses") was noticed and praised in the <title level="j">National Anti-Slavery Standard</title> and the <title level="j">Liberator</title> (<title level="m">Battle Hymns: The Power and Popularity of Music in the Civil War</title> [Chapel Hill: University of North Carolina Press, 2012], 155&#8211;56). Lockwood's acquaintance with "devoted teacher" Mary S. Peake resulted in a brief biography, <title level="m">Mary S. Peake: The Colored Teacher at Fortress Monroe</title> (1862). According to the <title level="j">New York Independent</title> of August 13, 1863,  Lockwood next "[undertook] to form a colony of Congregationalists to settle in the state of Delaware, now virtually a free state" ("Congregational Emigration to Delaware"). A year later, a letter from Lockwood appeared in the <title level="j">Independent</title> of August 11, 1864, encouraging emigration to Delaware and describing plans for communities there ("Emigration to Delaware").</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l>While armies and navies are gathering for war,</l>
+                    <l>The friends of the Slaves hear a voice from afar.</l>
+                    <l>"Go, break every yoke! bid the feeble be strong,</l>
+                    <l>Gird on your bright armor, and go marching along."<note type="editorial" resp="#bw #el">References to a cluster of biblical commands. See Isaiah 58:6: "Is this not the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and let the oppressed go free, and that ye break every yoke?" Also, Joel 3:10: "Beat your ploughshares into swords, and your pruning-hooks into spears: let the weak say, I am strong." Lockwood's "bright armor" was probably inspired by the famous metaphors in Ephesians 6:13&#8211;17.</note></l>
+                    <l rend="indented1">Marching along! we are marching along,<note type="editorial" resp="#bw #el">Lockwood transcribed or adapted a set of lyrics to William B. Bradbury's "Marching Along" (1861). Originally a tribute to George McClellan, the popular army song continued to circulate in a variety of forms after the general's removal. Thomas Wentworth Higginson's Second South Carolina Volunteers claimed it for their own during the Emancipation Day celebrations at Port Royal (Christian McWhirter, <title level="m">Battle Hymns: The Power and Popularity of Music in the Civil War</title> [Chapel Hill: University of North Carolina Press, 2012], 88, 158&#8211;59).</note></l>
+                    <l rend="indented1">To break every yoke, we are marching along;</l>
+                    <l rend="indented1">The conflict with Slavery may be fearful and long,</l>
+                    <l rend="indented1">But gird on your armor and go marching along.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Go, ransom the Slaves!" saith <emph rend="smallcaps">Jehovah</emph> again,</l>
+                    <l>"Fear not to contend 'gainst oppression and sin,</l>
+                    <l>Proclaim ye Liberty throughout all the land,</l>
+                    <l>Thus marching along, you'll obey my command."</l>
+                    <l rend="indented1">Marching along! we are marching along,</l>
+                    <l rend="indented1">To bring forth the jubilee, we're marching along;</l>
+                    <l rend="indented1">The conflict with Slavery may be fearful and long,</l>
+                    <l rend="indented1">But gird on your armor, and go marching along.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The foe is before us in battle array,</l>
+                    <l>Yet ne'er will we falter, nor turn from our way;</l>
+                    <l>The <emph rend="smallcaps">Lord</emph> is strength! Oh, let this be our song,</l>
+                    <l>As for Justice and Liberty we are marching along.</l>
+                    <l rend="indented1">Marching along! we are marching along,</l>
+                    <l rend="indented1">In the strength of Jehovah we're marching along;</l>
+                    <l rend="indented1">The conflict with Slavery may be fearful and long,</l>
+                    <l rend="indented1">So we gird on our armor, and go marching along.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Through conflicts and trials our crowns must be won,</l>
+                    <l>But we ask no discharge till our work is well done;</l>
+                    <l>For of this we are assured that we shall not go wrong,</l>
+                    <l>While for Freedom and Justice we are marching along.</l>
+                    <l rend="indented1">Marching along! we are marching along,</l>
+                    <l rend="indented1">For Justice and Freedom we are marching along;</l>
+                    <l rend="indented1">The conflict with Slavery may be fearful and long,</l>
+                    <l rend="indented1">So we gird on our armor, and go marching along.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Press onward! Press onward! and hope to the end,</l>
+                    <l>When we battle for the Truth, we have always a <emph rend="smallcaps">Friend</emph>,</l>
+                    <l>Soon, soon shall we join in the conqueror's song,</l>
+                    <l>For the <emph rend="smallcaps">Lord</emph> is our Leader, as we're marching along.</l>
+                    <l rend="indented1">Marching along! we are marching along,</l>
+                    <l rend="indented1">The <emph rend="smallcaps">Lord</emph> is our Leader, as we're marching along;</l>
+                    <l rend="indented1">The conflict with Slavery may be fearful and long,</l>
+                    <l rend="indented1">So we gird on our armor, and go marching along.</l>
+                </lg>
+            </lg>
+        </body>
+        
+    </text>
+</TEI>
+
+

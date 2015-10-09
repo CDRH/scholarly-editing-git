@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18631212.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Sin of Achan</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18631212.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#fewh">Frances E. Watkins Harper</author>
+                        <title level="a">The Sin of Achan</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-12-12">12 December 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="fewh">Harper, Frances Ellen Watkins, 1825-1911</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Abolitionists United States</term>
+                    <term>Antislavery movements--United States</term>
+                    <term>Antislavery movements--United States--History--19th century</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                    <term>United States--History--Civil War, 1861-1865--Women</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01-09" who="#el">revised sic encoding</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-07" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-29" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-28" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">checked</change>
+            <change when="2012-05" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18631212.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18631212.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18631212.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18631212.pp4.jpg"/>
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18631212.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>
+                               
+                <head type="main" subtype="authorial" rend="center">THE SIN OF ACHAN.<note type="editorial" resp="#bw #el">See Joshua 6:18&#8211;7:26. After the destruction of Jericho, Joshua sent his men to attack Ai. The Israelites were defeated because one of their number had disobeyed the divine injunction to leave Jericho's spoils untouched. Achan stole and hid riches reserved for God, who responded to Joshua's prayers with a command to "sanctify the people": "There is an accursed thing in the midst of thee, O Israel: thou canst not stand before thine enemies, until ye take away the accursed thing from among you" (Joshua 7:13). When Achan was discovered by Joshua, he and his family were stoned and then burnt with all his possessions. In Harper's analogy, the "accursed thing" that prevents the Union's triumph is slavery. Lincoln, she suggests, is no Joshua (see stanza 10).</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY FRANCES E. WATKINS HARPER.<note type="editorial" resp="#bw #el"><p>Frances Ellen Watkins Harper (1825&#8211;1911), activist, orator, and writer. Born Frances Ellen Watkins in Baltimore, Maryland, Harper was raised by her aunt and schoolmaster uncle after the death of her parents. She received a rigorous education at the Reverend William Watkins's Academy for Negro Youth and took part in antislavery activities with his family. In her midtwenties, she taught in Ohio and Pennsylvania. She pledged herself to the antislavery movement in response to the death of a free black man whom Maryland authorities had arrested and sent into slavery for the crime of entering the state. In 1854, she began to lecture for the Maine Anti-Slavery Society. Her <title level="m">Poems of Miscellaneous Subjects</title> appeared in the same year (the first of ten volumes of poetry published between 1854 and 1901). In November 1859 she championed militant abolitionist John Brown as "the hero of the nineteenth century" (William Still, <title level="m">The Underground Rail Road</title> [Philadelphia: Porter and Coates, 1872], 762).</p><p>Harper continued to lecture with great success until late 1860, when she married Fenton Harper, a widower with three children. The family moved to a farm in Grove City, Ohio, where Harper managed their domestic life and wrote for the antislavery press. The <title level="j">Christian Recorder</title> of September 27, 1862, printed her criticisms of Lincoln in late September 1862: "The President's dabbling with Colonization just now, suggests to my mind the idea of a man almost dying with a loathsome cancer, and busying himself about having his hair trimmed according to the latest fashion." The Emancipation Proclamation raised her hopes, and she returned to the platform to speak on "the President's Proclamation." "I know that all is not accomplished," she told William Still, "but we may rejoice in what has been already wrought,&#8212;the wondrous change in so short a time" (766). Her poems appeared in the <title level="j">Anglo-African</title>, the <title level="j">Free Nation</title>, and other newspapers. As "a form of public speech addressed to concrete, empirically identifiable others" (Paula Bernat Bennett, <title level="m">Poets in the Public Sphere: The Emancipatory Project of American Women's Poetry, 1800&#8212;1900</title> [Princeton, NJ: Princeton University Press, 2003], 5), these pieces represent a continuation of her mission as a lecturer. The newspaper served as another platform.</p><p>Fenton Harper's death precipitated a financial crisis in May 1864: the contents of the family home were seized by creditors. Harper returned to the lecture circuit and "turned her attention to Reconstruction, temperance, education, moral reform, and women's rights" (Shirley Wilson Logan, <title level="m">'We Are Coming': The Persuasive Discourse of Nineteenth-Century Black Women</title> [Carbondale: Southern Illinois University Press, 1999], 48). She and Edmonia Highgate were the only women to address the National Convention of Colored Men in the fall of 1864. After the war, she lectured throughout the South. Her first serialized novel, <title level="m">Minnie's Sacrifice</title>, appeared in 1869. After the publication of <title level="m">Iola Leroy; or, Shadows Uplifted</title> (1892), she helped found the National Association of Colored Women (1896).</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <epigraph><ab>"Will God give us peace and victory while one slave <lb/>clanks his chain?"</ab><note type="editorial" resp="#bw #el">Unidentified source. Abolitionists recognized that Lincoln's Emancipation Proclamation (January 1, 1863) left work undone: any one of them could have asked such a rhetorical question. Harper uses the quotation to establish a parallel between Achan's transgression and the national sin of slavery.</note></epigraph>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Night</emph> closed o'er the battling army,</l>
+                    <l rend="indented1">But it brought them no success;</l>
+                    <l>Victory perched not on their banners,</l>
+                    <l rend="indented1">Night was full of weariness.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Flushed and hopeful in the morning,</l>
+                    <l rend="indented1">Turned they from their leader's side;</l>
+                    <l>Routed, smitten, and defeated,</l>
+                    <l rend="indented1">Came they back at eventide.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Like the snow on ice-bound streamlets,</l>
+                    <l rend="indented1">Melting neath the South wind's breath;</l>
+                    <l>Backward from the field of battle,</l>
+                    <l rend="indented1">Flowed the bloody tide of death.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Joshua when he heard the tidings,</l>
+                    <l rend="indented1">How his <choice><sic>valient</sic><corr>valiant</corr></choice> men had fled;</l>
+                    <l>Rent his mantle, and each elder,</l>
+                    <l rend="indented1">Cast the dust upon his head.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then in tones of earnest pleading,</l>
+                    <l rend="indented1">Joshua's voice soon arose:</l>
+                    <l>Tell us, Oh! thou God of Jacob,</l>
+                    <l rend="indented1">Why this triumph of our foes?</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>To his prayer, then came the answer,</l>
+                    <l rend="indented1">Why the hosts in dread did yield;</l>
+                    <l>Twas because a solemn trespass</l>
+                    <l rend="indented1">Mid their tents did lie concealed.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Clear and plain before his vision,</l>
+                    <l rend="indented1">With whom darkness is as light,</l>
+                    <l>Lay the spoils that guilty Achan,</l>
+                    <l rend="indented1">Covered from his brethren's sight.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>From their tents they purged the evil,</l>
+                    <l rend="indented1">That had ruin round them spread;</l>
+                    <l>Then they won the field of battle,</l>
+                    <l rend="indented1">Whence they had in terror fled.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Through the track of many ages,</l>
+                    <l rend="indented1">Comes this tale of woe and crime;</l>
+                    <l>Let us read it as a lesson,</l>
+                    <l rend="indented1">And a warning for our time.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Oh, for some strong-hearted Joshua,</l>
+                    <l rend="indented1">Faithful to his day and time;</l>
+                    <l>Who will wholly rid the nation</l>
+                    <l rend="indented1">Of her clinging curse and crime.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Till she writes on every banner,</l>
+                    <l rend="indented1">All beneath these folds are free;</l>
+                    <l>And the oppressed and groaning millions,</l>
+                    <l rend="indented1">Shout the nation's jubilee.</l>
+                </lg>
+            </lg>
+            
+            
+            <dateline>Grove City, Ohio, Nov. 30, 1863.<note type="editorial" resp="#bw #el">On October 3, 1863, President Lincoln declared a day of national thanksgiving on the last Thursday of November. Among other blessings for which citizens should be thankful, he listed harvest "bounties" and continued territorial expansion, the preservation of peace with "all nations" and a "greatly contracted" theater of military conflict. These "gracious gifts of the Most High God" should be "acknowledged as with one heart and one voice by the whole American people" (Roy P. Basler, ed., <title level="m">The Collected Works of Abraham Lincoln</title> [New Brunswick, NJ: Rutgers University Press, 1953], 6:496&#8211;97). He also recommended that citizens "implore the interposition of the Almighty Hand to heal the wounds of the nation and to restore it as soon as may be consistent with the Divine purposes to the full enjoyment of peace, harmony, tranquility and Union."</note></dateline> 
+        </body>
+        
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+

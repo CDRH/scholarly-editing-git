@@ -1,0 +1,538 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Sunset Wings -- The Versioning Machine 4.0</title>
+      <link rel="stylesheet" type="text/css" href="../src/vmachine_evfl.css">
+      <!--[if IE 6]>
+            <link rel="stylesheet" type="text/css" href="../src/vmachine_evfl_ie6.css">
+         <![endif]--><script type="text/javascript" src="../src/vmachine_evfl.js"></script><script type="text/javascript">
+      var witnesses = new Array();
+      
+        
+         
+         witnesses["v1"] = "v1";
+      
+        
+         
+         witnesses["v2"] = "v2";
+      
+        
+         
+         witnesses["v3"] = "v3";
+      
+        
+         
+         witnesses["v4"] = "v4";
+      
+        
+         
+         witnesses["v5"] = "v5";
+      
+        
+         
+         witnesses["v6"] = "v6";
+      
+        
+         
+         witnesses["v7"] = "v7";
+      
+        
+         
+         witnesses["v8"] = "v8";
+      
+        
+         
+         witnesses["v9"] = "v9";
+      
+        
+         
+         witnesses["v10"] = "v10";
+      
+        
+         
+         witnesses["v11"] = "v11";
+      
+        
+         
+         witnesses["v12"] = "v12";
+      
+        
+         
+         witnesses["v13"] = "v13";
+      
+        
+         
+         witnesses["v14"] = "v14";
+      
+        
+         
+         witnesses["v15"] = "v15";
+      
+        
+         
+         witnesses["v16"] = "v16";
+      
+        
+         
+         witnesses["v17"] = "v17";
+      
+        
+         
+         witnesses["v18"] = "v18";
+      
+        
+         
+         witnesses["v19"] = "v19";
+      
+        
+         
+         witnesses["v20"] = "v20";
+      
+        
+         
+         witnesses["v21"] = "v21";
+      
+        
+         
+         witnesses["v22"] = "v22";
+      
+        
+         
+         witnesses["v23"] = "v23";
+      
+        
+         
+         witnesses["v24"] = "v24";
+      
+        
+         
+         witnesses["v25"] = "v25";
+      
+        
+         
+         witnesses["v26"] = "v26";
+      
+        
+         
+         witnesses["v27"] = "v27";
+      
+        
+         
+         witnesses["v28"] = "v28";
+      
+        
+         
+         witnesses["v29"] = "v29";
+      
+        
+         
+         witnesses["v30"] = "v30";
+      
+      var maxPanels = 30;
+   </script></head>
+   <body onload="init();">
+      <div id="mainBanner">
+         <div id="brandingLogo"><img id="logo" alt="Powered by the Versioning Machine" src="../vm-images/poweredby.gif"></div>
+         <div id="headline">
+            <h1 onclick="toggleBiblio();">Sunset Wings</h1><span class="versionCount"> has 33 witnesses</span></div><img id="topEdge" src="../vm-images/topedge.gif" alt=""><div id="mainControls"><input type="button" id="bibToggle" value="Witness List" onclick="toggleBiblio();">
+            •
+            
+                <input method="link" type="button" value="Home" onClick="parent.location='../../../intro.sunsetwings.html'">
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <input type="button" id="newPanel" value="New Witness" class="special" onclick="openPanel();"></div>
+      </div>
+      <div id="mssArea">
+         <div class="panel" id="bibPanel" style="display: none;">
+            <div class="panelBanner"><img class="closePanel" onclick="toggleBiblio();" alt="X" src="../vm-images/closePanel.gif">
+               Witness List
+               
+            </div>
+            <div class="bibContent">
+               <h2>Sunset Wings</h2>
+               <h4>
+                  by Dante Gabriel Rossetti
+               </h4><i>Edited by 
+                  
+                  
+                  Marianne Van Remoortel</i><h4>Original Source</h4><span class="noteicon">n
+                  <div class="note">Born digital.</div></span><span class="hi">Athenaeum</span> (London), May 24, 1873<span class="hi">New York Times</span> (New York, NY), June 8, 1873<span class="hi">Boston Daily Advertiser</span> (Boston, MA), June 9, 1873<span class="hi">Bangor Daily Whig &amp; Courier</span> (Bangor, ME), June 12, 1873<span class="hi">Albion</span> (New York, NY), June 14, 1873<span class="hi">Springfield Republican</span> (Springfield, MA), June 18, 1873<span class="hi">Buffalo Daily Courier</span> (Buffalo, NY), June 28, 1873<span class="hi">Daily Evening Bulletin</span> (San Francisco, CA), June 28, 1873<span class="hi">Every Saturday</span> (Boston, MA), June 28, 1873<span class="hi">Massachusetts Ploughman</span> (Boston, MA), June 28, 1873<span class="hi">Frank Leslie's Illustrated Newspaper</span> (New York, NY), July 5, 1873<span class="hi">Newport Mercury</span> (Newport, RI), July 5, 1873<span class="hi">New-Hampshire Patriot</span> (Concord, NH), July 9, 1873<span class="hi">Youth's Companion</span> (Boston, MA), August 28, 1873<span class="hi">Independent Statesman</span> (Concord, NH), September 4, 1873<span class="hi">Morning Oregonian</span> (Portland, OR), March 20, 1898<span class="hi">Philadelphia Inquirer</span> (Philadelphia, PA), May 23, 1902<span class="hi">Dallas Morning News</span> (Dallas, TX), June 9, 1902<span class="hi">Sunday Oregonian</span> (Portland, OR), July 13, 1902<span class="hi">Yuma Pioneer</span> (Yuma, CO), August 22, 1902<span class="hi">Kansas City Star</span> (Kansas City, MO), July 5, 1911<span class="hi">Arizona Republican</span> (Phoenix, AZ), October 25, 1911<span class="hi">Daily Oklahoman</span> (Oklahoma City, OK), August 19, 1912<span class="hi">Christian Science Monitor</span> (Boston, MA), April 6, 1916<span class="hi">Dallas Morning News</span> (Dallas, TX), November 29, 1918<span class="hi">Christian Science Monitor</span> (Boston, MA), February 23, 1920<span class="hi">Dallas Morning News</span> (Dallas, TX), March 6, 1920<span class="hi">Springfield Republican</span> (Springfield, MA), April 28, 1921<span class="hi">Albany Evening News</span> (Albany, NY), July 19, 1927<span class="hi">World Herald</span> (Omaha, NE), May 14, 1935
+               <h4>Witness List</h4>
+               <ul></ul>
+            </div>
+         </div>
+         <div class="panel" id="critPanel" style="display: none;">
+            <div class="panelBanner"><img class="closePanel" onclick="toggleCrit();" alt="X" src="../vm-images/closePanel.gif">
+               Critical Introduction
+               
+            </div>
+            <div class="critContent"></div>
+         </div>
+         <div id="manuscripts">
+            <div class="panel mssPanel">
+               <div class="panelBanner"><img class="closePanel" onclick="closePanel(this.parentNode.parentNode);" src="../vm-images/closePanel.gif" alt="X">Witness <select class="witnessMenu" onchange="changeWitness(this.value,this.parentNode.parentNode);">
+                     <option selected value="v1">Athenaeum (London), May 24, 1873</option>
+                     <option value="v2">New York Times (New York, NY), June 8, 1873</option>
+                     <option value="v3">Boston Daily Advertiser (Boston, MA), June 9, 1873</option>
+                     <option value="v4">Bangor Daily Whig &amp; Courier (Bangor, ME), June 12, 1873</option>
+                     <option value="v5">Albion (New York, NY), June 14, 1873</option>
+                     <option value="v6">Springfield Republican (Springfield, MA), June 18, 1873</option>
+                     <option value="v7">Buffalo Daily Courier (Buffalo, NY), June 28, 1873</option>
+                     <option value="v8">Daily Evening Bulletin (San Francisco, CA), June 28, 1873</option>
+                     <option value="v9">Every Saturday (Boston, MA), June 28, 1873</option>
+                     <option value="v10">Massachusetts Ploughman (Boston, MA), June 28, 1873</option>
+                     <option value="v11">Frank Leslie's Illustrated Newspaper (New York, NY), July 5, 1873</option>
+                     <option value="v12">Newport Mercury (Newport, RI), July 5, 1873</option>
+                     <option value="v13">New-Hampshire Patriot (Concord, NH), July 9, 1873</option>
+                     <option value="v14">Youth's Companion (Boston, MA), August 28, 1873</option>
+                     <option value="v15">Independent Statesman (Concord, NH), September 4, 1873</option>
+                     <option value="v16">Morning Oregonian (Portland, OR), March 20, 1898</option>
+                     <option value="v17">Philadelphia Inquirer (Philadelphia, PA), May 23, 1902</option>
+                     <option value="v18">Dallas Morning News (Dallas, TX), June 9, 1902</option>
+                     <option value="v19">Sunday Oregonian (Portland, OR), July 13, 1902</option>
+                     <option value="v20">Yuma Pioneer (Yuma, CO), August 22, 1902</option>
+                     <option value="v21">Kansas City Star (Kansas City, MO), July 5, 1911</option>
+                     <option value="v22">Arizona Republican (Phoenix, AZ), October 25, 1911</option>
+                     <option value="v23">Daily Oklahoman (Oklahoma City, OK), August 19, 1912</option>
+                     <option value="v24">Christian Science Monitor (Boston, MA), April 6, 1916</option>
+                     <option value="v25">Dallas Morning News (Dallas, TX), November 29, 1918</option>
+                     <option value="v26">Christian Science Monitor (Boston, MA), February 23, 1920</option>
+                     <option value="v27">Dallas Morning News (Dallas, TX), March 6, 1920</option>
+                     <option value="v28">Springfield Republican (Springfield, MA), April 28, 1921</option>
+                     <option value="v29">Albany Evening News (Albany, NY), July 19, 1927</option>
+                     <option value="v30">World Herald (Omaha, NE), May 14, 1935</option></select></div>
+               <div class="mssContent">
+                  <table style="table-layout:fixed; width:350px">
+                     <tr>
+                        <td>
+                           <div class="stanzabreak">
+                              <div class="head type-main"><span class="apparatus app-d1e207 clickable" onclick="matchApp('app-d1e207');"><span class="reading v1 v5 v29">SUNSET WINGS</span><span class="reading v2 v4 v7 v8 v9 v10 v11 v14 v15 v16 v18 v21 v22 v23 v25 v27">SUNSET WINGS.</span><span class="reading v3"><span class="hi">SUNSET WINGS</span>.</span><span class="reading v6 v12 v13 v19">Sunset Wings.</span><span class="reading v17 v24 v26 v28">Sunset Wings</span><span class="reading v20 v30"><span class="hi">Sunset Wings</span>.</span></span></div><span class="apparatus app-d1e225 clickable" onclick="matchApp('app-d1e225');"><span class="reading v4 v5">BY DANTE G. ROSSETTI.</span><span class="reading v10"><span class="hi rend-smallcaps">BY DANTE G. ROSSETTI.</span></span><span class="reading v11"><span class="hi rend-smallcaps">BY</span><br class="linebreak"> D<span class="hi rend-smallcaps">ANTE</span> G. R<span class="hi rend-smallcaps">OSSETTI</span>.</span><span class="reading v12"><span class="hi rend-smallcaps">BY DANIEL G. ROSSETTI.</span></span><span class="reading v15">BY DANTE G. ROSSETI.</span><span class="reading v19">Dante Gabriel Rossetti.</span><span class="reading v28">[By Dante Gabriel Rossetti.]</span><span class="reading v29">By Dante Gabriel Rossetti.</span><span class="reading v30">BY DANTE GABRIEL ROSSETTI.</span></span><div class="stanzabreak">
+                                 <div class="line lined1e256" onclick="matchLine('lined1e256');">
+                                    <div class="linenumber" style="visibility: hidden;">1</div><span class="apparatus" onclick="matchApp('app-d1e257');"><span class="reading v1 v9 v11 v27">T<span class="hi rend-smallcaps">O-NIGHT</span> this sunset spreads two golden wings</span><span class="reading v2 v4 v5 v6 v7 v8 v10 v12 v13 v20">To-night this sunset spreads two golden wings</span><span class="reading v3 v16 v19 v24 v26 v28">Tonight this sunset spreads two golden wings</span><span class="reading v25 v30">Tonight the sunset spreads two golden wings</span><span class="reading v14 v15 v17">To-night this sunset spreads two golden wings,</span><span class="reading v18 v21 v22 v23">Tonight the sunset spreads two golden wings,</span><span class="reading v29">T<span class="hi rend-smallcaps">ONIGHT</span> this sunset spreads two golden wings</span></span></div>
+                                 <div class="line lined1e278" onclick="matchLine('lined1e278');">
+                                    <div class="linenumber" style="visibility: hidden;">2</div><span class="apparatus" onclick="matchApp('app-d1e279');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v19 v21 v22 v24 v25 v26 v27 v28 v29 v30">Cleaving the western sky;</span><span class="reading v18 v20">Cleaving the Western sky;</span><span class="reading v23">Cleaving the western sky,</span></span></div>
+                                 <div class="line lined1e286" onclick="matchLine('lined1e286');">
+                                    <div class="linenumber" style="visibility: hidden;">3</div><span class="apparatus" onclick="matchApp('app-d1e287');"><span class="reading v1 v2 v4 v5 v7 v8 v9 v10 v12 v13 v24 v25 v26 v28 v29 v30">Winged too with wind it is, and winnowings</span><span class="reading v3">Winged too with with wind it is, and winnowings</span><span class="reading v6 v11 v14 v15 v17 v18 v19 v20 v21 v22 v23 v27">Winged, too, with wind it is, and winnowings</span><span class="reading v16">Wing'd too with wind it is, and winnowings</span></span></div>
+                                 <div class="line lined1e296" onclick="matchLine('lined1e296');">
+                                    <div class="linenumber" style="visibility: hidden;">4</div><span class="apparatus" onclick="matchApp('app-d1e297');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v25 v28 v29 v30">Of birds; as if the day's last hour in rings</span><span class="reading v24 v26">Of birds; . . .</span><span class="reading v27">Of birds</span></span></div>
+                                 <div class="line lined1e304" onclick="matchLine('lined1e304');">
+                                    <div class="linenumber" style="visibility: hidden;">5</div><span class="apparatus" onclick="matchApp('app-d1e305');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v25 v28 v29">Of strenuous flight must die.</span><span class="reading v12">Of strenuous tight must die.</span><span class="reading v30">Of strenuous flight may die.</span><span class="reading v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e314" onclick="matchLine('lined1e314');">
+                                    <div class="linenumber" style="visibility: hidden;">6</div><span class="apparatus" onclick="matchApp('app-d1e315');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v13 v14 v15 v17 v18 v19 v20 v21 v22 v24 v25 v26 v27 v28 v30">Sun-steeped in fire, the homeward pinions sway</span><span class="reading v10 v12">Sun-steeped to fire, the homeward pinions sway</span><span class="reading v11 v23 v29">Sun steeped in fire, the homeward pinions sway</span><span class="reading v16">Sun-steep'd in fire, the homeward pinions sway</span></span></div>
+                                 <div class="line lined1e324" onclick="matchLine('lined1e324');">
+                                    <div class="linenumber" style="visibility: hidden;">7</div><span class="apparatus" onclick="matchApp('app-d1e325');"><span class="reading v1 v17">Above the dove-cote tops;</span><span class="reading v2 v3 v4 v5 v6 v8 v9 v11 v14 v16 v19 v20 v24 v26 v27 v28 v30">Above the dovecote-tops;</span><span class="reading v7 v10 v12 v13 v25">Above the dovecote tops;</span><span class="reading v15">Above the dovecot-tops;</span><span class="reading v18">Above the dovecote's tops;</span><span class="reading v21 v22">Above the dove-cote's tops;</span><span class="reading v23">Above the dovescote's tops;</span><span class="reading v29">Above the dove cote tops;</span></span></div>
+                                 <div class="line lined1e342" onclick="matchLine('lined1e342');">
+                                    <div class="linenumber" style="visibility: hidden;">8</div><span class="apparatus" onclick="matchApp('app-d1e343');"><span class="reading v1 v2 v3 v4 v5 v6 7 v8 v9 v10 v11 v13 v14 v15 v16 v18 v19 v20 v21 v22 v23 v24 v25 v26 v27 v28 v29 v30">And clouds of starlings, ere they rest with day,</span><span class="reading v12">And clouds of starling, ere they rest with day,</span><span class="reading v17">And clouds of starlings, ere they rest with day</span></span></div>
+                                 <div class="line lined1e350" onclick="matchLine('lined1e350');">
+                                    <div class="linenumber" style="visibility: hidden;">9</div><span class="apparatus" onclick="matchApp('app-d1e351');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v16 v17 v18 v19 v20 v24 v25 v26 v27 v28">Sink, clamorous like mill-waters, at wild play,</span><span class="reading v5">Sink, clamorous like mill waters, at wild play,</span><span class="reading v14 v15 v29 v30">Sink, clamorous, like mill-waters, at wild play,</span><span class="reading v21 v22 v23">Sink clamorous like mill waters, at wild play,</span></span></div>
+                                 <div class="line lined1e360" onclick="matchLine('lined1e360');">
+                                    <div class="linenumber" style="visibility: hidden;">10</div><span class="apparatus" onclick="matchApp('app-d1e361');"><span class="reading v1 v2 v7 v9 v11 v16 v24 v26 v27 v28 v30">By turns in every copse:</span><span class="reading v3 v4 v5 v6 v13 v14 v15 v18 v23 v25 v29">By turns in every copse.</span><span class="reading v8 v10 v12 v17 v19 v20 v21 v22">By turns in every copse;</span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e369" onclick="matchLine('lined1e369');">
+                                    <div class="linenumber" style="visibility: hidden;">11</div><span class="apparatus" onclick="matchApp('app-d1e370');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v16 v24 v28">Each tree heart-deep the wrangling rout receives,—</span><span class="reading v13">Each tree heart-deep the wrangling rout receives,</span><span class="reading v14">Each tree, heart-deep, the wrangling rout receives,—</span><span class="reading v15">Each tree, heart-deep, the wrangling rout receives—</span><span class="reading v18 v21 v22 v23">Each tree, heart-deep the wrangling rout receives—</span><span class="reading v17 v19 v20 v26 v27 v30">Each tree heart-deep the wrangling rout receives—</span><span class="reading v25">Each tree heart-deep the wringing rout receives—</span><span class="reading v29">Each tree heart deep the wrangling rout receives,—</span></span></div>
+                                 <div class="line lined1e387" onclick="matchLine('lined1e387');">
+                                    <div class="linenumber" style="visibility: hidden;">12</div><span class="apparatus" onclick="matchApp('app-d1e388');"><span class="reading v1 v2 v3 v4 v5 v7 v8 v9 v10 v11 v12 v13 v14 v15">But for the whirr within,</span><span class="reading v6">But for the whirl within,</span><span class="reading v16 v17 v18 v19 v20 v21 v22 v23 v25 v26 v27 v28 v29 v30">Save for the whirr within,</span><span class="reading v24">Save for the whir within,</span></span></div>
+                                 <div class="line lined1e397" onclick="matchLine('lined1e397');">
+                                    <div class="linenumber" style="visibility: hidden;">13</div><span class="apparatus" onclick="matchApp('app-d1e398');"><span class="reading v1 v2 v3 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v24 v25 v26 v27 v28 v29 v30">You could not tell the starlings from the leaves;</span><span class="reading v4 v6">You could not tell the startlings from the leaves;</span><span class="reading v5">You could not tell the starlings from the leaves,</span><span class="reading v26">You could not tell the starlings from the leaves</span></span></div>
+                                 <div class="line lined1e407" onclick="matchLine('lined1e407');">
+                                    <div class="linenumber" style="visibility: hidden;">14</div><span class="apparatus" onclick="matchApp('app-d1e408');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v17 v18 v19 v20 v21 v24 v25 v26 v27 v28 v29 v30">Then one great puff of wings, and the swarm heaves</span><span class="reading v13">Then one great puff of wings, and the swarm</span><span class="reading v22 v23">Then one great puff of wings and the swarm heaves</span></span></div>
+                                 <div class="line lined1e415" onclick="matchLine('lined1e415');">
+                                    <div class="linenumber" style="visibility: hidden;">15</div><span class="apparatus" onclick="matchApp('app-d1e416');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v17 v18 v19 v20 v21 v22 v24 v25 v26 v27 v28 v29 v30">Away with all its din.</span><span class="reading v13">Heaves away with all its din.</span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e422" onclick="matchLine('lined1e422');">
+                                    <div class="linenumber" style="visibility: hidden;">16</div><span class="apparatus" onclick="matchApp('app-d1e423');"><span class="reading v1 v2 v5 v8 v9 v11 v16 v25 v28 v30">Even thus Hope's hours, in ever-eddying flight,</span><span class="reading v3 v4">Even thus Hope's hours, in every edding flight,</span><span class="reading v6">Even thus Hope's hours, in every eddying flight</span><span class="reading v7 v13">Even thus Hope's hours, in ever eddying flight,</span><span class="reading v10 v12">Even thus Hope's hours, in ever-eddying night,</span><span class="reading v14 v15">Even thus, Hope's hours, in ever-eddying flight,</span><span class="reading v29">Even thus Hope's hours in ever eddying flight,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e439" onclick="matchLine('lined1e439');">
+                                    <div class="linenumber" style="visibility: hidden;">17</div><span class="apparatus" onclick="matchApp('app-d1e440');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v29 v30">To many a refuge tend;</span><span class="reading v5">To many a refuge tend,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e446" onclick="matchLine('lined1e446');">
+                                    <div class="linenumber" style="visibility: hidden;">18</div><span class="apparatus" onclick="matchApp('app-d1e447');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v25 v28 v29 v30">With the first light she laughed, and the last light</span><span class="reading v16">With the first light she laugh'd, and the last light</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e453" onclick="matchLine('lined1e453');">
+                                    <div class="linenumber" style="visibility: hidden;">19</div><span class="apparatus" onclick="matchApp('app-d1e454');"><span class="reading v1 v2 v3 v4 v5 v6 v8 v10 v12 v16 v28 v29 v30">Glows round her still; who natheless in the night</span><span class="reading v7 v9 v11 v13 v25">Glows round her still; who nathless in the night</span><span class="reading v14 v15">Glows round her still; who, nathless in the night,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e462" onclick="matchLine('lined1e462');">
+                                    <div class="linenumber" style="visibility: hidden;">20</div><span class="apparatus" onclick="matchApp('app-d1e463');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">At length must make an end.</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e468" onclick="matchLine('lined1e468');">
+                                    <div class="linenumber" style="visibility: hidden;">21</div><span class="apparatus" onclick="matchApp('app-d1e469');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v25 v28 v29 v30">And now the mustering rooks innumerable</span><span class="reading v13">And now the muttering rooks innumerable</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e475" onclick="matchLine('lined1e475');">
+                                    <div class="linenumber" style="visibility: hidden;">22</div><span class="apparatus" onclick="matchApp('app-d1e476');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">Together sail and soar,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e480" onclick="matchLine('lined1e480');">
+                                    <div class="linenumber" style="visibility: hidden;">23</div><span class="apparatus" onclick="matchApp('app-d1e481');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v28 v29 v30">While for the day's death, like a tolling knell,</span><span class="reading v5">While for the day's death, like a tooling knell,</span><span class="reading v25">While for the day's death-like tolling knell,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e489" onclick="matchLine('lined1e489');">
+                                    <div class="linenumber" style="visibility: hidden;">24</div><span class="apparatus" onclick="matchApp('app-d1e490');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v12 v13 v16 v28 v29 v30">Unto the heart they seem to cry, Farewell,</span><span class="reading v11 v14 v15">Unto the heart they seem to cry Farewell,</span><span class="reading v25">Unto the heart they seem to say, Farewell,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span><span class="reading v29">Unto the heart may seem to cry, Farewell,</span></span></div>
+                                 <div class="line lined1e500" onclick="matchLine('lined1e500');">
+                                    <div class="linenumber" style="visibility: hidden;">25</div><span class="apparatus" onclick="matchApp('app-d1e501');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">No more, farewell, no more!</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e506" onclick="matchLine('lined1e506');">
+                                    <div class="linenumber" style="visibility: hidden;">26</div><span class="apparatus" onclick="matchApp('app-d1e507');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">Is Hope not plumed, as 'twere a fiery dart?</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e511" onclick="matchLine('lined1e511');">
+                                    <div class="linenumber" style="visibility: hidden;">27</div><span class="apparatus" onclick="matchApp('app-d1e512');"><span class="reading v1">And oh thou dying day,</span><span class="reading v2 v5 v8 v10">And, oh, thou dying day,</span><span class="reading v3 v4">And O thou dying day,</span><span class="reading v6">And O thy dying day,</span><span class="reading v7 v9 v13">And oh, thou dying day,</span><span class="reading v11 v15 v25">And, oh! thou dying day,</span><span class="reading v12">And, oh, thy dying day,</span><span class="reading v14">And O, thou dying day;</span><span class="reading v16 v28 v29">And oh! thou dying day,</span><span class="reading v30">And oh; thou dying day,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e534" onclick="matchLine('lined1e534');">
+                                    <div class="linenumber" style="visibility: hidden;">28</div><span class="apparatus" onclick="matchApp('app-d1e535');"><span class="reading v1 v2 v3 v4 v5 v7 v8 v9 v10 v11 v12 v16 v25 v28 v29 v30">Even as thou goest must she too depart,</span><span class="reading v13">Even as thou goest must she too depart</span><span class="reading v6 v14 v15">Even as thou goest must she, too, depart,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e543" onclick="matchLine('lined1e543');">
+                                    <div class="linenumber" style="visibility: hidden;">29</div><span class="apparatus" onclick="matchApp('app-d1e544');"><span class="reading v1 v2 v7 v8 v9 v11 v14 v15 v16 v28 v29 v30">And Sorrow fold such pinions on the heart</span><span class="reading v3 v4 v6">And Sorrow fold such pinions on the earth</span><span class="reading v5 v10 v12 v13">And sorrow fold such pinions on the heart</span><span class="reading v25">And sorrow told such pinions on the heart</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e554" onclick="matchLine('lined1e554');">
+                                    <div class="linenumber" style="visibility: hidden;">30</div><span class="apparatus" onclick="matchApp('app-d1e555');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">As will not fly away?</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><span class="apparatus app-d1e560 clickable" onclick="matchApp('app-d1e560');"><span class="reading v1 v3 v9 v14">D<span class="hi rend-smallcaps">ANTE</span> G. R<span class="hi rend-smallcaps">OSSETTI</span>.</span><span class="reading v2">DANTE G. ROSSETTI.</span><span class="reading v6 v7 v8"><span class="hi">Dante G. Rossetti</span></span><span class="reading v13">C<span class="hi rend-smallcaps">HRISTINA</span> G. R<span class="hi rend-smallcaps">OSETTI</span>.</span><span class="reading v16 v26 v27">D. G. Rossetti.</span><span class="reading v17 v20 v24">Dante Gabriel Rossetti.</span><span class="reading v18">Dante Gabriel Rosetti.</span><span class="reading v21"><span class="hi">Dante Gabriel Rosetti.</span></span><span class="reading v22">Dante Gabriel Rosetti.</span><span class="reading v23">Dante Gabriel Rossetti</span><span class="reading v25">Dante Gabrielle Rosetti.</span></span></div><br></td>
+                        <td width="10%s" align="right" valign="top"></td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="panel mssPanel">
+               <div class="panelBanner"><img class="closePanel" onclick="closePanel(this.parentNode.parentNode);" src="../vm-images/closePanel.gif" alt="X">Witness <select class="witnessMenu" onchange="changeWitness(this.value,this.parentNode.parentNode);">
+                     <option value="v1">Athenaeum (London), May 24, 1873</option>
+                     <option selected value="v2">New York Times (New York, NY), June 8, 1873</option>
+                     <option value="v3">Boston Daily Advertiser (Boston, MA), June 9, 1873</option>
+                     <option value="v4">Bangor Daily Whig &amp; Courier (Bangor, ME), June 12, 1873</option>
+                     <option value="v5">Albion (New York, NY), June 14, 1873</option>
+                     <option value="v6">Springfield Republican (Springfield, MA), June 18, 1873</option>
+                     <option value="v7">Buffalo Daily Courier (Buffalo, NY), June 28, 1873</option>
+                     <option value="v8">Daily Evening Bulletin (San Francisco, CA), June 28, 1873</option>
+                     <option value="v9">Every Saturday (Boston, MA), June 28, 1873</option>
+                     <option value="v10">Massachusetts Ploughman (Boston, MA), June 28, 1873</option>
+                     <option value="v11">Frank Leslie's Illustrated Newspaper (New York, NY), July 5, 1873</option>
+                     <option value="v12">Newport Mercury (Newport, RI), July 5, 1873</option>
+                     <option value="v13">New-Hampshire Patriot (Concord, NH), July 9, 1873</option>
+                     <option value="v14">Youth's Companion (Boston, MA), August 28, 1873</option>
+                     <option value="v15">Independent Statesman (Concord, NH), September 4, 1873</option>
+                     <option value="v16">Morning Oregonian (Portland, OR), March 20, 1898</option>
+                     <option value="v17">Philadelphia Inquirer (Philadelphia, PA), May 23, 1902</option>
+                     <option value="v18">Dallas Morning News (Dallas, TX), June 9, 1902</option>
+                     <option value="v19">Sunday Oregonian (Portland, OR), July 13, 1902</option>
+                     <option value="v20">Yuma Pioneer (Yuma, CO), August 22, 1902</option>
+                     <option value="v21">Kansas City Star (Kansas City, MO), July 5, 1911</option>
+                     <option value="v22">Arizona Republican (Phoenix, AZ), October 25, 1911</option>
+                     <option value="v23">Daily Oklahoman (Oklahoma City, OK), August 19, 1912</option>
+                     <option value="v24">Christian Science Monitor (Boston, MA), April 6, 1916</option>
+                     <option value="v25">Dallas Morning News (Dallas, TX), November 29, 1918</option>
+                     <option value="v26">Christian Science Monitor (Boston, MA), February 23, 1920</option>
+                     <option value="v27">Dallas Morning News (Dallas, TX), March 6, 1920</option>
+                     <option value="v28">Springfield Republican (Springfield, MA), April 28, 1921</option>
+                     <option value="v29">Albany Evening News (Albany, NY), July 19, 1927</option>
+                     <option value="v30">World Herald (Omaha, NE), May 14, 1935</option></select></div>
+               <div class="mssContent">
+                  <table style="table-layout:fixed; width:350px">
+                     <tr>
+                        <td>
+                           <div class="stanzabreak">
+                              <div class="head type-main"><span class="apparatus app-d1e207 clickable" onclick="matchApp('app-d1e207');"><span class="reading v1 v5 v29">SUNSET WINGS</span><span class="reading v2 v4 v7 v8 v9 v10 v11 v14 v15 v16 v18 v21 v22 v23 v25 v27">SUNSET WINGS.</span><span class="reading v3"><span class="hi">SUNSET WINGS</span>.</span><span class="reading v6 v12 v13 v19">Sunset Wings.</span><span class="reading v17 v24 v26 v28">Sunset Wings</span><span class="reading v20 v30"><span class="hi">Sunset Wings</span>.</span></span></div><span class="apparatus app-d1e225 clickable" onclick="matchApp('app-d1e225');"><span class="reading v4 v5">BY DANTE G. ROSSETTI.</span><span class="reading v10"><span class="hi rend-smallcaps">BY DANTE G. ROSSETTI.</span></span><span class="reading v11"><span class="hi rend-smallcaps">BY</span><br class="linebreak"> D<span class="hi rend-smallcaps">ANTE</span> G. R<span class="hi rend-smallcaps">OSSETTI</span>.</span><span class="reading v12"><span class="hi rend-smallcaps">BY DANIEL G. ROSSETTI.</span></span><span class="reading v15">BY DANTE G. ROSSETI.</span><span class="reading v19">Dante Gabriel Rossetti.</span><span class="reading v28">[By Dante Gabriel Rossetti.]</span><span class="reading v29">By Dante Gabriel Rossetti.</span><span class="reading v30">BY DANTE GABRIEL ROSSETTI.</span></span><div class="stanzabreak">
+                                 <div class="line lined1e256" onclick="matchLine('lined1e256');">
+                                    <div class="linenumber" style="visibility: hidden;">1</div><span class="apparatus" onclick="matchApp('app-d1e257');"><span class="reading v1 v9 v11 v27">T<span class="hi rend-smallcaps">O-NIGHT</span> this sunset spreads two golden wings</span><span class="reading v2 v4 v5 v6 v7 v8 v10 v12 v13 v20">To-night this sunset spreads two golden wings</span><span class="reading v3 v16 v19 v24 v26 v28">Tonight this sunset spreads two golden wings</span><span class="reading v25 v30">Tonight the sunset spreads two golden wings</span><span class="reading v14 v15 v17">To-night this sunset spreads two golden wings,</span><span class="reading v18 v21 v22 v23">Tonight the sunset spreads two golden wings,</span><span class="reading v29">T<span class="hi rend-smallcaps">ONIGHT</span> this sunset spreads two golden wings</span></span></div>
+                                 <div class="line lined1e278" onclick="matchLine('lined1e278');">
+                                    <div class="linenumber" style="visibility: hidden;">2</div><span class="apparatus" onclick="matchApp('app-d1e279');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v19 v21 v22 v24 v25 v26 v27 v28 v29 v30">Cleaving the western sky;</span><span class="reading v18 v20">Cleaving the Western sky;</span><span class="reading v23">Cleaving the western sky,</span></span></div>
+                                 <div class="line lined1e286" onclick="matchLine('lined1e286');">
+                                    <div class="linenumber" style="visibility: hidden;">3</div><span class="apparatus" onclick="matchApp('app-d1e287');"><span class="reading v1 v2 v4 v5 v7 v8 v9 v10 v12 v13 v24 v25 v26 v28 v29 v30">Winged too with wind it is, and winnowings</span><span class="reading v3">Winged too with with wind it is, and winnowings</span><span class="reading v6 v11 v14 v15 v17 v18 v19 v20 v21 v22 v23 v27">Winged, too, with wind it is, and winnowings</span><span class="reading v16">Wing'd too with wind it is, and winnowings</span></span></div>
+                                 <div class="line lined1e296" onclick="matchLine('lined1e296');">
+                                    <div class="linenumber" style="visibility: hidden;">4</div><span class="apparatus" onclick="matchApp('app-d1e297');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v25 v28 v29 v30">Of birds; as if the day's last hour in rings</span><span class="reading v24 v26">Of birds; . . .</span><span class="reading v27">Of birds</span></span></div>
+                                 <div class="line lined1e304" onclick="matchLine('lined1e304');">
+                                    <div class="linenumber" style="visibility: hidden;">5</div><span class="apparatus" onclick="matchApp('app-d1e305');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v25 v28 v29">Of strenuous flight must die.</span><span class="reading v12">Of strenuous tight must die.</span><span class="reading v30">Of strenuous flight may die.</span><span class="reading v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e314" onclick="matchLine('lined1e314');">
+                                    <div class="linenumber" style="visibility: hidden;">6</div><span class="apparatus" onclick="matchApp('app-d1e315');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v13 v14 v15 v17 v18 v19 v20 v21 v22 v24 v25 v26 v27 v28 v30">Sun-steeped in fire, the homeward pinions sway</span><span class="reading v10 v12">Sun-steeped to fire, the homeward pinions sway</span><span class="reading v11 v23 v29">Sun steeped in fire, the homeward pinions sway</span><span class="reading v16">Sun-steep'd in fire, the homeward pinions sway</span></span></div>
+                                 <div class="line lined1e324" onclick="matchLine('lined1e324');">
+                                    <div class="linenumber" style="visibility: hidden;">7</div><span class="apparatus" onclick="matchApp('app-d1e325');"><span class="reading v1 v17">Above the dove-cote tops;</span><span class="reading v2 v3 v4 v5 v6 v8 v9 v11 v14 v16 v19 v20 v24 v26 v27 v28 v30">Above the dovecote-tops;</span><span class="reading v7 v10 v12 v13 v25">Above the dovecote tops;</span><span class="reading v15">Above the dovecot-tops;</span><span class="reading v18">Above the dovecote's tops;</span><span class="reading v21 v22">Above the dove-cote's tops;</span><span class="reading v23">Above the dovescote's tops;</span><span class="reading v29">Above the dove cote tops;</span></span></div>
+                                 <div class="line lined1e342" onclick="matchLine('lined1e342');">
+                                    <div class="linenumber" style="visibility: hidden;">8</div><span class="apparatus" onclick="matchApp('app-d1e343');"><span class="reading v1 v2 v3 v4 v5 v6 7 v8 v9 v10 v11 v13 v14 v15 v16 v18 v19 v20 v21 v22 v23 v24 v25 v26 v27 v28 v29 v30">And clouds of starlings, ere they rest with day,</span><span class="reading v12">And clouds of starling, ere they rest with day,</span><span class="reading v17">And clouds of starlings, ere they rest with day</span></span></div>
+                                 <div class="line lined1e350" onclick="matchLine('lined1e350');">
+                                    <div class="linenumber" style="visibility: hidden;">9</div><span class="apparatus" onclick="matchApp('app-d1e351');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v16 v17 v18 v19 v20 v24 v25 v26 v27 v28">Sink, clamorous like mill-waters, at wild play,</span><span class="reading v5">Sink, clamorous like mill waters, at wild play,</span><span class="reading v14 v15 v29 v30">Sink, clamorous, like mill-waters, at wild play,</span><span class="reading v21 v22 v23">Sink clamorous like mill waters, at wild play,</span></span></div>
+                                 <div class="line lined1e360" onclick="matchLine('lined1e360');">
+                                    <div class="linenumber" style="visibility: hidden;">10</div><span class="apparatus" onclick="matchApp('app-d1e361');"><span class="reading v1 v2 v7 v9 v11 v16 v24 v26 v27 v28 v30">By turns in every copse:</span><span class="reading v3 v4 v5 v6 v13 v14 v15 v18 v23 v25 v29">By turns in every copse.</span><span class="reading v8 v10 v12 v17 v19 v20 v21 v22">By turns in every copse;</span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e369" onclick="matchLine('lined1e369');">
+                                    <div class="linenumber" style="visibility: hidden;">11</div><span class="apparatus" onclick="matchApp('app-d1e370');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v16 v24 v28">Each tree heart-deep the wrangling rout receives,—</span><span class="reading v13">Each tree heart-deep the wrangling rout receives,</span><span class="reading v14">Each tree, heart-deep, the wrangling rout receives,—</span><span class="reading v15">Each tree, heart-deep, the wrangling rout receives—</span><span class="reading v18 v21 v22 v23">Each tree, heart-deep the wrangling rout receives—</span><span class="reading v17 v19 v20 v26 v27 v30">Each tree heart-deep the wrangling rout receives—</span><span class="reading v25">Each tree heart-deep the wringing rout receives—</span><span class="reading v29">Each tree heart deep the wrangling rout receives,—</span></span></div>
+                                 <div class="line lined1e387" onclick="matchLine('lined1e387');">
+                                    <div class="linenumber" style="visibility: hidden;">12</div><span class="apparatus" onclick="matchApp('app-d1e388');"><span class="reading v1 v2 v3 v4 v5 v7 v8 v9 v10 v11 v12 v13 v14 v15">But for the whirr within,</span><span class="reading v6">But for the whirl within,</span><span class="reading v16 v17 v18 v19 v20 v21 v22 v23 v25 v26 v27 v28 v29 v30">Save for the whirr within,</span><span class="reading v24">Save for the whir within,</span></span></div>
+                                 <div class="line lined1e397" onclick="matchLine('lined1e397');">
+                                    <div class="linenumber" style="visibility: hidden;">13</div><span class="apparatus" onclick="matchApp('app-d1e398');"><span class="reading v1 v2 v3 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v24 v25 v26 v27 v28 v29 v30">You could not tell the starlings from the leaves;</span><span class="reading v4 v6">You could not tell the startlings from the leaves;</span><span class="reading v5">You could not tell the starlings from the leaves,</span><span class="reading v26">You could not tell the starlings from the leaves</span></span></div>
+                                 <div class="line lined1e407" onclick="matchLine('lined1e407');">
+                                    <div class="linenumber" style="visibility: hidden;">14</div><span class="apparatus" onclick="matchApp('app-d1e408');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v17 v18 v19 v20 v21 v24 v25 v26 v27 v28 v29 v30">Then one great puff of wings, and the swarm heaves</span><span class="reading v13">Then one great puff of wings, and the swarm</span><span class="reading v22 v23">Then one great puff of wings and the swarm heaves</span></span></div>
+                                 <div class="line lined1e415" onclick="matchLine('lined1e415');">
+                                    <div class="linenumber" style="visibility: hidden;">15</div><span class="apparatus" onclick="matchApp('app-d1e416');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v17 v18 v19 v20 v21 v22 v24 v25 v26 v27 v28 v29 v30">Away with all its din.</span><span class="reading v13">Heaves away with all its din.</span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e422" onclick="matchLine('lined1e422');">
+                                    <div class="linenumber" style="visibility: hidden;">16</div><span class="apparatus" onclick="matchApp('app-d1e423');"><span class="reading v1 v2 v5 v8 v9 v11 v16 v25 v28 v30">Even thus Hope's hours, in ever-eddying flight,</span><span class="reading v3 v4">Even thus Hope's hours, in every edding flight,</span><span class="reading v6">Even thus Hope's hours, in every eddying flight</span><span class="reading v7 v13">Even thus Hope's hours, in ever eddying flight,</span><span class="reading v10 v12">Even thus Hope's hours, in ever-eddying night,</span><span class="reading v14 v15">Even thus, Hope's hours, in ever-eddying flight,</span><span class="reading v29">Even thus Hope's hours in ever eddying flight,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e439" onclick="matchLine('lined1e439');">
+                                    <div class="linenumber" style="visibility: hidden;">17</div><span class="apparatus" onclick="matchApp('app-d1e440');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v29 v30">To many a refuge tend;</span><span class="reading v5">To many a refuge tend,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e446" onclick="matchLine('lined1e446');">
+                                    <div class="linenumber" style="visibility: hidden;">18</div><span class="apparatus" onclick="matchApp('app-d1e447');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v25 v28 v29 v30">With the first light she laughed, and the last light</span><span class="reading v16">With the first light she laugh'd, and the last light</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e453" onclick="matchLine('lined1e453');">
+                                    <div class="linenumber" style="visibility: hidden;">19</div><span class="apparatus" onclick="matchApp('app-d1e454');"><span class="reading v1 v2 v3 v4 v5 v6 v8 v10 v12 v16 v28 v29 v30">Glows round her still; who natheless in the night</span><span class="reading v7 v9 v11 v13 v25">Glows round her still; who nathless in the night</span><span class="reading v14 v15">Glows round her still; who, nathless in the night,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e462" onclick="matchLine('lined1e462');">
+                                    <div class="linenumber" style="visibility: hidden;">20</div><span class="apparatus" onclick="matchApp('app-d1e463');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">At length must make an end.</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e468" onclick="matchLine('lined1e468');">
+                                    <div class="linenumber" style="visibility: hidden;">21</div><span class="apparatus" onclick="matchApp('app-d1e469');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v25 v28 v29 v30">And now the mustering rooks innumerable</span><span class="reading v13">And now the muttering rooks innumerable</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e475" onclick="matchLine('lined1e475');">
+                                    <div class="linenumber" style="visibility: hidden;">22</div><span class="apparatus" onclick="matchApp('app-d1e476');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">Together sail and soar,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e480" onclick="matchLine('lined1e480');">
+                                    <div class="linenumber" style="visibility: hidden;">23</div><span class="apparatus" onclick="matchApp('app-d1e481');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v28 v29 v30">While for the day's death, like a tolling knell,</span><span class="reading v5">While for the day's death, like a tooling knell,</span><span class="reading v25">While for the day's death-like tolling knell,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e489" onclick="matchLine('lined1e489');">
+                                    <div class="linenumber" style="visibility: hidden;">24</div><span class="apparatus" onclick="matchApp('app-d1e490');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v12 v13 v16 v28 v29 v30">Unto the heart they seem to cry, Farewell,</span><span class="reading v11 v14 v15">Unto the heart they seem to cry Farewell,</span><span class="reading v25">Unto the heart they seem to say, Farewell,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span><span class="reading v29">Unto the heart may seem to cry, Farewell,</span></span></div>
+                                 <div class="line lined1e500" onclick="matchLine('lined1e500');">
+                                    <div class="linenumber" style="visibility: hidden;">25</div><span class="apparatus" onclick="matchApp('app-d1e501');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">No more, farewell, no more!</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e506" onclick="matchLine('lined1e506');">
+                                    <div class="linenumber" style="visibility: hidden;">26</div><span class="apparatus" onclick="matchApp('app-d1e507');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">Is Hope not plumed, as 'twere a fiery dart?</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e511" onclick="matchLine('lined1e511');">
+                                    <div class="linenumber" style="visibility: hidden;">27</div><span class="apparatus" onclick="matchApp('app-d1e512');"><span class="reading v1">And oh thou dying day,</span><span class="reading v2 v5 v8 v10">And, oh, thou dying day,</span><span class="reading v3 v4">And O thou dying day,</span><span class="reading v6">And O thy dying day,</span><span class="reading v7 v9 v13">And oh, thou dying day,</span><span class="reading v11 v15 v25">And, oh! thou dying day,</span><span class="reading v12">And, oh, thy dying day,</span><span class="reading v14">And O, thou dying day;</span><span class="reading v16 v28 v29">And oh! thou dying day,</span><span class="reading v30">And oh; thou dying day,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e534" onclick="matchLine('lined1e534');">
+                                    <div class="linenumber" style="visibility: hidden;">28</div><span class="apparatus" onclick="matchApp('app-d1e535');"><span class="reading v1 v2 v3 v4 v5 v7 v8 v9 v10 v11 v12 v16 v25 v28 v29 v30">Even as thou goest must she too depart,</span><span class="reading v13">Even as thou goest must she too depart</span><span class="reading v6 v14 v15">Even as thou goest must she, too, depart,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e543" onclick="matchLine('lined1e543');">
+                                    <div class="linenumber" style="visibility: hidden;">29</div><span class="apparatus" onclick="matchApp('app-d1e544');"><span class="reading v1 v2 v7 v8 v9 v11 v14 v15 v16 v28 v29 v30">And Sorrow fold such pinions on the heart</span><span class="reading v3 v4 v6">And Sorrow fold such pinions on the earth</span><span class="reading v5 v10 v12 v13">And sorrow fold such pinions on the heart</span><span class="reading v25">And sorrow told such pinions on the heart</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e554" onclick="matchLine('lined1e554');">
+                                    <div class="linenumber" style="visibility: hidden;">30</div><span class="apparatus" onclick="matchApp('app-d1e555');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">As will not fly away?</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><span class="apparatus app-d1e560 clickable" onclick="matchApp('app-d1e560');"><span class="reading v1 v3 v9 v14">D<span class="hi rend-smallcaps">ANTE</span> G. R<span class="hi rend-smallcaps">OSSETTI</span>.</span><span class="reading v2">DANTE G. ROSSETTI.</span><span class="reading v6 v7 v8"><span class="hi">Dante G. Rossetti</span></span><span class="reading v13">C<span class="hi rend-smallcaps">HRISTINA</span> G. R<span class="hi rend-smallcaps">OSETTI</span>.</span><span class="reading v16 v26 v27">D. G. Rossetti.</span><span class="reading v17 v20 v24">Dante Gabriel Rossetti.</span><span class="reading v18">Dante Gabriel Rosetti.</span><span class="reading v21"><span class="hi">Dante Gabriel Rosetti.</span></span><span class="reading v22">Dante Gabriel Rosetti.</span><span class="reading v23">Dante Gabriel Rossetti</span><span class="reading v25">Dante Gabrielle Rosetti.</span></span></div><br></td>
+                        <td width="10%s" align="right" valign="top"></td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="panel mssPanel">
+               <div class="panelBanner"><img class="closePanel" onclick="closePanel(this.parentNode.parentNode);" src="../vm-images/closePanel.gif" alt="X">Witness <select class="witnessMenu" onchange="changeWitness(this.value,this.parentNode.parentNode);">
+                     <option value="v1">Athenaeum (London), May 24, 1873</option>
+                     <option value="v2">New York Times (New York, NY), June 8, 1873</option>
+                     <option selected value="v3">Boston Daily Advertiser (Boston, MA), June 9, 1873</option>
+                     <option value="v4">Bangor Daily Whig &amp; Courier (Bangor, ME), June 12, 1873</option>
+                     <option value="v5">Albion (New York, NY), June 14, 1873</option>
+                     <option value="v6">Springfield Republican (Springfield, MA), June 18, 1873</option>
+                     <option value="v7">Buffalo Daily Courier (Buffalo, NY), June 28, 1873</option>
+                     <option value="v8">Daily Evening Bulletin (San Francisco, CA), June 28, 1873</option>
+                     <option value="v9">Every Saturday (Boston, MA), June 28, 1873</option>
+                     <option value="v10">Massachusetts Ploughman (Boston, MA), June 28, 1873</option>
+                     <option value="v11">Frank Leslie's Illustrated Newspaper (New York, NY), July 5, 1873</option>
+                     <option value="v12">Newport Mercury (Newport, RI), July 5, 1873</option>
+                     <option value="v13">New-Hampshire Patriot (Concord, NH), July 9, 1873</option>
+                     <option value="v14">Youth's Companion (Boston, MA), August 28, 1873</option>
+                     <option value="v15">Independent Statesman (Concord, NH), September 4, 1873</option>
+                     <option value="v16">Morning Oregonian (Portland, OR), March 20, 1898</option>
+                     <option value="v17">Philadelphia Inquirer (Philadelphia, PA), May 23, 1902</option>
+                     <option value="v18">Dallas Morning News (Dallas, TX), June 9, 1902</option>
+                     <option value="v19">Sunday Oregonian (Portland, OR), July 13, 1902</option>
+                     <option value="v20">Yuma Pioneer (Yuma, CO), August 22, 1902</option>
+                     <option value="v21">Kansas City Star (Kansas City, MO), July 5, 1911</option>
+                     <option value="v22">Arizona Republican (Phoenix, AZ), October 25, 1911</option>
+                     <option value="v23">Daily Oklahoman (Oklahoma City, OK), August 19, 1912</option>
+                     <option value="v24">Christian Science Monitor (Boston, MA), April 6, 1916</option>
+                     <option value="v25">Dallas Morning News (Dallas, TX), November 29, 1918</option>
+                     <option value="v26">Christian Science Monitor (Boston, MA), February 23, 1920</option>
+                     <option value="v27">Dallas Morning News (Dallas, TX), March 6, 1920</option>
+                     <option value="v28">Springfield Republican (Springfield, MA), April 28, 1921</option>
+                     <option value="v29">Albany Evening News (Albany, NY), July 19, 1927</option>
+                     <option value="v30">World Herald (Omaha, NE), May 14, 1935</option></select></div>
+               <div class="mssContent">
+                  <table style="table-layout:fixed; width:350px">
+                     <tr>
+                        <td>
+                           <div class="stanzabreak">
+                              <div class="head type-main"><span class="apparatus app-d1e207 clickable" onclick="matchApp('app-d1e207');"><span class="reading v1 v5 v29">SUNSET WINGS</span><span class="reading v2 v4 v7 v8 v9 v10 v11 v14 v15 v16 v18 v21 v22 v23 v25 v27">SUNSET WINGS.</span><span class="reading v3"><span class="hi">SUNSET WINGS</span>.</span><span class="reading v6 v12 v13 v19">Sunset Wings.</span><span class="reading v17 v24 v26 v28">Sunset Wings</span><span class="reading v20 v30"><span class="hi">Sunset Wings</span>.</span></span></div><span class="apparatus app-d1e225 clickable" onclick="matchApp('app-d1e225');"><span class="reading v4 v5">BY DANTE G. ROSSETTI.</span><span class="reading v10"><span class="hi rend-smallcaps">BY DANTE G. ROSSETTI.</span></span><span class="reading v11"><span class="hi rend-smallcaps">BY</span><br class="linebreak"> D<span class="hi rend-smallcaps">ANTE</span> G. R<span class="hi rend-smallcaps">OSSETTI</span>.</span><span class="reading v12"><span class="hi rend-smallcaps">BY DANIEL G. ROSSETTI.</span></span><span class="reading v15">BY DANTE G. ROSSETI.</span><span class="reading v19">Dante Gabriel Rossetti.</span><span class="reading v28">[By Dante Gabriel Rossetti.]</span><span class="reading v29">By Dante Gabriel Rossetti.</span><span class="reading v30">BY DANTE GABRIEL ROSSETTI.</span></span><div class="stanzabreak">
+                                 <div class="line lined1e256" onclick="matchLine('lined1e256');">
+                                    <div class="linenumber" style="visibility: hidden;">1</div><span class="apparatus" onclick="matchApp('app-d1e257');"><span class="reading v1 v9 v11 v27">T<span class="hi rend-smallcaps">O-NIGHT</span> this sunset spreads two golden wings</span><span class="reading v2 v4 v5 v6 v7 v8 v10 v12 v13 v20">To-night this sunset spreads two golden wings</span><span class="reading v3 v16 v19 v24 v26 v28">Tonight this sunset spreads two golden wings</span><span class="reading v25 v30">Tonight the sunset spreads two golden wings</span><span class="reading v14 v15 v17">To-night this sunset spreads two golden wings,</span><span class="reading v18 v21 v22 v23">Tonight the sunset spreads two golden wings,</span><span class="reading v29">T<span class="hi rend-smallcaps">ONIGHT</span> this sunset spreads two golden wings</span></span></div>
+                                 <div class="line lined1e278" onclick="matchLine('lined1e278');">
+                                    <div class="linenumber" style="visibility: hidden;">2</div><span class="apparatus" onclick="matchApp('app-d1e279');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v19 v21 v22 v24 v25 v26 v27 v28 v29 v30">Cleaving the western sky;</span><span class="reading v18 v20">Cleaving the Western sky;</span><span class="reading v23">Cleaving the western sky,</span></span></div>
+                                 <div class="line lined1e286" onclick="matchLine('lined1e286');">
+                                    <div class="linenumber" style="visibility: hidden;">3</div><span class="apparatus" onclick="matchApp('app-d1e287');"><span class="reading v1 v2 v4 v5 v7 v8 v9 v10 v12 v13 v24 v25 v26 v28 v29 v30">Winged too with wind it is, and winnowings</span><span class="reading v3">Winged too with with wind it is, and winnowings</span><span class="reading v6 v11 v14 v15 v17 v18 v19 v20 v21 v22 v23 v27">Winged, too, with wind it is, and winnowings</span><span class="reading v16">Wing'd too with wind it is, and winnowings</span></span></div>
+                                 <div class="line lined1e296" onclick="matchLine('lined1e296');">
+                                    <div class="linenumber" style="visibility: hidden;">4</div><span class="apparatus" onclick="matchApp('app-d1e297');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v25 v28 v29 v30">Of birds; as if the day's last hour in rings</span><span class="reading v24 v26">Of birds; . . .</span><span class="reading v27">Of birds</span></span></div>
+                                 <div class="line lined1e304" onclick="matchLine('lined1e304');">
+                                    <div class="linenumber" style="visibility: hidden;">5</div><span class="apparatus" onclick="matchApp('app-d1e305');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v25 v28 v29">Of strenuous flight must die.</span><span class="reading v12">Of strenuous tight must die.</span><span class="reading v30">Of strenuous flight may die.</span><span class="reading v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e314" onclick="matchLine('lined1e314');">
+                                    <div class="linenumber" style="visibility: hidden;">6</div><span class="apparatus" onclick="matchApp('app-d1e315');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v13 v14 v15 v17 v18 v19 v20 v21 v22 v24 v25 v26 v27 v28 v30">Sun-steeped in fire, the homeward pinions sway</span><span class="reading v10 v12">Sun-steeped to fire, the homeward pinions sway</span><span class="reading v11 v23 v29">Sun steeped in fire, the homeward pinions sway</span><span class="reading v16">Sun-steep'd in fire, the homeward pinions sway</span></span></div>
+                                 <div class="line lined1e324" onclick="matchLine('lined1e324');">
+                                    <div class="linenumber" style="visibility: hidden;">7</div><span class="apparatus" onclick="matchApp('app-d1e325');"><span class="reading v1 v17">Above the dove-cote tops;</span><span class="reading v2 v3 v4 v5 v6 v8 v9 v11 v14 v16 v19 v20 v24 v26 v27 v28 v30">Above the dovecote-tops;</span><span class="reading v7 v10 v12 v13 v25">Above the dovecote tops;</span><span class="reading v15">Above the dovecot-tops;</span><span class="reading v18">Above the dovecote's tops;</span><span class="reading v21 v22">Above the dove-cote's tops;</span><span class="reading v23">Above the dovescote's tops;</span><span class="reading v29">Above the dove cote tops;</span></span></div>
+                                 <div class="line lined1e342" onclick="matchLine('lined1e342');">
+                                    <div class="linenumber" style="visibility: hidden;">8</div><span class="apparatus" onclick="matchApp('app-d1e343');"><span class="reading v1 v2 v3 v4 v5 v6 7 v8 v9 v10 v11 v13 v14 v15 v16 v18 v19 v20 v21 v22 v23 v24 v25 v26 v27 v28 v29 v30">And clouds of starlings, ere they rest with day,</span><span class="reading v12">And clouds of starling, ere they rest with day,</span><span class="reading v17">And clouds of starlings, ere they rest with day</span></span></div>
+                                 <div class="line lined1e350" onclick="matchLine('lined1e350');">
+                                    <div class="linenumber" style="visibility: hidden;">9</div><span class="apparatus" onclick="matchApp('app-d1e351');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v16 v17 v18 v19 v20 v24 v25 v26 v27 v28">Sink, clamorous like mill-waters, at wild play,</span><span class="reading v5">Sink, clamorous like mill waters, at wild play,</span><span class="reading v14 v15 v29 v30">Sink, clamorous, like mill-waters, at wild play,</span><span class="reading v21 v22 v23">Sink clamorous like mill waters, at wild play,</span></span></div>
+                                 <div class="line lined1e360" onclick="matchLine('lined1e360');">
+                                    <div class="linenumber" style="visibility: hidden;">10</div><span class="apparatus" onclick="matchApp('app-d1e361');"><span class="reading v1 v2 v7 v9 v11 v16 v24 v26 v27 v28 v30">By turns in every copse:</span><span class="reading v3 v4 v5 v6 v13 v14 v15 v18 v23 v25 v29">By turns in every copse.</span><span class="reading v8 v10 v12 v17 v19 v20 v21 v22">By turns in every copse;</span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e369" onclick="matchLine('lined1e369');">
+                                    <div class="linenumber" style="visibility: hidden;">11</div><span class="apparatus" onclick="matchApp('app-d1e370');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v16 v24 v28">Each tree heart-deep the wrangling rout receives,—</span><span class="reading v13">Each tree heart-deep the wrangling rout receives,</span><span class="reading v14">Each tree, heart-deep, the wrangling rout receives,—</span><span class="reading v15">Each tree, heart-deep, the wrangling rout receives—</span><span class="reading v18 v21 v22 v23">Each tree, heart-deep the wrangling rout receives—</span><span class="reading v17 v19 v20 v26 v27 v30">Each tree heart-deep the wrangling rout receives—</span><span class="reading v25">Each tree heart-deep the wringing rout receives—</span><span class="reading v29">Each tree heart deep the wrangling rout receives,—</span></span></div>
+                                 <div class="line lined1e387" onclick="matchLine('lined1e387');">
+                                    <div class="linenumber" style="visibility: hidden;">12</div><span class="apparatus" onclick="matchApp('app-d1e388');"><span class="reading v1 v2 v3 v4 v5 v7 v8 v9 v10 v11 v12 v13 v14 v15">But for the whirr within,</span><span class="reading v6">But for the whirl within,</span><span class="reading v16 v17 v18 v19 v20 v21 v22 v23 v25 v26 v27 v28 v29 v30">Save for the whirr within,</span><span class="reading v24">Save for the whir within,</span></span></div>
+                                 <div class="line lined1e397" onclick="matchLine('lined1e397');">
+                                    <div class="linenumber" style="visibility: hidden;">13</div><span class="apparatus" onclick="matchApp('app-d1e398');"><span class="reading v1 v2 v3 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18 v19 v20 v21 v22 v23 v24 v25 v26 v27 v28 v29 v30">You could not tell the starlings from the leaves;</span><span class="reading v4 v6">You could not tell the startlings from the leaves;</span><span class="reading v5">You could not tell the starlings from the leaves,</span><span class="reading v26">You could not tell the starlings from the leaves</span></span></div>
+                                 <div class="line lined1e407" onclick="matchLine('lined1e407');">
+                                    <div class="linenumber" style="visibility: hidden;">14</div><span class="apparatus" onclick="matchApp('app-d1e408');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v17 v18 v19 v20 v21 v24 v25 v26 v27 v28 v29 v30">Then one great puff of wings, and the swarm heaves</span><span class="reading v13">Then one great puff of wings, and the swarm</span><span class="reading v22 v23">Then one great puff of wings and the swarm heaves</span></span></div>
+                                 <div class="line lined1e415" onclick="matchLine('lined1e415');">
+                                    <div class="linenumber" style="visibility: hidden;">15</div><span class="apparatus" onclick="matchApp('app-d1e416');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v17 v18 v19 v20 v21 v22 v24 v25 v26 v27 v28 v29 v30">Away with all its din.</span><span class="reading v13">Heaves away with all its din.</span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e422" onclick="matchLine('lined1e422');">
+                                    <div class="linenumber" style="visibility: hidden;">16</div><span class="apparatus" onclick="matchApp('app-d1e423');"><span class="reading v1 v2 v5 v8 v9 v11 v16 v25 v28 v30">Even thus Hope's hours, in ever-eddying flight,</span><span class="reading v3 v4">Even thus Hope's hours, in every edding flight,</span><span class="reading v6">Even thus Hope's hours, in every eddying flight</span><span class="reading v7 v13">Even thus Hope's hours, in ever eddying flight,</span><span class="reading v10 v12">Even thus Hope's hours, in ever-eddying night,</span><span class="reading v14 v15">Even thus, Hope's hours, in ever-eddying flight,</span><span class="reading v29">Even thus Hope's hours in ever eddying flight,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e439" onclick="matchLine('lined1e439');">
+                                    <div class="linenumber" style="visibility: hidden;">17</div><span class="apparatus" onclick="matchApp('app-d1e440');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v29 v30">To many a refuge tend;</span><span class="reading v5">To many a refuge tend,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e446" onclick="matchLine('lined1e446');">
+                                    <div class="linenumber" style="visibility: hidden;">18</div><span class="apparatus" onclick="matchApp('app-d1e447');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v25 v28 v29 v30">With the first light she laughed, and the last light</span><span class="reading v16">With the first light she laugh'd, and the last light</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e453" onclick="matchLine('lined1e453');">
+                                    <div class="linenumber" style="visibility: hidden;">19</div><span class="apparatus" onclick="matchApp('app-d1e454');"><span class="reading v1 v2 v3 v4 v5 v6 v8 v10 v12 v16 v28 v29 v30">Glows round her still; who natheless in the night</span><span class="reading v7 v9 v11 v13 v25">Glows round her still; who nathless in the night</span><span class="reading v14 v15">Glows round her still; who, nathless in the night,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e462" onclick="matchLine('lined1e462');">
+                                    <div class="linenumber" style="visibility: hidden;">20</div><span class="apparatus" onclick="matchApp('app-d1e463');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">At length must make an end.</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e468" onclick="matchLine('lined1e468');">
+                                    <div class="linenumber" style="visibility: hidden;">21</div><span class="apparatus" onclick="matchApp('app-d1e469');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v14 v15 v16 v25 v28 v29 v30">And now the mustering rooks innumerable</span><span class="reading v13">And now the muttering rooks innumerable</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e475" onclick="matchLine('lined1e475');">
+                                    <div class="linenumber" style="visibility: hidden;">22</div><span class="apparatus" onclick="matchApp('app-d1e476');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">Together sail and soar,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e480" onclick="matchLine('lined1e480');">
+                                    <div class="linenumber" style="visibility: hidden;">23</div><span class="apparatus" onclick="matchApp('app-d1e481');"><span class="reading v1 v2 v3 v4 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v28 v29 v30">While for the day's death, like a tolling knell,</span><span class="reading v5">While for the day's death, like a tooling knell,</span><span class="reading v25">While for the day's death-like tolling knell,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e489" onclick="matchLine('lined1e489');">
+                                    <div class="linenumber" style="visibility: hidden;">24</div><span class="apparatus" onclick="matchApp('app-d1e490');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v12 v13 v16 v28 v29 v30">Unto the heart they seem to cry, Farewell,</span><span class="reading v11 v14 v15">Unto the heart they seem to cry Farewell,</span><span class="reading v25">Unto the heart they seem to say, Farewell,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span><span class="reading v29">Unto the heart may seem to cry, Farewell,</span></span></div>
+                                 <div class="line lined1e500" onclick="matchLine('lined1e500');">
+                                    <div class="linenumber" style="visibility: hidden;">25</div><span class="apparatus" onclick="matchApp('app-d1e501');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">No more, farewell, no more!</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><div class="stanzabreak">
+                                 <div class="line lined1e506" onclick="matchLine('lined1e506');">
+                                    <div class="linenumber" style="visibility: hidden;">26</div><span class="apparatus" onclick="matchApp('app-d1e507');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">Is Hope not plumed, as 'twere a fiery dart?</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e511" onclick="matchLine('lined1e511');">
+                                    <div class="linenumber" style="visibility: hidden;">27</div><span class="apparatus" onclick="matchApp('app-d1e512');"><span class="reading v1">And oh thou dying day,</span><span class="reading v2 v5 v8 v10">And, oh, thou dying day,</span><span class="reading v3 v4">And O thou dying day,</span><span class="reading v6">And O thy dying day,</span><span class="reading v7 v9 v13">And oh, thou dying day,</span><span class="reading v11 v15 v25">And, oh! thou dying day,</span><span class="reading v12">And, oh, thy dying day,</span><span class="reading v14">And O, thou dying day;</span><span class="reading v16 v28 v29">And oh! thou dying day,</span><span class="reading v30">And oh; thou dying day,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e534" onclick="matchLine('lined1e534');">
+                                    <div class="linenumber" style="visibility: hidden;">28</div><span class="apparatus" onclick="matchApp('app-d1e535');"><span class="reading v1 v2 v3 v4 v5 v7 v8 v9 v10 v11 v12 v16 v25 v28 v29 v30">Even as thou goest must she too depart,</span><span class="reading v13">Even as thou goest must she too depart</span><span class="reading v6 v14 v15">Even as thou goest must she, too, depart,</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e543" onclick="matchLine('lined1e543');">
+                                    <div class="linenumber" style="visibility: hidden;">29</div><span class="apparatus" onclick="matchApp('app-d1e544');"><span class="reading v1 v2 v7 v8 v9 v11 v14 v15 v16 v28 v29 v30">And Sorrow fold such pinions on the heart</span><span class="reading v3 v4 v6">And Sorrow fold such pinions on the earth</span><span class="reading v5 v10 v12 v13">And sorrow fold such pinions on the heart</span><span class="reading v25">And sorrow told such pinions on the heart</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                                 <div class="line lined1e554" onclick="matchLine('lined1e554');">
+                                    <div class="linenumber" style="visibility: hidden;">30</div><span class="apparatus" onclick="matchApp('app-d1e555');"><span class="reading v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v25 v28 v29 v30">As will not fly away?</span><span class="reading v17 v18 v19 v20 v21 v22 v23 v24 v26 v27"></span></span></div>
+                              </div><br><span class="apparatus app-d1e560 clickable" onclick="matchApp('app-d1e560');"><span class="reading v1 v3 v9 v14">D<span class="hi rend-smallcaps">ANTE</span> G. R<span class="hi rend-smallcaps">OSSETTI</span>.</span><span class="reading v2">DANTE G. ROSSETTI.</span><span class="reading v6 v7 v8"><span class="hi">Dante G. Rossetti</span></span><span class="reading v13">C<span class="hi rend-smallcaps">HRISTINA</span> G. R<span class="hi rend-smallcaps">OSETTI</span>.</span><span class="reading v16 v26 v27">D. G. Rossetti.</span><span class="reading v17 v20 v24">Dante Gabriel Rossetti.</span><span class="reading v18">Dante Gabriel Rosetti.</span><span class="reading v21"><span class="hi">Dante Gabriel Rosetti.</span></span><span class="reading v22">Dante Gabriel Rosetti.</span><span class="reading v23">Dante Gabriel Rossetti</span><span class="reading v25">Dante Gabrielle Rosetti.</span></span></div><br></td>
+                        <td width="10%s" align="right" valign="top"></td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="panel" id="notesPanel" style="display: none;">
+            <div class="panelBanner"><img class="closePanel" onclick="hideNotesPanel();" alt="X" src="../vm-images/closePanel.gif">
+               Textual Notes
+               
+            </div>
+            <div id="noNotesFound" class="noteContent">
+               Sorry, but there are no notes associated with
+               any currently displayed witness.
+               
+            </div>
+         </div><br class="clear"></div>
+      <div class="viewerRoot" id="panel_imageViewer">
+         <div title="Click to drag panel." class="viewerHandle" id="handle_imageViewer"><span class="viewerHandleLt" id="title_imageViewer">Image Viewer</span><img class="viewerHandleRt" onclick="return hidePanel('imageViewer');" alt="X" src="../vm-images/closePanel.gif"></div>
+         <div class="viewerContent" id="content_imageViewer"></div>
+      </div>
+   </body>
+</html>

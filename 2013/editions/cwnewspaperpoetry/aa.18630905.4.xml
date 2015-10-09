@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630905.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Africa</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630905.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#ml">Maria Lowell</author>
+                        <title level="a">Africa</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-09-05">5 September 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="ml">Lowell, Maria White, 1821-1853</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>Women social reformers --United States --History --19th century</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-05" who="#el">notes tweaks</change>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-16" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-29" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-24" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630905.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630905.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630905.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630905.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18630905.pp4_cropped.jpg"/>
+            </zone> 
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">AFRICA.<note type="editorial" resp="#bw #el">"Africa" also appeared in the <title level="j">National Anti-Slavery Standard</title> of <ref target="nas.18630912.4">September 12, 1863</ref>, one week following its publication in the <title level="j">Anglo-African</title>. The text of the poem is virtually identical in both printings; in line 13, the <title level="j">Standard</title> offers "dusk," where the <title level="j">Anglo-African</title> text may read "dark."</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY MARIA LOWELL.<note type="editorial" resp="#bw #el">Abolitionist and poet (1821&#8211;1853). Born Maria White, she took part in Margaret Fuller's "Conversations" between 1839 and 1844, and was an active member of the Boston Female Anti-Slavery Society. She began to publish poetry in 1834 and married James Russell Lowell in 1844. "Africa," one of her many antislavery poems, appeared in the <title level="j">Anglo-African</title> almost a decade after her death. The poem was first published in 1849, in the <title level="m">Liberty Bell</title>&#8212;a gift book the Anti-Slavery Society produced for sale at its annual bazaar.</note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">She</emph> sat where the level sands</l>
+                    <l rend="indented1">Sent back the sky's fierce glare;</l>
+                    <l>She folded her mighty hands,</l>
+                    <l rend="indented1">And waited with calm despair,</l>
+                    <l rend="indented1">While the red sun dropped down the streaming air.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Her throne was broad and low,</l>
+                    <l rend="indented1">Builded of cinnamon;&#8212;</l>
+                    <l>Huge ivory, row on row,</l>
+                    <l rend="indented1">Varying its columns dun,</l>
+                    <l rend="indented1">Barred with the copper of the setting sun.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Up from the river came</l>
+                    <l rend="indented1">The low and sullen roar</l>
+                    <l>Of lions, with eyes of flame,</l>
+                    <l rend="indented1">That haunted its reedy shore,</l>
+                    <l>And the neigh of the hippopotamus,</l>
+                    <l rend="indented1">Trampling the watery floor.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Her great <unclear reason="illegible" cert="medium" resp="#el">dark</unclear> face no light</l>
+                    <l rend="indented1">From the sunset-glow could take;</l>
+                    <l>Dark as the primal night;</l>
+                    <l rend="indented1">Ere over the earth God spake;</l>
+                    <l rend="indented1">It seemed for her a dawn could never break.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>She opened her massy lips,</l>
+                    <l rend="indented1">And sighed with a dreary sound,</l>
+                    <l>As when, by the sands' eclipse,</l>
+                    <l rend="indented1">Bewildered men are bound,</l>
+                    <l>And, like a train of mourners,</l>
+                    <l rend="indented1">The columned winds sweep round.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>She said: "My torch at fount of day</l>
+                    <l>I lit, now smouldering in decay;</l>
+                    <l>Through futures vast I grope my way.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"I was sole Queen the broad earth through;</l>
+                    <l>My children round my knees upgrew,</l>
+                    <l>And from my breast sucked Wisdom's dew.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Day after day to them I hymned;</l>
+                    <l>Fresh knowledge still my song o'erbrimmed</l>
+                    <l>Fresh knowledge which no time had dimmed.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"I sang of Numbers; soon they knew</l>
+                    <l>The spell they wrought, and as the blue</l>
+                    <l>Foretold the stars in order due;&#8212;</l></lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Of Music; and they fain would rear</l>
+                    <l>Something to tell its influence clear;</l>
+                    <l>Uprose my Memnon,<note type="editorial" resp="#bw #el">King of the Ethiopians and the son of Eos (goddess of the dawn). He was slain by Achilles during the Trojan War. Nineteenth-century classicist Charles Anthon wrote that a "famous statue [of Memnon, in Egypt] was said to utter, when it was struck by the first beams of the sun, a sound like the snapping asunder of a musical string" (Charles Anthon, <title level="m">A Classical Dictionary</title> [New York: Harper, 1841], 820).</note> with nice ear,</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"To wait upon the morning air,</l>
+                    <l>Until the sun rose from his lair</l>
+                    <l>Swifter, at greet of lutings rare.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"I sang of Forces whose great bands</l>
+                    <l>Could knit together feeble hands</l>
+                    <l>To uprear Thought's supreme commands;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Then, like broad tents, beside the Nile,</l>
+                    <l>They pitched the Pyramids' great pile;</l>
+                    <l>Where light and shade divided smile;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"And on white walls, in stately show,</l>
+                    <l>Did Painting with fair movement go,</l>
+                    <l>Leading the long procession slow.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"All laws that wondrous nature taught,</l>
+                    <l>To serve my children's skill I brought,</l>
+                    <l>And still for fresh devices sought.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"What need to tell? they lapsed away,</l>
+                    <l>Their great light quenched in twilight gray,</l>
+                    <l>Within their winding tombs they lay;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"And centuries went slowly by,</l>
+                    <l>And looked into my sleepless eye,</l>
+                    <l>Which only turned to see them die.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"The winds like mighty spirits came,</l>
+                    <l>Alive and pure and strong as flame,</l>
+                    <l>At last to lift me from my shame;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"For oft I heard them onward go,</l>
+                    <l>Felt in the air their great wings row,</l>
+                    <l>As down they dipped in journeying slow.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Their course they steered above my head,</l>
+                    <l>One strong voice to another said,</l>
+                    <l>'Why sits she here so drear and dead?</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"'Her kingdom stretches far away;</l>
+                    <l>Beyond the utmost verge of day</l>
+                    <l>Her myriad children dance and play.'</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Then throbbed my mother's heart again,</l>
+                    <l>Then knew my pulses finer pain,</l>
+                    <l>Which wrought like fire within my brain.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"I sought my young barbarians, where</l>
+                    <l>A mellower light broods on the air,</l>
+                    <l>And heavier blooms swing incense rare.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Swart-skinned, crisp-haired, they did not shun</l>
+                    <l>The burning arrows of the sun;</l>
+                    <l>Erect as palms stood every one.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"I said&#8212;These shall live out their day</l>
+                    <l>In song and dance and endless play;</l>
+                    <l>The children of the world are they.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Nor need they delve with heavy spade;</l>
+                    <l>Their bread on emerald dishes laid,</l>
+                    <l>Sets forth a banquet in each shade.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Only the thoughtful bees shall store</l>
+                    <l>Their honey for them evermore;</l>
+                    <l>They shall not learn such toilsome lore;</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Their finest skill shall be to snare</l>
+                    <l>The birds that flaunt along the air,</l>
+                    <l>And deck them in their feathers rare.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"So centuries went on their way,</l>
+                    <l>And brought fresh generations gay</l>
+                    <l>On my savannahs green to play.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"There came a change. They took my free,</l>
+                    <l>My careless ones, and the great sea</l>
+                    <l>Blew back their endless sighs to me.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"With earthquake shudderings oft the mold</l>
+                    <l>Would gape; I saw keen spears of gold</l>
+                    <l>Thrusting red hearts down, not yet cold,</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"But throbbing wildly; dreadful groans</l>
+                    <l>Stole upward through Earth's ribbed stones,</l>
+                    <l>And crept along through all my zones.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"I sought again my desert bare,</l>
+                    <l>And still they followed on the air,</l>
+                    <l>And still I hear them everywhere.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"So sit I dreary, desolate,</l>
+                    <l>Till the slow-moving hand of Fate</l>
+                    <l>Shall lift me from my sunken state."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Her great lips closed upon her moan;</l>
+                    <l>Silently sate she upon her throne,</l>
+                    <l>Rigid and black, as carved in stone.</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j">Independent</title>.<note type="editorial" resp="#bw #el"><p>The <title level="j">New York Independent</title>, established as a Congregationalist weekly in December 1848. The title's "independent" antislavery stance prevented it from capitalizing on an affiliation with subscribers of any one political persuasion, and "its extreme position with regard to the Fugitive Slave Law almost wrecked it in its second year" (Frank L. Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> [Cambridge, MA: Harvard University Press, 1938], 2:369). In spite of this beginning, the <title level="j">Independent</title> succeeded impressively and had over 35,000 subscribers by the time war broke (Mott, 371). As the war progressed, editorials political and secular nudged matters of religion, Congregationalist or otherwise, to the margins.</p>
+                <p>The celebrity of Henry Ward Beecher (1813&#8211;1887) must have contributed to the <title level="j">Independent</title>'s success. "Star contributor" Beecher was named editor during 1861&#8211;65. Theodore Tilton, his assistant, directed editorial policy and took over the editorship in all but name when Beecher embarked for Europe in 1863; two years later, he was officially recognized as editor-in-chief. By the time war broke out, Tilton had established himself as one of the young stars of the American Anti-Slavery Society. He and William Lloyd Garrison became friends after <title level="j">National Anti-Slavery Standard</title> editor Oliver Johnson introduced them in 1856; Garrison described Tilton as "a fine young man . . . . connected with the N. Y. <title level="j">Independent</title>, who is beginning to take a vital interest in radical abolitionism" (<title level="m">The Letters of William Lloyd Garrison: From Disunionism to the Brink of War, 1850–1860</title>, ed. Louis Ruchames [Cambridge, MA: Belknap Press of Harvard University Press, 1975], 4:415). Johnson, Tilton, and Garrison were united by a common profession as well as shared antislavery convictions. During the war each reprinted items from the other's newspapers.</p>
+                
+                <p>The <title level="j">Anglo-African</title> editors clashed with Tilton in the aftermath of the Draft Riots. The <title level="j">Independent</title> published Robert Hamilton's appeal for subscriptions and donations, but to this Tilton appended a comment that challenged the need for a "distinctively 'African' paper": "Our countrymen of African lineage are not primarily and predominantly negroes, but MEN&#8212;most of them, we trust, Christians; and everything which tends to isolate and separate them&#8212;to render them exclusive, peculiar, clannish&#8212;is ill-considered" (<title level="j">Independent</title>, July 30, 1863). His comments riled the Hamiltons, who published editorials defending the value of their newspaper. "Here is <title level="j">The Independent</title>, a newspaper . . . of such high Abolition pretensions, as unblushingly to offer itself as a supplanter or substitute for our poor journal to our colored subscribers and purchasers," wrote "Humanity" (<title level="j">Anglo-African</title>, August 8, 1863). How, a later editorial asked, could Tilton "expect us to trust any man simply because he publishes a paper in which is advocated anti-slavery sentiments?" (<title level="j">Anglo-African</title>, September 19, 1863). The <title level="j">Anglo-African</title> helped African Americans in their struggle to become "citizens of the United States," and its title was "truthful, ethnically speaking" (<title level="j">Anglo-African</title>, September 19, 1863; <title level="j">Anglo-African</title>, October 3, 1863). "Moreover, if we change our name, of what use could it be, unless all the nation should be stricken with color blindness?" (<title level="j">Anglo-African</title>, October 3, 1863).</p></note></note>
+        </body>
+        
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+

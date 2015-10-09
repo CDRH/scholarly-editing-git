@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630808.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Storming of Fort Wagner</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630808.4a</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#ah">A. Hoyt</author>
+                        <title level="a">The Storming of Fort Wagner</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-08-08">8 August 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="ah">Hoyt, A.</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African American soldiers</term>
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>Fort Sumter (Charleston, S.C.)--1860-1870</term>
+                    <term>Fort Sumter (Charleston, S.C.)--Siege, 1861</term>
+                    <term>Fort Wagner (S.C.)</term>
+                    <term>United States. Army. Massachusetts Infantry Regiment, 54th (1863-1865)</term>
+                    <term>Shaw, Robert Gould, 1837-1863</term>
+                    <term>Slavery--United States--History--19th century</term>
+                    <term>Slavery--United States--Public opinion--History--19th century</term>
+                    <term>United States --Foreign relations--1861-1865</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-16" who="#el">made copy-editing changes</change>
+            <change when="2013-01-09" who="#el">revised sic encoding</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-16" who="#el">revised encoding</change>
+            <change when="2012-10-02" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-24" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-24" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630808.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630808.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630808.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630808.pp4.jpg"/>
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18630808.pp4a_cropped.jpg"/>
+            </zone>  
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <note type="newspaper-editorial" rend="center">FOR THE ANGLO-AFRICAN.</note>                
+                
+                <head type="main" subtype="authorial" rend="center">THE STORMING OF FORT WAGNER.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY A. HOYT.<note type="editorial" resp="#bw #el">Unidentified. "A. Hoyt" may have been related to "Miss Hoyt of Brooklyn," an artist who created a piece called "John Brown's Last Dream" (<title level="j">Anglo-African</title>, February 20, 1864, [3]). The painting inspired a poem, <ref target="aa.18640116.2">"John Brown's Vision of the Future."</ref></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <note type="authorial">The colored regiment under Col. Shaw led the attack <lb/>with the most determined spirit. A large number of its <lb/>men fell with its leader.<note type="editorial" resp="#bw #el"><p>The Fifty-Fourth Massachusetts Regiment; the first regiment of African American volunteers raised in the North, authorized in late January 1863 and mustered into the US service on May 13. Black leaders called on men to enlist and thereby seize their "golden opportunity" and "first best chance" to establish an undeniable claim to the full rights of American citizens (Frederick Douglass, "Men of Color, to Arms!" reprinted in the <title level="j">Anglo-African</title>, March 7, 1863, [2]; editorial, <title level="j">Anglo-African</title>, March 7, 1863, [2]). The Fifty-Fourth quickly filled with men "from virtually every black community in the North" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana: University of Illinois Press, 1998], 31). A number of the new recruits would provide the <title level="j">Anglo-African</title> and the <title level="j">Christian Recorder</title> with correspondence from the front during their term of service. Both titles served as a channel of communication between distant volunteers and the folks at home.</p>      
+                    <p>Under Robert Gould Shaw's command, the regiment took shape at Camp Meigs in Readville, Massachusetts. On May, 28, 1863, after weeks of training, the men paraded through Boston's cheering streets and then embarked on the steamer <name type="ship">De Molay</name>, bound for South Carolina's Sea Islands and the theater of war. (A sister regiment, the Fifty-Fifth, had already begun to form by the time members of the Fifty-Fourth departed for South Carolina.) In the Department of the South, the Massachusetts volunteers had to contend with the prejudiced policies of the US government as well as the Confederate enemy.</p>
+                    <p>On July 18, 1863, Shaw and the Fifty-fourth courageously led a frontal attack on Morris Island's (South Carolina) Fort Wagner. Their bravery could not compensate for General Quincy Gillmore's poor planning; the assault failed, and 272 members of the regiment were killed, wounded, or taken prisoner (Russell Duncan, ed., <title level="m">Blue-Eyed Child of Fortune: The Civil War Letters of Col. Robert Gould Shaw</title> [Athens: University of Georgia Press, 1999], 52). Northern newspapers reported that Wagner's Confederate garrison had buried Shaw in a mass grave with his men. Abolitionists reinterpreted the Confederate gesture of contempt as a mark of distinction.</p>
+                    <p>The charge on Fort Wagner established their Northern reputation as heroes, yet Lincoln's administration refused to pay them as soldiers, at the basic rate of thirteen dollars per month. For more than a year, the Fifty-Fourth and the Fifty-Fifth protested against the injustice by refusing to accept any pay at all. In July 1864, Congress finally passed a law to equalize pay and to reimburse free black soldiers for their full terms of service. Only in January 1865 did the War Department promote Sergeant Stephen A. Swails of the Fifty-Fourth to a commissioned post, making him the army's "first black commissioned officer" (Donald Yacovone, <title level="m">A Voice of Thunder: A Black Soldier's Civil War</title> [Urbana; Chicago: University of Illinois Press, 1998], 257n).</p></note></note>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Who</emph> bids for Africa one tear,</l>
+                    <l rend="indented1">A pearly tribute to her dead?</l>
+                    <l>Who wreaths a flower to deck the bier</l>
+                    <l rend="indented1">Of those whose daring onward led</l>
+                    <l>The deadly <gap extent="one word" reason="illegible" unit="chars" quantity="5" resp="#kt"/> of the brave</l>
+                    <l>If Freedom's flag might o'er them wave?</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Oh, speak not in this hour of grief</l>
+                    <l rend="indented1">Of <choice><orig>clanish</orig><reg>clannish</reg></choice> lines the selfish see,</l>
+                    <l>The horse who nobly bears his chief</l>
+                    <l rend="indented1">Deserves the meed of chivalry;</l>
+                    <l>So, Africa, land of the sun,</l>
+                    <l>Asks for the honor she has won.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Shall obelisks upon her soil</l>
+                    <l rend="indented1">Speak of her ancient arts and power?</l>
+                    <l>And while her sons, thro' blood and toil,</l>
+                    <l rend="indented1"><unclear reason="illegible" cert="medium" resp="#kt">Dared</unclear> the horrors of that hour,</l>
+                    <l>When stoutest hearts quailed in the storm</l>
+                    <l>That crush'd a thousands bosoms warm.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Hail to the chiefs!<note type="editorial" resp="#bw #el">A reference to the patriotic song "Hail to the Chief" ("Hail to the chief who in triumph advances"), composed by James Sanderson to accompany one of the songs in a theatrical adaptation of Sir Walter Scott's <title level="m">The Lady of the Lake</title>. By 1815, productions including the tune had pleased audiences on both sides of the Atlantic. The tune became "a regular tribute to the U.S. president under the administration of John Tyler (1841&#8211;45)" (Elise K. Kirk, "'Hail to the Chief': The Origins and Legacies of an American Ceremonial Tune," <title level="j">American Music</title> 15 [1997]: 133).</note> who nobly led</l>
+                    <l rend="indented1">Amid of arms the lurid flash,</l>
+                    <l>And hail the brave! whose clay cold bed</l>
+                    <l rend="indented1">Lies in the <unclear reason="illegible" cert="medium" resp="#kt">tide</unclear> whose billows dash</l>
+                    <l>Where Sumter<note type="editorial" resp="#bw #el">Fort Sumter dominated the entrance to Charleston Bay, as the center of the harbor's defenses. War began with the Confederate bombardment of Sumter's federal garrison (April 12&#8211;13, 1861).</note> called forth Freedom's host</l>
+                    <l>To meet the foe, or all was lost.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Shall those who clutch'd the British sword,<note type="editorial" resp="#bw #el">The problematic punctuation and syntax in the <title level="j">Anglo-African</title> text creates ambiguities here. "Those who clutch'd the British sword" refers to either Patriots generally or African American Patriots who fought against the British during the Revolutionary War.</note></l>
+                    <l rend="indented1">When flash'd it o'er our well loved land,</l>
+                    <l>And turned its point till Europe heard</l>
+                    <l rend="indented1">The Shout for Freedom from our strand,</l>
+                    <l>As sung each billow on the shore,</l>
+                    <l>"<choice><sic>Brittania</sic><corr>Britannia</corr></choice> rules the waves no more."<note type="editorial" resp="#bw #el">Adapted from the chorus of James Thomson's "Rule, Britannia" (1740): "Rule, Britannia, rule the waves / Britons never will be slaves" (<title level="m">The Poetical Works of James Thomson</title> [London: Pickering, 1830], 2:264). The poet undermines Thomson's narrative of triumphant British imperialism, to celebrate America's victory in the Revolutionary War.</note></l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>A deadlier strife was ours to win,</l>
+                    <l rend="indented1">For Freedom's sun at zenith shone,</l>
+                    <l>And loftier hopes their date begin</l>
+                    <l rend="indented1">Than when the morning star alone</l>
+                    <l>Comes feebly with the light of day,</l>
+                    <l>Glinting the clouds that round it play.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Hail to the names on that high scroll,</l>
+                    <l rend="indented1">Imperishable of deathless fame!</l>
+                    <l>Where every man that hath a soul</l>
+                    <l rend="indented1">Shall boldly dare to write his name</l>
+                    <l>As witness that no craven brand</l>
+                    <l>Shall mark the brave of Afric's land.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>A cenotaph of adamant</l>
+                    <l rend="indented1">Shall rise till time no more shall be,</l>
+                    <l>And history's page at last shall grant</l>
+                    <l rend="indented1">These men were sons of liberty;</l>
+                    <l>And who among their foes shall dare</l>
+                    <l>To blot the record written there?</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>No! from each tropic hill and dale,</l>
+                    <l rend="indented1">Each jungly depth and pathless wild,</l>
+                    <l>O'er waves where once the slave-ship sail'd,</l>
+                    <l rend="indented1">Shall rise the song of Afric's child,</l>
+                    <l>"When Sumter woke the warlike earth,</l>
+                    <l>She gave to Africa her birth."</l>
+                </lg>
+            </lg>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">A Selection from "Uncle Tom's Cabin: A Digital Critical
+                    Edition: 'Topsy'" </title>
+                <author>Wesley Raabe</author>
+                <author>Les Harrison</author>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="wr">Wesley Raabe</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="lh">Les Harrison</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">intro.utctopsy</idno>
+                <idno type="edition">utctopsy</idno>
+                
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2012</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">33</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2011-01-15" who="#wr">Added two paragraphs on significance of Topsy revision and capitalization of Illustrated Edition.</change>
+            <change when="2011-11-27" who="#wr">Added character entities for apostrophe (x2019), open quote (8220), close quote (8221), and em dash (8212) Revised from paperback to in paper wrappers. Added caution to Parfait estimate on Million edition numbers. Changed description of apparatus form to match vertical visual display.</change>
+            <change when="2011-07-19" who="#ag">markup in TEI XML</change>
+            <change when="2010-05-01" who="#wr">Initial Creation in MS Word</change>
+            <change when="2011-07-19" who="#wr">Removed comma separating subject and verb after project title in "A Digital Critical Edition" will show"
+            </change>
+            <change when="2012-02-17" who="#wr">Corrected reference to Juxta archive, Final proofreading 
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">A Selection from &#8220;<hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>: A Digital
+                Critical Edition: &#8216;Topsy&#8217;&#8239;&#8221; </head>
+            <byline>Wesley Raabe</byline>
+            <byline>Les Harrison</byline>
+        </front>
+        <body>
+            <p>Published in book form in 1852, Harriet Beecher Stowe&#x2019;s <hi rend="italic">Uncle Tom&#x2019;s
+                    Cabin</hi> is the first worldwide bestseller written by an American and, outside
+                of the Bible, the most widely-reprinted work of the nineteenth century. It intensified
+                the debate over slavery and states&#x2019; rights, the issues that would lead to the Civil
+                War after the election of Abraham Lincoln. Even within the more focused parameters
+                of American literary scholarship, Stowe&#x2019;s novel has been a touchstone. F.O.
+                Matthiessen excluded it from his <hi rend="italic">American Renaissance</hi> as too 
+                popular, and James Baldwin rejected it as the literature of protest.<ptr
+                    target="#note1" xml:id="nr1" n="1" /> Decades later, feminist scholar Jane
+                Tompkins argued persuasively for its restoration to the literary canon, and Henry
+                Louis Gates Jr. has advised recently that it is &#8220;impossible to understand&#8221; African
+                American literary narrative without this novel.<ptr target="#note2" xml:id="nr2"
+                    n="2" /> But unlike other key texts of nineteenth-century American literary
+                history&#8212;such as Mark Twain&#x2019;s <hi rend="italic">Huckleberry Finn</hi> and
+                Herman Melville&#x2019;s <hi rend="italic">Moby-Dick</hi>&#8212;Stowe&#x2019;s novel has never been
+                published in a scholarly edition with an authoritative text and a history of
+                composition and publication.</p>
+            <p>We identify two probable causes for this neglect. First is the historical fact that
+                only a handful of Stowe&#x2019;s manuscript pages are known to exist. Had more of
+                Stowe&#x2019;s manuscript survived, it would have drawn the attention of scholars. Second,
+                since the novel is quite long and was often reprinted (in three independently
+                typeset, full-length versions by its original American publisher alone), the value of
+                closely examining reprints of Stowe&#x2019;s novel has been
+                underestimated. Stowe herself seems to admonish a scholarly reader who would &#8220;fill
+                his head first with a thousand questions of authenticity of manuscript, and
+                correctness of translation,&#8221; a warning that most readers of Stowe&#x2019;s text have
+                apparently heeded.<ptr target="#note3" xml:id="nr3" n="3" /> While seven new or
+                re-issued editions of <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi> for the university
+                classroom have been published in the last four years, all recent editions (with the
+                exception of one forthcoming) are based on publisher John P. Jewett&#x2019;s two-volume
+                edition of 1852.<ptr target="#note4" xml:id="nr4" n="4" /> While some scholars have
+                addressed the <hi rend="italic">National Era</hi> serialization of the novel and the
+                publication history of alternate versions, studies of the Jewett first edition shape most
+                scholarship, even that which addresses the work&#x2019;s cultural pervasiveness in the
+                decade before the Civil War. Because close study of reprint texts has been neglected,
+                scholarly readers have remained unaware that Stowe revised <hi rend="italic">Uncle
+                    Tom&#x2019;s Cabin</hi> after its initial book publication.</p>
+            <p>For our contribution to <hi rend="italic">Scholarly Editing</hi>, we present a
+                fluid-text edition of &#8220;Topsy,&#8221; chapter 20 of <hi rend="italic">Uncle Tom&#x2019;s
+                Cabin</hi>. This chapter was selected not only because it contains a significant and 
+                previously unnoticed revision of Stowe&#8217;s text but also because it introduces one of the novel&#8217;s 
+                most memorable and contentious characters, the slave-child Topsy. Ostensibly,
+                Topsy&#8217;s function in the novel is to provide an African-American contrast
+                to Stowe&#8217;s ideal, Christ-like child, Evangeline St. Clare.  Where little
+                Eva stands for the values of motherhood, child-like innocence, and Christianity,
+                Topsy, raised by speculators, is motherless, cunning, and ignorant
+                not only of Christianity but also of compassion and love. Where Stowe drew
+                on Charles Dickens&#8217; <hi rend="italic">The Old Curiosity Shop</hi> (1841)
+                and the sentimental literary tradition for little Eva, for Topsy she drew on
+                the &#8220;wench&#8221; character from blackface minstrelsy.   But in importing
+                Topsy into her text from the minstrel show, Stowe brought along the surplus meaning
+                that inhered in her character.  While Topsy embodies the broadest of stereotypes
+                of African depravity, she also resists actively the program of white
+                paternalism, which seeks her &#8220;redemption.&#8221;  
+                She challenges the middle-class morals and conventional pieties embodied in Stowe&#8217;s
+                New England Spinster character, Miss Ophelia. Topsy became a crowd favorite
+                both in subsequent dramatic adaptations (Aiken [1853], Conway [1853]) and twentieth-century film adaptations such as Porter (1903), Daly (1914), and Pollard (1927), 
+                as well as numerous animated shorts.<ptr target="#note5" xml:id="nr5" n="5" />
+                As such, any changes Stowe made to Topsy in this initial chapter, such as
+                Topsy&#8217;s newly discovered contention that she will gain admittance to heaven
+                as Miss Ophelia&#8217;s servant, have importance not only for Stowe&#8217;s novel
+                but for its numerous adaptations.</p>
+            
+            <p>This fluid-text edition of &#8220;Topsy,&#8221; chapter 20 of <hi rend="italic">Uncle 
+                Tom&#x2019;s Cabin</hi>, provides tantalizing clues that Stowe was much more actively
+                engaged in the reprinted American editions of her novel than scholars have previously
+                suspected.  Traditionally, the text of John P. Jewett&#8217;s two-volume first edition (1852)
+                has been treated as the authoritative text of <hi rend="italic">Uncle Tom&#8217;s Cabin</hi>.
+                However, a significant addition was made to the text of chapter 20 in an inexpensive
+                edition issued in paper wrappers and advertised as the &#8220;Edition for the Million&#8221; (1852/53).
+                In this edition, following Topsy&#x2019;s boast
+                to her fellow slaves that she is &#8220;the wickedest critter in the world,&#8221; three lines of dialogue
+                between Topsy and Augustine St. Clare have been added:</p>
+            <q rend="block"><p>&#8220;But I&#8239;&#x2019;s boun&#x2019; to go to heaven, for all that,<lb/>
+                    though,&#8221; she said, one day, after an <hi rend="italic">expos&#233;</hi> of this<lb/>
+                    kind.</p>
+                <p>&#8220;Why, how&#8239;&#x2019;s that, Tops?&#8221; said her master,<lb/>
+                    who had been listening, quite amused.</p>
+                <p>&#8220;Why, Miss Feely&#8239;&#x2019;s boun&#x2019; to go, any way; so<lb/>
+                    they&#8239;&#x2019;ll have me thar. Laws! Miss Feely&#8239;&#x2019;s so<lb/>
+                        <hi rend="italic">curous</hi> they won&#x2019;t none of &#x2019;em know how to wait<lb/>
+                    on her.&#8221;<ptr target="#note6" xml:id="nr6" n="6" /></p>
+            </q>
+            <p>These new lines of dialogue, which speak directly to Stowe&#x2019;s message of Christian redemption
+                through love as well as to the recent George Aiken adaptation of <hi rend="italic">Uncle Tom&#8217;s
+                Cabin</hi>, is both too substantial and too esoteric to be the work of a 
+                copy editor or compositor.  The most likely explanation for the addition of this dialogue is that, as the audience 
+                for <hi rend="italic">Uncle Tom&#8217;s Cabin</hi> continued to increase, both on the page and on the stage, Stowe 
+                felt the need to strengthen the chapter&#x2019;s emphasis on Topsy&#8217;s ignorance of the Gospel&#8217;s message 
+                of unconditional love. Stowe here seems to be trying to ensure the stability of her religious message as her text 
+                starts to circulate within a more religiously conservative, working-class readership, one which may be coming to her 
+                novel after having seen it produced upon the stage.</p> 
+            
+            <p>Beyond indicating Stowe&#8217;s engagement with the inexpensive &#8220;Million&#8221; edition
+               (1852/53),  &#8220;<hi rend="italic">Uncle Tom&#8217;s Cabin:</hi> A Digital Critical Edition: 
+                &#8216;Topsy&#8217;&#8221; provides evidence that another reprint, the &#8220;Illustrated Edition&#8221; 
+                of 1853, reflects authorial word forms that were  present also in the <hi rend="italic">National
+                Era</hi> serial installments but not the text most widely reprinted for scholarly study, Jewett&#8217;s two-volume 
+                first edition. The text of the Topsy chapter in the first edition is a step removed from the authorial 
+                manuscript because this portion of the book was set from the <hi rend="italic">Era</hi> installment.
+                In the newspaper printing, the dialect forms &#8220;mass&#8217;r&#8221; and &#8220;missis&#8221; are not 
+                capitalized, a stylistic choice which may indicate a refusal&#8212;both on Stowe&#8217;s part
+                and by the editors of the <hi rend="italic">National Era</hi>&#8212;
+                to acknowledge the legitimacy of these titles. In the Jewett first edition, these titles are 
+                capitalized consistently as &#8220;Mas&#8217;r&#8221; and &#8220;Missis&#8221; in accordance with wider conventions 
+                for the representation of slave dialect. In the &#8220;Illustrated Edition,&#8221; they are not capitalized.
+                The capitalization reverts back to lower-case &#8220;mas&#8217;r&#8221; and &#8220;missis,&#8221; the former
+                part-way but not completely back to the form &#8220;mass&#8217;r in the <hi rend="italic">National 
+                Era</hi> serialization.  By contrast, the capitalization of titles of address in the two-volume edition was repeated 
+                in the &#8220;Million&#8221; edition (1852/53) and later in the Houghton, Osgood &amp; Co. &#8220;New Edition&#8221; (1879): both editions are 
+                reasonably faithful reprints of the text of the two-volume edition, even mirroring thin spacing in contractions.
+                Therefore, if we surmise that lower-case forms of address for master and mistress reflect authorial preference, 
+                Stowe&#8217;s preference seems to apply for particular audiences. To insinuate that the capitalization of these titles
+                is unwarranted may be a message that Stowe reserves for the select antislavery audiences
+                of the <hi rend="italic">National Era</hi> serial and the
+                &#8220;Illustrated Edition.&#8221; </p>
+                  
+              <p>Further support for this hypothesis of differing practices for differing presumed audiences
+                  is that in the &#8220;Illustrated Edition,&#8221; late in the chapter, Topsy
+                  more often speaks in conventional (rather than dialect) English of earlier printings:
+                  &#8220;this&#8221; for &#8220;dis,&#8221; &#8220;the&#8221; for &#8220;de,&#8221;
+                  and &#8220;declare&#8221; for &#8220;declar.&#8221; One might attribute these revisions to a 
+                  compositor&#8217;s lapse of attention, but numerous subtle alterations of the text elsewhere 
+                  strengthen the case for authorial attention to this edition.  Though no instances are present in this chapter,
+                  the &#8220;Illustrated Edition&#8221; has longer em dashes for emphasis in some passages,
+                  a practice common in the newspaper text but not present in the setting of the
+                  Jewett First Edition or the &#8220;Million&#8221; edition. Though our evidence based on textual
+                  analysis has not been collaborated with a statement of authorial preference,
+                  a reading of the conversion of dialect to conventional English could be that Miss Ophelia&#8217;s educating
+                  efforts are beginning to bear fruit, at least in Topsy&#8217;s speech.
+                  Is Topsy&#8217;s challenge to middle class morals and pieties more suitable for one audience,
+                  that of the &#8220;Million&#8221; edition, readers from lower on the scale of social status,
+                  than another, that of the &#8220;Illustrated Edition,&#8221;
+                  readers who expect Topsy to be somewhat
+                  tamed by Miss Ophelia&#8217;s educational efforts and less threatening to conventional pieties? 
+                  The &#8220;New Edition&#8221; (1879), though it reproduces illustrations from a London
+                  edition published by Nathaniel Cooke (1853), appears textually to function as a
+                  memorial artifact. The stereotype plates from the American first edition,
+                  which were badly worn from their initial heavy use, continued to deteriorate as the work was
+                  reproduced from the same plates under the imprints of Jewett&#8217;s successor publishers.
+                  The &#8220;New Edition&#8221; pairs the Cooke edition illustrations with a restored
+                  but faithful version of the  Jewett first edition text, the only one among the
+                  three Jewett editions which had remained in print by Stowe&#8217;s American publishers. </p>
+            
+            <p>All sites of textual alteration or fluidity potentially represent authorial authority, but if
+                one has no manuscript evidence, such sites 
+                may reflect the authority of other agents in the production
+                of texts, especially compositors and proofreaders.  The purpose of &#8220;<hi rend="italic">Uncle
+                Tom&#8217;s Cabin:</hi> A Digital Critical Edition: &#8216;Topsy&#8217;&#8221; is to
+                make such sites visible.  Even scholarly readers who resist ascribing intent to the
+                author&#8212;though we as editors do not hesitate to do so when we believe that our
+                judgment is based on reasonable textual evidence&#8212;must nonetheless reckon with
+               the experience of historical readers of these variant forms, who read a different version of
+               Stowe&#8217;s text
+               than the one that scholars frequently assume best represents the work
+                <hi rend="italic">Uncle Tom&#8217;s Cabin.</hi> After briefly describing the publication history
+                of <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi> during the nineteenth century, this
+                introduction turns to a discussion of the theories of fluid-text editing put
+                forth by John Bryant in <hi rend="italic">The Fluid Text</hi> (2002) as well as to the
+                advantages that digital publication offers to this project. Both in the single-chapter
+                excerpt reproduced here and in its eventual final form, &#8220;<hi rend="italic">Uncle
+                    Tom&#x2019;s Cabin</hi>: A Digital Critical Edition&#8221; will show that one of the most
+                oft-read and oft-cited works in American literature underwent significant revision
+                by its author when reprinted&#8212;a fact that has been overlooked during 
+                three decades of intense critical interest in the novel.</p>
+            
+            <p>Stowe participated actively in five authorized editions of the novel that were
+                published in the United States: a <hi rend="italic">National Era</hi> newspaper
+                serial in forty-one installments (June 1851&#8212;April 1852), John P. Jewett&#x2019;s
+                two-volume first edition (1852), Jewett&#x2019;s &#8220;An Edition for the Million!&#8221; in paper wraps
+                (1852/1853), Jewett&#x2019;s &#8220;Illustrated Edition&#8221; (1853), and Houghton, Osgood &amp; Co&#x2019;s
+                &#8220;New Edition&#8221; (1879), which was also produced in a more elaborate
+                form with gilding and a red page border, known as the &#8220;Holiday Edition&#8221;
+                but with the same typesetting. When completed, &#8220;<hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>: A
+                Digital Critical Edition&#8221; will provide reading texts of each edition, digital page
+                images, and an authoritative record of textual variants. While Stowe&#x2019;s novel was
+                widely reprinted in Great Britain throughout much of the nineteenth century, the
+                project is currently limited to American editions of the text for which compelling
+                historical or textual evidence points to the author&#x2019;s involvement with or approval
+                of the changes made to the text or illustrations. We have not addressed for this <hi
+                    rend="italic">Scholarly Editing</hi> excerpt from the larger project the handful of manuscript pages
+                that have survived to the present day&#8212;no pages from the &#8220;Topsy&#8221; section are
+                extant.</p>
+            
+                        <p>We acknowledge that our criteria exclude significant authorial commentary and
+                adaptation as well as non-authorial reprints that are potentially relevant to
+                scholars of book history or cultural studies. The magnitude of potentially relevant
+                material overwhelms: we can only summarize the exclusions. British editions are
+                excluded, and all translations are also. We exclude from the project the full text
+                of Stowe&#x2019;s commentary and documentation known as the <hi rend="italic">Key</hi>
+                (Jewett 1853), the children&#x2019;s adaptation, <hi rend="italic">Pictures and Stories
+                    from Uncle Tom&#x2019;s Cabin</hi> (Jewett 1853), and Stowe&#x2019;s dramatic adaptation for
+                Mary Webb, <hi rend="italic">The Christian Slave, A Drama</hi> (Phillips, Sampson
+                1855). Because Stowe no longer played an active role in reprints, we have also
+                excluded editions that represent publisher Houghton, Osgood &amp; Co&#x2019;s successor-publisher
+                Houghton, Mifflin &amp; Co&#x2019;s late-century effort to saturate the market in preparation for and
+                in the aftermath of copyright expiration in 1893: &#8220;Popular Edition&#8221; (1886), 
+                &#8220;Holiday Edition&#8221; (1891), &#8220;Large Paper&#8221;
+                edition (1891), &#8220;Universal Edition&#8221; (1892), &#8220;Brunswick Edition&#8221; 
+                (1893), and <hi rend="italic">Writings</hi>
+                (1896). We exclude all reprints by other publishers that follow the expiration of
+                    copyright.<ptr target="#note7" xml:id="nr7" n="7" />
+            </p>
+            <p>The bibliographical and provenance detail of the specific copies used in the current
+                edition of chapter 20 of <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>, &#8220;Topsy,&#8221; follows
+                below.</p>
+            <list type="simple">
+                <item><label>Authorial Manuscript.</label> Currently, only 11 manuscript leaves of <hi
+                        rend="italic">Uncle Tom&#x2019;s Cabin</hi> are known. In addition, facsimile
+                    reproductions of MS pages which are now lost appear in <hi rend="italic">Harriet
+                        Beecher Stowe: The Story of Her Life</hi> (1911), by Charles Edward Stowe
+                    and Lyman Beecher Stowe, and <hi rend="italic">New York Press</hi> (1889). None
+                    of the extant or facsimile MS pages contain material from chapter 20.</item>
+                <item><label><hi rend="italic">National Era</hi> Serial (June 1851&#8212;April 1852).</label> The
+                    serial version of <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi> was published in 41
+                    installments, which were issued over 44 weeks, from June 5, 1851 through April
+                    1, 1852. Chapter 20, misnumbered by <hi rend="italic">Era</hi> editors as
+                    chapter XIX because an earlier numbering mix-up was not corrected, was
+                    originally published on November 6, 1851. A complete run of the <hi
+                        rend="italic">Era</hi> edition is held in the University of Virginia Clifton
+                    Waller Barrett Library collection, and this copy formed the basis of the transcription for this
+                    edition. Because most of the manuscript is no longer extant and because the <hi
+                        rend="italic">National Era</hi>&#x2019;s house styling was
+                    minimal&#8212;Stowe&#x2019;s preferred spellings of dialect and her manuscript use
+                    of informal dashes rather than more standard punctuation were often
+                    retained&#8212;the newspaper version more closely echoes the forms of
+                    Stowe&#x2019;s authorial manuscript. Page images from the <hi rend="italic">National Era</hi> are
+                    provided courtesy of the Clifton
+                    Waller Barrett Library, Albert and Shirley Small Special Collections Library,
+                    University of Virginia.</item>
+                <item><label>Jewett, First Edition, 2 vols. (1852).</label> The first book edition of <hi
+                        rend="italic">Uncle Tom&#x2019;s Cabin</hi>, issued in two volumes by publisher
+                    John P. Jewett (March 20, 1852), is generally considered the authoritative
+                    version of Stowe&#x2019;s text. The overwhelming majority of modern reprints 
+                    for scholars and the university classroom text market are based on this
+                    edition. Bibliographer Michael Winship has estimated that Jewett sold approximately 310,000
+                    copies of <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi> and that 120,000 were of this
+                    two-volume edition.<ptr target="#note8" xml:id="nr8" n="8" /> For this edition
+                    we will use a copy from the 20,000th printing which contains all of Stowe&#x2019;s
+                    initial corrections and minimal type damage. During sight collation we have
+                    identified no significant correction to this chapter in a copy designated 65,000th or an 1863
+                    Ticknor and Fields copy (the successor firm to Jewett).
+                    The edition, excluding the repeated title page vignette,
+                    has seven illustrations by Hammatt Billings, but chapter 20 has no illustrations.
+                    Page images from the Jewett first edition 
+                    are provided courtesy of Raabe, with the assistance of the Kent State School of Library and Information Science
+                    Digital Imaging Laboratory. 
+                
+                
+                </item>
+                <item><label>Jewett &#8220;Million&#8221; Edition (1852/1853).</label> The cheap reprint of <hi
+                        rend="italic">Uncle Tom&#x2019;s Cabin</hi>, advertised as &#8220;An Edition for the Million!&#8221;
+                    on its one-volume paper wrapper form, was first issued for the 1852 holiday season.
+                    The exact sales figures for this edition have not been established definitively.
+                    Claire Parfait extrapolates from Jewett&#x2019;s estimates 
+                    that publisher claims would suggest a number in the range of 180,000, but she
+                    cautions that there are strong reasons, especially the publisher&#x2019;s interest in
+                    exaggerating sales figures, to believe that the actual number produced and sold
+                    was significantly lower.<ptr
+                        target="#note9" xml:id="nr9" n="9" /> A copy held by Raabe that is labeled
+                    153,000 is the earliest known printing (with the least type damage), and this
+                    copy will be used for this edition.  Page images from the 
+                     &#8220;Million&#8221; edition (1852) are provided
+                    courtesy of Raabe, with the assistance of the Kent State School of Library and Information Science
+                    Digital Imaging Laboratory. 
+               
+                </item>
+                <item><label>Jewett &#8220;Illustrated Edition&#8221; (1853).</label> Jewett&#x2019;s illustrated edition
+                    of <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi> appeared almost simultaneously with
+                    the &#8220;Million&#8221; edition in mid-December 1852. This third edition by Jewett
+                    included over 150 illustrations by Hammatt Billings, who also illustrated the
+                    earlier two-volume edition. We believe that this edition received significant attention from the author, as 
+                    word and punctuation forms in many cases match the <hi rend="italic">National Era</hi> text rather than
+                    the two-volume and &#8220;Million&#8221; edition forms.  Page images from the Jewett &#8220;Illustrated Edition&#8221; 
+                    (1853) are provided courtesy of
+                    Libraries and Media Services, Department of Special Collections and Archives, Kent State
+                    University. </item>
+                <item><label>Houghton, Osgood, &amp; Co. &#8220;New Edition&#8221; (1879).</label> The final published text
+                    to be included in this stage of the project is Houghton, Osgood, &amp;
+                    Company&#x2019;s 1879 edition, for which Harriet Beecher Stowe wrote a new
+                    introduction. This edition was published from newly prepared stereotype plates in two
+                    forms, a &#8220;New Edition&#8221; and a more elaborately produced
+                    &#8220;Holiday Edition&#8221; with gilded page edges and a red border to the text.
+                    Its large illustrations, drawn by George Housman Thomas and Thomas
+                    Robert Macquoid and engraved by William Luson Thomas, were originally published in 
+                    <hi rend="italic">Uncle Tom&#x2019;s Cabin, Life among the Lowly, A Tale of Slave Life
+                    in America</hi> (London, Nathaniel Cooke, 1853). John R. Osgood acquired the rights and
+                    plates to republish the Thomas and Macquoid illustrations.<ptr target="#note10"
+                        xml:id="nr10" n="10" /> Our source text for page images
+                    is an early printing of the Holiday version of the &#8220;New Edition&#8221;
+                    acquired by Raabe.  Page images from the  &#8220;New Edition&#8221; (1879) are provided
+                    courtesy of Raabe, with the assistance of the Kent State School of Library and Information Science
+                    Digital Imaging Laboratory. 
+                    
+                </item>
+            </list>
+            <p>For all of the editions outlined above, the following procedures were followed in
+                generating the machine-readable texts which serve as the basis for this edition:
+                    <list type="ordered">
+                    <item n="1">Texts were keyboarded using plain text (ASCII) with light
+                        typographical encoding that is compatible with the Peter S. Shillingsburg&#x2019;s
+                        collation program PC-CASE.</item>
+                    <item n="2">A second keyboarding of each text was collated against the first,
+                        and all variants were corrected with reference to the original
+                        documents.</item>
+                    <item n="3">Typographic encoding was converted to TEI-conformant XML using
+                        regular expressions and the PERL scripting language. This structurally rich
+                        encoding includes numbered paragraphs and sentences.</item>
+                    <item n="4">A list of variants for the apparatus was created from PC-CASE
+                        collation of the corrected keyboardings (step 2), and this typographic
+                        encoding was converted to TEI-conformant XML. </item>
+                    </list></p>
+            <p>After the edition was mounted on the server, it was proofread both by Juxta
+                collation of the keyboarded source files against the XML-encoded text and by
+            silent proofreading.</p>
+            <p>In addition to directing new attention to the importance of the other versions of <hi rend="italic">Uncle
+                Tom&#x2019;s Cabin</hi>, especially the <hi rend="italic">National Era</hi> serial and the &#8220;Million&#8221; edition,
+                both the chapter presented here and the larger project of which it is a part follow
+                the fluid-text editorial principles outlined by John Bryant in <hi rend="italic">The
+                    Fluid Text: A Theory of Revision and Editing for Text and Screen</hi> (2002).
+                Central to Bryant&#x2019;s theory is the notion of the fluidity of the text: &#8220;Simply put, a
+                fluid text is any literary work that exists in more than one version. It is &#8216;fluid&#x2019;
+                because the versions flow from one to another. Truth be told, all works&#8212;because of
+                the nature of texts and creativity&#8212;are fluid texts.&#8221;<ptr target="#note11"
+                    xml:id="nr11" n="11" /> Fluid-text editing seeks to de-privilege the authority of
+                any single version of the text&#8212;whether it be a particular historical
+                document like a first complete manuscript or a first printing as the
+                representative text, whether it be an eclectic text constructed from multiple
+                documents in which the editor seeks to reconstruct imaginatively the historical
+                intentions of the author, or whether texts be conceived as the &#8220;residual form&#8221; of a
+                particular social circumstance or event.<ptr target="#note12" xml:id="nr12" n="12" /> A
+                fluid text approach to editing entails foregrounding the revisions made to the
+                text during any stage of a composition, publication, or revision process.  Textual
+                alteration is of interest, no matter the agent suspected of initiating an alteration,
+                because &#8220;revision always reveals <hi rend="italic">an intention to change meaning</hi>, and
+                we sense that a text with a history of revision is always more deeply interpretable
+                than if the same text were known to us only as an act of genesis.&#8221;<ptr
+                    target="#note13" xml:id="nr13" n="13" /> As opposed to filing away the rough
+                edges of the text, confining them, as it were, behind the barbed wire of apparatus,
+                the goal of the fluid-text editor is to foreground these rough edges as sites of
+                cultural exchange, clearly marking those places where the text underwent significant
+                revisions as it moved from edition to edition. The key to this foregrounding is the
+                provision of useful &#8220;revision narratives.&#8221; Such revision narratives, as defined by
+                Bryant, &#8220;clarify the identity of textual versions and transform the traditional
+                apparatus into readable paths of revision that facilitate interpretation.&#8221;<ptr
+                    target="#note14" xml:id="nr14" n="14" /> In practice, this means devising new
+                display strategies for the fluid-text editions.</p>
+            <p>Since its publication, Bryant&#x2019;s approach has slowly gained a following among a number
+                of scholars involved in the field loosely defined as digital humanities. And digital
+                technologies are central to this project, both in terms of the methodologies used to
+                edit Stowe&#x2019;s novel and the mediums which will allow its readers to examine the
+                revisions, additions, and alterations made to <hi rend="italic">Uncle Tom&#x2019;s
+                    Cabin</hi> as its text moved from edition to edition. In the accompanying
+                edition, we have marked revision sites with highlighted font. The additional apparatus
+                available will depend on the importance placed on the revision according to the
+                following criteria: <list type="ordered">
+                    <item>A primary textual apparatus entry is keyed to a two-part apparatus entry,
+                        variant and narrative. The variant part of the apparatus entry illustrates
+                        the method of alteration, the original version, and the revised version. The
+                        narrative part of the apparatus entry offers a critical commentary on the
+                        significance of the variant with a cross-reference to related concerns. In the
+                        display, the variant apparatus is placed above and the narrative below. </item>
+                 
+                    <item>A secondary apparatus is available as a <ref type="url" target="http://www.scholarlyediting.org/2012/editions/utctopsy/juxta.utctopsy.html">downloadable Juxta archive</ref>.
+                        The Juxta archive allows side-by-side placement of texts with variants displayed, including
+                        punctuation and capitalization variants not displayed in the primary textual
+                        apparatus, and the capability to generate a print-style apparatus.
+                        The Juxta archive contains a copy of XML source files that are in the edition. Juxta
+                        software and documentation is available at
+                        <ref type="url" target="http://www.juxtasoftware.org/">http://www.juxtasoftware.org/</ref>. </item>
+                </list>
+                The fluid-text approach, with its emphasis on narrative rather than arcane
+                symbols, opens the apparatus to readers, who are invited to analyze its choices
+                critically. Such a method requires editors to be pedagogues and to use narratives to
+                guide readers through revision. </p>
+            <p>The project goal, both here and throughout &#8220;<hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>:
+                A Digital Critical Edition,&#8221; is to provide an authoritative publication history,
+                definitive texts in transcribed and digital facsimile form, narrative interpretation
+                of significant textual alteration, and a comprehensive listing of historical
+                variants. Our narrow intent is that &#8220;<hi rend="italic">Uncle
+                    Tom&#x2019;s Cabin</hi>: A Digital
+                Critical Edition: &#8216;Topsy,&#8217;&#8239;&#8221; with its
+            compelling evidence that author Harriet Beecher Stowe
+            altered the words of the text based on considerations of intended audience,
+            will prompt a reconsideration of the prominence accorded to
+            reprints of the Jewett two-volume edition in present-day literary
+            and cultural studies scholarship. Our broader hope is that 
+            the fluid-text form of presentation will encourage a wide range of readers
+            to explore the complexity of Stowe&#x2019;s multifaceted
+            textual portrait of Topsy.<ptr target="#note15" xml:id="nr15" n="15" /> 
+            </p>
+        
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">F. O. Matthiessen, <hi rend="italic">American Renaissance: Art
+                        and Expression in the Age of Emerson and Whitman</hi> (New York: Oxford
+                    University Press, 1941), vii, 63; James Baldwin, &#8220;Everybody&#x2019;s Protest Novel&#8221;
+                    (1949), in <hi rend="italic">Notes of a Native Son</hi> (Boston: Beacon Press,
+                    1984), 478&#8211;85. </note>
+                <note xml:id="note2">Jane Tompkins, <hi rend="italic">Sensational Designs: The
+                        Cultural Work of American Fiction, 1790&#8211;1860</hi> (New York: Oxford UP,
+                    1986); Henry Louis Gates and Margo Jefferson, &#8220;<hi rend="italic">Uncle Tom&#x2019;s
+                        Cabin</hi> Reconsidered: A Conversation with Henry Louis Gates &amp;
+                    Margo Jefferson | The New York Public Library&#8221;, November 29, 2006,
+                    <ref type="url" target="http://www.nypl.org/audiovideo/uncle-toms-cabin-reconsidered-conversation-henry-louis-gates-margo-jefferson">http://www.nypl.org/audiovideo/uncle-toms-cabin-reconsidered-conversation-henry-louis-gates-margo-jefferson</ref>. </note>
+                <note xml:id="note3">Harriet Beecher Stowe, <hi rend="italic">Uncle Tom&#x2019;s Cabin: or,
+                        Life among the Lowly</hi>. 2 vols. (Boston: John P. Jewett, 1852), 1: 210. </note>
+                <note xml:id="note4">Harriet Beecher Stowe, <hi rend="italic">The Annotated Uncle
+                        Tom&#x2019;s Cabin</hi>, ed. Henry Louis Gates, Jr., and Hollis Robbins (New York:
+                    W. W. Norton, 2007); <hi rend="italic">Uncle Tom&#x2019;s Cabin, or, Life among the
+                        Lowly</hi>, ed. Stephen Railton (Boston: Bedford/St. Martins, 2008); <hi
+                        rend="italic">Uncle Tom&#x2019;s Cabin: or, Life among the Lowly</hi>, ed. David
+                    Bromwich (Cambridge: John Harvard Library of Harvard University Press, 2009);
+                        <hi rend="italic">Uncle Tom&#x2019;s Cabin: or, Life among the Lowly</hi>, ed.
+                    Christopher G. Diller (Peterborough, ON: Broadview Press, 2009); <hi
+                        rend="italic">Uncle Tom&#x2019;s Cabin</hi>, ed. Mary R. Reichardt (San Francisco:
+                    Ignatius Press, 2009); <hi rend="italic">Uncle Tom&#x2019;s Cabin: Authoritative Text,
+                        Backgrounds and Contexts, Criticism</hi>, ed. Elizabeth Ammons, 2nd ed. (New
+                    York: W.W. Norton, 2010); Uncle Tom&#x2019;s Cabin, eds. James M. McPherson, and
+                    Kathryn Kish Sklar, Pbck. ed., (New York: Library of America-Penguin, 2010). A
+                    forthcoming edition, unavailable at this writing, will reprint Jewett&#x2019;s
+                    Illustrated Edition (1853): <hi rend="italic">Uncle Tom&#x2019;s Cabin: or, Life among
+                        the Lowly: the Splendid Edition</hi>, ed. David S. Reynolds (New York:
+                    Oxford University Press, 2011). </note>
+                <note xml:id="note5"><hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>, directed by Edwin S. Porter (New York, 
+                    NY: Edison, 1903); <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>, directed by William 
+                    Robert Daly (Fort Lee, NJ: World Film, 1914); <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>, 
+                    directed by Harry A. Pollard (Hollywood, CA: Universal, 1927). Notable animated adaptations of 
+                    <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi> include: <hi rend="italic">Dixie Days; or, Uncle Tom 
+                    and Little Eva</hi>, directed by John Foster and Mannie Davis (Buffalo, NY: Van Buren, 1930); 
+                    <hi rend="italic">Hittin&#x2019; The Trail For Hallelujah Land</hi>, directed by Hugh Harman and 
+                    Rudolph Ising (Hollywood, CA: Warner Bros., 1931); <hi rend="italic">Mickey&#x2019;s Mellerdrammer</hi>, 
+                    directed by Wilfred Jackson (Hollywood, CA: United Artists, 1933); <hi rend="italic">The Old Plantation</hi>, 
+                    directed by Hugh Harman and Rudolph Ising (Culver City, CA: MGM Studios, 1935); 
+                    <hi rend="italic">Uncle Tom&#x2019;s Bungalow</hi>, directed by Frederick &#8220;Tex&#8221; Avery, (Hollywood, CA: 
+                    Warner Bros., 1937); <hi rend="italic">Eliza on the Ice</hi>, directed by Connie Rasinski (New Rochelle, NY:
+                    Terry Toons, 1944); <hi rend="italic">Uncle Tom&#x2019;s Cabana</hi>, directed by Frederick &#8220;Tex&#8221; Avery 
+                    (Hollywood, CA: Warner Bros., 1947). For the fullest discussion of early film adaptations of 
+                    <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi> see Stephen Railton, &#8220;Uncle Tom's Cabin on Film 1: 
+                    The Silent Era,&#8221; in <hi rend="italic">Uncle Tom&#x2019;s Cabin and American Culture</hi>,  
+                    <ref type="url" target="http://utc.iath.virginia.edu/interpret/exhibits/utconfilm/utconfilm.html">http://utc.iath.virginia.edu/interpret/exhibits/utconfilm/utconfilm.html</ref>.</note>
+                <note xml:id="note6">See page 96 in the current edition for this dialogue in context.</note>
+                <note xml:id="note7">For editions and translations, see Margaret H. Hildreth, <hi
+                        rend="italic">Harriet Beecher Stowe: A Bibliography</hi> (Hamden, CT:
+                    Archon, 1976); Jean Ashton, <hi rend="italic">Harriet Beecher Stowe: a Reference
+                        Guide</hi> (Boston: G. K. Hall, 1977). For textual variants in British
+                    editions, see Harry Earl Opperman, &#8220;A Bibliography and <hi rend="italic">Stemma Codicum</hi> for
+                    British Editions of <hi rend="italic">Uncle Tom&#x2019;s Cabin</hi>, 1852&#8211;1853.&#8221; PhD diss., Kansas
+                    State University, 1971. For Houghton-Mifflin reprints, see Michael Winship,
+                    &#8220;&#8216;The Greatest Book of Its Kind&#x2019;: A Publishing History of <hi rend="italic"
+                        >Uncle Tom&#x2019;s Cabin</hi>&#8221; (Worcester, Mass.: American Antiquarian Society,
+                    2002), 330&#8211;31; Claire Parfait, <hi rend="italic">The Publishing History of Uncle
+                        Tom&#x2019;s Cabin, 1852&#8211;2002</hi> (Burlington, VT: Ashgate, 2007), 122&#8211;36. </note>
+                <note xml:id="note8">Winship, &#8220;Greatest Book,&#8221; 323n34.</note>
+                <note xml:id="note9">Parfait, <hi rend="italic">Publishing History</hi>, 100. Parfait cautions against the
+                    trustworthiness of these estimates. For the number to be accurate, one must
+                    trust publisher claims and press statements while ignoring
+                    the distinction between copies published and copies sold.
+                </note>
+                <note xml:id="note10">Parfait, <hi rend="italic">Publishing History</hi>, 128&#8211;31</note>
+                <note xml:id="note11">John Bryant, <hi rend="italic">The Fluid Text: A Theory of
+                        Revision and Editing for Book and Screen</hi> (Ann Arbor, Mich.: University
+                    of Michigan Press, 2002), 1. </note>
+                <note xml:id="note12">Mary-Jo Kline, <hi rend="italic">A Guide to Documentary
+                        Editing</hi> (Baltimore: Johns Hopkins University Press), 96, 101; G. Thomas
+                    Tanselle, <hi rend="italic">A Rationale of Textual Criticism</hi> (Philadelphia:
+                    University of Pennsylvania Press, 1989), 77&#8211;78; Jerome J. McGann, <hi rend="italic"
+                        >Social Values and Poetic Acts: the Historical Judgment of Literary
+                        Work</hi> (Cambridge, Mass.: Harvard University Press, 1988), 55. </note>
+                <note xml:id="note13">Bryant, <hi rend="italic">Fluid Text</hi>, 96.</note>
+                <note xml:id="note14">John Bryant, &#8220;Rewriting <hi rend="italic">Moby-Dick</hi>:
+                    Politics, Textual Identity, and the Revision Narrative,&#8221; <hi rend="italic"
+                        >PMLA</hi> 125.4 (October 2010): 1044. </note>
+                <note xml:id="note15">Financial and staff support has been provided by Kent State University
+                    through the Institute for Bibliography and Editing, the Research Council, and the
+                    English Department&#x2019;s program for undergraduate research assistance.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

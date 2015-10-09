@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640206.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Black Brigade</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640206.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jmb">J. Madison Bell</author>
+                        <title level="a">The Black Brigade</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-02-06">6 February 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jmb">Bell, J. Madison</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>African-American soldiers</term>
+                    <term>Tennyson, Alfred Tennyson, Baron, 1809-1892</term>
+                    <term>United States--History--Civil War, 1861-1865--Participation, African American</term> 
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-06" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-07-17" who="#kt">encoded; inserted placeholder terms</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640206.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640206.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640206.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640206.pp4.jpg"/>            
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18640206.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">THE BLACK BRIGADE.</head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <byline rend="center">BY J. MADISON BELL.<note type="editorial" resp="#bw #el"><p>James Madison Bell (1826&#8211;1902). Born in Gallipolis, Ohio, Bell worked as a plasterer in Cincinnati. At twenty-two, he married Louisa Sanderlin. In 1854, he and his family moved to Chatham, Canada West, where he began to write and recite poetry, and rallied support for John Brown's Harpers Ferry raid (Peter C. Ripley, et al., ed., <title level="m">The Black Abolitionist Papers: The United States, 1859&#8211;1865</title> [Chapel Hill: University of North Carolina Press, 1992], 5:139). After moving to San Francisco in early 1860, he joined the activists who published the <title level="j">Pacific Appeal</title> (est. April 1862) and "agitated for better black schools and equal rights, led protests against minstrel shows and color restrictions in public facilities, and joined the statewide fight for black suffrage" (5:139). He also became a lay leader in the African Methodist Episcopal Church.</p><p>Bell's poetry appeared in the <title level="j">San Francisco Appeal</title> and, later, in the <title level="j">Elevator</title>. Philip A. Bell, editor of the <title level="j">Appeal</title> and the <title level="j">Elevator</title> (est. 1865), knew the<title level="j"> Anglo-African</title> editors well; perhaps the standard editorial routine of newspaper exchange was complemented by personal correspondence among the editors. Philip A. Bell wrote the introduction for James Madison Bell's <title level="m">Poem Entitled the Day and the War</title> (1864). "The Black Brigade" was published as part of this longer work. In February 1864 the <title level="j">Anglo-African</title> presented the poem as part of the celebrations held in San Francisco to mark the first anniversary of the Emancipation Proclamation (see "California Intelligence," February 27, 1864, [4]).</p><p>Bell left San Francisco in 1865. He undertook reading tours before settling with his family in Toledo, Ohio. The 1870 census describes him as a plasterer, based in Toledo. He campaigned for Ulysses S. Grant in the lead-up to the presidential election in 1872. Bell's former pastor Benjamin W. Arnett compiled his collected works, <title level="m">The Poetical Works of James Madison Bell</title> (Lansing, MI: Wynkoop Hallenbeck Crawford, 1901).</p></note></byline>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Though</emph> Tennyson,<note type="editorial" resp="#bw #el">In "The Charge of the Light Brigade" (1854), poet laureate Alfred Tennyson paid tribute to the British cavalrymen who charged Russian guns as a result of bungled orders during the battle of Balaclava (October 25, 1854). The Crimean War poem proved hugely popular on both sides of the Atlantic and was oft-quoted during the Civil War. Abolitionist poets gestured to "The Charge of the Light Brigade" in order to affirm that the bravery of African American soldiers was more than equal to that of Tennyson's troopers, whom contemporaries acknowledged as modern heroes. Bell's opening lines also situate "The Black Brigade" as a literary endeavor equivalent to that of the "poet king"; Bell identifies Tennyson as a national poet and presents his own tribute in an equivalent context.</note> the poet-king,</l>
+                    <l rend="indented1">Has sung of Balaklava's charge,</l>
+                    <l>Until his thund'ring cannons ring<unclear reason="illegible" cert="low" resp="#kt #bw">,</unclear></l>
+                    <l rend="indented1">From England's centre to her marge,</l>
+                    <l>The pleasing duty still remains</l>
+                    <l>To sing a people from their chains&#8212;</l>
+                    <l>To sing what none have yet essay'd,</l>
+                    <l>The wonders of the Black Brigade.</l>
+                    <l>The war had raged some twenty moons,<note type="editorial" resp="#bw #el">The War Department authorized the formation of the first regiments of African American volunteers from Northern states in January 1863, approximately twenty months after Confederate forces fired on Fort Sumter (April 12&#8211;13, 1861).</note></l>
+                    <l>Ere they in columns or platoons,</l>
+                    <l>To win them censure or applause,</l>
+                    <l>Were marshal'd in the Union cause&#8212;</l>
+                    <l>Prejudged of slavish cowardice,</l>
+                    <l>While many a taunt and foul device</l>
+                    <l>Came weekly forth with Harper's sheet,<note type="editorial" resp="#bw #el">"Harper's sheet" refers to <title level="j">Harper's Weekly: A Journal of Civilization</title> (1857&#8211;1916); a richly illustrated newspaper, published by Harper and Brothers in New York. During the war, Harper's was edited by John Bonner (1858&#8211;1863) and George William Curtis (1863&#8211;1892). See Frank Luther Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> (Cambridge, MA: Harvard University Press, 1938), 469. Disparaging representations of African Americans were popular in <title level="j">Harper's Weekly</title> in the antebellum period and through the early part of the war.</note></l>
+                    <l>To feed that base, infernal cheat.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l rend="indented1">But how they would themselves demean,</l>
+                    <l>Has since most gloriously been seen.</l>
+                    <l>'Twas seen at Milliken's dread Bend,<note type="editorial" resp="#bw #el">Northwest of Vicksburg, Milliken's Bend was the site of a Union garrison on the banks of the Mississippi River. Newly recruited African American soldiers played a crucial part in holding off a Confederate attack there on June 7, 1863. During the battle, soldiers fought at close quarters and "the vicious hand-to-hand struggle on the levee . . . created new respect for African American fighting men" among white Union soldiers (Richard Lowe, "Battle on the Levee: The Fight at Milliken's Bend," in <title level="m">Black Soldiers in Blue: African American Troops in the Civil War Era</title>, ed. John David Smith [Chapel Hill: University of North Carolina Press, 2002], 126).</note></l>
+                    <l>Where e'en the Furies seemed to lend</l>
+                    <l>To dark Secession all their aid,</l>
+                    <l>To crush the Union Black Brigade.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>The war waxed hot, and bullets flew</l>
+                    <l rend="indented1">Like San Francisco's Summer sand,</l>
+                    <l>But they were there to dare and do,</l>
+                    <l rend="indented1">E'en to the last, to save their land.</l>
+                    <l>And when the leaders of their corps</l>
+                    <l rend="indented1">Grew wild with fear, and quit the field,</l>
+                    <l>The dark remembrance of their scars</l>
+                    <l rend="indented1">Before them rose, they could not yield:</l>
+                    <l>And, sounding o'er the battle din,</l>
+                    <l rend="indented1">They heard their standard-bearer cry&#8212;</l>
+                    <l rend="indented1">"Rally! and prove that ye are men!</l>
+                    <l rend="indented1">Rally! and let us do or die!</l>
+                    <l>For war, not death, shall boast a shade</l>
+                    <l>To daunt the Union Black Brigade!"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And thus he played the hero's part,</l>
+                    <l rend="indented1">Till on the ramparts of the foe</l>
+                    <l>A score of bullets pierced his heart,</l>
+                    <l rend="indented1">He sank within the trench below.</l>
+                    <l>His comrades saw, and fired with rage,</l>
+                    <l>Each sought his man, him to engage</l>
+                    <l>In single combat. Ah! 'twas then</l>
+                    <l>The Black Brigade proved they were men!</l>
+                    <l>For ne'er did Swiss, or Russ, or knight,</l>
+                    <l rend="indented1">Against such fearful odds array'd,</l>
+                    <l>With more persistent valor fight,</l>
+                    <l rend="indented1">Than did the Union Black Brigade!</l>
+                    <l>As five to one, so stood their foes,</l>
+                    <l>When that defiant shout arose,</l>
+                    <l>And 'long  their closing columns ran,</l>
+                    <l>Commanding each to choose his man!</l>
+                    <l>And ere the sound had died away,</l>
+                    <l>Full many a ranting rebel lay</l>
+                    <l>Gasping piteously for breath&#8212;</l>
+                    <l>Struggling with the pangs of death,</l>
+                    <l>From bayonet thrust or shining blade,</l>
+                    <l>Plunged to the hilt by the Black Brigade.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l rend="indented1">And thus they fought, and won a name&#8212;</l>
+                    <l>None brighter on the scroll of Fame;</l>
+                    <l>For out of one full corps of men,</l>
+                    <l>But one remained unwounded, when</l>
+                    <l>The dreadful fray had fully past&#8212;</l>
+                    <l>And killed or wounded but the last!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l rend="indented1">And though they fell, as has been seen,</l>
+                    <l>Each slept his lifeless foes between,</l>
+                    <l>And marked the course and paved the way</l>
+                    <l>To ushering in a better day.</l>
+                    <l>Let Balaklava's cannons roar,</l>
+                    <l rend="indented1">And Tennyson his hosts parade,</l>
+                    <l>But ne'er was seen and never more</l>
+                    <l rend="indented1">The equals of the Black Brigade.</l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">The foregoing is from a poem written and read by Mr. <lb/>Bell at the 1st of January Celebration in San Francisco.</note>
+            
+        </body>
+    </text>
+</TEI>
+

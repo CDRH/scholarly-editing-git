@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18630919.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">An Incident of the New York Riot</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18630919.4</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#ljl">L. J. L.</author>
+                        <title level="a">An Incident of the New York Riot</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-09-19">19 September 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="ljl">Unknown</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>Draft Riot, New York, N.Y., 1863</term>
+                    <term>Port Hudson (La.)</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                    <term>Vicksburg (Miss.)--History--Civil War, 1861-1865</term>
+                    <term>Vicksburg (Miss.)--History--Siege, 1863</term>
+                    <term>Vicksburg (Miss.)--History--Siege, 1863--Poetry</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-21" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-24" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-24" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18630919.pp1.jpg"/> 
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18630919.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18630919.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18630919.pp4.jpg"/>
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18630919.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        
+        <body> 
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">AN INCIDENT OF THE NEW YORK RIOT.<note type="editorial" resp="#bw #el">The New York City Draft Riots and their aftermath dominated news on the home front in early August 1863. The federal government passed its first Conscription Act in March 1863, and the first draft took place in July. Democrats opposed the draft as unconstitutional (James M. McPherson, <title level="m">Battle Cry of Freedom: The American Civil War</title> [London: Penguin, 1991] 608&#8211;9). The implementation of the draft sparked mob violence in several cities, New York foremost among them. For four days, July 13&#8211;16, rioters attacked African Americans, prominent Republicans, and public officers. More than a hundred people were killed; many more black New Yorkers grappled with trauma and destitution (Carla L. Peterson, <title level="m">Black Gotham: A Family History of African Americans in Nineteenth-Century New York City</title> [New Haven, CT: Yale University Press, 2011], 225&#8211;53).</note></head>
+                
+                <milestone unit="undeclared" rend="short-bar"/>
+                
+                <epigraph><ab>"<emph rend="italic">Mother! they may kill the body, but they cannot touch <lb/>the soul!</emph>"</ab><note type="editorial" resp="#bw #el">See Matthew 10:28: "And fear not them which kill the body, but are not able to kill the soul: but rather fear him which is able to destroy both soul and body in hell."</note></epigraph>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Peaceful</emph> o'er the placid waters rose the radiant Summer <lb/>
+                        sun,</l>
+                    <l>Loyal voices <unclear reason="illegible" cert="medium" resp="#el">shouted</unclear> anthems o'er the conquest bravely <lb/>won;</l>
+                    <l>For the walls of Vicksburg yielded to the Union's shot and <lb/>shell,</l>
+                    <l>While Port Hudson, trembling, waited but a clearer <unclear resp="#el" reason="damage" cert="medium">tale</unclear> to <lb/>tell.<note type="editorial" resp="#bw #el">Fortified city Vicksburg fell to General Ulysses S. Grant's army on July 4, 1863; days later, the Confederate garrison at Port Hudson surrendered. The capture of Vicksburg reopened the Mississippi River to Union vessels and broke a vital Confederate supply line. In the poem, "traitors'" riots shatter a moment of peace and celebration.</note></l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>But, alas! day's golden image scarce had left its impress <lb/>there,</l>
+                    <l>When above a Northern city rose the sounds of wild <choice><orig>de-<lb/>spair</orig><reg>despair</reg></choice>;</l>
+                    <l>Fiends and demons yet unnumbered rallied forth in bold <lb/>array,</l>
+                    <l>Deeds of darkness, scenes of carnage, marked the traitors' <lb/>onward way.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Blind to feeling, deaf to mercy, who may judge the depth <lb/>of crime?</l>
+                    <l>None but God may know the misery traced upon the Book <lb/>of Time!</l>
+                    <l>'Tis enough that sinking manhood, with consumption's <lb/>hectic glow,</l>
+                    <l>Fell a prey to ruffian anger, sank beneath a coward's blow. </l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Brutish forces conveyed the "loved one" from that widow'd <lb/>mother's side,</l>
+                    <l>While her groans of mortal anguish echoed back <choice><orig>intensi-<lb/>fied</orig><reg>intensified</reg></choice>;</l>
+                    <l>But the God of races lifted up the mantle of despair,</l>
+                    <l>And revealed the crown of glory that her dying son would <lb/>wear.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>While upon that beaming countenance sin had left no bitter <lb/>trace,</l>
+                    <l>But a look of earnest meaning lit the dying hero's face,</l>
+                    <l>Whispering words of cheer and comfort as he neared the <lb/>promised goal,</l>
+                    <l>"Mother! they may kill the body, but they cannot touch <lb/>the soul!"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>What a world of earnest feeling do these words of faith <lb/>convey,</l>
+                    <l>While Religion shed its lustre brilliant as the light of day!</l>
+                    <l>What a stern rebuke to madness, could the faithless soul <lb/>believe,</l>
+                    <l>Ages of self-abnegation, years of prayer, can scarce <lb/>retrieve!</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Aye! humanity may envy Abraham Franklin's<note type="editorial" resp="#bw #el"><p>Abraham Franklin was a black coachman lynched by rioters. An <title level="j">Anglo-African</title> editorial, "Victims of the Mob," published in the issue of August 1, 1863, reported that Franklin had been seized at his mother's house: <floatingText><body><p>"'<emph rend="italic">Mother! they may kill the body, but they cannot touch the soul!</emph>'&#8212;was the language used by poor Abraham Franklin, as he was borne from the presence of his mother by the barbarous mob on the morning of the 14 ult. This young man, aged 23, had been an invalid for about two years, and was a confirmed consumptive. When the mob broke into the house they found him in bed. They bore him into the street and there, although he had not raised a finger against them, indeed was not able to do so, they <emph rend="italic">beat him to death, hanged him to a lamp-post, cut his pantaloons off at the knees, cut bits of flesh out of his legs, and afterward set fire to him!</emph>"</p></body></floatingText> Like "An Incident of the New York Riot," the editorial emphasizes Franklin's helplessness and holiness. The mob savages a childlike invalid and violates a space that is both a sickroom and a domestic sanctuary.</p></note> peaceful <lb/>grave,</l>
+                    <l>While the hearts of unborn millions will his heavenly <choice><orig>ad-<lb/>vent</orig><reg>advent</reg></choice> crave;</l>
+                    <l>And these simple words of feeling bid the wave of thought <lb/>to roll,</l>
+                    <l>"Mother! they may kill the body, but they cannot touch <lb/>the soul!"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Vainly may we search in history what the barbarous ages <lb/>tell,</l>
+                    <l>St. Bartholomew's dark record<note type="editorial" resp="#bw #el"><p>A reference to the St. Bartholomew's Day Massacre, an infamous episode in the French Wars of Religion. In August 1572 royal troops acting on Catherine de Medici's orders assassinated approximately two hundred Huguenot leaders who had gathered for a wedding; the killings sparked mob violence in Paris and throughout the provinces. For several weeks, Catholics attacked and mutilated thousands of French Protestants. By turning to the French massacre for a parallel atrocity, the poet taps into contemporary anti-immigrant and anti-Catholic prejudice; many of the rioters were reported to be Irish American.</p><p>Reportage suggested that Irish Americans played a conspicuous part in the riots. Of the actual composition of the mob, historian Carla Peterson writes that "[s]ome were journeymen in the older artisan trades, while others&#8212;mostly Irish Catholic&#8212;were common laborers or workers in newer industrial occupations. Over the four days of rioting, the composition of the mob gradually shifted as both native-born Americans and German immigrants retreated. More likely to be skilled workers and property owners, their animosity toward political elites and blacks was not nearly as great as that of the Irish" (<title level="j">Black Gotham: A Family History of African Americans in Nineteenth-Century New York City</title> [New Haven, CT: Yale University Press, 2011], 225).</p></note> scarcely seems a parallel;</l>
+                    <l>Yet the day of triple vengeance hastens forth on nimble <lb/>wing,</l>
+                    <l>And the <unclear resp="#el" reason="illegible" cert="medium">time</unclear> of true repentance proves the fact that God <lb/>is King!</l></lg>
+                
+                
+                <lg type="stanza">
+                    <l>But these foes to reigning justice never can restore,</l>
+                    <l>Though that widowed mother's image haunts their days <lb/>forevermore<unclear reason="illegible" cert="medium" resp="#el">;</unclear></l>
+                    <l>As a monument to glory faithfully these words enroll,</l>
+                    <l>"Mother they may kill the body, but they cannot touch <lb/>the soul!"</l>
+                </lg>
+            </lg>
+            
+            <dateline>August 10, 1863.</dateline>
+            <byline rend="right">L. J. L.</byline>
+            <note type="newspaper-editorial">&#8212;<title level="j">Chester (Pa.) Republican</title>.<note type="editorial" resp="#bw #el">Possibly the weekly <title level="j">Delaware County (Pennsylvania) Republican</title> (1833&#8211;1895), which covered news from both Danby and Chester, Pennsylvania,  or the weekly <title level="j">American Republican</title> (1858&#8211;1878), published in West Chester, Pennsylvania. As "An Incident of the New York Riot" appeared in issues of the <title level="j">Christian Recorder</title> and the <title level="j">Liberator</title> dated September 4, 1863, the <title level="j">Anglo-African</title> editors may well have encountered the reprinted text in one of their regular exchanges.</note></note>
+        </body>
+        
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

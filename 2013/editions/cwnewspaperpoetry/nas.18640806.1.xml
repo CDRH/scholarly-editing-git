@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18640806.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Abraam and Columbia</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18640806.1</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#c">Corduroy</author>
+                        <title level="a">Abraam and Columbia</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-08-06">6 August 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[1]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="c">Unknown</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Banks, Nathaniel Prentiss, 1816-1894</term>
+                    <term>Cameron, Simon, 1799-1889</term>
+                    <term>Copperhead movement.</term>
+                    <term>Fr&#233;mont, John Charles, 1813-1890</term>
+                    <term>Lincoln, Abraham, 1744-1786</term>
+                    <term>Lincoln, Abraham, 1809-1865--Military leadership</term>
+                    <term>Lincoln, Abraham, 1809-1865. National politics</term>
+                    <term>Lincoln, Abraham, 1809-1865--Politics and government</term>
+                    <term>Lincoln, Abraham, 1809-1865--Public opinion</term>
+                    <term>McClellan, George Brinton, 1826-1885</term>
+                    <term>Rosecrans, William Starke, 1819-1898</term>
+                    <term>Scott, Winfield, 1786-1866</term>
+                    <term>United States --Foreign relations--1861-1865.</term>
+                    <term>Washington (D.C.)--1860-1870</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-21" who="#el">added and encoded annotations</change>
+            <change when="2012-09-20" who="#el">checked transcription and encoding</change>
+            <change when="2012-09-16" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18640806.pp1.jpg"/>
+            <zone xml:id="pp1_cropped"  corresp="#poem">
+                <graphic url="nas.18640806.pp1_cropped.jpg"/>
+            </zone>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18640806.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18640806.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18640806.pp4.jpg"/> 
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp1_cropped">
+        
+        <body>
+           
+            <lg type="poem">
+                <head type="main" subtype="authorial" rend="center">ABRAAM AND COLUMBIA.</head>
+                
+                
+                <note type="newspaper-editorial" rend="center">From The Boston Courier.</note>
+                
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">Lank</emph> Abraam<note type="editorial" resp="#bw #el">Abraham Lincoln. The choice of "Abraam" for Lincoln's name here has several possible implications. In the Old Testament, Abraham is first known as "Abram." In Genesis 17, God appears to Abram, then ninety-nine years old, saying, "You will be the father of many nations. No longer will you be called Abram [exalted father]; your name will be Abraham [father of many], for I have made you a father of many nations" (Gen. 17:4&#8211;5). The choice of "Abraam" over "Abraham" in the poem, then, may be a political statement regarding Lincoln. The name "Abraam" is also markedly more formal than the language of the rest of the poem, and the juxtaposition of the formal with the colloquial contributes to the humorous effect of the lines. Another possibility is that the use of "Abraam" over "Abraham" was done to achieve the desired meter.</note> lolled in his library chair,</l>
+                    <l>Consulting "Joe Miller"<note type="editorial" resp="#bw #el"><title level="m">Joe Miller's Jests</title> was a popular collection of jokes, first published in 1739. From the eighteenth century through the nineteenth, the book was regularly expanded and reissued. The original <title level="m">Joe Miller's Jests</title> was reissued as a facsimile copy by London publisher John Camden Hotten in 1862.</note> and "Vanity Fair,"<note type="editorial"><title level="j">Vanity Fair</title> was a humor paper established in the 1850s, with roots in New York City's Bohemian crowd. The first issue of the weekly was that of December 31, 1859; the last issue had appeared nearly a year before the publication of "Abraam and Columbia" in the <title level="j">National Anti-Slavery Standard</title>, on July 4, 1863. See Frank Luther Mott, <title level="m">A History of American Magazines, 1850&#8211;1865</title> (Cambridge: Harvard University Press, 1966 [1938]), 520&#8211;529.</note></l>
+                    <l>When in swept Columbia, careworn and pale,</l>
+                    <l>But dauntless and haughty 'mid Fortune's assail&#8212;</l>
+                    <l>"Come, steward," she said, "now explain, if you can!</l>
+                    <l>Why shan't I discharge you and try a new man?"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Then <choice><sic>Abram</sic><corr>Abraam</corr></choice> the wily replied with a grin,</l>
+                    <l>"A Dutchman once said, in the county of Quinn,</l>
+                    <l>(The story is old, but in point, as I deem)</l>
+                    <l>'Taint safe to swap <choice><orig>hosses</orig><reg type="dialect">horses</reg></choice> when crossing a stream."<note type="editorial" resp="#bw #el">These lines evoke Lincoln's reputation for homespun humor and jokes and have their basis in events of the period. In his reply to the delegation from the National Union League, dated June 9, 1864, Lincoln wrote, "I have not permitted myself, gentlemen, to conclude that I am the best man in the country; but I am reminded, in this connection, of a story of an old Dutch farmer, who remarked to a companion once that 'it was not best to swap horses when crossing streams.'" Lincoln's letter was reprinted in three major New York papers&#8212;the <title level="j">Times</title>, <title level="j">Herald</title>, and <title level="j">Tribune</title>&#8212;on June 10, 1864. See Roy P. Basler, ed., <title level="m">The Collected Works of Abraham Lincoln</title> (New Brunswick, NJ: Rutgers University Press, 1953), 7:383&#8211;84.</note></l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Cease, sirrah, your jesting! remember," she said,</l>
+                    <l>"My fields with the blood of my yeomanry red!</l>
+                    <l>The wail of the widow, the orphan's sad eye</l>
+                    <l>Rebuke the rude trifling of lowly or high.</l>
+                    <l>My children are warring along my green slopes&#8212;</l>
+                    <l>I come for your counsels, your plans and your hopes."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Quoth Abraam, "Don't swap; for as sure as a gun,</l>
+                    <l>This thing, it is certain, must never be done.</l>
+                    <l>Your <choice><orig>biler</orig><reg type="dialect">boiler</reg></choice> will bust if you bother the steam&#8212;</l>
+                    <l>'Taint safe to swap <choice><orig>hosses</orig><reg type="dialect">horses</reg></choice> when crossing a stream."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"But, steward," she answered, "my debts are untold.</l>
+                    <l>Account for my treasures of silver and gold!</l>
+                    <l>Hard taxes are wrested from labor's brown hand,</l>
+                    <l>Yet pledged is my income, and mortgaged my land.</l>
+                    <l>Your squanderings waste what the plunderers miss;</l>
+                    <l>Three years of your follies have brought me to this!"</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>And Abraam replied, as he straddled his chair,</l>
+                    <l>"You know, my dear madam, I'm honest and square;</l>
+                    <l>To shelve a tried President, don't ever dream&#8212;</l>
+                    <l>'Taint safe to swap <choice><orig>hosses</orig><reg type="dialect">horses</reg></choice> when crossing a stream."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>"You crouch to John Bull, for French despots hurrah,</l>
+                    <l>You cringe to the Spaniard, and toady the Czar;<note type="editorial" resp="#bw #el">These lines refer to the Lincoln administration's relationships with and policies regarding Britain ("John Bull"), France, Spain, and Russia, particularly in regard to his efforts to secure allies and to prevent international recognition of the Confederacy, whether tacit or outright.</note></l>
+                    <l>My shield cannot shelter a poor refugee;</l>
+                    <l>My commerce is hunted all over the sea.</l>
+                    <l>How fallen am I&#8212;the young Queen of the West,</l>
+                    <l>Who walked among nations more proud than the best.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"'Tis true," said the steward, "I notice your fix;</l>
+                    <l>But let the pot <choice><orig>bile</orig><reg type="dialect">boil</reg></choice>, and just tote up the sticks.</l>
+                    <l>Don't muddle the milk, if you hope to get cream;</l>
+                    <l>'Taint safe to swap <choice><orig>hosses</orig><reg type="dialect">horses</reg></choice> when crossing a stream."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Sir, since you persist in your quips and your cranks,</l>
+                    <l>Where is Rosecrans, Cameron, Scott, and Nat Banks?</l>
+                    <l>Pray, why do you 'swap,' if removal won't cure,</l>
+                    <l>When Fremont was fast and McClellan was sure?"<note type="editorial" resp="#bw #el">These lines list a string of former Union generals and one ex-cabinet minister: William Starke Rosecrans (1819&#8211;1898); Simon Cameron (1799&#8211;1889); Winfield Scott (1786&#8211;1866); Nathaniel Prentiss Banks (1816&#8211;1894); John Charles Fr&#233;mont (1813&#8211;1890); and George B. McClellan (1826&#8211;1885). The flattering reference to McClellan is particularly important, as the poem appeared weeks before he secured the Democratic Party's presidential nomination at the Democratic National Convention in Chicago. "Abraam and Columbia" is a piece of Democrat propaganda; this context explains why the <title level="j">National Anti-Slavery Standard</title> published the piece in its front-page "Pro-Slavery" column.</note></l>
+                    <l>And quelling her tears, she demanded reply,</l>
+                    <l>With clouds on her brow and a flame in her eye.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"That 'minds me," said Abraam, "of old Deacon Bruce&#8212;</l>
+                    <l>What's sass for the gander aint sass for the goose&#8212;</l>
+                    <l>'Things aint at all times,' <choice><orig>sez</orig><reg type="dialect">says</reg></choice> he, 'quite what they seem,'&#8212;</l>
+                    <l>'Taint safe to swap <choice><orig>hosses</orig><reg type="dialect">horses</reg></choice> when crossing a stream."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"Enough!" cried Columbia, "my future I see&#8212;</l>
+                    <l>Ruin, havoc and death in the homes of the free;</l>
+                    <l>Fair Liberty stabbed by the lords of misrule,</l>
+                    <l>While, thoughtless, she laughs at the freaks of their fool;</l>
+                    <l>Thieves, clowns and usurpers in council preside,</l>
+                    <l>And fraud, force and folly my destinies guide."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>"I have it!" quoth Abraam, "as slick as a mice!</l>
+                    <l>Squash Hamlin!<note type="editorial" resp="#bw #el">Hannibal Hamlin (1809&#8211;1891), vice president during Lincoln's first term. He found the role frustratingly limited, yet had expected to be renominated at the National Union (Republican) convention. Instead, Andrew Johnson, a Southern War Democrat, replaced him on the ticket.</note> and government's rid of its <emph rend="italic">vice;</emph></l>
+                    <l>But don't you turn tail at a Copperhead<note type="editorial" resp="#bw #el">A poisonous snake, "Copperhead" became the popular (Republican) name for so-called "Peace Democrats," who opposed the administration's war policies and promoted peace with the South. Copperheads were widely associated with disloyalty and treachery on the home front.</note> scream&#8212;</l>
+                    <l>'Taint safe to swap <choice><orig>hosses</orig><reg type="dialect">horses</reg></choice> when crossing a stream."</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>Columbia, disgusted, would listen no more,</l>
+                    <l> But cried in a rage, as she stormed through the door&#8212;</l>
+                    <l>"I have kept an old donkey for nearly four years,</l>
+                    <l>Who brings me but scorn and disaster and tears!</l>
+                    <l>I vow I will drive a respectable team,</l>
+                    <l>Though forced to swap horses when crossing a stream!"</l>
+                </lg>
+            </lg>
+            
+            
+            <byline rend="right"><emph rend="smallcaps">Corduroy.</emph><note type="editorial" resp="#bw #el">Unidentified. The pseudonym may signal socioeconomic class or political allegiance.</note></byline>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Alex Haley's Handwritten Notes from <hi rend="italics"
+                        >The Autobiography of Malcolm X</hi></title>
+                <author>Alex Haley</author>
+                <editor> Amy E. Earhart et al.</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name xml:id="wr">Amy E. Earhart et al.</name>
+                </respStmt>
+
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">haley.handnotes</idno>
+                <idno type="edition">haley</idno>
+
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2014</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">35</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-07-26" who="#awj">Altered the encoding to match practices in the
+                following ways: 1. added new idnos in publicationStmt 2. Added ISSN number to header
+                and altered vol number and year </change>
+            <change when="2012-08-06" who="#aee">Altered the encoding to match practices in the
+                following ways: 1. revise title statement changing editor and author 2. changed
+                title to match document title 3. linked images to div 4. added footnote 11 5.
+                changed unclear to gap 6. changed note formats </change>
+            <change when="2012-09-10" who="#awj">Altered the value of @rend on hi in title to be
+                "italics"; removed the front with head because it repeated information in the
+                teiHeader and did not represent a head in the original document</change>
+            <change when="2012-12-17" who="#aee">added note regarding materials</change>
+            <change when="2013-04-22" who="#aee">added footnotes</change>
+            <change when="2014-02-25" who="#aee">copyediting corrections</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+
+        <body>
+            <note type="headnote"> Note: Below are transcriptions and images of handwritten notes
+                that Alex Haley compiled during his work on <emph>The Autobiography of Malcolm
+                    X</emph>. During the year and a half that Haley conducted interviews to gain
+                information for the book, he would jot down notes on scrap paper, collect the
+                scribbles, transcribe them into typed and written notes, and eventually piece
+                together the notes to write <emph>The Autobiography</emph>. From the contents, it
+                seems that Haley wrote this set of notecards during interviews conducted the last
+                six to twelve months of Malcolm X's life. There is no indication that scholars are
+                aware of this small holding of notecards, which might prove to be important clues to
+                the production of <emph>The Autobiography.</emph> The notecards are also
+                representations of the complicated relationship between Haley and X, an
+                often-debated issue in scholarly circles. The notecards from which these materials
+                are transcribed are housed in the Alex Haley Papers held by Cushing Library, Special
+                Collections, at Texas A&amp;M University. </note>
+
+
+            <div type="note" n="31" facs="haley.handnotes.31">
+                <p>Sister Betty <ptr target="#note1" xml:id="nr1" n="1"/> has told me since they had
+                    three domestic flare-ups. Once she hung up on him, in 24 hours he was home. "I
+                    never did that again."</p>
+            </div>
+
+            <div type="note" n="32" facs="haley.handnotes.32">
+                <p>Shakespeare "to be, not to be" mss.<ptr target="#note2" xml:id="nr2" n="2"/> p.
+                    43</p>
+            </div>
+
+            <div type="note" n="33" facs="haley.handnotes.33">
+
+                <p>"little rounds"<ptr target="#note3" xml:id="nr3" n="3"/> mss. p. 48-49 (more
+                    preachy) on soapbox</p>
+
+            </div>
+
+            <div type="note" n="34" facs="haley.handnotes.34">
+
+                <p>double-entry notebooks mss. p. 52</p>
+
+            </div>
+
+            <div type="note" n="35" facs="haley.handnotes.35">
+                <p>"You heard any thing?" <ptr target="#note4" xml:id="nr4" n="4"/> mss. p. 53</p>
+            </div>
+
+            <div type="note" n="36" facs="haley.handnotes.36">
+                <p>"saw - too much think he ever nurtured blanket white hatred" mss. p. 42 </p>
+                <p>43 - white girl<ptr target="#note5" xml:id="nr5" n="5"/></p>
+            </div>
+
+            <div type="note" n="37" facs="haley.handnotes.37">
+                <p>passport # C 294275 <ptr target="#note6" xml:id="nr6" n="6"/></p>
+            </div>
+
+            <div type="note" n="38" facs="haley.handnotes.38">
+                <p>MX<ptr target="#note7" xml:id="nr7" n="7"/>
+                    <gap reason="illegible"/> Negroes mss. p. 48</p>
+            </div>
+
+            <div type="note" n="39" facs="haley.handnotes.39">
+                <p>re ex cons - <gap reason="illegible"/> "rhumba" <ptr target="#note8" xml:id="nr8"
+                        n="8"/>mss. p. 20 </p>
+            </div>
+
+            <div type="note" n="40" facs="haley.handnotes.40">
+                <p>Couple named son after him. mss. p. 22<ptr target="#note9" xml:id="nr9" n="9"
+                    /></p>
+            </div>
+
+
+            <div type="note" n="41" facs="haley.handnotes.41">
+                <p>"hell!" Dr. King<ptr target="#note10" xml:id="nr10" n="10"/> mss. p. 26</p>
+            </div>
+
+            <div type="note" n="42" facs="haley.handnotes.42">
+                <p>public <del rend="strikethrough">m</del> seeing Malcolm p. 33 - mss.</p>
+            </div>
+
+            <div type="note" n="43" facs="haley.handnotes.43">
+                <p>On train to Philadelphia <ptr target="#note11" xml:id="nr11" n="11"/> mss. p.
+                    36</p>
+            </div>
+
+            <div type="note" n="44" facs="haley.handnotes.44">
+
+                <p>"Collective white man"<ptr target="#note12" xml:id="nr12" n="12"/> mss. p. 40</p>
+
+            </div>
+
+            <div type="note" n="64" facs="haley.handnotes.64">
+                <p>driving in car with him - I was scared - we talked of death.</p>
+                <p>"My father lived with death. All his brothers -"<ptr target="#note13"
+                        xml:id="nr13" n="13"/></p>
+            </div>
+
+            <div type="note" n="73" facs="haley.handnotes.73">
+
+                <p>into large hotels mss. p.92</p>
+
+            </div>
+
+            <div type="note" n="74" facs="haley.handnotes.74">
+
+                <p>faces of white couple when MX<ptr target="#note14" xml:id="nr14" n="14"/> opened
+                    door mss. p. 93</p>
+
+            </div>
+
+            <div type="note" n="75" facs="haley.handnotes.75">
+                <p>NY State Police</p>
+                <p> FBI<ptr target="#note15" xml:id="nr15" n="15"/></p>
+                <p> Burke Marshall<ptr target="#note16" xml:id="nr16" n="16"/>
+                </p>
+                <p> Pinko <ptr target="#note17" xml:id="nr17" n="17"/> (mss. p. 94)</p>
+            </div>
+
+            <div type="note" n="76" facs="haley.handnotes.76">
+                <p>NY Times Poll Goldwater<ptr target="#note18" xml:id="nr18" n="18"/> - very
+                    pleased</p>
+                <p> New NY Times report King 73% irritated.<ptr target="#note19" xml:id="nr19"
+                        n="19"/> (mss. p. 96)</p>
+            </div>
+
+            <div type="note" n="77" facs="haley.handnotes.77">
+                <p>mid-summer 1964 MX <ptr target="#note20" xml:id="nr20" n="20"/> to Cairo -
+                        Africa.<ptr target="#note21" xml:id="nr21" n="21"/> mss. p. 97</p>
+                <p> I sent him clippings <ptr target="#note22" xml:id="nr22" n="22"/>- mss p. 100 he
+                    appreciated</p>
+            </div>
+
+            <div type="note" n="78" facs="haley.handnotes.78">
+                <p>SEP<ptr target="#note23" xml:id="nr23" n="23"/> editorial<ptr target="#note24"
+                        xml:id="nr24" n="24"/> mss. p. 100</p>
+            </div>
+
+            <div type="note" n="79" facs="haley.handnotes.79">
+                <p>avoiding problems re OAAU's<ptr target="#note25" xml:id="nr25" n="25"/> size mss.
+                    p. 106</p>
+            </div>
+            <div type="note" n="80" facs="haley.handnotes.80">
+                <p>photographed with carbine.<ptr target="#note26" xml:id="nr26" n="26"/> Had
+                    instructed wife to use, he said. mss. p. 109</p>
+            </div>
+
+            <div type="note" n="81" facs="haley.handnotes.81">
+                <p>reluctant sign contract.<ptr target="#note27" xml:id="nr27" n="27"/> mss. p.
+                    110</p>
+            </div>
+
+            <div type="note" n="82" facs="haley.handnotes.82">
+                <p>dolls.<ptr target="#note28" xml:id="nr28" n="28"/> mss. p 111 dinner for Sister
+                        Betty<ptr target="#note29" xml:id="nr29" n="29"/> 111-12</p>
+            </div>
+
+            <div type="note" n="83" facs="haley.handnotes.83">
+                <p>George - Senator. mss. p. 112</p>
+
+            </div>
+
+            <div type="note" n="84" facs="haley.handnotes.84">
+
+                <p>last time saw him<ptr target="#note30" xml:id="nr30" n="30"/> mss p. 113</p>
+
+            </div>
+
+            <div type="note" n="85" facs="haley.handnotes.85">
+
+                <p>Hustler: "Biggest hustler in the world - " MX - anger re hustlers<ptr
+                        target="#note31" xml:id="nr31" n="31"/> - then - more formal,
+                        graphoanalysis<ptr target="#note32" xml:id="nr32" n="32"/>
+                </p>
+            </div>
+
+            <div type="note" n="86" facs="haley.handnotes.86">
+                <p><hi rend="underline">taxicab incident</hi></p>
+
+            </div>
+
+            <div type="note" n="87" facs="haley.handnotes.87">
+
+                <p>tirades against Negro leaders attacking Muhammed or himself.<ptr target="#note33"
+                        xml:id="nr33" n="33"/>
+                </p>
+
+            </div>
+
+            <div type="note" n="88" facs="haley.handnotes.88">
+
+                <p>re Clay <ptr target="#note34" xml:id="nr34" n="34"/> mss. p. 58 follow through
+                    68</p>
+
+            </div>
+
+            <div type="note" n="89" facs="haley.handnotes.89">
+
+                <p>discussing death<ptr target="#note35" xml:id="nr35" n="35"/> mss. p. 62 63</p>
+
+            </div>
+
+
+            <div type="note" n="90" facs="haley.handnotes.90">
+
+                <p>graphoanalysis<ptr target="#note36" xml:id="nr36" n="36"/> mss p. 69 - 70 - 71 "I
+                    could <add place="above">also</add> have lived in a mansion"</p>
+
+            </div>
+
+            <div type="note" n="91" facs="haley.handnotes.91">
+
+                <p>MX<ptr target="#note37" xml:id="nr37" n="37"/> had wide range of contacts mss. p.
+                    44 p. 71</p>
+
+            </div>
+
+            <div type="note" n="92" facs="haley.handnotes.92">
+
+                <p>after Mecca new beard<ptr target="#note38" xml:id="nr38" n="38"/> mss. p. 76</p>
+
+            </div>
+            <div type="note" n="93" facs="haley.handnotes.93">
+
+                <p>sidestepping new direction - "tell them which direction - " mss. p. 77</p>
+
+            </div>
+
+            <div type="note" n="94" facs="haley.handnotes.94">
+
+                <p>sorrow re Laura <ptr target="#note39" xml:id="nr39" n="39"/> mss. p. 81</p>
+
+            </div>
+
+            <div type="note" n="95" facs="haley.handnotes.95">
+
+                <p>busy day in hotel room - mss. p. 83</p>
+
+            </div>
+
+            <div type="note" n="96" facs="haley.handnotes.96">
+
+                <p>My analysis - cribbed from Ag <ptr target="#note40" xml:id="nr40" n="40"/> - mss.
+                    p. 87</p>
+
+            </div>
+
+
+            <div type="note" n="97" facs="haley.handnotes.97">
+
+                <p>his new direction OAAU<ptr target="#note41" xml:id="nr41" n="41"/> ... quotes
+                    mss. p. 90 .... 91</p>
+
+            </div>
+            <div type="note" n="98" facs="haley.handnotes.98">
+
+                <p>"I am caught in a public ambivalence, brother - "There are people who revere me,
+                    very mention of my name."</p>
+
+                <p>"I've unleashed this tiger, now the thing is can I ride him?" </p>
+
+                <p>"finances never discussed around me" mss p. 72</p>
+
+
+            </div>
+        </body>
+        <back>
+
+            <div type="notes">
+                <note xml:id="note1">Sister Betty is Malcolm X's wife, Betty Shabazz
+                    (1934-1997).</note>
+                <note xml:id="note2">A quote from Shakespeare's <emph>Hamlet</emph>, scene 3, act
+                    1.</note>
+                <note xml:id="note3">Haley writes of X making "my little daily rounds" in Harlem to
+                    focus on "the black man down in the gutter where I came from" (<emph>The
+                        Autobiography</emph>, 402).</note>
+                <note xml:id="note4">This quote appears in <emph>The Autobiography</emph>, (404).
+                    Haley attributes this question to X's fear of retribution after his break with
+                    the Nation of Islam. </note>
+                <note xml:id="note5">This note may refer to the white college student whom Malcolm X
+                    mentions several times in his <emph>Autobiography.</emph> After speaking at her
+                    college, the student follows X to New York and confronts him. She asks, "What
+                    can I <emph>do</emph>?," to which he answers, "Nothing" (286). X later states
+                    that he regrets his response (376). The coed who is referenced in "The Malcolm X
+                    I Knew" may be this same woman, whom Haley portrays as delivering a verbal "put
+                    down" to X (21). </note>
+                <note xml:id="note6">During an interview with X, Haley attempts to read his
+                    passport. Noting his curiosity, X "thrust the passport toward me... Get the
+                    number straight, but it won't be anything the white devil doesn't already know.
+                    He issued me the passport'" (<emph>The Autobiography</emph>, 388). </note>
+                <note xml:id="note7">"MX" is shorthand for Malcolm X.</note>
+                <note xml:id="note8">"Ex cons" are ex-convicts. The rhumba is a ballroom dance that
+                    has African and Spanish origins.</note>
+                <note xml:id="note9">Malcolm X seemed surprised that a Harlem couple, who were not
+                    in the Nation of Islam, named their child after him (<emph>The
+                        Autobiography</emph>, 393).</note>
+                <note xml:id="note10">Haley writes that the only time he heard X curse was in
+                    response to a comment made by Martin Luther King who stated that Malcolm X's
+                    talk brought "misery upon Negroes" (<emph>The Autobiography</emph>, 394).</note>
+                <note xml:id="note11">Haley references the train ride he took to Philadelphia with
+                    Malcolm X in both <emph>The Autobiography</emph> (397) and "The Malcolm X I
+                    Knew" (12-13).</note>
+                <note xml:id="note12">X often specifies the collective white man to emphasize that
+                    behaviors of such a group are broad and representative.</note>
+                <note xml:id="note13">X notes that "All of my father’s brothers but one died
+                    violently" in "The Malcolm X I Knew" (26). </note>
+                <note xml:id="note14">"MX" is Malcolm X.</note>
+                <note xml:id="note15">Malcolm X was under intense FBI scrutiny during his life. Some
+                    FBI government documents are available at <ref
+                        target="http://www.columbia.edu/cu/ccbh/mxp/govdocs.html">"The Life of
+                        Malcolm X."</ref></note>
+                <note xml:id="note16">Burke Marshall (1922-2003) was a lawyer, head of the Civil
+                    Rights Division of the Department of Justice, and author of the 1964 Civil
+                    Rights Act. He was, according to Haley, investigating how X paid for his travel
+                    to the Middle East (<emph>The Autobiography</emph>, 418).</note>
+                <note xml:id="note17">"Pinko" is a derogatory term for communist sympathizer. </note>
+                <note xml:id="note18">Barry Goldwater (1909-1998) was the Republican Party candidate
+                    for president in 1964. He lost, by a landslide, to Lyndon B. Johnson. X
+                    supported his candidcacy, writing an essay titled "Why I Am for
+                    Goldwater."</note>
+                <note xml:id="note19">Haley reports that X was irritated that a <emph>New York
+                        Times</emph> poll of New York blacks revealed that 75 percent had believed
+                    that King was "doing the best work for Negroes." X received 6 percent (<emph>The
+                        Autobiography</emph>, 417).</note>
+                <note xml:id="note20">"MX" is Malcolm X.</note>
+                <note xml:id="note21">Malcolm X traveled to Cairo several times in 1964 where he
+                    attended two African Summit conferences.</note>
+                <note xml:id="note22">Haley kept in touch with X during his visit to Mecca, often
+                    sending clippings he thought would be of interest.</note>
+                <note xml:id="note23">"SEP" is the <emph>Saturday Evening Post</emph>.</note>
+                <note xml:id="note24">The <emph>Saturday Evening Post</emph> published a cover story
+                    on Malcolm X on September 12, 1964. Haley was interviewed by the magazine, and
+                    the <emph>SEP</emph> "flew photographer John Launois to Cairo to locate Malcolm
+                    X and photograph him in color" (<emph>The Autobiography</emph>, 418). When X
+                    received a copy of the article from Haley he was furious. The editorial
+                    negatively compared X to King: "If Malcolm X were not a Negro, his autobiography
+                    would be little more than a journal of abnormal psychology, the story of a
+                    burglar, dope pusher, addict and jailbird--with a family history of
+                    insanity--who acquires messianic delusions and sets forth to preach an
+                    upside-down religion of 'brotherly' hatred." ("The Lesson of Malcolm X,"
+                        <emph>Saturday Evening Post,</emph> September 12, 1964, 84). Haley reports
+                    that X continued to be upset about the editorial, railing against it months
+                    later (<emph>The Autobiography</emph>, 422).</note>
+                <note xml:id="note25">Malcolm X told Haley that he would not reveal the OAAU's
+                    (Organization of Afro-American Unity) membership size (<emph>The
+                        Autobiography</emph>, 420-21).</note>
+                <note xml:id="note26">This note references the picture of Malcolm X with an M1
+                    carbine that was published in <emph>Ebony</emph> magazine. Haley reveals that X
+                    says, "I taught my wife to use it, and instructed her to fire on anyone, white,
+                    black, or yellow, who tries to force his way inside" the house (<emph>The
+                        Autobiography</emph>, 422).</note>
+                <note xml:id="note27">Malcolm X was suspicious of the book contract for foreign
+                    publication rights after the <emph>Saturday Evening Post</emph> editorial,
+                    noting that his lawyer needed to see the contract before he signed it (<emph>The
+                        Autobiography</emph>, 422-23). </note>
+                <note xml:id="note28">Haley bought dolls as Christmas gifts for X's children,
+                    Attallah and Qubilah. X noted that "this isn't something I'm proud to say, but I
+                    don't think I've ever bought one gift for my children,...That's not good, I know
+                    it" (<emph>The Autobiography</emph>, 423). <note xml:id="note29"> Sister Betty
+                        is Malcolm X's wife, Betty Shabazz. </note>
+                    <note xml:id="note30"> Haley flew to Kennedy Airport in early January 1965 to
+                        meet X, the last meeting they would have prior to X's assassination
+                            (<emph>The Autobiography</emph>, 423-44).</note>
+                    <note xml:id="note31">Malcolm X (here "MX") believed that a hustler was "the
+                        most dangerous black man in America" (<emph>The Autobiography</emph>,
+                        311).</note>
+                    <note xml:id="note32">Alex Haley was fascinated with graphoanalysis and had a
+                        postcard written by Malcolm X analyzed. He hoped to conduct further
+                        handwriting analysis on Malcolm X.</note>
+                    <note xml:id="note33">Malcolm X often attacked black leaders that he disagreed
+                        with (see <emph>The Autobiography</emph>, 309-310.</note>
+                    <note xml:id="note34">Boxer Cassius Clay, or Muhammad Ali (1942- ), was a close
+                        friend of X's until X separated from Elijah Muhammad.</note>
+                    <note xml:id="note35">Malcolm X was convinced that he would be assassinated, and
+                        Haley includes multiple references to X's belief in his inevitable death
+                        (see, for example, <emph>The Autobiography</emph>, 381-82). </note>
+                    <note xml:id="note36">Alex Haley was fascinated with graphoanalysis and had a
+                        postcard written by Malcolm X analyzed. He hoped to conduct further
+                        handwriting analysis on Malcolm X.</note>
+                    <note xml:id="note37">"MX" is Malcolm X.</note>
+                    <note xml:id="note38">Malcolm X returned from his trip to Africa and the Middle
+                        East with a beard (see <emph>The Autobiography</emph>, 337).</note>
+                    <note xml:id="note39">Malcolm X discusses his relationship with Laura in
+                            <emph>The Autobiography</emph>. He states, after his visit to Mecca,
+                        that he regrets his treatment of her (414).</note>
+                    <note xml:id="note40">Attorney General.</note>
+                    <note xml:id="note41">The OAAU is the Organization of Afro-American Unity. After
+                        his trip to Mecca in 1964, Malcolm X founded the OAAU as an international
+                        Africanist organization.</note>
+                </note>
+            </div>
+        </back>
+    </text>
+</TEI>

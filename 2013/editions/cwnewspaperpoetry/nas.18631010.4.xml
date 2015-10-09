@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nas.18631010.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Loved and Lost</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">nas.18631010.4</idno> 
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#unk">[Unsigned]</author>
+                        <title level="a">The Loved and Lost</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">National Anti-Slavery Standard</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1863-10-10">10 October 1863</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Northwestern University.</note>
+                    
+                </biblStruct>
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="unk">Unknown</persName>
+                <persName xml:id="oj">Johnson, Oliver</persName>
+                <date when="1863">1863</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>United States--History--Civil War, 1861-1865--Religious aspects</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-09-20" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-02" who="#el">checked transcription and encoding</change>
+            <change when="2012-07-28" who="#kt">encoded</change>
+            <change when="2012-06" who="#bw">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="nas.18631010.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="nas.18631010.pp2.jpg"/>   
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="nas.18631010.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="nas.18631010.pp4.jpg"/> 
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="nas.18631010.pp4_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body>
+            
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">THE LOVED AND LOST.</head>
+                
+                <lg type="stanza">
+                    <l>"<emph rend="smallcaps">The</emph> loved and lost!" why do we call them lost?<note type="editorial" resp="#bw #el">The speaker addresses and identifies with a community of Christian mourners who believe in a glorious afterlife without pain or suffering. There is no place within his or her ideological framework for doubt about heaven's existence (or entry requirements). This heaven-fixed perspective leads the speaker to reinterpret human grief as evidence of a "selfish sorrow" that begrudges the absent dead their bliss. Civil War reprints of "The Loved and Lost" suggest that, at a time when many Americans were struggling to come to terms with the reported death or terrifying disappearance of distant loved ones, editors recognized the poem's value as a consolatory devotional literature.</note></l>
+                    <l rend="indented1">Because we miss them from our onward road?</l>
+                    <l>God's unseen angel o'er our pathway crost,</l>
+                    <l>Looked on us all, and loving them the most,</l>
+                    <l rend="indented1">Straightway relieved them from life's weary load.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>They are not lost; they are within the door</l>
+                    <l rend="indented1">That shu's out loss, and every hurtful thing&#8212;<note type="editorial" resp="#bw #el">The position of the line break creates momentary uncertainty: are the "loved and lost" close at hand, in the same room as the reader? Although the following line identifies the door as a threshold between earthly life and eternal bliss (a homely version of the gates of heaven), the brief suggestion of spiritual presence looks forward to the consolations of the penultimate stanza: "death hath made no breach."</note></l>
+                    <l>With angels bright, and loved ones gone before,</l>
+                    <l>In their Redeemer's presence evermore,</l>
+                    <l rend="indented1">And God himself their Lord, and Judge, and King.</l>
+                </lg>
+                
+                <lg type="stanza">         
+                    <l>And this we call a "loss"; Oh, selfish sorrow</l>
+                    <l rend="indented1">Of selfish hearts! Oh, we of little faith!</l>
+                    <l>Let us look round, some argument to borrow</l>
+                    <l>Why we in patience should await the morrow</l>
+                    <l rend="indented1">That surely must succeed this night of death.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Ay, look upon this dreary desert path,</l>
+                    <l rend="indented1">The thorns and thistles wheresoe'er we turn;</l>
+                    <l>What trials and what tears, what wrongs and wrath,</l>
+                    <l>What struggles and what strife the journey hath!</l>
+                    <l rend="indented1">They have escaped from these; and lo! we mourn.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Ask the poor sailor, when the wreck is done,</l>
+                    <l rend="indented1">Who with his treasures strove the shore to reach,</l>
+                    <l>While with the raging waves he battled on,</l>
+                    <l>Was it not joy, where every joy seemed gone,</l>
+                    <l rend="indented1">To see his loved ones landed on the <choice><sic>beech</sic><corr>beach</corr></choice>?</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>A poor wayfarer, leading by the hand</l>
+                    <l rend="indented1">A little child, had halted by the well</l>
+                    <l>To wash from off her feet the clinging sand,</l>
+                    <l>And tell the tired boy of that bright land</l>
+                    <l rend="indented1">Where, this long journey passed, they longed to dwell;</l>
+                </lg>
+                
+                <lg type="stanza"> 
+                    <l>When lo! the lord who many mansions had,<note type="editorial" resp="#bw #el">See John 14:2, "In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you."</note></l>
+                    <l rend="indented1">Drew near and looked upon the suffering twain,</l>
+                    <l>Then pitying spake, "Give me the little lad;</l>
+                    <l>In strength renewed, and glorious beauty clad,</l>
+                    <l rend="indented1">I'll bring him with me when I come again."</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>Did she make answer selfishly and wrong&#8212;</l>
+                    <l rend="indented1">"Nay, but the woes I feel he too must share!"</l>
+                    <l>Oh, rather, bursting into grateful song,</l>
+                    <l>She went her way rejoicing, and made strong</l>
+                    <l rend="indented1">To struggle on, since he was freed from care.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>We will do likewise; death hath made no breach</l>
+                    <l rend="indented1">In love and sympathy, in hope and trust;</l>
+                    <l>No outward sign or sound our ears can reach,</l>
+                    <l>But there's an inward, spiritual speech,</l>
+                    <l rend="indented1">That greets us still, though mortal tongues be dust:<note type="editorial" resp="#bw #el">Although the line of attribution following the poem in the <title level="j">National Anti-Slavery Standard</title> identifies "The Loved and Lost" with Anglican doctrine, continued "spiritual speech" might be interpreted within less orthodox frameworks of belief; this flexibility may have been one of the reasons for the poem's popularity. The concept of communication between the living and the dead was most obviously compatible with spiritualist beliefs made "increasingly attractive" by the war (Drew Gilpin Faust, <title level="m">This Republic of Suffering: Death and the American Civil War</title> [New York: Knopf, 2008], 181).</note></l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>It bids us do the work that they laid down&#8212;</l>
+                    <l rend="indented1">Take up the song where they broke off the strain;</l>
+                    <l>So journeying till we reach the heavenly town,</l>
+                    <l>Where are laid up our treasures and our crown,</l>
+                    <l rend="indented1">And our lost loved ones will be found again.<note type="editorial" resp="#bw #el">For many Victorian and Edwardian Christians, the "primary consolation" of heaven "was the reunion of earthly families divided by death" (Pat Jalland, <title level="m">Death in the Victorian Family</title> [Oxford: Oxford University Press, 1996], 271). This view of heaven gained credence on both sides of the Atlantic in the 1860s; indeed, it underpins Elizabeth Stuart Phelps's bestselling <title level="m">The Gates Ajar</title> (1868). Phelps started to write her novel of wartime loss and consolation in 1864; in it, she offers a vision of heaven "as a more perfect Earth: Victorian family and domesticity are immortalized, and death all but disappears" (Drew Gilpin Faust, <title level="m">This Republic of Suffering: Death and the American Civil War</title> [New York: Knopf, 2008], 187).</note></l>
+                </lg>
+            </lg>
+            
+            <note type="newspaper-editorial">&#8212;<title level="j" rend="italic">Church of England Magazine</title>.<note type="editorial" resp="#bw #el">A London-based weekly, established in 1836 "under the superintendence of clergymen" to "advocate the doctrines and discipline" of the Church of England ("Introductory Address," <title level="j">Church of England Magazine</title> [28 May 1836], 1). Its contents included sermons and religious essays, articles on aspects of church history, biographies of prominent churchmen, reading for different parts of the church calendar, material from missionary journals, poetry, and book reviews. "The Loved and Lost" was published in the September 1858 issue of the magazine and was attributed to "Dorcas." The <title level="j">National Anti-Slavery Standard</title> printed "The Loved and Lost" twice in October 1863 (issues of October 10 and October 31).</note></note>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+

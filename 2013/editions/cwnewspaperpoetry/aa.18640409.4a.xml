@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_news.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aa.18640409.4a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lines, on the Death of Edward A. Cox, Co. F., 14th Regiment R. I. H. A.</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor role="co-editor">R. J. Weir</editor>
+                <editor role="co-editor">Elizabeth Lorang</editor>
+                <editor role="assistant">Kristen Treen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="kt">Kristen Treen</persName>
+                    <persName xml:id="bw">R. J. Weir</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>                    
+            </titleStmt>        
+            <publicationStmt>
+                <idno type="file">aa.18640409.4a</idno>                        
+                <idno type="edition">cwnewspaperpoetry</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>                 
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>                 
+                <publisher>Association for Documentary Editing</publisher>                 
+                <publisher>University of Nebraska–Lincoln</publisher>                 
+                <distributor>                     
+                    <name>Center for Digital Research in the Humanities</name>                     
+                    <address> 		                
+                        <addrLine>319 Love Library</addrLine> 		                
+                        <addrLine>University of Nebraska–Lincoln</addrLine> 		                
+                        <addrLine>Lincoln, NE 68588-4100</addrLine> 		                
+                        <addrLine>http://cdrh.unl.edu</addrLine> 		            
+                    </address>                 
+                </distributor>                        
+                <date>2012</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to R. J. Weir and Elizabeth Lorang, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>                 
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="ag">Amanda Gailey</name>                 
+                </respStmt>                 
+                <respStmt>                     
+                    <resp>editor</resp>                     
+                    <name xml:id="awj">Andrew Jewell</name>                 
+                </respStmt>                 
+                <idno type="vol">34</idno>                 
+                <idno type="ISSN">2167-1257</idno>             
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct xml:id="poem">
+                    <analytic>
+                        <author ref="#jnj">Jas. N. Jefferson</author>
+                        <title level="a">Lines, on the Death of Edward A. Cox, Co. F., 14th Regiment R. I. H. A.</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The Anglo-African</title>
+                        <imprint>
+                            <date xml:id="issue_date" when="1864-04-09">9 April 1864</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <note type="repository">The microfilm copy used for transcription was loaned by Indiana University-Bloomington.</note>            
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>       
+        </fileDesc>
+        <encodingDesc> 
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName xml:id="jnj">Jefferson, James N.</persName>
+                <persName xml:id="rh">Hamilton, Robert</persName>
+<persName xml:id="th">Hamilton, Thomas</persName>
+                <date when="1864">1864</date>
+            </creation>
+            <langUsage>
+                <language ident="en-US">modern American English</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://authorities.loc.gov">
+                    <term>Burial--Social aspects--United States--History--19th century</term>
+                    <term>Burial--United States--Psychological aspects--History--19th century</term>
+                    <term>Death--Social aspects--United States--History--19th century</term>
+                    <term>Death--United States--Psychological aspects--History--19th century</term>
+                    <term>United States. Army. Rhode Island Heavy Artillery Regiment (Colored), 14th (1863-1864)</term>
+                    <term>United States--History--Civil War, 1861-1865--Military life</term>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-03-02" who="#el">made copyediting changes</change>
+            <change when="2013-01" who="#el">revised transcription and encoding to address errors and inconsistencies; updated editorial notes</change>
+            <change when="2012-11" who="#awj">added Scholarly Editing info to TEI header</change>
+            <change when="2012-10-14" who="#el">added and encoded editorial notes</change>
+            <change when="2012-09-02" who="#el">checked basic encoding</change>
+            <change when="2012-06-15" who="#el">checked transcription; encoded</change>
+            <change when="2012-04-29" who="#bw">checked transcription</change>
+            <change when="2012-05-23" who="#kt">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="aa.18640409.pp1.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="aa.18640409.pp2.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="aa.18640409.pp3.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="aa.18640409.pp4.jpg"/>            
+            <zone xml:id="pp4_cropped"  corresp="#poem">
+                <graphic url="aa.18640409.pp4a_cropped.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    
+    <text corresp="#poem #pp4_cropped">
+        <body> 
+            <lg type="poem">
+                
+                <head type="main" subtype="authorial" rend="center">LINES, <lb/>ON THE DEATH OF EDWARD A. COX,<note type="editorial" resp="#bw #el">According to his military service record, Edward A. Cox was a twenty-year-old farmer who enlisted in Company F, Fourteenth Regiment Rhode Island Heavy Artillery, on October 13, 1863. Born at Redground, Long Island, New York, he died "in hospital [at] English Turn, La. March 8, 1864 of congestion of the lungs."</note> CO. F., 14TH REGIMENT <lb/>R. I. H. A.<note type="editorial" resp="#bw #el"><p>Fourteenth Regiment Rhode Island Heavy Artillery (Colored). The regiment was organized at Providence, Rhode Island, between August 1863 and January 1864. The <title level="j">Anglo-African</title> aided the recruitment drive in the last months of 1863. Thomas Hamilton probably managed the matter, while his brother Robert toured the occupied South. (Thomas had previous experience as a recruiter for the Fifty-Fourth Massachusetts Regiment.) The newspaper advertised the advantages of the Rhode Island regiment and urged would-be volunteers to call at the newspaper's offices: "Remember, 50 Beekman street, if you want reliable information, and someone to attend to any business that you may have in the city after you get into camp! Let there be no delay in this matter!" (December 26, 1863).</p><p>As members of Company F, Cox and Jefferson belonged to the Fourteenth Regiment's Second Battalion. On January 21, 1864, they left Dutch Island, Rhode Island, on the transport <name type="ship">Daniel Webster</name>. Two weeks later, they arrived at New Orleans. An outbreak of measles and mumps prompted military authorities to station the men at English Turn, Louisiana&#8212;an outpost where disease could be contained. Unfortunately, English Turn was "decidedly unhealthy"; Captain Addemen recalled that "men were dropping off rapidly from a species of putrid sore throat which was very prevalent. The soil was so full of moisture that we had to use the levee for a burial ground" (quoted in William H. Chenery, <title level="m">The Fourteenth Regiment Rhode Island Heavy Artillery [Colored] in the War to Preserve the Union, 1861&#8211;1865</title> [Providence: Snow and Farnham, 1898], 32). Chenery's company roster suggests that Cox was the first member of Company F to succumb to disease in Louisiana; both the fact of his death and the form of his burial might have prompted Jefferson to supplement the improvised ceremony with a public statement of grief and esteem.</p></note></head>
+                
+                <lg type="stanza">
+                    <l><emph rend="smallcaps">They</emph> laid him gently down to sleep,</l>
+                    <l rend="indented1">With the valiant and the brave;</l>
+                    <l>And but few there were to weep</l>
+                    <l rend="indented1">O'er that soldier's lonely grave.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>The warlike form of him, whose rest,</l>
+                    <l rend="indented1">Shall ne'er more know stern war's alarm;</l>
+                    <l>Shall rise again in regions blessed,</l>
+                    <l rend="indented1">Enjoying sweet and endless calm.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>What though they do, in lonely spot</l>
+                    <l rend="indented1">His cold and lifeless form lay down;</l>
+                    <l>What though they volley o'er him shot,</l>
+                    <l rend="indented1">Ought cannot wake him till <emph rend="smallcaps">the</emph> morn.</l>
+                </lg>
+                
+                
+                <lg type="stanza">
+                    <l>They marked his silent dwelling-place,</l>
+                    <l rend="indented1">Then mournfully all left the spot;</l>
+                    <l>But grief and anguish made their trace;</l>
+                    <l rend="indented1">Each warrior tried, but hindered not.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>In a far off land of freedom,</l>
+                    <l rend="indented1">By a distant mountain cone;</l>
+                    <l>Soon is borne the mournful tidings</l>
+                    <l rend="indented1">To a sad desponding one.</l>
+                </lg>
+            </lg>
+            
+            <byline rend="right"><emph rend="smallcaps">Jas. N. Jefferson</emph>, <lb/>Serg't Co. F., 14th Regt. R. I. H. A.<note type="editorial" resp="#bw #el">Probably Marylander James N. Jefferson, who enlisted on October 15, 1863, aged twenty-five. Like Cox, he joined the Fourteenth Regiment's Company F. His military record makes no mention of a promotion to sergeant. He was reported as a deserter by mistake in mid-December 1863; he returned to the regiment on January 7, 1864, having been "detained by J. C. Engleby to recruit." He was mustered out of the regiment in October 1865.</note></byline>
+        </body>
+    </text>
+</TEI>
+
