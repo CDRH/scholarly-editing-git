@@ -21,10 +21,9 @@
   <xsl:param name="pagetype"></xsl:param>
   <xsl:param name="subpagetype"></xsl:param>
   
-  <!-- delete --><xsl:param name="metadata_box">false</xsl:param> <!-- true/false Toggle metadata box on and off  -->
   <xsl:param name="figures">true</xsl:param> <!-- true/false Toggle figures on and off  -->
   <xsl:param name="fw">true</xsl:param> <!-- true/false Toggle fw's on and off  -->
-  <xsl:param name="pb">true</xsl:param> <!-- true/false Toggle pb's on and off  -->
+  <xsl:param name="pb">false</xsl:param> <!-- true/false Toggle pb's on and off  -->
   
   <!-- link locations - unsure about how these will work in the "real world" -->
   <xsl:param name="fig_location"><xsl:text>http://rosie.unl.edu/data_images/projects/cody/figures/</xsl:text></xsl:param> <!-- set figure location  -->
@@ -35,7 +34,7 @@
   ============================================-->
   
   <xsl:template name="volCitation">
-    <h5>2015, Volume 36</h5>
+    <h5>2016, Volume 37</h5>
   </xsl:template>
   
   <xsl:template name="witnessName" />
@@ -44,7 +43,17 @@
   
   <xsl:template name="editionNav">
     
-    <xsl:variable name="idno">
+    <ul>
+      <li id="editionNavPre">Go to:</li>
+      <li id="editionNav1"><a href="intro.dequinqueseptenis-deorationedominica.dunning.html">Intro</a></li>
+      <li id="editionNav2"><a href="de-oratione-dominica.dunning.html">De oratione dominica</a></li>
+      <li id="editionNav3"><a href="de-oratione-dominica-trans.dunning.html">On the Lord’s Prayer</a></li>
+      <li id="editionNav4"><a href="de-quinque-septenis.dunning.html">De quinque septenis</a></li>
+      <li id="editionNav5"><a href="de-quinque-septenis-trans.dunning.html">On the Five Sevens</a></li>
+      
+    </ul>
+    
+   <!-- <xsl:variable name="idno">
       <xsl:value-of select="//tei:idno" />
     </xsl:variable>
     <xsl:choose>
@@ -105,176 +114,24 @@
           </li>
         </ul>
       </xsl:otherwise>
-    </xsl:choose>
+    </xsl:choose>-->
   </xsl:template>
   
   
   
   
   
+  <!-- ========================================
+  New Additions -kmd
+  =========================================-->
   
-  
-  <!-- ===================================================================================
-    CODE TO INCLUDE
-    =================================================================================== -->
-  
-  <!-- DELETE THIS AND PULL METADATA FROM SOLR -->
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    METADATA BOX
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-  
-  <xsl:template name="metadata">
-    
-    <div class="metadata">
-      <h3>Metadata</h3>
-      <dl>
-        
-        <!-- ___Project___ -->
-        <dt>Project:</dt>
-        <dd><xsl:value-of select="//publicationStmt/authority[1]"/></dd>
-        
-        
-        <!-- ___Title___ -->
-        <dt>Title:</dt>
-        <dd>
-          <xsl:choose>
-            <xsl:when test="/TEI/teiHeader/fileDesc/titleStmt/title[@type='main']">
-              <xsl:value-of select="/TEI/teiHeader/fileDesc/titleStmt/title[@type='main']"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="/TEI/teiHeader/fileDesc/titleStmt/title[1]"/>
-            </xsl:otherwise>
-          </xsl:choose></dd>
-        
-        <!-- ____Principal Investigators___ -->
-        <xsl:if test="normalize-space(//titleStmt/principal[1])">
-          <dt>Principal Investigator(s):</dt>
-          <dd>
-            <xsl:for-each select="//titleStmt/principal">
-              <xsl:if test="normalize-space(.) != ''">
-              <xsl:value-of select="."/>
-              <xsl:if test="position() != last()"><xsl:text>; </xsl:text></xsl:if>
-              </xsl:if>
-            </xsl:for-each>
-         </dd>
-        </xsl:if>
-        
-        <!-- ___Authors___ -->
-        <xsl:if test="normalize-space(//titleStmt/author[1])">
-          <dt>Author(s):</dt>
-          <dd>
-            <xsl:for-each select="//titleStmt/author">
-              <xsl:value-of select="."/>
-              <xsl:if test="position() != last()"><xsl:text>; </xsl:text></xsl:if>
-            </xsl:for-each>
-          </dd>
-        </xsl:if>
-        
-        <!-- ___Encoders___ -->
-        <!-- This is done differently in different files, see cather file cat.cs006 for an example -KMD -->
-        
-        <xsl:if test="/TEI/teiHeader/fileDesc/titleStmt/respStmt[1]/name[1]">
-          <xsl:for-each select="/TEI/teiHeader/fileDesc/titleStmt/respStmt">
-            
-              <dt>
-              <!-- Select the resp statement role. Might need to change if we find files with more than one resp statement-->
-              <!--<xsl:value-of select="concat(upper-case(substring(resp,1,1)),substring(resp,2))"/><xsl:text>:</xsl:text>-->
-                  <xsl:for-each select="./resp">
-                      <xsl:value-of select="concat(upper-case(substring(.,1,1)),substring(.,2))"/>
-                      <xsl:choose>
-                          <xsl:when test="position() = last()">
-                              <xsl:text>:</xsl:text>
-                          </xsl:when>
-                          <xsl:otherwise>
-                              <xsl:text>, </xsl:text>
-                          </xsl:otherwise>
-                      </xsl:choose>
-                  </xsl:for-each>
-            </dt>
-            
-            <!-- display each name. See CWW for more complex code that displays like ___, ____, and ____. -->
-            <dd>
-              <xsl:for-each select="name"><xsl:value-of select="."/>
-                <xsl:if test="position() != last()"><xsl:text>; </xsl:text></xsl:if>
-              </xsl:for-each>
-            </dd>
-            
-          </xsl:for-each>
-          
-          
-        </xsl:if>
-        
-        <!-- ___Source___ -->
-        
-        <xsl:if test="normalize-space(//sourceDesc/bibl) != ''">
-        <dt>Source:</dt>
-        <dd>
-          <xsl:for-each select="//sourceDesc/bibl"> 
-            <xsl:for-each select="child::*">
-              <xsl:if test="normalize-space(.) != ''">
-                <xsl:value-of select="."/>
-                <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
-              </xsl:if>
-            </xsl:for-each>
-          </xsl:for-each>
-           
-        </dd>
-        </xsl:if>
-        
-        <!-- ___Keywords, categories, etc.___ -->
-        
-        <xsl:if test="normalize-space(//profileDesc/textClass) != ''">
-          <xsl:for-each select="//profileDesc/textClass/keywords">
-            <xsl:if test="normalize-space(.) != ''">
-              <dt><xsl:value-of select="concat(upper-case(substring(@n,1,1)),substring(@n,2))"/></dt>
-            <dd>
-              <xsl:for-each select="term">
-                <xsl:if test="normalize-space(.) != ''">
-                  <!-- when keyword_link is not false, set the default path for linking keywords -->
-                  <xsl:choose>
-                    <xsl:when test="$keyword_link = 'false'">
-                      <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <a href="{$keyword_link}{parent::*/@n}/{.}">
-                      <xsl:value-of select="."/>
-                       
-                      </a>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                  
-                  <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
-                </xsl:if>
-                
-              </xsl:for-each>
-            </dd>
-            </xsl:if>
-          </xsl:for-each>
-          
-        </xsl:if>
-        
-        <!-- ___TEI ID___ -->
-        <dt>TEI ID:</dt>
-        <dd><xsl:value-of select="/TEI/@xml:id"></xsl:value-of></dd>
-        
-        <!-- ___Link to XML___ -->
-        <dt>TEI XML Download:</dt>
-        <dd>
-          <a href="{/TEI/@xml:id}.xml">
-            <xsl:value-of select="/TEI/@xml:id"></xsl:value-of>
-            <xsl:text>.xml</xsl:text>
-          </a></dd>
-        
-        <dt></dt>
-        <dd></dd>
-      </dl>
-      
-    </div>
-    
+  <!--<xsl:template match="ex">
+    <xsl:text>[[[</xsl:text><xsl:apply-templates/><xsl:text>]]]</xsl:text>
   </xsl:template>
   
-  
-  
+  <xsl:template match="yyy">
+    <xsl:text>{{{</xsl:text><xsl:apply-templates/><xsl:text>}}}</xsl:text>
+  </xsl:template>-->
   
   
   
@@ -290,9 +147,7 @@
     
     <div class="main_content">
    
-    <xsl:if test="$metadata_box = 'true'">
-    <xsl:call-template name="metadata"/>
-    </xsl:if>
+    
     <xsl:apply-templates/>
     </div>
   </xsl:template>
@@ -568,7 +423,7 @@
     Text Styles
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
   
-  <xsl:template match="p[@rend='italics']">
+<!--  <xsl:template match="p[@rend='italics']">
     <p>
       <xsl:attribute name="class">
         <xsl:value-of select="name()"/>
@@ -577,16 +432,16 @@
         <xsl:apply-templates/>
       </em>
     </p>
-  </xsl:template>
+  </xsl:template>-->
   
-  <xsl:template match="p[@rend='superscript'] | p[@rend='sup']">
+  <!--<xsl:template match="p[@rend='superscript'] | p[@rend='sup']">
     <sup>
         <xsl:apply-templates/>
     </sup>
-  </xsl:template>
+  </xsl:template>-->
   
   <!-- Handwritten From CWW - move into project file? -->
-  <xsl:template match="seg[@type='handwritten']">
+  <!--<xsl:template match="seg[@type='handwritten']">
     <span>
       <xsl:attribute name="class">
         <xsl:text>handwritten</xsl:text>
@@ -603,10 +458,9 @@
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-  
+  -->
   <xsl:template
-    match="term | foreign | emph | title[not(@level='a')] | biblScope[@type='volume'] | 
-    hi[@rend='italic'] | hi[@rend='italics']">
+    match="term | foreign | emph | title[not(@level='a')] | biblScope[@type='volume']">
     <em>
       <xsl:attribute name="class">
         <xsl:value-of select="name()"/>
@@ -615,13 +469,13 @@
     </em>
   </xsl:template>
   
-  <xsl:template match="hi[@rend='underlined']">
+ <!-- <xsl:template match="hi[@rend='underlined']">
     <u>
       <xsl:apply-templates/>
     </u>
   </xsl:template>
   
-  <!-- Things that should be strong -->
+  <!-\- Things that should be strong -\->
   
   <xsl:template match="item/label">
     <strong>
@@ -635,7 +489,7 @@
     </strong>
   </xsl:template>
   
-  <!-- Rules to account for hi tags other than em and strong-->
+  <!-\- Rules to account for hi tags other than em and strong-\->
   
   <xsl:template match="hi[@rend='underline']">
     <u>
@@ -677,7 +531,7 @@
       </xsl:attribute>
       <xsl:apply-templates/>
     </div>
-  </xsl:template>
+  </xsl:template>-->
   
   <!-- CWW Specific, move into project stylesheet? -->
   <xsl:template match="space">
@@ -781,10 +635,10 @@
   
   
   <!-- todo - build a better sheet. Right now, paragraphs could appear in other paragraphs, need to find a way to account for the weirdest encoding -KMD -->
-  <xsl:template match="p">
-   <p><xsl:apply-templates/></p>
+  <!--<xsl:template match="p">
+   <p><xsl:apply-templates/></p>-->
     
-  </xsl:template>
+  <!--</xsl:template>-->
  
  
   
@@ -916,22 +770,11 @@
     Line Breaks
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <xsl:template match="lb">
+  <!--<xsl:template match="lb">
     <xsl:apply-templates/>
     <br/>
-  </xsl:template>
-  
-  <!-- ========================================
-  New Additions -kmd
-  =========================================-->
-  
-  <xsl:template match="ex">
-    <xsl:text>[[[</xsl:text><xsl:apply-templates/><xsl:text>]]]</xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="yyy">
-    <xsl:text>{{{</xsl:text><xsl:apply-templates/><xsl:text>}}}</xsl:text>
-  </xsl:template>
+  </xsl:template>-->
+
   
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Tables
@@ -1003,7 +846,7 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
   
   <xsl:template match="quote">
-    <xsl:choose>
+    <!--<xsl:choose>
       <xsl:when test="descendant::*[name() = 'lg']">
         <blockquote>
             <xsl:apply-templates/>
@@ -1016,7 +859,9 @@
           </p>
         </blockquote>
       </xsl:otherwise>
-    </xsl:choose>
+    </xsl:choose>-->
+    
+    <span class="quote"><xsl:text>“</xsl:text><xsl:apply-templates/><xsl:text>”</xsl:text></span>
   </xsl:template>
   
   <xsl:template match="q">

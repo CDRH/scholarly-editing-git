@@ -46,7 +46,7 @@
   })();
 
 </script>
-                
+                <!-- Added so the dev environment looks different -kmd -->
                 <xsl:if test="$environment = 'development'"><style>body {background-color:#ff9300 ; border-top: solid 10px red;}</style></xsl:if>
             </head>
             <body>
@@ -80,10 +80,32 @@
                         <xsl:call-template name="volCitation"/>
                     </div>
                     <xsl:apply-templates select="//tei:titleStmt"/>
+                    
+                    <!-- added normalize space to, uh, normalize the space -kmd -->
                     <xsl:variable name="idno">
-                        <xsl:value-of select="//tei:idno[@type='file']"/>
+                        <xsl:value-of select="normalize-space(//tei:idno[@type='file'])"/>
                     </xsl:variable>
+              
                     <xsl:choose>
+                        <!-- for 2016 dunning edition -kmd -->
+                        <xsl:when test="$idno = 'dequinqueseptenis.trans' or 
+                            $idno = 'dequinqueseptenis' or 
+                            $idno = 'intro.dequinqueseptenis-deorationedominica' or 
+                            $idno = 'deorationedominica' or 
+                            $idno = 'deorationedominica.trans'">
+                           <xsl:text>&#160;</xsl:text><!-- I don't know why this needs to be here but navigation breaks without it?? -KMD -->
+                            
+                            <div>
+                                <!-- apply a class of dunning to cover all of them and a class for the specific page -kmd -->
+                                <xsl:attribute name="class">
+                                    <xsl:text>dunning </xsl:text>
+                                    <xsl:value-of select="$idno"/>
+                                </xsl:attribute>
+
+                                <xsl:apply-templates/>
+                            </div>
+                        </xsl:when>
+                        
                         <xsl:when test="starts-with($idno,'se.')">
                             <div class="list">
                                 <xsl:apply-templates/>
@@ -135,6 +157,8 @@
                                 <xsl:apply-templates/>
                             </div>
                         </xsl:when>
+                       
+                        
                         
                         <xsl:otherwise>
                             <div class="edition">
@@ -581,6 +605,8 @@
             <xsl:when test="./attribute::rend='persign'"><span class="persign"><img src="{$siteroot}images/persign.png" alt="[per sign]" height="10px"/></span></xsl:when>
             <xsl:when test="./attribute::rend='longS'"><span class="longS"><xsl:apply-templates/></span></xsl:when>
             <xsl:when test="./attribute::rend='bubble'"><span class="bubble">(<xsl:apply-templates/>)</span></xsl:when>
+            <xsl:when test="./attribute::rend='enlarged'"><span class="enlarged"><xsl:apply-templates/></span></xsl:when>
+            <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
