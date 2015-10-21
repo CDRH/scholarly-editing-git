@@ -2704,3 +2704,21 @@ span.del_underline.strikethrough {
 	margin: 20px 75px 20px 75px;
 	font-size: 1.2em;
 }
+
+.dunning .pageimage {
+	border: 1px solid #aaa;
+	margin: 0;
+	padding: 0;
+	float: right;
+	clear: both;
+	margin: -2px 0 10px 10px;
+}
+
+.dunning .hr {
+    border-top: solid 1px #aaa;
+	display: block;
+	height: 1px;
+	margin: 10px 0 0 0;
+	padding: 0px 0 0 0;
+	clear: right;
+}

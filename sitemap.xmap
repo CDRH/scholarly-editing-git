@@ -210,6 +210,12 @@
             </map:match>
         </map:pipeline> 
         
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/Dunning_De-oratione-dominica/**.jpg">
+                <map:read src="2016/editions/Dunning_De-oratione-dominica/{1}.jpg" />
+            </map:match>
+        </map:pipeline>
+        
         <!-- Mary Isbell's Young Idea Extracts, 2016 issue-->
         
         <map:pipeline type="noncaching">

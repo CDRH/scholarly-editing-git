@@ -23,10 +23,10 @@
   
   <xsl:param name="figures">true</xsl:param> <!-- true/false Toggle figures on and off  -->
   <xsl:param name="fw">true</xsl:param> <!-- true/false Toggle fw's on and off  -->
-  <xsl:param name="pb">false</xsl:param> <!-- true/false Toggle pb's on and off  -->
+  <xsl:param name="pb">true</xsl:param> <!-- true/false Toggle pb's on and off  -->
   
   <!-- link locations - unsure about how these will work in the "real world" -->
-  <xsl:param name="fig_location"><xsl:text>http://rosie.unl.edu/data_images/projects/cody/figures/</xsl:text></xsl:param> <!-- set figure location  -->
+  <xsl:param name="fig_location"><xsl:text>Dunning_De-oratione-dominica/figures/</xsl:text></xsl:param> <!-- set figure location  -->
   <!-- delete --><xsl:param name="keyword_link"><xsl:text>../../</xsl:text></xsl:param> <!-- set keyword link location  -->
   
   <!-- =========================================
@@ -53,68 +53,7 @@
       
     </ul>
     
-   <!-- <xsl:variable name="idno">
-      <xsl:value-of select="//tei:idno" />
-    </xsl:variable>
-    <xsl:choose>
-      <xsl:when test="starts-with($idno,'intro.')">
-        <ul>
-          <li id="editionNavPre">Go to:</li>
-          <li id="editionNav1">
-            <a href="{$siteroot}2015/editions/stufaiuolo.riccardiana_reading.html"
-              >Riccardiana MS</a>
-          </li>
-          <li id="editionNav2">
-            <a href="{$siteroot}2015/editions/stufaiuolo.valentiniana_reading.html"
-              >Valentiniana MS</a>
-          </li>
-          <li id="editionNav2">
-            <a href="http://juxtacommons.org/shares/ehF60q"
-              >Manuscript comparison in Juxta</a>
-          </li>
-          
-        </ul>
-      </xsl:when>
-      <xsl:when test="contains($idno,'valentiniana')">
-        <ul>
-          <li id="editionNavPre">Go to:</li>
-          <li id="editionNav1">
-            <a href="{$siteroot}2015/editions/intro.stufaiuolo.html">Introduction</a>
-          </li>
-          <li id="editionNav2">
-            <a href="{$siteroot}2015/editions/stufaiuolo.riccardiana_reading.html"
-              >Riccardiana MS</a>
-          </li>
-          
-          <li id="editionNav3">
-            <a href="{$siteroot}2015/editions/stufaiuoloxml.zip">Edition XML</a>
-          </li>
-          <li id="editionNav4">
-            <a href="http://juxtacommons.org/shares/ehF60q"
-              >Manuscript comparison in Juxta</a>
-          </li>
-        </ul>
-      </xsl:when>
-      <xsl:otherwise>
-        <ul>
-          <li id="editionNavPre">Go to:</li>
-          <li id="editionNav1">
-            <a href="{$siteroot}2015/editions/intro.stufaiuolo.html">Introduction</a>
-          </li>
-          <li id="editionNav2">
-            <a href="{$siteroot}2015/editions/stufaiuolo.valentiniana_reading.html"
-              >Valentiniana MS</a>
-          </li>
-          <li id="editionNav3">
-            <a href="{$siteroot}2015/editions/stufaiuoloxml.zip">Edition XML</a>
-          </li>
-          <li id="editionNav4">
-            <a href="http://juxtacommons.org/shares/ehF60q"
-              >Manuscript comparison in Juxta</a>
-          </li>
-        </ul>
-      </xsl:otherwise>
-    </xsl:choose>-->
+  
   </xsl:template>
   
   
@@ -133,6 +72,39 @@
     <xsl:text>{{{</xsl:text><xsl:apply-templates/><xsl:text>}}}</xsl:text>
   </xsl:template>-->
   
+  
+  <xsl:template match="seg">
+    <xsl:variable name="idno">
+      <xsl:value-of select="normalize-space(//idno[@type='file'])"/>
+    </xsl:variable>
+    <xsl:variable name="linksource">
+      <xsl:choose>
+        <xsl:when test="$idno = 'deorationedominica'">de-oratione-dominica-trans.dunning.html</xsl:when>
+        <xsl:when test="$idno = 'deorationedominica.trans'">de-oratione-dominica.dunning.html</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="linktext">
+      <xsl:choose>
+        <xsl:when test="$idno = 'deorationedominica'">translation</xsl:when>
+        <xsl:when test="$idno = 'deorationedominica.trans'">original</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+   
+     <xsl:choose>
+     <xsl:when test="@source">
+       <span id="l{translate(@source, '#:[]', '')}">
+         <a href="{$linksource}#l{translate(@source, '#:[]', '')}"><xsl:text> [</xsl:text><xsl:value-of select="$linktext"/><xsl:text>] </xsl:text></a>
+       </span>
+       
+       <xsl:apply-templates/>
+     </xsl:when>
+     <xsl:otherwise>
+       <xsl:apply-templates/>
+     </xsl:otherwise>
+   </xsl:choose>
+    
+    
+  </xsl:template>
   
   
   <!-- ===================================================================================
@@ -252,6 +224,7 @@
           <xsl:choose>
             <xsl:when test="@facs"><xsl:value-of select="@facs"></xsl:value-of></xsl:when>
             <xsl:when test="@xml:id"><xsl:value-of select="@xml:id"></xsl:value-of></xsl:when>
+            <xsl:when test="@n"><xsl:text>pembroke-115-</xsl:text><xsl:value-of select="@n"/></xsl:when>
           </xsl:choose>
         </xsl:variable>
         <xsl:choose>
@@ -423,42 +396,6 @@
     Text Styles
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
   
-<!--  <xsl:template match="p[@rend='italics']">
-    <p>
-      <xsl:attribute name="class">
-        <xsl:value-of select="name()"/>
-      </xsl:attribute>
-      <em>
-        <xsl:apply-templates/>
-      </em>
-    </p>
-  </xsl:template>-->
-  
-  <!--<xsl:template match="p[@rend='superscript'] | p[@rend='sup']">
-    <sup>
-        <xsl:apply-templates/>
-    </sup>
-  </xsl:template>-->
-  
-  <!-- Handwritten From CWW - move into project file? -->
-  <!--<xsl:template match="seg[@type='handwritten']">
-    <span>
-      <xsl:attribute name="class">
-        <xsl:text>handwritten</xsl:text>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-  
-  <xsl:template match="div2[@subtype='handwritten']">
-    <div>
-      <xsl:attribute name="class">
-        <xsl:text>handwritten</xsl:text>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </div>
-  </xsl:template>
-  -->
   <xsl:template
     match="term | foreign | emph | title[not(@level='a')] | biblScope[@type='volume']">
     <em>
@@ -469,69 +406,7 @@
     </em>
   </xsl:template>
   
- <!-- <xsl:template match="hi[@rend='underlined']">
-    <u>
-      <xsl:apply-templates/>
-    </u>
-  </xsl:template>
-  
-  <!-\- Things that should be strong -\->
-  
-  <xsl:template match="item/label">
-    <strong>
-      <xsl:apply-templates/>
-    </strong>
-  </xsl:template>
-  
-  <xsl:template match="hi[@rend='bold']">
-    <strong>
-      <xsl:apply-templates/>
-    </strong>
-  </xsl:template>
-  
-  <!-\- Rules to account for hi tags other than em and strong-\->
-  
-  <xsl:template match="hi[@rend='underline']">
-    <u>
-      <xsl:apply-templates/>
-    </u>
-  </xsl:template>
-  
-  <xsl:template match="hi[@rend='quoted']">
-    <xsl:text>"</xsl:text>
-    <xsl:apply-templates/>
-    <xsl:text>"</xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="hi[@rend='super']">
-    <sup>
-      <xsl:apply-templates/>
-    </sup>
-  </xsl:template>
-  
-  <xsl:template match="hi[@rend='subscript']">
-    <sub>
-      <xsl:apply-templates/>
-    </sub>
-  </xsl:template>
-  
-  <xsl:template match="hi[@rend='smallcaps'] | hi[@rend='roman']">
-    <span>
-      <xsl:attribute name="class">
-        <xsl:value-of select="@rend"/>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-  
-  <xsl:template match="hi[@rend='right'] | hi[@rend='center']">
-    <div>
-      <xsl:attribute name="class">
-        <xsl:value-of select="@rend"/>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </div>
-  </xsl:template>-->
+ 
   
   <!-- CWW Specific, move into project stylesheet? -->
   <xsl:template match="space">
