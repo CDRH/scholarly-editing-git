@@ -1,0 +1,64 @@
+/* Dunning */
+
+@font-face {
+    font-family: 'andron_scriptor_webregular';
+    src: url('../fonts/andron-scriptor-web/andron_scriptor_web.eot');
+    src: url('../fonts/andron-scriptor-web/andron_scriptor_web.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andron-scriptor-web/andron_scriptor_web.woff2') format('woff2'),
+         url('../fonts/andron-scriptor-web/andron_scriptor_web.woff') format('woff'),
+         url('../fonts/andron-scriptor-web/andron_scriptor_web.ttf') format('truetype'),
+         url('../fonts/andron-scriptor-web/andron_scriptor_web.svg#andron_scriptor_webregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quiviraregular';
+    src: url('../fonts/quivera/quivira.eot');
+    src: url('../fonts/quivera/quivira.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quivera/quivira.woff2') format('woff2'),
+         url('../fonts/quivera/quivira.woff') format('woff'),
+         url('../fonts/quivera/quivira.ttf') format('truetype'),
+         url('../fonts/quivera/quivira.svg#quiviraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.dunning, .dunning h3 {
+    font-family:  andron_scriptor_webregular, quiviraregular;
+    text-transform: none;
+}
+
+.dunning div.poem {
+	margin: 0;
+	font-size: 1em;
+}
+
+.dunning .pageimage {
+	border: 1px solid #aaa;
+	margin: 0;
+	padding: 0;
+	float: right;
+	clear: both;
+	margin: -2px 0 10px 10px;
+}
+
+.dunning .hr {
+    border-top: solid 1px #aaa;
+	display: block;
+	height: 1px;
+	margin: 10px 0 0 0;
+	padding: 0px 0 0 0;
+	clear: right;
+}
+
+.highlight {
+    background-color:yellow;
+}
+
+.red {
+    color:red;
+}
+

@@ -72,6 +72,20 @@
     <xsl:text>{{{</xsl:text><xsl:apply-templates/><xsl:text>}}}</xsl:text>
   </xsl:template>-->
   
+
+  
+  <xsl:template match="expan">
+    <span class="tei_expan"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="am">
+    <span class="tei_am"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="ex">
+    <span class="tei_ex"><xsl:apply-templates/></span>
+  </xsl:template>
+  
   
   <xsl:template match="seg">
     <xsl:variable name="idno">
@@ -119,6 +133,9 @@
     
     <div class="main_content">
    
+   <p id="dunning_controls_expan">Expan controls go here</p>
+      <p id="dunning_controls_quote">Quote controls go here</p>
+      <p id="dunning_controls_breaks">Line Break Controls go here</p>
     
     <xsl:apply-templates/>
     </div>
@@ -424,7 +441,11 @@
   
   <xsl:template match="head">
     <!-- need to fix for handwritten text -KD -->
+    
     <xsl:choose>
+      <xsl:when test="@rend='red'">
+        <h3 class="red"><xsl:apply-templates/></h3>
+      </xsl:when>
       <xsl:when test="ancestor::*[name() = 'p']">
         <span class="head">
           <xsl:apply-templates/>
@@ -736,7 +757,7 @@
       </xsl:otherwise>
     </xsl:choose>-->
     
-    <span class="quote"><xsl:text>“</xsl:text><xsl:apply-templates/><xsl:text>”</xsl:text></span>
+    <span class="quote" title="{@source}"><xsl:apply-templates/></span>
   </xsl:template>
   
   <xsl:template match="q">

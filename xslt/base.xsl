@@ -17,6 +17,11 @@
 <!--<xsl:template name="volCitation"/>
     <xsl:template name="essayNav"/>
     <xsl:template name="editionNav"/>-->
+    
+    <!-- added normalize space to, uh, normalize the space. Also moved it to the top level so I can use it throughout -kmd -->
+    <xsl:variable name="idno">
+        <xsl:value-of select="normalize-space(//tei:idno[@type='file'])"/>
+    </xsl:variable>
     <xsl:template match="/">
         <html>
             <head>
@@ -25,7 +30,7 @@
                 <title>Scholarly Editing: The Annual of the Association for Documentary
                     Editing</title>
                 <!--<xsl:if test="contains(//tei:idno[@type='edition'],'stufaiuolo')"><link href="{$siteroot}css/stufaiuolo.css" rel="stylesheet" type="text/css"/></xsl:if>-->
-                <link href="{$siteroot}css/style.css" rel="stylesheet" type="text/css"/>
+                
                 <link href="{$siteroot}js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css"
                     rel="stylesheet" type="text/css"/>
                 
@@ -33,6 +38,18 @@
                 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
                 <script src="{$siteroot}js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js"> &#160; </script>
                 <script src="{$siteroot}js/javascript.js"> &#160; </script>
+                
+                <link href="{$siteroot}css/style.css" rel="stylesheet" type="text/css"/>
+                <xsl:choose>
+                    <xsl:when test="$idno = 'dequinqueseptenis.trans' or 
+                        $idno = 'dequinqueseptenis' or 
+                        $idno = 'intro.dequinqueseptenis-deorationedominica' or 
+                        $idno = 'deorationedominica' or 
+                        $idno = 'deorationedominica.trans'">
+                        <link href="{$siteroot}css/dunning.css" rel="stylesheet" type="text/css"/>
+                        <script src="{$siteroot}js/dunning.js"> &#160; </script>
+                    </xsl:when>
+                </xsl:choose>
                 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -81,10 +98,7 @@
                     </div>
                     <xsl:apply-templates select="//tei:titleStmt"/>
                     
-                    <!-- added normalize space to, uh, normalize the space -kmd -->
-                    <xsl:variable name="idno">
-                        <xsl:value-of select="normalize-space(//tei:idno[@type='file'])"/>
-                    </xsl:variable>
+                    
               
                     <xsl:choose>
                         <!-- for 2016 dunning edition -kmd -->
