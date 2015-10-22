@@ -14,10 +14,10 @@ If you are running the GitHub GUI, click "commit" and then "sync"
 2: Log in to cdrhsearch and pull changes by running the following: 
 
 - ```ssh USERNAME@cdrhsearch.unl.edu```
-- ```cd /web/cocoon/test/scholarly-editing-dev/```
+- ```cd /web/cocoon/test/scholarly-editing-git/```
 - ```git pull```
 
 it will ask you for your git username and password. There will also be an error: ```Gtk-WARNING **: cannot open display:``` This can be safely ignored. 
 
-View your site at: http://cdrhsites.unl.edu/cocoon/scholarly-editing-dev/
+View your site at: http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/
 
