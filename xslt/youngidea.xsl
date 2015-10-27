@@ -539,6 +539,11 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="//tei:div[@type='article']//tei:bibl">
+        <span class="article_bibl">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
     <xsl:template match="tei:floatingText/child::tei:body">
         <blockquote>
