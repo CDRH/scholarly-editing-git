@@ -30,7 +30,36 @@
                     </li>
                 </ul>
             </xsl:when>
-            
+            <xsl:when test="starts-with($idno,'extracts.')">
+                <ul>
+                    <li id="editionNavPre">Go to:</li>
+                    <li id="editionNav1">
+                        <a href="{$siteroot}2016/editions/intro.youngidea.html">Introduction</a>
+                    </li>
+                    <li id="editionNav2">
+                        <a href="{$siteroot}2016/editions/preface.youngidea.html">McArthur's Preface</a>
+                    </li>
+                    
+                    <li id="editionNav3">
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
+                    </li>
+                </ul>
+            </xsl:when>
+            <xsl:when test="starts-with($idno,'preface.')">
+                <ul>
+                    <li id="editionNavPre">Go to:</li>
+                    <li id="editionNav1">
+                        <a href="{$siteroot}2016/editions/intro.youngidea.html">Introduction</a>
+                    </li>
+                    <li id="editionNav2">
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.html">Edition</a>
+                    </li>
+                    
+                    <li id="editionNav3">
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
+                    </li>
+                </ul>
+            </xsl:when>
             <xsl:otherwise>
                 <ul>
                     <li id="editionNavPre">Go to:</li>
@@ -394,35 +423,32 @@
         <xsl:choose>
             <xsl:when test="attribute::ref">
                 <xsl:variable name="persNameID">
-                    <xsl:value-of select="substring-after(@ref,'#')"/>
-                </xsl:variable>
-
-                <div class="showNote">
+                    <xsl:value-of select="substring-after(@ref, '#')" />
+                </xsl:variable><div class="showNote">
                     <a href="#" onclick="return false;" class="personNote">
-                        <xsl:apply-templates/>
+                        <xsl:apply-templates />
                     </a>
                 </div>
                 <div>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote">X</a>
-
-                    <xsl:for-each select="document('../2016/editions/youngidea/personography.youngidea.xml')//tei:person">
-                        <xsl:if test="child::tei:persName//attribute::xml:id=$persNameID">
+                    <xsl:for-each
+                        select="document('../2016/editions/youngidea/personography.youngidea.xml')//tei:person">
+                        <xsl:if test="child::tei:persName//attribute::xml:id = $persNameID">
                             <div class="rdgNote">
                                 <h4>
-                                    <xsl:apply-templates select="child::tei:persName"/>
+                                    <xsl:apply-templates select="child::tei:persName" />
                                 </h4>
                                 <span class="personNote">
-                                    <xsl:apply-templates select="child::tei:note"/>
+                                    <xsl:apply-templates select="child::tei:note" />
                                 </span>
                             </div>
                         </xsl:if>
                     </xsl:for-each>
-
                 </div>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:apply-templates/>
+                <xsl:apply-templates />
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -436,9 +462,7 @@
                 </xsl:variable>
                 
                 <div class="showNote">
-                    <a href="#" onclick="return false;" class="personNote">
-                        <xsl:apply-templates/>
-                    </a>
+                    <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
                 </div>
                 <div>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
@@ -474,9 +498,7 @@
                 </xsl:variable>
                 
                 <div class="showNote">
-                    <a href="#" onclick="return false;" class="personNote">
-                        <xsl:apply-templates/>
-                    </a>
+                    <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
                 </div>
                 <div>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
@@ -539,6 +561,23 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="//tei:div[@type='article']//tei:bibl">
+        <span class="article_bibl">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="//tei:desc//tei:bibl | //tei:person//tei:note//tei:bibl">
+<xsl:choose>
+    <xsl:when test="child::tei:author and not(child::tei:pubPlace)"><xsl:apply-templates/></xsl:when>
+    <xsl:when test="child::tei:title and not(child::tei:pubPlace)"><em><xsl:apply-templates/></em></xsl:when>
+    <xsl:when test="child::tei:pubPlace"><span class="authority_bibl">
+        <xsl:apply-templates select="child::tei:author"/>, <em><xsl:apply-templates select="child::tei:title"/></em> (<xsl:apply-templates select="child::tei:pubPlace"/>: <xsl:apply-templates select="child::tei:publisher"/>), <xsl:apply-templates select="child::tei:date"/>
+    </span></xsl:when>
+    <xsl:otherwise><span class="authority_bibl"><xsl:apply-templates/></span></xsl:otherwise>
+</xsl:choose>
+    </xsl:template>
+
 
     <xsl:template match="tei:floatingText/child::tei:body">
         <blockquote>

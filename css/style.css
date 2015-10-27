@@ -1,5 +1,6 @@
 /* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css
-	http://www.scholarlyediting.org/css/style.css */
+	http://www.scholarlyediting.org/css/style.css
+	http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/css/style.css */
 
 /* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css */
 
@@ -771,6 +772,10 @@ div.note {
 div.poem {
 	margin: 20px 150px 20px 150px;
 	font-size: 1.2em;
+}
+
+.youngidea .poem {
+	font-size: 1em;
 }
 
 span.poem_line {
@@ -2690,6 +2695,30 @@ span.del_underline.strikethrough {
 .introswayzedrama li {
 	text-indent: 0em;
 }
+
+.youngidea .article_bibl {
+	display: block; text-align: center; margin-right: auto; margin-left: auto; font-size: 1.25em;
+}
+
+div.edition div.youngidea table
+{
+	border: 0px; width: 75%; margin-left: auto; margin-right: auto;
+}
+
+div.edition div.youngidea table tbody tr td {
+	border: 0px gray solid;
+	padding: 5px;
+	text-align: left; 
+}
+
+.youngidea tr.cells_3 td {
+	width: 33%;
+}
+
+/*.youngidea tr.cells_5 td {
+	width: 20%;
+}*/
+
 
 /* 2016 */
 
