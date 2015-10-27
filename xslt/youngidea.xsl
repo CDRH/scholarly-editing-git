@@ -394,35 +394,32 @@
         <xsl:choose>
             <xsl:when test="attribute::ref">
                 <xsl:variable name="persNameID">
-                    <xsl:value-of select="substring-after(@ref,'#')"/>
-                </xsl:variable>
-
-                <div class="showNote">
+                    <xsl:value-of select="substring-after(@ref, '#')" />
+                </xsl:variable><div class="showNote">
                     <a href="#" onclick="return false;" class="personNote">
-                        <xsl:apply-templates/>
+                        <xsl:apply-templates />
                     </a>
                 </div>
                 <div>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote">X</a>
-
-                    <xsl:for-each select="document('../2016/editions/youngidea/personography.youngidea.xml')//tei:person">
-                        <xsl:if test="child::tei:persName//attribute::xml:id=$persNameID">
+                    <xsl:for-each
+                        select="document('../2016/editions/youngidea/personography.youngidea.xml')//tei:person">
+                        <xsl:if test="child::tei:persName//attribute::xml:id = $persNameID">
                             <div class="rdgNote">
                                 <h4>
-                                    <xsl:apply-templates select="child::tei:persName"/>
+                                    <xsl:apply-templates select="child::tei:persName" />
                                 </h4>
                                 <span class="personNote">
-                                    <xsl:apply-templates select="child::tei:note"/>
+                                    <xsl:apply-templates select="child::tei:note" />
                                 </span>
                             </div>
                         </xsl:if>
                     </xsl:for-each>
-
                 </div>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:apply-templates/>
+                <xsl:apply-templates />
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -436,9 +433,7 @@
                 </xsl:variable>
                 
                 <div class="showNote">
-                    <a href="#" onclick="return false;" class="personNote">
-                        <xsl:apply-templates/>
-                    </a>
+                    <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
                 </div>
                 <div>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
@@ -474,9 +469,7 @@
                 </xsl:variable>
                 
                 <div class="showNote">
-                    <a href="#" onclick="return false;" class="personNote">
-                        <xsl:apply-templates/>
-                    </a>
+                    <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
                 </div>
                 <div>
                     <xsl:attribute name="class">appEntry</xsl:attribute>

@@ -841,9 +841,10 @@
     <xsl:template match="//tei:table">
 <xsl:for-each select="child::tei:head"><h2><xsl:apply-templates/></h2></xsl:for-each>
         <table>
-            <xsl:for-each select="child::tei:row">
-                <tr>
+            <xsl:for-each select="child::tei:row"><xsl:variable name="cellNumber"><xsl:value-of select="count(child::tei:cell)"/></xsl:variable>
+                <tr><xsl:attribute name="class">cells_<xsl:value-of select="$cellNumber"/></xsl:attribute>
                     <xsl:for-each select="child::tei:cell">
+                        
                         <xsl:choose><xsl:when test="@role='label'"><td>
                             <b><xsl:apply-templates/></b>
                         </td></xsl:when><xsl:otherwise><td>
