@@ -768,6 +768,10 @@
                                 <xsl:when test="$editionName='stufaiuolo'"
                                     >stufaiuolo/<xsl:value-of
                                         select="./attribute::url" /> </xsl:when>
+
+                                <xsl:when test="$editionName='youngidea'"
+                                    >youngidea/<xsl:value-of
+                                        select="./attribute::url" /> </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:value-of select="./attribute::url" />
                                 </xsl:otherwise>
