@@ -133,48 +133,7 @@
                             </ol>
                 </div></xsl:if></div>
             </xsl:when>
-            <!--<xsl:when test="$fileIDsubstring='intro.youngidea'">
-                <div class="introyoungidea">
-                    <xsl:apply-templates/>
-                    <xsl:if test="descendant::tei:note">
-                        <div class="notesList">
-                            <h2>Notes</h2>
-                            <ol>
-
-                                <xsl:for-each select="//tei:note[@type='editorial']">
-                                    <xsl:variable name="noteNumber">
-                                        <xsl:number count="//tei:note[@type='editorial']"
-                                            level="any"/>
-                                    </xsl:variable>
-                                    <li>
-                                        <span class="note_editorial">
-                                            <a>
-                                                <xsl:attribute name="name">
-                                                  <xsl:text>note</xsl:text>
-                                                  <xsl:value-of select="$noteNumber"/>
-                                                </xsl:attribute>
-                                            </a>
-                                            <xsl:apply-templates/>
-                                            <a>
-                                                <xsl:attribute name="href">
-                                                  <xsl:text>#ref</xsl:text>
-                                                  <xsl:value-of select="$noteNumber"/>
-                                                </xsl:attribute>
-                                                <img>
-                                                  <xsl:attribute name="src"
-                                                  >images/goback.png</xsl:attribute>
-                                                  <xsl:attribute name="alt">Go back</xsl:attribute>
-                                                </img>
-                                            </a>
-                                        </span>
-                                    </li>
-
-                                </xsl:for-each>
-                            </ol>
-                        </div>
-                    </xsl:if>
-                </div>
-            </xsl:when>-->
+     
             <xsl:otherwise>
                 <xsl:apply-templates/>
             </xsl:otherwise>
@@ -262,13 +221,7 @@
 
 
     <!-- Notes and pointers -->
-    <!--<xsl:template match="//tei:div[@type='notes']">
-      =
-                <div class="notesList">
-                    <h2>Notes</h2>
-                    <xsl:apply-templates/>
-                </div>
-    </xsl:template>-->
+   
     <xsl:template match="//tei:ptr">
         <a>
             <xsl:attribute name="href">
