@@ -62,3 +62,20 @@
     color:red;
 }
 
+.dunning .diplomatic {
+    border-top: red solid 10px;
+}
+
+
+.dunning .regularized {
+    border-top: blue solid 10px;
+}
+
+.dunning .diplomatic .tei_ex {
+    display:none;
+}
+
+.dunning .h1, .dunning h2, .dunning h3, .dunning h4, .dunning h5, .dunning h6 {
+    font-family: andron_scriptor_webregular, quiviraregular;
+    text-align: left;
+}

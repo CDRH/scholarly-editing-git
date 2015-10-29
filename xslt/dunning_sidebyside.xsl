@@ -4,7 +4,7 @@
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0"
   exclude-result-prefixes="xsl tei xs">
 
-  <xsl:include href="base.xsl"/>
+ 
 
   <!-- For display in TEI framework, have changed all namespace declarations to http://www.tei-c.org/ns/1.0. If different (e.g. Whitman), will need to change -->
 
@@ -36,6 +36,10 @@
     <xsl:text>../../</xsl:text>
   </xsl:param>
   <!-- set keyword link location  -->
+  
+  
+  
+  
 
   <!-- =========================================
   Copied from stuf_diplomatica and elsewhere
@@ -159,7 +163,7 @@
     Add info to top of document
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <xsl:template match="/TEI/text[1]">
+ <!-- <xsl:template match="/TEI/text[1]">
     
     <xsl:variable name="url_part">
       <xsl:choose>
@@ -218,7 +222,9 @@
     </div>
     
 
-  </xsl:template>
+  </xsl:template>-->
+  
+  
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Add info to bottom of document
@@ -227,7 +233,9 @@
   <xsl:template match="text">
     <!-- find a better rule for matching bottom of document -->
     
-   <xsl:apply-templates/>
+    
+    <xsl:apply-templates/>
+   
     
 
     <xsl:if test="//note[@place='foot']">
