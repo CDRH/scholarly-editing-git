@@ -116,6 +116,7 @@
 
 
   <xsl:template match="seg">
+    <span class="seg">
     <xsl:variable name="idno">
       <xsl:value-of select="normalize-space(//idno[@type='file'])"/>
     </xsl:variable>
@@ -133,11 +134,17 @@
         <xsl:when test="$idno = 'deorationedominica.trans'">original</xsl:when>
       </xsl:choose>
     </xsl:variable>
+    <xsl:variable name="oppositelinktext">
+      <xsl:choose>
+        <xsl:when test="$linktext = 'translation'">original</xsl:when>
+        <xsl:when test="$linktext = 'original'">translation</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
 
     <xsl:choose>
       <xsl:when test="@source">
-        <span id="l{translate(@source, '#:[]', '')}">
-          <a href="{$linksource}#l{translate(@source, '#:[]', '')}">
+        <span id="{$linktext}{translate(@source, '#:[]', '')}" class="clicktext">
+          <a href="#{$oppositelinktext}{translate(@source, '#:[]', '')}">
             <xsl:text> [</xsl:text>
             <xsl:value-of select="$linktext"/>
             <xsl:text>] </xsl:text>
@@ -151,7 +158,7 @@
       </xsl:otherwise>
     </xsl:choose>
 
-
+    </span>
   </xsl:template>
 
 
@@ -230,14 +237,28 @@
     Add info to bottom of document
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <xsl:template match="text">
+  <xsl:template match="/">
     <!-- find a better rule for matching bottom of document -->
+    <html>
+      <head><title>Test Page</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
+        <link href="../../css/dunning.css" rel="stylesheet" type="text/css"/>
+        <script src="../../js/dunning.js"> &#160; </script>
+        <script src="../../js/dunning-sidebyside.js"> &#160; </script>
+      </head>
+      <body class="dunning">
+        <div style="height:100%">
+          <div style="width:50%; float:left; height:100%;"><xsl:apply-templates/></div>
+          <div style="width:50%; float:right; height:100%;"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/tei:TEI"/></div>
+        </div>
+      </body>
+    </html>
     
     
-    <xsl:apply-templates/>
+    
    
     
-
+<!--
     <xsl:if test="//note[@place='foot']">
       <br/>
       <hr/>
@@ -265,7 +286,7 @@
           </a>
         </p>
       </xsl:for-each>
-    </div>
+    </div>-->
   </xsl:template>
 
 
