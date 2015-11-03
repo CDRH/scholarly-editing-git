@@ -57,17 +57,17 @@
         <a href="intro.dequinqueseptenis-deorationedominica.dunning.html">Intro</a>
       </li>
       <li id="editionNav2">
-        <a href="de-oratione-dominica.dunning.html?type=diplomatic">De oratione dominica</a>
+        <a href="de-oratione-dominica.dunning.html?type=diplomatic">De oratione dominica (On the Lord’s Prayer)</a>
       </li>
+     <!-- <li id="editionNav3">
+        <a href="de-oratione-dominica-trans.dunning.html">On the Lord’s Prayer</a>-->
+      <!--</li>-->
       <li id="editionNav3">
-        <a href="de-oratione-dominica-trans.dunning.html">On the Lord’s Prayer</a>
+        <a href="de-quinque-septenis.dunning.html?type=diplomatic">De quinque septenis (On the Five Sevens)</a>
       </li>
-      <li id="editionNav4">
-        <a href="de-quinque-septenis.dunning.html?type=diplomatic">De quinque septenis</a>
-      </li>
-      <li id="editionNav5">
+     <!-- <li id="editionNav5">
         <a href="de-quinque-septenis-trans.dunning.html">On the Five Sevens</a>
-      </li>
+      </li>-->
 
     </ul>
 
@@ -75,7 +75,134 @@
   </xsl:template>
 
 
+  <!-- ===================================================================================
+    TEMPLATES: Header and Footer
+    =================================================================================== -->
+  
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Add info to top of document
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  
+  <xsl:template match="/TEI/text[1]">
+    
+    <xsl:variable name="url_part">
+      <xsl:choose>
+        <xsl:when test="$idno = 'deorationedominica' or $idno = 'deorationedominica.trans'">
+          <xsl:text>de-oratione-dominica</xsl:text>
+        </xsl:when>
+        <xsl:when test="$idno = 'dequinqueseptenis' or $idno = 'dequinqueseptenis.trans'">
+          <xsl:text>de-quinque-septenis</xsl:text>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    
+    <!--<p>
+      <xsl:value-of select="$idno"/>
+    </p>
+     <p>[[[<xsl:value-of select="$url_part"/>]]]</p> -->
+    
+    <xsl:if test="$url_part = 'de-oratione-dominica' or $url_part = 'de-quinque-septenis'">
+    <div class="controls_dunning">
+      <div class="orig_trans_toggle">
+        <div class="original_container">
+          <a>
+            <xsl:attribute name="href"><xsl:value-of select="$url_part"/><xsl:text>.dunning.html?type=diplomatic</xsl:text></xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>original toggle toggleleft</xsl:text>
+              <xsl:if test="$idno = 'deorationedominica' or $idno = 'dequinqueseptenis'"><xsl:text> selected</xsl:text></xsl:if></xsl:attribute>
+            <span>Original</span>
+          </a>
+          <xsl:if test="$idno = 'deorationedominica' or $idno = 'dequinqueseptenis'">
+            <div class="reg_dip_toggle">
+              <div class="diplomatic_toggle_container">
+                <a>
+                  <xsl:attribute name="href"><xsl:value-of select="$url_part"/><xsl:text>.dunning.html?type=diplomatic</xsl:text></xsl:attribute>
+                  <xsl:attribute name="class">
+                    <xsl:text>diplomatic_toggle toggle toggleleft</xsl:text>
+                    <xsl:if test="$type='diplomatic'"> selected</xsl:if>
+                  </xsl:attribute>
+                  <span>Diplomatic</span></a>
+              </div>
+              <div class="regularized_toggle_container">
+                <a>
+                  <xsl:attribute name="href"><xsl:value-of select="$url_part"/><xsl:text>.dunning.html?type=regularized</xsl:text></xsl:attribute>
+                  <xsl:attribute name="class">
+                    <xsl:text>diplomatic_toggle toggle toggleright</xsl:text>
+                    <xsl:if test="$type='regularized'"> selected</xsl:if>
+                  </xsl:attribute>
+                 <span>Regularized</span></a>
+              </div>
+            </div>
+          </xsl:if>
+        </div>
+        <div class="translation_container">
+          <a>
+            <xsl:attribute name="href"><xsl:value-of select="$url_part"/><xsl:text>-trans.dunning.html?type=diplomatic</xsl:text></xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>original toggle toggleright</xsl:text>
+              <xsl:if test="$idno = 'deorationedominica.trans' or $idno = 'dequinqueseptenis.trans'"><xsl:text> selected</xsl:text></xsl:if></xsl:attribute>
+            <!--href="{$url_part}-trans.dunning.html" class="translation toggle toggleright">--><span>Translation</span></a>
+        </div>
+        <br/>
+        <div class="options_container">
+          <h4 class="options">Options</h4>
+        
+          <a>
+            <xsl:attribute name="href">#</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>highlight_quotes button</xsl:text></xsl:attribute>
+            <span>Highlight Quotes</span></a>
+          <a>
+            <xsl:attribute name="href">#</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>line_breaks button</xsl:text></xsl:attribute>
+            <span>Disable Line Breaks</span></a>
+        </div>
+      </div>
 
+    </div>
+      
+    </xsl:if>
+    
+    
+     <!-- <xsl:choose>
+        <xsl:when test="$type = 'diplomatic'">
+          <p class='button'><a href="{$url_part}.html?type=regularized">Switch to Editorial View</a></p>
+        </xsl:when>
+        <xsl:when test="$type = 'regularized'">
+          <p class='button'><a href="{$url_part}.html?type=diplomatic">Switch to Diplomatic View</a></p>
+        </xsl:when>
+      </xsl:choose>-->
+    
+    
+   <!-- <xsl:choose>
+      <xsl:when test="$idno = 'deorationedominica' or $idno = 'dequinqueseptenis'">
+        
+        <div class="controls">
+        <!-\-<p id="dunning_controls_expan">Expan controls go here</p>-\->
+        <p id="dunning_controls_quote" class="button">Quote controls go here</p>
+          <p id="dunning_controls_breaks" class="button">Line Break Controls go here</p>
+        </div>
+      </xsl:when>
+      
+    </xsl:choose>-->
+    
+    <div class="main_content">
+      <xsl:choose>
+        <xsl:when test="$type='diplomatic'">
+          <div class="diplomatic">
+            <xsl:apply-templates/>
+          </div>
+        </xsl:when>
+        <xsl:when test="$type='regularized'">
+          <div class="regularized">
+            <xsl:apply-templates/>
+          </div>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </div>
+    
+    
+  </xsl:template>
 
 
   <!-- ========================================
@@ -151,74 +278,7 @@
   </xsl:template>
 
 
-  <!-- ===================================================================================
-    TEMPLATES: Header and Footer
-    =================================================================================== -->
-
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Add info to top of document
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-  <xsl:template match="/TEI/text[1]">
-    
-    <xsl:variable name="url_part">
-      <xsl:choose>
-        <xsl:when test="$idno = 'deorationedominica'">
-          <xsl:text>de-oratione-dominica.dunning</xsl:text>
-        </xsl:when>
-        <xsl:when test="$idno = 'dequinqueseptenis'">
-          <xsl:text>de-quinque-septenis.dunning</xsl:text>
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-
-    <p>
-      <xsl:value-of select="$idno"/>
-    </p>
-
-    <p>
-      <xsl:choose>
-        <xsl:when test="$type = 'diplomatic'">
-          <a href="{$url_part}.html?type=regularized">Switch to Editorial View</a>
-        </xsl:when>
-        <xsl:when test="$type = 'regularized'">
-          <a href="{$url_part}.html?type=diplomatic">Switch to Diplomatic View</a>
-        </xsl:when>
-      </xsl:choose>
-    </p>
-
-    <xsl:choose>
-      <xsl:when test="$idno = 'deorationedominica' or $idno = 'dequinqueseptenis'">
-        
-
-          <p id="dunning_controls_expan">Expan controls go here</p>
-          <p id="dunning_controls_quote">Quote controls go here</p>
-          <p id="dunning_controls_breaks">Line Break Controls go here</p>
-
-      </xsl:when>
-  
-    </xsl:choose>
-
-    <div class="main_content">
-      <xsl:choose>
-        <xsl:when test="$type='diplomatic'">
-          <div class="diplomatic">
-            <xsl:apply-templates/>
-          </div>
-        </xsl:when>
-        <xsl:when test="$type='regularized'">
-          <div class="regularized">
-            <xsl:apply-templates/>
-          </div>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </div>
-    
-
-  </xsl:template>
+ 
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Add info to bottom of document
@@ -786,20 +846,22 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <xsl:template match="lb" priority="1">
-    <xsl:choose>
+    <xsl:apply-templates/>
+    <br class="br_diplomatic"/>
+    <!-- <xsl:choose>
       <xsl:when test="$type='diplomatic'">
         <xsl:apply-templates/>
-        <br/>
+        <br class="br_diplomatic"/>
       </xsl:when>
       <xsl:when test="$type='regularized'">
-        <xsl:text> </xsl:text>
+        <br class="br_regularized"/>
         <xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:apply-templates/>
         <br/>
       </xsl:otherwise>
-    </xsl:choose>
+    </xsl:choose> -->
     
   </xsl:template>
 

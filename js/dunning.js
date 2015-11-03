@@ -14,7 +14,7 @@ $.fn.clicktoggle = function(a, b) {
     });
 };
 
-$(function () {
+/*$(function () {
 $("#dunning_controls_expan").text("Hide Editorial Expansions");
     $("#dunning_controls_expan").clicktoggle(
         function () {
@@ -26,32 +26,40 @@ $("#dunning_controls_expan").text("Hide Editorial Expansions");
             $(".tei_ex").show();
         }
     );
-});
+});*/
 
 $(function () {
-$("#dunning_controls_quote").text("Highlight Quotes");
-    $("#dunning_controls_quote").clicktoggle(
-        function () {
-            $(this).text("Unhighlight Quotes");
-            $(".quote").addClass("highlight");
-        },
-        function () {
-            $(this).text("Highlight Quotes");
-            $(".quote").removeClass("highlight");
-        }
-    );
+$(".highlight_quotes").clicktoggle(
+    function () {
+        event.preventDefault();
+        $(this).text("Unhighlight Quotes");
+        $(".quote").addClass("highlight");
+        $(this).addClass("selected");
+    },
+    function () {
+        event.preventDefault();
+        $(this).text("Highlight Quotes");
+        $(".quote").removeClass("highlight");
+        $(this).removeClass("selected");
+    }
+);
 }); 
 
 $(function () {
-$("#dunning_controls_breaks").text("Disable Line Breaks");
-    $("#dunning_controls_breaks").clicktoggle(
+    $(".line_breaks").clicktoggle(
         function () {
+            event.preventDefault();
             $(this).text("Enable Line Breaks");
-            $("br").hide();
+            $("br").addClass("br_regularized");
+            $("br").removeClass("br_diplomatic");
+            $(this).addClass("selected");
         },
         function () {
+            event.preventDefault();
             $(this).text("Disable Line Breaks");
-            $("br").show();
+            $("br").addClass("br_diplomatic");
+            $("br").removeClass("br_regularized");
+            $(this).removeClass("selected");
         }
     );
 });
