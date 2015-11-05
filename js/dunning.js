@@ -63,3 +63,23 @@ $(function () {
         }
     );
 });
+
+$(function () {
+    $(".translation_links").clicktoggle(
+        function () {
+            event.preventDefault();
+            
+            $(this).text("Show Translation Links");
+            $(".tei_seg").removeClass('tei_seg').addClass('tei_seg_off');
+            $(".orig_trans_link").hide();
+            $(".translation_links").addClass("selected");
+        },
+        function () {
+            event.preventDefault();
+             $(this).text("Hide Translation Links");
+            $(".tei_seg_off").addClass('tei_seg').removeClass('tei_seg_off');
+            $(".orig_trans_link").show();
+            $(".translation_links").removeClass("selected");
+        }
+    );
+});

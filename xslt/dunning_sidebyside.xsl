@@ -83,7 +83,7 @@
 
 
     <xsl:template match="seg" priority="1">
-        <span class="seg">
+      &#160;&#160;<span class="tei_seg_side">
             <xsl:variable name="idno">
                 <xsl:value-of select="normalize-space(//idno[@type='file'])"/>
             </xsl:variable>

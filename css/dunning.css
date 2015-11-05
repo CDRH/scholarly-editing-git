@@ -55,7 +55,7 @@
 }
 
 .highlight, .tei_attr_highlight {
-    background-color:yellow;
+    background-color:#A3E0D5;
 }
 
 .tei_attr_red {
@@ -122,8 +122,8 @@
     
     
     display:block;
-    padding: 5px 10px;
-    font-size: 1.3em;
+    padding: 3px 5px;
+    font-size: 1.2em;
     text-align: center;
 	
 }
@@ -131,11 +131,11 @@
 .button, .controls {
 text-align: center;
    
-    padding: 2px 8px;
-    font-size: 1.3em;
-    -webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
+    padding: 1px 4px;
+    font-size: 1.1em;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 
 margin-right: .5em;;
 }
@@ -164,7 +164,7 @@ border-bottom-left-radius: 10px;
 }
 
 .selected {
-    background-color: #197a32;
+    background-color: #6e978f;;
     color: #fff;
 }
 
@@ -231,6 +231,9 @@ h4.options {
     font-weight: 900;
 }
 
+.dunning .tei_seg, .dunning .tei_seg_side {
+	background-color: #e0efed;
+}
 
 
 

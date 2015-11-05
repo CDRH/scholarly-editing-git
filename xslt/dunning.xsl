@@ -183,6 +183,10 @@
               <xsl:attribute name="href">#</xsl:attribute>
               <xsl:attribute name="class"><xsl:text>line_breaks button</xsl:text></xsl:attribute>
               <span>Disable Line Breaks</span></a>
+            <a>
+              <xsl:attribute name="href">#</xsl:attribute>
+              <xsl:attribute name="class"><xsl:text>translation_links button</xsl:text></xsl:attribute>
+              <span>Hide Translation Links</span></a>
           </div>
         </div>
         
@@ -307,15 +311,16 @@
     </xsl:variable>
     <xsl:variable name="linktext">
       <xsl:choose>
-        <xsl:when test="$idno = 'deorationedominica'">translation</xsl:when>
-        <xsl:when test="$idno = 'deorationedominica.trans'">original</xsl:when>
+        <xsl:when test="$idno = 'deorationedominica' or $idno = 'dequinqueseptenis'">translation</xsl:when>
+        <xsl:when test="$idno = 'deorationedominica.trans' or $idno = 'dequinqueseptenis.trans'">original</xsl:when>
       </xsl:choose>
     </xsl:variable>
 
+<span class="tei_seg">
     <xsl:choose>
       <xsl:when test="@source">
         <span id="l{translate(@source, '#:[]', '')}">
-          <a href="{$linksource}#l{translate(@source, '#:[]', '')}">
+          <a href="{$linksource}#l{translate(@source, '#:[]', '')}" class="orig_trans_link">
             <xsl:text> [</xsl:text>
             <xsl:value-of select="$linktext"/>
             <xsl:text>] </xsl:text>
@@ -325,9 +330,9 @@
         <xsl:apply-templates/>
       </xsl:when>
       
-        <xsl:when test="@source">
-          <span id="l{translate(@source, '#:[]', '')}">
-            <a href="{$linksource}#l{translate(@source, '#:[]', '')}">
+        <xsl:when test="@xml:id">
+          <span id="l{translate(@xml:id, '#:[]', '')}">
+            <a href="{$linksource}#l{translate(@xml:id, '#:[]', '')}" class="orig_trans_link">
               <xsl:text> [</xsl:text>
               <xsl:value-of select="$linktext"/>
               <xsl:text>] </xsl:text>
@@ -340,7 +345,7 @@
         <xsl:apply-templates/>
       </xsl:otherwise>
     </xsl:choose>
-
+</span>
 
   </xsl:template>
 
