@@ -54,11 +54,11 @@
 	clear: right;
 }
 
-.highlight {
+.highlight, .tei_attr_highlight {
     background-color:yellow;
 }
 
-.red {
+.tei_attr_red {
     color:red;
 }
 
@@ -186,6 +186,50 @@ h4.options {
 }
 
 
+
+
+    
+.tei_attr_red {}
+.tei_attr_strike {text-decoration: line-through;}
+.tei_attr_enlarged {font-size:1.4em;}
+.tei_attr_supraline {text-decoration: overline}
+.tei_attr_alt {}
+.tei_attr_hyphen {}
+.tei_attr_stroke {}
+.tei_attr_expunct {}
+.tei_attr_erased {}
+.tei_attr_strikethrough {text-decoration: line-through;}
+ .tei_attr_overstrike {}
+.tei_attr_above {}
+.tei_attr_spaced {}
+.tei_attr_longa {}
+.tei_attr_inline {}
+  
+  
+.tei_hi {}
+.tei_abbr {}
+.tei_num {}
+.tei_pc {}
+.tei_am {}
+.tei_del {text-decoration: line-through;}
+.tei_add {}
+.tei_expan {}
+.tei_am {}
+.tei_ex {}
+
+.dunning img.intro_image {max-width:100%;}
+
+.dunning .intro_figure {
+    border: solid 2px #aaa;
+    padding:10px;
+    margin:10px;
+}
+
+.dunning .intro_figure p {
+    margin-top:10px;
+    text-align:center;
+    font-weight: 900;
+}
 
 
 

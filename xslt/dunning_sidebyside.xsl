@@ -37,7 +37,9 @@
   </xsl:param>
   <!-- set keyword link location  -->
   
-  
+  <xsl:variable name="idno">
+    <xsl:value-of select="normalize-space(//tei:idno[@type='file'])"/>
+  </xsl:variable>
   
   
 
@@ -80,136 +82,101 @@
 
 
 
-
-
-  <!-- ========================================
-  New Additions -kmd
-  =========================================-->
-
-  <!--<xsl:template match="ex">
-    <xsl:text>[[[</xsl:text><xsl:apply-templates/><xsl:text>]]]</xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="yyy">
-    <xsl:text>{{{</xsl:text><xsl:apply-templates/><xsl:text>}}}</xsl:text>
-  </xsl:template>-->
-
-
-
-  <xsl:template match="expan">
-    <span class="tei_expan">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  <xsl:template match="am">
-    <span class="tei_am">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-  <xsl:template match="ex">
-    <span class="tei_ex">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-
-
-  <xsl:template match="seg">
-    <span class="seg">
-    <xsl:variable name="idno">
-      <xsl:value-of select="normalize-space(//idno[@type='file'])"/>
-    </xsl:variable>
-    <xsl:variable name="linksource">
-      <xsl:choose>
-        <xsl:when test="$idno = 'deorationedominica'"
-          >de-oratione-dominica-trans.dunning.html</xsl:when>
-        <xsl:when test="$idno = 'deorationedominica.trans'"
-          >de-oratione-dominica.dunning.html</xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:variable name="linktext">
-      <xsl:choose>
-        <xsl:when test="$idno = 'deorationedominica'">translation</xsl:when>
-        <xsl:when test="$idno = 'deorationedominica.trans'">original</xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:variable name="oppositelinktext">
-      <xsl:choose>
-        <xsl:when test="$linktext = 'translation'">original</xsl:when>
-        <xsl:when test="$linktext = 'original'">translation</xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-
-    <xsl:choose>
-      <xsl:when test="@source">
-        <span id="{$linktext}{translate(@source, '#:[]', '')}" class="clicktext">
-          <a href="#{$oppositelinktext}{translate(@source, '#:[]', '')}">
-            <xsl:text> [</xsl:text>
-            <xsl:value-of select="$linktext"/>
-            <xsl:text>] </xsl:text>
-          </a>
+    <xsl:template match="seg" priority="1">
+        <span class="seg">
+            <xsl:variable name="idno">
+                <xsl:value-of select="normalize-space(//idno[@type='file'])"/>
+            </xsl:variable>
+            <xsl:variable name="linksource">
+                <xsl:choose>
+                    <xsl:when test="$idno = 'deorationedominica'"
+                        >de-oratione-dominica-trans.dunning.html</xsl:when>
+                    <xsl:when test="$idno = 'deorationedominica.trans'"
+                        >de-oratione-dominica.dunning.html</xsl:when>
+                  <xsl:when test="$idno = 'dequinqueseptenis'"
+                    >de-quinque-septenis-trans.dunning.html</xsl:when>
+                  <xsl:when test="$idno = 'dequinqueseptenis.trans'"
+                    >de-quinque-septenis.dunning.html</xsl:when>
+                </xsl:choose>
+            </xsl:variable>
+            <xsl:variable name="linktext">
+                <xsl:choose>
+                  <xsl:when test="$idno = 'deorationedominica' or $idno = 'dequinqueseptenis'">translation</xsl:when>
+                  <xsl:when test="$idno = 'deorationedominica.trans' or $idno = 'dequinqueseptenis.trans'">original</xsl:when>
+                </xsl:choose>
+            </xsl:variable>
+            <xsl:variable name="oppositelinktext">
+                <xsl:choose>
+                    <xsl:when test="$linktext = 'translation'">original</xsl:when>
+                    <xsl:when test="$linktext = 'original'">translation</xsl:when>
+                </xsl:choose>
+            </xsl:variable>
+            
+            <xsl:choose>
+                <xsl:when test="@source">
+                    <span id="{$linktext}{translate(@source, '#:[]', '')}" class="clicktext">
+                        <a href="#{$oppositelinktext}{translate(@source, '#:[]', '')}">
+                            <xsl:text> [</xsl:text>
+                            <xsl:value-of select="$linktext"/>
+                            <xsl:text>] </xsl:text>
+                        </a>
+                    </span>
+                    
+                    <xsl:apply-templates/>
+                </xsl:when>
+              <xsl:when test="@xml:id">
+                <span id="{$linktext}{translate(@xml:id, '#:[]', '')}" class="clicktext">
+                  <a href="#{$oppositelinktext}{translate(@xml:id, '#:[]', '')}">
+                    <xsl:text> [</xsl:text>
+                    <xsl:value-of select="$linktext"/>
+                    <xsl:text>] </xsl:text>
+                  </a>
+                </span>
+                
+                <xsl:apply-templates/>
+              </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
+            
         </span>
-
-        <xsl:apply-templates/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
-
-    </span>
-  </xsl:template>
-
-
-  <!-- ===================================================================================
-    TEMPLATES: Header and Footer
-    =================================================================================== -->
-
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Add info to top of document
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
- <!-- <xsl:template match="/TEI/text[1]">
-    
-    <xsl:variable name="url_part">
-      <xsl:choose>
-        <xsl:when test="$idno = 'deorationedominica'">
-          <xsl:text>de-oratione-dominica.dunning</xsl:text>
-        </xsl:when>
-        <xsl:when test="$idno = 'dequinqueseptenis'">
-          <xsl:text>de-quinque-septenis.dunning</xsl:text>
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-
-    <p>
-      <xsl:value-of select="$idno"/>
-    </p>
-
-    <p>
-      <xsl:choose>
-        <xsl:when test="$type = 'diplomatic'">
-          <a href="{$url_part}.html?type=regularized">Switch to Editorial View</a>
-        </xsl:when>
-        <xsl:when test="$type = 'regularized'">
-          <a href="{$url_part}.html?type=diplomatic">Switch to Diplomatic View</a>
-        </xsl:when>
-      </xsl:choose>
-    </p>
-
-    <xsl:choose>
-      <xsl:when test="$idno = 'deorationedominica' or $idno = 'dequinqueseptenis'">
-        
-
-          <p id="dunning_controls_expan">Expan controls go here</p>
-          <p id="dunning_controls_quote">Quote controls go here</p>
-          <p id="dunning_controls_breaks">Line Break Controls go here</p>
-
-      </xsl:when>
+    </xsl:template>
   
-    </xsl:choose>
-
+  <xsl:template match="/">
+    <!-- find a better rule for matching bottom of document -->
+    <html>
+      <head><title>Test Page</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
+        <link href="../../css/dunning.css" rel="stylesheet" type="text/css"/>
+        <script src="../../js/dunning.js"> &#160; </script>
+        <script src="../../js/dunning-sidebyside.js"> &#160; </script>
+      </head>
+      <body class="dunning">
+        <div style="height:100%">
+          <div style="width:50%; float:left; height:100%;"><xsl:apply-templates/></div>
+          <div style="width:50%; float:right; height:100%;">
+            
+            <xsl:choose>
+              <xsl:when test="$idno = 'dequinqueseptenis'">
+                <xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/tei:TEI"/>
+              </xsl:when>
+              <xsl:when test="$idno = 'deorationedominica'">
+                <xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/tei:TEI"/>
+              </xsl:when>
+            </xsl:choose>
+            
+            </div>
+        </div>
+      </body>
+    </html>
+  </xsl:template>
+  
+  <xsl:template match="/TEI/text[1]">
+    
+    
+    
+    
     <div class="main_content">
       <xsl:choose>
         <xsl:when test="$type='diplomatic'">
@@ -228,66 +195,163 @@
       </xsl:choose>
     </div>
     
+    
+  </xsl:template>
+  
+  
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+        ===================================================================================
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+    ===================================================================================
+    
+    DUPLICATION BEGINS AFTER THIS
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+    ===================================================================================
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+    ===================================================================================-->   
 
+
+
+  <!-- ===================================================================================
+    TEMPLATES: Header and Footer
+    =================================================================================== -->
+  
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Add info to top of document
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  
+  <xsl:variable name="url_part">
+    <xsl:choose>
+      <xsl:when test="$idno = 'deorationedominica' or $idno = 'deorationedominica.trans'">
+        <xsl:text>de-oratione-dominica</xsl:text>
+      </xsl:when>
+      <xsl:when test="$idno = 'dequinqueseptenis' or $idno = 'dequinqueseptenis.trans'">
+        <xsl:text>de-quinque-septenis</xsl:text>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:variable>
+  
+  
+
+
+  <!-- ========================================
+  New Additions -kmd
+  =========================================-->
+
+ 
+
+<xsl:template name="rendrules">
+  
+ 
+  <xsl:if test="@rend='red'"><xsl:text> tei_attr_red</xsl:text></xsl:if>
+  <xsl:if test="@rend='strike'"><xsl:text> tei_attr_strike</xsl:text></xsl:if>
+  <xsl:if test="@rend='enlarged'"><xsl:text> tei_attr_enlarged</xsl:text></xsl:if>
+  <xsl:if test="@rend='supraline'"><xsl:text> tei_attr_supraline</xsl:text></xsl:if>
+  <xsl:if test="@rend='alt'"><xsl:text> tei_attr_alt</xsl:text></xsl:if>
+  <xsl:if test="@rend='hyphen'"><xsl:text> tei_attr_hyphen</xsl:text></xsl:if>
+  <xsl:if test="@rend='stroke'"><xsl:text> tei_attr_stroke</xsl:text></xsl:if>
+  <xsl:if test="@rend='expunct'"><xsl:text> tei_attr_expunct</xsl:text></xsl:if>
+  <xsl:if test="@rend='erased'"><xsl:text> tei_attr_erased</xsl:text></xsl:if>
+  <xsl:if test="@rend='strikethrough'"><xsl:text> tei_attr_strikethrough</xsl:text></xsl:if>
+  <xsl:if test="@rend='overstrike'"><xsl:text> tei_attr_overstrike</xsl:text></xsl:if>
+  <xsl:if test="@rend='above'"><xsl:text> tei_attr_above</xsl:text></xsl:if>
+  <xsl:if test="@rend='spaced'"><xsl:text> tei_attr_spaced</xsl:text></xsl:if>
+  <xsl:if test="@rend='longa'"><xsl:text> tei_attr_longa</xsl:text></xsl:if>
+  <xsl:if test="@rend='inline'"><xsl:text> tei_attr_inline</xsl:text></xsl:if>
+</xsl:template>
+
+<xsl:template match="supplied">
+  <!-- omitted -->
+  <xsl:apply-templates/>
+</xsl:template>
+  
+  <xsl:template match="hi | abbr | num | pc | am | del | add | expan | am | ex" priority="1">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text> tei_</xsl:text><xsl:value-of select="name()"/>
+        <xsl:call-template name="rendrules"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
+  <xsl:template match="milestone">
+    <div>
+      <xsl:attribute name="class">
+        <xsl:text>milestone </xsl:text>
+        <xsl:value-of select="@unit"/>
+      </xsl:attribute>
+      <xsl:text> </xsl:text>
+    </div>
+  </xsl:template>
+  
+  <!--<xsl:template match="add">
+    <!-\- inline -\->
+    <xsl:apply-templates/>
   </xsl:template>-->
   
-  
+  <!--<xsl:template match="expan">
+    <span class="tei_expan">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>-->
 
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Add info to bottom of document
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <!--<xsl:template match="am">
+    <span class="tei_am">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>-->
 
-  <xsl:template match="/">
-    <!-- find a better rule for matching bottom of document -->
-    <html>
-      <head><title>Test Page</title>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
-        <link href="../../css/dunning.css" rel="stylesheet" type="text/css"/>
-        <script src="../../js/dunning.js"> &#160; </script>
-        <script src="../../js/dunning-sidebyside.js"> &#160; </script>
-      </head>
-      <body class="dunning">
-        <div style="height:100%">
-          <div style="width:50%; float:left; height:100%;"><xsl:apply-templates/></div>
-          <div style="width:50%; float:right; height:100%;"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/tei:TEI"/></div>
-        </div>
-      </body>
-    </html>
-    
-    
-    
-   
-    
-<!--
-    <xsl:if test="//note[@place='foot']">
-      <br/>
-      <hr/>
-    </xsl:if>
-    <div class="footnotes">
-      <xsl:text> </xsl:text>
-      <xsl:for-each select="//note[@place='foot']">
-        <p>
-          <span class="notenumber"><xsl:value-of select="substring(@xml:id, 2)"/>.</span>
-          <xsl:text> </xsl:text>
-          <xsl:apply-templates/>
-          <xsl:text> </xsl:text>
-          <a>
-            <xsl:attribute name="href">
-              <xsl:text>#</xsl:text>
-              <xsl:text>body</xsl:text>
-              <xsl:value-of select="@xml:id"/>
+  <!--<xsl:template match="ex">
+    <span class="tei_ex">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>-->
 
-            </xsl:attribute>
-            <xsl:attribute name="id">
-              <xsl:text>foot</xsl:text>
-              <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-            <xsl:text>[back]</xsl:text>
+
+  <xsl:template match="seg">
+    <xsl:variable name="idno">
+      <xsl:value-of select="normalize-space(//idno[@type='file'])"/>
+    </xsl:variable>
+    <xsl:variable name="linksource">
+      <xsl:choose>
+        <xsl:when test="$idno = 'deorationedominica'"
+          >de-oratione-dominica-trans.dunning.html</xsl:when>
+        <xsl:when test="$idno = 'deorationedominica.trans'"
+          >de-oratione-dominica.dunning.html</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="linktext">
+      <xsl:choose>
+        <xsl:when test="$idno = 'deorationedominica'">translation</xsl:when>
+        <xsl:when test="$idno = 'deorationedominica.trans'">original</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+
+    <xsl:choose>
+      <xsl:when test="@source">
+        <span id="l{translate(@source, '#:[]', '')}">
+          <a href="{$linksource}#l{translate(@source, '#:[]', '')}">
+            <xsl:text> [</xsl:text>
+            <xsl:value-of select="$linktext"/>
+            <xsl:text>] </xsl:text>
           </a>
-        </p>
-      </xsl:for-each>
-    </div>-->
+        </span>
+
+        <xsl:apply-templates/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+
+
   </xsl:template>
+
+
+ 
+
+
 
 
   <!-- ===================================================================================
@@ -360,11 +424,21 @@
               <xsl:value-of select="@xml:id"/>
             </xsl:when>
             <xsl:when test="@n">
-              <xsl:text>pembroke-115-</xsl:text>
+              
+              <xsl:choose>
+                <xsl:when test="$url_part = 'de-oratione-dominica'">
+                  <xsl:text>pembroke-115-</xsl:text>
+                </xsl:when>
+                <xsl:when test="$url_part = 'de-quinque-septenis'">
+                  <xsl:text>mazarine-717-</xsl:text>
+                </xsl:when>
+              </xsl:choose>
+              
               <xsl:value-of select="@n"/>
             </xsl:when>
           </xsl:choose>
         </xsl:variable>
+        
         <xsl:choose>
           <xsl:when test="contains($figure_id_full,'.jpg')">
             <xsl:value-of select="substring-before($figure_id_full,'.jpg')"/>
@@ -570,7 +644,10 @@
 
     <xsl:choose>
       <xsl:when test="@rend='red'">
-        <h3 class="red">
+        <h3>
+          <xsl:attribute name="class">
+            <xsl:call-template name="rendrules"/>
+          </xsl:attribute>
           <xsl:apply-templates/>
         </h3>
       </xsl:when>
@@ -796,39 +873,29 @@
     </a>
   </xsl:template>
 
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Milestone / horizontal rule
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-  <xsl:template match="milestone">
-    <div>
-      <xsl:attribute name="class">
-        <xsl:text>milestone </xsl:text>
-        <xsl:value-of select="@unit"/>
-      </xsl:attribute>
-      <xsl:text> </xsl:text>
-    </div>
-  </xsl:template>
+ 
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Line Breaks
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <xsl:template match="lb" priority="1">
-    <xsl:choose>
+    <xsl:apply-templates/>
+    <br class="br_diplomatic"/>
+    <!-- <xsl:choose>
       <xsl:when test="$type='diplomatic'">
         <xsl:apply-templates/>
-        <br/>
+        <br class="br_diplomatic"/>
       </xsl:when>
       <xsl:when test="$type='regularized'">
-        <xsl:text> </xsl:text>
+        <br class="br_regularized"/>
         <xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:apply-templates/>
         <br/>
       </xsl:otherwise>
-    </xsl:choose>
+    </xsl:choose> -->
     
   </xsl:template>
 
@@ -981,7 +1048,7 @@
     Add
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <xsl:template match="add">
+  <!--<xsl:template match="add">
     <xsl:choose>
       <xsl:when test="@place='superlinear' or @place='supralinear'">
         <sup>
@@ -992,7 +1059,7 @@
         <xsl:apply-templates/>
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:template>
+  </xsl:template>-->
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Delete
@@ -1061,7 +1128,7 @@
     Abbr and Expan
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <xsl:template match="choice[child::abbr]">
+  <!--<xsl:template match="choice[child::abbr]">
     <a>
       <xsl:attribute name="rel">
         <xsl:text>tooltip</xsl:text>
@@ -1071,7 +1138,7 @@
       </xsl:attribute>
       <xsl:attribute name="title">
         <xsl:apply-templates select="expan"/>​ </xsl:attribute><xsl:apply-templates select="abbr"
-      /></a>​</xsl:template>
+      /></a>​</xsl:template>-->
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Damage
@@ -1158,6 +1225,8 @@
       <xsl:otherwise/>
     </xsl:choose>
   </xsl:template>
+
+
 
 
 
