@@ -4,7 +4,7 @@
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0"
   exclude-result-prefixes="xsl tei xs">
 
- 
+<xsl:param name="display_type"></xsl:param>
 
   <!-- For display in TEI framework, have changed all namespace declarations to http://www.tei-c.org/ns/1.0. If different (e.g. Whitman), will need to change -->
 
@@ -15,8 +15,8 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <!-- Left for project display rules, currently unused -->
-  <xsl:param name="pagetype"/>
-  <xsl:param name="subpagetype"/>
+ <!-- <xsl:param name="pagetype"/>
+  <xsl:param name="subpagetype"/>-->
   <xsl:param name="type"/>
 
   <xsl:param name="figures">true</xsl:param>
@@ -38,8 +38,13 @@
   <!-- set keyword link location  -->
   
   <xsl:variable name="idno">
-    <xsl:value-of select="normalize-space(//tei:idno[@type='file'])"/>
+    <xsl:value-of select="normalize-space(//idno[@type='file'])"/>
   </xsl:variable>
+  
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Stylesheet Rules from Andy's Sheet
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  
   
   
 
@@ -154,17 +159,27 @@
       </head>
       <body class="dunning">
         <div style="height:100%">
-          <div style="width:50%; float:left; height:100%;"><xsl:apply-templates/></div>
-          <div style="width:50%; float:right; height:100%;">
-            
+          <div style="width:50%; float:left; height:100%;">
             <xsl:choose>
-              <xsl:when test="$idno = 'dequinqueseptenis'">
-                <xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/tei:TEI"/>
-              </xsl:when>
-              <xsl:when test="$idno = 'deorationedominica'">
-                <xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/tei:TEI"/>
-              </xsl:when>
+              <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
             </xsl:choose>
+            <xsl:apply-templates/></div>
+          <div style="width:50%; float:right; height:100%;">
+            <xsl:choose>
+              <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
+            </xsl:choose>
+           <!-- 
+           a - both originals
+           b - both translations
+           c - dominica orig and translation
+           d - septenis orig and translation
+           -->
             
             </div>
         </div>
@@ -241,8 +256,6 @@
  
 
 <xsl:template name="rendrules">
-  
- 
   <xsl:if test="@rend='red'"><xsl:text> tei_attr_red</xsl:text></xsl:if>
   <xsl:if test="@rend='strike'"><xsl:text> tei_attr_strike</xsl:text></xsl:if>
   <xsl:if test="@rend='enlarged'"><xsl:text> tei_attr_enlarged</xsl:text></xsl:if>
@@ -258,12 +271,15 @@
   <xsl:if test="@rend='spaced'"><xsl:text> tei_attr_spaced</xsl:text></xsl:if>
   <xsl:if test="@rend='longa'"><xsl:text> tei_attr_longa</xsl:text></xsl:if>
   <xsl:if test="@rend='inline'"><xsl:text> tei_attr_inline</xsl:text></xsl:if>
+  <xsl:if test="@rend='trim-blue'"><xsl:text> tei_attr_trim-blue</xsl:text></xsl:if>
 </xsl:template>
 
 <xsl:template match="supplied">
   <!-- omitted -->
   <xsl:apply-templates/>
 </xsl:template>
+  
+  
   
   <xsl:template match="hi | abbr | num | pc | am | del | add | expan | am | ex" priority="1">
     <span>

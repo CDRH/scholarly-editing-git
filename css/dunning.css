@@ -29,12 +29,18 @@
 .dunning, .dunning h3 {
     font-family:  andron_scriptor_webregular, quiviraregular;
     text-transform: none;
+    font-size: 1.2em; 
+    line-height: 1.3em;
 }
 
 .dunning div.poem {
 	margin: 0;
-	font-size: 1em;
+	/*font-size: 1em;*/
 }
+
+/* From Dunning */
+.intro_dequinqueseptenis-deorationedominica div.note { padding-left: 25px; }
+.intro_dequinqueseptenis-deorationedominica span.poem_line { font-size: 1.7em; }
 
 .dunning .pageimage {
 	border: 1px solid #aaa;
@@ -231,12 +237,43 @@ h4.options {
     font-weight: 900;
 }
 
-.dunning .tei_seg, .dunning .tei_seg_side {
+.dunning .tei_seg_side {
 	background-color: #e0efed;
 }
 
+.dunning .tei_seg {
+	/*background-color: #e0efed;*/
+}
 
+.tei_attr_red {
+    color:red
+}
 
+.tei_attr_blue {
+    color:blue
+}
+
+.tei_lb { 
+	/*margin-right:1em;*/ 
+	width:2em;
+	/*background-color: yellow;*/
+	display: block; float: left;}
+
+.dunning div.poem {
+    /*margin:0;
+    padding:0;*/
+}
+
+.dunning div.note, .dunning div.poem {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+.dunning p, .dunning div.p {
+	margin: 0px;
+	text-indent: 0em; 
+}
 
 
 

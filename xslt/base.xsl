@@ -113,7 +113,7 @@
                                 <!-- apply a class of dunning to cover all of them and a class for the specific page -kmd -->
                                 <xsl:attribute name="class">
                                     <xsl:text>dunning </xsl:text>
-                                    <xsl:value-of select="$idno"/>
+                                    <xsl:value-of select="translate($idno,'.','_')"/>
                                 </xsl:attribute>
 
                                 <xsl:apply-templates/>

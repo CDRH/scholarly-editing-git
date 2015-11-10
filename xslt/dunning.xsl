@@ -5,6 +5,8 @@
   exclude-result-prefixes="xsl tei xs">
 
   <xsl:include href="base.xsl"/>
+  
+  
 
   <!-- For display in TEI framework, have changed all namespace declarations to http://www.tei-c.org/ns/1.0. If different (e.g. Whitman), will need to change -->
 
@@ -251,23 +253,7 @@
   
 
 <xsl:template name="rendrules">
-  
- 
-  <xsl:if test="@rend='red'"><xsl:text> tei_attr_red</xsl:text></xsl:if>
-  <xsl:if test="@rend='strike'"><xsl:text> tei_attr_strike</xsl:text></xsl:if>
-  <xsl:if test="@rend='enlarged'"><xsl:text> tei_attr_enlarged</xsl:text></xsl:if>
-  <xsl:if test="@rend='supraline'"><xsl:text> tei_attr_supraline</xsl:text></xsl:if>
-  <xsl:if test="@rend='alt'"><xsl:text> tei_attr_alt</xsl:text></xsl:if>
-  <xsl:if test="@rend='hyphen'"><xsl:text> tei_attr_hyphen</xsl:text></xsl:if>
-  <xsl:if test="@rend='stroke'"><xsl:text> tei_attr_stroke</xsl:text></xsl:if>
-  <xsl:if test="@rend='expunct'"><xsl:text> tei_attr_expunct</xsl:text></xsl:if>
-  <xsl:if test="@rend='erased'"><xsl:text> tei_attr_erased</xsl:text></xsl:if>
-  <xsl:if test="@rend='strikethrough'"><xsl:text> tei_attr_strikethrough</xsl:text></xsl:if>
-  <xsl:if test="@rend='overstrike'"><xsl:text> tei_attr_overstrike</xsl:text></xsl:if>
-  <xsl:if test="@rend='above'"><xsl:text> tei_attr_above</xsl:text></xsl:if>
-  <xsl:if test="@rend='spaced'"><xsl:text> tei_attr_spaced</xsl:text></xsl:if>
-  <xsl:if test="@rend='longa'"><xsl:text> tei_attr_longa</xsl:text></xsl:if>
-  <xsl:if test="@rend='inline'"><xsl:text> tei_attr_inline</xsl:text></xsl:if>
+  <xsl:text> tei_attr_</xsl:text><xsl:value-of select="."/>
 </xsl:template>
 
 <xsl:template match="supplied">
@@ -279,20 +265,43 @@
     <span>
       <xsl:attribute name="class">
         <xsl:text> tei_</xsl:text><xsl:value-of select="name()"/>
-        <xsl:call-template name="rendrules"/>
+        <xsl:for-each select="tokenize(@rend, ' ')">
+          <xsl:call-template name="rendrules"/>
+        </xsl:for-each>
       </xsl:attribute>
       <xsl:apply-templates/>
+      
+     
+      <!-- for testing attributes -->
+     <!--<xsl:for-each select="tokenize(@rend, ' ')">
+       <span style="background-color:yellow;"><xsl:call-template name="rendrules"></xsl:call-template></span>
+     </xsl:for-each>-->
     </span>
   </xsl:template>
   
+  <xsl:template match="l" priority="1">
+    
+      <xsl:apply-templates/>
+    
+  </xsl:template>
+  
+  
   <xsl:template match="milestone">
-    <div>
+    <span>
+      <xsl:attribute name="class">
+        <xsl:for-each select="tokenize(@rend, ' ')">
+          <xsl:call-template name="rendrules"/>
+        </xsl:for-each>
+      </xsl:attribute>
+      ¶
+    </span>
+    <!--<div>
       <xsl:attribute name="class">
         <xsl:text>milestone </xsl:text>
         <xsl:value-of select="@unit"/>
       </xsl:attribute>
       <xsl:text> </xsl:text>
-    </div>
+    </div>-->
   </xsl:template>
  
 
@@ -317,7 +326,7 @@
     </xsl:variable>
 
 <span class="tei_seg">
-    <xsl:choose>
+   <!-- <xsl:choose>
       <xsl:when test="@source">
         <span id="l{translate(@source, '#:[]', '')}">
           <a href="{$linksource}#l{translate(@source, '#:[]', '')}" class="orig_trans_link">
@@ -344,7 +353,8 @@
       <xsl:otherwise>
         <xsl:apply-templates/>
       </xsl:otherwise>
-    </xsl:choose>
+    </xsl:choose>-->
+  <xsl:apply-templates></xsl:apply-templates>
 </span>
 
   </xsl:template>
@@ -663,7 +673,9 @@
       <xsl:when test="@rend='red'">
         <h3>
           <xsl:attribute name="class">
-            <xsl:call-template name="rendrules"/>
+            <xsl:for-each select="tokenize(@rend, ' ')">
+              <xsl:call-template name="rendrules"/>
+            </xsl:for-each>
           </xsl:attribute>
           <xsl:apply-templates/>
         </h3>
@@ -896,9 +908,10 @@
     Line Breaks
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <xsl:template match="lb" priority="1">
-    <xsl:apply-templates/>
-    <br class="br_diplomatic"/>
+  <xsl:template match="text//lb" priority="1">
+    <xsl:variable name="number"><xsl:number level="any"/></xsl:variable>
+    <br class="br_diplomatic"/><span class="tei_lb"><xsl:if test="$number mod 5 = 0 or $number = 1"><xsl:value-of select="$number"/></xsl:if>&#160;</span><xsl:apply-templates/>
+    
     <!-- <xsl:choose>
       <xsl:when test="$type='diplomatic'">
         <xsl:apply-templates/>
