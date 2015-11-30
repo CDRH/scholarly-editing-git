@@ -1,5 +1,6 @@
 /* Dunning */
 
+/* Function to replicate the old jquery toggle behaviour */
 $.fn.clicktoggle = function(a, b) {
     return this.each(function() {
         var clicked = false;
@@ -64,7 +65,7 @@ $(function () {
     );
 });
 
-$(function () {
+/*$(function () {
     $(".translation_links").clicktoggle(
         function () {
             event.preventDefault();
@@ -82,4 +83,4 @@ $(function () {
             $(".translation_links").removeClass("selected");
         }
     );
-});
+});*/

@@ -39,8 +39,8 @@
 }
 
 /* From Dunning */
-.intro_dequinqueseptenis-deorationedominica div.note { padding-left: 25px; }
-.intro_dequinqueseptenis-deorationedominica span.poem_line { font-size: 1.7em; }
+.dunning div.note { padding-left: 25px; }
+.dunning span.poem_line { font-size: 1.4em; }
 
 .dunning .pageimage {
 	border: 1px solid #aaa;
@@ -76,6 +76,44 @@
 .dunning .regularized {
     /*border-top: blue solid 10px;*/
 }
+
+.dunning .regularized .tei_abbr {
+    display:none;
+}
+
+.dunning .regularized .tei_am {
+    display:none;
+}
+
+.dunning .regularized .tei_del {
+    display:none;
+}
+
+.dunning .regularized .tei_surplus {
+    display:none;
+}
+
+.dunning .regularized .tei_attr_hyphen {
+    display:none;
+}
+
+.dunning .regularized .tei_surplus {
+    display:none;
+}
+
+.dunning .regularized .quote {
+  quotes: "“" "”" "‘" "’";
+}
+
+.dunning .regularized .quote:before {
+    content: open-quote;
+}
+
+.dunning .regularized .quote:after {
+    content: close-quote;
+}
+
+
 
 .dunning .diplomatic .tei_ex {
     display:none;
