@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="SURF2015Schema.rng" type="xml"?>
+<?xml-model href="out/2015Schemawithvaluerestritions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mi="http://www.newhaven.edu/ns/nonTEI">
     <teiHeader>
         <fileDesc>
@@ -19,7 +19,7 @@
                     <resp>Transcription and encoding</resp>
                     <name>Katelyn Sahagian</name>
                 </respStmt>
-
+                
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -29,8 +29,8 @@
             <publicationStmt>
                 <authority>Scholarly Editing: The Annual of the Association for Documentary
                     Editing</authority>
-            <idno type="file">extracts.youngidea</idno>
-        <idno type="edition">youngidea</idno>
+                <idno type="file">extracts.youngidea</idno>
+                <idno type="edition">youngidea</idno>
                 <address>
                     <addrLine>http://www.scholarlyediting.org</addrLine>
                 </address>
@@ -107,13 +107,11 @@
                     23rd January 1858<lb/>No. 7</head>
                 <cb n="1"/>
                 <div type="article">
-                    <note>This contribution does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea</note>
-                    <p>Our long voyage has now come to a close, we may consider that we have arrived
-                        at our destination, that our future prospects centre in <placeName
-                            ref="placeography.xml#Kolkata" facs="Colton_Kolkata"
-                            >Calcutta</placeName>.</p>
+
+                    <p><ref target="TYI_Variants.xml#TYI7.01">Our long voyage has now come to a
+                            close, we may consider that we have arrived at our destination, that our
+                            future prospects centre in <placeName ref="placeography.xml#Kolkata"
+                                facs="Colton_Kolkata">Calcutta</placeName>.</ref></p>
                     <p>What these prospects may be, we are unable to determine at present, although,
                         we may almost dispel the idea of seeing service before the enemy, as we had
                         hoped, our proceedings will most likely consist in various kinds of extra
@@ -147,12 +145,8 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears as the third contribution to issue seven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
-                    <head><placeName ref="placeography.xml#Kolkata">Calcutta</placeName>!</head>
+                    <head><ref target="TYI_Variants.xml#TYI7.02"><placeName
+                                ref="placeography.xml#Kolkata">Calcutta</placeName>!</ref></head>
                     <p>Here we are at last! the external appearance is novel and not uninteresting,
                         what is the interior? Such were our reflections when we had time to look
                         around us, and witness the busy scene,- boats of various shapes and build,
@@ -218,12 +212,8 @@
                 <cb n="2"/>
 
                 <div type="article">
-                    <note>This article appears as the first contribution to issue seven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea with a significant additional passage. Bampfield
-                        attributes the contribution to "B."</note>
-                    <head>Up the <placeName ref="placeography.xml#Hugli_River"
-                        >Hooghly</placeName></head>
+                    <head><ref target="TYI_Variants.xml#TYI7.03">Up the <placeName
+                                ref="placeography.xml#Hugli_River">Hooghly</placeName></ref></head>
                     <p>On Saturday evening last (Jan 16) although no land was in sight, we found
                         ourselves nearing the channels of the <placeName
                             ref="placeography.xml#Hugli_River">Hooghly</placeName>. At 6 P.M. we
@@ -255,32 +245,14 @@
                         and then called our attention. In the stream, we passed many vessels, less
                         favoured than ourselves, taking advantage of the tide to move up the river;
                         others in their downward course, lying at anchor till the tide should turn.
-                            <note>McArthur does not include the following passage that does appear
-                            in Bampfield's transcription of this article: <p><lb/>Native boats <gap
-                                    reason="indecipherable"/> of strange shape, <del>with</del>
-                                manned by a swarthy crew, floated up with the tide, &amp; here and
-                                there a dark, loathsome object on the surface of the water marked
-                                the presence of a putrefying Hindoo Corpse.</p><p>Still the river
-                                narrowed: &amp; the channel of the stream <choice>
-                                    <expan>would</expan>
-                                    <abbr>wd</abbr>
-                                </choice> sometimes sweep us close in to one of its banks, as the
-                                widening course offered some new Reach before us.= Native Villagers,
-                                generally clustered about some creek, where a smaller stream joined
-                                the main river, now &amp; then called our attention: ;-their huts,
-                                built of mud &amp; thatched, overshadowed by <gap
-                                    reason="indecipherable"/>; the almost naked inhabitants watching
-                                us from the shore: their Canoes, sharply pointed &amp; curving
-                                upwards at bow &amp; stern, drawn up on the sloping mud banks of the
-                                River.</p>
-                            <p>Then, in their turn, gave way to the traces of </p></note> Now we
-                        observed traces of the European settler, the tall factory of red brick, the
-                        neat white house with green blinds drawn down over the windows, the regular
-                        avenue of trees, the cultivated patches of sugar cane, the brick field with
-                        piles of bricks, furnished from the dark alluvial clay, of which doubtless,
-                        the whole Delta of the Ganges is composed. As we moved swiftly up, the banks
-                        of the river glided past like a moving panorama, and the eye could never
-                        tire of watching the beautiful scene.</p>
+                            <ref target="TYI_Variants.xml#BETYI7.01">Now we observed traces of the
+                            European settler</ref>, the tall factory of red brick, the neat white
+                        house with green blinds drawn down over the windows, the regular avenue of
+                        trees, the cultivated patches of sugar cane, the brick field with piles of
+                        bricks, furnished from the dark alluvial clay, of which doubtless, the whole
+                        Delta of the Ganges is composed. As we moved swiftly up, the banks of the
+                        river glided past like a moving panorama, and the eye could never tire of
+                        watching the beautiful scene.</p>
                     <p>At sunset we came to an anchor in the <placeName
                             ref="placeography.xml#Garden_Reach">Garden Reach</placeName>, 2 miles
                         below <placeName ref="placeography.xml#Kolkata">Calcutta</placeName>, one or
@@ -292,60 +264,27 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears as the eighth contribution to issue seven in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea.</note>
-                    <p>The capture of <placeName ref="placeography.xml#Delhi">Delhi</placeName>,
-                        &amp; the relief of <placeName ref="placeography.xml#Lucknow"
-                            >Lucknow</placeName> are exploits which challenge our national pride, as
-                        well as our national thanksgiving……..In every shape which war could take,
-                        has the ascendancy of the British race been established. We have succeeded
-                        in capturing a strong position &amp; we have succeeded in defending a weak
-                        one. As besiegers at <placeName ref="placeography.xml#Delhi"
-                            >Delhi</placeName>, as besieged at <placeName
-                            ref="placeography.xml#Lucknow">Lucknow</placeName>, we have been equally
-                        triumphant, while the advance of our column to the<cb n="2"/> capital of
-                        insurgent <placeName ref="placeography.xml#Ayodhya">Oude</placeName>,
-                        presents little less than a miracle of determination &amp; courage.</p>
+
+                    <p><lb/><ref target="TYI_Variants.xml#TYI7.04">The capture of <placeName
+                                ref="placeography.xml#Delhi">Delhi</placeName>, &amp; the relief of
+                                <placeName ref="placeography.xml#Lucknow">Lucknow</placeName> are
+                            exploits which challenge our national pride, as well as our national
+                            thanksgiving…….</ref>.In every shape which war could take, has the
+                        ascendancy of the British race been established. We have succeeded in
+                        capturing a strong position &amp; we have succeeded in defending a weak one.
+                        As besiegers at <placeName ref="placeography.xml#Delhi">Delhi</placeName>,
+                        as besieged at <placeName ref="placeography.xml#Lucknow"
+                        >Lucknow</placeName>, we have been equally triumphant, while the advance of
+                        our column to the<cb n="2"/> capital of insurgent <placeName
+                            ref="placeography.xml#Ayodhya">Oude</placeName>, presents little less
+                        than a miracle of determination &amp; courage.</p>
                     <bibl><title>The Evening Mail</title></bibl>
                 </div>
 
                 <div type="naval_intelligence">
-                    <note>Some of the material presented here appears as the sixth contribution to
-                        issue seven in <persName ref="personography.xml#J_W_L_Bampfield"
-                            >Bampfield</persName>'s extracts from The Young Idea, though it is
-                        called "epitome" instead of "naval intelligence." Bampfield does not
-                        attritube it to a particular author. Bampfield also includes the following
-                        detailed account of a visit to the Himalaya (attributed to "B.") as the
-                        second contribution to issue ten:<lb/>A Visit to the "<mi:shipName
-                            ref="shipography.xml#Himalaya">Himalaya</mi:shipName>"<lb/>
-                        <p>We had an opportunity, before the "<mi:shipName
-                                ref="shipography.xml#Himalaya">Himalaya</mi:shipName>" sailed, of
-                            going round her Decks, and observing the arrangements made for the
-                            conveyance of the sick and wounded. On the upper troop-Deck, the
-                            swinging Cots were strung true and free on either side, &amp; contained
-                            many poor fellows who had lost an arm or a leg in the late war: they had
-                            mostly formed a portion of the gallant little army which followed
-                                <persName ref="personography.xml#Havelock">General
-                                Havelock</persName> to <placeName ref="placeography.xml#Kanpur"
-                                >Cawnpore</placeName> and <placeName ref="placeography.xml#Lucknow"
-                                >Lucknow</placeName>. It was distressing to see so many fine young
-                            soldiers maimed &amp; mutilated for life by the shot or shell of these
-                            detestable Sepoys; but a happy cheerful spirit seemed to pervade them
-                            all, &amp; one poor fellow who had lost both eyes by one musket shot,
-                            seemed the happiest &amp; merriest<cb n="2"/>of them all, as he was led
-                            about between 2 of his comrades. The lower troop-Deck was fitted with
-                                <gap reason="indecipherable"/> for the convalescent: a few soldiers
-                            wives and children were also there, &amp; we were struck by the sight of
-                            one poor fellow, who had lost one of his arms, nursing his little baby
-                            with the other. A few ladies also, who have endured the siege of
-                                <placeName ref="placeography.xml#Lucknow">Lucknow</placeName>, but
-                            have left it widowed, are going home in the "<mi:shipName
-                                ref="shipography.xml#Himalaya">Himalaya</mi:shipName>" as Cabin
-                            passengers.</p>
-                        <bibl><author>B</author></bibl></note>
+
                     <list type="simple">
-                        <head>Naval Intelligence</head>
+                        <head><ref target="TYI_Variants.xml#TYI7.05">Naval Intelligence</ref></head>
                         <item>Tuesday 19th H.M.S. <mi:shipName ref="shipography.xml#Chesapeake"
                             />Chesapeake weighed early this morning and took up swinging moorings
                             off the Esplanade. She saluted the Governor General, which was returned
@@ -369,28 +308,23 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears as the ninth contribution to issue seven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "J."</note>
-                    <head>A Swarm of Centipedes</head>
-                    <note>From McArthur's Appendix: "Centipede was the name given to the lashing by
-                        which the men's blankets were strapped for Field Service"</note>
+
+                    <head><ref target="TYI_Variants.xml#TYI7.06">A Swarm of Centipedes</ref></head>
+
                     <p>It appears that since leaving <placeName ref="placeography.xml#Trincomalee"
-                            >Trincomalee</placeName>, a great number of Centipedes have been
-                        produced on board, so much so that recently at Evening Quarters, each man
-                        was required to appear with a Centipede in his possession. We certainly
-                        should have thought that such noxious reptiles, and such unpleasant
-                        bedfellows would have been flung overboard at the earliest opportunity but
-                        learn with surprize that they are carefully retained, and will be coiled
-                        round each man's blanket in the event of a campaign on shore.</p>
+                            >Trincomalee</placeName>, a great number of <ref
+                            target="xml.TYIextracts2">Centipedes</ref> have been produced on board,
+                        so much so that recently at Evening Quarters, each man was required to
+                        appear with a Centipede in his possession. We certainly should have thought
+                        that such noxious reptiles, and such unpleasant bedfellows would have been
+                        flung overboard at the earliest opportunity but learn with surprize that
+                        they are carefully retained, and will be coiled round each man's blanket in
+                        the event of a campaign on shore.</p>
                 </div>
 
                 <div type="conundrum">
-                    <note>This conundrum appears as the second contribution to issue seven in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to
-                        "J."</note>
-                    <head>Conundrums</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI7.07">Conundrums</ref></head>
                     <list type="ordered">
                         <item n="12">Why is <placeName ref="placeography.xml#Kolkata"
                                 >Calcutta</placeName> like the letter "I."?</item>
@@ -400,12 +334,7 @@
                 </div>
 
                 <div type="rebus">
-                    <note>This rebus appears as the fifth contribution to issue seven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea and Bampfield includes the answer. Bampfield attributes
-                        the contribution to "W," which suggests it was written by <persName
-                            ref="personography.xml#Wilkinson">Wilkinson</persName></note>
-                    <head>Answer to Rebus</head>
+                    <head><ref target="TYI_Variants.xml#TYI7.08">Answer to Rebus</ref></head>
                     <l>Though rough may be our sailors "fare"</l>
                     <l>Yet the tales of home we'll tell.</l>
                     <l>And "well" we'll wish to the dear ones there</l>
@@ -413,11 +342,7 @@
                 </div>
 
                 <div type="rebus">
-                    <note>This rebus appears as the fifth contribution to issue seven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea and Bampfield includes the answer. Bampfield does not
-                        supply initials for this contribution.</note>
-                    <head>Unanswered</head>
+                    <head><ref target="TYI_Variants.xml#TYI7.09">Unanswered</ref></head>
                     <list type="ordered">
                         <item n="10">When it is a rect angle.</item>
                         <item n="11">Because he's quite down in the mouth and nearly going to
@@ -425,10 +350,7 @@
                     </list>
                 </div>
                 <div type="publication_info">
-                    <note>This publication information is not included in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>The Young Idea</head>
+                    <head><ref target="TYI_Variants.xml#TYI7.10">The Young Idea</ref></head>
                     <p>Published at the Office No. 1 Port St. <mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName> every
                         Saturday<lb/> Saturday 23 Jan. 1858</p>
@@ -444,10 +366,7 @@
                     January 1858<lb/>No. 8</head>
                 <cb n="1"/>
                 <div type="article">
-                    <note>This article appears as the first contribution to issue eight in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "B."</note>
-                    <head>Try Again</head>
+                    <head><ref target="TYI_Variants.xml#TYI8.01">Try Again</ref></head>
                     <p>It is seldom that any great &amp; unprecedented undertaking will meet with
                         the complete success at the first trial: - the great engineering triumphs of
                         the present century have mostly taught us to expect failure before we
@@ -482,11 +401,8 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears in the same position in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "L."</note>
-                    <head>A Bird's Eye View of <placeName ref="placeography.xml#Kolkata"
-                            >Calcutta</placeName></head>
+                    <head><ref target="TYI_Variants.xml#TYI8.02">A Bird's Eye View of
+                        Calcutta</ref></head>
                     <p>Those who wish for a birds eye view of <placeName
                             ref="placeography.xml#Kolkata">Calcutta</placeName>, we would strongly
                         recommend to ascend <placeName ref="placeography.xml#Ochterlony_Monument"
@@ -514,10 +430,9 @@
                 </div>
 
                 <div type="article">
-                    <note>This article does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>Launching the "Leviathan"</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI8.03">Launching the
+                        "Leviathan"</ref></head>
                     <bibl><title>The Evening Mail</title></bibl>
                     <p>On Saturday (Nov.r 23rd) a third attempt was made to move this gigantic
                         vessel, which we are happy to say was eminently successful, and resulted in
@@ -531,12 +446,9 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears as the third contribution to issue eight in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
-                    <head>The Special Thanksgiving At St. Paul's Cathedral</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI8.04">The Special Thanksgiving At St.
+                            Paul's Cathedral</ref></head>
                     <p>Last Thursday week the 21st Inst. a special Thanksgiving service was held in
                         St. Paul's Ca<pb n="TYI1083" facs="TYI1083"/><fw>The Young Idea Saturday
                                 30<hi rend="superscript">th</hi> January 1858.</fw><cb n="1"
@@ -597,14 +509,9 @@
                 </div>
 
                 <div type="naval_intelligence">
-                    <note>This article appears in the same position (as the fifth contribution to
-                        issue eight) in <persName ref="personography.xml#J_W_L_Bampfield"
-                            >Bampfield</persName>'s extracts from The Young Idea but it is called
-                        "epitome" instead of "naval intelligence." Bampfield attributes the
-                        contribution to "McA," which suggests it was written by <persName
-                            ref="personography.xml#A_D_McArthur">McArthur</persName></note>
+
                     <list type="simple">
-                        <head>Naval Intelligence</head>
+                        <head><ref target="TYI_Variants.xml#TYI8.05">Naval Intelligence</ref></head>
                         <item>26th HMS "<mi:shipName ref="shipography.xml#Chesapeake"
                                 >Chesapeake</mi:shipName>" left her swinging moorings off the
                             Esplanade and moored off Baboo Ghant<lb/>H.M.S. "<mi:shipName
@@ -620,11 +527,9 @@
                 </div>
 
                 <div type="promotions_and_appointments">
-                    <note>This article appears as the fourth contribution to issue eight in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield does not supply initials of an
-                        author.</note>
-                    <head>Promotions and Appointments</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI8.06">Promotions and
+                        Appointments</ref></head>
                     <list type="simple">
                         <item><persName ref="personography.xml#Kelly">Lieut.t Edw.d Kelly</persName>
                             (additional) took passage in H.M.S. "<mi:shipName
@@ -639,19 +544,12 @@
                             of this promotion has not been yet received, but as it is announced in
                             the Gazette, we feel much pleasure in announcing it also. At the same
                             time we must state that our pleasure is tinged with regret at losing so
-                            good a messmate.<note>Important for establishing a location on the ship
-                                for "we". Brownrigg was a messmate of the writer of this
-                                contribution before he was promoted to Lieutenant</note></item>
+                            good a messmate.</item>
                     </list>
                 </div>
                 <div type="epitome">
-                    <note>The information in this epitome appears along with the information under
-                        the heading "naval intelligence" as the fifth contribution to issue eight in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to
-                        "McA," which suggests it was written by <persName
-                            ref="personography.xml#A_D_McArthur">McArthur</persName></note>
-                    <head>Epitome</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI8.07">Epitome</ref></head>
                     <list type="simple">
                         <item>A Regatta is announced to come off on the 10th Prosc.s but we have not
                             received any information as to the terms or arrangements</item>
@@ -670,33 +568,35 @@
                 </div>
 
                 <div type="letter">
-                    <note>This letter appears as the fourth contribution to issue nine in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea (a completely different issue). Bampfield attributes the
-                        contribution to "L."</note>
-                    <head>First appearance of an Enemy.</head>
-                    <p>To the Editor of the "Young Idea"<lb/>Dear Sir,<lb/>While walking the Deck by
-                        moonlight, in a contemplative mood, on Thursday Evening, two animals of the
-                        order "Rodentia," usually called "rats" were observed by the Quartermaster
-                        near the main mast. Being much troubled by the apparition, and having an
-                        intense aversion to anything in the shape of a rat, (except the rat-tat of
-                        the postman's knock) I hasten to inform you of the approach of these
-                        formidable foes. I sincerely hope, that our smart, though juvenile members
-                        of the feline tribe may now be duly trained and disciplined to meet the foe,
-                        and I doubt not that a whole host of asiatic rats will soon be made to fly
-                        before the sharp claws of a few brave British cats.<lb/>I am, Dear
-                        Sir,<lb/>Yours very truly<lb/>Night Watch<lb/>"<mi:shipName
-                            ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" 29 Jan
-                        1858</p>
+
+                    <head><ref target="TYI_Variants.xml#TYI8.08">First appearance of an
+                        Enemy.</ref></head>
+                    <floatingText>
+                        <body>
+                            <opener>To the Editor of the "Young Idea"<lb/>Dear Sir,</opener>
+                            <p>While walking the Deck by moonlight, in a contemplative mood, on
+                                Thursday Evening, two animals of the order "Rodentia," usually
+                                called "rats" were observed by the Quartermaster near the main mast.
+                                Being much troubled by the apparition, and having an intense
+                                aversion to anything in the shape of a rat, (except the rat-tat of
+                                the postman's knock) I hasten to inform you of the approach of these
+                                formidable foes. I sincerely hope, that our smart, though juvenile
+                                members of the feline tribe may now be duly trained and disciplined
+                                to meet the foe, and I doubt not that a whole host of asiatic rats
+                                will soon be made to fly before the sharp claws of a few brave
+                                British cats.</p>
+                            <closer>I am, Dear Sir,<lb/>Yours very truly</closer>
+                            <signed>"Night Watch"</signed>
+                            <dateline><mi:shipName ref="shipography.xml#Chesapeake"
+                                    >Chesapeake</mi:shipName>" 29 Jan 1858</dateline>
+                        </body>
+                    </floatingText>
                 </div>
 
                 <div type="conundrum">
-                    <note>Only one of these conundrums (the one about "I") appears as the second
-                        contribution to issue seven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea (a completely different issue). Bampfield attributes the
-                        contribution to "J."</note>
-                    <head>Answers to Conundrums. 12 &amp; 13 </head>
+
+                    <head><ref target="TYI_Variants.xml#TYI8.09">Answers to Conundrums. 12 &amp;
+                            13</ref></head>
                     <p>To answer your two riddles, Sir, I'll try:</p>
                     <list type="ordered">
                         <item n="12">Why is <placeName ref="placeography.xml#Kolkata"
@@ -709,10 +609,8 @@
                 </div>
 
                 <div type="publication_info">
-                    <note>This publication info appears as the sixth contribution to issue eight in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea.</note>
-                    <head>The Young Idea</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI8.10">The Young Idea</ref></head>
                     <p>Published at the Office No. 1 Port Street, "<mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" every
                         Saturday. Subscriptions most thankfully received<lb/>Saturday 30th January,
@@ -728,14 +626,10 @@
                     February 1858<lb/>No. 9</head>
                 <cb n="1"/>
                 <div type="article">
-                    <note>This article (with the first sentence excluded) appears as the first
-                        contribution to issue eight in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
-                    <p>Already one twelfth of the New Year has flown, and we find ourselves rapidly
-                        entering into the second month.</p>
+
+                    <p><ref target="TYI_Variants.xml#TYI9.01">Already one twelfth of the New Year
+                            has flown, and we find ourselves rapidly entering into the second
+                            month.</ref></p>
                     <p>In this short space of time we have seen much, done much, and heard much:
                         already we miss the faces of one or two shipmates, and expect others to fill
                         their places, and thus it ever is, and ever will be; -faces, and forms will
@@ -778,11 +672,8 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears in the same position in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield does not supply the author's initials.</note>
-                    <head>The <placeName ref="placeography.xml#Lucknow">Lucknow</placeName>
-                        Tigers.</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI9.02">The Lucknow Tigers.</ref></head>
                     <p>As we believe that many of our readers have availed themselves of our
                         recommendation last week to ascend the Monument on the Esplanade, we will
                         venture to call attention in like manner to the beautiful <placeName
@@ -817,11 +708,8 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears as the first contribution to issue ten in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea (an entirely different issue). Bampfield attributes the
-                        contribution to "L."</note>
-                    <head>"India"</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI9.03">"India"</ref></head>
                     <p>Our papers, and our Reviews, our periodicals, have all one absorbing topic,
                         and that is India. Fresh details of the horrible sufferings which our
                         countrymen &amp; women underwent in the earlier part of the insurrection,
@@ -863,10 +751,8 @@
                 </div>
 
                 <div type="conundrum">
-                    <note>This article appears as the ninth contribution to issue nine in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield does not supply an author's initial.</note>
-                    <head>Con.</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI9.04">Con.</ref></head>
                     <list type="ordered">
                         <item n="14">When is an Editor like a coachman driving a restive tandem?<pb
                                 n="TYI1094" facs="TYI1094"/><fw>The Young Idea Saturday 6<hi
@@ -875,14 +761,9 @@
                 </div>
 
                 <div type="naval_intelligence">
-                    <note>This article appears in the same position in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea, but it is called "epitome" instead of "naval
-                        intelligence." Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
+
                     <list type="simple">
-                        <head>Naval Intelligence</head>
+                        <head><ref target="TYI_Variants.xml#TYI9.05">Naval Intelligence</ref></head>
                         <item>4th Feb. H.M.S. "<mi:shipName ref="shipography.xml#Himalaya"
                                 >Himalaya</mi:shipName>" hauled out into the stream, and is
                             preparing for her departure for England. She will convey refugees from
@@ -912,13 +793,8 @@
                 </div>
 
                 <div type="epitome">
-                    <note>This article appears as the fifth contribution to issue nine in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea (along with the details included in "naval
-                        intelligence." Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
-                    <head>Epitome</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI9.06">Epitome</ref></head>
                     <list type="simple">
                         <item>On Wednesday, our late Commander <choice>
                                 <expan>Captain</expan>
@@ -943,35 +819,38 @@
                     </list>
                 </div>
                 <div type="pun">
-                    <note>This article appears as the sixth contribution to issue nine in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "B."</note>
-                    <head>"Mind your P's and Q's. (By a <placeName ref="placeography.xml#Kolkata"
-                            >Calcutta</placeName> Billiard Player).</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI9.07">"Mind your P's and Q's. (By a
+                            Calcutta Billiard Player).</ref></head>
                     <p>Take care of your ru<hi rend="underlined">pees</hi>, and avoid the Billiard
                             <hi rend="underlined">cues</hi>.</p>
                 </div>
 
                 <div type="letter">
-                    <note>This letter appears as the seventh contribution to issue nine in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "J."</note>
-                    <head>To the Editor of the "Young Idea"</head>
-                    <p>Dear Mr Editor"<lb/>Do give us more riddles this week, for tho' I could not
-                        for my life start one out of my own nozzle, yet I greatly enjoy puzzling
-                        over what others have started, and though I never wish to be riddled with
-                        shot, yet I always like to be peppered with riddles, and in fact the "Young
-                        Idea" seems quite imperfect without them.<lb/>So, believe me, Dear Mr.
-                        Editor<lb/>Your constant reader<lb/>Puzzlehead<lb/>"<mi:shipName
-                            ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" 4 Feb.
-                        1858</p>
+
+                    <head><ref target="TYI_Variants.xml#TYI9.08">To the Editor of the "Young
+                            Idea"</ref></head>
+                    <floatingText>
+                        <body>
+                            <opener>Dear Mr Editor"</opener>
+                            <p>Do give us more riddles this week, for tho' I could not for my life
+                                start one out of my own nozzle, yet I greatly enjoy puzzling over
+                                what others have started, and though I never wish to be riddled with
+                                shot, yet I always like to be peppered with riddles, and in fact the
+                                "Young Idea" seems quite imperfect without them.</p>
+                            <closer>So, believe me, Dear Mr. Editor<lb/>Your constant
+                                reader</closer>
+                            <signed>"Puzzlehead"</signed>
+                            <dateline><mi:shipName ref="shipography.xml#Chesapeake"
+                                    >Chesapeake</mi:shipName>" 4 Feb. 1858</dateline>
+                        </body>
+                    </floatingText>
+
                     <p>Ed. our answer is given below</p>
                 </div>
                 <div type="rebus">
-                    <note>This rebus appears as the eighth contribution to issue nine in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "W."</note>
-                    <head>Rebus &amp;c.</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI9.09">Rebus &amp;c.</ref></head>
                     <lg n="I">
                         <l>When I was but a little boy</l>
                         <l>I dearly loved my <hi rend="underlined">first</hi></l>
@@ -1031,10 +910,8 @@
                 </div>
 
                 <div type="publication_info">
-                    <note>This publication information does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>The Young Idea</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI9.10">The Young Idea</ref></head>
                     <p>Published at the office No. 1 Port Street, "<mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" every
                         Saturday. contributions thankfully received<lb/>Saturday 6 February,
@@ -1050,13 +927,10 @@
                     February 13 1858<lb/>No. 10</head>
                 <cb n="1"/>
                 <div type="article">
-                    <note>This information appears under the heading "epitome" as the fifth
-                        contribution to issue ten in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield does not supply the author's initial</note>
-                    <p>The Past Week has certainly been productive of more excitement, and
-                        enjoyment, than any we remember to have witnessed since our departure from
-                        England.</p>
+
+                    <p><ref target="TYI_Variants.xml#TYI10.01">The Past Week has certainly been
+                            productive of more excitement, and enjoyment, than any we remember to
+                            have witnessed since our departure from England.</ref></p>
                     <p>One great event at least, has been its chief characteristic, one day at
                         least, called forth more interest than the others, we speak of the Regatta
                         day, and the attendant entertainment onboard the "<mi:shipName
@@ -1088,52 +962,54 @@
 
                 </div>
                 <div type="letter">
-                    <note>This letter appears as the third contribution to issue nine in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea (an entirely different issue). Bampfield attributes the
-                        contribution to "W," which suggests it was written by <persName
-                            ref="personography.xml#Wilkinson">Wilkinson</persName></note>
-                    <head>A Savage from the <placeName ref="placeography.xml#Andaman_Islands"
-                            >Andaman Islands</placeName></head>
-                    <p>Dear Sir,<lb/>The following account which was given me by a gentleman of
-                            <placeName ref="placeography.xml#Kolkata">Calcutta</placeName> may
-                        perhaps, prove interesting <pb n="TYI1102" facs="TYI1102"/><fw>The "Young
-                            Idea" Saturday 13<hi rend="superscript">th</hi> February 1858</fw><cb
-                            n="1"/> to the Readers of the "Young Idea"</p>
-                    <p>An exploring party was recently sent from <placeName
-                            ref="placeography.xml#Kolkata">Calcutta</placeName> to visit the
-                            <placeName ref="placeography.xml#Andaman_Islands">Andaman
-                            Islands</placeName> in the Bay of Bengal with the view of selecting a
-                        site to establish a penal colony, and to banish thither the captive King of
-                            <placeName ref="placeography.xml#Delhi">Delhi</placeName> and his rebel
-                        Sepoys. It is remarkable that this group of Islands, tho' so near to the
-                        Asiatic Continent, are inhabited by a race of savages, no way akin to the
-                        Asiatic tribes, but apparently much nearer allied to the African Negroes.
-                        They live in a perfect state of nature, without the slightest vestige of a
-                        garment; their huts are mere dens or kennels under which they crawl at
-                        night; in fact they seem to be among the most degraded forms of
-                        humanity.</p>
-                    <p>The first salutation our explorers received was a flight of arrows, but a few
-                        musket shots soon dispersed the natives. Two of them were killed, and one
-                        captured. This savage has been brought to <placeName
-                            ref="placeography.xml#Kolkata">Calcutta</placeName> by Dr. ..... and
-                        both he and Mrs...... have done their best to humanize him by kind
-                        treatment. He was introduced to several Negroes of different tribes, but
-                        none of them could understand his language.</p>
-                    <p>He shews himself not insensible to kindness, and was pleased with Dr.
-                        .....,'s little child, making signs, that he had a little child also. On one
-                        occasion, wishing to show his gratitude to Mrs. ..... &amp; following the
-                        custom of his country on such occasions, he took the lady's hand within both
-                        his own, raised it solemnly to his lips, and with the deepest respect, spat
-                        into it.<lb/><figure>
-                            <figDesc>hand-drawn triangle</figDesc>
-                        </figure></p>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.02">A Savage from the Andaman
+                            Islands</ref></head>
+                    <floatingText>
+                        <body>
+                            <opener>Dear Sir,</opener>
+                            <p>The following account which was given me by a gentleman of <placeName
+                                    ref="placeography.xml#Kolkata">Calcutta</placeName> may perhaps,
+                                prove interesting <pb n="TYI1102" facs="TYI1102"/><fw>The "Young
+                                    Idea" Saturday 13<hi rend="superscript">th</hi> February
+                                    1858</fw><cb n="1"/> to the Readers of the "Young Idea"</p>
+                            <p>An exploring party was recently sent from <placeName
+                                    ref="placeography.xml#Kolkata">Calcutta</placeName> to visit the
+                                    <placeName ref="placeography.xml#Andaman_Islands">Andaman
+                                    Islands</placeName> in the Bay of Bengal with the view of
+                                selecting a site to establish a penal colony, and to banish thither
+                                the captive King of <placeName ref="placeography.xml#Delhi"
+                                    >Delhi</placeName> and his rebel Sepoys. It is remarkable that
+                                this group of Islands, tho' so near to the Asiatic Continent, are
+                                inhabited by a race of savages, no way akin to the Asiatic tribes,
+                                but apparently much nearer allied to the African Negroes. They live
+                                in a perfect state of nature, without the slightest vestige of a
+                                garment; their huts are mere dens or kennels under which they crawl
+                                at night; in fact they seem to be among the most degraded forms of
+                                humanity.</p>
+                            <p>The first salutation our explorers received was a flight of arrows,
+                                but a few musket shots soon dispersed the natives. Two of them were
+                                killed, and one captured. This savage has been brought to <placeName
+                                    ref="placeography.xml#Kolkata">Calcutta</placeName> by Dr. .....
+                                and both he and Mrs...... have done their best to humanize him by
+                                kind treatment. He was introduced to several Negroes of different
+                                tribes, but none of them could understand his language.</p>
+                            <p>He shews himself not insensible to kindness, and was pleased with Dr.
+                                .....,'s little child, making signs, that he had a little child
+                                also. On one occasion, wishing to show his gratitude to Mrs. .....
+                                &amp; following the custom of his country on such occasions, he took
+                                the lady's hand within both his own, raised it solemnly to his lips,
+                                and with the deepest respect, spat into it.</p>
+                            <signed><figure>
+                                    <figDesc>hand-drawn triangle</figDesc>
+                                </figure></signed>
+                        </body>
+                    </floatingText>
                 </div>
                 <div type="article">
-                    <note>This article appears as the fourth contribution to issue ten in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "J."</note>
-                    <head>Se(a)-poys and Sea-devils,</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.03">Se(a)-poys and
+                        Sea-devils,</ref></head>
                     <p>The consternation struck into the sepoys in Central India by the sight of our
                         Bluejackets, is scarcely to be imagined. "They are not English "men" say the
                         sepoys. "Nor men, at all, but sea-devils who have come up out of the sea to
@@ -1148,12 +1024,9 @@
                         cannot kill them."</p>
                 </div>
                 <div type="previously_published">
-                    <note>This extract appears as the ninth contribution (a supplement) to issue ten
-                        in <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to J.
-                        Kavanagh, Esq.</note>
-                    <head>Extracts from a Personal Narrative of the Siege of <placeName
-                            ref="placeography.xml#Lucknow">Lucknow</placeName></head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.04">Extracts from a Personal Narrative
+                            of the Siege of Lucknow</ref></head>
                     <p>"Opening of the Siege." The troops mutinied on the 30th of May and after the
                         30th of June the siege commenced in earnest. The constant din of artillery
                         and musketry, combined with the yells of the demons without, and busy
@@ -1264,12 +1137,9 @@
                         dangerous enterprize. </p>
                 </div>
                 <div type="regatta_report">
-                    <note>This regatta report appears as the third contribution to issue ten in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to
-                        "McA," which suggests it was written by <persName
-                            ref="personography.xml#A_D_McArthur">McArthur</persName></note>
-                    <head>"The Young Idea"<lb/>The Regatta</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.05">"The Young Idea"<lb/>The
+                            Regatta</ref></head>
                     <p>The <placeName ref="placeography.xml#Kolkata">Calcutta</placeName> Regatta of
                         this season took place on Wednesday last the 10th Ist. &amp; went off very
                         successfully, under the patronage of Commodore <persName
@@ -1474,10 +1344,8 @@
                             was.<cb n="2"/></p>
                 </div>
                 <div type="naval_intelligence">
-                    <note>This contribution does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>Naval Intelligence</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.06">Naval Intelligence</ref></head>
                     <list type="simple">
                         <item>H.M.S. <mi:shipName ref="shipography.xml#Himalaya"
                                 >Himalaya</mi:shipName> sailed for England on Friday the 12th
@@ -1494,10 +1362,8 @@
                     </list>
                 </div>
                 <div type="epitome">
-                    <note>This article appears as the fifth contribution to issue ten in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield does not provide the author's initial</note>
-                    <head>Epitome.</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.07">Epitome.</ref></head>
                     <list type="simple">
                         <item>On Thursday night (Feb. 11) about 11 o'clock a very heavy thunderstorm
                             passed over us. The best description of the hailstones which fell on
@@ -1506,11 +1372,9 @@
                             very vivid and of a beautiful pale blue color.</item>
                         <item>Messrs Palmer, Weatherstone and Smithers. Second Class Boys, have
                             taken their departure for England in the "<mi:shipName
-                                ref="shipography.xml#Himalaya">Himalaya</mi:shipName>" much
-                            regretted by the Master at Arms, and by their respective
-                                Masters.<note>From McArthur's Appendix: "These boys were always in
-                                trouble and were sent home to be discharged from the
-                            Service"</note></item>
+                                ref="shipography.xml#Himalaya">Himalaya</mi:shipName>" <ref
+                                target="TYI_Variants.xml#TYIappendix3">much regretted by the Master
+                                at Arms, and by their respective Masters.</ref></item>
                         <item>A Cricket Ball is announced to take place on Monday the 15th Inst. to
                             which the officers have received a general invitation.</item>
                         <item>We hear that the Royal Navy are likely to be challenged to a match at
@@ -1518,17 +1382,13 @@
                     </list>
                 </div>
                 <div type="pun">
-                    <note>This pun does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <p>Motto for a Tiger's Den. "Mangling done here."</p>
+
+                    <p><ref target="TYI_Variants.xml#TYI10.08">Motto for a Tiger's Den. "Mangling
+                            done here."</ref></p>
                 </div>
                 <div type="conundrum">
-                    <note>Only one of these conundrums (tiger's foot and semi-colon) appears as the
-                        tenth contribution to issue eleven (with the answer) in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "J."</note>
-                    <head>Conundrums</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.09">Conundrums</ref></head>
                     <list type="ordered">
                         <item n="15">What is the slight difference between a tiger's foot &amp; a
                             semi-colon?</item>
@@ -1539,10 +1399,9 @@
                     </list>
                 </div>
                 <div type="enigma">
-                    <note>This enigma does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>What letters of the Alphabet will represent?</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.10">What letters of the Alphabet will
+                            represent?</ref></head>
                     <list type="simple">
                         <item>(2 Letters) To surpass? A Fowl? Superfluity? A Turkish magistrate? To
                             coop up? &amp; an English County?</item>
@@ -1551,10 +1410,9 @@
                     </list>
                 </div>
                 <div type="charade">
-                    <note>This charade does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>Answer to Last Week's Charade.</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.11">Answer to Last Week's
+                            Charade.</ref></head>
                     <lg>
                         <l>Gaily floats the "burning" light</l>
                         <l>And merrily works the "Trunion?"</l>
@@ -1568,10 +1426,9 @@
                     </lg>
                 </div>
                 <div type="enigma">
-                    <note>This enigma appears as the ninth contribution to issue eleven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "J."</note>
-                    <head>Answer to Alphabetical Enigmas</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.12">Answer to Alphabetical
+                            Enigmas</ref></head>
                     <p>If my sweeheart of only two letters may be M.A. (Emma) L.N. (Ellen) or K.T.
                         (Katey) most surely is she with pockets quite M.T. (Empty) my home in D.K.
                         (decay) How I N.V. (Envy) the rich in their gorgeous R.A. (array) I have
@@ -1579,10 +1436,9 @@
                         uncommonly C.D. (seedy).</p>
                 </div>
                 <div type="conundrum">
-                    <note>This article appears as the eight contribution to issue nine in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield does not provide the author's initial.</note>
-                    <head>Unanswered from last week</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.13">Unanswered from last
+                        week</ref></head>
                     <list type="ordered">
                         <item n="14">When is an Editor like a coachman driving a restive tandem?
                             When he cannot compose the Leader.</item>
@@ -1590,10 +1446,8 @@
                     <p>Rebus. Doldrum</p>
                 </div>
                 <div type="publication_info">
-                    <note>This publication information does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>The Young Idea</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI10.14">The Young Idea</ref></head>
                     <p>Published at the office No. 1 Port Street, "<mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" every
                         Saturday. Contributions solicited<lb/>Saturday 13 February, 1858.</p>
@@ -1607,12 +1461,10 @@
                     February 20th 1858<lb/>No. 11</head>
                 <cb n="1"/>
                 <div type="article">
-                    <note>This article does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <p>Rumours are now flying about, purporting to remove us from our present snug
-                        anchorage at <placeName ref="placeography.xml#Kolkata">Calcutta</placeName>
-                        for some time; that we are destined to convey Lady <persName
+
+                    <p><ref target="TYI_Variants.xml#TYI11.01">Rumours are now flying about,
+                            purporting to remove us from our present snug anchorage at Calcutta for
+                            some time;</ref> that we are destined to convey Lady <persName
                             ref="personography.xml#Charlotte_Canning">Canning</persName> to
                             <placeName ref="placeography.xml#Chennai">Madras</placeName>, and from
                         these, it is said, we steer to <placeName ref="placeography.xml#Rangoon"
@@ -1640,11 +1492,9 @@
                 </div>
 
                 <div type="previously_published">
-                    <note>This article appears in the same position in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>"Origin of the Name of <placeName ref="placeography.xml#Delhi"
-                            >Delhi</placeName></head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.02">"Origin of the Name of
+                        Delhi</ref></head>
                     <p>The city of <placeName ref="placeography.xml#Delhi">Delhi</placeName>
                         originally bore the name of Indraprasthe, and was the royal capital of the
                         aboriginal Pandoos. After falling into decay and lying desolate for a period
@@ -1668,11 +1518,8 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears as the first contribution to issue eleven in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to
-                        "J."</note>
-                    <head>Our Naval Brigade</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.03">Our Naval Brigade</ref></head>
                     <p>We have as yet said little or nothing about the movements of our Naval
                         Brigade up the country, being ourselves very much in the dark concerning
                         them. But such information as we possess, we are happy to communicate to our
@@ -1730,12 +1577,9 @@
                         indebted to them for making it public in our</p>
                 </div>
                 <div type="cricket_report">
-                    <note>This article appears in the same position in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "J." Bampfield
-                        also includes an advertisement for a performance at the Calcutta Lyric
-                        Theatre on February 25, 1858 that is not in this 1867 edition.</note>
-                    <head>Sporting Intelligence<lb/>Cricket</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.04">Sporting
+                            Intelligence<lb/>Cricket</ref></head>
                     <p>On Wednesday the 17th Inst. a match took place on the ground near <placeName
                             ref="placeography.xml#Ochterlony_Monument">the <choice>
                                 <orig>Ochterbury</orig>
@@ -2014,12 +1858,8 @@
                 </div>
 
                 <div type="pun">
-                    <note>This article appears as the sixth contribution to issue eleven in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to "W.,"
-                        which suggests it was written by <persName ref="personography.xml#Wilkinson"
-                            >Wilkinson</persName></note>
-                    <head>"The Great Mo-gul"</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.05">"The Great Mo-gul"</ref></head>
                     <p>This remarkable species of gull has lately been captured at <placeName
                             ref="placeography.xml#Delhi">Delhi</placeName> where it has existed for
                         several centuries It is the largest gull known, as well as the most
@@ -2033,10 +1873,9 @@
                 </div>
 
                 <div type="naval_intelligence">
-                    <note>This article does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>Naval and Military Intelligence</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.06">Naval and Military
+                            Intelligence</ref></head>
                     <list type="simple">
                         <item>On Monday the 15th Inst. H.M. Steam troop ship "Megoera" after being
                             inspected by Commodore R.B. <persName ref="personography.xml#Watson"
@@ -2063,11 +1902,9 @@
                     </list>
                 </div>
                 <div type="article">
-                    <note>This article does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>The "<placeName ref="placeography.xml#Kolkata">Calcutta</placeName>
-                        Englishman" convicted of a Pun.</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.07">The "Calcutta Englishman"
+                            convicted of a Pun.</ref></head>
                     <p>The <placeName ref="placeography.xml#Kolkata">Calcutta</placeName> Englishman
                         has actually been delivered of a pun. Hear it! Oh ye punsters of the earth,
                         and say what shall be done to our poor shore going contemporary. Describing
@@ -2083,11 +1920,8 @@
                 </div>
 
                 <div type="epitome">
-                    <note>This epitome appears as the fifth contribution to issue eleven in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield does not provide the author's
-                        initial.</note>
-                    <head>Epitome</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.08">Epitome</ref></head>
                     <list type="simple">
                         <item>On Monday night the annual Ball given by the <placeName
                                 ref="placeography.xml#Kolkata">Calcutta</placeName> Cricket Club
@@ -2106,29 +1940,18 @@
                     </list>
                 </div>
                 <div type="pun">
-                    <note>This article appears as the eighth contribution to issue eleven in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to
-                        "B."</note>
-                    <p>"Paws for a reply" as the cat said when she scratched the dog for barking at
-                        her.</p>
+
+                    <p><ref target="TYI_Variants.xml#TYI11.09">"Paws for a reply" as the cat said
+                            when she scratched the dog for barking at her.</ref></p>
                     <p>"There are more ways out of the woods than one," as the rum said when saw a
                         spile coming through the cask.</p>
                     <p>Maxim for a <placeName ref="placeography.xml#Kolkata">Calcutta</placeName>
-                        Storekeeper. "If you wish to go up in the world, stick well to your
-                            go-down."<note>From McArthur's Appendix: "Godown is the store or place
-                            of Business"</note></p>
+                        Storekeeper. <ref target="TYI_Variants.xml#TYIappendix">"If you wish to go
+                            up in the world, stick well to your go-down.</ref></p>
                 </div>
                 <div type="conundrum">
-                    <note>One of these conundrums (baker) appears with an answer as the first
-                        contribution to issue eleven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName>. The conundrum about bottles broken appears with an
-                        answer as the fourth contribution to issue twelve. Bampfield attributes that
-                        conundrum to "L."</note>
-                    <head>Conundrums</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.10">Conundrums</ref></head>
                     <list type="ordered">
                         <item n="19">When does a baker most want materials for his trade?</item>
                         <item n="20">When does a good idea resemble the bone of a fowl.</item>
@@ -2137,11 +1960,8 @@
                     </list>
                 </div>
                 <div type="rebus">
-                    <note>This article appears as the seventh contribution to issue eleven in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea, but it is called a "charade." Bampfield
-                        attributes the contribution to "L."</note>
-                    <head>Rebus &amp;c.</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.11">Rebus &amp;c.</ref></head>
                     <lg n="I">
                         <l>The sheep &amp; Ox, in concert met</l>
                         <l>To try their voices reckoned</l>
@@ -2158,11 +1978,9 @@
 
                 </div>
                 <div type="conundrum">
-                    <note>These conundrums appear as the eighth contribution to issue nine in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield does not provide the author's
-                        initial.</note>
-                    <head>Unanswered from last week</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.12">Unanswered from last
+                        week</ref></head>
                     <list type="ordered">
                         <item n="15"> What is the slight difference between a tiger's foot and a
                             semi-colon? The one shows its pause at the end of its clause, and the
@@ -2180,10 +1998,8 @@
                 </div>
 
                 <div type="publication_info">
-                    <note>This publication information appears as the eleventh contribution to issue
-                        eleven in <persName ref="personography.xml#J_W_L_Bampfield"
-                            >Bampfield</persName>'s extracts from The Young Idea.</note>
-                    <head>The Young Idea</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI11.13">The Young Idea</ref></head>
                     <p>Published at the office No. 1 Port Street, "<mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" every
                         Saturday. contributions thankfully received<lb/>Saturday 20 February,
@@ -2198,15 +2014,12 @@
                     27th 1858<lb/>No. 12</head>
                 <cb n="1"/>
                 <div type="article">
-                    <note>This article appears in the same position in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
-                    <p>The Past Week has been extraordinarily productive of events of interest &amp;
-                        amusement, and we feel bound to afford all the space we can for the same The
-                        Rajah's dinner, &amp; marriage of his juvenile granddaughter, the Cricket
-                        match between our Club &amp; the Squadron and our defeat; the success of our
+
+                    <p><ref target="TYI_Variants.xml#TYI12.01">The Past Week has been
+                            extraordinarily productive of events of interest &amp; amusement</ref>,
+                        and we feel bound to afford all the space we can for the same The Rajah's
+                        dinner, &amp; marriage of his juvenile granddaughter, the Cricket match
+                        between our Club &amp; the Squadron and our defeat; the success of our
                         Amateurs in their performance on Thursday night; all afford a supply of
                         intelligence upon the requisite space for which we are loath to encroach. A
                         few days more and we shall look back upon <placeName
@@ -2226,20 +2039,15 @@
                 </div>
 
                 <div type="article">
-                    <note>This article appears as the third contribution to issue thirteen in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to
-                        "McA," which suggests it was written by <persName
-                            ref="personography.xml#A_D_McArthur">McArthur</persName></note>
-                    <head>Dinner Party at Cossipore &amp; Marriage of the Granddaughter of <persName
-                            ref="personography.xml#Behadoor"/>Rajah Behadoor</head>
-                    <p>On Monday night the 22d Inst. of the <persName
-                            ref="personography.xml#Behadoor">Rajah Budderaunth Roy
-                            Behadoor</persName> celebrated the marriage of his Granddaughter, with a
-                        grand dinner party fireworks and a nautch. For the information of those of
-                        our readers who were unfortunately unable to go, we will attempt a slight
-                        description of the events of the evening, altho' we feel that our pen will
-                        fail to convey to the <choice>
+
+                    <head><ref target="TYI_Variants.xml#TYI12.02">Dinner Party at Cossipore &amp;
+                            Marriage of the Granddaughter of Rajah Behadoor</ref></head>
+                    <p>On Monday night the 22d Inst. of the Rajah Budderaunth Roy Behadoor
+                        celebrated the marriage of his Granddaughter, with a grand dinner party
+                        fireworks and a nautch. For the information of those of our readers who were
+                        unfortunately unable to go, we will attempt a slight description of the
+                        events of the evening, altho' we feel that our pen will fail to convey to
+                        the <choice>
                             <orig>edea</orig>
                             <reg>reader</reg>
                         </choice> an adequate impression to that which was the result of witnessing
@@ -2468,12 +2276,10 @@
 
 
                 <div type="cricket_report">
-                    <note>This article does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>Sporting Intelligence<lb/>Cricket<lb/>Match between the <mi:shipName
-                            ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName> &amp;
-                        Squadron</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI12.03">Sporting
+                            Intelligence<lb/>Cricket<lb/>Match between the Chesapeake &amp;
+                            Squadron</ref></head>
                     <p>On Thursday afternoon a Cricket Match took place between the "<mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" eleven, and
                         the Squadron eleven, which resulted we are sorry to say in the defeat of the
@@ -2657,225 +2463,22 @@
                 </div>
 
                 <div type="play_review">
-                    <note>This play review does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Instead, the following review (attributed to McArthur)
-                        appears as the second contribution to issue twelve:<lb/>
-                        <p>The Theatre</p>
-                        <p>The "<placeName ref="placeography.xml#Kolkata">Calcutta</placeName> Lyric
-                            Theatre," as it is grandly called is but a poor building, constructed
-                            entirely of bamboos &amp; palm-leaf staffing. Standing as it does, in
-                            the Esplanade, under the shadow of the Ochterbury Monument, &amp; in
-                            sight of the Government House, &amp; other magnificent buildings, it
-                            looks a deal more like some country <del>farm</del> barn or temporary
-                            shed, <gap reason="indecipherable"/> a permanent temple of the Muses.=
-                            We should conclude, &amp; rightly, that the <placeName
-                                ref="placeography.xml#Kolkata">Calcutta</placeName> people are not
-                            admitted to public Evening amusements, &amp; are fonder of resting at
-                            home after <pb n="BETYI1122" facs="BETYI1122"/><fw>"The Young Idea." HMS
-                                "Chesapeake" <placeName ref="placeography.xml#Kolkata"
-                                    >Calcutta</placeName>
-                                <choice>
-                                    <abbr>Feb</abbr>
-                                    <expan>February</expan>
-                                </choice> 27 1858.=</fw><cb n="1"/>the business of the day than of
-                            venturing abroad to the venue of histrionic efforts.</p>
-                        <p>Taking this circumstance into consideration, we were glad to see so fair
-                            an audience assembled together on Thursday evening to witness the first
-                            performance of the "Sailors from the <mi:shipName
-                                ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>." The
-                            Theatre, on entering is far from unpleasing in appearance; the
-                            decorations of painted canvas, assisted by the lighted lamps, gave to it
-                            an air of decided taste and beauty, which on the present occasion was
-                            heightened by the female faces, dark &amp; fair, who occupied the front
-                            circle of raised seats.= The little semicircular box was chiefly filled
-                            by Naval Officers from the <mi:shipName ref="shipography.xml#Chesapeake"
-                                >Chesapeake</mi:shipName>, and a select number of our own
-                            Bluejackets. The Orchestra contained the <mi:shipName
-                                ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName> band,
-                            which if somewhat too noisy from the predominance of brass instruments,
-                            at least contributed much to the pleasure of the Evening. The "Royal"
-                            Box, in the center of the raised seats, was on this occasion occupied by
-                            Commodore <persName ref="personography.xml#Watson">Watson</persName>,
-                            &amp; other patrons of the entertainment, on whose entrance the audience
-                            rose, the Band<cb n="2"/> playing our National Anthem.</p>
-                        <p>But we must now speak of our Actors &amp; give the Dramatis Personae,
-                            &amp; the names of those who sustained them.=</p>
-                        <lg n="The Seven Clerks Dramatis Personae">
-                            <l>"The Seven Clerks."</l>
-                            <l>(or the Thief &amp; the Denouncer)</l>
 
-                            <l>Claude Darnaud (the Miser) <persName
-                                    ref="personography.xml#George_Horner">Geo. Horner</persName></l>
-                            <l>Count Adolphe <persName ref="personography.xml#Charles_Stewart">Chas.
-                                    Stewart</persName></l>
-                            <l>Gustavus (his friend) <persName ref="personography.xml#Thomas_Walsh"
-                                    >Thos. Walshe</persName></l>
-                            <l>Larosse (a Merchant) <persName
-                                    ref="personography.xml#Robert_Wilkinson">Robt.
-                                    Wilkinson</persName></l>
-                            <l>Simon Siggel, the Miser's Tenant <persName
-                                    ref="personography.xml#Henry_Underhill">Henry
-                                    Underhill</persName></l>
-                            <l>Hans, a Dutchman <persName ref="personography.xml#John_Welsh">Jno.
-                                    Walshe</persName></l>
-                            <l>Matteo, an Italian (robbers) <persName
-                                    ref="personography.xml#Henry_Montagu">Henry
-                                Montagu</persName></l>
-                            <l>Jno. Brown, an Englishman <persName
-                                    ref="personography.xml#Isaac_Wright">Isaac Wright</persName></l>
-                            <l>Pierre <persName ref="personography.xml#Henry_Hamilton">Henry
-                                    Hamilton</persName></l>
-                            <l>Antoine <persName ref="personography.xml#James_Brown">Jas.
-                                    Browne</persName></l>
-                            <l>Victorine, the Miser's daughter <persName
-                                    ref="personography.xml#William_Connell">Miss
-                                Connell</persName></l>
-
-                            <l>Peasantry, &amp;c &amp;c.</l>
-                        </lg>
-                        <lg>
-                            <l> Nautical Hornpipe <persName ref="personography.xml#Thomas_Walsh"
-                                    >Thomas Walshe</persName></l>
-                            <l>Comic Duet, &amp;c <persName ref="personography.xml#Henry_Underhill"
-                                    >Henry Underhill</persName> and <persName
-                                    ref="personography.xml#William_Connell">William
-                                    Connell</persName></l>
-                        </lg>
-                        <lg n="Bombastes Furioso Dramatis Personae">
-                            <l>"Bombastes Furioso"</l>
-
-                            <l>Artaxominus, the King <persName ref="personography.xml#Henry_Montagu"
-                                    >Henry Montagu</persName></l>
-                            <l>Fusbas, Prime Minister <persName
-                                    ref="personography.xml#Charles_Stewart">Charles
-                                    Stewart</persName></l>
-                            <l>General Bombastes <persName ref="personography.xml#Henry_Underhill"
-                                    >Henry Underhill</persName></l>
-                            <l> Distaffina <persName ref="personography.xml#William_Connell">Miss
-                                    Connell</persName></l>
-                        </lg>
-                        <p>The "Seven Clerks", a legend of Marseilles, was admirably revised to
-                            develop the various talents of the actors.= <persName
-                                ref="personography.xml#George_Horner">Geo Horner</persName>, as the
-                            old Miser, sustained his tragic part most admirably, while St <persName
-                                ref="personography.xml#Henry_Underhill">Underhill</persName>, as
-                            Simon Siggel, in the hunger which he so well pourtrayed, not only called
-                            down roars of laughter from the house, but produced<pb n="BETYI1123"
-                                facs="BETYI1124"/><fw>"The Young Idea." HMS "Chesapeake" <placeName
-                                    ref="placeography.xml#Kolkata">Calcutta</placeName>
-                                <choice>
-                                    <abbr>Feb</abbr>
-                                    <expan>February</expan>
-                                </choice> 27 1858.=</fw><cb n="1"/> a sympathetic feeling, which we
-                            were under the necessity of allaying directly the Theatre closed.=
-                                <persName ref="personography.xml#John_Welsh">J. Walshe</persName>,
-                            as the Dutch Robber, was very clever, &amp; <persName
-                                ref="personography.xml#Isaac_Wright">Isaac Wright</persName> as the
-                            English robber from S. Giles, was no less droll. Great credit also must
-                            be given to <choice>
-                                <abbr>Chs</abbr>
-                                <expan>Charles</expan>
-                            </choice> Stewart, &amp; <persName
-                                ref="personography.xml#William_Connell"><choice>
-                                    <abbr>Wm</abbr>
-                                    <expan>William</expan>
-                                </choice> Connell</persName>, who maintained the 2 characters around
-                            which the others centered, namely those of Adolphe, &amp; Victorine.=
-                                <persName ref="personography.xml#Charles_Stewart">Stewart</persName>
-                            spoke nobly &amp; manfully, &amp; <persName
-                                ref="personography.xml#William_Connell">Connell</persName> looked
-                            and spoke the woman's part, with a grace &amp; tenderness we cd scarcely
-                            expect. The various tableaux, &amp; short strains of music, with which
-                            the Drama is interspersed, were very pleasing.</p>
-                        <p>The Nautical Hornpipe, by <persName ref="personography.xml#Thomas_Walsh"><choice>
-                                    <abbr>Thos</abbr>
-                                    <expan>Thomas</expan>
-                                </choice> Walshe</persName>, that followed, was certainly not so
-                            good as one cd hoipe to see from H.M.S. "<mi:shipName
-                                ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" &amp; we <choice>
-                                <expan>should</expan>
-                                <abbr>shd</abbr>
-                            </choice> have preferred the promised "Comic Duet" to the Solo song
-                            given us by Wm Connell:-but the <placeName
-                                ref="placeography.xml#Kolkata">Calcutta</placeName> audience were
-                            well pleased, both with the dance &amp; song.</p>
-                        <p>In "Bombastes Furioso," we will content ourselves by saying that all
-                            sustained their parts admirably, &amp; that roars of laughter resounded
-                            thro' the house. As theis was the first time that our <mi:shipName
-                                ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName> Amateurs
-                            have appeared before a public audience, we must say that the highest
-                            credit is due.=</p>
-                        <p>We close our notice by publishing the excellent Prologue, by <persName
-                                ref="personography.xml#Henry_Montagu">Henry Montagu</persName>,
-                            which was written expressly for this occasion, &amp; spoken by him
-                            before the Curtain rose.=</p>
-                        <bibl><author>McA.</author></bibl>
-                        <cb n="2"/>
-                        <lg>
-                            <l>Prologue- By <bibl><author><persName
-                                            ref="personography.xml#Henry_Montagu">Hy
-                                            Montagu</persName></author></bibl></l>
-                            <l>Friends, Patrons of the "Thespian" art; I stand,</l>
-                            <l> as spokesman for our little stage-struck band;</l>
-                            <l>I come kind friends, respectfully to pray</l>
-                            <l>Indulgent smiles for this our little play</l>
-                            <l>Think not that we aspire to win a "Name"</l>
-                            <l>In the high path of Histrionic fame:</l>
-                            <l>Or that misled by fierce dramatic rage,</l>
-                            <l>We hope like "Lear" to strut upon the stage:</l>
-                            <l>No 'tis the aim of our most <del>humble</del> modest Muse</l>
-                            <l>To please our patrons, and ourselves amuse, </l>
-                            <l>Just this, no more, as Amateurs we come</l>
-                            <l>Let this avowal strike the critics dumb.</l>
-                            <l>Tonight, then, if our humble skill avails</l>
-                            <l>We represent a legent of "Marseilles" </l>
-                            <l>"Bombastes," next with love and fame elate,</l>
-                            <l>Shall claim your laughter and your mirth create:</l>
-                            <l>Joy, pathos, fun, e'en murder's sanguine strain</l>
-                            <l>Mingle and follow in our motley train</l>
-                            <l>Thus at the "Clerk's" sad fate, droops pity's eye,</l>
-                            <l>Yet "Simon's" suppers, funds of mirth supply,</l>
-                            <l>With horror "Darnaud's vices now regard</l>
-                            <l>And yield to Adolpho's love its due reward</l>
-                            <l>Then comes "Bombastes" may he please you all</l>
-                            <l>And may you laugh until the curtain fall</l>
-                            <l>Well, then, my friends, scare not our sailor's muse</l>
-                            <l>Nor to our first trial, applause refuse,</l>
-                            <l>So shall our tread each moment firmer grow</l>
-                            <l>And the dramatic fire more warmly glow.</l>
-                            <l>Encourage this our unfledg'd wings first flight</l>
-                            <l>We'll strive and please you more another night,</l>
-                            <l>With grateful pride, I cast around my gaze</l>
-                            <l>And see a host of varied beauty blaze</l>
-                            <l>Soft beaming eyes, sweet lips, in smiles arrayed</l>
-                            <l>Which might have well Herculean toils repaid </l>
-                            <l>Their praise we covet, may we win the meed</l>
-                            <l>Our labor's light, the guerdon great indeed</l>
-                            <l>But hark! (Bell rings) our little troop impatient rage,</l>
-                            <l>Anxious to "strut their hour" upon the stage.</l>
-                            <l>And now my friends with Avon's Bard, I pray</l>
-                            <l>Gently you'll judge, kindly you'll hear our play.</l>
-                        </lg>
-                    </note>
-                    <head>The Theatre</head>
+                    <head><ref target="TYI_Variants.xml#TYI12.04">The Theatre</ref></head>
                     <p>On Thursday evening the Amateurs of HMS <mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName> performed for
                         the first time at the <placeName ref="placeography.xml#Kolkata"
-                            >Calcutta</placeName> Lyric Theatre. The Drama performed was "The Seven
-                        Clerks" or the Thief &amp; the Denouncer.<note>You can find the full text of
-                            The Seven Clerks at
-                            http://victorian.worc.ac.uk/modx/assets/docs/pdf/Vol40ixSeven.pdf</note></p>
+                            >Calcutta</placeName> Lyric Theatre. The Drama performed was <ref
+                            target="http://victorian.worc.ac.uk/modx/assets/docs/pdf/Vol40ixSeven.pdf"
+                            >The Seven Clerks" or the Thief &amp; the Denouncer.</ref></p>
                     <p>We cannot speak too highly of the creditable manner in which the performers
                         acted, although a shore going paper has been pleased to insult them, and to
-                        cast a baneful shadow over their efforts to please. We only regret that such
-                        a splenetic effusion should have ever been permitted to appear in print; the
-                        more especially as we consider that jealousy, that greeneyed monster:-was
-                        the cause of the unwarrantable attack upon the labours of our men.<note>for
-                            more on the attack from the shore paper, see Isbell, Mary "When Ditchers
-                            and Jack Tars Collide: Benefit Theatricals at the Calcutta Lyric Theatre
-                            in the Wake of the Indian Mutiny." Victorian Literature and Culture 42
-                            (2014): 407-423.</note></p>
+                        cast a baneful shadow over their efforts to please. <ref
+                            target="http://dx.doi.org/10.1017/S1060150314000060">We only regret that
+                            such a splenetic effusion should have ever been permitted to appear in
+                            print; the more especially as we consider that jealousy, that greeneyed
+                            monster: was the cause of the unwarrantable attack upon the labours of
+                            our men.</ref></p>
                     <p>The purely acrimonious composition and illiberal manner in which the several
                         "dramatis personae" are pulled to pieces could not have proceeded from any
                         other source, than that of<cb n="2"/> envy and vexation at the successful
@@ -2907,11 +2510,8 @@
                         whole passed off most satisfactorily.</p>
                 </div>
                 <div type="naval_intelligence">
-                    <note>Some of the items in this report of naval intelligence appear as the fifth
-                        contribution to issue twelve in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield does not provide the author's initial.</note>
-                    <head>Naval Intelligence</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI12.05">Naval Intelligence</ref></head>
                     <list type="simple">
                         <item>H.M. Gunboat Roebuck arrived on Wednesday afternoon bringing <persName
                                 ref="personography.xml#Parkin">Commander G. <gap/>.
@@ -2928,18 +2528,14 @@
                     </list>
                 </div>
                 <div type="pun">
-                    <note>This pun appears as the seventh contribution to issue twelve in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "B."</note>
-                    <p>"Can I offer you any aid"? said a polite gentleman to a lady who was overcome
-                        by the heat, "O! yes, Sir, if you please," replied the fainting beauty "a
-                        little lemon-ade."</p>
+
+                    <p><ref target="TYI_Variants.xml#TYI12.06">"Can I offer you any aid"?</ref> said
+                        a polite gentleman to a lady who was overcome by the heat, "O! yes, Sir, if
+                        you please," replied the fainting beauty "a little lemon-ade."</p>
                 </div>
                 <div type="conundrum">
-                    <note>These conundrums do not appear as questions in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea, but they do appear later with answers.</note>
-                    <head>Conundrums</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI12.07">Conundrums</ref></head>
                     <list type="ordered">
                         <item n="22">When the cook lets the salad fall into the fireplace, what
                             great saracen hero, would you be reminded of?</item>
@@ -2947,11 +2543,8 @@
                     </list>
                 </div>
                 <div type="conundrum">
-                    <note>This conundrum appears as the fourth contribution to issue twelve in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield attributes the contribution to
-                        "L."</note>
-                    <head>Answer to Conundrums</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI12.08">Answer to Conundrums</ref></head>
                     <list type="ordered">
                         <item n="21">Supposing a number of bottles were broken by the fall of a
                             tree, what ejaculation would they give vent to?<lb/>0 Bottles broken by
@@ -2960,20 +2553,14 @@
                     </list>
                 </div>
                 <div type="rebus">
-                    <note>This rebus does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>Unanswered from last Week</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI12.09">Unanswered from last
+                        Week</ref></head>
                     <p>Rebus. Ba boo</p>
                 </div>
                 <div type="conundrum">
-                    <note>Only one of these conundrums (the baker kneads) appears as the first
-                        contribution to issue eleven in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
-                    <head>Conundrums</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI12.10">Conundrums</ref></head>
                     <list type="ordered">
                         <item n="19">When does a baker most want materials for his trade? When he
                             kneads (needs) his dough.</item>
@@ -2982,10 +2569,8 @@
                     </list>
                 </div>
                 <div type="publication_info">
-                    <note>This publication information does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>The Young Idea</head>
+
+                    <head><ref target="TYI_Variants.xml#TYI12.11">The Young Idea</ref></head>
                     <p>Published at the office No. 1 Port Street<lb/>"<mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" every
                         Saturday.<lb/> contributions solicited<lb/>Saturday 27 February, 1858.</p>
@@ -2998,21 +2583,18 @@
             <div n="13" type="issue">
                 <head>"The Young Idea"<lb/><mi:shipName ref="shipography.xml#Chesapeake"
                         >Chesapeake</mi:shipName> Chronicle and Weekly Journal<lb/>Saturday March
-                    6th 1858<lb/>No. 12</head>
+                    6th 1858<lb/>No. 13</head>
                 <cb n="1"/>
                 <div type="article">
-                    <note>This article appears in the same position in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
-                    <p>Once more we thread our pathless track across the waters of the Bay of
-                        Bengal; once more our gallant craft obeys the impulse of her wondrous motive
-                        power. Once more the fresh sea breezes fan our heated brows, and we feel
-                        their invigorating influence; again in the quiet routine of a sea life we
-                        can sit down to peruse our latest intelligence from home, to dream over the
-                        past, to form conjectures on the future; again we partake of the pleasures
-                        of quiescence, after the excitement attendant upon our stay at <placeName
+
+                    <p><ref target="TYI_Variants.xml#TYI13.01">Once more we thread our pathless
+                            track across the waters of the Bay of Bengal; once more our gallant
+                            craft obeys the impulse of her wondrous motive power.</ref> Once more
+                        the fresh sea breezes fan our heated brows, and we feel their invigorating
+                        influence; again in the quiet routine of a sea life we can sit down to
+                        peruse our latest intelligence from home, to dream over the past, to form
+                        conjectures on the future; again we partake of the pleasures of quiescence,
+                        after the excitement attendant upon our stay at <placeName
                             ref="placeography.xml#Kolkata">Calcutta</placeName>.</p>
                     <p>We can now look back and ponder upon all we have seen and done, fixing the
                         past scenes and events firm<cb n="2"/> ly in our memories, in that handy
@@ -3038,106 +2620,119 @@
                 </div>
 
                 <div type="letter">
-                    <note>This letter appears in the same position in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "J."</note>
-                    <head>To the Editor of "The Young Idea"</head>
-                    <p>Dear Sir.<lb/> Accept the congratulations of a friend on the completion of
-                        your 12th number and the inauguration of your 13th.<lb/> The "Young Idea"
-                        has now passed triumphant thro' those various dangers to which infancy is
-                        subject:- it is in its "teens", and its growing strength and vigour may give
-                        good hope that it is not intended to come to an early end.<lb/> Breathing
-                        manly and generous sentiments, enriched with an undercurrent of quiet
-                        humour, free from all those personalities, which at first were dreaded,
-                        faithfully re<cb n="2"/>cording the thoughts and actions of those on board
-                        the "<mi:shipName ref="shipography.xml#Chesapeake"
-                        >Chesapeake</mi:shipName>"<lb/> "The Young Idea" is now established amongst
-                        us as a welcome weekly visitor, and as such I trust it may appear before us
-                        each Saturday, and only cease its visits with the return of our floating
-                        home to England, and the separation, and dispersion of the "<mi:shipName
-                            ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>s"<lb/> Believe
-                        me<lb/> Dear Sir<lb/> Yours Truly<lb/>
-                        <hi rend="underlined">"Shipmate"</hi><lb/>
-                        <mi:shipName ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName><lb/>
-                        4 March 1858.<lb/> Ed. We feel highly flattered, and can only say that our
-                        success is our reward.</p>
+
+                    <head><ref target="TYI_Variants.xml#TYI13.02">To the Editor of "The Young
+                            Idea"</ref></head>
+                    <floatingText>
+                        <body>
+                            <opener>Dear Sir.</opener>
+                            <p>Accept the congratulations of a friend on the completion of your 12th
+                                number and the inauguration of your 13th.</p>
+                            <p>The "Young Idea" has now passed triumphant thro' those various
+                                dangers to which infancy is subject:- it is in its "teens", and its
+                                growing strength and vigour may give good hope that it is not
+                                intended to come to an early end.</p>
+                            <p>Breathing manly and generous sentiments, enriched with an
+                                undercurrent of quiet humour, free from all those personalities,
+                                which at first were dreaded, faithfully re<cb n="2"/>cording the
+                                thoughts and actions of those on board the "<mi:shipName
+                                    ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>"</p>
+                            <p>"The Young Idea" is now established amongst us as a welcome weekly
+                                visitor, and as such I trust it may appear before us each Saturday,
+                                and only cease its visits with the return of our floating home to
+                                England, and the separation, and dispersion of the "<mi:shipName
+                                    ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>s"</p>
+                            <closer>Believe me<lb/> Dear Sir<lb/> Yours Truly</closer>
+                            <signed><hi rend="underlined">"Shipmate"</hi></signed>
+                            <dateline><mi:shipName ref="shipography.xml#Chesapeake"
+                                    >Chesapeake</mi:shipName><lb/> 4 March 1858.</dateline>
+                        </body>
+                    </floatingText>
+                    <p>Ed. We feel highly flattered, and can only say that our success is our
+                        reward.</p>
 
                 </div>
 
 
                 <div type="letter">
-                    <note>This letter appears as the third contribution to issue twelve in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea (a completely different issue). Bampfield attributes the
-                        contribution to "W," which suggests it was written by <persName
-                            ref="personography.xml#Wilkinson">Wilkinson</persName></note>
-                    <head>The <mi:shipName ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>
-                        Brigade</head>
-                    <p>To the Editor of the "Young Idea"<lb/>Dear Sir<lb/> Much disappointment has
-                        been caused by your passing over with so slight a mention, what we have
-                        considered one of the principal events in our nautical existence; namely the
-                        landing of our Bluejackets, and Marines on the morning of the 19th February,
-                        for exercise on the <placeName ref="placeography.xml#Kolkata"
-                            >Calcutta</placeName> Esplanade. All performed their part so well, all
-                        returned to the ship so pleased at their own performance, that I hope, Mr.
-                        Editor you will not consider me too obtrusive if I beg for a little longer
-                        notice. Everybody knows that the soul of an Editor is everywhere present and
-                        that he sees everything and that nothing can escape his keep observation</p>
-                    <p>I will not stop to comment on the glass of medicinal liquid which was served
-                        out to us on deck before we started, and which I think they called Quinine
-                        Wine, and will only suggest to the Doctor that most of us thought a little
-                        drop of Rum (neat) would have comforted our inner man much more to our
-                            satisfaction.<pb n="TYI1133" facs="TYI1133"/><fw>"The Young Idea"
-                            Saturday 6<hi rend="superscript">th</hi>March 1858.</fw><cb n="1"/></p>
-                    <p>Our boats were quickly manned, and no time was lost in reaching the shore,
-                        and scrambling up the river's bank. It was but just daylight when we were
-                        drawn up in order, and commenced our march along the river side. Our
-                        pioneers led the way armed with crowbars, and shovels, under the guidance of
-                        two Engineers, and showed that they would be as serviceable in the trenches
-                        as in the stoke hole: then came our lively band, which made us step out like
-                        men, next the company of Marines (Artillery and Light Infantry), then the
-                        Bluejackets in their several Divisions:-like men, I say for however we may
-                        admire the mechanical march of drilled soldiers, I hope Bluejackets will
-                        always have the free use of their arms and legs.</p>
-                    <p>When we arrived on the field of action, our Artillery Companies separated and
-                        marched to Fort William to bring out their Field pieces, while we remained
-                        exercising in the field: it would weary your readers, Mr. Editor to describe
-                        the whole course of our proceedings, how we prepared to resist cavalry,
-                        formed into square &amp;c-&amp;c:- suffice it to say that great satisfaction
-                        was caused to ourselves, and great wonderment to the native niggers, and we
-                        only wished that a few hundred Sepoys were there to practice upon in real
-                        earnest. As for the Marine Light Infantry they went right away all over the
-                            <cb n="2"/>field and I did not wonder at their having a jolly good run -
-                        skirmishing they called it - after being so long penned up on board
-                        ship.</p>
-                    <p>The "bang, bang", of our field pieces, now drew the attention of all
-                            <placeName ref="placeography.xml#Kolkata">Calcutta</placeName> upon us,
-                        and the fashionable ladies and gentlemen who were out riding, came flocking
-                        round us to see so novel a spectacle. The artillery did as beautifully as
-                        all the rest of us, and even the small guns worked by small boys, made a
-                        very considerable noise on this eventful occasion. But everything must have
-                        an end, Mr Editor, so had our field practice, &amp; so also must my letter.
-                        See us again drawn up in the line of march, again the lively strains of the
-                        "Cheasapeake's" band float over the <placeName
-                            ref="placeography.xml#Kolkata">Calcutta</placeName> Esplanade, &amp;
-                        crowds of Hindoo niggers flock round to see the Regiment of British Tars
-                        returning to their "Wooden Walls"</p>
-                    <p>It would be unjust not to mention how these wooden walls were guarded in our
-                        absence, and how gallantly the Idlers on board prepared to repel boarders in
-                        case of invasion:- Those who saw the ship's tailor, doing sentry's duty,
-                        with his shears laid aside, and his cutlass girded round him, saw what is
-                        not seen every day in Her Majesty's Service.<lb/>Believe me,<lb/> Dear Sir,<lb/>
-                        <hi rend="underlined">Yours Respectfully</hi><lb/>
-                            Bluejacket<lb/><mi:shipName ref="shipography.xml#Chesapeake"
-                            >Chesapeake</mi:shipName><lb/>5 March/58</p>
+                    <head><ref target="TYI_Variants.xml#TYI13.03">The Chesapeake
+                        Brigade</ref></head>
+                    <floatingText>
+                        <body>
+                            <opener>To the Editor of the "Young Idea"<lb/>Dear Sir</opener>
+                            <p>Much disappointment has been caused by your passing over with so
+                                slight a mention, what we have considered one of the principal
+                                events in our nautical existence; namely the landing of our
+                                Bluejackets, and Marines on the morning of the 19th February, for
+                                exercise on the <placeName ref="placeography.xml#Kolkata"
+                                    >Calcutta</placeName> Esplanade. All performed their part so
+                                well, all returned to the ship so pleased at their own performance,
+                                that I hope, Mr. Editor you will not consider me too obtrusive if I
+                                beg for a little longer notice. Everybody knows that the soul of an
+                                Editor is everywhere present and that he sees everything and that
+                                nothing can escape his keep observation</p>
+                            <p>I will not stop to comment on the glass of medicinal liquid which was
+                                served out to us on deck before we started, and which I think they
+                                called Quinine Wine, and will only suggest to the Doctor that most
+                                of us thought a little drop of Rum (neat) would have comforted our
+                                inner man much more to our satisfaction.<pb n="TYI1133"
+                                    facs="TYI1133"/><fw>"The Young Idea" Saturday 6<hi
+                                        rend="superscript">th</hi>March 1858.</fw><cb n="1"/></p>
+                            <p>Our boats were quickly manned, and no time was lost in reaching the
+                                shore, and scrambling up the river's bank. It was but just daylight
+                                when we were drawn up in order, and commenced our march along the
+                                river side. Our pioneers led the way armed with crowbars, and
+                                shovels, under the guidance of two Engineers, and showed that they
+                                would be as serviceable in the trenches as in the stoke hole: then
+                                came our lively band, which made us step out like men, next the
+                                company of Marines (Artillery and Light Infantry), then the
+                                Bluejackets in their several Divisions:-like men, I say for however
+                                we may admire the mechanical march of drilled soldiers, I hope
+                                Bluejackets will always have the free use of their arms and
+                                legs.</p>
+                            <p>When we arrived on the field of action, our Artillery Companies
+                                separated and marched to Fort William to bring out their Field
+                                pieces, while we remained exercising in the field: it would weary
+                                your readers, Mr. Editor to describe the whole course of our
+                                proceedings, how we prepared to resist cavalry, formed into square
+                                &amp;c-&amp;c:- suffice it to say that great satisfaction was caused
+                                to ourselves, and great wonderment to the native niggers, and we
+                                only wished that a few hundred Sepoys were there to practice upon in
+                                real earnest. As for the Marine Light Infantry they went right away
+                                all over the <cb n="2"/>field and I did not wonder at their having a
+                                jolly good run - skirmishing they called it - after being so long
+                                penned up on board ship.</p>
+                            <p>The "bang, bang", of our field pieces, now drew the attention of all
+                                    <placeName ref="placeography.xml#Kolkata">Calcutta</placeName>
+                                upon us, and the fashionable ladies and gentlemen who were out
+                                riding, came flocking round us to see so novel a spectacle. The
+                                artillery did as beautifully as all the rest of us, and even the
+                                small guns worked by small boys, made a very considerable noise on
+                                this eventful occasion. But everything must have an end, Mr Editor,
+                                so had our field practice, &amp; so also must my letter. See us
+                                again drawn up in the line of march, again the lively strains of the
+                                "Cheasapeake's" band float over the <placeName
+                                    ref="placeography.xml#Kolkata">Calcutta</placeName> Esplanade,
+                                &amp; crowds of Hindoo niggers flock round to see the Regiment of
+                                British Tars returning to their "Wooden Walls"</p>
+                            <p>It would be unjust not to mention how these wooden walls were guarded
+                                in our absence, and how gallantly the Idlers on board prepared to
+                                repel boarders in case of invasion:- Those who saw the ship's
+                                tailor, doing sentry's duty, with his shears laid aside, and his
+                                cutlass girded round him, saw what is not seen every day in Her
+                                Majesty's Service.</p>
+                            <closer>Believe me,<lb/> Dear Sir,<lb/>
+                                <hi rend="underlined">Yours Respectfully</hi></closer>
+                            <signed>Bluejacket</signed>
+                            <dateline><mi:shipName ref="shipography.xml#Chesapeake"
+                                    >Chesapeake</mi:shipName><lb/>5 March/58</dateline>
+                        </body>
+                    </floatingText>
                 </div>
 
                 <div type="article">
-                    <note>This article does not appear in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea.</note>
-                    <head>The <mi:shipName ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>
-                        Amateurs</head>
+                    <head><ref target="TYI_Variants.xml#TYI13.04">The Chesapeake
+                        Amateurs</ref></head>
                     <p>There is nothing spoken, done, written or effected in this world, but the
                         ever ready <pb n="TYI1134" facs="TYI1134"/><fw>The Young Idea" Saturday 6
                             March 1858.</fw><cb n="1"/>tongue of criticism is prepared to weaken or
@@ -3217,11 +2812,7 @@
                         gave a very good account of the performance.</p>
                 </div>
                 <div type="naval_intelligence">
-                    <note>This naval intelligence appears under the heading "epitome" as the fourth
-                        contribution to issue thirteen in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield does not supply the author's initial.</note>
-                    <head>Naval Intelligence</head>
+                    <head><ref target="TYI_Variants.xml#TYI13.05">Naval Intelligence</ref></head>
                     <list type="simple">
                         <item>1st March H.M.S. <mi:shipName ref="shipography.xml#Chesapeake"
                                 >Chesapeake</mi:shipName> unmoored this morning &amp; proceeded down
@@ -3256,11 +2847,7 @@
                     </list>
                 </div>
                 <div type="facetiae">
-                    <note>Only the "Ava-launch" joke from this contribution appears as the fifth
-                        contribution to issue thirteen in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield attributes the contribution to "R.M."</note>
-                    <head>Facetiae</head>
+                    <head><ref target="TYI_Variants.xml#TYI13.06">Facetiae</ref></head>
                     <p>A human specimen of the Vegetable Kingdom. A man with carrotty locks, reddish
                         cheeks, a turn up nose, and a sage expression of countenance. When we add a
                         mouth enclosed by two lips (tulips) we think we have described a decided
@@ -3272,11 +2859,7 @@
                         Really after this we must exclaim "What next?"</p>
                 </div>
                 <div type="epitome">
-                    <note>This epitome appears (alongside information from naval intelligence) as
-                        the fourth contribution to issue thirteen in <persName
-                            ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s extracts
-                        from The Young Idea. Bampfield does not supply the author's initial.</note>
-                    <head>Epitome</head>
+                    <head><ref target="TYI_Variants.xml#TYI13.07">Epitome</ref></head>
                     <list type="simple">
                         <item>The <mi:shipName ref="shipography.xml#Ava">Ava</mi:shipName> P.&amp;O
                             C os steam packet has been totally wrecked near <placeName
@@ -3292,13 +2875,7 @@
                     </list>
                 </div>
                 <div type="rebus">
-                    <note>This rebus appears under the heading "charade" as the sixth contribution
-                        to issue twelve in <persName ref="personography.xml#J_W_L_Bampfield"
-                            >Bampfield</persName>'s extracts from The Young Idea (an entirely
-                        different issue). Bampfield attributes the contribution to "McA," which
-                        suggests it was written by <persName ref="personography.xml#A_D_McArthur"
-                            >McArthur</persName></note>
-                    <head>Rebus</head>
+                    <head><ref target="TYI_Variants.xml#TYI13.08">Rebus</ref></head>
                     <lg n="1">
                         <l>My first, what is my first? a counterfeit, </l>
                         <l>my second, rears its dangerous rugged head, </l>
@@ -3320,11 +2897,7 @@
                 </div>
 
                 <div type="enigma">
-                    <note>This enigma appears as the seventh contribution to issue thirteen in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield did not supply the author's
-                        initial.</note>
-                    <head>Illustrated Enigmas</head>
+                    <head><ref target="TYI_Variants.xml#TYI13.09">Illustrated Enigmas</ref></head>
                     <list type="simple">
                         <head>Conundrums</head>
                         <item><figure>
@@ -3342,26 +2915,20 @@
                     </list>
                 </div>
                 <div type="conundrum">
-                    <note>This conundrum appears as the sixth contribution to issue thirteen in
-                            <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield does not supply the author's
-                        initial.</note>
-                    <head>Answers to 22 &amp; 23 not received</head>
+                    <head><ref target="TYI_Variants.xml#TYI13.10">Answers to 22 &amp; 23 not
+                            received</ref></head>
                     <list type="ordered">
                         <item n="22">Saladin the Great</item>
                         <item n="23">When its a dun</item>
                     </list>
                 </div>
                 <div type="publication_info">
-                    <note>This publication info appears as the eighth contribution to issue thirteen
-                        in <persName ref="personography.xml#J_W_L_Bampfield">Bampfield</persName>'s
-                        extracts from The Young Idea. Bampfield does not supply the author's
-                        initial.</note>
-                    <head>The Young Idea</head>
+                    <head><ref target="TYI_Variants.xml#TYI13.11">The Young Idea</ref></head>
                     <p>Published at the office No. 1 Port Street "<mi:shipName
                             ref="shipography.xml#Chesapeake">Chesapeake</mi:shipName>" every
                         Saturday.<lb/> contributions solicited<lb/>Saturday 27 February, 1858.</p>
                 </div>
+
             </div>
         </body>
 

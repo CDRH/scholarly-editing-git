@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="SURF2015Schema.rng" type="xml"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
    xmlns:mi="http://www.newhaven.edu/thedigitalyoungidea/ns/1.0">
    <teiHeader>
@@ -81,21 +83,34 @@
                   and was a regular contributor to and supporter of The Young Idea. While his age is
                   not recorded in the muster book, census records reveal that Bampfield was born in
                   June of 1823, so he was in his mid-thirties during the cruise. He was commissioned
-                  as chaplain aboard HMS ???? in Port Royal, Jamaica before his arrival aboard the
-                  Chesapeake. His detailed journal provides an additional witness to The Young Idea,
-                  providing fascinating points of contrast from the facsimile edition that McArthur
-                  had printed in 1867 and offering hints about the authorship of contributions
-                  through his inclusion of the initials of authors (a marked list). </note>
+                  as chaplain aboard a different royal naval vessel in Port Royal, Jamaica before
+                  his arrival aboard the Chesapeake. His detailed journal provides an additional
+                  witness to The Young Idea, providing fascinating points of contrast from the
+                  facsimile edition that McArthur had printed in 1867 and offering hints about the
+                  authorship of contributions through his inclusion of the initials of authors (a
+                  marked list). </note>
             </person>
             <person>
                <persName xml:id="Edgell">Harry Edmund Edgell</persName>
-               <note>Harry Edmund Edgell joined the Chesapeake on [exact date TBD before
-                  publication] and was a supporter of The Young Idea. In <hi rend="italics">Martello
-                     Tower" in China, and the Pacific in H.M.S. "Tribune," 1856-60</hi>, Francis
-                  Martin Norman recounts Edgell's enthusiastic support for a shipboard theatrical
-                  aboard H.M.S. Tribune in 1857, when he was captain of the ship. Edgell composed
-                  the prologue for the play and painted the drop-scene (50). Excerpts from DNB
-                  article: "[to be added before publication]"</note>
+               <note>Harry Edmund Edgell joined the Chesapeake as Commodore after the period
+                  chronicled in the issues included in this edition. He was an enthusiastic
+                  supporter of The Young Idea. In <hi rend="italics">Martello Tower" in China, and
+                     the Pacific in H.M.S. "Tribune," 1856-60</hi>, Francis Martin Norman recounts
+                  Edgell's enthusiastic support for a shipboard theatrical aboard H.M.S. Tribune in
+                  1857, when he was captain of the ship. Edgell composed the prologue for the play
+                  and painted the drop-scene (50). The National Maritime Museum at Greenwich (NMM)
+                  holds over 300 watercolors by Edgell, including some undertaken during the cruise
+                  chronicled in The Young Idea. The NMM's biographical note on Edgell reads as
+                  follows: "Edgell was promoted to lieutenant in 1828, to commander in 1837 and to
+                  captain in 1846. He was appointed to command the Tribune in 1855 when she was in
+                  the Crimea. During this commission she went to the Pacific and finally to China.
+                  In 1857 Edgell was the Senior Naval Officer at Hong Kong and he transferred into
+                  the Bittern tender commanding the gun boats on the Canton River during the
+                  hostilities with the Chinese. In 1858 be was given command of the squadron in
+                  Indian waters, during which time he commanded the Chesapeake and later the
+                  Retribution. The latter returned to England and was paid off in 1860. Edgell had
+                  no further active employment and was promoted on the retired list, reaching the
+                  rank of vice-admiral in 1871."</note>
             </person>
             <person>
                <persName xml:id="Watson">Commodore Rundle Burges Watson</persName>

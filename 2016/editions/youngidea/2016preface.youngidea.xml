@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Extracts from <hi rend="italics">The Young
+                    Idea</hi></title>
+                <author>Mary Isbell</author>
+                <author>Teresa Navarro</author>
+                <author>Katelyn Sahagian</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>juxta</addrLine>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2015</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-Share Alike
+                        3.0 Unported License</p>
+                </availability>
+                <idno type="file">intro.extractsyoungidea</idno>
+                <idno type="edition">extractsyoungidea</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">36</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Mary Isbell</author>
+                    <author>Teresa Navarro</author>
+                    <author>Katelyn Sahagian</author>
+                    <title level="m" type="main">Extracts from <hi rend="italics">The Young
+                            Idea</hi></title></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+
+        <front>
+
+            <head type="main">2016 Preface</head>
+            <head type="sub"><title>Extracts from <hi rend="italics">The Young
+                Idea</hi></title></head>
+            <lb/>
+            <byline>Mary Isbell</byline>
+            <byline>Teresa Navarro</byline>
+            <byline>Katelyn Sahagian</byline>
+        </front>
+
+        <body>
+            <div type="section">
+                <head type="main">2016 Preface</head>
+                <p>Handwritten shipboard newspapers are not often mentioned in discussions about
+                    Victorian periodical culture. When I found extracts from <hi rend="italics">The
+                        Young Idea</hi> while conducting dissertation research at the National
+                    Maritime Museum in Greenwich, I immediately wanted to share this artifact online
+                    to encourage scholarly conversation. I am grateful to the many scholars who have
+                    helped me to make this a reality, beginning with Dino Felluga, who encouraged me
+                    to speak with the project manager at NINES (Networked Infrastructure for
+                    Nineteenth-Century Electronic Scholarship) when he learned about my project. My
+                    plan was to create a simple website to share my transcriptions from <hi
+                        rend="italics">The Young Idea</hi>, but Dana Wheeles very wisely encouraged
+                    me to learn more about the Text Encoding Initiative (TEI) before proceeding.</p>
+                <p>I got my first introduction to the TEI from an inspiring presentation by Laura
+                    Mandell during the 2013 meeting of the Melville Electronic Library Project
+                    (MELCamp). I began this edition in earnest under the guidance of Beth Luey,
+                    Mary-Jo Kline, and Daniel Feller during the 2013 Institute for Editing
+                    Historical Documents. I am tremendously grateful to the Association for
+                    Documentary Editing for funding that early training. I continued my training
+                    under the inimitable Julia Flanders during a seminar on "Advanced TEI Concepts"
+                    at the 2014 Digital Humanities Summer Institute (DHSI). This seminar helped me
+                    refine my approach to this edition and provided a more thorough understanding of
+                    the Text Encoding Initiative. I am grateful to DHSI for a tuition scholarship to
+                    participate in the seminar and Interdisciplinary Performance Studies at Yale
+                    (IPSY) for funding my travel to Victoria BC; I thank Joseph Roach especially for
+                    his enthusiastic support of this project </p>
+                <p>I am incredibly grateful for my two co-editors on this project, Teresa Navarro
+                    and Katelyn Sahagian, undergraduates at the University of New Haven who brought
+                    tremendous energy and enthusiasm to the tasks of transcription and proofreading
+                    in the Summer of 2015. I was able to collaborate with these two students through
+                    the support of the University of New Haven's Summer Undergraduate Research
+                    Fellowship (SURF) program. After years researching this little-known material on
+                    my own, I was thrilled to hear their commentary on Reverend Bampfield's
+                    atrocious handwriting and the contributors' fascination with puns. It has also
+                    been tremendously gratifying to show them how their painstaking work
+                    transcribing and encoding has been transformed into a digital edition.</p>
+                <p>The permissions costs associated with including archival images in digital
+                    editions remains one of the most significant barriers to the creation of
+                    open-access digital editions. I am tremendously grateful, therefore, to Joseph
+                    Roach and the Andrew W. Mellon Foundation for enabling me to purchase a rare
+                    copy of McArthur's lithograph edition so I can reproduce images here free of
+                    charge. I am also grateful to Nova Jones (a descendant of Robert Dexter, who
+                    served aboard HMS <hi rend="italics">Chesapeake</hi>) for alerting me to this
+                    edition after reading about my project online. Images of Bampfield's extracts
+                    from <hi rend="italics">The Young Idea</hi> are reproduced in this edition with
+                    the generous permission of the National Maritime Museum at Greenwich.</p>
+                <p>I would like expecially to thank Amanda Gailey, Andrew Jewell, and the staff of
+                        <hi rend="italics">Scholarly Editing</hi> for their guidance and careful
+                    attention as I worked on this project over several years. Their assistance in
+                    developing this interface not only makes the seven issues of this edition
+                    possible, but it provides a model for the publication of future issues. I liken
+                    the expertise of the team at Scholarly Editing to the talent of Paul Jerrard,
+                    the lithographer whose craft made it possible for A.D. McArthur to share his
+                    handwritten newspaper with the public in 1867. The complexities of our
+                    publication technologies have changed dramatically, and I am grateful to have
+                    been taught how to publish data in a format that can accomodate technological
+                    advances we have not yet imagined. </p>
+            </div>
+
+
+        </body>
+
+    </text>
+</TEI>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="SURF2015Schema.rng" type="xml"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mi="http://www.newhaven.edu/ns/nonTEI">
     <teiHeader>
         <fileDesc>
@@ -86,10 +88,10 @@
                         To this end they were all built as steam auxiliaries, designed to cruise
                         under sail" (207). The Pylades was broken up for parts on January 23, 1875
                         (208). <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
-                                &amp; Steam Navy List: All The Ships of The Royal Navy
-                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                            &amp; Steam Navy List: All The Ships of The Royal Navy
+                            1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Sparrowhawk">
                     <orgName>HMS Sparrowhawk</orgName>
@@ -107,11 +109,11 @@
                         despatch vessels. Twenty further vessels, to two designs rated as First
                         Class (the six Intrepid Class) and the Second Class (the 14 Vigilant Class)
                         were ordered in 1855" (218). HMS Assurance was sold at Esquimault in 1872.
-                                <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
-                                &amp; Steam Navy List: All The Ships of The Royal Navy
-                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                        <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                            &amp; Steam Navy List: All The Ships of The Royal Navy
+                            1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Chesapeake">
                     <orgName>Chesapeake</orgName>
@@ -123,11 +125,11 @@
                         the broadest point, with a depth in the hold of 16 feet and 9 inches. She
                         was built for a company of 515 men. The Chesapeake was sold in 1867 to be
                         broken up for parts at Charlton (200). <bibl><author>David Lyon and Rif
-                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                            Winfield</author><title>The Sail &amp; Steam Navy List: All The
                                 Ships of The Royal Navy
                                 1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                                    Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Pelorus">
                     <orgName>Pelorus</orgName>
@@ -140,11 +142,11 @@
                         the high seas. To this end they were all built as steam auxiliaries,
                         designed to cruise under sail" (207). HMS Pelorus was broken up for parts at
                         Devonport on February 3, 1869. <bibl><author>David Lyon and Rif
-                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                            Winfield</author><title>The Sail &amp; Steam Navy List: All The
                                 Ships of The Royal Navy
                                 1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                                    Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Assurance">
                     <orgName>Assurance</orgName>
@@ -163,11 +165,11 @@
                         Class (the six Intrepid Class) and the Second Class (the 14 Vigilant Class)
                         were ordered in 1855" (218). The Assurance was sold to sold to Marshall,
                         Plymouth, on March 8, 1870.<bibl><author>David Lyon and Rif
-                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                            Winfield</author><title>The Sail &amp; Steam Navy List: All The
                                 Ships of The Royal Navy
                                 1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                                    Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Mohawk">
                     <orgName>Mohawk</orgName>
@@ -187,11 +189,11 @@
                         were ordered in 1855" (218). HMS Mohawk was sold to the Chinese Imperial
                         Customs on September 20, 1862, renamed Peking and sailed in April of 1863 to
                         join Sherard Osborn's 'Vampire Fleet' (208).<bibl><author>David Lyon and Rif
-                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                            Winfield</author><title>The Sail &amp; Steam Navy List: All The
                                 Ships of The Royal Navy
                                 1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                                    Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Himalaya">
                     <orgName>Himalaya</orgName>
@@ -207,11 +209,11 @@
                         navy considerable experience of metal hulls prior to their wholesale
                         adoption for large warships" (243). The Himalaya was sunk by German
                         dive-bombers during a German air raid in 1940. <bibl><author>David Lyon and
-                                Rif Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                            Rif Winfield</author><title>The Sail &amp; Steam Navy List: All The
                                 Ships of The Royal Navy
                                 1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                                    Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Megaera">
                     <orgName>Megaera</orgName>
@@ -231,11 +233,11 @@
                         complete the four as troopships" (242). HMS Magaera was beached on Saint
                         Paul's Island in the Indian Ocean on June 16, 1871 because of major leaks
                         rendering her unseaworthy due to corrosion of her plating (242).
-                                <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
-                                &amp; Steam Navy List: All The Ships of The Royal Navy
-                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                        <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                            &amp; Steam Navy List: All The Ships of The Royal Navy
+                            1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Pearl">
                     <orgName>Pearl</orgName>
@@ -248,11 +250,11 @@
                         the high seas. To this end they were all built as steam auxiliaries,
                         designed to cruise under sail" (207).HMS Pearl was sold to be broken up for
                         parts at Charlton in 1884. <bibl><author>David Lyon and Rif
-                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                            Winfield</author><title>The Sail &amp; Steam Navy List: All The
                                 Ships of The Royal Navy
                                 1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                                    Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Shannon">
                     <orgName>Shannon</orgName>
@@ -263,28 +265,28 @@
                         1 inch feet long, 50 feet 1 1/2 inches at the broadest point, with a depth
                         in the hold of 18 feet 4 1/2 inches. She was built for a company of 560 men.
                         HMS Shannon was sold to be broken up for parts at Charlton in 1871.
-                                <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
-                                &amp; Steam Navy List: All The Ships of The Royal Navy
-                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                        <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                            &amp; Steam Navy List: All The Ships of The Royal Navy
+                            1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Proserpine">
                     <orgName>Proserpine</orgName>
                     <desc>The Proserpine was a gunboat (with 2 guns) built by John Laird, Sons &amp;
                         Co., Birkenhead, for the East India company's marine service (181).
-                                <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
-                                &amp; Steam Navy List: All The Ships of The Royal Navy
-                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                        <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
+                            &amp; Steam Navy List: All The Ships of The Royal Navy
+                            1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
                 <org xml:id="Ava">
                     <orgName>Ava</orgName>
                     <desc>The steamship Ava was not a Royal Navy vessel.</desc>
                 </org>
-
-
+                
+                
                 <org xml:id="Canning">
                     <orgName>Lady Canning</orgName>
                     <desc>The Lady Canning was a 4-gun sloop "built for and operated by the Indian
@@ -292,12 +294,12 @@
                         Company)" (172). She was launched on March 24, 1857. She was 175 feet long,
                         24 feet 8 inches at the broadest point, with a depth in the hold of 14 feet.
                         Her fate is unknown (173).<bibl><author>David Lyon and Rif
-                                Winfield</author><title>The Sail &amp; Steam Navy List: All The
+                            Winfield</author><title>The Sail &amp; Steam Navy List: All The
                                 Ships of The Royal Navy
                                 1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl></desc>
+                                    Publishing</publisher><date>2004</date></bibl></desc>
                 </org>
-
+                
                 <org xml:id="Cuckoo">
                     <orgName>Cuckoo</orgName>
                     <desc>The Cuckoo was a medium type paddle packet built by the P&amp;O
@@ -307,13 +309,13 @@
                         Blackwall. She was 120 feet 6 inches long, 20 feet at the broadest point,
                         with a depth in the hold of 12 feet 6 inches. She was built for a company of
                         12 men (165). The Cuckoo was sold at Davenport in 1864. <bibl><author>David
-                                Lyon and Rif Winfield</author><title>The Sail &amp; Steam Navy List:
+                            Lyon and Rif Winfield</author><title>The Sail &amp; Steam Navy List:
                                 All The Ships of The Royal Navy
                                 1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
+                                    Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
-
+                
                 <org xml:id="Eurydice">
                     <orgName>HMS Eurydice</orgName>
                     <desc>HMS Eurydice was a 26-gun Royal Navy frigate (Sixth Rate) in the Eurydice
@@ -330,22 +332,13 @@
                         cruising performance. The French term 'corvette' came to be used for these
                         vessels, which were also referred to (disparagingly) as 'donkey frigates'
                         (111). <bibl><author>David Lyon and Rif Winfield</author><title>The Sail
-                                &amp; Steam Navy List: All The Ships of The Royal Navy
-                                1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
-                                Publishing</publisher></bibl>
-                        <date>2004</date></desc>
-                </org>
-                <org xml:id="Pinnace">
-                    <orgName>HMS Pinnace</orgName>
-                    <desc>The Pinnace was not a Royal Navy vessel</desc>
-
-                </org>
-
-                <org xml:id="Lolly_boat">
-                    <orgName>HMS Lolly boat</orgName>
-                    <desc>The Pinnace was not a Royal Navy vessel</desc>
+                            &amp; Steam Navy List: All The Ships of The Royal Navy
+                            1815-1889</title><pubPlace>London</pubPlace><publisher>Chatham
+                                Publishing</publisher><date>2004</date></bibl>
+                    </desc>
                 </org>
             </listOrg>
         </body>
     </text>
 </TEI>
+
