@@ -19,13 +19,15 @@
                 <ul>
                     <li id="editionNavPre">Go to:</li>
                     <li id="editionNav1">
-                        <a href="{$siteroot}2016/editions/extracts.youngidea.html">Edition</a>
+                        <a href="{$siteroot}2016/editions/2016preface.youngidea.html">2016 Preface</a>
                     </li>
                     <li id="editionNav2">
-                        <a href="{$siteroot}2016/editions/preface.youngidea.html">McArthur's Preface</a>
+                        <a href="{$siteroot}2016/editions/1867preface.youngidea.html">1867 Preface</a>
                     </li>
-                    
                     <li id="editionNav3">
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.html">Edition</a>
+                    </li>
+                    <li id="editionNav4">
                         <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
                     </li>
                 </ul>
@@ -37,36 +39,62 @@
                         <a href="{$siteroot}2016/editions/intro.youngidea.html">Introduction</a>
                     </li>
                     <li id="editionNav2">
-                        <a href="{$siteroot}2016/editions/preface.youngidea.html">McArthur's Preface</a>
+                        <a href="{$siteroot}2016/editions/2016preface.youngidea.html">2016 Preface</a>
+                    </li>
+                    <li id="editionNav3">
+                        <a href="{$siteroot}2016/editions/1867preface.youngidea.html">1867 Preface</a>
                     </li>
                     
-                    <li id="editionNav3">
+                    <li id="editionNav4">
                         <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
                     </li>
                 </ul>
             </xsl:when>
-            <xsl:when test="starts-with($idno,'preface.')">
+            <xsl:when test="starts-with($idno,'2016preface.')">
                 <ul>
                     <li id="editionNavPre">Go to:</li>
                     <li id="editionNav1">
                         <a href="{$siteroot}2016/editions/intro.youngidea.html">Introduction</a>
                     </li>
                     <li id="editionNav2">
+                        <a href="{$siteroot}2016/editions/1867preface.youngidea.html">1867 Preface</a>
+                    </li>
+                    <li id="editionNav3">
                         <a href="{$siteroot}2016/editions/extracts.youngidea.html">Edition</a>
                     </li>
                     
-                    <li id="editionNav3">
+                    <li id="editionNav4">
                         <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
                     </li>
                 </ul>
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="starts-with($idno,'1867preface.')">
                 <ul>
                     <li id="editionNavPre">Go to:</li>
                     <li id="editionNav1">
                         <a href="{$siteroot}2016/editions/intro.youngidea.html">Introduction</a>
                     </li>
+                    <li id="editionNav2">
+                        <a href="{$siteroot}2016/editions/2016preface.youngidea.html">2016 Preface</a>
+                    </li>
+                    <li id="editionNav3">
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.html">Edition</a>
+                    </li>
                     
+                    <li id="editionNav4">
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
+                    </li>
+                </ul>
+            </xsl:when>
+            <!--<xsl:otherwise>
+                <ul>
+                    <li id="editionNavPre">Go to:</li>
+                    <li id="editionNav1">
+                        <a href="{$siteroot}2016/editions/intro.youngidea.html">Introduction</a>
+                    </li>
+                    <li id="editionNav2">
+                        <a href="{$siteroot}2016/editions/2016preface.youngidea.html">2016 Preface</a>
+                    </li>
                     <li id="editionNav2">
                         <a href="{$siteroot}2016/editions/extracts.youngidea.html">Edition</a>
                     </li>
@@ -78,7 +106,7 @@
                         <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
                     </li>
                 </ul>
-            </xsl:otherwise>
+            </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <!-- volume citation (required for each essay, review, and edition) -->
