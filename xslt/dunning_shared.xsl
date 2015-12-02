@@ -4,7 +4,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0"
     exclude-result-prefixes="xsl tei xs">
     
-    <xsl:output indent="no"></xsl:output>
+    <xsl:output indent="no"/>
 
   
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,7 +41,7 @@
         <xsl:choose>
             <xsl:when test="@rend='hyphen'">
                 <span class="tei_attr_hyphen tei_pc">
-                    <xsl:apply-templates/><xsl:text>–</xsl:text>
+                    <xsl:apply-templates/><xsl:text>a-</xsl:text>
                 </span>
             </xsl:when>
             <xsl:otherwise>
@@ -91,15 +91,18 @@
             </xsl:when>
                     
             <xsl:otherwise>
-                <span>
+              <span>
                     <xsl:attribute name="class">
                         <xsl:text> tei_</xsl:text><xsl:value-of select="name()"/>
-                        <xsl:for-each select="tokenize(@rend, ' ')">
+                      <!-- in the regularized view, @rend can be ignored, but its contents should still be displayed. -->
+                        <xsl:if test="$type ='diplomatic'">
+                          <xsl:for-each select="tokenize(@rend, ' ')">
                             <xsl:call-template name="rendrules"/>
-                        </xsl:for-each>
+                        </xsl:for-each></xsl:if>
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </span>
+              
             </xsl:otherwise>
         </xsl:choose>
 
@@ -109,6 +112,7 @@
   <xsl:template match="l" priority="1">
     
     <span class="tei_l poem_line"><xsl:apply-templates/></span>
+    <br/>
 
     
   </xsl:template>
@@ -266,8 +270,11 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <xsl:template match="pb">
-    <xsl:if test="$pb = 'true'">
-
+    <br/>
+    <span class="tei_pb_label"><xsl:value-of select="@n"/></span>
+    <!--<span class="pageimage" style="background-color:blue;width:100px;height:100px;">zzz</span>-->
+   
+    
       <!-- grab the figure id, first looking in @facs, then @xml:id, and if there is a .jpg, chop it off -->
       <xsl:variable name="figure_id">
         <xsl:variable name="figure_id_full">
@@ -307,7 +314,7 @@
 
 
       <!--<span class="hr">&#160;</span>-->
-        <span class="tei_pb_label"><xsl:value-of select="@n"/></span>
+        <!--<span class="tei_pb_label"><xsl:value-of select="@n"/></span>-->
       <span>
         <xsl:attribute name="class">
           <xsl:text>pageimage</xsl:text>
@@ -344,7 +351,12 @@
           </img>
         </a>
       </span>
-    </xsl:if>
+    
+    
+    
+    
+    
+    
   </xsl:template>
 
 
@@ -734,7 +746,25 @@
 
   <xsl:template match="text//lb" priority="1">
     <xsl:variable name="number"><xsl:number level="any"/></xsl:variable>
-    <br class="br_diplomatic"/><span class="tei_lb"><xsl:if test="$number mod 5 = 0 or $number = 1"><xsl:value-of select="$number"/></xsl:if>&#160;</span><xsl:apply-templates/>
+    
+    
+    <xsl:if test="preceding::*[1]/name() != 'pb'">
+      <br>
+        <xsl:if test="@break='no'">
+          <xsl:attribute name="class">
+            <xsl:text>br_diplomatic</xsl:text>
+          </xsl:attribute>
+        </xsl:if>
+      </br>
+    </xsl:if>
+    <span class="tei_lb">
+      
+      <xsl:if test="$number mod 5 = 0">
+        <xsl:value-of select="$number"/>
+      </xsl:if>
+      <xsl:text>&#160;</xsl:text>
+    </span>
+    <xsl:apply-templates/>
     
     <!-- <xsl:choose>
       <xsl:when test="$type='diplomatic'">
@@ -977,6 +1007,10 @@
       /></a>​-->
     <xsl:apply-templates select="orig"/>
   </xsl:template>
+  
+  <xsl:template match="reg">
+    <span class="tei_reg"><xsl:apply-templates/></span>
+  </xsl:template>
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Abbr and Expan
@@ -1134,7 +1168,9 @@
                 <br/>
             </xsl:when>
             <xsl:otherwise>
+              <span class="note">
                 <xsl:apply-templates/>
+              </span>
             </xsl:otherwise>
         </xsl:choose>
        

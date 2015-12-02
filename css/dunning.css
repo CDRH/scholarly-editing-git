@@ -1,4 +1,6 @@
-/* Dunning */
+/* =======================================
+Dunning 
+======================================= */
 
 @font-face {
     font-family: 'andron_scriptor_webregular';
@@ -26,134 +28,205 @@
 
 }
 
+/* =======================================
+reset fonts and spacing for dunning edition 
+======================================= */
 .dunning, .dunning h3 {
-    font-family:  andron_scriptor_webregular, quiviraregular;
-    text-transform: none;
-    font-size: 1.2em; 
-    line-height: 1.3em;
+	font-family: andron_scriptor_webregular, quiviraregular;
+	text-transform: none;
+	font-size: 1.4em;
+	line-height: 1.3em;
 }
 
-.dunning div.poem {
-	margin: 0;
-	/*font-size: 1em;*/
-}
-
-/* From Dunning */
-.dunning div.note { padding-left: 25px; }
-.dunning span.poem_line { font-size: 1.4em; }
-
+/* =======================================
+page images
+======================================= */
 .dunning .pageimage {
 	border: 1px solid #aaa;
-	margin: 0;
-	padding: 0;
+	margin: 0 0 10px 10px;
 	float: right;
 	clear: both;
-	margin: -2px 0 10px 10px;
 }
 
-.dunning .hr {
-    border-top: solid 1px #aaa;
-	display: block;
-	height: 1px;
-	margin: 10px 0 0 0;
-	padding: 0px 0 0 0;
-	clear: right;
+/* =======================================
+TEI Attributes and Elements
+======================================= */
+
+.tei_attr_enlarged {
+	font-size: 1.4em;
 }
 
 .highlight, .tei_attr_highlight {
-    background-color:#A3E0D5;
+	background-color: #A3E0D5;
 }
 
 .tei_attr_red {
-    color:red;
+	color: red;
 }
+
+.tei_attr_blue {
+	color: blue
+}
+
+.tei_attr_strike {
+	text-decoration: line-through;
+}
+
+.tei_attr_supraline {
+	text-decoration: overline
+}
+
+.tei_attr_strikethrough {
+	text-decoration: line-through;
+}
+
+.tei_del {
+	text-decoration: line-through;
+}
+
+.dunning .tei_seg_side {
+	background-color: #e0efed;
+}
+
+/* .tei_attr_alt
+.tei_attr_hyphen
+.tei_attr_stroke
+.tei_attr_expunct
+.tei_attr_erased
+.tei_attr_overstrike
+.tei_attr_above
+.tei_attr_spaced
+.tei_attr_longa
+.tei_attr_inline
+.tei_hi
+.tei_abbr
+.tei_num
+.tei_pc
+.tei_am
+.tei_add
+.tei_expan
+.tei_am
+.tei_ex
+.tei_seg /*
+
+/* =======================================
+Other TEI Styling
+======================================= */
+
+.tei_pb_label, 
+.tei_lb {
+	display: inline-block;
+	width: 50px;
+	margin-left: -50px;
+}
+
+/* ======================================= 
+Diplomatic vs regularized
+======================================= */
 
 .dunning .diplomatic {
-    /*border-top: red solid 10px;*/
 }
 
-
 .dunning .regularized {
-    /*border-top: blue solid 10px;*/
 }
 
 .dunning .regularized .tei_abbr {
-    display:none;
 }
 
 .dunning .regularized .tei_am {
-    display:none;
+	display: none;
 }
 
 .dunning .regularized .tei_del {
-    display:none;
+	display: none;
 }
 
 .dunning .regularized .tei_surplus {
-    display:none;
+	display: none;
 }
 
 .dunning .regularized .tei_attr_hyphen {
-    display:none;
+	display: none;
 }
 
 .dunning .regularized .tei_surplus {
-    display:none;
+	display: none;
 }
 
 .dunning .regularized .quote {
-  quotes: "“" "”" "‘" "’";
+	quotes: "“" "”" "‘" "’";
 }
 
 .dunning .regularized .quote:before {
-    content: open-quote;
+	content: open-quote;
 }
 
 .dunning .regularized .quote:after {
-    content: close-quote;
+	content: close-quote;
 }
-
-
 
 .dunning .diplomatic .tei_ex {
-    display:none;
+	display: none;
 }
 
-.dunning .h1, .dunning h2, .dunning h3, .dunning h4, .dunning h5, .dunning h6 {
-    font-family: andron_scriptor_webregular, quiviraregular;
-    text-align: left;
+.br_diplomatic {
+	display: block;
+}
+
+.br_regularized {
+	display: none;
 }
 
 
+/* =======================================
+Intro display
+======================================= */
 
-.br_diplomatic {display:block;}
+.dunning img.intro_image {
+	max-width: 100%;
+}
 
-.br_regularized {display:none;}
+.dunning .intro_figure {
+	border: solid 2px #aaa;
+	padding: 10px;
+	margin: 10px;
+}
+
+.dunning .intro_figure p {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 900;
+}
+
+
+/* =======================================
+Navigation/option display
+======================================= */
 
 .orig_trans_toggle {
-    /*background-color: red;*/
 }
+
 .original_container {
-    width:50%;
-    float:left;
+	width: 50%;
+	float: left;
 }
+
 .translation_container {
-    width:50%;
-    float:right;
+	width: 50%;
+	float: right;
 }
 
 .reg_dip_toggle {
-    
 }
 
-.diplomatic_toggle_container{
-     width:50%;
-    float:left;
+.diplomatic_toggle_container {
+	width: 50%;
+	float: left;
 }
 
 .regularized_toggle_container {
-    width:50%;
-    float:left;
+	width: 50%;
+	float: left;
 }
 
 .toggle, .button {
@@ -162,67 +235,61 @@
 	border: 1px solid #424d4c;
 }
 
-.toggle{
-    
-    
-    display:block;
-    padding: 3px 5px;
-    font-size: 1.2em;
-    text-align: center;
-	
+.toggle {
+	display: block;
+	padding: 3px 5px;
+	font-size: 1.2em;
+	text-align: center;
 }
 
 .button, .controls {
-text-align: center;
-   
-    padding: 1px 4px;
-    font-size: 1.1em;
-    -webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
-
-margin-right: .5em;;
+	text-align: center;
+	padding: 1px 4px;
+	font-size: 1.1em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: .5em;
 }
 
 .toggleright {
 	-webkit-border-top-right-radius: 10px;
--webkit-border-bottom-right-radius: 10px;
--moz-border-radius-topright: 10px;
--moz-border-radius-bottomright: 10px;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .toggleleft {
 	-webkit-border-top-left-radius: 10px;
--webkit-border-bottom-left-radius: 10px;
--moz-border-radius-topleft: 10px;
--moz-border-radius-bottomleft: 10px;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 .toggle:hover, .button:hover {
-    background: #424d4c;
-    color: #fff;
+	background: #424d4c;
+	color: #fff;
 }
 
 .selected {
-    background-color: #6e978f;;
+	background-color: #6e978f;
     color: #fff;
 }
 
 .options_container {
-    clear:both;
-
+	clear: both;
 }
 
 .options {
-    display:inline-block;
+	display: inline-block;
 }
 
 .reg_dip_toggle {
-    padding:.5em 0;
+	padding: .5em 0;
 }
 
 h4.options {
@@ -230,76 +297,24 @@ h4.options {
 }
 
 
+/* =======================================
+OTHER STYLESHEET OVERWRITES 
+======================================= */
 
-
-    
-.tei_attr_red {}
-.tei_attr_strike {text-decoration: line-through;}
-.tei_attr_enlarged {font-size:1.4em;}
-.tei_attr_supraline {text-decoration: overline}
-.tei_attr_alt {}
-.tei_attr_hyphen {}
-.tei_attr_stroke {}
-.tei_attr_expunct {}
-.tei_attr_erased {}
-.tei_attr_strikethrough {text-decoration: line-through;}
- .tei_attr_overstrike {}
-.tei_attr_above {}
-.tei_attr_spaced {}
-.tei_attr_longa {}
-.tei_attr_inline {}
-  
-  
-.tei_hi {}
-.tei_abbr {}
-.tei_num {}
-.tei_pc {}
-.tei_am {}
-.tei_del {text-decoration: line-through;}
-.tei_add {}
-.tei_expan {}
-.tei_am {}
-.tei_ex {}
-
-.dunning img.intro_image {max-width:100%;}
-
-.dunning .intro_figure {
-    border: solid 2px #aaa;
-    padding:10px;
-    margin:10px;
-}
-
-.dunning .intro_figure p {
-    margin-top:10px;
-    text-align:center;
-    font-weight: 900;
-}
-
-.dunning .tei_seg_side {
-	background-color: #e0efed;
-}
-
-.dunning .tei_seg {
-	/*background-color: #e0efed;*/
-}
-
-.tei_attr_red {
-    color:red
-}
-
-.tei_attr_blue {
-    color:blue
-}
-
-.tei_lb { 
-	/*margin-right:1em;*/ 
-	width:2em;
-	/*background-color: yellow;*/
-	display: block; float: left;}
+/* =======================================
+Poetry
+======================================= */
 
 .dunning div.poem {
-    /*margin:0;
-    padding:0;*/
+	margin: 0;
+	font-size: 1em;
+}
+
+.dunning span.poem_line {
+	font-size: 1.4em;
+	padding: 0px;
+	padding: .5em 0 0em 0;
+	display: inline-block;
 }
 
 .dunning div.note, .dunning div.poem {
@@ -308,10 +323,29 @@ h4.options {
 	display: inline;
 }
 
+/* =======================================
+Other HTML
+======================================= */
+
 .dunning p, .dunning div.p {
 	margin: 0px;
-	text-indent: 0em; 
+	text-indent: 0em;
 }
+
+.dunning h1, .dunning h2, .dunning h3, .dunning h4, .dunning h5, .dunning h6 {
+	font-family: andron_scriptor_webregular, quiviraregular;
+	text-align: left;
+	position: static;
+}
+
+.dunning h3 {
+	font-weight: 100;
+	padding-top: 0px;
+	z-index: 1;
+}
+
+
+
 
 
 
