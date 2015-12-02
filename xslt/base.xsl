@@ -166,7 +166,7 @@
                                 <xsl:apply-templates/>
                             </div>
                         </xsl:when>
-                        <xsl:when test="starts-with($idno,'hejinian.missing')">
+                        <xsl:when test="starts-with($idno,'hejinian.missing') or starts-with($idno, '2016preface')">
                             <div class="essay">
                                 <xsl:apply-templates/>
                             </div>
