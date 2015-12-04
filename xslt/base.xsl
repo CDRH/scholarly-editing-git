@@ -1088,6 +1088,116 @@ by bots, spammers, and other evildoers -->
     
 
 </xsl:when>
+
+            <xsl:when test="$editionName='youngidea'">
+                <xsl:choose>
+                    <xsl:when test="@target">
+                        <xsl:choose>
+                            <xsl:when test="starts-with(@target, 'variants')">
+                                <xsl:variable name="refTarget">
+                                    <xsl:value-of select="attribute::target" />
+                                </xsl:variable>
+                                <xsl:variable name="refContent">
+                                    <xsl:for-each select=".">
+                                        <xsl:apply-templates />
+                                    </xsl:for-each>
+                                </xsl:variable>
+                                <xsl:variable name="fileID">
+                                    <xsl:value-of
+                                        select="ancestor::tei:TEI/descendant::tei:idno[@type = 'file']"
+                                     />
+                                </xsl:variable>
+                                <xsl:for-each
+                                    select="document('../2016/editions/youngidea/variants.youngidea.xml')/tei:TEI">
+                                    <xsl:for-each select="descendant::tei:item/tei:app">
+                                        <xsl:variable name="appID">
+                                            <xsl:for-each select="./attribute::loc">
+                                                <xsl:value-of select="substring-after(., '#')" />
+                                            </xsl:for-each>
+                                        </xsl:variable>
+                                        <xsl:variable name="ptrID">
+                                            <xsl:for-each
+                                                select="./following-sibling::tei:ptr/attribute::target">
+                                                <xsl:value-of select="substring-after(., '#')" />
+                                            </xsl:for-each>
+                                        </xsl:variable>
+                                        <xsl:variable name="rdgWit">
+                                            <xsl:for-each select="child::tei:rdg">
+                                                <xsl:value-of select="attribute::wit" />
+                                            </xsl:for-each>
+                                        </xsl:variable>
+                                        <xsl:if test="$appID = $refTarget">
+                                            <div class="showNote">
+                                                <!-- &#8620; &#9776;-->
+                                                
+                                                  <a href="#" onclick="return false;">
+                                                  <xsl:copy-of select="$refContent" />
+                                                  </a>
+                                               
+                                            </div>
+                                            <div>
+                                                <xsl:attribute name="class">appEntry</xsl:attribute>
+                                                
+                                                  <a href="#" class="closenote">X</a>
+                                                  
+                                                <xsl:apply-templates select="." />
+                                                <xsl:for-each select="//tei:note[@xml:id = $ptrID]">
+                                                  <div class="rdgNote">
+                                                  <h4>Note</h4>
+                                                  <xsl:apply-templates />
+                                                  </div>
+                                                </xsl:for-each>
+                                            </div>
+                                        </xsl:if>
+                                    </xsl:for-each>
+                                </xsl:for-each>
+                            </xsl:when>
+                            
+                            
+                            
+                            <xsl:otherwise>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="@target"/>
+                                        <xsl:choose>
+                                            <xsl:when test="@type='url'"/>
+                                            <xsl:when test="@type='html'">.html</xsl:when>
+                                            <xsl:when test="@type='pdf'">.pdf</xsl:when>
+                                            <xsl:when test="@type='xml'">.xml</xsl:when>
+                                            <xsl:otherwise/>
+                                        </xsl:choose>
+                                    </xsl:attribute>
+                                    <xsl:if test="@n">
+                                        <xsl:attribute name="class">ref<xsl:value-of select="@n"/></xsl:attribute>
+                                    </xsl:if>
+                                    <xsl:apply-templates/>
+                                </a>
+                                
+                                
+                             
+                                
+                            </xsl:otherwise>
+                        </xsl:choose>      
+                        
+                        
+                        
+                        
+                        
+                        
+                    </xsl:when>
+                    <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+                </xsl:choose>
+                
+                
+            </xsl:when>
+
+
+
+
+
+
+
+
 <xsl:when test="@type='figure'"><span class="viewsize"><a><xsl:attribute name="href"><xsl:choose><xsl:when test="$editionName='baroness'"><xsl:value-of select="descendant::tei:graphic/attribute::url"/></xsl:when><xsl:otherwise><xsl:value-of select="$editionName"/><xsl:text>/pages/viewsize/</xsl:text><xsl:value-of select="descendant::tei:graphic/attribute::url"/><xsl:text>.jpg</xsl:text></xsl:otherwise></xsl:choose></xsl:attribute><xsl:attribute name="title">    <xsl:value-of select="child::tei:figure/child::tei:head"/><xsl:if test="string(child::tei:figure/child::tei:p)"><xsl:value-of select="concat('&lt;br &gt;',child::tei:figure/child::tei:p[normalize-space()])"/></xsl:if></xsl:attribute><xsl:apply-templates/></a></span></xsl:when>
 
 <xsl:when test="$editionName='stufaiuolo'"><xsl:choose>
@@ -1259,79 +1369,7 @@ by bots, spammers, and other evildoers -->
         </div>
         
     </xsl:when>
-    <!--<xsl:when test="@type='r_msDesc'">
-        <div class="showNote"><a href="#" onclick="return: false;"><xsl:apply-templates/></a></div>
-        <div class="appEntry" style="display: none"><xsl:for-each select="doc('../2015/editions/stufaiuolo/stufaiuolo.riccardiana.xml')//tei:msDesc"><a href="#" class="closenote">X</a>
-            <h1>Manuscript Description, Riccardiana MS</h1>
-            <p><xsl:for-each select="//tei:msIdentifier/*">
-                <xsl:apply-templates/><xsl:if test="following-sibling::*"><xsl:text>, </xsl:text></xsl:if>
-            </xsl:for-each></p>
-            <xsl:variable name="mspart">
-                <xsl:choose>
-                    <xsl:when test="//tei:TEI[@xml:id='ric']"><xsl:copy-of select="tei:msPart/tei:physDesc"></xsl:copy-of></xsl:when>
-                    <xsl:otherwise><xsl:copy-of select="tei:physDesc"></xsl:copy-of></xsl:otherwise>
-                </xsl:choose>
-            </xsl:variable>
-            <xsl:variable name="mspartpath" select="$mspart"/>
-            <xsl:for-each select="$mspart">
-                <h4>Physical Description</h4>
-                <p><strong>Material</strong>: </p>
-                <xsl:for-each select=".//tei:support/tei:material"><p><xsl:apply-templates/></p></xsl:for-each>
-                <p><strong>Dimensions</strong>: 
-                    <xsl:for-each select=".//tei:extent/tei:dimensions">
-                        <xsl:apply-templates select="tei:width"/><xsl:text>mm x</xsl:text>
-                        <xsl:apply-templates select="tei:height"/><xsl:text>mm</xsl:text>
-                    </xsl:for-each></p>
-                <p><xsl:apply-templates select=".//tei:foliation"/></p>
-                <p><xsl:apply-templates select=".//tei:collation"/></p>
-                <p><xsl:apply-templates select=".//tei:supportDesc/tei:condition"/></p>
-                <p><strong>Layout</strong>: <xsl:apply-templates select=".//tei:layoutDesc"/></p>
-                <p>Autograph; scripts: <ul><xsl:for-each select=".//tei:handNote">
-                    <li><xsl:apply-templates/></li></xsl:for-each></ul></p>
-                <p><strong>Decorations</strong>:</p>
-                <div style="margin-left:15pt"><xsl:if test=".//tei:decoNote[@type='frontespiece']"><p>Frontespiece: </p>
-                    <ul> <xsl:for-each select=".//tei:decoNote[@type='frontespiece']">
-                        <li><xsl:apply-templates/></li>
-                    </xsl:for-each></ul></xsl:if>
-                    <xsl:if test=".//tei:decoNote[@type='penwork-initials']"><p>Penwork initials: </p>
-                        <ul> <xsl:for-each select=".//tei:decoNote[@type='penwork-initials']">
-                            <li><xsl:apply-templates/></li>
-                        </xsl:for-each></ul></xsl:if>
-                    <xsl:if test=".//tei:decoNote[@type='drop-capital']"><p>Drop capitals: </p>
-                        <ul> <xsl:for-each select=".//tei:decoNote[@type='drop-capital']">
-                            <li><xsl:apply-templates/></li>
-                        </xsl:for-each></ul></xsl:if>
-                    <xsl:if test=".//tei:decoNote[@type='headpiece']"><p>Head pieces: </p>
-                        <ul> <xsl:for-each select=".//tei:decoNote[@type='headpiece']">
-                            <li><xsl:apply-templates/></li>
-                        </xsl:for-each></ul></xsl:if>
-                    <xsl:if test=".//tei:decoNote[@type='tailpiece']"><p>Tail pieces: </p>
-                        <ul> <xsl:for-each select=".//tei:decoNote[@type='tailpiece']">
-                            <li><xsl:apply-templates/></li>
-                        </xsl:for-each></ul></xsl:if>
-                    <xsl:if test=".//tei:decoNote[@type='cadel']"><p>Cadels: </p>
-                        <ul> <xsl:for-each select=".//tei:decoNote[@type='cadel']">
-                            <li><xsl:apply-templates/></li>
-                        </xsl:for-each></ul></xsl:if>
-                    <xsl:if test=".//tei:decoNote[@type='cartouche']"><p>Cartouces: </p>
-                        <ul> <xsl:for-each select=".//tei:decoNote[@type='cartouche']">
-                            <li><xsl:apply-templates/></li>
-                        </xsl:for-each></ul></xsl:if>
-                    <xsl:if test=".//tei:decoNote[@type='panle']"><p>Panels: </p>
-                        <ul> <xsl:for-each select=".//tei:decoNote[@type='panel']">
-                            <li><xsl:apply-templates/></li>
-                        </xsl:for-each></ul></xsl:if></div>
-                <xsl:if test=".//tei:additions">
-                    <p><strong>Additions and annotations</strong>: <xsl:apply-templates select=".//tei:additions"/></p>
-                </xsl:if>
-                <xsl:if test=".//tei:bindingDesc"><xsl:apply-templates select=".//tei:bindingDesc/tei:p"/></xsl:if>
-                <xsl:if test=".//tei:accMat">
-                    <p><strong>Accompaining Material</strong>: <xsl:apply-templates select=".//tei:accMat"/></p>
-                </xsl:if>
-            </xsl:for-each>
-         </xsl:for-each></div>
-        
-   </xsl:when>--><xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+<xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
 </xsl:choose></xsl:when>
 <xsl:when test="$editionName='lowelledition'"><xsl:choose>
     <xsl:when test="parent::tei:note[@type='annotation']"><xsl:apply-templates/></xsl:when><xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
