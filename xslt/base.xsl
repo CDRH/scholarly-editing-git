@@ -1095,7 +1095,7 @@ by bots, spammers, and other evildoers -->
                         <xsl:choose>
                             <xsl:when test="starts-with(@target, 'variants')">
                                 <xsl:variable name="refTarget">
-                                    <xsl:value-of select="attribute::target" />
+                                    <xsl:value-of select="substring-after(attribute::target,'variants.youngidea.xml#')" />
                                 </xsl:variable>
                                 <xsl:variable name="refContent">
                                     <xsl:for-each select=".">
@@ -1115,23 +1115,21 @@ by bots, spammers, and other evildoers -->
                                                 <xsl:value-of select="substring-after(., '#')" />
                                             </xsl:for-each>
                                         </xsl:variable>
-                                        <xsl:variable name="ptrID">
-                                            <xsl:for-each
-                                                select="./following-sibling::tei:ptr/attribute::target">
-                                                <xsl:value-of select="substring-after(., '#')" />
-                                            </xsl:for-each>
-                                        </xsl:variable>
+                                        
                                         <xsl:variable name="rdgWit">
                                             <xsl:for-each select="child::tei:rdg">
                                                 <xsl:value-of select="attribute::wit" />
                                             </xsl:for-each>
+                                        </xsl:variable>
+                                        <xsl:variable name="rdgNote">
+<xsl:for-each select="child::tei:rdg"><xsl:copy-of select="."/></xsl:for-each>
                                         </xsl:variable>
                                         <xsl:if test="$appID = $refTarget">
                                             <div class="showNote">
                                                 <!-- &#8620; &#9776;-->
                                                 
                                                   <a href="#" onclick="return false;">
-                                                  <xsl:copy-of select="$refContent" />
+                                                  <xsl:copy-of select="$rdgNote" />
                                                   </a>
                                                
                                             </div>
@@ -1141,12 +1139,12 @@ by bots, spammers, and other evildoers -->
                                                   <a href="#" class="closenote">X</a>
                                                   
                                                 <xsl:apply-templates select="." />
-                                                <xsl:for-each select="//tei:note[@xml:id = $ptrID]">
+                                                <!--<xsl:for-each select="//tei:note[@xml:id = $ptrID]">
                                                   <div class="rdgNote">
                                                   <h4>Note</h4>
                                                   <xsl:apply-templates />
                                                   </div>
-                                                </xsl:for-each>
+                                                </xsl:for-each>-->
                                             </div>
                                         </xsl:if>
                                     </xsl:for-each>
