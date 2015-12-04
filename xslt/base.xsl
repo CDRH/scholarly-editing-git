@@ -1098,9 +1098,7 @@ by bots, spammers, and other evildoers -->
                                     <xsl:value-of select="substring-after(attribute::target,'variants.youngidea.xml#')" />
                                 </xsl:variable>
                                 <xsl:variable name="refContent">
-                                    <xsl:for-each select=".">
-                                        <xsl:apply-templates />
-                                    </xsl:for-each>
+                                   <xsl:copy-of select="."/>
                                 </xsl:variable>
                                 <xsl:variable name="fileID">
                                     <xsl:value-of
@@ -1137,8 +1135,7 @@ by bots, spammers, and other evildoers -->
                                                 <xsl:attribute name="class">appEntry</xsl:attribute>
                                                 
                                                   <a href="#" class="closenote">X</a>
-                                                  
-                                                <xsl:apply-templates select="." />
+                                                 CONTENT OF REF TAG
                                                 <!--<xsl:for-each select="//tei:note[@xml:id = $ptrID]">
                                                   <div class="rdgNote">
                                                   <h4>Note</h4>
