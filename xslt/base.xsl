@@ -1137,13 +1137,8 @@ by bots, spammers, and other evildoers -->
                                             <div>
                                                 <xsl:attribute name="class">appEntry</xsl:attribute>
                                                 <a href="#" class="closenote">X</a>
-                                                <xsl:copy-of select="$rdgNote" />
-                                                <!--<xsl:for-each select="//tei:note[@xml:id = $ptrID]">
-                                                  <div class="rdgNote">
-                                                  <h4>Note</h4>
-                                                  <xsl:apply-templates />
-                                                  </div>
-                                                </xsl:for-each>-->
+                                                <xsl:for-each  select="$rdgNote"><xsl:apply-templates/> </xsl:for-each>
+                                               
                                             </div>
                                         </xsl:if>
                                     </xsl:for-each>
