@@ -1098,7 +1098,7 @@ by bots, spammers, and other evildoers -->
                                     <xsl:value-of select="substring-after(attribute::target,'variants.youngidea.xml#')" />
                                 </xsl:variable>
                                 <xsl:variable name="refContent">
-                                   <xsl:apply-templates select="."/>
+                                    <xsl:for-each select="."><xsl:apply-templates/></xsl:for-each>
                                 </xsl:variable>
                                 <xsl:variable name="fileID">
                                     <xsl:value-of
