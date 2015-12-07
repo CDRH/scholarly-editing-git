@@ -1101,7 +1101,7 @@ by bots, spammers, and other evildoers -->
                                 </xsl:variable>
                                 <xsl:variable name="refContent">
                                     <xsl:for-each select=".">
-                                        <xsl:apply-templates />
+                                        <xsl:copy-of select="."/>
                                     </xsl:for-each>
                                 </xsl:variable>
                                 <xsl:variable name="fileID">
