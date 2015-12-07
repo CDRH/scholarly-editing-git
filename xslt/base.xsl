@@ -1098,7 +1098,7 @@ by bots, spammers, and other evildoers -->
                                     <xsl:value-of select="substring-after(attribute::target,'variants.youngidea.xml#')" />
                                 </xsl:variable>
                                 <xsl:variable name="refContent">
-                                   <xsl:copy-of select="."/>
+                                   <xsl:apply-templates select="."/>
                                 </xsl:variable>
                                 <xsl:variable name="fileID">
                                     <xsl:value-of
@@ -1127,8 +1127,7 @@ by bots, spammers, and other evildoers -->
                                                 <!-- &#8620; &#9776;-->
                                                 
                                                   <a href="#" onclick="return false;">
-                                                    CONTENT of REF 
-                                                  <!--<xsl:copy-of select="$rdgNote" />-->
+                                                  <xsl:copy-of select="$rdgNote" />
                                                   </a>
                                                
                                             </div>
