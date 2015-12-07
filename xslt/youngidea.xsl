@@ -566,6 +566,48 @@
         </blockquote>
     </xsl:template>
 
+
+
+    <!-- simple lists -->
+    <xsl:template match="//tei:list">
+        <xsl:choose>
+            <xsl:when test="@type='simple'">
+                <ul>
+                    <xsl:apply-templates/>
+                </ul>
+            </xsl:when>
+            <xsl:when test="@type = 'ordered'">
+                <xsl:choose>
+                    <xsl:when test="child::tei:item/attribute::n">
+                        <ul>
+                            <xsl:apply-templates />
+                        </ul>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <ol>
+                            <xsl:apply-templates />
+                        </ol>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when><xsl:when test="@type='bulleted'">
+                <ol class="bulleted">
+                    <xsl:apply-templates/>
+                </ol>
+            </xsl:when>
+            <xsl:otherwise>
+                <ul>
+                    <xsl:apply-templates/>
+                </ul>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="//tei:item">
+        <li><xsl:if test="attribute::n"><xsl:value-of select="@n"/>.&#160;</xsl:if>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+
+
 <!--thank you, git -->
 
 </xsl:stylesheet>
