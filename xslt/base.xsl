@@ -1131,7 +1131,7 @@ by bots, spammers, and other evildoers -->
                                             <div class="showNote">
                                                 <!-- &#8620; &#9776;-->
                                                 <a href="#" onclick="return false;">
-                                                  CONTENT of REF
+                                                  <xsl:value-of select="$refContent"/>
                                                   </a>
                                             </div>
                                             <div>
