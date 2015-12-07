@@ -1089,16 +1089,20 @@ by bots, spammers, and other evildoers -->
 
 </xsl:when>
 
-            <xsl:when test="$editionName='youngidea'">
+            <xsl:when test="$editionName = 'youngidea'">
                 <xsl:choose>
                     <xsl:when test="@target">
                         <xsl:choose>
                             <xsl:when test="starts-with(@target, 'variants')">
                                 <xsl:variable name="refTarget">
-                                    <xsl:value-of select="substring-after(attribute::target,'variants.youngidea.xml#')" />
+                                    <xsl:value-of
+                                        select="substring-after(attribute::target, 'variants.youngidea.xml#')"
+                                     />
                                 </xsl:variable>
                                 <xsl:variable name="refContent">
-                                    <xsl:for-each select="."><!--<xsl:apply-templates/>--> TEST</xsl:for-each>
+                                    <xsl:for-each select=".">
+                                        <xsl:apply-templates />
+                                    </xsl:for-each>
                                 </xsl:variable>
                                 <xsl:variable name="fileID">
                                     <xsl:value-of
@@ -1113,29 +1117,27 @@ by bots, spammers, and other evildoers -->
                                                 <xsl:value-of select="substring-after(., '#')" />
                                             </xsl:for-each>
                                         </xsl:variable>
-                                        
                                         <xsl:variable name="rdgWit">
                                             <xsl:for-each select="child::tei:rdg">
                                                 <xsl:value-of select="attribute::wit" />
                                             </xsl:for-each>
                                         </xsl:variable>
                                         <xsl:variable name="rdgNote">
-<xsl:for-each select="child::tei:rdg"><xsl:copy-of select="."/></xsl:for-each>
+                                            <xsl:for-each select="child::tei:rdg">
+                                                <xsl:copy-of select="." />
+                                            </xsl:for-each>
                                         </xsl:variable>
                                         <xsl:if test="$appID = $refTarget">
                                             <div class="showNote">
                                                 <!-- &#8620; &#9776;-->
-                                                
-                                                  <a href="#" onclick="return false;">
-                                                  <xsl:copy-of select="$rdgNote" />
+                                                <a href="#" onclick="return false;">
+                                                  CONTENT of REF
                                                   </a>
-                                               
                                             </div>
                                             <div>
                                                 <xsl:attribute name="class">appEntry</xsl:attribute>
-                                                
-                                                  <a href="#" class="closenote">X</a>
-                                                 <xsl:apply-templates select="$refContent" />
+                                                <a href="#" class="closenote">X</a>
+                                                <xsl:copy-of select="$rdgNote" />
                                                 <!--<xsl:for-each select="//tei:note[@xml:id = $ptrID]">
                                                   <div class="rdgNote">
                                                   <h4>Note</h4>
@@ -1147,43 +1149,31 @@ by bots, spammers, and other evildoers -->
                                     </xsl:for-each>
                                 </xsl:for-each>
                             </xsl:when>
-                            
-                            
-                            
                             <xsl:otherwise>
                                 <a>
                                     <xsl:attribute name="href">
-                                        <xsl:value-of select="@target"/>
+                                        <xsl:value-of select="@target" />
                                         <xsl:choose>
-                                            <xsl:when test="@type='url'"/>
-                                            <xsl:when test="@type='html'">.html</xsl:when>
-                                            <xsl:when test="@type='pdf'">.pdf</xsl:when>
-                                            <xsl:when test="@type='xml'">.xml</xsl:when>
-                                            <xsl:otherwise/>
+                                            <xsl:when test="@type = 'url'" />
+                                            <xsl:when test="@type = 'html'">.html</xsl:when>
+                                            <xsl:when test="@type = 'pdf'">.pdf</xsl:when>
+                                            <xsl:when test="@type = 'xml'">.xml</xsl:when>
+                                            <xsl:otherwise />
                                         </xsl:choose>
                                     </xsl:attribute>
                                     <xsl:if test="@n">
-                                        <xsl:attribute name="class">ref<xsl:value-of select="@n"/></xsl:attribute>
+                                        <xsl:attribute name="class">ref<xsl:value-of select="@n"
+                                             /></xsl:attribute>
                                     </xsl:if>
-                                    <xsl:apply-templates/>
+                                    <xsl:apply-templates />
                                 </a>
-                                
-                                
-                             
-                                
                             </xsl:otherwise>
-                        </xsl:choose>      
-                        
-                        
-                        
-                        
-                        
-                        
+                        </xsl:choose>
                     </xsl:when>
-                    <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+                    <xsl:otherwise>
+                        <xsl:apply-templates />
+                    </xsl:otherwise>
                 </xsl:choose>
-                
-                
             </xsl:when>
 
 
