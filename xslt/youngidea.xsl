@@ -471,7 +471,7 @@
     </xsl:template>
 
     <xsl:template match="//tei:body//tei:placeName">
-        
+        <xsl:variable name="currentPlaceName"><xsl:for-each select="."><xsl:value-of select="."/></xsl:for-each></xsl:variable>
         <xsl:choose>
             <xsl:when test="attribute::ref">
                 <xsl:variable name="placeNameID">
@@ -491,7 +491,7 @@
 <xsl:variable name="gettyID"><xsl:value-of select="substring-after(descendant::tei:note,':')"/></xsl:variable>
                             <div class="rdgNote">
                                 <h4>
-                                    <xsl:apply-templates select="child::tei:placeName"/>
+                                    <xsl:value-of select="$currentPlaceName"/> is now known as <xsl:apply-templates select="child::tei:placeName"/>
                                 </h4>
                                 <span class="personNote">
                                     <ul>
