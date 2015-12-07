@@ -1127,7 +1127,8 @@ by bots, spammers, and other evildoers -->
                                                 <!-- &#8620; &#9776;-->
                                                 
                                                   <a href="#" onclick="return false;">
-                                                  <xsl:copy-of select="$rdgNote" />
+                                                    CONTENT of REF 
+                                                  <!--<xsl:copy-of select="$rdgNote" />-->
                                                   </a>
                                                
                                             </div>
@@ -1135,7 +1136,7 @@ by bots, spammers, and other evildoers -->
                                                 <xsl:attribute name="class">appEntry</xsl:attribute>
                                                 
                                                   <a href="#" class="closenote">X</a>
-                                                 CONTENT OF REF TAG
+                                                 <xsl:apply-templates select="$refContent" />
                                                 <!--<xsl:for-each select="//tei:note[@xml:id = $ptrID]">
                                                   <div class="rdgNote">
                                                   <h4>Note</h4>
