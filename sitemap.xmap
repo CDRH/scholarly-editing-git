@@ -190,6 +190,18 @@
                 <map:serialize type="html" />
             </map:match>
         </map:pipeline>
+        
+        <!-- BinyonDestree, 2016 issue -->
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/BinyonDestree.html">
+                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree_introduction.xml.xml" />
+                <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                </map:transform>
+                <map:serialize type="html" />
+            </map:match>
+        </map:pipeline>
 
 
 <!-- Dunning's translations, 2016 issue-->

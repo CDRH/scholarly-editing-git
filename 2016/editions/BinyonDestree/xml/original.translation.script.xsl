@@ -7,7 +7,12 @@
     <xsl:output indent="yes" />
     
     <xsl:template match="/">
-        <linkGrp>
+        
+       <!-- <xsl:for-each-group select="//link/@type" group-by=".">
+            <xsl:sort select="."></xsl:sort>
+            <x><xsl:value-of select="current-grouping-key()"/></x>
+                   </xsl:for-each-group>-->
+       <!-- <linkGrp>
         <xsl:for-each select="//link">
             
             <xsl:choose>
@@ -27,32 +32,40 @@
                 </xsl:when>
                 <xsl:when test="starts-with(@type,'1')">
                 <xsl:for-each select="tokenize(substring-after(@xtargets,';'),' ')">
-                    <!-- begin research here: http://stackoverflow.com/questions/21603814/xslt-2-0-how-to-tokenize-values-of-multiple-elements-and-correlate-them-together -->
+                    <!-\- begin research here: http://stackoverflow.com/questions/21603814/xslt-2-0-how-to-tokenize-values-of-multiple-elements-and-correlate-them-together -\->
                     <link>
-                        <from><xsl:value-of select="@n"/>zzz</from>
+                        <from><xsl:value-of select="."/></from>
                         <to><xsl:value-of select="."/></to>
+                            
                     </link>
                 </xsl:for-each>
                 </xsl:when>
-                <!--<xsl:when test="starts-with(@type,'2')">
-                    <xsl:for-each select="tokenize(substring-before(@xtargets,';'),' ')">
-                        <link>
-                            <from><xsl:value-of select="."/></from>
-                            <to></to>
-                        </link>
-                    </xsl:for-each>
-                </xsl:when>-->
+                
                 <xsl:otherwise>
                     aaa
                 </xsl:otherwise>
             </xsl:choose>
             
            
-                
-                <!--<xsl:for-each select="tokenize(@xtargets, ';')"><from><xsl:value-of select="."></xsl:value-of></from></xsl:for-each>-->
             
         </xsl:for-each>
-        </linkGrp>
+        </linkGrp>-->
+        
+        <xsl:for-each select="//link">
+            <xsl:choose>
+                <xsl:when test="starts-with(@type='0')"><!-- do nothing --></xsl:when>
+                <xsl:when test="starts-with(@type='1')">
+                   <!-- <xsl:analyze-string select="." regex=".">
+                        <xsl:matching-substring>
+                            <xsl:value-of select="." /><xsl:text>&#x323;</xsl:text>
+                        </xsl:matching-substring>
+                    </xsl:analyze-string>-->
+                </xsl:when>
+                <xsl:otherwise>
+                    <!-- any other number -->
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
         
     </xsl:template>
 </xsl:stylesheet>
