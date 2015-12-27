@@ -55,7 +55,7 @@ $(".tei_seg_side").clicktoggle(
         event.preventDefault();
         event.preventDefault();
         var classname = $(this).children().first().attr('class');
-        $('.' + classname).attr('style','background-color:purple;');
+        $('.' + classname).attr('style','background-color:#A3E0D5;');
         
             
     },

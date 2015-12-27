@@ -4,6 +4,7 @@
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0"
   exclude-result-prefixes="xsl tei xs">
   
+  <xsl:include href="config.xsl"/>
   <xsl:include href="dunning_shared.xsl"/>
 
 <xsl:param name="display_type"></xsl:param>
@@ -143,27 +144,61 @@
   <xsl:template match="/">
     <!-- find a better rule for matching bottom of document -->
     <html>
-      <head><title>Test Page</title>
+      <head><title>Side by Side view</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
         <link href="../../css/dunning.css" rel="stylesheet" type="text/css"/>
         <script src="../../js/dunning.js"> &#160; </script>
         <script src="../../js/dunning-sidebyside.js"> &#160; </script>
       </head>
-      <body class="dunning">
-        <ul class="side_by_side_nav">
+      <body class="dunning side_by_side">
+        
+        <div class="comparison_choice_container">
+          
+          <a>
+            <xsl:attribute name="href">?display_type=a</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
+            <span>De oratione dominica, original &amp; translation</span>
+          </a>
+          
+          <a>
+            <xsl:attribute name="href">?display_type=b</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
+            <span>De quinque septenis, original &amp; translation</span>
+          </a>
+          
+          <a>
+            <xsl:attribute name="href">?display_type=c</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
+            <span>De oratione dominica &amp; De quinque septenis (originals)</span>
+          </a>
+          
+          <a>
+            <xsl:attribute name="href">?display_type=d</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
+            <span>On the Lord’s Prayer &amp; On the Five Sevens (translations)</span>
+          </a>
+          
+          <a>
+            <xsl:attribute name="href">intro.dequinqueseptenis-deorationedominica.dunning.html</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
+            <span>Back to edition</span>
+          </a>
+        </div>
+         
+        
+      <!--  <ul class="side_by_side_nav">
           <li><a href="?display_type=a">De oratione dominica, original &amp; translation</a></li>
-          <li><a href="?display_type=b">De quinque septenis , original &amp; translation</a></li>
+          <li><a href="?display_type=b">De quinque septenis, original &amp; translation</a></li>
           <li><a href="?display_type=c">De oratione dominica &amp; De quinque septenis (originals)</a></li>
           <li><a href="?display_type=d">On the Lord’s Prayer &amp; On the Five Sevens (translations)</a></li>
           <li><a href="intro.dequinqueseptenis-deorationedominica.dunning.html">Back to edition</a></li>
-        </ul>
+        </ul>-->
 
         
         <div style="height:100%">
           <div style="width:50%; float:left; height:100%;">
             
-            <span class="tei_seg_side zzz" ><span class="yyy">This is a test of highlighting
-              <br class="br_diplomatic"></br><span class="tei_lb">&#160;</span></span></span>
+           
               
               
             <xsl:choose>
@@ -175,8 +210,7 @@
             </div>
           <div style="width:50%; float:right; height:100%;">
             
-            <span class="tei_seg_side zzz" ><span class="yyy">This is also a test of highlighting
-              <br class="br_diplomatic"></br><span class="tei_lb">&#160;</span></span></span>
+           
             
             <xsl:choose>
               <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>

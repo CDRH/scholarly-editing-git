@@ -116,6 +116,22 @@
     </div>
   </xsl:template>
   
+  <!-- This is here so it does not link in the side by side view. -->
+  
+  <xsl:template match="quote">
+    
+    <span class="quote" title="{@source}">
+      <a>
+        <xsl:attribute name="href">
+          <xsl:text>http://data.perseus.org/citations/</xsl:text>
+          <xsl:value-of select="@source"/>
+        </xsl:attribute>
+        
+        <xsl:apply-templates/>
+      </a>
+    </span>
+  </xsl:template>
+  
   <xsl:template match="/TEI/text[1]">
     
     
@@ -187,6 +203,8 @@
       </div>
       
     </xsl:if>
+    
+
     
    
     

@@ -1,3 +1,7 @@
+/* @override http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/css/dunning.css */
+
+/* @override http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/css/dunning.css */
+
 /* =======================================
 Dunning 
 ======================================= */
@@ -72,8 +76,21 @@ TEI Attributes and Elements
 	text-decoration: line-through;
 }
 
-.tei_attr_supraline {
-	text-decoration: overline
+.tei_attr_expunct {
+    text-decoration: none;
+    position: relative;
+}
+.tei_attr_expunct:after {
+    content: ' ';
+    font-size: inherit;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 40%;
+    bottom: 40%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .tei_attr_strikethrough {
@@ -88,11 +105,27 @@ TEI Attributes and Elements
 	background-color: #e0efed;
 }
 
+/* Double strikethrough: http://stackoverflow.com/questions/6395890/how-to-double-strikeout-a-text-in-html */
+.tei_attr_erased {
+    text-decoration: none;
+    position: relative;
+}
+.tei_attr_erased:after {
+    content: ' ';
+    font-size: inherit;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 40%;
+    bottom: 40%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
 /* .tei_attr_alt
 .tei_attr_hyphen
-.tei_attr_stroke
 .tei_attr_expunct
-.tei_attr_erased
 .tei_attr_overstrike
 .tei_attr_above
 .tei_attr_spaced
@@ -114,15 +147,35 @@ Other TEI Styling
 ======================================= */
 
 .tei_pb_label, 
-.tei_lb {
+.tei_lb,
+.tei_cb_label {
 	display: inline-block;
 	width: 50px;
 	margin-left: -50px;
 }
 
+
+
 /* ======================================= 
 Diplomatic vs regularized
 ======================================= */
+
+.dunning .regularized del {
+    display: none;
+}
+
+.dunning .diplomatic .tei_supplied_bracket,
+.dunning .diplomatic .tei_surplus_bracket{
+    display:none;
+}
+
+.dunning .diplomatic .tei_attr_stroke {
+	
+}
+
+.dunning .diplomatic .tei_attr_supraline {
+	text-decoration: overline
+}
 
 .dunning .diplomatic {
 }
@@ -202,6 +255,8 @@ Intro display
 /* =======================================
 Navigation/option display
 ======================================= */
+
+
 
 .orig_trans_toggle {
 }
@@ -294,6 +349,37 @@ Navigation/option display
 
 h4.options {
 	margin-right: .5em;
+}
+
+/* Side by Side View */
+
+.comparison_choice_container {
+	
+}
+
+.comparison_choice {
+	white-space: nowrap;
+	display: inline-block;
+	margin: 0 .5em .5em 0;
+	border: solid #aaa 1px;
+	padding: 0em .3em;
+	background-color: #d9e3e2;
+	color: #424d4c;
+	border: 1px solid #424d4c;
+	
+}
+
+.comparison_choice:hover {
+	background-color: #424d4c;
+	color: #fff;
+}
+
+.side_by_side {
+	font-size: 1em;
+}
+
+.side_by_side .main_content {
+	margin-left: 50px;
 }
 
 

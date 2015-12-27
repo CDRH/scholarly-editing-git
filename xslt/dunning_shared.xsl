@@ -35,7 +35,7 @@
   <xsl:text> tei_attr_</xsl:text><xsl:value-of select="."/>
 </xsl:template>
 
-    <xsl:template match="supplied"><span class="tei_supplied">&#10216;<xsl:apply-templates/>&#10217;</span></xsl:template>
+  <xsl:template match="supplied"><span class="tei_supplied"><span class="tei_supplied_bracket">&#10216;</span><xsl:apply-templates/><span class="tei_supplied_bracket">&#10217;</span></span></xsl:template>
     
     <xsl:template match="pc">
         <xsl:choose>
@@ -51,7 +51,7 @@
         
     </xsl:template>
   
-  <xsl:template match="hi | num | am | del | add | expan | am | ex" priority="1">
+  <xsl:template match="hi | num | am | add | expan | am | ex" priority="1">
     <span>
       <xsl:attribute name="class">
         <xsl:text> tei_</xsl:text><xsl:value-of select="name()"/>
@@ -71,14 +71,18 @@
                     <xsl:call-template name="rendrules"/>
                 </xsl:for-each>
             </xsl:attribute>
-            [<xsl:apply-templates/>]
+          
+          <span class="tei_surplus_bracket"><xsl:text>[</xsl:text></span>
+          <xsl:apply-templates/>
+          <span class="tei_surplus_bracket"><xsl:text>]</xsl:text></span>
+          
         </span>
     </xsl:template>
     
     <xsl:template match="abbr">
         
         <xsl:choose>
-            <xsl:when test="text() = 'l' and @rend = 'stroke'">
+          <xsl:when test="(text() = 'l' and @rend = 'stroke') and $type ='diplomatic'">
                 <!-- See issue https://github.com/CDRH/scholarly-editing-git/issues/15
                 That l<am>&#xF1C7;</am> should have been <abbr rend="stroke">l</abbr>. I would suggest rendering it as ł (U+0142) in the diplomatic view.-->
                 <span>
@@ -125,15 +129,10 @@
           <xsl:call-template name="rendrules"/>
         </xsl:for-each>
       </xsl:attribute>
-      ¶
+      <xsl:if test="contains(@rend,'paraph')"><xsl:text>¶</xsl:text></xsl:if>
+      
     </span>
-    <!--<div>
-      <xsl:attribute name="class">
-        <xsl:text>milestone </xsl:text>
-        <xsl:value-of select="@unit"/>
-      </xsl:attribute>
-      <xsl:text> </xsl:text>
-    </div>-->
+
   </xsl:template>
  
 
@@ -158,35 +157,8 @@
     </xsl:variable>
 
 <span class="tei_seg">
-   <!-- <xsl:choose>
-      <xsl:when test="@source">
-        <span id="l{translate(@source, '#:[]', '')}">
-          <a href="{$linksource}#l{translate(@source, '#:[]', '')}" class="orig_trans_link">
-            <xsl:text> [</xsl:text>
-            <xsl:value-of select="$linktext"/>
-            <xsl:text>] </xsl:text>
-          </a>
-        </span>
 
-        <xsl:apply-templates/>
-      </xsl:when>
-      
-        <xsl:when test="@xml:id">
-          <span id="l{translate(@xml:id, '#:[]', '')}">
-            <a href="{$linksource}#l{translate(@xml:id, '#:[]', '')}" class="orig_trans_link">
-              <xsl:text> [</xsl:text>
-              <xsl:value-of select="$linktext"/>
-              <xsl:text>] </xsl:text>
-            </a>
-          </span>
-          
-          <xsl:apply-templates/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>-->
-  <xsl:apply-templates></xsl:apply-templates>
+  <xsl:apply-templates/>
 </span>
 
   </xsl:template>
@@ -250,24 +222,17 @@
       
       <p><xsl:apply-templates select="head"/></p>
     
-    <!--<xsl:if test="$figures = 'true'">
-      <xsl:choose>
-        <!-\- Is this specific to everyweek, should it be in here? -KMD -\->
-        <xsl:when test="@n='flag'"/>
-        <xsl:otherwise>
-          <div class="inline_figure">
-            <div class="p">[illustration]</div>
-            <xsl:apply-templates/>
-          </div>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:if>-->
     </div>
   </xsl:template>
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Page breaks and page images
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  
+ <!-- <xsl:template match="cb">
+    <br/>
+    <span class="tei_cb_label"><xsl:value-of select="@n"/></span>
+  </xsl:template>-->
 
   <xsl:template match="pb">
     <br/>
@@ -612,63 +577,6 @@
   </xsl:template>
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Paragraphs
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-
-
-
-
-
-  <!-- todo - build a better sheet. Right now, paragraphs could appear in other paragraphs, need to find a way to account for the weirdest encoding -KMD -->
-  <!--<xsl:template match="p">
-   <p><xsl:apply-templates/></p>-->
-
-  <!--</xsl:template>-->
-
-
-
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Notes / Footnotes
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-  <!--<xsl:template match="note">
-    <xsl:choose>
-      <xsl:when test="@place='foot'">
-        <span>
-          <xsl:attribute name="class">
-            <xsl:text>foot</xsl:text>
-          </xsl:attribute>
-          <a>
-            <xsl:attribute name="href">
-              <xsl:text>#</xsl:text>
-              <xsl:text>foot</xsl:text>
-              <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-            <xsl:attribute name="id">
-              <xsl:text>body</xsl:text>
-              <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-
-            <xsl:text>(</xsl:text>
-            <xsl:value-of select="substring(@xml:id, 2)"/>
-            <xsl:text>)</xsl:text>
-          </a>
-        </span>
-      </xsl:when>
-      <xsl:when test="@type='editorial'"/>
-      <xsl:otherwise>
-        <div>
-          <xsl:attribute name="class">
-            <xsl:value-of select="name()"/>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </div>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>-->
-
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     References
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
@@ -763,23 +671,14 @@
         <xsl:value-of select="$number"/>
       </xsl:if>
       <xsl:text>&#160;</xsl:text>
+      <xsl:if test="preceding::*[1]/name() = 'cb'">
+        
+        <xsl:value-of select="preceding::cb[1]/@n"/>
+      </xsl:if>
     </span>
     <xsl:apply-templates/>
     
-    <!-- <xsl:choose>
-      <xsl:when test="$type='diplomatic'">
-        <xsl:apply-templates/>
-        <br class="br_diplomatic"/>
-      </xsl:when>
-      <xsl:when test="$type='regularized'">
-        <br class="br_regularized"/>
-        <xsl:apply-templates/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-        <br/>
-      </xsl:otherwise>
-    </xsl:choose> -->
+   
     
   </xsl:template>
 
@@ -855,26 +754,20 @@
     Quotes
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <xsl:template match="quote">
-    <!--<xsl:choose>
-      <xsl:when test="descendant::*[name() = 'lg']">
-        <blockquote>
-            <xsl:apply-templates/>
-        </blockquote>
-      </xsl:when>
-      <xsl:otherwise>
-        <blockquote>
-          <p>
-            <xsl:apply-templates/>
-          </p>
-        </blockquote>
-      </xsl:otherwise>
-    </xsl:choose>-->
+<!-- moved to main stylesheet so it does not appear in side by side view.  -->
+  <!--<xsl:template match="quote">
 
     <span class="quote" title="{@source}">
+      <a>
+        <xsl:attribute name="href">
+          <xsl:text>http://data.perseus.org/citations/</xsl:text>
+          <xsl:value-of select="@source"/>
+        </xsl:attribute>
+      
       <xsl:apply-templates/>
+      </a>
     </span>
-  </xsl:template>
+  </xsl:template>-->
 
   <xsl:template match="q">
     <span class="inline_quote">
@@ -928,22 +821,6 @@
     </span>
   </xsl:template>
 
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Add
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-  <!--<xsl:template match="add">
-    <xsl:choose>
-      <xsl:when test="@place='superlinear' or @place='supralinear'">
-        <sup>
-          <xsl:apply-templates/>
-        </sup>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>-->
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Delete
@@ -951,17 +828,30 @@
 
   <xsl:template match="del">
     <xsl:choose>
+      <xsl:when test="contains(@rend,'expunct')">
+       <del>
+        <xsl:analyze-string select="." regex=".">
+          <xsl:matching-substring>
+            <xsl:value-of select="." /><xsl:text>&#x323;</xsl:text>
+          </xsl:matching-substring>
+        </xsl:analyze-string>
+       </del>
+      </xsl:when>
       <xsl:when test="@type='overwrite'">
         <!-- Don't show overwritten text -->
       </xsl:when>
       <xsl:otherwise>
         <del>
-
-          <xsl:if test="@reason">
-            <xsl:attribute name="class">
+          <xsl:attribute name="class">
+            <xsl:if test="@reason">
               <xsl:value-of select="@reason"/>
-            </xsl:attribute>
-          </xsl:if>
+            </xsl:if>
+            <xsl:for-each select="tokenize(@rend, ' ')">
+              <xsl:call-template name="rendrules"/>
+            </xsl:for-each>
+          </xsl:attribute>
+
+          
 
 
           <xsl:apply-templates/>
@@ -994,17 +884,7 @@
 
   <!-- to fix - breaks over pagebreaks -KMD -->
   <xsl:template match="choice[child::orig]">
-    <!-- Hidden because it breaks over pagebreaks -->
-    <!--<a>
-      <xsl:attribute name="rel">
-        <xsl:text>tooltip</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="class">
-        <xsl:text>orig</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="title">
-        <xsl:apply-templates select="reg"/>​ </xsl:attribute><xsl:apply-templates select="orig"
-      /></a>​-->
+  
     <xsl:apply-templates select="orig"/>
   </xsl:template>
   
@@ -1012,21 +892,7 @@
     <span class="tei_reg"><xsl:apply-templates/></span>
   </xsl:template>
 
-  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Abbr and Expan
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-  <!--<xsl:template match="choice[child::abbr]">
-    <a>
-      <xsl:attribute name="rel">
-        <xsl:text>tooltip</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="class">
-        <xsl:text>abbr</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="title">
-        <xsl:apply-templates select="expan"/>​ </xsl:attribute><xsl:apply-templates select="abbr"
-      /></a>​</xsl:template>-->
+ 
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Damage
