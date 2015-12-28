@@ -4,68 +4,84 @@
     exclude-result-prefixes="xs"
     version="2.0">
     
+    <!-- steps for transforming document:
+    1: Use this XSL on BinyonDestree.original.translation.xml, changing code as needed for original or translation
+    
+    2: Copy resulting template rules into corresp_t_to_o.xsl or corresp_o_to_t.xsl and run that on BinyonDestree.original.xml or BinyonDestree.translation.xml
+    
+    3: final clean up: search and replace to remove xmlns="" and extra tei namespaces. (need to figure out how to make this step unnecessary)
+    -->
+    
+    
+    <!-- need to change substrings before and after below when you change this. Sorry for the laziness. -->
+    <xsl:variable name="doctype">t</xsl:variable>
+    <xsl:variable name="doctype-other">
+        <xsl:choose>
+            <xsl:when test="$doctype = 'o'">t</xsl:when>
+            <xsl:otherwise>o</xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+    
     <xsl:output indent="yes" />
+    
+    <xsl:template name="z">
+        <xsl:param name="y"/>
+        
+        <!-- if doctype = o substring-after
+             if doctype = t substring-before -->
+            <xsl:for-each select="tokenize(substring-before($y,';'),' ')">
+
+                <xsl:element name="xsl:template">
+                    <xsl:attribute name="match">
+                        <xsl:text>s[@xml:id='</xsl:text>
+                        <xsl:value-of select="$doctype"/>
+                        <xsl:value-of select="."/>
+                        <xsl:text>']</xsl:text>
+                    </xsl:attribute>
+                    <xsl:attribute name="exclude-result-prefixes">#all</xsl:attribute>
+                    
+                    
+                    <s>
+                        <xsl:attribute name="xml:id">
+                            <xsl:value-of select="$doctype"/><xsl:value-of select="."/>
+                        </xsl:attribute>
+                        <xsl:attribute name="n">
+                            <xsl:value-of select="."/>
+                        </xsl:attribute>
+                        <xsl:attribute name="corresp">
+                            <!-- if doctype = o substring-before
+                                 if doctype = t substring after-->
+                            <xsl:for-each select="tokenize(substring-after($y,';'),' ')">
+                            <xsl:value-of select="$doctype-other"/><xsl:value-of select="."/>
+                                <xsl:if test="position() != last()"><xsl:text> </xsl:text></xsl:if>
+                            </xsl:for-each>
+                        </xsl:attribute>
+                        <xsl:element name="xsl:apply-templates"/>
+                    </s>
+                    
+                </xsl:element>
+                
+            </xsl:for-each>
+        
+    </xsl:template>
+    
+    
     
     <xsl:template match="/">
         
-       <!-- <xsl:for-each-group select="//link/@type" group-by=".">
-            <xsl:sort select="."></xsl:sort>
-            <x><xsl:value-of select="current-grouping-key()"/></x>
-                   </xsl:for-each-group>-->
-       <!-- <linkGrp>
-        <xsl:for-each select="//link">
-            
-            <xsl:choose>
-                <xsl:when test="@type='1-1'">
-                    <link>
-                        <from><xsl:value-of select="substring-before(@xtargets,';')"></xsl:value-of></from>
-                        <to><xsl:value-of select="substring-after(@xtargets,';')"></xsl:value-of></to>
-                    </link>
-                </xsl:when>
-                <xsl:when test="starts-with(@type,'0')">
-                    <xsl:for-each select="tokenize(substring-after(@xtargets,';'),' ')">
-                        <link>
-                            <from>NULL</from>
-                            <to><xsl:value-of select="."/></to>
-                        </link>
-                    </xsl:for-each>
-                </xsl:when>
-                <xsl:when test="starts-with(@type,'1')">
-                <xsl:for-each select="tokenize(substring-after(@xtargets,';'),' ')">
-                    <!-\- begin research here: http://stackoverflow.com/questions/21603814/xslt-2-0-how-to-tokenize-values-of-multiple-elements-and-correlate-them-together -\->
-                    <link>
-                        <from><xsl:value-of select="."/></from>
-                        <to><xsl:value-of select="."/></to>
-                            
-                    </link>
-                </xsl:for-each>
-                </xsl:when>
+        <xsl:element name="xsl:stylesheet">
+
+            <xsl:for-each select="//link">
                 
-                <xsl:otherwise>
-                    aaa
-                </xsl:otherwise>
-            </xsl:choose>
-            
-           
-            
-        </xsl:for-each>
-        </linkGrp>-->
+                <xsl:if test="not(starts-with(@type,'0'))">
+                    <xsl:call-template name="z">
+                        <xsl:with-param name="y"><xsl:value-of select="@xtargets"/></xsl:with-param>
+                    </xsl:call-template>
+                </xsl:if>
         
-        <xsl:for-each select="//link">
-            <xsl:choose>
-                <xsl:when test="starts-with(@type='0')"><!-- do nothing --></xsl:when>
-                <xsl:when test="starts-with(@type='1')">
-                   <!-- <xsl:analyze-string select="." regex=".">
-                        <xsl:matching-substring>
-                            <xsl:value-of select="." /><xsl:text>&#x323;</xsl:text>
-                        </xsl:matching-substring>
-                    </xsl:analyze-string>-->
-                </xsl:when>
-                <xsl:otherwise>
-                    <!-- any other number -->
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:for-each>
+            </xsl:for-each>
+
+        </xsl:element>
         
     </xsl:template>
 </xsl:stylesheet>
