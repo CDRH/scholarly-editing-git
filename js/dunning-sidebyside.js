@@ -2,6 +2,11 @@
 dunning.js is included in html 
 */
 
+$(function () {
+    $('.thumbnail a').lightBox({
+        fixedNavigation: true
+    });
+});
 
 /*$(function () {
 $(".clicktext").parent().clicktoggle(

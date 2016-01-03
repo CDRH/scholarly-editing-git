@@ -52,6 +52,10 @@
                         <link href="{$siteroot}css/dunning.css" rel="stylesheet" type="text/css"/>
                         <script src="{$siteroot}js/dunning.js"> &#160; </script>
                     </xsl:when>
+                    <xsl:when test="contains($idno,'BinyonDestree')">
+                        <link href="{$siteroot}css/BinyonDestree.css" rel="stylesheet" type="text/css"/>
+                        <!--<script src="{$siteroot}js/BinyonDestree.js"> &#160; </script>-->
+                    </xsl:when>
                 </xsl:choose>
                 <script type="text/javascript">
 
@@ -70,6 +74,7 @@
                 <xsl:if test="$environment = 'development'"><style>body {background-color:#ff9300 ; border-top: solid 10px red;}</style></xsl:if>
             </head>
             <body>
+                
                 <div id="content">
                     <div class="nav">
                         <ul>
@@ -120,6 +125,20 @@
                                 </xsl:attribute>
 
                                 <xsl:apply-templates/>
+                            </div>
+                        </xsl:when>
+                        
+                        <!-- for 2016 Binyon/Destree edition -kmd -->
+                        <xsl:when test="contains($idno,'BinyonDestree.introduction')">
+                            <div class="edition">
+                            <div>
+                                <!-- apply a class of dunning to cover all of them and a class for the specific page -kmd -->
+                                <xsl:attribute name="class">
+                                    <xsl:value-of select="translate($idno,'.','_')"/>
+                                </xsl:attribute>
+                                
+                                <xsl:apply-templates/>
+                            </div>
                             </div>
                         </xsl:when>
                         

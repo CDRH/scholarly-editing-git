@@ -89,18 +89,12 @@
         
         <xsl:choose>
           <xsl:when test="@source">
-            <!--<span class="{translate(@source, '#:[]', '')}">
-              <xsl:apply-templates/>
-            </span>-->
             
             <span class="{substring-before(substring-after(@source, '#'), ':')}">
               <xsl:apply-templates/>
             </span>
           </xsl:when>
           <xsl:otherwise>
-            <!--<span class="{translate(@xml:id, '#:[]', '')}">
-              <xsl:apply-templates/>
-            </span>-->
             
             <span class="{@xml:id}">
               <xsl:apply-templates/>
@@ -109,34 +103,7 @@
         </xsl:choose>
         
         
-            
-            <!--<xsl:choose>
-                <xsl:when test="@source">
-                    <span id="{translate(@source, '#:[]', '')}" class="clicktext">
-                        <a href="#{translate(@source, '#:[]', '')}">
-                            <!-\-<xsl:text> [</xsl:text>
-                            <xsl:value-of select="$linktext"/>
-                            <xsl:text>] </xsl:text>-\->
-                        </a>
-                    </span>
-                    
-                    <xsl:apply-templates/>
-                </xsl:when>
-              <xsl:when test="@xml:id">
-                <span id="{translate(@xml:id, '#:[]', '')}" class="clicktext">
-                  <a href="#{translate(@xml:id, '#:[]', '')}">
-                    <!-\-<xsl:text> [</xsl:text>
-                    <xsl:value-of select="$linktext"/>
-                    <xsl:text>] </xsl:text>-\->
-                  </a>
-                </span>
-                
-                <xsl:apply-templates/>
-              </xsl:when>
-                <xsl:otherwise>
-                    <!-\-<xsl:apply-templates/>-\->
-                </xsl:otherwise>
-            </xsl:choose>-->
+          
             
         </span>
     </xsl:template>
@@ -146,7 +113,10 @@
     <html>
       <head><title>Side by Side view</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
+        <script src="../../js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js"> &#160; </script>
         <link href="../../css/dunning.css" rel="stylesheet" type="text/css"/>
+        <link href="../../js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css"/>
+        <!--<script src="../../js/javascript.js"> &#160; </script>-->
         <script src="../../js/dunning.js"> &#160; </script>
         <script src="../../js/dunning-sidebyside.js"> &#160; </script>
       </head>
@@ -184,16 +154,7 @@
             <span>Back to edition</span>
           </a>
         </div>
-         
-        
-      <!--  <ul class="side_by_side_nav">
-          <li><a href="?display_type=a">De oratione dominica, original &amp; translation</a></li>
-          <li><a href="?display_type=b">De quinque septenis, original &amp; translation</a></li>
-          <li><a href="?display_type=c">De oratione dominica &amp; De quinque septenis (originals)</a></li>
-          <li><a href="?display_type=d">On the Lord’s Prayer &amp; On the Five Sevens (translations)</a></li>
-          <li><a href="intro.dequinqueseptenis-deorationedominica.dunning.html">Back to edition</a></li>
-        </ul>-->
-
+ 
         
         <div style="height:100%">
           <div style="width:50%; float:left; height:100%;">
@@ -232,37 +193,12 @@
   </xsl:template>
   
   <xsl:template match="/TEI/text[1]">
-    
-    
-    
-    
+ 
     <div class="main_content">
-      <!--<xsl:choose>
-        <xsl:when test="$type='diplomatic'">
-          <!-\-<div class="diplomatic">-\->
-            <xsl:apply-templates/>
-          <!-\-</div>-\->
-        </xsl:when>
-        <xsl:when test="$type='regularized'">
-          <div class="regularized">
-            <!-\-<xsl:apply-templates/>-\->
-          </div>
-        </xsl:when>
-        <xsl:otherwise>-->
+
           <xsl:apply-templates/>
-        <!--</xsl:otherwise>
-      </xsl:choose>-->
+
     </div>
     
-    
   </xsl:template>
-  
-  
-   
-
-
-
-
-
-
 </xsl:stylesheet>

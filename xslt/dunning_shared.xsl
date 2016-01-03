@@ -5,6 +5,8 @@
     exclude-result-prefixes="xsl tei xs">
     
     <xsl:output indent="no"/>
+  
+  <xsl:param name="edition_type"></xsl:param>
 
   
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13,6 +15,7 @@
   
   <xsl:variable name="url_part">
     <xsl:choose>
+      <xsl:when test="$edition_type = 'sidebyside'"><xsl:text>sidebysite</xsl:text></xsl:when>
       <xsl:when test="$idno = 'deorationedominica' or $idno = 'deorationedominica.trans'">
         <xsl:text>de-oratione-dominica</xsl:text>
       </xsl:when>
@@ -253,12 +256,23 @@
             <xsl:when test="@n">
               
               <xsl:choose>
-                <xsl:when test="$url_part = 'de-oratione-dominica'">
+                <xsl:when test="normalize-space(/TEI/teiHeader/fileDesc/publicationStmt/idno[@type='file']) = 'deorationedominica'
+                  or normalize-space(/TEI/teiHeader/fileDesc/publicationStmt/idno[@type='file']) = 'deorationedominica.trans'">
                   <xsl:text>pembroke-115-</xsl:text>
                 </xsl:when>
-                <xsl:when test="$url_part = 'de-quinque-septenis'">
+                <xsl:when test="normalize-space(/TEI/teiHeader/fileDesc/publicationStmt/idno[@type='file']) = 'dequinqueseptenis'
+                  or normalize-space(/TEI/teiHeader/fileDesc/publicationStmt/idno[@type='file']) = 'dequinqueseptenis.trans'">
                   <xsl:text>mazarine-717-</xsl:text>
                 </xsl:when>
+                <!--<xsl:when test="$url_part = 'de-oratione-dominica'">
+                  <xsl:text>pembroke-115-</xsl:text>
+                </xsl:when>
+                <xsl:when test="$url_part = 'de-quinque-septenis' or $url_part = 'sidebyside'">
+                  <xsl:text>mazarine-717-</xsl:text>
+                </xsl:when>-->
+                <!--<xsl:otherwise>
+                  <xsl:text>mazarine-717-</xsl:text>
+                </xsl:otherwise>-->
               </xsl:choose>
               
               <xsl:value-of select="@n"/>
@@ -282,7 +296,7 @@
         <!--<span class="tei_pb_label"><xsl:value-of select="@n"/></span>-->
       <span>
         <xsl:attribute name="class">
-          <xsl:text>pageimage</xsl:text>
+          <xsl:text>pageimage thumbnail</xsl:text>
         </xsl:attribute>
 
         <a>
@@ -728,13 +742,10 @@
       </div>
     </xsl:if>
     <xsl:choose>
-      <xsl:when test="@type='handwritten'">
-        <ul>
-          <xsl:attribute name="class">
-            <xsl:text>handwritten</xsl:text>
-          </xsl:attribute>
+      <xsl:when test="@type='ordered'">
+        <ol>
           <xsl:apply-templates select="item"/>
-        </ul>
+        </ol>
       </xsl:when>
       <xsl:otherwise>
         <ul>

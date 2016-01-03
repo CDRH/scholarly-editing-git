@@ -428,7 +428,31 @@ Other HTML
 	font-weight: 100;
 	padding-top: 0px;
 	z-index: 1;
+	margin-top:0;
 }
+
+ul.li {
+    list-style-type: disc;
+}
+
+ol.li {
+    list-style-type: decimal;
+}
+
+ol {list-style-type: decimal;}
+
+
+.intro_dequinqueseptenis-deorationedominica p {
+    text-indent: 1.5em;
+}
+
+
+div.notesList div.note {
+  text-indent: -1em;
+padding-left: 1em;
+display:block;
+} 
+
 
 
 

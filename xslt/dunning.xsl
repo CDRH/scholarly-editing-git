@@ -67,7 +67,7 @@
         <a href="de-quinque-septenis.dunning.html?type=diplomatic">De quinque septenis (On the Five Sevens)</a>
       </li>
       <li id="editionNav4">
-        <a href="de-oratione-dominica.dunning-sidebyside.html?display_type=a">Side by Side View</a>
+        <a href="dunning-sidebyside.html?display_type=a">Side by Side View</a>
       </li>
       
 
