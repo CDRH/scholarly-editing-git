@@ -1179,6 +1179,7 @@ by bots, spammers, and other evildoers -->
                                         <xsl:attribute name="class">ref<xsl:value-of select="@n"
                                              /></xsl:attribute>
                                     </xsl:if>
+                                    <xsl:if test="@rend='new'"><xsl:attribute name="target">_blank</xsl:attribute></xsl:if>
                                     <xsl:apply-templates />
                                 </a>
                             </xsl:otherwise>
