@@ -566,7 +566,27 @@
         </blockquote>
     </xsl:template>
 
-
+<!-- letter elements for the letters to the editor -->
+    <xsl:template match="//tei:opener">
+        <span class="opener">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="//tei:closer">
+        <span class="closer">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="//tei:signed">
+        <span class="signed">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="//tei:dateline">
+        <span class="dateline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
     <!-- simple lists -->
     <xsl:template match="//tei:list">
