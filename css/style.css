@@ -700,6 +700,14 @@ span.opener, span.closer {display: block; text-align: center; font-size: .75em;
 	
 }
 
+.youngidea .opener {
+	display: block; text-align: left; font-size: inherit;
+}
+
+.youngidea .closer, .youngidea .signed, .youngidea .dateline {
+	display: block; text-align: right; font-size: inherit;
+}
+
 span.fw_divider {display: block; text-align: center;
 	
 }
