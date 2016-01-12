@@ -405,11 +405,11 @@
             <xsl:when test="attribute::ref">
                 <xsl:variable name="persNameID">
                     <xsl:value-of select="substring-after(@ref, '#')" />
-                </xsl:variable><div class="showNote">
+                </xsl:variable><span class="showNote">
                     <a href="#" onclick="return false;" class="personNote">
                         <xsl:apply-templates />
                     </a>
-                </div>
+                </span>
                 <span>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote"><xsl:text>X</xsl:text></a>
@@ -439,9 +439,9 @@
                     <xsl:value-of select="substring-after(@ref,'#')"/>
                 </xsl:variable>
                 
-                <div class="showNote">
+                <span class="showNote">
                     <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
-                </div>
+                </span>
                 <span>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote">X</a>
@@ -475,9 +475,9 @@
                     <xsl:value-of select="substring-after(@ref,'#')"/>
                 </xsl:variable>
                 
-                <div class="showNote">
+                <span class="showNote">
                     <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
-                </div>
+                </span>
                 <span>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote">X</a>
