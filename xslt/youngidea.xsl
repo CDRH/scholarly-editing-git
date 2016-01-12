@@ -410,9 +410,9 @@
                         <xsl:apply-templates />
                     </a>
                 </div>
-                <div>
+                <span style="margin:0; padding:0;">
                     <xsl:attribute name="class">appEntry</xsl:attribute>
-                    <a href="#" class="closenote">X</a>
+                    <a href="#" class="closenote"><xsl:text>X</xsl:text></a>
                     <xsl:for-each
                         select="document('../2016/editions/youngidea/personography.youngidea.xml')//tei:person">
                         <xsl:if test="child::tei:persName//attribute::xml:id = $persNameID">
@@ -424,15 +424,12 @@
                                     <xsl:apply-templates select="child::tei:note" />
                                 </span>
                             </div>
-                        </xsl:if>
-                    </xsl:for-each>
-                </div>
+                        </xsl:if></xsl:for-each></span>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates />
             </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+        </xsl:choose></xsl:template>
 
     <xsl:template match="//tei:body//mi:shipName">
         
