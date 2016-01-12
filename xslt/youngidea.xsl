@@ -410,7 +410,7 @@
                         <xsl:apply-templates />
                     </a>
                 </div>
-                <span style="margin:0; padding:0;">
+                <span>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote"><xsl:text>X</xsl:text></a>
                     <xsl:for-each
@@ -442,7 +442,7 @@
                 <div class="showNote">
                     <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
                 </div>
-                <div>
+                <span>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote">X</a>
                     
@@ -459,7 +459,7 @@
                         </xsl:if>
                     </xsl:for-each>
                     
-                </div>
+                </span>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
@@ -478,7 +478,7 @@
                 <div class="showNote">
                     <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
                 </div>
-                <div>
+                <span>
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote">X</a>
                     
@@ -500,7 +500,7 @@
                         </xsl:if>
                     </xsl:for-each>
                     
-                </div>
+                </span>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
