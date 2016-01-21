@@ -1,10 +1,18 @@
-/* @override http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/css/dunning.css */
-
-/* @override http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/css/dunning.css */
-
 /* =======================================
 Dunning 
 ======================================= */
+
+/*light highlight: #d9e3e2;
+darker highlight: #424d4c;*/
+
+.tei_attr_hand {
+    background-color:#d9e3e2;
+}
+
+/*.tei_hand_attr_B{background-color:red; display:none;}
+.tei_hand_attr_thin{background-color:blue;}*/
+
+
 
 @font-face {
     font-family: 'andron_scriptor_webregular';

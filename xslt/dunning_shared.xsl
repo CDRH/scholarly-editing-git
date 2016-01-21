@@ -61,10 +61,17 @@
         <xsl:for-each select="tokenize(@rend, ' ')">
           <xsl:call-template name="rendrules"/>
         </xsl:for-each>
+       <xsl:if test="@hand">
+         <xsl:text> tei_attr_hand tei_hand_attr_</xsl:text>
+         <xsl:value-of select="translate(@hand,'#','')"/>
+       </xsl:if>
       </xsl:attribute>
       <xsl:apply-templates/>
     </span>
   </xsl:template>
+  
+ 
+  
     
     <xsl:template match="surplus">
         <span>
@@ -372,25 +379,9 @@
           <xsl:text> </xsl:text>
           <xsl:value-of select="@rend"/>
         </xsl:if>
-        <!--<xsl:if test="not(parent::p)"><xsl:text> p</xsl:text></xsl:if>-->
-        <!-- this is breaking some displays but commeting it out might break others. May need more consideration -todo KMD -->
+        
       </xsl:attribute>
-      <xsl:choose>
-        <!-- This is for CWW, check to see if this is done correctly, will it add two handwritten classses? -KMD -->
-        <xsl:when test="@type='handwritten'">
-          <span>
-            <xsl:attribute name="class">
-              <xsl:text>handwritten</xsl:text>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-          </span>
-        </xsl:when>
-        <xsl:otherwise>
           <xsl:apply-templates/>
-        </xsl:otherwise>
-      </xsl:choose>
-      <!-- Don't know why this was here, commenting out for now -KMD -->
-      <!--<xsl:text> </xsl:text>-->
     </span>
   </xsl:template>
 
@@ -410,7 +401,7 @@
   <!-- Div types for styling -->
   <!-- directly from CWW - should we keep, is there a better way? -KMD -->
 
-  <xsl:template match="div1 | div2">
+  <!--<xsl:template match="div1 | div2">
     <xsl:choose>
       <xsl:when test="@type='html'">
         <xsl:copy-of select="."/>
@@ -443,7 +434,7 @@
     </xsl:choose>
 
 
-  </xsl:template>
+  </xsl:template>-->
 
   <!-- SPAN's -->
 
@@ -472,7 +463,7 @@
 
 
 
- 
+
 
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -482,7 +473,7 @@
   <!-- Started heads at h3 because h1 is the site title and h2 is normally the page title, which is normally pulled from solr or a database.  -->
 
   <xsl:template match="head">
-    <!-- need to fix for handwritten text -KD -->
+    
 
     <xsl:choose>
       <xsl:when test="@rend='red'">
@@ -702,21 +693,10 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <xsl:template match="table">
-    <xsl:choose>
-      <xsl:when test="@rend='handwritten'">
-        <table>
-          <xsl:attribute name="class">
-            <xsl:text>handwritten</xsl:text>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </table>
-      </xsl:when>
-      <xsl:otherwise>
+   
         <table>
           <xsl:apply-templates/>
         </table>
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="row">
@@ -877,16 +857,33 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <xsl:template match="choice[child::corr]">
-    <a>
-      <xsl:attribute name="rel">
-        <xsl:text>tooltip</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="class">
-        <xsl:text>sic</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="title">
-        <xsl:apply-templates select="corr"/>​ </xsl:attribute><xsl:apply-templates select="sic"/>
-    </a> ​</xsl:template>
+    <xsl:choose>
+      <xsl:when test="$type ='diplomatic'">
+        <span>
+          <xsl:attribute name="rel">
+            <xsl:text>tooltip</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:text>sic</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="title">
+            <xsl:apply-templates select="corr"/>​ </xsl:attribute><xsl:apply-templates select="sic"/>
+        </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <span>
+          <xsl:attribute name="rel">
+            <xsl:text>tooltip</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:text>sic</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="title">
+            <xsl:apply-templates select="corr/@resp"/>​ </xsl:attribute><xsl:apply-templates select="corr"/>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
+     ​</xsl:template>
 
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

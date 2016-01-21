@@ -46,6 +46,8 @@ $(".highlight_quotes").clicktoggle(
 );
 }); 
 
+
+
 $(function () {
     $(".line_breaks").clicktoggle(
         function () {
@@ -64,6 +66,24 @@ $(function () {
         }
     );
 });
+
+$(function () {
+$(".tei_hand_attr_B").hide();
+$(".handwritten_text").clicktoggle(
+    function () {
+        event.preventDefault();
+        $(this).text("Hide Handwritten Text");
+        $(".tei_hand_attr_B").show();
+        $(this).addClass("selected");
+    },
+    function () {
+        event.preventDefault();
+        $(this).text("Display Handwritten Text");
+        $(".tei_hand_attr_B").hide();
+        $(this).removeClass("selected");
+    }
+);
+}); 
 
 /*$(function () {
     $(".translation_links").clicktoggle(

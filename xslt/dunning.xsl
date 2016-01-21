@@ -61,10 +61,10 @@
         <a href="intro.dequinqueseptenis-deorationedominica.dunning.html">Introduction</a>
       </li>
       <li id="editionNav2">
-        <a href="de-oratione-dominica.dunning.html?type=diplomatic">De oratione dominica (On the Lord’s Prayer)</a>
+        <a href="de-oratione-dominica.dunning.html?type=regularized">De oratione dominica (On the Lord’s Prayer)</a>
       </li>
       <li id="editionNav3">
-        <a href="de-quinque-septenis.dunning.html?type=diplomatic">De quinque septenis (On the Five Sevens)</a>
+        <a href="de-quinque-septenis.dunning.html?type=regularized">De quinque septenis (On the Five Sevens)</a>
       </li>
       <li id="editionNav4">
         <a href="dunning-sidebyside.html?display_type=a">Side by Side View</a>
@@ -124,7 +124,13 @@
       <a>
         <xsl:attribute name="href">
           <xsl:text>http://data.perseus.org/citations/</xsl:text>
-          <xsl:value-of select="@source"/>
+          <xsl:choose>
+            <xsl:when test="contains(@source,' ')">
+              <xsl:value-of select="substring-before(@source,' ')"/>
+            </xsl:when>
+            <xsl:otherwise><xsl:value-of select="@source"/></xsl:otherwise>
+          </xsl:choose>
+          
         </xsl:attribute>
         
         <xsl:apply-templates/>
@@ -153,23 +159,23 @@
             </a>
             <xsl:if test="$idno = 'deorationedominica' or $idno = 'dequinqueseptenis'">
               <div class="reg_dip_toggle">
-                <div class="diplomatic_toggle_container">
-                  <a>
-                    <xsl:attribute name="href"><xsl:value-of select="$url_part"/><xsl:text>.dunning.html?type=diplomatic</xsl:text></xsl:attribute>
-                    <xsl:attribute name="class">
-                      <xsl:text>diplomatic_toggle toggle toggleleft</xsl:text>
-                      <xsl:if test="$type='diplomatic'"> selected</xsl:if>
-                    </xsl:attribute>
-                    <span>Diplomatic</span></a>
-                </div>
                 <div class="regularized_toggle_container">
                   <a>
                     <xsl:attribute name="href"><xsl:value-of select="$url_part"/><xsl:text>.dunning.html?type=regularized</xsl:text></xsl:attribute>
                     <xsl:attribute name="class">
-                      <xsl:text>diplomatic_toggle toggle toggleright</xsl:text>
+                      <xsl:text>diplomatic_toggle toggle toggleleft</xsl:text>
                       <xsl:if test="$type='regularized'"> selected</xsl:if>
                     </xsl:attribute>
                     <span>Regularized</span></a>
+                </div>
+                <div class="diplomatic_toggle_container">
+                  <a>
+                    <xsl:attribute name="href"><xsl:value-of select="$url_part"/><xsl:text>.dunning.html?type=diplomatic</xsl:text></xsl:attribute>
+                    <xsl:attribute name="class">
+                      <xsl:text>diplomatic_toggle toggle toggleright</xsl:text>
+                      <xsl:if test="$type='diplomatic'"> selected</xsl:if>
+                    </xsl:attribute>
+                    <span>Diplomatic</span></a>
                 </div>
               </div>
             </xsl:if>
@@ -193,10 +199,15 @@
               <xsl:attribute name="href">#</xsl:attribute>
               <xsl:attribute name="class"><xsl:text>line_breaks button</xsl:text></xsl:attribute>
               <span>Disable Line Breaks</span></a>
+            
             <a>
               <xsl:attribute name="href">#</xsl:attribute>
+              <xsl:attribute name="class"><xsl:text>handwritten_text button</xsl:text></xsl:attribute>
+              <span>Display Handwritten Text</span></a>
+            <!--<a>
+              <xsl:attribute name="href">#</xsl:attribute>
               <xsl:attribute name="class"><xsl:text>translation_links button</xsl:text></xsl:attribute>
-              <span>Hide Translation Links</span></a>
+              <span>Hide Translation Links</span></a>-->
           </div>
         </div>
         
