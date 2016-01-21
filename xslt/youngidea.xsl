@@ -172,11 +172,24 @@
 
     <!-- Special <head> @types -->
     <xsl:template match="//tei:text//tei:head">
-        <h1>
-            
-            <xsl:apply-templates/>
-        </h1>
-       </xsl:template>
+        <xsl:choose>
+            <xsl:when test="@type = 'main'">
+                <h1>
+                    <xsl:apply-templates />
+                </h1>
+            </xsl:when>
+            <xsl:when test="@type = 'sub'">
+                <h2>
+                    <xsl:apply-templates />
+                </h2>
+            </xsl:when>
+            <xsl:otherwise>
+                <h1>
+                    <xsl:apply-templates />
+                </h1>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 
 
 
