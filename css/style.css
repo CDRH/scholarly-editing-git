@@ -209,6 +209,8 @@ div.edition h2 {
 	margin-bottom: 20px;
 }
 
+
+
 div.edition div.notesList h2 {
 	text-align: left;
 	font-size: 2em;
@@ -2731,6 +2733,10 @@ div.edition div.youngidea table tbody tr td {
 
 .youngidea tr.cells_3 td {
 	width: 33%;
+}
+
+div.youngidea h2 {
+	display: block; text-align: center; margin-right: 0px; margin-bottom: 0px; font-size: 1.5em;
 }
 
 /*.youngidea tr.cells_5 td {
