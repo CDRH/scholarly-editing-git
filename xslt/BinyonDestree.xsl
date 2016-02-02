@@ -5,6 +5,10 @@
     
     <xsl:param name="page_type"/>
     
+    <xsl:param name="fig_location">
+        <xsl:text>BinyonDestree/figures/</xsl:text>
+    </xsl:param>
+    
     <xsl:include href="base.xsl"/>
     <xsl:include href="BinyonDestree_shared.xsl"/>
     

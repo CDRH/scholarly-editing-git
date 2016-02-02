@@ -43,7 +43,40 @@
     
     <xsl:template match="tei:supplied"><xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></xsl:template>
     
-    
+    <xsl:template match="tei:graphic">
+        <xsl:variable name="figure_id"><xsl:value-of select="substring-before(graphic/@url)"/></xsl:variable>
+        <div class="tei_graphic">
+            <xsl:attribute name="href">
+                <xsl:value-of select="$fig_location"/>
+                <xsl:text>large/</xsl:text>
+                <xsl:value-of select="$figure_id"/>
+                <xsl:text>.jpg</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="rel">
+                <xsl:text>prettyPhoto[pp_gal]</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="title">
+                <xsl:text>&lt;a href="</xsl:text>
+                <xsl:value-of select="$fig_location"/>
+                <xsl:text>large/</xsl:text>
+                <xsl:value-of select="$figure_id"/>
+                <xsl:text>.jpg</xsl:text>
+                <xsl:text>" target="_blank" &gt;open image in new window&lt;/a&gt;</xsl:text>
+            </xsl:attribute>
+            
+            <img>
+                <xsl:attribute name="src">
+                    <xsl:value-of select="$fig_location"/>
+                    <xsl:text>large/</xsl:text>
+                    <xsl:value-of select="$figure_id"/>
+                    <xsl:text>.jpg</xsl:text>
+                </xsl:attribute>
+                <xsl:attribute name="class">
+                    <xsl:text>display</xsl:text>&#160; </xsl:attribute>
+            </img>
+        </div>
+        
+    </xsl:template>
   
     
     <xsl:template match="tei:date">
