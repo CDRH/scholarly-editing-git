@@ -11,7 +11,25 @@
     <xsl:template name="essayNav" />
     <xsl:template name="witnessName"> </xsl:template>
 
-    <xsl:template match="tei:head"><h2><xsl:apply-templates/></h2></xsl:template>
+    <xsl:template match="tei:head">
+        <xsl:choose>
+            <xsl:when test="@type='main' or @type='sub'">
+                <!-- Removing from here because it's in the title bar above. Have added section title elsewhere. -->
+            </xsl:when>
+            <xsl:otherwise>
+                <h2>
+                    <xsl:attribute name="id">
+                        <xsl:text>letter_</xsl:text>
+                        <xsl:value-of select="translate(normalize-space(//tei:idno[@type='file']),'.','')"/>
+                        <xsl:text>_</xsl:text>
+                        <xsl:value-of select="../@n"/>
+                    </xsl:attribute>
+                    <xsl:apply-templates/>
+                </h2>
+            </xsl:otherwise>
+        </xsl:choose>
+        
+    </xsl:template>
     
     <xsl:template match="tei:s" priority="1">
        

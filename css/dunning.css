@@ -2,6 +2,63 @@
 Dunning 
 ======================================= */
 
+/* Masthead */
+.compressedMasthead {
+	
+	height: 50px;
+	
+	margin: 10px; 
+	background-color: white; 
+	padding: 10px; 
+	float: left; 
+	border-radius: 6px
+	
+}
+
+.sidebysideEditionHeader {
+    background-color:#424e4d;
+    color:#fff;
+    overflow:auto;
+    margin: -10px -10px 0 -10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.sidebysideEditionHeader h1 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    padding:0;
+    margin:5px 0  0 5px;
+}
+
+.sidebysideEditionHeader .author {
+    float:right;
+    font-size:1.2em;
+}
+
+.comparison_choice_container {
+    background-color: #efefef;
+    clear:both;
+    margin:0 -5px;
+    padding:10px 10px 0 10px;
+}
+
+/* Intro adjustments */
+
+ol li, ul li {
+    line-height: 1.2em;
+}
+
+ul li {
+    
+}
+
+ul {
+    list-style-type: circle;
+}
+
+tei_l poem_line
+
+
 /*light highlight: #d9e3e2;
 darker highlight: #424d4c;*/
 
@@ -13,6 +70,17 @@ darker highlight: #424d4c;*/
 .tei_hand_attr_thin{background-color:blue;}*/
 
 
+.frontmatter h1 {
+    font-size: 1.8em;
+}
+
+.frontmatter .byline {
+    font-size: 1.2em;
+}
+
+.intro_dequinqueseptenis-deorationedominica {
+    padding: .10px 100px 0px 100px;
+}
 
 @font-face {
     font-family: 'andron_scriptor_webregular';
@@ -46,8 +114,23 @@ reset fonts and spacing for dunning edition
 .dunning, .dunning h3 {
 	font-family: andron_scriptor_webregular, quiviraregular;
 	text-transform: none;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	line-height: 1.3em;
+}
+
+.dunning h1,
+.dunning h2,
+.dunning h3,
+.dunning h4,
+.dunning h5,
+.dunning h6 {
+    margin-top: .5em !important;
+}
+
+.dunning .bibliography p {
+    text-indent:-2em;
+    margin:0 0 0 2em;
+    padding:0;
 }
 
 /* =======================================
@@ -113,6 +196,10 @@ TEI Attributes and Elements
 	background-color: #e0efed;
 }
 
+.dunning_c .tei_seg_side, .dunning_d .tei_seg_side {
+    background-color: transparent;
+}
+
 /* Double strikethrough: http://stackoverflow.com/questions/6395890/how-to-double-strikeout-a-text-in-html */
 .tei_attr_erased {
     text-decoration: none;
@@ -146,7 +233,6 @@ TEI Attributes and Elements
 .tei_am
 .tei_add
 .tei_expan
-.tei_am
 .tei_ex
 .tei_seg /*
 
@@ -203,14 +289,10 @@ Diplomatic vs regularized
 }
 
 .dunning .regularized .tei_surplus {
-	display: none;
+	/*display: none;*/
 }
 
 .dunning .regularized .tei_attr_hyphen {
-	display: none;
-}
-
-.dunning .regularized .tei_surplus {
 	display: none;
 }
 
@@ -264,7 +346,13 @@ Intro display
 Navigation/option display
 ======================================= */
 
-
+.controls_dunning {
+    padding: 5px;
+    font-size: .8em;
+    border: solid 1px #6e978f;
+    line-height: 1.2em;
+    background-color:#efefef;
+}
 
 .orig_trans_toggle {
 }
@@ -313,6 +401,7 @@ Navigation/option display
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	margin-right: .5em;
+	
 }
 
 .toggleright {
@@ -403,8 +492,9 @@ Poetry
 	margin: 0;
 	font-size: 1em;
 }
-
-.dunning span.poem_line {
+.deorationedominica span.poem_line, 
+.dequinqueseptenis span.poem_line, 
+.side_by_side span.poem_line {
 	font-size: 1.4em;
 	padding: 0px;
 	padding: .5em 0 0em 0;
@@ -416,6 +506,8 @@ Poetry
 	padding: 0;
 	display: inline;
 }
+
+q { quotes: "“" "”" "‘" "’"; }
 
 /* =======================================
 Other HTML

@@ -128,11 +128,24 @@
       </head>
       <body class="BinyonDestree side_by_side">
         
+        <div class="sidebysideEditionHeader">
+          
+          <div class="compressedMasthead">
+            <a href="http://www.scholarlyediting.org/"><img src="images/compressed_logo.png"/></a>
+            
+          </div>
+          
+          
+          <h1 class="editionTitle">A Transnational Literary Network Around 1900: The Correspondence between Laurence Binyon and Olivier-Georges Destrée</h1><span class="author">Edited by Eloise Forestier, Gero Guttzeit, and Marysa Demoor</span></div>
+        
+        
+        <div class="comparison_choice_container">
         <a>
           <xsl:attribute name="href">BinyonDestree.html</xsl:attribute>
           <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
           <span>Back to edition</span>
         </a>
+        </div>
           
           <xsl:for-each select="//body/div">
             <div class="sidebyside_set">

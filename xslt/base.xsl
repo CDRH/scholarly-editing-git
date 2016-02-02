@@ -252,8 +252,31 @@
     </xsl:when>
     
     <xsl:otherwise><div class="editionHeader">
+        
+        <!-- Karin is adding her titles for Domina and Binyon here because :( -KMD -->
+        <xsl:if test="contains($idno,'BinyonDestree') or contains($idno,'deorationedominica') or contains($idno,'dequinqueseptenis')">
+            <xsl:choose>
+                <xsl:when test="contains($idno,'BinyonDestree')">
+                    <h1 class="editionTitle">A Transnational Literary Network Around 1900: The Correspondence between Laurence Binyon and Olivier-Georges Destrée</h1>
+                    <span class="editor">Edited by Eloise Forestier, Gero Guttzeit, and Marysa Demoor</span>
+                </xsl:when>
+                <xsl:otherwise>
+                    <h1 class="editionTitle">Hugh of St Victor's <em>De quinque septenis</em> (<em>On the Five Sevens</em>) and its Versification in Samuel Presbiter's <em>De oratione dominica</em> (<em>On the Lord's Prayer</em>)</h1>
+                    <span class="editor">Edited by Andrew Dunning (University of Toronto)</span>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+         
+                
+        </xsl:if>
+        
+        
             <xsl:for-each select="child::tei:title">
                 <xsl:choose>
+                    <!-- Remove here in favor of above -kmd -->
+                    <xsl:when test="contains($idno,'BinyonDestree') or contains($idno,'deorationedominica') or contains($idno,'dequinqueseptenis')">
+                        <!-- Do Nothing -->
+                    </xsl:when>
                     <xsl:when test="attribute::type='sub'"/>
                     <xsl:otherwise>
                         <h1 class="editionTitle">
@@ -265,6 +288,11 @@
             <xsl:for-each select="child::tei:author">
                 <span class="author">by <xsl:apply-templates/></span>
             </xsl:for-each>
+        <!-- For Karin's edition do nothing here, handled above -kmd  -->
+        <xsl:if test="contains($idno,'BinyonDestree') or contains($idno,'deorationedominica') or contains($idno,'dequinqueseptenis')">
+         <!-- Do nothing --> 
+        </xsl:if>
+        
             <xsl:apply-templates select="child::tei:editor"/>
             <span class="editionNav">
                 <xsl:choose>
@@ -285,9 +313,13 @@
 </xsl:choose>
         
     </xsl:template>
-    <!-- renders name(s) of editors -->
+    
     <xsl:template match="//tei:titleStmt/child::tei:editor">
+        
         <xsl:choose>
+            <xsl:when test="contains($idno,'BinyonDestree') or contains($idno,'deorationedominica') or contains($idno,'dequinqueseptenis')">
+                <!-- do nothing, because I can't figure out how to make it work with this match rule :( -kmd -->
+            </xsl:when>
             <xsl:when test="./following-sibling::tei:editor">
                 <span class="editor">Edited by <xsl:value-of select="."/> and <xsl:value-of
                         select="following-sibling::tei:editor"/></span>

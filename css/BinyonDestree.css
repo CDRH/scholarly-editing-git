@@ -1,3 +1,66 @@
+/* Masthead */
+.compressedMasthead {
+	
+	height: 50px;
+	
+	margin: 10px; 
+	background-color: white; 
+	padding: 10px; 
+	float: left; 
+	border-radius: 6px
+	
+}
+
+.sidebysideEditionHeader {
+    background-color:#424e4d;
+    color:#fff;
+    overflow:auto;
+    margin: -10px -10px 0 -10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.sidebysideEditionHeader h1 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    padding:0;
+    margin:5px 0  0 5px;
+}
+
+.sidebysideEditionHeader .author {
+    float:right;
+    font-size:1.2em;
+}
+
+.comparison_choice_container {
+    background-color: #efefef;
+    clear:both;
+    margin:0 -5px;
+    padding:10px 10px 0 10px;
+}
+
+.frontmatter {
+   
+}
+
+.frontmatter h1 {
+    font-size: 2.5em !important;
+    text-align:left !important;
+}
+
+.frontmatter .byline {
+    font-size: 1.5em !important;
+    text-align:right !important;
+    font-weight:100;
+    margin-bottom: 1em !important;
+}
+
+.frontmatter:first-child {
+     padding:0 0 0 0 !important;
+    margin:0 !important;
+}
+
+/* ---------- */
+
 
 @font-face {
    	font-family: 'GoudyBookletter1911Regular';
@@ -9,6 +72,24 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+
+
+dt {
+    
+}
+
+dd {margin: 0 0 1em 2em;}
+
+.page_title {
+  font-size:3em;
+  padding:.3em 0 .2em 0;
+  }
+  
+ .binyondestree_edition {
+     padding: .10px 100px 0px 100px;
+ } 
+
 
 /* Binyon Destree side by side view*/
 .corresponded {

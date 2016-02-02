@@ -120,32 +120,47 @@
         <script src="../../js/dunning.js"> &#160; </script>
         <script src="../../js/dunning-sidebyside.js"> &#160; </script>
       </head>
-      <body class="dunning side_by_side">
+      <body class="dunning side_by_side dunning_{$display_type}">
+        
+        
+        
+        
+        
+        <div class="sidebysideEditionHeader">
+          
+          <div class="compressedMasthead">
+            <a href="http://www.scholarlyediting.org/"><img src="images/compressed_logo.png"/></a>
+            
+          </div>
+          
+          
+          <h1 class="editionTitle">Hugh of St Victor's De quinque septenis (On the Five Sevens) and its Versification in Samuel Presbiter's De oratione dominica (On the Lord's Prayer)</h1><span class="author">edited by Andrew Dunning (University of Toronto)</span></div>
+        
+        
         
         <div class="comparison_choice_container">
-          
           <a>
             <xsl:attribute name="href">?display_type=a</xsl:attribute>
-            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
-            <span>De oratione dominica, original &amp; translation</span>
-          </a>
-          
-          <a>
-            <xsl:attribute name="href">?display_type=b</xsl:attribute>
-            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
-            <span>De quinque septenis, original &amp; translation</span>
-          </a>
-          
-          <a>
-            <xsl:attribute name="href">?display_type=c</xsl:attribute>
             <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
             <span>De oratione dominica &amp; De quinque septenis (originals)</span>
           </a>
           
           <a>
-            <xsl:attribute name="href">?display_type=d</xsl:attribute>
+            <xsl:attribute name="href">?display_type=b</xsl:attribute>
             <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
             <span>On the Lord’s Prayer &amp; On the Five Sevens (translations)</span>
+          </a>
+          
+          <a>
+            <xsl:attribute name="href">?display_type=c</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
+            <span>De oratione dominica, original &amp; translation</span>
+          </a>
+          
+          <a>
+            <xsl:attribute name="href">?display_type=d</xsl:attribute>
+            <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
+            <span>De quinque septenis, original &amp; translation</span>
           </a>
           
           <a>
@@ -154,7 +169,9 @@
             <span>Back to edition</span>
           </a>
         </div>
- 
+        
+       
+        <div class="regularized">
         
         <div style="height:100%">
           <div style="width:50%; float:left; height:100%;">
@@ -164,9 +181,10 @@
               
             <xsl:choose>
               <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
               <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
+              
             </xsl:choose>
             </div>
           <div style="width:50%; float:right; height:100%;">
@@ -174,20 +192,23 @@
            
             
             <xsl:choose>
-              <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
               <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
               <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
+              
             </xsl:choose>
            <!-- 
-           a - both originals
-           b - both translations
-           c - dominica orig and translation
-           d - septenis orig and translation
+           a - dominica orig and translation
+           b - septenis orig and translation
+           c - both originals
+           d - both translations
+           
            -->
-            
+          </div>
             </div>
         </div>
+        
       </body>
     </html>
   </xsl:template>

@@ -215,20 +215,18 @@
                 <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree_introduction.xml" />
                 <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
                     <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="page_type" value="introduction" />
                 </map:transform>
                 <map:serialize type="html" />
             </map:match>
         </map:pipeline>
-        
-        
-        
-        
         
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/BinyonDestree.original.html">
                 <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml" />
                 <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
                     <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="page_type" value="original" />
                 </map:transform>
                 <map:serialize type="html" />
             </map:match>
@@ -239,6 +237,7 @@
                 <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.translation.xml" />
                 <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
                     <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="page_type" value="translation" />
                 </map:transform>
                 <map:serialize type="html" />
             </map:match>
@@ -249,6 +248,18 @@
                 <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml" />
                 <map:transform type="xslt" src="./xslt/BinyonDestree_sidebyside.xsl">
                     <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="page_type" value="sidebyside" />
+                </map:transform>
+                <map:serialize type="html" />
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/BinyonDestree.index.html">
+                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml" />
+                <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="page_type" value="index" />
                 </map:transform>
                 <map:serialize type="html" />
             </map:match>
@@ -289,6 +300,12 @@
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/Dunning_De-oratione-dominica/**.jpg">
                 <map:read src="2016/editions/Dunning_De-oratione-dominica/{1}.jpg" />
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/Dunning_De-oratione-dominica/xml/dequinqueseptenis-deorationedominica.zip">
+                <map:read src="2016/editions/Dunning_De-oratione-dominica/xml/dequinqueseptenis-deorationedominica.zip" />
             </map:match>
         </map:pipeline>
         

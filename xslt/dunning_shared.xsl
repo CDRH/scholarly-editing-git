@@ -76,17 +76,20 @@
     <xsl:template match="surplus">
         <span>
             <xsl:attribute name="class">
-                <xsl:text> tei_</xsl:text><xsl:value-of select="name()"/>
+                <xsl:text>tei_surplus </xsl:text>
                 <xsl:for-each select="tokenize(@rend, ' ')">
                     <xsl:call-template name="rendrules"/>
                 </xsl:for-each>
             </xsl:attribute>
+          
           
           <span class="tei_surplus_bracket"><xsl:text>[</xsl:text></span>
           <xsl:apply-templates/>
           <span class="tei_surplus_bracket"><xsl:text>]</xsl:text></span>
           
         </span>
+      
+      <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="abbr">
@@ -397,6 +400,17 @@
       </em>
     </div>
   </xsl:template>
+
+<xsl:template match="div">
+  <div>
+    <xsl:attribute name="class">
+      <xsl:if test="@type">
+        <xsl:value-of select="@type"/>
+      </xsl:if>
+    </xsl:attribute>
+    <xsl:apply-templates/>
+  </div>
+</xsl:template>
 
   <!-- Div types for styling -->
   <!-- directly from CWW - should we keep, is there a better way? -KMD -->
@@ -761,9 +775,9 @@
   </xsl:template>-->
 
   <xsl:template match="q">
-    <span class="inline_quote">
+    <q>
       <xsl:apply-templates/>
-    </span>
+    </q>
   </xsl:template>
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
