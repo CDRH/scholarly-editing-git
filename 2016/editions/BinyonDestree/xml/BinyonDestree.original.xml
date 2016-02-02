@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng"><!--this XML is the result of a conversion of a word document with endnotes into a unicode .txt; TEI header has been inserted; the letters of the correspondence are encoded by means of the div tag; checked successfully as well-formed XML on https://validator.w3.org-->
+  <teiHeader xml:lang="eng"><!-- revised version Feb 1, 2016 https://validator.w3.org-->
       <fileDesc>
          <titleStmt>
             <title level="m" type="main">A Transnational Literary Network Around 1900: 
@@ -146,8 +146,8 @@
                        n="4"/> .</s>
                <s xml:id="o32" n="32" corresp="t24">Image vous expliquera de quoi il s'agit.</s>
                <s xml:id="o33" n="33" corresp="t25">Vous jugerez alors si un volume pareil pourrait plaire à Matthews et si vous le croyez, je vous demande de le lui proposer vous-même et de me dire quand vous m'écrivez ce que Matthews aura répondu.</s>
-               <s xml:id="o34" n="34" corresp="t26 t27">Merci d'avance à vous</s>
-      O.GD PS Horne <ptr target="#note5" xml:id="nr5" n="5"/>  va bien, travaille beaucoup et son volume sur Botticelli sera je crois un modèle du genre.
+               <s xml:id="o34" n="34" corresp="t26">Merci d'avance à vous O.GD</s>
+			   <s xml:id="o35" n="35" corresp="t27">PS Horne<ptr target="#note5" xml:id="nr5" n="5"/> va bien, travaille beaucoup et son volume sur Botticelli sera je crois un modèle du genre.</s>
       </p>
          </div>
   
@@ -229,11 +229,9 @@
             <head>Letter 5: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o60" n="60" corresp="t53">
-                  <date>17 June 1896 Ixelles 25 Great College Street</date>
+                  <date>17 June 1896 Ixelles 25 Great College Street</date> 
                </s>
-    
-               <!--problem with s id code-->Merci bien très cher ami.
-    <s xml:id="o61" n="61" corresp="t54">C'est une jolie petite édition que vous m'envoyez là et elle ira prendre place près du Golden Treasury <ptr
+    <s xml:id="o61" n="61" corresp="t54">Merci bien très cher ami. C'est une jolie petite édition que vous m'envoyez là et elle ira prendre place près du Golden Treasury <ptr
                        target="#note17"
                        xml:id="nr17"
                        n="17"/> , du Coleridge, du Byron et du Landor <ptr
@@ -263,9 +261,8 @@
             <head>Letter 6: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o66" n="66" corresp="t59">
-                  <date>29 June 1896 Ixelles to Great College Street</date>
-	Très cher Laurence.</s>
-               <s xml:id="o67" n="67" corresp="t60">Merci de tout cœur pour ce que vous avez essayé auprès de Seel <ptr
+                  <date>29 June 1896 Ixelles to Great College Street</date></s>
+               <s xml:id="o67" n="67" corresp="t60">Très cher Laurence. Merci de tout cœur pour ce que vous avez essayé auprès de Seel <ptr
                        target="#note23"
                        xml:id="nr23"
                        n="23"/>  : à propos de Fra A<supplied reason="omitted-in-original">ngelico</supplied> 
@@ -275,11 +272,11 @@
                        n="24"/>  j'ai attendu pour vous remercier parce que jour après jour je croyais recevoir une lettre de Seely mais rien n'est venu.</s>
                <s xml:id="o68" n="68" corresp="t61">Donc je considère l'affaire comme enterrée et bien vivement je vous remercie d'avoir tenté de la faire réussir.</s>
                <s xml:id="o69" n="69" corresp="t62">Cela n'a pas pris d'ailleurs parce que je suis depuis 15aine de jours dans une mauvaise série.</s>
-               <s xml:id="o70" n="70" corresp="t63">Je vous <sic>est </sic> dit n'est-ce pas que moi non plus je n'avais pas eu le prix sur lequel je comptais et ce qui est pire mon travail n'a pas marché du tout pendant ce temps.</s>
+               <s xml:id="o70" n="70" corresp="t63">Je vous <sic>est</sic> dit n'est-ce pas que moi non plus je n'avais pas eu le prix sur lequel je comptais et ce qui est pire mon travail n'a pas marché du tout pendant ce temps.</s>
                <s xml:id="o71" n="71" corresp="t64">Mais maintenant voici une nouvelle semaine qui s'ouvre – je me sens mieux dispo et bien sur le vent va changer.</s>
                <s xml:id="o72" n="72" corresp="t65">J'ai toujours oublié Taras Bulba de Gogol - je vous le ferai envoyer à ma première sortie.</s>
-               <s xml:id="o73" n="73" corresp="t66">Et Mayer, nous n'avons pas de nouvelles ?</s>
-               <s xml:id="o74" n="74" corresp="t67">Et le bicycle ?</s>
+               <s xml:id="o73" n="73" corresp="t66">Et Mayer, nous n'avons pas de nouvelles?</s>
+               <s xml:id="o74" n="74" corresp="t67">Et le bicycle?</s>
                <s xml:id="o75" n="75" corresp="t68">Le mien est revenu : c'est la seule chose qui m'a amusé ces temps-ci.</s>
                <s xml:id="o76" n="76" corresp="t69">Il faut absolument venir pour plusieurs jours en septembre pour une semaine si possible.</s>
                <s xml:id="o77" n="77" corresp="t70">Il y a des promenades charmantes à faire en bicycle aux environs de Bruxelles.</s>
@@ -290,9 +287,8 @@
          <div type="letter" n="7" xml:lang="fr">
             <head>Letter 7: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o79" n="79" corresp="t72">
-                  <date>Undated letter</date> 
-	Que vous êtes gentil, cher Laurence, et combien, comme je vous le disais avant-hier, je voudrais vous avoir ici pour m'aider dans cet « enthousiasmant » travail que j'ai entrepris.</s>
+			<date>Undated letter</date> 
+               <s xml:id="o79" n="79" corresp="t72">Que vous êtes gentil, cher Laurence, et combien, comme je vous le disais avant-hier, je voudrais vous avoir ici pour m'aider dans cet « enthousiasmant » travail que j'ai entrepris.</s>
                <s xml:id="o80" n="80" corresp="t73">Mais peut-être vaut-il mieux que nous soyons pour le moment séparés : car du moins dans la même ville, nous passerions tout le temps que nous ne sommes pas ensemble à trouver des pièces admirables que nous nous montrerions le soir triomphalement, et le soir notre enthousiasme serait si grand que nous n'aurions aucune envie de détruire la beauté des poèmes par une traduction quelque parfaite qu'elle soit.</s>
                <s xml:id="o81" n="81" corresp="t74">Dunque comme dit madame Bartoli j'ai reçu hier soir le Browning et le Landor que vous avez bien voulu ajouter à  - cette anthologie plus complète et plus parfaite que la mienne que vous avez eu à cœur de former dans ma bibliothèque.</s>
                <s xml:id="o82" n="82" corresp="t75">Ils m'ont fait grand plaisir le Landor surtout/il a sur ce portrait une belle et bonne figure de bull dog qui me fait plaisir et me donne grande confiance en lui – quand à Browning – moi non plus pour ce que l'on ait lu je ne l'aime pas – c'est un esprit germanique – il aime l'Italie et la Grèce mais comme les allemands peuvent les aimer – à travers leur obscure et prétentieuse philosophie.</s>
@@ -314,8 +310,8 @@
                <s xml:id="o98" n="98" corresp="t91">Je vous tiendrai au courant par des cartes des choix faits pour chacun des poètes et de l'avancement du travail.</s>
                <s xml:id="o99" n="99" corresp="t92">Donc mille amitiés, mille remerciements pour les livres – et pensez à garder vos huit jours pour septembre n'est ce pas ?</s>
                <s xml:id="o100" n="100" corresp="t93">A vous.</s>
-               <s xml:id="o101" n="101" corresp="t94 t95">Georges</s>
-               <s xml:id="o102" n="102" corresp="t94 t95">Très amusant ce que vous me dites de Horne – à l'occasion faites lui mes amitiés à lui et Image.</s>
+               <s xml:id="o101" n="101" corresp="t94">Georges</s>
+               <s xml:id="o102" n="102" corresp="t95">Très amusant ce que vous me dites de Horne – à l'occasion faites lui mes amitiés à lui et Image.</s>
                <s xml:id="o103" n="103" corresp="t96 t97">Et notre projet de Grèce – je crois qu'il est retardé à une autre année pas vrai ? ce qu'il y a de plus probable c'est que nous nous retrouverons de nouveau l'hiver prochain à Florence – et que pendant huit ou dix jours nous entreprendrons un voyage à pied en Toscane.</s>
                <s xml:id="o104" n="104" corresp="t98">A vous très cher ami.</s>
                <s xml:id="o105" n="105" corresp="t99">Mon frère est à Londres – il ira peut être vous voir s'il a le temps – faites lui bonne figure et montrez lui S.V.P. la collection Malcolm. G.</s>
@@ -351,17 +347,15 @@
             <head>Letter 9: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o119" n="119" corresp="t103">
-                  <date>12 aout 1896 Ixelles to Binyon chez Pye <ptr target="#note26" xml:id="nr26" n="26"/>  Cliff Cottage</date>
-      Cher ami.</s>
-               <s xml:id="o120" n="120" corresp="t104">Dunque.</s>
+                  <date>12 aout 1896 Ixelles to Binyon chez Pye <ptr target="#note26" xml:id="nr26" n="26"/>  Cliff Cottage</date></s>
+               <s xml:id="o120" n="120" corresp="t104">Cher ami. Dunque.</s>
                <s xml:id="o121" n="121" corresp="t105">Ne m'envoyez pas de volume de Blake mais s'il existe en un volume une édition à bon marché des lettres de Keats je la recevrais avec grand plaisir – car j'ai traduit avec grand enthousiasme <emph n="authorial">les Odes</emph>  - une partie des <emph n="authorial">sonnets</emph> et quelques pièces détachées telles que : la Belle dame sans merci – et l'imitation de Spenser – mais j'ai eu une grande désillusion en traduisant la chanson « O Sorrow – why dost borrow ? <ptr
                        target="#note27"
                        xml:id="nr27"
                        n="27"/>  etc.</s>
-               <s xml:id="o122" n="122" corresp="t106">Est-ce que vous trouvez cela fort beau ?</s>
-               <s xml:id="o123" n="123" corresp="t107">J'espère qu'il y a des choses beaucoup plus belles dans Endymion ? car à vrai dire je ne le retrouve pas du tout dans ces rimes trop faciles et ce désordre.</s>
-               <s xml:id="o124" n="124" corresp="t108">(PS you must tell the truth, I will be very interested to know if you like that song by Endymion) Et je voudrais que par une carte postale vous m'indiquiez deux choses : 1.</s>
-               <s xml:id="o125" n="125" corresp="t108">Le ou les plus beaux passages d'Endymion qu'on pourrait détacher du poème 2.</s>
+               <s xml:id="o122" n="122" corresp="t106">Est-ce que vous trouvez cela fort beau?</s>
+               <s xml:id="o123" n="123" corresp="t107">J'espère qu'il y a des choses beaucoup plus belles dans Endymion? car à vrai dire je ne le retrouve pas du tout dans ces rimes trop faciles et ce désordre.</s>
+               <s xml:id="o124" n="124" corresp="t108">(PS you must tell the truth, I will be very interested to know if you like that song by Endymion) Et je voudrais que par une carte postale vous m'indiquiez deux choses : 1. Le ou les plus beaux passages d'Endymion qu'on pourrait détacher du poème 2.</s>
                <s xml:id="o126" n="126" corresp="t109">Le plus beau ou les deux plus beaux dialogues en prose de Landor.</s>
                <s xml:id="o127" n="127" corresp="t110">Comme ma traduction est en prose, je ne vois somme toute aucun inconvénient à faire une exception en sa faveur – alors d'ailleurs que Landor (ce dont je me réjouis particulièrement)  est regardé par les poètes comme un poète et surtout pour ses poèmes en prose.</s>
                <s xml:id="o128" n="128" corresp="t111">J'ai ajouté le charmant poème de Lewti  <ptr
@@ -486,13 +480,13 @@
                        target="#note39"
                        xml:id="nr39"
                        n="39"/>  et ses autres grands poèmes ?</s>
-               <s xml:id="o178" n="178" corresp="t146">J'ai traduit hier- <emph n="authorial">tiger tiger</emph> – <emph n="authorial">a </emph>cradle song.</s>
+               <s xml:id="o178" n="178" corresp="t146">J'ai traduit hier - <emph n="authorial">tiger tiger</emph> – <emph n="authorial">a </emph>cradle song.</s>
                <s xml:id="o179" n="179" corresp="t147">An <emph n="authorial">Infant Joy</emph> – <emph n="authorial">To the Muses</emph> – <emph n="authorial">How Sweetly I roamed</emph> (How sweet I roam'd) etc. <emph n="authorial">ah Sunflower</emph> – I <emph n="authorial">was angry with my friend</emph>
                   <ptr
                        target="#note40"
                        xml:id="nr40"
-                       n="40"/>.</s>
-               <s xml:id="o180" n="180" corresp="t147">C'est très bien.</s>
+                       n="40"/>. 
+					   C'est très bien.</s>
                <s xml:id="o181" n="181" corresp="t148">Mais comme vous le comprenez les poèmes perdent énormément en français et cela parait si mince !  - le plus beau est celui que vous m'avez envoyé – Sweetly I roamed – Si j'en avais trois ou quatre comme celui-là je serais content.</s>
                <s xml:id="o182" n="182" corresp="t149">Je n'aurais pas dû vous les faire recopier en poèmes.</s>
                <s xml:id="o183" n="183" corresp="t150">J'avais oublié que j'avais un n° du Portfolio composé par Richard Garnett <ptr
@@ -506,8 +500,7 @@
                <s xml:id="o188" n="188" corresp="t155">Keats.</s>
                <s xml:id="o189" n="189" corresp="t156">Tennyson.</s>
                <s xml:id="o190" n="190" corresp="t157">Landor (très bien traduit!)</s>
-               <s xml:id="o191" n="191" corresp="t158">D.G.</s>
-               <s xml:id="o192" n="192" corresp="t159">Rossetti.</s>
+               <s xml:id="o191" n="191" corresp="t158">D.G. Rossetti.</s>
                <s xml:id="o193" n="193" corresp="t160">Swinburne et Shelley presque.</s>
                <s xml:id="o194" n="194" corresp="t161">Reste à finir Browning – dont je ne sais pas du tout que traduire – puis à faire Emily Brontë et Christina <supplied reason="omitted-in-original">Rossetti</supplied> et Blake à finir.</s>
                <s xml:id="o195" n="195" corresp="t162">Je voudrais que toutes mes traductions fussent terminées pour quand vous viendrez pour que nous puissions les revoir – ou du moins certains passages ensemble et que nous puissions causer des notices qui me resterons alors à écrire.</s>
@@ -515,12 +508,21 @@
          </div>
   
          <div type="letter" n="14" xml:lang="en">
-            <head>Letter 14: Laurence Binyon to Olivier-Georges Destrée</head>
+<figure>
+ <figDesc>Reproduction of Binyon's postcard to Destrée, 4 September 1896</figDesc>
+ <!--I've kept the original file name from the library: if possible, change it to Letter 14--><graphic url="G70122-01.tif"/>
+</figure>
+
+<figure>
+ <figDesc>Reproduction of the front page of Binyon's postcard to Destrée, 4 September 1896</figDesc>
+<!--I've kept the original file name from the library: if possible, change it to Letter 14, front -->
+ <graphic url="G70122-02.tif"/>
+</figure>        
+		<head>Letter 14: Laurence Binyon to Olivier-Georges Destrée</head>
             <p>
                <s xml:id="o196" n="196">
-                  <date>4 sept 1896 lon rue Van Elewyck</date>
-Dear Georges, I cannot explain properly about Blake on a postcard.</s>
-               <s xml:id="o197" n="197">We will talk him over.</s>
+                  <date>4 sept 1896 lon rue Van Elewyck</date></s>
+               <s xml:id="o197" n="197">Dear Georges, I cannot explain properly about Blake on a postcard. We will talk him over.</s>
                <s xml:id="o198" n="198">Only a few of his pieces are really good;</s>
                <s xml:id="o199" n="199">the long poems too mad to be worth much.</s>
                <s xml:id="o200" n="200">You have translated nearly all the good ones, though there are a few more.</s>
@@ -540,9 +542,8 @@ Dear Georges, I cannot explain properly about Blake on a postcard.</s>
             <head>Letter 15: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o210" n="210" corresp="t163">
-                  <date>Sept 4th 1896 Ixelles à 25 Great College Street</date>
-	No!</s>
-               <s xml:id="o211" n="211" corresp="t164">No!</s>
+                  <date>Sept 4th 1896 Ixelles à 25 Great College Street</date></s>
+               <s xml:id="o211" n="211" corresp="t164">No! No!</s>
                <s xml:id="o212" n="212" corresp="t165">Don't send me a Blake's edition with a bad preface.</s>
                <s xml:id="o213" n="213" corresp="t166">The preface is all I want.</s>
                <s xml:id="o214" n="214" corresp="t167">If you see Johnson <ptr
@@ -638,8 +639,7 @@ Dear Georges, I cannot explain properly about Blake on a postcard.</s>
                <s xml:id="o258" n="258" corresp="t184">
                   <date>25 Sept 1896 Ixelles to Great College Street</date>
                </s>
-	              <!--problem with s id-->Très cher Laurence.
-    <s xml:id="o259" n="259" corresp="t185">Si vous êtes content de ce que vous avez vu, je suis certes au moins aussi content de l'avoir revu avec vous et que les deux aspects que j'aime le plus en Belgique, la pieuse et silencieuse Bruges <ptr
+    <s xml:id="o259" n="259" corresp="t185">Très cher Laurence. Si vous êtes content de ce que vous avez vu, je suis certes au moins aussi content de l'avoir revu avec vous et que les deux aspects que j'aime le plus en Belgique, la pieuse et silencieuse Bruges <ptr
                        target="#note53"
                        xml:id="nr53"
                        n="53"/>  et la Meuse (que je m'abstiens de qualifier par déférence pour votre poème – que je lirai avec enthousiasme) <ptr
@@ -659,9 +659,21 @@ Dear Georges, I cannot explain properly about Blake on a postcard.</s>
                <s xml:id="o266" n="266" corresp="t192">G.</s>
             </p>
          </div>
-
+	 
+		 
          <div type="letter" n="20" xml:lang="fr">
-            <head>Letter 20: Olivier-Georges Destrée to Laurence Binyon</head>
+<figure>
+ <figDesc>Reproduction of Destrée's postcard to Binyon, 29 September 1896</figDesc>
+<!--I've kept the original file name from the library: if possible, change it to Letter 20-->
+ <graphic url="G70122-03.tif"/>
+</figure>
+
+<figure>
+ <figDesc>Reproduction of the front page of Destrée's postcard to Binyon, 29 September 1896</figDesc>
+<!--I've kept the original file name from the library: if possible, change it to Letter 20, front-->
+ <graphic url="G70122-04.tif"/>
+</figure>	         
+		 <head>Letter 20: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o267" n="267" corresp="t193">
                   <date>29 Sept 1896 Ixelles to Great College Street</date>
@@ -678,14 +690,8 @@ Dear Georges, I cannot explain properly about Blake on a postcard.</s>
                   <emph n="authorial">Lamb</emph>.</s>
                <s xml:id="o273" n="273" corresp="t199">
                   <emph n="authorial">Wolfe</emph>.</s>
-               <s xml:id="o274" n="274" corresp="t200">And even <emph n="authorial">E.</emph>
-               </s>
-               <s xml:id="o275" n="275" corresp="t201">
-                  <emph n="authorial">Barett <supplied reason="omitted-in-original">Browning</supplied>
-	Scott's </emph>melrose abbey <ptr
-                       target="#note56"
-                       xml:id="nr56"
-                       n="56"/>  – the pride of youth – The maid of neidpath  – <emph n="authorial">moore </emph>Dear Harp of my country – the young may moon – At the mid Hour of Night.</s>
+               <s xml:id="o274" n="274" corresp="t200">And even <emph n="authorial">E. Barett <supplied reason="omitted-in-original">Browning</supplied></emph></s>
+               <s xml:id="o275" n="275" corresp="t201"><emph n="authorial">Scott's </emph>melrose abbey <ptr target="#note56" xml:id="nr56" n="56"/>  – the pride of youth – The maid of neidpath  – <emph n="authorial">moore </emph>Dear Harp of my country – the young may moon – At the mid Hour of Night.</s>
                <s xml:id="o276" n="276" corresp="t202">Echo.</s>
                <s xml:id="o277" n="277" corresp="t203">Oft in the stilly night E.B.B Two sonnets from the S<supplied reason="omitted-in-original">onnets</supplied> F<supplied reason="omitted-in-original">rom</supplied> the Portuguese <emph n="authorial">Wolfe</emph> The burial Of SJ moore <ptr
                        target="#note57"
@@ -715,9 +721,8 @@ Dear Georges, I cannot explain properly about Blake on a postcard.</s>
             <head>Letter 21: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o289" n="289" corresp="t215">
-                  <date>2 Oct 1896 from Ixelles, Bruxelles 25 Great College Street</date>
-	Vous êtes le plus charmant des amis et le meilleur des jeunes poètes anglais.</s>
-               <s xml:id="o290" n="290" corresp="t216">Le poème que vous m'envoyez est fort beau et je le traduirai avec facilité si je pouvais vous faire entrer dans mon anthologie – mais ce sera pour une prochaine édition – où je serai à la fois heureux et fier de vous faire la place belle.</s>
+                  <date>2 Oct 1896 from Ixelles, Bruxelles 25 Great College Street</date></s>
+               <s xml:id="o290" n="290" corresp="t216">Vous êtes le plus charmant des amis et le meilleur des jeunes poètes anglais. Le poème que vous m'envoyez est fort beau et je le traduirai avec facilité si je pouvais vous faire entrer dans mon anthologie – mais ce sera pour une prochaine édition – où je serai à la fois heureux et fier de vous faire la place belle.</s>
                <s xml:id="o291" n="291" corresp="t217">Je désirais cette dédicace que vous m'offrez – elle me fait donc grand plaisir et je vous remercie de tout cœur.</s>
                <s xml:id="o292" n="292" corresp="t218">Vous aviez bien raison de penser à ce joli fragment de Keats – évocateur de Bruges – je tâcherai de trouver encore une petite place pour lui – Pour Scott – aussi vous avez bien fait de m'indiquer les 2 pièces? beaucoup préférables c'était mon avis à celles que j'ai traduites – mais ce qui m'a empêché de traduire la 1ere c'est que je ne savais pas si Donuil Dhu <ptr
                        target="#note60"
@@ -732,8 +737,7 @@ Dear Georges, I cannot explain properly about Blake on a postcard.</s>
                <s xml:id="o296" n="296" corresp="t222">Je vais recommencer mon sonnet!</s>
             </p>
 	           <p n="second-postcard">
-<!--problem with s id-->               <s>Pas moyen de tout mettre sur une carte !</s>
-               <s xml:id="o297" n="297" corresp="t223">Je voulais vous répondre que je ne puis pas aller à Londres parce que je n'ai ni temps ni argent – et surtout pas de temps – l'anthologie était un volume utile mais en somme surtout un passe-temps – ce que je ne serai pas heureux avant d'avoir terminé.</s>
+               <s xml:id="o297" n="297" corresp="t223">Pas moyen de tout mettre sur une carte! Je voulais vous répondre que je ne puis pas aller à Londres parce que je n'ai ni temps ni argent – et surtout pas de temps – l'anthologie était un volume utile mais en somme surtout un passe-temps – ce que je ne serai pas heureux avant d'avoir terminé.</s>
                <s xml:id="o298" n="298" corresp="t224">C'est mon poème que je reprendrai dès l'anthologie finie – mais je pensais ce matin que nous devions malgré tout nous voir plus souvent – et que nous pourrions ce faire sinon tous les mois au moins tous les 2 mois pour un jour.</s>
                <s xml:id="o299" n="299" corresp="t225">Le guide renseigne un train partant de Charing Cross à 5.35 p.m. et arrivant à Bruges à minuit ½.</s>
                <s xml:id="o300" n="300" corresp="t226">En logeant et nous rencontrant tous les deux au <emph n="authorial">Panier d'Or</emph>
@@ -748,15 +752,14 @@ Dear Georges, I cannot explain properly about Blake on a postcard.</s>
                        n="63"/>  12 etc. – et madame Marie Destrée <ptr
                        target="#note64"
                        xml:id="nr64"
-                       n="64"/>  – chemin des Hauchies.</s>
-               <s xml:id="o303" n="303" corresp="t229">Marcinelle – Charleroi.</s>
+                       n="64"/>  – chemin des Hauchies. Marcinelle – Charleroi.</s>
                <s xml:id="o304" n="304" corresp="t230">Dès que j'aurai trouvé un publisher je lui parlerai de l'idée Walker <ptr
                        target="#note65"
                        xml:id="nr65"
                        n="65"/>.</s>
                <s xml:id="o305" n="305" corresp="t231">Grand merci.</s>
-               <s xml:id="o306" n="306" corresp="t232 t233">Merci enfin pour les biographies – quand vous m'aurez envoyé les six lignes <emph n="authorial">de rigueur</emph> sur Christina vous serez <emph n="authorial">libre</emph> !</s>
-               <s xml:id="o307" n="307" corresp="t232 t233">Amitiés à H<supplied reason="omitted-in-original">erbert</supplied>P<supplied reason="omitted-in-original">ercy</supplied>H<supplied reason="omitted-in-original">orne</supplied> X.S.I</s>
+               <s xml:id="o306" n="306" corresp="t232">Merci enfin pour les biographies – quand vous m'aurez envoyé les six lignes <emph n="authorial">de rigueur</emph> sur Christina vous serez <emph n="authorial">libre</emph> !</s>
+               <s xml:id="o307" n="307" corresp="t233">Amitiés à H<supplied reason="omitted-in-original">erbert</supplied>P<supplied reason="omitted-in-original">ercy</supplied>H<supplied reason="omitted-in-original">orne</supplied> X.S.I</s>
             </p>
          </div>
   
@@ -764,9 +767,8 @@ Dear Georges, I cannot explain properly about Blake on a postcard.</s>
             <head>Letter 22: Laurence Binyon to Olivier-Georges Destrée</head>
             <p>
                <s xml:id="o308">
-                  <date>4 Oct 1896 Lon to rue Van Elewyck</date>
-My dear Georges, much thanks for your two cards.</s>
-               <s xml:id="o309">Very glad you like the poem.</s>
+                  <date>4 Oct 1896 Lon to rue Van Elewyck</date></s>
+               <s xml:id="o309">My dear Georges, much thanks for your two cards. Very glad you like the poem.</s>
                <s xml:id="o310">The piece I sent of Keats is only the beginning of the fragment.</s>
                <s xml:id="o311">There are 2 or 3 pages, which I will send when I have time.</s>
                <s xml:id="o312">Dhu is a proper name, but means really Black.</s>
@@ -801,9 +803,8 @@ My dear Georges, much thanks for your two cards.</s>
             <head>Letter 23: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o337" n="337" corresp="t234">
-                  <date>Oct 5 1896 From Ixelles to 25 Great College Street</date>
-	Très cher Laurence merci pour votre postcard reçue ce matin.</s>
-               <s xml:id="o338" n="338" corresp="t235">Avant tout laissez-moi vous féliciter sur votre encre rouge – tout à fait magnifique et dites-moi le nom du fabricant quand vous m'écrirez – merci pour les biographies et les indications demandées.</s>
+                  <date>Oct 5 1896 From Ixelles to 25 Great College Street</date></s>
+               <s xml:id="o338" n="338" corresp="t235">Très cher Laurence merci pour votre postcard reçue ce matin. Avant tout laissez-moi vous féliciter sur votre encre rouge – tout à fait magnifique et dites-moi le nom du fabricant quand vous m'écrirez – merci pour les biographies et les indications demandées.</s>
                <s xml:id="o339" n="339" corresp="t236">Je traduirai Coronach et Donuil Dhu.</s>
                <s xml:id="o340" n="340" corresp="t237">L'annonce d'une photographie de Rossetti est pour moi une chose fascinante – j'ai conservé tout mon culte pour lui – et aucun peintre moderne ne m'attire toujours autant.</s>
                <s xml:id="o341" n="341" corresp="t238">J'écrirai à Jackson dès que je l'aurai reçue.</s>
@@ -817,41 +818,29 @@ My dear Georges, much thanks for your two cards.</s>
                        target="#note70"
                        xml:id="nr70"
                        n="70"/>  Je n'ai pas oublié le nom que je vous ai promis d'envoyer – mais suis si peu sorti ! à ma prochaine sortie je l'enverrai.</s>
-               <s xml:id="o346" n="346" corresp="t243">
-                  <date>Oct 5 1896</date>
-               </s> 
-            </p>
-            <!--problem with s id-->
-            <p n="second-postcard"> 
-               <s>Voilà qu'un nouveau poète vient se joindre malgré moi à mon anthologie cher Laurence – je tiens à faire moi-même l'article sur William morris <ptr target="#note71" xml:id="nr71" n="71"/>  dans le mercure de France <ptr target="#note72" xml:id="nr72" n="72"/> .</s>
-               <s xml:id="o347" n="347" corresp="t244">Et viens de leur écrire pour leur notifier ce désir.</s>
+			</p>
+			<p n="second-postcard">                 
+               <s xml:id="o347" n="347" corresp="t244"><date>Oct 5 1896</date>Voilà qu'un nouveau poète vient se joindre malgré moi à mon anthologie cher Laurence – je tiens à faire moi-même l'article sur William morris <ptr target="#note71" xml:id="nr71" n="71"/>  dans le mercure de France <ptr target="#note72" xml:id="nr72" n="72"/>. Et viens de leur écrire pour leur notifier ce désir.</s>
                <s xml:id="o348" n="348" corresp="t245">Voudriez-vous m'envoyer les 2 ou 3 journaux qui contiennent des articles intéressants – ou sur sa mort – sur laquelle l'<emph n="authorial">Etoile</emph>
                   <ptr
                        target="#note73"
                        xml:id="nr73"
                        n="73"/>  lue ce matin ne donne aucun détail – ou comme notice biographique.</s>
                <s xml:id="o349" n="349" corresp="t246">Et pouvez-vous m'indiquer les livres et poèmes que vous préférez de lui – j'entends – seulement les livres de poèmes.</s>
-               <s xml:id="o350" n="350" corresp="t247">Quel est le meilleur à votre avis – et si possible quels poèmes dans ce poème sont les meilleurs – 
-      amitiés</s>
+               <s xml:id="o350" n="350" corresp="t247">Quel est le meilleur à votre avis – et si possible quels poèmes dans ce poème sont les meilleurs – amitiés O.G.D</s>
             </p> 
-            <p>O.G.D
-    <s>Le plus tôt je pourrai avoir ces journaux le mieux – parce que je dois écrire de suite mon article.</s>
-               <s xml:id="o351" n="351" corresp="t248">
+            <p>
+               <s xml:id="o351" n="351" corresp="t248">Le plus tôt je pourrai avoir ces journaux le mieux – parce que je dois écrire de suite mon article. 
                   <emph n="authorial">Merci d'avance</emph>
-                  <emph n="authorial">et mille excuses pour ce nouveau dérangement !</emph>
+                  <emph n="authorial"> et mille excuses pour ce nouveau dérangement!</emph>
                </s>
             </p>
          </div>
   
          <div type="letter" n="24" xml:lang="fr">
             <head>Letter 24: Olivier-Georges Destrée to Laurence Binyon</head>
-            <p>
-               <s xml:id="o352" n="352" corresp="t249">
-                  <date>undated letter</date>
-	« Tradutore traditore <ptr
-                       target="#note74"
-                       xml:id="nr74"
-                       n="74"/>  ». jamais l'adage italien n'a été mieux justifié que par cette diablesse de femme que Seeley emploie pour faire les traductions du Portfolio.</s>
+            <p><date>Undated letter</date> 
+               <s xml:id="o352" n="352" corresp="t249"> «Tradutore traditore <ptr target="#note74" xml:id="nr74" n="74"/>». jamais l'adage italien n'a été mieux justifié que par cette diablesse de femme que Seeley emploie pour faire les traductions du Portfolio.</s>
                <s xml:id="o353" n="353" corresp="t250">Pas une de mes phrases n'est restée entière et tout mot caractéristique a été soigneusement remplacé par un terme quelconque du langage télégraphique ou téléphonique, les seuls qui semblent connus de cette respectable lady.</s>
                <s xml:id="o354" n="354" corresp="t251">Comme vous voilà averti, et que vous avertirez Horne ou Image pour le cas où ils verraient le Portfolio, cela m'est égal, mais si vous le parcourez, parcourez le comme vous feriez d'un journal rendant compte d'un discours, c'est exactement l'impression donnée par la traduction.</s>
                <s xml:id="o355" n="355" corresp="t252">Ce qui m'ennuie le plus, c'est que cette traduction est terriblement en retard et que <emph n="authorial">par sa faute à elle</emph> le P<supplied reason="omitted-in-original">ortfolio</supplied> ne paraitra pas avant le 10 ou le 12 ce qui mettra Seeley de mauvaise humeur contre moi, qui n'en peux rien, car s'il avait accepté ce que je lui ai proposé de faire traduire mon article ici, cela eut été fini depuis longtemps maintenant, la traduction eut été moins correcte et le P<supplied reason="omitted-in-original">ortfolio</supplied> eut paru à temps – toutes ces explications pour le cas où vous verriez Seeley et où il vous parlerait de ce Portfolio.</s>
@@ -1011,8 +1000,7 @@ Dearest Georges Garnett is writing a letter for you, and I will forward it.</s>
                <s xml:id="o435" n="435" corresp="t305">Puis mes notices que je croyais pouvoir faire avec rapidité me prennent un jour chacune – et quelques fois comme pour celle</s>
             </p>
             <p n="second-postcard">
-               <s> sur Blake deux à trois jours.</s>
-               <s xml:id="o436" n="436" corresp="t306">Elle est très bien faite celle-là.</s>
+               <s xml:id="o436" n="436" corresp="t306">sur Blake deux à trois jours. Elle est très bien faite celle-là.</s>
                <s xml:id="o437" n="437" corresp="t307">J'ai bien résumé vos postcards sur lui après avoir réfléchi à tous les livres de macmillan <ptr
                        target="#note90"
                        xml:id="nr90"
@@ -1033,8 +1021,8 @@ Dearest Georges Garnett is writing a letter for you, and I will forward it.</s>
                        n="93"/>  qui lui est consacré pour pouvoir le lire en anglais et lui faire une « belle » notice.</s>
                <s xml:id="o443" n="443" corresp="t313">Et vous mon cher ami qu'êtes-vous devenu.</s>
                <s xml:id="o444" n="444" corresp="t314">J'espère que vous en aurez ainsi pour deux cartes à me le dire et vous envoie mille amitiés.</s>
-               <s xml:id="o445" n="445" corresp="t315 t316">O.G.D</s>
-               <s xml:id="o446" n="446" corresp="t315 t316">Ne pourrons nous voir à Bruges à Xmas ?</s>
+               <s xml:id="o445" n="445" corresp="t315">O.G.D</s>
+               <s xml:id="o446" n="446" corresp="t316">Ne pourrons nous voir à Bruges à Xmas ?</s>
             </p>
          </div>
 
@@ -1140,8 +1128,8 @@ Dearest Georges  - It is very odd about Angellier.</s>
                <s xml:id="o502" n="502" corresp="t344">Les arrangements seraient parfaits pour l'Italie et j'espère que nous pourrons faire ensemble notre tour de Toscane. – Angellier est mort de nouveau, mais je suppose que je vais un de ces jours recevoir une invitation à aller passer un dimanche à Lille.</s>
                <s xml:id="o503" n="503" corresp="t345">D'ailleurs je ne m'en préoccupe pas trop parce qu'il faut avant tout finir mes notices et ma préface et j'en ai pour jusque le 31 Dec.</s>
                <s xml:id="o504" n="504" corresp="t346">Vous seriez vraiment très gentil et bien patient aussi, car combien de renseignements ne vous ai-je pas demandé !</s>
-               <s xml:id="o505" n="505" corresp="t347 t348">Si vous pouviez me donner quelques renseignements supplémentaires sur <emph n="authorial">Christina Rossetti</emph> et sur <emph n="authorial">Swinburne</emph>.</s>
-               <s xml:id="o506" n="506" corresp="t347 t348">Une postcard pour chacun ce serait parfait.</s>
+               <s xml:id="o505" n="505" corresp="t347">Si vous pouviez me donner quelques renseignements supplémentaires sur <emph n="authorial">Christina Rossetti</emph> et sur <emph n="authorial">Swinburne</emph>.</s>
+               <s xml:id="o506" n="506" corresp="t348">Une postcard pour chacun ce serait parfait.</s>
                <s xml:id="o507" n="507" corresp="t349">Mais vous avez le temps de les prendre à votre aise car ce sont les deux derniers poètes que je ferai et je n'aurai pas besoin de ces renseignements avant huit ou dix jours.</s>
                <s xml:id="o508" n="508" corresp="t350">J'ai la liste des œuvres de Swinburne dans ces volumes, mais ce qui serait intéressant ce serait d'avoir quelques détails sur sa vie.</s>
                <s xml:id="o509" n="509" corresp="t351">Je serais très curieux de voir vos « woodcuts » <ptr
@@ -1149,19 +1137,18 @@ Dearest Georges  - It is very odd about Angellier.</s>
                        xml:id="nr101"
                        n="101"/>  car c'est le seul genre de gravure que j'estime.</s>
                <s xml:id="o510" n="510" corresp="t352">Amitiés et mille pardons de vous déranger encore pour cette anthologie.</s>
-               <s xml:id="o511" n="511" corresp="t353 t354">PS Je ne crois pas qu'aucun éditeur ne puisse consentir à publier le texte anglais eu regard.</s>
-               <s xml:id="o512" n="512" corresp="t353 t354">Mais j'ai réfléchi que ce que je pouvais faire c'était de donner en note l'original d'un ou deux courts poèmes de chaque poète pour donner une idée de son vers.</s>
+               <s xml:id="o511" n="511" corresp="t353">PS Je ne crois pas qu'aucun éditeur ne puisse consentir à publier le texte anglais eu regard.</s>
+               <s xml:id="o512" n="512" corresp="t354">Mais j'ai réfléchi que ce que je pouvais faire c'était de donner en note l'original d'un ou deux courts poèmes de chaque poète pour donner une idée de son vers.</s>
             </p>
          </div>
 
          <div type="letter" n="36" xml:lang="fr">
             <head>Letter 36: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o513" n="513" corresp="t355">
-                  <date>undated letter</date>
-	Bonsoir très cher Laurence.</s>
-               <s xml:id="o514" n="514" corresp="t356 t357">Je viens de lire votre nouveau cahier de vers et vous remercie bien vivement de l'honneur que vous voulez bien me faire en me dédiant d'aussi beaux vers.  –</s>
-               <s xml:id="o515" n="515" corresp="t356 t357">Je devrais tout d'abord m'excuser de n'avoir pas répondu plus tôt mais j'ai voulu attendre pour lire une heure où je serai bien tranquille et je ne l'ai eue que ce soir.</s>
+			<date>Undated letter</date>
+               <s xml:id="o513" n="513" corresp="t355">Bonsoir très cher Laurence.</s>
+               <s xml:id="o514" n="514" corresp="t356">Je viens de lire votre nouveau cahier de vers et vous remercie bien vivement de l'honneur que vous voulez bien me faire en me dédiant d'aussi beaux vers.  –</s>
+               <s xml:id="o515" n="515" corresp="t357">Je devrais tout d'abord m'excuser de n'avoir pas répondu plus tôt mais j'ai voulu attendre pour lire une heure où je serai bien tranquille et je ne l'ai eue que ce soir.</s>
                <s xml:id="o516" n="516" corresp="t358">Je ne sais pas comment je n'ai pas mieux lu votre premier poème le jour où vous étiez assis à cette table en train de corriger vos épreuves.</s>
                <s xml:id="o517" n="517" corresp="t359">Il est magnifique votre Montenegro, et ce soir il m'a donné l'éblouissante impression d'un beau Turner ou d'une de ces aquarelles aux couleurs prestigieuses de Gustave Moreau.</s>
                <s xml:id="o518" n="518" corresp="t360">Cattaro <ptr
@@ -1301,19 +1288,18 @@ Dearest Georges  - It is very odd about Angellier.</s>
          <div type="letter" n="41" xml:lang="fr">
             <head>Letter 41: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o595" n="595" corresp="t408">
-                  <date>undated letter</date>
-	Très cher Laurence, si je ne puis aller à Londres, votre charmante invitation reçue ce matin a réalisé au moins une partie de son but qui était de me causer un grand plaisir.</s>
+			<date>Undated letter</date>
+               <s xml:id="o595" n="595" corresp="t408">Très cher Laurence, si je ne puis aller à Londres, votre charmante invitation reçue ce matin a réalisé au moins une partie de son but qui était de me causer un grand plaisir.</s>
                <s xml:id="o596" n="596" corresp="t409">Depuis plusieurs jours – toujours victime de l'anthologie, je trouvais le temps bien long qui me sépare encore du séjour à Florence, et je me plaignais justement hier soir à Goffin d'être dans un mauvais mois qui n'apportait ni travail réconfortant ni nouvelles amusantes, ni rien qui put rompre la monotonie de mes biographies et de mes notices critiques  - or ce matin arrive votre carte, et ce charmant témoignage d'amitié me remplit de joie pour plusieurs jours.</s>
                <s xml:id="o597" n="597" corresp="t410">Et si je n'accepte pas de suite les bien désirables et enviables propositions que vous me faites  - ce n'est bien sûr pas par scrupule de partager avec vous votre richesse présente – car nous sommes assez bons amis pour que je trouve très amusant que vous m'envoyez un Cooks' ticket et que je trouve plus amusant encore de m'en servir pour aller vous rejoindre – mais il y a d'autres obstacles – l'anthologie que je dois finir  - le pot boiler sur la sculpture Belge que je dois arranger pendant Février – et surtout  - surtout la crainte que j'ai de prendre froid en passant de Douvres à Ostende – vous savez que j'ai eu deux bronchites déjà – la première en allant entendre Tristan et Yseult à Rotterdam – la seconde en allant voir l'exposition Burne Jones à Londres – jouissances artistiques qui ont été suivies d'un séjour d'un mois au lit – et toute une année de soins ridicules et assommants – dans les deux cas ce n'était pas bien sûr, le plaisir d'entendre et de voir de belles choses qui m'a donné ma bronchite, mais c'était un léger refroidissement du larynx que j'avais en partant et que mon voyage a de suite fait considérablement.</s>
                <s xml:id="o598" n="598" corresp="t411">J'ai le même refroidissement maintenant et le docteur me dit que cela n'est rien et qu'au contraire je vais de mieux en mieux.</s>
                <s xml:id="o599" n="599" corresp="t412">Si je me soigne jusqu'en mars je serai débarrassé pour longtemps et peut être pour toujours des bronchites, laryngites, et autres maux stupides qui m'ont presque constamment ennuyé ces deux ou trois dernières années.</s>
                <s xml:id="o600" n="600" corresp="t413">Dunque, je vous demande bien pardon, de vous avoir conté tout aussi long le détail de mes bobos, et j'espère que vous me pardonnerez de ne pas aller à Londres maintenant – et qu'après le petit moment d'ennui que cause la déception d'une chose prévue – vous trouverez que j'ai raison.</s>
-               <s xml:id="o601" n="601" corresp="t414 t415">28 jours de février et 30 jours de Mars à passer encore et nous serons ensemble à Florence et – speriamolo <ptr
+               <s xml:id="o601" n="601" corresp="t414">28 jours de février et 30 jours de Mars à passer encore et nous serons ensemble à Florence et – speriamolo <ptr
                        target="#note111"
                        xml:id="nr111"
                        n="111"/>  – il n'y aura plus d'anthologie, ni pot boiler ni travail ennuyeux à l'horizon et nous pourrons causer et penser chacun au poème que nous devons faire cet été en rentrant.</s>
-               <s xml:id="o602" n="602" corresp="t414 t415">Ce n'est pas le désir qui me manque d'aller vous voir et causer avec vous et de retourner à Londres.</s>
+               <s xml:id="o602" n="602" corresp="t415">Ce n'est pas le désir qui me manque d'aller vous voir et causer avec vous et de retourner à Londres.</s>
                <s xml:id="o603" n="603" corresp="t416">Depuis quelques semaines j'ai un vif désir d'y retourner, et si j'ai encore quelques sous à mon retour d'Italie j'irai passer avec vous une quinzaine au printemps.  – la première fois que je suis allé en Angleterre j'avais 18 ans, j'ai fait à Caterham la connaissance de jeunes filles que j'ai revues plus tard à Hastings puis que j'ai perdu de vue pendant 5 ou 6 ans parce que j'ignorais leur adresse exacte à Croydon et que je ne voulais pas écrire au hasard.</s>
                <s xml:id="o604" n="604" corresp="t417">Cette année à la New Year j'ai écrit à ces jeunes filles en mettant comme simple adresse  - Croydon, Surrey, et les gens du post office ont été si malins qu'ils ont fait parvenir ma lettre à une de ces jeune <sic>fille </sic> qui est mariée – a donc changé de nom ( a very nice name she has now – Rose Noble – it reminded me of this enseigne I have seen at Ypres  - à la noble rose – the nicest enseigne I have seen for an old auberge) et vit maintenant à Torquay ou elle m'a fait promettre d'aller la voir.</s>
                <s xml:id="o605" n="605" corresp="t418">Et Torquay est dans votre cher Devonshire « fairer even than Tuscany ! » donc il faut absolument que j'y aille un jour ou l'autre et j'espère que ce sera ce printemps avec vous.</s>
@@ -1376,12 +1362,12 @@ Dearest Georges  - It is very odd about Angellier.</s>
                        xml:id="nr117"
                        n="117"/> .</s>
                <s xml:id="o633" n="633" corresp="t433">Mais vous avez très bien attrapé la vigueur et la sobriété des vieux graveurs sur bois.</s>
-               <s xml:id="o634" n="634" corresp="t434 t435">Je n'ai pas le temps de lire lamb maintenant mais je suis enchanté de l'avoir tout près de moi et à ma disposition et enchanté de l'édition et du portrait – qui m'a à la fois ravi et étonné parce qu'en lisant Lamb je me figurais toujours Image racontant une histoire ! et entre Image et Lamb il y a pour le moins une différence de chevelure !</s>
+               <s xml:id="o634" n="634" corresp="t434">Je n'ai pas le temps de lire lamb maintenant mais je suis enchanté de l'avoir tout près de moi et à ma disposition et enchanté de l'édition et du portrait – qui m'a à la fois ravi et étonné parce qu'en lisant Lamb je me figurais toujours Image racontant une histoire ! et entre Image et Lamb il y a pour le moins une différence de chevelure !</s>
                <s xml:id="o635" n="635" corresp="t436">N'envoyez pas d'autre édition de Lamb, celle-ci est charmante et me suffit bien.</s>
                <s xml:id="o636" n="636" corresp="t437">Je lirai avec soin les sonnets du cher Ph<supplied reason="omitted-in-original">ilip</supplied> 
                   <sic>Sydney </sic> indiqués par le Signet.</s>
                <s xml:id="o637" n="637" corresp="t438">Si je n'ai pas le temps pour le moment c'est qu'il me faut à tout prix finir mes notices ma préface et tout revoir soigneusement pour le 15 date à laquelle je dois envoyer mon manuscrit chez Hachette.</s>
-               <s xml:id="o638" n="638" corresp="t439 t440">Le très cher comte Primoli auquel j'avais écrit ma détresse a écrit de suite à Paris et j'ai reçu dimanche une lettre du directeur de la maison Hachette m'informant qu'il prendrait volontiers connaissance de l'anthologie – Le Tyrol non non c'est tout des allemands par là mais j'irai volontiers avec Streatfield puisqu'il est votre ami en Toscane et je vous attends tous deux à Bruges le mois prochain.</s>
+               <s xml:id="o638" n="638" corresp="t439">Le très cher comte Primoli auquel j'avais écrit ma détresse a écrit de suite à Paris et j'ai reçu dimanche une lettre du directeur de la maison Hachette m'informant qu'il prendrait volontiers connaissance de l'anthologie – Le Tyrol non non c'est tout des allemands par là mais j'irai volontiers avec Streatfield puisqu'il est votre ami en Toscane et je vous attends tous deux à Bruges le mois prochain.</s>
                <s xml:id="o639" n="639" corresp="t441">Amitiés G.</s>
                <s xml:id="o640" n="640" corresp="t442">Et mille remerciements encore.</s>
             </p>
@@ -1390,9 +1376,8 @@ Dearest Georges  - It is very odd about Angellier.</s>
          <div type="letter" n="44" xml:lang="fr">
             <head>Letter 44: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o641" n="641" corresp="t443">
-                  <date>Undated letter</date>
-	When we will have no more money you must tell – we will sell – or wash as we say – THEM ALL – my English poets – les deux petits livres de Lamb brillent comme des joyaux entre les dos sévères et dignes de ses contemporains et amis – et somme toute après avoir protesté qu'il ne fallait pas me l'envoyer, il me serait bien impossible de ne pas dire à présent que vous avez excellemment agi car j'ai été on ne peut plus heureux de les revoir tous ces exquis bavardages de Lamb – qui lus dans une aussi exquise édition, et avec trois de ses portraits sous les yeux – équivalent presque à une soirée passée avec lui.</s>
+			<date>Undated letter</date>
+               <s xml:id="o641" n="641" corresp="t443">When we will have no more money you must tell – we will sell – or wash as we say – THEM ALL – my English poets – les deux petits livres de Lamb brillent comme des joyaux entre les dos sévères et dignes de ses contemporains et amis – et somme toute après avoir protesté qu'il ne fallait pas me l'envoyer, il me serait bien impossible de ne pas dire à présent que vous avez excellemment agi car j'ai été on ne peut plus heureux de les revoir tous ces exquis bavardages de Lamb – qui lus dans une aussi exquise édition, et avec trois de ses portraits sous les yeux – équivalent presque à une soirée passée avec lui.</s>
                <s xml:id="o642" n="642" corresp="t444">J'ai retrouvé celui qui m'avait tant amusé – le premier que j'avais lu – old an new Schoolmaster  – la conversation dans le « bus » de Bishopsgate !</s>
                <s xml:id="o643" n="643" corresp="t445">As we were the sole passengers he naturally enough <sic>adressed </sic> his conversation to me ! and we discussed the merit of the fare, the civility and punctuality of the driver : the circumstance of an opposition coach having been lately set up – with the probability of its success – (etc.) – when he suddenly alarmed me by a startling question, whether I had seen the show of prize cattle that morning in Smithfield!!</s>
                <s xml:id="o644" n="644" corresp="t446">C'était cette série de "copies" et le dernier surtout qui m'avait ravi – alors que je ne connaissais pas Lamb, en me figurant Image remplissant le rôle d'interlocuteur du schoolmaster !</s>
@@ -1515,8 +1500,7 @@ My dear Georges, there is another Keats in the Gallery, but they have no copy of
                <s xml:id="o697" n="697" corresp="t477">Et l'ombre verdissante des taillis, en bourgeons qui s'entrouvrent au bout des branches, les marguerites qui naissent en foule dans le gazon, le ciel qui s'adoucit et dans sa douceur</s>
             </p>
             <p n="second-postcard">
-               <s>rappelle tous les printemps passés, tout m'invite à rester dans le nord et à y voir s'épanouir le printemps dans sa délicieuse fraîcheur.</s>
-               <s xml:id="o698" n="698" corresp="t478">Seulement d'autre part j'ai comme vous besoin de faire la ville – et me rappelant que nous avions projeté d'aller au Devonshire, je me demandais si ne pourrions pas y aller passer ensemble nos vacances.</s>
+               <s xml:id="o698" n="698" corresp="t478">rappelle tous les printemps passés, tout m'invite à rester dans le nord et à y voir s'épanouir le printemps dans sa délicieuse fraîcheur. Seulement d'autre part j'ai comme vous besoin de faire la ville – et me rappelant que nous avions projeté d'aller au Devonshire, je me demandais si ne pourrions pas y aller passer ensemble nos vacances.</s>
                <s xml:id="o699" n="699" corresp="t479">Qu'en dites-vous ?</s>
                <s xml:id="o700" n="700" corresp="t480">Peut-être aimez-vous mieux aller à Florence – si vous pouvez faire les deux, allez d'abord seul à florence, et gardez quelques jours pour les passer avec moi à Caerleon, à Tintagel et over Lyonesse.</s>
                <s xml:id="o701" n="701" corresp="t481">Dans tous les cas, nous allons discuter de cela samedi soir et dimanche à Bruges or ces temps-ci Bruges sera splendide.</s>
@@ -1572,9 +1556,8 @@ Dear Georges, I returned on Monday.</s>
             <head>Letter 52: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o730" n="730" corresp="t486">
-                  <date>9 May 1897 Ixelles to Great College Street</date>
-      Votre postcard dans <supplied reason="illegible">La Lyseion Lacédémonienne</supplied> me réservait 2 bonnes nouvelles.</s>
-               <s xml:id="o731" n="731" corresp="t487">La confirmation de notre expédition en Cornouailles (« ou Mark est roi <ptr
+                  <date>9 May 1897 Ixelles to Great College Street</date></s>
+               <s xml:id="o731" n="731" corresp="t487">Votre postcard dans <supplied reason="illegible">La Lykeion [?] Lacédémonienne</supplied> me réservait 2 bonnes nouvelles. La confirmation de notre expédition en Cornouailles (« ou Mark est roi <ptr
                        target="#note128"
                        xml:id="nr128"
                        n="128"/>  ») et la très agréable perspective d'un amusant livre à écrire sur les vieilles villes des Flandres.</s>
@@ -1618,9 +1601,8 @@ My dear Georges, yes that will do excellently: prepare your scheme, and I will s
          <div type="letter" n="54" xml:lang="fr">
             <head>Letter 54: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o755" n="755" corresp="t499">
-                  <date>undated letter</date>
-	Très cher Laurence.</s>
+			<date>Undated letter</date>
+               <s xml:id="o755" n="755" corresp="t499">Très cher Laurence.</s>
                <s xml:id="o756" n="756" corresp="t500">Merci bien pour la bien aimable postcard reçue ce matin.</s>
                <s xml:id="o757" n="757" corresp="t501">J'ai pensé au livre qu'on pourrait faire pour George Allen – et en considérant le sujet il m'a paru qu'il y avait là matière à faire deux livres bien différents – l'un – un guide de l'artiste aux vieilles villes des Flandres- un livre bon marché à 2/G ou 3/G au plus avec 25 reproductions photographiques de tableaux et de monuments – et 200 pages environ de texte.</s>
                <s xml:id="o758" n="758" corresp="t502">L'autre – un volume luxueusement édité sur Bruges avec des reproductions de tout ce qui se trouve d'intéressant à Bruges – les Memling, Van Eyck <ptr
@@ -1633,9 +1615,7 @@ My dear Georges, yes that will do excellently: prepare your scheme, and I will s
                        target="#note133"
                        xml:id="nr133"
                        n="133"/>  et devant se vendre à L<supplied reason="omitted-in-original">ondres</supplied> ?</s>
-               <s xml:id="o759" n="759" corresp="t503">Bruges.</s>
-               <s xml:id="o760" n="760" corresp="t504">Artistique.</s>
-               <s xml:id="o761" n="761" corresp="t505">Monumental et pittoresque.</s>
+               <s xml:id="o759" n="759" corresp="t503">Bruges. Artistique. Monumental et pittoresque.</s>
                <s xml:id="o762" n="762" corresp="t506">Je pense qu'édité ainsi le volume se vendrait admirablement bien – tellement bien même que si pour une raison quelconque George Allen n'en veut pas, je prierais votre ami de ne pas répandre l'idée parce que je suis convaincu que pour ce volume, quand je serai à Londres et que j'aurai le temps de courir les publishers nous en trouverons facilement un qui le prendra.</s>
                <s xml:id="o763" n="763" corresp="t507">Mais ce second volume serait naturellement une affaire de librairie assez considérable à entreprendre – et peut être pour en tracter tous les détails vaudrait-il mieux que j'attende d'être à Londres.</s>
                <s xml:id="o764" n="764" corresp="t508">Ce que je voudrais faire, et proposer à votre ami c'est donc plutôt pour le moment le premier volume – le guide de l'artiste aux vieilles villes de Flandres.</s>
@@ -1680,8 +1660,8 @@ My dear Georges, yes that will do excellently: prepare your scheme, and I will s
                        target="#note134"
                        xml:id="nr134"
                        n="134"/>  et à bientôt des indications à propos de Allen et de Torquay.</s>
-               <s xml:id="o787" n="787" corresp="t522 t523">Amitiés</s>
-               <s xml:id="o788" n="788" corresp="t522 t523">G.</s>
+               <s xml:id="o787" n="787" corresp="t522">Amitiés</s>
+               <s xml:id="o788" n="788" corresp="t523">G.</s>
                <s xml:id="o789" n="789" corresp="t524">J'ai vu la semaine dernière des vues du montenegro.</s>
                <s xml:id="o790" n="790" corresp="t525">Quel superbe pays – et quel beau poème que le vôtre que j'ai relu depuis.</s>
                <s xml:id="o791" n="791" corresp="t526">G.</s>
@@ -1749,10 +1729,9 @@ My dear Georges, I have been away at Manchester for the wedding of a brother: an
          </div>
 	        <div type="letter" n="61" xml:lang="fr">
 	           <head>Letter 61: Olivier-Georges Destrée to Laurence Binyon</head>
-	           <!--problem with s id-->         <dateline>12 rue Van Elewyck, undated letter</dateline>
 	           <p>
-	              <s>Maintenant que me voilà réinstallé dans ce que mes amis appellent - mon paisible ermitage de la rue van Elewyck – je songe avec joies à toutes les belles choses que nous avons vues ensemble – aux côtes sauvages et grandioses de Cornouailles, au doux, poétique et familial paysage de Caterham, à cette ville de rêve et de légende qu'est pour nous Oxford, et aux délassantes et heureuses promenades de Weybridge : tout cela me réapparait embelli du souvenir de votre fraternelle amitié et des mille attentions que vous avez eues comme toujours pour moi – pendant ce voyage.</s>
-               <s xml:id="o816" n="816" corresp="t541">Vous dire que je vous en suis reconnaissant, vous le savez, très cher ami : aussi voudrais-je plutôt ce soir essayer de m'excuser à vos yeux – de ce que, pendant le voyage même, je n'ai peut être pas toujours paru apprécier comme il convenait les choses intéressantes et belles que je voyais grâce à vous.</s>
+			   <date>Undated letter</date>
+               <s xml:id="o816" n="816" corresp="t541"><date>12 rue Van Elewyck</date> Maintenant que me voilà réinstallé dans ce que mes amis appellent - mon paisible ermitage de la rue van Elewyck – je songe avec joies à toutes les belles choses que nous avons vues ensemble – aux côtes sauvages et grandioses de Cornouailles, au doux, poétique et familial paysage de Caterham, à cette ville de rêve et de légende qu'est pour nous Oxford, et aux délassantes et heureuses promenades de Weybridge : tout cela me réapparait embelli du souvenir de votre fraternelle amitié et des mille attentions que vous avez eues comme toujours pour moi – pendant ce voyage. Vous dire que je vous en suis reconnaissant, vous le savez, très cher ami : aussi voudrais-je plutôt ce soir essayer de m'excuser à vos yeux – de ce que, pendant le voyage même, je n'ai peut être pas toujours paru apprécier comme il convenait les choses intéressantes et belles que je voyais grâce à vous.</s>
                <s xml:id="o817" n="817" corresp="t542">En réalité je les appréciais à leur valeur, et s'il s'est mêlé à ma joie de les voir et d'être avec vous quelque tristesse et quelque manque d'enthousiasme parfois cela tenait à des causes dont ni les paysages de Cornwall ni vous n'étiez responsables.</s>
                <s xml:id="o818" n="818" corresp="t543">Comme votre ami Porphyrion j'ai longtemps erré, cherchant « ce qu'il fallait faire dans la vie » : pour moi comme pour lui le temps des fêtes et des voluptueux plaisirs dans les Banqueting Halls éblouissants et fascinateurs est passé – et si je ne suis pas encore parvenu au bout de mon voyage et si je ne sais pas encore comment il se finira, du moins je n'ai pas de doute sur ce que je dois faire à présent – et je sais fort bien que pour moi le seul bonheur constant et stable est pour à présent de travailler et d'être utile à moi-même et aux autres en écrivant les poèmes que j'ai conçus.</s>
                <s xml:id="o819" n="819" corresp="t544">Il y a longtemps que je l'ai compris – mais du désir à la réalisation il s'est écoulé déjà beaucoup de temps.</s>
@@ -1933,9 +1912,9 @@ Dear Georges, the article came this morning, Oldmeadow appeared today, and said 
                <s xml:id="o918" n="918" corresp="t605">Déjà le ciel est tout bleu et les matins de ces deux dernières journées ont été ici éblouissants.</s>
                <s xml:id="o919" n="919" corresp="t606">Et le banquet.</s>
                <s xml:id="o920" n="920" corresp="t607">J'attends avec impatience de pouvoir m'y asseoir et d'écouter ce que raconteront les convives – P.</s>
-               <s xml:id="o921" n="921" corresp="t608">Tibergh. M'a donné hier l'apologie de newman je la lirai cette semaine.</s>
-               <s xml:id="o922" n="922" corresp="t609 t610">Amitiés</s>
-               <s xml:id="o923" n="923" corresp="t609 t610">G.</s>
+               <s xml:id="o921" n="921" corresp="t608">Tibergh. m'a donné hier l'apologie de newman je la lirai cette semaine.</s>
+               <s xml:id="o922" n="922" corresp="t609">Amitiés</s>
+               <s xml:id="o923" n="923" corresp="t610">G.</s>
             </p>
          </div>
   
@@ -2098,16 +2077,25 @@ Dearest Georges, I begin to be afraid you are ill.</s>
                <s xml:id="o1018">Is this a compliment or not?</s>
             </p>
          </div>
-    
+		 		 
          <div type="letter" n="76" xml:lang="fr">
-            <head>Letter 76: Olivier-Georges Destrée to Laurence Binyon</head> 
+		 
+<figure>
+ <figDesc>Reproduction of Destrée's postcard to Binyon, probably November 1897</figDesc>
+ <!--I've kept the original file name from the library: if possible, change it to Letter 76--><graphic url="G70122-05.tif"/>
+</figure>
+
+<figure>
+ <figDesc>Reproduction of the front page of Destrée's postcard to Binyon, probably November 1897</figDesc>
+<!--I've kept the original file name from the library: if possible, change it to Letter 76, front -->
+ <graphic url="G70122-06.tif"/>
+</figure>
+
+			<head>Letter 76: Olivier-Georges Destrée to Laurence Binyon</head> 
             <p>
-               <s xml:id="o1019" n="1019" corresp="t611">
-                  <date>undated letter, probably Nov 1897</date>
-               </s>
-               <s xml:id="o1020" n="1020" corresp="t612">Ixelles to 3 Barton Street
-	« Che !</s>
-               <s xml:id="o1021" n="1021" corresp="t613">Che ! <ptr
+			<date>Undated letter, probably November 1897</date>
+               <s xml:id="o1020" n="1020" corresp="t612">Ixelles to 3 Barton Street</s>
+               <s xml:id="o1021" n="1021" corresp="t613">« Che ! Che ! <ptr
                        target="#note146"
                        xml:id="nr146"
                        n="146"/>  » comme on dit à Florence.</s>
@@ -2117,9 +2105,7 @@ Dearest Georges, I begin to be afraid you are ill.</s>
                        xml:id="nr147"
                        n="147"/>  ainsi s'exprime cet honnête homme que pour ma part (n'entendant plus parler de lui) je commençais à traiter de gredin et de scélérat de la pire espèce ! ce que vous dites de ses pseudonymes est très amusant et aussi l'histoire de votre vieux fidèle.</s>
                <s xml:id="o1024" n="1024" corresp="t617">Enfin – en me décidant à n'être pas payé pour mon anthologie j'ai réussi à trouver ici un éditeur du moins la chose est presque arrangée.</s>
-               <s xml:id="o1025" n="1025" corresp="t618">Il a l'intention de faire 2 éditions une à 3.50 et l'autre à 5 frcs – toutes deux avec tous les portraits de Blake, Southey, Moore, Wolfe, Shelley, Hood, E.</s>
-               <s xml:id="o1026" n="1026" corresp="t619">B.</s>
-               <s xml:id="o1027" n="1027" corresp="t620">Browning, que je pourrai reproduire – les autres ont été photographiées par Walker et Hollyer <ptr
+               <s xml:id="o1025" n="1025" corresp="t618">Il a l'intention de faire 2 éditions une à 3.50 et l'autre à 5 frcs – toutes deux avec tous les portraits de Blake, Southey, Moore, Wolfe, Shelley, Hood, E. B. Browning, que je pourrai reproduire – les autres ont été photographiées par Walker et Hollyer <ptr
                        target="#note148"
                        xml:id="nr148"
                        n="148"/>  et j'ai la liste des portraits qu'ils ont fait chacun.</s>
@@ -2206,9 +2192,8 @@ Dear Georges, I am off tomorrow to Devon for three days.</s>
             <head>Letter 80: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
                <s xml:id="o1072" n="1072" corresp="t644">
-                  <date>24 Jan 98 <!--explaining his choice (entry in monastery Oct 1 1898, decision late 1897), ef--></date>
-	Très cher Laurence.</s>
-               <s xml:id="o1073" n="1073" corresp="t645">Il y a quelque temps je vous accusais de me négliger et je vous disais que ce n'était pas bien de me laisser si  longtemps sans nouvelles.</s>
+                  <date>24 Jan 98 <!--explaining his choice (entry in monastery Oct 1 1898, decision late 1897), ef--></date></s>
+               <s xml:id="o1073" n="1073" corresp="t645">Très cher Laurence.Il y a quelque temps je vous accusais de me négliger et je vous disais que ce n'était pas bien de me laisser si  longtemps sans nouvelles.</s>
                <s xml:id="o1074" n="1074" corresp="t646">C'est à mon tour maintenant de m'excuser et le motif de ce long silence est que je craignais de vous écrire parce que la nouvelle que j'ai à vous apprendre ne sera pas je crois sans vous causer quelque peine, parce qu'à cause de la résolution que j'ai prise il nous sera pendant quelque temps du moins difficile de nous voir aussi souvent que nous le désirions tous deux.</s>
                <s xml:id="o1075" n="1075" corresp="t647">Cette résolution que j'ai prise est d'entrer au mois d'octobre prochain au séminaire de malines, pour y faire les trois années d'études du grand séminaire et être ensuite ordonné prêtre.</s>
                <s xml:id="o1076" n="1076" corresp="t648">Vous rappelez-vous cher Laurence que déjà il y a longtemps dans une promenade dans la forêt près de Bruxelles, je vous exprimais ce désir que je sentais naître confusément dans mon cœur.</s>
@@ -2357,10 +2342,10 @@ Très cher ami.</s>
                <s xml:id="o1177" n="1177" corresp="t739">De mon côté vie très uniforme et affairée par l'étude de la logique que j'ai Dieu merci terminée et de la psychologie que je suis en train d'achever.</s>
                <s xml:id="o1178" n="1178" corresp="t740">J'espère avoir terminé en avril mes études philosophiques cela ne me changera pas beaucoup ! mais me facilitera sans doute la théologie – mon éditeur a été retardé dans la publication de mon anthologie – il va lancer un prospectus la semaine prochaine – une page de ce prospectus devrait être un portrait de Keats.</s>
                <s xml:id="o1179" n="1179" corresp="t741">Pourriez-vous obtenir d'Emery Walker la permission de le reproduire sur le prospectus – mon éditeur veut reproduire tous les portraits faits par Walker dans le livre, et est tout disposé alors à payer les droits qui reviendrons à Walker – ce qu'il demande pour le moment c'est simplement l'autorisation de reproduire le Keats dans le prospectus.</s>
-               <s xml:id="o1180" n="1180" corresp="t742 t743">Et il paiera même pour cette reproduction ou prospectus si Walker le demande, et dans ce cas il serait très aimable (Walker) en m'écrivant combien cela coûte.</s>
-               <s xml:id="o1181" n="1181" corresp="t742 t743">Puis-je vous charger de cette demande ?</s>
+               <s xml:id="o1180" n="1180" corresp="t742">Et il paiera même pour cette reproduction ou prospectus si Walker le demande, et dans ce cas il serait très aimable (Walker) en m'écrivant combien cela coûte.</s>
+               <s xml:id="o1181" n="1181" corresp="t743">Puis-je vous charger de cette demande ?</s>
                <s xml:id="o1182" n="1182" corresp="t744">Merci d'avance si vous pouvez le faire et à bientôt n'est-ce par votre livre et de vos nouvelles.</s>
-               <s xml:id="o1183" n="1183" corresp="t745 t746">G Amitiés.</s>
+               <s xml:id="o1183" n="1183" corresp="t745">G Amitiés.</s>
             </p>
          </div>
 
@@ -2446,13 +2431,11 @@ My dear Georges, I was very glad to hear again from you.</s>
          <div type="letter" n="87" xml:lang="fr">
             <head>Letter 87: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o1235" n="1235" corresp="t768">
-                  <date>Undated letter</date>
-	Business <!--note: elaborate B-->
-	Mon cher Laurence – merci bien pour vos postcards relatives à Walker et à Hyatt.</s>
-               <s xml:id="o1236" n="1236" corresp="t769">Pour Walker ses conditions sont charmantes et je lui ai écrit pour lui demander – pour mon éditeur – que lui Walker veuille bien confirmer votre postcard et m'envoyer les photographies qu'il a faites et que je n'ai pas – je les lui ai désignées – Ca va très bien de ce côté – seulement j'ai écrit fin de semaine passée et je n'ai pas encore de réponse.</s>
+			<date>Undated letter</date>
+               <s xml:id="o1235" n="1235" corresp="t768">Business <!--note: elaborate B--></s>
+               <s xml:id="o1236" n="1236" corresp="t769">Mon cher Laurence – merci bien pour vos postcards relatives à Walker et à Hyatt. Pour Walker ses conditions sont charmantes et je lui ai écrit pour lui demander – pour mon éditeur – que lui Walker veuille bien confirmer votre postcard et m'envoyer les photographies qu'il a faites et que je n'ai pas – je les lui ai désignées – Ca va très bien de ce côté – seulement j'ai écrit fin de semaine passée et je n'ai pas encore de réponse.</s>
                <s xml:id="o1237" n="1237" corresp="t770">J'ai écrit à Clifford's Inn 16 Fleet Street – Si c'est bien son adresse comme je le crois, ne pourriez vous pas lui écrire une petite postcard pour lui demander s'il a reçu ma lettre.</s>
-               <s xml:id="o1238" n="1238" corresp="t771">Pour Hyatt – je ne sais pas vous répondre de suite parce que je ne sais pas bien le chiffre de votre postcard  indiquant le prix de chaque portrait – et que je ne sais pas bien et mon publisher non plus ce que c'est que des = inches = ou du moins comment ça se reproduit en centimètres.</s>
+               <s xml:id="o1238" n="1238" corresp="t771">Pour Hyatt – je ne sais pas vous répondre de suite parce que je ne sais pas bien le chiffre de votre postcard indiquant le prix de chaque portrait – et que je ne sais pas bien et mon publisher non plus ce que c'est que des = inches = ou du moins comment ça se reproduit en centimètres.</s>
                <s xml:id="o1239" n="1239" corresp="t772">Le plus simple arrangement est donc celui-ci – voulez vous demander à Hyatt
 	1)	Combien il demanderait pour me faire non pas un cliché mais une photographie de la grandeur et du genre de celles de Walker (j'entends ses portraits de Keats de Lamb et de Coleridge que vous m'avez envoyé)
 	2)	Combien il demanderait pour le droit de les reproduire  - en lui disant que s'il veut me permettre un prix de faveur, je ferai comme pour Walker c.a.d. que j'imprimerai son nom est adresse en dessous de chaque portrait</s>
@@ -2539,9 +2522,7 @@ Dear Georges, many thanks for your delightful letter.</s>
          <div type="letter" n="91" xml:lang="fr">
             <head>Letter 91: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o1293" n="1293" corresp="t783">
-                  <date>Undated letter, probably May 1898</date>
-               </s>
+            <date>Undated letter, probably April 1898</date>   
                <s xml:id="o1294" n="1294" corresp="t784">C'est aujourd'hui le premier jour de printemps on vit d'un délicieux bain de vapeurs et de lumières et le jardin tout vert et fleuri en face de chez moi est merveilleux !</s>
                <s xml:id="o1295" n="1295" corresp="t785">Très cher Laurence.</s>
                <s xml:id="o1296" n="1296" corresp="t786">Merci pour le portrait de Swinburne hier soir.</s>
@@ -2700,10 +2681,8 @@ My dear Georges, I have just returned from a week's stay in the North, near the 
          <div type="letter" n="97" xml:lang="fr">
             <head>Letter 97: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o1385" n="1385" corresp="t819">
-                  <date>undated letter, probably July 1898</date>
-      A beautiful garden smothered in Roses <!--note: elaborate; flourishing writing and drawing of roses in original-->
-	Vous voyez cher ami que votre « nice postcard » a atteint son but qui était de me donner une grande envie de voir ce jardin smothered in roses.</s>
+            <date>Undated letter, probably July 1898</date>
+			<s xml:id="o1385" n="1385" corresp="t819">A beautiful garden smothered in Roses <!--note: elaborate; flourishing writing and drawing of roses in original--> Vous voyez cher ami que votre « nice postcard » a atteint son but qui était de me donner une grande envie de voir ce jardin smothered in roses.</s>
                <s xml:id="o1386" n="1386" corresp="t820">Et quel jardin pourrait être plus joli que ce jardin de Pye, un jardin tout jonché et palpitant de roses épanouies dans un pays de collines bleues entre lesquelles courent des routes blanches.</s>
                <s xml:id="o1387" n="1387" corresp="t821">Aussi bien suis-je aujourd'hui plein de souvenirs et de sollicitations au voyage vers tous les pays que j'aime.</s>
                <s xml:id="o1388" n="1388" corresp="t822">J'ai écrit ce matin à Florence, et tandis que je vous écris à vous dans la douce et moite chaleur qu'il fait aujourd'hui un orgue sous mes fenêtres joue la passionnée et évocative Siciliana de la Cavalleria Rusticana <ptr
@@ -2759,8 +2738,8 @@ My dear Georges, I have just returned from a week's stay in the North, near the 
          <div type="letter" n="98" xml:lang="fr">
             <head>Letter 98: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
+			<date>Undated letter, possibly Aug 1898</date>
                <s xml:id="o1421" n="1421" corresp="t855">
-                  <date>undated letter, possibly Aug 1898</date>
 	What a man must do
 	What a man can do
 	What a man ought to do</s>
@@ -2827,10 +2806,9 @@ My dear Georges, I have just returned from a week's stay in the North, near the 
          <div type="letter" n="100" xml:lang="fr">
             <head>Letter 100: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o1465" n="1465" corresp="t889">
-                  <date>undated letter; Hotel de la Noble Rose à Furnes, Belgique</date>
-	Eh bien, cher ami, j'y suis comme vous voyez !</s>
-               <s xml:id="o1466" n="1466" corresp="t890">J'y ai même fort bien dîné et je vous le recommande bien vivement à Pye et à vous pour ses vins très bons et sa vie familiale.</s>
+			<date>Undated letter</date>
+               <s xml:id="o1465" n="1465" corresp="t889">Hotel de la Noble Rose à Furnes, Belgique</s>
+               <s xml:id="o1466" n="1466" corresp="t890">Eh bien, cher ami, j'y suis comme vous voyez ! J'y ai même fort bien dîné et je vous le recommande bien vivement à Pye et à vous pour ses vins très bons et sa vie familiale.</s>
                <s xml:id="o1467" n="1467" corresp="t891">Et je suis on ne peut plus heureux d'y être venu parce que je sais maintenant que cette noble Rose est la Rose rouge de Lancastre sur laquelle mes souvenirs historiques me laissent malheureusement fort à dépourvu.</s>
                <s xml:id="o1468" n="1468" corresp="t892">Mais enfin il suffit que ce soit la Rouge Rose de Lancastre pour que je sois transporté d'enthousiasme.</s>
                <s xml:id="o1469" n="1469" corresp="t893">Quel dommage que vous n'ayez pu venir ici avec moi.</s>
@@ -2845,18 +2823,16 @@ My dear Georges, I have just returned from a week's stay in the North, near the 
 	                 <!--note: elaborate Lancaster signature here-->
 	J'avais voulu faire une belle signature moyenâgeuse mais le bon vin de la noble Rose m'en empêche.</s>
                <s xml:id="o1475" n="1475" corresp="t899">Amitiés.</s>
-               <s xml:id="o1476" n="1476" corresp="t900 t901">G</s>
+               <s xml:id="o1476" n="1476" corresp="t900">G</s>
             </p>
          </div>
 
          <div type="letter" n="101" xml:lang="fr">
             <head>Letter 101: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o1477" n="1477" corresp="t900 t901">
-                  <date>20 Aug 1898 Panne 3 Barton Street</date>
-Cher Laurence.</s>
-               <s xml:id="o1478" n="1478" corresp="t902">
-                  <emph n="authorial">Pardonnez-moi cette peu convenable postcard </emph>que j'ai achetée il y a 5 jours à Bruxelles et qui est restée depuis dans ma poche.</s>
+               <s xml:id="o1477" n="1477" corresp="t901">
+                  <date>20 Aug 1898 Panne 3 Barton Street</date></s>
+               <s xml:id="o1478" n="1478" corresp="t902">Cher Laurence. <emph n="authorial">Pardonnez-moi cette peu convenable postcard </emph>que j'ai achetée il y a 5 jours à Bruxelles et qui est restée depuis dans ma poche.</s>
                <s xml:id="o1479" n="1479" corresp="t903">En revenant de Coucy le château, Soissons, Pierrefonds, Senlis, Chantilly, très charmante excursion, je n'ai fait que traverser Bruxelles où j'ai trouvé votre postcard pour laquelle je vous remercie de tout cœur – et je suis venu m'installer ici à la Panne – <emph n="authorial">Grand Hotel Panne Bains par adinkerke</emph> au milieu de ces dunes de sable blanc semées de bruissantes herbes vertes et de fleurs jaunes que j'aime tant.</s>
                <s xml:id="o1480" n="1480" corresp="t904">C'est le plus délicieux séjour que j'ai fait depuis longtemps et je regrette bien vivement de ne pas vous y avoir avec moi ces jours-ci.</s>
                <s xml:id="o1481" n="1481" corresp="t905">Je resterai ici jusqu'à mardi et si vous vouliez venir je resterais toute la semaine prochaine – Ecrivez-moi une post carte ici jusqu'à mardi et après mardi à Bruxelles.</s>
@@ -2890,22 +2866,13 @@ Dear Georges, I am so sorry I could not come to La Panne.</s>
          <div type="letter" n="103" xml:lang="fr">
             <head>Letter 103: Olivier-Georges Destrée to Laurence Binyon</head>
             <p>
-               <s xml:id="o1498" n="1498" corresp="t907">
-                  <date>undated letter, possibly Sept 1898</date>
-	Très cher Laurence, voici arrivé le moment de quitter Bruxelles pour Maredsous et j'avoue que parmi les lettres d'adieux écrites à la hâte ces jours-ci, je vous ai réservé la dernière parce que c'était la seule qui me coutât.</s>
+			<date>Undated letter, possibly Sept 1898</date>
+               <s xml:id="o1498" n="1498" corresp="t907">Très cher Laurence, voici arrivé le moment de quitter Bruxelles pour Maredsous et j'avoue que parmi les lettres d'adieux écrites à la hâte ces jours-ci, je vous ai réservé la dernière parce que c'était la seule qui me coutât.</s>
                <s xml:id="o1499" n="1499" corresp="t908">Il me coute en effet beaucoup de penser que je vous verrai moins souvent et que j'aurai moins souvent l'occasion de correspondre avec vous.</s>
                <s xml:id="o1500" n="1500" corresp="t909">Aussi ne serai-je vraiment rasséréné en pensant à vous que quand je vous aurai vu quelques jours à Maredsous, et quand nous aurons là bien établi définitivement un « modus vivendi » ! qui nous permettra de nous écrire et de penser à nous beaucoup plus aisément.</s>
                <s xml:id="o1501" n="1501" corresp="t910">Quand vous m'aurez vu installé à Maredsous quand vous y serez passé par vous-même, ma vie là-bas vous paraitra je crois beaucoup plus compréhensible et plus digne d'estime, je crois, par contre, que tant que vous n'y serez pas venu, il y aura toujours un peu de contrainte dans vos lettres, à l'imagination fausse je crois que vous pouvez vous faire de la vie d'un couvent Bénédictin.</s>
                <s xml:id="o1502" n="1502" corresp="t911">Aussi serait-ce avec la plus grande joie que je recevrai l'annonce de votre arrivée que j'espère et que j'escompte déjà au plus tard pour le printemps prochain.</s>
-               <s xml:id="o1503" n="1503" corresp="t912">D'ici là écrivez moi vos habituelles postcards n'est-ce pas – adresse Mr Oliv.</s>
-               <s xml:id="o1504" n="1504" corresp="t913">G.</s>
-               <s xml:id="o1505" n="1505" corresp="t914">Destrée aux bons soins des RR.</s>
-               <s xml:id="o1506" n="1506" corresp="t915 t916">PP. <ptr
-                       target="#note176"
-                       xml:id="nr176"
-                       n="176"/>
-               </s>
-               <s xml:id="o1507" n="1507" corresp="t915 t916">Bénédictins de l'abbaye de Maredsous province de Namur Belgium</s>
+               <s xml:id="o1503" n="1503" corresp="t912">D'ici là écrivez moi vos habituelles postcards n'est-ce pas – adresse Mr Oliv. G. Destrée aux bons soins des RR. PP. <ptr target="#note176" xml:id="nr176" n="176"/> Bénédictins de l'abbaye de Maredsous province de Namur Belgium</s>
                <s xml:id="o1508" n="1508" corresp="t917">Ces postcards me feront le plus grand plaisir me prouvant que vous ne m'oubliez pas de votre côté et elles me tiendront ainsi constamment au courant de vos projets littéraires.</s>
                <s xml:id="o1509" n="1509" corresp="t918">Pye m'a écrit une bonne longue et charmante lettre dont je vous prie, le temps me manquant, de lui présenter tous mes remerciements.</s>
                <s xml:id="o1510" n="1510" corresp="t919">J'ai appris avec joie et admiration la vocation de mademoiselle Pye et si vous la voyez je vous prie de vouloir bien lui témoigner ces sentiments de ma part et de lui présenter ainsi qu'à mad. Pye tous mes respects.</s>
@@ -2933,21 +2900,17 @@ Dear Georges, I am so sorry I could not come to La Panne.</s>
 	I posted the catalogue to you yesterday.</s>
                <s xml:id="o1520">I marked a few names of artists who might perhaps contribute to your exhibition.</s>
                <s xml:id="o1521">Here are a few notes on them.</s>
-               <s xml:id="o1522">I.D.</s>
-               <s xml:id="o1523">Batten has painted religious pictures in tempera.</s>
-               <s xml:id="o1524">He lacks power, but has painted some pleasing pictures, with clear bright colour. + Mrs Sargant Florence <ptr target="#note178" xml:id="nr178" n="178"/>  does wall-paintings: she is a designer of remarkable gifts: you should try and get a cartoon from her.</s>
-               <s xml:id="o1525">A.J.</s>
-               <s xml:id="o1526">Gaskin <ptr target="#note179" xml:id="nr179" n="179"/>  does woodcuts.</s>
+               <s xml:id="o1522">I.D. Batten has painted religious pictures in tempera. He lacks power, but has painted some pleasing pictures, with clear bright colour. </s>
+               <s xml:id="o1524">+ Mrs Sargant Florence <ptr target="#note178" xml:id="nr178" n="178"/>  does wall-paintings: she is a designer of remarkable gifts: you should try and get a cartoon from her.</s>
+               <s xml:id="o1525">A.J. Gaskin <ptr target="#note179" xml:id="nr179" n="179"/>  does woodcuts.</s>
                <s xml:id="o1527">Graily Hewitt <ptr target="#note180" xml:id="nr180" n="180"/>  does beautiful writing.</s>
                <s xml:id="o1528">I think he has done some prayer books in MS.</s>
-               <s xml:id="o1529">J.M.</s>
-               <s xml:id="o1530">Rooke <ptr target="#note181" xml:id="nr181" n="181"/>  is an old pupil of Burne-Jones, not very strong.</s>
+               <s xml:id="o1529">J.M. Rooke <ptr target="#note181" xml:id="nr181" n="181"/>  is an old pupil of Burne-Jones, not very strong.</s>
                <s xml:id="o1531">He does chiefly drawings of cathedrals now but at one time printed religious subjects.</s>
                <s xml:id="o1532">Ch. Whale does stained glass and gets fine colour.</s>
                <s xml:id="o1533">He is a Catholic: perhaps you might get him to invite people who are suitable.</s>
                <s xml:id="o1534">Countess Feodora Gleichen <ptr target="#note182" xml:id="nr182" n="182"/>  is a sculptor (pupil of Legros <ptr target="#note183" xml:id="nr183" n="183"/> ) who has done work for churches.</s>
-               <s xml:id="o1535">A.E.R.</s>
-               <s xml:id="o1536">Gill <ptr target="#note184" xml:id="nr184" n="184"/>  is admirable for lettering on stone and marble, and has done some remarkable sculpture, carving the stone himself in Gothic style.</s>
+               <s xml:id="o1535">A.E.R. Gill <ptr target="#note184" xml:id="nr184" n="184"/>  is admirable for lettering on stone and marble, and has done some remarkable sculpture, carving the stone himself in Gothic style.</s>
                <s xml:id="o1537">Get him if <emph n="authorial">you can</emph>.</s>
                <s xml:id="o1538">I think I told you that we have moved in a new house, 118 Belgrave Rd SW.</s>
                <s xml:id="o1539">It is near the Thames, not far from the Tate Gallery.</s>
@@ -3257,7 +3220,7 @@ Dear Georges, I am so sorry I could not come to La Panne.</s>
          <note xml:id="note183">Alphonse Legros (1837 –1911) French painter, etcher and sculptor</note>
          <note xml:id="note184">Arthur Eric Rowton Gill (1882 – 1940) English sculptor, typeface designer, stonecutter and printmaker</note>
          <note xml:id="note185">Elbert Jan Van Wisselingh (1848-1912) Dutch art dealer</note>
-         <note xml:id="note186">Olivier Georges Destrée died of peritonitis on Oct 30 1919.</note>
+         <note xml:id="note186">Olivier-Georges Destrée died of peritonitis on Oct 30 1919.</note>
       
          </div>
       </back>
