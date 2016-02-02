@@ -680,7 +680,7 @@
 
 
     <!-- Figures -->
-    <xsl:template match="//tei:figure">
+    <xsl:template match="//tei:figure" priority="1">
         <xsl:variable name="editionName">
             <xsl:value-of select="//tei:publicationStmt/tei:idno[@type='edition']" />
         </xsl:variable>

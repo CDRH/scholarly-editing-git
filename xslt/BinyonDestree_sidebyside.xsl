@@ -120,7 +120,7 @@
   <xsl:template match="/" priority="1">
     <!-- find a better rule for matching bottom of document -->
     <html>
-      <head><title>Side by Side view</title>
+      <head><title>Side by Side View</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
         <link href="../../css/BinyonDestree.css" rel="stylesheet" type="text/css"/>
         <script src="../../js/BinyonDestree.js"> &#160; </script>

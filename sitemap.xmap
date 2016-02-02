@@ -264,6 +264,18 @@
                 <map:serialize type="html" />
             </map:match>
         </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/BinyonDestree/**.jpg">
+                <map:read src="2016/editions/BinyonDestree/{1}.jpg" />
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/BinyonDestree/xml/BinyonDestree.zip">
+                <map:read src="2016/editions/BinyonDestree/xml/BinyonDestree.zip" />
+            </map:match>
+        </map:pipeline>
 
 
 <!-- Dunning's translations, 2016 issue-->

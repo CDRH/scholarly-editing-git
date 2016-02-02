@@ -41,6 +41,9 @@
                     <li id="editionNav5">
                         <a href="{$siteroot}2016/editions/BinyonDestree.sidebyside.html">Side by Side</a>
                     </li>
+                    <li id="editionNav4">
+                        <a href="BinyonDestree/xml/BinyonDestree.zip">Download XML</a>
+                    </li>
                 </ul>
            
     </xsl:template>

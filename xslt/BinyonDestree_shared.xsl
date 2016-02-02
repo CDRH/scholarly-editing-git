@@ -31,6 +31,13 @@
         
     </xsl:template>
     
+    
+    <xsl:template match="tei:sic">
+        <xsl:apply-templates/>
+        <xsl:text> [sic]</xsl:text>
+    </xsl:template>
+    
+    
     <xsl:template match="tei:s" priority="1">
        
                 <span>
@@ -43,12 +50,13 @@
     
     <xsl:template match="tei:supplied"><xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></xsl:template>
     
-    <xsl:template match="tei:graphic">
-        <xsl:variable name="figure_id"><xsl:value-of select="substring-before(graphic/@url)"/></xsl:variable>
+    
+    <xsl:template match="//tei:figure" priority="2">
+        <xsl:variable name="figure_id"><xsl:value-of select="substring-before(tei:graphic/@url, '.tif')"/></xsl:variable>
         <div class="tei_graphic">
             <xsl:attribute name="href">
-                <xsl:value-of select="$fig_location"/>
-                <xsl:text>large/</xsl:text>
+                <xsl:text>BinyonDestree/figures/</xsl:text>
+                
                 <xsl:value-of select="$figure_id"/>
                 <xsl:text>.jpg</xsl:text>
             </xsl:attribute>
@@ -57,7 +65,7 @@
             </xsl:attribute>
             <xsl:attribute name="title">
                 <xsl:text>&lt;a href="</xsl:text>
-                <xsl:value-of select="$fig_location"/>
+                <xsl:text>BinyonDestree/figures/</xsl:text>
                 <xsl:text>large/</xsl:text>
                 <xsl:value-of select="$figure_id"/>
                 <xsl:text>.jpg</xsl:text>
@@ -66,8 +74,8 @@
             
             <img>
                 <xsl:attribute name="src">
-                    <xsl:value-of select="$fig_location"/>
-                    <xsl:text>large/</xsl:text>
+                    <xsl:text>BinyonDestree/figures/</xsl:text>
+                    
                     <xsl:value-of select="$figure_id"/>
                     <xsl:text>.jpg</xsl:text>
                 </xsl:attribute>
