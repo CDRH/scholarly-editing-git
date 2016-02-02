@@ -1,0 +1,140 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title type="main" level="m">Hannah Whitman Heyde to Walt Whitman June 7, 1873</title>
+<author>Hannah Whitman Heyde</author>
+<editor role="main">Maire Mullins</editor>
+<editor role="assistant">Madison Perrin</editor>
+<respStmt>
+<resp>Transcription and encoding</resp>
+<name xml:id="kb">Kelsey Barkis</name>
+<name xml:id="mp">Madison Perrin</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<idno type="file">LOChwhww671873</idno>
+<idno type="edition">whitmanheydeletters</idno>
+<authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>
+<address>
+<addrLine>http://www.scholarlyediting.org</addrLine>
+</address>
+<publisher>Association for Documentary Editing</publisher>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor><name>Center for Digital Research in the Humanities</name>
+<address><addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>http://cdrh.unl.edu</addrLine></address></distributor>
+<date>2015</date>
+<availability>
+<p>Scholarly Editing: The Annual of the Association for Documentary Editing is freely distributed by the Association for 
+Documentary Editing and the Center for Digital Research in the Humanities at the University of Nebraska-Lincoln and licensed 
+under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for
+             Documentary Editing</title>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id="ag">Amanda Gailey</name>
+            </respStmt>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id="awj">Andrew Jewell</name>
+            </respStmt>
+            <idno type="vol"><!-- The Journal's volume number --></idno>
+            <idno type="ISSN">2167-1257</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<author>Hannah Whitman Heyde</author>
+<title>Hannah Whitman Heyde to Walt Whitman, June 7, 1873</title>
+<date xml:id="dat1" when="1873-06-07" cert="high">June 7, 1873</date>
+<orgName xml:id="col">Hannah Louisa Whitman Heyde Papers, 1853-1892, Library of Congress, Washington, DC</orgName>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<particDesc>
+<person role="sender">
+<persName key="Heyde, Hannah Whitman">Hannah Whitman Heyde</persName>
+</person>
+<person role="recipient">
+<persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+</particDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2015-07-01" who="#kb">encoded</change>
+<change when="2015-08-20" who="#mp">encoded annotations</change>
+<change when="2015-09-04" who="#mm">proofread</change>
+</revisionDesc>
+</teiHeader>
+<text type="letter">
+<body>
+<pb facs="16.00118736.7LOCWW.jpg"/>
+<opener>
+<dateline>
+<date when="1873-06-07">Saturday Afternoon June 7 [1873]<note xml:id="n1" type="editorial" resp="jse">Richard Maurice Bucke dates this letter 1873, in red ink. 
+This date is consonant with the grief that Hannah expresses in this letter; Mother Whitman died on May 23, 1873.</note></date>
+</dateline></opener>
+<!--<p>It was very kind &#38; thoughtful to send the $2, for the Express, I am much <choice><sic>oblidged</sic><corr>obliged</corr></choice>, to 
+Jeffy<note xml:id="n3" type="editorial" resp="jse">Thomas Jefferson Whitman(1833-1890), Jeff, was the eighth child of Walter and Louisa Whitman. Walts favorite brother, 
+Jeff played the piano and had a lively sense of humor.  He married Mattie Emma Mitchell on February 23, 1859. Jeff and Mattie moved in with Mother Whitman shortly after their marriage, 
+and remained with her until 1867, when Jeff accepted a position as Chief Engineer and Superintendent of Water Works in St. Louis, Missouri.</note> too,</p>
+<p>I have meant to write Jeffy &#38; the dear little girls<note xml:id="n4" type="editorial" resp="jse">4.	Mattie and Jeff had two daughters, Manahatta (Hattie), born on 
+June 9, 1860, and Jessie Louisa, born on June 17, 1863. Mattie died on February 19, 1873.</note></p>-->
+<salute>My dear Brother</salute>
+<p>I wish I had written to you before, but first I could not, I wanted <choice><sic>too</sic><corr>to</corr></choice></p>
+<p>Now I feel anxious to write. I am <choice><sic>gratefull</sic><corr>grateful</corr></choice> for your being so thoughtful and unselfish in your own great grief, 
+to write to me. I <choice><sic>dont</sic><corr>don't</corr></choice> know what I should have done without, &#8212; your letters done me good,</p>
+<p>I want to ask you dear brother to try not to <choice><sic>greive</sic><corr>grieve</corr></choice>. I do wish you would try to not. 
+<choice><sic>when</sic><corr>When</corr></choice> dear Mother was here she said that sometimes 
+<body>
+<pb facs="16.00218736.7LOCWW.jpg"/>
+<opener>
+she felt bad to think we all thought so much of her, for at most she 
+could not be with us a great while</p>
+<p>We all seem, Eddy<note xml:id="n2" type="editorial" resp="jse">2.	Eddy &#40;Edward&#41; Whitman &#401835-1892&#41, the youngest child of Louisa and Walter Whitman, was 
+mentally and physically disabled.  He lived with Mother Whitman until her death in 1873, then with his brother George Washington Whitman and his wife Louisa Orr 
+Haslam Whitman.  Walt Whitman contributed to his support.  Eddy was placed in an asylum in Blackwood, New Jersey, in 1888.</note> and all, to depend upon you so much, 
+and next to dear mother you are the very dearest to me, &#8212;</p>
+<p>I know that just as long as you live you will miss dear Mother: and so shall I.</p>
+<p>And you have always done every single thing possible for <choice><sic>Mothers</sic><corr>Mother's</corr></choice> comfort, for when dear Mother was here she said 
+you <choice><sic>was</sic><corr>were</corr></choice> one she could 
+<body>
+<pb facs="16.00318736.7LOCWW.jpg"/>
+<opener>
+always rely on.</p>
+<p>I shall expect you to stay here this Summer <hi rend="underline">all the time you have</hi> your vacation and from your business in Washington, it will not do for 
+you to be there in the hot weather like you <choice><sic>was</sic><corr>were</corr></choice> last Summer,</p>
+<p>I <choice><sic>dont</sic><corr>don't</corr></choice> know what I should do if you <choice><sic>was</sic><corr>were</corr></choice> not 
+<choice><sic>comeing</sic><corr>coming</corr></choice>, <choice><sic>its</sic><corr>it's</corr></choice> something to look to look forward to,</p>
+<p>I only hope you will be comfortable and at home here, and I know you will</p>
+<p>So make your arrangements to stop here all the time you have, <choice><sic>its</sic><corr>it's</corr></choice> the weather is as pleasant here as anywhere 
+<body>
+<pb facs="16.00418736.7LOCWW.jpg"/>
+<opener>
+and I will 
+like to have you here, it <choice><sic>wont</sic><corr>won't</corr></choice> make a <choice><sic>straws</sic><corr>straw's</corr></choice> difference in my housework I was so glad to hear that you 
+<choice><sic>was</sic><corr>were</corr></choice> getting well.</p>
+<p>I have been perfectly well the past Winter, &#8212; the trunk dear <choice><sic>Mothers</sic><corr>Mother's</corr></choice> trunk is here, it is in your room I have 
+not yet opened it, I will in a few days and then I will write to you again <choice><sic>It</sic><corr>it</corr></choice> came last Wednesday</p>
+<p>Everything of dear <choice><sic>Mothers</sic><corr>Mother's</corr></choice> is sacred, &#8212; I have not seen dear <choice><sic>Mothers</sic><corr>Mother's</corr></choice>
+hair yet, and the <gap reason="illegible"/>, I have stood dear <choice><sic>Mothers</sic><corr>Mother's</corr></choice> death a great deal better that I would have thought 
+I possibly could I have been working all the past week Dear Brother I <choice><sic>cant</sic><corr>can't</corr></choice> write much this time, do be careful of yourself &#38; 
+do try to not grieve, I am pretty well, but I feel as if I <hi rend="underline"> could not</hi> bear any more I am sorry I have not written to before,</p>
+<closer>
+<signed>Han</signed>
+</closer> 
+</body>
+</text>
+</TEI>

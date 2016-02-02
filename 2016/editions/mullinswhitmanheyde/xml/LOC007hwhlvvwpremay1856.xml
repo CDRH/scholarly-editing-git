@@ -1,0 +1,155 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main" level="m">The Selected Letters of Hannah Whitman Heyde</title>
+<author>Hannah Whitman Heyde</author>
+<editor role="main">Maire Mullins</editor>
+<editor role="assistant">Madison Perrin</editor>
+<respStmt>
+<resp>Transcription and encoding</resp>
+<name xml:id="mp">Madison Perrin</name>
+</respStmt>
+    <respStmt>
+<resp>Editing and proofreading</resp>
+<name xml:id="mm">Maire Mullins</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<idno type="file">LOC007whwlvvwpremay1856</idno>
+<idno type="edition">whitmanheydeletters</idno>
+<authority>Scholarly Editing: The Annual of the Association for
+            Documentary Editing</authority>
+            <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+            </address>
+            <publisher>Association for Documentary Editing</publisher>
+            <publisher>University of Nebraska&#8211;Lincoln</publisher>
+            <distributor>
+                <name>Center for Digital Research in the Humanities</name>
+                <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+            </distributor>
+            <date><!-- Year --></date>
+            <availability>
+                <p>Scholarly Editing: The Annual of the Association for Documentary
+                   Editing is freely distributed by the Association for Documentary
+                   Editing and the Center for Digital Research in the Humanities at
+                   the University of Nebraska-Lincoln and licensed under a Creative
+                   Commons Attribution-NonCommercial-Share Alike 3.0 Unported
+                   License</p>
+            </availability>
+</publicationStmt>
+<seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for
+             Documentary Editing</title>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id="ag">Amanda Gailey</name>
+            </respStmt>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id="awj">Andrew Jewell</name>
+            </respStmt>
+            <idno type="vol"><!-- The Journal's volume number --></idno>
+            <idno type="ISSN">2167-1257</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<author>Hannah Whitman Heyde</author>
+<title>Hannah Whitman Heyde to Louisa Van Velsor Whitman, pre May 1856</title>
+<date xml:id="dat1" when="1856" cert="medium">1856</date>
+<orgName xml:id="col">Hannah Louisa Whitman Heyde Papers, 1853-1892, Library of Congress, Washington, D.C.</orgName>
+<note type="project">
+Transcribed from the original manuscript, then edited and annotated by Maire Mullins</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<particDesc>
+<person role="sender">
+<persName key="Heyde, Hannah Whitman">Hannah Whitman Heyde</persName>
+</person>
+<person role="recipient">
+<persName key="Van Velsor Whitman, Louisa">Louisa Van Velsor Whitman</persName>
+</person>
+</particDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2015-09-11" who="#mm">proofread and edited</change>
+<change when="2015-07-21" who="#mp">encoded</change>
+<change when="2015-09-06" who="#mp">encoded annotations</change>
+<change when="2015-10-24" who="#mm">added pagination</change>
+</revisionDesc>
+</teiHeader>
+<text type="letter">
+<body>
+<pb facs="7.0011856preMayLOCLVVWWednesdday.jpg"/>
+<opener>
+<dateline rend="right">
+<date when="1855"><choice><sic>Wednesdday</sic><corr>Wednesday</corr></choice> &#40;About 55&#41;<note xml:id="n1" type="editorial" resp="jse">This letter dates to late April, 1856.  Richard Maurice Bucke noted "1855" in red ink on the letter, but Hannah's references in the letter indicate that it was written in the 
+spring of 1856.  The letter can be dated to late April because Hannah asks about Mother Whitman's "first of May moving."  Hannah refers to getting her teeth fixed on the same day as the day that she is writing this letter.  Hannah has 
+written the day of the week, "Wednesdday," and she is using stationery similar to her earlier letters, which possess the imprint of "Burlington 185."</note> </date>
+</dateline>
+<salute>Dear Mother,</salute>
+</opener>
+<p>I <choice><sic>recieved</sic><corr>received</corr></choice>your letter yesterday night. I was glad I wanted very much to hear from home, I am sorry Andrew <note xml:id="n2" type="editorial" resp="jse">Andrew Jackson Whitman (1827-1863), the sixth child of Walter and Louisa Whitman. Like his father 
+and brothers, Andrew was a carpenter; he later served in the Union Army briefly during the Civil War. See Martin G. Murray, "Bunkum Did Go Sogering," <hi rend="italic">Walt Whitman Quarterly Review 10</hi> [Winter 1993], 142&#8212;148.</note> has been sick, 
+Jeffy <note xml:id="n3" type="editorial" resp="jse">Thomas Jefferson Whitman(1833-1890),"Jeff," was the eighth child of Walter and Louisa Whitman. Walt's favorite brother, Jeff played the piano and had a lively sense of humor.</note> must take care of himself. I feel 
+sorry for you Mother in your first of May moving<note xml:id="n4" type="editorial" resp="jse">	Mother Whitman was preparing to move to 77 Classon Avenue in the spring of 1856.  May first was moving day in Brooklyn, so this letter pre-dates May &#40;see Wesley Raabe, 
+editorial note, Letter from Louisa Van Velsor Whitman to Walt Whitman, March 19?-May 14?, 1871, <hi rend="italic">Walt Whitman Archive</hi>, note one &#41;.  In "walter dear: The Letters from Louisa Van Velsor Whitman to Her Son Walt," Raabe provides more details 
+about the Whitman family relocations during the decades of the 1850s and 1860s (<hi rend="italic">Walt Whitman Archive</hi>).</note> I hope you have some one to help you, you do not tell me how much rooms you have, I hope its a convenient place, I think 
+<choice><sic>its</sic><corr>it's</corr></choice> good you move before the first of <choice><sic>may</sic><corr>May</corr></choice>, I can <choice><sic>immagine</sic><corr>imagine</corr></choice> how you are dear Mother, <choice><sic>buisy</sic><corr>busy</corr></choice> all over 
+the house <choice><sic>every one</sic><corr>everyone</corr></choice> running to Mother to ask about <choice><sic>every thing</sic><corr>everything</corr></choice>, I hope you feel well and strong, I hope you can find time to write to me again after you get moved, &#8212;</p>
+<p>I think very much about you all at home, &#8212; my teeth are to be done <choice><sic>to day</sic><corr>today</corr></choice> <note xml:id="n5" type="editorial" resp="jse">For her dental work Hannah went to Dr. James Lewis (1820?-1901), mentioned in her letter 
+from March/April 1856. Dr. Lewis practiced dentistry with his brother John and purchased a house on Pearl Street &#40;known as the Lewis-Patton House&#41;.  See David J. Blow, (Burlington, Vermont: Chittenden County Historical <hi rend="italic">Historic Guide to Burlington 
+Neighborhoods</hi> &#40;Burlington, Vermont: The Chittenden County Historical Society, 1991&#41;,1:51.</note> I have been up dozens of times sometimes I have to wait half a day</p>
+<p>I do not mind that the least bit however, I think my teeth will be very good. Charlie speaks their being so expensive but <choice><sic>thats</sic><corr>that's</corr></choice> nothing you know the Dentist takes a picture<note xml:id="n6" type="editorial" resp="jse">Heyde 
+paid for Hannah's dental work with one of his paintings, as Hannah notes here.</note>, the one he has taken I do not like much it is a copy,<note xml:id="n7" type="editorial" resp="jse">Hannah is referring to Heyde's practice of copying certain scenes, described as "never-fail 
+sales" by Barbara Knapp Hamblett &#40;see <hi rend="italic">Charles Louis Heyde, Painter of Vermont Scenery</hi>, Master's Thesis, Oneonta, 1976, 30&#41;.  Some of his more popular scenes were of Mount Mansfield, Camel's Hump, and the High Bridge on the Winooski River.</note> Charlie 
+has painted three or four like it, he has another like it on hand</p>
+<p>I shall write again soon I was pleased about the Leaves of Grass <body>
+<pb facs="7.0021856preMayLOCLVVWWednesdday.jpg"/>
+<opener><note xml:id="n8" type="editorial" resp="jse">Hannah is referring to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, mentioned previously in her letter of December 20, 1855.  Whitman did not publish the 1856 edition 
+until September.</note></p>
+<p>Charlie has to pay for the frame of course<note xml:id="n9" type="editorial" resp="jse">Heyde was paying for Hannah's dental work with one of his paintings.  The frame for the painting meant an extra expense.</note> I am pleased very much to have my teeth I know I never could get them myself. Charlie is kind to get them for me.</p>
+<p>Dear Mother Charlie &#40; I think &#41; has written the worst kind of complaining letter to you he says he has he has written to <choice><sic>some one</sic><corr>someone</corr></choice>, he was very angry because I saw it, I did not read one word I <choice><sic>dont</sic><corr>don't</corr></choice> 
+know it is to you, before that he told me he had written to you many things so I thought it was a letter to you that he did not wish me to see, I dislike really to say <choice><sic>any thing</sic><corr>anything</corr></choice> ill of Charlie, but Mother I think sometimes a person should 
+speak for themselves, I think <choice><sic>its</sic><corr>it's</corr></choice> right they should. I know if Charlie writes about me as he talks to me <choice><sic>its</sic><corr>it's</corr></choice> very dreadful, and as far from the truth as it is improbable, there is nothing I 
+would like better than to do as Charlie would like I would do <choice><sic>any thing</sic><corr>anything</corr></choice> in the world that he thought was right. I appreciate all that I have. I should not be <choice><sic>cofortable</sic><corr>comfortable</corr></choice> as far as 
+living is concerned if it was not for him, <choice><sic>its</sic><corr>it's</corr></choice> easy to talk <choice><sic>its</sic><corr>it's</corr></choice> different to do, but if I only could support myself someway I hardly think I should bear so much abuse at any rate all the time, 
+he says I have not the least sense but that I never think of <choice><sic>noticeing</sic><corr>noticing</corr></choice> however  <body>
+<pb facs="7.0031856preMayLOCLVVWWednesdday.jpg"/>
+<opener>
+he tells me to pack my <choice><sic>damed</sic><corr>damned</corr></choice> duds<note xml:id="n10" type="editorial" resp="jse">Swearing is one form of psychological abuse.  Telling Hannah to leave when 
+Heyde knew that she did not possess the economic resources to do so was a way of controlling her behavior.</note> and clear out he says I had better go home on a visit at any rate I have told him that I should not stay with him all the time if my friends were better off.  I did not 
+wish to be a <choice><sic>burthen</sic><corr>burden</corr></choice> to my friends, he does not hurt me much when he gets angry he threatened to choke me to death he has struck or pushed me about some, once he bit me a little on the shoulder more to hurt tore or <choice><sic>wripped</sic><corr>ripped</corr></choice>the sleeves of my dress that I wore but all that I care 
+nothing at all about, if he would not talk so to me, if he has written a letter &#40;I know he has&#41; to you I hope you will notice it enough to answer it, you at home are most all I have. I do not write because I have bad feelings towards Charlie I have not, I hardly ever get angry at him, 
+I always try to pacify him, sometimes I do not at first, I am one that cannot live if he is angry I <choice><sic>cant</sic><corr>can't</corr></choice> eat or sleep, it affects my mind very much, more and different from what it used to, I <choice><sic>dont</sic><corr>don't</corr></choice> 
+know what it is without <choice><sic>its</sic><corr>it's</corr></choice> nervousness or <choice><sic>histericks</sic><corr>hysterics</corr></choice> it takes my strength, I do not feel strong <choice><sic>to day</sic><corr>today</corr></choice> I must go to the <choice><sic>Dentists</sic><corr>Dentist's</corr></choice>, I am little sick 
+sometimes I am always frightened half to death Charlie complains so terribly.<body>
+<pb facs="7.0041856preMayLOCLVVWWednesdday.jpg"/>
+<opener></p>
+<p>Charlie has not the least patience with me that is the cause of it all, he finds <choice><sic>continuell</sic><corr>continual</corr></choice>  fault, of course I know I do not do always right if he would be kind I should do more and better sometimes I work very hard all day and then on other days I do very little day before yesterday I 
+almost made Charlie a shirt I should have entirely finished it but I had something to do in the evening I cut it out in the morning,</p>
+<p>yesterday I was all day at the <choice><sic>Dentists</sic><corr>Dentist's</corr></choice> I went in the morning directly after breakfast, and then again directly after dinner, <choice><sic>its</sic><corr>it's</corr></choice>  a very long way from here there are three other  Dentists here, 
+but Burlington is large, old place <choice><sic>to day</sic><corr>today</corr></choice> I am washing some, my washing takes much time Charlie says a person woman to get married should have some cultivation, &#8212; all the benefit I be Charlie has <choice><sic>some one</sic><corr>someone</corr></choice> to find fault with, I 
+<choice><sic>dont</sic><corr>don't</corr></choice> think I do much good in the world I do not do any, &#8212; to save my life I cannot please Charlie or help his getting angry little things make him angry that I say without thinking any little idle word, there never was a woman abused as I 
+be I mean with talking, you never heard a man talk as he can, there is one thing good Mother I never lay it &#40;his unkindness I mean&#41;to heart I soon get over I only feel bad a short time, this will be the last letter of this kind I shall ever write.</p>
+<p>I have written this time about myself remember I think and feel anxious to know about home</p>
+<closer>
+<salute><choice><sic>Good Bye</sic><corr>Goodbye</corr></choice> Mother take care of yourself</salute>
+</closer>
+</body>
+</text>
+</TEI>

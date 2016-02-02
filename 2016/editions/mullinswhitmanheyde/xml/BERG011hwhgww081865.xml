@@ -1,0 +1,143 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">The Selected Letters of Hannah Whitman Heyde</title>
+                <author>Hannah Whitman Heyde</author>
+                <editor>Maire Mullins</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <name xml:id="kb">Kelsey Barkis</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editing and proofreading</resp>
+                    <name xml:id="mm">Maire Mullins</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">BERG011hwhgww081865</idno>
+                <idno type="edition">whitmanheydeletters</idno>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date><!-- Year --></date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol"><!-- The Journal's volume number --></idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Hannah Whitman Heyde</author>
+                    <title>Selected Letters</title>
+                    <orgName>
+                        <!-- Organization name and information -->The Henry W. and Albert A. Berg
+                        Collection of English and American Literature, The New York Public Library,
+                        Astor, Lenox, and Tilden Foundations </orgName>
+                    <note type="project">Transcribed from the original manuscript, then edited and
+                        annotated by Maire Mullins. </note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+		<pb facs="11.00118658BergHWHtoGWW.jpg"/>
+            <opener>
+                <dateline>
+                    <date when="1865-08">Friday night, pretty late<note xml:id="n1" type="editorial"
+                            resp="jse">This letter is not dated. From the comments in the letter,
+                            however, it appears that George has returned home from his Civil War
+                            military service. He was mustered out of the Union Army on July 27,
+                            1865, and returned to Brooklyn "to resume his life as a civilian,"
+                            according to Jerome M. Loving. See <hi rend="italic">The Civil War
+                                Letters of George Washington Whitman</hi>, ed. Jerome M. Loving
+                            &#40;Durham, N.C.: Duke UP, 1975&#41;, 27. This letter can tentatively
+                            be dated as August 1865.</note></date>
+                </dateline>
+                <salute>Dear brother George<note xml:id="n2" type="editorial" resp="jse">George
+                        Washington Whitman (1829-1901) was the seventh child of Walter and Louisa
+                        Whitman, and ten years younger than Walt. George worked as a carpenter prior
+                        to his military service during the Civil War. When the war ended, he became
+                        a pipe inspector for the City of Camden and the New York Metropolitan Water
+                        Board. See Martin G. Murray, "Whitman, George Washington," <hi rend="italic"
+                            >Walt Whitman: An Encyclopedia</hi>, ed. J.R. LeMaster and Donald D.
+                        Kummings &#40;New York: Garland, 1998&#41;,777-778</note></salute>
+            </opener>
+
+            <p>I am glad you are home again, I <choice>
+                    <sic>cant</sic>
+                    <corr>can't</corr>
+                </choice>bear to think of not seeing you this time. so if you can you must come out
+                here, if you are well;</p>
+
+            <p>I <choice>
+                    <sic>cant</sic>
+                    <corr>can't</corr>
+                </choice> tempt you with any thing, only we want to see you</p>
+
+            <p>I expect George you would like to rest home. &#8212;I hear of your having work
+                    writing<note xml:id="n3" type="editorial" resp="jse">In her letter to Walt
+                    Whitman dated August 8, 1865, Mother Whitman notes that George "has had much
+                    writing to do," probably related to paperwork that he had to fill out as he left
+                    military service &#40;<hi rend="italic">"Walt Whitman Archive</hi>&#41;.</note>.
+                I <choice>
+                    <sic>dont</sic>
+                    <corr>don't</corr>
+                </choice>want you to overwork to make yourself ill, but come if you can. I hope next
+                time you come home to be able to come to see you I will write a line to you
+                again&#8211; if I <sic>dont</sic><corr>don't</corr></choice> hear from you I am tired to night our place is pretty <choice>
+                    <sic>plaine</sic>
+                    <corr>plain</corr>
+                </choice> here George<note xml:id="n4" type="editorial" resp="jse">Hannah is
+                    referring to the house that she and Heyde owned on 21 Pearl Street in
+                    Burlington. They purchased the house in May 1864.</note> but I <choice>
+                    <sic>dont</sic>
+                    <corr>don't</corr>
+                </choice>think of that. I should like to have you come so much</p>
+
+            <closer>
+                <salute>Good night</salute>
+                <signed>Han</signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>

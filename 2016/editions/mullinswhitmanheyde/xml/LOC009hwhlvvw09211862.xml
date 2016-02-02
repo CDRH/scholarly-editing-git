@@ -1,0 +1,124 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+    <fileDesc>
+        <titleStmt>
+            <title level="m" type="main">Selected Letters of Hannah Whitman Heyde</title>
+            <author>Hannah Whitman Heyde</author>
+            <editor>Marie Mullins</editor>
+            <respStmt>
+                <resp>transcription and encoding</resp>
+                <name xml:id="kb">Kelsey Barkis</name>
+                <name xml:id="mn">Madison Neill</name>
+            </respStmt>
+            <respStmt>
+				<resp>Editing and proofreading</resp>
+				<name xml:id="mm">Maire Mullins</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>
+                <date>2016</date>
+            </edition>
+        </editionStmt>
+        <publicationStmt>
+            <idno type="file">LOC009hwhlvvw09211862</idno>
+            <idno type="edition">whitmanheydeletters</idno>
+            <authority>Scholarly Editing: The Annual of the Association for Documentary
+                Editing</authority>
+            <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+            <publisher>Association for Documentary Editing</publisher>
+            <publisher>University of Nebraska&#8211;Lincoln</publisher>
+            <distributor>
+                <name>Center for Digital Research in the Humanities</name>
+                <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+            </distributor>
+            <date><!-- Year --></date>
+            <availability>
+                <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                    freely distributed by the Association for Documentary Editing and the Center for
+                    Digital Research in the Humanities at the University of Nebraska-Lincoln and
+                    licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+                    Unported License</p>
+            </availability>
+        </publicationStmt>
+        <seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                Editing</title>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id="ag">Amanda Gailey</name>
+            </respStmt>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id="awj">Andrew Jewell</name>
+            </respStmt>
+            <idno type="vol"><!-- The Journal's volume number --></idno>
+            <idno type="ISSN">2167-1257</idno>
+        </seriesStmt>
+        <sourceDesc>
+            <bibl>
+                <author>Hannah Whitman Heyde</author>
+                <title>Selected Letters of Hannah Whitman Heyde</title>
+                <idno type="callno">Hannah Louisa Whitman Heyde Papers, 1853-1892</idno>
+                <orgName>Library of Congress, Washington, D.C.</orgName>
+                <note type="project">Transcribed from the original manuscript, then edited and annotated by Maire Mullins.
+                </note>             
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+ <text type="letter">
+        <body>
+<pb facs="9.0011862LOCLVVW.jpg"/>
+<opener>	
+                <dateline>
+                    <name type="place"></name>
+                    <date when="1862-09">Sunday Evening Sept.<note xml:id="n1" type="editorial" resp="jse">Hannah provided the day of the week (Sunday) and the month (September) for this letter, but she did not provide the specific year or day.  The day and the year are in Richard Maurice Bucke’s handwriting.  The date, September 21, 1862, is probably accurate. September 21 fell on Sunday in 1862. Hannah refers to Heyde’s painting trip to Ottawa, which took place in Autumn 1862.</note></date>
+                </dateline>
+                <salute>Dear Mother,</salute>
+            </opener>
+            <p>I  <choice><abbr>rec’d</abbr><expan>received</expan></choice>your kind letter. I was anxiously expecting it, I am more than ever anxious now to hear from home, Soon as you hear dear Mother that 
+            George<note xml:id="n2" type="editorial" resp="jse">George Washington Whitman (1829-1901) was the seventh child of Walter and Louisa Whitman, and ten years younger than Walt. George learned to read and write as a pupil under his older brother Walt &#40;who briefly served as a schoolteacher in Long Island &#41;, and worked as a carpenter prior to his military service during the Civil War.   See Martin G. Murray, “Whitman, George Washington,” <hi rend ="italic">Walt Whitman: An Encyclopedia</hi>, ed. J.R. LeMaster and Donald D. Kummings &#40;New York: Garland, 1998&#41;,777-778.</note> is safe, 
+            <hi rend="underline">you must</hi> 
+            write or telegraph immediately to me, perhaps you have heard, and I shall get a letter tomorrow You are kind to write to me so quickly I appreciate it&#59; I cannot write about or tell you anything 
+            <choice><sic>untill</sic><corr>until</corr></choice> 
+            I hear from George <choice><sic>dont</sic><corr>don't</corr></choice> fail to let me know I feel anxious I have been very ill, but feel well to day, I have not been out since I went to mail the last letter I wrote to you I have not been down stairs for some time I have boarded with or the people living down stairs have brought up my meals for a week and more, now I shall do for myself, again. I would board with them 
+            <choice><sic>untill</sic><corr>until</corr></choice> 
+            I got strong if they were willing but they do not seem so disposed, they have been kind since I have been sick, I did not want much however they have plenty of help, I have now a very 
+            <choice><sic>skilful</sic><corr>skillful</corr></choice> 
+            doctor I should not have been so ill, if the <choice><abbr>Dr</abbr><expan>Doctor</expan></choice>I had previous had not neglected me. 
+            Dr Thayer<note xml:id="n3" type="editorial" resp="jse">Dr. Samuel White Thayer, Jr. &#40;1817-1882&#41;, graduated from Vermont Medical College in 1838 and moved to Burlington in 1852.  Although his practice was general medicine, his specialty was surgery, and he performed numerous amputations. Professor of Anatomy and Physiology at the University of Vermont from 1854 to 1871, during the Civil War he served as Surgeon General of Vermont. See H. Royce Bass, <hi rend="italic">"The History of Braintree, Vermont</hi> &#40;Tuttle: Rutland, Vermont, 1883&#41;, 58</note> is just as kind as possible for any one to be I have been acquainted with him a long time almost the only thing of much 
+            <choice><sic>benifit</sic><corr>benefit</corr></choice> 
+            is for me to be quiet not take any exercise at all Dr Thayer says <body>
+<pb facs="9.0021862LOCLVVW.jpg"/>
+<opener> I can be helped much but it will be years before I get well I <choice><sic>dont</sic><corr>don't</corr></choice>think so at all I have enlargement of the womb &#40;and falling&#41;<note xml:id="n4" type="editorial" resp="jse">The term “enlargement of the womb” suggests that Hannah may have suffered from endometriosis of the uterus. In the mid 1850s this medical condition would have been treated with “mechanical contrivances,” with “bichloride of mercury” or with “the administration of saline asperients.” Charles West, <hi rend ="italic">Lectures on the Diseases of Women: Part I – Diseases of the Uterus </hi> &#40;London: John Churchill, 1856&#41;, 220.  If Hannah was prescribed doses of mercury, she probably suffered from chronic severe headaches and insomnia.</note> I know I shall get well soon dear Mother I have said many times if George was only safe I would not complain, let me know dear Mother just as soon as you hear &#8211; I get along nicely here alone do not feel the least anxious about me. &#8211; I cannot think of anything now but about George.</p>
+            
+            <p>I will write again just as soon as you write and let me know.</p>
+            
+            <p>Charlie will be home soon. he sent me some beautiful presents from Canada<note xml:id="n5" type="editorial" resp="jse">Heyde took a painting tour to Ottawa, Canada &#40;and vicinity &#41; from August to November 1862.  On this trip, he painted the Ottawa River, Devil’s Chute Canyon, and Fitzroy Harbor.  It is not clear whether Heyde was commissioned to paint these scenes.  See Barbara Knapp Hamblett, <hi rend="italic">Charles Louis Heyde, Painter of Vermont Scenery</hi>, &#40;Thesis, SUNY Oneonta, 1976&#41;, 39.</note>. I did not wish him to know I was so ill he is engaged on a picture that he is much pleased with the subject, I wished him to be successful and not to be annoyed with any care I have often wondered why Walt did not write to me Give my 
+            <hi rend="underline">love to all</hi> 
+            dear Mother, I have often wished 
+            Jeffy<note xml:id="n6" type="editorial" resp="jse">Thomas Jefferson Whitman(1833-1890),“Jeff,” was the eighth child of Walter and Louisa Whitman. He married Mattie Emma Mitchell on February 23, 1859. Jeff and Mattie moved in with Mother Whitman shortly after their marriage.  Mattie and Jeff had two daughters, Mannahatta (“Hattie”), born on June 9, 1860, and Jessie Louisa, born on June 17, 1863.  Hannah is referring to Hattie here, called “little sis” until Jessie was born.</note> would send me his wife and 
+			 <choice><sic>childs</sic><corr>child's</corr></choice>pictures tell Matty I hope to see her some day and that I have thought many times this summer if I was only well, how I would like to have her and little sis come and stay some weeks with me. I could have made it pleasant, Give Andrew and his wife my love<note xml:id="n7" type="editorial" resp="jse">	Andrew Jackson Whitman &#40;1827-1863&#41; was the sixth child of Walter and Louisa Whitman. Like his father and brothers, Andrew was a carpenter; he served in the Union Army briefly during the Civil War. See Martin G. Murray, "Bunkum Did Go Sogering," <hi rend="italic">Walt Whitman Quarterly Review</hi> 10 &#40;Winter 1993&#41;, 142–148.  Andrew was married to Nancy McClure. Hannah refers to their marriage in her 1852 letter to Mother Whitman. Nancy and Andrew had two children; Hannah suggests the name “George” for their second child, which they apparently accepted.  Their child was called “Georgy.”  
+			 For more about George see Jerome M. Loving, ed., “Introduction,” <hi rend="italic"> Civil War Letters of George Washington Whitman </hi>&#40;Durham, North Carolina: Duke University Press, 1975&#41;: 12-14.</note>. I am anxious to have his baby named George I intended in my last letter to ask 
+            <choice><sic>permision</sic><corr>permission</corr></choice>
+            to name it I have written dear Mother as I always &#40;do to you&#41; in a hurry. I shall have to depend on some one to carry this to the Office. Write dear Mother and tell me George is safe. much love.</p>
+
+
+            <closer>
+                <salute>Good night,</salute>
+                <signed>Han</signed>
+            </closer>
+            <postscript><p>I shall come home some time dear mother I could not now but I am permanently better shall soon be strong.</p></postscript>
+        </body>
+    </text>
+</TEI>

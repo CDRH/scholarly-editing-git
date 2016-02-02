@@ -1,6 +1,4 @@
-/* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css
-	http://www.scholarlyediting.org/css/style.css
-	http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/css/style.css */
+/* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css */
 
 /* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css */
 
@@ -208,8 +206,6 @@ div.edition h2 {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
-
-
 
 div.edition div.notesList h2 {
 	text-align: left;
@@ -698,7 +694,8 @@ div.utctopsy {margin-left: 50px; margin-right: 50px; line-height: inherit; font-
 div.utctopsy h1,h2,h3,h4,h5,h6 {
 	text-align: center; font-size: 1.5em; }
 
-span.opener, span.closer {display: block; text-align: center; font-size: .75em;
+/*Changed for HWH*/
+span.opener, span.closer {display: block; text-align: left; font-size:100%;
 	
 }
 
@@ -806,6 +803,7 @@ span.poem_line_italic {
 blockquote span.poem_line {
 	text-indent: -1em;
 }
+
 
 span.pagebreak {
 	display: block;
@@ -1445,7 +1443,9 @@ span.witnessName {
 
 
 span.signed {
-	display: block; float: right; width: 100%; text-align: right;}
+	display: block; float: left; width: 100%; text-align: left;}
+	span.salute {
+	display: block; float: left; width: 100%; text-align: left;}
 	
 div.poem span.byline {
 	text-align: center; font-size: 1.25em;
@@ -2718,6 +2718,16 @@ span.del_underline.strikethrough {
 .youngidea .authority_bibl {
 	display: block; font-weight: bold; font-size: .85em;
 }
+
+/*HWH*/
+.notesList {
+    font-size: 75%;
+    }
+
+.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 
 div.edition div.youngidea table

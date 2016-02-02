@@ -1,0 +1,106 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+    <fileDesc>
+        <titleStmt>
+            <title level="m" type="main">Hannah Whitman Heyde to Louisa Van Velsor Whitman July 20 1855</title>
+            <author>Hannah Whitman Heyde</author>
+            <editor>Maire Mullins</editor>
+            <respStmt>
+                <resp>transcription and encoding</resp>
+                <name xml:id="kb">Kelsey Barkis</name>
+                <name xml:id="er">Eliza Riegert</name>
+            </respStmt>
+            <respStmt>
+				<resp>editing and proofreading</resp>
+				<name xml:id="mm">Maire Mullins</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>
+                <date>2016</date>
+            </edition>
+        </editionStmt>
+        <publicationStmt>
+            <idno type="file">LOC002hwhlvvw07201855</idno>
+            <idno type="edition">whitmanheydeletters</idno>
+            <authority>Scholarly Editing: The Annual of the Association for Documentary
+                Editing</authority>
+            <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+            <publisher>Association for Documentary Editing</publisher>
+            <publisher>University of Nebraska&#8211;Lincoln</publisher>
+            <distributor>
+                <name>Center for Digital Research in the Humanities</name>
+                <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+            </distributor>
+            <date><!-- Year --></date>
+            <availability>
+                <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                    freely distributed by the Association for Documentary Editing and the Center for
+                    Digital Research in the Humanities at the University of Nebraska-Lincoln and
+                    licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+                    Unported License</p>
+            </availability>
+        </publicationStmt>
+        <seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                Editing</title>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id="ag">Amanda Gailey</name>
+            </respStmt>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id="awj">Andrew Jewell</name>
+            </respStmt>
+            <idno type="vol"><!-- The Journal's volume number --></idno>
+            <idno type="ISSN">2167-1257</idno>
+        </seriesStmt>
+        <sourceDesc>
+            <bibl>
+                <author>Hannah Whitman Heyde</author>
+                <title>Hannah Whitman Heyde to Louisa Van Velsor Whitman July 20, 1855</title>
+                <idno type="callno"> </idno>
+                <orgName>Hannah Louisa Whitman Heyde Papers, 1853-1892  Library of Congress, Washington, D.C.
+                </orgName>
+                <note type="project">
+                </note>             
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+    <text type="letter">
+        <body>
+		<pb facs="2.00118557.19or20LOCLVVW.jpg"/>
+            <opener>
+                <dateline rend="right">
+                    <name type="place">Bardwell House Bellows Falls</name>
+                    <date when="1855-07-19">Friday evening July 19 or 20 [1855]<note xml:id="n1" type="editorial" resp="jse">July 20 fell on a Friday in 1855, so the date of the letter is July 20 and 21, not July 19 or 20 as Hannah has written. The year “1855” in Richard Maurice Bucke’s handwriting is consonant with the events Hannah describes in the letter, particularly the grief she feels after the death of her father, Walter Whitman Sr., who died on July 11, 1855.</note></date>
+                </dateline>
+                <salute>My own dear Mother</salute>
+            </opener>
+            <p>what shall I say and do to comfort you, I myself feel the need of comfort and sympathy, it is hard very hard for me, I have more to regret than any of you, I feel it deeply</p>
+            <p>Dear mother you have enough left to love you I feel so much affection for you all, more than ever, I have not been well <choice><sic>to day</sic><corr>today</corr></choice> but feel much better tonight I should have written a line this morning but I felt so bad, I wish I could see you Mother  I thought last night I must go directly home Charlie is perfectly willing I should go. Mother dear <choice><sic>cant</sic><corr>can't</corr></choice> you write to me pretty soon it is very hard for me away from you all, but I feel better <choice><sic>to night</sic><corr>tonight</corr></choice> Mother dear Mother I don’t know how to do without seeing you I too want sympathy it was 
+            sudden to me<note xml:id="n2" type="editorial" resp="jse">Hannah is referring to the death of her father, Walter Whitman Sr.  Although he had been ill for three years, his death seemed to take the Whitman family by surprise.  If she had known he was near death, Hannah would have returned home; this is why she writes “I have more to regret than any of you, I feel it deeply.” At the funeral, Mother Whitman asked the “babtist” minister to pray for Hannah, that she might have “calmness and resignation”&#40;as cited by Gay Wilson Allen, <hi rend="italic">The Solitary Singer</hi> [Chicago: U of Chicago P, 1955], 151-152&#41;; this letter from Mother Whitman has been lost.</note>. I have thought <choice><sic>to day</sic><corr>today</corr></choice> a little hard of my brothers not thinking of me, it appeared as if they did not think I was one of them, &#40;but I have felt miserable <choice><sic>to day</sic><corr>today</corr></choice> and unhappy&#41; I do not feel so now <choice><sic>towwards</sic><corr>towards</corr></choice> them they have been always so good to me, and I know by myself when one has great <choice><sic>greif</sic><corr>grief</corr></choice> they cannot think, we came from 
+            Bellows Falls<note xml:id="n3" type="editorial" resp="jse">Bellows Falls, on the banks of the Connecticut River,is in southeast Vermont, and was accessible by railroad in the early 1850s. Heyde’s painting, “Bellows Falls from the Bridge, south view,” is dated 1855; he also painted many versions of Saxtons River, not far from Bellows Falls.  See <hi rend="italic">Charles Louis Heyde: Nineteenth-Century Vermont Landscape Painter</hi>, ed. Nancy Price Graff and E. Thomas Pierce &#40;Burlington, Vermont: Robert Hull Fleming Museum, U of Vermont, 2001&#41;, 89-90.</note> last <choice><sic>monday</sic><corr>Monday</corr></choice> night 
+		<pb facs="2.00218557.19or20LOCLVVW.jpg"/>
+            we have only been away four or five days. We were in 
+            Rutland<note xml:id="n4" type="editorial" resp="jse">Probably the Heydes travelled from Bellows Falls to Rutland, a major stop on the Rutland Railroad, on their way to Clarendon Springs. It is possible that Hannah may not have been contacted right away about her father’s death because of uncertainty about her location.</note> one night and then went to Clarendon Springs<note xml:id="n5" type="editorial" resp="jse">Clarendon Springs, a small village south and west of Rutland, was known for its natural spring water.</note>, it was not pleasant there for me I have written to you dear Mother several long letters and not sent them<note xml:id="n6" type="editorial" resp="jse">This is the first allusion to the episodes of domestic violence that Hannah would experience for the next four decades; that the abuse coincided with the loss of her father and the difficulties that the Whitman family would face in the next few years was unfortunate, because these circumstances hampered Hannah’s ability to leave Heyde.</note>. I have two now by me that was written two weeks since and one written lately, I never thought so much of you and the rest as I have this time <choice><sic>Ive</sic><corr>I've</corr></choice> been away from home, I was afraid there was something in the letters about to trouble you was the cause of my not sending them I have not been happy I have had a good deal of trouble or since I have been in the country but I have been pretty well, &#8212;Dear Mother are you well I waited <choice><sic>untill</sic><corr>until</corr></choice> <choice><sic>to night</sic><corr>tonight</corr></choice> <choice><sic>untill</sic><corr>until</corr></choice> I felt better so I would write more rational. I feel for you my mother, I want very much to see you I never felt so much affection for you before &amp; I feel the need of sympathy it is <choice><sic>dreadfull</sic><corr>dreadful</corr></choice> for me away from you all you cant <choice><sic>immagine</sic><corr>imagine</corr></choice> but I feel so much better now, I want some of you to write soon I think we shall be here a day or so, soon as we leave I or Charlie will write, I have felt anxious about home for some time, Good night dear Mother write if you feel well enough. &#8212;Saturday Morning</p>
+            
+            <p>Dear Mother I feel better this morning my head is nearly well, I wish I knew how you was &#8211; I <choice><sic>believeve</sic><corr>believe</corr></choice> Charlie has written to you<note xml:id="n7" type="editorial" resp="jse">	This letter also records Hannah’s first reference to the letters that Charles Heyde sent to the Whitman family, in an ongoing attempt to control Hannah’s behavior and to undercut her credibility should she report the abuse she suffered: “…he says I have done things I never thought of,” Hannah reports.</note> I have not been the cause of his not writing oftener he says I have done things that I never thought of he has not been kind to me, less so than ever before, ever since I have been here<note xml:id="n8" type="editorial" resp="jse">The remaining pages of this letter have not been located.</note></p>
+            <closer>
+                <salute></salute>
+                <signed></signed>
+            </closer>
+           
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,256 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title type="main" level="m">The Selected Letters of Hannah Whitman Heyde</title>
+<author>Hannah Whitman Heyde</author>
+<editor>Maire Mullins</editor>
+<respStmt>
+<resp>Transcription and encoding</resp>
+<persName xml:id="mp">Madison Perrin</persName>
+</respStmt>
+<respStmt>
+<resp>Editing and proofreading</resp>
+<persName xml:id="mm">Maire Mullins</persName>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2016</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<idno type="file">LOC005hwhlvvw12201855</idno>
+<idno type="edition">whitmanheydeletters</idno>
+<authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>
+<address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+            </address>
+<publisher>Association for Documentary Editing</publisher>
+<publisher>University of Nebraska&#8211;Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+</distributor>
+<date><!-- Year --></date>
+<availability>
+<p>Scholarly Editing: The Annual of the Association for Documentary Editing is freely distributed by
+the Association for Documentary Editing and the Center for Digital Research in the Humanities at the
+University of Nebraska-Lincoln and licensed under a Creative Commons Attribution-NonCommercial-Share
+Alike 3.0 Unported License</p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>
+<respStmt>
+<resp>editor</resp>
+<name xml:id="ag">Amanda Gailey</name>
+</respStmt>
+<respStmt>
+<resp>editor</resp>
+<name xml:id="awj">Andrew Jewell</name>
+</respStmt>
+<idno type="vol"><!-- The Journal's volume number --></idno>
+<idno type="ISSN">2167-1257</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<author>Hannah Whitman Heyde</author>
+<title>Hannah Whitman Heyde to Louisa Van Velsor Whitman, December 20 1855</title>
+<orgName xml:id="col">Hannah Louisa Whitman Heyde Papers, 1853-1892, Library of Congress,
+Washington, D.C.</orgName>
+<note type="project">Transcribed and encoded from the original manuscript, then edited and annotated
+by Maire Mullins</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<particDesc>
+<person role="sender">
+<persName key="Heyde, Hannah Whitman">Hannah Whitman Heyde</persName>
+</person>
+<person role="recipient">
+<persName key="Van Velsor Whitman, Louisa">Louisa Van Velsor Whitman</persName>
+</person>
+</particDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2015-09-11" who="#mm">edited and proofread</change>
+<change when="2015-07-21" who="#mp">encoded</change>
+<change when="2015-09-06" who="#mm">encoded annotations</change>
+<change when="2015-10-24" who="#mm">added pagination</change>
+</revisionDesc>
+</teiHeader>
+<text type="letter">
+<body>
+		<pb facs="5.001185512.20LOCLVVW.jpg"/><opener>
+<opener>
+<dateline rend="right">
+<name type="place">Burlington</name>
+<date when="1855-12-20">Thursday, Dec. 20 &#40;1855&#41;<note xml:id="n1" type="editorial"
+resp="jse">Richard Maurice Bucke dated this letter 1855, confirmed because Hannah, still in mourning
+for her father, mentions that she has worn "black all the time." December 20, noted in Hannah's
+handwriting, fell on a Thursday in 1855, so the month and the date are confirmed as
+well.</note></date>
+</dateline>
+<salute>Dear Mother,</salute>
+</opener>
+<p>Take care of yourself dear Mother tell me about every one of them when you write </p>
+<p>Whenever they can send me the Dispatch Mother dear <choice>
+<sic>dont</sic>
+<corr>don't</corr>
+</choice> think strange of my not writing before I never thought so much of you all or wanted to
+hear from you more than I do now </p>
+<p>I have written a good many letters very many more than you have written to me only I have not
+sent them, for many reasons sometimes Charlie would see them, and sometimes ones I would write when
+I did not feel good and would not want to send them, this time I shall finish and mail it at once. I
+have felt quite <choice>
+<sic>disagreable</sic>
+<corr>disaggreable</corr>
+</choice> about my not writing have minded it probably more than you have I think about you all at
+home much more than I ever did, and am always delighted to get a letter. I was glad <hi
+rend="underline">very</hi> glad to hear Jeffy<note xml:id="n2" type="editorial" resp="jse">Thomas
+Jefferson Whitman &#40;1833-1890&#41;,"Jeff", was the eighth child of Walter and Louisa Whitman. Walt's
+favorite brother, Jeff played the piano and had a lively sense of humor.</note> was better I thought
+of you dear Mother every hour in the day,you must have had your hands full Andrew<note xml:id="n3"
+type="editorial" resp="jse">Andrew Jackson Whitman &#40;1827-1863&#41;, was the sixth child of Walter and
+Louisa Whitman. Like his father and brothers, Andrew was a carpenter; he later served in the Union
+Army briefly during the Civil War. See Martin G. Murray, "Bunkum Did Go Sogering," <hi rend="italic"
+>Walt Whitman Quarterly Review</hi> 10 [Winter 1993], 142&#8212;148.</note> being sick also, I hope
+by this time Andrew is entirely well and tell Jeff to keep a good heart and take care of himself, he
+must not get downhearted, I am glad George<note xml:id="n4" type="editorial" resp="jse">George
+Washington Whitman &#40;1829-1901&#41; was the seventh child of Walter and Louisa Whitman, and ten years
+younger than Walt.</note> is in Brooklyn, again <choice>
+<sic>its</sic>
+<corr>it's</corr>
+</choice> nice for you to have him come up home, I wonder if you feel much lonely do you mammy, I
+should like to hear from you all again, we were very glad indeed to get the papers you sent, we
+cannot <body>
+		<pb facs="5.002185512.20LOCLVVW.jpg"/><opener>
+            <opener>get the Dispatch<note xml:id="n5" type="editorial" resp="jse"> The <hi rend="italic">New York
+Dispatch </hi> was published from 1854-1861. See The Library of Congress, <hi rend="italic"
+>Chronicling America: Historic American Newspapers</hi> (web).</note> here they do not keep it.
+Charlie gets the Daily times<note xml:id="n6" type="editorial" resp="jse">This may be a reference to
+the <hi rend="italic">New-York Daily Times</hi>, which published under this title from
+1851-1857.</note>, papers never get here <choice>
+<sic>untill</sic>
+<corr>until</corr>
+</choice> the day after they are printed. Saturday paper they get Monday. Mother I really want to
+see you all. I do not think we will remain here long. I know we will not stay long at this Hotel. <choice>
+<sic>its</sic>
+<corr>It's</corr>
+</choice> possible we may go to the American Hotel<note xml:id="n7" type="editorial" resp="jse">The
+American Hotel, known as "the leading hotel in Burlington," was built in 1808 and purchased in 1824
+by Cornelius Van Ness, Governor of Vermont. A brick wing was added to the building in 1844. The
+Hotel was the site of a deadly fire in 1906. See "Woman Perished in Ruins," <hi rend="italic"
+>Burlington Free Press</hi> &#40;Burlington, VT&#41; December 20, 1906, 8.</note> , that is up in the
+village more and is even still more fashionable. this place they try very hard to be fashionable as
+far as dress goes, I think the people here are <choice>
+<sic>some what</sic>
+<corr>somewhat</corr>
+</choice> different from what one has been used to, they had a ball or as they call it a cotillion
+party they made quite a display most of the men wore white vests and gloves the girls ball dresses,
+I saw them from one of the sitting rooms I did not dance, if we should remain here I should not even
+go in the sitting room again they have them every two weeks, the room we occupy is on the second
+floor not very large have no bureau or closes we pay &#36;8 a week, Charlie has only disposed of
+three pictures since I have been here, he got a good price for them, you need not neglect writing
+thinking we are not here as soon as we make any change I will let you know. I have written such a
+great number of letters I forget if I told you I went to Plattsburg <body>
+		<pb facs="5.003185512.20LOCLVVW.jpg"/>
+            <opener><note xml:id="n8"
+type="editorial" resp="jse">Plattsburgh, New York, is on west side of Lake Champlain, north and west
+of Burlington.</note> had a pleasant sail on the Lake dinner on <choice>
+<sic>bourd</sic>
+<corr>board</corr>
+</choice> the Steamboat a nice walk and ride about the village visited two of the Hotels the day was
+warm enough to be out on the <choice>
+<sic>promenad</sic>
+<corr>promenade</corr>
+</choice> deck on the boat got home a little after dark it was no <choice>
+<sic>expence</sic>
+<corr>expense</corr>
+</choice> to Charlie a boarder in the house invited us we could have gone to a very many places if
+we had wished, then it was pleasant weather, now its pretty cold, the Lake is not frozen, there has
+not been any snow or not enough to cover the <choice>
+<corr>groun</corr>
+<corr>ground</corr>
+</choice> furs are very much worn here, they are much worn and quite expensive shall not be able to
+get any this winter I do not go out much I have nothing new but a silk apron I have worn black all
+the time the delaine<note xml:id="n9" type="editorial" resp="jse">Hannah's dress is probably made
+out of wool; "delaine" refers to an all-wool dress material.</note> dress is worn out it was very
+rotten every time I wear it, it gets torn the gingham dress I wore long as I could <choice>
+<sic>untill</sic>
+<corr>until</corr>
+</choice>it got dirty or messy the flounced dress I wear still and my two silk ones, I have not worn
+my cloak I wear that wrapper you gave me altogether and my black bonnet, the old black velvet one
+was torn there is quite a number stop here that have just been married. sometimes they are married
+here quietly, the last that was married here I was bridesmaid, the bridegroom was very rich the
+bride was rather pretty they were married <body>
+		<pb facs="5.004185512.20LOCLVVW.jpg"/><opener>
+            in the evening <choice>
+<sic>Mr</sic>
+<corr>Mr.</corr>
+</choice> Blodgett<note xml:id="n10" type="editorial" resp="jse">The name of the hotel is "The
+Exchange," in Burlington, Vermont. The Heydes stayed at this hotel intermittently during the 1850s,
+and Hannah refers to the Exchange in many of her letters. It was owned by the Blodgett
+family.</note> the <choice>
+<sic>principle</sic>
+<corr>principal</corr>
+</choice> owner of this Hotel &#40;a widower, was groomsman we do not have very lively times here now
+however Charlie thinks <choice>
+<sic>its</sic>
+<corr>it's</corr>
+</choice> the dullest place he ever saw, he frets very much gets quite discouraged but I do not
+think we shall be here very long I <choice>
+<sic>dont</sic>
+<corr>don't</corr>
+</choice> care where he goes if he could only feel more cheerful, I of course would feel contented
+anywhere where his <choice>
+<sic>buisiness</sic>
+<corr>business</corr>
+</choice> was good, I have written very many letters and then would feel different and would not
+send them, I was glad Walt wrote to me Charlie seemed much pleased with Leaves of Grass<note
+xml:id="n11" type="editorial" resp="jse">The first edition of <hi rend="italic">Leaves of
+Grass</hi>, published in July 1855.</note> he took it to his room at once, and has read it many
+times. &#8212; You must write when you can dear Mother for possibly we may remain here some weeks, I
+am perfectly willing to leave here I do not like it so very much there is quite a number of women
+boarders they notice <choice>
+<sic>ones</sic>
+<corr>one's</corr>
+</choice> dress so much, Charlie has taken one of his paintings up to the American house to night to
+be raffled<note xml:id="n12" type="editorial" resp="jse">Heyde followed the example set by the Art
+Unions in the mid-nineteenth century, of holding a lottery &#40;or raffle&#41; to sell his paintings. The
+Art Union would charge subscribers to belong to its organization each year, and at the end of the
+year a drawing would be held. Winners would receive original works of art that the Art Union had
+purchased. More than likely Heyde charged a nominal fee for his raffles. See William H. Gerdts, Jr.
+<hi rend="italic">Painting and Sculpture in New Jersey</hi> &#40;New Jersey: D. Van Nostrand, 1964&#41;,
+84.</note> for there. I want to see you dear Mother very much I have so very much to say to you that
+I do not wish to write, I have had some bothers, Charlie is not always very good to me but <choice>
+<sic>its</sic>
+<corr>it's</corr>
+</choice> best to say as little about it as possible Charlie has said many times he has written home
+when he was angry at me, if he has written as he says, but I do not think he has written what he
+said, because there is not the slightest truth in what he says or writes when he is angry he is
+sometimes very violent but I do not mind it much I scarcely ever get the least bit angry at him only
+remember Mother to not believe any thing he writes of me in the slightest particular, Dear mother I
+will certainly write again soon, write to me, I do not wish Charlie to see this. Give my love to
+every single one George, to J, W, M<unclear/><note xml:id="n13" type="editorial" resp="jse">Hannah
+is abbreviating the names of her siblings: "J" is Jeff; "W" is Walt, and "M" is Mary.</note>, and
+Eddy<note xml:id="n14" type="editorial" resp="jse">Eddy &#40;Edward&#41; Whitman &#40;1835-1892&#41;, the youngest
+child of Louisa and Walter Whitman, was mentally and physically disabled. He lived with Mother
+Whitman until her death in 1873, then with his brother George Washington Whitman and his wife Louisa
+Orr Haslam Whitman. Walt Whitman contributed to his support. Eddy was placed in an asylum in
+Blackwood, New Jersey, in 1888.</note></p>
+<closer>
+<salute>Good Bye dear Mother</salute>
+</closer>
+</body>
+
+</text>
+</TEI>
