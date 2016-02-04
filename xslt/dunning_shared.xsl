@@ -219,7 +219,7 @@
     Figures
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <xsl:template match="figure" priority="1">
+  <xsl:template match="figure" priority="2">
     <div class="intro_figure">
     
     <img>

@@ -2,9 +2,44 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0"
     xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <xsl:param name="edition_type"/>
+    
     <xsl:strip-space elements="*" />
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no" />
     <xsl:include href="base.xsl" />
+    
+    <xsl:template match="/tei:TEI/tei:text">
+        <xsl:choose>
+            <xsl:when test="$edition_type = 'edition'">
+                <xsl:variable name="files" select="collection('../2016/editions/mullinswhitmanheyde/xml?recurse=yes;select=*.xml')"/>
+                <ul>
+                <xsl:for-each select="$files">
+                    <xsl:variable name="filename" select="tokenize(base-uri(.), '/')[last()]"/>
+                    
+                    <!-- Split the filename using '\.' -->
+                    <xsl:variable name="filenamepart" select="substring-before($filename, '.xml')"/>
+                    <li>
+                        <a>
+                        <xsl:attribute name="href">
+                            <xsl:text>mullinswhitmanheyde.</xsl:text>
+                            <xsl:value-of select="$filenamepart"/>
+                            <xsl:text>.html</xsl:text>
+                        </xsl:attribute>
+                            <xsl:value-of select="//tei:title[@type='main']"/>
+                    </a>
+                        
+                    </li>
+                   
+                    
+                </xsl:for-each>
+                </ul>
+            </xsl:when>
+            <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+        </xsl:choose>
+        
+    </xsl:template>
+    
+    
     <xsl:template match="//tei:teiHeader" />
     <xsl:template name="essayNav"/>
     <xsl:template name="witnessName"> </xsl:template>
@@ -18,7 +53,7 @@
                 <ul>
                     <li id="editionNavPre">Go to:</li>
                     <li id="editionNav1">
-                        <a href="{$siteroot}2012/editions/liveoakwithmoss.html">Edition</a>
+                        <a href="mullinswhitmanheyde.edition.html">Edition</a>
                     </li>
                 </ul>
             </xsl:when>
@@ -36,10 +71,12 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
     <!-- volume citation (required for each essay, review, and edition) -->
     <xsl:template name="volCitation">
         <h5>2012, Volume 33</h5>
     </xsl:template>
+    
     <!-- Special <head> @types -->
     <xsl:template match="//tei:text//tei:head">
         <xsl:choose>
@@ -83,6 +120,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
     <!-- pagebreaks -->
     <xsl:template match="//tei:pb">
         <table class="pagebreak">
@@ -158,6 +196,7 @@
             <xsl:apply-templates />
         </span>
     </xsl:template>
+    
     <!-- makes the <orig> or <sic> show up in a <choice> (rather than the regularized forms) -->
     <xsl:template match="//tei:choice">
         <xsl:choose>
@@ -173,6 +212,7 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
+    
     <!-- Notes and pointers -->
     <xsl:template match="//tei:div[@type='notes']">
         <div class="notesList">
@@ -180,6 +220,7 @@
             <xsl:apply-templates />
         </div>
     </xsl:template>
+    
     <xsl:template match="//tei:ptr">
         <a>
             <xsl:attribute name="href">
@@ -199,7 +240,8 @@
             </span></xsl:otherwise></xsl:choose>
         </a>
     </xsl:template>
-    <xsl:template match="//tei:note">
+    
+    <xsl:template match="//tei:note" priority="1">
         <div class="note">
             <a>
                 <xsl:attribute name="name">
@@ -218,18 +260,20 @@
             </a>
         </div>
     </xsl:template>
+    
     <!-- Special linebreaks for poetic lines -->
-    <xsl:template match="//tei:l//tei:lb"
-        ><br />&#160;&#160;&#160;&#160;&#160;</xsl:template>
+    <xsl:template match="//tei:l//tei:lb"><br />&#160;&#160;&#160;&#160;&#160;</xsl:template>
     <!-- deletions and additions in the manuscript (I did not do anything with the <subst> stuff at this
 point because I thought the styling could be accomplished for this file through this relatively
 simple approach -->
+    
     <xsl:template match="//tei:del">
         <span>
             <xsl:attribute name="class">del_<xsl:value-of select="@type" /></xsl:attribute>
             <xsl:apply-templates />
         </span>
     </xsl:template>
+    
     <xsl:template match="//tei:add">
         <xsl:if test="@type='insertion'">
             <span class="insertionMark">^</span>
@@ -239,11 +283,13 @@ simple approach -->
             <xsl:apply-templates />
         </span>
     </xsl:template>
+    
     <xsl:template match="//tei:gap">
         <xsl:choose>
             <xsl:when test="@reason='deletion, illegible'">[illeg.]</xsl:when>
         </xsl:choose>
     </xsl:template>
+    
     <!-- To get quoted poetic lines to show up in the introduction -->
     <xsl:template match="//tei:quote">
         <blockquote>
@@ -251,7 +297,7 @@ simple approach -->
         </blockquote>
     </xsl:template>
     
-   <xsl:template match="//tei:note">
+   <xsl:template match="//tei:note" priority="2">
        <xsl:variable name="noteNumber">
            <xsl:number count="//tei:note[@type='editorial']" level="any" />
        </xsl:variable>

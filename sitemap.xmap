@@ -321,6 +321,39 @@
             </map:match>
         </map:pipeline>
         
+        <!-- mullinswhitmanheyde, 2016 issue-->
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/mullinswhitmanheyde.html">
+                <map:generate src="2016/editions/mullinswhitmanheyde/xml/intro.mullinswhitmanheyde.xml" />
+                <map:transform type="xslt" src="./xslt/hwh.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                </map:transform>
+                <map:serialize type="html" />
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/mullinswhitmanheyde.edition.html">
+                <map:generate src="2016/editions/mullinswhitmanheyde/xml/intro.mullinswhitmanheyde.xml" />
+                <map:transform type="xslt" src="./xslt/hwh.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="edition_type" value="edition" />
+                </map:transform>
+                <map:serialize type="html" />
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/mullinswhitmanheyde.*.html">
+                <map:generate src="2016/editions/mullinswhitmanheyde/xml/{1}.xml" />
+                <map:transform type="xslt" src="./xslt/hwh.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                </map:transform>
+                <map:serialize type="html" />
+            </map:match>
+        </map:pipeline>
+        
         <!-- Mary Isbell's Young Idea Extracts, 2016 issue-->
         
         <map:pipeline type="noncaching">
