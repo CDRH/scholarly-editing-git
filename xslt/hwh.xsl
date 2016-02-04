@@ -61,12 +61,12 @@
                 <ul>
                     <li id="editionNavPre">Go to:</li>
                     <li id="editionNav1">
-                        <a href="{$siteroot}2012/editions/intro.liveoakwithmoss.html"
+                        <a href="mullinswhitmanheyde.html"
                             >Introduction</a>
                     </li>
-                    <li id="editionNav2">
+                    <!--<li id="editionNav2">
                         <a href="{$siteroot}2012/editions/liveoakwithmoss.xml">Edition XML</a>
-                    </li>
+                    </li>-->
                 </ul>
             </xsl:otherwise>
         </xsl:choose>
@@ -241,7 +241,7 @@
         </a>
     </xsl:template>
     
-    <xsl:template match="//tei:note" priority="1">
+    <xsl:template match="//tei:note" priority="2">
         <div class="note">
             <a>
                 <xsl:attribute name="name">
@@ -290,6 +290,17 @@ simple approach -->
         </xsl:choose>
     </xsl:template>
     
+    <xsl:template match="tei:note[@type='editorial']" priority="3">
+        <span class="showNote">
+            <a href="#" onclick="return false;"><xsl:text> [</xsl:text><xsl:value-of select="substring-after(@xml:id,'n')"/><xsl:text>]</xsl:text></a>
+        </span>
+        <span class="appEntry" style="display: block;">
+            <a href="#" class="closenote">X</a>
+            <span class="rdgNote">
+           <br/> <xsl:value-of select="."/>
+        </span></span>
+    </xsl:template>
+    
     <!-- To get quoted poetic lines to show up in the introduction -->
     <xsl:template match="//tei:quote">
         <blockquote>
@@ -297,7 +308,7 @@ simple approach -->
         </blockquote>
     </xsl:template>
     
-   <xsl:template match="//tei:note" priority="2">
+   <xsl:template match="//tei:note" priority="1">
        <xsl:variable name="noteNumber">
            <xsl:number count="//tei:note[@type='editorial']" level="any" />
        </xsl:variable>
@@ -312,6 +323,18 @@ simple approach -->
        </a>
       </sup>
    </xsl:template>
+    
+    <!-- temporary figure matching template overriding base in order to override the base xsl -->
+    <xsl:template match="//tei:figure" priority="2">
+        <div style="margin:10px;padding:10px;border: solid 3px red;">
+            <h4>GRAPHIC HERE</h4>
+            <strong>graphic/@url: </strong>"<xsl:value-of select="tei:graphic/@url"/>"<br/>
+            <strong>head: </strong>"<xsl:value-of select="tei:head"/>"<br/>
+            <strong>p: </strong>"<xsl:value-of select="tei:p"/>"<br/>
+        </div>
+       
+        
+    </xsl:template>
     
    
 </xsl:stylesheet>

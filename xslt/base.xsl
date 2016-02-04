@@ -238,6 +238,11 @@
                                 alt="powered by the Versioning Machine, version 4.0"/>
                         </a>
                     </xsl:if>
+                    
+                    <!-- Amanda added this but Andy's templates re handling the notes, so to avoid double notes I am commenting out -KMD -->
+                    <!--<xsl:call-template name="NotesList"></xsl:call-template>-->
+                    
+                    
                     <div class="footer">
                         <span class="creativecommons"><a rel="license"
                                 href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
