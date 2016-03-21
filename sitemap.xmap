@@ -354,6 +354,18 @@
             </map:match>
         </map:pipeline>
         
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/mullinswhitmanheyde/xml/mullinswhitmanheyde.zip">
+                <map:read src="2016/editions/mullinswhitmanheyde/xml/mullinswhitmanheyde.zip" />
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/mullinswhitmanheyde/**.jpg">
+                <map:read src="2016/editions/mullinswhitmanheyde/{1}.jpg" />
+            </map:match>
+        </map:pipeline>
+        
         <!-- Mary Isbell's Young Idea Extracts, 2016 issue-->
         
         <map:pipeline type="noncaching">

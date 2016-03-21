@@ -813,7 +813,95 @@ span.pagebreak {
 	padding: 15px;
 	width: 100%;
 	text-align: left;
+	
+	}
+	
+	
+	/* Whitman hyde rules */
+	
+.whitmanheydethumbnailbox {
+
+float: right; 
+	clear:right;
+    text-align:center;
+    padding: 0 0 0 7px;
+	font-size:.8em;
+	
 }
+
+.whitmanheydethumbnail {
+    
+	/*
+	max-width:100px;*/
+	
+	
+	
+}
+
+.whitmanheydeviewsize {
+    margin-top:5px;
+}
+
+.whitmanheydeviewsize, .whitmanheydefullsize {
+    display:block;
+    line-height:1.1em;
+}
+
+.whitmanheydepagebreak {
+    display:block;
+    border-top:dashed #aaa 1px;
+    padding-bottom:10px;
+    margin-top:20px;
+}
+
+.whitmanhydefigure {
+    margin:10px 0 10px 0;
+    padding:10px;
+    /*border: solid 1px #aaa; */
+    border-right:none;
+    border-left:none;
+    text-align:center; 
+    display:block;
+}
+
+.whitmanhydefigure img {
+    max-width:100%;
+}
+
+.whitmanhydefigurehead {
+    text-align:center; 
+    font-size:1em; 
+    display:block; 
+    padding:5px 0;
+}
+
+.whitmanhydefigurep {
+    display:block;
+    padding:5px 0; 
+    line-height:1.2em; 
+    font-size:.9em;
+}
+
+.whitmanhydefigureleft {
+    width:46%;
+    float:left;
+}
+
+.whitmanhydefigureright {
+    width:46%;
+    float:right;
+}
+
+.whitmanhydeintro p {
+    clear:both;
+}
+
+.whitmanhyde span.salute, .whitmanhyde span.signed  {
+    float:none;
+    text-indent: 2em;
+}
+
+
 
 .essay .poem {
 	font-size: 1em;
@@ -1218,6 +1306,7 @@ div.signature span.affiliation {
 	position: absolute;
 	background: #fff;
 	width: 660px;
+	padding:0 10px 5px 10px;
 	
 }
 

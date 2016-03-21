@@ -22,8 +22,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno type="file">DKE001hwhlvvw09251852</idno>
-                <idno type="edition">whitmanheydeletters</idno>
+                
                 <authority>Scholarly Editing: The Annual of the Association for Documentary
                     Editing</authority>
                 <address>
@@ -48,6 +47,8 @@
                         and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
                         3.0 Unported License</p>
                 </availability>
+                <idno type="file">DKE001hwhlvvw09251852</idno>
+                <idno type="edition">whitmanheydeletters</idno>
             </publicationStmt>
             <seriesStmt>
                 <title level="j">Scholarly Editing: The Annual of the Association for Documentary
@@ -71,21 +72,22 @@
                     <orgName> Trent Location of Whitmaniana, David M. Rubenstein Rare Book &#38;
                         Manuscript Library, Duke University </orgName>
                     <note type="project"> </note>
+                    <date when="1852-09-25">September 25, 1852</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
 
     <text type="letter">
-        <body>
+        <body><pb facs="DUKE001hwhlvvw09251852.01.jpg"/>
             <opener>
-                <salute> Dear Mother <note xml:id="n1" type="editorial" resp="jse">This letter is
+                <salute> Dear Mother, </salute></opener> <note xml:id="n1" type="editorial" resp="jse">This letter is
                         not dated. Because Hannah refers to “being away four weeks,” “longer than
                         ever before,” the date can be determined as September 25-30, 1852. Hannah
                         and Charles Heyde arrived in North Dorset on August 26, 1852, as reported in
                         a letter from Heyde to Mother Whitman dated August 27, 1852(Trent
-                        Collection, Duke).</note> ,</salute>
-            </opener>
+                        Collection, Duke).</note>
+           
             <p>I want you to write to me again very soon. You have no idea how glad I be when get
                 your letters. Why <choice>
                     <sic>dont</sic>

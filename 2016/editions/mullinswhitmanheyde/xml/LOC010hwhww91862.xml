@@ -3,7 +3,7 @@
 <teiHeader xml:lang="eng">
 <fileDesc>
 <titleStmt>
-<title type="main" level="m">Hannah Whitman Heyde to Walt Whitman Sept 1862</title>
+<title type="main" level="m">Hannah Whitman Heyde to Walt Whitman September 1862</title>
 <author>Hannah Whitman Heyde</author>
 <editor role="main">Maire Mullins</editor>
 <editor role="assistant">Madison Perrin</editor>
@@ -23,8 +23,7 @@
 </edition>
 </editionStmt>
 <publicationStmt>
-<idno type="file">LOC010hwhww91862</idno>
-<idno type="edition">whitmanheydeletters</idno>
+
 <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>
 <address>
 <addrLine>http://www.scholarlyediting.org</addrLine>
@@ -43,6 +42,8 @@ the Association for Documentary Editing and the Center for Digital Research in t
 University of Nebraska-Lincoln and licensed under a Creative Commons
 Attribution-NonCommercial-ShareAlike 3.0 Unported License</p>
 </availability>
+    <idno type="file">LOC010hwhww91862</idno>
+    <idno type="edition">whitmanheydeletters</idno>
 </publicationStmt>
 <seriesStmt>
 <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>
@@ -84,7 +85,7 @@ Washington, DC</orgName>
 </revisionDesc>
 </teiHeader>
 <text type="letter">
-<body>
+    <body><pb facs="LOC010hwhww91862.01.jpg"/>
 <opener>
 <dateline> </dateline>
 </opener>
@@ -130,7 +131,7 @@ shall soon, my love to you,</p>
 <signed>Han</signed>
 </closer>
 <postscript>
-<p>dear brother telegraph to me at once</p>
+    <p>dear brother telegraph to me at once</p><pb facs="LOC010hwhww91862.02.jpg"/>
 </postscript>
 </body>
 </text>

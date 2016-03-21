@@ -104,6 +104,12 @@ $(function () {
 });
 
 $(function () {
+    $('.whitmanheydeviewsize a').lightBox({
+        fixedNavigation: true
+    });
+});
+
+$(function () {
     $('.pageid a').lightBox({
         fixedNavigation: true
     });
@@ -117,6 +123,12 @@ $(function () {
 
 $(function () {
     $('.thumbnail a').lightBox({
+        fixedNavigation: true
+    });
+});
+
+$(function () {
+    $('.whitmanheydethumbnail a').lightBox({
         fixedNavigation: true
     });
 });

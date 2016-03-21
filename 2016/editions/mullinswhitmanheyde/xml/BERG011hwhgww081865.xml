@@ -3,7 +3,7 @@
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">The Selected Letters of Hannah Whitman Heyde</title>
+                <title level="m" type="main">Hannah Whitman Heyde to George Washington Whitman, August 1865</title>
                 <author>Hannah Whitman Heyde</author>
                 <editor>Maire Mullins</editor>
                 <respStmt>
@@ -21,8 +21,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno type="file">BERG011hwhgww081865</idno>
-                <idno type="edition">whitmanheydeletters</idno>
+                
                 <authority>Scholarly Editing: The Annual of the Association for Documentary
                     Editing</authority>
                 <address>
@@ -47,6 +46,8 @@
                         and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
                         3.0 Unported License</p>
                 </availability>
+                <idno type="file">BERG011hwhgww081865</idno>
+                <idno type="edition">whitmanheydeletters</idno>
             </publicationStmt>
             <seriesStmt>
                 <title level="j">Scholarly Editing: The Annual of the Association for Documentary
@@ -72,16 +73,17 @@
                         Astor, Lenox, and Tilden Foundations </orgName>
                     <note type="project">Transcribed from the original manuscript, then edited and
                         annotated by Maire Mullins. </note>
+                    <date when="1865-08">August, 1865</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
 
     <text type="letter">
-        <body>
+        <body><pb facs="BERG011hwhgww081865.01.jpg"/>
             <opener>
                 <dateline>
-                    <date when="1865-08">Friday night, pretty late<note xml:id="n1" type="editorial"
+                    <date when="1865-08">Friday night, pretty late</date><note xml:id="n1" type="editorial"
                             resp="jse">This letter is not dated. From the comments in the letter,
                             however, it appears that George has returned home from his Civil War
                             military service. He was mustered out of the Union Army on July 27,
@@ -89,7 +91,7 @@
                             according to Jerome M. Loving. See <hi rend="italic">The Civil War
                                 Letters of George Washington Whitman</hi>, ed. Jerome M. Loving
                             &#40;Durham, N.C.: Duke UP, 1975&#41;, 27. This letter can tentatively
-                            be dated as August 1865.</note></date>
+                            be dated as August 1865.</note>
                 </dateline>
                 <salute>Dear brother George<note xml:id="n2" type="editorial" resp="jse">George
                         Washington Whitman (1829-1901) was the seventh child of Walter and Louisa
@@ -130,7 +132,7 @@
                     Burlington. They purchased the house in May 1864.</note> but I <choice>
                     <sic>dont</sic>
                     <corr>don't</corr>
-                </choice>think of that. I should like to have you come so much</p>
+                </choice> think of that. I should like to have you come so much</p>
 
             <closer>
                 <salute>Good night</salute>

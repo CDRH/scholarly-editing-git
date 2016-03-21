@@ -304,9 +304,16 @@
                         <xsl:call-template name="editionNav"/>
                     </span>
                 </div>
-
-
-
+            </xsl:when>
+            
+            <xsl:when test="contains($editionIdno,'mullinswhitmanheyde')">
+                <div class="editionHeader">
+                    <h1 class="editionTitle">The Selected Letters of Hannah Whitman Heyde</h1>
+                    <span class="editor">Edited by Maire Mullins</span>
+                    <span class="editionNav">
+                        <xsl:call-template name="editionNav"/>
+                    </span>
+                </div>
             </xsl:when>
 
             <xsl:otherwise>

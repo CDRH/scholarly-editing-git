@@ -9,15 +9,24 @@
     <xsl:include href="base.xsl" />
     
     <xsl:template match="/tei:TEI/tei:text">
+        
         <xsl:choose>
             <xsl:when test="$edition_type = 'edition'">
                 <xsl:variable name="files" select="collection('../2016/editions/mullinswhitmanheyde/xml?recurse=yes;select=*.xml')"/>
                 <ul>
                 <xsl:for-each select="$files">
+                    <xsl:sort select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when"/>
+                    <!--[<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when"/>]-->
+                   
                     <xsl:variable name="filename" select="tokenize(base-uri(.), '/')[last()]"/>
                     
                     <!-- Split the filename using '\.' -->
                     <xsl:variable name="filenamepart" select="substring-before($filename, '.xml')"/>
+                    
+                    <!-- if not intro -->
+                   
+                    <xsl:if test="normalize-space(//tei:idno[@type='file']) != 'intro.mullinswhitmanheydeletters'">
+                        
                     <li>
                         <a>
                         <xsl:attribute name="href">
@@ -29,14 +38,24 @@
                     </a>
                         
                     </li>
+                        
+                    </xsl:if>
                    
                     
                 </xsl:for-each>
                 </ul>
             </xsl:when>
-            <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+            <xsl:when test="$idno = 'intro.mullinswhitmanheydeletters'">
+                <span class="whitmanhydeintro">
+                    <!--[[[<xsl:value-of select="$idno"/>]]]-->
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="whitmanhyde">
+                    <xsl:apply-templates/>
+            </span></xsl:otherwise>
         </xsl:choose>
-        
     </xsl:template>
     
     
@@ -48,7 +67,20 @@
         <xsl:variable name="idno">
             <xsl:value-of select="//tei:idno" />
         </xsl:variable>
-        <xsl:choose>
+        <ul>
+            <li id="editionNavPre">Go to:</li>
+            <li id="editionNav1">
+                <a href="{$siteroot}2016/editions/mullinswhitmanheyde.html">Introduction</a>
+            </li>
+            <li id="editionNav2">
+                <a href="{$siteroot}2016/editions/mullinswhitmanheyde.edition.html">Index of Letters</a>
+            </li>
+            <li id="editionNav4">
+                <a href="mullinswhitmanheyde/xml/mullinswhitmanheyde.zip">Download XML</a>
+            </li>
+        </ul>
+        
+        <!--<xsl:choose>
             <xsl:when test="starts-with($idno,'intro.')">
                 <ul>
                     <li id="editionNavPre">Go to:</li>
@@ -64,12 +96,12 @@
                         <a href="mullinswhitmanheyde.html"
                             >Introduction</a>
                     </li>
-                    <!--<li id="editionNav2">
+                    <!-\-<li id="editionNav2">
                         <a href="{$siteroot}2012/editions/liveoakwithmoss.xml">Edition XML</a>
-                    </li>-->
+                    </li>-\->
                 </ul>
             </xsl:otherwise>
-        </xsl:choose>
+        </xsl:choose>-->
     </xsl:template>
     
     <!-- volume citation (required for each essay, review, and edition) -->
@@ -123,53 +155,28 @@
     
     <!-- pagebreaks -->
     <xsl:template match="//tei:pb">
-        <table class="pagebreak">
-            <tr><span class="thumbnail">
-                <a>
-                    <xsl:attribute name="href">
-                        <xsl:text>pages/viewsize/</xsl:text>
-                        <xsl:value-of select="@facs" />
-                       
-                    </xsl:attribute>
-                    <img>
-                       
-                        <xsl:attribute name="src">
-                            <xsl:text>pages/thumbs/</xsl:text>
-                            <xsl:value-of select="@facs" />
-                            
-                        </xsl:attribute>
-                        
-                    </img>
+        
+        <span class="whitmanheydepagebreak">
+            <span class="whitmanheydethumbnailbox">
+            <span class="whitmanheydethumbnail">
+                <a href="mullinswhitmanheyde/figures/viewsize/{@facs}">
+                    <img src="mullinswhitmanheyde/figures/thumbs/{@facs}"/>
                 </a>
+                
             </span>
-            </tr>
-            <tr>
-            <span class="viewsize">
-                <a>
-                    <xsl:attribute name="href">
-                        <xsl:text>pages/viewsize/</xsl:text>
-                        <xsl:value-of select="@facs" />
-                        
-                    </xsl:attribute>
-                    <xsl:text>View Page</xsl:text></a>
+            
+            <span class="whitmanheydeviewsize">
+                <a href="mullinswhitmanheyde/figures/viewsize/{@facs}">View Page</a>
             </span>
-            </tr>
-           <tr>
-            <span class="fullsize">
-                <a>
-                    <xsl:attribute name="href">
-                        <xsl:text>pages/fullsize/</xsl:text>
-                        <xsl:value-of select="@facs" />
-                        
-                    </xsl:attribute>
-                    <xsl:attribute name="target">
-                        <xsl:text>_blank</xsl:text>
-                    </xsl:attribute>
-                    <xsl:text>Full size in new window</xsl:text>
-                </a>
+            <span class="whitmanheydefullsize">
+                <a href="mullinswhitmanheyde/figures/fullsize/{@facs}" target="_blank">Full size in new window</a>
             </span>
-           </tr>
-        </table>
+            </span>
+            
+        </span><!-- /whitmanheydethumbnailbox -->
+        
+        
+       
     </xsl:template>
     
     <!-- epistolary tags-->
@@ -297,8 +304,32 @@ simple approach -->
         <span class="appEntry" style="display: block;">
             <a href="#" class="closenote">X</a>
             <span class="rdgNote">
-           <br/> <xsl:value-of select="."/>
+           <br/> <xsl:value-of select="."/><!-- todo: ask andy if he has any ideas -->
         </span></span>
+    </xsl:template>
+    
+    <xsl:template match="//tei:choice" priority="2">
+        <xsl:choose>
+            <xsl:when test="tei:abbr">
+                <xsl:apply-templates select="tei:abbr" />
+            </xsl:when>
+            <xsl:when test="tei:sic">
+                <xsl:apply-templates select="tei:sic" />
+               <!-- <xsl:text> [sic]</xsl:text>-->
+            </xsl:when>
+            <xsl:otherwise>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+        
+            
+        
+    </xsl:template>
+    
+    <xsl:template match="//tei:choice" priority="1">
+        
+        <xsl:apply-templates select="tei:abbr" />
+        
     </xsl:template>
     
     <!-- To get quoted poetic lines to show up in the introduction -->
@@ -324,14 +355,27 @@ simple approach -->
       </sup>
    </xsl:template>
     
-    <!-- temporary figure matching template overriding base in order to override the base xsl -->
+    <!-- figure matching template overriding base in order to override the base xsl -->
     <xsl:template match="//tei:figure" priority="2">
-        <div style="margin:10px;padding:10px;border: solid 3px red;">
-            <h4>GRAPHIC HERE</h4>
-            <strong>graphic/@url: </strong>"<xsl:value-of select="tei:graphic/@url"/>"<br/>
-            <strong>head: </strong>"<xsl:value-of select="tei:head"/>"<br/>
-            <strong>p: </strong>"<xsl:value-of select="tei:p"/>"<br/>
-        </div>
+        <span>
+            <xsl:attribute name="class">
+                <xsl:text>whitmanhydefigure</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="@rend='right'">
+                        <xsl:text> whitmanhydefigureright</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="@rend='left'">
+                        <xsl:text> whitmanhydefigureleft</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise></xsl:otherwise>
+                </xsl:choose>
+            </xsl:attribute>
+            
+            <img src="mullinswhitmanheyde/figures/intro/{tei:graphic/@url}"/>
+           
+            <span class="whitmanhydefigurehead"><xsl:value-of select="tei:head"/></span>
+            <span class="whitmanhydefigurep"><xsl:value-of select="tei:p"/></span>
+        </span>
        
         
     </xsl:template>
