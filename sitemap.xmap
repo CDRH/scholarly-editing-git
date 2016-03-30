@@ -170,6 +170,21 @@
                 <map:read src="2015/essays/images/{1}" />
             </map:match>
         </map:pipeline>
+
+        <!-- for essays, 2016, Vol 37 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/essays/essay.**.html">
+                <map:generate src="2016/essays/essay.{1}.xml" />
+                <map:transform type="xslt" src="./xslt/essay.xsl"> </map:transform>
+                <map:serialize type="html" />
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/essays/images/**">
+                <map:read src="2016/essays/images/{1}" />
+            </map:match>
+        </map:pipeline>
         
 
         <!-- for reviews, 2012, Vol 33 -->
@@ -203,6 +218,15 @@
         <map:pipeline type="noncaching">
             <map:match pattern="2015/reviews/review.**.html">
                 <map:generate src="2015/reviews/review.{1}.xml" />
+                <map:transform type="xslt" src="./xslt/review.xsl"> </map:transform>
+                <map:serialize type="html" />
+            </map:match>
+        </map:pipeline>
+
+        <!-- for reviews, 2016, Vol 36 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/reviews/review.**.html">
+                <map:generate src="2016/reviews/review.{1}.xml" />
                 <map:transform type="xslt" src="./xslt/review.xsl"> </map:transform>
                 <map:serialize type="html" />
             </map:match>
