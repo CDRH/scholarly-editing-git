@@ -416,7 +416,11 @@
     <xsl:template match="tei:p">
 
         <xsl:choose>
-
+            <xsl:when test="//tei:idno = 'essay.grayprice'">
+                <div class="p">
+                    <xsl:apply-templates />
+                </div>
+            </xsl:when>
             <xsl:when test="//tei:idno[@type = 'edition'] = 'utctopsy'">
                 <xsl:choose>
                     <xsl:when test="//tei:idno[@type = 'file'] = 'intro.utctopsy'">
