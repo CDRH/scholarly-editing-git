@@ -896,7 +896,7 @@
                                         select="substring(child::tei:graphic/attribute::url, 8)"/>
                                 </xsl:when>
                                 <xsl:when
-                                    test="$fileName = 'essay.calvert' or $fileName = 'essay.porter'">
+                                    test="$fileName = 'essay.calvert' or $fileName = 'essay.porter' or $fileName = 'essay.grayprice'">
                                     <xsl:text>images/viewsize/</xsl:text>
                                     <xsl:value-of
                                         select="substring(child::tei:graphic/attribute::url, 8)"/>
