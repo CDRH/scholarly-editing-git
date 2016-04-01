@@ -51,6 +51,7 @@
             <xsl:when test="$idno='essay.porter' or $idno='essay.calvert' or $idno='essay.2013presidentialaddress' or $idno='essay.v34intro'"><h5>2013, Volume 34</h5></xsl:when>
             <xsl:when test="$idno='essay.pierazzo' or $idno='essay.2014presidentialaddress' or $idno='essay.v35intro'"><h5>2014, Volume 35</h5></xsl:when>
             <xsl:when test="$idno='essay.gagel' or $idno='essay.v36intro' or $idno='essay.gordon' or $idno='essay.2015presidentialaddress'"><h5>2015, Volume 36</h5></xsl:when>
+            <xsl:when test="$idno='essay.grayprice' or $idno='essay.v37intro' or $idno='essay.mcgann' or $idno='essay.2016presidentialaddress' or $idno='essay.alpertabrams' or $idno='essay.davies' or $idno='essay.schulze'"><h5>2015, Volume 36</h5></xsl:when>
             <xsl:otherwise><h5>NEED YEAR AND VOL NUMBER</h5></xsl:otherwise>
         </xsl:choose>
     </xsl:template>

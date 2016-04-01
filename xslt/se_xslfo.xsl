@@ -49,7 +49,7 @@
                     <fo:external-graphic content-height="32pc" content-width="26pc"
                         scaling="uniform" padding="0" margin="0">
                         <xsl:attribute name="src"
-                            >url(http://spacely.unl.edu/cocoon/scholarlyediting/2014/editions/cranchjournal/<xsl:value-of
+                            >url(/Users/ajewell/Documents/scholarly-editing-git/2016/essays/<xsl:value-of
                             select="$graphicID" />)</xsl:attribute>
                     </fo:external-graphic>
                     <xsl:choose>
