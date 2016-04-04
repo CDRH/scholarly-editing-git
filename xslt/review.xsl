@@ -27,6 +27,7 @@
             <xsl:when test="$idno='review.emerson' or $idno='review.thurman' or $idno='review.recenteditions2013'"><h5>2013, Volume 34</h5></xsl:when>
             <xsl:when test="$idno='review.pinckney' or $idno='review.burton-rose' or $idno='review.recenteditions2014'"><h5>2014, Volume 35</h5></xsl:when>
             <xsl:when test="$idno='review.roosevelt' or $idno='review.twain' or $idno='review.beverley' or $idno='review.recenteditions2015'"><h5>2015, Volume 36</h5></xsl:when>
+            <xsl:when test="$idno='review.ovid'or $idno='review.recenteditions2016'"><h5>2016, Volume 37</h5></xsl:when>
             <xsl:otherwise>NEED YEAR AND VOL NUMBER</xsl:otherwise>
         </xsl:choose>
     </xsl:template>
