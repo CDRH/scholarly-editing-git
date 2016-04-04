@@ -61,7 +61,7 @@
         <xsl:choose>
             
             <xsl:when test="child::tei:bibl">
-                <xsl:choose><xsl:when test="./attribute::xml:id='editors_craft'"><span class="editors_craft"><span class="series_title"><xsl:apply-templates select="child::tei:title[@level='s']"/></span><li class="biblItem">
+                <xsl:choose><xsl:when test="./attribute::xml:id='editors_craft' or ./attribute::xml:id='joint_presidential'"><span class="editors_craft"><span class="series_title"><xsl:apply-templates select="child::tei:title[@level='s']"/></span><li class="biblItem">
                     <xsl:apply-templates select="child::tei:bibl" />
                     
                 </li></span></xsl:when><xsl:otherwise><li class="biblItem">
