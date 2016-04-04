@@ -699,18 +699,29 @@
 
 
     <xsl:template match="//tei:table">
-        <fo:table table-layout="fixed" width="100%">
+        <xsl:for-each select="./child::tei:head"><fo:block font-size="10pt" text-align="left" padding-bottom="14pt"  padding-top="14pt"
+                    font-family="GoudyBookletter1911Regular"><xsl:apply-templates/></fo:block></xsl:for-each>
+        <fo:table table-layout="fixed" width="100%" margin-bottom="25pt">
             <fo:table-body>
                 <xsl:for-each select="./child::tei:row">
-                    <fo:table-row>
+                    <xsl:choose><xsl:when test="@role='label'"><fo:table-row>
                         <xsl:for-each select="./child::tei:cell">
                             <fo:table-cell>
-                                <fo:block font-size="10pt">
+                                <fo:block font-size="7pt" font-family="AGaramondPro-Bold">
                                     <xsl:apply-templates />
                                 </fo:block>
                             </fo:table-cell>
                         </xsl:for-each>
-                    </fo:table-row>
+                    </fo:table-row></xsl:when><xsl:otherwise><fo:table-row>
+                        <xsl:for-each select="./child::tei:cell">
+                            <fo:table-cell>
+                                <fo:block font-size="7pt">
+                                    <xsl:apply-templates />
+                                </fo:block>
+                            </fo:table-cell>
+                        </xsl:for-each>
+                    </fo:table-row></xsl:otherwise></xsl:choose>
+                    
                 </xsl:for-each>
             </fo:table-body>
         </fo:table>
