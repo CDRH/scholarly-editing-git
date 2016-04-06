@@ -1116,9 +1116,14 @@
     <!-- for Tables -->
     <xsl:template match="//tei:table">
         <xsl:for-each select="child::tei:head">
-            <h2>
+<xsl:choose>
+    <xsl:when test="$idno, 'essay'"><h3>
+        <xsl:apply-templates/>
+    </h3></xsl:when><xsl:otherwise><h2>
                 <xsl:apply-templates/>
-            </h2>
+            </h2></xsl:otherwise>
+</xsl:choose>
+            
         </xsl:for-each>
         <table>
             <xsl:for-each select="child::tei:row">
