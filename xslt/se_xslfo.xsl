@@ -547,6 +547,10 @@
                     <xsl:when test="ancestor::div[@type='note']">
                         <xsl:apply-templates />
                     </xsl:when>
+                    <xsl:when test="attribute::rend='block'"><fo:block margin-top="7pt" margin-bottom="7pt" margin-left="20pt"
+                        margin-right="20pt" text-indent="0" font-size="10pt">
+                        <xsl:apply-templates />
+                    </fo:block></xsl:when>
                     <xsl:otherwise>
                         <fo:block margin-top="7pt" margin-bottom="7pt" margin-left="0in">
                             <xsl:for-each select="descendant::tei:l">
