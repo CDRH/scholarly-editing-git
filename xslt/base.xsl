@@ -1507,6 +1507,9 @@ by bots, spammers, and other evildoers -->
                                     <xsl:if test="@rend = 'new'">
                                         <xsl:attribute name="target">_blank</xsl:attribute>
                                     </xsl:if>
+                                    <xsl:if test="@xml:id">
+                                        <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                                    </xsl:if>
                                     <xsl:apply-templates/>
                                 </a>
                             </xsl:otherwise>

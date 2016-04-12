@@ -128,7 +128,7 @@
                 <div class="youngidea">
                     
                             <xsl:apply-templates/>
-                    <xsl:if test="descendant::tei:note"><div class="notesList">
+                    <!--<xsl:if test="descendant::tei:note"><div class="notesList">
                         <h2>Notes</h2>
                             <ol>
                                 <xsl:for-each select="//tei:body//tei:note">
@@ -159,7 +159,7 @@
                                     </li>
                                 </xsl:for-each>
                             </ol>
-                </div></xsl:if></div>
+                </div></xsl:if>--></div>
             </xsl:when>
      
             <xsl:otherwise>
@@ -260,9 +260,13 @@
 
 
 
-
     <!-- Notes and pointers -->
-   
+    <xsl:template match="//tei:div[@type='notes']">
+        <div class="notesList">
+            <h2>Notes</h2>
+            <xsl:apply-templates />
+        </div>
+    </xsl:template>
     <xsl:template match="//tei:ptr">
         <a>
             <xsl:attribute name="href">
@@ -286,8 +290,27 @@
     <xsl:template match="//tei:note">
         <xsl:choose>
             <xsl:when test="ancestor::tei:body and not(ancestor::tei:listPerson)">
-                
-                <xsl:variable name="noteNumber">
+                <div class="note">
+                            <a>
+                                <xsl:attribute name="name">
+                                    <xsl:value-of select="@xml:id" />
+                                </xsl:attribute>
+                            </a>
+                            <xsl:value-of
+                                    select="substring-after(attribute::xml:id,'intro')"
+                                />.&#160;
+                            <xsl:apply-templates />
+                            <a>
+                                <xsl:attribute name="href">#nr<xsl:value-of
+                                    select="substring-after(attribute::xml:id,'intro')"
+                                /></xsl:attribute>
+                                <img>
+                                    <xsl:attribute name="src">images/goback.png</xsl:attribute>
+                                    <xsl:attribute name="alt">Go back</xsl:attribute>
+                                </img>
+                            </a>
+                        </div>
+               <!-- <xsl:variable name="noteNumber">
                     <xsl:number count="//tei:body//tei:note" level="any"/>
                 </xsl:variable>
                 <a>
@@ -300,9 +323,10 @@
                         <xsl:value-of select="$noteNumber"/>
                     </xsl:attribute>
                     <span class="noteRef">[<xsl:value-of select="$noteNumber"/>]</span>
-                </a>
+                </a>-->
             </xsl:when>
-           
+            
+                        
             
 
             <xsl:when test="ancestor::tei:person">
