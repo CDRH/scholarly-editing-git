@@ -262,7 +262,7 @@
 
     <!-- Notes and pointers -->
     <xsl:template match="//tei:div[@type='notes']">
-        <div class="notesList">
+        <div class="notesList" style="display:none">
             <h2>Notes</h2>
             <xsl:apply-templates />
         </div>
@@ -289,7 +289,7 @@
     </xsl:template>
     <xsl:template match="//tei:note">
         <xsl:choose>
-            <xsl:when test="ancestor::tei:body and not(ancestor::tei:listPerson)">
+            <!--<xsl:when test="ancestor::tei:body and not(ancestor::tei:listPerson)">
                 <div class="note">
                             <a>
                                 <xsl:attribute name="name">
@@ -310,7 +310,7 @@
                                 </img>
                             </a>
                         </div>
-               <!-- <xsl:variable name="noteNumber">
+               <!-\- <xsl:variable name="noteNumber">
                     <xsl:number count="//tei:body//tei:note" level="any"/>
                 </xsl:variable>
                 <a>
@@ -323,8 +323,8 @@
                         <xsl:value-of select="$noteNumber"/>
                     </xsl:attribute>
                     <span class="noteRef">[<xsl:value-of select="$noteNumber"/>]</span>
-                </a>-->
-            </xsl:when>
+                </a>-\->
+            </xsl:when>-->
             
                         
             
@@ -334,7 +334,7 @@
             </xsl:when>
 
             <xsl:otherwise>
-                <div class="note">
+                <!--<div class="note">
                     <a>
                         <xsl:attribute name="name">
                             <xsl:value-of select="@xml:id"/>
@@ -348,7 +348,7 @@
                             <xsl:attribute name="alt">Go back</xsl:attribute>
                         </img>
                     </a>
-                </div>
+                </div>--><xsl:apply-templates/>
             </xsl:otherwise>
 
         </xsl:choose>

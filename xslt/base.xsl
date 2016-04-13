@@ -1488,6 +1488,34 @@ by bots, spammers, and other evildoers -->
                                     </xsl:for-each>
                                 </xsl:for-each>
                             </xsl:when>
+                            <xsl:when test="starts-with(@target, '#intro')">
+
+                                <xsl:variable name="noteID">
+                                    <xsl:value-of select="substring-after(@target,'#')"/>
+                                </xsl:variable>
+                                
+                                <span class="showNote">
+                                    <a href="#" onclick="return false;" class="personNote"><xsl:apply-templates/></a>
+                                </span>
+                                <span>
+                                    <xsl:attribute name="class">appEntry</xsl:attribute>
+                                    <a href="#" class="closenote">X</a>
+                                    
+                                    <xsl:for-each select="//tei:div[@type='notes']//tei:note">
+                                        <xsl:if test=".//attribute::xml:id=$noteID">
+                                            <div class="rdgNote">
+                                                
+                                                <span class="personNote">
+                                                    <xsl:apply-templates select="."/>
+                                                </span>
+                                            </div>
+                                        </xsl:if>
+                                    </xsl:for-each>
+                                    
+                                </span>
+
+
+                            </xsl:when>
                             <xsl:otherwise>
                                 <a>
                                     <xsl:attribute name="href">
