@@ -941,9 +941,7 @@
                                 <xsl:value-of select="child::tei:figDesc"/>
                             </xsl:attribute>
                         </img>
-                    </a>
-                </span>
-                <span class="fig_caption">
+                    </a><span class="fig_caption">
                     <xsl:choose>
                         <xsl:when test="descendant::tei:floatingText">
                             <xsl:for-each select="child::tei:head">
@@ -979,6 +977,8 @@
                     </xsl:choose>
 
                 </span>
+                </span>
+                
 
 
             </xsl:when>
