@@ -912,9 +912,7 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:attribute>
-                        <img>
-                        <xsl:attribute name="width"><xsl:if test="$fileName!='essay.grayprice'">600px</xsl:if></xsl:attribute>
-                        
+                        <img width="600px">
                             <xsl:attribute name="src">
                                 <xsl:choose>
                                     <xsl:when test="$editionName = 'sevenplanets'"
