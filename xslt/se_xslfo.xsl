@@ -735,4 +735,15 @@
     </xsl:template>
 <xsl:template match="//tei:del[@type='strikethrough']"><fo:inline text-decoration="line-through"><xsl:apply-templates/></fo:inline></xsl:template>
     <xsl:template match="//tei:add[@rend='caret']"><fo:inline vertical-align="-4pt" line-height="0" font-size="6pt">^</fo:inline><xsl:apply-templates/><fo:inline vertical-align="-4pt" line-height="0" font-size="6pt">^</fo:inline></xsl:template>
+    <xsl:template match="//tei:figure">
+<xsl:choose><xsl:when test="$idno='essay.grayprice'">
+        
+            <fo:block margin-top="7pt" margin-bottom="7pt" margin-left="10pt" text-indent="0"
+                font-size="8pt" text-align="center" font-family="AGaramondPro-Bold">
+                [please ee Figure <xsl:value-of select="@n"/> at the end of the article]
+            </fo:block>
+        </xsl:when></xsl:choose>
+        
+    </xsl:template>
+
 </xsl:stylesheet>
