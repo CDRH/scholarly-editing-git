@@ -212,9 +212,9 @@
                                             </xsl:choose>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                    "<xsl:value-of
+                                            “<xsl:value-of
                                             select="//tei:titleStmt/descendant::tei:title[@type='main']"
-                                             />"</xsl:otherwise>
+                                            />”</xsl:otherwise>
                                     </xsl:choose>
                                 </fo:block>
                             </fo:list-item-label>
