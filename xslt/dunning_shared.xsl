@@ -44,7 +44,7 @@
         <xsl:choose>
             <xsl:when test="@rend='hyphen'">
                 <span class="tei_attr_hyphen tei_pc">
-                    <xsl:apply-templates/><xsl:text>a-</xsl:text>
+                    <xsl:apply-templates/><xsl:text>-</xsl:text>
                 </span>
             </xsl:when>
             <xsl:otherwise>
@@ -54,7 +54,7 @@
         
     </xsl:template>
   
-  <xsl:template match="hi | num | am | add | expan | am | ex" priority="1">
+  <xsl:template match="num | am | add | expan | am | ex" priority="1">
     <span>
       <xsl:attribute name="class">
         <xsl:text> tei_</xsl:text><xsl:value-of select="name()"/>
@@ -68,6 +68,29 @@
       </xsl:attribute>
       <xsl:apply-templates/>
     </span>
+  </xsl:template>
+  
+  <xsl:template match="hi" priority="1">
+    <xsl:choose>
+      <xsl:when test="@rend='sup'">
+        <sup><xsl:apply-templates/></sup>
+      </xsl:when>
+      <xsl:otherwise>
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text> tei_</xsl:text><xsl:value-of select="name()"/>
+            <xsl:for-each select="tokenize(@rend, ' ')">
+              <xsl:call-template name="rendrules"/>
+            </xsl:for-each>
+            <xsl:if test="@hand">
+              <xsl:text> tei_attr_hand tei_hand_attr_</xsl:text>
+              <xsl:value-of select="translate(@hand,'#','')"/>
+            </xsl:if>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
  
@@ -232,6 +255,7 @@
       <xsl:attribute name="class">
         <xsl:text>display</xsl:text><xsl:text> intro_image</xsl:text></xsl:attribute>
     </img>
+     
       
       <p><xsl:apply-templates select="head"/></p>
     
@@ -248,6 +272,9 @@
   </xsl:template>-->
 
   <xsl:template match="pb">
+    
+      
+    
     <br/>
     <span class="tei_pb_label"><xsl:value-of select="@n"/></span>
     <!--<span class="pageimage" style="background-color:blue;width:100px;height:100px;">zzz</span>-->
@@ -304,6 +331,7 @@
 
       <!--<span class="hr">&#160;</span>-->
         <!--<span class="tei_pb_label"><xsl:value-of select="@n"/></span>-->
+    <div class="pagebreak">
       <span>
         <xsl:attribute name="class">
           <xsl:text>pageimage thumbnail</xsl:text>
@@ -339,9 +367,26 @@
               <xsl:text>display</xsl:text>&#160; </xsl:attribute>
           </img>
         </a>
+        <br/>
+        <span class="folio_reference"><xsl:value-of select="@n"/></span>
+        
+      </span>
+      
+      
+      <span class="view_fullsize">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="$fig_location"/>
+            <xsl:text>fullsize/</xsl:text>
+            <xsl:value-of select="$figure_id"/>
+            <xsl:text>.jpg</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="target">_blank</xsl:attribute>
+          View Fullsize
+        </a>
       </span>
     
-    
+    </div>
     
     
     

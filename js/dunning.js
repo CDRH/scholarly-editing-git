@@ -85,6 +85,57 @@ $(".handwritten_text").clicktoggle(
 );
 }); 
 
+$(function () {
+$("#highlight_quotes_note").hide();
+$("#highlight_quotes_link").clicktoggle(
+    function () {
+        event.preventDefault();
+        $("#highlight_quotes_note").show();
+        $("#line_breaks_note").hide();
+        $("#handwritten_text_note").hide();
+    },
+    function () {
+        event.preventDefault();
+        $("#highlight_quotes_note").hide();
+    }
+    );
+});
+
+$(function () {
+$("#line_breaks_note").hide();
+$("#line_breaks_link").clicktoggle(
+    function () {
+        event.preventDefault();
+        $("#line_breaks_note").show();
+        $("#highlight_quotes_note").hide();
+        $("#handwritten_text_note").hide();
+    },
+    function () {
+        event.preventDefault();
+        $("#line_breaks_note").hide();
+    }
+    );
+});
+
+$(function () {
+$("#handwritten_text_note").hide();
+$("#handwritten_text_link").clicktoggle(
+    function () {
+        event.preventDefault();
+        $("#handwritten_text_note").show();
+        $("#line_breaks_note").hide();
+        $("#highlight_quotes_note").hide();
+    },
+    function () {
+        event.preventDefault();
+        $("#handwritten_text_note").hide();
+        
+    }
+    );
+});
+
+
+
 /*$(function () {
     $(".translation_links").clicktoggle(
         function () {

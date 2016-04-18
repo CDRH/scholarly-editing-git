@@ -249,18 +249,19 @@
           <a>
             <xsl:attribute name="href">#</xsl:attribute>
             <xsl:attribute name="class"><xsl:text>highlight_quotes button</xsl:text></xsl:attribute>
-            <span>Highlight Quotes</span></a>
+            <span>Highlight Quotes</span></a> <span id="highlight_quotes_link">(<a href="#">?</a>)</span> <div id="highlight_quotes_note">Highlight Quotes: Show quotations of De quinque septenis in De oratione dominica. <br/>(Note: Quotes may appear farther below, scroll down to view)</div>
           <a>
             <xsl:attribute name="href">#</xsl:attribute>
             <xsl:attribute name="class"><xsl:text>line_breaks button</xsl:text></xsl:attribute>
-            <span>Disable Line Breaks</span></a>
+            <span>Disable Line Breaks</span></a> <span id="line_breaks_link">(<a href="#">?</a>)</span> <div id="line_breaks_note">Line Breaks: Toggle display of line breaks used in the manuscript.</div>
           
           <xsl:if test="$idno = 'dequinqueseptenis'">
             <a>
               <xsl:attribute name="href">#</xsl:attribute>
               <xsl:attribute name="class"><xsl:text>handwritten_text button</xsl:text></xsl:attribute>
-              <span>Display Handwritten Text</span>
+              <span>Display Annotations</span>
             </a>
+            <span id="handwritten_text_link">(<a href="#">?</a>)</span> <div id="handwritten_text_note">Display Annotations: Show later additions to the manuscript. <br/>(Note: Annotations may appear farther below, scroll down to view)</div>
           </xsl:if>
           <!--<a>
               <xsl:attribute name="href">#</xsl:attribute>

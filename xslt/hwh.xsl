@@ -16,6 +16,7 @@
                 <ul>
                 <xsl:for-each select="$files">
                     <xsl:sort select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when"/>
+                    <xsl:sort select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when-iso"/>
                     <!--[<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when"/>]-->
                    
                     <xsl:variable name="filename" select="tokenize(base-uri(.), '/')[last()]"/>

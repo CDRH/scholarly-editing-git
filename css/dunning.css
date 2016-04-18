@@ -2,6 +2,9 @@
 Dunning 
 ======================================= */
 
+/* Changing font color for Dunning because the red conflicts */
+a {color:#6e978f;}
+
 /* Masthead */
 .compressedMasthead {
 	
@@ -136,12 +139,20 @@ reset fonts and spacing for dunning edition
 /* =======================================
 page images
 ======================================= */
-.dunning .pageimage {
+
+
+.dunning .pagebreak {
 	border: 1px solid #aaa;
 	margin: 0 0 10px 10px;
 	float: right;
 	clear: both;
+	padding:3px;
 }
+
+.view_fullsize {
+	font-size: .8em
+}
+
 
 /* =======================================
 TEI Attributes and Elements
@@ -246,6 +257,7 @@ Other TEI Styling
 	display: inline-block;
 	width: 50px;
 	margin-left: -50px;
+	color:black;
 }
 
 
@@ -293,7 +305,7 @@ Diplomatic vs regularized
 }
 
 .dunning .regularized .tei_attr_hyphen {
-	display: none;
+	/*display: none;*/
 }
 
 .dunning .regularized .quote {
@@ -554,6 +566,41 @@ display:block;
 } 
 
 
+#highlight_quotes_link, #line_breaks_link, #handwritten_text_link {
+	font-weight:800;
+	font-size:1.3em;
+	padding: .2em .2em .2em .2em;
+	margin: 0 .4em 0 0;
+}
+
+#highlight_quotes_note, #line_breaks_note, #handwritten_text_note {
+
+	position:absolute;
+	background-color:#fff;
+	border:solid 2px #aaa;
+	padding: .5em;
+}
+
+#highlight_quotes_link a, #line_breaks_link a, #handwritten_text_link a {
+
+	padding: .3em;
+	font-size: 1.2em;
+}
+
+#line_breaks_note {
+	margin-left: 90px;
+
+}
+
+#handwritten_text_note {
+	margin-left:300px
+}
+
+
+.tei_pb_label {
+	font-weight:800 ;
+	
+}
 
 
 
