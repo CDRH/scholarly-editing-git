@@ -740,7 +740,7 @@
         
             <fo:block margin-top="7pt" margin-bottom="7pt" margin-left="10pt" text-indent="0"
                 font-size="8pt" text-align="center" font-family="AGaramondPro-Bold">
-                [please see Figure <xsl:value-of select="@n"/> at the end of the article]
+                [see Figure <xsl:value-of select="@n"/> at the end of the article]
             </fo:block>
         </xsl:when></xsl:choose>
         
