@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
-<!--I wasn't sure how to deal with the figures and the table. 
-    I assume they haven't been created yet? I treated the table as an image, but you may want to change this--> 
-<!--There are a number of cases in which text should be in superscript e.g. the los in "Advertencias para los 
-    confessores de los Naturales " I wasn't sure how to deal with this-->
-<!--The accent marks appear okay in the XML, but I'm not sure if they will display alright. Let me know
-    if I need to replace them.-->
-<!--I was unsure about how to deal with sections and what appeared to be subsections; these may need to be changed-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
     <teiHeader>
         <fileDesc>
@@ -348,11 +341,10 @@
                         than evaluating the harm done (or good enacted) by catalogue entries, my
                         purpose here is to understand the interpretive work that these structures
                         perform in shaping our engagement with the colonial book.</p>
-                    <p>Table 1, which shows entries for the <hi rend="italic">Advertencias</hi>
+                    <p>Figure 2, which shows entries for the <hi rend="italic">Advertencias</hi>
                         taken from online catalogues for institutions in the United States, Mexico,
                         Chile, and Spain, illustrates the structures of information that shape
-                        access to both printed volumes and digital facsimiles. The entries in Table
-                        1 have been selected from a larger data set at random for brevity, and the
+                        access to both printed volumes and digital facsimiles. The entries in Figure 2 have been selected from a larger data set at random for brevity, and the
                         table collapses multiple attributes into a single category&#8212;an attempt
                         to manage the extensive incompatibilities across catalogues for this
                         document. A brief survey of this table makes clear that, while the presence
@@ -533,7 +525,7 @@
                         categories through which we orient ourselves to even the most
                         straightforward entities are difficult to pin down. Even with the help of
                         controlled vocabularies, and despite the fact that most entries are drawn
-                        directly from the title page of the book (shown in Figure 2), not a single
+                        directly from the title page of the book (shown in Figure 3), not a single
                         element was replicated perfectly across all catalogues.<ptr target="#note13"
                             xml:id="nr13" n="13"/> The introduction of human error multiplies these
                         variations, which serves as an opportunity to reflect on the important,
@@ -602,7 +594,7 @@
                         libraries, and international archives, they play strikingly different roles
                         in the public imagination. This social dimension of the historical book is
                         often recorded through the catalogue element of “provenance” or “notes” or
-                        even “author”&#8212;if it is recorded at all. As the Table 1 shows,
+                        even “author”&#8212;if it is recorded at all. As the Figure 2 shows,
                         catalogues only occasionally provide ownership dates, and are never explicit
                         about gaps in the known provenance of the book. Furthermore, though
                         catalogues will sometimes alert the user to the presence of ownership marks
@@ -957,17 +949,7 @@
                     book&#8212;still freely available on the Primeros Libros website&#8212;in favor
                     of object and context. At the same time, the project offered an alternative to
                     traditional models for communicating book history.</p>
-                <p>For the Archaeology of a Book project, as it came to be called, we chose to use
-                    the Scalar platform, a “free, open source authoring and publishing platform
-                    that’s designed to make it easy for authors to write long-form, born-digital
-                    scholarship online.” We were attracted to Scalar because its mission, as
-                    articulated by Tara McPherson, aligned with our own: “to formulate new ways of
-                    working with digitized archival materials within the humanities and to continue
-                    to model emerging genres of digital scholarly publishing.” Scalar was ideal
-                    because it allowed us to experiment with new structures for scholarly publishing
-                    without first developing extensive programming skills or finding funding for a
-                    development team—a priority when modeling a platform that we hoped would be
-                    widely applicable to students and faculty across institutions.</p>
+                
                 <p>For the <hi rend="italic">Archaeology of a Book</hi> project, as it came to be
                     called, we chose to use the Scalar platform, a “free, open source authoring and
                     publishing platform that’s designed to make it easy for authors to write
