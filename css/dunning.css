@@ -602,8 +602,27 @@ display:block;
 	
 }
 
+.thumbnail {
+    display: inline-block; padding-top:.5em;}
 
+.pagebreak {max-width:100px; text-align:center; }
 
+.pageimage .thumbnail {}
+
+.folio_reference {font-size:.8em; line-height: 1.2em; padding-bottom: .5em; display: inline-block}
+
+/*div.appEntry {
+	padding: 10px;
+	text-align: left;
+	font-size: 14px;
+	margin: 10px 0;	
+}*/
+span.appRdg,
+span.rdgNote {background:transparent;}
+
+.closenote {float:right; position:relative;}
+
+.appEntry {overflow:visible;}
 
 
 

@@ -56,6 +56,7 @@ $(function () {
             $("br").addClass("br_regularized");
             $("br").removeClass("br_diplomatic");
             $(this).addClass("selected");
+            $(".tei_lb, .tei_pb_label").hide();
         },
         function () {
             event.preventDefault();
@@ -63,6 +64,7 @@ $(function () {
             $("br").addClass("br_diplomatic");
             $("br").removeClass("br_regularized");
             $(this).removeClass("selected");
+            $(".tei_lb, .tei_pb_label").show();
         }
     );
 });

@@ -32,6 +32,21 @@
   New Additions -kmd
   =========================================-->
 
+
+  <xsl:template match="tei:note[@type='editorial']" priority="3">
+    <span class="showNote">
+      <a href="#" onclick="return false;"><xsl:text> [</xsl:text><xsl:value-of select="substring-after(@xml:id,'n')"/><xsl:text>]</xsl:text></a>
+    </span>
+    <span class="appEntry" style="display: block;">
+      <a href="#" class="closenote">X</a>
+      <span class="rdgNote">
+        <br/> <xsl:apply-templates/><!-- todo: ask andy if he has any ideas -->
+      </span></span>
+  </xsl:template>
+  
+  <xsl:template match="tei:note[@type='editorial']/p" priority="1">
+    <xsl:apply-templates/><br/><br/>
+  </xsl:template>
   
 
 <xsl:template name="rendrules">
@@ -368,9 +383,15 @@
           </img>
         </a>
         <br/>
-        <span class="folio_reference"><xsl:value-of select="@n"/></span>
-        
-      </span>
+        <span class="folio_reference">
+          <xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/settlement"/>
+          <xsl:text>, </xsl:text>
+          <xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/repository"/>
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno"/>
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="@n"/></span>
+      </span><br/>
       
       
       <span class="view_fullsize">
