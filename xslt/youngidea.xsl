@@ -486,9 +486,9 @@
                     <xsl:for-each select="document('../2016/editions/youngidea/shipography.youngidea.xml')//tei:org">
                         <xsl:if test=".//attribute::xml:id=$shipNameID">
                             <div class="rdgNote">
-                                <h4>
+                                <!--<h4>
                                     <xsl:apply-templates select="child::tei:orgName"/>
-                                </h4>
+                                </h4>-->
                                 <span class="personNote">
                                     <xsl:apply-templates select="child::tei:desc"/>
                                 </span>
