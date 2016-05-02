@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/Users/misbell/Dropbox/IsbellExtractsfromTYIScholarlyEditing2016/Revised%20Files%20November%202015/out/2015Schemawithvaluerestritions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/2015Schemawithvaluerestritions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mi="http://www.newhaven.edu/ns/nonTEI">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">1867 Preface to The Young Idea</title>
+                <title level="m" type="main">1867 Preface to <hi rend="italic">The Young Idea</hi></title>
                 <author>A.D. McArthur</author>
                 <editor>Mary Isbell</editor>
                 <respStmt>
@@ -65,7 +65,7 @@
                     <resp>editor</resp>
                     <name xml:id="awj">Andrew Jewell</name>
                 </respStmt>
-                <idno type="vol"><!-- The Journal's volume number --></idno>
+                <idno type="vol">37</idno>
                 <idno type="ISSN">2167-1257</idno>
             </seriesStmt>
             <sourceDesc>
@@ -204,11 +204,11 @@
                 <note xml:id="intro1">The title for the newspaper is taken from James Thomson's <hi
                             rend="italic">Seasons</hi>, a collection of poems that was incredibly
                         popular with Victorian readers. The particular line is from "Spring":
-                        Delightful task! to rear the tender thought, To teach the young idea how to
-                        shoot (Spring l. 1149-1150). McArthur explains the metaphor in the first
+                        "Delightful task! to rear the tender thought, /To teach the young idea how to
+                        shoot" (ll. 1149-50). McArthur explains the metaphor in the first
                     issue of the paper as follows:<q rend="block"><hi rend="italics">
                         <p>Everything must have a beginning; whether it be one to astonish by its
-                            graudeur, and perfectness; or to promote mere commonplace expressions of
+                            grandeur, and perfectness; or to promote mere commonplace expressions of
                             pleasure; or what is still more frequently the case, to receive a casual
                             glance, and to be cast from our minds as unworthy a second thought: yet,
                             how often do we see, that the latter class of endeavours, will, in the
@@ -233,9 +233,9 @@
                             tribute to the pages of the “Young Idea.”</p></hi></q>
                 </note>
                 <note xml:id="intro2">McArthur was promoted to assistant paymaster and secretary clerk.
-                        <bibl>Muster Book of Her Majesty's Ship Chesapeake Commencing 1st April 1859
-                        Ending 30th June 1859, held by the National Archives at Kew (ADM
-                        38/2886)</bibl></note>
+                        <bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st April 1859
+                        Ending 30th June 1859," held by the National Archives at Kew (ADM
+                        38/2886).</bibl></note>
             </div>
         </body>
     </text>

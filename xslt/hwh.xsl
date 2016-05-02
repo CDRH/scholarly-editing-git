@@ -107,7 +107,7 @@
     
     <!-- volume citation (required for each essay, review, and edition) -->
     <xsl:template name="volCitation">
-        <h5>2012, Volume 33</h5>
+        <h5>2016, Volume 37</h5>
     </xsl:template>
     
     <!-- Special <head> @types -->
