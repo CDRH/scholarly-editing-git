@@ -160,7 +160,16 @@
         <span class="whitmanheydepagebreak">
             <span class="whitmanheydethumbnailbox">
             <span class="whitmanheydethumbnail">
-                <a href="mullinswhitmanheyde/figures/viewsize/{@facs}">
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:text>mullinswhitmanheyde/figures/viewsize/</xsl:text>
+                        <xsl:value-of select="@facs"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="title">
+                        <xsl:text>Image courtesy of </xsl:text>
+                        <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:orgName"/>
+                    </xsl:attribute>
+                
                     <img src="mullinswhitmanheyde/figures/thumbs/{@facs}"/>
                 </a>
                 
@@ -305,8 +314,12 @@ simple approach -->
         <span class="appEntry" style="display: block;">
             <a href="#" class="closenote">X</a>
             <span class="rdgNote">
-           <br/> <xsl:value-of select="."/><!-- todo: ask andy if he has any ideas -->
+           <br/> <!--<xsl:value-of select="."/>--><xsl:apply-templates/><!-- todo: ask andy if he has any ideas -->
         </span></span>
+    </xsl:template>
+    
+    <xsl:template match="tei:note[@type='editorial']/p" priority="1">
+        <xsl:apply-templates/><br></br>/<br/>
     </xsl:template>
     
     <xsl:template match="//tei:choice" priority="2">

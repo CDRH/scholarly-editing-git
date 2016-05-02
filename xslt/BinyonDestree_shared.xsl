@@ -54,10 +54,11 @@
     <xsl:template match="//tei:figure" priority="2">
         <xsl:variable name="figure_id"><xsl:value-of select="substring-before(tei:graphic/@url, '.tif')"/></xsl:variable>
         <div class="tei_figure">
+            <div class="thumbnail">
         <a>
             <xsl:attribute name="class">tei_graphic</xsl:attribute>
             <xsl:attribute name="href">
-                <xsl:text>BinyonDestree/figures/</xsl:text>
+                <xsl:text>BinyonDestree/figures/large/</xsl:text>
                 
                 <xsl:value-of select="$figure_id"/>
                 <xsl:text>.jpg</xsl:text>
@@ -76,7 +77,7 @@
             
             <img>
                 <xsl:attribute name="src">
-                    <xsl:text>BinyonDestree/figures/</xsl:text>
+                    <xsl:text>BinyonDestree/figures/inline/</xsl:text>
                     
                     <xsl:value-of select="$figure_id"/>
                     <xsl:text>.jpg</xsl:text>
@@ -85,8 +86,20 @@
                     <xsl:text>display</xsl:text>&#160; </xsl:attribute>
             </img>
         </a>
+            </div>
         
         <p><xsl:value-of select="tei:figDesc"/></p>
+            <p><a>
+                <xsl:attribute name="class">tei_graphic</xsl:attribute>
+                <xsl:attribute name="href">
+                    <xsl:text>BinyonDestree/figures/fullsize/</xsl:text>
+                    
+                    <xsl:value-of select="$figure_id"/>
+                    <xsl:text>.jpg</xsl:text>
+                </xsl:attribute>
+                View Fullsize
+            </a>
+            </p>
         </div>
         
     </xsl:template>
