@@ -690,7 +690,7 @@
                             >Valentiniana MS</a>
                     </li>
                     <li id="editionNav2">
-                        <a href="http://juxtacommons.org/shares/HLIzdI"
+                        <a href="http://juxtacommons.org/shares/ehF60q"
                             >Manuscript comparison in Juxta</a>
                     </li>
                     
@@ -711,7 +711,7 @@
                         <a href="{$siteroot}2015/editions/stufaiuolo_XML.zip">Edition XML</a>
                     </li>
                     <li id="editionNav4">
-                        <a href="http://juxtacommons.org/shares/HLIzdI"
+                        <a href="http://juxtacommons.org/shares/ehF60q"
                             >Manuscript comparison in Juxta</a>
                     </li>
                 </ul>
@@ -730,7 +730,7 @@
                         <a href="{$siteroot}2015/editions/stufaiuolo_XML.zip">Edition XML</a>
                     </li>
                     <li id="editionNav4">
-                        <a href="http://juxtacommons.org/shares/HLIzdI"
+                        <a href="http://juxtacommons.org/shares/ehF60q"
                             >Manuscript comparison in Juxta</a>
                     </li>
                 </ul>
