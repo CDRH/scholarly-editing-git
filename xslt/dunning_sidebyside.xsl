@@ -134,7 +134,7 @@
           </div>
           
           
-          <h1 class="editionTitle">Hugh of St Victor's De quinque septenis (On the Five Sevens) and its Versification in Samuel Presbiter's De oratione dominica (On the Lord's Prayer)</h1><span class="author">edited by Andrew Dunning (University of Toronto)</span></div>
+          <h1 class="editionTitle">Hugh of St Victor's De quinque septenis (On the Five Sevens) and its Versification in Samuel Presbiter's De oratione dominica (On the Lord's Prayer)</h1><span class="author">edited by Andrew Dunning</span></div>
         
         
         

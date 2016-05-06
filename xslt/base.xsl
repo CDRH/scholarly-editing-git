@@ -335,8 +335,7 @@
                                         septenis</em> (<em>On the Five Sevens</em>) and its
                                     Versification in Samuel Presbiter's <em>De oratione
                                         dominica</em> (<em>On the Lord's Prayer</em>)</h1>
-                                <span class="editor">Edited by Andrew Dunning (University of
-                                    Toronto)</span>
+                                <span class="editor">Edited by Andrew Dunning</span>
                             </xsl:otherwise>
                         </xsl:choose>
 
