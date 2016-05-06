@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="out/2015Schemawithvaluerestritions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/Users/misbell/Dropbox/IsbellExtractsfromTYIScholarlyEditing2016/Revised%20Files%20November%202015/out/2015Schemawithvaluerestritions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mi="http://www.newhaven.edu/ns/nonTEI">
     <teiHeader>
         <fileDesc>
@@ -130,7 +130,7 @@
                     other appellations were offered, but all agreed that they were common, and this
                     must be something uncommon - <quote source="officer">“What do you say to the
                         “Young Idea”</quote>? at last proposed one, <quote source="officer">“Yes!
-                        Yes! that will do”</quote>, they shouted, ><quote source="officer">“we’ll
+                        Yes! that will do”</quote>, they shouted, <quote source="officer">“we’ll
                             teach it to shoot.”</quote> and thus it was that <ref target="#intro1" xml:id="nr1" n="1">the
                         Chesapeake Journal was christened with the title of the “Young
                     Idea.”</ref></p>
@@ -176,8 +176,7 @@
                     it did to those for whom its pages were first penned.</p>
 
                 <p>I cannot conclude without expressing my hearty thanks to those who have aided me
-                    in the reproducing this work; more especially to my kind friend, Admiral
-                        <persName ref="personography.xml#Edgell">Edgell</persName>, CB, to whom I am
+                    in the reproducing this work; more especially to my kind friend, <persName ref="personography.xml#Edgell">Admiral Edgell</persName>, CB, to whom I am
                     greatly indebted not merely for much interest and trouble taken in endeavouring
                     to obtain subscribers, but also for the aid he gave me with his own pen as a
                     Contributor to the Journal. There is also one other to whom I must especially
@@ -185,7 +184,7 @@
                     without which my efforts must have been vain; to his pen may be traced much that
                     is best worth reading in these pages,- and it is with great pleasure that I
                     offer this tribute of my esteem and regard, to my dear friend the Rev<hi
-                        rend="superscript">d</hi><persName ref="personography.xml#J_W_L_Bampfield"
+                        rend="superscript">d</hi> <persName ref="personography.xml#J_W_L_Bampfield"
                         >John W.L. Bampfield.</persName>
                 </p>
 
