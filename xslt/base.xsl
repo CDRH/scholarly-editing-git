@@ -46,12 +46,11 @@
                 <link href="{$siteroot}css/style.css" rel="stylesheet" type="text/css"/>
                 <xsl:choose>
                     <xsl:when
-                        test="
-                            $idno = 'dequinqueseptenis.trans' or
-                            $idno = 'dequinqueseptenis' or
-                            $idno = 'intro.dequinqueseptenis-deorationedominica' or
-                            $idno = 'deorationedominica' or
-                            $idno = 'deorationedominica.trans'">
+                        test="$idno = 'dequinqueseptenis.trans' or
+                        $idno = 'dequinqueseptenis' or
+                        $idno = 'intro.dequinqueseptenis-deorationedominica' or
+                        $idno = 'deorationedominica' or
+                        $idno = 'deorationedominica.trans'">
                         <link href="{$siteroot}css/dunning.css" rel="stylesheet" type="text/css"/>
                         <script src="{$siteroot}js/dunning.js"> &#160; </script>
                     </xsl:when>
@@ -244,14 +243,18 @@
                     
                     
                     <div class="footer">
-                        <span class="creativecommons"><a rel="license"
+                        <xsl:choose><xsl:when test="$idno = 'dequinqueseptenis.trans' or
+                            $idno = 'dequinqueseptenis' or
+                            $idno = 'intro.dequinqueseptenis-deorationedominica' or
+                            $idno = 'deorationedominica' or
+                            $idno = 'deorationedominica.trans'"><span class="creativecommons"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span></xsl:when><xsl:otherwise><span class="creativecommons"><a rel="license"
                                 href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                                 <img alt="Creative Commons License" style="border-width:0"
                                     src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/>
                             </a><br/>This work is licensed under a <a rel="license"
                                 href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative
                                 Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
-                                License</a>.</span>
+                                License</a>.</span></xsl:otherwise></xsl:choose>
 
                         <span class="adelogo">
                             <a href="http://www.documentaryediting.org">
