@@ -249,13 +249,13 @@
     <!-- makes the <corr> show up in a <choice> (rather than the regularized forms) -->
     <xsl:template match="//tei:choice">
         <xsl:choose>
-            <xsl:when test="child::tei:reg">
-                <xsl:for-each select="child::tei:reg">
+            <xsl:when test="child::tei:orig">
+                <xsl:for-each select="child::tei:orig">
                     <xsl:apply-templates select="."/>
                 </xsl:for-each>
             </xsl:when>
-            <xsl:when test="child::tei:expan">
-                <xsl:for-each select="child::tei:expan">
+            <xsl:when test="child::tei:abbr">
+                <xsl:for-each select="child::tei:abbr">
                     <xsl:apply-templates select="."/>
                 </xsl:for-each>
             </xsl:when>
