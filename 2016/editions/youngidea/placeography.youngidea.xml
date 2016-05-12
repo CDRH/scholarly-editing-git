@@ -69,7 +69,7 @@
             </place>
             <!--Taking Tyrone out of the mix for this edition, 
                but at some point I would like to include links within 
-               biographical notes so readers can find where the sailors 
+               biographical notes or a separate map so readers can find where the sailors 
                and other figures mentioned were born<place>
                <placeName xml:id="Tyrone">Tyrone</placeName>
                <location>
@@ -162,10 +162,10 @@
                   <note>Getty ID:7001500</note>
                </location>
             </place>
-            <place>
+            <!--Without an id in Getty, I can't include this place in this edition<place>
                <placeName xml:id="Futty_Ghur">Futty Ghur</placeName>
                <note>Not in Getty; a military station on the Ganges</note>
-            </place>
+            </place>-->
             <place>
                <placeName xml:id="Chhapra">Chhapra</placeName>
                <location>
@@ -220,10 +220,8 @@
             <place>
                <placeName xml:id="Ochterlony_Monument">Ochterlony Monument</placeName>
                <location>
-                  <geo>000000 0000000</geo>
-                  <note>The monument is not in the Getty thesaurus of place names, but it is an
-                     important landmark that has been renamed Shahid Minar, which means "The Tower
-                     of the Martyrs"</note>
+                  <geo>22.56286 88.34923</geo>
+                  <note>Getty ID:7030776</note>
                </location>
             </place>
             <place>
