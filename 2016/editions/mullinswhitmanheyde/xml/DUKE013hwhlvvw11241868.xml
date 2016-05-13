@@ -44,7 +44,7 @@
                         <addrLine>http://cdrh.unl.edu</addrLine>
                     </address>
                 </distributor>
-                <date><!-- Year --></date>
+                <date>2016</date>
                 <availability>
                     <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
                         freely distributed by the Association for Documentary Editing and the Center
@@ -66,7 +66,7 @@
                     <resp>editor</resp>
                     <name xml:id="awj">Andrew Jewell</name>
                 </respStmt>
-                <idno type="vol"><!-- The Journal's volume number --></idno>
+                <idno type="vol">37</idno>
                 <idno type="ISSN">2167-1257</idno>
             </seriesStmt>
             <sourceDesc>
@@ -96,17 +96,18 @@
             <change when="2016-04-21" who="#mm">edited and revised</change>
             <change when="2016-04-24" who="#mm">proofread and revised</change>
             <change when="2016-04-29" who="#mm">proofread and revised</change>
+            <change when="2016-05-12" who="#mm">copyedit revision</change>
         </revisionDesc>
     </teiHeader>
     <text type="letter">
         <body><pb facs="DUKE013hwhlvvw11241868.01.jpg"/>
             <opener>
                 <dateline>
-                    <date when="1868-11-24">[November 24, 1868]</date><note xml:id="n1" type="editorial"
+                    <date when="1868-11-24">&#91;November 24, 1868&#93;</date><note xml:id="n1" type="editorial"
                             resp="jse"> This date, written by Charles Heyde on his letter to Mother
                             Whitman, may be considered accurate. Heyde's missive frames Hannah's
                             letter to Mother Whitman. His comments about Hannah &#8212; "she is a
-                            child, about herself like an infant <choice><sic>allmost</sic>,<corr>almost</corr></choice> that was out in the cold" &#8212; are
+                            child, about herself like an infant <choice><sic>allmost</sic><corr>almost</corr></choice>, that was out in the cold" &#8212; are
                             contradicted by Hannah's lucid statements that she is concerned about the
                             use of her hand and her ability to continue to do everyday tasks like
                             sewing.</note>
@@ -118,10 +119,10 @@
                     <sic>prespiration</sic>
                     <corr>perspiration</corr>
                 </choice> but dear Mother I am so anxious about my hand I fear I shall lose my
-                    thumb<note xml:id="n2" type="editorial" resp="jse">In November 1868, Hannah
+                    thumb<note xml:id="n2" type="editorial" resp="jse">In November 1868 Hannah
                     suffered from a painful infection on her left thumb which Mother Whitman
-                    describes in a letter to Walt Whitman (dated Nov. 11-14, 1868, <hi rend="italic"
-                        >Walt Whitman Archive</hi>) as erysiplas &#8212; erysipelas, a bacterial
+                    describes in a letter to Walt Whitman &#40;dated November 11-14, 1868, <hi rend="italic"
+                        >Walt Whitman Archive</hi>&#41; as "erysiplas" &#8212; erysipelas, a bacterial
                     infection similar to cellulitis.</note> I <choice>
                     <sic>cant</sic>
                     <corr>can't</corr>
@@ -130,13 +131,13 @@
                     <sic>Dr</sic>
                     <corr>Dr.</corr>
                 </choice> Thayer<note xml:id="n3" type="editorial" resp="jse">Dr. Samuel White
-                    Thayer, Jr. (1817-1882), graduated from Vermont Medical College in 1838 and
+                    Thayer Jr. &#40;1817-1882&#41; graduated from Vermont Medical College in 1838 and
                     moved to Burlington in 1852. Although his practice was general medicine, his
                     specialty was surgery, and he performed numerous amputations. Professor of
-                    Anatomy and Physiology at the University of Vermont from 1854 to 1871, during
-                    the Civil War he served as Surgeon General of Vermont. See H. Royce Bass, <hi
-                        rend="italic">The History of Braintree, Vermont</hi> (Tuttle: Rutland,
-                    Vermont, 1883), 58.</note> if it would be six months before it got better he
+                    anatomy and physiology at the University of Vermont from 1854 to 1871,
+                    he served as surgeon general of Vermont during the Civil War. See H. Royce Bass, <hi
+                        rend="italic">The History of Braintree, Vermont</hi> &#40;Rutland,
+                    VT: Tuttle, 1883&#41;, 58.</note> if it would be six months before it got better he
                 could not tell I asked if it would be three months before he said yes. I asked if I
                 would lose the use of my hand he said no, but I would never <hi rend="underline"
                     >have a</hi> perfect hand such severe cases always left its effects, I am very
@@ -153,18 +154,18 @@
                     <sic>cant</sic>
                     <corr>can't</corr>
                 </choice> tell how I have longed for letters from home, Mattie<note xml:id="n4"
-                    type="editorial" resp="jse">Martha Emma Mitchell Whitman (1836-1873), married
+                    type="editorial" resp="jse">Martha Emma Mitchell Whitman &#40;1836-1873&#41; married
                     Thomas Jefferson Whitman on February 23, 1859. Affectionately known as Mattie,
                     not much is known about her background prior to her marriage. Jeff and Mattie
                     moved in with Mother Whitman shortly after their marriage. In 1867 Jeff accepted
-                    a position as Chief Engineer and Superintendent of Water Works in St. Louis,
-                    Missouri. Hannah refers to Mattie getting better, but she began to suffer from
+                    a position as chief engineer and superintendent of waterworks in St. Louis,
+                    Missouri. Hannah refers to Mattie getting better, but Mattie began to suffer from
                     chronic illnesses beginning in early 1863. At the time of this letter Mattie was
                     visiting New York, seeking counsel from doctors about her health. See <hi
                         rend="italic">Mattie: The Letters of Martha Mitchell Whitman</hi>, ed.
-                    Randall H. Waldron (New York: New York UP, 1977), 2, and Walt Whitman's letter
-                    to Jeff Whitman, October 25, 1868 <hi rend="italic">Walt Whitman
-                    Archive</hi>).</note> has not written yet, I was glad it done me good to hear
+                    Randall H. Waldron &#40;New York: New York University Press, 1977&#41;, 2, and Walt Whitman's letter
+                    to Jeff Whitman, October 25, 1868 &#40;<hi rend="italic">Walt Whitman
+                    Archive</hi>&#41;.</note> has not written yet, I was glad it done me good to hear
                 she was better <choice>
                     <sic>Walts</sic>
                     <corr>Walt's</corr>
@@ -173,8 +174,8 @@
                     <corr>Walt's</corr>
                 </choice> books<note xml:id="n5" type="editorial" resp="jse">Hannah may be referring
                     to the 1867 edition of <hi rend="italic">Leaves of Grass</hi>, or to <hi
-                        rend="italic">Drum-Taps</hi> (1865), or to the Sequel to <hi rend="italic"
-                        >Drum-Taps</hi> (1865-1866).</note> I thought of it all night I <choice>
+                        rend="italic">Drum-Taps</hi> &#40;1865&#41;, or to <hi rend="italic">Sequel to 
+                        Drum-Taps</hi> &#40;1865-66&#41;.</note> I thought of it all night I <choice>
                     <sic>dont</sic>
                     <corr>don't</corr>
                 </choice> want to be troublesome but I wish Walt would write often &#8212; </p>
