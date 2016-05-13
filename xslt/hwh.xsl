@@ -259,7 +259,9 @@
     </xsl:template>
     
     <xsl:template match="//tei:note" priority="2">
-        <div class="note">
+<xsl:choose>
+    <xsl:when test="@type='authorial'"><xsl:apply-templates/></xsl:when>
+<xsl:otherwise><div class="note">
             <a>
                 <xsl:attribute name="name">
                     <xsl:value-of select="@xml:id" />
@@ -275,7 +277,9 @@
                         back</xsl:attribute>
                 </img>
             </a>
-        </div>
+        </div></xsl:otherwise>
+</xsl:choose>
+        
     </xsl:template>
     
     <!-- Special linebreaks for poetic lines -->
