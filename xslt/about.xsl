@@ -117,6 +117,11 @@
             <span class="indexeditor">edited by <xsl:apply-templates select="./child::tei:editor[1]" /> and
                 <xsl:apply-templates select="./child::tei:editor[last()]" /></span>
         </xsl:if>
+        <xsl:if test="$editorCount = 3">
+            <span class="indexauthor">edited by <xsl:apply-templates select="./child::tei:editor[1]" />,
+                <xsl:for-each select="./child::tei:editor[position()=2]"><xsl:apply-templates select="." />,&#160;</xsl:for-each>
+                <xsl:for-each select="./child::tei:editor[position()=3]">and <xsl:apply-templates select="." /></xsl:for-each></span>
+        </xsl:if>
         <!--<xsl:if test="$editorCount >= 3">
             <span class="indexeditor">edited by <xsl:value-of select="./child::tei:editor[1]" />,
                     <xsl:for-each select="./child::tei:editor[position()>1]">
