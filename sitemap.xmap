@@ -304,12 +304,20 @@
 
 <!-- Dunning's translations, 2016 issue-->
 
-
+        <map:pipeline type="noncaching">
+            <map:match pattern="2016/editions/intro.dunning.html">
+                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/intro.dunning.xml" />
+                <map:transform type="xslt" src="./xslt/dunning.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                </map:transform>
+                <map:serialize type="html" />
+            </map:match>
+        </map:pipeline>
 
 
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/**.dunning.html">
-                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/{1}.dunning.xml" />
+                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/{1}.xml" />
                 <map:transform type="xslt" src="./xslt/dunning.xsl">
                     <map:parameter name="use-request-parameters" value="true" />
                 </map:transform>
