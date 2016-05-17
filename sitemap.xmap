@@ -304,6 +304,9 @@
 
 <!-- Dunning's translations, 2016 issue-->
 
+
+
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/**.dunning.html">
                 <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/{1}.xml" />

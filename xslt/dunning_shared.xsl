@@ -1074,7 +1074,7 @@
     <!-- Notes and pointers -->
    
     <xsl:template match="//tei:div[@type='notes']">
-        <xsl:if test="normalize-space(/TEI/teiHeader[1]/fileDesc/publicationStmt/idno[@type='file']) = 'intro.dequinqueseptenis-deorationedominica'">
+        <xsl:if test="normalize-space(/TEI/teiHeader[1]/fileDesc/publicationStmt/idno[@type='file']) = 'intro.dunning'">
         <div class="notesList">
             <h2>Notes</h2>
             <xsl:apply-templates />
@@ -1083,7 +1083,7 @@
     </xsl:template>
     
     <xsl:template match="//tei:ptr">
-        <xsl:if test="normalize-space(/TEI/teiHeader[1]/fileDesc/publicationStmt/idno[@type='file']) = 'intro.dequinqueseptenis-deorationedominica'">
+        <xsl:if test="normalize-space(/TEI/teiHeader[1]/fileDesc/publicationStmt/idno[@type='file']) = 'intro.dunning'">
         <a>
             <xsl:attribute name="href">
                 <xsl:value-of select="attribute::target" />
@@ -1101,7 +1101,7 @@
     
     <xsl:template match="//tei:note">
         <xsl:choose>
-            <xsl:when test="normalize-space(/TEI/teiHeader[1]/fileDesc/publicationStmt/idno[@type='file']) = 'intro.dequinqueseptenis-deorationedominica'">
+            <xsl:when test="normalize-space(/TEI/teiHeader[1]/fileDesc/publicationStmt/idno[@type='file']) = 'intro.dunning'">
                 <div class="note">
                     <a>
                         <xsl:attribute name="name">

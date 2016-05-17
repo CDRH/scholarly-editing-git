@@ -57,7 +57,7 @@
     <ul>
       <li id="editionNavPre">Go to:</li>
       <li id="editionNav1">
-        <a href="intro.dequinqueseptenis-deorationedominica.dunning.html">Introduction</a>
+        <a href="intro.dunning.html">Introduction</a>
       </li>
       <li id="editionNav2">
         <a href="de-oratione-dominica.dunning.html?type=regularized">De oratione dominica (On the Lord’s Prayer)</a>
@@ -179,7 +179,7 @@
   <xsl:template name="frontmatter">
     <div class="frontmatter">
       <xsl:choose>
-        <xsl:when test="$idno = 'intro.dequinqueseptenis-deorationedominica'">
+        <xsl:when test="$idno = 'intro.dunning'">
           <h1>Introduction</h1>
           <span class="byline">Andrew Dunning</span>
         </xsl:when>

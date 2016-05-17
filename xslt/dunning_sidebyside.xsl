@@ -164,7 +164,7 @@
           </a>
           
           <a>
-            <xsl:attribute name="href">intro.dequinqueseptenis-deorationedominica.dunning.html</xsl:attribute>
+            <xsl:attribute name="href">intro.dunning.html</xsl:attribute>
             <xsl:attribute name="class"><xsl:text>comparison_choice</xsl:text></xsl:attribute>
             <span>Back to edition</span>
           </a>
