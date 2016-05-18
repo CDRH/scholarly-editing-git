@@ -392,7 +392,9 @@ simple approach -->
             <img src="mullinswhitmanheyde/figures/intro/{tei:graphic/@url}"/>
            
             <span class="whitmanhydefigurehead"><xsl:value-of select="tei:head"/></span>
-            <span class="whitmanhydefigurep"><xsl:apply-templates select="tei:p"/></span>
+            <span class="whitmanhydefigurep"><xsl:choose>
+                <xsl:when test="child::*"><xsl:apply-templates select="tei:p"></xsl:apply-templates></xsl:when><xsl:otherwise><xsl:value-of select="tei:p"/></xsl:otherwise>
+            </xsl:choose></span>
         </span>
        
         
