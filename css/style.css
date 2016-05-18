@@ -1,6 +1,7 @@
 /* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css
 	http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/css/style.css
-	http://spacely.unl.edu/cocoon/scholarly-editing/css/style.css */
+	http://spacely.unl.edu/cocoon/scholarly-editing/css/style.css
+	http://scholarlyediting.org/css/style.css */
 
 /* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css */
 
@@ -2842,6 +2843,10 @@ div.edition div.youngidea table tbody tr td {
 
 div.youngidea h2 {
 	display: block; text-align: center; margin-right: 0px; margin-bottom: 0px; font-size: 1.5em;
+}
+
+.youngidea .personNote, .youngidea .appEntry {
+	text-indent: 0em;
 }
 
 /*.youngidea tr.cells_5 td {
