@@ -48,7 +48,7 @@
                     <xsl:when
                         test="$idno = 'dequinqueseptenis.trans' or
                         $idno = 'dequinqueseptenis' or
-                        $idno = 'intro.dequinqueseptenis-deorationedominica' or
+                        $idno = 'intro.dunning' or
                         $idno = 'deorationedominica' or
                         $idno = 'deorationedominica.trans'">
                         <link href="{$siteroot}css/dunning.css" rel="stylesheet" type="text/css"/>
@@ -123,7 +123,7 @@
                             test="
                                 $idno = 'dequinqueseptenis.trans' or
                                 $idno = 'dequinqueseptenis' or
-                                $idno = 'intro.dequinqueseptenis-deorationedominica' or
+                                $idno = 'intro.dunning' or
                                 $idno = 'deorationedominica' or
                                 $idno = 'deorationedominica.trans'">
                             <xsl:text>&#160;</xsl:text>
