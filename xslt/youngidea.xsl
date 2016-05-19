@@ -28,7 +28,7 @@
                         <a href="{$siteroot}2016/editions/extracts.youngidea.html">Edition</a>
                     </li>
                     <li id="editionNav4">
-                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml" target="_blank">Edition XML</a>
                     </li>
                 </ul>
             </xsl:when>
@@ -46,7 +46,7 @@
                     </li>
                     
                     <li id="editionNav4">
-                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml" target="_blank">Edition XML</a>
                     </li>
                 </ul>
             </xsl:when>
@@ -64,7 +64,7 @@
                     </li>
                     
                     <li id="editionNav4">
-                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml" target="_blank">Edition XML</a>
                     </li>
                 </ul>
             </xsl:when>
@@ -82,7 +82,7 @@
                     </li>
                     
                     <li id="editionNav4">
-                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml">Edition XML</a>
+                        <a href="{$siteroot}2016/editions/extracts.youngidea.xml" target="_blank">Edition XML</a>
                     </li>
                 </ul>
             </xsl:when>
