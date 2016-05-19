@@ -683,6 +683,22 @@
                 </xsl:choose>
             </xsl:when>
 
+            <xsl:when test="//tei:idno[@type = 'edition'] = 'whitmanheydeletters'">
+                <xsl:choose>
+                    <xsl:when test="//tei:idno[@type = 'file'] = 'intro.mullinswhitmanheydeletters'">
+                        <div class="p">
+                            <xsl:apply-templates/>
+                        </div>
+                    </xsl:when>
+                    
+                    <xsl:otherwise>
+                        <div class="p">
+                            <xsl:apply-templates/>
+                        </div>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+
             <xsl:otherwise>
 
                 <p>
