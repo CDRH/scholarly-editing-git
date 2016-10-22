@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Representing the Long History of Early Modern Printed
+                    Objects</title>
+                <title level="a" type="sub">The Archaeology of a Book</title>
+                <author key="Alpert-Abrams, Hannah">Hannah Alpert-Abrams</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.alpertabrams</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+ <addrLine>http://www.scholarlyediting.org</addrLine>
+</address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>http://cdrh.unl.edu</addrLine>
+ </address>
+                </distributor>
+                <date>2016</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">37</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-03-23"><name xml:id="gk" key="Kirilloff, Gabi"> Gabi Kirilloff</name>
+                markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Representing the Long History of Early Modern Printed Objects</head>
+            <head type="sub">The Archaeology of a Book</head>
+            <byline>Hannah Alpert-Abrams</byline>
+        </front>
+        <body>
+            <div type="section">
+                <p>Consider the digital facsimile. Figure 1 shows the not-uncommon display of a
+                    not-uncommon book: one of several dozen surviving copies of a confessional
+                    manual printed in Mexico City around 1600, many of which have been made
+                    available in facsimile through the Primeros Libros collection of
+                    sixteenth-century Mexican imprints.<ptr target="#note1" xml:id="nr1" n="1"/> The
+                    book is displayed in the web browser as though it were resting open in front of
+                    us, though those who work with early books know that its physical original would
+                    be gently cradled in velvet or foam if read in the archives. To navigate, the
+                    reader can flip to a specific page or move sequentially through the text, as
+                    though she were going to read it, page by page, from front matter to index. The
+                    web interface for the book&#8212;like the web interfaces for a scanned document
+                    in Google Books or HathiTrust&#8212;does not require that the reader engage with
+                    the book the way she would with a print edition. But it does encourage users to
+                    understand engagement with the book in the subjunctive, as a metaphor for a more
+                    material reading.</p>
+                <p>The book displayed in Figure 1 is a digital facsimile of the <hi rend="italic"
+                        >Advertencias para los confessores de los Naturales</hi> (<hi rend="italic"
+                        >Primera parte</hi>).<ptr target="#note2" xml:id="nr2" n="2"/> This
+                    two-volume trilingual book is highly technical and borrows heavily from other
+                    texts; despite the fact that more copies of this book survive than do those of
+                    any other printed volume from the period, it is readable today only to a select
+                    few. For that small audience, the reader-oriented interface of the Primeros
+                    Libros website may be a useful environment for textual consumption. For the rest
+                    of us, however, engagement with this printed book (or its digital facsimile)
+                    happens outside the text and the reading format accessed online. Whether our
+                    interest is production history, historical reading practices, aesthetics, or
+                    provenance, we must conduct our research along the margins of interfaces like
+                    that of the Primeros Libros website.</p>
+                <figure>
+                    <head>Figure 1: Screenshot of a book in the Primeros Libros collection, as
+                        viewed in a web browser. (ID: pl_blac_047_98)</head>
+                    <figDesc>Figure 1: Screenshot of a book in the Primeros Libros collection, as
+                        viewed in a web browser. (ID: pl_blac_047_98)</figDesc>
+                    <graphic url="images/essay.alpertabrams.01.jpg"/>
+                </figure>
+                <p>More fundamentally, even if reading is our primary goal, the reader-oriented
+                    environment of the digital surrogate tends to erase the historicity of the
+                    document’s construction and use. It has become a popular truth that old books
+                    have a history that extends beyond the text on the page: in the words of Jerome
+                    McGann, “documents are far from self-transparent. They are riven with the
+                    multiple histories of their own making.”<ptr target="#note3" xml:id="nr3" n="3"
+                    /> These histories embed themselves along the margins of the books, weave their
+                    way into the bindings, are burned into the edges of the page. Bibliographers,
+                    whose work depends on the exposition of these minute details, often find the
+                    digital surrogate insufficient to the task of bibliographical display. “Put
+                    briefly,” David McKitterick writes, “the two-dimensional screen cannot
+                    illustrate adequately a three-dimensional object.”<ptr target="#note4"
+                        xml:id="nr4" n="4"/></p>
+                <p>When taken literally, McKitterick’s argument may be true: no digital interface
+                    can replicate the feel, the weight, the smell of the printed book. But it
+                    depends on the fallacious claim that bibliographical research is best conducted
+                    in the environment of the reading room. Material engagement with rare books
+                    shapes the affective framework through which we form our imaginative view of the
+                    past; this can be represented but not replicated online. In contrast, other
+                    aspects of the material book, like the <hi rend="italic">marcas de fuego</hi>
+                    burned into the edges of books in colonial Mexican libraries, are digitally
+                    representable signifiers that point directly to a book’s history of use; if they
+                    are not present in most digital facsimiles today, that is not because they can’t
+                    be. Indeed, some aspects of a historical book, such as damaged or revised pages,
+                    are best observed through the processing power enabled by digital
+                        representation.<ptr target="#note5" xml:id="nr5" n="5"/> In thinking about
+                    the representation of historical books in digital facsimile, then, it is worth
+                    being attentive both to how our engagement with historical books is framed, and
+                    to which material qualities of the historical book are highlighted or disappear
+                    within those structures. In offering a careful analysis of these structures of
+                    information, this article seeks to clarify the role of the book historian in
+                    paving alternative paths for engaging with digital editions.</p>
+                <p>The first section of this article focuses on the frameworks that shape our
+                    engagement with historical books, considering specifically the volumes in the
+                    Primeros Libros collection of books printed in the first century of the Spanish
+                    colonization of Mexico (1539–1601). It begins by considering how modern
+                    structures for framing the historical book, from catalogue entries to web
+                    interfaces and library displays, have a deterministic effect on our relationship
+                    with the historical book. It argues specifically that these frameworks depend on
+                    two historically determined assumptions about the nature of the early colonial
+                    book: its coherence as a standalone unit and its originary status as a static
+                    object fixed in time at the moment of its production.</p>
+                <p>Against these frameworks, in the second section, this article describes the
+                    specific material qualities of early colonial Mexican books that disrupt these
+                    premises. Colophons, catchwords, title pages, woodcuts, and elisions all bring
+                    into question the concept of the historical book as an atomic unit, suggesting
+                    that books may have functioned as more materially and textually fluid objects in
+                    sixteenth-century Mexico. Material transformations from later in a book’s
+                    life&#8212;rebinding, trimming, branding, and writing marginal notes&#8212;all
+                    suggest a long history of interpretive engagement with the historical book,
+                    bridging the gap between the moment of production and the present day.
+                    Collectively, these material qualities suggest the need for a critical reframing
+                    of early modern printed books that highlights more directly the multiple,
+                    historically determined ways of knowing that they contain; they also point us
+                    toward interface design considerations that will enhance scholarly attempts to
+                    engage those layered histories.</p>
+                <p>To address this need, the final section of this article introduces the
+                    “Archaeology of a Book” project, a web resource that describes the history of
+                    the <hi rend="italic">Advertencias para los confessores de los Naturales</hi>.
+                    “Archaeology of a Book” was designed to offer an alternative mode of engaging
+                    with facsimiles in the Primeros Libros collection that would explicitly address
+                    the challenges of representing a historical book’s malleability and its dynamic
+                    history. Though it is neither a critical nor a documentary edition, the
+                    “Archaeology of a Book” project models a critical approach to the digital
+                    representation of the social history of texts that has implications for many
+                    kinds of digital publication. It shares many of the concerns that Jerome McGann
+                    described recently in <hi rend="italic">The New Republic of Letters</hi> when he
+                    called for a New Philology that extends the social history of the book into the
+                    digital domain.<ptr target="#note6" xml:id="nr6" n="6"/> The radical de-emphasis
+                    of the written word in this project, however, is a point of divergence from
+                    McGann’s approach. In its place, the “Archaeology of a Book” project centers the
+                    virtual collation and collection made possible through digital facsimile
+                    projects in order to model a dynamic exploration of the long history of the
+                    book.</p>
+            </div>
+            <div type="section">
+                <head type="main">Section 1: Frameworks for Seeing Historical Documents</head>
+                <p>A printed book in sixteenth-century Mexico was a very different object from a
+                    book&#8212;modern or historical&#8212;as we see it today, both because of
+                    historically specific European ideas about textuality, and because of the
+                    specific cultural context of New Spain. In Europe, as Jeffrey Todd Knight
+                    describes, the readers and writers of Renaissance books thought of them less as
+                    the unique atomic units we expect today than as what he calls “aggregations of
+                    text,” a status that makes itself known through both the intertextuality and the
+                    material recomposition of books during this period.<ptr target="#note7"
+                        xml:id="nr7" n="7"/> In New Spain, this difference is reinforced by the fact
+                    that early colonial books existed within a system of textual communication that
+                    included indigenous objects of knowledge transfer (including pictographic
+                    codices and other objects), scribal networks operated by both Castilian and
+                    indigenous writers, and printing operations that produced a variety of document
+                        types.<ptr target="#note8" xml:id="nr8" n="8"/> The printed book in Mexico
+                    was thus neither the first nor the primary means of textual communication: it
+                    arrived in Mexico City as a latecomer on the scene, decades after the
+                    introduction of alphabetic writing, centuries after the development of
+                    pictographic communication, and alongside a broad array of nontextual objects of
+                    communication. Furthermore, given that most printed books from this period were
+                    produced by mendicant friars as tools in the conversion of indigenous peoples,
+                    these objects had a particular rhetorical function that is not easily apparent
+                    today.</p>
+                <p>It is not surprising, then, that early colonial books would fail to fit neatly
+                    into the categories and frameworks through which we describe books today. Yet
+                    surprise often characterizes the response that bibliographers have toward these
+                    historical documents. As the nineteenth-century Mexican bibliographer Joaquín
+                    García Icazbalceta remarked, with some consternation, of the <hi rend="italic"
+                        >Advertencias</hi>, “Seis o más ejemplares de las <hi rend="italic"
+                        >Advertencias</hi> he visto, y casi todos presentan diferencias entre
+                        si.”<ptr target="#note9" xml:id="nr9" n="9"/> Francisco Guerra made a
+                    similar&#8212;if more dramatic&#8212;comment with regard to the <hi
+                        rend="italic">Opera medicinalia, in quibus quam plurima extant scitu medico
+                        necessaria</hi>, a medical text printed in Mexico City in 1570, when he
+                    wrote “es un libro que entre los bibliófilos ha sido temido como una plaga.”<ptr
+                        target="#note10" xml:id="nr10" n="10"/> These responses suggest broader
+                    anxieties over the tension between the malleability of the sixteenth-century
+                    book and the rigidity of modern bibliographical frameworks. It is because we
+                    expect historical books to conform to modern standards that their failure to do
+                    so produces such astonishment.</p>
+                <p>At the same time, by attempting to resituate the historical book in the moment of
+                    its production, we run the risk of artificially imposing originary status onto
+                    dynamic textual objects. By originary status I refer to the tendency to treat a
+                    historical book as an original text and as a point of entry into the moment of
+                    its production, rather than as a dynamic and constantly changing textual object.
+                    Even as catalogue entries impose twentieth-century categories onto
+                    sixteenth-century objects, they also tend to fix historical books in the time
+                    and place of their production. Later transformations&#8212;like the green and
+                    gold binding that Joaquín García Icazbalceta used on two exemplars of the <hi
+                        rend="italic">Advertencias</hi>&#8212;disappear.</p>
+                <p>This section asks the question, how do bibliographical frameworks impose textual
+                    coherence and originary status onto historical books? To answer it, I turn to
+                    catalogue entries and digital interfaces for the early colonial book. Digital
+                    interfaces like the website for the Primeros Libros collection recreate the
+                    structure of a library or special collection in ways that emphasize certain
+                    kinds of textual difference (rareness, originality, fragility). At the same
+                    time, they depend on catalogue entries and descriptive metadata designed
+                    primarily for today’s libraries to organize their collections of modern printed
+                    books. As this section will show, inconsistencies in the data represented by
+                    this universal structure of information are indicative of historical transitions
+                    in the ontology of the book.</p>
+                <div type="subsection">
+                    <head type="sub">Interfaces</head>
+                    <p>At a recent event on sixteenth-century printed books at Biblioteca Lafragua
+                        in Puebla, Mexico, attendees lined up to observe one of the treasures from
+                        the Lafragua’s collection: an original edition of the <hi rend="italic"
+                            >Opera medicinalia, in quibus quam plurima extant scitu medico
+                            necessaria</hi> by Francisco Bravo.<ptr target="#note11" xml:id="nr11"
+                            n="11"/> Printed in 1570 in Mexico City by Pedro Ocharte, the <hi
+                            rend="italic">Opera medicinalia</hi> was the first medical text printed
+                        in New Spain. Following a panel presentation detailing the history of the
+                        book, during the time usually reserved for questions, the audience was
+                        invited to observe firsthand one of only three surviving copies of the
+                        historical text. In a ritual that one attendee described as akin to a wake
+                        or a royal reception, scholars walked in a slow-moving line past the book,
+                        opened to a select page and held secure in its glass case. Each visitor was
+                        given a moment to observe the book, then moved on.</p>
+                    <p>The event was held immediately following the annual partner meeting of the
+                        Primeros Libros de las Américas consortium, of which the Biblioteca Lafragua
+                        is a founding member. The consortium is a group of scholars and librarians
+                        from across Spain and the Americas dedicated to producing digital facsimiles
+                        of every surviving copy of the so-called American incunables&#8212;books
+                        printed before 1601 in the Americas. Concurrent with the two-day symposium,
+                        held at the Universidad Iberoamericana in Mexico City, a new body of texts
+                        was released on the Primeros Libros website, including a digital facsimile
+                        of Lafragua’s copy of the <hi rend="italic">Opera medicinalia</hi>. Even as
+                        the audience traveled to Puebla to commune with the original volume, users
+                        anywhere in the world were able for the first time to flip virtually through
+                        the pages of the book, zoom in on difficult-to-see images, and examine this
+                        book alongside hundreds of other volumes in the Primeros Libros digital
+                        collection.</p>
+                    <p>Though it might be easy to see this moment as the ironic juxtaposition of two
+                        ways of engaging with a book, I would suggest that these two moments
+                        represent the continuation of a single way of thinking about historical
+                        documents. In the glass-encased copy of the <hi rend="italic">Opera
+                            medicinalia</hi>, we see a book that has been stripped almost completely
+                        of its value as a textual object (no reading allowed). It signifies,
+                        instead, through the aesthetic of its presentation. The glass frame reminds
+                        us that the book is valuable because it is rare (one of three surviving
+                        copies), original (the first medical text printed in the Americas), and
+                        fragile (protected by glass). Though we know that medical knowledge was
+                        recorded and communicated by other means long before the arrival of the
+                        Spaniards in Tenochtitlan, and though we know that at least some of the
+                        information in the <hi rend="italic">Opera medicinalia</hi> is the
+                        near-duplication of medical information already printed elsewhere, the
+                        combination of place, technology, and content allows this book to signify a
+                        certain kind of historical origin. The fragility of the book itself
+                        reinforces the idea that reading this book would bring us back to the
+                        beginning of Mexican intellectual history.</p>
+                    <p>To read the book, however, we’ll have to turn to the digital
+                        facsimile&#8212;another book preserved under glass. The Primeros Libros
+                        website, where the book is hosted, opens with a splash page that visualizes
+                        a nineteenth-century library: sixteenth-century Mexican books rebound and
+                        shelved according to nineteenth-century conventions. This historical shift
+                        relocates the books in the context not of the moment of their production,
+                        but rather of the moment when the bibliographical work of Joaquín García
+                        Icazbalceta and others first described the category of the Mexican
+                        incunabula and its importance in recording the origins of Mexican
+                        historiography. The website’s affective framework, in other words, is one
+                        that reinforces the originary status of the early colonial printed
+                        books.</p>
+                    <p>Upon entering the website, the user is reoriented toward a more
+                        twentieth-century way of accessing documents. Browsing is enabled according
+                        to the categories commonly used for cataloguing (by owning institution,
+                        language, year, printer, author, keyword). Upon selecting a book, the user
+                        is led to a descriptive catalogue entry; a link in the description then
+                        opens an e-book display, as shown in Figure 1. The primary effect of this
+                        structure is to mimic precisely the sequence of decisions that a library
+                        user would go through in accessing a book from the library stacks. At the
+                        same time, this modernizing apparatus functions as another layer of
+                        protection for the document itself: like the glass case, its very
+                        replicability reinforces the vulnerability of the original form.</p>
+                    <p>The display for the Primeros Libros website is not unique: it mimics other
+                        book readers like Google Books, HathiTrust, or even Kindle, all designed for
+                        indiscriminate use across production periods. There is no differentiation
+                        between the sixteenth-century textual object and one produced today. The
+                        result is a book that is viewed according to a unique textual mythology, and
+                        read from an ahistorical perspective</p>
+                </div>
+                <div type="subsection">
+                    <head type="sub">Catalogues</head>
+                    <p>Because library catalogues are utilitarian and ubiquitous, it is easy to
+                        overlook the important role they play in framing textual consumption. Most
+                        scholarly interest in library catalogues is based on practical objectives:
+                        improving interoperability, discoverability, and information retrieval.
+                        Nevertheless, some researchers have made a case for closer attention to the
+                        catalogue by questioning the epistemological implications of catalogues as
+                        classification systems. Jens-Erik Mai, for example, argues that all library
+                        classification systems are harmful because each applies a single
+                        interpretive framework to information that is diverse and often
+                        incompatible, writing “One challenge for information professionals [. . .]
+                        is to provide access tools that minimize the harm done by
+                            classifications.”<ptr target="#note12" xml:id="nr12" n="12"/> Rather
+                        than evaluating the harm done (or good enacted) by catalogue entries, my
+                        purpose here is to understand the interpretive work that these structures
+                        perform in shaping our engagement with the colonial book.</p>
+                    <p>Figure 2, which shows entries for the <hi rend="italic">Advertencias</hi>
+                        taken from online catalogues for institutions in the United States, Mexico,
+                        Chile, and Spain, illustrates the structures of information that shape
+                        access to both printed volumes and digital facsimiles. The entries in Figure 2 have been selected from a larger data set at random for brevity, and the
+                        table collapses multiple attributes into a single category&#8212;an attempt
+                        to manage the extensive incompatibilities across catalogues for this
+                        document. A brief survey of this table makes clear that, while the presence
+                        of competing international metadata standards makes compatibility across
+                        political and linguistic boundaries challenging, seemingly fundamental
+                        categories like author, title, place, and date are inconsistent even within
+                        a single country.</p>
+                    <figure type="enlargeOnClick">
+                        <head>Figure 2: Select Catalogue Entries for Original Exemplars of the <hi
+                            rend="italic">Advertencias</hi></head>
+                        <figDesc>Figure 2: Select Catalogue Entries for Original Exemplars of the Advertencias</figDesc>
+                        <graphic url="images/essay.alpertabrams.02.jpg"/>
+                    </figure>
+                    <!--<table rows="13" cols="6">
+                        <head type="main">Table 1: Select Catalogue Entries for Original Exemplars of the <hi
+                                rend="italic">Advertencias</hi></head>
+                        <!-\-1-\->
+                        <row role="label">
+                            <cell role="data">Library</cell>
+                            <cell role="data">Author/autor</cell>
+                            <cell role="data">Title/titulo</cell>
+                            <cell role="data">Publisher / editorial / published / pie impren /
+                                publicación</cell>
+                            <cell role="data">Lugar de publicación / place of publication</cell>
+                            <cell role="data">date / año</cell>
+                        </row>
+                        <!-\-2-\->
+                        <row role="data">
+                            <cell role="data">Arizona State University Libraries</cell>
+                            <cell role="data">Juan Bautista, fray, 1555-ca. 1613</cell>
+                            <cell role="data">Advertencias. Para los confessores de los naturales
+                                [electronic resource]/ Compvestas por el padre fray Ioan Baptista,
+                                de la Orden del seraphico padre sanct Francisco, lector de
+                                theologia, y guardian del Conuento de Sactiago Tlatilulco: dela
+                                Prouincia del sancto euangelio. Primera- [segunda] parte. Con
+                                priuilegio.</cell>
+                            <cell role="data">[publisher] En Mexico: Enel conuento de Sanctiago
+                                Tlatilulco, Por M. Ocharte / año 1600.</cell>
+                            <cell role="data">[hierarchical place] Mexico -\- Mexico City</cell>
+                            <cell role="data">none</cell>
+                        </row>
+                        <!-\-3-\->
+                        <row role="data">
+                            <cell role="data">UC Berkeley Library (Bancroft)</cell>
+                            <cell role="data">Juan Bautista de la Concepción, Saint, 1561-1613 ¶
+                                Ocharte, Melchior, 1571-1616? Book producer ¶ Ocharte Figueros,
+                                Ludouicus. Book producer</cell>
+                            <cell role="data">Advertencias. Para los confessores de los naturales.
+                                Compvestas por el padre fray Ioan Baptista, de la Orden del
+                                seraphico padre sanct Francisco, lector de theologia, y guardian del
+                                Conuento de Sanctiago Tlatilulco: dela Prouincia del sancto
+                                euangelio. Primera- [segunda] parte. Con priuilegio.</cell>
+                            <cell role="data">[published] En Mexico, Enel Conuento de Sanctiago
+                                Tlatilulco, Por M. Ocharte. Año 1600.</cell>
+                            <cell role="data">Mexico City Mexico</cell>
+                            <cell role="data">none</cell>
+                        </row>
+                        <!-\-4-\->
+                        <row role="data">
+                            <cell role="data">Bibliotecas del Tencológico de Monterrey
+                                [cervantina]</cell>
+                            <cell role="data">Juan Bautista, 1660-1700</cell>
+                            <cell role="data">Advertencias para los Confessores de los Naturales /
+                                Compvestas por el padre fray Ioan Baptista, de la Orden del
+                                seraphico padre sanct Francisco, lector de theologia, y guardian del
+                                Conuento de Sanctiago Tlatilulco: dela Prouincia del sancto
+                                euangelio. Primera­ [segunda] parte. Con priuilegio</cell>
+                            <cell role="data">[pie impren] En Mexico : En el Conuento de Sanctiago
+                                Tlatilulco, Por M. Ocharte, 1600.</cell>
+                            <cell role="data">none</cell>
+                            <cell role="data">none</cell>
+                        </row>
+                        <!-\-5-\->
+                        <row role="data">
+                            <cell role="data">Biblioteca nacional de antropología e Historia</cell>
+                            <cell role="data">Juan Bautista, fray, 1555-ca. 1613.</cell>
+                            <cell role="data">Confessionario en lengva mexicana y castellana : con
+                                muchas advertencias muy neceffarias para los c</cell>
+                            <cell role="data">Melchior Ochiarte</cell>
+                            <cell role="data">Sanctiago Taltilulco [México]</cell>
+                            <cell role="data">none</cell>
+                        </row>
+                        <!-\-6-\->
+                        <row role="data">
+                            <cell role="data">Biblioteca nacional de antropología e Historia</cell>
+                            <cell role="data">Juan Bautista, fray, 1555-ca. 1613.</cell>
+                            <cell role="data">Advertencias para los confessores de los naturales /
+                                compuestas por el Padre Fray Juan Bautista de la Orden del Seráfico
+                                Padre San Francisco…</cell>
+                            <cell role="data">[area de Publicación] México: En el convento de
+                                Sanctiago Tlatilulco, por M. Ocharte, 1600</cell>
+                        </row>
+                        <!-\-7-\->
+                        <row role="data">
+                            <cell role="data">Biblioteca Nacional de España</cell>
+                            <cell role="data">Juan Bautista (O.F.M.) (1555-ca. 1613) ¶ Ocharte,
+                                Melchor, imp. ; ¶ ocharte figueroa I</cell>
+                            <cell role="data">Aduertencias para los confessores de los Naturales
+                                [Texto impreso]/ compuestas por el padre Fray Ioan Baptista, de la
+                                Orden del seraphico Padre Sanct Francisco…; primera [-segunda]
+                                parte</cell>
+                            <cell role="data">[publicación] En Mexico : en el conuento de Sanctiago
+                                Tlatilulco, por M. Ocharte, 1600(excudebat Ludouicis Ocharte
+                                Figueroa ...), 1601</cell>
+                        </row>
+                        <!-\-8-\->
+                        <row role="data">
+                            <cell role="data">Centro de Estudios de Historia de México</cell>
+                            <cell role="data">BAUTISTA, Fray Juan</cell>
+                            <cell role="data">Advertencias para los Confessores de los
+                                naturales.</cell>
+                            <cell role="data">[pie de imprenta] MEXICO: M. Ocharte, 1600</cell>
+                            <cell role="data">none</cell>
+                        </row>
+                        <!-\-9-\->
+                        <row role="data">
+                            <cell role="data">Kroch Library, Cornell</cell>
+                            <cell role="data">Juan Bautista, fray, 1555-aproximately 1613</cell>
+                            <cell role="data">Advertencias para los confessores de los naturales
+                                compuestas por el padre fray Joan Baptista.</cell>
+                            <cell role="data">[published] Convento de Sanctiago Tlatilulco, Mexico :
+                                M. Ocharte, 1600.</cell>
+                            <cell role="data">none</cell>
+                        </row>
+                        <!-\-10-\->
+                        <row role="data">
+                            <cell role="data">Rubenstein Library, Duke</cell>
+                            <cell role="data">compuestas por el padre fray Joan Baptista. ¶ Juan
+                                Bautista, fray, 1555­approximately 1613.</cell>
+                            <cell role="data">Advertencias para los confessores de los naturales
+                                compuestas por el padre fray Joan Baptista.</cell>
+                            <cell role="data">Mexico, en el conuento de Sanctiago Tlatilulco, por M.
+                                Ocharte, 1600.</cell>
+                            <cell role="data">none</cell>
+                        </row>
+                        <!-\-11-\->
+                        <row role="data">
+                            <cell role="data">Gordon College: Jenks Library</cell>
+                            <cell role="data">Juan Bautista, 1555­ (Author).</cell>
+                            <cell role="data">Advertencias. Para los confessores de los naturales.
+                                Compvestas por el padre fray Ioan Baptista, de la Orden del
+                                seraphico padre Sanct Francisco, lector de theologia, y guardian del
+                                conuento de Sanctiago Tlatilulco: dela Prouincia del Sancto
+                                Euangelio ... Con priuilegio.</cell>
+                            <cell role="data">[publisher] En Mexico, En el Conuento de Sanctiago
+                                Tlatilulco, Por M. Ocharte, ano 1600­[01]</cell>
+                            <cell role="data">none</cell>
+                            <cell role="data">[date] año 1600 [i.e. 1601] </cell>
+                        </row>
+                        <!-\-12-\->
+                        <row role="data">
+                            <cell role="data">Dumbarton Oaks</cell>
+                            <cell role="data">Juan Bautista, fray, 1555-approximately 1613. ¶
+                                Ocharte, Melchior, 1571-1616?, printer. ¶ Ocharte Figueros, Luís,
+                                printer. ¶ Montt, Luis, 1848-1909, former owner.</cell>
+                            <cell role="data">Advertencias para los confessores de los naturales /
+                                compvestas por el padre Ioan Baptista, de la Orden del seraphico
+                                padre sanct Francisco, lector de theologia, y guardian del Conuento
+                                de Sanctiago Tlatilulco: dela Prouincia del sancto euangelio.</cell>
+                            <cell role="data">[published]: En Mexico : Enel Conuento de Sanctiago
+                                Tlatilulco, por M. Ocharte, año 1600 [i.e. 1601] </cell>
+                            <cell role="data">none</cell>
+                        </row>
+                        <!-\-13-\->
+                        <row role="data">
+                            <cell role="data">UNAM</cell>
+                            <cell role="data">Juan Bautista, fray, 1555-ca. 1613</cell>
+                            <cell role="data">Advertencias para los confessores de los naturales /
+                                compvestas por el padre fray Ioan Baptista, de la Orden del
+                                Seraphico Padre Sanct Francisco…</cell>
+                            <cell role="data">En el Convento de Santiago Tlatilulco, por M.
+                                Ocharte,</cell>
+                            <cell role="data">En México</cell>
+                            <cell role="data">[año] 1600</cell>
+                        </row>
+                    </table>-->
+                    <p>What this reveals, as metadata specialists have long known, is that the
+                        categories through which we orient ourselves to even the most
+                        straightforward entities are difficult to pin down. Even with the help of
+                        controlled vocabularies, and despite the fact that most entries are drawn
+                        directly from the title page of the book (shown in Figure 3), not a single
+                        element was replicated perfectly across all catalogues.<ptr target="#note13"
+                            xml:id="nr13" n="13"/> The introduction of human error multiplies these
+                        variations, which serves as an opportunity to reflect on the important,
+                        difficult, and undervalued labor of cataloguers. But the errors in this
+                        catalogue are not random; they point to underlying uncertainties about the
+                        nature of the historical book.</p>
+                    <figure>
+                        <head>Figure 3: Three known title pages for the <hi rend="italic"
+                                >Advertencias</hi>. The images on the left and right are from
+                            exemplars held by the Benson Latin American Collection. The image in the
+                            center is from an exemplar held by the Biblioteca Palafoxiana. All
+                            images from the Primeros Libros collection. (IDs: pl_blac_047_7;
+                            pl_plfx_011_3; pl_blac_048_7) </head>
+                        <figDesc>Figure 3: Three known title pages for the Advertencias. The images
+                            on the left and right are from exemplars held by the Benson Latin
+                            American Collection. The image in the center is from an exemplar held by
+                            the Biblioteca Palafoxiana. All images from the Primeros Libros
+                            collection. (IDs: pl_blac_047_7; pl_plfx_011_3; pl_blac_048_7)</figDesc>
+                        <graphic url="images/essay.alpertabrams.03.jpg"/>
+                    </figure>
+                    <p>This is apparent, for example, in the spelling variations of the many
+                        “titles” for the <hi rend="italic">Advertencias</hi>. In some cases,
+                        historical orthography (<hi rend="italic">compvesta, Ioan</hi>) has been
+                        replaced with a modern equivalent (<hi rend="italic">compuesta, Juan</hi>);
+                        in other cases, modern orthography (<hi rend="italic">Advertencias</hi>) has
+                        been replaced with a historical variant not present in the book (<hi
+                            rend="italic">Aduertencias</hi>). Capitalization and punctuation reveal
+                        similar inconsistencies: while the decorative capitalization of the title
+                        page is never kept intact in the catalogue entry, several Mexican libraries
+                        have introduced capitalizations that conform to the Anglophone standard
+                        (capitalizing <hi rend="italic">Confessores</hi>), while many North American
+                        libraries maintain the standard Mexican form (capitalizing only the first
+                        word in the title). Despite their simplicity, these orthographic differences
+                        mark an underlying uncertainty about the standards to which the text should
+                        conform. According to whose parameters do we demarcate the author, title,
+                        and place of publication for a historical document? What kind of
+                        interpretive work happens when we produce catalogue entries for historical
+                        documents? The implication here is that catalogue entries don’t merely
+                        describe the documents they represent; they also contain ways of
+                        understanding the document that go beyond the metadata structure.</p>
+                    <p>A still more fundamental incompatibility between historical books and modern
+                        cataloguing practices is obscured by these inconsistencies. The familiar
+                        categories of catalogue entries&#8212;author, title, place,
+                        publisher&#8212;combine to describe a single, unique textual entity: a book.
+                        As Knight observes, however, “books have not always existed in discrete,
+                        self-enclosed units. In the early handpress era, the printed work was
+                        relatively malleable and experimental&#8212;a thing to actively shape,
+                        expand, and resituate as one desired.”<ptr target="#note14" xml:id="nr14"
+                            n="14"/> The malleability of the historical book is embedded in the
+                        documents as they come down to us, and shows itself in the insufficiencies
+                        of catalogue entries. For example, though almost all catalogues name the
+                        author of the <hi rend="italic">Advertencias</hi> as “Juan Bautista, fray,
+                        1555–approximately 1613,” as suggested by the Library of Congress Name
+                        Authority File, several include a separate or third “author” entry to
+                        account for the other individuals involved in the production of the book,
+                        including Melch[i]or Ocharte, the printer credited on the title page, and L.
+                        Figueroa Ocharte, the printer credited in the colophon.<ptr target="#note15"
+                            xml:id="nr15" n="15"/> In other cases, entries include additional titles
+                        to represent the binding of multiple books in one skin.<ptr target="#note16"
+                            xml:id="nr16" n="16"/> As in the case of the orthographic variation, in
+                        these examples catalogue categories reveal the malleability of the
+                        historical book relative to the terms we use to describe it.</p>
+                    <p>This malleability is even more pronounced when we consider the interpretive
+                        changes that books tend to undergo over the long history of their use. As
+                        books move between religious libraries, private collections, public
+                        libraries, and international archives, they play strikingly different roles
+                        in the public imagination. This social dimension of the historical book is
+                        often recorded through the catalogue element of “provenance” or “notes” or
+                        even “author”&#8212;if it is recorded at all. As the Figure 2 shows,
+                        catalogues only occasionally provide ownership dates, and are never explicit
+                        about gaps in the known provenance of the book. Furthermore, though
+                        catalogues will sometimes alert the user to the presence of ownership marks
+                        on the body of the book, they only occasionally describe more significant
+                        transformations, such as rebinding, trimming, or editing the document. In
+                        omitting this information, like the glass case for the <hi rend="italic"
+                            >Opera medicinalia</hi>, they impose a static condition on the book that
+                        I have been referring to as “originary.” As the subsequent sections will
+                        show, however, alternate frameworks for understanding the historical textual
+                        object can allow us to recenter the dynamism of the book over time.</p>
+                </div>
+            </div>
+            <div type="section">
+                <head type="main">Section 2: Reframing the Early Colonial Book</head>
+                <p>In the prior section, I suggested that interfaces and catalogue entries reinforce
+                    structures of information that tend to erase the historical significance of
+                    early colonial books by replicating modern book forms. In this section, I
+                    propose an alternative model for analyzing the parameters of the historical book
+                    based on two axes: malleability and historicity. In this context, the term
+                    malleability is contrasted with the coherence of a modern printed book as an
+                    atomic unit. It refers to the ways that the boundaries of colonial books blur
+                    and shift throughout their production, and is determined by the processes that
+                    bring a book into being during the (sometimes long) period of its development as
+                    a textual object, from composition to printing and binding. This can include the
+                    borrowing of earlier texts; acts of coauthorship, transcription, and
+                    translation; the production of front matter and errata; and the censorship
+                    processes. Historicity, in this context, is contrasted with the ahistorical or
+                    originary status embedded in modern frameworks for historical books. It refers
+                    to the long, dynamic social history that colonial books underwent as they moved
+                    across libraries, cities, and nations according to political, social, and market
+                    forces. It is traced through marks of provenance, and it is understood in terms
+                    of the discursive field that a document occupies and the affective sphere
+                    through which it is read. Turning to the <hi rend="italic">Advertencias</hi> and
+                    the <hi rend="italic">Opera medicinalia</hi> as case studies, I consider how
+                    these two axes allow for a more dynamic understanding of historical books than
+                    the modern frameworks through which they are commonly accessed and read.</p>
+                <div type="subsection">
+                    <head type="sub">Malleability</head>
+                    <p>The malleability of an early colonial book relative to the rigid frameworks
+                        in which it is commonly placed can be understood by digging down into the
+                        categories of authorship, printer, and title—three categories that
+                        collectively shape the boundaries of the modern book. In the case of the <hi
+                            rend="italic">Advertencias</hi> and the <hi rend="italic">Opera
+                            medicinalia</hi>, this excavation will indicate how the names associated
+                        with these entries diverge, converge, bifurcate, and meld, suggesting a
+                        fluid form of textuality that crosses the boundaries of binding, paper, and
+                            text.<ptr target="#note17" xml:id="nr17" n="17"/></p>
+                    <p>The Franciscan friar known as Juan Bautista, director of the Colegio de la
+                        Santa Cruz de Tlatelolco, Mexico, was certainly the composer of the <hi
+                            rend="italic">Advertencias</hi>. His status as “author” in the catalogue
+                        entries for the book applies to him what we might call a modern author
+                        function: it allows us to understand the book as his intellectual property,
+                        and to attribute its composition primarily to his genius. Yet as we saw in
+                        the prior section, this author function collapses in the colonial context.
+                        The orthographic uncertainty of the author’s name (Juan Bautista? Ioan
+                        Baptista?) reveals an underlying doubt about the identity of this man and
+                        his position as a historical subject. The presence of multiple names under
+                        the category of author&#8212;including that of the printer and former
+                        owners&#8212;suggests that in the case of a historical book, the author
+                        function may be shared by multiple individuals.</p>
+                    <p>Further examination of the composition of the <hi rend="italic"
+                            >Advertencias</hi> supports this argument. As was common in the early
+                        modern period, large sections of the <hi rend="italic">Advertencias</hi> are
+                        copied from other books or manuscripts. In one famous example, Bautista
+                        lifts a long passage directly from the appendix to the fifth book of
+                        Bernardino de Sahagún’s <hi rend="italic">Historia general</hi>, which had
+                        been circulating in manuscript form in New Spain during the period that the
+                            <hi rend="italic">Advertencias</hi> was composed. Other citations, as
+                        Verónica Murillo Gallegos has shown, refer to documents that do not seem to
+                        correspond to any surviving manuscripts: they now serve as the only evidence
+                        we have of these historical texts.<ptr target="#note18" xml:id="nr18" n="18"
+                        /> Indeed, Murillo argues that the significance of the <hi rend="italic"
+                            >Advertencias</hi> today rests in the way it brings together for the
+                        first time the circulating manuscripts of the new generation of Mexican
+                        creoles. As a composition, then, it functions more as a window into textual
+                        circulation among a group of associated thinkers than as a unique and
+                        isolated textual object, a status which is not reflected on the title page
+                        or in the catalogue entries for the book.</p>
+                    <p>Authorship in the <hi rend="italic">Advertencias</hi> is further expanded by
+                        the fact that the Franciscan friars commonly worked with indigenous scribes,
+                        informants, or translators to produce their texts, especially when writing
+                        in indigenous languages. In his 1606 <hi rend="italic">Sermonario</hi>,
+                        Bautista directly credits eight students from Tlatelolco who served as
+                            assistants.<ptr target="#note19" xml:id="nr19" n="19"/> In place of a
+                        modern author, then, in this colonial context we may find what Kathryn
+                        Burns, referring to Peruvian notaries, describes as a “blended, composite
+                        agency” underlying the text.<ptr target="#note20" xml:id="nr20" n="20"/>
+                        While we don’t know the precise role that indigenous writers had in
+                        composing the <hi rend="italic">Advertencias</hi>, to lose sight of this
+                        composite authorship is effectively to erase the intellectual contribution
+                        of indigenous participants, and to flatten the heterogeneous intellectual
+                        atmosphere of the Colegio de la Santa Cruz where the book was produced. The
+                        stakes of rethinking colonial composition are higher than they may appear:
+                        authorship in this context is directly associated with the historiography of
+                        indigenous intellectual labor.</p>
+                    <p>Social and political changes during the long period of textual composition
+                        can also shape the dynamic category of authorship in a colonial text, as is
+                        the case for the <hi rend="italic">Opera medicinalia</hi>. As described by
+                        José Gaspar Rodolfo Cortés Riveroll, a scholar and translator of the <hi
+                            rend="italic">Opera medicinalia</hi>, the text is divided into four
+                        books with an epistle in the middle. The first two books, dedicated to the
+                        viceroy of New Spain, were likely written while the author was in Spain. The
+                        subsequent two books, dedicated to the president of the Real Audiencia de
+                        México, were likely written in Mexico. Even this division, however, is
+                        overly simple: Cortés Riveroll observes that in the twelfth chapter of the
+                        second book, for example, the language changes enough to suggest either a
+                        significant passage of time or a new writer.<ptr target="#note21"
+                            xml:id="nr21" n="21"/> These additions, Cortés Riveroll argues, were
+                        added later “para darles contexto local.”<ptr target="#note22" xml:id="nr22"
+                            n="22"/> A long and multinational composition process, combined with the
+                        possible introduction of a second author, is significant enough to produce
+                        textual disunity or a kind of discursive malleability. At the same time, it
+                        is a reminder that the composition of a historical book can extend across
+                        the length of the composer’s lifetime&#8212;and beyond the process of print
+                        production and binding.</p>
+                    <p>Textual production in the early colonial period, like production today, is
+                        often thought of as separate from but complementary to the process of
+                        composition. The printing press is supposed to provide fixity, in the words
+                        of Elizabeth Eisenstein, to an otherwise malleable textual object. Yet as we
+                        consider the categories of printer and printing, it becomes clear that in
+                        these cases production introduces new occasions for textual and material
+                        malleability, once again broadening the boundaries of the textual object. As
+                        the previous section illustrated, textual production is described in
+                        catalogue entries through the figure of the printer, who can appear variably
+                        under the entry for author or publisher/editorial, or in the note. This
+                        variability reveals uncertainty regarding the role of the printer in shaping
+                        the textual object, as well as a more fundamental uncertainty about the
+                        printer himself.</p>
+                    <p>Though the title pages shown in Figure 3 inform us that Melchor Ocharte
+                        printed both volumes of the <hi rend="italic">Advertencias</hi> in 1600, the
+                        colophon on the final page of the <hi rend="italic">Segunda parte</hi>
+                        credits his half brother Luis Ocharte Figueroa with printing the book; this
+                        colophon is dated 1601. (Juan Pascoe has convincingly argued for a third
+                        possibility, that the book was printed by the uncredited Cornelio Adrián
+                            César).<ptr target="#note23" xml:id="nr23" n="23"/> This is indicative
+                        of the long and unstable printing process, which may have been drawn out
+                        over more than one year and involved more than one printer, as veiled
+                        comments in Bautista’s dedication suggest. It also draws attention to the
+                        complex scene of production in early colonial Mexico, where religious
+                        leaders like Bautista, creole printers like Ocharte, and European immigrants
+                        like Adrián César vied for control over communication technologies. As in
+                        the case of the author, the printer attribution on the title page obscures a
+                        multifaceted process that involved numerous individuals and stages of
+                        production.</p>
+                    <p>The confusion of the printer attribution in the catalogue entries also
+                        reveals some uncertainty regarding the role of the printer in shaping the
+                        final book. It was during the printing process that aesthetic coherence
+                        across books was established through shared typefaces, layouts,
+                        orthographies, and, more notably, shared images. The woodcut used in the
+                        title page of the <hi rend="italic">Opera medicinalia</hi>, for example, was
+                        also used in the <hi rend="italic">Diálogos</hi> of Cervantes de Salazar
+                        (printed in Mexico, 1554) as well as in an edition of the <hi rend="italic"
+                            >Vulgata</hi> printed in Lyon by Balthazar Arnoullet in 1545.<ptr
+                            target="#note24" xml:id="nr24" n="24"/> Despite the anxiety that this
+                        reuse of images has caused bibliographers of the <hi rend="italic">Opera
+                            medicinalia</hi>, of course, it is a well-documented characteristic of
+                        printing in the early modern period. It suggests that in this context, the
+                        boundaries of printed books may expand to include other documents with
+                        shared images, as well as those with shared texts.</p>
+                    <p>Just as some aspects of the production process replicate material across
+                        books, other parts of the process introduce significant distinctions between
+                        multiple exemplars of what modern readers would think of as the same book.
+                        Excisions, revisions, and other postproduction modifications (such as the
+                        removal of three leaves from the <hi rend="italic">Advertencias</hi>, for
+                        example) are unevenly replicated across exemplars and are of dubious origin:
+                        was it the author who produced the excision? The printer? The Inquisition?
+                        The reader? In the case of the <hi rend="italic">Advertencias</hi>, a more
+                        obvious inconsistency is found in the presence and order of front matter
+                        associated with the book. It was this inconsistency that caused García
+                        Icazbalceta to comment despairingly on the differences between the
+                        exemplars. Some exemplars are missing elements, including licenses, while
+                        others include an additional set of indulgences dated 1603. Some exemplars,
+                        furthermore, seem to have indulgences of different lengths. The extensive
+                        documentation that makes up the front matter is uniquely characteristic of
+                        the context of New Spain in the late sixteenth century, where both imported
+                        and locally printed books went through a complex regulation process. The
+                        haphazard survival of the front matter is thus a symbol&#8212;if not a
+                        direct representation&#8212;of the gap between rules and practice in the
+                        circulation of texts in New Spain.</p>
+                    <p>At the same time, the front matter marks the fluid boundaries between the
+                        exemplars that make up the <hi rend="italic">Advertencias</hi>. According to
+                        the title pages, the <hi rend="italic">Advertencias</hi> is a single book
+                        made up of two separately bound volumes (<hi rend="italic">Primera
+                            parte</hi> and <hi rend="italic">Segunda parte</hi>). Yet binding
+                        practices suggest otherwise: in a number of cases, the <hi rend="italic"
+                            >Primera parte</hi> was bound with Bautista’s earlier <hi rend="italic"
+                            >Confessionario</hi>, a process of compilation that replicates the
+                        composition process described earlier, and suggests some flexibility even
+                        toward the bound volume as a unit of measure for textual objects. Comparison
+                        of the front matter among these exemplars shows that some of the licenses
+                        are duplicated between the two books. Binding and compilation thus further
+                        multiply the variant shapes that a book as a textual unit might hold, even
+                        as they give form to the otherwise fluid structures of intertextual
+                        reproduction.</p>
+                </div>
+                <div type="subsection">
+                    <head type="sub">Historicity</head>
+                    <p>By examining the composition and production of early colonial Mexican books,
+                        we can better understand their malleability as textual objects. These books
+                        do not ossify, however, at the moment that they are bound into a coherent
+                        unit. Instead, the historical book has a long and dynamic history as it
+                        moves from the site of its production, through multiple libraries, regions,
+                        and historical moments, to arrive at the present day.<ptr target="#note25"
+                            xml:id="nr25" n="25"/> This movement, often referred to in terms of
+                        provenance&#8212;a book’s history of ownership&#8212;can leave a material
+                        mark on exemplars, playing an interpretive role in shaping the book as a
+                        signifying object. Like Bonnie Mak, whose study of digitization projects
+                        emphasizes the long interpretive history of the medieval manuscript, I find
+                        the metaphor of the palimpsest, with its complex history of records and
+                        erasures, useful in representing the multiple layers of meaning embedded in
+                        a single exemplar.<ptr target="#note26" xml:id="nr26" n="26"/> Unlike the
+                        static palimpsest, in this section I propose that historical books can be
+                        better understood as dynamic material objects that carry with them the
+                        multiple, often diverging contexts of their meaning and use.</p>
+                    <p>By examining library catalogues and other sources, I have located more than
+                        seventy exemplars associated with the <hi rend="italic">Advertencias</hi>
+                        (including the <hi rend="italic">Primera parte</hi>, <hi rend="italic"
+                            >Segunda parte</hi>, and exemplars co-bound with the <hi rend="italic"
+                            >Confessionario</hi>). The case of just one of these exemplars, a copy
+                        of the <hi rend="italic">Primera parte</hi> currently held by the Biblioteca
+                        Francisco Xavier Clavigero at the Universidad Iberoamericana in Mexico City,
+                        illustrates how changing historical contexts carry with them shifting
+                        interpretive contexts as the books move through distinct discursive spheres
+                        and historical moments. Changes in ownership are influenced by the complex
+                        interaction among different dimensions of the book: as a source of
+                        information, as a cultural heritage item, and as a collectible artifact.
+                        They are often triggered by large-scale changes in political and economic
+                        power within Mexico or internationally.</p>
+                    <p>The exemplar at the Iberoamericana emblematizes this dynamic. Bound together
+                        with Bautista’s earlier <hi rend="italic">Confessionario</hi>, the volume
+                        stands out for the many ownership marks that have been made over the years
+                        of its circulation, from the brand on the edge of the book to multiple
+                        handwritten notations and bookplates in the interior. Collectively, these
+                        marks show the long trajectory of the exemplar, which in this case parallels
+                        closely the dominant narrative about Mexico’s cultural heritage.</p>
+                    <figure>
+                        <head>Figure 4: Bottom edge of a copy of the <hi rend="italic"
+                                >Advertencias</hi> from the Biblioteca Francisco Xavier Clavigero.
+                            Image from the Catálogo Colectivo de Marcas de Fuego website. (ID:
+                            BFXC-16039)</head>
+                        <figDesc>Figure 4: Bottom edge of a copy of the Advertencias from the
+                            Biblioteca Francisco Xavier Clavigero. Image from the Catálogo Colectivo
+                            de Marcas de Fuego website. (ID: BFXC-16039)</figDesc>
+                        <graphic url="images/essay.alpertabrams.04.jpg"/>
+                    </figure>
+                    <p>Brands made with iron or ink on the edges of books, like the one shown in
+                        Figure 4, were used by religious orders during the colonial period to mark
+                        ownership of a book. Careful work on the taxonomy of these <hi rend="italic"
+                            >marcas</hi> by scholars involved with the <hi rend="italic">Catálogo
+                            Colectivo de Marcas de Fuego</hi> project makes it possible for us to
+                        identify, in many cases, the library that held a given copy of the <hi
+                            rend="italic">Advertencias</hi>, and in some cases to date the
+                        acquisition of that copy. Individually, a <hi rend="italic">marca</hi> can
+                        give us a hint about who may have had access to a given exemplar.
+                        Collectively, the <hi rend="italic">marcas</hi> offer a partial view of the
+                        movement of the <hi rend="italic">Advertencias</hi> during the period,
+                        allowing us to understand its role in the intellectual culture of the
+                        religious orders. They also suggest a culture of book loaning in which
+                        marking ownership helped libraries retain possession of these valuable
+                        commodities while alerting users to the cultural capital of the owning
+                        institution. In this case, unfortunately, the <hi rend="italic">marca</hi>
+                        has not been identified, though the catalogue entry speculates that it may
+                        be affiliated with the Convento de Santiago Tlatelolco, located near the
+                        Colegio de la Santa Cruz, where the <hi rend="italic">Advertencias</hi> was
+                            printed.<ptr target="#note27" xml:id="nr27" n="27"/></p>
+                    <p>The reference to the convent at Tlatelolco allows us reconstruct part of the
+                        discursive context that framed the <hi rend="italic">Advertencias</hi> at
+                        this time. Though this work is speculative, we know enough to say with some
+                        certainty that this library would have held at least one copy of the <hi
+                            rend="italic">Advertencias</hi>&#8212;taken, perhaps, from the defunct
+                        library at the Colegio sometime in the mid-seventeenth century. As the
+                        introduction to Michael Mathes’s important study of that original library
+                        describes, the library and the school that it supported was a “verdadero
+                        semillero” (a true seedbed) for intellectual and cultural development.<ptr
+                            target="#note28" xml:id="nr28" n="28"/> At this time the <hi
+                            rend="italic">Advertencias</hi> would have been held alongside volumes
+                        of Plutarch and Virgil, printed American texts like the <hi rend="italic"
+                            >Arte de la lengua mexicana y castellana</hi> by Alonso de Molina, and
+                        the manuscripts of Sahagún and others. By the end of the seventeenth
+                        century, however, the school was in ruins, the manuscripts had been sent
+                        abroad for safekeeping (where they would be all but forgotten for over a
+                        century), and the library, now located at the Convento de Santiago
+                        Tlatelolco, served a narrower form of intellectual service. Though we have
+                        little assurance that this exemplar underwent this precise trajectory, it is
+                        likely that at least one copy of the <hi rend="italic">Advertencias</hi>
+                        did.</p>
+                    <p>Additional ownership marks allow us to continue tracing the history of this
+                        particular exemplar. As in many other cases, evidence here suggests that
+                        this exemplar first began to circulate at the politically unstable end of
+                        the eighteenth century. A note on the title page of the <hi rend="italic"
+                            >Confessionario</hi> dated 1797&#8212;some thirty years before military
+                        troops occupied the convent and used the books as mattresses<ptr
+                            target="#note29" xml:id="nr29" n="29"/>&#8212;attributes the volume to a
+                        “B[achille]r. Juan Antonio Moreno de Abalos.” A later note on the pastedown
+                        suggests that it was acquired along with another volume by a book dealer in
+                        1803. In 1833, it was likely sold to the British and Foreign Bible Society.
+                        By this point, it would have shed its utilitarian purpose as a resource for
+                        Spanish missionaries working among indigenous populations in New Spain.
+                        Instead, it was now associated with an institution established in 1804 to
+                        translate and distribute vernacular bibles to missionaries and growing
+                        Christian communities around the world.</p>
+                    <p>This period of circulation and subsequent acquisition abroad is just one of
+                        many cases in which documents once held by Mexican religious orders entered
+                        the global books and antiquities marketplace during the political
+                        disruptions of the late colonial period, the Mexican wars of independence,
+                        and subsequent turmoil. In his <hi rend="italic">Breve historia del libro en
+                            Mexico</hi>, Ernesto de la Torre Villar describes this period as the
+                        beginning of the cultural decline of Mexico and of the loss of its
+                        bibliographic patrimony.<ptr target="#note30" xml:id="nr30" n="30"/> Others
+                        have described the movement of books out of Mexico during this period as an
+                        “exodus,” similarly bemoaning Mexico’s loss.<ptr target="#note31"
+                            xml:id="nr31" n="31"/> From a different perspective, the Bible Society
+                        acquisition points to a new life for the <hi rend="italic">Advertencias</hi>
+                        as it shifts from serving as a record of Spanish conquest to becoming part
+                        of a larger history centering on the global spread of religion through
+                        European colonization. It also draws attention to the rise of British
+                        economic investment in Mexico during the first part of the nineteenth
+                        century, embedded materially in this exemplar through the manuscript
+                        notation.</p>
+                    <p>This exemplar underwent another important shift when it was acquired by the
+                        Mexican businessman and bibliophile Manuel Arango Arias. On his many trips
+                        abroad for business, Arango worked to locate and acquire Mexican heritage
+                        items and bring them home. In 1996, he donated his collection to the
+                        Biblioteca Francisco Xavier Clavigero in Mexico City.<ptr target="#note32"
+                            xml:id="nr32" n="32"/> Thus this exemplar participated in the broader
+                        process of cultural return, whereby heritage items that were taken from
+                        their sites of origin under colonial or imperial conditions are brought back
+                        to their homelands. We might notice, of course, that this “return” is only
+                        partial. The library where the book was first collected no longer exists,
+                        the religious orders are largely dismantled, and the rare books collection
+                        at the Iberoamericana serves an entirely different public: scholars and
+                        bibliophiles with documented institutional affiliations and an interest in
+                        early colonial Mexico.</p>
+                </div>
+            </div>
+            <div type="section">
+                <head type="main">Section 3: Modeling New Approaches to Editing Early Colonial
+                    Books</head>
+                <p>LLILAS Benson Latin American Studies and Collections at the University of Texas
+                    at Austin is a founding member of the Primeros Libros project, dedicated to
+                    producing freely available facsimile editions (and, soon, transcriptions) of all
+                    books printed before 1601 in the Americas. The interface for this project
+                    employs traditional cataloguing categories like author, title, date, and
+                    printer; it is designed primarily to promote the readability of the books. As an
+                    employee of LLILAS Benson in 2014, I became interested in developing another
+                    model for approaching these digital objects. Working with Kent Norsworthy, then
+                    LLILAS Benson’s digital scholarship coordinator, I developed a digital project
+                    for exploring one book in that collection&#8212;the <hi rend="italic"
+                        >Advertencias para los confessores de los Naturales</hi>&#8212;that would be
+                    based on the two dimensions of malleability and historicity described above.
+                    This project was designed specifically to decenter the textual content of the
+                    book&#8212;still freely available on the Primeros Libros website&#8212;in favor
+                    of object and context. At the same time, the project offered an alternative to
+                    traditional models for communicating book history.</p>
+                
+                <p>For the <hi rend="italic">Archaeology of a Book</hi> project, as it came to be
+                    called, we chose to use the Scalar platform, a “free, open source authoring and
+                    publishing platform that’s designed to make it easy for authors to write
+                    long-form, born-digital scholarship online.”<ptr target="#note33" xml:id="nr33"
+                        n="33"/> We were attracted to Scalar because its mission, as articulated by
+                    Tara McPherson, aligned with our own: “to formulate new ways of working with
+                    digitized archival materials within the humanities and to continue to model
+                    emerging genres of digital scholarly publishing.”<ptr target="#note34"
+                        xml:id="nr34" n="34"/> Scalar was ideal because it allowed us to experiment
+                    with new structures for scholarly publishing without first developing extensive
+                    programming skills or finding funding for a development team&#8212;a priority
+                    when modeling a platform that we hoped would be widely applicable to students
+                    and faculty across institutions.</p>
+                <p>Two particular features of Scalar make it particularly well suited to our
+                    project. First, its organizational structure is based on paths and networks,
+                    rather than the linear model of a traditional printed book. This suited our
+                    interest in reframing our approach to textual objects using a multidimensional
+                    model. Second, it is designed to interface smoothly with preexisting digital
+                    facsimile collections, archives, and media databases, a feature that enables us
+                    to display textual or material contexts that crossed collections. The <hi
+                        rend="italic">Archaeology of a Book</hi> project, which continues to evolve,
+                    is currently available <ref type="url"
+                        target="http://scalar.usc.edu/works/advertencias/index.">online</ref>; in
+                    what remains of this article, I will describe some of the principles and
+                    technologies that we used to produce this project, and how it has allowed us to
+                    see new possibilities for describing digital facsimiles.</p>
+                <figure type="enlargeOnClick">
+                    <head>Figure 5: Two visualizations showing the organizational structure of <hi
+                            rend="italic">Archaeology of a Book</hi>. “Visualization,” <hi
+                            rend="italic">Archaeology of a Book</hi>, Scalar, accessed December 31,
+                        2015, http://scalar.usc.edu/works/advertencias/index.</head>
+                    <figDesc>Figure 5: Two visualizations showing the organizational structure of
+                        Archaeology of a Book. “Visualization,” Archaeology of a Book, Scalar,
+                        accessed December 31, 2015,
+                        http://scalar.usc.edu/works/advertencias/index.</figDesc>
+                    <graphic url="images/essay.alpertabrams.05.jpg"/>
+                </figure>
+                <p>The <hi rend="italic">Archaeology of a Book</hi> project was designed around a
+                    series of branching paths, as shown in the visualizations in Figure 5. Each path
+                    is oriented around a different dimension of book analysis: the introduction
+                    focuses on composition and reception; the production path focuses on printing
+                    and binding; the collection and acquisition paths focus on provenance; and the
+                    concluding path focuses on digitization. Though these paths differ slightly from
+                    the organizational schema described earlier in this article, they follow the
+                    same basic principles in emphasizing the malleability of the historical book and
+                    the long and changing history of its use. While they can be read linearly to
+                    produce an essay-like reading experience, the images in Figure 5 show that there
+                    are a number of ways to orient to the content of the project. This
+                    organizational flexibility allows us to step outside the rigid or hierarchical
+                    categories of the traditional catalogue.</p>
+                <figure type="enlargeOnClick">
+                    <head>Figure 6: Facsimiles of pages from the <hi rend="italic">Advertencias</hi>
+                        (left, from Primeros Libros) and the <hi rend="italic">Florentine</hi> Codex
+                        (right, from the World Digital Library) show how Bautista borrowed text from
+                        his predecessor. (IDs: pl_blac_047_00234; 10616 [1/31])</head>
+                    <figDesc>Figure 6: Facsimiles of pages from the Advertencias (left, from
+                        Primeros Libros) and the Florentine Codex (right, from the World Digital
+                        Library) show how Bautista borrowed text from his predecessor. (IDs:
+                        pl_blac_047_00234; 10616 [1/31])</figDesc>
+                    <graphic url="images/essay.alpertabrams.06.jpg"/>
+                </figure>
+                <p>As described in this article, the malleability associated with the composition
+                    and production of early colonial Mexican books was reflected in the sharing of
+                    texts and images across documents and in the variation within and between copies
+                    of a single book. Using the Primeros Libros collection and the Scalar interface,
+                    we were able to highlight both of these features. One unique quality of the
+                    Primeros Libros project is that it brings together for the first time a set of
+                    contemporaneous but geographically distant exemplars. This feature was extended
+                    by Scalar’s unique association with online databases like the Internet Archive,
+                    which allowed us to make visual associations between largely disparate
+                    documents. In <ref type="url"
+                        target="http://scalar.usc.edu/works/advertencias/writing-the-advertencias">a
+                        section dedicated to the process of composition</ref>, for example, we were
+                    able to bring together a facsimile image of a page from Bernardino de Sahagún’s
+                        <hi rend="italic">Florentine Codex</hi> with the identical page as it
+                    appears printed in the <hi rend="italic">Advertencias</hi> (Figure 6). It is
+                    unlikely that these texts have been together (even virtually) since Sahagún’s
+                    manuscript left Mexico sometime in the seventeenth century. In fact, a closer
+                    examination shows that Bautista has revised the original, describing a causal
+                    relationship between the flower Omixuchitl and an associated illness that
+                    remains implicit in Sahagún’s manuscript. The Scalar interface makes it easy for
+                    the user to visualize these pages side by side, or to move between the project
+                    and complete facsimiles hosted by the World Digital Library and the Primeros
+                    Libros project. Ultimately, pages like this portray the expanding definition of
+                    early modern authorship that a traditional organizational schema might
+                    elide.</p>
+                <p>Sections dedicated to the production of the <hi rend="italic">Advertencias</hi>
+                    take further advantage of the fact that the <hi rend="italic">Primeros
+                        Libros</hi> project hosts multiple copies of each book in its collection to
+                    identify differences among exemplars. Collation across multiple libraries can be
+                    costly and slow, but when the books are brought together as facsimiles, it
+                    becomes relatively easy. Use of Cobre, a comparative book reader designed by
+                    Texas A&amp;M (and <ref type="url"
+                        target="http://scalar.usc.edu/works/advertencias/digital-projects">featured
+                        in the digital path of <hi rend="italic">Archaeology</hi></ref>) made it
+                    easy to identify the differences in front matter between exemplars, as shown in
+                    Figure 7; by linking to the Cobre reader, we also encourage users to conduct
+                    their own document comparisons. Other variations associated with the production
+                    of the book, such as excised pages or lines, can be uncovered through the same
+                    process of collation and displayed on the Scalar page. Again, the pathways work
+                    against the grain of standard cataloguing categories like title or publisher in
+                    order to disrupt the sense of the book as an atomic unit.</p>
+                <figure>
+                    <head>Figure 7: A comparison of two exemplars of the <hi rend="italic"
+                            >Advertencias</hi>, as seen in the Cobre comparative reader. (ID: “Cobre
+                        Reader comparing frontmatter of the Advertencias”)</head>
+                    <figDesc>Figure 7: A comparison of two exemplars of the Advertencias, as seen in
+                        the Cobre comparative reader. (ID: “Cobre Reader comparing frontmatter of
+                        the Advertencias”)</figDesc>
+                    <graphic url="images/essay.alpertabrams.07.jpg"/>
+                </figure>
+                <p>The multiple textual meanings that a book engages as it circulates across
+                    historical contexts are made visible through material signals of provenance like
+                    firebrands, marginal notes, and nameplates. Unfortunately, these details are not
+                    preserved in the Primeros Libros collection; they were collected, instead,
+                    through my own research or through other online projects like the <hi
+                        rend="italic">Catálogo Colectivo de Marcas de Fuego</hi>. Bringing these
+                    details to bear on the facsimiles, however, emphasizes the dynamism of these
+                    otherwise static historical documents. It shows how documents from the sixteenth
+                    century reappear throughout Mexico’s intellectual history. It also, I hope,
+                    emphasizes the importance of preserving these marginal or material details when
+                    constructing online facsimile collections.</p>
+                <p>Provenance marks serve as a point of access that can provide valuable information
+                    about the history of ownership for an exemplar. We can expand this context by
+                    tracing the discursive sphere in which the book existed, examining the ways that
+                    an owner may have refigured the book, the library in which that book was
+                    present, and the aesthetic space that the book occupied. As was shown above in
+                    the example of the Tlatelolco library, the books in a collection can provide
+                    insight into the intellectual community that would have accessed or read the <hi
+                        rend="italic">Advertencias</hi>: through library catalogues, we can
+                    partially reconstruct those collections. With Scalar, it is possible to <ref
+                        type="url"
+                        target="http://scalar.usc.edu/works/advertencias/printing-at-tlatelolco"
+                        >bring those books back together</ref>, a project that I hope to extend in
+                    future iterations as I construct a digital “library at Tlatelolco” and a list of
+                    Bautista’s collected works.</p>
+                <figure>
+                    <head>Figure 8: An interactive Story Map display of the distribution of the <hi
+                            rend="italic">Advertencias. Archaeology of a Book</hi>, Scalar, accessed
+                        December 25, 2015,
+                        http://scalar.usc.edu/works/advertencias/twentieth--twenty-first-centuries.</head>
+                    <figDesc>Figure 8: An interactive Story Map display of the distribution of the
+                        Advertencias. Archaeology of a Book, Scalar, accessed December 25, 2015,
+                        http://scalar.usc.edu/works/advertencias/twentieth--twenty-first-centuries.</figDesc>
+                    <graphic url="images/essay.alpertabrams.08.jpg"/>
+                </figure>
+                <p>In <ref type="url"
+                        target="http://scalar.usc.edu/works/advertencias/twentieth--twenty-first-centuries"
+                        >a page on twenty-first century collections</ref>, I sought to introduce two
+                    additional elements to the narrative of provenance: the dynamic geographical
+                    movement of the <hi rend="italic">Advertencias</hi> and the affective experience
+                    of the architectural contexts in which they are currently held. To achieve this,
+                    I used Story Maps, a third-party application for producing interactive maps.<ptr
+                        target="#note35" xml:id="nr35" n="35"/> This map, shown in Figure 8,
+                    visually represents the geographic distribution of exemplars through the world,
+                    revealing patterns of distribution or consumption. Linking points on the map to
+                    photographs and brief prose narratives illustrates the affective experience of
+                    the library, archive, museum, or special collection where the book is held. The
+                    goal is to draw attention to the ways that atmosphere and access provide a
+                    framework for a reading experience, and to show how local and regional
+                    differences play a significant role in our relationship to textual objects. As
+                    these historical books are read with decreasing frequency, their role as
+                    artifacts embedded in a curated environment comes to the forefront of their
+                    social value. Mapping the current distribution of the <hi rend="italic"
+                        >Advertencias</hi> seeks to communicate these diverse affective experiences,
+                    while recording the current landscape of the exemplars for future study.</p>
+                <div type="subsection">
+                    <head type="sub">Looking Forward</head>
+                    <p>In this article, I have sought to describe an approach to digital critical
+                        editions that engages with the shifting status of books in the early modern
+                        period, changes in their status over time, and the material traces that
+                        history leaves on the books themselves. Just as I have described the history
+                        of the book as dynamic and historical, I sought with <hi rend="italic"
+                            >Archaeology of a Book</hi> to produce a dynamic project that would
+                        embody the future of this historical book as well as its past.</p>
+                    <p>For the future of <hi rend="italic">Archaeology of a Book</hi>, I look toward
+                        new scholarship and new platforms. Using Scalar, a stable and user-friendly
+                        interface, allowed us to design a project that can be infinitely expandable,
+                        enabling both collaborations and pedagogical opportunities. Scholars working
+                        with books from the Primeros Libros collection can add their own pages or
+                        pathways to expand the scope of the resource. Teachers may also invite
+                        undergraduate and graduate students to add their scholarship to the
+                        project.</p>
+                    <p>While this new research may simply replicate the model set forth by the
+                        existing project, it could also expand in new dimensions that take advantage
+                        of other technologies. Incorporating more dynamic mapping and timeline
+                        platforms like Neatline Omeka, for example, would open new ways of
+                        understanding the history of the collection. Three-dimensional facsimiles
+                        and other forms of data visualization could expand the scope of book history
+                        even further, while developing resources for the history of these books as
+                        historical records, as living objects, and as valued world heritage
+                        documents.</p>
+                    <p>The future of <hi rend="italic">Archaeology of a Book</hi> and projects like
+                        it is also tied up in the future of scholarly communication. Book history
+                        has long been told in book form, a convention that carries its own
+                        structures of information delivery and organization. With digital platforms
+                        for scholarly writing, it is possible to unbind the history from the book,
+                        producing new objects of information delivery that engage the shape of the
+                        historical book as well as its content. This poses an opportunity for book
+                        historians to engage critically with the structures through which we see
+                        historical books as well as with the history of those books themselves.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">Primeros Libros (2014), <ref type="url"
+                        target="www.primeroslibros.org">www.primeroslibros.org</ref> (accessed
+                    December 25, 2015).</note>
+                <note xml:id="note2">Juan Bautista, <hi rend="italic">Advertencias para los
+                        confessores de los Naturales</hi> (Tlatelolco: Melchor Ocharte,
+                    1600).</note>
+                <note xml:id="note3">Jerome McGann, <hi rend="italic">A New Republic of Letters</hi>
+                    (Cambridge: Harvard University Press, 2014), 45.</note>
+                <note xml:id="note4">David McKitterick, <hi rend="italic">Old Books, New
+                        Technologies: The Representation, Conservation and Transformation of Books
+                        Since 1700</hi> (Cambridge: Cambridge University Press, 2013), 4.</note>
+                <note xml:id="note5">Sarah Werner articulates the contours of this debate clearly
+                    when she writes, “Digital facsimiles appear to be flat, made up of pages without
+                    depth or relationship to other pages, part of a sequence that is made up of bits
+                    rather than bindings. But this is not because such flatness is inherent to
+                    digitization. It is because of the limited ways in which digitization has been
+                    put to use for us.” Given the extensive resources necessary to produce truly
+                    multidimensional facsimiles, however, these ideal digitization projects may not
+                    always be possible, and the critiques of current digital editions are not
+                    invalid. Matt Kirschenbaum and Sarah Werner, “Digital Scholarship and Digital
+                    Studies: The State of the Discipline,” <hi rend="italic">Book History</hi> 17
+                    (2014): 420. </note>
+                <note xml:id="note6">McGann, <hi rend="italic">New Republic</hi>.</note>
+                <note xml:id="note7">Jeffrey Todd Knight, <hi rend="italic">Bound to Read:
+                        Compilations, Collections, and the Making of Renaissance Literature</hi>
+                    (Philadelphia: University of Pennsylvania Press, 2013), 8.</note>
+                <note xml:id="note8">Germaine Warkentin, “Dead Metaphor or Working Model: ‘The Book’
+                    in Native America,” in <hi rend="italic">Colonial Mediascapes</hi>, ed. Matt
+                    Cohen and Jeffrey Glover (Lincoln: University of Nebraska Press, 2014).</note>
+                <note xml:id="note9">“I have seen six or more exemplars of the Advertencias, and
+                    almost all of them display differences between them” (all trans. mine unless
+                    otherwise noted). Joaquín García Icazbalceta, <hi rend="italic">Bibliografía
+                        mexicana del siglo XVI.: Primera parte</hi> (Mexico: Imprenta de Francisco
+                    Diaz de Leon, 1886), 353.</note>
+                <note xml:id="note10">“It is a book that among bibliophiles has been feared like the
+                    plague.” Francisco Guerra, “La portada de la ‘Opera Medicinalia,’ Mexico, 1570,”
+                        <hi rend="italic">Revista de Indias</hi> 52.194 (1992): 159.</note>
+                <note xml:id="note11">Francisco Bravo, <hi rend="italic">Opera Medicinalia</hi>
+                    (Mexico: Pedro Ocharte, 1570), <ref type="url" target="www.primeroslibros.org"
+                        >www.primeroslibros.org</ref>. For a thorough study of the history of this
+                    book, refer to Rodrigo Martínez Baracs, <hi rend="italic">El largo
+                        descubrimiento del Opera medicinalia de Francisco Bravo</hi> (Fondo de
+                    Cultura Económica, 2015).</note>
+                <note xml:id="note12">Jens-Erik Mai, “Ethics, Values and Morality in Contemporary
+                    Library Classifications,” <hi rend="italic">Knowledge Organization</hi> 40, no.
+                    4 (2013): 242.</note>
+                <note xml:id="note13">The introduction of bibliographic error is not reserved for
+                    early modern books&#8212;modern catalogue entries are notoriously difficult. Nor
+                    are these inconsistencies reserved for catalogues; even Rosa María Fernández de
+                    Zamora’s bibliography of early Mexican printed books, the newest authority in
+                    the field, introduces orthographic differences in its transcription of the two
+                    primary title pages, reminding us again of the difficulty of maintaining
+                    consistency in bibliographic record keeping. Rosa María Fernández de Zamora, <hi
+                        rend="italic">Los impresos mexicanos del siglo XVI: Su presencia en el
+                        patrimonio cultural del nuevo siglo</hi> (Ciudad de Mexico: UNAM,
+                    2009).</note>
+                <note xml:id="note14">Knight, <hi rend="italic">Bound to Read</hi>, 4.</note>
+                <note xml:id="note15">Library of Congress, “Juan Bautista, fray, 1555–approximately
+                    1613,” <hi rend="italic">Library of Congress Name Authority File</hi>, May 13,
+                    2015, <ref type="url"
+                        target="http://id.loc.gov/authorities/names/no98094250.html"
+                        >http://id.loc.gov/authorities/names/no98094250.html</ref>.</note>
+                <note xml:id="note16">Consider, for example, the variations between entries in the
+                    “title/título” category. The titles, all taken directly from the title page,
+                    nevertheless vary in length from seven words to forty-three. Where, in the case
+                    of an early colonial printed book, does the title begin&#8212;and where does it
+                    end?</note>
+                <note xml:id="note17">For the language of excavation&#8212;among other
+                    things&#8212;I am indebted to Bonnie Mak, “Archaeology of a Digitization,” <hi
+                        rend="italic">Journal of the Association for Information Science and
+                        Technology</hi> 65, no. 8 (2014): 1515–26.</note>
+                <note xml:id="note18">Verónica Murillo Gallegos, “Obras de personajes novohispanos
+                    en las <hi rend="italic">Advertencias para los confesores de los naturales</hi>
+                    de fray Juan Bautista de Viseo,” <hi rend="italic">Anuario de Historia de la
+                        Iglesia</hi> 20 (2011): 362.</note>
+                <note xml:id="note19">Mark Christensen, <hi rend="italic">Nahua and Maya
+                        Catholicisms</hi> (Palo Alto: Stanford University Press, 2013), 33.</note>
+                <note xml:id="note20">Kathryn Burns, <hi rend="italic">Into the Archive</hi>
+                    (Durham: Duke University Press, 2010), 39.</note>
+                <note xml:id="note21">José Gaspar Rodolfo Cortés Riveroll, “Francisco Bravo y el
+                    primer libro de medicina impreso en América,” in <hi rend="italic">Autores de
+                        obra médica en la Nueva España: vida y obras, 1552–1618</hi>, ed. María
+                    Luisa Rodríguez-Sala, Enrique Delgado López, and José Gaspar Rodolfo Cortés
+                    Riveroll (México: Benemérita Universidad Autónoma de Puebla, 2011), 106.</note>
+                <note xml:id="note22">“To give them local context.” Cortés Riveroll, “Francisco
+                    Bravo,” 95.</note>
+                <note xml:id="note23">Juan Pascoe, “Primeros años en la nueva españa septiembre de
+                    1596 hasta octubre de 1598” (unpublished manuscript, 2014).</note>
+                <note xml:id="note24">Guerra, “La portada de la ‘Opera Medicinalia,’” 159–63.</note>
+                <note xml:id="note25">Nor do all historical books begin with their production, of
+                    course&#8212;many have long prehistories that all but disappear in the process
+                    of binding and cataloguing.</note>
+                <note xml:id="note26">Mak, “Archaeology of a Digitization.”</note>
+                <note xml:id="note27">The catalogue description reads: <hi rend="italic">“Monograma
+                        formada por las iniciales “A”, “C”, “F”, “R”, “U”, “I”, “J”, “S” y una “O”
+                        como tilde coronando las anteriores.”</hi> (Monogram formed from the
+                    initials A, C, F, R, U, I, J, S, and an O like a tilde crowning the previous
+                    letters.) Observations remark, “<hi rend="italic">Monograma con las iniciales
+                        entrelazadas, las cuales podrían referirse al Convento de Santiago
+                        Tlatelolco. &#8212;Dado que no se ha localizado un ejemplar que nos permita
+                        conocer la identidad del antiguo poseedor, se mantiene como marca no
+                        identificada. &#8212;No aparece en los catálogos previos.</hi>” (Monogram
+                    with the initials intertwined, which may refer to the Convent of Santiago
+                    Tlatelolco. &#8212;Given that an exemplar has not been located which allows us
+                    to know the identity of the historical owner, it remains an unidentified mark.
+                    &#8212;It does not appear in previous catalogues.) “BFXC-16039,” <hi
+                        rend="italic">Catálogo colectivo de marcas de fuego</hi>, <ref type="url"
+                        target="http://www.marcasdefuego.buap.mx:8180/mafu-img//db/xmlibris/marcas_de_fuego/no_identificadas/16039-canto_orig.jpg"
+                        >http://www.marcasdefuego.buap.mx:8180/mafu-img//db/xmlibris/marcas_de_fuego/no_identificadas/16039-canto_orig.jpg</ref>
+                    (accessed December 31, 2015).</note>
+                <note xml:id="note28">Published in English as <hi rend="italic">The America’s First
+                        Academic Library: Santa Cruz de Tlatelolco</hi> (1985). Miguel Mathes, <hi
+                        rend="italic">Santa Cruz de Tlatelolco: La primera biblioteca académica de
+                        las Américas</hi> (Mexico: Archivo Histórico Diplomático Mexicano,
+                    1982).</note>
+                <note xml:id="note29">Mathes, <hi rend="italic">Santa Cruz de Tlatelolco</hi>,
+                    41</note>
+                <note xml:id="note30">Ernesto de la Torre Villar, <hi rend="italic">Breve historia
+                        del libro en México</hi> (Mexico: Universidad Nacional Autónoma de México,
+                    1990), 119. </note>
+                <note xml:id="note31">Rosa María Fernández de Zamora, “Presencia de los impresos
+                    mexicanos del Siglo XVI en las bibliotecas del siglo XXI,” <hi rend="italic"
+                        >Investigación Bibliotecológica</hi> 19, no. 36 (Enero/Junio 2004):
+                    7–26.</note>
+                <note xml:id="note32"><hi rend="italic">Catálogo de la Colección Biblioteca Manuel
+                        Arango Arias</hi> (Mexico: Universidad Iberoamericana, 2000), 13.</note>
+                <note xml:id="note33"> Alliance for Networking Visual Culture, “About Scalar,”
+                    scalar.usc.edu (accessed December 25, 2015).</note>
+                <note xml:id="note34">Tara McPherson, “Designing for Difference,” <hi rend="italic"
+                        >Differences</hi> 25, no. 1 (2014): 183.</note>
+                <note xml:id="note35"> Esri, “Story Maps,” <ref type="url"
+                        target="http://storymaps.arcgis.com/en/"
+                        >http://storymaps.arcgis.com/en/</ref> (accessed December 25, 2015).</note>
+            </div>
+        </back>
+    </text>
+</TEI>

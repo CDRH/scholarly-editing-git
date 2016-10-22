@@ -103,8 +103,6 @@
             </map:match>
         </map:pipeline>
 
-
-
 <!-- Pipeline for the about page, the index pages, and other such functional pages -->
 
 <map:pipeline type="noncaching">
@@ -114,6 +112,10 @@
                 <map:serialize type="html" />
             </map:match>
         </map:pipeline>
+      
+      <!-- ====================================
+                         Essays
+      ====================================== -->
 
 <!-- for essays, 2012, Vol 33 -->
         <map:pipeline type="noncaching">
@@ -130,7 +132,6 @@
             </map:match>
         </map:pipeline>
 
-        
 
         <!-- for essays, 2013, Vol 34 -->
         <map:pipeline type="noncaching">
@@ -193,6 +194,10 @@
                 <map:read src="2016/essays/images/{1}" />
             </map:match>
         </map:pipeline>
+      
+      <!-- ====================================
+                         Reviews
+      ====================================== -->
         
 
         <!-- for reviews, 2012, Vol 33 -->
@@ -239,6 +244,57 @@
                 <map:serialize type="html" />
             </map:match>
         </map:pipeline>
+      
+      <!-- ====================================
+                         2017
+      ====================================== -->
+      
+      <!-- TEST 2017 Edition, Young Idea-->
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/**.youngidea.html">
+          <map:generate src="2017/editions/youngidea/xml/{1}.youngidea.xml" />
+          
+ 
+          <map:transform src="2017/editions/youngidea/xslt/youngidea.xsl">
+            <map:parameter name="pagetype" value="home"/>
+            <map:parameter name="subpagetype" value=""/>
+            <map:parameter name="pageid" value=""/>
+          </map:transform>
+          <map:transform src="template_xslt/html_template.xsl">
+              <map:parameter name="volume" value="5x5"/>
+              <map:parameter name="year" value="2017"/>
+          </map:transform>
+          
+          
+          
+          <map:serialize type="html" />
+        </map:match>
+      </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/youngidea/pages/**">
+          <map:read src="2017/editions/youngidea/pages/{1}" />
+        </map:match>
+      </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/**.youngidea.xml">
+          <map:generate src="2017/editions/youngidea/xml/{1}.youngidea.xml" />
+          
+          <map:serialize type="xml" />
+        </map:match>
+      </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/youngidea/**.jpg">
+          <map:read src="2017/editions/youngidea/{1}.jpg" />
+        </map:match>
+      </map:pipeline>
+      
+      <!-- ====================================
+                         2016
+      ====================================== -->
         
         <!-- BinyonDestree, 2016 issue -->
         
@@ -440,7 +496,9 @@
         </map:pipeline>
         
 
-
+      <!-- ====================================
+                         2015
+      ====================================== -->
 
         <!-- Mielke and Baldwin's “a black diamond among thim American wifes”: Kate Edwards Swayze’s Anti-Slavery Adaptation of George Colman’s Inkle and Yarico-->
 
@@ -652,6 +710,10 @@
                 <map:read src="2015/editions/lowelledition/{1}.jpg" />
             </map:match>
         </map:pipeline>
+      
+      <!-- ====================================
+                         2014
+      ====================================== -->
 
 <!-- 2014, Vol 35: Cranch Journal by Christopher Ohge -->
 
@@ -1002,6 +1064,10 @@
                 <map:read src="2014/editions/haley/haleyxml.zip" />
             </map:match>
         </map:pipeline>
+      
+      <!-- ====================================
+                         2013
+      ====================================== -->
 
 
         <!-- 2013, Vol 34; "Rossetti's 'Sunset Wings' in the American Press" by Marianne Van Remoortel -->
@@ -1109,6 +1175,10 @@
                 
             </map:match>
         </map:pipeline>
+      
+      <!-- ====================================
+                         2012
+      ====================================== -->
 
 <!-- 2012, Vol 33; "Live Oak With Moss" by Steven Olsen-Smith -->
         <map:pipeline type="noncaching">
@@ -1221,6 +1291,27 @@
                 <map:read src="2012/editions/baroness/{1}" />
             </map:match>
         </map:pipeline>
+      
+      <!-- ====================================
+                         Infrastructure
+      ====================================== -->
+      
+      <!-- Bootstrap Stuff -->
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="css/bootstrap/**.css">
+          <map:read src="css/bootstrap/{1}.css" />
+        </map:match>
+      </map:pipeline>
+      <map:pipeline type="noncaching">
+        <map:match pattern="js/bootstrap/**.js">
+          <map:read src="js/bootstrap/{1}.js" />
+        </map:match>
+      </map:pipeline>
+      
+      
+      
+      <!-- Other stuff -->
      
 
   <!-- The following pipelines are built to get the css and the fonts to work -->      
@@ -1257,12 +1348,12 @@
             </map:match>
         </map:pipeline>
 
-
+<!--
         <map:pipeline type="noncaching">
             <map:match pattern="**/**.css">
                 <map:read src="css/{2}.css" />
             </map:match>
-        </map:pipeline>
+        </map:pipeline>-->
 
         <map:pipeline type="noncaching">
             <map:match pattern="**fonts/**">
@@ -1275,6 +1366,20 @@
         <map:pipeline type="noncaching">
             <map:match pattern="scholarlyediting.rng">
                 <map:read src="schema/scholarlyediting.rng" />
+            </map:match>
+        </map:pipeline>
+        
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="template_css/**.css">
+                <map:read src="template_css/{1}.css" />
+            </map:match>
+        </map:pipeline>
+     
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="**/editions/**/css/**.css">
+                <map:read src="{1}/editions/{2}/css/{3}.css" />
             </map:match>
         </map:pipeline>
 

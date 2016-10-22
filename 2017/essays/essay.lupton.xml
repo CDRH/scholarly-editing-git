@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Navigating the Space-Time Continuum</title>
+                <author key="Lupton, John A.">John A. Lupton</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.lupton</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+ <addrLine>http://www.scholarlyediting.org</addrLine>
+</address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>http://cdrh.unl.edu</addrLine>
+ </address>
+                </distributor>
+                <date>2016</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">37</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-03-23"><name xml:id="gk" key="Kirilloff, Gabi">Gabi Kirilloff</name>
+                markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Navigating the Space-Time Continuum</head>
+            <head type="sub">Presidential Address, Association for Documentary Editing</head>
+            <head type="sub">Joint Conference of the Association for Documentary Editing and the Society for Textual Scholarship</head>
+            <head type="sub">Lincoln, Nebraska, 2015</head>
+            <byline>John A. Lupton</byline>
+        </front>
+        <body>
+            <p>Thank you. It’s been an honor to serve as your president. I’d like to thank the
+                Association for Documentary Editing members, as well as committee members and
+                council members, that I’ve had the pleasure to work with, not only as president, but
+                over the course of the past twenty-five years I’ve been a member. I truly appreciate
+                your service in our all-volunteer organization. I know and understand how busy we
+                are with our real jobs, and your commitment to the Association for Documentary
+                Editing is what keeps it alive.</p>
+            <p>I want to begin by acknowledging a couple of people. These are people without whom I
+                probably wouldn’t be standing here as a documentary editor, or as a historian, or as
+                your president. First is John Y. Simon. I was an undergraduate at Southern Illinois
+                University Carbondale unsure of my career path when I took history classes simply
+                because I enjoyed them. John Simon’s classes led me to a path of choosing history as
+                a career. When I began graduate school, I spoke to Simon and told him I wanted to be
+                a Lincoln scholar. He said—and I’m not going to do the John Simon voice, but for
+                those of you who know him, you can all just imagine it—“I’m going to give you some
+                strange advice. You should leave SIU and transfer to Sangamon State University in
+                Springfield and get involved with this new documentary editing project called the
+                Lincoln Legal Papers.” I took his advice.</p>
+            <p>Next is Cullom Davis who as director of the Lincoln Legal Papers gave me an
+                internship as I worked on my master’s degree at Sangamon State, then shepherded me
+                in my rise gradually up the ranks in the project. Cullom’s support and encouragement
+                certainly helped me to gain confidence as a documentary editor as he entrusted me to
+                write the briefs for more than half the 5,600 cases and nonlitigation activities in
+                Lincoln’s law practice.<ptr target="#note1" xml:id="nr1" n="1"/> Last is Daniel
+                Stowell who as director of the Papers of Abraham Lincoln encouraged academic
+                    scholarship.<ptr target="#note2" xml:id="nr2" n="2"/> He allowed his staff to
+                present scholarly papers and articles, following the philosophy of John
+                Kaminsky—that we are all experts of our chosen editing subjects, and withholding the
+                knowledge we have is a disservice to the public at large. Daniel not only accepted
+                that premise but pushed the staff to accept it as well. Without Daniel’s guidance, I
+                probably would not have been able to make the leap from associate director of the
+                Lincoln Papers to leading my own historical agency for the Illinois Supreme
+                    Court.<ptr target="#note3" xml:id="nr3" n="3"/></p>
+            <p>After that brief look in my personal past, I wish to go further back in time. Ever
+                since I was a child, I have always been fascinated by science fiction. I grew up
+                reading the books of Ray Bradbury, Arthur C. Clarke, Jules Verne, H. G. Wells, and
+                Isaac Asimov. The books were my gateway drug into movies and television shows like
+                    <hi rend="italic">Star Wars</hi>, <hi rend="italic">Dr. Who</hi>, and <hi
+                    rend="italic">Star Trek</hi>. Any time you have a <hi rend="italic">Star
+                    Trek</hi> episode that features Abraham Lincoln and Captain Kirk vs. Genghis
+                Khan and a Klingon, you just can’t go wrong.<ptr target="#note4" xml:id="nr4" n="4"
+                /> Even today, I find myself completely engrossed in <hi rend="italic">The
+                    Avengers</hi>, <hi rend="italic">X-Men</hi>, and other really well-done sci-fi
+                movies. The latest trend is presenting a dystopian future with such recent examples
+                as <hi rend="italic">The Hunger Games</hi> and any movie featuring a zombie
+                    apocalypse.<ptr target="#note5" xml:id="nr5" n="5"/> My three daughters have
+                inherited my sci-fi gene even though they roll their eyes when they can’t open a jar
+                and I use my Hulk voice while opening it and calling them “puny humans.” I can do
+                the Hulk—I can’t do John Simon.</p>
+            <p>More specifically into the sci-fi genre, I particularly enjoy time-travel stories.
+                The idea of being able to travel in time forward or backward has always been a dream
+                of mine. I loved reading books such as H. G. Wells’s <hi rend="italic">The Time
+                    Machine</hi> and Kurt Vonnegut’s <hi rend="italic">Slaughterhouse-Five</hi> that
+                prominently feature time travel but also provide social commentary.<ptr
+                    target="#note6" xml:id="nr6" n="6"/> And movies such as <hi rend="italic">The
+                    Terminator</hi> and <hi rend="italic">Back to the Future</hi> not only
+                enthralled me but provided larger lessons as well.<ptr target="#note7" xml:id="nr7"
+                    n="7"/> I will even admit that I enjoy the time-travel love story whether it’s
+                Jane Seymour and Christopher Reeve on Mackinac Island or Sandra Bullock and Keanu
+                Reeves at a lake house.<ptr target="#note8" xml:id="nr8" n="8"/> When I give
+                presentations to groups about Abraham Lincoln the lawyer, one question I frequently
+                get is whether I’m a lawyer. I answer no, but then I add that since I’ve read the
+                same books that Lincoln did when he was a lawyer, I could probably practice law in
+                the 1840s and 1850s. I further add that if I ever build a time machine, I know I can
+                go to antebellum Illinois to practice law and probably make a decent living. I say
+                this as a joke, of course, but there’s a kernel of hope.</p>
+            <p>Many physicists say that there is no possibility of time travel backward, but
+                according to Albert Einstein’s theory of relativity, if I approach the speed of
+                light, I can actually travel forward in time—as I move faster, the slower my time
+                will pass relative to a person remaining on the Earth. So, after my very, very fast
+                trip, the person on Earth has experienced months or even years while I
+                simultaneously experienced only a few hours or even minutes.<ptr target="#note9"
+                    xml:id="nr9" n="9"/> If you saw the movie <hi rend="italic">Interstellar</hi>,
+                starring Matthew McConaughey, you understand this concept.<ptr target="#note10"
+                    xml:id="nr10" n="10"/></p>
+            <p>Richard Feynman built on Einstein’s work with quantum mechanics, developing his “sum
+                over histories” theory in which every possible path from point A to point B is
+                    considered.<ptr target="#note11" xml:id="nr11" n="11"/> The probability of an
+                event is determined by summing together all the possible histories of that event.
+                Time is described as a direction in space—matter moves forward in time; antimatter
+                moves backward in time. But Feynman did not believe that time travel backward was
+                possible using this model by simply hitching a ride on antimatter.</p>
+            <p>Then we have Stephen Hawking, who popularized physics in his book <hi rend="italic">A
+                    Brief History of Time</hi>.<ptr target="#note12" xml:id="nr12" n="12"/> Hawking
+                attempted to merge Einstein’s theory of relativity with Feynman’s quantum theory
+                into a grand unified theory, or a theory of everything.<ptr target="#note13"
+                    xml:id="nr13" n="13"/> He has since changed his mind on the existence of a
+                theory of everything and is now a firm believer in the many-worlds theory, that all
+                possible alternate histories and futures are real, each representing an actual world
+                or an actual universe. This would imply that there is a world in existence in which
+                John Wilkes Booth had NOT assassinated Abraham Lincoln, for example.<ptr
+                    target="#note14" xml:id="nr14" n="14"/> This is almost mind-blowing, as the
+                possible number of worlds would have to be infinite!<ptr target="#note15"
+                    xml:id="nr15" n="15"/></p>
+            <p>Einstein, Feynman, and Hawking provide at least a glimmer of hope for us poor sci-fi
+                addicts who wonder about the possibility of traveling in time. But I have a secret
+                that the physicists don’t know. So, I hate to break it to them, but I actually can
+                travel through time. I don’t have to have a time machine, or travel through
+                wormholes, or discover bridges to alternate histories or futures, or disrupt the
+                space-time continuum. My avenue of time travel is pretty simple: the document.</p>
+            <p>In a general sense, not only documents allow time travel, but objects as well.
+                Dinosaur bones, ice cores, and geological features all provide an avenue into a past
+                period of time. Even looking at the stars, galaxies, and nebula in the sky, we are
+                looking into the past. Take, for example, light, from our own sun traveling at
+                186,000 miles per second, takes eight minutes to reach the Earth, so the sun we see
+                when looking up in the sky is what the sun looked like eight minutes ago. We see the
+                past simply by looking up.</p>
+            <p>But for our purposes, the document is the secret to time travel, whether it be a
+                letter, a diary, or a text. This is done in two distinct ways: first, documents
+                themselves travel in time, and second, documentary editors serve as time-travel
+                guides. Documents are the center of our universe as editors, and without documents,
+                we have no projects, no funding, no staff, no Society for Textual Scholarship, and
+                no Association for Documentary Editing.</p>
+            <p>How do documents travel through time? It’s simple. A drawing by Thomas Edison travels
+                in time from his hands to Paul Israel’s eyes; a letter by Margaret Sanger travels
+                from her typewriter to Esther Katz’s eyes.<ptr target="#note16" xml:id="nr16" n="16"
+                /></p>
+            <p>Documents allow us to see and to learn about life in different eras—at least as far
+                back as the written record exists. With the documentary record, we can pass
+                important information down to succeeding generations. This is important. Human
+                ancestors have been on Earth, according to anthropologists, for about six million
+                years. Only in the last 200,000 years have modern forms of humans appeared. And
+                civilization as we know it has only been in existence for the last 6,000 or so
+                years. Not coincidentally, writing also made its first appearance 6,000 years
+                    ago.<ptr target="#note17" xml:id="nr17" n="17"/> By transferring a knowledge
+                base from generation to generation, newer generations can build upon the work of
+                previous ones, allowing mankind to advance agriculturally, socially, economically,
+                and technologically.<ptr target="#note18" xml:id="nr18" n="18"/> Isaac Newton best
+                summarized this concept when he wrote in a letter that he had “seen further by
+                standing on the shoulders of giants.”<ptr target="#note19" xml:id="nr19" n="19"/>
+                With this documentary record, we can see into the past as easily as we can look up
+                in the sky.</p>
+            <p>There is a great deal of interest today in the documents of our collective past.
+                Nearly one million people view the Declaration of Independence, the Constitution,
+                and the Bill of Rights at the National Archives annually.<ptr target="#note20"
+                    xml:id="nr20" n="20"/> Why do people want to stand in line, possibly for hours,
+                to see something they can easily pull up on the Internet? People want to have a
+                real, tangible connection with these particular documents that gave us our country
+                and our freedoms. Seeing letters written by George Washington, for example, give
+                people a real experience with him.</p>
+            <p>I’ve noticed too how students react to documents. When I speak to elementary and
+                middle school classes, I like to bring in documents—not real ones, just
+                photocopies—and I see how enthralled the students are in looking at them. I will
+                have the students transcribe the document and give me ideas what this document might
+                be about. In addition to the content, I like to talk about the paper, the ink, the
+                handwriting, the fold marks, all of which give clues as to how the document was
+                created and the context in which it was created. Teachers are frequently interested
+                in using documents as teaching tools, and documentary editors are best able to
+                provide them.</p>
+            <p>These travel-through-time experiences with documents such as the Declaration of
+                Independence or George Washington’s letters, are not quantifiable. In the world of
+                grant-writing and state and federal budgets, we have to quantify everything—how many
+                individuals did you serve last year; how many individuals do you expect to serve
+                this year? Eric Foner recently commented that the “notion that the public good can
+                be measured in something other than economic terms has pretty much been
+                    abandoned.”<ptr target="#note21" xml:id="nr21" n="21"/> Of course, I cannot
+                testify before my state legislature’s appropriation committee that I use documents
+                to travel through time, so I end up telling them the numbers they want—how many
+                students I spoke to. What’s frustrating is that I can’t quantify the look on a
+                fourth grader’s face when she figured out how to read a nineteenth-century letter. I
+                received this note: “Mr. Lupton, I didn’t know Lincoln wrote in cursive.” I suppose
+                I can submit this note and other notes I receive as evidence at my appropriation
+                hearing: “Mr. Lupton, your job is so cool”; “Mr. Lupton, your job sounds super
+                interesting”; and lastly, my favorite, “Mr. Lupton, I want to be a historian like
+                    you.”<ptr target="#note22" xml:id="nr22" n="22"/> These are real notes. And
+                documents have a power over people that isn’t quantifiable. I truly felt like I had
+                taken these students to a different time, a different era, and helped them
+                understand the context of nineteenth-century Illinois.</p>
+            <p>And this leads to my second method of time travel, the documentary editor as guide—or
+                for you <hi rend="italic">Dr. Who</hi> fans, the time lord. The principal goal of
+                the documentary editor is to make documents accessible by providing authoritative
+                transcriptions and contextualization. Or more simply put, we want people to read
+                documents, and we want people to understand what these documents mean. Going
+                further, I want people to be transported in time to meet people and understand
+                society in different eras.</p>
+            <p>While outreach to schools and justifying ourselves to funding sources are a part of
+                our task, the root of documentary editing is in the added value we give to the
+                documents. Michael Stevens once noted that “a document without explanation is
+                    useless.”<ptr target="#note23" xml:id="nr23" n="23"/> As documentary editors, we
+                have an obligation to contextualize these documents to readers who are not as
+                experienced in time travel as we are. Editions then become large-scale time
+                machines. Our immersion in these documents gives us editors an insight that few
+                people have. As a result, we can bridge seemingly unconnected facts into a narrative
+                that helps to explain a certain event or a certain decision. And because of our
+                knowledge of a particular period of time, documentary editors can better understand
+                the larger context of those facts, events, and decisions. We are, in fact, reliving
+                those moments along with our chosen subject.</p>
+            <p>Rich Leffler noted this tangible connection we have with our subjects: “[A]s editors,
+                we become intimately involved with our subject.”<ptr target="#note24" xml:id="nr24"
+                    n="24"/> Other editors have commented that they can “eavesdrop” on written
+                conversations and that we editors live “simultaneously in two different worlds” of
+                    time.<ptr target="#note25" xml:id="nr25" n="25"/> We editors have a rare job
+                that guides people to different moments in time. When I read the Lewis and Clark
+                journals, for example, I feel as though I’m transported back to 1804 looking at the
+                same trees and flowers that they did along the Missouri River. Their writing is a
+                time capsule that I can open whenever I want and take the same journey as they did.
+                But the contextualization that accompanies it helps me to understand better what
+                Lewis and Clark themselves experienced and understand better that period of
+                time.</p>
+            <p>In that sense, we are time-travel guides—we can watch Abraham Lincoln defend a
+                slaveowner in an 1847 legal case, and we can try to explain why Lincoln, the
+                antislavery advocate, might have taken this case. We can go back to the Gettysburg
+                Address and note the changes among the five different texts and explain why Lincoln
+                wrote all five.<ptr target="#note26" xml:id="nr26" n="26"/></p>
+            <p>Our editions have been reaching wider audiences, making time travel available to the
+                masses. In the past dozen or so years, accomplished authors who use our editions
+                have written wonderful biographies and books.<ptr target="#note27" xml:id="nr27"
+                    n="27"/> We have given students and authors the ability to travel through time
+                to see not only their subject but also a range of people in different places. For
+                example, one who studies a particular event in the presidency of John Adams can
+                travel to the national capital to see what Adams was writing. But to add more to
+                this travel, you can go and see the writings of Thomas Jefferson, Timothy Pickering,
+                and John Marshall and “eavesdrop” on their conversations. Our editions serve as time
+                machines, and the editor serves as the time-travel guide.</p>
+            <p>Because we are guides, we cannot change what happened in the past. And my mind is
+                still blown away by Hawking’s many-worlds theory, which would give us the
+                opportunity to bridge these worlds to see what life would be like if history took a
+                different course. In his short story “A Sound of Thunder,” Ray Bradbury explained
+                the butterfly effect. In traveling to the dinosaur age, one of the characters
+                stepped on and killed a butterfly, and upon his return to the present, the English
+                language was different, spelling was different, and a fascist Hitleresque candidate
+                had been elected president.<ptr target="#note28" xml:id="nr28" n="28"/> The
+                butterfly effect describes that something as insignificant as killing a butterfly in
+                the past can result in subtle or even drastic changes in the present. So, even
+                though Stephen Hawking may believe there is a world in which John Wilkes Booth did
+                not succeed in killing Lincoln, we still don’t have the technology to get to that
+                world and see the changes the butterfly effect made in today’s alternate present.
+                Historians typically don’t like to answer “what if” questions, but the butterfly
+                effect, if true, would be a counterfactual historian’s dream come true.</p>
+            <p>I recently watched the 1902 movie shor<hi rend="italic">t A Trip to the
+                    Moon</hi>.<ptr target="#note29" xml:id="nr29" n="29"/> This is the famous movie
+                by Georges Melies with the scene of the rocket landing in the man-in-the-moon’s eye.
+                In 1902 we were still a year away from the Wright Brothers’ first flight. Who would
+                have thought that a mere sixty-seven years later, humans actually would walk on the
+                moon? The sci-fi of the past is the technology of the present. What will the sci-fi
+                of the present give us for the future?</p>
+            <p>According to Einstein’s theory of relativity, we can only travel to the
+                future—according to Lupton’s theory of documentary editing, we can only travel into
+                the past. But I do wonder what the future of the documentary editing profession will
+                look like. How will future editors guide their generation back in time to our day?
+                Today we have email, texts, Twitter, Facebook, and other forms of social media—how
+                will this content be explained by editors of the future? I sincerely hope that our
+                culture won’t be stereotyped as the Age of Kardashian. Or will it be the age of
+                TMI—too much information—as people frequently post a picture to Facebook of that
+                fettucine alfredo or other meals they’ve had that day. Or they post boring details
+                about their lives—what flavor of gum they picked up in the checkout line at the
+                grocery store, for example. We don’t care, and we may not care about the blog by the
+                first-time mother who documents every tedious fact and milestone with her baby.
+                Truth be told, these seemingly uninteresting tidbits come together to form a picture
+                of life in the first two decades of the twenty-first century—much the same as
+                mundane lawsuits over five-dollar debts in the 1840s give us a great window into the
+                antebellum economy. I imagine editors of the future will love that blog by the
+                first-time mother as an excellent diary of child-rearing in the early twenty-first
+                century.</p>
+            <p>For the future editor, we also have oral histories, which have been extremely
+                important in the past to Native American cultures. With the lack of letter writing
+                today, there is a growing trend for universities, historical societies, and
+                libraries to have oral history programs to capture the thoughts and words of
+                politicians, military veterans, business leaders, and community leaders, prominent
+                or not. These oral histories are wonderful memoir pieces for the subject and his or
+                her immediate family. That’s how it’s sold, but its true value will come in the
+                future, when editors twenty-five, fifty, or one hundred years from now will be able
+                to guide historians and researchers to travel back in time and read these oral
+                histories to get into the minds of people living today and explain today’s life to
+                those people in the future who did not experience it firsthand.<ptr target="#note30"
+                    xml:id="nr30" n="30"/></p>
+            <p>I appreciate your patience with my odd connection between science-fiction time travel
+                and documentary editing, so let me close with one more trip back to my college
+                years. When I was an undergraduate, I considered majoring in astrophysics because of
+                my childhood interest in space exploration and time travel, and even today, I find
+                myself reading articles on planetary probes, string theory vs. quantum loop gravity,
+                multiverses, and the possibility of numerous dimensions. Looking back—and to use
+                another time-travel metaphor, hindsight is 20/20—I made the right choice in becoming
+                a documentary editor. I don’t have to prove or disprove the existence of wormholes
+                or other means of time travel. By immersing myself in documents, I can transport
+                myself back in time to whatever period I choose and guide others as to what the
+                document is and what it means whether I’m observing great historical events or
+                mundane day-to-day life. Our own personal space-time continuum is found within the
+                documentary world. Physicists have nothing on us!</p>
+            <p>Thank you.</p>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">Martha L. Benner, Cullom Davis, eds., <hi rend="italic">The Law
+                        Practice of Abraham Lincoln: Complete Documentary Edition</hi>, DVD edition
+                    (Urbana: University of Illinois Press, 2000); Martha L. Benner and Cullom Davis,
+                    eds., <hi rend="italic">The Law Practice of Abraham Lincoln: Complete
+                        Documentary Edition</hi>, 2nd ed. (Springfield: Illinois Historic
+                    Preservation Agency, 2009), <ref type="url"
+                        target="http://www.lawpracticeofabrahamlincoln.org"
+                        >http://www.lawpracticeofabrahamlincoln.org</ref>.</note>
+                <note xml:id="note2">For example, see Daniel W. Stowell, ed., <hi rend="italic">In
+                        Tender Consideration: Women, Families, and the Law in Abraham Lincoln’s
+                        Illinois</hi> (Urbana: University of Illinois Press, 2002), in which editors
+                    of the Papers of Abraham Lincoln contributed chapters on various legal topics
+                    that were prominent in antebellum Illinois.</note>
+                <note xml:id="note3">Illinois Supreme Court Historic Preservation Commission, <ref
+                        type="url" target="http://illinoiscourthistory.org/"
+                        >http://illinoiscourthistory.org/</ref>.</note>
+                <note xml:id="note4">“The Savage Curtain,” <hi rend="italic">Star Trek</hi>, season
+                    3, episode 22, original air date March 7, 1969.</note>
+                <note xml:id="note5">The individual movies are too numerous to cite, but the <hi
+                        rend="italic">X-Men</hi> franchise is produced by Twentieth Century Fox
+                    Studios and has run from 2000 to the present, and the <hi rend="italic"
+                        >Avengers</hi> franchise is produced by Marvel Studios and has run from 2008
+                    to the present. The <hi rend="italic">Hunger Games</hi> franchise is produced by
+                    Lionsgate Studios and has run from 2012 to
+                    2015.<!--AU: Check whether “Studios” is official  part of names.--></note>
+                <note xml:id="note6">H. G. Wells, <hi rend="italic">The Time Machine: An
+                        Invention</hi> (New York: Henry Holt, 1895); Kurt Vonnegut Jr., <hi
+                        rend="italic">Slaughterhouse-Five, or The Children’s Crusade: A Duty-Dance
+                        with Death</hi> (New York: Delacorte, 1969).</note>
+                <note xml:id="note7"><hi rend="italic">The Terminator</hi> franchise began in 1984
+                    and continues to the present day. The <hi rend="italic">Back to the Future</hi>
+                    franchise lasted from 1985 to 1990.</note>
+                <note xml:id="note8"><hi rend="italic">Somewhere in Time</hi>, Rastar Pictures,
+                    release date October 3, 1980; <hi rend="italic">The Lake House</hi>, Warner
+                    Brothers, release date June 16, 2006.</note>
+                <note xml:id="note9">Albert Einstein’s theory of special relativity can be read in
+                    much detail in Albert Einstein, <hi rend="italic">Relativity: The Special and
+                        General Theory</hi> (New York: Henry Holt, 1920), 1–68. The specific example
+                    is referred to as the “twin paradox.” See Richard P. Feynman, Robert B.
+                    Leighton, and Matthew Sands, <hi rend="italic">The Feynman Lectures on Physics:
+                        Mainly Mechanics, Radiation, and Heat</hi> (New York: Addison-Wesley, 1963),
+                    section 16-2.</note>
+                <note xml:id="note10">In <hi rend="italic">Interstellar</hi>, Cooper (Matthew
+                    McConaughey) and Brand (Anne Hathaway) visit a planet with a gravitational time
+                    dilation in which an hour on the planet equals seven years off the planet. When
+                    Cooper and Brand return to the main ship after a few hours on the planet,
+                    twenty-three years had passed on the ship.</note>
+                <note xml:id="note11">Richard P. Feynman, QED: <hi rend="italic">The Strange Theory
+                        of Light and Matter</hi> (Princeton, NJ: Princeton University Press, 1985),
+                    36–76.</note>
+                <note xml:id="note12">Stephen Hawking, <hi rend="italic">A Brief History of Time:
+                        From the Big Bang to Black Holes</hi> (New York: Bantam Books, 1988).</note>
+                <note xml:id="note13">Stephen Hawking, <hi rend="italic">The Universe in a
+                        Nutshell</hi> (New York: Bantam Books, 2001), 80.</note>
+                <note xml:id="note14">Hawking uses the example of Elvis Presley still being alive;
+                    see Stephen Hawking and Leonard Mlodinow, <hi rend="italic">The Grand
+                        Design</hi> (New York: Bantam Books, 2010), 136.</note>
+                <note xml:id="note15">Hawking notes that the “idea that the universe has multiple
+                    histories may sound like science fiction, but it is now accepted as science
+                    fact.” Hawking, <hi rend="italic">Universe in a Nutshell</hi>, 80.</note>
+                <note xml:id="note16">Erika Holst, “About history, so what? Schools are underfunded
+                    and people are sick, You want funding to study the past?” <hi rend="italic"
+                        >Illinois Times</hi>, June 26, 2014. <ref type="url"
+                        target="http://illinoistimes.com/article-14115-about-history,-so-what-.html"
+                        >http://illinoistimes.com/article-14115-about-history,-so-what-.html</ref></note>
+                <note xml:id="note17">William Howells, <hi rend="italic">Back of History</hi>
+                    (Garden City, NJ: Doubleday and Company, 1954), 25–26, 86, 103; Christopher
+                    Woods, ed., <hi rend="italic">Visible Language: Inventions of Writing in the
+                        Ancient Middle East and Beyond</hi> (Chicago: University of Chicago Press,
+                    2010), 7, 33.</note>
+                <note xml:id="note18">The best statement on the advent of writing comes from James
+                    H. Breasted, <hi rend="italic">The Conquest of Civilization</hi> (New York:
+                    Harper and Brothers, 1926), 53–54. “The invention of writing and of a convenient
+                    system of records on paper has had a greater influence in uplifting the human
+                    race than any other intellectual achievement in the career of man. It was more
+                    important than all the battles ever fought and all the constitutions ever
+                    devised.”</note>
+                <note xml:id="note19"> Louis Trenchard More, <hi rend="italic">Isaac Newton: A
+                        Biography</hi> (New York: Charles Scribner’s Sons, 1934), 176–77. More notes
+                    that the phrase was not original to Newton and that its use may have been a
+                    social custom and not meant literally. Others have noted that Newton possibly
+                    meant this phrase sarcastically; see particularly Frank Manuel, <hi
+                        rend="italic">A Portrait of Isaac Newton</hi> (New York: DaCapo Press,
+                    1968), 145–46.</note>
+                <note xml:id="note20">Ed O’Keefe, “National Archives Bans Photos by Tourists,” <hi
+                        rend="italic">Washington Post</hi>, January 25, 2010, <ref type="url"
+                        target="http://voices.washingtonpost.com/federal-eye/2010/01/national_archives_bans_photos.html"
+                        >http://voices.washingtonpost.com/federal-eye/2010/01/national_archives_bans_photos.html</ref>.</note>
+                <note xml:id="note21">Eric Foner, “Historians as Public Figures,” session at
+                    American Historical Association Annual Meeting, January 3, 2015, C-SPAN, <ref
+                        type="url"
+                        target="http://www.c-span.org/video/?323583-1/historians-public-figures"
+                        >http://www.c-span.org/video/?323583-1/historians-public-figures</ref>.</note>
+                <note xml:id="note22">Salinea to John Lupton; Michaela to John Lupton; Mykell to
+                    John Lupton; Nevea to John Lupton, May 15, 2012, notes in author’s
+                    possession.</note>
+                <note xml:id="note23">Michael E. Stevens, “Why Documentary Editing Matters,” <hi
+                        rend="italic">Documentary Editing</hi> 30 (Fall and Winter 2008–9):
+                    10.</note>
+                <note xml:id="note24">Richard Leffler, “Documentary Editing: Some Essential
+                    Elements,” <hi rend="italic">Documentary Editing</hi> 18 (March 1996): 1.</note>
+                <note xml:id="note25">Charles F. Hobson, “Keeping Company with Madison and
+                    Marshall,” <hi rend="italic">Documentary Editing</hi> 19 (March 1997): 2; Phil
+                    Chase, “This Editing Life: The Joys and Imperatives of Documentary Editing,” <hi
+                        rend="italic">Scholarly Editing</hi> 35 (2014): 8.</note>
+                <note xml:id="note26">See “Notes on the Gettysburg Address,’’ <hi rend="italic">The
+                        Papers of Abraham Lincoln</hi>, <ref type="url"
+                        target="http://www.papersofabrahamlincoln.org/how-you-can-help/our-search-for-documents/notes-on-the-gettysburg-address"
+                        >http://www.papersofabrahamlincoln.org/how-you-can-help/our-search-for-documents/notes-on-the-gettysburg-address</ref>.</note>
+                <note xml:id="note27">A frequently cited example is Pauline Maier, “The Founding
+                    Revisited,” <hi rend="italic">Washington Post Book World</hi> 28 (August
+                    2005).</note>
+                <note xml:id="note28">Ray Bradbury, <hi rend="italic">A Sound of Thunder and Other
+                        Stories</hi> (New York: HarperCollins, 1990), 203–15. The story was
+                    originally published in Collier’s magazine in 1952.</note>
+                <note xml:id="note29"><hi rend="italic">Le Voyage dans la Lune</hi> (<hi
+                        rend="italic">A Trip to the Moon</hi>), Star Film, release date September 1,
+                    1902.</note>
+                <note xml:id="note30">The Oral History Association notes that “oral history
+                    interviews are historical documents that are preserved and made accessible to
+                    future researchers and members of the public,” <ref type="url"
+                        target="http://www.oralhistory.org/"
+                    >http://www.oralhistory.org/</ref>.</note>
+
+            </div>
+        </back>
+    </text>
+</TEI>

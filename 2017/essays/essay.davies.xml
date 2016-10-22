@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Method and Judgment in the Theodore Dreiser Edition</title>
+                <title level="a" type="sub">From Sister Carrie to The Titan</title>
+                <author key="Davies, Jude">Jude Davies</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.davies</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+ <addrLine>http://www.scholarlyediting.org</addrLine>
+</address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>http://cdrh.unl.edu</addrLine>
+ </address>
+                </distributor>
+                <date>2016</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">37</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-03-23"><name xml:id="gk" key="Kirilloff, Gabi"> Gabi Kirilloff</name>
+                markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Method and Judgment in the Theodore Dreiser Edition</head>
+            <head type="sub">From <hi rend="italic">Sister Carrie</hi> to <hi rend="italic">The Titan</hi></head>
+            <byline>Jude Davies</byline>
+            <epigraph>
+                <cit>
+                    <quote>The history of editing has moved according to its own logic, marked, on
+                        the positive side, both with methodological advances and with compelling
+                        demonstrations of the importance of informed judgment. The two elements,
+                        method and judgment, tend to appear on the intellectual stage as opponents,
+                        and are sometimes identified, respectively, with the ideas that the past is
+                        best recovered by either objective or subjective means. The tension in this
+                        opposition has generated its share of pointless negativity, but like all
+                        dynamic relationships the struggle has its creative potential.</quote>
+                    <bibl>&#8212;Richard Bucci<ptr target="#note1" xml:id="nr1" n="1"/></bibl>
+                </cit>
+            </epigraph>
+        </front>
+        <body>
+            <p>The Theodore Dreiser Edition is a project to publish the work of Theodore Dreiser
+                (1871–1945), a leading and controversial literary figure of the early twentieth
+                    century.<ptr target="#note2" xml:id="nr2" n="2"/> Since its inception in 1981 it
+                has produced editions of novels, travel writing, and autobiography, of private
+                letters and diaries, and volumes of political writings and interviews. Over that
+                time the Dreiser Edition’s policies have evolved in ways that overtly reflect how
+                textual editing has engaged with notions of the social text. Its first publication,
+                an edition of Dreiser’s first novel, <hi rend="italic">Sister Carrie</hi>, that
+                explicitly affiliated itself with the Greg-Bowers-Tanselle tradition, became a focal
+                point of resistance to eclectic editing, while its most recent editions downplay
+                eclecticism and announce themselves as presenting versions of texts in a continuum
+                of composition. Instructive as this may be as an example of the unfolding of a logic
+                in the history of editing, this essay takes the Dreiser Edition as exemplifying that
+                in author editions, other dynamics are also at work. The editorial context is never
+                independent from the fluctuating status and significance attributed to authors,
+                while different editorial practices may be required by changes in authors’ practices
+                of composition and revision as their relationships with publishers and publics
+                develop over their career, and by differing archival resources. Modal differences
+                between outputs also require different editorial approaches. Editorial aims may be
+                conditioned by contextual changes in literary theory, criticism, and pedagogy. The
+                trajectory of the Dreiser Edition may indicate general trends in scholarly editing,
+                then, but this essay aims to complicate such linear narratives by reference to these
+                other dynamics and contexts. The main focus is on reviewing the practices and
+                rationale of the 1981 edition of <hi rend="italic">Sister Carrie</hi>, its highly
+                polarized critical reception, the notions of authorship that it promoted, and the
+                kinds of reading that it fostered or made possible. The essay then moves on to
+                consider the subsequent development of the Edition, focusing especially on its
+                latest volume, Dreiser’s fourth novel, <hi rend="italic">The Titan</hi>, which is
+                forthcoming in 2016.</p>
+            <p>The 1981 <hi rend="italic">Sister Carrie</hi> (known as the “Pennsylvania” text
+                largely to reflect the major archival repository of Dreiser’s papers at the
+                University of Pennsylvania Library, which has provided the basis of most subsequent
+                Dreiser Edition volumes) elicited much praise and much criticism upon publication. A
+                central but not sole cause of this controversy, as will be seen, was the decision by
+                textual editor James L. W. West III to use as copy-text the holograph manuscript of
+                the novel completed by Dreiser in March 1900, before it entered the processes of
+                being typed, revised, and further edited. Various people, notably Dreiser’s wife,
+                Sarah White Dreiser, and his friend, the minor writer Arthur Henry, contributed to
+                these revisions. As well as “correcting” Dreiser’s distinctive writing style and
+                removing alleged profanities, this involved cutting 36,000 words from the
+                manuscript, changing and reordering the ending, fictionalizing some proper names,
+                and adding chapter titles. All of this, at the time, Dreiser sought or approved in
+                order to get his first novel published, and he reversed none of the revisions when
+                opportunities to republish the novel arose later in his career. In his statement of
+                editorial principles, West cited W. W. Greg, Fredson Bowers, and G. Thomas Tanselle
+                as authorities, before using value-laden rhetoric to validate Dreiser’s holograph as
+                a “serious work of art” and to state that it was the editor’s task to rescue it from
+                attempts to produce a “saleable fiction.” What antagonists with different
+                perspectives would view as authorial revision, or the social and historical
+                processes of publication, were described by West as “damaging,” “weakening,”
+                “censor[ing],” and “emasculating” Dreiser’s original vision.<ptr target="#note3"
+                    xml:id="nr3" n="3"/> West justified his choice of Dreiser’s
+                holograph&#8212;effectively a first draft&#8212;as his copy-text, and his editorial
+                treatment of it, on the grounds of not only expunging the contributions of anyone
+                other than Dreiser, but also of purifying Dreiser’s own authorship from revisions he
+                made or accepted as an editor of his own work. Radically revising the notion of the
+                “author’s final intentions” as developed in the copy-text tradition, West argued
+                that “[i]n the strictest sense,” Dreiser’s “authorial function ceased after he
+                inscribed the holograph draft of <hi rend="italic">Sister Carrie</hi>.”<ptr
+                    target="#note4" xml:id="nr4" n="4"/></p>
+            <p>This argument was ratcheted up in the edition’s preface by general editor Neda M.
+                Westlake, which strongly evoked New Critical discourses of the verbal icon. The
+                editors of the Pennsylvania Edition of <hi rend="italic">Sister Carrie</hi>,
+                Westlake stated, “with recourse to the manuscript and typescript, restore the novel
+                as closely as possible to the author’s original version, a more somber and
+                unresolved work of art. The frame of the novel remains; within the picture, like a
+                cleansed portrait, the characters assume the original clarity of the artist’s
+                    design.”<ptr target="#note5" xml:id="nr5" n="5"/></p>
+            <p>This was, of course, not all that the editors provided. West supplied a copious
+                apparatus, including a table of “Block Cuts Marked by Arthur Henry and Accepted by
+                Dreiser” as well as passages such as Dreiser’s revised ending of the novel, which
+                enabled interested readers to consider the process of revision. However, at the time
+                few reviewers registered this interrogative and enabling aspect of the edition. One
+                such was Hershel Parker, who implied that West’s project was “bringing biographical,
+                historical, and textual evidence to bear on the study of real authors creating real
+                works of art.”<ptr target="#note6" xml:id="nr6" n="6"/> Most responses, though,
+                accepted the self-presentation of the Pennsylvania <hi rend="italic">Sister
+                    Carrie</hi> as aspiring to release the individual act of authorship from its
+                social context, and were polarized between validating and contesting such a
+                project.</p>
+            <p>Controversy was fueled by the marketing of the Pennsylvania <hi rend="italic">Sister
+                    Carrie</hi> as likely to become the “accepted standard”<ptr target="#note7"
+                    xml:id="nr7" n="7"/> and the simultaneous publication of a paperback edition of
+                the “unexpurgated” text <hi rend="italic">sans</hi> editorial matter in the Penguin
+                American Library. In the furor, the Pennsylvania <hi rend="italic">Sister
+                    Carrie</hi> became a focal point of the resistance to eclectic editing that was
+                building in the American academy during the 1970s and 1980s, as Paul Eggert and
+                Peter Shillingsburg have noted.<ptr target="#note8" xml:id="nr8" n="8"/> On the one
+                side was a particularly extreme idealization of the author function, defended in
+                reviews by Richard Lingeman, who likened the editors to “art historians cleaning a
+                da Vinci fresco.” On the other side was an insistence on the “historical” text, as
+                in Donald Pizer’s review in <hi rend="italic">American Literature</hi>, and later by
+                Jack Stillinger, as part of his critique of “the myth of solitary genius.” Pizer had
+                laid out his own view on how Dreiser’s novels should <hi rend="italic">not</hi> be
+                edited as early as 1972, arguing that the circumstances of modern American
+                authorship were materially different from the conditions pertaining to the
+                Renaissance printed texts for which the Greg-Bowers methods were initially
+                formulated. “Dreiser’s novels,” he stated, “offer an excellent example of the
+                futility of applying copy-text principles to the editing of much twentieth-century
+                    fiction.”<ptr target="#note10" xml:id="nr10" n="10"/></p>
+            <p>Pizer had anticipated, from a perspective embedded in literary history, many of the
+                criticisms of the Greg-Bowers tradition that would follow in the 1980s and 1990s,
+                especially those made by Jerome J. McGann from the point of view of the “social
+                    text.”<ptr target="#note11" xml:id="nr11" n="11"/> However, as Parker
+                recognized, the 1981 <hi rend="italic">Sister Carrie</hi> also demonstrates a
+                sensitivity to the text at hand and its various contexts, that goes beyond any
+                straightforward application of editorial principles. West’s consideration of
+                authorship and textual production was itself embedded in conflicts over the status
+                of Dreiser and the significance of his first novel. The gestures toward idealist
+                notions of authorship made by the <hi rend="italic">Sister Carrie</hi> editors and
+                supportive reviewers can be fully understood only when considered in the context of
+                Dreiser’s critical reputation and the trajectory of literary studies. Because of his
+                style, his subject matter, and his politics, Dreiser was marginalized by New
+                Criticism, and his reputation as a central literary figure was not assured in 1981.
+                The affiliations with Greg-Bowers methodology and New Critical discourse were in
+                part, it could be argued, a means of engaging the historical, literary, and covertly
+                political debates over Dreiser’s reputation as an American author and the status of
+                    <hi rend="italic">Sister Carrie</hi> within the canon of American
+                literature.</p>
+            <p>At one level, the projects of “cleans[ing]” and “cleaning” were directed against
+                biographical “dust.” Before the publication of the Pennsylvania Edition, Dreiser’s
+                literary reputation was still strongly influenced by his later biography, especially
+                the left-wing political activism to which he had devoted most of his time in the
+                1930s and 1940s, culminating with his support for the foreign policy of the USSR in
+                1939–42, and his joining of the Communist Party shortly before he died in December
+                1945. To devote the resources required to describe the composition, publication, and
+                text of <hi rend="italic">Sister Carrie</hi> was not to dehistoricize but to
+                rehistorize it, allowing it to be assessed independently of Dreiser’s later
+                political affiliations.</p>
+            <p>At another level, the editors, and reviewers such as Lingeman, were addressing issues
+                of Dreiser’s style, which, while they were the focus of New Critical attention, have
+                a much longer history, extending to the present. Critical views of Dreiser as a
+                naïve or simply a bad writer go back to some of the first reviews of <hi
+                    rend="italic">Sister Carrie</hi>, and he was the main literary target of Lionel
+                Trilling’s critique of realism in the 1946 essay “Reality in America,” reprinted in
+                    <hi rend="italic">The Liberal Imagination</hi> (1952), one of the most
+                influential works of the New Criticism. According to Trilling, Dreiser’s works were
+                overvalued (by critics such as Vernon Parrington, the primary object of Trilling’s
+                critique), because they “have the awkwardness, the chaos, the heaviness which we
+                associate with ‘reality.’”<ptr target="#note12" xml:id="nr12" n="12"/> More
+                recently, even critics seeking to validate Dreiser’s work have sometimes done so by
+                negating his sophistication, as when Joseph Epstein praises Dreiser as “a good
+                boiled potato” compared to the caviar that is Henry James, or when Fredric Jameson
+                frames Dreiser’s style as an artifact of American materialism and consumerism, in a
+                reading first made the same year that the Pennsylvania <hi rend="italic">Sister
+                    Carrie</hi> appeared, and renewed in 2014.<ptr target="#note13" xml:id="nr13"
+                    n="13"/> In this context, West’s emphasis on Dreiser’s text, on the lone author
+                and his aesthetic judgments, makes sense as part of the claim that Dreiser’s
+                aesthetics were worthy of the same kind of attention as, say, those of Mark Twain or
+                Shakespeare. As West would put it later, “I meant to present him as a disciplined
+                professional and a serious young artist, not as a poorly educated rube from Indiana
+                who needed chastisement with the blue pencil.”<ptr target="#note14" xml:id="nr14"
+                    n="14"/> West’s insistence on the forensic attention required to isolate and
+                define Dreiser’s authorship aligned him with earlier critics who had striven to
+                validate Dreiser as an artist and a thinker, such as Robert H. Elias, Robert Penn
+                Warren, and Ellen Moers, and with Donald Pizer’s own <hi rend="italic">The Novels of
+                    Theodore Dreiser</hi> (1976), which drew upon a deep familiarity with Dreiser’s
+                processes of composition and revision. In this sense Dreiser is a good example of
+                how the negotiations between the disciplinary development of critical and
+                documentary editing, and the changing influence on literary and historical studies
+                of New Criticism, “Theory,” deconstruction, and multiculturalism, are central to any
+                understanding of their trajectories.<ptr target="#note15" xml:id="nr15" n="15"/>
+                What could be read as a tendency to idealize the author function in West’s
+                “Editorial Principles” could equally well be understood as a strategic use of
+                Greg-Bowers concepts to stake out a critical assessment of Dreiser’s work that
+                avoided the polarizing debate between New Critical dismissals of his novels, and the
+                framing of Dreiser’s work as directly realist portrayals of modern American urban
+                society.</p>
+            <p>Reconsidered in these contexts, West’s initially surprising description of his
+                editorial work on <hi rend="italic">Sister Carrie</hi> as “conservative” comes into
+                focus. Having insisted so strongly on the literary and artistic quality of Dreiser’s
+                manuscript, West severely limited his emendations, essentially to those necessary to
+                correct grammatical errors, and the very few instances where he could be certain
+                that Dreiser revised alone and on purely artistic grounds. He rejected “nearly all”
+                of the block cuts marked by Arthur Henry and approved by Dreiser.<ptr
+                    target="#note16" xml:id="nr16" n="16"/> It would be reasonable to consider that
+                some of the 36,000 words cut from the first-draft manuscript were cut for good
+                “artistic” reasons&#8212;Donald Pizer’s review would suggest several
+                instances&#8212;but West’s policies made it very difficult to obtain sufficient
+                evidence to make such qualitative judgments. In short, the edition embraced
+                eclecticism more in theory than in practice.<ptr target="#note17" xml:id="nr17"
+                    n="17"/> Whether this was due to method or to judgment, there was an irony that
+                so much criticism was directed toward the Edition’s presumed ahistoricism and
+                idealism, given that its treatment of the holograph manuscript bore some resemblance
+                to the nascent practice of versioning. West himself would go on to suggest in 1994
+                that “versioning would probably work for novels such as <hi rend="italic">Sister
+                    Carrie</hi>.”<ptr target="#note18" xml:id="nr18" n="18"/></p>
+            <p>The Pennsylvania <hi rend="italic">Sister Carrie</hi> invited an engagement with the
+                novel’s historical textualization precisely through its transparency in detailing
+                editorial choices according to Greg-Bowers methods. In his “Editorial Principles”
+                West explicitly ruled out the possibility of any edition of <hi rend="italic">Sister
+                    Carrie</hi> being definitive and envisaged a range of possible “future
+                editions,” including the use of parallel texts, facsimiles, and a variorum.<ptr
+                    target="#note19" xml:id="nr19" n="19"/> The combination of this sense of textual
+                possibility, West’s own “conservatism” in choosing not to selectively adopt the cuts
+                proposed by Henry and agreed to by Dreiser, and his provision of tables identifying
+                those cuts effectively invited readers into the editing process. As Paul Eggert
+                appreciatively notes, “Because of its point of comparison” West’s “textual apparatus
+                allows a more readily comprehensible study of the changes made to the manuscript
+                draft by Dreiser and by his collaborators than if his edition had merely accepted
+                the results of the collaboration as unchangeable.” As a result, it can be added, for
+                students of literature at any level, the volume offered a practical introduction to
+                questions of composition, authorship, and editing.<ptr target="#note20"
+                    xml:id="nr20" n="20"/></p>
+            <p>By the mid-1990s, the controversy over <hi rend="italic">Sister Carrie</hi> had died
+                down, as it became apparent that the “restored” text provided a highly useful
+                resource for critics and readers alongside the text published by Doubleday, Page and
+                Company in 1900, and that paperbacks based on the 1900 text continued to sell
+                alongside the Penguin Books edition that advertised its use of West’s text.<ptr
+                    target="#note21" xml:id="nr21" n="21"/> Far from supplanting the 1900 text, as
+                some critics had feared,<ptr target="#note22" xml:id="nr22" n="22"/> the
+                Pennsylvania <hi rend="italic">Sister Carrie</hi> had effected what might be called
+                a kind of “versioning” by the back door, helping to create a situation whereby even
+                the most casual of readers cannot help but engage with the novel’s textual
+                instability, at the most basic level of having to choose between what are now called
+                the “complete and unexpurgated text” (Penguin) and the “author’s final version”
+                (Oxford University Press). The Norton Critical Edition, edited by Donald Pizer,
+                became even more textually aware than either after its second edition in 1991 added
+                a comparison of the Doubleday, Page and Pennsylvania texts, and a “Textual Appendix”
+                described as providing “a generous sampling of the cuts Dreiser and his friend
+                Arthur Henry made in the typescript version[.]”<ptr target="#note23" xml:id="nr23"
+                    n="23"/></p>
+            <p>Anent the serendipity of this “versioning by the backdoor” narrative, some
+                interesting questions remain. If the availability of two textual versions of <hi
+                    rend="italic">Sister Carrie</hi> undoubtedly conveys welcome senses of the
+                fluidity of textualization and the historical contingencies behind publication, it
+                perhaps also tends to prematurely resolve those questions into a binary opposition,
+                such that readers are confronted with a simple choice between (only) two texts,
+                Dreiser’s original manuscript and that published in 1900. Both the Penguin and
+                Oxford University Press marketing tags quoted above lay claim to a definitiveness
+                which is highly questionable, hinging as they do on somewhat contingent
+                interpretations of “complete,” “author’s,” and “final.” For readers without a
+                background in textual editing, the immediate effect of this polarization is to
+                cement an absolute distinction between a privatized conception of authorial
+                creation, and the public and social process of publication. In the process, the
+                questions of authorial intention and revision that give rise to eclectic editing in
+                the first place are foreclosed before they have properly been registered. In this
+                case, the process of revision by which Dreiser’s manuscript became the text
+                published in 1900 is simplified, and any textual changes after 1900 are
+                marginalized. The latter are potentially considerable, given the publication of a
+                shortened version in London in 1901, whose commercial and critical success was
+                crucial in encouraging and enabling Dreiser to relaunch his literary career after
+                the commercial failure of the first edition, and a significant revision made for the
+                second American edition (B. W. Dodge, 1907) in the first chapter of the novel to
+                remove material appropriated from the humorist writer George Ade.<ptr
+                    target="#note24" xml:id="nr24" n="24"/> In sum, there is still critical and
+                pedagogical work to do even now, as West anticipated there would be in the
+                speculations about future editions contained in his account of textual
+                principles.</p>
+            <p>This last point brings us back to the unresolved duality of the Pennsylvania <hi
+                    rend="italic">Sister Carrie</hi>, and its implications for definitions and
+                methodologies of editing more widely. On the one hand, as has just been argued, it
+                invited readers into the archive to consider the processes of revision and
+                publication. On the other hand, this invitation was often obscured by the strong
+                claims made on behalf of its restored text, and the use of New Critical concepts to
+                frame the edition. (With hindsight West explicitly distanced himself from the
+                moralizing rhetoric employed in 1981, stating two decades later that if editing <hi
+                    rend="italic">Sister Carrie</hi> again, “I would not be as insistent about the
+                virtue of what I was doing.”<ptr target="#note25" xml:id="nr25" n="25"/>) As it was,
+                the volume could be considered to exemplify what Peter Shillingsburg has described
+                in a recent essay in <hi rend="italic">Ecdotica</hi> as the blurring of distinctions
+                between archival editions and scholarly editions that took place in the 1980s.<ptr target="#note26" xml:id="nr26" n="26"/>
+                Shillingsburg regards this blurring as responsible for a great deal of confusion,
+                misdirected criticism aimed between archival editors and scholarly editors, and more
+                recently, for allowing a narrowly archival approach to develop in the field of
+                digital editing. Developing terms
+                broached by Paul Eggert, he therefore sets about clarifying and separating the
+                projects engendered by the “archival impulse,” which he summarizes as being to
+                “reiterate texts,” and the “editing impulse,” to “fix texts.” This agenda draws upon
+                a foundational opposition that parallels Richard Bucci’s distinction between method
+                and judgment quoted in the epigraph to this essay, albeit that Bucci emphasizes the
+                “creative potential” of this dynamic, while for Shillingsburg the “pointless
+                negativity” looms larger. Notwithstanding this contrasting orientation, when taken
+                together, both sets of distinctions usefully open up a conceptual distance around
+                the familiar categories of documentary editing and critical editing. While the
+                editing traditions differ as to aim and approach, which therefore must be made clear
+                at all times, the relationship between them is dynamic; they are not necessarily
+                bound to mutually negating ontologies. Rather, they can be seen as different
+                methodologies for arbitrating between opposed modes of historicization. Reiterating
+                and fixing, method and judgment, are all at work, in varying degrees, in different
+                models of editing. Critical editing has its dualism of text and apparatus, while,
+                for example, in the German Historical-Critical tradition the text is present
+                alongside the primary aim to present an encoded archive. The relationship between
+                archival and editing impulses can be and is reconceptualized according to the
+                specific archival base and requirements of each project. What gives editions their
+                character, then, is not their adherence to one of these impulses above the other,
+                but the ways in which they arbitrate the negotiation between them, which is itself
+                often manifested in the kinds of claims they make about the texts presented, and in
+                turn the ways of reading that they invite or allow.</p>
+            <p>In the Pennsylvania <hi rend="italic">Sister Carrie</hi>, it could be said, archival
+                and editing impulses coexisted without a unifying structure. This is not to identify
+                a flaw or failing so much as to indicate that it confronted head-on the conflicted
+                nature of Dreiser’s reputation, notions of authorship, and editorial practice.
+                Though James West does not put the matter in these terms, his reflections on the
+                experience of editing novels by F. Scott Fitzgerald and William Styron as well as
+                Dreiser are compatible with this sense of methodology as a product of reflection on
+                the text at hand. In <hi rend="italic">Making the Archives Talk</hi> (2011) West
+                argues strongly for the embedding of the editorial project in the editor’s
+                open-minded immersion in the archival and biographical record from which a text is
+                produced. “Narratives” justifying the text and its editorial procedures are
+                constructed retrospectively.<ptr target="#note27" xml:id="nr27" n="27"/></p>
+            <p>For the second novel published by the Edition, <hi rend="italic">Jennie Gerhardt</hi>
+                (1992; original publication 1911), West, as he had with <hi rend="italic">Sister
+                    Carrie</hi>, adopted a holograph manuscript as his copy-text on the basis of its
+                embodying Dreiser’s “fair copy” text at the moment of submission, in this case in
+                spring 1911, to the publisher Harper and Brothers. However, drawing upon the
+                distinction between “active” and “final” authorial intention elaborated by Tanselle,
+                West produced a much more eclectic text than that presented in the Pennsylvania <hi
+                    rend="italic">Sister Carrie</hi>. He emended the copy-text to adopt the Harpers
+                editors’ revisions where they were judged commensurate with Dreiser’s active
+                    intentions.<ptr target="#note28" xml:id="nr28" n="28"/> The apparatus indicated
+                the complex web of revisions and illustrated specific cruxes, giving readers
+                detailed access to the process of revision within the limitations of the printed
+                volume. As with <hi rend="italic">Sister Carrie</hi> the tension between editorial
+                and archiving impulses was more difficult to harmonize at the level of the explicit
+                claims about the “new” text. In the introduction, the “restored” text was presented
+                as a “complement” to the first edition of 1911, while the statement of editorial
+                principles began by emphasizing the impossibility of producing a “definitive” text
+                given the complexity of the archival record, and closed by asserting that this text
+                was so different from the 1911 published version that it amounted to “an edition of
+                a new work of literature, heretofore unknown.”<ptr target="#note29" xml:id="nr29"
+                    n="29"/> While this latter was undoubtedly an extravagant claim, it immediately
+                sidelined the reductive debates over primacy that had dogged <hi rend="italic"
+                    >Sister Carrie</hi>. It also had the critically useful effect of highlighting to
+                readers the range of literary discourses (such as those of the “sentimental” novel
+                and of realism) at play in Dreiser’s work.</p>
+            <p>At this pivotal point, the trajectories of West and the Dreiser Edition diverged
+                    somewhat.<ptr target="#note30" xml:id="nr30" n="30"/> While West went on to
+                produce, for example, an edition of the F. Scott Fitzgerald text he published as <hi
+                    rend="italic">Trimalchio: An Early Version of</hi> The Great Gatsby (2000), the
+                Edition began to frame its output explicitly through an emphasis on “versioning.” In
+                a 1998 second edition of <hi rend="italic">Sister Carrie</hi>, general editor Thomas
+                P. Riggio described the West text as “a version in a continuum of composition.”
+                Given that, as Riggio also noted, “even the harshest of critics of the Pennsylvania
+                    <hi rend="italic">Sister Carrie</hi> today recognize its importance[,]” the
+                claims for definitiveness which had attended the same text in 1981 were perhaps now
+                unnecessary, though one may wonder whether the 1981 text would have had the same
+                impact on readers if those claims had never been made. In any case, Riggio now
+                emphasized that “[v]iewed together, all versions&#8212;Doubleday (1900), Dodge
+                (1907), and Pennsylvania (1981)&#8212;give us a good idea of the complex process of
+                writing and editing that went into making the novel.”<ptr target="#note31"
+                    xml:id="nr31" n="31"/> Here Riggio began to make explicit the interest in
+                “versioning,” derived in part from Donald H. Reiman,<ptr target="#note32"
+                    xml:id="nr32" n="32"/> that has informed the ways in which the Dreiser Edition
+                has presented subsequent work. Editions of <hi rend="italic">The Genius</hi> (edited
+                by Clare Virginia Eby in 2008) and <hi rend="italic">The Financier</hi> (edited by
+                Roark Mulligan, 2010) print substantial material that had been cut or revised for
+                the initial publication, and present themselves as versions to be read alongside the
+                published versions.</p>
+            <p>It needs to be made clear that this embrace of versioning as a framework for
+                understanding the function and status of Dreiser Edition volumes does not involve a
+                commitment to the practices and protocols of documentary editing. A copy-text is
+                identified. Emendations are made, recorded, and explained. Just as they always have,
+                editors take into account the author’s intentions for the work, insofar as they are
+                knowable, and examine and consider all relevant texts both pre- and
+                post-publication. Volumes are often dependent on unpublished manuscripts and
+                typescripts. A general statement of editorial principles, prepared by Thomas P.
+                Riggio for the 2016 Dreiser Edition of <hi rend="italic">The Titan</hi>, summarizes
+                current policy:<q rend="block">The Dreiser Edition advocates an approach that avoids
+                    the pitfalls of eclecticism and ontologies of definitiveness, while also seeking
+                    as much as possible to replicate the historical presentation of a clean text to
+                    readers. Accordingly, all texts are presented as one of a number of possible
+                    versions in a continuum of composition. In this regard the Dreiser Edition has
+                    evolved from the original formulations published in 1981 to take into account
+                    the central ideas common to diverse modern textual critics (among others, Philip
+                    Gaskell, Jerome J. McGann, and Donald H. Reiman).<ptr target="#note33"
+                        xml:id="nr33" n="33"/></q>The named authorities might be read as each
+                signaling a register of difference. Gaskell, from within the copy-text tradition,
+                suggests an initial focus on the last version of the work to leave the author’s
+                hands, to be selectively emended, as distinct from the original tendency in the
+                Greg-Bowers tradition to prefer the authorial manuscript before the technological
+                and social elements of print culture intervene. McGann’s name of course betokens an
+                acknowledgment of the social text, while the citation of Reiman signals the interest
+                in “versioning.” These citations function less programmatically than the appeal to
+                Greg, Bowers, and Tanselle in the <hi rend="italic">Sister Carrie</hi> edition,
+                which they implicitly reflect. Rather, as the “Editorial Procedures” also declares,
+                though there are certain general principles, “Dreiser Edition volumes are not based
+                on any fixed theory or school of thought, and editors assume that every text
+                presents unique issues that shape editorial practice.”</p>
+            <p>Those issues are evident in the two latest novels to appear in the Dreiser Edition,
+                    <hi rend="italic">The Financier</hi>, as mentioned above, and <hi rend="italic"
+                    >The Titan</hi> (forthcoming in 2016), both edited by Roark Mulligan and both of
+                which use page proofs for copy-text. As Mulligan states, in the case of <hi
+                    rend="italic">The Financier</hi>, “[t]his choice is based on critical and
+                historical considerations” which include the sense that the 1912 published version
+                had been displaced by a revised and cut version that Dreiser oversaw in 1927.
+                Mulligan’s archival research revealed that some material which was cut in proof was
+                reinstated by Dreiser in the later, shorter edition. For this and other reasons, he
+                regarded the page proofs as “a significant stage in the novel’s production” and
+                presented it accordingly.<ptr target="#note34" xml:id="nr34" n="34"/></p>
+            <p>The 2016 Dreiser Edition volume of <hi rend="italic">The Titan</hi> is in many ways a
+                collaborative enterprise, in which volume editor Mulligan worked closely with Riggio
+                as textual editor, and with me. Here again the page proofs were chosen as copy-text,
+                but this was a more difficult decision, without the specific critical and historical
+                considerations that applied to <hi rend="italic">The Financier</hi>. Nevertheless,
+                the historical specifics of the biographical and archival record strongly influenced
+                editorial policy. For a number of reasons, the ways that Dreiser composed and
+                revised changed dramatically after the publication of <hi rend="italic">Jennie
+                    Gerhardt</hi>. After 1911 Dreiser, more than familiar with the active roles of
+                publishers and editors, submitted his novels in forms that were clearly unfinished,
+                expecting to bring them to completion in dialogue with publishers’ editors and other
+                readers. (As James West has pointed out, this is a fairly common shift among
+                    novelists.<ptr target="#note35" xml:id="nr35" n="35"/>) It therefore becomes
+                much more difficult to identify a “fair copy” manuscript or typescript that could be
+                chosen as copy-text on the grounds that it represents a completed stage in the
+                development of the novel. Another set of issues derives from Dreiser’s subject
+                matter. Early novels such as <hi rend="italic">Sister Carrie</hi> and <hi
+                    rend="italic">Jennie Gerhardt</hi> were suggested by Dreiser’s own experiences
+                and those of his close family. With the trilogy begun with <hi rend="italic">The
+                    Financier</hi> and continued with <hi rend="italic">The Titan</hi>, Dreiser
+                changed his way of working. He carried out lengthy and intensive historical research
+                on the financier Charles Tyson Yerkes (1837–1905), consulting newspaper archives and
+                traveling extensively in the United States and Europe to interview people who knew
+                Yerkes. As part of his research for the Dreiser Edition volumes, Roark Mulligan
+                examined the materials Dreiser had assembled for the trilogy, preserved among the
+                Dreiser Papers at the University of Pennsylvania Library, including over 1,000 pages
+                of notes and clippings. Having drafted his fictionalization of these materials,
+                Dreiser spent months in early 1914 revising, selecting, and cutting. In his “Textual
+                Commentary,” Mulligan elaborates on a range of factors that affected these
+                revisions. Principal motivations were Dreiser’s aesthetic and commercial concerns to
+                make the novel more concise and focused. Such cutting and revising of an initially
+                lengthy draft were by now typical, integral phases in Dreiser’s habitual way of
+                writing fiction. Here they were given particular impetus by his dissatisfaction with
+                    <hi rend="italic">The Financier</hi>, which he already viewed as overlong. In
+                addition, Dreiser’s thematic interests shifted as he moved from the first volume,
+                which contextualized his protagonist Frank Cowperwood’s narrative largely with
+                respect to the world of banking, to the second, which is more engaged with the city
+                politics of Chicago and the Illinois legislature.</p>
+            <p>Given these and additional aesthetic, literary, commercial, and legal details
+                uncovered by Mulligan, even had we wanted to, it would have been very difficult to
+                restore a text of <hi rend="italic">The Titan</hi> to a moment before significant
+                revision took place, as was done with the <hi rend="italic">Sister Carrie</hi> and
+                    <hi rend="italic">Jennie Gerhardt</hi> editions. To try to arbitrate between
+                revisions would have been highly speculative. Hence it made practical as well as
+                critical sense to choose the proofs as the copy text and to make minimal
+                emendations.</p>
+            <p>Dreiser’s use of historical research in composing <hi rend="italic">The Titan</hi>
+                also influenced our conception of the apparatus. Fairly straightforwardly, since
+                Dreiser’s fictionalization of specific historical material is a key element of the
+                novel, Mulligan provided brief accounts of the historical personages and events in a
+                series of historical notes. More difficult questions arose from the need to
+                arbitrate between archival and editing impulses. Mulligan’s research at the
+                University of Pennsylvania Library revealed that Dreiser had written, and
+                subsequently cut, material that would be of interest to cultural historians, if not
+                students of Dreiser’s work. Naturally, we wanted to make available from the
+                documentary record Dreiser’s depiction of important events such as the 1893 Chicago
+                World’s Fair or Great Columbian Exposition, a much-studied topic, even though the
+                chapter was cut before the page-proof stage. We also wanted to indicate how
+                decisions over the inclusion or exclusion of specific historical events and contexts
+                were part of the process of composition. While this is true of any novel that draws
+                upon historical research, the issue is sharpened here because a central theme of
+                Dreiser’s trilogy is the dynamic between its protagonist’s exceptional ability to
+                influence events, and wider historical forces. In <hi rend="italic">The
+                    Financier</hi>, for example, Dreiser depicts Cowperwood being puzzled by the
+                outbreak of “war-spirit” during the Civil War, since he views the conflict between
+                Northern and Southern states almost exclusively in terms of its financial
+                implications for him personally. The climax of the novel narrates Cowperwood’s
+                financial ruin due to the financial panic following the Great Fire of Chicago,
+                followed by the restitution of his fortunes during the stock market crash of 1873.
+                Much of <hi rend="italic">The Titan</hi> deals with Cowperwood’s attempts to
+                manipulate the development of streetcar lines in Chicago for his own enrichment. A
+                particularly pointed example occurs in chapter 23 of the proofs, where Dreiser’s
+                narrator goes out of his way to mention the 1886 Haymarket affair, explaining that
+                it “changed, quite as an eruption might, the whole face of the commercial
+                landscape.” After a lengthy paragraph describing this historic importance, Dreiser
+                adds simply that “In the face of this, however, Cowperwood was not disturbed.” Such
+                episodes provide the grounds for interpretive debate over issues such as the novel’s
+                depiction of agency, and its orientation toward Cowperwood’s status as an
+                exceptionally powerful individual. At the same time, they exemplify the importance
+                of preserving and explaining Dreiser’s strategic depiction, or withholding, of
+                historical narrative. We have sought to present and explain Dreiser’s decisions in
+                the printed volume, while planning to put online selected archival material that was
+                cut before proof stage.</p>
+            <p>Like all authors and all works, Dreiser and <hi rend="italic">Sister Carrie</hi> and
+                    <hi rend="italic">The Titan</hi> are special cases. Each volume in the Dreiser
+                Edition is a product of the application of editorial practice to the archival
+                record, and over the last thirty-five years editors have taken the social nature of
+                textual production increasingly seriously. However, as this brief survey has
+                illustrated, volumes have been shaped just as decisively by a range of other
+                considerations: differing processes of composition and revision, issues of
+                canonicity and reputation, the demands of readers as anticipated in the production
+                of the edition and the uses to which readers put it once published, and wider
+                tendencies in literary and cultural study. Bearing this in mind, the shift from an
+                avowedly “eclectic” practice to one that explicitly embraces “versioning” seems to
+                be directed more at influencing <hi rend="italic">how</hi> Dreiser is read than <hi
+                    rend="italic">what</hi> Dreiser is read.</p>
+            <div type="section"><head type="main">Acknowledgments</head>
+            <p> I would like to thank Thomas P. Riggio for his guidance and intellectual generosity
+                over several years, and in particular for his comments on early drafts of this
+                essay. The views expressed in it, of course, are mine alone. One could not hope for
+                a better collaborator than Roark Mulligan, who combines rigor and insight with
+                seemingly inexhaustible patience and good humor. I am also very grateful to Andrew
+                Jewell and the anonymous readers for <hi rend="italic">Scholarly Editing</hi>, whose
+                comments and suggestions have been exceptionally valuable.</p></div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">Richard Bucci, “Tanselle’s ‘Editing without a Copy-Text’:
+                    Genesis, Issues, Prospects,” <hi rend="italic">Studies in Bibliography</hi> 56
+                    (2003/2004): 1–44; 7.</note>
+                <note xml:id="note2">The first general editor of the Dreiser Edition was Neda M.
+                    Westlake, with James L. W. West III as textual editor. Thomas P. Riggio became
+                    general editor in 1986 and has been its guiding presence since, remaining as
+                    textual editor after 2012, when the current author became general editor.
+                    Initially at the University of Pennsylvania Press, the Edition was published by
+                    Illinois University Press between 2004 and 2012, and subsequently moved to
+                    University of Winchester Press, which is scheduled to publish critical editions
+                    of Dreiser’s fourth novel, <hi rend="italic">The Titan</hi>, his <hi rend="italic">Critical Writings</hi>, and further volumes.</note>
+                <note xml:id="note3">West, “Editorial Principles,” in <hi rend="italic">Sister
+                        Carrie</hi> by Theodore Dreiser, Pennsylvania Edition, John C. Berkey and
+                    Alice M. Winters, historical editors; James L. W. West III, textual editor; Neda
+                    M. Westlake, general editor (Philadelphia: University of Pennsylvania Press,
+                    1981), 580, 581, 582.</note>
+                <note xml:id="note4">West, “Editorial Principles,” in Dreiser, <hi rend="italic"
+                        >Sister Carrie</hi>, 580. Though an extreme definition of authorial
+                    intention, West’s distinction would be elaborated in Hershel Parker, “The
+                    Determinacy of the Creative Process and the ‘Authority’ of the Author’s Textual
+                    Decisions,” <hi rend="italic">College Literature</hi> 10 (Spring 1983): 99–125;
+                    102–3.</note>
+                <note xml:id="note5">Westlake, “Preface and Acknowledgements,” in Dreiser, <hi
+                        rend="italic">Sister Carrie</hi>, ix.</note>
+                <note xml:id="note6">Hershel Parker, “[Review of] The Pennsylvania Edition of
+                    Theodore Dreiser’s <hi rend="italic">Sister Carrie</hi>,” <hi rend="italic"
+                        >Resources for American Literary Study</hi> 11 (1981): 332–36; 336.</note>
+                <note xml:id="note7">See, for example, Herbert Mitgang, “After 80 Years, Publisher
+                    Plans Uncut ‘Sister Carrie,’” <hi rend="italic">New York Times</hi>: Books,
+                    April 17, 1981, at <ref type="url"
+                        target="http://www.nytimes.com/1981/04/17/books/after-80-years-publisher-plans-uncut-sister-carrie.html?pagewanted=all"
+                        >http://www.nytimes.com/1981/04/17/books/after-80-years-publisher-plans-uncut-sister-carrie.html?pagewanted=all</ref>.
+                    Accessed January 10, 2016.</note>
+                <note xml:id="note8">Paul Eggert, <hi rend="italic">Securing the Past: Conservation in Art,
+                    Architecture and Literature</hi> (Cambridge: Cambridge University Press, 2009),
+                    192–98; Peter L. Shillingsburg, <hi rend="italic">From Gutenberg to Google: Electronic
+                    Representations of Literary Texts</hi> (Cambridge: Cambridge University Press, 2006),
+                    83–84; and Shillingsburg, “Literary Documents, Texts, and Works Represented
+                    Digitally,” <hi rend="italic">Ecdotica</hi> 10 (2013): 76–93; 77. Eggert’s and Shillingsburg’s
+                    complementary historical contextualizations of the 1981 Sister Carrie, and their
+                    evident convictions that West’s project instantiates questions still vital after
+                    the development of digital editing, are insights on which this essay seeks to
+                    elaborate.</note>
+                <note xml:id="note9">For key arguments, in addition to the Eggert, Shillingsburg,
+                    and Parker cited above, see Richard Lingeman, “Sister Carrie’s Chaperones,” <hi
+                        rend="italic">Nation</hi>, July 11–18, 1981, 53–57; Donald Pizer, <hi
+                        rend="italic">“Sister Carrie,” American Literature</hi> 53 (January 1982):
+                    731–37; and Jack Stillinger, <hi rend="italic">Multiple Authorship and the Myth
+                        of Solitary Genius</hi> (New York: Oxford University Press, 1991), 157–62.
+                    The debates are evenhandedly summarized by Riggio in the introduction to the
+                    1998 reissue of the Pennsylvania <hi rend="italic">Sister Carrie</hi>. He also
+                    notes their exhaustion, a conclusion echoed shortly afterward by both West and
+                    Pizer. See Thomas P. Riggio, “Introduction,” in <hi rend="italic">Sister
+                        Carrie</hi> by Theodore Dreiser (Philadelphia: University of Pennsylvania
+                    Press, 1998), vi-xvi; James L. W. West III, “The <hi rend="italic">Sister
+                        Carrie</hi> We’ve Come to Know,” <hi rend="italic">Dreiser Studies</hi> 32,
+                    no. 2 (Fall 2001): 39–41; and Donald Pizer, “The Text of <hi rend="italic"
+                        >Sister Carrie</hi>: Where We Are Now,” <hi rend="italic">Dreiser
+                        Studies</hi> 32, no. 2 (Fall 2001): 42–48.</note>
+                <note xml:id="note10">Donald Pizer, “Dreiser’s Novels: The Editorial Problem,” in
+                        <hi rend="italic">The Editing of American Literature, 1890–1930: Essays and
+                        Reviews</hi> (Lanham: Scarecrow Press, 2012), 37.</note>
+                <note xml:id="note11">For their conjunction, see Donald Pizer, “Self-Censorship and
+                    Textual Editing,” in <hi rend="italic">Textual Criticism and Literary
+                        Interpretation</hi>, ed. Jerome J. McGann (Chicago: University of Chicago
+                    Press, 1985), 144–61.</note>
+                <note xml:id="note12">Lionel Trilling, “Reality in America,” in <hi rend="italic"
+                        >The Liberal Imagination</hi> (New York: Viking, 1950), 13.</note>
+                <note xml:id="note13">See Frederic Jameson, <hi rend="italic">The Political
+                        Unconscious: Narrative as a Socially Symbolic Act</hi> (Durham, NC: Duke
+                    University Press, 1981), 160, and his contribution to “Roundtable,” <hi
+                        rend="italic">Journal of American Studies</hi> 48, no. 4 (2014): 1088–89;
+                    and Joseph Epstein, <hi rend="italic">Partial Payments: Essays on Writers and
+                        Their Lives</hi> ([1989] New York: Norton, 1991), 260.</note>
+                <note xml:id="note14">West, “The <hi rend="italic">Sister Carrie</hi> We’ve Come to
+                    Know,” 41.</note>
+                <note xml:id="note15">Eggert outlines these dynamics in detail in the closing three
+                    chapters of <hi rend="italic">Securing the Past</hi>, 154–240.</note>
+                <note xml:id="note16">West, “Textual Principles,” 581.</note>
+                <note xml:id="note17">Describing the typical practices of copy-text editing, West
+                    states that “The edition is therefore eclectic” (“Textual Principles,” 577), but
+                    this statement of principle is balanced by his own avowedly “conservative”
+                    practice as just discussed.</note>
+                <note xml:id="note18">James L. W. West III, “Fair Copy, Authorial Intention, and
+                    Versioning” [1994], in <hi rend="italic">Making the Archives Talk</hi>
+                    (Philadelphia: Pennsylvania State University Press, 2011), 29–38; 37.</note>
+                <note xml:id="note19">West, “Editorial Principles: Future Editions,” 588–89.</note>
+                <note xml:id="note20">Eggert, <hi rend="italic">Securing the Past</hi>, 195. My own
+                    experience as an undergraduate in 1980s London, UK, substantiates this claim.
+                    While I would never have dreamed of consulting the manuscript of <hi
+                        rend="italic">Sister Carrie</hi> in the New York Public Library, or the
+                    Dreiser Papers in the University of Pennsylvania Library, it seemed obvious to
+                    mark up my own paperback edition with Dreiser’s cuts, using the university
+                    library’s copy of the Pennsylvania <hi rend="italic">Sister Carrie</hi>.</note>
+                <note xml:id="note21">The 1998 Pennsylvania version is now available as an e-book on
+                    the JSTOR and Kindle platforms, regrettably without West’s textual apparatus.
+                    West’s text also remains in print in the 1994 reissue of the Penguin Books
+                    edition. Several editions are currently available based on the 1900 Doubleday,
+                    Page text with the 1907 revision for the Dodge Edition, including significant
+                    introductory and editorial matter, all of which, like the Pennsylvania and
+                    Penguin Books volumes, call attention to the existence of two versions of the
+                    work. The most substantial is the Norton Critical Edition, edited by Donald
+                    Pizer, now in its third edition (2006). The Oxford University Press World’s
+                    Classics edition, with an introduction by Lee Clark Mitchell, was reissued in
+                    2009, and in the same year Signet, part of the Penguin Random House group,
+                    brought out a version with an introduction by Richard Lingeman and an afterword
+                    by Rachel Sarah. At time of writing (January 2016), the Schoenberg Center for
+                    Electronic Text and Image at the University of Pennsylvania Library hosts online
+                    digital facsimiles of three versions of the novel: the 1900 typescript used as
+                    setting copy for the novel (rejected by West as copy-text in favor of Dreiser’s
+                    holograph, but a document whose multiple and extensive revisions make it
+                    fascinating reading), the 1900 Doubleday, Page volume, and the Pennsylvania
+                    Edition. See <ref type="url"
+                        target="http://www.library.upenn.edu/collections/rbm/dreiser/sc.html"
+                        >http://www.library.upenn.edu/collections/rbm/dreiser/sc.html</ref>.</note>
+                <note xml:id="note22">See, for example, Stillinger, <hi rend="italic">Multiple
+                        Authorship</hi>, 162.</note>
+                <note xml:id="note23">These phrases come from, respectively, the back cover of the
+                    Penguin Books edition and the Oxford University Press catalog, both as of
+                    September 2015, and the back cover of the Norton Critical Edition of <hi
+                        rend="italic">Sister Carrie</hi>, 2nd edition, 1991.</note>
+                <note xml:id="note24">It is also worth noting that the phrase “The Unexpurgated
+                    Text,” which had featured prominently on the front cover of the Penguin Books
+                    paperback edition, was relegated to the back cover when in 1994 the title
+                    migrated from the Penguin American Library to the same publisher’s Classics
+                    series. Perhaps a sense of unstable textuality was felt to cause some cognitive
+                    dissonance with the notion of the classic.</note>
+                <note xml:id="note25">West, “The <hi rend="italic">Sister Carrie</hi> We’ve Come to
+                    Know,” 41.</note>
+                <note xml:id="note26">Shillingsburg, “Literary Documents, Texts, and Works
+                    Represented Digitally.”</note>
+                <note xml:id="note27">West, <hi rend="italic">Making the Archives Talk</hi>, 1–2.
+                    Also, see especially the first three essays collected in that volume: “The
+                    Scholarly Editor as Biographer,” 6–16; “Editorial Theory and the Act of
+                    Submission,” 17–28; and “Fair Copy, Authorial Intention, and Versioning,”
+                    29–38.</note>
+                <note xml:id="note28">This is a brief summary of the approach explained and
+                    justified by James L. W. West III's “Editorial Principles,” in <hi rend="italic"
+                        >Jennie Gerhardt</hi> by Theodore Dreiser (Philadelphia: University of
+                    Pennsylvania Press, 1992), 485–96.</note>
+                <note xml:id="note29">James L. W. West III, “Introduction,” <hi rend="italic">Jennie
+                        Gerhardt</hi>, x, and “Editorial Principles,” <hi rend="italic">Jennie
+                        Gerhardt</hi>, 485, 495.</note>
+                <note xml:id="note30">For example, while conceding the possible validity of
+                    versioning as a critical approach to <hi rend="italic">Sister Carrie</hi> and
+                        <hi rend="italic">Jennie Gerhardt</hi>, West argues that later works such as
+                        <hi rend="italic">The Financier</hi> and <hi rend="italic">The Titan</hi>
+                    demand an eclectic approach (“Fair Copy, Authorial Intention, and Versioning,”
+                    in <hi rend="italic">Making the Archives Talk</hi>, 37). On the face of it, this
+                    seems in exact opposition to the Dreiser Edition’s trajectory from eclecticism
+                    to versioning, but as is discussed below, the situation is more complex.</note>
+                <note xml:id="note31">Riggio, “Introduction,” in <hi rend="italic">Sister
+                        Carrie</hi> (1998), xi.</note>
+                <note xml:id="note32">See Donald H. Reiman, <hi rend="italic">Romantic Texts and
+                        Contexts</hi> (Columbia: University of Missouri Press, 1987), 180.</note>
+                <note xml:id="note33">Jude Davies and Thomas P. Riggio, “Editorial Procedures,” in
+                        <hi rend="italic">The Titan</hi> by Theodore Dreiser, edited by Roark
+                    Mulligan; Jude Davies, general editor; Thomas P. Riggio, textual editor
+                    (Winchester, UK: Winchester University Press, forthcoming, 2016).</note>
+                <note xml:id="note34">Editorial Principles,” in <hi rend="italic">The Financier</hi>
+                    by Theodore Dreiser, edited by Roark Mulligan; Thomas P. Riggio, general editor
+                    (Urbana: University of Illinois Press, 2010), 621–24; 621, 622.</note>
+                <note xml:id="note35">Making this point in “Fair Copy, Authorial Intention, and
+                    Versioning,” West draws the conclusion from the absence of an authorial “fair
+                    copy” for <hi rend="italic">The Financier</hi> and <hi rend="italic">The Titan</hi> that an eclectic approach is required. See
+                    <hi rend="italic">Making the Archives Talk</hi>, 29–30, 36–37.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

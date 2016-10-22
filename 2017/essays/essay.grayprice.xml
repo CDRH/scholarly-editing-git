@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Letters in the Litter</title>
+                <title level="a" type="sub"
+                    >Messy Boundaries and Other Conundrums in Editing Walt
+                    Whitman’s Correspondence</title>
+                <author key="Gray, Nicole">Nicole Gray</author>
+                <author key="Price, Kenneth M.">Kenneth M. Price</author>
+            </titleStmt>
+            <editionStmt>
+                <edition> <date>2016</date> </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.grayprice</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor> <name>Center for Digital Research in the Humanities</name> <address>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                    <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address> </distributor>
+                <date>2016</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j"
+                    >Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">37</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl> <note>Born digital.</note> </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-03-24"><name xml:id="gk" key="Kirilloff, Gabi"
+                > Gabi Kirilloff</name>
+                markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">The Letters in the Litter</head>
+            <head type="sub"
+                >Messy Boundaries and Other Conundrums in Editing Walt Whitman’s
+                Correspondence</head>
+            <byline>Nicole Gray</byline>
+            <byline>Kenneth M. Price</byline>
+            <epigraph>
+                <cit>
+                    <quote>We got talking a little about Carlyle, whereat W. produced a Burroughs
+                        letter which he explained to me had “just turned up in the litter” and
+                        contained “some mighty good matter&#8212;just a little of it&#8212;anent
+                            Carlyle.”<ptr
+                        target="#note1" xml:id="nr1" n="1" /></quote>
+                </cit>
+            </epigraph>
+            
+        </front>
+        <body>
+            <div type="section">
+<p>Editing the corpus of documents associated with Walt Whitman might be
+                        described as a series of compromises or as a quixotic task, depending on
+                        whether you are of a practical or a despairing inclination&#8212;a
+                        challenging effort to impose order on a notoriously unruly set of materials.
+                        An infamous picture of Whitman at the end of his life captures what appears
+                        to be chaos: the elderly poet, in a chair in his house on Mickle Street in
+                        Camden, surrounded by the debris of his writing life, a tossed sea of
+                        papers that were&#8212;loosely at best&#8212;organized into piles.<ptr
+                        target="#note2" xml:id="nr2" n="2" /></p>
+                <figure n="1">
+                    <head>Figure 1: Walt Whitman in his upstairs bedroom in Camden in 1891.
+                        Photograph by Dr. William Reeder, Philadelphia. Library of Congress,
+                        Washington, DC. This and other images from the Library of Congress are reproduced with permission.</head>
+                    <figDesc>Figure 1: Walt Whitman in his upstairs bedroom in Camden in 1891.
+                        Photograph by Dr. William Reeder, Philadelphia. Library of Congress,
+                        Washington, DC.</figDesc>
+                    <graphic url="images/essay.grayprice.01.jpg" />
+                </figure>
+                <p>The efforts of the <hi rend="italic"
+                    >Walt Whitman Archive</hi> over the course of
+                    its twenty-year history have been devoted to trying to make sense out of these
+                    piles and many others. Early editorial decisions that were aimed toward
+                    maximizing the intelligibility of the <hi
+                    rend="italic"
+                    >Archive</hi> led to the
+                    adoption of genre as a central organizing principle. One product of that
+                    framework is that in reproducing documents on the <hi
+                    rend="italic"
+                    >Whitman
+                        Archive</hi>, we also reproduce genre, in both text encoding and interface.
+                    Genre&#8212;defined broadly as a category or type of writing “characterized by a
+                    particular form, style, or purpose”&#8212;is one way of organizing the
+                    information in both physical and digital archives.<ptr
+                    target="#note3" xml:id="nr3" n="3"
+                     /> There are others. Chronology, for example, also informs
+                    the approach of the <hi
+                    rend="italic"
+                    >Whitman Archive</hi> and of many other
+                    collections, archives, and editions engaged in organizing archival
+                        materials.<ptr
+                    target="#note4" xml:id="nr4" n="4" /> <hi rend="italic"
+                    >Whitman Archive</hi> staff members continually make decisions
+                    about boundaries between genres, documents, and texts in order to decipher the
+                    materials and to facilitate users’ encounters with the <hi
+                    rend="italic"
+                    >Archive</hi>. But it is crucial as we impose orderliness to also honor
+                    messiness, not just because that is how Whitman left&#8212;and lived
+                    in&#8212;his personal archive, but also because his writings seem designed to
+                    make a mess of boundaries, smudging any clear lines we (or anyone else) might
+                    wish to impose by separating documents based on genre or era.<ptr
+                    target="#note5" xml:id="nr5" n="5" /></p>
+                <p>Whitman’s correspondence presents a useful opportunity for thinking about matters
+                    of genre and order. Living at a time of rapid development in the scope and uses
+                    of the postal system, Whitman offers one example of the range and intensity of
+                    letter writing in the nineteenth-century United States.<ptr
+                    target="#note6" xml:id="nr6" n="6"
+                     /> Over the course of his life, the poet communicated by
+                    post with correspondents worldwide about family, personal, and professional
+                    matters. His correspondence often has complex relations to published works. In
+                    some cases, Whitman would cut up incoming letters, paste them back together, and
+                    write notes toward poems or prose pieces on the backs of them. In other cases,
+                    letter and publication merge. Whitman’s powerfully moving letter to the mother
+                    of corporal Frank Irvin following Irvin’s death, for instance, is known only as
+                    it appears in <hi
+                    rend="italic">Memoranda During the War</hi> and <hi rend="italic"
+                    >Specimen Days</hi>; no draft or original copy of the letter
+                    has been found. In this case, we encounter this letter as an integral part of
+                    larger, later prose works.<ptr
+                    target="#note7" xml:id="nr7" n="7"
+                     /> What is a
+                    letter from or to Walt Whitman? How should such documents be edited and
+                    presented to readers in a digital age? What is necessary to the understanding of
+                    Whitman’s correspondence and its relationship to his published and unpublished
+                    poetry and prose, and what types of annotation and contextualization are
+                    necessary? These fundamental, simple-sounding questions have proven to be
+                    enormously complex for those of us working at the <hi
+                    rend="italic">Walt Whitman
+                        Archive</hi>.</p>
+                <p>The question of “what is a letter” is a generic and editorial question, but it is
+                    also an ontological and interpretive one.<ptr
+                    target="#note8" xml:id="nr8" n="8"
+                     /> For editors of printed editions of correspondence, the classification often
+                    determined whether or not something made it into a published volume. For <hi
+                    rend="italic"
+                    >Whitman Archive</hi> editors working to digitize Whitman-related materials,
+                    classifications like genre can determine whether or not something gets published
+                    earlier rather than later; in what category it is grouped; and in which part of
+                    the <hi
+                    rend="italic"
+                    >Archive</hi> it appears. In both cases, classification
+                    shapes how the letter is experienced, the limitations of its reach and relation,
+                    and the conventions of its representation.<ptr
+                    target="#note9" xml:id="nr9" n="9"
+                    /> In the digital environment of the <hi
+                        rend="italic"
+                        >Whitman Archive</hi>, classification also becomes a matter of
+                    what markup we use and which parts of the letter we choose to transcribe and
+                        encode.<ptr
+                    target="#note10" xml:id="nr10" n="10"
+                     /> In our treatment and
+                    representation of Whitman’s correspondence, we have borrowed from the
+                    conventions of printed volumes (providing transcriptions that retain, as much as
+                    possible, the original spelling and punctuation of the letters; using brackets
+                    to mark illegible or unclear words; and adding footnotes as explanatory
+                    apparatus). But we expect to do more in future years to update our editorial
+                    policy and our display and search functionality to begin to account for the
+                    complexity of many of the archival objects associated with Whitman. This process
+                    has returned us to a long history of correspondence editing as well as the
+                    tension between classification or order and randomness or
+                    serendipity&#8212;letter or litter&#8212;as we consider what lies ahead for the
+                        <hi
+                    rend="italic"
+                    >Whitman Archive</hi> and its ongoing engagement with what
+                    Jerome McGann has called “the problem of knowledge representation.”<ptr
+                    target="#note11" xml:id="nr11" n="11" /></p>
+                <p>In this essay, we focus on genre as an example of one seemingly coherent
+                    organizing principle that can actually disorient or needlessly limit the
+                    representative possibilities for an archival object. We discuss some of the edge
+                    cases of Whitman’s correspondence&#8212;documents whose generic boundaries are
+                    difficult to determine&#8212;and explore their significance for editorial
+                    purposes and the ways that our thinking about these objects has affected how we
+                    have conceptualized and continue to conceptualize the structure of the <hi
+                    rend="italic"
+                    >Whitman Archive</hi> more generally. The epigraph to this
+                    essay represents one of several times over the course of Whitman’s late-life
+                    conversations, transcribed immediately afterward by Horace Traubel and
+                    eventually published in nine volumes, when Whitman and Traubel joke about a
+                    letter or another document surfacing from the litter of papers in the poet’s
+                    room in Camden, New Jersey. What is the relationship of the letter to the
+                        litter?<ptr
+                    target="#note12" xml:id="nr12" n="12"
+                     /> It is important not to
+                    make negative assumptions about litter, given Whitman’s fondness for “compost,”
+                    “debris,” “leaves-droppings,” and the like. Whitman’s room, like the <hi
+                    rend="italic"
+                    >Whitman Archive</hi>, was a broader context, an environment
+                    that impacted the material form of his papers and that structures the ways they
+                    can be interpreted.</p>
+                <p>As we work to reorder Whitman’s piles and reproduce them in a digital
+                    environment, we revisit the question of the difference between letter and litter
+                    and the usefulness and intelligibility of genre-based organization. The <hi
+                    rend="italic"
+                    >Whitman Archive</hi> is moving toward an editorial approach
+                    that embraces the potential for multiple forms of categorization and display, a
+                    structure that allows objects to be both letter and litter, and many other
+                    things besides. Documents that resist order point to things other than genre,
+                    such as the complexities of composition and the effects of Whitman’s environment
+                    and his paralysis on the shape and substance as well as the subjects of his
+                    compositions in his later years. Reading Whitman’s correspondence as woven into
+                    his prose and poetry illuminates both. Such complexities suggest that we may
+                    need to revisit editorial commonplaces in the digital era. Ultimately we see the
+                    future of the <hi
+                    rend="italic"
+                    >Whitman Archive</hi> as an effort to reach
+                    beyond the limitations of genre or temporality or any other single organizing
+                    principle by developing the framework to represent a document in multiple ways,
+                    within multiple sections, with options to navigate between one document and the
+                    next. In doing so we leverage new media capacities to represent process as well
+                    as product, document as well as text, and to attend to the history of an
+                    archival object in all its sometimes frustrating ambiguity and multitudes.</p>
+            </div>
+            <div type="section">
+                <head type="main">What Makes a Letter?</head>
+                <p>The keys to a genre are the particulars of its form, style, or purpose&#8212;the
+                    characteristics or the protocols associated with it as a category of writing. We
+                    might take as our starting point the definition of a letter by Edward Vanhoutte
+                    and Ron Van den Branden as “a physical channel through which a communicative
+                    situation is established,” defined by the distinctive features of time,
+                    receiver, and sender.<ptr
+                    target="#note13" xml:id="nr13" n="13"
+                     /> Certainly in
+                    the case of Whitman there are plenty of letters that fit such a basic
+                    definition. Still, Whitman’s correspondence, like that of many literary figures,
+                    can sometimes be difficult to distinguish from other kinds of writing.<ptr
+                    target="#note14" xml:id="nr14" n="14" /> Though there are many documents that
+                    take the conventional form of a letter&#8212;date, salutation, body,
+                    signature&#8212;there are also fragments of letters, as well as iterations of
+                    letters in copies or drafts. On one end of the spectrum are jottings or loose
+                    notes that seem to be directed to a third party or that have some of the formal
+                    features of a letter. <figure n="2">
+                    <head>Figure 2: Fragment of a Whitman letter, written on the verso of an
+                            undated letter to Whitman from Joseph B. Marvin. Charles E. Feinberg
+                            Collection, Library of Congress, Washington, DC.</head>
+                    <figDesc>Figure 2: Fragment of a Whitman letter, written on the verso of an
+                            undated letter to Whitman from Joseph B. Marvin. Charles E. Feinberg
+                            Collection, Library of Congress, Washington, DC.</figDesc>
+                    <graphic url="images/essay.grayprice.02.jpg" />
+                    </figure> The signature at the bottom in pencil, combined with the instructions
+                    to a third party&#8212;“Remember me to Coley, John Towers, Jim Sorrell, David
+                    Stevens &amp; all the boys”&#8212;seem like unmistakable proof that this
+                    fragment represents a line toward a letter. And, interestingly, these words
+                    appear again, in a draft of a nearly complete letter from Whitman to Peter Doyle
+                    dated October 14. <figure
+                        type="enlargeOnClick"  n="3">
+                    <head>Figure 3: The second leaf of a draft letter from Whitman to Peter
+                            Doyle, October 14, [1868]. Charles E. Feinberg Collection, Library of
+                            Congress, Washington, DC.</head>
+                    <figDesc>Figure 3: The second leaf of a draft letter from Whitman to Peter
+                            Doyle, October 14, [1868]. Charles E. Feinberg Collection, Library of
+                            Congress, Washington, DC.</figDesc>
+                    <graphic url="images/essay.grayprice.03.jpg" />
+                    </figure> In the draft, the line from the fragment appears, seemingly in a later
+                    iteration, but has been crossed out. We do not have a copy of the final letter,
+                    if one exists. The only evidence that this particular fragment ever made it into
+                    a letter that was sent is its presence in a printed transcription by Whitman’s
+                    friend and executor Richard Maurice Bucke, who edited and published a collection
+                    of letters from Whitman to Peter Doyle in 1897.<ptr
+                    target="#note15" xml:id="nr15" n="15"
+                     /> This collection, one of several published after
+                    Whitman’s death that focus on the letters between the poet and a single
+                    correspondent, is framed with an introductory mention of Whitman’s “Calamus”
+                    poems, and what Bucke calls the “exceptional and remarkable” friendship between
+                    Whitman and Doyle.<ptr
+                    target="#note16" xml:id="nr16" n="16"
+                     /> In the
+                    introduction, Bucke notes Whitman’s tendency in his letters to send his love to
+                    a group of friends and acquaintances known by Doyle.</p>
+                <p>It is unclear whether Bucke, whose collection of letters was based on a set given
+                    to him by Doyle, possessed a final version of this letter that included the
+                    line, or if he simply restored the line to the transcription in spite of its
+                    deletion in the draft.<ptr
+                    target="#note17" xml:id="nr17" n="17"
+                     /> The line is
+                    consistent with Bucke’s expressed intention in his edition to emphasize and
+                    provide evidence of Whitman’s “calamus” friendships, and so he may have had this
+                    reason to restore it if he was working from the draft. Conceivably, the line was
+                    crossed out later, though neighboring corrections in Whitman’s hand in the same
+                    pencil as the overstrike would suggest that Whitman was responsible for the
+                    deletion. In any case, the collection of Doyle letters was republished by
+                    Whitman’s executors in <hi
+                    rend="italic"
+                    >The Complete Writings of Walt
+                        Whitman</hi> in 1902, with the excised line still included in the October 14
+                        letter.<ptr
+                    target="#note18" xml:id="nr18" n="18" /></p>
+                <p>This document, beginning “More about William Blake,” may represent a partial
+                    draft of a draft of a letter. Or it could be that Whitman copied the line onto
+                    this note when he crossed it out of the draft letter to Doyle, in order to save
+                    it for later. Or perhaps he wished to reproduce or remember the line in another
+                    epistolary context. Is “More about William Blake” a letter, a note, a deletion,
+                    or all of the above? Presumably a draft of a letter doesn’t establish a
+                    communicative situation&#8212;at least not until an editor comes along to read
+                    the draft! In the case of Whitman, who received at least one letter from an
+                    auctioneer about the prices for which his manuscripts had sold at auction, it is
+                    possible to speculate that, chaotic though the papers in his room may have
+                    seemed, his decisions to retain manuscripts or hand them to his friends were
+                    made with an eye to readers and editors to come.<ptr
+                    target="#note19" xml:id="nr19" n="19" /> On the <hi rend="italic"
+                    >Whitman Archive</hi>, we
+                    have not yet begun editing drafts of letters, unless they are the only remaining
+                    copy of a letter,<ptr
+                    target="#note20" xml:id="nr20" n="20"
+                     /> but in the future
+                    we plan to present all drafts, so that users can see iterations, mark the
+                    progression from draft to final copy, and sometimes better grasp nuances in his
+                    writing and his relationships.</p>
+                <p>At times the existence of a draft alone can be highly illuminating, as in the
+                    case of Whitman’s 1890 response to John Addington Symonds’s repeated inquiries
+                    about the meaning of the “Calamus” cluster of poems.<ptr
+                    target="#note21" xml:id="nr21" n="21"
+                     /> The final copy is no longer extant, but if it were,
+                    that final copy would almost certainly convey less about Whitman’s response than
+                    does a mere image of the draft. This is the famous letter in which Whitman
+                    claimed: “Tho’ always unmarried I have had six children.” Equaling that whopper
+                    is his final sentence, described by Edwin Haviland Miller as “artfully
+                    deceptive”: “I see I have written with haste &amp; too great effusion&#8212;but
+                    let it stand.”<ptr
+                        target="#note22" xml:id="nr22" n="22" /> <figure type="enlargeOnClick"  n="4">
+                    <head>Figure 4: Recto of a draft letter from Whitman to John Addington
+                            Symonds, dated August 19, 1890. Charles E. Feinberg Collection, Library
+                            of Congress, Washington, DC.</head>
+                    <figDesc>Figure 4: Recto of a draft letter from Whitman to John Addington
+                            Symonds, dated August 19, 1890. Charles E. Feinberg Collection, Library
+                            of Congress, Washington, DC.</figDesc>
+                    <graphic url="images/essay.grayprice.04.jpg" />
+                    </figure> Painstakingly crafted and pasted together, bearing witness to numerous
+                    deletions and additions that led to the final version of the letter, this draft
+                    belies Whitman’s description of writing “with haste.”<ptr
+                    target="#note23" xml:id="nr23" n="23"
+                     /> The material composition of this draft letter, with
+                    its paste-ons and revisions, is as revelatory as the content, and the two are
+                    mutually explanatory even as they contradict each other. Here an image of the
+                    object, a link to Symonds’s letter, and an explanation that this is a draft as
+                    well as a transcription of the text of the letter are necessary to understanding
+                    Whitman’s response to Symonds’s query about “Calamus.”<ptr
+                    target="#note24" xml:id="nr24" n="24" /></p>
+                <p>Other explanation is necessary, too. Many have discussed the front of this draft;
+                    few have mentioned the back of it.<ptr
+                    target="#note25" xml:id="nr25" n="25"
+                     />
+                    The verso of the draft letter reveals that the draft has been pasted together
+                    out of various materials, both printed and handwritten. <figure
+                        type="enlargeOnClick"  n="5">
+                    <head>Figure 5: Verso of a draft letter from Whitman to John Addington
+                            Symonds, dated August 19, 1890. Charles E. Feinberg Collection, Library
+                            of Congress, Washington, DC.</head>
+                    <figDesc>Figure 5: Verso of a draft letter from Whitman to John Addington
+                            Symonds, dated August 19, 1890. Charles E. Feinberg Collection, Library
+                            of Congress, Washington, DC.</figDesc>
+                    <graphic url="images/essay.grayprice.05.jpg" />
+                    </figure> One scrap is a printed poem titled “Address to the Veterans,”
+                    attributed to “William Errickson.” Another is a letter from Richard Maurice
+                    Bucke that can be dated between February 5 and 15, 1890, describing the death of
+                    Bucke’s sister-in-law Matilda Gurd. Still another is a partial envelope with the
+                    return address of Dora Warnecke, a resident of San Pablo, California.<ptr
+                    target="#note26" xml:id="nr26" n="26"
+                     /> A series of other letters and
+                    objects have been recycled into the draft of Whitman’s letter to Symonds. How
+                    are we to treat this new composite object? Typically, for publication on the <hi
+                    rend="italic"
+                    >Whitman Archive</hi>, we would separate out the various parts,
+                    publishing each letter individually and linking them in the annotations,
+                    providing images of both recto and verso. But a robust system of relation,
+                    created and implemented through both the annotations and the encoding, is needed
+                    to fully represent the complexity of this object, which singlehandedly muddies
+                    the distinctions between incoming and outgoing letter, as well as draft and
+                    final copy.</p>
+                <p><hi rend="italic"
+                    >Calamus</hi>, the volume of letters from Whitman to Doyle
+                    edited by Bucke, itself begins with an item that may or may not be classified as
+                    a letter: Bucke reproduces a note written on the flyleaf of a copy of <hi
+                    rend="italic">Specimen Days</hi> that Whitman sent to Doyle in 1883. <figure
+                        type="enlargeOnClick" n="6">
+                    <head>Figure 6: Walt Whitman, <hi rend="italic"
+                        >Calamus: A Series of Letters
+                                Written During the Years 1868–1880 by Walt Whitman to a Young Friend
+                                (Peter Doyle)</hi>, ed. Richard Maurice Bucke (Boston: Laurens
+                            Maynard, 1897), iii. The copy of <hi
+                        rend="italic"
+                        >Specimen Days</hi>
+                            with the original inscription to Doyle is at the Harry Ransom Center,
+                            University of Texas at Austin (shelfmark PS 3220 A1 1882, copy
+                            1).</head>
+                    <figDesc>Figure 6: Walt Whitman, Calamus: A Series of Letters Written During
+                            the Years 1868–1880 by Walt Whitman to a Young Friend (Peter Doyle), ed.
+                            Richard Maurice Bucke (Boston: Laurens Maynard, 1897), iii. The copy of
+                            Specimen Days with the original inscription to Doyle is at the Harry
+                            Ransom Center, University of Texas at Austin (shelfmark PS 3220 A1 1882,
+                            copy 1).</figDesc>
+                    <graphic url="images/essay.grayprice.06.jpg" />
+                    </figure> Does this inscription, headed “Pete” and signed “W.W.,” originally
+                    appearing at the front of a volume that traveled, as a letter would, through the
+                    mail, constitute a letter? The placement of the message in <hi
+                    rend="italic"
+                    >Specimen Days</hi> means the flyleaf inscription could be read as an
+                    enclosure or simply as an introduction or a paratext to <hi
+                    rend="italic"
+                    >Specimen Days</hi>. Thinking of this inscription as a letter is useful
+                    because it is clearly one in a series of communications with Doyle. As Ted
+                    Genoways observes in a footnote to his transcription of the flyleaf in volume 7
+                    of <hi
+                    rend="italic"
+                    >The Correspondence</hi>, “this note is significant, because
+                    it constitutes the first correspondence from [Whitman] to Doyle since July 1880.
+                    It appears that writing <hi
+                    rend="italic"
+                    >Specimen Days</hi> stirred [Whitman]’s
+                    memories of the times he shared with Doyle in Washington” (69). Not thinking of
+                    the inscription as correspondence, within a history of correspondence, puts the
+                    reader at a disadvantage in interpreting the meaning of this inscription.</p>
+                <p>Perhaps the most famous letter associated with Whitman, extraordinary in content
+                    if traditional in form, was sent to the poet by Ralph Waldo Emerson after the
+                    publication of the first edition of <hi
+                    rend="italic"
+                    >Leaves of Grass</hi> in
+                    1855. To Emerson’s dismay, Whitman reprinted the missive with his own extended
+                    reply in the “Leaves-Droppings” section of the 1856 edition of <hi
+                    rend="italic"
+                    >Leaves</hi>, going so far as to use part of Emerson’s letter as a blurb on
+                    the spine of the book. Even before doing this, Whitman had the Emerson letter
+                    printed in a newspaper, turning a private communication into a public one. Cast
+                    out of the insular network of person-to-person correspondence and into the
+                    public role of endorsement, Emerson’s letter changes in form and function,
+                    becoming both paratext and provocation to its sender (and its numerous
+                    unforeseen recipients).<ptr
+                    target="#note27" xml:id="nr27" n="27"
+                     />
+                    Interestingly, however, the 1856 <hi rend="italic"
+                    >Leaves of Grass</hi> as a
+                    whole is framed in Whitman’s response as part of a letter&#8212;an enclosure, as
+                    it were: “HERE are thirty-two Poems, which I send you, dear Friend and Master,
+                    not having found how I could satisfy myself with sending any usual
+                    acknowledgment of your letter.”<ptr
+                    target="#note28" xml:id="nr28" n="28"
+                     /> The
+                    genre of Whitman’s extensive response letter is anything but straightforward,
+                    with even the speech-act words that seem to perform gift-giving or presentation
+                    (“Here are thirty-two poems”) coming <hi
+                    rend="italic"
+                    >after</hi> the poems in
+                    the volume. The document is labeled “Letter to Ralph Waldo Emerson” and contains
+                    the formal features of a letter&#8212;date, location, salutation, body, and
+                    signature&#8212;but the prose of the letter, despite its frequent address to
+                    “Master,” is akin to an essay along the lines of the first preface to <hi
+                    rend="italic"
+                    >Leaves of Grass</hi>, and of course its appearance within a
+                    book (the letter was never sent as a manuscript to Emerson) takes it out of a
+                    context of personal correspondence.</p>
+                <p>These documents pose a challenge for the editor seeking to situate them within
+                    some kind of coherent system, whether that system is based on genre, chronology,
+                    or some other organizing principle. Each document can be interpreted as a letter
+                    or part of a letter that was composed or sent at a particular date or time. But
+                    this only tells one part of the story of the document. Each segment of a
+                    repurposed object or series of notes could be classified and dated differently.
+                    The publication and circulation of Emerson’s letter after it was sent and
+                    received are central to the meaning of that letter. Representing these objects
+                    online without collapsing the range of interpretive possibilities they introduce
+                    requires both creativity and diligence. A digital environment offers new
+                    potential to represent single objects in multiple ways, but also to create more
+                    robust links among objects, allowing the user to move, for instance, from the
+                    draft of a letter to the final version, or from a transcription of the letter as
+                    Emerson sent it to its position within the 1856 <hi
+                    rend="italic"
+                    >Leaves of
+                        Grass</hi>. Digital scans or facsimiles also help to clarify the material
+                    complexities of some of these documents, even as searchable transcriptions offer
+                    another way of navigating them tailored more specifically to user interests.</p>
+            </div>
+            <div type="section">
+                <head type="main">Letters in Unexpected Places</head>
+                <p>In fact, the digital scans of the letters on the <hi rend="italic"
+                    >Whitman
+                        Archive</hi> might come as a surprise to readers familiar with the printed
+                    editions of Whitman’s correspondence. A world quite apart from the neat typeface
+                    and standardized spacing of the printed letters, the manuscripts feature all
+                    manner of messiness, including multiple hands, smudges, deletions, markings of
+                    the holding repository, postmarks, and notes written by owners. Here the
+                    messiness reflects the history of the individual document and also the history
+                    of previous editors. Many of the letters include a note at the top written by
+                    Horace Traubel, locating the letter within his <hi
+                    rend="italic">With Walt
+                        Whitman in Camden</hi>, where Traubel frequently includes complete
+                    transcriptions of letters Whitman hands to him in the course of their
+                    conversations. <figure n="7">
+                        <head>Figure 7: Traubel’s note at the top of a letter from <ref type="url" target="http://whitmanarchive.org/biography/correspondence/tei/loc.03292.html">James Redpath to
+                            Whitman</ref> (October 5, 1886), “see notes Aug 26 &amp; 30, ’88,” points to
+                            entries in <hi
+                        rend="italic">With Walt Whitman in Camden</hi> dated <ref type="url"
+                        target="http://whitmanarchive.org/criticism/disciples/traubel/WWWiC/2/med.00002.43.html"
+                        >August 26, 1888</ref>, and <ref type="url"
+                        target="http://whitmanarchive.org/criticism/disciples/traubel/WWWiC/2/med.00002.47.html"
+                        >August 30, 1888</ref>. The latter includes a transcription of the
+                            letter, with Whitman’s commentary. Charles E. Feinberg Collection,
+                            Library of Congress, Washington, DC.</head>
+                    <figDesc>Figure 7: Traubel’s note at the top of a letter from James Redpath
+                            to Whitman (October 5, 1886), “see notes Aug 26 &amp; 30, ’88,” points
+                            to entries in With Walt Whitman in Camden dated August 26, 1888, and
+                            August 30, 1888. The latter includes a transcription of the letter, with
+                            Whitman’s commentary. Charles E. Feinberg Collection, Library of
+                            Congress, Washington, DC.</figDesc>
+                    <graphic url="images/essay.grayprice.07.jpg" />
+                    </figure> In their interactions, Traubel often reads aloud a letter to or from
+                    Whitman, providing the occasion for reliving a historical moment and eliciting
+                    commentary from Whitman about the sender, the situation, or the letter itself,
+                    as the epigraph to this essay suggests.<ptr
+                    target="#note29" xml:id="nr29" n="29" /></p>
+                <p>Just as Whitman preemptively shaped the critical conversation about his poetry
+                    through placement of his own anonymous reviews of <hi
+                    rend="italic"
+                    >Leaves of
+                        Grass</hi>, here again we find him beating us to the punch: in tandem with
+                    Traubel, he became the first to provide extended commentary on the
+                    correspondence of Walt Whitman. In fact, Traubel’s extraordinary years-long
+                    interview, peppered by transcriptions of letters, might be said to render him
+                    one of the first editors of Whitman’s correspondence.<ptr
+                    target="#note30" xml:id="nr30" n="30"
+                     /> It is worth noting in this context Traubel’s process
+                    of editorial selection, which is guided by Whitman himself. Letters seemingly
+                    appear in <hi
+                    rend="italic"
+                    >With Walt Whitman in Camden</hi> organically, as
+                    they emerge from the litter, or as they are given to Traubel by the poet. After
+                    one visit, for instance, Traubel writes, “W. handed me a stained letter which he
+                    wished me to read back to him.”<ptr
+                    target="#note31" xml:id="nr31" n="31"
+                     />
+                    Acting as axes of conversation, the letters provoke reflections on the past, on
+                    mutual acquaintances and friends of Whitman and Traubel, on the poet’s work, and
+                    on many other topics. Set into the flow of the discussion, the letters help give
+                    rise to a rich context of day-to-day rituals, reminiscences, and interactions.
+                    This is no ordinary “edition” of letters, and yet in its very resistance to
+                    cordoning off the archive from daily life, its openness to the combination of
+                    factors that led to the unearthing of any given letter, and its careful
+                    representation of the social scene of the letter’s second life and
+                    rearticulation as well as the text of the letter itself, it offers a provocative
+                    view of what might emerge out of an editorial approach that takes seriously the
+                    conjunction of letter and litter, or that resists the ready logic of genre- and
+                    chronology-based categorization.<ptr
+                    target="#note32" xml:id="nr32" n="32" /></p>
+                <p>Whitman did more than read and comment on his correspondence. Particularly once
+                    he was less mobile, after his paralysis, he would cut some letters into pieces,
+                    paste the fragments back together, and use them as the scaffolding for
+                    poetry or prose manuscripts. One example, currently held at the Walt Whitman
+                    House in Camden, is a draft of the poem that would eventually be published as
+                    “You Tides With Ceaseless Swell.” <figure
+                        type="enlargeOnClick" n="8">
+                    <head>Figure 8: Recto image, manuscript draft of “You Tides With Ceaseless
+                            Swell.” Courtesy of Walt Whitman House, Camden, NJ. Reproduced with
+                            permission.</head>
+                    <figDesc>Figure 8: Recto image, manuscript draft of “You Tides With
+                            Ceaseless Swell.” Courtesy of Walt Whitman House, Camden, NJ. Reproduced
+                            with permission.</figDesc>
+                    <graphic url="images/essay.grayprice.08.jpg" />
+                    </figure> As he had with the Symonds draft, in order to create this manuscript,
+                    Whitman cut apart and pasted back together several other pieces of paper. In
+                    this case those pieces included four different letters: one from Whitelaw Reid,
+                    dated July 17, [1878]; another from Richard J. Hinton, dated September 10, 1871;
+                    yet another from William J. Sewell, dated January 8, 1884; and a final letter,
+                    undated, from an unidentified sender. <figure
+                        type="enlargeOnClick" n="9">
+                    <head>Figure 9: Verso image, manuscript draft of “You Tides With Ceaseless
+                            Swell,” constructed out of a series of letters sent to Whitman. Courtesy
+                            of Walt Whitman House, Camden, NJ.</head>
+                    <figDesc>Figure 9: Verso image, manuscript draft of “You Tides With
+                            Ceaseless Swell,” constructed out of a series of letters sent to
+                            Whitman. Courtesy of Walt Whitman House, Camden, NJ.</figDesc>
+                    <graphic url="images/essay.grayprice.09.jpg" />
+                    </figure> Scholars have described the importance of collaging to Whitman’s
+                    poetic and composition practices, but at first glance this seems to be a
+                    pasting-together that functions at the level of conscious composition only
+                    depending on which side of the document one examines.<ptr
+                    target="#note33" xml:id="nr33" n="33"
+                     /> That is, the piecing together of the poetry lines
+                    seems highly purposeful, while the shards and remains of the fragmentary letters
+                    are pasted together in apparently random fashion. The content of the letters may
+                    have contributed to the poetry manuscript, but if so, it is not immediately
+                    apparent. The letters were probably selected not because of any content but
+                    because of the available white space left on a leaf. Spanning over a decade, the
+                    letters also reflect Whitman’s practice of keeping papers and letters for
+                    extended periods of time, even as he eventually used them for scratch paper.<ptr
+                    target="#note34" xml:id="nr34" n="34"
+                     /> What literary sense can be made of
+                    this practice? Certainly the letters constitute bibliographical evidence. Based
+                    on the letters, we can date Whitman’s composition: if, as Geoffrey Sill argues,
+                    the title and opening two lines were written first on the back of the 1878
+                    letter, the poetry draft was almost certainly composed between that date and the
+                    months after January 8, 1884, the latest date of one of the letters used in
+                        composition.<ptr
+                    target="#note35" xml:id="nr35" n="35"
+                     /> The 1871 Hinton
+                    letter seemingly acts only as the scaffolding for the bits as Whitman pasted
+                    them together.<ptr
+                    target="#note36" xml:id="nr36" n="36" /></p>
+                <p>This manuscript is striking for many reasons, not least the problems it poses for
+                    editorial treatment on the <hi rend="italic">Whitman Archive</hi>. As a material object, it is a study:
+                    in one part of the poem draft, Whitman appears to have used a piece of paper to
+                    overwrite previous lines with newly composed ones, but the bulk of the
+                    manuscript appears to have been written in one order, then cut to pieces,
+                    shuffled, and glued back in a different order. The manuscript in its current
+                    order reads<ptr
+                        target="#note37" xml:id="nr37" n="37" />: 
+                    <figure n="10">
+                        <head>Figure 10: Transcription of manuscript draft of “You Tides With Ceaseless
+                            Swell.” At the top left corner of the pasted-down piece of paper that
+                                includes the first line under the title and the next one, there is a partial note and a series of
+                                numbers written in pencil by someone other than Whitman. We have presented the line starting "What clue" with a gray background because it
+                                has been crossed out with two vertical lines in the original manuscript.</head>
+                        <figDesc>Figure 9: Verso image, manuscript draft of “You Tides With
+                            Ceaseless Swell,” constructed out of a series of letters sent to
+                            Whitman. Courtesy of Walt Whitman House, Camden, NJ.</figDesc>
+                        <graphic url="images/essay.grayprice.10.jpg" />
+                    </figure>
+
+
+<!--I don't know what to do with this--><!--<quote> <lg>
+                    <l><hi rend="underline">You tides with ceaseless swell</hi></l>
+                    <l><hi rend="underline">and ebb.</hi></l>
+                    <l>You<ptr target="#note37" xml:id="nr37" n="37"
+                         /> tides with ceaseless
+                                swell and</l>
+                    <l>ebb! you <add place="supralinear" type="unmarked">power</add> <del
+                        type="overstrike">law</del> that does this work!</l>
+                    <l>You <del type="overstrike">unseen</del> <add place="supralinear"
+                        type="unmarked">unseen</add> force, centripetal, centrifugal,</l>
+                    <l>through space’s spread <add place="supralinear" type="insertion"
+                        >entire!</add> ! <del type="overstrike">you systole</del></l>
+                    <l><del type="overstrike">diastole!</del></l>
+                    <l><del type="overstrike">What</del> <add place="supralinear" type="unmarked"
+                        ><del type="overstrike">Take</del></add> <add type="insertion"
+                        place="supralinear"
+                        >your</add>
+                                intermutual <add
+                        place="supralinear" type="unmarked"><del type="overstrike"
+                        >unseen</del></add> chains of</l>
+                    <l>sun, <del type="overstrike">and</del> moon, <del type="overstrike"
+                        >and</del> earth, and</l>
+                    <l>all the <add place="supralinear" type="unmarked"><del type="overstrike"
+                        >brother worlds of space?</del></add> <del type="overstrike"
+                        >myriad stars?</del> constellations?</l>
+                    <l>What <add place="supralinear" type="insertion"><del type="overstrike"
+                        >are the</del> are the</add> messages by <add place="supralinear"
+                        type="unmarked"><unclear>[law?]</unclear>of</add> <del type="overstrike"
+                        >you</del> <add place="supralinear" type="unmarked"><del type="overstrike"
+                        >? it you</del></add> <del type="overstrike"
+                        >it</del>,
+                                from</l>
+                    <l>distant <del type="overstrike">worlds</del> <add place="supralinear"
+                        type="unmarked">stars</add>, to us <add place="supralinear" type="insertion"
+                        >through you?</add> ? What</l>
+                    <l>Sirius’? What Capella’s?</l>
+                    <l>What <add place="supralinear" type="insertion"><del type="overstrike"
+                        >strong</del> central</add> heart <add place="supralinear" type="insertion"
+                        ><del type="overstrike">within—</del></add> —and you the <add
+                        place="supralinear" type="unmarked"><del type="overstrike"
+                        >beating</del></add> pulse <add place="supralinear" type="unmarked"><del
+                        type="overstrike"
+                        >sent
+                                forth—</del></add> —</l>
+                    <l>vivifies all? What boundless</l>
+                    <l>clue? aggregate of <add place="supralinear" type="insertion"
+                        >and clue to all</add> all <add place="supralinear" type="insertion"
+                        >in you</add> ? <del type="overstrike"
+                        >[illegible] and
+                                seen?</del></l>
+                    <l>What clue to <del type="overstrike">all the</del> <add place="supralinear"
+                        type="unmarked">every</add> force that</l>
+                    <l>acts through <add place="supralinear" type="insertion"><del
+                        rend="stirkethrough">limitless</del></add> space <add place="supralinear"
+                        type="insertion">spread <del type="overstrike">of—</del></add> <del
+                        type="overstrike">entire</del>—centripetal,</l>
+                    <l>centrifugal?<ptr target="#note38" xml:id="nr38" n="38" /></l>
+                    <l>What <del type="overstrike">liquid</del> <add place="supralinear"
+                        type="unmarked">subtle</add> [illegible] indirection</l>
+                    <l>and significance <add place="supralinear" type="unmarked"
+                        >in you?</add> ? What fluid</l>
+                    <l><add place="supralinear" type="insertion"><del type="overstrike"
+                        >liquid subtle</del></add>vast identity,</l>
+                    <l>Holding the universe <del type="overstrike">entire</del> <add
+                        place="supralinear" type="unmarked">as</add> <del type="overstrike"
+                        >and</del> one</l>
+                    <l>—as sailing in a ship?<ptr target="#note39" xml:id="nr39" n="39" /></l>
+                    </lg>
+                    </quote>--> It is difficult to tell what the original order of the lines was, in
+                    part because additional pieces of paper have been pasted on top of the letter
+                    fragments used to form the bottom layer. In any event, it seems clear that the
+                    first two lines&#8212;beginning with “You”&#8212;have been added later, in pencil, pasted on top of the original first two lines, which like the rest of the manuscript were written in ink.
+                    Further corrections have been made in purple pencil. To form the foundation for
+                    the clipped lines, the letter from Hinton was cut into two pieces, and the
+                    letter from Sewell pasted in between.<ptr
+                    target="#note38" xml:id="nr38" n="38" /></p>
+                <p>Sill has made a case for the interpretive importance of this reordering, which
+                    resituates the subject of the line beginning with the word “holding” and
+                    demonstrates Whitman’s close attention to the structure and prosody of his
+                    lines. Another case could be made for the interpretive importance of the
+                    ostensibly unrelated base materials used in Whitman’s late-life poetic
+                    “collage.” Reading this poetry manuscript in relation to its material features
+                    highlights its multi-generic, multi-temporal, and multidimensional
+                    characteristics. Whitman had shuffled poetic lines as early as the very
+                    beginning of his work as a poet, putting clipped subjects or lines in an
+                    envelope or on a string and flipping them around until he was satisfied with the
+                        order.<ptr
+                    target="#note39" xml:id="nr39" n="39"
+                     /> In his later, less mobile
+                    years, this shuffling drew on the paper that surrounded him, and so letters sent
+                    to him became part of his poetic constructions, recycled but not thoroughly
+                    composted, visible still at least in part in the artifacts that are his poems,
+                    prose, and notes toward essays, letters, and lectures. His final product here
+                    reveals a temporal and material conjunction: decades-old letters are joined to
+                    pieces of recent letters to form the foundation for a new composition. In the
+                    case at hand, the poem has a striking resonance with its material manifestation.
+                    Like the tides with “ceaseless swell and ebb,” the poet revises, acting as
+                    “unseen force, centripetal, centrifugal,” pasting together a chain not in this
+                    case of “sun, moon, earth, and all the constellations,” but rather of
+                    near-to-hand letters, creating a new archive out of the old one that surrounds
+                    him.</p>
+                <p>While the content of the letters does not inform the poetry in obvious ways, it
+                    does suggest the resonance of the letters as the base materials out of which the
+                    poetry is wrought. Brought together to form the physical foundation for
+                    Whitman’s poetry manuscript, these letters represent an intriguing cross-section
+                    of nineteenth-century society. The partial letter from Sewell, a railroad
+                    official, former Union general, and U.S. senator from New Jersey, reads like a
+                    form letter, probably sending Whitman his annual pass to the West Jersey
+                    Railroad, of which Sewell was then vice president. The letter from Hinton, a
+                    journalist who met Whitman in the hospitals during the Civil War, alerts Whitman
+                    to an article about the poet published in the <hi
+                    rend="italic"
+                    >Springfield
+                        Republican</hi>. The letter from Reid, editor of the <hi
+                    rend="italic"
+                    >New
+                        York Tribune</hi>, who, like Hinton, first met Whitman in the hospitals
+                    during the Civil War, is difficult to decipher but seems to forward a check and
+                    to thank Whitman for sending him a volume. These letters are practical
+                    transactions that navigate major nineteenth-century industries&#8212;railroads,
+                    newspapers&#8212;speaking to the poet’s transportation, publication, and
+                    distribution practices, all now quite literally constituent of his poetic
+                    composition practices. The world becomes the word. In pasting the letters
+                    together, the poet mimics the tides in acting as “boundless aggregate,” with
+                    scissors and glue “holding the universe as one.” He makes the written words and
+                    voices of his correspondents integral parts of his poetic
+                    project&#8212;physically, of course, but also intellectually, serving as they do
+                    as evidence of the everyday concerns out of which he wove his poetry. Letters,
+                    litter, and verse are all but inseparable.</p>
+                <p>Again, it goes without saying that this practice of Whitman’s, fascinating though
+                    it may be for contemplating his methods and materials of poetic composition,
+                    complicates the project of editing his correspondence. Here, as in the case of
+                    the Symonds draft, the letters used in the construction of the manuscript have
+                    been reduced to fragments. Sender, recipient, and date have been removed in one
+                    case. This object involves a total of five authors, writing in five different
+                    hands and at least two genres on multiple scraps of paper spanning almost
+                    fifteen years. In a number of provocative ways, this object contains multitudes.
+                    The challenge becomes how to represent this object as a number of different,
+                    mutually informing things&#8212;letters, litter, poetry&#8212;while facilitating
+                    the user’s access to it through multiple channels and across multiple forms of
+                    display. At stake is the “subtle indirection and significance” of such
+                    documents&#8212;the ways in which seemingly disparate items, assembled through
+                    cutting, pasting, and repurposing, might speak to each other and to Whitman’s
+                    composition practices more generally, and how we can leverage our own processes
+                    of representing them on the <hi
+                    rend="italic"
+                    >Whitman Archive</hi> so that such
+                    meanings become accessible or at least do not get lost in remediation.</p>
+            </div>
+            <div type="section">
+                <head type="main">Letters and their Editors</head>
+                <p>In editing, as in letter writing, one engages a set of people as well as a set of
+                    conventions. In the case of letter writing, as Whitman’s correspondence
+                    demonstrates, those people can be contemporaries, a larger public, or imagined
+                    audiences of the future. The engagement can take many forms, to which drafts and
+                    material characteristics sometimes offer clues: intimacy, adulation, studied
+                    nonchalance&#8212;even destruction and reconstruction, as Whitman’s repurposing
+                    suggests. If the <hi
+                    rend="italic"
+                    >Collected Writings
+                        of Walt Whitman</hi> had dealt with Whitman’s poetry manuscripts, as was the
+                    original intention, the letters on the back of “You tides with ceaseless swell and ebb” would have warranted a footnote; perhaps a facsimile image would even have been included,
+                    because the materiality of this document has interesting implications for
+                    Whitman’s composition practices and the structure of this poem. More challenging
+                    may have been the question of what would have happened had the <hi
+                    rend="italic"
+                    >Collected Writings</hi> included incoming in addition to outgoing
+                    correspondence. Would these incoming letters, partial, cut up, and repurposed,
+                    have been included in a printed collection of Whitman’s correspondence? Every
+                    correspondence project makes decisions about what constitutes a letter, in the
+                    face of any number of ambiguities. That so few discussions of Whitman’s draft of
+                    his 1890 letter to Symonds mention that it was pasted together out of other
+                    things partly results from previous editorial treatment: Edwin Haviland Miller,
+                    working within the constraints of a printed volume, did not provide a facsimile
+                    of the letter, nor did he mention the materials out of which it was made, and he
+                    limited his transcription of it to the text on the recto.<ptr
+                    target="#note40" xml:id="nr40" n="40" /></p>
+                <p>In treating the correspondence, the <hi rend="italic"
+                    >Whitman Archive</hi> has benefited from editorial predecessors. The volumes
+                    of outgoing Whitman correspondence compiled by Miller and supplemented by
+                    Genoways have stood the test of time, representing largely accurate and
+                    editorially responsible collections, and they have been invaluable resources,
+                    saving <hi
+                    rend="italic"
+                    >Whitman Archive</hi> staff many of the headaches of
+                    identifying locations of particular letters. The most apparent shortcoming of
+                    those editions was something over which the editors had little control: the
+                    print medium. The drawbacks of print are some of the primary limitations
+                    lamented by twentieth-century editors of correspondence, and indeed there are
+                    extraordinary benefits to digital collections of correspondence. These include
+                    the ability to add newly discovered letters as they surface, and to put them in
+                    the desired order (chronological or by correspondent, for example) rather than
+                    including them in an appendix or a supplement. A digital environment also
+                    affords us the space to include both incoming and outgoing letters and to render
+                    enclosures in full, simplifying to some degree the process of selection by
+                    expanding the bounds of publication to items that simply wouldn’t have been
+                    feasible to include from the perspective of a print publisher, for whom each
+                    extra page costs money.</p>
+                <p>In the first section of this essay, we raised the question of what constitutes a
+                    Whitman letter. From the standpoint of reading and editing in the digital
+                    era, we might ask why it matters. Restrictions of space, paper, and ink
+                    no longer lend the same kind of urgency to the process of classifying and
+                    selecting by genre as they did when a limited number of printed volumes could be
+                    produced. On the web, given enough server space and an existing, functional
+                    architecture, the number of letters to be treated can multiply quickly, and
+                    anything that seems at all like a letter associated with an author could
+                    conceivably be included. There are several factors that render classification
+                    and selection still relevant in a digital era, however. One is the coherence and
+                    navigability of the interface. Another is the structure of grant applications
+                    for the letters (organized in the case of the <hi
+                    rend="italic"
+                    >Whitman
+                        Archive</hi>, for instance, by era), which can determine publication insofar
+                    as which letters appear first, and which (like undated letters) seem likely to
+                    wait until the end of the project. And it is perhaps worth considering that,
+                    where space is no object, time begins to loom large: waiting until the end of a
+                    complete edition of Whitman’s incoming and outgoing correspondence is wait
+                    enough; waiting until the end of an edition of <hi
+                    rend="italic"
+                    >all</hi>
+                    Whitman’s writings, including the correspondence, may well be an endless
+                        proposition.<ptr
+                    target="#note41" xml:id="nr41" n="41" /></p>
+                <p>In keeping with the loosely genre-based editorial practice we have developed for
+                    the <hi
+                    rend="italic">Whitman Archive</hi>, the documents published on the <hi
+                    rend="italic"
+                    >Archive</hi> have been sorted into categories, including
+                    “Books by Whitman,” “Manuscripts,” “Notebooks,” and “Letters.” Genre lends one
+                    form of coherence to a project, offering limitations, direction, and selection
+                    criteria for work designed to meet a particular goal or to specify the
+                    obligations associated with grant funding. As a result, <hi
+                    rend="italic"
+                    >Whitman Archive</hi> grant proposals have also often been organized by
+                    genre or chronology (or both). Early grant applications submitted by the <hi
+                    rend="italic"
+                    >Archive</hi> focused on poetry manuscripts. More recently, the
+                        <hi
+                    rend="italic"
+                    >Archive</hi> has been awarded grants devoted to
+                    digitizing, cataloging, and editing prose manuscripts, fiction, journalism,
+                    marginalia, and correspondence. But the examples discussed in this essay, and
+                    many other such cases, have continuously presented a challenge, because genre
+                    distinctions are themselves sometimes fuzzy, and individual documents may be
+                    multi-generic in nature. Preserving the “subtle indirection” of the documents,
+                    the messiness as well as the order, may require thinking differently about
+                    genre, and instating documents within their longer and sometimes whimsical
+                    histories.</p>
+                <p>The archival objects discussed in this essay fit into a category of
+                    correspondence, but many of them also fit comfortably into other
+                    categories&#8212;poetry manuscript, published book, printed poetry, note. These
+                    documents resist efforts to sort and silo by genre. Correspondence draws
+                    attention to the centrality of sociability, intimacy, and connection, even as it
+                    also points to publicity and mediation. Without the image of Whitman’s room in
+                    Camden, it is more difficult to understand objects like the Symonds letter and
+                    the “You Tides” manuscript, constructed by the poet out of the papers that
+                    surrounded and at times seemed to engulf him. Without Traubel’s careful accounts
+                    of his conversations with Whitman in <hi
+                    rend="italic"
+                    >With Walt Whitman in
+                        Camden</hi>, most of Whitman’s commentary about the letters he sent and
+                    received would be lacking. An advantage and a challenge of working on the <hi
+                    rend="italic"
+                    >Whitman Archive</hi> is that, whatever limited intentions we
+                    may have had when we set out to edit a set of documents like Whitman’s
+                    correspondence, we have ended up thinking much more broadly about the range of
+                    documents that comprise an author-centered digital archive, and that test its
+                    boundaries and coherence.</p>
+                <p>As the <hi rend="italic"
+                    >Archive</hi> expands, it becomes increasingly clear how
+                    difficult much of Whitman’s archive is to categorize definitively. One way we
+                    plan to respond to this challenge is to move toward an interface or user
+                    experience that is predicated on users’ questions or searches and that allows
+                    for a single object to appear in multiple sections or categories. Another way
+                    forward is to think about ways to create and optimize a system of relations,
+                    representing the fact that a letter can also be a poetry manuscript, as well as
+                    several other letters, or to represent the publication and revision history of a
+                    document, showing, for instance, that a fragment that seems like a letter could
+                    point both to a draft letter, from which it has been excised, and to one of the
+                    earliest edited collections of Whitman’s correspondence. Editors of the past
+                    have often focused on specific items or collections of items, or on specific
+                    authors; objects like the ones discussed here encourage us to think instead
+                    about ongoing, transformative connections between items and authors, between
+                    authors and their friends and family, and between authors and editors. Such
+                    links remind us that any given item did not exist in isolation, and that a long
+                    history of editing continues to affect how documents are read and re-edited in
+                    different media.</p>
+                <p>Editions of correspondence are themselves a genre of sorts, with their own
+                    conventions, forms, purposes, and expectations. Whitman’s correspondence on the
+                        <hi
+                    rend="italic"
+                    >Whitman Archive</hi> is, ultimately, an editorial
+                    palimpsest. It, too, is an act of reconstruction. We draw heavily on and update
+                    the notes and the transcriptions produced by Miller and Genoways, but we also
+                    derive transcriptions from nearly all the many editions of letters to and from
+                    Whitman that have been published since the nineteenth century. Like Whitman, we
+                    have recycled and remediated, and like him we hope to push back against the
+                    apparent rigidity of category and transform how users experience these objects
+                    by creating new pathways for them to quickly shift contexts, locating items in
+                    different parts of the <hi
+                    rend="italic"
+                    >Archive</hi> by clicking from one
+                    letter to another, pulling up the digital images or our encoding, accessing
+                    encyclopedia entries about particular correspondents, or navigating to the
+                    version of a letter that appears in <hi
+                    rend="italic"
+                    >With Walt Whitman in
+                        Camden</hi>. But we also intend with our reproductions of these materials to
+                    extend into the future the many forms of sociability enacted by the letters,
+                    inviting others to reproduce our transcriptions and the interpretations to which
+                    they give rise, using the TEI encoding and other data we have created to pursue
+                    still more pathways, continuing to compost and participate in the centripetal
+                    and centrifugal force that is historical research and discovery.</p>
+            </div>
+            <div type="section">
+                <head type="main">The Whitman Archive of the Future</head>
+                <p>In 1888 Whitman said to Traubel, “I suppose I have done a lot less general
+                    letter-writing than most men&#8212;I was not a voluminous letter writer—when I
+                    wrote at all it was mainly with a very definite notion of something very
+                    practical that needed to be said. . . . nothing ever came to me in a hurry: even
+                    my storms came taking their time.”<ptr
+                    target="#note42" xml:id="nr42" n="42"
+                     />
+                    Later he would remark that he was “not ‘a correspondent by nature.’”<ptr
+                    target="#note43" xml:id="nr43" n="43"
+                     /> While Whitman was a less
+                    “voluminous” correspondent than some writers, this comment does not account for
+                    those who wrote to him; we have identified over 3,000 incoming and outgoing
+                    letters from 1860 to 1887 alone, ranging from postal cards to sixteen-page
+                    effusions, and we expect to add many more as we embark on editing Whitman’s
+                    early and late-life correspondence.</p>
+                <p>McGann has called editing a creative act, and so it is&#8212;but it is also a
+                    political act, with its own long history. One important feature of our work on
+                    Whitman’s correspondence is that, despite the continued exertion of a
+                    gravitational pull by Whitman, the incoming letters introduce a range of new
+                    voices and hands to the <hi
+                    rend="italic"
+                    >Whitman Archive</hi>. Readers now can
+                    experience the volubility and intensity of William D. O’Connor, bent on
+                    identifying and reckoning with those who would attack or censor Whitman’s <hi
+                    rend="italic"
+                    >Leaves of Grass</hi>. They can read the thoughtful and
+                    engaging letters of Whitman’s close friend and English admirer Anne Gilchrist.
+                    They can peruse the reflections of Alabama farmer and philosopher John Newton
+                    Johnson, who had a lengthy correspondence with Whitman and came to visit him in
+                    Camden in 1887, or they can explore the connection between Whitman and various
+                    friends, acquaintances, and admirers from all over the world.</p>
+                <p>Editing Whitman’s correspondence for publication on the <hi rend="italic"
+                    >Whitman
+                        Archive</hi> turns us back to our working definition of correspondence, but
+                    it also, perhaps more importantly, prompts us to consider what digitization
+                    allows and requires of editors of archival materials. In one vision of the
+                    future, the <hi
+                    rend="italic"
+                    >Whitman Archive</hi> would represent the overlap
+                    between nineteenth-century (composition, revision, and archival) practices and
+                    twenty-first century (editorial) practices as part of the editorial product,
+                    that is, the documents that appear on the <hi
+                    rend="italic"
+                    >Whitman
+                    Archive</hi>. These practices might be represented in how such objects are
+                    defined and explained, how they are related to other documents on the <hi
+                    rend="italic"
+                    >Archive</hi>, and how they are navigated within the broader
+                    structure of the site. The evolution in the treatment of documents by the <hi
+                    rend="italic"
+                    >Whitman Archive</hi> over time is moving toward an emphasis on
+                    the extent to which many of these objects defy the apparent order of categories
+                    of genre and question the neat hierarchy of TEI/XML tags that helps to enforce
+                    that order by marking distinctions between handwriting and print, poetic line
+                    and paragraph. As the digital humanities continues to work on the forms of
+                    insight that can result from interpreting documents as data, the acts of
+                    qualifying the apparent order of the machine-readable text and emphasizing the
+                    messiness&#8212;and unpredictability, complexity, and creativity&#8212;of
+                    writing and editing (and being human) become ever more pressing.</p>
+                <p>As we confront the piles that were once in Whitman’s room in Camden and reorder
+                    them in digital space, one way of honoring the messiness in the new medium is by
+                    multiplying the representations. We have begun to move in this direction by
+                    offering multiple views of a document, including facsimile images, searchable
+                    transcriptions, and a view of the XML encoding. Another way is by encouraging an
+                    understanding of documents and texts in relation to other documents, texts, and
+                    conversations, as Traubel’s <hi
+                    rend="italic"
+                    >With Walt Whitman in Camden</hi>
+                    insisted on doing. It may be that the seemingly marginal conjunctions of
+                    editorial phenomena and oral and documentary history represented by Traubel’s
+                    notes on Whitman’s letters, signaling the replication of the archive in more
+                    than one place, offer a productive model for thinking about how to edit Whitman
+                    documents in digital space. In the end, the <hi
+                    rend="italic"
+                    >Whitman
+                        Archive</hi> hopes to create a richer environment for scholars, balancing
+                    the project of making sense of Whitman’s archive and of thinking about our own
+                    desires to make sense of the digital archive, and looking for opportunities to
+                    further expand access to Whitman-related documents by creating multiple avenues
+                    for users to explore the transforming and transformative relationships between
+                    letters, litter, and literature.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">Horace Traubel, <hi rend="italic"
+                    >With Walt Whitman in
+                        Camden</hi>, 9 vols. (various publishers, 1906–96), 1:42–43. Subsequent
+                    references will be abbreviated <hi
+                    rend="italic">WWWC</hi>.</note>
+                <note xml:id="note2"
+                    >Whitman first moved to Camden, NJ, to live with his brother
+                    George in 1873 after suffering a stroke that left him partially disabled on his
+                    left side. When George retired and moved outside Camden in 1884, Whitman elected
+                    to stay and purchase his own house on Mickle Street, where he lived until his
+                    death in 1892.</note>
+                <note xml:id="note3">“Genre,” def. 1b, <hi rend="italic"
+                    >The Oxford English
+                        Dictionary</hi>, 2nd ed., 1989. Catalogs and finding aids of physical
+                    archives often divide materials by genre, separating, for instance,
+                    correspondence from manuscript material, and often including cross-reference
+                    sheets in cases of documents that fit both categories.</note>
+                <note xml:id="note4">On the <hi rend="italic"
+                    >Whitman Archive</hi> we generally
+                    offer the user an option to sort by date within a section organized by
+                    genre.</note>
+                <note xml:id="note5"
+                    >As Ed Folsom has written, Whitman “had an ongoing battle with
+                    genre,” asserting in titles and elsewhere that the units of text in <hi
+                    rend="italic"
+                    >Leaves of Grass</hi> were poems, but pushing the boundaries of
+                    that designation. “Database as Genre: The Epic Transformation of Archives,” <hi
+                    rend="italic"
+                    >PMLA</hi> 122, no. 5 (October 2007): 1572. Whitman also
+                    experimented in books like <hi
+                    rend="italic"
+                    >Two Rivulets</hi> with the
+                    juxtaposition of prose and verse and the provocation to the reader produced by
+                    the structural and semantic relationships between the two.</note>
+                <note xml:id="note6"
+                    >For a discussion of the development and increasingly widespread
+                    use of the post in nineteenth-century America, as well as what he refers to as
+                    “a diffuse culture of the post,” see David Henkin, <hi
+                    rend="italic"
+                    >The Postal
+                        Age</hi> (Chicago: University of Chicago Press, 2006), 5.</note>
+                <note xml:id="note7"
+                    >Whitman misspelled Irvin’s name as “Irwin.” These larger prose
+                    works were republished as part of <hi
+                    rend="italic"
+                    >The Complete Writings of
+                        Walt Whitman</hi> (New York: G. P. Putnam’s Sons, 1902), 10 vols. The letter
+                    about Irwin/Irvin was extracted from <hi
+                    rend="italic"
+                    >The Complete
+                        Writings</hi> and treated as a letter by Edwin Haviland Miller in his
+                    editing of Walt Whitman, <hi rend="italic">The Correspondence</hi>, six vols. (New York: New York University Press, 1961-77).</note>
+                <note xml:id="note8"
+                    >It is also an old question, frequently asked: for an entire
+                    volume of essays devoted in one way or another to this topic and many others
+                    related to editing correspondence, see <hi
+                    rend="italic"
+                    >Editing Correspondence:
+                        Papers Given at the Fourteenth Annual Conference on Editorial Problems,
+                        University of Toronto, 3–4 November 1978</hi>, ed. J. A. Dainard (New York:
+                    Garland, 1979).</note>
+                <note xml:id="note9"
+                    >The timing of publication has largely to do with grant funding.
+                    Many <hi
+                    rend="italic"
+                    >Whitman Archive</hi> grant applications have been
+                    organized around genre, typically in conjunction with chronology (we intend to
+                    edit a particular set of documents from a specific time period). In the case of
+                    the correspondence, for instance, support from the National Historical
+                    Publications and Records Commission has allowed us to publish Whitman’s Civil
+                    War, Reconstruction, and post-Reconstruction correspondence in a series of
+                    grant-funded projects over the past seven years. Different grant projects have
+                    been completed at different times, at different stages of technical
+                    development&#8212;we are currently in the process of converting the files that
+                    constitute many individual sections of the <hi
+                    rend="italic"
+                    >Whitman
+                        Archive</hi> to the most recent P5 version of the TEI encoding
+                    guidelines&#8212;so genre becomes one determining factor for where on the <hi
+                    rend="italic"
+                    >Archive</hi> a document is found, how it is encoded, and how
+                    it is displayed.</note>
+                <note xml:id="note10"
+                    >Our editorial policy for the letters states that we, in this
+                    first publication pass, are not transcribing and encoding deletions, although we
+                    do often include scans of the original documents so that users have access to
+                    revisions, deletions, and other features that are not represented in the
+                    encoding or transcription. We intend to go back and transcribe and encode
+                    revisions once all the letters are published. Our current treatment of
+                    correspondence has differed from the way we have treated Whitman’s notebooks and
+                    poetry manuscripts, for instance, for which we have been transcribing, encoding,
+                    and displaying additions and deletions.</note>
+                <note xml:id="note11">"Database, Interface, and Archival Fever,” <hi rend="italic"
+                    >PMLA</hi> 122, no. 5 (October 2007): 1589.</note>
+                <note xml:id="note12"
+                    >One is reminded by this pairing of Mark Twain’s banquet speech
+                    on “littery” men, a burlesque of Ralph Waldo Emerson, Henry Wadsworth
+                    Longfellow, and Oliver Wendell Holmes, detailed in Richard S. Lowry’s <hi
+                    rend="italic"
+                    >“Littery Man”: Mark Twain and Modern Authorship</hi> (New
+                    York: Oxford University Press, 1996), 24–33.</note>
+                <note xml:id="note13"
+                    >Edward Vanhoutte and Ron Van den Branden, “Describing,
+                    Transcribing, Encoding, and Editing Modern Correspondence Material: A Textbase
+                    Approach,” <hi
+                    rend="italic"
+                    >Literary and Linguistic Computing</hi> 24, no. 1
+                    (2009): 84; written in 2002 and as qtd. in “Presentational and Representational
+                    Issues in Correspondence Reconstruction and Sorting,” <hi
+                    rend="italic"
+                    >Literary
+                        and Linguistic Computing</hi> 19, no. 1 (2004): 45–54.</note>
+                <note xml:id="note14"
+                    >See for instance Mark Twain, whose “Ashcroft-Lyon Manuscript”
+                    has prompted Amanda Gagel’s meditation on editing and the definition of
+                    correspondence in a recent issue of <hi
+                    rend="italic"
+                    >Scholarly Editing</hi>.
+                    The Ashcroft-Lyon Manuscript, ostensibly a letter to William Dean Howells
+                    consisting of several hundred pages, was unsent and unpublished. The Mark Twain
+                    Project is currently editing the manuscript. See “Letters as Critical Texts,”
+                        <hi
+                    rend="italic">Scholarly Editing</hi> 36 (2015): 1–20.</note>
+                <note xml:id="note15">See <hi rend="italic"
+                    >Calamus: A Series of Letters Written
+                        During the Years 1868–1880 by Walt Whitman to a Young Friend (Peter
+                        Doyle)</hi>, ed. Richard Maurice Bucke (Boston: Small, Maynard,
+                    1897).</note>
+                <note xml:id="note16">Bucke, <hi rend="italic"
+                    >Calamus</hi>, 18. For other examples
+                    of such collections, see Thomas B. Harned’s <hi
+                    rend="italic"
+                    >The Letters of
+                        Anne Gilchrist and Walt Whitman</hi> (1918); Clara Barrus’s <hi
+                    rend="italic">Whitman and Burroughs: Comrades</hi> (1931); Horst Frenz’s <hi
+                    rend="italic"
+                    >Whitman and Rolleston: A Correspondence</hi> (1951); Artem
+                    Lozynsky’s <hi
+                    rend="italic"
+                    >The Letters of Dr. Richard Maurice Bucke to Walt
+                        Whitman</hi> (1977); and Wesley Raabe’s <ref
+                    type="url"
+                    target="http://www.whitmanarchive.org/biography/correspondence/lvvwintro.html"
+                    ><hi rend="italic"
+                    >“walter dear”: The Letters from Louisa Van Velsor
+                            Whitman to Her Son Walt</hi></ref>, published on the <hi
+                    rend="italic">Whitman Archive</hi> (2014). Thomas Donaldson’s <hi rend="italic"
+                    >Walt
+                        Whitman the Man</hi> (1896) also features a number of transcriptions and
+                    facsimiles of letters, as well as other manuscripts.</note>
+                <note xml:id="note17"
+                    >The draft letter matches Bucke’s transcription in most other
+                    particulars. There is no indication in the volume of whether the letter is a
+                    draft.</note>
+                <note xml:id="note18">See <hi rend="italic"
+                    >The Complete Writings of Walt
+                        Whitman</hi>, 5:31.</note>
+                <note xml:id="note19"
+                    >See the letter from W. I. Whiting to Walt Whitman of June 14,
+                    1886, which Whitman forwarded to the <hi
+                    rend="italic">Critic</hi> on <ref type="url"
+                    target="http://www.whitmanarchive.org/biography/correspondence/tei/loc.05961.html"
+                    >June 17</ref> for publication as an “item” in that magazine. In the letter,
+                    Whiting wrote that “at a sale of Autographs &amp; Books a few days ago” an
+                    autograph letter from Whitman had sold for eighty dollars and a first edition
+                        <hi
+                    rend="italic"
+                    >Leaves of Grass</hi> for ten dollars, which Whiting noted
+                    was “the highest paid for any similar lots.” Charles E. Feinberg Collection,
+                    Library of Congress, Washington, DC. Whitman also destroyed letters,
+                    particularly after his stroke, when he was concerned about his health and
+                    fearful that death might be imminent. Miller, <hi
+                    rend="italic">The
+                        Correspondence</hi>, 2:7.</note>
+                <note xml:id="note20"
+                    >This is frequently the case: Whitman, after years as a
+                    copyist, seems to have adopted the habit of writing drafts of letters and then
+                    copying them and sending the final copy but retaining the draft, so we often only have Whitman’s draft of a letter.</note>
+                <note xml:id="note21"
+                    >Symonds, an English biographer, critic, and poet, was “a
+                    writer of homoerotic poetry and a pioneer in the study of homosexuality.” Andrew
+                    C. Higgins, “Symonds, John Addington (1840–1893),” in <hi
+                    rend="italic"
+                    >Walt
+                        Whitman: An Encyclopedia</hi> (New York: Garland Publishing, 1998), 701–2.
+                    Symonds, who later published a biography of Whitman, had asked the poet directly
+                    about homosexuality in the “Calamus” poems in an August 1890 letter: “In your
+                    conception of Comradeship, do you contemplate the possible intrusion of those
+                    semi-sexual emotions &amp; actions which no doubt do occur between men? . . . I
+                    should much like to know whether <hi
+                    rend="italic"
+                    >you are prepared to leave
+                        them to the inclinations &amp; the conscience of the individuals
+                        concerned?</hi> . . . I agree with the objections I have mentioned that,
+                    human nature being what it is, &amp; some men having a strong natural bias
+                    toward persons of their own sex, the enthusiasm of ‘Calamus’ is calculated to
+                    encourage ardent &amp; <hi
+                    rend="italic"
+                    >physical</hi> intimacies. But I do not
+                    agree with them in thinking that such a result would absolutely be prejudicial
+                    to social interests.” Qtd. in Miller, <hi
+                    rend="italic"
+                    >The Correspondence</hi>,
+                    5:72. Because we have not yet systematically published letters after 1887, these
+                    letters are not yet available on the <hi
+                    rend="italic">Whitman
+                    Archive</hi>.</note>
+                <note xml:id="note22">Miller, <hi rend="italic"
+                    >The Correspondence</hi>, 5:73n18. Of
+                    course it is impossible to prove conclusively that Whitman had no children, but
+                    scholars have agreed that his claims in this letter were more likely defensive
+                    than factual. David Reynolds, for instance, calls the statement about fathering
+                    six children “an obvious prevarication” in <hi
+                    rend="italic"
+                    >Walt Whitman’s
+                        America</hi> (New York: Vintage Books, 1995), 28.</note>
+                <note xml:id="note23"
+                    >Whitman often expressed doubts about carefully crafted and
+                    refined literary letters&#8212;in his view, these suffered from a lack of
+                    vitality and even a deceptiveness. He much preferred unpretentious messages such
+                    as those “from sailors&#8212;stumbling, tumbling: yet full to the full of
+                    expression and force” (<hi
+                    rend="italic"
+                    >WWWC</hi>, 6:184). Yet Whitman’s
+                    reliance on drafts and intensive revision in his own letters points to the
+                    (understandable) gap between his professed values and his working practice. As
+                    Miller notes in his introduction to the <hi
+                    rend="italic"
+                    >Correspondence</hi>,
+                    Whitman “was not so impulsive or spontaneous in his correspondence as he
+                    implied” (1:3).</note>
+                <note xml:id="note24"
+                    >M. Jimmie Killingsworth notes some of the probable differences
+                    between this draft and the letter that was sent to Symonds, drawing on Symonds’s
+                    quotation of Whitman in a later letter to Edward Carpenter, in which Symonds
+                    writes: “He rambles on about being less ‘restrained’ by temperament &amp; theory
+                    than I (J. A. S.) am&#8212;‘I at moments let the spirit impulse (female) rage
+                    its utmost wildest damnedest (I feel I do sometimes in L. of G. &amp; I do
+                    so).’” <hi
+                    rend="italic"
+                    >Whitman’s Poetry of the Body: Sexuality, Politics, and
+                        the Text</hi> (Chapel Hill: University of North Carolina Press, 1991), 172.
+                    In the draft, Whitman wrote: “I know that while I have a horror of ranting &amp;
+                    bawling, I at certain moments let the spirit, impulse, (? demon) rage its
+                    utmost, its wildest, damnedest—(I feel to do so in my L of G, &amp; I do
+                    so).”</note>
+                <note xml:id="note25"
+                    >Traubel does not include a transcription of the letter from
+                    Symonds inquiring about “Calamus” in his notes in <hi
+                    rend="italic"
+                    >With Walt
+                        Whitman in Camden</hi>, a significant omission. He does include the
+                    following description of Whitman reading the letter, however: “Then W. started
+                    to read the letter again, and suddenly his face paled in the strangest way and
+                    he laid the letter down and said, ‘I talked with him [a visiting census taker] too long: it has tired me
+                    out.’ I stayed till he had recovered himself somewhat—told him he could speak of
+                    it again&#8212;then left” (<hi
+                    rend="italic">WWWC</hi>, 7:67).</note>
+                <note xml:id="note26"
+                    >The letter that arrived in this envelope has not been located,
+                    nor is it listed among the “incoming letters” in the seventh volume of Walt Whitman, <hi
+                    rend="italic"
+                    >The Correspondence</hi>, ed. Ted Genoways (Iowa
+                    City: University of Iowa Press, 2004).</note>
+                <note xml:id="note27"
+                    >For a discussion of Whitman’s response letter, which she
+                    interprets as an expression of dissatisfaction with the genre of letter writing
+                    as a mode of intimacy that (in its exclusivity) imposes hierarchy and resists a
+                    more universal connection, see Elizabeth Hewitt, <hi
+                    rend="italic"
+                    >Correspondence and American Literature, 1770–1865</hi> (New York: Cambridge
+                    University Press, 2004), 179–81. Ed Folsom also discusses Whitman’s publication
+                    of this letter in conjunction with his own “epistolary poetry” in an article
+                    titled “Co-Responding with Whitman,” in <hi
+                    rend="italic"
+                    >Companion to
+                        Nineteenth-Century American Letters and Letter-Writing</hi>, ed.
+                    Celeste-Marie Bernier, Judith Newman, and Matthew Pethers (Edinburgh: Edinburgh
+                    University Press, forthcoming).</note>
+                <note xml:id="note28">Walt Whitman, <hi rend="italic"
+                    >Leaves of Grass</hi>
+                    (Brooklyn, NY: n.p., 1856), 346. Wordsworth, interestingly, also invoked the
+                    genre of the letter in <hi
+                    rend="italic"
+                    >The Prelude</hi>, which
+                    Gary Schmidgall notes was addressed to Coleridge “as if it were one massive
+                    epistle: ‘O Friend! O Poet! brother of my soul.’” <hi
+                    rend="italic"
+                    >Containing
+                        Multitudes: Walt Whitman and the British Literary Tradition</hi> (New York:
+                    Oxford University Press, 2014), 243.</note>
+                <note xml:id="note29"> See, for example, this passage from <hi rend="italic"
+                    >With
+                        Walt Whitman in Camden</hi>: “There were two [Bram] Stoker letters and the
+                    draft of a letter from W. acknowledging them. ‘It’s a rather long story,’ I
+                    said: ‘there are several chapters to it.’ I also asked him: ‘Did you read them
+                    over today when you found them?’ He said: ‘No: I left that job for you: I
+                    haven’t read them since they came in ’76: when I sit here, when you read to me,
+                    when I have nothing to do but listen, I feel composed, at peace, more than
+                    usually impressionable: I take things in without any effort,
+                    then&#8212;moreover, retain them.’ I said: ‘I am willing enough to read.’ W.:
+                    ‘You see&#8212;there’s method in my laziness: I’m doing the best I can in the
+                    littlest ways as well as the biggest to conserve the few dribbles of vitality
+                    that are left to me’” (<hi
+                    rend="italic">WWWC</hi>, 4:179).</note>
+                <note xml:id="note30">As Miller points out in his preface to <hi rend="italic"
+                    >The
+                        Correspondence</hi> (1:vii), Whitman’s literary executors (Traubel, Bucke,
+                    and Thomas Harned) were the first to publish selections of his correspondence in
+                    volumes like <hi
+                    rend="italic"
+                    >In Re Walt Whitman</hi> (Philadelphia: David
+                    McKay, 1893), <hi
+                    rend="italic"
+                    >The Wound Dresser</hi> (Boston: Small, Maynard
+                    &amp; Company, 1898), and <hi
+                    rend="italic">Calamus</hi>.</note>
+                <note xml:id="note31"><hi rend="italic">WWWC</hi>, 4:42.</note>
+                <note xml:id="note32"
+                    >Miller praises the executors for their efforts but also gently
+                    notes in passing some of the shortcomings of Traubel’s transcriptions, which,
+                    like many of the early publications of Whitman’s correspondence, was a “labor of
+                    love” that suffered from “the absence of a consistent editorial procedure, the
+                    occasionally careless transcription, the omission of a postscript or a sentence,
+                    the unindicated deletion of remarks which they considered unworthy of the man
+                    they venerated” (1:viii).</note>
+                <note xml:id="note33">See Matt Miller, <hi rend="italic"
+                    >Collage of Myself: Walt
+                        Whitman and the Making of Leaves of Grass</hi> (Lincoln: University of
+                    Nebraska Press, 2010). Miller discusses this manuscript briefly on pages 124–26.
+                    See also Kirsten Gruesz, <hi
+                    rend="italic"
+                    >Ambassadors of Culture: The
+                        Transamerican Origins of Latino Writing</hi> (Princeton, NJ: Princeton
+                    University Press, 2002), 128.</note>
+                <note xml:id="note34"
+                    >For a discussion of Whitman’s reuse of letters from autograph
+                    seekers, in particular for poetry manuscripts, see Eric Conrad, “‘Anything
+                    Honest to Sell Books’: Walt Whitman and the Autograph Monster,” <hi
+                    rend="italic"
+                    >Walt Whitman Quarterly Review</hi> 32, no. 4 (2015), 192–93.
+                    Conrad notes Whitman’s comment to Traubel about autograph seekers: “those
+                    fellows have one virtue&#8212;they always use good paper: and on that I manage
+                    to do a good deal of my writing” (<hi
+                    rend="italic"
+                    >WWWC</hi>, 2:45). He also
+                    points out that Whitman’s repurposing is likely, in some cases, the only reason
+                    the letter survived. For several points about the ways that individual
+                    collections can misrepresent the phenomenon of letter writing at a given time,
+                    in that letters that are preserved may not be representative of letters as a
+                    whole, see Roger Chartier, “Introduction: An Ordinary Kind of Writing: Model
+                    letters and letter-writing in ancient régime France,” in <hi
+                    rend="italic"
+                    >Correspondence: Models of Letter-writing from the Middle Ages to the
+                        Nineteenth Century</hi> (Princeton: Princeton University Press, 1997),
+                    18–21. Whitman’s early reuse of paper like extra wrappers from <hi
+                    rend="italic"
+                    >Leaves of Grass</hi> for notes and drafts likely had to do with economy.
+                    Late in his life, Whitman’s repurposing may have been more a product of his lack
+                    of mobility&#8212;the stacks of papers in his room seem to have provided
+                    ready-to-hand material for (re)composition.</note>
+                <note xml:id="note35"
+                    >“‘You Tides with Ceaseless Swell’: A Reading of the
+                    Manuscript,” <hi
+                    rend="italic"
+                    >Walt Whitman Quarterly Review</hi> 6 (Spring
+                    1989): 190. Sill contends that this manuscript and several others related to the
+                    “Fancies at Navesink” series illustrate that Whitman was as much if not more of
+                    a poetic craftsman late in his life. Three of the letters in this manuscript
+                    were used for composition, in the sense that poetry lines were drafted directly
+                    on them; the fourth, the 1871 letter from Hinton, seems to have been added later
+                    as a way of joining the clipped lines in a different order.</note>
+                <note xml:id="note36"
+                    >“You Tides With Ceaseless Swell” first appeared in print as
+                    part of the “Fancies at Navesink” sequence in the “Annex” to the 1884 reprinting
+                    of the 1881 edition of <hi
+                    rend="italic"
+                    >Leaves of Grass</hi>, and in August
+                    1885 the sequence was published in <hi
+                    rend="italic">Nineteenth
+                    Century</hi>.</note>
+                <!--<note xml:id="note37"
+                    > At the top left corner of the pasted-down piece of paper that
+                    includes this line and the next one, there is a partial note and a series of
+                    numbers written in pencil by someone other than Whitman.</note>
+                <note xml:id="note38"
+                    >We have presented this line with a gray background because it
+                    has been crossed out with two vertical lines in the original manuscript.</note>-->
+                <note xml:id="note37"
+                    >This is also the order in which the lines appeared when they
+                    were published in the Annex, the <hi
+                    rend="italic"
+                    >Nineteenth Century</hi>, and
+                    later in November Boughs (1888) and the deathbed (1891–92) edition of <hi
+                    rend="italic">Leaves of Grass</hi>.</note>
+                <note xml:id="note38"
+                    >Sill writes that a “peek beneath the pasted-on fragment”
+                    reveals the original two lines.</note>
+                <note xml:id="note39"
+                    >For one description of this practice, see William Sloane
+                    Kennedy’s relation of Whitman’s account to Harrison S. Morris in Kennedy’s <hi
+                    rend="italic"
+                    >Reminiscences of Walt Whitman</hi> (London: Alexander Gardner,
+                    1896), 24.</note>
+                <note xml:id="note40"
+                    >Miller states in his editorial policy that he does not attempt
+                    a diplomatic text, making some adjustments for the sake of comprehensibility and
+                    omitting deletions unless they are substantive, in which case they are presented
+                    in a note. The first iteration of our treatment of correspondence on the <hi
+                    rend="italic"
+                    >Whitman Archive</hi> has been modeled in many ways after
+                    Miller’s collection: like Miller, we provide transcriptions that silently
+                    incorporate additions, exclude deletions, and maintain original spellings.
+                    Unlike Miller, we are also able in many cases to provide corresponding images of
+                    the original letters, thus welcoming users to improve or question our
+                    transcriptions. Miller does not mention the standards he used to determine what
+                    constituted a letter, other than to say that he includes “all known (and
+                    available) letters, post cards, and notes” (1:15).</note>
+                <note xml:id="note41">The New York University Press’s <hi rend="italic"
+                    >Collected
+                        Writings</hi> may be taken as an example of this: even without getting to
+                    the poetry manuscripts, the set spans nearly fifty years, and countless new
+                    manuscripts have emerged since the final volume was published, another
+                    supplement to the correspondence, in 2004.</note>
+                <note xml:id="note42"><hi rend="italic">WWWC</hi>, 1:318–19.</note>
+                <note xml:id="note43"><hi rend="italic">WWWC</hi>, 6:479.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

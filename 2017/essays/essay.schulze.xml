@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.scholarlyediting.org/scholarlyediting.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Stories that Work</title>
+                <title level="a" type="sub">Our Philological Future</title>
+                <author key="Schulze, Robin G.">Robin G. Schulze</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno type="file">essay.schulze</idno>
+                <authority>Scholary Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+ <addrLine>http://www.scholarlyediting.org</addrLine>
+</address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>http://cdrh.unl.edu</addrLine>
+ </address>
+                </distributor>
+                <date>2016</date>
+                <availability>
+                    <p>Scholary Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag" key="Gailey, Amanda A.">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj" key="Jewell, Andrew W.">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">37</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-03-23"><name xml:id="gk" key="Kirilloff, Gabi"> Gabi Kirilloff</name>
+                markup in TEI XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Stories that Work</head>
+            <head type="sub">Our Philological Future</head>
+            <head type="sub">Presidential Address, Society for Textual Scholarship</head>
+            <head type="sub">Joint Conference of the Association for Documentary Editing and the Society for Textual Scholarship</head>
+            <head type="sub">Lincoln, Nebraska, 2015</head>
+            <byline>Robin G. Schulze</byline>
+        </front>
+        <body>
+            <p>Can I have an AMEN?</p>
+            <p>No, really, can I have an AMEN!</p>
+            <p>I say, AMEN, my brothers and sisters in the disciplines of documentary and textual
+                and literary editing, because our time has come. The winds of scholarship are, I
+                think, finally blowing our way. It is time to ride the current as far as we can.</p>
+            <p>Lest you all think I have lost my mind, let me admit that I am surprised to hear
+                myself say such a thing. Indeed, when I finished my edition of Marianne Moore’s
+                poetry in 2002, <hi rend="italic">Becoming Marianne Moore: The Early Poems,
+                    1907–1924</hi> (Berkeley: University of California Press, 2002), I pretty much
+                vowed that I would never edit anything again. As all of us in this room know,
+                editing and archiving are very hard work. My attempt to show Marianne Moore’s poetry
+                in all of her goofy textual splendor cost me gray hairs, stomach upsets, and legal
+                fees. My edition ran into copyright changes that nearly scotched years of work. My
+                edition was orphaned at my press and almost left for dead. In spite of hundreds of
+                pages of discursive, classically interpretive material, it nearly failed to get me
+                promoted. The whole experience left me exhausted.</p>
+            <p>As it turns out, I am headed back to the well of editing Marianne Moore—a well I
+                thought I would never visit again. And fifteen years later, the well and its
+                surroundings look very different. Since my edition appeared, many of the basic tools
+                that scholars need to navigate Moore’s verse have made their way into the world.
+                There are a series of wonderful editions by Heather White, who picked up where I
+                left off, granting access to Moore’s poems in multiple versions from 1924 to
+                    1941.<ptr target="#note1" xml:id="nr1" n="1"/> There is a brilliantly edited and
+                selected collection of letters.<ptr target="#note2" xml:id="nr2" n="2"/> There is a
+                masterful, beautiful, poignant, and accurate biography that gives Moore’s life a
+                narrative arc.<ptr target="#note3" xml:id="nr3" n="3"/> Some of the most important
+                Moore materials in the Rosenbach Museum and Library in Philadelphia have finally
+                been digitized in the process of basic conservation. The Moore estate has changed
+                hands. And of course, the world of digital technology has changed dramatically.
+                First generations of digital projects and products have tobogganed into second and
+                third. The Smart Phone and iPad have changed computer interfaces and the portability
+                and pourability of content. The E-ink technology, the basis for the easily readable
+                Kindle screen that I reported on to the Society for Textual Scholarship community in
+                1999(!) has changed the ways in which people read and think about reading.</p>
+            <p>So I am going back to create, in concert with some of my favorite colleagues
+                (Elizabeth Gregory, Cristanne Miller, and Heather White), a digital edition of
+                Marianne Moore’s notebooks—one of the holy grails of modernism. Moore’s notebooks
+                contain an exquisite record of a mind at work—drafts of poems, copious notes from
+                her daily reading and research, a host of almost impossibly catholic materials that
+                range from quotes snagged from high-toned critical commentary to snippets of
+                advertisements for number 2 pencils and Johnnie Walker Scotch. Moore also mined her
+                own life for poetic material on a regular basis, but not in ways that later poets
+                would deem “confessional.” Instead, like Harriet the Spy, she recorded what other
+                people said. Her notebooks are filled with comments by her modernist peers—pieces of
+                monologue and dialog from just about every modernist writer who passed through the
+                New York scene in the early decades of the twentieth century. In part, I am going
+                back because this documentary material poses every challenge possible. The notebooks
+                are profoundly visual as well as linguistic in content. They contain multiple genres
+                of writing. They are private and public. They contain quotes from all sorts of
+                contemporary print sources that constitute Moore’s quirky representation of the
+                chaotic intellectual culture of the early twentieth century. They challenge the
+                whole notion of how and why and what we annotate. To edit these notebooks, Elizabeth
+                and Cris and Heather and I are going to have to create a “knowledge site,” to use
+                Peter Shillingsburg’s phrase, that can make sense of many, many different ways to
+                use and interpret this material.<ptr target="#note4" xml:id="nr4" n="4"/></p>
+            <p>I know that this edition might be a fool’s errand. But I am also going back because I
+                have a sense of mission. I am going back to the notebooks in the full knowledge that
+                this damn project might take the rest of my life. It might never get off the
+                self-sustaining funding launching pad. It might crash and burn on still-lurking
+                issues of copyright. It might be obsolete by the time it goes live. I have none of
+                the certainties that I have when publishing in print. Everything is a risk. I know
+                why scholars don’t take on these kinds of projects. And yet, I think this is a good
+                time for me, and for all of us, to really lean in. Here’s why.</p>
+            <p>In September of 2014, I was brave enough, or dumb enough, to take a position as an
+                academic associate dean of the humanities at the University of Delaware. The post
+                has been, to say the least, a challenge. Delaware is a good midsized research
+                institution. It is, however, facing some major challenges. UD was insulated from the
+                titanic financial meltdown of 2008. Endowments and DuPont contributions kept the
+                school sailing on a tide of easy money that started to dry up just when the current
+                (and exiting) president put a new “resource-based budgeting” model in place seven
+                years ago. The long and the short is that the chickens of limited resources are just
+                now coming home to roost in the UD College of Arts and Sciences—an odd scenario for
+                those who have worked at Delaware for any length of time. The current budget
+                restrictions have sent everyone scrambling, and competition for resources has become
+                fierce. I have had to gear up arguments for the humanities that resonate with
+                physicists, mechanical engineers, and professors of finance. I have had to sell my
+                priorities to the parents of kids who would rather cut off their arms than send them
+                to school to study art history, history, philosophy, or English. I’ve had to
+                convince donors that their hard-earned money is best spent on culture.</p>
+            <p>All this may seem impossible. But I am happy to report that some of my arguments have
+                been winning. So take heart. I have been carrying the day because it is just the
+                sorts of work that those of us in this room are doing that is the most exciting to
+                people who wouldn’t know a humanity if it bit them in the rear. It is time for all
+                of us to take advantage of a cultural moment that is now emerging. To that end, I’d
+                like to share with you some real-life arguments that have helped me sell philology
+                to the sharks.</p>
+            <p>I start my pitch with a basic premise—that no one sets out in this life to edit,
+                curate, exhibit, or archive anything without a sense of the importance of, to use
+                Jerome McGann’s elegant phrase, “preserving the precious remains of our own
+                alienated lives.”<ptr target="#note5" xml:id="nr5" n="5"/> I also begin with the
+                premise that such preserving is basic human activity in the modern world. Every
+                person on the planet understands the act of saving material things as a means to
+                access memory. We are all curators and editors and archivists of our own lives. We
+                decide which material objects to save and which to toss out as we move through the
+                years. Each time we revisit our stuff we narrate once again for ourselves and others
+                who we are and what we value. Acts of private curation are powerful. When I moved to
+                Delaware and downsized my home, I faced the problem of my lifelong library of paper
+                books. I had to decide which volumes to keep and which to give away, a task that
+                immediately got tied up with so much more than the needs of my current scholarly
+                life. So many of the books had notes and highlights and marginalia and traces of who
+                I was at the time I read them. They were material mnemonic devices that stored
+                memories of my entire adulthood, a physical record of the life I have lived inside
+                my head. Sorting through them, I had to decide which memories were important enough
+                to hold on to in that material form. I had to re-narrate, re-edit, re-curate my life
+                to date.</p>
+            <p>Even those who see the humanities as the educational grasshopper that sponges off the
+                ant of the sciences understand the activities of personal archiving. And they also
+                understand that acts of editing, curating, archiving, exhibiting, and narrating with
+                material objects take place on levels far beyond the personal where the stakes are
+                indeed very high. We are the keepers and, more importantly, creators of our material
+                cultural heritage through acts of editing, curating, and archiving. I have managed
+                to pull down large amounts of cash by explaining to my institution that those of us
+                who edit are in the business of telling vital cultural stories with material objects
+                and that we are training others every day to do the same. Newsflash: academic
+                administrators at all levels are officially sick of supporting scholars in the
+                humanities who seem determined to talk only to other scholars. Forms of
+                hyper-professionalized humanities research have always had a slim purchase in
+                academia. We aren’t, after all, out curing cancer or creating patents. Most
+                administrators, however, understand that what we do as editors is important public
+                work. They get museums and preserving and collecting things. They have watched <hi
+                    rend="italic">Antiques Roadshow</hi> and understand that stuff, particularly
+                material documentary stuff, matters to people and that stuff tells stories about who
+                we are as a people and a nation. Editors and archivists are the original public
+                humanists, and it is time for all of us to stand up and claim that role loud and
+                strong.</p>
+            <p>So even if you don’t feel comfortable doing it, you need to make claims for the
+                public significance of your work. You need to tell people that your research and
+                scholarship is pitched not just to other scholars but to a wider public—that you are
+                involved directly in the sorts of preserving, conserving, curating, and editing
+                activities that make culture available and accessible to people beyond the six
+                scholars who will probably read your next monograph. You need to be able to explain,
+                in one breath, on the elevator between first and third floor, why the texts or
+                artifacts or documents you are presenting to the world are important, and you need
+                to do it in such a way that not only your students but also the parents of your
+                students can understand you. You need to trace the second life of your scholarship
+                because this is important to administrators and donors. Where and how is what you
+                are doing making news? Making the world better? And you need to do all this with
+                style and flair.</p>
+            <p>Our time has come as well because we are not only public humanists but also at the
+                forefront of new forms of humanities education that make administrators sit up and
+                take notice. The words to use here are “project-based learning.” Those of us engaged
+                in large editorial and archival projects, be they in cyberspace or physical space,
+                can offer our students classroom experiences that others can’t by engaging them
+                directly in the work we are doing. When you talk to your administrators, you need to
+                tell them that project-based classes ensure that students are getting real-world
+                experience in complex, team project planning with real-world consequences. You need
+                to tell them that students in such classes learn to negotiate the difficult
+                relationship between the material and the digital, that they gain skills as well as
+                content knowledge, that they, too, are engaging in important acts of public
+                scholarship. You need to emphasize the footprints that such projects create for
+                institutions, the way they help advertise and brand the student experience as
+                innovative and outward looking. Project-based classes sound a lot like internships,
+                and that is a plus for administrators. The difference is that they are internships
+                that we control, that we make into deeply intellectual experiences that ask all the
+                vital questions about history, about text, about materiality, about our digital
+                future—questions that haunt our work. Even if you are used to doing your work by
+                yourself, hunkered down in whatever archive drives your passion, you need to
+                re-conceive of yourself as a team leader. You need to talk about your “lab” without
+                flinching. And you need to do this with style and flair.</p>
+            <p>A sidebar: As a deanlette, I am inclined to ask my humanities faculty members a
+                pointed question: “How bored are you?” Seriously, if the academic major in which you
+                teach looks like one that you could have taken when you were in college—or worse,
+                one your mom or dad could have taken—what does that say about the humanities? All of
+                us in this room are doing work that is SO much more interesting than most of what I
+                see listed in course catalogs. The challenge is to remake the experience of our
+                undergraduate learners in ways that show them the public significance of what we do.
+                That, I think, will do more than anything else to ensure our cultural future.</p>
+            <p>I will end by sharing a story that I use with parents, administrators, and donors
+                that is a bit more abstract but, for me, lies at the heart of what we do as public
+                humanists. When I get up before the masses, I say this: that being trapped in a
+                world of literal meaning is the equivalent of being trapped in hell. If we are
+                generating students who have no access to or understanding of symbolic content or
+                its history, transmission, and creation—students who can’t make the leap between the
+                literal and the figurative—we are producing sad and desperate souls who have no
+                access to the deeper meaning of anything in life. We are making kids who live in two
+                dimensions, who confuse surface for depth, who never ask why people are using one
+                set of words and images to communicate rather than another. Abandon all hope, ye who
+                enter here—there is no joy, no enlightenment, no creativity.</p>
+            <p>I am happy to tell you that everything you do every day, in terms of your scholarship
+                and your teaching, is vitally important, and that, yes, there are people out there
+                who will listen and nod. And yes, if you get your story straight and speak clearly,
+                with style and flair, they will open their pocketbooks.</p>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">Marianne Moore, <hi rend="italic">A-Quiver with Significance:
+                        Marianne Moore, 1932–1936</hi>, ed. Heather White (Victoria, CA: ELS
+                    Editions, 2008); Marianne Moore, <hi rend="italic">Adversity &amp; Grace:
+                        Marianne Moore, 1936–1941</hi>, ed. Heather White (Victoria, CA: ELS
+                    Editions, 2012).</note>
+                <note xml:id="note2">Marianne Moore, <hi rend="italic">The Selected Letters of
+                        Marianne Moore</hi>, ed. Bonnie Costello, Celeste Goodridge, and Cristanne
+                    Miller (New York: Alfred Knopf, 1997).</note>
+                <note xml:id="note3">Linda Leavell, <hi rend="italic">Holding on Upside Down: The
+                        Life and Work of Marianne Moore</hi> (New York: Farrar, Straus, Giroux,
+                    2013).</note>
+                <note xml:id="note4">For Shillingsburg’s in-depth definition of the “knowledge
+                    site,” see Peter Shillingsburg, <hi rend="italic">From Gutenberg to Google:
+                        Electronic Representations of Literary Texts</hi> (Cambridge, UK: Cambridge
+                    University Press, 2006), 80–125.</note>
+                <note xml:id="note5">Jerome McGann, <hi rend="italic">A New Republic of Letters:
+                        Memory and Scholarship in the Age of Digital Reproduction</hi> (Cambridge,
+                    MA: Harvard University Press, 2014), 47.</note>
+            </div>
+        </back>
+    </text>
+</TEI>
