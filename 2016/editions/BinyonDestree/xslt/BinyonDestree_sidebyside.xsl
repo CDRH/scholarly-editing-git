@@ -131,7 +131,7 @@
         <div class="sidebysideEditionHeader">
           
           <div class="compressedMasthead">
-            <a href="http://www.scholarlyediting.org/"><img src="images/compressed_logo.png"/></a>
+            <a href="{$siteroot}"><img src="template_images/compressed_logo.png"/></a>
             
           </div>
           

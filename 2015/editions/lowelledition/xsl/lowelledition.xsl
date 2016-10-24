@@ -4,7 +4,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0">
     <xsl:strip-space elements="*"/>
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no"/>
-    <xsl:include href="../../../../template_xslt/base.xsl"/>
+    <xsl:include href="../../../../legacy/template_xslt/base.xsl"/>
     <xsl:param name="lowelledition_version">undeclared</xsl:param>
 
     <xsl:template match="//tei:teiHeader"/>
@@ -133,7 +133,7 @@
                                                 </xsl:attribute>
                                                 <img>
                                                     <xsl:attribute name="src"
-                                                        >images/goback.png</xsl:attribute>
+                                                        >template_images/goback.png</xsl:attribute>
                                                     <xsl:attribute name="alt">Go back</xsl:attribute>
                                                 </img>
                                             </a>
@@ -176,7 +176,7 @@
                                                 </xsl:attribute>
                                                 <img>
                                                   <xsl:attribute name="src"
-                                                  >images/goback.png</xsl:attribute>
+                                                  >template_images/goback.png</xsl:attribute>
                                                   <xsl:attribute name="alt">Go back</xsl:attribute>
                                                 </img>
                                             </a>
@@ -398,7 +398,7 @@
                         <xsl:attribute name="href">#nr<xsl:value-of
                                 select="substring-after(attribute::xml:id,'note')"/></xsl:attribute>
                         <img>
-                            <xsl:attribute name="src">images/goback.png</xsl:attribute>
+                            <xsl:attribute name="src">templage_images/goback.png</xsl:attribute>
                             <xsl:attribute name="alt">Go back</xsl:attribute>
                         </img>
                     </a>

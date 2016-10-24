@@ -6,7 +6,7 @@
     
     <xsl:strip-space elements="*" />
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no" />
-    <xsl:include href="../../../../template_xslt/base.xsl" />
+    <xsl:include href="../../../../legacy/template_xslt/base.xsl" />
     
     <xsl:template match="/tei:TEI/tei:text">
         
@@ -272,7 +272,7 @@
                 <xsl:attribute name="href">#nr<xsl:value-of
                         select="substring-after(attribute::xml:id,'note')" /></xsl:attribute>
                 <img>
-                    <xsl:attribute name="src">images/goback.png</xsl:attribute>
+                    <xsl:attribute name="src">template_images/goback.png</xsl:attribute>
                     <xsl:attribute name="alt">Go
                         back</xsl:attribute>
                 </img>

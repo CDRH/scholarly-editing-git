@@ -11,7 +11,7 @@
     <xsl:param name="cranchjournal_appendices">undefined</xsl:param>
     <xsl:param name="cranchjournal_readingtext">undefined</xsl:param>
     <xsl:param name="stuf_interventions">undefined</xsl:param>
-    <xsl:include href="../config/config.xsl"/>
+    <xsl:include href="../../config/config.xsl"/>
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no"/>
     <xsl:preserve-space elements="tei:*"/>
     <!--<xsl:template name="volCitation"/>
@@ -33,16 +33,16 @@
                 <title>Scholarly Editing: The Annual of the Association for Documentary
                     Editing</title>
                 <!--<xsl:if test="contains(//tei:idno[@type='edition'],'stufaiuolo')"><link href="{$siteroot}css/stufaiuolo.css" rel="stylesheet" type="text/css"/></xsl:if>-->
-                <link href="{$siteroot}css/style.css" rel="stylesheet" type="text/css"/>
-                <link href="{$siteroot}js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css"
+                <link href="{$siteroot}template_css/style.css" rel="stylesheet" type="text/css"/>
+                <link href="{$siteroot}template_js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css"
                     rel="stylesheet" type="text/css"/>
 
 
                 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
-                <script src="{$siteroot}js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js"> &#160; </script>
-                <script src="{$siteroot}js/javascript.js"> &#160; </script>
+                <script src="{$siteroot}template_js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js"> &#160; </script>
+                <script src="{$siteroot}template_js/javascript.js"> &#160; </script>
 
-                <link href="{$siteroot}css/style.css" rel="stylesheet" type="text/css"/>
+                <link href="{$siteroot}template_css/style.css" rel="stylesheet" type="text/css"/>
                 <xsl:choose>
                     <xsl:when
                         test="$idno = 'dequinqueseptenis.trans' or
@@ -232,7 +232,7 @@
                     </xsl:choose>
                     <xsl:if test="$idno = 'main.baroness'">
                         <a href="http://v-machine.org/">
-                            <img class="pbvm" src="./includes/images/poweredby.gif"
+                            <img class="pbvm" src="./includes/template_images/poweredby.gif"
                                 alt="powered by the Versioning Machine, version 4.0"/>
                         </a>
                     </xsl:if>
@@ -257,7 +257,7 @@
 
                         <span class="adelogo">
                             <a href="http://www.documentaryediting.org">
-                                <img src="{$siteroot}images/adelogo.png"
+                                <img src="{$siteroot}template_images/adelogo.png"
                                     alt="Logo of the Association for Documentary Editing"/>
                             </a>
                         </span>
@@ -849,7 +849,7 @@
             </xsl:when>
             <xsl:when test="./attribute::rend = 'persign'">
                 <span class="persign">
-                    <img src="{$siteroot}images/persign.png" alt="[per sign]" height="10px"/>
+                    <img src="{$siteroot}template_images/persign.png" alt="[per sign]" height="10px"/>
                 </span>
             </xsl:when>
             <xsl:when test="./attribute::rend = 'longS'">
@@ -918,7 +918,7 @@
                                 </xsl:when>
                                 <xsl:when
                                     test="$fileName = 'essay.calvert' or $fileName = 'essay.porter' or $fileName = 'essay.grayprice' or $fileName = 'essay.alpertabrams'">
-                                    <xsl:text>images/viewsize/</xsl:text>
+                                    <xsl:text>template_images/viewsize/</xsl:text>
                                     <xsl:value-of
                                         select="substring(child::tei:graphic/attribute::url, 8)"/>
                                 </xsl:when>

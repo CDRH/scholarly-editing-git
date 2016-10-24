@@ -5,7 +5,7 @@
     <xsl:strip-space elements="*" />
     <xsl:param name="stuf_version">undefined</xsl:param>
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no" />
-    <xsl:include href="../../../../template_xslt/base.xsl" />
+    <xsl:include href="../../../../legacy/template_xslt/base.xsl" />
     <xsl:template name="essayNav" />
     <xsl:template name="witnessName" />
     <!-- edition navigation (required for each edition) -->
@@ -290,7 +290,7 @@
                             <xsl:attribute name="href">#ref_<xsl:number count="tei:note"
                                 from="tei:text" level="any" /></xsl:attribute>
                             <img>
-                                <xsl:attribute name="src">images/goback.png</xsl:attribute>
+                                <xsl:attribute name="src">template_images/goback.png</xsl:attribute>
                                 <xsl:attribute name="alt">Go back</xsl:attribute>
                             </img>
                         </a>

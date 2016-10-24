@@ -163,6 +163,49 @@
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
+ 
+ 
+<!-- ================================================ -->
+<!--                  Form Work (FW)                  -->
+<!-- ================================================ -->
+  
+  <xsl:template match="figure">
+    
+    <xsl:choose>
+      <!-- Is this specific to everyweek, should it be in here? -KMD -->
+      <xsl:when test="@n='flag'"></xsl:when>
+      <xsl:otherwise>
+        <div class="inline_figure">
+          <div class="p">[illustration]</div>
+          <xsl:apply-templates/></div>
+      </xsl:otherwise>
+    </xsl:choose>
+    
+  </xsl:template>
+  
+<!-- ================================================ -->
+<!--                  Form Work (FW)                  -->
+<!-- ================================================ -->
+  
+  <xsl:template match="fw">
+    
+    <xsl:choose>
+      <xsl:when test="ancestor::p">
+        <span class="h6"><xsl:apply-templates/></span>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:if test="not(@type='sub')">
+          <h6>
+            <xsl:attribute name="class">
+              <xsl:value-of select="name()"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+          </h6>
+        </xsl:if>
+      </xsl:otherwise>
+    </xsl:choose>
+    
+  </xsl:template>
 
 <!-- ================================================ -->
 <!--                        GAP                       -->
@@ -335,17 +378,6 @@
 <!--                       LINKS                      -->
 <!-- ================================================ -->
 
-
-<xsl:template match="xref[@n]">
-  <a href="{@n}">
-    <xsl:apply-templates/>
-  </a>
-</xsl:template>
-
-<!-- ================================================ -->
-<!--                       LINKS                      -->
-<!-- ================================================ -->
-
 <xsl:template match="list">
   <xsl:if test="head">
     <div class="tei_list_head"><xsl:apply-templates select="head/node()"/></div>
@@ -422,6 +454,47 @@
     </xsl:choose>
   </span>
 </xsl:template>
+  
+  
+  <!-- ================================================ -->
+  <!--              Notes and Footnotes                 -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="note">
+    <xsl:choose>
+      <xsl:when test="@place='foot'">
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>foot</xsl:text>
+          </xsl:attribute>
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>#</xsl:text>
+              <xsl:text>foot</xsl:text>
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+              <xsl:text>body</xsl:text>
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            
+            <xsl:text>(</xsl:text>
+            <xsl:value-of select="substring(@xml:id, 2)"/>
+            <xsl:text>)</xsl:text>
+          </a>
+        </span>
+      </xsl:when>
+      <xsl:when test="@type='editorial'"/>
+      <xsl:otherwise>
+        <div>
+          <xsl:attribute name="class">
+            <xsl:value-of select="name()"/>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </div>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
 
 <!-- ================================================ -->
 <!--                  ORIG AND REG                    -->
@@ -442,6 +515,70 @@
     /></a>​-->
   <xsl:apply-templates select="orig"/>
 </xsl:template>
+  
+  <xsl:template match="pb">
+    
+    <!-- grab the figure id, first looking in @facs, then @xml:id, and if there is a .jpg, chop it off -->
+    <xsl:variable name="figure_id">
+      <xsl:variable name="figure_id_full">
+        <xsl:choose>
+          <xsl:when test="@facs"><xsl:value-of select="@facs"></xsl:value-of></xsl:when>
+          <xsl:when test="@xml:id"><xsl:value-of select="@xml:id"></xsl:value-of></xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:choose>
+        <xsl:when test="contains($figure_id_full,'.jpg')">
+          <xsl:value-of select="substring-before($figure_id_full,'.jpg')"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$figure_id_full"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    
+    <!-- ================================================ -->
+    <!--                    Page Breaks                   -->
+    <!-- ================================================ -->
+    
+    <span class="hr">&#160;</span>
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>pageimage</xsl:text>
+      </xsl:attribute>
+      <a>
+        <xsl:attribute name="href">
+          <xsl:value-of select="$fig_location"/>
+          <xsl:text>large/</xsl:text>
+          <xsl:value-of select="$figure_id"/>
+          <xsl:text>.jpg</xsl:text>
+        </xsl:attribute>
+        <xsl:attribute name="rel">
+          <xsl:text>prettyPhoto[pp_gal]</xsl:text>
+        </xsl:attribute>
+        <xsl:attribute name="title">
+          <xsl:text>&lt;a href="</xsl:text>
+          <xsl:value-of select="$fig_location"/>
+          <xsl:text>large/</xsl:text>
+          <xsl:value-of select="$figure_id"/>
+          <xsl:text>.jpg</xsl:text>
+          <xsl:text>" target="_blank" &gt;open image in new window&lt;/a&gt;</xsl:text>
+        </xsl:attribute>
+        
+        <img>
+          <xsl:attribute name="src">
+            <xsl:value-of select="$fig_location"/>
+            <xsl:text>thumbnails/</xsl:text>
+            <xsl:value-of select="$figure_id"/>
+            <xsl:text>.jpg</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:text>display</xsl:text>&#160;
+          </xsl:attribute>
+        </img>
+      </a>
+    </span>
+    
+  </xsl:template>
 
 <!-- ================================================ -->
 <!--                    PARAGRAPHS                    -->
@@ -497,6 +634,85 @@
     <xsl:apply-templates/>
   </span>
 </xsl:template>
+  
+  
+  <!-- ================================================ -->
+  <!--               References/Links                   -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="ref">
+    <xsl:choose>
+      <!-- Scholarly editing links are type=html -->
+      <xsl:when test="@type='html'">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="@target"/>
+            <xsl:text>.html</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <!-- When target starts with #, assume it is an in page link (anchor) -->
+      <xsl:when test="starts-with(@target, '#')">
+        <xsl:variable name="n" select="@target"/>
+        <xsl:text> </xsl:text>
+        <a>
+          <xsl:attribute name="id">
+            <xsl:text>ref</xsl:text>
+            <xsl:value-of select="@target"/>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:text>inlinenote</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="href">
+            <xsl:text>#note</xsl:text>
+            <xsl:value-of select="@target"/>
+          </xsl:attribute>
+          <xsl:text>[note </xsl:text>
+          <xsl:apply-templates/>
+          <xsl:text>]</xsl:text>
+        </a>
+        <xsl:text> </xsl:text>
+      </xsl:when>
+      <!-- when marked as link, treat as an external link -->
+      <xsl:when test="@type='link'">
+        <a href="{@target}">
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <!-- external link -->
+      <xsl:when test="starts-with(@target, 'http://') or starts-with(@target, 'https://')">
+        <a href="{@target}">
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <!-- if the above are not true, it is assumed to be an internal to the site link -->
+      <xsl:when test="@type='sitelink'">
+        <a href="../{@target}" class="internal_link">
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <xsl:otherwise>
+        <!-- the below will generate a footnote / in page link -->
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="concat('#', @target)"/>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:text>internal_link</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </a>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>  
+  
+  
+  <xsl:template match="xref[@n]">
+    <a href="{@n}">
+      <xsl:apply-templates/>
+    </a>
+  </xsl:template>
 
 <!-- ================================================ -->
 <!--                       SEG                        -->

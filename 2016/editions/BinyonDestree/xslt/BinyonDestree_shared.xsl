@@ -246,7 +246,7 @@
                     select="substring-after(attribute::xml:id,'note')"
                      />. <xsl:apply-templates /><a> <xsl:attribute name="href">#nr<xsl:value-of
                     select="substring-after(attribute::xml:id,'note')" /></xsl:attribute> <img>
-                    <xsl:attribute name="src">images/goback.png</xsl:attribute> <xsl:attribute
+                    <xsl:attribute name="src">template_images/goback.png</xsl:attribute> <xsl:attribute
                     name="alt">Go back</xsl:attribute> </img> </a> </div>
             </xsl:otherwise>
         </xsl:choose>

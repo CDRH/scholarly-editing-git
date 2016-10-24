@@ -13,7 +13,6 @@
   
   <xsl:import href="../../../../template_xslt/lib/html_formatting.xsl"/>
   <xsl:import href="../../../../template_xslt/lib/personography_encyclopedia.xsl"/>
-  <xsl:import href="../../../../template_xslt/lib/scholarly_editing.xsl"/>
   <!-- If this file is living in a projects directory, the paths will be
      ../../../scripts/xslt/cdrh_tei_to_html/lib/html_formatting.xsl -->
   
@@ -31,32 +30,60 @@
   <xsl:param name="site_url"/>                <!-- the site url (http://codyarchive.org) -->
   <xsl:param name="fig_location"></xsl:param> <!-- set figure location  -->
   
+  
+  <!-- ==================================================================== -->
+  <!--                            HTML Setup                                 -->
+  <!-- ==================================================================== -->
+  
+  <xsl:template match="/">   
+    <html>
+      <head>
+        <!-- $site_head_title -->
+        <title>Edition Title</title>
+        
+        <!-- $site_head_extras (Optional) -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/style.js">&#160;</script>
+      </head>
+      
+      <body>
+        <!-- $site_body_title -->
+        <h1>Edition title <em>With Emphasis</em></h1>
+        
+        <!-- $site_body_author -->
+        
+        <div class="body_author">Author Smith <em>A University Name</em></div>
+        
+        <!-- $site_edition_navigation -->
+        <nav>
+          <ul>
+            <li><a href="2016preface.youngidea.html">2016 Preface</a></li>
+            <li><a href="1867preface.youngidea.html">1867 Preface</a></li>
+            <li><a href="extracts.youngidea.html">Edition</a></li>
+            <li><a href="extracts.youngidea.xml" target="_blank">Edition XML</a></li>
+          </ul>
+        </nav>
+        
+        <!-- $site_edition_controls (Optional) -->
+        <!-- Must be in <div class="edition_controls"> -->
+        
+        <!-- $site_content -->
+        <!-- Must be in <div class="main_content"> -->
+        <div class="main_content">
+          <xsl:apply-templates/>
+        </div>
+        
+      </body>
+    </html></xsl:template>
+  
+  
+  
   <!-- ==================================================================== -->
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
   
-<xsl:template match="figure">zzz</xsl:template>
   
-  <xsl:template match="/">   
-    <html>
-      <head><title>Young Idea Title</title></head>
-    <body>
-      <h1>Young idea html title</h1>
-      <nav>
-        <ul>
-          
-          <li><a href="2016preface.youngidea.html">2016 Preface</a></li>
-          <li><a href="1867preface.youngidea.html">1867 Preface</a></li>
-          <li><a href="extracts.youngidea.html">Edition</a></li>
-          <li><a href="extracts.youngidea.xml" target="_blank">Edition XML</a></li>
-        </ul>
-      </nav>
-      <div class="main_content">
-        <xsl:apply-templates/>
-      </div>
-      
-    </body>
-    </html></xsl:template>
+  
   
   <!-- Individual projects can override matched templates from the
      imported stylesheets above by including new templates here -->

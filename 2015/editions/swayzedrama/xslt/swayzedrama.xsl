@@ -4,7 +4,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0">
     <xsl:strip-space elements="*" />
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no" />
-    <xsl:include href="../../../../template_xslt/base.xsl" />
+    <xsl:include href="../../../../legacy/template_xslt/base.xsl" />
     <xsl:template match="//tei:teiHeader" />
     <xsl:template name="essayNav" />
     <xsl:template name="witnessName"> </xsl:template>
@@ -264,7 +264,7 @@
                     select="substring-after(attribute::xml:id,'note')"
                      />. <xsl:apply-templates /><a> <xsl:attribute name="href">#nr<xsl:value-of
                     select="substring-after(attribute::xml:id,'note')" /></xsl:attribute> <img>
-                    <xsl:attribute name="src">images/goback.png</xsl:attribute> <xsl:attribute
+                    <xsl:attribute name="src">template_images/goback.png</xsl:attribute> <xsl:attribute
                     name="alt">Go back</xsl:attribute> </img> </a> </div>
             </xsl:otherwise>
         </xsl:choose>

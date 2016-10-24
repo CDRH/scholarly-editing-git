@@ -29,14 +29,14 @@
                                         >Table: Published Editions of John Tanner's <hi
                                         rend="italic">Narrative</hi></a>
                             </li>
-                            <li id="essayNav2"><a><xsl:attribute name="href">../pdf/<xsl:value-of select="$idno"/>.pdf</xsl:attribute><img src="{$siteroot}images/pdf.png"
+                            <li id="essayNav2"><a><xsl:attribute name="href">../pdf/<xsl:value-of select="$idno"/>.pdf</xsl:attribute><img src="{$siteroot}template_images/pdf.png"
                                 alt="PDF icon"/>&#160;PDF</a></li>
                         </ul>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
 <xsl:otherwise><ul>
-    <li id="essayNav1"><a><xsl:attribute name="href">../pdf/<xsl:value-of select="$idno"/>.pdf</xsl:attribute><img src="{$siteroot}images/pdf.png"
+    <li id="essayNav1"><a><xsl:attribute name="href">../pdf/<xsl:value-of select="$idno"/>.pdf</xsl:attribute><img src="{$siteroot}template_images/pdf.png"
                         alt="PDF icon"/>&#160;PDF</a></li>
 </ul></xsl:otherwise>
         </xsl:choose>
@@ -170,7 +170,7 @@
                                 select="substring-after(attribute::xml:id,'note')"
                              /></xsl:attribute>
                         <img>
-                            <xsl:attribute name="src">images/goback.png</xsl:attribute>
+                            <xsl:attribute name="src">template_images/goback.png</xsl:attribute>
                             <xsl:attribute name="alt">Go back</xsl:attribute>
                         </img>
                     </a>

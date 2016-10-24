@@ -12,14 +12,14 @@
             <title>Scholarly Editing: The Annual of the Association for Documentary
                 Editing</title>
             <!--<xsl:if test="contains(//idno[@type='edition'],'stufaiuolo')"><link href="{$siteroot}css/stufaiuolo.css" rel="stylesheet" type="text/css"/></xsl:if>-->
-            <link href="{$siteroot}css/style.css" rel="stylesheet" type="text/css"/>
-            <link href="{$siteroot}js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css"
+            <link href="{$siteroot}template_css/style.css" rel="stylesheet" type="text/css"/>
+            <link href="{$siteroot}template_js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css"
                 rel="stylesheet" type="text/css"/>
             
             
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
-            <script src="{$siteroot}js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js"> &#160; </script>
-            <script src="{$siteroot}js/javascript.js"> &#160; </script>
+            <script src="{$siteroot}template_js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js"> &#160; </script>
+            <script src="{$siteroot}template_js/javascript.js"> &#160; </script>
             <script type="text/javascript">
                 
                 var _gaq = _gaq || [];

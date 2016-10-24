@@ -9,7 +9,7 @@
                 <title>
                     <xsl:value-of select="//titleStmt/title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="stufaiolo.css"/>
+                <link rel="stylesheet" type="text/css" href="css/stufaiolo.css"/>
             </head>
             <body>
                 <div class="wrapper">

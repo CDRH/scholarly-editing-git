@@ -6,7 +6,7 @@
   
   <xsl:output indent="no"/>
 
-  <xsl:include href="../../../../template_xslt/base.xsl"/>
+  <xsl:include href="../../../../legacy/template_xslt/base.xsl"/>
   <xsl:include href="dunning_shared.xsl"/>
   
 

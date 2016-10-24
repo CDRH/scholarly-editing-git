@@ -9,7 +9,7 @@
         <xsl:text>BinyonDestree/figures/</xsl:text>
     </xsl:param>
     
-    <xsl:include href="../../../../template_xslt/base.xsl"/>
+    <xsl:include href="../../../../legacy/template_xslt/base.xsl"/>
     <xsl:include href="BinyonDestree_shared.xsl"/>
     
     <xsl:strip-space elements="*" />

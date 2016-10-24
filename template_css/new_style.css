@@ -138,6 +138,39 @@ h1.site_title .word_ing {
 
 
 
+div.footer {
+	width: 800px;
+	height: 120px;
+	padding-top: 30px;
+	padding-bottom: 10px; clear: both;
+}
+
+div.footer span.adelogo {
+	float: right;
+	vertical-align: bottom;
+}
+
+div.footer span.creativecommons {
+	float: left;
+	font-size: .75em;
+	vertical-align: bottom;
+	padding-top: 60px;
+}
+
+div.footer span.cdrh {
+	float: left;
+	font-size: .75em;
+	vertical-align: bottom;
+	padding-top: 1px; display: block;
+}
+
+div.footer span.issn {
+	float: left; clear: none;
+	font-size: .75em;
+	vertical-align: bottom;
+	padding-top: 1px; padding-left: 5px;
+	display: block;
+}
 
 
 

@@ -4,7 +4,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0">
     
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no"/>
-<xsl:include href="../../../../template_xslt/base.xsl"/>
+<xsl:include href="../../../../legacy/template_xslt/base.xsl"/>
     <!--<xsl:include href="base_no_nav.xsl"/>-->
     <xsl:template match="//tei:teiHeader"/>
 <xsl:template name="essayNav"/>

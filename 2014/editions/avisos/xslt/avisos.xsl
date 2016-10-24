@@ -15,7 +15,7 @@
     <xsl:strip-space elements="*"/>
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no"/>
     <!--this should be calling base-->   
-    <xsl:include href="../../../../template_xslt/base.xsl"/>
+    <xsl:include href="../../../../legacy/template_xslt/base.xsl"/>
     <xsl:template match="//tei:teiHeader"/>
     <xsl:template name="essayNav"/>
     <xsl:template name="witnessName"/>
@@ -152,7 +152,7 @@
                                                         </xsl:attribute>
                                                         <img>
                                                             <xsl:attribute name="src"
-                                                                >images/goback.png</xsl:attribute>
+                                                                >template_images/goback.png</xsl:attribute>
                                                             <xsl:attribute name="alt">Go back</xsl:attribute>
                                                         </img>
                                                     </a>

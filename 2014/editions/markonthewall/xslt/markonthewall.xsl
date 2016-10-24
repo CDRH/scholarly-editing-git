@@ -4,7 +4,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0">
     <xsl:strip-space elements="*"/>
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no"/>
-    <xsl:include href="../../../../template_xslt/base.xsl"/>
+    <xsl:include href="../../../../legacy/template_xslt/base.xsl"/>
     <xsl:param name="markonthewall_version">undefined</xsl:param>
 
     <xsl:template match="//tei:teiHeader"/>
@@ -137,7 +137,7 @@
                                                 </xsl:attribute>
                                                 <img>
                                                     <xsl:attribute name="src"
-                                                        >images/goback.png</xsl:attribute>
+                                                        >template_images/goback.png</xsl:attribute>
                                                     <xsl:attribute name="alt">Go back</xsl:attribute>
                                                 </img>
                                             </a>
@@ -183,7 +183,7 @@
                                                 </xsl:attribute>
                                                 <img>
                                                   <xsl:attribute name="src"
-                                                  >images/goback.png</xsl:attribute>
+                                                  >template_images/goback.png</xsl:attribute>
                                                   <xsl:attribute name="alt">Go back</xsl:attribute>
                                                 </img>
                                             </a>
@@ -231,7 +231,7 @@
                             <xsl:choose>
                                 <xsl:when test="contains(.,'&#160;')">
                                     <span class="emptyVariantSymbol">
-                                        <img src="http://www.scholarlyediting.org/images/sep.png"
+                                        <img src="{$siteroot}/template_images/sep.png"
                                             alt="symbol indicating variant note"/>
                                     </span>
                                 </xsl:when>
@@ -354,7 +354,7 @@
                         <xsl:attribute name="href">#nr<xsl:value-of
                                 select="substring-after(attribute::xml:id,'note')"/></xsl:attribute>
                         <img>
-                            <xsl:attribute name="src">images/goback.png</xsl:attribute>
+                            <xsl:attribute name="src">template_images/goback.png</xsl:attribute>
                             <xsl:attribute name="alt">Go back</xsl:attribute>
                         </img>
                     </a>

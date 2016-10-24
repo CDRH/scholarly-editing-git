@@ -5,7 +5,7 @@
     <xsl:strip-space elements="*" />
     <xsl:output method="xhtml" indent="no" encoding="iso-8859-1" omit-xml-declaration="no" />
     <!--<xsl:include href="base_no_nav.xsl"/>-->
-    <xsl:include href="../../../../template_xslt/base.xsl" />
+    <xsl:include href="../../../../legacy/template_xslt/base.xsl" />
     <xsl:param name="sortValue">undefined</xsl:param>
     <xsl:template match="//tei:teiHeader" />
     <xsl:template name="essayNav" />
@@ -185,7 +185,7 @@
                             </xsl:attribute> </a><xsl:apply-templates /><a> <xsl:attribute name="href"
                                 ><xsl:text>#ref</xsl:text><xsl:value-of select="$noteNumber"
                                 /></xsl:attribute> <img> <xsl:attribute name="src"
-                                    >images/goback.png</xsl:attribute> <xsl:attribute name="alt"
+                                    >template_images/goback.png</xsl:attribute> <xsl:attribute name="alt"
                                         >Go back</xsl:attribute> </img> </a></span></li>
                            
                         </xsl:for-each></ol>
