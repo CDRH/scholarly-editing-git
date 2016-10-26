@@ -24,7 +24,7 @@
   <!-- ==================================================================== -->
   
   <xsl:variable name="title">
-    <xsl:apply-templates select="/TEI/teiHeader/fileDesc/titleStmt/title[@type='main']"/>
+    <xsl:apply-templates select="//title[@type='main']"/>
   </xsl:variable>
   
   <xsl:template match="/">   

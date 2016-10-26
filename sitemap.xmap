@@ -239,7 +239,7 @@
         <!-- TEST 2017 Edition, Young Idea-->
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2017/editions/**.youngidea.html">
+            <map:match pattern="2017/editions/youngidea/**.html">
                 <map:generate src="2017/editions/youngidea/xml/{1}.youngidea.xml"/>
                 <map:transform src="2017/editions/youngidea/xslt/youngidea.xsl">
                     <map:parameter name="pagetype" value="home"/>

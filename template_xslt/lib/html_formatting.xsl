@@ -6,6 +6,39 @@
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
   version="2.0"
   exclude-result-prefixes="xsl tei xs">
+  
+  <!-- ================================================ -->
+  <!--         Email address protection                 -->
+  <!-- ================================================ --> 
+  
+  <xsl:template match="//tei:milestone[@unit = 'email']">
+    <xsl:choose>
+      <xsl:when test="@type = 'andyemail'">
+        <script type="text/javascript">
+          // protected email script by Joe Maller
+          // JavaScripts available at http://www.joemaller.com
+          // this script is free to use and distribute
+          // but please credit me and/or link to my site
+          
+          emailE =('ajewell@' + 'unlnotes.unl.edu')
+          document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>
+          ')
+          //</script>
+      </xsl:when>
+      <xsl:when test="@type = 'amandaemail'">
+        <script type="text/javascript">
+          // protected email script by Joe Maller
+          // JavaScripts available at http://www.joemaller.com
+          // this script is free to use and distribute
+          // but please credit me and/or link to my site
+          
+          emailE =('agailey2@' + 'unlnotes.unl.edu')
+          document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>
+          ')
+          //</script>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
 
 <!-- ================================================ -->
 <!--                   ABBREVIATION                   -->
@@ -48,6 +81,29 @@
 <!-- ================================================ -->
 
 <!-- See "Strong" below -->
+  
+<!-- ================================================ -->
+<!--                       BYLINE                     -->
+<!-- ================================================ -->
+  
+  <xsl:template match="//tei:byline">
+    <span class="byline">
+      <xsl:choose>
+        <xsl:when test="preceding-sibling::byline">
+          <xsl:choose>
+            <xsl:when test="following-sibling::byline">
+              <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>and <xsl:apply-templates/></xsl:otherwise>
+          </xsl:choose>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </span>
+  </xsl:template>
+  
 
 <!-- ================================================ -->
 <!--                      DATES                       -->
@@ -163,26 +219,93 @@
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
- 
+  
+
  
 <!-- ================================================ -->
-<!--                  Form Work (FW)                  -->
+<!--                  Figure                  -->
 <!-- ================================================ -->
   
-  <xsl:template match="figure">
-    
+  <xsl:template match="//tei:figure" priority="1">
+    <xsl:variable name="editionName">
+      <xsl:value-of select="//tei:publicationStmt/tei:idno[@type = 'edition']"/>
+    </xsl:variable>
+    <xsl:variable name="fileName">
+      <xsl:value-of select="//tei:publicationStmt/tei:idno[@type = 'file']"/>
+    </xsl:variable>
     <xsl:choose>
-      <!-- Is this specific to everyweek, should it be in here? -KMD -->
-      <xsl:when test="@n='flag'"></xsl:when>
+      <xsl:when test="parent::tei:ref[@type = 'figure']"/>
+      
       <xsl:otherwise>
-        <div class="inline_figure">
-          <div class="p">[illustration]</div>
-          <xsl:apply-templates/></div>
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>figure</xsl:text>
+          </xsl:attribute>
+          <xsl:for-each select="child::tei:graphic">
+            <img>
+              <xsl:attribute name="src">
+                <xsl:value-of select="./attribute::url"/>
+              </xsl:attribute>
+              <xsl:attribute name="alt">
+                <xsl:value-of select="child::tei:figDesc"/>
+              </xsl:attribute>
+            </img>
+          </xsl:for-each>
+          <span class="fig_caption">
+            <xsl:for-each select="descendant::tei:head">
+                  <h3>
+                    <xsl:apply-templates/>
+                  </h3>
+            </xsl:for-each>
+            <xsl:for-each select="descendant::tei:p">
+              <div class="p">
+                <xsl:apply-templates/>
+              </div>
+            </xsl:for-each>
+            
+          </span>
+        </span>
       </xsl:otherwise>
     </xsl:choose>
-    
   </xsl:template>
   
+  
+ <!-- <xsl:template match="figure">
+    
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>tei_figure</xsl:text>
+        <xsl:if test="@place">
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="@place"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:for-each select="child::graphic">
+        <img>
+          <xsl:attribute name="src">
+            <xsl:value-of select="./attribute::url"/>
+          </xsl:attribute>
+          <xsl:attribute name="alt">
+            <xsl:value-of select="child::figDesc"/>
+          </xsl:attribute>
+        </img>
+      </xsl:for-each>
+      <span class="fig_caption">
+        <xsl:for-each select="descendant::head">
+              <h3>
+                <xsl:apply-templates/>
+              </h3>
+        <xsl:for-each select="descendant::p">
+          <div class="p">
+            <xsl:apply-templates/>
+          </div>
+        </xsl:for-each>
+          
+        </xsl:for-each>
+      </span>
+    </span>
+  </xsl:template>-->
+
 <!-- ================================================ -->
 <!--                  Form Work (FW)                  -->
 <!-- ================================================ -->
@@ -205,6 +328,16 @@
       </xsl:otherwise>
     </xsl:choose>
     
+  </xsl:template>
+  
+  <!-- ================================================ -->
+  <!--                        FRONTMATTER               -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="//tei:front">
+    <div class="frontmatter">
+      <xsl:apply-templates/>
+    </div>
   </xsl:template>
 
 <!-- ================================================ -->
@@ -311,13 +444,53 @@
 <!-- ================================================ -->
 <!--                        HI                        -->
 <!-- ================================================ -->
-
-<xsl:template match="hi[@rend]" priority="2">
-  <span>
-    <xsl:attribute name="class"><xsl:value-of select="@rend"/></xsl:attribute>
+  
+  <xsl:template match="hi[@rend]" priority="2">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>tei_rend_</xsl:text>
+        <xsl:value-of select="@rend"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
+  <xsl:template match="hi[@rend='italic'] | hi[@rend='italics']" priority="1">
+    <em>
+      <xsl:attribute name="class">
+        <xsl:value-of select="name()"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </em>
+  </xsl:template>
+  
+  <xsl:template match="hi[@rend='quoted']" priority="1">
+    <xsl:text>"</xsl:text>
     <xsl:apply-templates/>
-  </span>
-</xsl:template>
+    <xsl:text>"</xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="hi[@rend='subscript']" priority="1">
+    <sub><xsl:apply-templates/></sub>
+  </xsl:template>
+  
+  <!--  Underline  -->
+  
+  <xsl:template match="hi[@rend='underlined'] | hi[@rend='underline']" priority="1">
+    <u><xsl:apply-templates/></u>
+  </xsl:template>
+  
+  <!--  Positioning -->
+  
+  <xsl:template match="hi[@rend='right'] | hi[@rend='center']" priority="1">
+    <div>
+      <xsl:attribute name="class">
+        <xsl:text>tei_rend_</xsl:text>
+        <xsl:value-of select="@rend"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
 
 <!-- ================================================ -->
 <!--                        HIDE                      -->
@@ -356,24 +529,39 @@
   </div>
 </xsl:template>
 
-<xsl:template match="hi[@rend='italic'] | hi[@rend='italics']" priority="1">
-  <em>
-    <xsl:attribute name="class">
-      <xsl:value-of select="name()"/>
-    </xsl:attribute>
-    <xsl:apply-templates/>
-  </em>
-</xsl:template>
-
 <!-- ================================================ -->
 <!--                    LINE BREAKS                   -->
 <!-- ================================================ -->
 
 <xsl:template match="lb">
   <xsl:apply-templates/>
-  <br/>
+  <br class="tei_lb"/>
 </xsl:template>
-
+  
+<!-- ================================================ -->
+<!--                    LINE GROUP AND LINE           -->
+<!-- ================================================ -->
+  
+  <xsl:template match="//tei:lg">
+        <div class="tei_lg">
+          <xsl:apply-templates/>
+        </div>  
+  </xsl:template>
+  
+  <xsl:template match="//tei:l">
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>poem_line tei_l</xsl:text>
+            <xsl:if test="@rend">
+              <xsl:text> </xsl:text>
+              <xsl:value-of select="@rend"/>
+            </xsl:if>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </span>
+  </xsl:template>
+  
+  
 <!-- ================================================ -->
 <!--                       LINKS                      -->
 <!-- ================================================ -->
@@ -409,19 +597,14 @@
 <!--               MISC -> SPANS OR EMS               -->
 <!-- ================================================ -->
 
-<xsl:template match="hi[@rend='smallcaps'] | hi[@rend='roman']" priority="1">
-  <span>
-    <xsl:attribute name="class">
-      <xsl:value-of select="@rend"/>
-    </xsl:attribute>
-    <xsl:apply-templates/>
-  </span>
-</xsl:template>
-
-<xsl:template match="term | foreign | emph | title[not(@level='a')] | biblScope[@type='volume']">
+<xsl:template match="term | foreign | emph | biblScope[@type='volume']">
   <em>
     <xsl:attribute name="class">
       <xsl:value-of select="name()"/>
+      <xsl:if test="@rend">
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="@rend"/>
+      </xsl:if>
     </xsl:attribute>
     <xsl:apply-templates/>
   </em>
@@ -516,101 +699,84 @@
   <xsl:apply-templates select="orig"/>
 </xsl:template>
   
-  <xsl:template match="pb">
-    
-    <!-- grab the figure id, first looking in @facs, then @xml:id, and if there is a .jpg, chop it off -->
-    <xsl:variable name="figure_id">
-      <xsl:variable name="figure_id_full">
-        <xsl:choose>
-          <xsl:when test="@facs"><xsl:value-of select="@facs"></xsl:value-of></xsl:when>
-          <xsl:when test="@xml:id"><xsl:value-of select="@xml:id"></xsl:value-of></xsl:when>
-        </xsl:choose>
-      </xsl:variable>
-      <xsl:choose>
-        <xsl:when test="contains($figure_id_full,'.jpg')">
-          <xsl:value-of select="substring-before($figure_id_full,'.jpg')"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="$figure_id_full"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
+
     
     <!-- ================================================ -->
     <!--                    Page Breaks                   -->
     <!-- ================================================ -->
     
-    <span class="hr">&#160;</span>
-    <span>
-      <xsl:attribute name="class">
-        <xsl:text>pageimage</xsl:text>
-      </xsl:attribute>
-      <a>
-        <xsl:attribute name="href">
-          <xsl:value-of select="$fig_location"/>
-          <xsl:text>large/</xsl:text>
-          <xsl:value-of select="$figure_id"/>
-          <xsl:text>.jpg</xsl:text>
+    <xsl:template match="pb">
+      <span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak</xsl:text>
         </xsl:attribute>
-        <xsl:attribute name="rel">
-          <xsl:text>prettyPhoto[pp_gal]</xsl:text>
-        </xsl:attribute>
-        <xsl:attribute name="title">
-          <xsl:text>&lt;a href="</xsl:text>
-          <xsl:value-of select="$fig_location"/>
-          <xsl:text>large/</xsl:text>
-          <xsl:value-of select="$figure_id"/>
-          <xsl:text>.jpg</xsl:text>
-          <xsl:text>" target="_blank" &gt;open image in new window&lt;/a&gt;</xsl:text>
-        </xsl:attribute>
-        
-        <img>
-          <xsl:attribute name="src">
-            <xsl:value-of select="$fig_location"/>
-            <xsl:text>thumbnails/</xsl:text>
-            <xsl:value-of select="$figure_id"/>
-            <xsl:text>.jpg</xsl:text>
-          </xsl:attribute>
-          <xsl:attribute name="class">
-            <xsl:text>display</xsl:text>&#160;
-          </xsl:attribute>
-        </img>
-      </a>
-    </span>
-    
-  </xsl:template>
+        <span class="thumbnail">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>pages/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+              <xsl:text>.jpg</xsl:text>
+            </xsl:attribute>
+            <img>
+              <xsl:attribute name="src">
+                <xsl:text>pages/thumbs/</xsl:text>
+                <xsl:value-of select="@facs"/>
+                <xsl:text>_thumb.jpg</xsl:text>
+              </xsl:attribute>
+            </img>
+          </a>
+        </span>
+        <span class="viewsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>pages/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+              <xsl:text>.jpg</xsl:text>
+            </xsl:attribute>
+            <xsl:text>View Page</xsl:text>
+          </a>
+        </span>
+        <br/>
+        <span class="fullsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>pages/fullsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+              <xsl:text>.jpg</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="target">
+              <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:text>Full size in new window</xsl:text>
+          </a>
+        </span>
+      </span>
+    </xsl:template>
 
 <!-- ================================================ -->
 <!--                    PARAGRAPHS                    -->
 <!-- ================================================ -->
 
-  <!-- todo - build a better sheet. Right now, paragraphs could appear in other paragraphs, need to find a way to account for the weirdest encoding -KMD -->
+<!-- still need to find a way to identify more p's in p's - html template? -kmd -->
+
 <xsl:template match="p">
-  <p><xsl:apply-templates/></p>
+  <xsl:choose>
+    <xsl:when test="ancestor::p">
+      <div class="p">
+        <xsl:apply-templates/>
+      </div>
+    </xsl:when>
+    <xsl:otherwise><p><xsl:apply-templates/></p></xsl:otherwise>
+  </xsl:choose>
 </xsl:template>
 
-<!-- ================================================ -->
-<!--                   POSITIONING                    -->
-<!-- ================================================ -->
 
-<xsl:template match="hi[@rend='right'] | hi[@rend='center']" priority="1">
-  <div>
-    <xsl:attribute name="class">
-      <xsl:value-of select="@rend"/>
-    </xsl:attribute>
-    <xsl:apply-templates/>
-  </div>
-</xsl:template>
 
 <!-- ================================================ -->
 <!--                     QUOTES                       -->
 <!-- ================================================ -->
 
-<xsl:template match="hi[@rend='quoted']" priority="1">
-  <xsl:text>"</xsl:text>
-  <xsl:apply-templates/>
-  <xsl:text>"</xsl:text>
-</xsl:template>
+
 
 <xsl:template match="quote">
   <xsl:choose>
@@ -784,10 +950,6 @@
   <sup><xsl:apply-templates/></sup>
 </xsl:template>
 
-<xsl:template match="hi[@rend='subscript']" priority="1">
-  <sub><xsl:apply-templates/></sub>
-</xsl:template>
-
 <!-- ================================================ -->
 <!--                      TABLES                      -->
 <!-- ================================================ -->
@@ -849,13 +1011,7 @@
   </span>
 </xsl:template>
 
-<!-- ================================================ -->
-<!--                    UNDERLINE                     -->
-<!-- ================================================ -->
 
-<xsl:template match="hi[@rend='underlined'] | hi[@rend='underline']" priority="1">
-  <u><xsl:apply-templates/></u>
-</xsl:template>
 
 
 </xsl:stylesheet>

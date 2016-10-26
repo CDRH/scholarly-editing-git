@@ -46,9 +46,7 @@
   <!-- $edition_author (Optional if not edition) -->
   <xsl:variable name="edition_author">
     <xsl:if test="//body/div[@class='body_author']/node() != ''">
-      <h3>
         <xsl:copy-of select="//body/div[@class='body_author']/node()"/>
-      </h3> 
     </xsl:if>
   </xsl:variable>
 
@@ -93,6 +91,7 @@
         <title><xsl:value-of select="$head_title"/> - Scholarly Editing</title>
         <meta name="viewport" content="width=device-width"/>
 
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"/>
         <link rel="stylesheet" href="{$siteroot}template_css/bootstrap/bootstrap.min.css"/>
         <!--        <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon" rel="stylesheet"/>-->
         <link rel="stylesheet" href="{$siteroot}template_css/new_style.css"/>
@@ -156,13 +155,17 @@
             </div>
           </div>
 
-          <div class="editionHeader">
+          <div class="page_info" id="page_info">
 
-            <h2 class="editionTitle">
+            <h2 class="page_title">
               <xsl:copy-of select="$body_title"/>
             </h2>
-
-            <xsl:copy-of select="$edition_author"/>
+            
+            <xsl:if test="$edition_author != ''">
+              <h3>
+                <xsl:value-of select="$edition_author"/>
+              </h3>
+            </xsl:if>
 
             <xsl:copy-of select="$edition_nav"/>
 

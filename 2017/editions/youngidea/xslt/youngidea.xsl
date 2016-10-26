@@ -43,7 +43,12 @@
         
         <!-- $site_head_extras (Optional) -->
         <link rel="stylesheet" href="css/style.css"/>
-        <script src="js/style.js">&#160;</script>
+        <script src="js/script.js">&#160;</script>
+        <script>
+          <![CDATA[
+              
+          ]]>
+        </script>
       </head>
       
       <body>
@@ -57,10 +62,11 @@
         <!-- $site_edition_navigation -->
         <nav>
           <ul>
-            <li><a href="2016preface.youngidea.html">2016 Preface</a></li>
-            <li><a href="1867preface.youngidea.html">1867 Preface</a></li>
-            <li><a href="extracts.youngidea.html">Edition</a></li>
-            <li><a href="extracts.youngidea.xml" target="_blank">Edition XML</a></li>
+            <li><a href="intro.html#page_info">Introduction</a></li>
+            <li><a href="2016preface.html#page_info">2016 Preface</a></li>
+            <li><a href="1867preface.html#page_info">1867 Preface</a></li>
+            <li><a href="extracts.html#page_info">Edition</a></li>
+            <li><a href="extracts.youngidea.xml" target="_blank">Edition XML <span class="circle">&#8659;</span></a></li>
           </ul>
         </nav>
         
@@ -71,6 +77,14 @@
         <!-- Must be in <div class="main_content"> -->
         <div class="main_content">
           <xsl:apply-templates/>
+          
+          
+          <br/>
+          <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+          <br/>
+          
+          
+          
         </div>
         
       </body>
