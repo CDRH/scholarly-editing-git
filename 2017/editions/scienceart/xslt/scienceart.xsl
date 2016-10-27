@@ -53,20 +53,18 @@
       
       <body>
         <!-- $site_body_title -->
-        <h1>Edition title <em>With Emphasis</em></h1>
+        <h1>Science and Art: A Farce in Two Acts</h1>
         
         <!-- $site_body_author -->
         
-        <div class="body_author">Author Smith <em>A University Name</em></div>
+        <div class="body_author">Edited by Rebecca Nesvet</div>
         
         <!-- $site_edition_navigation -->
         <nav>
           <ul>
             <li><a href="intro.html#page_info">Introduction</a></li>
-            <li><a href="2016preface.html#page_info">2016 Preface</a></li>
-            <li><a href="1867preface.html#page_info">1867 Preface</a></li>
-            <li><a href="extracts.html#page_info">Edition</a></li>
-            <li><a href="extracts.youngidea.xml" target="_blank">Edition XML <span class="circle">&#8659;</span></a></li>
+            <li><a href="script.html#page_info">Edition</a></li>
+            <li><a href="script.scienceart.xml" target="_blank">Edition XML <span class="circle">&#8659;</span></a></li>
           </ul>
         </nav>
         
@@ -96,7 +94,7 @@
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
   
-  <xsl:template match="front/lb"><!-- don't show --></xsl:template>
+  
   
   
   <!-- Individual projects can override matched templates from the

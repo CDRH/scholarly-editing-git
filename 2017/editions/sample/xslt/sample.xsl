@@ -96,7 +96,7 @@
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
   
-  <xsl:template match="front/lb"><!-- don't show --></xsl:template>
+  
   
   
   <!-- Individual projects can override matched templates from the

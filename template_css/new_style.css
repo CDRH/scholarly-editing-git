@@ -8,9 +8,9 @@ url('../fonts/goudytwenty/goudytwenty-webfont.woff') format('woff');
 }
 
 
-/* - - - - to categorize - - - - */
+/* - - - - to categorize - - - - */ 
 
-p::first-letter {
+/*p::first-letter {
 	font-size: 3em;
 	float: left;
 	display: inline-block;
@@ -20,6 +20,14 @@ p::first-letter {
 
 p::first-line {
 	font-size: 1.2em;
+}*/
+
+.tei_body p {
+    text-indent:2em;
+}
+
+.tei_front {
+    margin-bottom:1em;
 }
 
 /* - - - - - - - - - */
@@ -238,8 +246,7 @@ span.pagebreak span.thumbnail{
 
 /* TEI Specific Rules */
 
-/* - - - -      Uncategorized  
-/* ================================================ */
+/* - - - -      Uncategorized  - - - - */
 
 ol.bulleted,
 ul.bulleted{

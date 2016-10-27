@@ -236,12 +236,13 @@
                          2017
       ====================================== -->
 
-        <!-- TEST 2017 Edition, Young Idea-->
+        <!-- General for all editions-->
+        <!-- Exceptions should go above -->
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2017/editions/youngidea/**.html">
-                <map:generate src="2017/editions/youngidea/xml/{1}.youngidea.xml"/>
-                <map:transform src="2017/editions/youngidea/xslt/youngidea.xsl">
+            <map:match pattern="2017/editions/**/**.html">
+                <map:generate src="2017/editions/{1}/xml/{2}.{1}.xml"/>
+                <map:transform src="2017/editions/{1}/xslt/{1}.xsl">
                     <map:parameter name="pagetype" value="home"/>
                     <map:parameter name="subpagetype" value=""/>
                     <map:parameter name="pageid" value=""/>
@@ -249,30 +250,33 @@
                 <map:transform src="template_xslt/html_template.xsl">
                     <map:parameter name="volume" value="5x5"/>
                     <map:parameter name="year" value="2017"/>
+                    <map:parameter name="slug" value="{1}"/>
+                    <map:parameter name="view" value="col8"/>
                 </map:transform>
                 <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2017/editions/youngidea/pages/**">
-                <map:read src="2017/editions/youngidea/pages/{1}"/>
+            <map:match pattern="2017/editions/**/pages/**">
+                <map:read src="2017/editions/{1}/pages/{2}"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2017/editions/**.youngidea.xml">
-                <map:generate src="2017/editions/youngidea/xml/{1}.youngidea.xml"/>
-
+            <map:match pattern="2017/editions/**/**.xml">
+                <map:generate src="2017/editions/{1}/xml/{2}.xml"/>
                 <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2017/editions/youngidea/**.jpg">
-                <map:read src="2017/editions/youngidea/{1}.jpg"/>
+            <map:match pattern="2017/editions/**/**.jpg">
+                <map:read src="2017/editions/{1}/{2}.jpg"/>
             </map:match>
         </map:pipeline>
+        
+        
 
         <!-- ====================================
                          2016

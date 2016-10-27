@@ -180,6 +180,13 @@
             <!-- remove grids if full width -->
 
             <xsl:choose>
+              <xsl:when test="$view = 'col8'">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <xsl:copy-of select="$main_content"/>
+                  </div>
+                </div>
+              </xsl:when>
               <xsl:when test="$view != 'fullpage'">
                 <div class="row">
                   <div class="col-md-10 col-md-offset-1">

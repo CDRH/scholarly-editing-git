@@ -39,6 +39,23 @@
       </xsl:when>
     </xsl:choose>
   </xsl:template>
+  
+  
+  
+  
+  <xsl:template match="body | front | back">
+    <div>
+      <xsl:attribute name="class">
+        <xsl:text>tei_</xsl:text>
+        <xsl:value-of select="name()"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+  
+  
+  
+  
 
 <!-- ================================================ -->
 <!--                   ABBREVIATION                   -->
@@ -75,6 +92,8 @@
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
+  
+  
 
 <!-- ================================================ -->
 <!--                       BOLD                       -->
@@ -226,7 +245,34 @@
 <!--                  Figure                  -->
 <!-- ================================================ -->
   
-  <xsl:template match="//tei:figure" priority="1">
+  <xsl:template match="figure/graphic">
+      <img>
+        <xsl:attribute name="src">
+          <xsl:text>images/</xsl:text>
+          <xsl:value-of select="./attribute::url"/>
+        </xsl:attribute>
+        <xsl:attribute name="alt">
+          <xsl:value-of select="child::tei:figDesc"/>
+        </xsl:attribute>
+      </img>
+  </xsl:template>
+  
+  <xsl:template match="figure/head">
+    <h5><xsl:apply-templates/></h5>
+  </xsl:template>
+  
+  <xsl:template match="figure" priority="1">
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>tei_figure</xsl:text>
+          </xsl:attribute>
+          
+          <xsl:apply-templates/>
+         
+        </span>
+  </xsl:template>
+  
+ <!-- <xsl:template match="//tei:figure" priority="1">
     <xsl:variable name="editionName">
       <xsl:value-of select="//tei:publicationStmt/tei:idno[@type = 'edition']"/>
     </xsl:variable>
@@ -244,6 +290,7 @@
           <xsl:for-each select="child::tei:graphic">
             <img>
               <xsl:attribute name="src">
+                <xsl:text>images/</xsl:text>
                 <xsl:value-of select="./attribute::url"/>
               </xsl:attribute>
               <xsl:attribute name="alt">
@@ -253,9 +300,9 @@
           </xsl:for-each>
           <span class="fig_caption">
             <xsl:for-each select="descendant::tei:head">
-                  <h3>
-                    <xsl:apply-templates/>
-                  </h3>
+              <h3>
+                <xsl:apply-templates/>
+              </h3>
             </xsl:for-each>
             <xsl:for-each select="descendant::tei:p">
               <div class="p">
@@ -268,43 +315,8 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  -->
   
-  
- <!-- <xsl:template match="figure">
-    
-    <span>
-      <xsl:attribute name="class">
-        <xsl:text>tei_figure</xsl:text>
-        <xsl:if test="@place">
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="@place"/>
-        </xsl:if>
-      </xsl:attribute>
-      <xsl:for-each select="child::graphic">
-        <img>
-          <xsl:attribute name="src">
-            <xsl:value-of select="./attribute::url"/>
-          </xsl:attribute>
-          <xsl:attribute name="alt">
-            <xsl:value-of select="child::figDesc"/>
-          </xsl:attribute>
-        </img>
-      </xsl:for-each>
-      <span class="fig_caption">
-        <xsl:for-each select="descendant::head">
-              <h3>
-                <xsl:apply-templates/>
-              </h3>
-        <xsl:for-each select="descendant::p">
-          <div class="p">
-            <xsl:apply-templates/>
-          </div>
-        </xsl:for-each>
-          
-        </xsl:for-each>
-      </span>
-    </span>
-  </xsl:template>-->
 
 <!-- ================================================ -->
 <!--                  Form Work (FW)                  -->
@@ -330,15 +342,7 @@
     
   </xsl:template>
   
-  <!-- ================================================ -->
-  <!--                        FRONTMATTER               -->
-  <!-- ================================================ -->
-  
-  <xsl:template match="//tei:front">
-    <div class="frontmatter">
-      <xsl:apply-templates/>
-    </div>
-  </xsl:template>
+
 
 <!-- ================================================ -->
 <!--                        GAP                       -->
@@ -613,7 +617,7 @@
 <xsl:template
   match="byline | docDate | sp | speaker | letter | 
   notesStmt | titlePart | docDate | ab | trailer | 
-  front | lg | l | bibl | dateline | salute | trailer | titlePage | closer | floatingText | date">
+   lg | l | bibl | dateline | salute | trailer | titlePage | closer | floatingText | date">
   <span>
     <xsl:attribute name="class">
       <xsl:value-of select="name()"/>
