@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:mi="http://www.newhaven.edu/thedigitalyoungidea/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personography for The Digital Young Idea</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Scholarly Editing: The Annual of the Association for Documentary
+               Editing</authority>
+            <idno type="file">personography.youngidea</idno>
+            <idno type="edition">youngidea</idno>
+            <address>
+               <addrLine>http://www.scholarlyediting.org</addrLine>
+            </address>
+            <publisher>Association for Documentary Editing</publisher>
+            <publisher>University of Nebraska&#8211;Lincoln</publisher>
+            <distributor>
+               <name>Center for Digital Research in the Humanities</name>
+               <address>
+                  <addrLine>319 Love Library</addrLine>
+                  <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                  <addrLine>Lincoln, NE 68588-4100</addrLine>
+                  <addrLine>http://cdrh.unl.edu</addrLine>
+               </address>
+            </distributor>
+            <date>2016</date>
+            <availability>
+               <p>Scholarly Editing: The Annual of the Association for Documentary Editing is freely
+                  distributed by the Association for Documentary Editing and the Center for Digital
+                  Research in the Humanities at the University of Nebraska-Lincoln and licensed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+                  License</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+               Editing</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name xml:id="ag">Amanda Gailey</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name xml:id="awj">Andrew Jewell</name>
+            </respStmt>
+            <idno type="vol">37</idno>
+            <idno type="ISSN">2167-1257</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This personography draws primarily on the Dictionary of National Biography and on the
+               Muster Book of the H.M.S. Chesapeake held at the National Archives at Kew, UK.
+               Bibliographic information provided in each note.</p>
+         </sourceDesc>
+
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person>
+               <persName xml:id="A_D_McArthur">Alexander D. McArthur</persName>
+               <note>Alexander D. McArthur, a clerk, joined the <hi rend="italic">Chesapeake</hi> on
+                  December 9, 1857. He was born on December 25, 1835, in Woolwich, Kent, making him
+                  twenty-one when he came aboard. Census records for the town of Woolwich in 1851 reveal the
+                  family of John McAurthur, a captain in the Royal Marines, who lived with his wife,
+                  Mary E., a son James (a gentleman, aged 29), a son John (no occupation, aged 27),
+                  a son Henry (a clerk in the wine trade, aged 17), a son Alexander D (a scholar,
+                  aged 15), a son Hanibal (no occupation, aged 13), and a servant Esther Johnson
+                  (aged 20).</note>
+               <bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st January 1858 Ending
+                  31st March 1858," National Archives at Kew (ADM 38/2884)</bibl>
+               <bibl>Census Returns of England and Wales, 1851. Kew, Surrey, England: The National
+                  Archives of the UK (TNA): Public Record Office (PRO), 1851.</bibl>
+            </person>
+
+            <person>
+               <persName xml:id="J_W_L_Bampfield">John William Lewis Bampfield</persName>
+               <note>Reverend John William Lewis Bampfield joined the <hi rend="italic"
+                     >Chesapeake</hi> on July 24, 1857 and was a regular contributor to and
+                  supporter of <hi rend="italic">The Young Idea</hi>. While his age is not recorded
+                  in the muster book, census records reveal that Bampfield was born in June of 1823,
+                  so he was in his midthirties during the cruise. He was commissioned as chaplain
+                  aboard a different royal naval vessel in Port Royal, Jamaica before his arrival
+                  aboard the <hi rend="italic">Chesapeake</hi>. His detailed journal provides an
+                  additional witness to <hi rend="italic">The Young Idea</hi>, providing fascinating
+                  points of contrast from the facsimile edition that McArthur had printed in 1867
+                  and offering hints about the authorship of contributions through his inclusion of
+                  the initials of authors (a marked list). </note>
+            </person>
+            <person>
+               <persName xml:id="Edgell">Harry Edmund Edgell</persName>
+               <note>Harry Edmund Edgell joined the <hi rend="italic">Chesapeake</hi> as commodore
+                  after the period chronicled in the issues included in this edition. He was an
+                  enthusiastic supporter of <hi rend="italic">The Young Idea</hi>. In <hi
+                     rend="italics">"Martello Tower" in China, and the Pacific in H.M.S. "Tribune,"
+                     1856-60</hi> (London: George Allen, 1902), Francis Martin Norman recounts
+                  Edgell's enthusiastic support for a shipboard theatrical aboard H.M.S. <hi
+                     rend="italic">Tribune</hi> in 1857, when he was captain of the ship. Edgell
+                  composed the prologue for the play and painted the drop scene (50). The National
+                  Maritime Museum at Greenwich (NMM) holds over 300 watercolors by Edgell, including
+                  some undertaken during the cruise chronicled in <hi rend="italic">The Young
+                     Idea</hi>. The NMM's biographical note on Edgell reads as follows: "Edgell was
+                  promoted to lieutenant in 1828, to commander in 1837 and to captain in 1846. He
+                  was appointed to command the Tribune in 1855 when she was in the Crimea. During
+                  this commission she went to the Pacific and finally to China. In 1857 Edgell was
+                  the Senior Naval Officer at Hong Kong and he transferred into the Bittern tender
+                  commanding the gun boats on the Canton River during the hostilities with the
+                  Chinese. In 1858 he was given command of the squadron in Indian waters, during
+                  which time he commanded the <hi rend="italic">Chesapeake</hi> and later the
+                  Retribution. The latter returned to England and was paid off in 1860. Edgell had
+                  no further active employment and was promoted on the retired list, reaching the
+                  rank of vice-admiral in 1871."</note>
+            </person>
+            <person>
+               <persName xml:id="Watson">Commodore Rundle Burges Watson</persName>
+               <note>From “Watson, Rundle Burges” by <bibl><author>by J. K. Laughton, rev. Andrew
+                        Lambert</author></bibl> in <bibl><title>Oxford Dictionary of National
+                        Biography</title></bibl>: <quote>"Watson, Rundle Burges (1809–1860), naval
+                     officer, was the eldest son of Captain Joshua Rowley Watson (1772–1810). He
+                     entered the navy in November 1821, and was promoted lieutenant on 7 October
+                     1829. [. . .] On 23 December 1842 he was advanced to post rank, and on 24
+                     December was made a CB. [. . .] In December 1852 [Watson] was appointed to the
+                     new steam frigate <hi rend="italic">Impérieuse</hi> (50 guns), then, and for
+                     some years later, considered one of the finest ships in the navy. In 1854 she
+                     was sent into the Baltic in advance of the fleet, Watson being senior officer
+                     of the squadron of small vessels appointed to watch the breaking up of the ice,
+                     and to see that no Russian warships got to sea. It was an arduous service well
+                     performed. The <hi rend="italic">Impérieuse</hi> continued with the flying
+                     squadron in the Baltic during the campaigns of 1854 and 1855, and until the
+                     signing of peace in March 1856. As the senior officer of the frigate squadron,
+                     and generally on detached service, Watson demonstrated the highest standards of
+                     seamanship, judgement, and leadership. After the peace the <hi rend="italic"
+                        >Impérieuse</hi> was sent to the North American station; she returned to
+                     England and was paid off early in 1857. From May 1856 until his death Watson
+                     was naval aide-de-camp to the queen. In June 1859 he was appointed
+                     captain-superintendent of Sheerness Dockyard, where he died on 5 July 1860. An
+                     officer of great ability, Watson was one of the last great sailing-ship
+                     captains, and the first frigate captain of the steam era."</quote></note>
+            </person>
+            <person>
+               <persName xml:id="Campbell">Sir Colin Campbell</persName>
+               <note>From “Campbell [formerly Macliver], Colin, Baron Clyde” by <bibl><author>H. M.
+                        Stephens, rev. Roger T. Stearn</author></bibl>, <bibl><title>Oxford
+                        Dictionary of National Biography</title></bibl>:
+                     <quote>"Campbell [formerly Macliver], Colin, Baron Clyde (1792–1863), army
+                     officer, born Macliver, the eldest son of John Macliver (d. 22 December 1858,
+                     aged ninety-two), a carpenter in Glasgow—whose father's Ardnave estate was
+                     forfeited following the Jacobite rising of 1745—and his wife,
+                     Agnes, née Campbell, of the Campbells of Islay, was born at John Street,
+                     Glasgow, on 20 October 1792. His mother died when he was a boy, and her
+                     brother, Colonel John Campbell, paid for Colin's education. He attended Glasgow
+                     grammar school and Gosport military academy. In 1807 Colonel Campbell took him
+                     to the duke of York as candidate for a commission. The duke assumed he was
+                     ‘another of the clan’ and his name was entered as Campbell, which he
+                     thenceforth used. [. . .] In March 1857 Campbell was offered command of the
+                     expedition then forming for China, which he refused. On 11 July arrived the
+                     news of the outbreak of the Indian mutiny and the death of General Anson, the
+                     commander-in-chief in India. That day Lord Panmure offered Campbell the
+                     command-in-chief. He accepted, and started next day for India. He arrived at
+                     Calcutta in August, and heard at once the news of the recovery of Delhi by
+                     Major-General Archdale Wilson, and of Havelock's capture of Cawnpore, and his
+                     preparations for the first relief of Lucknow. Campbell hurried to Cawnpore the
+                     troops intended for the China expedition, which Lord Elgin had wisely sent to
+                     Calcutta, and assembled there also picked troops from the army which had taken
+                     Delhi. After two months of hard work organizing the troops and clearing Lower
+                     Bengal, he took command of the army at the Alambagh, and, leaving General C. A.
+                     Windham to hold Cawnpore, started on 9 November with 4700 men and 32 guns to
+                     save the British (under Outram and Havelock) at Lucknow. His force, largely
+                     European troops—and including the 93rd and Captain William Peel's naval
+                     brigade—reached Lucknow, stormed the sikandarabagh (16 November), then broke
+                     through to Outram and Havelock in the residency. Campbell evacuated the Lucknow
+                     garrison and its many dependents (11–23 November), leaving a force under Outram
+                     holding the Alambagh, 3 miles south of Lucknow. On 30 November Campbell reached
+                     Cawnpore and sent the rescued on steamers to Calcutta. [. . .] Campbell decided
+                     that a thorough defeat of the mutineers in Oudh must be the first major step
+                     towards re-establishing British rule. By March 1858 he had assembled 25,000 men
+                     for this purpose, and then began his campaign. After ten days' hard fighting he
+                     finally recaptured Lucknow on 19 March, and then by a series of operations in
+                     Oudh and Rohilkhand pacified—with the usual executions and reprisals—the north
+                     of India by May. He then paused in his own personal exertions from ill health;
+                     but it was because of his careful organization that Sir Hugh Rose was able to
+                     muster an adequate army for the campaign in central India, and because of his
+                     planning that the campaign was finally successful. In India grand strategy was
+                     decided, partly on political grounds, by Lord Canning, the governor-general. [.
+                     . .] Campbell made some mistakes: for example, his preventing Outram cutting
+                     off the mutineers' retreat after their defeat at Lucknow in March 1858, and his
+                     appointment of the notoriously bungling Brigadier-General R. Walpole to command
+                     in Rohilkhand. Nevertheless, overall Campbell was a successful commander. The
+                     mutiny further enhanced his reputation, and also enriched him by prize money.
+                     On 14 May 1858 he was promoted general; on 15 January 1858 he was made colonel
+                     of his favourite 93rd highlanders. In late 1858 and early 1859 there was
+                     indiscipline among the East India Company's European troops over their transfer
+                     to the queen's service. Campbell sympathized with their grievances and advised
+                     concession and that the men ‘be liberally dealt with’. [. . .] In June 1861, on
+                     the foundation of the order, he was appointed a knight companion of the Order
+                     of the Star of India, and on 3 July 1858 he was made Baron Clyde of Clydesdale.
+                     His health was failing, and so on 4 June 1860 he left India."</quote></note>
+            </person>
+            <person>
+               <persName xml:id="Pratt">Archdeacon Pratt</persName>
+               <note>From “Pratt, John Henry” by <bibl><author>Anita McConnell</author></bibl> in
+                        <bibl><title>Oxford Dictionary of National Biography</title></bibl>:
+                     <quote>“Pratt, John Henry (bap. 1809, d. 1871), Church of England clergyman and
+                     mathematician, was baptized on 30 June 1809 at St Mary Woolnoth, London, one of
+                     two sons of Josiah Pratt (1768–1844), Church of England clergyman, and his
+                     wife, Elizabeth, formerly Jowett. He was educated at Oakham School, Rutland,
+                     and entered Gonville and Caius College, Cambridge, in 1829, graduating BA in
+                     1833 as third wrangler. He was elected to a fellowship, and proceeded MA in
+                     1836. After taking orders he was appointed through the influence of Daniel
+                     Wilson, bishop of Calcutta, a chaplain of the East India Company in 1838. He
+                     became Wilson's domestic chaplain and in 1850 archdeacon of
+                  Calcutta.”</quote></note>
+            </person>
+            <person>
+               <persName xml:id="Ye_Mingchen">Commisioner Yeh</persName>
+               <note>From <hi rend="italics">Deadly Dreams</hi>: <quote>"Ye Mingchen (1809-59). He
+                     became governor of Guangdong in 1847 and imperial commissioner for foreign
+                     affairs and concurrently governor-general of Guangdong and Guangxi in 1852. He
+                     was to be captured by the British during the Arrow War and exiled to India,
+                     where he starved himself to death"</quote> (6).<bibl><author>J. Y.
+                        Wong</author><title>Deadly Dreams: Opium, Imperialism, and the Arrow War
+                        (1856&#8211;1860) in
+                        China</title><pubPlace>Cambridge</pubPlace><publisher>Cambridge University
+                        Press</publisher><date>1998</date></bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Sir_Henry_Havelock">General Havelock</persName>
+               <note>From “Havelock, Sir Henry” by <bibl><author>James Lunt</author></bibl> in
+                        <bibl><title>Oxford Dictionary of National Biography</title></bibl>:
+                     <quote>“Havelock, Sir Henry (1795–1857), army officer, was born on Easter day,
+                     5 April 1795, at Ford Hall, Bishopwearmouth, near Sunderland, second son of
+                     William Havelock (1757–1837), shipbuilder and shipowner, and Jane, daughter of
+                     John Carter, solicitor, of Stockton-on-Tees. [. . .] Henry was thrown on his own
+                     resources in 1814, having quarrelled with his father, but with his brother
+                     William's help, and against his father's wishes, he joined the army. William
+                     had already done so and had distinguished himself at Waterloo. Havelock joined
+                     the 95th foot (Rifle brigade) and was commissioned second lieutenant on 30 July
+                     1815, spending the next eight years at home on garrison duties. He was
+                     fortunate to serve under Captain (later Major-General Sir) Harry Smith, a truly
+                     professional soldier, who encouraged Havelock to study his profession. He
+                     decided to try his fortunes in India (where his brothers William and Charles
+                     Frederick were already serving), but not before he had made intensive studies
+                     in Hindustani and Persian at the Oriental Institute; he then exchanged into the
+                     13th foot (Somerset light infantry) which was under orders for India. He was
+                     now a lieutenant but dependent solely on his pay in an army ruled by purchase
+                     of promotion. He sailed for India on 3 January 1823 [. . .] On 20 June 1854
+                     Havelock obtained his regimental lieutenant-colonelcy and brevet colonelcy. He
+                     had left his family in Bonn when he returned to India at the end of 1851. War
+                     with Persia was declared on 1 November 1856, and early in 1857 Havelock was
+                     given a brigade in a force commanded by Brigadier-General Sir James Outram, an
+                     officer of the East India Company. Havelock drew up the plan for the successful
+                     attack on Muhammarah, but the war petered out when a peace treaty was signed in
+                     Paris on 4 March 1857. Havelock then returned to India, arriving back in Bombay
+                     on 20 May to find that the Bengal native army had broken out into mutiny.
+                     Travel overland being unsafe, he took the first available ship for Calcutta but
+                     was wrecked off Ceylon. He eventually reached Calcutta via Madras on 17 June.
+                     He was at once given command of a column to be sent up-country to relieve
+                     Cawnpore where the garrison was besieged in makeshift entrenchments. Thereafter
+                     he was to support Sir Henry Lawrence who was under siege in the residency
+                     compound in Lucknow. Havelock's appointment was not universally approved in
+                     Calcutta, but as Lady Canning, wife of the governor-general, was to comment:
+                     General Havelock is not in fashion, but all the same we believe he will do
+                     well. No doubt he is fussy and tiresome, but his little, old, stiff figure
+                     looks as active and fit for use as if he were made of steel. (Pollock, 153)
+                     Havelock's force consisted of the 64th foot (North Staffords), four companies
+                     of the 78th highlanders (Seaforths), two companies of the 84th (York and
+                     Lancaster) regiment, and a detachment of the 1st Madras European fusiliers (an
+                     East India Company regiment), the balance of which was in Allahabad under
+                     Lieutenant-Colonel J. G. Neill. There was a scratch collection of gunners to
+                     serve the six guns, twenty assorted officers and civilians to form the few
+                     cavalry, and some native irregulars. In total the force amounted to fewer than
+                     2000 all ranks. [. . .] The relief column entered Cawnpore on 17 July, too late to
+                     save the hard-pressed garrison or the women and children who had been butchered
+                     on the orders of the treacherous Nana Sahib. Lucknow must be the next
+                     objective, and on 25 July they crossed the flooded Ganges and set foot in Oudh.
+                     [. . .] The relieving force had to fight hard to reach the residency, which it did
+                     before it grew dark on 25 September. Outram had been wounded, though not
+                     seriously, and Neill was killed. Harry Havelock distinguished himself, but his
+                     left arm was broken. He was lucky to escape when the sepoys set about killing
+                     the convoy of wounded. He was to return later. Outram was put to bed in the
+                     residency, assuming the command the next day, and Havelock was taken to dinner
+                     by Mrs Inglis, wife of Colonel John Inglis who had commanded the beleaguered
+                     garrison after the death of Sir Henry Lawrence. Havelock had believed the
+                     garrison was running short of supplies and was surprised to sit down to a
+                     dinner of beef cutlets, with mock turtle soup and champagne. Lucknow had been
+                     relieved at a cost of 535 men killed and wounded. Carts for the evacuation of
+                     women, children, and wounded were impossible to obtain. It was clear that a
+                     retreat to Cawnpore would be a difficult, if not impossible, operation. Outram,
+                     with Havelock's agreement, decided to remain in the residency and reinforce its
+                     garrison. They knew that the newly arrived commander-in-chief, Sir Colin
+                     Campbell, was gathering together a substantial force for Lucknow's relief. It
+                     was a wise decision. Campbell finally arrived on 16 November after hard
+                     fighting. Outram and Havelock went to meet him and were greeted as ‘Sir James’
+                     and ‘Sir Henry’, the first time Havelock learned that he had been made a KCB.
+                     There was also a letter from the duke of Cambridge telling Havelock he had been
+                     promoted major-general. This was wonderful news, but Havelock was daily growing
+                     weaker as a result of dysentery, added to the effects of six months'
+                     campaigning in a difficult climate. Nursed by Harry, one arm in a sling, and
+                     his faithful aide-de-camp Hargood, Havelock was quietly slipping away. At 9.30
+                     a.m. on Monday, 24 November 1857, he finally did so, in the arms of his son, to
+                     whom his last words supposedly were, ‘Harry, see how a Christian can die’
+                     (Pollock, 252). Campbell had already decided to evacuate the residency, leaving
+                     a substantial force under Outram at the Alambagh as a base for a future attack.
+                     By the day of Havelock's death the evacuation was virtually complete. They
+                     buried him in the garden of the Alambagh, under a mango tree on which Harry
+                     carved the letter ‘H’, and took careful measurements of the grave before
+                     smoothing it down. It is there to this day.”</quote></note>
+            </person>
+            <person>
+               <persName xml:id="Edward_Southwell_Sotheby">Captain Sotheby</persName>
+               <note>From “Sotheby, Sir Edward Southwell” <bibl><author>by L. G. C. Laughton,
+                        rev. Andrew Lambert,</author></bibl> in <bibl><title>Oxford Dictionary of
+                        National Biography</title></bibl>: <quote>“Sotheby, Sir Edward Southwell
+                     (1813–1902), naval officer, born at Clifton, Bristol, on 14 May 1813. […] In
+                     July 1857 the Pearl, with the frigate Shannon (Captain William Peel), was sent
+                     from Hong Kong to Calcutta on the receipt of news of the outbreak of the Indian
+                     mutiny. While on passage, the Pearl rescued the crew of the wrecked transport
+                     Transit. Sotheby himself took command of the Pearl's brigade; they were
+                     thirteen times mentioned in dispatches relating to the operations in Oudh, and
+                     received the thanks of both houses of parliament and of the governor-general of
+                     India. Sotheby was made a CB and served as an extra aide-de-camp to the queen
+                     (1858–67).”</quote></note>
+            </person>
+            <person>
+               <persName xml:id="Sir_William_Peel">Captain Peel</persName>
+               <note>From “Peel, Sir William” by <bibl><author>by J. K. Laughton, rev. Andrew
+                        Lambert,</author></bibl> in <bibl><title>Oxford Dictionary of National
+                        Biography: </title></bibl>:<quote>"Peel, Sir William (1824–1858), naval
+                     officer, third and favourite son of Sir Robert Peel, second baronet (1788–1850)
+                     [and] prime minister. [...] On 13 September 1856 [Peel] commissioned the
+                     Shannon, a powerful 50-gun steamfrigate, for service in China. She did not sail
+                     until the following March. At Singapore she was met by the news of the Indian
+                     mutiny, and took Lord Elgin up to Hong Kong, arriving on 2 July. Admiral Sir
+                     Michael Seymour sent the Shannon back to Calcutta on July 16, with Elgin on
+                     board, together with a detachment of marines and soldiers. At Calcutta, Peel
+                     formed a naval brigade. On 14 August he left the ship with 450 men, six
+                     24-pounder Bengal artillery guns, and two 8 inch howitzers. At Allahabad on 20
+                     October he was reinforced by a party of 120 men, and from then on was present
+                     in all the principal operations. The coolness of his bravery was everywhere
+                     remarkable, and his formidable battery gave most efficient service: the huge
+                     guns were, under his orders, moved and worked as though they were light field
+                     pieces. On 21 January 1858 he was nominated a KCB and an aidede-camp to the
+                     queen. In 1858 Peel's brigade employed six naval 8 inch guns from the Shannon.
+                     Peel mounted these massive weapons, weighing 65 cwt each, on carriages locally
+                     constructed by the sailors. They provided the firepower to overcome the massive
+                     walls of Indian forts, and to keep down British casualties. In the second
+                     relief of Lucknow on 9 March 1858 Peel was severely wounded in the thigh by a
+                     musket bullet, which was cut out from the opposite side of the leg. Still very
+                     weak, he reached Cawnpore on his way to England, and there, on 20 April, he
+                     contracted smallpox, of which he died on 27 April, aged
+                  thirty-three."</quote></note>
+            </person>
+            <person>
+               <persName xml:id="Beauchamp_Seymour">Seymour</persName>
+               <note>From “Seymour, Frederick Beauchamp Paget, Baron Alcester” by <bibl><author>by
+                        J. K. Laughton, rev. Andrew Lambert,</author></bibl> in <bibl><title>Oxford
+                        Dictionary of National Biography</title></bibl>: <quote>"Seymour, Frederick
+                     Beauchamp Paget, Baron Alcester (1821–1895), naval officer, was born in London
+                     on 12 April 1821. He was the son of Colonel Sir Horace Beauchamp Seymour and
+                     his first wife, Elizabeth Malet, née Palk (d. 1827), daughter of Sir Lawrence
+                     Palk, bt; his grandfather was Lord Hugh Seymour, and his uncle Sir George
+                     Francis Seymour. He received his early education at Eton College, and entered
+                     the navy in January 1834. [...] In May 1855 [Seymour] was appointed to the
+                     floating battery Meteor, which he took out to the Crimea, and brought back to
+                     Portsmouth in the early summer of 1856. In July 1857 he commissioned the
+                     Pelorus, which he commanded for nearly six years on the Australian station.
+                     Between January and April 1858 the Pelorus provided a naval brigade in Burma,
+                     playing a vital role in preventing the spread of the mutiny from India. From
+                     1860 to 1861 he commanded the naval brigade in New Zealand during the war
+                     there, for which he was made a CB on 16 July 1861."</quote></note>
+            </person>
+            <person>
+               <persName xml:id="Outram">Outram</persName>
+               <note>From “Outram, Sir James (1803&#8211;1863)" in <bibl><title>Encyclopedia
+                        Britannica: </title></bibl>"<quote>English general, and one of the heroes of
+                     the Indian Mutiny, was the son of Benjamin Outram of Butterley Hall,
+                     Derbyshire, civil engineer, and was born on the 29th of January 1803. His
+                     father died in 1805, and his mother, a daughter of Dr James Anderson, the
+                     Scottish writer on agriculture, removed in 1810 to Aberdeenshire. From Udny
+                     school the boy went in 1818 to the Marischal College, Aberdeen; and in 1819 an
+                     Indian cadet ship was given him. [. . .] Appointed in 1857, with the rank of
+                     lieutenant-general, to command an expedition against Persia, he defeated the
+                     enemy with great slaughter at Khushab, and conducted the campaign with such
+                     rapid decision that peace was shortly afterwards concluded, his services being
+                     rewarded by the grand cross of the Bath. From Persia he was summoned in June to
+                     India, with the brief explanation — "We want all our best men here." It was
+                     said of him at this time that "a fox is a fool and a lion a coward by the side
+                     of Sir J. Outram." Immediately on his arrival in Calcutta he was appointed to
+                     command the two divisions of the Bengal army occupying the country from
+                     Calcutta to Cawnpore; and to the military control was also joined the
+                     commissioner ship of Oudh. Already the mutiny had assumed such proportions as
+                     to compel Havelock to fall back on Cawnpore, which he only held with
+                     difficulty, although a speedy advance was necessary to save the garrison at
+                     Lucknow. [. . .] After the capture of Lucknow he was gazetted
+                     lieutenant-general. In February 1858 he received the special thanks of both
+                     houses of parliament, and in the same year the dignity of baronet with an
+                     annuity of £1000."</quote></note>
+            </person>
+            <person>
+               <persName xml:id="Charlotte_Canning">Canning</persName>
+               <note>From “Canning [née Stuart], Charlotte Elizabeth, Countess Canning” by
+                        <bibl><author>by K. D. Reynolds</author></bibl> in <bibl><title> Oxford
+                        Dictionary of National Biography: </title></bibl><quote>"Canning [née Stuart],
+                     Charlotte Elizabeth, Countess Canning (1817–1861), courtier and vicereine of
+                     India, was born at the British embassy in Paris on 31 March 1817, the elder of
+                     the two daughters of Sir Charles Stuart, later Baron Stuart de Rothesay
+                     (1779–1845), diplomatist, and his wife, Lady Elizabeth Yorke (1789–1867),
+                     daughter of the third earl of Hardwicke. Like her sister Louisa [see Beresford,
+                     Louisa, marchioness of Waterford], Charlotte Stuart was celebrated for her
+                     beauty, piety, and artistic talent. [. . .] At eighteen she married, on 5 September 1835, Charles John
+                     Canning (1812–1862), only surviving son of the prime minister, George Canning,
+                     and heir to his mother's viscountcy. [. . .] In June 1855 Lord Canning accepted
+                     the post of governor-general of India. ‘[I] will not take any part in the
+                     decision but only be ready to follow like a dog,' [. . .] his wife
+                     wrote, rather dispiritedly. They left London in November, travelling to
+                     Calcutta via Paris, Malta, and Egypt, pausing in Bombay, Ceylon, and Madras
+                     before reaching their destination on 29 February 1856. [. . .] The year of the
+                     Indian mutiny, 1857, put a tremendous emotional and physical strain on the
+                     Cannings. Charlotte was kept well away from the dangerous areas, but she
+                     gathered information assiduously, keeping the queen informed in detail of the
+                     events as they unfolded, and was able to dispel some of the worst atrocity
+                     stories: ‘there is not a particle of evidence of the poor women having been
+                     “ill-used” anywhere’, she wrote. [. . .](Death, murder, starvation, and
+                     the mutilation of corpses did not compare to the horror felt at the idea of
+                     interracial rape.) To Lady Canning, the queen was able regularly to express her
+                     complete confidence in the beleaguered Canning, who was under continual
+                     pressure from the British at home and in India to exact a bloody retribution.
+                     Canning was able to rely on his wife to communicate with his colleagues in
+                     Britain when the pressures of the situation overwhelmed his correspondence.
+                     [. . .] The revolt over, Canning was elevated to an
+                     earldom, the government of India was removed from the hands of the East India
+                     Company, and the governor-generalship was transformed into a viceroyalty. The
+                     new vicereine travelled widely throughout India, from Madras in the south, to
+                     the borders of Tibet in the north. She sketched and painted as she went, and
+                     wrote detailed accounts of her travels to her family and to the queen. Despite
+                     the difficulties, she had come to enjoy India, but was looking forward to her
+                     frequently postponed return to England, which was set for January 1862. In
+                     October 1861 she journeyed through Darjeeling, to the borders of Sikkim, and
+                     saw Mount Everest, but her mind was on home and planning for the future there.
+                     She returned to Calcutta on 8 November, clearly suffering from ‘jungle fever’,
+                     or malaria. Four days later she was confined to bed, and shortly afterwards her
+                     mind started wandering, and she died at 2.30 in the morning of 18
+                     November."</quote></note>
+            </person>
+            <person>
+               <persName xml:id="George_Horner">George Horner</persName>
+               <note>George Horner, a bandsman, joined the <hi rend="italic">Chesapeake</hi> on
+                  August 12, 1857. He was born in London in 1817. The muster book for the <hi
+                     rend="italic">Chesapeake</hi> claims to offer the first entry for George
+                  Horner, perhaps meaning this was his first time at sea.<bibl>"Muster Book of Her
+                     Majesty's Ship Chesapeake Commencing 1st January 1858 Ending 31st March 1858,"
+                     National Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Charles_Stewart">Charles Stewart</persName>
+               <note>Charles Stewart, an ordinary seaman, joined the <hi rend="italic"
+                     >Chesapeake</hi> on May 23, 1857. He was born in London and served aboard HMS
+                  Gladiator just before joining the <hi rend="italic">Chesapeake</hi>. He was born
+                  in 1834.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st January
+                     1858 Ending 31st March 1858," National Archives at Kew (ADM
+                  38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Thomas_Walsh">Thomas Walsh</persName>
+               <note>Thomas Walsh, an ordinary seaman, joined the <hi rend="italic">Chesapeake</hi>
+                  on August 15, 1857. He was born in London in 1834 and served aboard HMS Cressy
+                  just before joining the <hi rend="italic">Chesapeake</hi>.<bibl>"Muster Book of Her
+                     Majesty's Ship Chesapeake Commencing 1st January 1858 Ending 31st March 1858,"
+                     National Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Robert_Wilkinson">Robert Wilkinson</persName>
+               <note>Robert Wilkinson, a private in the Royal Marines, joined the <hi rend="italic"
+                     >Chesapeake</hi> on July 25, 1857. He was born in Sitchfield,
+                     Staffordshire.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858, held by the National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Henry_Underhill">Henry Underhill</persName>
+               <note>Henry Underhill, an ordinary seaman from Alesford, was thirty-six when he came aboard the <hi
+                     rend="italic">Chesapeake</hi>.<bibl>"Muster Book of Her Majesty's Ship Chesapeake
+                     Commencing 1st January 1858 Ending 31st March 1858," National Archives at Kew
+                     (ADM 38/2884)</bibl>
+               </note>
+            </person>
+            <person>
+               <persName xml:id="John_Welsh">John Welsh</persName>
+               <note>John Welsh, an ordinary seaman, joined the <hi rend="italic">Chesapeake</hi> on
+                  February 20, 1857. He was born in Mayo<bibl>"Muster Book of Her Majesty's Ship
+                     Chesapeake Commencing 1st January 1858 Ending 31st March 1858," National
+                     Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Henry_Montagu">Henry Montagu</persName>
+               <note>Henry Montagu, yeoman of signals, joined the <hi rend="italic">Chesapeake</hi>
+                  on July 28, 1857, after serving aboard <hi rend="italic">HMS President</hi>. He was born in St. Hilliers,
+                  Jersey (the Channel Islands) in 1826, making him thirty-two at the time of the
+                     performance.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31, March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Isaac_Wright">Isaac Wright</persName>
+               <note>Isaac Wright, an ordinary sailor 2nd class, joined the <hi rend="italic"
+                     >Chesapeake</hi> on September 4, 1857. He was born in Sunderland in 1835,
+                  making him twenty-three at the time of the performance.<bibl>"Muster Book of Her Majesty's
+                     Ship Chesapeake Commencing 1st January 1858 Ending 31st March 1858," National
+                     Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Henry_Hamilton">Henry Hamilton</persName>
+               <note>C. R. B. Hamilton (the only Hamilton in the musters) was a naval cadet who
+                  served aboard <orgName ref="Colossus">HMS Colossus</orgName> before joining the
+                     <hi rend="italic">Chesapeake</hi> on July 23, 1857. He was born in County
+                  Tyrone, Ireland in December of 1842, making him fifteen at the time the
+                     performance<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858, held by the National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="James_Brown">James Browne</persName>
+               <note>James Brown, an ordinary seaman, joined the <hi rend="italic">Chesapeake</hi>
+                  on July 23, 1857, after serving aboard <orgName ref="Cuckoo">HMS Cuckoo</orgName>
+                  until February 3, 1857. He was born at Sheerness on the 17th of January 1829,
+                  making him twenty-eight at the time of the performance<bibl>"Muster Book of Her Majesty's
+                     Ship Chesapeake Commencing 1st January 1858 Ending 31st March 1858," National
+                     Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="William_Connell">William T Connell</persName>
+               <note>William T. Connell, an ordinary seaman, joined the <hi rend="italic"
+                     >Chesapeake</hi> on July 31 1857, after serving aboard <orgName ref="Eurydice"
+                     >HMS Eurydice</orgName> until 17 June 1857. He was born in London in 1835,
+                  making him twenty-seven at the time of the performance.<bibl>"Muster Book of Her Majesty's
+                     Ship Chesapeake Commencing 1st January 1858 Ending 31st March 1858," National
+                     Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Taylor">Edward Taylor</persName>
+               <note>Edward Taylor, assistant engineer 3rd class (a commissioned officer), joined
+                  the <hi rend="italic">Chesapeake</hi> on July 25, 1857. His age was not recorded
+                  in the muster book<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing
+                     1st January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Brownrigg">Charles J. Brownrigg</persName>
+               <note>Charles J. Brownrigg, a mate (a commissioned officer), joined the <hi
+                     rend="italic">Chesapeake</hi> on August 4th, 1857. His age was not recorded in
+                  the muster book.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Wilkinson">Wilkinson</persName>
+               <note>Mr. Wilkinson, a clerk (a subordinate officer), joined the <hi rend="italic"
+                     >Chesapeake</hi> on July 23, 1857 after serving aboard HMS Majestic. He was
+                  born in Suffolk in 1836, which would make him twenty-two at the time of the cricket match
+                  in Calcutta<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Shortt">John Shortt</persName>
+               <note>John Shortt, a subordinate officer, joined the <hi rend="italic"
+                     >Chesapeake</hi> on July 23, 1857, after serving aboard HMS <hi rend="italic">Euridice</hi>. He was
+                  born in Bombay in 1838, making him twenty at the time of this cricket match in
+                     Calcutta.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858, held by the National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Reynolds">S. Reynolds</persName>
+               <note>S. Reynolds, an ordinary seaman, joined the <hi rend="italic">Chesapeake</hi>
+                  on September 4, 1857. He was born in Landport (Portsmouth) in 1839, making him nineteen
+                  at the time of the cricket match in Calcutta.<bibl>"Muster Book of Her Majesty's
+                     Ship Chesapeake Commencing 1st January 1858 Ending 31st March 1858," National
+                     Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Theobald">C.B. Theobald</persName>
+               <note>C. B. Theobald, a naval cadet, joined the <hi rend="italic">Chesapeake</hi> on
+                  July 24, 1857. He was born in Mark's Tey, Essex, in 1843, making him fifteen at the time
+                  of the cricket match in Calcutta.<bibl>"Muster Book of Her Majesty's Ship
+                     Chesapeake Commencing 1st January 1858 Ending 31st March 1858," National
+                     Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Cooper">Cooper</persName>
+               <note>There are three different members of the ship's company with the last name
+                  Cooper. The only thing we can tell about the "Cooper" referenced in the cricket
+                  match is that he was not a commissioned officer, but an ordinary
+                     seaman.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Chute">Charles T. Chute</persName>
+               <note>Charles T. Chute, a subordinate officer, joined the <hi rend="italic"
+                     >Chesapeake</hi> on July 23, 1857, after serving aboard <hi rend="italic">Euridice</hi>. He was born
+                  in London in 1841, making him seventeen at the time of the cricket match in
+                     Calcutta.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Bew">James Bew</persName>
+               <note>James Bew, an experienced seaman, joined the <hi rend="italic">Chesapeake</hi>
+                  on August 1, 1857. He was born in 1833, making him twenty-five at the time of the cricket
+                  match in Calcutta.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing
+                     1st January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Oxley">C.L. Oxley</persName>
+               <note>C. L. Oxley, a midshipman, joined the <hi rend="italic">Chesapeake</hi> on July
+                  29, 1857. He was born in 1841, making him seventeen at the time of the cricket match in
+                     Calcutta.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Behadoor">Rajah Behadoor</persName>
+               <note>Still searching for biographical details on Rajah Behadoor</note>
+            </person>
+            <person>
+               <persName xml:id="Hope">Hope</persName>
+               <note>Hope played for the "squadron's eleven" and does not appear in the Chesapeake muster
+                  book, which means he likely belonged to another ship in the squadron.<bibl>"Muster
+                     Book of Her Majesty's Ship Chesapeake Commencing 1st January 1858 Ending 31st
+                     March 1858," National Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Haswell">Haswell</persName>
+               <note>Haswell served aboard <hi rend="italic">Himalaya</hi> until he was injured and
+                  replaced by Piers.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing
+                     1st January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Kelly">Lieutenant Edward Kelly</persName>
+               <note>Lieutenant Edward Kelly does not appear in the muster book of HMS <hi
+                     rend="italic">Chesapeake</hi>. <bibl>"Muster Book of Her Majesty's Ship
+                     Chesapeake Commencing 1st January 1858 Ending 31st March 1858," National
+                     Archives at Kew (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Parkin">George H. Parkin</persName>
+               <note>George H. Parkin was named acting commander of HMS <hi rend="italic"
+                     >Chesapeake</hi> on February 1, 1858, and he came aboard on February 25 after
+                  serving aboard <hi rend="italic">Roebuck</hi>. <bibl>"Muster Book of Her Majesty's Ship Chesapeake
+                     Commencing 1st January 1858 Ending 31st March 1858," National Archives at Kew
+                     (ADM 38/2884)</bibl></note>
+            </person>
+            <person>
+               <persName xml:id="Piers">S.B. Piers</persName>
+               <note>S. B. Piers, a commander, joined the <hi rend="italic">Chesapeake</hi> on July
+                  28, 1857. He was discharged on January 22, 1858, to serve aboard HMS <hi
+                     rend="italic">Himalaya</hi> when Vice Captain Haswell was
+                     invalided.<bibl>"Muster Book of Her Majesty's Ship Chesapeake Commencing 1st
+                     January 1858 Ending 31st March 1858," National Archives at Kew (ADM
+                     38/2884)</bibl></note>
+            </person>
+
+         </listPerson>
+      </body>
+   </text>
+</TEI>
