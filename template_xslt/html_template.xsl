@@ -57,17 +57,13 @@
         <ul class="nav nav-pills">
           <xsl:for-each select="//body/nav[1]/ul/li">
             <li role="presentation">
+              <xsl:if test="@class"><xsl:attribute name="class" select="@class"/></xsl:if>
               <xsl:copy-of select="node()"/>
             </li>
           </xsl:for-each>
         </ul>
       </div>
     </span>
-  </xsl:variable>
-
-  <!-- $edition_controls (Optional) -->
-  <xsl:variable name="edition_controls">
-    <xsl:copy-of select="//body/div[@class = 'edition_controls']/node()"/>
   </xsl:variable>
 
   <!-- ## Main Content -->
@@ -169,13 +165,12 @@
 
             <xsl:copy-of select="$edition_nav"/>
 
-            <xsl:copy-of select="$edition_controls"/>
-
           </div>
 
-
+         
 
           <div class="main_content">
+           
 
             <!-- remove grids if full width -->
 
