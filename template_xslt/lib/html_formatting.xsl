@@ -6,7 +6,6 @@
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
   version="2.0"
   exclude-result-prefixes="xsl tei xs">
-  <xsl:variable name="editionName"/>
   
   <!-- ================================================ -->
   <!--         Email address protection                 -->
@@ -41,262 +40,21 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- ~~~~~ Applying Classes based on Elements and rends ~~~~~~ -->
   
-  <xsl:template
-    match="body | front | back | docDate | sp | speaker | letter | 
-    notesStmt | titlePart | docDate | ab | trailer | 
-    lg | l | bibl | dateline | salute | trailer | titlePage | closer | 
-    floatingText | date | epigraph">
-    <span>
+  
+  
+  <xsl:template match="body | front | back">
+    <div>
       <xsl:attribute name="class">
-        <xsl:text>tei_</xsl:text><xsl:value-of select="name()"/>
-        <xsl:for-each select="tokenize(@type,' ')"><xsl:text> tei_type_</xsl:text><xsl:value-of select="."/></xsl:for-each>
-        <xsl:for-each select="tokenize(@rend,' ')"><xsl:text> tei_rend_</xsl:text><xsl:value-of select="."/></xsl:for-each>
+        <xsl:text>tei_</xsl:text>
+        <xsl:value-of select="name()"/>
       </xsl:attribute>
       <xsl:apply-templates/>
-    </span>
+    </div>
   </xsl:template>
   
-  <!-- put all footnotes at bottom, make inline with javascript -->
-  <xsl:template match="text">
-    <xsl:apply-templates/>
-    <xsl:if test="//body//note[@type='editorial']
-      or //body//note[@place='foot']
-      or //ref[@target]
-      or //back//note
-      ">
-      <div class="footnotes">
-        <xsl:for-each select="//text//note">
-          <div class="footnote">
-            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-            <xsl:apply-templates select="." mode="footnotes"/>
-          </div>
-        </xsl:for-each>
-      </div>
-    </xsl:if>
-  </xsl:template>
-  
-  <!-- ================================================ -->
-  <!--              Notes and Footnotes                 -->
-  <!-- ================================================ -->
-  
-  <!-- If div type="notes" or in back? -->
-  <!-- or, if immidiate sibline is also a note? -->
-  <!-- <note place="foot" xml:id="ftn26" n="26"> -->
-  <!-- <note type="editorial" xml:id="n4"><p>Charles Henry ... -->
-  <!-- note place="foot" xml:id="ftn26" n="26">E. Pierazzo -->
-  
-  <xsl:template match="note" priority="2">
-    <xsl:choose>
-      <xsl:when test="@place = 'foot' or (@type='editorial' and @xml:id)">
-        <a>
-          <xsl:attribute name="href"><xsl:text>#</xsl:text><xsl:value-of select="@xml:id"/></xsl:attribute>
-          <xsl:attribute name="id">inline<xsl:value-of select="@xml:id"/></xsl:attribute>
-          <sup><xsl:text>[</xsl:text>
-            <xsl:choose>
-              <xsl:when test="@n"><xsl:value-of select="@n"/></xsl:when>
-              <xsl:when test="@xml:id"><xsl:value-of select="substring-after(@xml:id,'n')"/></xsl:when>
-            </xsl:choose>
-            
-
-            <xsl:text>]</xsl:text></sup>
-          
-        </a>
-      </xsl:when>
-    </xsl:choose>
-    
-  </xsl:template>
-  
-  <xsl:template match="note" mode="footnotes" priority="1">
-    <xsl:choose>
-      <xsl:when test="@n"><xsl:value-of select="@n"/></xsl:when>
-      <xsl:when test="starts-with(@xml:id,'n')"><xsl:value-of select="substring-after(@xml:id,'n')"/></xsl:when>
-      <xsl:otherwise><xsl:number/></xsl:otherwise>
-    </xsl:choose>
-    
-        <xsl:text>. </xsl:text>
-    <span class="note_text"><xsl:apply-templates/></span>
-    <xsl:text> [</xsl:text>
-    <a>
-      <xsl:attribute name="href">
-        <xsl:text>#inline</xsl:text>
-        <xsl:value-of select="@xml:id"/>
-      </xsl:attribute>
-      <xsl:text>back</xsl:text>
-    </a>
-    <xsl:text>]</xsl:text>
-    <!--<xsl:choose>
-      <xsl:when test="@place='foot'">
-        <span>
-          <xsl:attribute name="class">
-            <xsl:text>foot</xsl:text>
-          </xsl:attribute>
-          <a>
-            <xsl:attribute name="href">
-              <xsl:text>#</xsl:text>
-              <xsl:text>foot</xsl:text>
-              <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-            <xsl:attribute name="id">
-              <xsl:text>body</xsl:text>
-              <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-            
-            <xsl:text>(</xsl:text>
-            <xsl:value-of select="substring(@xml:id, 2)"/>
-            <xsl:text>)</xsl:text>
-          </a>
-        </span>
-      </xsl:when>
-      <xsl:when test="@type='editorial'"/>
-      <xsl:otherwise>
-        <div>
-          <xsl:attribute name="class">
-            <xsl:value-of select="name()"/>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </div>
-      </xsl:otherwise>
-    </xsl:choose>-->
-  </xsl:template>
-  
-  <!-- ~~~~~~ Add Code to deal with ptr's ~~~~~~~ -->
-  
-  <!-- Text.<ptr target="#note1" xml:id="nr1" n="1"/>
-  
-  <div type="notes">
-    <note xml:id="note1">"Note"</note>
-  </div>-->
-  
-  <xsl:template match="ptr">
-    <a>
-      <xsl:attribute name="href">
-        <xsl:value-of select="@target"/>
-      </xsl:attribute>
-      <xsl:attribute name="id">
-        <xsl:text>inline</xsl:text>
-        <xsl:value-of select="substring-after(@target,'#')"/>
-      </xsl:attribute>
-      <sup>[<xsl:value-of select="@n"/>]</sup>
-    </a>
-  </xsl:template>
-  
-  <!-- ================================================ -->
-  <!--               References/Links                   -->
-  <!-- ================================================ -->
-  
-  <!-- external links -->
-  <!--<ref type="url" target="http://www.columbia.edu/cu/ccbh/mxp/">
-    <emph>The Malcolm X Project at Columbia University,</emph></ref>-->
-  
-  <!-- internal links within the edition  -->
-  <!--<ref target="markonthewall_ho17.html">"The Mark on the Wall."</ref>-->
-  
-  <!--<ref target="#intro3" xml:id="nr3" n="3">a growing field
-    of scholarly inquiry</ref>
-  <note xml:id="intro3"> ... </note>
-  -->
   
   
-  <xsl:template match="ref">
-    <xsl:choose>
-      <xsl:when test="starts-with(@target,'#')">
-        <a>
-          <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
-          <xsl:attribute name="id">inline<xsl:value-of select="substring-after(@target,'#')"/></xsl:attribute>
-        <xsl:choose>
-          <xsl:when test="text()"><xsl:apply-templates/></xsl:when>
-          <xsl:otherwise>[1]</xsl:otherwise>
-        </xsl:choose>
-        </a>
-      </xsl:when>
-      
-      
-    </xsl:choose>
-    <!-- <xsl:choose>
-      <xsl:when test="@type='url'">
-        <a>
-          <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <xsl:when test="@type = 'figure'">
-        <span class="viewsize">
-          <a>
-            <xsl:attribute name="href">
-              <xsl:text>figures/viewsize/</xsl:text>
-              <xsl:value-of select="descendant::tei:graphic/attribute::url"/>
-              <xsl:text>.jpg</xsl:text>
-            </xsl:attribute>
-            <xsl:attribute name="title">
-              <xsl:value-of select="child::tei:figure/child::tei:head"/>
-              <xsl:if test="string(child::tei:figure/child::tei:p)">
-                <xsl:value-of select="concat('&lt;br &gt;', child::tei:figure/child::tei:p[normalize-space()])" />
-              </xsl:if>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-          </a>
-        </span>
-      </xsl:when>
-      <!-\- Scholarly editing links are type=html -\->
-      <xsl:when test="@type='html'">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="@target"/>
-            <xsl:text>.html</xsl:text>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <!-\- When target starts with #, assume it is an in page link (anchor) -\->
-      <xsl:when test="starts-with(@target, '#')">
-        <xsl:variable name="n" select="@target"/>
-        <xsl:text> </xsl:text>
-        <a>
-          <xsl:attribute name="id">
-            <xsl:text>ref</xsl:text>
-            <xsl:value-of select="@target"/>
-          </xsl:attribute>
-          <xsl:attribute name="class">
-            <xsl:text>inlinenote</xsl:text>
-          </xsl:attribute>
-          <xsl:attribute name="href">
-            <xsl:text>#note</xsl:text>
-            <xsl:value-of select="@target"/>
-          </xsl:attribute>
-          <xsl:text>[note </xsl:text>
-          <xsl:apply-templates/>
-          <xsl:text>]</xsl:text>
-        </a>
-        <xsl:text> </xsl:text>
-      </xsl:when>
-      <!-\- when marked as link, treat as an external link -\->
-      <xsl:when test="@type='link'">
-        <a href="{@target}">
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <!-\- external link -\->
-      <xsl:when test="starts-with(@target, 'http://') or starts-with(@target, 'https://')">
-        <a href="{@target}">
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <xsl:otherwise>
-        <!-\- the below will generate a footnote / in page link -\->
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="concat('#', @target)"/>
-          </xsl:attribute>
-          <xsl:attribute name="class">
-            <xsl:text>internal_link</xsl:text>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:otherwise>
-    </xsl:choose>-->
-  </xsl:template>  
   
 
 <!-- ================================================ -->
@@ -321,9 +79,6 @@
 <!-- ================================================ -->
 <!--                       ADD                        -->
 <!-- ================================================ -->
-  
-  <!--<add rend="caret" place="above" hand="#cpc">more intimate</add>-->
-  <!--If a mark has been used in the original text to signal an addition, than the addition will be displayed with a caret. If the addition was made above or below a line, then it will be displayed above or below the line in the edition-->
 
 <xsl:template match="add">
   <xsl:choose>
@@ -350,7 +105,7 @@
 <!--                       BYLINE                     -->
 <!-- ================================================ -->
   
-  <xsl:template match="byline">
+  <xsl:template match="//tei:byline">
     <span class="byline">
       <xsl:choose>
         <xsl:when test="preceding-sibling::byline">
@@ -368,25 +123,7 @@
     </span>
   </xsl:template>
   
-  <!-- ================================================ -->
-  <!--                       CHOCE                      -->
-  <!-- ================================================ -->
-  
-  <xsl:template match="choice[child::corr]">
-    <a>
-      <xsl:attribute name="rel">
-        <xsl:text>tooltip</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="class">
-        <xsl:text>sic</xsl:text>
-      </xsl:attribute>
-      <xsl:attribute name="title">
-        <xsl:apply-templates select="corr"/>​ 
-      </xsl:attribute>
-      <xsl:apply-templates select="sic"/>
-    </a>
-  </xsl:template>
-  
+
 <!-- ================================================ -->
 <!--                      DATES                       -->
 <!-- ================================================ -->
@@ -453,8 +190,6 @@
 <!-- ================================================ -->
 <!--                      DELETE                      -->
 <!-- ================================================ -->
-  
-  <!-- <del rend="strikethrough" hand="#cpc">in</del> -->
 
 <xsl:template match="del">
   <xsl:choose>
@@ -510,35 +245,6 @@
 <!--                  Figure                  -->
 <!-- ================================================ -->
   
-  <!-- From Schol Ed Page https://sites.google.com/site/insidescholarlyediting/xml-for-an-introduction -->
-  
-  <!--<figure>
-    <head>From Henry Inman's 1828 portrait of John Tanner, Cephas G. Childs      
-      prepared the lithograph that appears as the frontispiece to the 1830 edition of   
-      Tanner’s <hi rend="italic">Narrative</hi>.</head>
-    
-    <figDesc>From Henry Inman's 1828 portrait of John Tanner, Cephas G. Childs
-      prepared the lithograph that appears as the frontispiece to the 1830 edition of
-      Tanner’s Narrative.</figDesc>
-    
-    <graphic url="images/essay.fierst.01.jpg" />
-  </figure>-->
-  
-  <!-- Scalable Images -->
-  <!--<figure type="enlargeOnClick">
-    
-    <graphic url="images/essay.calvert.01.jpg"/>
-    
-    <head>Figure 1: This page is a relatively legible example of Dickinson's
-      manuscripts, which became much worse in his later years. Preliminary 
-      analysis suggests the page is from a draft of an eleventh "Fabius" 
-      letter (RRL/HSP). Dickinson published a set of nine "Fabius Letters" 
-      in 1788 to advocate ratification of the Constitution and drafts of a 
-      tenth letter in 1794. All images reproduced with permission from the     
-      Historical Society of Pennsylvania.</head>
-  </figure>-->
-  
-  
   <xsl:template match="figure/graphic">
       <img>
         <xsl:attribute name="src">
@@ -566,7 +272,50 @@
         </span>
   </xsl:template>
   
- 
+ <!-- <xsl:template match="//tei:figure" priority="1">
+    <xsl:variable name="editionName">
+      <xsl:value-of select="//tei:publicationStmt/tei:idno[@type = 'edition']"/>
+    </xsl:variable>
+    <xsl:variable name="fileName">
+      <xsl:value-of select="//tei:publicationStmt/tei:idno[@type = 'file']"/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="parent::tei:ref[@type = 'figure']"/>
+      
+      <xsl:otherwise>
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>figure</xsl:text>
+          </xsl:attribute>
+          <xsl:for-each select="child::tei:graphic">
+            <img>
+              <xsl:attribute name="src">
+                <xsl:text>images/</xsl:text>
+                <xsl:value-of select="./attribute::url"/>
+              </xsl:attribute>
+              <xsl:attribute name="alt">
+                <xsl:value-of select="child::tei:figDesc"/>
+              </xsl:attribute>
+            </img>
+          </xsl:for-each>
+          <span class="fig_caption">
+            <xsl:for-each select="descendant::tei:head">
+              <h3>
+                <xsl:apply-templates/>
+              </h3>
+            </xsl:for-each>
+            <xsl:for-each select="descendant::tei:p">
+              <div class="p">
+                <xsl:apply-templates/>
+              </div>
+            </xsl:for-each>
+            
+          </span>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  -->
   
 
 <!-- ================================================ -->
@@ -598,9 +347,6 @@
 <!-- ================================================ -->
 <!--                        GAP                       -->
 <!-- ================================================ -->
-  
-  <!--<gap reason="faded"/>-->
-  <!-- [...] or [faded] -->
 
 <xsl:template match="gap">
   <span>
@@ -867,8 +613,76 @@
     <xsl:apply-templates/>
   </em>
 </xsl:template>
+
+<xsl:template
+  match="byline | docDate | sp | speaker | letter | 
+  notesStmt | titlePart | docDate | ab | trailer | 
+   lg | l | bibl | dateline | salute | trailer | titlePage | closer | floatingText | date">
+  <span>
+    <xsl:attribute name="class">
+      <xsl:value-of select="name()"/>
+      <xsl:if test="@type"><xsl:text> </xsl:text><xsl:value-of select="@type"/></xsl:if>
+      <xsl:if test="@rend"><xsl:text> </xsl:text><xsl:value-of select="@rend"/></xsl:if>
+      <!--<xsl:if test="not(parent::p)"><xsl:text> p</xsl:text></xsl:if>--> <!-- this is breaking some displays but commeting it out might break others. May need more consideration -todo KMD -->
+    </xsl:attribute>
+    <xsl:choose>
+      <!-- This is for CWW, check to see if this is done correctly, will it add two handwritten classes? -KMD -->
+      <xsl:when test="@type='handwritten'">
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>handwritten</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </span>
+</xsl:template>
   
- 
+  
+  <!-- ================================================ -->
+  <!--              Notes and Footnotes                 -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="note">
+    <xsl:choose>
+      <xsl:when test="@place='foot'">
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>foot</xsl:text>
+          </xsl:attribute>
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>#</xsl:text>
+              <xsl:text>foot</xsl:text>
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+              <xsl:text>body</xsl:text>
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            
+            <xsl:text>(</xsl:text>
+            <xsl:value-of select="substring(@xml:id, 2)"/>
+            <xsl:text>)</xsl:text>
+          </a>
+        </span>
+      </xsl:when>
+      <xsl:when test="@type='editorial'"/>
+      <xsl:otherwise>
+        <div>
+          <xsl:attribute name="class">
+            <xsl:value-of select="name()"/>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </div>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
 <!-- ================================================ -->
 <!--                  ORIG AND REG                    -->
 <!-- ================================================ -->
@@ -959,11 +773,14 @@
     <xsl:otherwise><p><xsl:apply-templates/></p></xsl:otherwise>
   </xsl:choose>
 </xsl:template>
- 
+
+
 
 <!-- ================================================ -->
 <!--                     QUOTES                       -->
 <!-- ================================================ -->
+
+
 
 <xsl:template match="quote">
   <xsl:choose>
@@ -988,6 +805,79 @@
   </span>
 </xsl:template>
   
+  
+  <!-- ================================================ -->
+  <!--               References/Links                   -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="ref">
+    <xsl:choose>
+      <!-- Scholarly editing links are type=html -->
+      <xsl:when test="@type='html'">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="@target"/>
+            <xsl:text>.html</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <!-- When target starts with #, assume it is an in page link (anchor) -->
+      <xsl:when test="starts-with(@target, '#')">
+        <xsl:variable name="n" select="@target"/>
+        <xsl:text> </xsl:text>
+        <a>
+          <xsl:attribute name="id">
+            <xsl:text>ref</xsl:text>
+            <xsl:value-of select="@target"/>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:text>inlinenote</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="href">
+            <xsl:text>#note</xsl:text>
+            <xsl:value-of select="@target"/>
+          </xsl:attribute>
+          <xsl:text>[note </xsl:text>
+          <xsl:apply-templates/>
+          <xsl:text>]</xsl:text>
+        </a>
+        <xsl:text> </xsl:text>
+      </xsl:when>
+      <!-- when marked as link, treat as an external link -->
+      <xsl:when test="@type='link'">
+        <a href="{@target}">
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <!-- external link -->
+      <xsl:when test="starts-with(@target, 'http://') or starts-with(@target, 'https://')">
+        <a href="{@target}">
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <!-- if the above are not true, it is assumed to be an internal to the site link -->
+      <xsl:when test="@type='sitelink'">
+        <a href="../{@target}" class="internal_link">
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <xsl:otherwise>
+        <!-- the below will generate a footnote / in page link -->
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="concat('#', @target)"/>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:text>internal_link</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </a>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>  
+  
+  
   <xsl:template match="xref[@n]">
     <a href="{@n}">
       <xsl:apply-templates/>
@@ -1007,6 +897,25 @@
     <xsl:apply-templates/>
   </span>
 </xsl:template>
+
+<!-- ================================================ -->
+<!--                       SEG                        -->
+<!-- ================================================ -->
+
+<xsl:template match="choice[child::corr]">
+  <a>
+    <xsl:attribute name="rel">
+      <xsl:text>tooltip</xsl:text>
+    </xsl:attribute>
+    <xsl:attribute name="class">
+      <xsl:text>sic</xsl:text>
+    </xsl:attribute>
+    <xsl:attribute name="title">
+      <xsl:apply-templates select="corr"/>​ 
+    </xsl:attribute>
+    <xsl:apply-templates select="sic"/>
+  </a>
+  </xsl:template>
 
 <!-- ================================================ -->
 <!--                    SIGNATURE                     -->
@@ -1094,9 +1003,6 @@
 <!-- ================================================ -->
 <!--                     UNCLEAR                      -->
 <!-- ================================================ -->
-  
-  <!--<unclear reason="written over">o en</unclear>-->
-  <!-- Unclear text is usually displayed in gray (css) -->
 
 <xsl:template match="unclear">
   <span>
