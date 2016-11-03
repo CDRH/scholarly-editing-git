@@ -1363,12 +1363,13 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="css/bootstrap/**.css">
-                <map:read src="css/bootstrap/{1}.css"/>
+                <map:read src="template_css/bootstrap/{1}.css"/>
             </map:match>
         </map:pipeline>
+        
         <map:pipeline type="noncaching">
             <map:match pattern="js/bootstrap/**.js">
-                <map:read src="js/bootstrap/{1}.js"/>
+                <map:read src="template_js/bootstrap/{1}.js"/>
             </map:match>
         </map:pipeline>
 

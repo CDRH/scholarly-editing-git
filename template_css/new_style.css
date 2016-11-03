@@ -30,6 +30,18 @@ p::first-line {
     margin-bottom:1em;
 }
 
+.popover {
+    text-indent:0;
+}
+
+.popover .popover-title {
+    display:none;
+}
+
+.popover {
+    width:800px;
+}
+
 /* - - - - - - - - - */
 
 html,

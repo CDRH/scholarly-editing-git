@@ -57,17 +57,13 @@
         <ul class="nav nav-pills">
           <xsl:for-each select="//body/nav[1]/ul/li">
             <li role="presentation">
+              <xsl:if test="@class"><xsl:attribute name="class" select="@class"/></xsl:if>
               <xsl:copy-of select="node()"/>
             </li>
           </xsl:for-each>
         </ul>
       </div>
     </span>
-  </xsl:variable>
-  
-  <!-- $edition_controls (Optional) -->
-  <xsl:variable name="edition_controls">
-    <xsl:copy-of select="//body/div[@class = 'edition_controls']/node()"/>
   </xsl:variable>
   
   <!-- ## Main Content -->
@@ -90,6 +86,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <title><xsl:value-of select="$head_title"/> - Scholarly Editing</title>
         <meta name="viewport" content="width=device-width"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">&#160;</script>
+        <script src="{$siteroot}js/bootstrap/bootstrap.min.js">&#160;</script>
         
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"/>
         <link rel="stylesheet" href="{$siteroot}template_css/bootstrap/bootstrap.min.css"/>
@@ -169,13 +168,12 @@
             
             <xsl:copy-of select="$edition_nav"/>
             
-            <xsl:copy-of select="$edition_controls"/>
-            
           </div>
           
           
           
           <div class="main_content">
+            
             
             <!-- remove grids if full width -->
             
@@ -226,8 +224,7 @@
           
         </div><!-- /containter -->
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">&#160;</script>
-        <script src="{$siteroot}js/bootstrap/bootstrap.min.js">&#160;</script>
+       
       </body>
     </html>
     
