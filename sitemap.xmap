@@ -4,952 +4,1042 @@
         <map:generators default="file"/>
         <map:transformers default="xslt"/>
         <map:serializers default="xhtmlutf8">
-            <map:serializer logger="sitemap.serializer.xhtml" mime-type="text/html" name="xhtmlutf8" pool-grow="2" pool-max="64" pool-min="2" src="org.apache.cocoon.serialization.XMLSerializer">
+            <map:serializer logger="sitemap.serializer.xhtml" mime-type="text/html" name="xhtmlutf8"
+                pool-grow="2" pool-max="64" pool-min="2"
+                src="org.apache.cocoon.serialization.XMLSerializer">
                 <doctype-public>-//W3C//DTD XHTML 1.0 Transitional//EN</doctype-public>
                 <doctype-system>http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd</doctype-system>
                 <encoding>US-ASCII</encoding>
                 <omit-xml-declaration>yes</omit-xml-declaration>
                 <indent>no</indent>
             </map:serializer>
-            <map:serializer name="html"
-                src="org.apache.cocoon.serialization.HTMLSerializer"
-                mime-type="text/html"  
-                logger="sitemap.serializer.html" 
-                pool-grow="4" pool-max="32" pool-min="4">
+            <map:serializer name="html" src="org.apache.cocoon.serialization.HTMLSerializer"
+                mime-type="text/html" logger="sitemap.serializer.html" pool-grow="4" pool-max="32"
+                pool-min="4">
                 <doctype-public>-//W3C//DTD HTML 4.01 Transitional//EN</doctype-public>
                 <encoding>UTF-8</encoding>
             </map:serializer>
         </map:serializers>
         <map:selectors default="browser"/>
-        
+
         <map:matchers default="wildcard"/>
-        
+
     </map:components>
     <map:pipelines>
 
-        <!-- to ensure the lightbox images work throughout the site -->
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="**lightbox-blank.gif">
-                <map:read src="./images/lightbox-blank.gif" />
-            </map:match>
-        </map:pipeline>
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="**lightbox-btn-close.gif">
-                <map:read src="./images/lightbox-btn-close.gif" />
-            </map:match>
-        </map:pipeline>
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="**lightbox-btn-next.gif">
-                <map:read src="./images/lightbox-btn-next.gif" />
-            </map:match>
-        </map:pipeline>
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="**lightbox-btn-prev.gif">
-                <map:read src="./images/lightbox-btn-prev.gif" />
-            </map:match>
-        </map:pipeline>
-        <map:pipeline type="noncaching">
-            <map:match pattern="**lightbox-ico-loading.gif">
-                <map:read src="./images/lightbox-ico-loading.gif" />
-            </map:match>
-        </map:pipeline>
-
-
-<!-- for the goback arrow on the notes throughout the site -->
-<map:pipeline type="noncaching">
-            <map:match pattern="**goback.png">
-                <map:read src="./images/goback.png" />
-            </map:match>
-        </map:pipeline>
-        
-<!-- to make sure the favicon.ico is visible -->
-
-        
-        <map:pipeline type="noncaching">
-        <map:match pattern="**favicon.ico">
-            <map:read mime-type="image/x-icon" src="./favicon.ico"/>
-            </map:match>
-            </map:pipeline>
-
-<!-- the baroness pipeline below is here because in its old file position it was over-written by the main index page pipelines -->
-        <map:pipeline type="noncaching">
-            <map:match pattern="2012/editions/baroness/index.html">
-                <map:read src="2012/editions/baroness/index.html" />
-            </map:match>
-        </map:pipeline>
+        <!-- ====================================
+                  Index Page
+      ====================================== -->
 
         <!-- These first two pipelines are to display the index.html page:  the first one works when
         someone puts "index.html" in the URL; the second when nothing is typed in the URL after the
         domain name -->
         <map:pipeline type="noncaching">
             <map:match pattern="**/index.html">
-                <map:read src="./index.html" />
+                <map:read src="index.html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="index.html">
-                <map:read src="./index.html" />
+                <map:read src="index.html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="">
-                <map:read src="index.html" />
+                <map:read src="index.html"/>
             </map:match>
         </map:pipeline>
 
+        <!-- ====================================
+                 About, Indexes, etc.
+      ======================================== -->
 
-
-<!-- Pipeline for the about page, the index pages, and other such functional pages -->
-
-<map:pipeline type="noncaching">
+        <map:pipeline type="noncaching">
             <map:match pattern="**se.**.html">
-                <map:generate src="./xml/se.{2}.xml" />
-                <map:transform type="xslt" src="./xslt/about.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="template_xml/se.{2}.xml"/>
+                <map:transform src="template_xslt/site.xsl">
+                    <map:parameter name="pagetype" value="about"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value=""/>
+                </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="5x5"/>
+                    <map:parameter name="year" value="2017"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
-<!-- for essays, 2012, Vol 33 -->
-        <map:pipeline type="noncaching">
-            <map:match pattern="2012/essays/essay.**.html">
-                <map:generate src="2012/essays/essay.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/essay.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-
-        <map:pipeline type="noncaching">
-            <map:match pattern="2012/essays/images/essay.**">
-                <map:read src="2012/essays/images/essay.{1}" />
-            </map:match>
-        </map:pipeline>
-
-        
-
-        <!-- for essays, 2013, Vol 34 -->
-        <map:pipeline type="noncaching">
-            <map:match pattern="2013/essays/essay.**.html">
-                <map:generate src="2013/essays/essay.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/essay.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
+        <!-- ====================================
+                         Essays
+      ====================================== -->
         
         <map:pipeline type="noncaching">
-            <map:match pattern="2013/essays/images/**">
-                <map:read src="2013/essays/images/{1}" />
-            </map:match>
-        </map:pipeline>
-
-        <!-- for essays, 2014, Vol 35 -->
-        <map:pipeline type="noncaching">
-            <map:match pattern="2014/essays/essay.**.html">
-                <map:generate src="2014/essays/essay.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/essay.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="2014/essays/images/**">
-                <map:read src="2014/essays/images/{1}" />
-            </map:match>
-        </map:pipeline>
-        
-        
-        
-        <!-- for essays, 2015, Vol 36 -->
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/essays/essay.**.html">
-                <map:generate src="2015/essays/essay.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/essay.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/essays/images/**">
-                <map:read src="2015/essays/images/{1}" />
+            <map:match pattern="**/essays/images/**">
+                <map:read src="{1}/essays/images/{2}"/>
             </map:match>
         </map:pipeline>
 
         <!-- for essays, 2016, Vol 37 -->
         <map:pipeline type="noncaching">
             <map:match pattern="2016/essays/essay.**.html">
-                <map:generate src="2016/essays/essay.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/essay.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2016/essays/essay.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/essay.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/essays/images/**">
-                <map:read src="2016/essays/images/{1}" />
+                <map:read src="2016/essays/images/{1}"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- for essays, 2015, Vol 36 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/essays/essay.**.html">
+                <map:generate src="2015/essays/essay.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/essay.xsl"> </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/essays/images/**">
+                <map:read src="2015/essays/images/{1}"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- for essays, 2014, Vol 35 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2014/essays/essay.**.html">
+                <map:generate src="2014/essays/essay.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/essay.xsl"> </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2014/essays/images/**">
+                <map:read src="2014/essays/images/{1}"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- for essays, 2013, Vol 34 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2013/essays/essay.**.html">
+                <map:generate src="2013/essays/essay.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/essay.xsl"> </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2013/essays/images/**">
+                <map:read src="2013/essays/images/{1}"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- for essays, 2012, Vol 33 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2012/essays/essay.**.html">
+                <map:generate src="2012/essays/essay.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/essay.xsl"> </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2012/essays/images/essay.**">
+                <map:read src="2012/essays/images/essay.{1}"/>
             </map:match>
         </map:pipeline>
         
-
-        <!-- for reviews, 2012, Vol 33 -->
+        <!-- for essays, 2017, Vol 38 -->
         <map:pipeline type="noncaching">
-            <map:match pattern="2012/reviews/review.**.html">
-                <map:generate src="2012/reviews/review.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/review.xsl"> </map:transform>
-                <map:serialize type="html" />
+            <map:match pattern="**/essays/essay.**.html">
+                <map:generate src="{1}/essays/essay.{2}.xml"/>
+                <map:transform type="xslt" src="template_xslt/site.xsl"> </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="5x5"/>
+                    <map:parameter name="year" value="2017"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
-        <!-- for reviews, 2013, Vol 34 -->
+        <!-- ====================================
+                         Reviews
+      ====================================== -->
+        
+        <!-- for reviews, 2016, Vol 36 -->
         <map:pipeline type="noncaching">
-            <map:match pattern="2013/reviews/review.**.html">
-                <map:generate src="2013/reviews/review.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/review.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-
-        <!-- for reviews, 2014, Vol 35 -->
-        <map:pipeline type="noncaching">
-            <map:match pattern="2014/reviews/review.**.html">
-                <map:generate src="2014/reviews/review.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/review.xsl"> </map:transform>
-                <map:serialize type="html" />
+            <map:match pattern="2016/reviews/review.**.html">
+                <map:generate src="2016/reviews/review.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/review.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <!-- for reviews, 2015, Vol 35 -->
         <map:pipeline type="noncaching">
             <map:match pattern="2015/reviews/review.**.html">
-                <map:generate src="2015/reviews/review.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/review.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/reviews/review.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/review.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
-        <!-- for reviews, 2016, Vol 36 -->
+        <!-- for reviews, 2014, Vol 35 -->
         <map:pipeline type="noncaching">
-            <map:match pattern="2016/reviews/review.**.html">
-                <map:generate src="2016/reviews/review.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/review.xsl"> </map:transform>
-                <map:serialize type="html" />
+            <map:match pattern="2014/reviews/review.**.html">
+                <map:generate src="2014/reviews/review.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/review.xsl"> </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- for reviews, 2013, Vol 34 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2013/reviews/review.**.html">
+                <map:generate src="2013/reviews/review.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/review.xsl"> </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- for reviews, 2012, Vol 33 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2012/reviews/review.**.html">
+                <map:generate src="2012/reviews/review.{1}.xml"/>
+                <map:transform type="xslt" src="legacy/template_xslt/review.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         
-        <!-- BinyonDestree, 2016 issue -->
+        <!-- for reviews, 2017, Vol 38 -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="**/reviews/review.**.html">
+                <map:generate src="{1}/reviews/review.{2}.xml"/>
+                <map:transform type="xslt" src="template_xslt/site.xsl"> </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="5x5"/>
+                    <map:parameter name="year" value="2017"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- ====================================
+                         2017
+      ====================================== -->
+
+        <!-- General for all editions-->
+        <!-- Exceptions should go above -->
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/**/**.html">
+                <map:generate src="2017/editions/{1}/xml/{2}.{1}.xml"/>
+                <map:transform src="2017/editions/{1}/xslt/{1}.xsl">
+                    <map:parameter name="pagetype" value="home"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value=""/>
+                </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="5x5"/>
+                    <map:parameter name="year" value="2017"/>
+                    <map:parameter name="slug" value="{1}"/>
+                    <map:parameter name="view" value="col8"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/**/pages/**">
+                <map:read src="2017/editions/{1}/pages/{2}"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/**/**.xml">
+                <map:generate src="2017/editions/{1}/xml/{2}.xml"/>
+                <map:serialize type="xml"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/**/**.jpg">
+                <map:read src="2017/editions/{1}/{2}.jpg"/>
+            </map:match>
+        </map:pipeline>
         
+        
+
+        <!-- ====================================
+                         2016
+      ====================================== -->
+
+        <!-- BinyonDestree, 2016 issue -->
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/BinyonDestree.html">
-                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree_introduction.xml" />
-                <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
-                    <map:parameter name="page_type" value="introduction" />
+                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree_introduction.xml"/>
+                <map:transform type="xslt" src="2016/editions/BinyonDestree/xslt/BinyonDestree.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
+                    <map:parameter name="page_type" value="introduction"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/BinyonDestree.original.html">
-                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml" />
-                <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
-                    <map:parameter name="page_type" value="original" />
+                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml"/>
+                <map:transform type="xslt" src="2016/editions/BinyonDestree/xslt/BinyonDestree.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
+                    <map:parameter name="page_type" value="original"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/BinyonDestree.translation.html">
-                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.translation.xml" />
-                <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
-                    <map:parameter name="page_type" value="translation" />
+                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.translation.xml"/>
+                <map:transform type="xslt" src="2016/editions/BinyonDestree/xslt/BinyonDestree.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
+                    <map:parameter name="page_type" value="translation"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/BinyonDestree.sidebyside.html">
-                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml" />
-                <map:transform type="xslt" src="./xslt/BinyonDestree_sidebyside.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
-                    <map:parameter name="page_type" value="sidebyside" />
+                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml"/>
+                <map:transform type="xslt"
+                    src="2016/editions/BinyonDestree/xslt/BinyonDestree_sidebyside.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
+                    <map:parameter name="page_type" value="sidebyside"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/BinyonDestree.index.html">
-                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml" />
-                <map:transform type="xslt" src="./xslt/BinyonDestree.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
-                    <map:parameter name="page_type" value="index" />
+                <map:generate src="2016/editions/BinyonDestree/xml/BinyonDestree.original.xml"/>
+                <map:transform type="xslt" src="2016/editions/BinyonDestree/xslt/BinyonDestree.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
+                    <map:parameter name="page_type" value="index"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/BinyonDestree/**.jpg">
-                <map:read src="2016/editions/BinyonDestree/{1}.jpg" />
+                <map:read src="2016/editions/BinyonDestree/{1}.jpg"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
-            <map:match pattern="2016/editions/BinyonDestree/xml/BinyonDestree.zip">
-                <map:read src="2016/editions/BinyonDestree/xml/BinyonDestree.zip" />
+            <map:match pattern="2016/editions/BinyonDestree/BinyonDestree.zip">
+                <map:read src="2016/editions/BinyonDestree/xml/BinyonDestree.zip"/>
             </map:match>
         </map:pipeline>
 
 
-<!-- Dunning's translations, 2016 issue-->
+        <!-- Dunning's translations, 2016 issue-->
 
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/intro.dunning.html">
-                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/intro.dunning.xml" />
-                <map:transform type="xslt" src="./xslt/dunning.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
+                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/intro.dunning.xml"/>
+                <map:transform type="xslt"
+                    src="2016/editions/Dunning_De-oratione-dominica/xslt/dunning.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-
 
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/**.dunning.html">
-                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/{1}.xml" />
-                <map:transform type="xslt" src="./xslt/dunning.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
+                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/{1}.xml"/>
+                <map:transform type="xslt"
+                    src="2016/editions/Dunning_De-oratione-dominica/xslt/dunning.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/**.dunning-alt.html">
-                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/{1}.xml" />
-                <map:transform type="xslt" src="./xslt/dunning_dominica.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/{1}.xml"/>
+                <map:transform type="xslt"
+                    src="2016/editions/Dunning_De-oratione-dominica/xslt/dunning_dominica.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
-        </map:pipeline> 
-        
+        </map:pipeline>
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/dunning-sidebyside.html">
-                <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml" />
-                <map:transform type="xslt" src="./xslt/dunning_sidebyside.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
-                    <map:parameter name="edition_type" value="sidebyside" />
+                <map:generate
+                    src="2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml"/>
+                <map:transform type="xslt"
+                    src="2016/editions/Dunning_De-oratione-dominica/xslt/dunning_sidebyside.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
+                    <map:parameter name="edition_type" value="sidebyside"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/Dunning_De-oratione-dominica/**.jpg">
-                <map:read src="2016/editions/Dunning_De-oratione-dominica/{1}.jpg" />
+                <map:read src="2016/editions/Dunning_De-oratione-dominica/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2016/editions/Dunning_De-oratione-dominica/xml/dequinqueseptenis-deorationedominica.zip">
-                <map:read src="2016/editions/Dunning_De-oratione-dominica/xml/dequinqueseptenis-deorationedominica.zip" />
+            <map:match
+                pattern="2016/editions/Dunning_De-oratione-dominica/xml/dequinqueseptenis-deorationedominica.zip">
+                <map:read
+                    src="2016/editions/Dunning_De-oratione-dominica/xml/dequinqueseptenis-deorationedominica.zip"
+                />
             </map:match>
         </map:pipeline>
-        
+
         <!-- mullinswhitmanheyde, 2016 issue-->
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/mullinswhitmanheyde.html">
-                <map:generate src="2016/editions/mullinswhitmanheyde/xml/intro.mullinswhitmanheyde.xml" />
-                <map:transform type="xslt" src="./xslt/hwh.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
+                <map:generate
+                    src="2016/editions/mullinswhitmanheyde/xml/intro.mullinswhitmanheyde.xml"/>
+                <map:transform type="xslt" src="2016/editions/mullinswhitmanheyde/xslt/hwh.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/mullinswhitmanheyde.edition.html">
-                <map:generate src="2016/editions/mullinswhitmanheyde/xml/intro.mullinswhitmanheyde.xml" />
-                <map:transform type="xslt" src="./xslt/hwh.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
-                    <map:parameter name="edition_type" value="edition" />
+                <map:generate
+                    src="2016/editions/mullinswhitmanheyde/xml/intro.mullinswhitmanheyde.xml"/>
+                <map:transform type="xslt" src="2016/editions/mullinswhitmanheyde/xslt/hwh.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
+                    <map:parameter name="edition_type" value="edition"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/mullinswhitmanheyde.*.html">
-                <map:generate src="2016/editions/mullinswhitmanheyde/xml/{1}.xml" />
-                <map:transform type="xslt" src="./xslt/hwh.xsl">
-                    <map:parameter name="use-request-parameters" value="true" />
+                <map:generate src="2016/editions/mullinswhitmanheyde/xml/{1}.xml"/>
+                <map:transform type="xslt" src="2016/editions/mullinswhitmanheyde/xslt/hwh.xsl">
+                    <map:parameter name="use-request-parameters" value="true"/>
                 </map:transform>
-                <map:serialize type="html" />
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/mullinswhitmanheyde/xml/mullinswhitmanheyde.zip">
-                <map:read src="2016/editions/mullinswhitmanheyde/xml/mullinswhitmanheyde.zip" />
+                <map:read src="2016/editions/mullinswhitmanheyde/xml/mullinswhitmanheyde.zip"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/mullinswhitmanheyde/**.jpg">
-                <map:read src="2016/editions/mullinswhitmanheyde/{1}.jpg" />
+                <map:read src="2016/editions/mullinswhitmanheyde/{1}.jpg"/>
             </map:match>
         </map:pipeline>
-        
+
         <!-- Mary Isbell's Young Idea Extracts, 2016 issue-->
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/**.youngidea.html">
-                <map:generate src="2016/editions/youngidea/{1}.youngidea.xml" />
-                <map:transform type="xslt" src="./xslt/youngidea.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2016/editions/youngidea/xml/{1}.youngidea.xml"/>
+                <map:transform type="xslt" src="2016/editions/youngidea/xslt/youngidea.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        <!--<map:pipeline type="noncaching">
-            <map:match pattern="2016/editions/intro.youngidea.html">
-                <map:generate src="2016/editions/youngidea/intro.youngidea.xml" />
-                <map:transform type="xslt" src="./xslt/youngidea.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>-->
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/youngidea/pages/**">
-                <map:read src="2016/editions/youngidea/pages/{1}" />
+                <map:read src="2016/editions/youngidea/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/**.youngidea.xml">
-                <map:generate src="2016/editions/youngidea/{1}.youngidea.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2016/editions/youngidea/xml/{1}.youngidea.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2016/editions/youngidea/**.jpg">
-                <map:read src="2016/editions/youngidea/{1}.jpg" />
+                <map:read src="2016/editions/youngidea/{1}.jpg"/>
             </map:match>
         </map:pipeline>
-        
 
 
+        <!-- ====================================
+                         2015
+      ====================================== -->
 
         <!-- Mielke and Baldwin's “a black diamond among thim American wifes”: Kate Edwards Swayze’s Anti-Slavery Adaptation of George Colman’s Inkle and Yarico-->
 
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/swayzedrama.html">
-                <map:generate src="2015/editions/swayzedrama/swayzedrama.xml" />
-                <map:transform type="xslt" src="./xslt/swayzedrama.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/swayzedrama/xml/swayzedrama.xml"/>
+                <map:transform type="xslt" src="2015/editions/swayzedrama/xslt/swayzedrama.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/intro.swayzedrama.html">
-                <map:generate src="2015/editions/swayzedrama/intro.swayzedrama.xml" />
-                <map:transform type="xslt" src="./xslt/swayzedrama.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/swayzedrama/xml/intro.swayzedrama.xml"/>
+                <map:transform type="xslt" src="2015/editions/swayzedrama/xslt/swayzedrama.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/swayzedrama/pages/**">
-                <map:read src="2015/editions/swayzedrama/pages/{1}" />
+                <map:read src="2015/editions/swayzedrama/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/swayzedrama.xml">
-                <map:generate src="2015/editions/swayzedrama/swayzedrama.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2015/editions/swayzedrama/xml/swayzedrama.xml"/>
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/swayzedrama/**.png">
-                <map:read src="2015/editions/swayzedrama/{1}.png" />
+                <map:read src="2015/editions/swayzedrama/{1}.png"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/swayzedrama/**.jpg">
-                <map:read src="2015/editions/swayzedrama/{1}.jpg" />
+                <map:read src="2015/editions/swayzedrama/{1}.jpg"/>
             </map:match>
         </map:pipeline>
-        
-
-
 
         <!-- Daniel Carter's Encoding and Representing Repetition in Lyn Hejinian's My Life -->
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/hejinian.missing.html">
-                <map:generate src="2015/editions/hejinian/hejinian.missing.xml" />
-                <map:transform type="xslt" src="./xslt/hejinian.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/hejinian/xml/hejinian.missing.xml"/>
+                <map:transform type="xslt" src="2015/editions/hejinian/xslt/hejinian.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/intro.hejinian.html">
-                <map:generate src="2015/editions/hejinian/intro.hejinian.xml" />
-                <map:transform type="xslt" src="./xslt/hejinian.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/hejinian/xml/intro.hejinian.xml"/>
+                <map:transform type="xslt" src="2015/editions/hejinian/xslt/hejinian.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/hejinian/pages/**">
-                <map:read src="2015/editions/hejinian/pages/{1}" />
+                <map:read src="2015/editions/hejinian/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/hejinian.edition.html">
-                <map:generate src="2015/editions/hejinian/edition.html" />
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/hejinian/html/edition.html"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/hejinian/**.jpg">
-                <map:read src="2015/editions/hejinian/{1}.jpg" />
+                <map:read src="2015/editions/hejinian/{1}.jpg"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- these two pipelines are to help Daniel Carter's 2015 edition -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/js/**">
+                <map:read src="js/{1}"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/data/**">
+                <map:read src="js/data/{1}"/>
             </map:match>
         </map:pipeline>
 
         <!--2015, Vol 36: Elena Pierazzo's "Lo Stufaiuolo by Anton Francesco Doni: A Synoptic Edition"-->
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/stufaiuolo.riccardiana_diplomatic.html">
-                <map:generate src="2015/editions/stufaiuolo/stufaiuolo.riccardiana.xml" />
-                <map:transform type="xslt" src="./xslt/stuf_diplomatica.xsl"><map:parameter name="stuf_version" value="riccardiana_diplomatic" /> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/stufaiuolo.valentiniana_diplomatic.html">
-                <map:generate src="2015/editions/stufaiuolo/stufaiuolo.valentiniana.xml" />
-                <map:transform type="xslt" src="./xslt/stuf_diplomatica.xsl"> <map:parameter name="stuf_version" value="camerino_diplomatic" /></map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/stufaiuolo.riccardiana_reading.html">
-                <map:generate src="2015/editions/stufaiuolo/stufaiuolo.riccardiana.xml" />
-                <map:transform type="xslt" src="./xslt/stuf_edizione.xsl"> <map:parameter name="stuf_version" value="riccardiana_reading" /></map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/stufaiuolo.valentiniana_reading.html">
-                <map:generate src="2015/editions/stufaiuolo/stufaiuolo.valentiniana.xml" />
-                <map:transform type="xslt" src="./xslt/stuf_edizione.xsl"><map:parameter name="stuf_version" value="camerino_reading" /> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/stufaiuolo.valentiniana_interventions.html">
-                <map:generate src="2015/editions/stufaiuolo/stufaiuolo.valentiniana.xml" />
-                <map:transform type="xslt" src="./xslt/stuf_interventions.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/stufaiuolo.riccardiana_interventions.html">
-                <map:generate src="2015/editions/stufaiuolo/stufaiuolo.riccardiana.xml" />
-                <map:transform type="xslt" src="./xslt/stuf_interventions.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/intro.stufaiuolo.html">
-                <map:generate src="2015/editions/stufaiuolo/intro.stufaiuolo.xml" />
-                <map:transform type="xslt" src="./xslt/stuf_common.xsl"> </map:transform>
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/stufaiuolo/pages/**">
-                <map:read src="2015/editions/stufaiuolo/pages/{1}" />
-            </map:match>
-        </map:pipeline>
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/stufaiuolo.**.xml">
-                <map:generate src="2015/editions/stufaiuolo/stufaiuolo.{1}.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2015/editions/stufaiuolo/xml/stufaiuolo.riccardiana.xml"/>
+                <map:transform type="xslt" src="2015/editions/stufaiuolo/xslt/stuf_diplomatica.xsl">
+                    <map:parameter name="stuf_version" value="riccardiana_diplomatic"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/stufaiuolo.valentiniana_diplomatic.html">
+                <map:generate src="2015/editions/stufaiuolo/xml/stufaiuolo.valentiniana.xml"/>
+                <map:transform type="xslt" src="2015/editions/stufaiuolo/xslt/stuf_diplomatica.xsl">
+                    <map:parameter name="stuf_version" value="camerino_diplomatic"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/stufaiuolo.riccardiana_reading.html">
+                <map:generate src="2015/editions/stufaiuolo/xml/stufaiuolo.riccardiana.xml"/>
+                <map:transform type="xslt" src="2015/editions/stufaiuolo/xslt/stuf_edizione.xsl">
+                    <map:parameter name="stuf_version" value="riccardiana_reading"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/stufaiuolo.valentiniana_reading.html">
+                <map:generate src="2015/editions/stufaiuolo/xml/stufaiuolo.valentiniana.xml"/>
+                <map:transform type="xslt" src="2015/editions/stufaiuolo/xslt/stuf_edizione.xsl">
+                    <map:parameter name="stuf_version" value="camerino_reading"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/stufaiuolo.valentiniana_interventions.html">
+                <map:generate src="2015/editions/stufaiuolo/xml/stufaiuolo.valentiniana.xml"/>
+                <map:transform type="xslt"
+                    src="2015/editions/stufaiuolo/xslt/stuf_interventions.xsl"/>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/stufaiuolo.riccardiana_interventions.html">
+                <map:generate src="2015/editions/stufaiuolo/xml/stufaiuolo.riccardiana.xml"/>
+                <map:transform type="xslt"
+                    src="2015/editions/stufaiuolo/xslt/stuf_interventions.xsl"/>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/intro.stufaiuolo.html">
+                <map:generate src="2015/editions/stufaiuolo/xml/intro.stufaiuolo.xml"/>
+                <map:transform type="xslt" src="2015/editions/stufaiuolo/xslt/stuf_common.xsl"/>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/stufaiuolo/pages/**">
+                <map:read src="2015/editions/stufaiuolo/pages/{1}"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="2015/editions/stufaiuolo.**.xml">
+                <map:generate src="2015/editions/stufaiuolo/xml/stufaiuolo.{1}.xml"/>
+                <map:serialize type="xml"/>
+            </map:match>
+        </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/stufaiuoloxml.zip">
-                <map:read src="2015/editions/stufaiuolo/stufaiuoloxml.zip" />
+                <map:read src="2015/editions/stufaiuolo/files/stufaiuoloxml.zip"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/stufaiuolo/**.jpg">
-                <map:read src="2015/editions/stufaiuolo/{1}.jpg" />
+                <map:read src="2015/editions/stufaiuolo/{1}.jpg"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/stufaiuolo/**.png">
-                <map:read src="2015/editions/stufaiuolo/{1}.png" />
+                <map:read src="2015/editions/stufaiuolo/{1}.png"/>
             </map:match>
         </map:pipeline>
 
 
-<!-- 2015, Vol 36: Satire in Circulation: James Russell Lowell's "LETTER FROM A VOLUNTEER IN SALTILLO" by Todd Thompson and Jessica Showalter  -->
-        
+        <!-- 2015, Vol 36: Satire in Circulation: James Russell Lowell's "LETTER FROM A VOLUNTEER IN SALTILLO" by Todd Thompson and Jessica Showalter  -->
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/lowelledition_**.html">
-                <map:generate src="2015/editions/lowelledition/lowelledition.xml" />
-                <map:transform type="xslt" src="./xslt/lowelledition.xsl"><map:parameter name="lowelledition_version" value="#{1}" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/lowelledition/xml/lowelledition.xml"/>
+                <map:transform type="xslt" src="2015/editions/lowelledition/xslt/lowelledition.xsl">
+                    <map:parameter name="lowelledition_version" value="#{1}"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/intro.lowelledition.html">
-                <map:generate src="2015/editions/lowelledition/intro.lowelledition.xml" />
-                <map:transform type="xslt" src="./xslt/lowelledition.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/lowelledition/xml/intro.lowelledition.xml"/>
+                <map:transform type="xslt" src="2015/editions/lowelledition/xslt/lowelledition.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/lowelledition/pages/**">
-                <map:read src="2015/editions/lowelledition/pages/{1}" />
+                <map:read src="2015/editions/lowelledition/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/lowelledition.xml">
-                <map:generate src="2015/editions/lowelledition/lowelledition.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2015/editions/lowelledition/xml/lowelledition.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/lowelledition/**.jpg">
-                <map:read src="2015/editions/lowelledition/{1}.jpg" />
+                <map:read src="2015/editions/lowelledition/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
+        <!-- ====================================
+                         2014
+      ====================================== -->
 
+        <!-- 2014, Vol 35: Cranch Journal by Christopher Ohge -->
 
-<!-- 2014, Vol 35: Cranch Journal by Christopher Ohge -->
-
-<!--  pipeline to get the appendices to appear as separate documents  -->
+        <!--  pipeline to get the appendices to appear as separate documents  -->
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal_appendices.html">
-                <map:generate src="2014/editions/cranchjournal/cranchjournal.xml" />
-                <map:transform type="xslt" src="./xslt/cranchjournal.xsl"><map:parameter name="cranchjournal_appendices" value="yes" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/cranchjournal/xml/cranchjournal.xml"/>
+                <map:transform type="xslt" src="2014/editions/cranchjournal/xslt/cranchjournal.xsl">
+                    <map:parameter name="cranchjournal_appendices" value="yes"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-
-      
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal.html">
-                <map:generate src="2014/editions/cranchjournal/cranchjournal.xml" />
-                <map:transform type="xslt" src="./xslt/cranchjournal.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/cranchjournal/xml/cranchjournal.xml"/>
+                <map:transform type="xslt" src="2014/editions/cranchjournal/xslt/cranchjournal.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/intro.cranchjournal.html">
-                <map:generate src="2014/editions/cranchjournal/intro.cranchjournal.xml" />
-                <map:transform type="xslt" src="./xslt/cranchjournal.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/cranchjournal/xml/intro.cranchjournal.xml"/>
+                <map:transform type="xslt" src="2014/editions/cranchjournal/xslt/cranchjournal.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal/pages/**">
-                <map:read src="2014/editions/cranchjournal/pages/{1}" />
+                <map:read src="2014/editions/cranchjournal/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal.xml">
-                <map:generate src="2014/editions/cranchjournal/cranchjournal.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2014/editions/cranchjournal/xml/cranchjournal.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal/**.png">
-                <map:read src="2014/editions/cranchjournal/{1}.png" />
+                <map:read src="2014/editions/cranchjournal/{1}.png"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal/**.jpg">
-                <map:read src="2014/editions/cranchjournal/{1}.jpg" />
+                <map:read src="2014/editions/cranchjournal/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
-
-
         <!-- 2014, Vol 35; "Avisos" by Clayton McCarl -->
-        
-        
-        
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/avisos.html">
-                <map:generate src="2014/editions/avisos/avisos.xml" />
-                <map:transform type="xslt" src="./xslt/avisos.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/avisos/xml/avisos.xml"/>
+                <map:transform type="xslt" src="2014/editions/avisos/xslt/avisos.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/avisos_english.html">
-                <map:generate src="2014/editions/avisos/avisos.xml" />
-                <map:transform type="xslt" src="./xslt/avisos.xsl"><map:parameter name="avisos_english" value="yes" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/avisos/xml/avisos.xml"/>
+                <map:transform type="xslt" src="2014/editions/avisos/xslt/avisos.xsl">
+                    <map:parameter name="avisos_english" value="yes"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/avisos_modernized.html">
-                <map:generate src="2014/editions/avisos/avisos.xml" />
-                <map:transform type="xslt" src="./xslt/avisos.xsl"><map:parameter name="avisos_modernized" value="yes" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/avisos/xml/avisos.xml"/>
+                <map:transform type="xslt" src="2014/editions/avisos/xslt/avisos.xsl">
+                    <map:parameter name="avisos_modernized" value="yes"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/intro.avisos.html">
-                <map:generate src="2014/editions/avisos/intro.avisos.xml" />
-                <map:transform type="xslt" src="./xslt/avisos.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/avisos/xml/intro.avisos.xml"/>
+                <map:transform type="xslt" src="2014/editions/avisos/xslt/avisos.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/avisos/pages/**">
-                <map:read src="2014/editions/avisos/pages/{1}" />
+                <map:read src="2014/editions/avisos/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
-        
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/avisos.xml">
-                <map:generate src="2014/editions/avisos/avisos.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2014/editions/avisos/xml/avisos.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
-     
-    <!-- 2014, Vol. 35: Selections from "The Young Idea" by Mary Isbell -->
+
+        <!-- 2014, Vol. 35: Selections from "The Young Idea" by Mary Isbell -->
 
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/youngidea.bamfield.html">
-                <map:generate src="2015/editions/youngidea/youngidea.bamfield.xml" />
-                <map:transform type="xslt" src="./xslt/youngidea.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/youngidea/xml/youngidea.bamfield.xml"/>
+                <map:transform type="xslt" src="2015/editions/youngidea/xslt/youngidea.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/youngidea.mcarthur.html">
-                <map:generate src="2015/editions/youngidea/youngidea.mcarthur.xml" />
-                <map:transform type="xslt" src="./xslt/youngidea.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/youngidea/xml/youngidea.mcarthur.xml"/>
+                <map:transform type="xslt" src="2015/editions/youngidea/xslt/youngidea.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/intro.youngidea.html">
-                <map:generate src="2015/editions/youngidea/intro.youngidea.xml" />
-                <map:transform type="xslt" src="./xslt/youngidea.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2015/editions/youngidea/xml/intro.youngidea.xml"/>
+                <map:transform type="xslt" src="2015/editions/youngidea/xslt/youngidea.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/youngidea/pages/**">
-                <map:read src="2015/editions/youngidea/pages/{1}" />
+                <map:read src="2015/editions/youngidea/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/youngidea.zip">
-                <map:generate src="2015/editions/youngidea/youngidea.zip" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2015/editions/youngidea/files/youngidea.zip"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/youngidea/**.jpg">
-                <map:read src="2015/editions/youngidea/{1}.jpg" />
+                <map:read src="2015/editions/youngidea/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
-
         <!-- 2014, Vol 35: Virginia Woolf's "Mark on the Wall" by Emily McGinn, Amy Leggette, Matthew Hannah, and Paul Bellew  -->
-       
-<map:pipeline type="noncaching">
+
+        <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/markonthewall_**.html">
-                <map:generate src="2014/editions/markonthewall/markonthewall.xml" />
-                <map:transform type="xslt" src="./xslt/markonthewall.xsl"><map:parameter name="markonthewall_version" value="#{1}" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/markonthewall/xml/markonthewall.xml"/>
+                <map:transform type="xslt" src="2014/editions/markonthewall/xslt/markonthewall.xsl">
+                    <map:parameter name="markonthewall_version" value="#{1}"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/intro.markonthewall.html">
-                <map:generate src="2014/editions/markonthewall/intro.markonthewall.xml" />
-                <map:transform type="xslt" src="./xslt/markonthewall.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/markonthewall/xml/intro.markonthewall.xml"/>
+                <map:transform type="xslt" src="2014/editions/markonthewall/xslt/markonthewall.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/markonthewall/pages/**">
-                <map:read src="2014/editions/markonthewall/pages/{1}" />
+                <map:read src="2014/editions/markonthewall/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/markonthewall.xml">
-                <map:generate src="2014/editions/markonthewall/markonthewall.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2014/editions/markonthewall/xml/markonthewall.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/markonthewall/**.jpg">
-                <map:read src="2014/editions/markonthewall/{1}.jpg" />
+                <map:read src="2014/editions/markonthewall/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
-
-
         <!-- 2013, Vol 34: Civil War Newspaper poetry by Lorang and Weir -->
 
-<!-- first five are for sorting index page -->
+        <!-- first five are for sorting index page -->
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/index.cwnewspaperpoetry_title.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/index.cwnewspaperpoetry.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"><map:parameter name="sortValue" value="title" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/index.cwnewspaperpoetry.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl">
+                    <map:parameter name="sortValue" value="title"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/index.cwnewspaperpoetry_author.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/index.cwnewspaperpoetry.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"><map:parameter name="sortValue" value="author" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/index.cwnewspaperpoetry.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl">
+                    <map:parameter name="sortValue" value="author"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/index.cwnewspaperpoetry_attribution.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/index.cwnewspaperpoetry.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"><map:parameter name="sortValue" value="attribution" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/index.cwnewspaperpoetry.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl">
+                    <map:parameter name="sortValue" value="attribution"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
-        </map:pipeline> 
+        </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/index.cwnewspaperpoetry_newspaper.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/index.cwnewspaperpoetry.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"><map:parameter name="sortValue" value="newspaper" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/index.cwnewspaperpoetry.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl">
+                    <map:parameter name="sortValue" value="newspaper"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/index.cwnewspaperpoetry_date.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/index.cwnewspaperpoetry.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"><map:parameter name="sortValue" value="date" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/index.cwnewspaperpoetry.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl">
+                    <map:parameter name="sortValue" value="date"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
-        </map:pipeline>         
+        </map:pipeline>
 
-<map:pipeline type="noncaching">
+        <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/nas.**.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/nas.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/nas.{1}.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/aa.**.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/aa.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/aa.{1}.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/intro.cwnewspaperpoetry.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/intro.cwnewspaperpoetry.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/intro.cwnewspaperpoetry.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/index.cwnewspaperpoetry.html">
-                <map:generate src="2013/editions/cwnewspaperpoetry/index.cwnewspaperpoetry.xml" />
-                <map:transform type="xslt" src="./xslt/cwnewspaperpoetry.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/index.cwnewspaperpoetry.xml"/>
+                <map:transform type="xslt"
+                    src="2013/editions/cwnewspaperpoetry/xslt/cwnewspaperpoetry.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/cwnewspaperpoetry/pages/**">
-                <map:read src="2013/editions/cwnewspaperpoetry/pages/{1}" />
+                <map:read src="2013/editions/cwnewspaperpoetry/pages/{1}"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2013/editions/cwnewspaperpoetry/cwnewspaperpoetry.**.png">
-                <map:read src="2013/editions/cwnewspaperpoetry/cwnewspaperpoetry.{1}.png" />
+            <map:match pattern="2013/editions/cwnewspaperpoetry/images/cwnewspaperpoetry.**.png">
+                <map:read src="2013/editions/cwnewspaperpoetry/images/cwnewspaperpoetry.{1}.png"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2013/editions/cwnewspaperpoetry/cwnewspaperpoetry.**.jpg">
-                <map:read src="2013/editions/cwnewspaperpoetry/cwnewspaperpoetry.{1}.jpg" />
+            <map:match pattern="2013/editions/cwnewspaperpoetry/images/cwnewspaperpoetry.**.jpg">
+                <map:read src="2013/editions/cwnewspaperpoetry/images/cwnewspaperpoetry.{1}.jpg"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/nas.**.xml">
-                <map:generate src="2013/editions/cwnewspaperpoetry/nas.{1}.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/nas.{1}.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/aa.**.xml">
-                <map:generate src="2013/editions/cwnewspaperpoetry/aa.{1}.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2013/editions/cwnewspaperpoetry/xml/aa.{1}.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
@@ -958,44 +1048,48 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/haley.**.html">
-                <map:generate src="2014/editions/haley/haley.{1}.xml" />
-                <map:transform type="xslt" src="./xslt/haley.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/haley/haley.{1}.xml"/>
+                <map:transform type="xslt" src="xslt/haley.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/intro.haley.html">
-                <map:generate src="2014/editions/haley/intro.haley.xml" />
-                <map:transform type="xslt" src="./xslt/haley.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2014/editions/haley/intro.haley.xml"/>
+                <map:transform type="xslt" src="xslt/haley.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/haley/pages/**">
-                <map:read src="2014/editions/haley/pages/{1}" />
+                <map:read src="2014/editions/haley/pages/{1}"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/haley/images/**">
-                <map:read src="2014/editions/haley/images/{1}" />
+                <map:read src="2014/editions/haley/images/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/haley.**.xml">
-                <map:generate src="2014/editions/haley/haley.{1}.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2014/editions/haley/haley.{1}.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/haley/haleyxml.zip">
-                <map:read src="2014/editions/haley/haleyxml.zip" />
+                <map:read src="2014/editions/haley/haleyxml.zip"/>
             </map:match>
         </map:pipeline>
+
+        <!-- ====================================
+                         2013
+      ====================================== -->
 
 
         <!-- 2013, Vol 34; "Rossetti's 'Sunset Wings' in the American Press" by Marianne Van Remoortel -->
@@ -1003,278 +1097,380 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/sunsetwings/vm_version/**">
-                <map:read src="2013/editions/sunsetwings/vm_version/{1}" />
+                <map:read src="2013/editions/sunsetwings/vm_version/{1}"/>
             </map:match>
         </map:pipeline>
 
-<!-- Don't need this anymore because handled by apache -->
-        <!--<map:pipeline>
-            <map:match pattern="2013/editions/map.sunsetwings.html">
-                <map:read src="http://scholarlyediting.org/2013/editions/intro.sunsetwings.html" />
-                <map:serialize type="html" />
-            </map:match>
-        </map:pipeline>-->
+        <!-- redirect of 2013/editions/map.sunsetwings.html to 
+            http://scholarlyediting.org/2013/editions/intro.sunsetwings.html is handled by apache-->
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/sunsetwings_**.html">
-                <map:generate src="2013/editions/sunsetwings/sunsetwings.xml" />
-                <map:transform type="xslt" src="./xslt/sunsetwings.xsl"><map:parameter name="sunsetwings_version" value="#{1}" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/sunsetwings/xml/sunsetwings.xml"/>
+                <map:transform type="xslt" src="2013/editions/sunsetwings/xslt/sunsetwings.xsl">
+                    <map:parameter name="sunsetwings_version" value="#{1}"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/intro.sunsetwings.html">
-                <map:generate src="2013/editions/sunsetwings/intro.sunsetwings.xml" />
-                <map:transform type="xslt" src="./xslt/sunsetwings.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/sunsetwings/xml/intro.sunsetwings.xml"/>
+                <map:transform type="xslt" src="2013/editions/sunsetwings/xslt/sunsetwings.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/sunsetwings/pages/**">
-                <map:read src="2013/editions/sunsetwings/pages/{1}" />
+                <map:read src="2013/editions/sunsetwings/pages/{1}"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/sunsetwings.xml">
-                <map:generate src="2013/editions/sunsetwings/sunsetwings.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2013/editions/sunsetwings/xml/sunsetwings.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
         <!-- 2013, Vol 34; "Trinity Seven Planets" by Alpo Honkapohja -->
 
 
-            <!-- pipeline to expan abbreviations -->
+        <!-- pipeline to expan abbreviations -->
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/sevenplanets_abbrexpan.html">
-                <map:generate src="2013/editions/sevenplanets/sevenplanets.xml" />
-                <map:transform type="xslt" src="./xslt/sevenplanets.xsl"><map:parameter name="sevenplanets_abbr" value="expand" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/sevenplanets/xml/sevenplanets.xml"/>
+                <map:transform type="xslt" src="2013/editions/sevenplanets/xslt/sevenplanets.xsl">
+                    <map:parameter name="sevenplanets_abbr" value="expand"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/sevenplanets.html">
-                <map:generate src="2013/editions/sevenplanets/sevenplanets.xml" />
-                <map:transform type="xslt" src="./xslt/sevenplanets.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/sevenplanets/xml/sevenplanets.xml"/>
+                <map:transform type="xslt" src="2013/editions/sevenplanets/xslt/sevenplanets.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/intro.sevenplanets.html">
-                <map:generate src="2013/editions/sevenplanets/intro.sevenplanets.xml" />
-                <map:transform type="xslt" src="./xslt/sevenplanets.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/sevenplanets/xml/intro.sevenplanets.xml"/>
+                <map:transform type="xslt" src="2013/editions/sevenplanets/xslt/sevenplanets.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/glossary.sevenplanets.html">
-                <map:generate src="2013/editions/sevenplanets/glossary.sevenplanets.xml" />
-                <map:transform type="xslt" src="./xslt/sevenplanets.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2013/editions/sevenplanets/xml/glossary.sevenplanets.xml"/>
+                <map:transform type="xslt" src="2013/editions/sevenplanets/xslt/sevenplanets.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/sevenplanets/pages/**">
-                <map:read src="2013/editions/sevenplanets/pages/{1}" />
+                <map:read src="2013/editions/sevenplanets/pages/{1}"/>
             </map:match>
         </map:pipeline>
 
 
         <map:pipeline type="noncaching">
             <map:match pattern="2013/editions/sevenplanets/media/**">
-                <map:read src="2013/editions/sevenplanets/media/{1}" />
-            </map:match>
-        </map:pipeline>
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="2013/editions/sevenplanets.xml">
-                <map:generate src="2013/editions/sevenplanets/sevenplanets.xml" />
-                
-                <map:serialize type="xml" />
-            </map:match>
-        </map:pipeline>
-        <map:pipeline type="noncaching">
-            <map:match pattern="2013/editions/plaintext.sevenplanets.rtf">
-                <map:read src="2013/editions/sevenplanets/plaintext.sevenplanets.rtf" />
-                
+                <map:read src="2013/editions/sevenplanets/media/{1}"/>
             </map:match>
         </map:pipeline>
 
-<!-- 2012, Vol 33; "Live Oak With Moss" by Steven Olsen-Smith -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2013/editions/sevenplanets.xml">
+                <map:generate src="2013/editions/sevenplanets/xml/sevenplanets.xml"/>
+
+                <map:serialize type="xml"/>
+            </map:match>
+        </map:pipeline>
+        <map:pipeline type="noncaching">
+            <map:match pattern="2013/editions/rtf/plaintext.sevenplanets.rtf">
+                <map:read src="2013/editions/sevenplanets/rtf/plaintext.sevenplanets.rtf"/>
+
+            </map:match>
+        </map:pipeline>
+
+        <!-- ====================================
+                         2012
+      ====================================== -->
+
+        <!-- 2012, Vol 33; "Live Oak With Moss" by Steven Olsen-Smith -->
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/liveoakwithmoss.html">
-                <map:generate src="2012/editions/liveoakwithmoss/liveoakwithmoss.xml" />
-                <map:transform type="xslt" src="./xslt/liveoakwithmoss.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2012/editions/liveoakwithmoss/xml/liveoakwithmoss.xml"/>
+                <map:transform type="xslt"
+                    src="2012/editions/liveoakwithmoss/xslt/liveoakwithmoss.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/intro.liveoakwithmoss.html">
-                <map:generate src="2012/editions/liveoakwithmoss/intro.liveoakwithmoss.xml" />
-                <map:transform type="xslt" src="./xslt/liveoakwithmoss.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2012/editions/liveoakwithmoss/xml/intro.liveoakwithmoss.xml"/>
+                <map:transform type="xslt"
+                    src="2012/editions/liveoakwithmoss/xslt/liveoakwithmoss.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
-        
+
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/liveoakwithmoss/pages/**">
-                <map:read src="2012/editions/liveoakwithmoss/pages/{1}" />
+                <map:read src="2012/editions/liveoakwithmoss/pages/{1}"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/liveoakwithmoss.xml">
-                <map:generate src="2012/editions/liveoakwithmoss/liveoakwithmoss.xml" />
-           
-                <map:serialize type="xml" />
+                <map:generate src="2012/editions/liveoakwithmoss/xml/liveoakwithmoss.xml"/>
+
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
 
-<!-- 2012, Vol 33; "Uncle Tom's Cabin:  Topsy" by Wesley Raabe and Les Harrison -->
- 
-<!-- Pipeline to show all notes at once-->
+        <!-- 2012, Vol 33; "Uncle Tom's Cabin:  Topsy" by Wesley Raabe and Les Harrison -->
+
+        <!-- Pipeline to show all notes at once-->
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/utctopsy/**_notes.html">
-                <map:generate src="2012/editions/utctopsy/{1}.xml" />
-                <map:transform type="xslt" src="./xslt/utctopsy.xsl"><map:parameter name="utctopsy_notes" value="show" /> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2012/editions/utctopsy/xml/{1}.xml"/>
+                <map:transform type="xslt" src="2012/editions/utctopsy/xslt/utctopsy.xsl">
+                    <map:parameter name="utctopsy_notes" value="show"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
 
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/utctopsy/**.html">
-                <map:generate src="2012/editions/utctopsy/{1}.xml" />
-                <map:transform type="xslt" src="./xslt/utctopsy.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2012/editions/utctopsy/xml/{1}.xml"/>
+                <map:transform type="xslt" src="2012/editions/utctopsy/xslt/utctopsy.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
 
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/intro.utctopsy.html">
-                <map:generate src="2012/editions/utctopsy/intro.utctopsy.xml" />
-                <map:transform type="xslt" src="./xslt/utctopsy.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2012/editions/utctopsy/xml/intro.utctopsy.xml"/>
+                <map:transform type="xslt" src="2012/editions/utctopsy/xslt/utctopsy.xsl"/>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/utctopsy/utc_variants.xml">
-                <map:generate src="2012/editions/utctopsy/utc_variants.xml" />
-                <map:serialize type="xml" />
+                <map:generate src="2012/editions/utctopsy/xml/utc_variants.xml"/>
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/utctopsy/utc_xml_juxta.zip">
-                <map:read src="2012/editions/utctopsy/utc_xml_juxta.zip" />
+                <map:read src="2012/editions/utctopsy/files/utc_xml_juxta.zip"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/utctopsy/pages/**">
-                <map:read src="2012/editions/utctopsy/pages/{1}" />
+                <map:read src="2012/editions/utctopsy/pages/{1}"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/utctopsy/images/**">
-                <map:read src="2012/editions/utctopsy/images/{1}" />
+                <map:read src="2012/editions/utctopsy/images/{1}"/>
             </map:match>
         </map:pipeline>
 
 
-<!-- 2012, Vol 33; "Baroness" by Tanya Clement and Gaby Divay -->
-      
+        <!-- 2012, Vol 33; "Baroness" by Tanya Clement and Gaby Divay -->
+
 
         <!-- This exposes the XML for the public -->
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/baroness/versions/firstling.xml">
-                
-                <map:generate src="2012/editions/baroness/versions/firstling.xml" />
-                
-                <map:serialize type="xml" />
+                <map:generate src="2012/editions/baroness/versions/firstling.xml"/>
+                <map:serialize type="xml"/>
             </map:match>
         </map:pipeline>
 
-
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/baroness/**.baroness.html">
-                <map:generate src="2012/editions/baroness/{1}.baroness.xml" />
-                <map:transform type="xslt" src="./xslt/baroness.xsl"> </map:transform>
-                <map:serialize type="html" />
+                <map:generate src="2012/editions/baroness/xml/{1}.baroness.xml"/>
+                <map:transform type="xslt" src="2012/editions/baroness/xslt/baroness.xsl"> </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/baroness/**">
-                <map:read src="2012/editions/baroness/{1}" />
+                <map:read src="2012/editions/baroness/{1}"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- the baroness pipeline below is here because in its old file position it was over-written by the main index page pipelines -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="2012/editions/baroness/index.html">
+                <map:read src="2012/editions/baroness/html/index.html"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- ====================================
+                         Assets
+      ====================================== -->
+
+        <!-- Lightbox -->
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="**lightbox-blank.gif">
+                <map:read src="template_images/lightbox-blank.gif"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="**lightbox-btn-close.gif">
+                <map:read src="template_images/lightbox-btn-close.gif"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="**lightbox-btn-next.gif">
+                <map:read src="template_images/lightbox-btn-next.gif"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="**lightbox-btn-prev.gif">
+                <map:read src="template_images/lightbox-btn-prev.gif"/>
+            </map:match>
+        </map:pipeline>
+        <map:pipeline type="noncaching">
+            <map:match pattern="**lightbox-ico-loading.gif">
+                <map:read src="template_images/lightbox-ico-loading.gif"/>
+            </map:match>
+        </map:pipeline>
+
+
+        <!-- Bootstrap -->
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="css/bootstrap/**.css">
+                <map:read src="template_css/bootstrap/{1}.css"/>
             </map:match>
         </map:pipeline>
         
-        
-
-
-     
-
-  <!-- The following pipelines are built to get the css and the fonts to work -->      
         <map:pipeline type="noncaching">
+            <map:match pattern="js/bootstrap/**.js">
+                <map:read src="template_js/bootstrap/{1}.js"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- Images -->
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="template_images/**">
+                <map:read src="template_images/{1}"/>
+            </map:match>
+        </map:pipeline>
+        
+        <!--<map:pipeline type="noncaching">
             <map:match pattern="**images/**">
-                <map:read src="./images/{2}" />
+                <map:read src="images/{2}"/>
             </map:match>
-        </map:pipeline>
+        </map:pipeline>-->
 
-<!-- these two pipelines are to help Daniel Carter's 2015 edition -->
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/js/**">
-                <map:read src="js/{1}" />
-            </map:match>
-        </map:pipeline>
+        <!-- PDF -->
 
-        <map:pipeline type="noncaching">
-            <map:match pattern="2015/editions/data/**">
-                <map:read src="js/data/{1}" />
-            </map:match>
-        </map:pipeline>
-
-        
-        <map:pipeline type="noncaching">
-            <map:match pattern="js/**">
-                <map:read src="js/{1}" />
-            </map:match>
-        </map:pipeline>
-        
-    
         <map:pipeline type="noncaching">
             <map:match pattern="*/pdf/*.pdf">
-                <map:read src="{1}/pdf/{2}.pdf" />
+                <map:read src="{1}/pdf/{2}.pdf"/>
             </map:match>
         </map:pipeline>
 
-
-        <map:pipeline type="noncaching">
-            <map:match pattern="**/**.css">
-                <map:read src="css/{2}.css" />
-            </map:match>
-        </map:pipeline>
+        <!-- Fonts -->
 
         <map:pipeline type="noncaching">
             <map:match pattern="**fonts/**">
-                <map:read src="fonts/{2}" />
+                <map:read src="template_fonts/{2}"/>
             </map:match>
         </map:pipeline>
-        
-  
+
+        <!-- Schema -->
 
         <map:pipeline type="noncaching">
             <map:match pattern="scholarlyediting.rng">
-                <map:read src="schema/scholarlyediting.rng" />
+                <map:read src="schema/scholarlyediting.rng"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- CSS (Site + Edition) -->
+
+        <!-- legacy -->
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="css/**.css">
+                <map:read src="css/{1}.css"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- new -->
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="template_css/**.css">
+                <map:read src="template_css/{1}.css"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="**/editions/**/css/**.css">
+                <map:read src="{1}/editions/{2}/css/{3}.css"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- Javascript (Site + Edition) -->
+
+        <!-- legacy -->
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="js/**.js">
+                <map:read src="js/{1}.js"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- new -->
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="template_js/**.js">
+                <map:read src="template_js/{1}.js"/>
+            </map:match>
+        </map:pipeline>
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="**/editions/**/js/**.js">
+                <map:read src="{1}/editions/{2}/js/{3}.js"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- for the goback arrow on the notes throughout the site -->
+        <map:pipeline type="noncaching">
+            <map:match pattern="**goback.png">
+                <map:read src="template_images/goback.png"/>
+            </map:match>
+        </map:pipeline>
+
+        <!-- to make sure the favicon.ico is visible -->
+
+        <map:pipeline type="noncaching">
+            <map:match pattern="**favicon.ico">
+                <map:read mime-type="image/x-icon" src="favicon.ico"/>
             </map:match>
         </map:pipeline>
 

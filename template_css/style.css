@@ -1,0 +1,2860 @@
+/* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css
+	http://cdrhsites.unl.edu/cocoon/scholarly-editing-git/css/style.css
+	http://spacely.unl.edu/cocoon/scholarly-editing/css/style.css
+	http://scholarlyediting.org/css/style.css */
+
+/* @override http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css */
+
+/* @override 
+	http://www.scholarlyediting.org/css/style.css
+	http://libxml1a.unl.edu:8080/cocoon/scholarlyediting/css/style.css
+	http://www.scholarlyediting.org/css/style.css
+	http://spacely.unl.edu/cocoon/scholarlyediting/css/style.css
+*/
+
+/* CHANGELOG
+
+    KD 10/5 - Fixed header in firefox
+*/
+
+/*So if I put an !important in this than it does overide the other styling for h1, but then it puts all the cranchjournal h1 elements to the right. 
+This isn't actually what we want however. We only want the default styling (the styling for h1 elements that don't have style attributes) to be 
+aligned to the right. Then, we want the style attributes of the cranchjournal h1 elements (that have a style attribute) to take over. */
+div.cranchjournal h1.right {text-align: right !important;}
+
+@font-face {
+	font-family: 'GoudyBookletter1911Regular';
+	src: url('../template_fonts/Goudy-Bookletter-1911-fontfacekit/goudy_bookletter_1911-webfont.eot');
+	src: local('☺'), 
+		url('../template_fonts/Goudy-Bookletter-1911-fontfacekit/goudy_bookletter_1911-webfont.ttf') format('truetype'),
+		url('../template_fonts/Goudy-Bookletter-1911-fontfacekit/goudy_bookletter_1911-webfont.woff') format('woff'), 
+		url('../template_fonts/Goudy-Bookletter-1911-fontfacekit/goudy_bookletter_1911-webfont.svg#webfontIiZ2NHt1') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PalemonasMUFIRegular';
+    src: url('../template_fonts/Palemonas-MUFI-fontfacekit/palemmufi-nm-webfont.eot');
+    src: url('../template_fonts/Palemonas-MUFI-fontfacekit/palemmufi-nm-webfont.woff') format('woff'),
+         url('../template_fonts/Palemonas-MUFI-fontfacekit/palemmufi-nm-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Cambria, Georgia, Times, “Times New Roman”, serif, 'CODE2000';
+	font-size: 15px;
+	/*background-color: #ff9300;*/
+	background-color: #d9cb9e}
+
+/* The change in background-color is made for the dev site; for publication on the live site, need to change back to #d9cb9e */
+
+html {
+	border-left: solid #636453 6px;
+	border-right: solid #636453 6px;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'GoudyBookletter1911Regular', Georgia, "Times New Roman", Times, serif;
+	margin: 10px 0;
+	font-weight: 100;
+}
+
+span.editors {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'GoudyBookletter1911Regular', Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	font: 2em "GoudyBookletter1911Regular", Georgia, "Times New Roman", Times, serif;
+	padding-top: 10px;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1em;
+	margin: 10 0 0 0px;
+}
+
+h1.editionTitle {
+	color: #fff;
+	text-align: right;
+	width: 850px;
+	margin-left: auto; padding-right: 5px;
+	text-shadow: 0px 2px 4px #000; font-weight: 500;
+}
+
+
+
+h1.essaysTitle {
+	color: #fff;
+	text-align: right;
+	width: 600px;
+	margin-left: auto; padding-right: 5px;
+	text-shadow: 0px 2px 4px #000;font-weight: 500;
+}
+
+span.figure img, span.enlargeOnClick img {
+	display: block;
+	margin: auto;
+	border: none; padding: 30px 10px 10px 10px;
+}
+
+div.cranchjournal span.figure img {
+	margin: 0px;
+}
+
+span.figure_left img {
+	display: block;
+	margin: auto;
+	border: none; float: left;padding: 10px;
+
+}
+
+
+
+span.figure_right img {
+	display: block;
+	margin: auto;
+	border: none; float: right; padding: 10px;
+}
+
+span.figure_center img {
+	display: block;
+	margin: auto;
+	border: none; text-align: center;padding: 10px;
+}
+
+
+
+img {
+	border: none;
+}
+
+
+div.essay span.figure img {border: 0px black solid;
+	
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: right;
+	Margin: 0 -50px .2em 0;
+}
+
+.list h2 {
+	text-align: left;
+	border-bottom: 0px solid #ff001c;
+	margin-top: 20px;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: 900;
+	margin-top: -30px;
+	padding-top: 50px;
+	z-index: 1;
+	position: relative;
+
+}
+
+
+/* This is an illegal HTML construction -km */
+.list ul h3 {
+	text-align: left;
+	text-transform: none;
+	font-weight: normal;
+	/*color: #66b59f;*/ 
+	margin-top: 0px; 
+	padding-left: 0px;
+	margin-left: -40px; 
+	/*background-color: #374140;*/ 
+	padding-top: 10px;
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.3em;
+}
+
+div.essay h4 {
+	text-align: left; font-size: 1.25em;
+}
+
+.list ul h4 {
+	font-size: 1em; font-weight: bold;
+}
+
+
+div.edition h1 {
+	text-align: center;
+}
+
+div.edition h2 {
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+div.edition div.notesList h2 {
+	text-align: left;
+	font-size: 2em;
+}
+
+p, div.p {
+	margin: 0px;
+	text-indent: 2em; font-size: 1em;
+}
+
+div.list p {
+	line-height: 1.75em;
+}
+
+p.center {
+	text-align: center;
+}
+
+ol {
+	margin: 0 3em; list-style-type: decimal;
+}
+
+ol.upper-latin {
+	list-style-type: upper-latin;
+}
+
+ol.bulleted, ul.bulleted {
+	margin: 0 3em; list-style-type: disc; text-indent: 0px;
+}
+
+ol.starred {
+	margin: 0 3em; list-style-type: circle;
+	list-style-image: url(../template_images/sep.png);
+}
+
+ul {
+	list-style-type: none; margin: 0 3em; 
+}
+
+ul.recenteditions, ul.workscited {
+	list-style-type: none; margin-left: 0px; margin-right: 0px; margin-top: 20px; text-align: left;
+
+}
+
+ul.recenteditions li {
+	margin-bottom: 20px;
+}
+
+ul.recenteditions li p {
+	text-indent: 0px;
+}
+
+span.list-label {font-weight: bold;
+	
+}
+
+li {
+	line-height: 1.75; margin: 10px 0px 5px 0px;
+}
+
+
+
+
+.bulleted li.menuItem {
+	margin-left: 20px;
+	list-style-image: url(../template_images/sep.png);
+}
+
+li.menuItem {
+	margin-left: 20px; line-height: 1.5em;
+	margin: 9px 0;
+	text-indent: 0em;
+}
+
+* span.center {
+	text-align: center;
+	display: block;
+}
+
+* span.centerCaps {
+	text-align: center;
+	display: block; text-transform: capitalize;
+}
+
+div#content {
+	width: 800px;
+	margin: 20px auto 80px auto;
+	background-color: #ffffff;
+	background-color: #ffffff;
+	padding: 20px 80px 0px 80px;
+	box-shadow: 0px 0px 20px #636453;
+	-webkit-box-shadow: 0px 0px 20px #636453;
+	-moz-box-shadow: 0px 0px 20px #636453;
+	border: solid 1px #9FA490; 
+}
+
+div#content img.maintitle {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 20px;
+}
+
+div.masthead {
+	line-height: .75em;
+	border-bottom: 10px solid #869040;
+	padding: 0px 0px 20px 0px;
+	height: 137px;
+	margin: 0px -50px 0px -50px;
+}
+
+div.masthead h1 a {
+	float: left;
+	height: 137px;
+	width: 300px;
+	background: url(../template_images/title_small.png) no-repeat left;
+}
+
+div.masthead h1 a span {
+	display: none;
+}
+
+div.masthead h4 {
+	padding: 15px 0px 0px 0px;
+	margin: 0px;
+	float: right;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+
+div.masthead h5 {
+	float: right;
+	font-size: 1.25em;
+	font-variant: small-caps; margin-bottom: 20px;
+}
+
+div.nav {
+	text-align: right;
+	border-top: 0px solid black;
+	margin-right: -95px;
+	padding: 0px;
+	margin-top: 0px;
+	float: right;
+	width: 900px;
+}
+
+div.indexnav {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;
+	margin-top: 0px;
+}
+
+div.nav ul li, div.indexnav ul li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	margin: -2px;
+	font-size: 1.4em; height: 30px;
+}
+
+div.nav ul li a, div.indexnav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+div.nav ul li a:hover, div.indexnav ul li a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*#nav1 {
+	background-color: #dc3522;
+}
+
+#nav2 {
+	background-color: #869040;
+}
+
+#nav3 {
+	background-color: #2a2c2b;
+}
+
+#nav4 {
+	background-color: #72c8af;
+}
+
+#nav5 {
+	background-color: #869040
+}*/
+
+div.footer {
+	width: 800px;
+	height: 120px;
+	padding-top: 30px;
+	padding-bottom: 10px; clear: both;
+}
+
+div.footer span.adelogo {
+	float: right;
+	vertical-align: bottom;
+}
+
+div.footer span.creativecommons {
+	float: left;
+	font-size: .75em;
+	vertical-align: bottom;
+	padding-top: 60px;
+}
+
+div.footer span.cdrh {
+	float: left;
+	font-size: .75em;
+	vertical-align: bottom;
+	padding-top: 1px; display: block;
+}
+
+div.footer span.issn {
+	float: left; clear: none;
+	font-size: .75em;
+	vertical-align: bottom;
+	padding-top: 1px; padding-left: 5px;
+	display: block;
+}
+
+div.editionHeader {
+	padding: 5px;
+	border-bottom: dashed 0px black;
+	background-color: #424e4d;
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-top: 0px;
+}
+
+div.essayHeader {
+	padding: 5px;
+	border-bottom: dashed 0px black;
+	background-color: #424e4d;
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-top: 0px;
+}
+
+span.editionNav {
+	float: left;
+	vertical-align: bottom;
+	margin-top: 5px;
+	text-align: right;
+}
+
+.stufaiuolo {
+	font-size: 1.15em;
+}
+
+.essay .stufaiuolo {
+	font-size: 1em;
+}
+
+.stufaiuolo_nav {
+	margin-top: -10px; font-size: .75em; height: 150px; margin-right: -50px; display: block;
+}
+
+.stufaiuolo_nav h1 {
+	display: block; margin-left: -50px; margin-top: 75px;
+}
+
+.stufaiuolo_nav>ul {
+	
+	text-align: right;
+	border: 0px solid red;
+	margin-left: -5px;
+	margin-right: 0px;
+	margin-top: 0px;
+	/*background-color: #72c8af;*/
+	padding-top: 10px;
+	padding-left: 2px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+}
+
+
+
+span.editionNav ul {
+	width: 886px;
+	text-align: right;
+	border: 0px solid red;
+	margin-left: -5px;
+	margin-right: 0px;
+	margin-top: 0px;
+	/*background-color: #72c8af;*/
+	padding-top: 10px;
+	padding-left: 2px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+}
+
+span.editionNav ul li, .stufaiuolo_nav>ul>li {
+	list-style: none;
+	display: inline;
+	font-size: 1.25em;
+	position: relative;
+	text-align: right;
+	padding-left: 13px;
+	background: url(../template_images/sep.png) center left no-repeat;
+}
+
+span.editionNav ul li a {
+	color: #72c8af;
+	text-decoration: underline;
+}
+
+.stufaiuolo_nav>ul .ms_description>.showNote>a, .stufaiuolo_nav>ul .switch_views>a, .stufaiuolo_nav>ul .interventions_link>a, .back_to_ms a {
+	color: #72c8af;
+	text-decoration: underline;
+}
+
+span#editionNavLong {font-size: .75em;
+	
+}
+
+span.editionNav ul li a:hover, .stufaiuolo_nav>ul>li>a:hover {
+	color: #374140;
+}
+
+span.editionNav ul li#editionNav1, .stufaiuolo_nav>ul>li#editionNav1 {
+	background: none;
+}
+
+span.essayNav ul li#essayNav1 {
+	background: none;
+}
+
+span.editionNav ul li#editionNavPre, .stufaiuolo_nav>ul>li#editionNavPre {
+	background: none; color: #dc3522;
+}
+
+span.editionNav ul li.heading {
+	background: none;
+	font-weight: bold;
+}
+
+span.editionNav ul li.postHeading {
+	background: none;
+}
+
+span.editionNav span.currentPage a{
+	color: black;
+}
+
+/* Essay Navigation */
+span.essayNav {
+	float: left;
+	vertical-align: bottom;
+	margin-top: 5px;
+	text-align: right;
+}
+
+span.essayNav ul {
+	width: 886px;
+	text-align: right;
+	border: 0px solid red;
+	margin-left: -45px;
+	margin-right: 0px;
+	margin-top: 0px;
+	/*background-color: #72c8af;*/
+	padding-top: 10px;
+	padding-left: 2px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+}
+
+/*span.essayNav ul li {
+	list-style: none;
+	display: inline;
+	font-size: 1.25em;
+	position: relative;
+	text-align: right;
+	padding-left: 13px;
+	background: url(../template_images/sep.png) center left no-repeat;
+	padding-right: 35px;
+}*/
+
+
+
+span.essayNav ul li {
+	list-style: none;
+	display: inline;
+	font-size: 1.25em;
+	position: relative;
+	text-align: right;
+	padding-left: 13px;
+	background: url(../template_images/sep.png) center left no-repeat;
+}
+
+span.essayNav ul li a {
+	color: #72c8af;
+	text-decoration: underline;
+}
+
+
+
+span.essayNav ul li a:hover {
+	color: #374140;
+}
+
+span.essayNav ul li#editionNav1 {
+	background: none;
+}
+
+span.essayNav ul li#editionNavPre {
+	background: none; color: #dc3522;
+}
+
+span.essayNav ul li.heading {
+	background: none;
+	font-weight: bold;
+}
+
+span.essayNav ul li.postHeading {
+	background: none;
+}
+
+span.essayNav span.currentPage a{
+	color: black;
+}
+
+.secondSignature {
+	margin-top: 25px; display: block;
+}
+
+
+div.notesLink, div.xmljuxta {font-size: 1.2em; display: block; padding: 5px;
+margin-bottom: 10px; margin-top: -0px; margin-left: 0px; margin-right: 10px;border: 2px solid #dc3522; width: auto; text-align: center; float: right;box-shadow: 0px 0px 0px #636453;
+	-webkit-box-shadow: 0px 0px 0px #636453;
+	-moz-box-shadow: 0px 0px 0px #636453;
+	border: solid 1px #9FA490;}
+
+
+div.abbrExpanLink, div.modernizedLink {
+	font-size: 1.2em; display: block; padding: 5px;
+margin-bottom: 10px; margin-top: -40px; margin-left: -5px; margin-right: 10px;border: 2px solid #dc3522; width: 120px; text-align: center; box-shadow: 0px 0px 0px #636453;
+	-webkit-box-shadow: 0px 0px 0px #636453;
+	-moz-box-shadow: 0px 0px 0px #636453;
+	border: solid 1px #9FA490; position: fixed; background-color: white;
+}
+
+div.notesLink:hover, div.xmljuxta:hover, div.abbrExpanLink:hover, div.modernizedLink:hover  {
+	box-shadow: 0px 0px 5px #636453;
+	-webkit-box-shadow: 0px 0px 5px #636453;
+	-moz-box-shadow: 0px 0px 5px #636453;
+	border: solid 1px #9FA490;
+}
+
+div.editionHeader span.editor {
+	display: block;
+	color: white;
+	font-size: 20px;
+	text-align: right;
+}
+
+div.editionHeader span.author {
+	display: none;
+}
+
+div.edition {
+	margin-top: 50px;line-height: 1.75em;
+}
+
+/*div.essay {
+	padding: 10px 100px 0px 100px;
+	line-height: 1.75em;
+	text-align: justify;
+	margin-top: 50px;
+}*/
+
+div.utctopsy {margin-left: 50px; margin-right: 50px; line-height: inherit; font-size: 1.5em;	
+}
+
+
+
+div.utctopsy h1,h2,h3,h4,h5,h6 {
+	text-align: center; font-size: 1.5em; }
+
+/*Changed for HWH*/
+span.opener, span.closer {display: block; text-align: left; font-size:100%;
+	
+}
+
+.youngidea .opener {
+	display: block; text-align: left; font-size: inherit;
+}
+
+.youngidea .closer, .youngidea .signed, .youngidea .dateline {
+	display: block; text-align: right; font-size: inherit;
+}
+
+span.fw_divider {display: block; text-align: center;
+	
+}
+
+
+span.columnBreak {display: block; font-size: .8em; text-align: center;	margin: 10px 0 10px 0;;}
+
+	
+.rdgNote h4 {
+	font-size: 1.5em; text-align: left; font-weight: 600; text-indent: 0px;
+}
+
+.rdgNote h5 {
+	font-size: 1.25em; text-align: left; text-indent: 0px;
+} 
+
+div.appEntry {
+	padding: 10px;
+	text-align: left;
+	font-size: 14px;
+	margin: 10px 0;	
+}
+
+div.appEntryShow {
+	padding: 10px;
+	text-align: left;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+span.witness {
+	color: #d12a1b;
+	font-size: 10px;
+	display: block;
+	margin-left: 50px;
+}
+
+p.intro {
+	font-size: 1.2em;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+	background: url(../template_images/flourish.gif) no-repeat center bottom;
+	z-index: 2;
+	position: relative;
+}
+
+a {
+	color: #d12a1b;
+	text-decoration: none; 
+}
+
+a:hover {color: #9c1e13;
+
+	
+}
+
+a.ref1 {padding-left: 14px; padding-right: 5px;
+	
+}
+
+a.ref2 {padding-left: 5px; padding-right: 5px;
+	
+}
+
+div.note {
+	padding: 10px 0px 10px 0px;
+}
+
+div.poem {
+	margin: 20px 150px 20px 150px;
+	font-size: 1.2em;
+}
+
+.youngidea .poem {
+	font-size: 1em;
+}
+
+span.poem_line {
+	padding: 0px;
+	margin: 0;
+	display: block;
+	line-height: 1.25em;
+}
+
+span.poem_line_italic {
+	padding: 0px;
+	margin: 10 0 5 10px;
+	display: block;
+	line-height: 1.5em;
+	font-style: italic;
+}
+
+blockquote span.poem_line {
+	text-indent: -1em;
+}
+
+
+span.pagebreak {
+	display: block;
+	font-size: 10pt;
+	border: 0px dashed black;
+	height: 50px;
+	padding: 15px;
+	width: 100%;
+	text-align: left;
+	
+	}
+	
+	
+	/* Whitman hyde rules */
+	
+.whitmanheydethumbnailbox {
+
+float: right; 
+	clear:right;
+    text-align:center;
+    padding: 0 0 0 7px;
+	font-size:.8em;
+	
+}
+
+.whitmanheydethumbnail {
+    
+	/*
+	max-width:100px;*/
+	
+	
+	
+}
+
+.whitmanheydeviewsize {
+    margin-top:5px;
+}
+
+.whitmanheydeviewsize, .whitmanheydefullsize {
+    display:block;
+    line-height:1.1em;
+}
+
+.whitmanheydepagebreak {
+    display:block;
+    border-top:dashed #aaa 1px;
+    padding-bottom:10px;
+    margin-top:20px;
+}
+
+.whitmanhydefigure {
+    margin:10px 0 10px 0;
+    padding:10px;
+    /*border: solid 1px #aaa; */
+    border-right:none;
+    border-left:none;
+    text-align:center; 
+    display:block;
+}
+
+.whitmanhydefigure img {
+    max-width:100%;
+}
+
+.whitmanhydefigurehead {
+    text-align:center; 
+    font-size:1em; 
+    display:block; 
+    padding:5px 0;
+}
+
+.whitmanhydefigurep {
+    display:block;
+    padding:5px 0; 
+    line-height:1.2em; 
+    font-size:.9em;
+}
+
+.whitmanhydefigureleft {
+    width:46%;
+    float:left; height: 200px;
+}
+
+.whitmanhydefigureright {
+    width:46%;
+    float:right; height: 200px;
+}
+
+.whitmanhydeintro p {
+    clear:both;
+}
+
+.whitmanhyde span.salute, .whitmanhyde span.signed  {
+    float:none;
+    text-indent: 2em;
+}
+
+.whitmanhyde span.rdgNote {
+	background-color:transparent;
+	
+}
+
+
+
+.essay .poem {
+	font-size: 1em;
+	margin: 20px 100px 20px 100px;
+}
+
+
+
+div.utctopsy span.pagebreak {
+text-align: right; border-top: 1px dashed black; padding-top: 10px; margin-top: 100px;
+}
+
+div.utctopsy span.pagebreak span.thumbnail {
+	float: right; padding: 0 0 0 7px;
+}
+
+div.cranchjournal span.pagebreak {
+text-align: right; border-top: 1px dashed black; height: 150px;padding-top: 10px; margin-bottom: -100px;  display: run-in;
+	float: right; margin-top: 75px;
+}
+
+div.cranchjournal span.pagebreak_blank {
+text-align: right; border-top: 1px dashed black;  display: inline;
+	float: right; margin-top: px;
+	font-size: 10pt;
+	height: 50px;
+	padding: 15px;
+	width: 100%; margin-bottom: -150px; 
+}
+
+div.cranchjournal span.pagebreak span.thumbnail {
+	float: right; padding: 0 0 0 7px; 
+}
+
+div.cranchjournal span.pagebreak_blank span.thumbnail {
+	float: right; padding: 0 0 0 7px; display: none;
+}
+
+div.poem span.pagebreak {
+	margin-left: -150px;
+}
+
+span.pagebreak span.thumbnail {
+	float: left;
+	padding: 0 7px 0 0;
+}
+
+span.insertionMark {
+	vertical-align: -15px; line-height: 0em;
+}
+
+span.add_supralinear {
+	vertical-align: super;
+}
+
+span.add_above {
+	vertical-align: super;
+}
+
+
+span.del_wipe {
+	text-decoration: line-through;
+	color: #c4c4c4;
+}
+
+span.add_over {
+	font-weight: bold;
+}
+
+span.del_overstrike {
+	text-decoration: line-through;
+}
+
+span.del_strikethrough {
+	text-decoration: line-through;
+}
+
+span.del_multistroke {
+	text-decoration: line-through; background-color: #878787;
+}
+
+
+span.del_overwrite {
+	color: #c4c4c4;
+}
+
+div.avisos span.del_overwrite {
+	text-decoration: line-through; color: black;
+}
+
+span.noteRef {
+	font-size: .65em;
+}
+
+span.noteRefIntro {
+	font-size: .85em;
+}
+
+blockquote {
+	margin-left: 4em;
+	margin-right: 4em;
+	line-height: 1.75em; text-indent: 0px; }
+
+blockquote.epigraph {
+	font-size: .8em; padding-top: 40px; padding-left: 20px; padding-right: 20px;
+}
+
+blockquote p {
+	text-indent: 0px;
+}
+
+blockquote div.p {
+	text-indent: 0px;
+}
+
+span.epigraph_bibl {
+	font-size: .8em; text-align: right; float: right; padding-right: 160px;
+}
+
+
+div.introcranchjournal span.epigraph_bibl {
+	font-size: 1em;  display: block; float: none; text-align: right; padding-right: 0px; 
+}
+
+div.introcranchjournal span.epigraph {
+	margin-bottom: 50px; float: none; display: block;
+}
+
+div.essay table {
+	border: 2px gray solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.essay table tbody tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.essay table tbody tr td {
+	border: 1px gray solid;
+	padding: 5px;
+	text-align: center;
+}
+
+div.edition table {
+	border: 2px gray solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.edition table tbody tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.edition table tbody tr td {
+	border: 1px gray solid;
+	padding: 5px;
+	text-align: center;
+}
+
+div.cwnewspaperpoetry table, div.cwnewspaperpoetry table tbody tr td  {
+	border: 0px;padding: 0px;
+	margin: 0px;
+}
+
+/* span.listRefs a { display: block; margin-left: 5em; }
+
+ */
+
+span.indexauthor {
+	display: block;
+	text-indent: 2em;
+
+}
+
+span.indexeditor {
+	display: block;
+	text-indent: 2em;
+}
+
+span.indextitle {
+	margin-top: 10px;
+	display: block;
+}
+
+div.essay {
+	padding: 10px 100px 0px 100px;
+	line-height: 1.75em;
+	text-align: justify;
+	margin-top: 50px;
+}
+
+div.essay h1 {
+	font-size: 2.5em;
+	text-align: left;
+}
+
+div.essay h2 {
+	font-size: 2em;
+	text-align: left;
+	padding-top: 10px;
+}
+
+div.essay h3 {
+	text-transform: none;
+	font-size: 1.5em;
+	text-align: left;
+	padding-top: 50px; padding-bottom: 10px;
+}
+
+.essay div.section {
+	margin-top: 50px;
+}
+
+
+span.fig_caption h3 {font-size: 1em;text-transform: none; font-weight: 700;
+	margin-top: 0px; padding-top: 0px; text-indent: 0em;
+	
+}
+
+span.byline {
+	font-size: 1.5em;
+	text-align: right;
+	display: block;
+}
+
+div.edition span.byline {
+	text-align: center;
+}
+
+div.frontmatter {
+	margin-bottom: 30px;
+}
+
+div.cranchjournal div.frontmatter {
+	font-size: 1.5em;
+}
+
+div.notesList {
+	margin-top: 30px;
+	text-align: left;
+}
+
+div.avisos div.notesList {
+	z-index: 1;
+	position: relative; background-color: white;
+}
+
+div.notesList h2 {
+	border-bottom: 3px solid black;
+	width: 100%;
+}
+
+span.addrLine {
+	display: block;
+	margin-left: 30px;
+	line-height: 1.25em;
+}
+
+span.address {
+	margin-top: 15px;
+	display: block;
+}
+
+span.fw_sig {font-size: 1em;
+	
+}
+div.signature {display: block; text-align: right;
+	
+}
+
+div.signature span.name {
+	display: block;
+}
+
+div.signature span.affiliation {
+	display: block;
+}
+
+
+/* Karin's Changes */
+
+.nav ul {
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+#about {
+	display: block;
+	color: #ed122a;
+	padding: 0;
+	margin: 0;
+	border: none;	
+}
+
+#about a {
+	display: block;
+	color: #ed122a;
+	padding: 0;
+	margin: 15px 10px 0 0;
+	font-size: .8em;
+	border: none;
+}
+
+.nav ul, div.nav {
+	width: 500px;
+	float: right;
+}
+
+
+#nav1, #nav2, #nav3, #nav4, #nav5 {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#nav1 a, #nav2 a, #nav3 a, #nav4 a, #nav5 a {
+	padding: 7px;
+	margin-left: -5px;
+}
+
+/* For home page */
+
+.indexnav #nav1 a, .indexnav #nav2 a, .indexnav #nav3 a, .indexnav #nav4 a, .indexnav #nav5 a {
+	margin-left: -5px;
+}
+
+#nav1 a {
+	color: #dc3522;
+	border-bottom: double 3px #dc3522;
+	border-top: double 3px #dc3522;
+	}
+
+	#nav1 a:hover {
+		background-color: #dc3522;
+		}
+
+#nav2 a {
+	color: #009676;
+	border-bottom: double 3px #009676;
+	border-top: double 3px #009676;
+	}
+
+	#nav2 a:hover {
+		background-color: #009676;
+		}
+
+#nav3 a {
+	color: #72c8af;
+	border-bottom: double 3px #72c8af;
+	border-top: double 3px #72c8af;
+	}
+
+	#nav3 a:hover {
+		background-color: #72c8af;
+		}
+
+#nav4 a {
+	color: #007a32;
+	border-bottom: double 3px #007a32;
+	border-top: double 3px #007a32;
+	}
+
+	#nav4 a:hover {
+		background-color: #007a32;
+		}
+
+#nav5 a {
+	color: #869040;
+	border-bottom: double 3px #869040;
+	border-top: double 3px #869040;
+	}
+
+	#nav5 a:hover {
+		background-color: #869040;
+		}
+
+#nav1:hover a, #nav2:hover a, #nav3:hover a, #nav4:hover a, #nav5:hover a {
+	color: #fff;
+		
+
+}
+
+
+
+/* Style's for wesley's project/hidden notes */
+
+.showNote {
+	display: inline;
+	width: 20px;
+	
+}
+
+.appEntry {
+	border: solid red 3px;
+	overflow: auto;
+	display:block;
+	/*width: 200px;*/
+	z-index:3;
+	position: absolute;
+	background: #fff;
+	width: 660px;
+	padding:0 10px 5px 10px;
+	
+}
+
+.youngidea .appEntry
+{
+	padding: 25px;
+}
+.appEntryShow {
+	border: solid red 3px;
+	overflow: auto;
+	/*display:block;*/
+}
+
+.appRdg, .rdgNote {
+	padding: 10px;
+	background-color: #fff;
+}
+
+.appRdg h2 {
+	margin: 20px 0px 0px 0px;
+}
+
+.closenote {
+
+	position: absolute;
+	right:  10px;
+	display: block;
+	top:  2px;
+	font: bold 2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+span.variantText {
+	border-bottom: 1.5px solid #dc3522;
+}
+
+span.inTextEditorialNote {font-size: .75em;
+	
+}
+
+span.fig_caption{display: block;padding-bottom: 50px;
+	
+}
+
+div.essay span.fig_caption p {
+	font-size: .8em; font-weight: bold; text-indent: 0em;
+}
+
+div.cranchjournal span.fig_caption p{
+	margin-left: 100px; font-size: 1em; text-indent: 0px;
+}
+
+/* Styling for Trinity Seven Planets below */
+
+
+div.sevenplanets {
+	font-size: 1.75em; padding-left: 150px; line-height: 1.3em; 
+}
+
+div.sevenplanets div.p {
+	text-indent: 0em; line-height: 1.75em; font-family: 'PalemonasMUFIRegular'; margin-top: 25px;}
+	
+div.sevenplanetsintro {
+	font-family: 'PalemonasMUFIRegular'; font-size: 1.2em; line-height: 1.75em;
+}
+
+div.sevenplanets span.pageid {
+	text-align: center; font-size: .75em; display: block; 
+}
+
+div.sevenplanets span.pagebreak {
+	height: 0px;
+}
+
+div.sevenplanets span.pagebreak a {
+	float: right; clear: right; margin-top: -0px; line-height: 1.5em;
+}
+
+div.sevenplanets span.pagebreak span.thumbnail {
+	float: right; padding-left: 10px; text-indent: 0px; clear: both;
+}
+
+a.gloss {
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+	border-bottom: 3px double;
+	border-color: #ffe032;
+	display: inline;
+}
+
+a.gloss:hover {
+		background-color: #ffe032;
+}
+
+
+div.sevenplanets span.pagebreak_special a {
+	float: right; clear: right; margin-top: -0px; line-height: 1.5em; font-size: .5em; display: inline;
+}
+
+div.sevenplanets span.pagebreak_special span.thumbnail {
+	float: right; padding-left: 10px; text-indent: 0px; clear: right; display: inline;
+}
+
+div.sevenplanets span.pageid_special {
+	display: block; text-align: center; font-size: .75em;
+}
+
+
+
+span.abbr {
+	text-decoration: none; border-bottom: #666666; border-width: 0px 0px 0px 0px; border-style: none none dotted none;
+
+}
+
+span.unknownAbbr span.highlightingstroke {
+	color: #424242;}
+	
+	
+span.glossEntryHead {
+	display: block; font-size: 1.25em; text-indent: 0px;
+}
+
+span.glossDefinition {
+	display: block; padding-top: 10px;text-indent: 0px;
+
+}
+
+span.glossEtym {
+	display: block; padding-top: 10px;text-indent: 0px;
+
+}
+
+span.decoratedinitial {
+	font-size: 2em; color: #142b55;
+	border-style: double;
+	border-color: #c45034; font-weight: bold; display: inline; 
+}
+
+span.highlightingstroke {
+	background: #c45034;
+}
+
+span.superscript {
+	vertical-align: 5px;
+}
+
+span.italicsuperscript {
+	vertical-align: 10px;
+	font-style: italic;
+}
+
+span.boldsuperscript {
+	vertical-align: 10px;
+	font-weight: bold;
+}
+
+span.boldbackgroundred {
+	background: #c45034;
+}
+
+span.red {
+	color: #c45034;
+}
+
+div.sevenplanets span.footnote {
+	float: right; font-size: .6em;
+	border: 1px dotted #000; padding: 10px;
+}
+
+div.sevenplanets span.leftmarginnote {
+	float: right; clear: both;font-size: .6em; line-height: 1.5em;border: 1px dotted #000; padding: 10px; margin-right: 10px; 
+}
+
+div.sevenplanets .appEntry {
+	border: double #ffe032 3px;
+	overflow: auto;
+	display:block;
+	/*width: 200px;*/
+	z-index:3;
+	position: absolute;
+	background: #fff;
+	width: 500px;
+	
+}
+
+p img.inline {
+	text-indent: 0px; margin: 20px 0px 20px -125px; border: solid 1px black;
+}
+
+/* Sunset Wings Styles */
+
+div.stanza {
+	margin-top: 30px;
+}
+
+div.stanza_center {
+	margin-top: 20px; margin-left: 150px;
+
+}
+
+span.sunsetwingspageimage {
+	display: block;
+	font-size: 10pt;
+	border: 0px dashed black;
+	height: 50px;
+	padding: 15px;
+	width: 100%;
+	float: right; 
+}
+
+span.sunsetwingspageimage span.thumbnail,span.sunsetwingspageimage span.fullsize, span.sunsetwingspageimage span.viewsize  {
+	float: right; padding-left: 7px;
+}
+
+
+span.witnessName {
+	text-align: right; font-size: 1.25em; display: block;
+}
+
+
+
+
+
+
+span.signed {
+	display: block; float: left; width: 100%; text-align: left;}
+	span.salute {
+	display: block; float: left; width: 100%; text-align: left;}
+	
+div.poem span.byline {
+	text-align: center; font-size: 1.25em;
+}
+
+/* styling to enable a drop-down menu for selecting from different witnesses within an edition */
+
+
+ul.listWit {
+	margin: 0px; padding: 0px;
+}
+
+ul.listWit span.listWitHead {
+	font-size: 1.25em; border-top: solid 1px #9FA490; border-right: solid 1px #9FA490; border-left: solid 1px #9FA490; padding: 5px 10px 5px 10px; 
+display: block; width: 155px;background: url(../template_images/downarrow.png) center right no-repeat; margin-left: -50px;}
+
+
+
+ul.listWit li div {
+	display: none; border: none;
+}
+
+ul.listWit li:hover div {
+	display: block; position: absolute;background-color: #ffffff; border-left: solid 1px #9FA490; border-right: solid 1px #9FA490;border-bottom: solid 1px #9FA490;border-top: solid 1px #9FA490; margin-left: -50px; width: 500px;
+	z-index: 3;
+}
+
+ul.listWit l:hover div a{
+	border: none;
+}
+
+
+div.haleynote {  float: left;  display: block; margin: 10px 0px 20px 0px; padding: 30px;border: 1px black solid; background-color: white;
+	clear: none; box-shadow: 0px 0px 7px #636453;
+	-webkit-box-shadow: 0px 0px 7px #636453;
+	-moz-box-shadow: 0px 0px 7px #636453; width: 700px;}
+
+span.haleynote span.haleynoteID {
+	color: gray; text-align: left; font-size: .8em; margin-bottom: 15px; display: block;
+}
+
+
+span.haleynote p {width: 500px;
+float: left; text-indent: 2em;}
+
+span.haleynote span.del_subst {
+	text-decoration: line-through;
+}
+
+span.haleynoteimage  { font-size: .8em; margin-top: 0px; float: right;
+	
+}
+
+span.haleynoteimage span.thumbnail {
+	float: right; clear: right; padding: 0px 0 0 7px; margin-left: 0em; margin-top: 0px; 
+}
+
+span.haleynoteimage span.viewsize, span.haleynoteimage span.fullsize {
+	float: right; clear: right; padding: 0px; margin: 0px; line-height: 1.2em;
+}
+
+span.haleynoteimage span.viewsize {
+	margin-top: 5px;
+}
+
+span.fw_header_left {
+	float: left; margin-left: -2em; padding: 0px;
+}
+span.fw_header_right {
+	text-align: right; display: block; padding-bottom: 20px;
+}
+
+
+span.fw_footer_center {
+	display: block; text-align: center; padding-top: 25px;
+}
+
+
+span.fw_pagNum {
+	text-align: right; display: block; padding-bottom: 20px; font-size: 1.25em;
+}
+
+span.fw_pagNum_right {
+	text-align: right; display: block; padding-bottom: 20px; font-size: 1.25px;
+}
+
+span.fw_pagNum_left {
+	text-align: left; display: block; padding-bottom: 20px; font-size: 1.25em; margin-left: 0px; text-indent: 0em;
+}
+
+.swayzedrama .fw_pagNum_left {
+	font-size: 1.1em;
+}
+
+div.p_indent span.fw_pagNum_left {
+	margin-left: -100px;
+}
+
+div.p span.fw_pagNum_left {
+	margin-left: -75px;
+}
+
+div.cranchjournal span.fw_pagNum_left {
+	margin-top: 100px;
+}
+
+div.cranchjournal span.fw_pagNum_right {
+	margin-right: 150px;
+}
+
+span.headnote {
+	border: 1px solid #72c8af; display: block; padding: 15px; font-size: .85em; line-height: 1.25em; background-color: rgba(114,212,170,0.14);
+}
+
+
+div.malcolmxfull span.pagebreak {
+text-align: right; border-top: 1px dashed black; padding-top: 10px; margin-top: 50px;
+}
+
+
+div.malcolmxfull span.pagebreak span.thumbnail, 
+div.malcolmxfull span.pagebreak span.viewsize, 
+div.malcolmxfull span.pagebreak span.fullsize {
+	float: right; padding: 0 0 0 7px; margin-left: 0em; clear: left; text-indent: 0em;
+}
+
+
+
+
+
+span.note_newspaper-authorial_center {
+	text-align: center; display: block; padding-top: 0px;
+}
+
+span.note_newspaper-editorial_center {
+	text-align: center; display: block; padding-top: 0px;
+}
+
+span.note_newspaper-editorial_right {
+	text-align: right; display: block; padding-top: 0px;margin-right: 150px;
+}
+
+div.cwnewspaperpoetry span.note_newspaper-editorial {
+	font-size: 1em; line-height: 1em; 
+margin-left: 20px; display: block; margin-top: 20px;}
+
+div.cwnewspaperpoetry span.note_newspaper-editorial div.p {
+	 margin-left: 20px;
+}
+
+div.cwnewspaperpoetry div.poem span.note_newspaper-editorial div.p {
+	 margin-left: 0px;
+}
+
+div.cwnewspaperpoetry span.note_newspaper-authorial {
+	font-size: 1em; padding: 0px; line-height: 1.25em; text-align: justify; display: block; margin-left: 125px; margin-right: auto; margin-top: 20px;
+}
+
+
+div.cwnewspaperpoetry div.poem span.note_newspaper-authorial {
+	font-size: 1em; padding: 0px; line-height: 1.25em; text-align: justify; display: block; margin-left: auto; margin-right: auto;
+}
+
+
+
+div.cwnewspaperpoetry span.noteRef {
+	display: inline; font-size: 12px; 
+}
+
+div.cwnewspaperpoetry div.notesList span.note_editorial {display: block;
+	
+}
+
+
+
+div.cwnewspaperpoetry span.opener {
+	text-align: left; font-size: 1em;
+}
+
+div.cwnewspaperpoetry span.head_salute {
+	padding-top: 175px; display: block;
+}
+
+div.cwnewspaperpoetry div.poem_section span.opener span.salute{
+	padding-top: 30px;
+}
+
+div.cwnewspaperpoetry span.closer {
+	text-align: right; font-size: 1em;
+}
+
+span.smallcaps {
+	font-variant: small-caps;
+}
+
+div.cwnewspaperpoetry span.poem_line {
+	padding: 0px;
+	margin: 0 0 0 0px; display: block;
+	line-height: 1.25em;
+}
+
+div.cwnewspaperpoetry blockquote span.poem_line {
+	text-indent: 0em; display: inherit;
+}
+
+span.horizontal_bar {
+	width: 50px; display: block; margin-left: auto; margin-right: auto;
+	border-bottom: 2px solid black; margin-bottom: 20px;
+}
+
+div.cranchjournal span.horizontal_bar {
+	margin-bottom: 10px; line-height: 1em;
+}
+
+div.cranchjournal span.long-horizontal_bar {
+	width: 600px; display: block; margin-left: 0; margin-right: 0;
+	border-bottom: 2px solid black; margin-bottom: 20px;
+}
+
+span.issue_thumbs {
+	display: block;
+	padding: 0px;
+	
+}
+
+span.issue_thumbs img {
+	padding: 5px;
+}
+
+span.issue_bibl {
+	padding-left: 10px; font-size: .9em;;
+}
+
+span.complete_issue {
+	background-color: rgba(114,212,170,0.14); width: 435px; margin-left: -50px; border: 1px solid #72c8af; float: left; height: 130px;
+}
+
+span.current_poem {
+	background-color: rgba(134,144,64,0.2); width: 435px; float: right; border: 1px solid #869040; padding: 10px; clear: none; height: 110px; margin-right: -50px;
+}
+
+
+span.cwpoempageimage { display: block;
+	float: right; line-height: 1em; padding: 0px; margin: 0px; vertical-align: top;
+	width: 130px; 
+}
+
+span.cwpoempageimage span.thumbnail {
+	display: block; float: right; padding: 0px; margin: 0px;
+}
+span.cwpoempageimage span {
+	clear: both;
+	display: block;
+}
+
+span.cwpoempageimage span.viewsize {
+	display: block; float: right; padding-right: 0px; clear: right; font-size: .8em; padding: 5px 0 0 0;}
+
+span.cwpoempageimage span.fullsize {
+	display: block; float: right;font-size: .8em;
+}
+
+span.current_poem_bibl {
+	font-size: 1em; display: block;
+width: 300px; float: left;}
+
+
+span.note_editorial div.p {
+	text-indent: 0px; margin-bottom: 15px; display: inline;
+}
+	
+	
+span.cwpoetry_dateline {
+	margin-left: 125px; display: block;}
+
+span.cwpoetry_dateline_center {
+	display: block; text-align: center;}
+
+
+div.cwnewspaperpoetry span.byline {
+	display: block; text-align: center; font-size: 1em;
+}
+
+div.cwnewspaperpoetry div.poem span.byline {
+	display: block; text-align: center; margin-left: auto; margin-right: auto;
+}
+
+div.cwnewspaperpoetry div.poem  {
+	padding-top: 150px; margin: 20px 100px 20px 100px;
+}
+
+div.cwnewspaperpoetry div.poem h1 {
+	font-size: 1.5em; text-align: center; margin: 0px 0px 10px 0px;
+}
+
+div.cwnewspaperpoetry div.poem h2 {
+	font-size: 1em; text-align: center; margin: 10px 0px 0px 0px;
+}
+
+div.cwnewspaperpoetry div.poem_section div.poem {
+	padding-top: 0px;
+}
+
+span.issue_thumbs table {
+	padding: 0px; margin-left: 5px; margin-top: 5px; border-spacing: 0px; border-collapse: collapse;
+}
+
+span.issue_thumbs table tr {
+	padding: 0px; margin: 0px;
+}
+
+span.issue_thumbs table td {
+	padding: 0px; text-align: center; font-size: .85em; margin: 0px;
+}
+span.issue_thumbs table img {
+	padding: 0 3 0 3px;
+}
+
+div.cwnewspaperpoetry div.prose_section {
+	margin-top: 30px;
+}
+
+div.cwnewspaperpoetry span.index_author, div.cwnewspaperpoetry span.choice {
+	border-bottom: dotted 1px black;
+}
+
+div.cwnewspaperpoetry span.choice span.endLineHyphen {
+	
+}
+
+span.poem_line_indent {
+	display: block; text-indent: 1em;
+}
+
+span.poem_line_indented1 {
+	display: block; text-indent: 1em;
+}
+span.poem_line_indented2 {
+	display: block; text-indent: 2em;
+}
+span.poem_line_indented3 {
+	display: block; text-indent: 3em;
+}
+span.poem_line_indented4 {
+	display: block; text-indent: 4em;
+}
+span.poem_line_indented5 {
+	display: block; text-indent: 5em;
+}
+
+span.unclear_high {
+	color: #515151;
+}
+
+span.unclear_medium {
+	color: gray;
+}
+
+span.unclear_low {
+	color: #c1c1c1;
+}
+
+div.cwnewspaperpoetry span.supplied_note {
+	
+}
+
+div.cwnewspaperpoetry span.supplied {
+	color: red;
+}
+
+div.cwnewspaperpoetry div.poem_section div.p, div.cwnewspaperpoetry div.poem_section span.closer, div.cwnewspaperpoetry div.poem_section span.opener {
+	margin: 20px 150px 20px 125px; 
+
+}
+
+
+div.cwnewspaperpoetry div.poem_section span.closer {
+	margin-right: 250px; padding-bottom: 30px;
+}
+
+div.cwnewspaperpoetry span.body_head {
+	display: block; padding-top: 175px; padding-bottom: 0px;
+}
+
+div.cwnewspaperpoetry span.note_editorial div.blank_line {
+	line-height: .75em;
+}
+
+div.cwnewspaperpoetry span.epigraph_center {
+	text-align: center; display: block;
+}
+
+div.cwnewspaperpoetry span.asterisks {
+	display: block; margin-left: 50px; margin-top: 20px;}
+	
+div.cwnewspaperpoetry span.fig_caption {
+	width: 600px;
+}
+	
+div.cwnewspaperpoetry span.fig_caption p {
+	font-size: .8em; line-height: 1.5em; text-indent: 0em; /*margin-left: 25px; margin-right: 25px ;*/
+}
+
+div.cwnewspaperpoetry span.fig_caption h3 {
+	margin-bottom: 0em; padding: 0em; display: block; text-indent: 0px;
+}
+
+span.abbr {
+	line-height: 1em;
+}
+
+div.cwnewspaperpoetry div.prose_section span.figure img {
+	border-color: #000;
+	border-width: 1px; padding: 0px; margin-top: 25px; margin-bottom: 10px; box-shadow: 0px 0px 10px #636453;
+	-webkit-box-shadow: 0px 0px 10px #636453;
+	-moz-box-shadow: 0px 0px 10px #636453;
+}
+
+div.essay span.figure img, div.essay span.enlargeOnClick img {
+	border-color: #000;
+	border-width: 1px; padding: 0px; margin-top: 25px; margin-bottom: 10px; box-shadow: 0px 0px 10px #636453;
+	-webkit-box-shadow: 0px 0px 10px #636453;
+	-moz-box-shadow: 0px 0px 10px #636453;
+}
+
+div.cwnewspaperpoetry div.prose_section div.prose_section h2 {
+	font-size: 1.3em; margin-top: -20px; font-weight: bold; }
+	
+	
+div.cwnewspaperpoetry span.note_newspaper-editorial_end {
+	margin-left: 100px; display: block;}
+
+div.essay span.enlargeOnClick span.persign img { height: 15px; box-shadow: 0px 0px 0px #636453;
+	-webkit-box-shadow: 0px 0px 0px #636453;
+	-moz-box-shadow: 0px 0px 0px #636453; border: 0px; margin: 0px; padding: 0px;
+}
+
+
+span.current_issue {
+	background-color: #efefef; display: block; padding: 25px; margin-bottom: 20px; border: 0px black solid; margin-top: 15px;
+}
+
+span.issue {
+	display: block; padding: 15px;
+}
+
+.editors_craft {
+	border: 0px dashed black; display: block; padding: 0px;background-color: #f6f6f6; margin-top: 20px; padding-top: ;
+}
+
+.editors_craft .biblItem {
+	padding-left: 10px;  margin-top: -10px; padding-top: 0px; border-bottom: 2px solid #869040; padding-bottom: 10px; 
+}
+
+.editors_craft .series_title {
+	font-size: 1.25em;  display: block; padding: 5px; border-top: 2px solid #869040; font-variant: small-caps; padding-top: 10px;}
+
+span.fig_floatingText_div {
+	width: 500px; display: block; margin-left: 50px;
+}
+
+span.fig_floatingText_div h3 {
+	margin-bottom: 0px; padding-bottom: 0px;
+}
+
+span.fig_floatingText_div p {
+	text-indent: 0px; margin-bottom: 25px;
+}
+
+div.cranchjournal div.p {
+	font-size: 1.4em; margin-left: 100px; text-indent: 0px;
+}
+
+div.cranchjournal div.p_indent {
+	font-size: 1.4em; margin-left: 100px; text-indent: 30px; 
+}
+
+div.cranchjournal div.appendix div.p {
+	font-size: 1em; text-indent: 20px; margin-left: 0px;
+}
+
+div.cranchjournal span.note_authorialbottom {
+	margin-left: 400px;
+}
+
+div.cranchjournal span.gap
+{
+	text-align: center; display: block; font-size: 1.5em; margin-top: 10px;
+
+}
+
+div.cranchjournal .appEntry {
+	border: dashed black 1px;
+	overflow: auto;
+	display:block;
+	/*width: 200px;*/
+	z-index:3;
+	position: absolute;
+	background: #fff;
+	width: 500px; text-indent: 0em;
+	
+}
+
+div.cranchjournal div.poem {
+	margin-left: 20px; font-size: 1em;
+}
+
+div.introcranchjournal div.poem {
+	margin-left: 100px; margin-right: 100px;
+}
+
+div.introcranchjournal div.poem span.poem_line {
+	font-size: .8em;
+}
+
+div.introcranchjournal div.poem span.poem_line_left_2em {
+	font-size: .8em; text-indent: -2em;
+}
+
+div.cranchjournal span.poem_line_center {
+	margin-left: 100px;
+}
+
+
+
+div.introcranchjournal blockquote div.p {
+	text-indent: 20px;
+}
+
+
+
+div.introcranchjournal span.asterisks {
+	display: block; text-align: center; margin-top: 20px;}
+	
+span.metamark_top {
+	text-align: center; display: block; font-size: 1.25em; color: gray;
+}
+
+
+/*span.complete_issue {
+	background-color: rgba(114,212,170,0.14); width: 435px; margin-left: -50px; border: 1px solid #72c8af; float: left; height: 130px;
+}
+
+span.current_poem {
+	background-color: rgba(134,144,64,0.2); width: 435px; float: right; border: 1px solid #869040; padding: 10px; clear: none; height: 110px; margin-right: -50px;
+}*/
+
+
+span.markonthewall_witnessName, .lowelledition_witnessName {
+	/*background-color: rgba(114,212,170,0.14);*/ width: 650px;  border: 0px solid #72c8af; float: right; height: 75px; padding: 10px; font-size: .9em; margin-bottom: 5px; text-align: right; margin-right: -47px; margin-top: -65px;
+}
+
+span.markonthewall_witness_thumbs, .lowelledition_witness_thumbs {
+	background-color: rgba(134,144,64,0.2); width: 875px; float: left; border: 0px solid #869040; padding: 0 10px 10px 10px; clear: none; height: 80px; margin-left: -50px;}
+
+span.markonthewall_witness_thumbs h4, .lowelledition_witness_thumbs h4
+{
+	text-align: left; font-size: .9em; margin: 0px; padding: 0px;
+	font-weight: bold;font-family: Cambria, Georgia, Times, “Times New Roman”, serif, 'CODE2000';
+}
+span.markonthewall_witness_thumbs img, .lowelledition_witness_thumbs img {
+margin-right: 4px; border: 1px solid red;	float: left;}
+
+div.markonthewall {
+	margin-top: 150px;
+}
+
+div.markonthewall div.appRdg, .lowelledition div.appRdg {
+	padding: 0px;
+}
+
+div.markonthewall div.appEntry, .lowelledition div.appEntry {
+	padding: 0px; border: 1px solid black;
+}
+
+div.markonthewall div.appRdg span.witRdg, .lowelledition div.appRdg span.witRdg {
+	font-size: 1.25em; background-color: rgba(134,144,64,0.2);display: block; padding: 25px; text-indent: 0em;
+}
+
+div.markonthewall div.appRdg span.witRdgodd, .lowelledition div.appRdg span.witRdgodd {
+	font-size: 1.25em; /*background-color: rgba(114,212,170,0.14);*/display: block;padding: 25px; text-indent: 0em;
+}
+
+div.markonthewall div.appRdg span.witness, .lowelledition div.appRdg span.witness {
+	margin-left: 0px; line-height: 1.5em; font-size: .7em; padding-left: 10px; text-indent: 0em;
+}
+
+div.markonthewall span.emptyVariant, .lowelledition span.emptyVariant {
+	color: gray;
+	font-style: italic;
+}
+
+div.markonthewall span.VariantSymbolExplanation, {
+	color: gray;
+	font-style: italic; margin-left: -50px; display: block; 
+}
+
+.lowelledition span.VariantSymbolExplanation {
+	color: gray;
+	font-style: italic; margin-left: -50px; display: block;
+}
+
+/*.lowelledition span.VariantSymbolExplanation:after {
+	content: '\00a0\00a0\00a\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0'; 
+}*/
+
+.lowelledition .variantKey {
+	margin-top: 20px;
+}
+
+.lowelledition .note_authorial_wit-book {
+	display: block; padding: 20px; border: 1px dashed black; font-size: .85em;
+}
+
+.lowelledition .note_authorial_wit-Courier {
+	display: block; padding: 20px; border: 0px dashed black; font-size: .85em;
+}
+
+.lowelledition .note_authorial_wit-Littells:before, .lowelledition .note_authorial_wit-NASS:before, .lowelledition .note_authorial_wit-Liberator:before, .lowelledition .note_authorial_wit-Texas:before, .lowelledition .note_authorial_wit-NHSent:before, .lowelledition .note_authorial_wit-Sunbury:before {
+	content:"\a\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    white-space: pre; }
+    
+    .lowelledition .note_authorial_wit-Littells, .lowelledition .note_authorial_wit-NASS, .lowelledition .note_authorial_wit-Liberator, .lowelledition .note_authorial_wit-Texas, .lowelledition .note_authorial_wit-NHSent, .lowelledition .note_authorial_wit-Sunbury {
+	font-size: .85em;
+}
+
+.lowelledition .substantive_with_annotation {
+	/*background-color: rgba(209,41,27,0.05);*/ border: 1.5px solid #d12a1b; padding: 20px 20px 45px 20px; margin: 0px -20px -35px -20px;
+}
+
+.lowelledition .substantive_with_annotationLink {
+	display: block; text-align: right; background-color: rgba(209,41,27,0.05);padding: 5px; margin-left: -20px; margin-right: -20px;
+}
+
+/*.lowelledition .tooltip:hover {
+	display: inline;
+}
+
+.lowelledition .tooltip  {
+	z-index: 10;
+	display: none;
+	padding: 14px 20px;
+	margin-top: -30px;
+	margin-left: 28px;
+	width: 240px;
+	line-height: 16px;
+}*/
+
+div.markonthewall div.appRdg span.p_beginning {
+	display: block; text-indent: 2em;
+}
+
+div.markonthewall span.annotatedNote span.p_beginning {
+	display: inline; 
+}
+
+div.markonthewall span.annotatedNote span.p_beginning:before {
+	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+}
+
+div.markonthewall span.annotatedNote span.p_end:after {
+    content:"\a";
+    white-space: pre;
+}
+
+div.intromarkonthewall span.byline {
+	font-size: 1.3em;
+}
+
+span.double-underline {
+	border-bottom-style: double;
+}
+
+div.youngidea span.author {
+	margin-left: 700px;
+}
+
+div.avisos_spanish {
+	margin-left: 100px; font-size: 1em;
+}
+
+div.avisos_spanish_modernized {
+	margin-left: 0px; font-size: 1em;
+}
+
+div.modernizedKey {
+	font-size: .85em; display: block; padding: 5px;
+margin-bottom: 10px; margin-top: 15px; margin-left: -5px; margin-right: 10px;border: 2px solid #dc3522; width: 120px; text-align: center; box-shadow: 0px 0px 0px #636453;
+	-webkit-box-shadow: 0px 0px 0px #636453;
+	-moz-box-shadow: 0px 0px 0px #636453;
+	border: solid 1px #9FA490; position: fixed; background-color: white; display: none;
+}
+
+div.modernizedKey span.text {
+	display: block; font-size: 1.5em; margin-bottom: 0px;
+}
+
+div.modernizedKey ul.keyList {
+	width: 120px;}
+	
+div.modernizedKey ul.keyList li {
+	background: none; text-align: left; font-size: 1em; float: none; display: block; line-height: 1.2em;
+}
+
+div.avisos span.pagebreak {
+	height: 0px; display: inline; padding: 0px;
+}
+
+div.avisos span.pagebreak a {
+	float: right; clear: right; margin-top: -0px; line-height: 1.5em;
+}
+
+div.avisos span.pagebreak span.thumbnail {
+	float: right; padding-left: 10px; text-indent: 0px; clear: both;
+}
+
+
+
+div.avisos div.p {
+	font-size: 1.2em; text-indent: 50px; margin-left: 40px; }
+
+div.avisos div.avisos_spanish_modernized {
+	margin-left: 75px;
+}
+
+div.avisos div.avisos_english {
+	margin-left: 75px;
+}
+
+div.avisos div.appEntry span.noteRef {
+	display: none;
+}
+
+div.avisos div.appEntry span.pagebreak{
+	display: none;
+}
+
+div.avisos div.appEntry br{
+	display: none;
+}
+
+div.avisos div.appEntry {
+	padding: 30px; 
+}
+
+div.avisos_spanish span.pageid {
+	text-align: center; display: block; font-size: 1.3em; color: gray;
+}
+
+
+div.avisos span.symbolExplanation {
+	color: gray;
+	font-style: italic; margin-left: -50px; display: block; margin-bottom: 20px; text-align: center;
+}
+
+div.edition div.avisos h2 {
+	font-size: 1.75em;line-height: 1.2em; margin-top: 20px;
+}
+
+div.avisos a.OrigSpanishPara {
+	color: #007a32;
+}
+
+div.avisos a.OrigSpanishPara:hover {
+	text-decoration: underline;
+}
+
+div.avisos a.ModSpanishPara {
+	color: #869040;
+}
+div.avisos a.EnglishPara {
+	color:  #dc3522;
+}
+
+div.avisos a.ModSpanishPara:hover {
+	text-decoration: underline;
+}
+div.avisos a.EnglishPara:hover {
+	text-decoration: underline;
+}
+
+div.avisos div.paragraphNav { float:left;
+	margin-left: -125px; 
+	border-style: solid;
+	border-width: 1px; padding: .2em;
+	display: inline;background-color: rgba(114,212,170,0.14);  border: 1px solid #72c8af; font-variant: small-caps;}
+
+div.avisos div.paragraphNav a {
+	display: inline; padding-left: 5px; }
+
+div.avisos span.paragraphNumber {
+	display: none;
+}
+
+div.avisos span.add_marginLeft {
+	font-size: .6em; float: left; clear: both; line-height: 1.5em;border: 0px dotted #000; padding: 5px; margin-right: 0px; margin-left: -200px;  text-indent: 0px;z-index: 1;
+	position: relative; background-color: white;}
+
+div.avisos_spanish_modernized span.add_marginLeft {
+	font-size: 1em; float: none; display: inline; background-color: lightgrey;margin-left: 0px;
+}
+
+div.avisos span.add_marginRight {
+	font-size: .6em; float: right; clear: both; line-height: 1.5em;border: 0px dotted #000; padding: 5px; margin-right: 0px; margin-left: -190px; width: 60px; text-indent: 0px;}
+	
+div.avisos_spanish_modernized span.add_marginRight {
+	font-size: 1em; float: none; display: inline; background-color: lightgrey;margin-left: 0px;
+}
+
+span.avisos_supplied {
+	color: red;
+}
+
+div.avisos_english span.avisos_supplied {
+	color: #1896fb;}
+	
+.lowelledition .poem_line {
+	text-indent: 0em; font-size: .85em; line-height: 1.25em;
+}
+
+.witnessResults {
+	display: block; 
+}
+
+/* styles for Pierazzo's "Lo Stufaiuolo" */
+
+
+.stufaiuolo .notes {
+	padding: 15px 10px 0 0;
+	font-size: 70%;
+	line-height: 1em;
+	margin: 15px 0 0 15px;
+}
+
+.stufaiuolo .confronta {
+	color: #FF0000;
+	font-style: italic;
+	text-align: center;
+}
+
+.stufaiuolo h2.main2 {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	margin: 0 0 0 0;
+}
+
+.stufaiuolo .lista {
+	width: 330px; margin-left: auto; margin-right: auto; padding-top: 25px; padding-bottom: 25px;
+	/*overflow: scroll;
+	height: 450px;*/
+}
+
+.stufaiuolo ul#toc li{
+	line-height: 1em;
+}
+
+.stufaiuolo .norm_total {
+	display: block; margin: 50px 0px 20px 0px; font-size: 1.25em;background-color: rgba(114,212,170,0.14);  border: 1px solid #72c8af; padding: 10px;
+}
+
+.stufaiuolo span.SICB {
+	letter-spacing: +3pt;
+	font-size: 90%
+}
+
+.stufaiuolo .xref {
+	text-decoration: none;
+	font-size: 90%;
+	color: #C63904;
+	background-color: #000000;
+}
+
+.stufaiuolo .ref {
+	text-decoration: none;
+	font-size: 90%;
+	color: #C63904;
+}
+
+.stufaiuolo .notelink {
+	text-decoration: none;
+	font-size: 90%;
+	color: #C63904;
+}
+
+.stufaiuolo .navlink {
+	text-decoration: none;
+	font-size: 90%;
+	color: #C63904;
+}
+
+.stufaiuolo .xptr {
+	text-decoration: none;
+	font-size: 90%;
+	color: #C63904;
+}
+
+.stufaiuolo .li {
+	text-decoration: none;
+	font-size: 90%;
+	color: #C63904;
+}
+
+.stufaiuolo .small {
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	color: #9F9F9F
+}
+
+/*.stufaiuolo a {
+	text-decoration: none;
+	font-size: 90%;
+	color: #C63904
+}*/
+
+.stufaiuolo .label {
+	background-color: #AAAAAA;
+	color: black;
+}
+
+.stufaiuolo tr.label td {
+	background-color: #AAAAAA;
+	color: black;
+}
+
+.stufaiuolo td {
+	font-size: 10pt;
+}
+
+.stufaiuolo h2 {
+	line-height: 160%;
+}
+
+.stufaiuolo .maintitle {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px
+}
+
+.stufaiuolo h4 {
+	padding-left: 10px;
+}
+
+.stufaiuolo .batt {
+	padding-left: 10px;
+	padding-bottom: 0;
+	padding-top: 0px;
+	margin: 0 auto;
+	display: block;
+}
+
+.stufaiuolo .sp {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.stufaiuolo .speaker {
+	padding: 0 0 0 0;
+}
+
+.stufaiuolo a.frametoc {
+	font-size: 13pt;
+	color: black;
+	padding-bottom: 0;
+	padding-top: 0;
+	display: block;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+.stufaiuolo a.frametoc:visited {
+	color: black;
+}
+
+.stufaiuolo a.frametoc:hover {
+	color: brown;
+}
+
+.stufaiuolo a.frametoc:focus {
+	color: brown;
+}
+
+.stufaiuolo .occo {
+	border-bottom: solid 1px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.stufaiuolo .tipo {
+	width: 250px;
+	float: left;
+}
+
+.stufaiuolo .occo:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.stufaiuolo .occo {
+	display: inline-block;
+}
+
+ /* Hides from IE-mac \*/
+
+* html .occo {
+	height: 1%;
+}
+
+.stufaiuolo .occo {
+	display: block;
+}
+
+ /* End hide from IE-mac */
+.stufaiuolo .tipo2 {
+	width: 220px;
+	float: left;
+}
+
+.stufaiuolo .num {
+	float: right;
+	display: block;
+}
+
+.stufaiuolo p span.occo {
+	border-bottom: solid 1px;
+	margin: 0 0 0 30px;
+
+}
+
+.stufaiuolo .frametoc2 {
+	line-height: 1.4em;
+	font-size: 10pt;
+	color: brown;
+	display: block;
+	padding-left: 30px;
+	padding-bottom: 2px;
+}
+
+.stufaiuolo .dida {
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+
+.stufaiuolo ol li {
+	padding-left: 0.5cm
+}
+
+.stufaiuolo a.tooltip, .lowelledition a.tooltip {
+	outline: none;
+}
+
+.stufaiuolo a.tooltip:hover, .lowelledition a.tooltip:hover {
+	text-decoration: none;
+}
+
+.stufaiuolo a.tooltip span, .lowelledition a.tooltip span {
+	z-index: 10;
+	display: none;
+	padding: 14px 20px;
+	margin-top: -30px;
+	margin-left: 28px;
+	width: 240px;
+	line-height: 16px; text-indent: 0em;box-shadow: 0px 0px 1px #636453;
+	-webkit-box-shadow: 0px 0px 1px #636453;
+	-moz-box-shadow: 0px 0px 1px #636453;
+	border: solid 1px #9FA490;
+}
+
+.stufaiuolo a.tooltip a, .lowelledition a.tooltip a {
+	display: none;
+}
+
+.stufaiuolo a.tooltip:hover span, .lowelledition a.tooltip:hover span {
+	display: inline;
+	position: absolute;
+	color: #111;
+	border: 1px solid #dc3522;
+	background: #ffffff; text-indent: 0em;
+}
+
+.lowelledition a.tooltip {
+	font-size: .8em;
+}
+.stufaiuolo .callout {
+	z-index: 20;
+	position: absolute;
+	top: 30px;
+	border: 0;
+	left: -12px;
+}
+
+div.stufaiuolo span.pagebreak {
+text-align: right; border-top: 1px dashed black; height: 150px;padding-top: 10px; margin-bottom: -100px;  display: run-in;
+	float: right; margin-top: 75px;
+}
+
+
+div.stufaiuolo span.pagebreak span.thumbnail {
+	float: right; padding: 0 0 0 7px; 
+}
+
+.stufaiuolo h3 {
+	display: inline-block; font-size: 1.25em;
+}
+
+.stufaiuolo .speaker {
+	text-align: left; float: left;
+}
+
+.stufaiuolo .sp_p {
+	margin-left: 120px;
+}
+
+.stuf_diplomatic .p {
+	text-indent: 0em;
+}
+
+.stufaiuolo .opener {
+	font-size: 1em; padding-bottom: 20px;
+}
+
+.stufaiuolo .closer {
+	font-size: 1em; padding-top: 20px;
+}
+
+.stufaiuolo .stage {
+	display: block;
+}
+
+.stufaiuolo .dedication {
+	text-align: justify; margin-left: auto; margin-right: auto; display: block; text-indent: 3em;
+}
+
+
+
+.stufaiuolo .back_to_ms { display: block; text-align: right; height: 100px; margin-right: -50px; width: 250px; margin-left: 590px; padding-top: 10px; 
+	background: url(../template_images/sep.png) center left no-repeat;	
+}
+
+/*.stufaiuolo .back_to_ms a {
+	font-size: 1em; padding: 10px; 
+  clear: none; height: 40px;
+}*/
+
+
+
+
+.stufaiuolo .appEntry {
+	padding: 50px; border: 2px solid; box-shadow: 0px 0px 25px #636453;
+	-webkit-box-shadow: 0px 0px 25px #636453;
+	-moz-box-shadow: 0px 0px 25px #636453;
+}
+
+
+.hejinian pre code {
+	background-color: #eaeaea; display: block; padding: 15px; margin-bottom: 10px; margin-top: 25px; border-radius: 6px; border: 1px dashed black;
+}
+
+.hejinian div.section {
+	margin-top: 50px;
+}
+
+.hejinian div.poem {
+	font-size: 1em;
+}
+
+.swayzedrama span.pagebreak, .youngidea span.pagebreak {
+text-align: left; border-top: 1px dashed black; height: 200px;padding-top: 10px; margin-bottom: -100px;  display: run-in;
+	float: right; margin-top: 75px;
+}
+
+/*.swayzedrama span.pagebreak {
+	height: 0px; display: inline; padding: 0px;
+}*/
+
+.swayzedrama span.pagebreak a, .youngidea span.pagebreak a {
+	float: right; clear: right; margin-top: -0px; line-height: 1.5em;
+}
+
+.swayzedrama  span.pagebreak span.thumbnail, .youngidea span.pagebreak span.thumbnail {
+	float: right; padding-left: 10px; text-indent: 0px; clear: both; margin-right: -7px;
+}
+
+.swayzedrama .stage {
+	display: block; text-indent: 3em;margin: 20px 0px 20px 0px; 
+}
+
+.swayzedrama .stage_setting, .swayzedrama .stage_delivery {
+	display: inline;
+}
+
+.swayzedrama .speaker {
+	display: inline;
+}
+
+.swayzedrama .sp {
+	display: block; margin: 20px 0px 20px 0px; text-indent: 3em;
+}
+
+.swayzedrama .sp div.sp_p {
+	display: inline; 
+}
+
+.swayzedrama .scene_head {
+	text-indent: 3em; display: inline-block;
+}
+
+.swayzedrama .lem_1858 {
+	/*background-color: rgba(114,212,170,0.14);*/ border: 1.5px dashed #72c8af; padding: 20px; margin: 0px -20px -35px -20px;
+}
+
+/*.swayzedrama .lem_1858:hover {
+	box-shadow: 0px 0px 5px #636453;
+	-webkit-box-shadow: 0px 0px 5px #636453;
+	-moz-box-shadow: 0px 0px 5px #636453;
+	border: solid 1px #9FA490;
+}*/
+
+.swayzedrama .fw_pagNum_right {margin-right: 15px; font-size: 1.1em; 	
+}
+
+.swayzedrama .appEntry {box-shadow: 0px 0px 25px #636453;
+	-webkit-box-shadow: 0px 0px 25px #636453;
+	-moz-box-shadow: 0px 0px 25px #636453;
+	border: solid 2px #cc0000; width: 750px; padding: 25px; 
+}
+
+.swayzedrama .align_right {
+	text-align: right; display: block;margin-right: 15px;
+}
+
+.swayzedrama .underline_center {
+ display: block; text-align: center;
+	text-decoration: underline;
+}
+
+span.del_underline.strikethrough {
+	text-decoration: line-through underline;}
+
+
+
+.swayzedrama .rdgNote h2 {
+	text-align: left; text-indent: 0em; font-weight: bold;
+}
+
+.swayzedrama .appEntry .annotation  {
+	padding: 30px; font-size: .8em;
+}
+
+.swayzedrama .appEntry .annotation h2 {
+	text-align: left; text-indent: 0em; font-weight: bold;
+}
+
+.swayzedrama .ColmanLink {
+	text-align: right; display: block; margin-right: -20px; background-color: rgba(114,212,170,0.14); padding: 5px; margin-left: -20px;
+}
+
+.introswayzedrama li {
+	text-indent: 0em;
+}
+
+.youngidea .article_bibl {
+	display: block; text-align: center; margin-right: auto; margin-left: auto; font-size: 1.25em;
+}
+
+
+.youngidea .authority_bibl {
+	display: block; font-weight: bold; font-size: .85em;
+}
+
+/*HWH*/
+/*.notesList {
+    font-size: 75%;
+    }*/
+
+.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+div.edition div.youngidea table
+{
+	border: 0px; width: 75%; margin-left: auto; margin-right: auto;
+}
+
+div.edition div.youngidea table tbody tr td {
+	border: 0px gray solid;
+	padding: 5px;
+	text-align: left; 
+}
+
+.youngidea tr.cells_3 td {
+	width: 33%;
+}
+
+div.youngidea h2 {
+	display: block; text-align: center; margin-right: 0px; margin-bottom: 0px; font-size: 1.5em;
+}
+
+.youngidea .personNote, .youngidea .appEntry {
+	text-indent: 0em;
+}
+
+/*.youngidea tr.cells_5 td {
+	width: 20%;
+}*/
+
+
+
+
+
+

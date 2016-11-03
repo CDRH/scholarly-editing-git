@@ -1,0 +1,626 @@
+@font-face{
+    font-family: 'goudytwentyregular';
+    src: url('../fonts/goudytwenty/goudytwenty-webfont.woff2') format('woff2'), 
+url('../fonts/goudytwenty/goudytwenty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* - - - - to categorize - - - - */ 
+
+/*p::first-letter {
+	font-size: 3em;
+	float: left;
+	display: inline-block;
+	line-height: .85em;
+	margin-right: .1em;
+}
+
+p::first-line {
+	font-size: 1.2em;
+}*/
+
+.tei_body p {
+    text-indent:2em;
+}
+
+.tei_front {
+    margin-bottom:1em;
+}
+
+.popover {
+    text-indent:0;
+}
+
+.popover .popover-title {
+    display:none;
+}
+
+.popover {
+    width:800px;
+}
+
+/* - - - - - - - - - */
+
+html,
+body{
+    background-color: rgba(228, 220, 192, 1);
+    font-family: 'EB Garamond';
+}
+
+
+.page_info{
+    background-color: rgba(142, 139, 127, .1);
+    padding: 15px;
+    margin: 0 -15px;
+    border: 6px double rgba(102, 101, 94, .3);
+    border-right: none;
+    border-left: none;
+    text-align: center;
+}
+
+#content{
+
+    margin-top: 20px;
+    background-color: #ffffff;
+    /*box-shadow: 0px 0px 20px #636453;
+	-webkit-box-shadow: 0px 0px 20px #636453;
+	-moz-box-shadow: 0px 0px 20px #636453;*/
+    border: solid 4px #9FA490;
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+/* Scholarly Editing Logo */
+
+h1.site_title a:hover{
+    text-decoration: none;
+}
+
+h1.site_title{
+    font-family: 'goudytwentyregular', serif;
+    font-variant: small-caps;
+    font-size: 3.4em;
+    margin-left: 2em;
+    margin-top: -.3em;
+    display: inline-block;
+    width: auto;
+    color: rgba(0, 0, 0, .8);
+    /*	background-color: rgba(255, 0, 0, .4); /*rose*!/*/
+}
+
+h1.site_title .word_scholarly{
+    display: block;
+    color: rgba(0, 0, 0, .8);
+}
+
+h1.site_title .word_scholarly .cap{
+    margin-left: -.44em;
+    display: block;
+    margin-top: 0;
+    margin-bottom: -.96em;
+}
+
+h1.site_title .word_editing{
+    margin-top: -1.6em;
+    margin-left: .1em;
+    display: block;
+    /*	background-color: rgba(2, 0, 255, .1);*/
+}
+
+h1.site_title .word_editing{
+    margin-top: -1.6em;
+    margin-left: .1em;
+    display: block;
+    color: rgba(0, 0, 0, .8);
+    /*	background-color: rgba(2, 0, 255, .1);*/
+}
+
+h1.site_title .word_editing .cap{
+    font-size: 2.6em;
+    /*background-color: rgba(2, 0, 255, .3);*/
+}
+
+h1.site_title .word_dit{
+    margin-top: -2em;
+    margin-left: 1.05em;
+    font-size: 1.5em;
+    display: block;
+    /*background-color: rgba(255, 255, 255, .3);*/
+}
+
+h1.site_title .word_edit{
+    display: block;
+    color: rgba(220, 54, 34, 1);
+}
+
+h1.site_title .word_dit:after{
+    content: "-";
+    font-size: .6em;
+}
+
+h1.site_title .word_ing{
+    font-size: 1.7em;
+    margin-left: .91em;
+    margin-top: -.45em;
+    display: block;
+}
+
+.cap{
+    font-size: 4em;
+    display: inline-block;
+}
+
+/* /site_title */
+
+/* centered_pills */
+
+.centered-pills{
+    text-align: center;
+}
+.centered-pills ul.nav-pills{
+    display: inline-block;
+}
+.centered-pills li{
+    display: inline;
+}
+.centered-pills a{
+    float: left;
+}
+
+
+
+
+
+div.footer{
+    width: 800px;
+    height: 120px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+div.footer span.adelogo{
+    float: right;
+    vertical-align: bottom;
+}
+
+div.footer span.creativecommons{
+    float: left;
+    font-size: .75em;
+    vertical-align: bottom;
+    padding-top: 60px;
+}
+
+div.footer span.cdrh{
+    float: left;
+    font-size: .75em;
+    vertical-align: bottom;
+    padding-top: 1px;
+    display: block;
+}
+
+div.footer span.issn{
+    float: left;
+    clear: none;
+    font-size: .75em;
+    vertical-align: bottom;
+    padding-top: 1px;
+    padding-left: 5px;
+    display: block;
+}
+
+div.p{
+}
+
+
+blockquote{
+    margin-left: 4em;
+    margin-right: 4em;
+    line-height: 1.75em;
+    text-indent: 0px;
+}
+
+blockquote.epigraph{
+    font-size: .8em;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+blockquote p{
+    text-indent: 0px;
+}
+
+blockquote div.p{
+    text-indent: 0px;
+}
+
+
+span.pagebreak a{
+    float: right;
+    clear: right;
+    margin-top: -0px;
+    line-height: 1.5em;
+}
+
+span.pagebreak span.thumbnail{
+    float: right;
+    padding-left: 10px;
+    text-indent: 0px;
+    clear: both;
+    margin-right: -7px;
+}
+
+
+
+/* TEI Specific Rules */
+
+/* - - - -      Uncategorized  - - - - */
+
+ol.bulleted,
+ul.bulleted{
+    margin: 0 3em;
+    list-style-type: disc;
+    text-indent: 0px;
+}
+
+ol.starred{
+    margin: 0 3em;
+    list-style-type: circle;
+    list-style-image: url(../template_images/sep.png);
+}
+
+ul.recenteditions,
+ul.workscited{
+    list-style-type: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+ul.recenteditions li{
+    margin-bottom: 20px;
+}
+
+ul.recenteditions li p{
+    text-indent: 0px;
+}
+
+
+span.list-label{
+    font-weight: bold;
+
+}
+
+span.witness{
+    color: #d12a1b;
+    font-size: 10px;
+    display: block;
+    margin-left: 50px;
+}
+
+span.insertionMark{
+    vertical-align: -15px;
+    line-height: 0em;
+}
+
+span.add_supralinear{
+    vertical-align: super;
+}
+
+span.add_above{
+    vertical-align: super;
+}
+
+
+span.del_wipe{
+    text-decoration: line-through;
+    color: #c4c4c4;
+}
+
+span.add_over{
+    font-weight: bold;
+}
+
+span.del_overstrike{
+    text-decoration: line-through;
+}
+
+span.del_strikethrough{
+    text-decoration: line-through;
+}
+
+span.del_multistroke{
+    text-decoration: line-through;
+    background-color: #878787;
+}
+
+
+span.del_overwrite{
+    color: #c4c4c4;
+}
+
+span.epigraph_bibl{
+    font-size: .8em;
+    text-align: right;
+    float: right;
+    padding-right: 160px;
+}
+
+div.signature{
+    display: block;
+    text-align: right;
+
+}
+
+div.signature span.name{
+    display: block;
+}
+
+div.signature span.affiliation{
+    display: block;
+}
+
+
+a.gloss{
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    border-bottom: 3px double;
+    border-color: #ffe032;
+    display: inline;
+}
+
+span.decoratedinitial{
+    font-size: 2em;
+    color: #142b55;
+    border-style: double;
+    border-color: #c45034;
+    font-weight: bold;
+    display: inline;
+}
+
+span.highlightingstroke{
+    background: #c45034;
+}
+
+span.superscript{
+    vertical-align: 5px;
+}
+
+span.italicsuperscript{
+    vertical-align: 10px;
+    font-style: italic;
+}
+
+span.boldsuperscript{
+    vertical-align: 10px;
+    font-weight: bold;
+}
+
+span.boldbackgroundred{
+    background: #c45034;
+}
+
+span.red{
+    color: #c45034;
+}
+
+p img.inline{
+    text-indent: 0px;
+    margin: 20px 0px 20px -125px;
+    border: solid 1px black;
+}
+
+/* - - - -      ABBREVIATION       - - - - */
+
+span.abbr{
+    text-decoration: none;
+    border-bottom: #666666;
+    border-width: 0px 0px 0px 0px;
+    border-style: none none dotted none;
+}
+
+/* - - - -      ADD       - - - - */
+
+/* - - - -      BOLD       - - - - */    /* See "Strong" below */
+
+/* - - - -      BYLINE       - - - - */
+
+/* - - - -      DATES       - - - - */
+
+/* - - - -      DAMAGE       - - - - */
+
+/* - - - -      DELETE       - - - - */
+
+/* - - - -      DIV1 and DIV2       - - - - */
+
+/* - - - -      Figure       - - - - */
+
+span.figure_left img{
+    display: block;
+    margin: auto;
+    border: none;
+    float: left;
+    padding: 10px;
+}
+
+span.figure_right img{
+    display: block;
+    margin: auto;
+    border: none;
+    float: right;
+    padding: 10px;
+}
+
+span.figure_center img{
+    display: block;
+    margin: auto;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    border: none;
+}
+
+
+div.essay span.figure img{
+    border: 0px black solid;
+}
+
+span.addrLine{
+    display: block;
+    margin-left: 30px;
+    line-height: 1.25em;
+}
+
+span.address{
+    margin-top: 15px;
+    display: block;
+}
+
+/* - - - -      Form Work (FW)       - - - - */
+
+span.fw_divider{
+    display: block;
+    text-align: center;
+}
+
+span.pagebreak span.thumbnail{
+    float: left;
+    padding: 0 7px 0 0;
+}
+
+span.fw_sig{
+    font-size: 1em;
+}
+
+/* - - - -      FRONTMATTER       - - - - */
+
+/* - - - -      GAP       - - - - */
+
+/* - - - -      HEADS       - - - - */
+
+/* - - - -      HI       - - - - */
+
+/* - - - -      HIDE       - - - - */
+
+/* - - - -      HORIZONTAL RULE (MILESTONE)       - - - - */
+
+/* - - - -      ITALICS       - - - - */
+
+/* - - - -      LINE BREAKS       - - - - */
+
+/* - - - -      LINE GROUP AND LINE       - - - - */
+
+div.poem{
+    margin: 20px 150px 20px 150px;
+    font-size: 1.2em;
+}
+
+span.poem_line{
+    padding: 0px;
+    margin: 0;
+    display: block;
+    line-height: 1.25em;
+}
+
+
+span.poem_line_italic{
+    padding: 0px;
+    margin: 10px 0 5px 10px;
+    display: block;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+.essay .poem{
+    font-size: 1em;
+    margin: 20px 100px 20px 100px;
+}
+
+
+/* - - - -      LINKS       - - - - */
+
+/* - - - -      MISC -> SPANS OR EMS       - - - - */
+
+/* - - - -      Notes and Footnotes       - - - - */
+
+.rdgNote h4{
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 600;
+    text-indent: 0px;
+}
+
+.rdgNote h5{
+    font-size: 1.25em;
+    text-align: left;
+    text-indent: 0px;
+}
+
+span.noteRef{
+    font-size: .65em;
+}
+
+div.notesList{
+    margin-top: 30px;
+    text-align: left;
+}
+
+div.notesList h2{
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+/* - - - -      ORIG AND REG       - - - - */
+
+/* - - - -      Page Breaks       - - - - */
+
+
+span.pagebreak{
+    display: block;
+    font-size: 10pt;
+    border: 0px dashed black;
+    height: 50px;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+
+}
+
+/* - - - -      PARAGRAPHS       - - - - */
+
+/* - - - -      QUOTES       - - - - */
+
+/* - - - -      References/Links       - - - - */
+
+/* - - - -      SEG       - - - - */
+
+/* - - - -      SIGNATURE       - - - - */
+
+/* - - - -      SPACE       - - - - */
+
+/* - - - -      STRONG       - - - - */
+
+/* - - - -      SUPER AND SUB SCRIPT       - - - - */
+
+/* - - - -      TABLES       - - - - */
+
+/* - - - -      UNCLEAR       - - - - */
+
+span.pagebreak a {
+	float: right; clear: right; margin-top: -0px; line-height: 1.5em;
+}
+
+span.pagebreak span.thumbnail {
+	float: right; padding-left: 10px; text-indent: 0px; clear: both; margin-right: -7px;
+}
+

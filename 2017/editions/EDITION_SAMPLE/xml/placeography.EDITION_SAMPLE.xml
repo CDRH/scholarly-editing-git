@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:mi="http://www.newhaven.edu/thedigitalyoungidea/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Placeography for the Digital Young Idea</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Scholarly Editing: The Annual of the Association for Documentary
+               Editing</authority>
+            <idno type="file">placeography.youngidea</idno>
+            <idno type="edition">youngidea</idno>
+            <address>
+               <addrLine>http://www.scholarlyediting.org</addrLine>
+            </address>
+            <publisher>Association for Documentary Editing</publisher>
+            <publisher>University of Nebraska&#8211;Lincoln</publisher>
+            <distributor>
+               <name>Center for Digital Research in the Humanities</name>
+               <address>
+                  <addrLine>319 Love Library</addrLine>
+                  <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                  <addrLine>Lincoln, NE 68588-4100</addrLine>
+                  <addrLine>http://cdrh.unl.edu</addrLine>
+               </address>
+            </distributor>
+            <date>2016</date>
+            <availability>
+               <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                  freely distributed by the Association for Documentary Editing and the Center
+                  for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                  and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  3.0 Unported License</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+               Editing</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name xml:id="ag">Amanda Gailey</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name xml:id="awj">Andrew Jewell</name>
+            </respStmt>
+            <idno type="vol">37</idno>
+            <idno type="ISSN">2167-1257</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>This placeography relies on the Getty Thesaurus of Geographic Names</p>
+            <p>To view the map making use of the data in this placeography, visit <ref target="https://www.google.com/maps/d/edit?mid=zQvyj_N7rx8Y.kwijC2WeGSps"></ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place>
+               <placeName xml:id="Kolkata">Kolkata</placeName>
+               <location>
+                  <geo>22.5626 88.3630</geo>
+                  <note>Getty ID:7030776</note>
+               </location>
+            </place>
+            <!--Taking Tyrone out of the mix for this edition, 
+               but at some point I would like to include links within 
+               biographical notes or a separate map so readers can find where the sailors 
+               and other figures mentioned were born<place>
+               <placeName xml:id="Tyrone">Tyrone</placeName>
+               <location>
+                  <geo>54.5833 -7.0000</geo>
+               </location>
+               <note>Getty ID:7008701</note>
+            </place>-->
+            <place>
+               <placeName xml:id="Istanbul">Istanbul</placeName>
+               <location>
+                  <geo>41.0333 28.9500</geo>
+                  <note>Getty ID:7002473</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Hugli_River">Hugli River</placeName>
+               <location>
+                  <geo>21.8320 88.0300</geo>
+                  <note>Getty ID:1124685</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Khejuri">Khejuri</placeName>
+               <location>
+                  <geo>21.8050 86.3039</geo>
+                  <note>Getty ID: 7577299</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Sāgar_Island">Saugar</placeName>
+               <location>
+                  <geo>21.7445 88.1184</geo>
+                  <note>Getty ID:7577299</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Garden_Reach">Garden Reach</placeName>
+               <location>
+                  <geo>22.5430 88.3060</geo>
+                  <note>Getty ID: 1075308</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Delhi">Delhi</placeName>
+               <location>
+                  <geo>28.6536 77.2290</geo>
+                  <note>Getty ID:7001535</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Lucknow">Lucknow</placeName>
+               <location>
+                  <geo>26.8393 80.9231</geo>
+                  <note>Getty ID:7001561</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Yangon">Yangon</placeName>
+               <location>
+                  <geo>16.7833 96.1667</geo>
+                  <note>Getty ID:7002152</note>
+               </location>
+            </place>
+            
+            <place>
+               <placeName xml:id="Trincomalee">Trincomalee</placeName>
+               <location>
+                  <geo>8.5667 81.2167</geo>
+                  <note>Getty ID:7002519</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Andaman_Islands">Andaman Islands</placeName>
+               <location>
+                  <geo>12.0000 92.7500</geo>
+                  <note>Getty ID:1009838</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Canton">Canton</placeName>
+               <location>
+                  <geo>23.1333 113.3333</geo>
+                  <note>Getty ID:7018040</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Allahabad">Allahābād</placeName>
+               <location>
+                  <geo>25.4489 81.8333</geo>
+                  <note>Getty ID:7001500</note>
+               </location>
+            </place>
+            <!--Without an id in Getty, I can't include this place in this edition<place>
+               <placeName xml:id="Futty_Ghur">Futty Ghur</placeName>
+               <note>Not in Getty; a military station on the Ganges</note>
+            </place>-->
+            <place>
+               <placeName xml:id="Chhapra">Chhapra</placeName>
+               <location>
+                  <geo>25.7810 84.7309</geo>
+                  <note>Getty ID:1140125</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Gorakhpur">Gorakhpur</placeName>
+               <location>
+                  <geo>26.7548 83.3724</geo>
+                  <note>Getty ID: 1075386</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Faizabad">Faizābād</placeName>
+               <location>
+                  <geo>26.7769 82.1329</geo>
+                  <note>Getty ID: 1075256</note>
+                  
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Chennai">Chennai</placeName>
+               <location>
+                  <geo>13.0833 80.2833</geo>
+                  <note>Getty ID:7001562</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Kanpur">Kānpur</placeName>
+               <location>
+                  <geo>26.4478 80.3463</geo>
+                  <note>Getty ID: 7001527</note>
+               </location>
+            </place>
+            
+            <place>
+               <placeName xml:id="Ayodhya">Ayodhya</placeName>
+               <location>
+                  <geo>26.7996 82.2041</geo>
+                  <note>Getty ID: 7001502</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Gomati_River">Gomati River</placeName>
+               <location>
+                  <geo>25.5333 83.1667</geo>
+                  <note>Getty ID: 1124239</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Ochterlony_Monument">Ochterlony Monument</placeName>
+               <location>
+                  <geo>22.56286 88.34923</geo>
+                  <note>Getty ID:7030776</note>
+               </location>
+            </place>
+            <place>
+               <placeName xml:id="Balham">Balham</placeName>
+               <location>
+                  <geo>51.4434 -0.1468</geo>
+                  <note>Getty ID: 7029240</note>
+               </location>
+            </place>
+            
+            <!--  <place>
+               <placeName xml:id="gettyname">gettyname without underscore</placeName>
+               <location>
+                  <geo>000000 0000000</geo>
+                  <note>Getty ID: 0000000</note>
+               </location>
+            </place>-->
+            
+         </listPlace>
+      </body>
+   </text>
+</TEI>
+
