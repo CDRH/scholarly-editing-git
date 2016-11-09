@@ -8,6 +8,7 @@
                 <title type="sub">electronic edition</title>
                 <principal xml:id="awj">Jewell, Andrew, 1975-</principal>
                 <principal xml:id="ag">Gailey, Amanda, 1976-</principal>
+                <principal xml:id="nhg">Gray, Nicole</principal>
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -54,6 +55,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
+            <change when="2016-11-09" who="#nhg">Added content for Vol 38</change>
             <change when="2016-05-13" who="#awj">Added content for Vol 37</change>
             <change when="2013-03-03" who="#awj">Added content for Issue number 2</change>
             <change when="2012-01-13" who="#awj">Revised file by simplifying list of links and
@@ -69,6 +71,7 @@
             <div xml:id="v38_2017">
                 <head type="main">Volume 38, 2017</head>
                 <bibl>
+                    <editor>Nicole Gray, issue editor <affiliation>University of Nebraska&#8211;Lincoln</affiliation></editor>
                     <editor>Amanda Gailey, co-editor <affiliation>University of Nebraska&#8211;Lincoln</affiliation></editor>
                     <editor>Andrew Jewell, co-editor <affiliation>University of Nebraska&#8211;Lincoln</affiliation></editor>
                     <editor>Karin Dalziel, edition design and development <affiliation>University of Nebraska&#8211;Lincoln</affiliation></editor>
@@ -79,16 +82,15 @@
                         <bibl>
                             <title level="a" xml:id="essay.v38intro">
                                 <ref type="html" target="2017/essays/essay.v38intro">Introduction to
-                                    Volume 37 of <hi rend="italic">Scholarly Editing: The
+                                    Volume 38 of <hi rend="italic">Scholarly Editing: The
                                         Annual of the Association for Documentary Editing</hi></ref>
                             </title>
-                            <author>Amanda Gailey <affiliation>University of Nebraska&#8211;Lincoln</affiliation></author>
-                            <author>Andrew Jewell <affiliation>University of Nebraska&#8211;Lincoln</affiliation></author>
+                            <author>Nicole Gray <affiliation>University of Nebraska&#8211;Lincoln</affiliation></author>
                         </bibl>
                         
                     </item>
                 </list>
-                <list type="simple" xml:id="editions2016">
+                <list type="simple" xml:id="editions2017">
                     <head type="main">Editions</head>
                    
                     <item>
@@ -115,7 +117,7 @@
                
                 
                 
-                <list type="simple" xml:id="reviews2016">
+                <!--<list type="simple" xml:id="reviews2017">
                     <head type="main">Reviews</head>  
                     <item>
                         <bibl>
@@ -138,7 +140,7 @@
                             <author>Ellen C. Hickman <affiliation>Papers of Thomas Jefferson: Retirement Series</affiliation></author>
                         </bibl>
                     </item>
-                </list>
+                </list>-->
             </div>
             
             
@@ -165,7 +167,7 @@
                         
                     </item>
                 </list>
-                <list type="simple" xml:id="editions2017">
+                <list type="simple" xml:id="editions2016">
 <head type="main">Editions</head>
                     <item>
                         <bibl>
@@ -263,7 +265,7 @@
                 </list>
                 
                 
-                <list type="simple" xml:id="reviews2017">
+                <list type="simple" xml:id="reviews2016">
                   <head type="main">Reviews</head>  
                     <item>
                         <bibl>
