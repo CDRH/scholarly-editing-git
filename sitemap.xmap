@@ -65,7 +65,7 @@
                     <map:parameter name="pageid" value=""/>
                 </map:transform>
                 <map:transform src="template_xslt/html_template.xsl">
-                    <map:parameter name="volume" value="5x5"/>
+                    <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
                 </map:transform>
                 <map:serialize type="html"/>
