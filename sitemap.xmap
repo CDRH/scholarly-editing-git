@@ -163,7 +163,7 @@
                 <map:generate src="{1}/essays/essay.{2}.xml"/>
                 <map:transform type="xslt" src="template_xslt/site.xsl"> </map:transform>
                 <map:transform src="template_xslt/html_template.xsl">
-                    <map:parameter name="volume" value="5x5"/>
+                    <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
                 </map:transform>
                 <map:serialize type="html"/>
@@ -225,7 +225,7 @@
                 <map:generate src="{1}/reviews/review.{2}.xml"/>
                 <map:transform type="xslt" src="template_xslt/site.xsl"> </map:transform>
                 <map:transform src="template_xslt/html_template.xsl">
-                    <map:parameter name="volume" value="5x5"/>
+                    <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
                 </map:transform>
                 <map:serialize type="html"/>
@@ -248,7 +248,7 @@
                     <map:parameter name="pageid" value=""/>
                 </map:transform>
                 <map:transform src="template_xslt/html_template.xsl">
-                    <map:parameter name="volume" value="5x5"/>
+                    <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
                     <map:parameter name="slug" value="{1}"/>
                     <map:parameter name="view" value="col8"/>
