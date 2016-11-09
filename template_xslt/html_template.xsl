@@ -110,7 +110,7 @@
             <div class="col-md-6">
               
               <h1 class="site_title">
-                <a href="http://cors1601.unl.edu/cocoon/scholarlyediting_reorganization/"><span
+                <a href="http://cors1601.unl.edu/cocoon/scholarlyediting_development/"><span
                   class="word_scholarly"><span class="cap">S</span><span class="word_cholarly"
                     >cholarly</span></span> &#160;<span class="word_editing"><span
                       class="word_edit"><span class="cap">E</span><span class="word_dit"><span
