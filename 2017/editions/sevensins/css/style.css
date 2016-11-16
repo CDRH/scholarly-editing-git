@@ -1,0 +1,19 @@
+.red {background-color:red;}
+
+.green {background-color:green;}
+
+
+.disable_line_breaks .tei_line_break {
+	
+	display: none;
+}
+
+#button_toggle_Bd, .tei_wit_Bd {
+	background-color: red;
+}
+#button_toggle_Tr, .tei_wit_Tr {
+	background-color: green;
+}
+#button_toggle_Em, .tei_wit_Em {
+	background-color: blue;
+}

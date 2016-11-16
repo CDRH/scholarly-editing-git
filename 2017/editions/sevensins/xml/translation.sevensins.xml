@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">The Effects of the Seven Sins</title>
+        <author>Anonymous</author>
+        <editor>Krista A. Murchison</editor>
+        <respStmt>
+          <resp>Transcription, editing, and encoding</resp>
+          <name xml:id="KAM">Krista A. Murchison</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Scholarly Editing: The Annual of the Association for Documentary
+          Editing</authority>
+        <address>
+          <addrLine>http://www.scholarlyediting.org</addrLine>
+        </address>
+        <publisher>Association for Documentary Editing</publisher>
+        <publisher>University of Nebraska&#8211;Lincoln</publisher>
+        <distributor>
+          <name>Center for Digital Research in the Humanities</name>
+          <address>
+            <addrLine>319 Love Library</addrLine>
+            <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+            <addrLine>Lincoln, NE 68588-4100</addrLine>
+            <addrLine>http://cdrh.unl.edu</addrLine>
+          </address>
+        </distributor>
+        <date>2016</date>
+        <idno type="file">translation.sevensins</idno>
+        <idno type="edition">sevensins</idno>
+        <availability>
+          <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+            freely distributed by the Association for Documentary Editing and the Center for
+            Digital Research in the Humanities at the University of Nebraska-Lincoln and
+            licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+            Unported License</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+          Editing</title>
+        <respStmt>
+          <resp>2017 issue editor</resp>
+          <name xml:id="nhg">Nicole Gray</name>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <name xml:id="ag">Amanda Gailey</name>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <name xml:id="awj">Andrew Jewell</name>
+        </respStmt>
+        <idno type="vol">38</idno>
+        <idno type="ISSN">2167-1257</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Oxford</settlement>
+            <repository>Bodleian Library</repository>
+            <idno>Fr.e.22</idno>
+          </msIdentifier>
+        </msDesc>
+        <listWit>
+          <witness xml:id="Bd">Oxford, Bodleian Library, MS Fr.e.22</witness>
+          <witness xml:id="Tr">Trinity College, Cambridge MS B.14.39</witness>
+          <witness xml:id="Em">Cambridge, Emmanuel College MS I.4.4 (83)</witness>
+        </listWit>
+        <bibl>
+          <author>Anonymous</author>
+          <title>The Effects of the Seven Deadly Sins</title>
+          <note type="project">
+            Transcribed from Oxford, Bodleian Library, MS Fr.e.22, with variants from Trinity College, Cambridge MS B.14.39 and Cambridge, Emmanuel College MS I.4.4 (83)
+          </note>             
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc><variantEncoding method="double-end-point"
+      location="internal"/></encodingDesc> 
+  </teiHeader>
+  <text type="pastoralia">
+  <body>
+      <pb n="f. 86v" type="verso"></pb>  
+        <list n="Org" rend="align(center)">
+          <head rend="align(left)">Pride makes <lb/>
+           man</head>  
+          <item n="1">Boast of having good qualities that he does not have<lb/></item>
+          <item n="2">Pretend to be other than he is<lb/></item>
+          <item n="3">Fabricate novelties<lb/></item> 
+          <item n="4">Strive needlessly<lb/></item>
+          <item n="5">Disobedient to God and to his neighbour<lb/></item>
+          <item n="6">Perverse and contrary<anchor xml:id="Org.6a"/>. Quarrel without cause
+            <app from="#Org.6a">
+              <lem wit="#Em"><lb/>Quarrel without cause</lem>
+              <rdg wit="#Bd">. Quarrel without cause</rdg>
+              <rdg wit="#Tr"><lb/>Quarrel without cause</rdg>
+              </app><lb/></item>
+        </list> 
+      <list n="Env" rend="align(center)">
+        <head rend="align(left)">Envy<lb/></head>
+        <item n="1">makes man <anchor xml:id="Env.1a"/>denigrate
+          <app from="#Env.1a">
+            <lem wit="#Bd">denigrate</lem>
+            <rdg wit="#Tr">betray</rdg>
+            <rdg wit="#Em">denigrate</rdg>
+          </app> 
+          his neighbour<lb/></item>
+        <item n="2">Take joy in the harm of another<lb/></item>
+        <item n="3">Hate the good of another<lb/></item>
+        <item n="4">Grouch over the advancement of another<lb/></item>
+        <item n="5">Be one who commits homicide<lb/></item>
+        <item n="6">Be of bitter intent<lb/></item>
+        <item n="7">Corrupt the good of another<lb/></item>
+      </list>
+   
+  <list n="Ire" rend="align(center)">
+    <item n="1">Makes man swell with rage<anchor xml:id="Ire.1a"/><lb/>
+      <app from="#Ire.1a">
+        <lem wit="#Bd"><lb/></lem>
+        <rdg wit="#Tr"><lb/></rdg>
+        <rdg wit="#Em"></rdg>
+      </app></item>
+    <item n="2">Go mad<anchor xml:id="Ire.2a"/><lb/>
+      <app from="#Ire.2a">
+        <lem wit="#Bd"><lb/></lem>
+        <rdg wit="#Tr"><lb/></rdg>
+        <rdg wit="#Em"></rdg>
+      </app></item></list>
+    <pb n="f. 87r" type="recto"></pb>
+      <list n="Ire" rend="align(center)">
+      <head rend="align(left)">Ire<lb/></head>
+        <item n="3"><anchor xml:id="Ire.3a"/>Cry out
+          <app from="#Ire.3a">
+            <lem wit="#Bd">Cry out</lem>
+            <rdg wit="#Tr">Cry out and chatter</rdg>
+            <rdg wit="#Em">Cry out</rdg></app>
+          <lb/></item>
+        <item n="4">Mock his neighbour<lb/></item>
+        <item n="5"><anchor xml:id="Ire.5a"/>
+          Threaten
+          <app from="#Ire.5a">
+            <lem wit="#Bd">Threaten</lem>
+            <rdg wit="#Tr">Insult</rdg>
+            <rdg wit="#Em">Threaten. Insult</rdg></app>
+          <lb/></item>
+        <item n="6"><anchor xml:id="Ire.6a"/>Insult<lb/>
+          <app from="#Ire.6a">
+          <lem wit="#Bd">Insult<lb/></lem>
+          <rdg wit="#Tr">Threaten<lb/></rdg>
+          <rdg wit="#Em"></rdg></app>
+          </item>
+        <item n="7">Blind the intellect so that he cannot understand the truth<lb/></item>
+  </list>
+      <list n="Acc" rend="align(center)">
+        <head rend="align(left)">Sloth<lb/></head>
+        <item n="1">makes man <anchor xml:id="Acc.1a"/>displeased<app from="#Acc.1a">
+          <lem wit="#Bd">displeased</lem>
+          <rdg wit="#Tr">displeased</rdg>
+          <rdg wit="#Em">vexed</rdg></app>
+          with every good and <anchor xml:id="Acc.1b"/><app from="#Acc.1b">
+            <lem wit="#Bd"></lem>
+            <rdg wit="#Tr">often</rdg>
+            <rdg wit="#Em">often</rdg></app>
+          with his own life<lb/></item>
+        <item n="2">Melancholy, and lazy, and sleepy<lb/></item>
+        <item n="3">Negligent of the things he ought to do<lb/></item>
+        <item n="4">More timid than is necessary<lb/></item>
+        <item n="5"><anchor xml:id="Acc.5a"/>Abounding in weary looks
+          <note resp="#KAM">Where it is followed by "de," I have translated "plentivus," following the Anglo-Norman dictionary, as "abounding," and,
+            where it is followed by the conjunction "e," I have taken it as the adjective "plaintif," meaning "wretched."</note>
+          <app from="#Acc.5a">
+            <lem wit="#Bd">Abounding in weary looks</lem>
+            <rdg wit="#Tr">Wretched and of weary countenance</rdg>
+            <rdg wit="#Em">Wretched and of weary countenance</rdg>
+          </app><lb/></item>
+        <item n="6">Often in despair
+          <lb/></item>
+        <item n="7">Be without the comfort of the holy spirit <lb/></item>
+      </list>
+      <list n="Ava" rend="align(center)"><head rend="align(left)">Avarice<lb/></head>
+        <addSpan rend="align (left)" spanTo="#P04"/>
+        <item n="1">makes man think up new tricks so that he can<anchor xml:id="Ava.1a"/>
+          <app from="#Ava.1a">
+            <lem wit="#Tr">more craftily</lem>
+            <rdg wit="#Bd"></rdg>
+            <rdg wit="#Em">more craftily</rdg></app>
+          deceive his neighbour<lb/></item> 
+        <item n="2">Desire the death of his neighbour<lb/></item>
+        <item n="3">Lie, perjure, and give false testimony<lb/></item>
+        <item n="4">Steal and seize <anchor xml:id="Ava.4a"/>wrongfully
+          <app from="#Ava.4a">
+            <lem wit="#Bd">wrongfully</lem>
+            <rdg wit="#Tr">wrongfully</rdg>
+          <rdg wit="#Em">from everyone</rdg></app>
+          <lb/></item>
+        <item n="5">Flatter those who are bad<lb/></item>
+        <item n="6">Consent to all sin<lb/></item>
+        <item n="7">Give false verdicts<lb/></item>
+      </list>
+      
+      <list n="Lec" rend="align(center)"><head rend="align(left)">Lechery<lb/></head>
+        <note resp="#KAM">In the Bodleian MS, the order of these last two lists is reversed.</note>
+        <item n="1">makes man filthy in both <anchor xml:id="Lec.1a"/>body
+          <app from="#Lec.1a">
+          <lem wit="#Bd">body</lem>
+          <rdg wit="#Tr">heart</rdg>
+          <rdg wit="#Em">body</rdg></app> 
+          and spirit<lb/></item>
+        <item n="2">Stink before God and his angels<lb/></item>
+        <item n="3"><anchor xml:id="Lec.3a"/>Become foolish 
+          <app from="#Lec.3a">
+            <lem wit="#Bd">Become foolish</lem>
+          <rdg wit="#Tr">Foolish</rdg>
+          <rdg wit="#Em">Foolish</rdg></app>
+          in thought<lb/></item>
+        <item n="4">Speak of vulgarity and filth<lb/></item>
+        <item n="5">Think of harm<lb/></item>
+      
+      <pb n="f. 87v" type="verso"></pb> 
+        <item n="6">Flatter <anchor xml:id="Lec.6a"/>and beguile
+          <app from="#Lec.6a">
+            <lem wit="#Bd">and beguile</lem>
+            <rdg wit="#Tr"></rdg>
+            <rdg wit="#Em">everyone to make his mischief</rdg></app>
+          <lb/></item>
+        <item n="7">Chase away the Holy Spirit, and uncouth and dissolute 
+          <lb/></item>
+      </list>
+      
+      <list n="Glo" rend="align(center)"><head rend="align(left)">Gluttony<lb/></head>
+        <item n="1">makes man forget God<lb/></item>
+        <item n="2">Destroys innate good qualities<lb/></item>
+        <item n="3">Shortens the life of man<lb/></item>
+        <item n="4">Takes away <anchor xml:id="Glo.4a"/><app from="#Glo.4a">
+          <lem wit="#Em">all</lem>
+          <rdg wit="#Tr"></rdg>
+          <rdg wit="#Bd"></rdg></app>
+         sense and memory<lb/></item>
+        <item n="5">Reduces the strength and beauty of the body<lb/></item>
+        <item n="6">Produces drunkenness that cannot be hidden by anything<lb/></item>
+        <item n="7">Makes man chatter and cry out abominations <lb/></item>
+      </list>
+
+  </body>
+  </text>
+</TEI>

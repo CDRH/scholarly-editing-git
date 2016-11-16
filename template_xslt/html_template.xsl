@@ -10,7 +10,12 @@
   <!-- View: blank or fullpage 
   I plan to use this when the edition needs to take up the full width of the page
   -->
-  <xsl:param name="view"/>
+  <xsl:param name="view">
+    <xsl:choose>
+      <xsl:when test="//div[@class='main_content']/div[@class='full_width']">full_width</xsl:when>
+      <xsl:otherwise>col8</xsl:otherwise>
+    </xsl:choose>
+  </xsl:param>
   
   
   <xsl:include href="../config/config.xsl"/>
@@ -103,7 +108,18 @@
       </head>
       
       <body>
-        <div class="container" id="content">
+        <div>
+          <xsl:attribute name="class">
+            <xsl:choose>
+              <xsl:when test="//div[@class='main_content']/div[@class='full_width']">
+                <xsl:text>container-fluid</xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:text>container</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:attribute>
+          <xsl:attribute name="id">content</xsl:attribute>
           
           <div class="row">
             
@@ -162,7 +178,7 @@
             
             <xsl:if test="$edition_author != ''">
               <h3>
-                <xsl:value-of select="$edition_author"/>
+                <xsl:copy-of select="$edition_author"/>
               </h3>
             </xsl:if>
             
@@ -185,7 +201,7 @@
                   </div>
                 </div>
               </xsl:when>
-              <xsl:when test="$view != 'fullpage'">
+              <xsl:when test="$view != 'full_width'">
                 <div class="row">
                   <div class="col-md-10 col-md-offset-1">
                     <xsl:copy-of select="$main_content"/>
@@ -193,7 +209,8 @@
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <xsl:copy-of select="$main_content"/>
+                
+                    <xsl:copy-of select="$main_content"/>
               </xsl:otherwise>
             </xsl:choose>
             
