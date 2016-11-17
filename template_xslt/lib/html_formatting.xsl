@@ -1112,7 +1112,7 @@
 <!-- ================================================ -->
   <!--                     AUTHORS AND EDITORS          -->
   <!-- ================================================ -->
-<xsl:template match="bibl/author | bibl/editor">
+<xsl:template match="author | editor">
   <xsl:apply-templates/><br/>
 </xsl:template>
 
