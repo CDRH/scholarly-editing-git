@@ -123,7 +123,7 @@
           
           <div class="row">
             
-            <div class="col-md-6">
+            <div class="col-md-5">
               
               <h1 class="site_title">
                 <a href="http://cors1601.unl.edu/cocoon/scholarlyediting_development/"><span
@@ -136,32 +136,35 @@
               
             </div>
             
-            <div class="col-md-6">
+            <div class="col-md-7 navright text-right">
               
-              <ul class="nav nav-pills text-center">
+              <ul class="nav nav-pills text-center sitenav">
                 
-                <li role="presentation">
+                <li role="presentation" class="issues">
                   <a href="{$siteroot}se.index.issues.html">Issues</a>
                 </li>
                 
-                <li role="presentation">
+                <li role="presentation" class="editions">
                   <a href="{$siteroot}se.index.editions.html">Editions</a>
                 </li>
                 
-                <li role="presentation">
+                <li role="presentation" class="essays">
                   <a href="{$siteroot}se.index.essays.html">Essays</a>
                 </li>
                 
-                <li role="presentation">
+                <li role="presentation" class="reviews">
                   <a href="{$siteroot}se.index.reviews.html">Reviews</a>
                 </li>
                 
-                <li role="presentation">
-                  <a href="{$siteroot}se.about.html">About</a>
+                <li role="presentation" class="about">
+                  <a href="{$siteroot}se.index.about.html">About</a>
                 </li>
+                
+               
                 
               </ul>
               
+             <!-- <p class="about_link"><a href="{$siteroot}se.about.html">About</a></p>-->
               
               <h5>The Annual of the Association for Documentary Editing</h5>
               
@@ -219,23 +222,36 @@
           
           
           <div class="footer">
-            <span class="creativecommons">
-              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-                <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/>
-              </a>
-              <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative
-                Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
-                License</a>.</span>
-            <span class="adelogo">
-              <a href="http://www.documentaryediting.org">
-                <img src="http://scholarlyediting.org/images/adelogo.png" alt="Logo of the Association for Documentary Editing"/>
-              </a>
-            </span>
-            <span class="cdrh">Sponsored by the <a href="http://cdrh.unl.edu">Center for
-              Digital Research in the Humanities at the University of
-              Nebraska-Lincoln</a>.
-            </span>
-            <span class="issn">ISSN 2167-1257</span>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                
+                
+                
+                <span class="creativecommons">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                    <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/>
+                  </a>
+                  <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative
+                    Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+                    License</a>.</span>
+                <span class="adelogo">
+                  <a href="http://www.documentaryediting.org">
+                    <img src="http://scholarlyediting.org/images/adelogo.png" alt="Logo of the Association for Documentary Editing"/>
+                  </a>
+                </span>
+                <span class="cdrh">Sponsored by the <a href="http://cdrh.unl.edu">Center for
+                  Digital Research in the Humanities at the University of
+                  Nebraska-Lincoln</a>.
+                </span>
+                <span class="issn">ISSN 2167-1257</span>
+                
+                
+                
+              </div><!-- /col -->
+            </div><!-- /row -->
+            
+            
+            
           </div><!-- /footer -->
           
           

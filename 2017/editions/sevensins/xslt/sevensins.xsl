@@ -13,7 +13,7 @@
   
   <xsl:import href="../../../../template_xslt/lib/html_formatting.xsl"/>
   
-  <xsl:output method="xml" indent="yes" encoding="UTF-8" omit-xml-declaration="yes"/>
+  <xsl:output method="xml" indent="no" encoding="UTF-8" omit-xml-declaration="yes"/>
   
   <!-- ==================================================================== -->
   <!--                           PARAMETERS                                 -->
@@ -69,26 +69,51 @@
         <!-- Must be in <div class="main_content"> 
          Edition controls or anything else can go before or after the apply-templates-->
         <div class="main_content">
-          <div class="controls text-center">
-            <a class="btn btn-default btn-xs" id="button_regularize" href="#" role="button">Regularized</a>
-            <a class="btn btn-default btn-xs" id="button_diplomatic" href="#" role="button">Diplomatic</a><br/>
+          
+          <xsl:if test="$idno = 'sidebyside.sevensins'">
+            <div class="full_width"></div>
+          </xsl:if>
+          
+          <div class="row controls text-center regularized" id="controls_sevensins" >
+            <div class="col-md-4 text-center">
+              <a class="btn btn-default btn-xs" id="button_regularize" href="#" role="button">Regularized</a>
+              <a class="btn btn-default btn-xs" id="button_diplomatic" href="#" role="button">Diplomatic</a>
+            </div>
+            <div class="col-md-4 text-center">
+              <!--<a class="btn btn-default btn-xs" id="button_highlight" href="#" role="button">Highlight Quotes</a>
+            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-->
+              <a class="btn btn-default btn-xs" id="button_line_breaks" href="#" role="button">Line Breaks</a>
+              <!--<a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-->
+              <!-- <a class="btn btn-default btn-xs" id="button_notes" href="&amp;notes=true" role="button">Display Notes</a>
+            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a><br/>-->
+              <a class="btn btn-default btn-xs" id="button_editorial_marks" href="#" role="button">Editorial Marks</a>
+            </div>
+            <div class="col-md-4 text-center">
+              <a class="btn btn-default btn-xs" id="button_toggle_Bd" href="#" role="button">Toggle Bd</a>
+              <a class="btn btn-default btn-xs" id="button_toggle_Tr" href="#" role="button">Toggle Tr</a>
+              <a class="btn btn-default btn-xs" id="button_toggle_Em" href="#" role="button">Toggle Em</a>
+            </div>
+          </div><!-- /row -->
+         <!-- <div class="">
+            <br/>-->
             
-            <a class="btn btn-default btn-xs" id="button_highlight" href="#" role="button">Highlight Quotes</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>
-            <a class="btn btn-default btn-xs" id="button_line_breaks" href="?breaks=true" role="button">Disable Line Breaks</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>
-            <a class="btn btn-default btn-xs" id="button_notes" href="&amp;notes=true" role="button">Display Notes</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a><br/>
-            
+          <!--  <!-\-<a class="btn btn-default btn-xs" id="button_highlight" href="#" role="button">Highlight Quotes</a>
+            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-\->
+            <a class="btn btn-default btn-xs" id="button_line_breaks" href="#" role="button">Line Breaks</a>
+            <!-\-<a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-\->
+           <!-\- <a class="btn btn-default btn-xs" id="button_notes" href="&amp;notes=true" role="button">Display Notes</a>
+            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a><br/>-\->
+            <a class="btn btn-default btn-xs" id="button_editorial_marks" href="#" role="button">Editorial Marks</a>
+            <br/>
             
             <a class="btn btn-default btn-xs" id="button_toggle_Bd" href="#" role="button">Toggle Bd</a>
-            <a class="btn btn-default btn-xs" id="button_toggle_Tr" href="?breaks=true" role="button">Toggle Tr</a>
-            <a class="btn btn-default btn-xs" id="button_toggle_Em" href="&amp;notes=true" role="button">Toggle Em</a>
+            <a class="btn btn-default btn-xs" id="button_toggle_Tr" href="#" role="button">Toggle Tr</a>
+            <a class="btn btn-default btn-xs" id="button_toggle_Em" href="#" role="button">Toggle Em</a>-->
             
-          </div>
+          <!--</div>-->
           <xsl:choose>
             <xsl:when test="$idno = 'sidebyside.sevensins'">
-              <div class="full_width" id="sevensins_content">
+              <div class="full_width disable_line_breaks regularized" id="sevensins_content">
                 <div class="row">
                   <div class="col-xs-6">
                     <xsl:apply-templates select="document('../xml/original.sevensins.xml')/TEI"/>
@@ -101,7 +126,7 @@
               
             </xsl:when>
             <xsl:otherwise>
-              <div id="sevensins_content">
+              <div class="disable_line_breaks regularized" id="sevensins_content">
                 <xsl:apply-templates/>
               </div>
             </xsl:otherwise>
@@ -125,8 +150,81 @@
   <xsl:template match="lb">
     <div class="tei_line_break">&#160;</div>
   </xsl:template>
+
+  <!-- Can't do this unless there's xslt3, only available in commercial saxon -->
+  <!--<xsl:template match="anchor/following-sibling::text()">
+    zzzzzz[<xsl:apply-templates/>]
+  </xsl:template>-->
+  
+  <xsl:template match="w"><span class="tei_w"><xsl:apply-templates/></span></xsl:template>
+  
+  <!-- this does not work either, and leads to more duplicates :/ -->
+ <!-- <xsl:template match="anchor[following-sibling::app]">
+
+    <div style="background-color:blue"><xsl:apply-templates select="
+      
+      ./following-sibling::* except following::app
+      
+      "></xsl:apply-templates></div>
+  </xsl:template>-->
+  
+  <!-- Try this, Nikki provided -->
+  
+  <!--<xsl:template match="text()
+    [preceding::span[1][substring-after(@hand,'#')=preceding::handNote[@scribeRef='#ww']/@xml:id]/translate(@to,'#','')
+    =
+    following::anchor[1]/@xml:id]">
+    <span class="highlight">
+      <xsl:value-of select="."/>
+    </span>
+  </xsl:template>-->
+  
+  
+ <!-- <xsl:template match="handShift">
+    <xsl:variable name="handShift_new"><xsl:value-of select="@new"/></xsl:variable>
+    <xsl:choose>
+      <xsl:when test="preceding::handNote[concat('#',@xml:id)=$handShift_new]/@scribeRef='#ww'"><xsl:text disable-output-escaping='yes'>&lt;span class="marginalia_hand"></xsl:text></xsl:when>
+      <xsl:when test="preceding::handShift[1][(substring-after(@new,'#'))=(preceding::handNote[@scribeRef='#ww']/@xml:id)] and not(self::handNote[concat('#',@xml:id)=$handShift_new]/@scribeRef='#ww')"><xsl:text disable-output-escaping='yes'>&lt;/span></xsl:text></xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>-->
+  
+  <!--<xsl:template match="text()
+    [preceding::span[1][substring-after(@hand,'#')=preceding::handNote[@scribeRef='#ww']/@xml:id]/translate(@to,'#','')
+    =
+    following::anchor[1]/@xml:id]">
+    zzz
+  </xsl:template>-->
+  
+  
+  
+  <xsl:template match="anchor">
+    <span class="ed_mark"><xsl:text> [</xsl:text></span>
+   
+  </xsl:template>
+  
+  <!--<xsl:template match="app"/>-->
+  
+  
+  
+  <xsl:template match="app" mode="pop">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>hide popper-content tei_app</xsl:text>
+        <xsl:if test="@from">
+          <xsl:text> tei_from_</xsl:text>
+          <xsl:value-of select="translate(@from,'#','')"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:apply-templates mode="pop"/>
+    </span>
+  </xsl:template>
   
   <xsl:template match="app">
+    <span class="ed_mark"><xsl:text>] </xsl:text></span>
+    
     <span>
       <xsl:attribute name="class">
         <xsl:text>tei_app</xsl:text>
@@ -137,19 +235,50 @@
       </xsl:attribute>
       <xsl:apply-templates/>
     </span>
+    
+    <a class="popper" data-toggle="popover" title="test" content="">[*]</a>
+    <xsl:apply-templates select="." mode="pop"></xsl:apply-templates>
+    
+  </xsl:template>
+  
+  <xsl:template match="lem | rdg" mode="pop">
+    <span>
+      
+      <xsl:attribute name="class">
+        <xsl:text>tei_</xsl:text>
+        <xsl:value-of select="name()"/>
+        <xsl:if test="@wit">
+          <xsl:text> tei_wit_pop_</xsl:text>
+          <xsl:value-of select="translate(@wit,'#','')"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:value-of select="substring-after(@wit,'#')"/>
+      <xsl:text>: </xsl:text>
+      <xsl:apply-templates/><br/>
+    </span>
   </xsl:template>
   
   <xsl:template match="lem | rdg">
     <span>
+     
       <xsl:attribute name="class">
-        <xsl:text>tei_</xsl:text>
+        <xsl:text>hide tei_</xsl:text>
         <xsl:value-of select="name()"/>
         <xsl:if test="@wit">
           <xsl:text> tei_wit_</xsl:text>
           <xsl:value-of select="translate(@wit,'#','')"/>
         </xsl:if>
       </xsl:attribute>
+      <xsl:value-of select="substring-after(@wit,'#')"/>
+      <xsl:text>: </xsl:text>
       <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
+  <xsl:template match="choice">
+    <span class="tei_choice">
+      <span class="tei_abbr"><span class="ed_mark">[</span><xsl:apply-templates select="abbr"/><span class="ed_mark">]</span></span>
+      <span class="tei_expan"><span class="ed_mark">{</span><xsl:apply-templates select="expan"/><span class="ed_mark">}</span></span>
     </span>
   </xsl:template>
   

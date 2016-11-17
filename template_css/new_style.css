@@ -1,3 +1,5 @@
+/* @override http://cors1601.unl.edu/cocoon/scholarlyediting_development_karin/template_css/new_style.css */
+
 @font-face{
     font-family: 'goudytwentyregular';
     src: url('../fonts/goudytwenty/goudytwenty-webfont.woff2') format('woff2'), 
@@ -52,13 +54,23 @@ body{
 
 
 .page_info{
-    background-color: rgba(142, 139, 127, .1);
-    padding: 15px;
+    background-color: #F4F5F3;
+    padding: 5px 0 10px 0;
     margin: 0 -15px;
-    border: 6px double rgba(102, 101, 94, .3);
+    border: 6px double #C5C6C5;
     border-right: none;
     border-left: none;
     text-align: center;
+}
+
+.page_info h1, 
+.page_info h2,
+.page_info h3,
+.page_info h4,
+.page_info h5,
+.page_info h6 {
+	padding: 0;
+	margin: .4em;
 }
 
 #content{
@@ -175,16 +187,15 @@ h1.site_title .word_ing{
 
 
 div.footer{
-    width: 800px;
-    height: 120px;
-    padding-top: 30px;
+ 
     padding-bottom: 10px;
-    clear: both;
+ 	padding-top: 40px;
 }
 
 div.footer span.adelogo{
     float: right;
     vertical-align: bottom;
+    margin-top: 20px;
 }
 
 div.footer span.creativecommons{
@@ -253,6 +264,85 @@ span.pagebreak span.thumbnail{
     clear: both;
     margin-right: -7px;
 }
+
+.sitenav {
+	margin-top: 1em;
+/*float: right;*/
+
+}
+
+.sitenav li {
+	border: 3px double #333;
+	border-right: none;
+	border-left: none;
+	margin-right: -2px;
+}
+
+.navright  {
+	/*text-align: right;*/
+}
+
+.navright h5 {
+	clear: both;
+	margin-top: 1em;
+	display: block;
+	font-family: 'goudytwentyregular', serif;
+	font-variant: small-caps;
+	word-spacing: -.1em;
+	letter-spacing: -.01em;
+	font-size: 1.3em;
+	margin: .1em 0;
+}
+
+.sitenav {
+	display: inline-block;
+	margin-bottom: 3em;
+}
+
+
+
+.sitenav.nav > li > a {
+	padding: 5px 10px;
+	font-size: 1.3em;
+}
+
+li.issues, li.issues a {
+	border-color: #DF3314;
+	color: #DF3314;
+}
+
+li.editions, li.editions a {
+	border-color: #009775;
+	color: #009775;
+}
+
+li.essays, li.essays a {
+	border-color: #6FC8AF;
+	color:  #6FC8AF;
+}
+
+li.reviews, li.reviews a {
+	border-color: #007A2E;
+	color: #007A2E;
+}
+
+li.about, li.about a {
+	border-color: #DF3314;
+	color: #DF3314;
+}
+
+.about_link {
+	margin-bottom: 2em;
+}
+
+
+
+.about_link a {
+	color:  #DF3314;
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
 
 
 

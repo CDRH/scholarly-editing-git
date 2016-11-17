@@ -1,16 +1,52 @@
-// Adding/subtracting classes based on ID
+/*$(function () {
+  $('[data-toggle="popover"]').popover()
+})*/
 
+/*$(document).ready(function(){
+  $('[data-toggle="popover"]').popover({ 
+    html : true
+  });
+});*/
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover({ 
+    html : true,
+    content: function() {
+      return $(this).next('.popper-content').html();
+    }
+  });
+});
+
+/*$('.popper').popover({
+    container: 'body',
+    html: true,
+    content: function () {
+        return $(this).next('.popper-content').html();
+    }
+});*/
+
+// Adding/subtracting classes based on ID
+/*
 $(function () {
   $('#button_highlight').click(function(){
     event.preventDefault();
     $('#sevensins_content').toggleClass('red');
   }); 
-}); 
+}); */
 
 $(function () {
-  $('#button_line_breaks').click(function(){
+  $('#button_line_breaks').click(function(event){
     event.preventDefault();
     $('#sevensins_content').toggleClass('disable_line_breaks');
+    $("#controls_sevensins").toggleClass("disable_line_breaks");
+  }); 
+});
+
+$(function () {
+  $('#button_editorial_marks').click(function(event){
+    event.preventDefault();
+    $('#sevensins_content').toggleClass('show_editorial_marks');
+    $("#controls_sevensins").toggleClass("show_editorial_marks");
   }); 
 });
 
@@ -19,25 +55,78 @@ $(function () {
 //tei_wit_Tr
 //tei_wit_Em
 $(function () {
-  $('#button_toggle_Bd').click(function(){
+  $('#button_toggle_Bd').click(function(event){
     event.preventDefault();
     $('.tei_wit_Bd').toggleClass('hide');
   }); 
 });
 
 $(function () {
-  $('#button_toggle_Tr').click(function(){
+  $('#button_toggle_Tr').click(function(event){
     event.preventDefault();
     $('.tei_wit_Tr').toggleClass('hide');
   }); 
 });
 
 $(function () {
-  $('#button_toggle_Em').click(function(){
+  $('#button_toggle_Em').click(function(event){
     event.preventDefault();
     $('.tei_wit_Em').toggleClass('hide');
   }); 
 });
+
+
+$(function () {
+  $('#button_regularize').click(function(event){
+    event.preventDefault();
+    $("#sevensins_content").addClass("regularized");
+    $("#controls_sevensins").addClass("regularized");
+  }); 
+});
+
+$(function () {
+  $('#button_diplomatic').click(function(event){
+    event.preventDefault();
+    $("#sevensins_content").removeClass("regularized");
+    $("#controls_sevensins").removeClass("regularized");
+  }); 
+});
+
+/* Function to replicate the old jquery toggle behaviour */
+/*$.fn.clicktoggle = function(a, b) {
+    return this.each(function() {
+        var clicked = false;
+        $(this).bind("click", function() {
+            if (clicked) {
+                clicked = false;
+                return b.apply(this, arguments);
+            }
+            clicked = true;
+            return a.apply(this, arguments);
+        });
+    });
+};*/
+/*
+$(function () {
+    $(".line_breaks").clicktoggle(
+        function () {
+            event.preventDefault();
+            $(this).text("Enable Line Breaks");
+            $("br").addClass("br_regularized");
+            $("br").removeClass("br_diplomatic");
+            $(this).addClass("selected");
+            $(".tei_lb, .tei_pb_label").hide();
+        },
+        function () {
+            event.preventDefault();
+            $(this).text("Disable Line Breaks");
+            $("br").addClass("br_diplomatic");
+            $("br").removeClass("br_regularized");
+            $(this).removeClass("selected");
+            $(".tei_lb, .tei_pb_label").show();
+        }
+    );
+});*/
 
 
 
