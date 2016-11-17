@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">The Effects of the Seven Sins</title>
+        <author>Anonymous</author>
+        <editor>Krista A. Murchison</editor>
+        <respStmt>
+          <resp>Transcription, editing, and encoding</resp>
+          <name xml:id="KAM">Krista A. Murchison</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Scholarly Editing: The Annual of the Association for Documentary
+          Editing</authority>
+        <address>
+          <addrLine>http://www.scholarlyediting.org</addrLine>
+        </address>
+        <publisher>Association for Documentary Editing</publisher>
+        <publisher>University of Nebraska&#8211;Lincoln</publisher>
+        <distributor>
+          <name>Center for Digital Research in the Humanities</name>
+          <address>
+            <addrLine>319 Love Library</addrLine>
+            <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+            <addrLine>Lincoln, NE 68588-4100</addrLine>
+            <addrLine>http://cdrh.unl.edu</addrLine>
+          </address>
+        </distributor>
+        <date>2016</date>
+        <idno type="file">intro.sevensins</idno>
+        <idno type="edition">sevensins</idno>
+        <availability>
+          <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+            freely distributed by the Association for Documentary Editing and the Center for
+            Digital Research in the Humanities at the University of Nebraska-Lincoln and
+            licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+            Unported License</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+          Editing</title>
+        <respStmt>
+          <resp>2017 issue editor</resp>
+          <name xml:id="nhg">Nicole Gray</name>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <name xml:id="ag">Amanda Gailey</name>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <name xml:id="awj">Andrew Jewell</name>
+        </respStmt>
+        <idno type="vol">38</idno>
+        <idno type="ISSN">2167-1257</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Oxford</settlement>
+            <repository>Bodleian Library</repository>
+            <idno>Fr.e.22</idno>
+          </msIdentifier>
+        </msDesc>
+        <listWit>
+          <witness xml:id="Bd">Oxford, Bodleian Library, MS Fr.e.22</witness>
+          <witness xml:id="Tr">Trinity College, Cambridge MS B.14.39</witness>
+          <witness xml:id="Em">Cambridge, Emmanuel College MS I.4.4 (83)</witness>
+        </listWit>
+        <bibl>
+          <author>Anonymous</author>
+          <title>The Effects of the Seven Deadly Sins</title>
+          <note type="project">
+            Transcribed from Oxford, Bodleian Library, MS Fr.e.22, with variants from Trinity College, Cambridge MS B.14.39 and Cambridge, Emmanuel College MS I.4.4 (83)
+          </note>             
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc><variantEncoding method="double-end-point"
+      location="internal"/></encodingDesc> 
+  </teiHeader>
+  <text type="pastoralia">
+  <body>
+    <div>
+      <head>Intro Goes Here</head>
+    </div>
+  </body>
+  </text>
+</TEI>
