@@ -1109,7 +1109,12 @@
     </span>
   </xsl:template>
 
-
+<!-- ================================================ -->
+  <!--                     AUTHORS AND EDITORS          -->
+  <!-- ================================================ -->
+<xsl:template match="bibl/author | bibl/editor">
+  <xsl:apply-templates/><br/>
+</xsl:template>
 
 
 </xsl:stylesheet>
