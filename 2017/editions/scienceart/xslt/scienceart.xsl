@@ -103,5 +103,32 @@
 <xsl:template match="div[@type='scene']/head[@type='main']">
   <span class="scene_head"><xsl:apply-templates/></span>
 </xsl:template>
+  
+  <xsl:template match="head[not(ancestor::figure)]">
+    <h3><strong><xsl:apply-templates/></strong></h3>
+  </xsl:template>
+  
+  <xsl:template match="note" mode="footnotes">
+    <xsl:variable name="noteCount" select="count(preceding::note)"/>
+    <p><xsl:value-of select="$noteCount"/>
+    
+    <xsl:text>. </xsl:text>
+    <span class="note_text">
+      <xsl:apply-templates/>
+    </span>
+    <xsl:text> [</xsl:text>
+    <a>
+      <xsl:attribute name="href">
+        <xsl:text>#inline</xsl:text>
+        <xsl:value-of select="@xml:id"/>
+      </xsl:attribute>
+      <xsl:text>back</xsl:text>
+    </a>
+    <xsl:text>]</xsl:text></p>
+  </xsl:template>
+  
+  <xsl:template match="quote">
+    <span class="blockquote"><xsl:apply-templates/></span>
+  </xsl:template>
 
 </xsl:stylesheet>
