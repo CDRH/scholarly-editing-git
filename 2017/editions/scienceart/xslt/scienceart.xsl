@@ -49,7 +49,7 @@
         
         <!-- $body_author
          must be in <div class="body_author"> -->
-        <!--<div class="body_author">Rebecca Nesvet</div>-->
+        <div class="body_author">Edited by Rebecca Nesvet</div>
         
         <!-- $edition_navigation 
          Each <li> is pulled in and new navigation is constructed. Appending #page_info at the end sets the 
@@ -99,10 +99,6 @@
   <xsl:template match="castItem/roleDesc">
     <span class="align_right"><xsl:apply-templates/></span>
   </xsl:template>
-
-<xsl:template match="div[@type='scene']/head[@type='main']">
-  <span class="scene_head"><xsl:apply-templates/></span>
-</xsl:template>
   
   <xsl:template match="head[not(ancestor::figure)]">
     <h3><strong><xsl:apply-templates/></strong></h3>
