@@ -92,9 +92,16 @@
     <span class="cast_role"><xsl:apply-templates/></span>
   </xsl:template>
   
+  <xsl:template match="castItem//note">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
   <xsl:template match="castItem/roleDesc">
     <span class="align_right"><xsl:apply-templates/></span>
   </xsl:template>
 
-  
+<xsl:template match="div[@type='scene']/head[@type='main']">
+  <span class="scene_head"><xsl:apply-templates/></span>
+</xsl:template>
+
 </xsl:stylesheet>
