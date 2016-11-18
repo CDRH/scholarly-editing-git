@@ -42,7 +42,7 @@
     match="
       body | front | back | docDate | sp | speaker | letter |
       notesStmt | titlePart | docDate | ab | trailer |
-      lg | l | bibl | dateline | salute | trailer | titlePage | closer |
+      lg | l | bibl | editor | dateline | salute | trailer | titlePage | closer |
       floatingText | date | epigraph">
     <span>
       <xsl:attribute name="class">
@@ -1109,7 +1109,12 @@
     </span>
   </xsl:template>
 
-
+<!-- ================================================ -->
+  <!--                     AUTHORS AND EDITORS          -->
+  <!-- ================================================ -->
+<xsl:template match="author | editor">
+  <xsl:apply-templates/><br/>
+</xsl:template>
 
 
 </xsl:stylesheet>
