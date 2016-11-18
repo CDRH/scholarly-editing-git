@@ -71,7 +71,8 @@
         or //ref[@target]
         or //back//note
         ">
-      <div class="footnotes">
+      <div class="notesList">
+        <h2>Notes</h2>
         <xsl:for-each select="//text//note">
           <div class="footnote">
             <xsl:attribute name="id">
@@ -497,36 +498,44 @@
   </figure>-->
 
 
-  <xsl:template match="figure/graphic">
+<!--  <xsl:template match="figure/graphic">
     <img>
       <xsl:attribute name="src">
-        <xsl:text>images/</xsl:text>
+        <xsl:text>images/viewsize/</xsl:text>
         <xsl:value-of select="./attribute::url"/>
       </xsl:attribute>
       <xsl:attribute name="alt">
-        <xsl:value-of select="child::tei:figDesc"/>
+        <xsl:value-of select="child::figDesc[1]"/>
       </xsl:attribute>
     </img>
-  </xsl:template>
+  </xsl:template>-->
 
-  <xsl:template match="figure/head">
+  <!--<xsl:template match="figure/head">
     <h5>
       <xsl:apply-templates/>
     </h5>
-  </xsl:template>
+  </xsl:template>-->
 
   <xsl:template match="figure" priority="1">
-    <span>
-      <xsl:attribute name="class">
+    <span class="figure_center">
+      <!--<xsl:attribute name="class">
         <xsl:text>tei_figure</xsl:text>
-      </xsl:attribute>
-
-      <xsl:apply-templates/>
+      </xsl:attribute>-->
+      <img>
+        <xsl:attribute name="src">
+          <xsl:text>images/viewsize/</xsl:text>
+          <xsl:value-of select="child::graphic/attribute::url"/>
+        </xsl:attribute>
+        <xsl:attribute name="alt">
+          <xsl:value-of select="child::figDesc"/>
+        </xsl:attribute>
+      </img></span>
+      <span class="cap"><h5>
+        <strong><xsl:apply-templates select="child::head"/></strong><xsl:text>: </xsl:text><xsl:apply-templates select="child::figDesc"/>
+      </h5>
 
     </span>
   </xsl:template>
-
-
 
 
   <!-- ================================================ -->
@@ -625,9 +634,9 @@
                 </h6>
               </xsl:when>
               <xsl:otherwise>
-                <h4>
+                <h3>
                   <xsl:apply-templates/>
-                </h4>
+                </h3>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:when>
@@ -654,9 +663,9 @@
                 </h6>
               </xsl:when>
               <xsl:otherwise>
-                <h4>
+                <h3>
                   <xsl:apply-templates/>
-                </h4>
+                </h3>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:otherwise>
@@ -685,7 +694,7 @@
   <!--                        HI                        -->
   <!-- ================================================ -->
 
-  <xsl:template match="hi[@rend]" priority="2">
+ <!-- <xsl:template match="hi[@rend]" priority="2">
     <span>
       <xsl:attribute name="class">
         <xsl:text>tei_rend_</xsl:text>
@@ -693,7 +702,7 @@
       </xsl:attribute>
       <xsl:apply-templates/>
     </span>
-  </xsl:template>
+  </xsl:template>-->
 
   <xsl:template match="hi[@rend = 'italic'] | hi[@rend = 'italics']" priority="1">
     <em>
@@ -740,7 +749,7 @@
   <!--                        HIDE                      -->
   <!-- ================================================ -->
 
-  <xsl:template match="teiHeader | revisionDesc | publicationStmt | sourceDesc | figDesc">
+  <xsl:template match="teiHeader | revisionDesc | publicationStmt | sourceDesc">
     <xsl:text> </xsl:text>
   </xsl:template>
 
@@ -1136,5 +1145,16 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- ================================================ -->
+  <!--                     ADDRESS                      -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="address">
+    <span class="address"><xsl:apply-templates/></span><br/>
+  </xsl:template>
+  
+  <xsl:template match="addrLine">
+    <span class="addrLine"><xsl:apply-templates/></span>
+  </xsl:template>
 
 </xsl:stylesheet>
