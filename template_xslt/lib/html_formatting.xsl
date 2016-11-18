@@ -42,7 +42,7 @@
     match="
       body | front | back | docDate | sp | speaker | letter |
       notesStmt | titlePart | docDate | ab | trailer |
-      lg | l | bibl | editor | dateline | salute | trailer | titlePage | closer |
+      lg | l | bibl | dateline | salute | trailer | titlePage | closer |
       floatingText | date | epigraph">
     <span>
       <xsl:attribute name="class">
@@ -1112,9 +1112,29 @@
 <!-- ================================================ -->
   <!--                     AUTHORS AND EDITORS          -->
   <!-- ================================================ -->
-<xsl:template match="author | editor">
-  <xsl:apply-templates/><br/>
+<xsl:template match="div/bibl/editor">
+  <!--<span class="editor_list"><xsl:apply-templates/></span><br/>-->
 </xsl:template>
+  
+  <xsl:template match="list//bibl//author">
+    <xsl:choose><xsl:when test="not(preceding-sibling::author)"><xsl:text>by </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:when test="preceding-sibling::author and following-sibling::author"><xsl:apply-templates/><xsl:text>, </xsl:text></xsl:when>
+      <xsl:when test="preceding-sibling::author and not(following-sibling::author)"><xsl:text> and </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
 
+<xsl:template match="affiliation">
+  <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+</xsl:template>
+  
+  <xsl:template match="list//bibl//editor">
+    <xsl:choose><xsl:when test="not(preceding-sibling::editor)"><xsl:text>by </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:when test="preceding-sibling::editor and following-sibling::editor"><xsl:text>, </xsl:text><xsl:apply-templates/><xsl:text>, </xsl:text></xsl:when>
+      <xsl:when test="preceding-sibling::editor and not(following-sibling::editor)"><xsl:text> and </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
 
 </xsl:stylesheet>
