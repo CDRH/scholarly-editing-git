@@ -1012,7 +1012,16 @@
     </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
+  <!-- ================================================ -->
+  <!--                       STAGE                      -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="stage">
+    <xsl:choose><xsl:when test="following-sibling::stage"><span class="align_center"><xsl:apply-templates/></span></xsl:when>
+      <xsl:otherwise><span class="align_center"><xsl:apply-templates/></span><br/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <!-- ================================================ -->
   <!--                    SIGNATURE                     -->
   <!-- ================================================ -->
