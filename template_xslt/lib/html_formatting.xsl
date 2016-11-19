@@ -1000,13 +1000,17 @@
   <!-- ================================================ -->
 
   <!-- Handwritten From CWW - move into project file? -->
-  <xsl:template match="seg[@type = 'handwritten']">
-    <span>
+  <xsl:template match="seg">
+    <xsl:choose><xsl:when test="@type='handwritten'"><span>
       <xsl:attribute name="class">
         <xsl:text>handwritten</xsl:text>
       </xsl:attribute>
       <xsl:apply-templates/>
-    </span>
+    </span></xsl:when>
+    <xsl:otherwise>
+      <xsl:apply-templates/>
+    </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <!-- ================================================ -->
