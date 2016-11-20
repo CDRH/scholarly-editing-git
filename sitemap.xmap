@@ -275,6 +275,11 @@
             </map:match>
         </map:pipeline>
         
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/**/**.zip">
+                <map:read src="2017/editions/{1}/xml/{2}.zip"/>
+            </map:match>
+        </map:pipeline>
         
 
         <!-- ====================================
