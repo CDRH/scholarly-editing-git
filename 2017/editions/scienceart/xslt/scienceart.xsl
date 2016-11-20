@@ -45,7 +45,7 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>Science and Art: A Farce in Two Acts</em></h1>
+        <h1><em>Science and Art: A Farce, in Two Acts</em>, by Malcolm Rymer</h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
@@ -83,22 +83,6 @@
      here.  You cannot call a named template from directly within the stylesheet tag
      but you can redefine one here to be called by an imported template -->
   
-  <xsl:template match="castItem">
-    <!--<table><tr><td class="table_cell"><strong><xsl:apply-templates select="role"/></strong></td><td><xsl:apply-templates select="roleDesc"/></td></tr></table>-->
-    <xsl:apply-templates/><br/>
-  </xsl:template>
-  
-  <xsl:template match="castItem/role">
-    <span class="cast_role"><xsl:apply-templates/></span>
-  </xsl:template>
-  
-  <xsl:template match="castItem//note">
-    <xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="castItem/roleDesc">
-    <span class="align_right"><xsl:apply-templates/></span>
-  </xsl:template>
   
   <xsl:template match="head[not(ancestor::figure)]">
     <h3><strong><xsl:apply-templates/></strong></h3>
@@ -125,6 +109,10 @@
   
   <xsl:template match="quote">
     <span class="blockquote"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="byline">
+    <h4><strong><xsl:apply-templates/></strong></h4>
   </xsl:template>
 
 </xsl:stylesheet>

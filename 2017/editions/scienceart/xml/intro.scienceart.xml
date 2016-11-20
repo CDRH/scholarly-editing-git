@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- Pointer to the TEI-all schema; change if you are using a custom schema. -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
         <fileDesc>
@@ -36,8 +36,7 @@
                 </distributor>
                 <date>2017</date>
                 <idno type="file">intro.scienceart</idno>
-                <!-- You will only need to use the following idno if you are creating an edition -->
-                <idno type="edition"><!-- Edition name --></idno>
+                <idno type="edition">scienceart</idno>
                 <availability>
                     <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
                         freely distributed by the Association for Documentary Editing and the Center for
@@ -61,7 +60,7 @@
                     <resp>editor</resp>
                     <name xml:id="awj">Andrew Jewell</name>
                 </respStmt>
-                <idno type="vol"><!-- The Journal’s volume number --></idno>
+                <idno type="vol">38</idno>
                 <idno type="ISSN">2167-1257</idno>
             </seriesStmt>
             <sourceDesc>
@@ -89,6 +88,7 @@
                         North Carolina, Chapel Hill, © 2016.</figDesc>
                 </figure>
                 <head>Introduction</head>
+            <byline>by Rebecca Nesvet</byline>
                 <p>On July 24, 1820, an advertisement in the <hi rend="italic">London Morning
                         Post</hi> announced “The Triumph of Mechanism.” In an exhibition room in the
                     Western Exchange, Bond Street, a man-shaped machine called “PROSOPOGRAPHUS, the
@@ -315,7 +315,7 @@
                     <figure type="enlargeOnClick" n="2">
                     <head>Figure 2</head>
                     <!--<graphic
-                        url="URL">www</graphic>-->
+                        url="www"/>-->
                     <figDesc>“The Spirit of the Age” in the <hi rend="italic">Queen’s Magazine</hi>, vol. 1, no. 2 (May, 1842), 76.
                         Photograph courtesy of Cambridge University Library, © 2016.</figDesc>
                 </figure>

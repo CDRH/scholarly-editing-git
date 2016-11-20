@@ -1022,6 +1022,23 @@
     </xsl:choose>
   </xsl:template>
   
+  <xsl:template match="castItem">
+    <!--<table><tr><td class="table_cell"><strong><xsl:apply-templates select="role"/></strong></td><td><xsl:apply-templates select="roleDesc"/></td></tr></table>-->
+    <xsl:apply-templates/><br/>
+  </xsl:template>
+  
+  <xsl:template match="castItem/role">
+    <span class="cast_role"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="castItem//note">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="castItem/roleDesc">
+    <span class="align_right"><xsl:apply-templates/></span>
+  </xsl:template>
+  
   <!-- ================================================ -->
   <!--                    SIGNATURE                     -->
   <!-- ================================================ -->
