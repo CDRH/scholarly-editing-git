@@ -59,7 +59,7 @@
             <li class="first"><a href="intro.html#page_info">Introduction</a></li>
             <li><a href="script.html#page_info">Edition</a></li>
             <li><a href="{$idno}.xml">Page XML &#8659;</a></li>
-            <li><a href="extracts.youngidea.xml">Edition XML &#8659;</a></li>
+            <li><a href="scienceart.zip">Edition XML &#8659;</a></li>
           </ul>
         </nav>
         
