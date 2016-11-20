@@ -900,15 +900,15 @@
       <span class="thumbnail">
         <a>
           <xsl:attribute name="href">
-            <xsl:text>pages/viewsize/</xsl:text>
+            <xsl:text>images/viewsize/</xsl:text>
             <xsl:value-of select="@facs"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
           <img>
             <xsl:attribute name="src">
-              <xsl:text>pages/thumbs/</xsl:text>
+              <xsl:text>images/thumbs/</xsl:text>
               <xsl:value-of select="@facs"/>
-              <xsl:text>_thumb.jpg</xsl:text>
+              <xsl:text>.jpg</xsl:text>
             </xsl:attribute>
           </img>
         </a>
@@ -916,7 +916,7 @@
       <span class="viewsize">
         <a>
           <xsl:attribute name="href">
-            <xsl:text>pages/viewsize/</xsl:text>
+            <xsl:text>images/viewsize/</xsl:text>
             <xsl:value-of select="@facs"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
@@ -927,7 +927,7 @@
       <span class="fullsize">
         <a>
           <xsl:attribute name="href">
-            <xsl:text>pages/fullsize/</xsl:text>
+            <xsl:text>images/fullsize/</xsl:text>
             <xsl:value-of select="@facs"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
