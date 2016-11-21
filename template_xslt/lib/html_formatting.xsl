@@ -68,9 +68,7 @@
       test="
         //body//note[@type = 'editorial']
         or //body//note[@place = 'foot']
-        or //ref[@target]
-        or //back//note
-        ">
+        or //back//note">
       <div class="notesList">
         <h2>Notes</h2>
         <xsl:for-each select="//text//note">
