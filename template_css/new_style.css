@@ -249,13 +249,13 @@ blockquote div.p{
     text-indent: 0px;
 }
 
+/*Page Break Rules*/
 
 span.pagebreak a{
     float: right;
     clear: right;
-   /* margin-top: -0px;*/
     line-height: 1.5em;
-    margin: 10px 0 0 10px;
+    margin: -0px 0 0 10px;
 }
 
 span.pagebreak span.tei_thumbnail{
@@ -266,6 +266,19 @@ span.pagebreak span.tei_thumbnail{
 /*    margin-right: -7px;*/
     margin: 10px 0 0 10px;
 }
+
+span.pagebreak{
+    display: block;
+    font-size: 10pt;
+    border-top: 1px dashed #aaa;
+    margin-top: 1em;
+    height: 50px;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+}
+
+/* - - - -      End Page Break rules      - - - - */
 
 .sitenav {
 	margin-top: 1em;
@@ -585,11 +598,6 @@ span.fw_divider{
     text-align: center;
 }
 
-span.pagebreak span.thumbnail{
-    float: left;
-    padding: 0 7px 0 0;
-}
-
 span.fw_sig{
     font-size: 1em;
 }
@@ -674,20 +682,6 @@ div.notesList h2{
 
 /* - - - -      ORIG AND REG       - - - - */
 
-/* - - - -      Page Breaks       - - - - */
-
-
-span.pagebreak{
-    display: block;
-    font-size: 10pt;
-    border: 0px dashed black;
-    height: 50px;
-    padding: 15px;
-    width: 100%;
-    text-align: left;
-
-}
-
 /* - - - -      PARAGRAPHS       - - - - */
 
 /* - - - -      QUOTES       - - - - */
@@ -708,11 +702,4 @@ span.pagebreak{
 
 /* - - - -      UNCLEAR       - - - - */
 
-span.pagebreak a {
-	float: right; clear: right; margin-top: -0px; line-height: 1.5em;
-}
-
-span.pagebreak span.thumbnail {
-	float: right; padding-left: 10px; text-indent: 0px; clear: both; margin-right: -7px;
-}
 
