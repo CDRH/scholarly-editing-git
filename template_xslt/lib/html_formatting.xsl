@@ -897,7 +897,7 @@
       <xsl:attribute name="class">
         <xsl:text>pagebreak</xsl:text>
       </xsl:attribute>
-      <span class="thumbnail">
+      <span class="tei_thumbnail">
         <a>
           <xsl:attribute name="href">
             <xsl:text>images/viewsize/</xsl:text>

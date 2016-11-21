@@ -253,16 +253,18 @@ blockquote div.p{
 span.pagebreak a{
     float: right;
     clear: right;
-    margin-top: -0px;
+   /* margin-top: -0px;*/
     line-height: 1.5em;
+    margin: 10px 0 0 10px;
 }
 
-span.pagebreak span.thumbnail{
+span.pagebreak span.tei_thumbnail{
     float: right;
     padding-left: 10px;
     text-indent: 0px;
     clear: both;
-    margin-right: -7px;
+/*    margin-right: -7px;*/
+    margin: 10px 0 0 10px;
 }
 
 .sitenav {
