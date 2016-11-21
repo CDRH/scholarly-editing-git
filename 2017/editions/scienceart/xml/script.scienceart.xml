@@ -36,10 +36,9 @@
                         <addrLine>http://cdrh.unl.edu</addrLine>
                     </address>
             </distributor>
-            <date><!-- Year --></date>
-            <idno type="file"><!-- Name of XML file --></idno>
-            <!-- You will only need to use the following idno if you are creating an edition -->
-            <idno type="edition"><!-- Edition name --></idno>
+            <date>2017</date>
+            <idno type="file">script.scienceart.xml</idno>
+            <idno type="edition">scienceart</idno>
             <availability>
                <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
                   freely distributed by the Association for Documentary Editing and the Center for
@@ -63,7 +62,7 @@
                <resp>editor</resp>
                <name xml:id="awj">Andrew Jewell</name>
             </respStmt>
-            <idno type="vol"><!-- The Journal’s volume number --></idno>
+            <idno type="vol">38</idno>
             <idno type="ISSN">2167-1257</idno>
          </seriesStmt>
          <sourceDesc>
@@ -97,7 +96,8 @@
       </revisionDesc>
    </teiHeader>
    <text type="drama">
-     <body><div type="Dramatis_Personae">
+      <body><pb n="190" facs="Nesvet_190_0012"/>
+        <div type="Dramatis_Personae">
             <head type="main"><hi rend="italic">Dramatis Personae.</hi></head>
             <castList>
                <castGroup>
@@ -118,9 +118,9 @@
             </castList>
          </div>
         <div type="act" n="1"><div type="scene" n="1">
-               <pb n="190"/>
+           
                <head type="main">Act I. Scene I.</head>
-               <stage type="setting"><hi rend="italic">Young</hi>FREEMAN<hi rend="italic">’s
+               <stage type="setting"><hi rend="italic">Young</hi> FREEMAN<hi rend="italic">’s
                   Lodgings in the <seg corresp="#note2">Temple</seg>.&#8212;Two chairs and table.</hi><ptr
                      target="#note2" xml:id="nr2" n="2"/><lb/>
                </stage>
@@ -449,8 +449,8 @@
                <sp>
                   <speaker>Dick.</speaker>
                   <p>No; for when Old Patent went down to the fleet at
-                        <note>Portsmouth</note> to publish his proposals, our brave
-                        <note>tars</note> would have him thrown overboard for a a rascal who wanted
+                        <seg corresp="#note12">Portsmouth</seg> to publish his proposals, our brave
+                        <seg corresp="#note12">tars</seg> would have him thrown overboard for a a rascal who wanted
                      the enemy to get all the fighting to themselves. Baffled in this, he offered to
                      manufacture some for a few wealthy noblemen, who told him that if he could
                      contrive to make them say aye and nay, they would probably take a dozen or two,
@@ -550,7 +550,7 @@
                      part of Asia</seg>, learned in the sciences of astrology, mythology, mineralogy,
                      mathematics, optics, and hydraulics, who, after a study of more than one
                      hundred years, has contrived the most excellent and most perfect machine the
-                     world ever beheld, which he now presents for the inspection of the <note>philosophic</note>
+                     world ever beheld, which he now presents for the inspection of the <seg corresp="#note15">philosophic</seg>
                      Patent, whose renown has reached his ears from the other side of the globe.<ptr target="#note15"
                         xml:id="nr15" n="15"/></p>
                </sp>
@@ -591,7 +591,6 @@
                <head type="main">Act I. Scene 2.</head>
                <stage type="setting"><hi rend="italic">Scene&#8212;The House of Mr.</hi>
                   PATENT.</stage>
-               <stage> </stage>
                <stage type="entrance"><hi rend="italic">Enter</hi>
                   <hi rend="italic">MARIA</hi> and <hi rend="italic">ALICE.</hi></stage>
                <sp>
@@ -706,8 +705,8 @@
                <sp>
                   <speaker>Maria.</speaker>
                   <p>There is the grinding of so many foolish machines, and the click&#8211;clank of
-                     so many <seg corresp="#note17">pendulums</seg>, that one would think they were all day long in a <note>flour
-                     mill</note>.<ptr target="#note17"
+                     so many <seg corresp="#note17">pendulums</seg>, that one would think they were all day long in a <seg corresp="#note17">flour
+                     mill</seg>.<ptr target="#note17"
                         xml:id="nr17" n="17"/></p>
                </sp>
                <sp>
@@ -794,7 +793,7 @@
                   <p>Well, of all the curiosities of the creation, there is none which more
                      effectually eluded the eye of philosophic inquiry than a woman; she is like a
                      machine that is ever going wrong; vanity is the <seg corresp="#note20">main&#8211;spring</seg>, caprice the
-                     <note>pendulum</note>, and folly the <note>pivot</note> upon which she turns.<ptr target="#note20" xml:id="nr20" n="20"/></p>
+                     <seg corresp="#note20">pendulum</seg>, and folly the <seg corresp="#note20">pivot</seg> upon which she turns.<ptr target="#note20" xml:id="nr20" n="20"/></p>
                </sp>
                <sp>
                   <speaker>Maria.</speaker>
@@ -957,7 +956,7 @@
                </sp>
                <sp>
                   <speaker>Dick.</speaker>
-                  <p>I come to <note>present</note> the renowned Dr. Patent with a machine which
+                  <p>I come to <seg corresp="#note23">present</seg> the renowned Dr. Patent with a machine which
                         <term>excels</term> all other machines upon the face of the earth.<ptr
                         target="#note23" xml:id="nr23" n="23"/></p>
                </sp>
@@ -1211,9 +1210,9 @@
                   <speaker>Dick.</speaker>
                   <p>In the first place, sir, I intend to transfer <seg corresp="#note31">Kensington
                         Gardens</seg> to the neighbourhood of
-                        <note>Spitalfields</note>, and place the
-                        <note>Monument</note> on the middle of <note>Blackfriars
-                        Bridge</note><ptr target="#note31" xml:id="nr31" n="31"/>. </p>
+                        <seg corresp="#note31">Spitalfields</seg>, and place the
+                        <seg corresp="#note31">Monument</seg> on the middle of <seg corresp="#note31">Blackfriars
+                        Bridge</seg><ptr target="#note31" xml:id="nr31" n="31"/>. </p>
                </sp>
                <sp>
                   <speaker>Patent.</speaker>
@@ -1337,8 +1336,8 @@
                </sp>
                <sp>
                   <speaker>Tom.</speaker>
-                  <p>He is retained on a very great <seg corresp="#note34">cause</seg>, <note>depending</note> in
-                        <note>Yorkshire</note>.<ptr target="#note34" xml:id="nr34" n="34"
+                  <p>He is retained on a very great <seg corresp="#note34">cause</seg>, <seg corresp="#note34">depending</seg> in
+                        <seg corresp="#note34">Yorkshire</seg>.<ptr target="#note34" xml:id="nr34" n="34"
                      /></p>
                </sp>
                <sp>
@@ -1823,7 +1822,7 @@
                   <p>Had it not been for the discoveries of men of science, and the improvements
                      which they have suggested, mankind would have still been in a state of savage
                      barbarity: dens and caverns would have been his habitation, and his food the
-                     rank, spontaneous productions of <note>uncultivated nature</note>.</p>
+                     rank, spontaneous productions of uncultivated nature.</p>
                </sp>
                <sp>
                   <speaker>Old Freeman.</speaker>
@@ -2062,9 +2061,9 @@
                      I’ll knock it down!<stage type="business"><hi rend="italic">(Approaches and
                            raises the head of his nephew, the stick falls from his hand, both
                            continue for some time on their knees, staring vividly with
-                           astonishment).</hi>
-                        <p>What, Jack!</p></stage>
-                  </p>
+                           astonishment).</hi></stage></p>
+                        <p>What, Jack!</p>
+                  
                </sp>
                <sp>
                   <speaker>Freeman.</speaker>
