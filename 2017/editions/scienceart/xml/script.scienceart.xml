@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- Pointer to the TEI-all schema; change if you are using a custom schema. -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="eng">
       <fileDesc>
@@ -37,7 +37,7 @@
                     </address>
             </distributor>
             <date><!-- Year --></date>
-            <idno type="file">script.scienceart</idno>
+            <idno type="file"><!-- Name of XML file --></idno>
             <!-- You will only need to use the following idno if you are creating an edition -->
             <idno type="edition"><!-- Edition name --></idno>
             <availability>
@@ -63,7 +63,7 @@
                <resp>editor</resp>
                <name xml:id="awj">Andrew Jewell</name>
             </respStmt>
-            <idno type="vol">38</idno>
+            <idno type="vol"><!-- The Journal’s volume number --></idno>
             <idno type="ISSN">2167-1257</idno>
          </seriesStmt>
          <sourceDesc>
@@ -78,19 +78,13 @@
                <date type="publication" when="1842-08">August 1842</date>
                <biblScope unit="pp">190-207</biblScope>
                <note type="project">
-                  <p>Transcribed from the copy in the Rare Books Collection, Louis Round Wilson
-                     Library at the University of North Carolina, Chapel Hill (UNC). This copy and
-                     the Cambridge and British Library copies belonged to an original printed
-                     five&#8211;number volume, and were bound as an omnibus. They include some of
-                     the original wrappers, which were illustrated, like some of the magazine’s
-                     contents, by the celebrated cartoonist and engraver Thomas Onwhyn (d. 1886).
-                     The UNC copy consists of four numbers; the second number is missing. It is also
+                  <p>Transcribed from the copy of the <hi rend="italic">Queen's Magazine</hi> in the Rare Books Collection, Louis Round Wilson Library at the University of North Carolina, Chapel Hill (UNC). I must thank Rare Books Collection librarians Elizabeth Ott (Interim Curator) and Emily Kader for their kind assistance. Other copies survive at Cambridge University Library, the British Library, and Stanford University Library. This magazine ran for one volume, consisting of five numbers, continuously paginated throughout.</p><p> The UNC copy consists of four of the numbers: volume 1, no. 2 (May, 1842) through volume 1, no. 5 (August, 1842); no. 1 (May 1842) is missing. The included numbers contain original wrappers, which were illustrated, like some of the magazine’s contents, by the celebrated cartoonist and engraver Thomas Onwhyn (d. 1886). </p><p>The UNC copy is 
                      distinguished by his manuscript annotations and amendations, and was not
                      previously known to exist. In this copy, the portrait engraving of Rymer
                      (identified as "the Editor") conferring with an inspiring "Spirit of the Age"
                      (p. 76) has been cut out. It is not apparent who was responsible for this
                      defacement, nor when it took place. There are no other significant differences
-                     between the three copies. </p>
+                     between the this copy and British Library and Cambridge copies.</p><p>On each title page, the title is misspelled  “Queens.’”. I have silently amended the error throughout this edition.</p>
                </note>
             </bibl>
          </sourceDesc>
@@ -99,6 +93,7 @@
          <change when="2016-10-19" who="#rn"> made minor encoding corrections suggested by #nhg </change>
          <change when="2016-11-15" who="#rn"> completed major rewrite subsequent to UNC’s
             acquisition of the copy described above.</change>
+         <change when="2016-11-20" who="#rn"> minor encoding corrections </change>
       </revisionDesc>
    </teiHeader>
    <text type="drama">
@@ -108,13 +103,13 @@
                <castGroup>
                   <castItem><role>[Peter] Patent.</role><roleDesc>[An
                      inventor.]</roleDesc></castItem>
-                  <castItem><role>Old [Matthew] <note>Freeman</note>.</role><roleDesc>[A country
+                  <castItem><role>Old [Matthew] <seg corresp="#note1">Freeman</seg>.</role><roleDesc>[A country
                      lawyer.]</roleDesc></castItem>
                   <castItem><role>Young [Jack] Freeman.</role><roleDesc>[a city lawyer; Old
                         Freeman’s nephew; in the script, “Freeman.”]</roleDesc></castItem>
-                  <castItem><role>Dick <note>Lobby</note>.</role><roleDesc>[Another city lawyer; Freeman’s
+                  <castItem><role>Dick <seg corresp="#note1">Lobby</seg>.</role><roleDesc>[Another city lawyer; Freeman’s
                         friend.]</roleDesc></castItem>
-                  <castItem><role>Tom [<note>Clinker</note>].</role><roleDesc>[Freeman’s
+                  <castItem><role>Tom [<seg corresp="#note1">Clinker</seg>].</role><roleDesc>[Freeman’s
                      servant.]</roleDesc></castItem>
                   <castItem><role>Maria.</role><roleDesc>[Patent’s ward.]</roleDesc></castItem>
                   <castItem><role>Alice.</role><roleDesc>[Patent’s servant.]</roleDesc><ptr
@@ -123,10 +118,10 @@
             </castList>
          </div>
         <div type="act" n="1"><div type="scene" n="1">
-               <pb n="190" facs="Nesvet_190_0012"/>
+               <pb n="190"/>
                <head type="main">Act I. Scene I.</head>
-               <stage type="setting"><hi rend="italic">Young</hi> FREEMAN<hi rend="italic">’s
-                  Lodgings in the <seg>Temple</seg>.&#8212;Two chairs and table.</hi><ptr
+               <stage type="setting"><hi rend="italic">Young</hi>FREEMAN<hi rend="italic">’s
+                  Lodgings in the <seg corresp="#note2">Temple</seg>.&#8212;Two chairs and table.</hi><ptr
                      target="#note2" xml:id="nr2" n="2"/><lb/>
                </stage>
                <sp>
@@ -135,7 +130,7 @@
                      solus,<hi rend="italic"> (reading).</hi></stage>
                   <p>Bless me! Past five o’clock&#8212;Tom not yet returned, and my old uncle will
                      be popping his bald pate into every corner of the Temple in search of me. He
-                     expects to see me one day <note>Lord Chancellor</note>. Oh! how irksome is the dry study of the law to an
+                     expects to see me one day <seg corresp="#note3">Lord Chancellor</seg>. Oh! how irksome is the dry study of the law to an
                      expecting anxious lover!&#8212;but what have I to expect? Surely nothing but
                      disappointment: commanded by my uncle to pay my addresses to a lady with whose
                      person I am unacquainted, whose disposition I am ignorant of, and whose name I
@@ -151,11 +146,11 @@
                <sp>
                   <speaker>Freeman.</speaker>
                   <p>Well, my good fellow, Tom, what have you learnt? What news of my unknown, but
-                     bewitching <note>charmer</note>?<ptr target="#note4" xml:id="nr4" n="4"/></p>
+                     bewitching <seg corresp="#note4">charmer</seg>?<ptr target="#note4" xml:id="nr4" n="4"/></p>
                </sp>
                <sp>
                   <speaker>Tom.</speaker>
-                  <p><note>Ecod</note>, I believe she is a witch, with her charms; for I have run after her, and
+                  <p><seg corresp="#note5">Ecod</seg>, I believe she is a witch, with her charms; for I have run after her, and
                      about her, till I can hardly stand.<ptr target="#note5" xml:id="nr5" n="5"
                      /></p>
                </sp>
@@ -181,7 +176,7 @@
                   <speaker>Freeman.</speaker>
                   <p>What business had you after the girls? Did I not employ you to obtain
                      intelligence of the lady I followed home last night from the
-                        <note>Opera</note>?<ptr target="#note6" xml:id="nr6" n="6"/></p>
+                     <seg corresp="#note6">Opera</seg>?<ptr target="#note6" xml:id="nr6" n="6"/></p>
                </sp>
                <sp>
                   <speaker>Tom.</speaker>
@@ -276,7 +271,7 @@
                <sp>
                   <speaker>Tom.</speaker>
                   <p>Her guardian!&#8212;that is Old Patent, that invents the wheels and the
-                        <note>axes</note>, and them there queer kind of things.<ptr target="#note7"
+                     <seg corresp="#note7">axes</seg>, and them there queer kind of things.<ptr target="#note7"
                         xml:id="nr7" n="7"/>
                   </p>
                </sp>
@@ -303,7 +298,7 @@
                <stage type="entrance"><hi rend="italic">Enter</hi> DICK LOBBY.</stage>
                <sp>
                   <speaker>Dick.</speaker>
-                  <p>Hollo, Jack! how do you do? Called on you, on my way, to take you to the <note>Club</note>.<ptr target="#note8"
+                  <p>Hollo, Jack! how do you do? Called on you, on my way, to take you to the <seg corresp="#note8">Club</seg>.<ptr target="#note8"
                      xml:id="nr8" n="8"/> </p>
                </sp>
                <sp>
@@ -313,8 +308,8 @@
                <sp>
                   <speaker>Dick.</speaker>
                   <p>How? I say bless the Club. Is this honest Jack Freeman? Where, in the name of
-                     wonder, have you picked up that serious, hypocritical <note>phiz</note>? Has
-                     your uncle taken it into his foolish old head to be <note>married</note>? Or
+                     wonder, have you picked up that serious, hypocritical <seg corresp="#note9">phiz</seg>? Has
+                     your uncle taken it into his foolish old head to be <seg corresp="#note9">married</seg>? Or
                         has&#8212;&#8212;&#8212;<ptr target="#note9" xml:id="nr9" n="9"/></p>
                </sp>
                <sp>
@@ -418,8 +413,7 @@
                   <speaker>Dick.</speaker>
                   <p>You shall hear. It was not long ago that he published proposals for an
                         automaton
-                     <note>manufactory</note>, in which he explained the variety of uses those
-                     self&#8211;acting machines might be put to, and what an immense saving of
+                     <seg corresp="#note10">manufactory</seg>, in which he explained the variety of uses those self&#8211;acting machines might be put to, and what an immense saving of
                      expense to the nation to employ them. In the first place he contended, that the
                      business of an army, according to the system of modern tactics, might as well
                      be managed by automatons as real soldiers; this would be a wonderful saving, as
@@ -436,7 +430,7 @@
                      to machines, who have no will of their own; but the soldiers of a free country,
                      while they are fighting to secure their own liberty, at the same time command
                      the approbation and applause of mankind, and present the brightest pages of
-                     history to admiring posterity. What was the next use he intended <note>to</note> them?<ptr
+                     history to admiring posterity. What was the next use he intended <seg corresp="#note 11">to</seg> them?<ptr
                         target="#note11" xml:id="nr11" n="11"/></p>
                </sp>
                <sp>
@@ -460,8 +454,8 @@
                      the enemy to get all the fighting to themselves. Baffled in this, he offered to
                      manufacture some for a few wealthy noblemen, who told him that if he could
                      contrive to make them say aye and nay, they would probably take a dozen or two,
-                     as they might have use for them upon the <note>dissolution of
-                        Parliament</note>.<ptr target="#note12" xml:id="nr12" n="12"/>
+                     as they might have use for them upon the <seg corresp="#note12">dissolution of
+                        Parliament</seg>.<ptr target="#note12" xml:id="nr12" n="12"/>
                   </p>
                </sp>
                <sp>
@@ -471,7 +465,7 @@
                <sp>
                   <speaker>Dick.</speaker>
                   <p>Advice to a lover! I never saw one who would take anybody’s advice but their
-                     own. My advice is, go to the <note>club</note>, drink down old care, and a fig for
+                     own. My advice is, go to the <seg corresp="#note13">club</seg>, drink down old care, and a fig for
                      matrimony.<ptr target="#note13" xml:id="nr13" n="13"/></p>
                </sp>
                <sp>
@@ -482,8 +476,7 @@
                   <speaker>Dick.</speaker>
                   <p>And the curse of all jovial fellows. Happy the bachelor who roams through life
                      free and unrestrained! No scolding wife&#8212;no brawling children&#8212;no
-                        <note>horns</note>&#8212;no bills.<ptr target="#note14" xml:id="nr14" n="14"
-                     /></p>
+                     <seg corresp="#note14">horns</seg>&#8212;no bills.<ptr target="#note14" xml:id="nr14" n="14"/></p>
                </sp>
                <sp>
                   <speaker>Freeman.</speaker>
@@ -553,8 +546,8 @@
                </sp>
                <sp>
                   <speaker>Dick.</speaker>
-                  <p>Yes; and I shall be the great Doctor Bolasco Rodosco, come from the <note>farthest
-                     part of Asia</note>, learned in the sciences of astrology, mythology, mineralogy,
+                  <p>Yes; and I shall be the great Doctor Bolasco Rodosco, come from the <seg corresp="#note15">farthest
+                     part of Asia</seg>, learned in the sciences of astrology, mythology, mineralogy,
                      mathematics, optics, and hydraulics, who, after a study of more than one
                      hundred years, has contrived the most excellent and most perfect machine the
                      world ever beheld, which he now presents for the inspection of the <note>philosophic</note>
@@ -644,8 +637,8 @@
                </sp>
                <sp>
                   <speaker>Alice.</speaker>
-                  <p>Married! I would have you know, Miss, that I might have been married to <note>twenty
-                     husbands</note>, if I had chosen it.<ptr target="#note16"
+                  <p>Married! I would have you know, Miss, that I might have been married to <seg corresp="#note16">twenty
+                     husbands</seg>, if I had chosen it.<ptr target="#note16"
                         xml:id="nr16" n="16"/></p>
                </sp>
                <sp>
@@ -713,7 +706,7 @@
                <sp>
                   <speaker>Maria.</speaker>
                   <p>There is the grinding of so many foolish machines, and the click&#8211;clank of
-                     so many <note>pendulums</note>, that one would think they were all day long in a <note>flour
+                     so many <seg corresp="#note17">pendulums</seg>, that one would think they were all day long in a <note>flour
                      mill</note>.<ptr target="#note17"
                         xml:id="nr17" n="17"/></p>
                </sp>
@@ -735,7 +728,7 @@
                <sp>
                   <speaker>Maria.</speaker>
                   <p>I don’t know: you are so queer, so out of the way, not like any other body, as
-                     one may say, and have so many strange <term>windmill notions</term> in your
+                     one may say, and have so many strange <seg corresp="#note18">windmill notions</seg> in your
                      head, my dear Guardy&#8212;I dare say every one laughs as much as I do at
                         you.<ptr target="#note18" xml:id="nr18" n="18"/></p>
                </sp>
@@ -777,7 +770,7 @@
                </sp>
                <sp>
                   <speaker>Maria.</speaker>
-                  <p>My lover! Lord, sir! he never <term>made love</term> to me! I never saw
+                  <p>My lover! Lord, sir! he never <seg corresp="#note19">made love</seg> to me! I never saw
                         him!<ptr target="#note19" xml:id="nr19" n="19"/></p>
                </sp>
                <sp>
@@ -800,7 +793,7 @@
                   <speaker>Patent.</speaker>
                   <p>Well, of all the curiosities of the creation, there is none which more
                      effectually eluded the eye of philosophic inquiry than a woman; she is like a
-                     machine that is ever going wrong; vanity is the <note>main&#8211;spring</note>, caprice the
+                     machine that is ever going wrong; vanity is the <seg corresp="#note20">main&#8211;spring</seg>, caprice the
                      <note>pendulum</note>, and folly the <note>pivot</note> upon which she turns.<ptr target="#note20" xml:id="nr20" n="20"/></p>
                </sp>
                <sp>
@@ -813,8 +806,8 @@
                </sp>
                <sp>
                   <speaker>Patent.</speaker>
-                  <p>Absurd, ridiculous girl! if ever you marry that skipping <placeName>Bond
-                        Street</placeName> puppy, I am one of the veriest fools in nature.<ptr
+                  <p>Absurd, ridiculous girl! if ever you marry that skipping <seg corresp="#note21">Bond
+                        Street</seg> puppy, I am one of the veriest fools in nature.<ptr
                         target="#note21" xml:id="nr21" n="21"/></p>
                </sp>
                <sp>
@@ -891,7 +884,7 @@
                </sp>
                <sp>
                   <speaker>Patent.</speaker>
-                  <p>Try, however: besides, I wish you to guard well, lest a <term>dangling</term>
+                  <p>Try, however: besides, I wish you to guard well, lest a <seg corresp="#note22">dangling</seg>
                      young fellow she saw last night at the Opera, should get admittance into the
                         house.<ptr target="#note22" xml:id="nr22" n="22"/></p>
                </sp>
@@ -972,8 +965,8 @@
                   <speaker>Alice.</speaker>
                   <p>Machine! there shall be no machine come here; my master has too many machines
                      already. As for you, Mr. Doctor Snuffy Macrosky, come from the farthest corner
-                     of Asia, if you had any good manners, you would have called in at a <note>barber’s
-                     shop</note> by the way and had your beard shaved, before you ventured to appear before
+                     of Asia, if you had any good manners, you would have called in at a <seg corresp="#note24">barber’s
+                     shop</seg> by the way and had your beard shaved, before you ventured to appear before
                      the ladies.<ptr target="#note24" xml:id="nr24" n="24"/></p>
                </sp>
                <sp>
@@ -1034,7 +1027,7 @@
                   <speaker>Dick.</speaker>
                   <p>Well done, as yet; but ecod, you’re a clever fellow. I hope to serve
                      effectually my friend Freeman; but here comes Old Patent. Now to my aid, all ye
-                     <note>powers of gravity</note>!<ptr target="#note25" xml:id="nr25" n="25"/></p>
+                     <seg corresp="#note25">powers of gravity</seg>!<ptr target="#note25" xml:id="nr25" n="25"/></p>
                </sp>
                <stage type="entrance"><hi rend="italic">Enter PATENT. </hi></stage>
                <sp>
@@ -1062,18 +1055,18 @@
                <sp>
                   <speaker>Dick.</speaker>
                   <p>I am the great Doctor Bolaski Rodoski, the most renowned of the <term>bramins</term> of the
-                     east; and I may say, without vanity, the most skilful of the <term>magi</term>.<ptr target="#note26"
+                     east; and I may say, without vanity, the most skilful of the <seg corresp="#note26">magi</seg>.<ptr target="#note26"
                         xml:id="nr26" n="26"/> </p>
                </sp>
                <sp>
                   <speaker>Patent.</speaker>
-                  <p>Most worthy sir, happy am I that my humble dwelling is honoured by such a
+                  <p>Most worthy sir, happ1y am I that my humble dwelling is honoured by such a
                      visit.</p>
                </sp>
                <sp>
                   <speaker>Dick.</speaker>
                   <p>The cottage of the philosopher is to me more magnificent than the palace of the
-                     <note>Emperor of China</note>; and you, sir, though your country has been tardy in rewarding
+                     <seg corresp="#note27">Emperor of China</seg>; and you, sir, though your country has been tardy in rewarding
                      your merit, your fame has reached the farthest corner of Asia.<ptr target="#note27"
                         xml:id="nr27" n="27"/></p>
                </sp>
@@ -1130,7 +1123,7 @@
                </sp>
                <sp>
                   <speaker>Dick.</speaker>
-                  <p>You shall see it presently, sir. It is an automaton; but of <note>so perfect</note> a
+                  <p>You shall see it presently, sir. It is an automaton; but of <seg corresp="#note28">so perfect</seg> a
                      construction, that the united power of man cannot make such another.<ptr target="#note28"
                         xml:id="nr28" n="28"/></p>
                </sp>
@@ -1150,7 +1143,7 @@
                   <p> F double O L. This piece of good fortune makes ample amends for the vexation
                      Maria’s obstinacy has occasioned me. Peter Patent, F double O L! Well, men of
                      genius and merit are sure to be rewarded one time or mother. I am now known to
-                     all the learned in Asia. I shall get myself instructed in <note>Arabic</note>, that I may be
+                     all the learned in Asia. I shall get myself instructed in <seg corresp="#note">Arabic</seg>, that I may be
                      able the more easily to correspond with them. I shall write a treatise upon
                      this machine which they have sent me; this will spread my fame though all the
                      learned in Europe&#8212;the degree of Doctor will soon be conferred upon me,
@@ -1160,7 +1153,7 @@
                </sp>
                <stage type="mixed"><hi rend="italic">Re&#8211;enter </hi>DICK LOBBY<hi rend="italic"
                      >, leading in </hi>FREEMAN<hi rend="italic">, with a mask and
-                        <note>domino</note>: </hi>FREEMAN<hi rend="italic"> steps by starts, as if
+                        <seg corresp="#note30">domino</seg>: </hi>FREEMAN<hi rend="italic"> steps by starts, as if
                      set a going by wheels. </hi>PATENT<hi rend="italic"> puts on his spectacles to
                      observe him, and while with eager curiosity he stands directly before
                      </hi>FREEMAN<hi rend="italic">, the latter, as if by an involuntary motion,
@@ -1216,8 +1209,8 @@
                <pb n="198"/>
                <sp>
                   <speaker>Dick.</speaker>
-                  <p>In the first place, sir, I intend to transfer <note>Kensington
-                        Gardens</note> to the neighbourhood of
+                  <p>In the first place, sir, I intend to transfer <seg corresp="#note31">Kensington
+                        Gardens</seg> to the neighbourhood of
                         <note>Spitalfields</note>, and place the
                         <note>Monument</note> on the middle of <note>Blackfriars
                         Bridge</note><ptr target="#note31" xml:id="nr31" n="31"/>. </p>
@@ -1239,7 +1232,7 @@
                <sp>
                   <speaker>Dick.</speaker>
                   <p>Sir, you may command me. I must now take my leave, having important dispatches
-                     to forward to the Emperor of <note>Mogul Tartary</note>. Nay, do not
+                     to forward to the Emperor of <seg corresp="#note32">Mogul Tartary</seg>. Nay, do not
                      stir; I shall not give you the trouble of waiting upon me to the door.<ptr
                         target="#note32" xml:id="nr32" n="32"/></p>
                </sp>
@@ -1330,7 +1323,7 @@
                </sp>
                <sp>
                   <speaker>Old Freeman.</speaker>
-                 <p>Ecod, he’s a clever fellow&#8212;was always a <note>cute</note> dog&#8212;but where is he?
+                  <p>Ecod, he’s a clever fellow&#8212;was always a <seg corresp="#note33">cute</seg> dog&#8212;but where is he?
                      where is he?<ptr target="#note33"
                         xml:id="nr33" n="33"/></p>
                </sp>
@@ -1344,7 +1337,7 @@
                </sp>
                <sp>
                   <speaker>Tom.</speaker>
-                  <p>He is retained on a very great <note>cause</note>, <note>depending</note> in
+                  <p>He is retained on a very great <seg corresp="#note34">cause</seg>, <note>depending</note> in
                         <note>Yorkshire</note>.<ptr target="#note34" xml:id="nr34" n="34"
                      /></p>
                </sp>
@@ -1374,8 +1367,8 @@
                </sp>
                <sp>
                   <speaker>Tom.</speaker>
-                  <p>A volunteer colonel, sir, was caught drinking tea at <note>Bagnigge
-                        Wells</note> with a tailor’s wife.<ptr target="#note35" xml:id="nr35"
+                  <p>A volunteer colonel, sir, was caught drinking tea at <seg corresp="#note35">Bagnigge
+                        Wells</seg> with a tailor’s wife.<ptr target="#note35" xml:id="nr35"
                         n="35"/>
                   </p>
                </sp>
@@ -1386,7 +1379,7 @@
                <sp>
                   <speaker>Tom.</speaker>
                   <p>When the tailor heroically resolved to avenge his injured honour, by calling
-                     the seducer to account in the&#8212;&#8212;<term>Court of Queen’s Bench</term>.<ptr target="#note36"
+                     the seducer to account in the&#8212;&#8212;<seg corresp="#note36">Court of Queen’s Bench</seg>.<ptr target="#note36"
                         xml:id="nr36" n="36"/></p>
                </sp>
                <sp>
@@ -1423,7 +1416,7 @@
                      enacted for men; now the Colonel being placed over or above a company of men,
                      he is consequently more than a man; and the tailor being commonly reputed to be
                      less, the law with regard to the parties was in noebus waysibus applicablus,
-                     therefore the plaintiff ought to be <note>nonsuited</note>.<ptr
+                     therefore the plaintiff ought to be <seg corresp="#note37">nonsuited</seg>.<ptr
                         target="#note37" xml:id="nr37" n="37"/></p>
                </sp>
                <sp>
@@ -1444,7 +1437,7 @@
                   <p>Yes, sir, wit is the true road to preferment at the bar; and I’ll give you a
                      specimen: let us suppose, sir, that I am a counsellor, and you are a witness.
                      Now answer me as to what I shall interrogate you. Are you not Matthew Freeman,
-                     Esq., from <note>Suffolk</note>?<ptr target="#note38" xml:id="nr38"
+                     Esq., from <seg corresp= "#note38">Suffolk</seg>?<ptr target="#note38" xml:id="nr38"
                         n="38"/></p>
                </sp>
                <sp>
@@ -1625,14 +1618,14 @@
                      <l>Oh! could he view my soul sincere!</l>
                      <l>Though hopeless love disturbs its rest; </l>
                      <l>He’d find his image pictur’d there, </l>
-                     <l>For ever lov’d, and still <note>carest</note>.<ptr target="#note39"
+                     <l>For ever lov’d, and still <seg corresp="#note39">carest</seg>.<ptr target="#note39"
                            xml:id="nr39" n="39"/>
                      </l>
                   </lg>
                   <pb n="201"/>
                   <l>At morning dawn or close of day, </l>
                   <l>I’d prize with him the lowest cot;</l>
-                  <l>With him would join the <note>rural hay</note><ptr target="#note40"
+                  <l>With him would join the <seg corresp="#note40">rural hay</seg><ptr target="#note40"
                         xml:id="nr40" n="40"/></l>
                   <l>All else but love and him forgot. </l>
                   <l>And when the term of life draw nigh,</l>
@@ -1835,7 +1828,7 @@
                <sp>
                   <speaker>Old Freeman.</speaker>
                   <p>Nonsence! nonsence! I am for the good old way, the plain downright old way.
-                     None of your <note>kickshaw</note> fashions for me. The man that wears his
+                     None of your <seg corresp="#note41">kickshaw</seg> fashions for me. The man that wears his
                      spectacles dangling at his breast instead of placing them right upon his nose,
                      may chance to run his head against a post.<ptr target="#note41" xml:id="nr41"
                         n="41"/></p>
@@ -2069,9 +2062,9 @@
                      I’ll knock it down!<stage type="business"><hi rend="italic">(Approaches and
                            raises the head of his nephew, the stick falls from his hand, both
                            continue for some time on their knees, staring vividly with
-                           astonishment).</hi></stage></p>
-                        <p>What, Jack!</p>
-                  
+                           astonishment).</hi>
+                        <p>What, Jack!</p></stage>
+                  </p>
                </sp>
                <sp>
                   <speaker>Freeman.</speaker>
@@ -2082,7 +2075,7 @@
                   <p>My dear boy, let me embrace you. How are you here? What, are you turned a
                      machine? After the girl, I dare say. What has come of your great cause in
                      Yorkshire? How are you in this house? Did not think you knew it.
-                        <note>Odsbuds</note>! I am glad to see you. What brought you hither?<ptr
+                     <seg corresp="#note42">Odsbuds</seg>! I am glad to see you. What brought you hither?<ptr
                         target="#note42" xml:id="nr42" n="42"/></p>
                </sp>
                <stage type="entrance"><hi rend="italic">Enter </hi>MARIA <hi rend="italic"
@@ -2125,8 +2118,8 @@
                </sp>
                <sp>
                   <speaker>Old Freeman.</speaker>
-                  <p>Odsbuds! <note>the</note> very girl! Old Patent and I agreed&#8212;writings drawn
-                     up&#8212;licence bought&#8212;odsbuds! the very girl!<ptr target="#note43" xml:id="nr43" n="44"/></p>
+                  <p>Odsbuds! <seg corresp="#note43">the</seg> very girl! Old Patent and I agreed&#8212;writings drawn
+                     up&#8212;licence bought&#8212;odsbuds! the very girl!<ptr target="#note43" xml:id="nr43" n="43"/></p>
                </sp>
                <sp>
                   <speaker>Maria.</speaker>
@@ -2150,7 +2143,7 @@
                </sp>
                <sp>
                   <speaker>Old Freeman.</speaker>
-                  <p>My dear sweet girl! I must have a <note>buss</note>; I’m an old fellow, but
+                  <p>My dear sweet girl! I must have a <seg corresp="#note44">buss</seg>; I’m an old fellow, but
                      I’ve a warm heart&#8212;I am so happy&#8212;Heaven bless you both! but tell me,
                      Jack, how came you hither?<ptr target="#note44" xml:id="nr44" n="44"/></p>
                </sp>
@@ -2215,7 +2208,7 @@
                <sp>
                   <speaker>Tom.</speaker>
                   <p>Nay, I will see my master, dead or alive; for I know if that old rascal,
-                     Patent, catches him, he’ll make a <note>gypsy</note> mummy of him.<ptr
+                     Patent, catches him, he’ll make a <seg corresp="#note45">gypsy</seg> mummy of him.<ptr
                         target="#note45" xml:id="nr45" n="45"/></p>
                </sp>
                <sp>
@@ -2296,7 +2289,7 @@
                </sp>
                <sp>
                   <speaker>Tom.</speaker>
-                  <p>Well, what does my master do, but turn himself into a <note>tomtit</note>.<ptr
+                  <p>Well, what does my master do, but turn himself into a <seg corresp="#note46">tomtit</seg>.<ptr
                         target="#note46" xml:id="nr46" n="46"/></p>
                </sp>
                <sp>
@@ -2407,7 +2400,7 @@
                </sp>
                <sp>
                   <speaker>Patent.</speaker>
-                  <p>Where are my <note>newly&#8211;invented</note> pistols!<ptr target="#note47"
+                  <p>Where are my <seg corresp="#note47">newly&#8211;invented</seg> pistols!<ptr target="#note47"
                         xml:id="nr47" n="47"/></p>
                </sp>
                <sp>
@@ -2463,7 +2456,7 @@
                </sp>
                <sp>
                   <speaker>Patent.</speaker>
-                  <p>True, true; Ptolemy<ptr target="#note48" xml:id="nr48" n="48"/>; very true.</p>
+                  <p>True, true; <seg corresp="#note48">Ptolemy</seg><ptr target="#note48" xml:id="nr48" n="48"/>; very true.</p>
                </sp>
                <sp>
                   <speaker>Old Freeman.</speaker>
@@ -2548,13 +2541,13 @@
                <sp>
                   <speaker>Old Freeman.</speaker>
                   <p>Then, my good old boy, we have nothing to do but feast and be merry.
-                        <note>Adzooks</note>! We shall have rare carousing! I have a strong
+                     <seg corresp="#note49">Adzooks</seg>! We shall have rare carousing! I have a strong
                      inclination to dance. We must have a dozen or two of fiddlers. Odsbuds! I can
                      hardly keep my legs.<ptr target="#note49" xml:id="nr49" n="49"/></p>
                </sp>
                <sp>
                   <speaker>Patent.</speaker>
-                  <p> I shall bring my new invented <note>hurdy&#8211;gurdy</note>.<ptr target="#note50"
+                  <p> I shall bring my new invented <seg corresp="#note50">hurdy&#8211;gurdy</seg>.<ptr target="#note50"
                         xml:id="nr50" n="50"/></p>
                </sp>
                <sp>
@@ -2649,7 +2642,7 @@
                </sp>
                <sp>
                   <speaker>Old Freeman.</speaker>
-                  <p>Very humane and very <note>philosophic</note>.<ptr target="#note51" xml:id="nr51" n="51"
+                  <p>Very humane and very <seg corresp="#note51">philosophic</seg>.<ptr target="#note51" xml:id="nr51" n="51"
                      /></p>
                </sp>
                <sp>
