@@ -157,7 +157,7 @@
                 </li>
                 
                 <li role="presentation" class="about">
-                  <a href="{$siteroot}se.index.about.html">About</a>
+                  <a href="{$siteroot}se.about.html">About</a>
                 </li>
                 
                

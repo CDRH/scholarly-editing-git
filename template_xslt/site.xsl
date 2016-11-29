@@ -11,7 +11,7 @@
   <!--                             IMPORTS                                  -->
   <!-- ==================================================================== -->
   
-  <xsl:import href="lib/html_formatting.xsl"/>
+  <xsl:import href="lib/html_formatting.xsl"/> 
   <!-- If this file is living in a projects directory, the paths will be
      ../../../scripts/xslt/cdrh_tei_to_html/lib/html_formatting.xsl -->
   

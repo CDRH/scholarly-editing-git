@@ -45,11 +45,11 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>Science and Art: A Farce in Two Acts</em></h1>
+        <h1><em>Science and Art: A Farce, in Two Acts</em>, by Malcolm Rymer</h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
-        <!--<div class="body_author">Rebecca Nesvet</div>-->
+        <div class="body_author">Edited by Rebecca Nesvet</div>
         
         <!-- $edition_navigation 
          Each <li> is pulled in and new navigation is constructed. Appending #page_info at the end sets the 
@@ -59,7 +59,7 @@
             <li class="first"><a href="intro.html#page_info">Introduction</a></li>
             <li><a href="script.html#page_info">Edition</a></li>
             <li><a href="{$idno}.xml">Page XML &#8659;</a></li>
-            <li><a href="extracts.youngidea.xml">Edition XML &#8659;</a></li>
+            <li><a href="scienceart.zip">Edition XML &#8659;</a></li>
           </ul>
         </nav>
         
@@ -83,4 +83,36 @@
      here.  You cannot call a named template from directly within the stylesheet tag
      but you can redefine one here to be called by an imported template -->
   
+  
+  <xsl:template match="head[not(ancestor::figure)]">
+    <h3><strong><xsl:apply-templates/></strong></h3>
+  </xsl:template>
+  
+  <xsl:template match="note" mode="footnotes">
+    <xsl:variable name="noteCount" select="count(preceding::note)"/>
+    <p><xsl:value-of select="$noteCount"/>
+    
+    <xsl:text>. </xsl:text>
+    <span class="note_text">
+      <xsl:apply-templates/>
+    </span>
+    <xsl:text> [</xsl:text>
+    <a>
+      <xsl:attribute name="href">
+        <xsl:text>#inline</xsl:text>
+        <xsl:value-of select="@xml:id"/>
+      </xsl:attribute>
+      <xsl:text>back</xsl:text>
+    </a>
+    <xsl:text>]</xsl:text></p>
+  </xsl:template>
+  
+  <xsl:template match="quote">
+    <span class="blockquote"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="byline">
+    <h4><strong><xsl:apply-templates/></strong></h4>
+  </xsl:template>
+
 </xsl:stylesheet>

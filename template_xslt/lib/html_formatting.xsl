@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0" exclude-result-prefixes="xsl tei xs">
   <xsl:variable name="editionName"/>
-
+ 
   <!-- ================================================ -->
   <!--         Email address protection                 -->
   <!-- ================================================ -->
@@ -68,10 +68,9 @@
       test="
         //body//note[@type = 'editorial']
         or //body//note[@place = 'foot']
-        or //ref[@target]
-        or //back//note
-        ">
-      <div class="footnotes">
+        or //back//note">
+      <div class="notesList">
+        <h2>Notes</h2>
         <xsl:for-each select="//text//note">
           <div class="footnote">
             <xsl:attribute name="id">
@@ -498,36 +497,44 @@
   </figure>-->
 
 
-  <xsl:template match="figure/graphic">
+<!--  <xsl:template match="figure/graphic">
     <img>
       <xsl:attribute name="src">
-        <xsl:text>images/</xsl:text>
+        <xsl:text>images/viewsize/</xsl:text>
         <xsl:value-of select="./attribute::url"/>
       </xsl:attribute>
       <xsl:attribute name="alt">
-        <xsl:value-of select="child::tei:figDesc"/>
+        <xsl:value-of select="child::figDesc[1]"/>
       </xsl:attribute>
     </img>
-  </xsl:template>
+  </xsl:template>-->
 
-  <xsl:template match="figure/head">
+  <!--<xsl:template match="figure/head">
     <h5>
       <xsl:apply-templates/>
     </h5>
-  </xsl:template>
+  </xsl:template>-->
 
   <xsl:template match="figure" priority="1">
-    <span>
-      <xsl:attribute name="class">
+    <span class="figure_center">
+      <!--<xsl:attribute name="class">
         <xsl:text>tei_figure</xsl:text>
-      </xsl:attribute>
-
-      <xsl:apply-templates/>
+      </xsl:attribute>-->
+      <img>
+        <xsl:attribute name="src">
+          <xsl:text>images/viewsize/</xsl:text>
+          <xsl:value-of select="child::graphic/attribute::url"/>
+        </xsl:attribute>
+        <xsl:attribute name="alt">
+          <xsl:value-of select="child::figDesc"/>
+        </xsl:attribute>
+      </img></span>
+      <span class="cap"><h5>
+        <strong><xsl:apply-templates select="child::head"/></strong><xsl:text>: </xsl:text><xsl:apply-templates select="child::figDesc"/>
+      </h5>
 
     </span>
   </xsl:template>
-
-
 
 
   <!-- ================================================ -->
@@ -626,9 +633,9 @@
                 </h6>
               </xsl:when>
               <xsl:otherwise>
-                <h4>
+                <h3>
                   <xsl:apply-templates/>
-                </h4>
+                </h3>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:when>
@@ -655,9 +662,9 @@
                 </h6>
               </xsl:when>
               <xsl:otherwise>
-                <h4>
+                <h3>
                   <xsl:apply-templates/>
-                </h4>
+                </h3>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:otherwise>
@@ -686,7 +693,7 @@
   <!--                        HI                        -->
   <!-- ================================================ -->
 
-  <xsl:template match="hi[@rend]" priority="2">
+ <!-- <xsl:template match="hi[@rend]" priority="2">
     <span>
       <xsl:attribute name="class">
         <xsl:text>tei_rend_</xsl:text>
@@ -694,7 +701,7 @@
       </xsl:attribute>
       <xsl:apply-templates/>
     </span>
-  </xsl:template>
+  </xsl:template>-->
 
   <xsl:template match="hi[@rend = 'italic'] | hi[@rend = 'italics']" priority="1">
     <em>
@@ -741,7 +748,7 @@
   <!--                        HIDE                      -->
   <!-- ================================================ -->
 
-  <xsl:template match="teiHeader | revisionDesc | publicationStmt | sourceDesc | figDesc">
+  <xsl:template match="teiHeader | revisionDesc | publicationStmt | sourceDesc">
     <xsl:text> </xsl:text>
   </xsl:template>
 
@@ -885,18 +892,18 @@
       <xsl:attribute name="class">
         <xsl:text>pagebreak</xsl:text>
       </xsl:attribute>
-      <span class="thumbnail">
+      <span class="tei_thumbnail">
         <a>
           <xsl:attribute name="href">
-            <xsl:text>pages/viewsize/</xsl:text>
+            <xsl:text>images/viewsize/</xsl:text>
             <xsl:value-of select="@facs"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
           <img>
             <xsl:attribute name="src">
-              <xsl:text>pages/thumbs/</xsl:text>
+              <xsl:text>images/thumbs/</xsl:text>
               <xsl:value-of select="@facs"/>
-              <xsl:text>_thumb.jpg</xsl:text>
+              <xsl:text>.jpg</xsl:text>
             </xsl:attribute>
           </img>
         </a>
@@ -904,7 +911,7 @@
       <span class="viewsize">
         <a>
           <xsl:attribute name="href">
-            <xsl:text>pages/viewsize/</xsl:text>
+            <xsl:text>images/viewsize/</xsl:text>
             <xsl:value-of select="@facs"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
@@ -915,7 +922,7 @@
       <span class="fullsize">
         <a>
           <xsl:attribute name="href">
-            <xsl:text>pages/fullsize/</xsl:text>
+            <xsl:text>images/fullsize/</xsl:text>
             <xsl:value-of select="@facs"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
@@ -988,15 +995,45 @@
   <!-- ================================================ -->
 
   <!-- Handwritten From CWW - move into project file? -->
-  <xsl:template match="seg[@type = 'handwritten']">
-    <span>
+  <xsl:template match="seg">
+    <xsl:choose><xsl:when test="@type='handwritten'"><span>
       <xsl:attribute name="class">
         <xsl:text>handwritten</xsl:text>
       </xsl:attribute>
       <xsl:apply-templates/>
-    </span>
+    </span></xsl:when>
+    <xsl:otherwise>
+      <xsl:apply-templates/>
+    </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
-
+  <!-- ================================================ -->
+  <!--                       STAGE                      -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="stage">
+    <xsl:choose><xsl:when test="following-sibling::stage"><span class="align_center"><xsl:apply-templates/></span></xsl:when>
+      <xsl:otherwise><span class="align_center"><xsl:apply-templates/></span><br/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="castItem">
+    <!--<table><tr><td class="table_cell"><strong><xsl:apply-templates select="role"/></strong></td><td><xsl:apply-templates select="roleDesc"/></td></tr></table>-->
+    <xsl:apply-templates/><br/>
+  </xsl:template>
+  
+  <xsl:template match="castItem/role">
+    <span class="cast_role"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="castItem//note">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="castItem/roleDesc">
+    <span class="align_right"><xsl:apply-templates/></span>
+  </xsl:template>
+  
   <!-- ================================================ -->
   <!--                    SIGNATURE                     -->
   <!-- ================================================ -->
@@ -1106,7 +1143,43 @@
     </span>
   </xsl:template>
 
+<!-- ================================================ -->
+  <!--                     AUTHORS AND EDITORS          -->
+  <!-- ================================================ -->
+<xsl:template match="div/bibl/editor">
+  <!--<span class="editor_list"><xsl:apply-templates/></span><br/>-->
+</xsl:template>
+  
+  <xsl:template match="list//bibl//author">
+    <xsl:choose><xsl:when test="not(preceding-sibling::author)"><xsl:text>by </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:when test="preceding-sibling::author and following-sibling::author"><xsl:apply-templates/><xsl:text>, </xsl:text></xsl:when>
+      <xsl:when test="preceding-sibling::author and not(following-sibling::author)"><xsl:text> and </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
 
-
+<xsl:template match="affiliation">
+  <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+</xsl:template>
+  
+  <xsl:template match="list//bibl//editor">
+    <xsl:choose><xsl:when test="not(preceding-sibling::editor)"><xsl:text>by </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:when test="preceding-sibling::editor and following-sibling::editor"><xsl:text>, </xsl:text><xsl:apply-templates/><xsl:text>, </xsl:text></xsl:when>
+      <xsl:when test="preceding-sibling::editor and not(following-sibling::editor)"><xsl:text> and </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <!-- ================================================ -->
+  <!--                     ADDRESS                      -->
+  <!-- ================================================ -->
+  
+  <xsl:template match="address">
+    <span class="address"><xsl:apply-templates/></span><br/>
+  </xsl:template>
+  
+  <xsl:template match="addrLine">
+    <span class="addrLine"><xsl:apply-templates/></span>
+  </xsl:template>
 
 </xsl:stylesheet>
