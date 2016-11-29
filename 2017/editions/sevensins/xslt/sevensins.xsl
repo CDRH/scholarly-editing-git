@@ -74,26 +74,32 @@
             <div class="full_width"></div>
           </xsl:if>
           
+          <xsl:if test="$idno != 'intro.sevensins'">
           <div class="row controls text-center regularized" id="controls_sevensins" >
             <div class="col-md-4 text-center">
-              <a class="btn btn-default btn-xs" id="button_regularize" href="#" role="button">Regularized</a>
-              <a class="btn btn-default btn-xs" id="button_diplomatic" href="#" role="button">Diplomatic</a>
-            </div>
-            <div class="col-md-4 text-center">
-              <!--<a class="btn btn-default btn-xs" id="button_highlight" href="#" role="button">Highlight Quotes</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-->
               <a class="btn btn-default btn-xs" id="button_line_breaks" href="#" role="button">Line Breaks</a>
-              <!--<a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-->
-              <!-- <a class="btn btn-default btn-xs" id="button_notes" href="&amp;notes=true" role="button">Display Notes</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a><br/>-->
               <a class="btn btn-default btn-xs" id="button_editorial_marks" href="#" role="button">Editorial Marks</a>
             </div>
             <div class="col-md-4 text-center">
+              <xsl:if test="$idno != 'translation.sevensins'">
+              <a class="btn btn-default btn-xs" id="button_regularize" href="#" role="button">Regularized</a>
+              <a class="btn btn-default btn-xs" id="button_diplomatic" href="#" role="button">Diplomatic</a>
+              </xsl:if>
+              
+            </div>
+            <div class="col-md-4 text-center">
               <a class="btn btn-default btn-xs" id="button_toggle_Bd" href="#" role="button">Toggle Bd</a>
+                <a class="popper" data-toggle="popover" title="" content="" data-original-title="test">[?]</a>
+                <span class="hide popper-content"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/listWit/witness[@xml:id='Bd']"/></span>
               <a class="btn btn-default btn-xs" id="button_toggle_Tr" href="#" role="button">Toggle Tr</a>
+                <a class="popper" data-toggle="popover" title="" content="" data-original-title="test">[?]</a>
+                <span class="hide popper-content"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/listWit/witness[@xml:id='Tr']"/></span>
               <a class="btn btn-default btn-xs" id="button_toggle_Em" href="#" role="button">Toggle Em</a>
+                <a class="popper" data-toggle="popover" title="" content="" data-original-title="test">[?]</a>
+                <span class="hide popper-content"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/listWit/witness[@xml:id='Em']"/></span>
             </div>
           </div><!-- /row -->
+          </xsl:if>
          <!-- <div class="">
             <br/>-->
             
@@ -140,6 +146,106 @@
   <!-- ==================================================================== -->
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
+  
+  <xsl:template match="item/note[not(@type='editorial')] | list/note[not(@type='editorial')]" priority="3">
+    <a class="popper" data-toggle="popover" title="" content="" data-original-title="test"><small>[note]</small></a>
+    <span class="hide popper-content"><xsl:apply-templates/></span>
+  </xsl:template>  
+ 
+  
+  <xsl:template match="/TEI/text//note" priority="2">
+    <xsl:choose>
+      <xsl:when test="@type = 'editorial'">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:text>#</xsl:text>
+            <xsl:text>footnote</xsl:text>
+            <xsl:number level="any"/>
+          </xsl:attribute>
+          <xsl:attribute name="id">inline<xsl:number level="any"/></xsl:attribute>
+          <xsl:attribute name="class">edition_notes</xsl:attribute>
+          <sup>
+            <xsl:text>[</xsl:text>
+            <xsl:number level="any"/>
+            <xsl:text>]</xsl:text>
+          </sup>
+        </a>
+      </xsl:when>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  
+  <xsl:template match="/TEI/text//note" mode="footnotes" priority="1">
+    <div class="footnote">
+      <xsl:attribute name="id">
+        <xsl:text>footnote</xsl:text>
+        <xsl:number level="any"/>
+      </xsl:attribute>
+    
+    <xsl:choose>
+      <xsl:when test="@n">
+        <xsl:value-of select="@n"/>
+      </xsl:when>
+      <xsl:when test="@xml:id">
+        <xsl:value-of select="@xml:id"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:number level="any"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    
+    <xsl:text>. </xsl:text>
+    <span class="note_text">
+      <xsl:apply-templates/>
+    </span>
+    <xsl:text> [</xsl:text>
+    <a>
+      <xsl:attribute name="href">
+        <xsl:text>#inline</xsl:text>
+          <xsl:choose>
+            <xsl:when test="@n">
+              <xsl:value-of select="@n"/>
+            </xsl:when>
+            <xsl:when test="@xml:id">
+              <xsl:value-of select="@xml:id"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:number level="any"/>
+            </xsl:otherwise>
+          </xsl:choose>
+      </xsl:attribute>
+      <xsl:text>back</xsl:text>
+    </a>
+    <xsl:text>]</xsl:text>
+    </div>
+  </xsl:template>
+  
+  
+  <xsl:template match="list">
+    
+    <xsl:if test="head">
+      <div class="tei_list_head">
+        <xsl:apply-templates select="head/node()"/>
+      </div>
+    </xsl:if>
+    
+    <xsl:if test="note">
+      <div class="tei_list_note tei_note">
+        <xsl:apply-templates select="note"/>
+      </div>
+    </xsl:if>
+    
+    <ul>
+      <xsl:apply-templates select="item"/>
+    </ul>
+  </xsl:template>
+  
+
+  
+
+
+  
   
   <!-- Individual projects can override matched templates from the
      imported stylesheets above by including new templates here -->

@@ -50,11 +50,11 @@
                         $idno = 'intro.dunning' or
                         $idno = 'deorationedominica' or
                         $idno = 'deorationedominica.trans'">
-                        <link href="{$siteroot}css/dunning.css" rel="stylesheet" type="text/css"/>
-                        <script src="{$siteroot}js/dunning.js"> &#160; </script>
+                      <link href="{$siteroot}2016/editions/Dunning_De-oratione-dominica/css/dunning.css" rel="stylesheet" type="text/css"/>
+                      <script src="{$siteroot}2016/editions/Dunning_De-oratione-dominica/js/dunning.js"> &#160; </script>
                     </xsl:when>
                     <xsl:when test="contains($idno, 'BinyonDestree')">
-                        <link href="{$siteroot}css/BinyonDestree.css" rel="stylesheet"
+                      <link href="{$siteroot}2016/editions/BinyonDestree/css/" rel="stylesheet"
                             type="text/css"/>
                         <!--<script src="{$siteroot}js/BinyonDestree.js"> &#160; </script>-->
                     </xsl:when>
@@ -1047,7 +1047,7 @@
                                     </xsl:when>
 
                                     <xsl:when test="$editionName = 'youngidea'"
-                                            >youngidea/<xsl:value-of select="./attribute::url"/>
+                                            >youngidea/images/<xsl:value-of select="./attribute::url"/>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:value-of select="./attribute::url"/>

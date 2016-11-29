@@ -346,7 +346,7 @@
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2016/editions/BinyonDestree/BinyonDestree.zip">
+          <map:match pattern="2016/editions/BinyonDestree/xml/BinyonDestree.zip">
                 <map:read src="2016/editions/BinyonDestree/xml/BinyonDestree.zip"/>
             </map:match>
         </map:pipeline>

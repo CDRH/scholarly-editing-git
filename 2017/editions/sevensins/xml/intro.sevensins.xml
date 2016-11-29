@@ -1,98 +1,421 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title level="m" type="main">The Effects of the Seven Sins</title>
-        <author>Anonymous</author>
-        <editor>Krista A. Murchison</editor>
-        <respStmt>
-          <resp>Transcription, editing, and encoding</resp>
-          <name xml:id="KAM">Krista A. Murchison</name>
-        </respStmt>
-      </titleStmt>
-      <editionStmt>
-        <edition>
-          <date>2016</date>
-        </edition>
-      </editionStmt>
-      <publicationStmt>
-        <authority>Scholarly Editing: The Annual of the Association for Documentary
-          Editing</authority>
-        <address>
-          <addrLine>http://www.scholarlyediting.org</addrLine>
-        </address>
-        <publisher>Association for Documentary Editing</publisher>
-        <publisher>University of Nebraska&#8211;Lincoln</publisher>
-        <distributor>
-          <name>Center for Digital Research in the Humanities</name>
-          <address>
-            <addrLine>319 Love Library</addrLine>
-            <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
-            <addrLine>Lincoln, NE 68588-4100</addrLine>
-            <addrLine>http://cdrh.unl.edu</addrLine>
-          </address>
-        </distributor>
-        <date>2016</date>
-        <idno type="file">intro.sevensins</idno>
-        <idno type="edition">sevensins</idno>
-        <availability>
-          <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
-            freely distributed by the Association for Documentary Editing and the Center for
-            Digital Research in the Humanities at the University of Nebraska-Lincoln and
-            licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
-            Unported License</p>
-        </availability>
-      </publicationStmt>
-      <seriesStmt>
-        <title level="j">Scholarly Editing: The Annual of the Association for Documentary
-          Editing</title>
-        <respStmt>
-          <resp>2017 issue editor</resp>
-          <name xml:id="nhg">Nicole Gray</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name xml:id="ag">Amanda Gailey</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name xml:id="awj">Andrew Jewell</name>
-        </respStmt>
-        <idno type="vol">38</idno>
-        <idno type="ISSN">2167-1257</idno>
-      </seriesStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Oxford</settlement>
-            <repository>Bodleian Library</repository>
-            <idno>Fr.e.22</idno>
-          </msIdentifier>
-        </msDesc>
-        <listWit>
-          <witness xml:id="Bd">Oxford, Bodleian Library, MS Fr.e.22</witness>
-          <witness xml:id="Tr">Trinity College, Cambridge MS B.14.39</witness>
-          <witness xml:id="Em">Cambridge, Emmanuel College MS I.4.4 (83)</witness>
-        </listWit>
-        <bibl>
-          <author>Anonymous</author>
-          <title>The Effects of the Seven Deadly Sins</title>
-          <note type="project">
-            Transcribed from Oxford, Bodleian Library, MS Fr.e.22, with variants from Trinity College, Cambridge MS B.14.39 and Cambridge, Emmanuel College MS I.4.4 (83)
-          </note>             
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc><variantEncoding method="double-end-point"
-      location="internal"/></encodingDesc> 
-  </teiHeader>
-  <text type="pastoralia">
-  <body>
-    <div>
-      <head>Intro Goes Here</head>
-    </div>
-  </body>
-  </text>
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">“The Effects of the Seven Sins”: A Critical Edition</title>
+                <author>Krista A. Murchison</author>
+                <respStmt>
+                    <resp>Creation and encoding</resp>
+                    <name xml:id="kam">Krista A. Murchison</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+               
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2016</date>
+              <idno type="file">intro.sevensins</idno>
+              <idno type="edition">sevensins</idno>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">34</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note>Born digital.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        
+        <front>
+            <head type="main">“The Effects of the Seven Sins”: A Critical Edition</head>
+            <byline>Krista A. Murchison</byline>
+        </front>
+        
+        <body>
+            <div>
+                <head type="main">Introduction</head>
+                <p>The text edited here is a collection of brief examples of behavior that can result from the seven deadly sins.<note type="editorial" resp="#kam">I am grateful to the librarians at Emmanuel College, Cambridge, Trinity College, Cambridge, and the Oxford Bodleian Libraries for granting me permission to consult their collections for the purpose of this edition.</note>
+                    Paul Meyer, the first modern scholar to notice it, gave it the descriptive title “Les Effects des sept péchés capitaux” (“The Effects of the Seven Sins”) (Dean no. 652; Vising no. 165);
+                    <note type="editorial" resp="#kam">Paul Meyer, “Les mss. Français de Cambridge. III. Trinity College,” <hi rend="italic">Romania</hi> 32 (1903): 18-120. The text is described in Ruth J. Dean, and Maureen B. M. Boulton, <hi rend="italic">Anglo-Norman Literature: A Guide to Texts and Manuscripts</hi> (London: ANTS, 1999), 359-60; and Johan Vising, <hi rend="italic">Anglo-Norman Language and Literature</hi> (London: Oxford UP, 1923), 57. </note>
+                    it appears without title or introduction in two of its three surviving copies, and in the third it is introduced as “Item de uiciis in gallico ideomate.”
+                    <note type="editorial" resp="#kam">This is Cambridge, Emmanuel College MS I.4.4 (83), f. 119v.</note>
+                    It was written in Anglo-Norman within two centuries of the Conquest. Its diagrammatic structure reflects the wider movement of schematizing the fundamentals of the faith that marked the scholastic turn of the English Church in the eleventh and twelfth centuries; each of the seven sins is listed on the left-hand side of the folio, with lines linking it to its seven effects.
+                    <note type="editorial" resp="#kam">While most of the sins are linked to seven effects, there is one exception; the Emmanuel College copy groups the first three effects of “Ire” together in one line, to the effect that the divisions of the effects sin are reduced to four. Since the effects of this sin were copied in the last few rubricated lines at the bottom of the folio, it seems likely that the copyist reduced these divisions as a space-saving measure in order to start the next side of the folio with a new sin.</note>
+                    So, for example, the list for sloth begins “Accidie/ fet home” (f. 87r) (“sloth makes man”) on the left-hand side, and this statement is linked to seven branches, such as “Neggligent en co ke il deit fere” (f. 87r) (“Negligent of the things he ought to do”).</p>
+                    <figure>
+                        <head>Figure 1: The first three sins and their branches in the Trinity College manuscript.</head>
+                        <p><note type="editorial" resp="#kam">Made available under a Creative Commons license.</note></p>
+                        <figDesc> The first three sins and their branches in the Trinity College manuscript.</figDesc>
+                        <graphic url="TrinityCollegeMSB1439fol81r.jpg"/>
+                    </figure>
+                <p>A medieval reader could use such a text to understand the ways in which he had committed sin, or to help another with this task. Such investigations became increasingly important after 1215, when Pope Innocent III famously enjoined all those who had reached the age of majority to confess their sins to a priest once a year or face the threat of excommunication. In the years following this injunction, a wealth of texts proliferated aimed at helping confessors and penitents understand how to identify sins. These texts—termed <hi rend="italic">pastoralia</hi> by Leonard Boyle, who studied them extensively—took a variety of forms and were written in a variety of languages—not just Latin.
+                    <note type="editorial" resp="#kam">The development of medieval pastoralia is described by Leonard E. Boyle in “The Inter-Conciliar Period 1179-1215 and the Beginnings of Pastoral Manuals,”  <hi rend="italic">Miscellanea Rolando Bandinelli Papa Alessandro IIII</hi>, ed. Filippo Liotta (Siena: Accademia senese degli intronati, 1986): 45-56.</note>
+                    Confessors’ guides provided advice about the best way to interrogate others, and other guides, including forms of confession—short accounts of the sins written from the perspective of the sinner—provided convenient lists for penitents to consult while preparing for their confessional interrogations.
+                    <note type="editorial" resp="#kam">For the various types of <hi rend="italic">pastoralia</hi>, see Leonard E. Boyle, “Summae confessorum,” in <hi rend="italic">Les Genres Littéraires dans les Sources Théologiques et Philosophiques Médiévales: Défintion, Critique et Exploitation</hi> (Louvain-la-neuve: Institut d'Études Médiévales, 1982), 27-37. For confessors’ guides, see especially Thomas N. Tentler, <hi rend="italic">Sin and Confession on the Eve of the Reformation</hi> (Princeton: Princeton UP, 1977). For the form of confession, see Philip Durkin, “Examining One’s Conscience: A Survey of Late Middle English Prose Forms of Confession,” <hi rend="italic">Leeds Studies in English</hi> 28 (1997): 19-56; and Michael Cornett, “The Form of Confession: A Late Medieval Genre for Examining Conscience,” <hi rend="italic">Diss. U of North Carolina</hi>, 2011. DAI A 73 (2012): 3477536.</note>
+                </p>
+                <p>
+                    The “Effects of the Seven Sins” is notable in that it lists not just sins, but the kinds of behavior that can result from them. This makes it somewhat unusual among works of medieval <hi rend="italic">pastoralia</hi>, which tend to subdivide the sins into their species rather than their effects. To extend a medical metaphor that is found commonly among works of this kind, the “Effects of the Seven Sins” does not just give a list of illnesses, but also the ailments that spring from them. The text seems to have circulated relatively widely; while the popularity of any text from this period is difficult to determine due to the contingencies of manuscript survival, it is suggestive that, while many contemporary Anglo-Norman pastoral works survive in only one copy, the “Effects of the Seven Sins” survives in three.  These circulated in Worcestershire in the West Midlands, in Dorset in the South West, and, further north, in Huntingdonshire, so interest in the text was not purely regional in character.
+                    <note type="editorial" resp="#kam">See the descriptions of the manuscripts below.</note>
+                </p>
+                <p>
+                    The “Effects of the Seven Sins” was once thought to be the work of William Giffard, because Giffard is the author of an Anglo-Norman rhymed apocalypse text that circulated with the “Effects” in one manuscript, but this attribution is no longer accepted.
+                    <note type="editorial" resp="#kam">K. V. Sinclair, “Anglo-Norman Studies: The Last Twenty Years,” <hi rend="italic">Australian Journal of French Studies</hi> 2.2 (1965): 143; Dean, and Boulton, <hi rend="italic">Anglo-Norman</hi>, 359.</note>
+                    It has been described as a “verse tract,”
+                    <note type="editorial" resp="#kam">See, for example, Sinclair, “Anglo-Norman,” 143.</note>
+                     but it is, as Ruth Dean and Maureen Boulton note, in prose.
+                <note type="editorial" resp="#kam">Dean, and Boulton, <hi rend="italic">Anglo-Norman</hi>, 359.</note>
+                </p>
+                <p>The vices appear, with some variation, in the order established by Gregory the Great (d. 604) in his <hi rend="italic">Moralia on Iob</hi>. 
+                    <note type="editorial" resp="#kam">In the Emmanuel College Manuscript, the vices follow the <hi rend="italic">siiaagl</hi> order established by Gregory, but in the other two manuscripts the last two sins are reversed, giving a <hi rend="italic">siiaalg</hi> order.</note>
+                    In this order, the spiritual sins (<hi rend="italic">superbia</hi>/pride, <hi rend="italic">ira</hi>/wrath, <hi rend="italic">invidia</hi>/envy, <hi rend="italic">avaritia</hi>/avarice, <hi rend="italic">accidia</hi>/sloth) come first, followed by the carnal ones(<hi rend="italic">gula</hi>/gluttony and <hi rend="italic">luxuria</hi>/lust).  Morton Bloomfield, who describes this order as <hi rend="italic">siiaagl</hi>, an acronym that he suggests may have been used by medieval writers, finds that it was “authoritative” prior to the thirteenth century, although an earlier order was also used: that established by Cassian (d. 435), which gives eight sins (<hi rend="italic">gastrimargia [gula], fornicatio [luxuria], filargyrua [avaritia], ira, tristitia</hi>/spiritual sadness, <hi rend="italic">acedia, cenodoxia [vana gloria</hi>/vain glory], and <hi rend="italic">superbia</hi>). In creating his order, Gregory merged two sins that had been separate in Cassian’s list—<hi rend="italic">tristitia</hi> and <hi rend="italic">acedia</hi>—into <hi rend="italic">accidia</hi>, and we can see the impact of this merge in the “Effects of the Seven Sins”: the effects of “Accidie” include one related to spiritual sadness, “Accidie fet home. . .estre sanz solaz del seint esp[ir]it” (f. 87r) “Sloth makes man. . . be without the comfort of the holy spirit.”
+                    <note type="editorial" resp="#kam">For the orders established by Gregory and Cassian, see Morton Bloomfield, <hi rend="italic">The Seven Deadly Sins: An Introduction to the History of a Religious Concept, with Special Reference to Medieval English Literature</hi> (East Lansing: Michigan State College P, 1952), 69-104, especially the discussion at 69-73.</note>
+                </p>
+                <p>In the thirteenth century, the Gregorian  order of sins was superseded by the <hi rend="italic">saligia</hi> order (<hi rend="italic">superbia, accidia, luxuria, ira, gula, invidia, and avaritia</hi>) that Bloomfield notes was “popularized by Henry of Ostia.” But the absence of the <hi rend="italic">saligia</hi> order in the “Effects” does not necessarily mean that this work was written prior to the thirteenth century, since, as Bloomfield notes, the <hi rend="italic">siiaagl</hi> order continued to be used in medieval pastoral works throughout the medieval period, and indeed it is the order chosen by Chaucer’s Parson in his own treatment of the sins.
+                    <note type="editorial" resp="#kam">For the <hi rend="italic">saligia</hi> order and the quotation, see Bloomfield, <hi rend="italic">Sins</hi>, 73.</note> 
+                        </p>
+                <p>The greatest value of the “Effects of the Seven Sins” to scholars of medieval literature is in it being one of the earliest works of <hi rend="italic">pastoralia</hi> in Anglo-Norman. Shortly after the Norman Conquest, members of William the Conqueror’s army were assigned hefty penances by their Church for those they had killed during the incursion.
+                    <note type="editorial" resp="#kam">H. E. J. Cowdrey, “Bishop Ermenfrid of Sion and the Penitential Ordinance Following the Battle of Hastings,” <hi rend="italic">Journal of Ecclesiastical History</hi> 20.2 (1969): 225-42, at 225.</note>
+                    These penitential ordinances reflect the strong emphasis that the Anglo-Norman Church placed on confession. Pastoral texts written in the centuries following the Norman Conquest provide valuable insight into a rich chapter of the history of confession in England, and of England’s theological history more generally.
+                    </p>
+                <p>
+                    While many of the pastoral texts that emerged in the years following the injunction to confession of 1215 were in Latin, a significant number of them were in vernacular languages. These vernacular contributions are generally considered a late response to the council, with scholars suggesting, for example, that the <hi rend="italic">Somme le roi</hi> (c. 1279), a French text that covers the sins and other elements of the faith, was the first of its kind.
+                    <note type="editorial" resp="#kam">So, for example, Leo M. Carruthers has suggested that the <hi rend="italic">Somme le roi</hi> (c. 1279) is the first French text concerned with confession, writing that: “Numerous manuals of this kind already existed in Latin, but not in French, and were not, therefore, accessible to the wider public outside the monastery” (194).</note>
+                    The early-to-mid thirteenth-century date of the “Effects of the Seven Sins” established here indicates that <hi rend="italic">pastoralia</hi> circulated in French in the half century following the Fourth Lateran Council and suggests, as I have argued elsewhere, that vernacular contributions such as this one were not a delayed response to the Council.
+                        <note type="editorial" resp="#kam">[footnote removed]</note>
+                    It also reminds us of the importance of Anglo-Norman as a medium for conveying religious teaching throughout the thirteenth century.
+                    <note type="editorial" resp="#kam">On this subject, see Jocelyn Wogan-Browne, <hi rend="italic">“ ‘Cest livre liseez. . . chescun jour’: Women and Reading c. 1230-c.1430,” Language and Culture in Medieval Britain: The French of England, c.1100-c.1500</hi>, ed. Jocelyn Wogan-Browne (Woodbridge: York Medieval, 2009), 239-53.</note>
+                </p>
+                <p>The “Effects” has been printed twice to date. The first edition, printed by Olwen Rhys in her study of Giffard’s Anglo-Norman verse apocalypse, gives only the text as it appears in the Bodleian manuscript, uncollated with the other versions.
+                    <note type="editorial" resp="#kam">“The Seven Deadly Sins,” in <hi rend="italic">An Anglo-Norman Rhymed Apocalypse with Commentary</hi>, ed. Olwen Rhys (Oxford: ANTS, 1946): 123-24. </note>
+                    Karl Reichl, in his extensive study of Trinity College, Cambridge MS B.14.39, printed a collated edition of the text.  Since his interest was in the Trinity manuscript, he chose its copy as his base text. However, the Trinity copy’s limitations—noted below—and a few minor errors in Reichl’s edition, mean that a new edition, based on a superior copy of the text, is welcome.
+                    <note type="editorial" resp="#kam">At line 18, for example, Reichl gives “Escharnir” as a variant for the Bodleian MS, where the MS has “Eschainer” (fol. 87r). Reichl also transcribes the Bodeleian scribe’s distinctive capital F as “ff”; see, for example, the notes to lines 6 and 38.</note>
+                </p>
+            </div>
+            <div>
+                <head type="main">Date</head>
+                <p>The first to notice the “Effects of the Seven Sins,” Paul Meyer, did not suggest a date for it. In his introduction to the text, Sir John Fox did not provide a date for it either but, since he assumed that it was the work of William Giffard, he must have considered it a thirteenth-century production.
+                    <note type="editorial" resp="#kam">See the account of Giffard in John Fox’s “Introduction,” in <hi rend="italic">An Anglo-Norman Rhymed Apocalypse with Commentary</hi>, ed. Olwen Rhys (Oxford: ANTS, 1946): v-xlix, at xii-xv.</note>
+                    Dean and Boulton described it as “apparently dating from the twelfth century.” They gave no explanation for this dating, but it was undoubtedly based on their belief that one of the manuscripts that contains the “Effects of the Seven Sins”—the Emmanuel College one—was copied in the twelfth century.
+                    <note type="editorial" resp="#kam">For the quotation and the dating of the Emmanuel College manuscript, see Dean and Boulton, <hi rend="italic">Anglo-Norman</hi>, 359.</note>
+                    But, given the new documentary evidence concerning the Emmanuel College manuscript discussed below, which supports a thirteenth-century date for the manuscript and narrows this date further to between 1231 and 1290, the dating of the “Effects of the Seven Sins” must likewise be revised.
+                    </p>
+                <p>Unfortunately the contents of the text provide no significant clues about its date. As already noted, although the order of the sins preserved in the “Effects of the Seven Sins” was falling out of fashion in the thirteenth century, it was not at all uncommon at the time and its presence cannot be used to date a text. Historical evidence suggests that the “Effects of the Seven Sins” might have been written after 1215, since we know that there was a wave of pastoral texts produced in the years following the injunction to confession of the Fourth Lateran Council.
+                    <note type="editorial" resp="#kam">Boyle, “Inter-Conciliar,” 45-56.</note>
+                    But there were of course many such texts circulating before this as well. The only date we can place with certainty is the latest date of composition, which must of course be the same as the latest possible date of completion of its earliest witness: 1260 of the Trinity manuscript.
+                    <note type="editorial" resp="#kam">See the description below.</note>
+                    We can therefore conclude provisionally that the text was written after 1215, and before 1260.
+                </p>
+            </div>
+            <div>
+                
+                <head type="main">Description of Manuscripts</head>
+                <head type="sub">Tr- Trinity College, Cambridge MS B.14.39</head>
+                <note type="editorial" resp="#kam">See the description in M. R. James, <hi rend="italic">The Western Manuscripts in the Library of Trinity College, Cambridge</hi>, 4 vols. (Cambridge: Cambridge UP, 1900-904), vol. 1, 338-449.</note>
+                <list rend="simple">
+                    <item><hi rend="bold">Date:</hi>  Trinity College, Cambridge MS B.14.39 has been dated to c. 1255-60 by Karl Reichl based on its contents.
+                <note type="editorial" resp="#kam">  Karl Reichl, <hi rend="italic">Religiöse Dichtung in Englischen Hochmittelalter: Untersuchung und Edition der Handschrift B.14.39 des Trinity College in Cambridge</hi> (Munich: Wilhelm Fink, 1973): 46-48. </note>
+                It is bound with a second manuscript, Trinity College, Cambridge MS B.14.40, which has been dated to the fifteenth century.</item>
+                    <item><hi rend="bold">Place of production:</hi> Probably a religious house in the West Midlands</item>
+                <item><hi rend="bold">Foliation:</hi> Fols. 87v</item>
+                    <item><hi rend="bold">Contents:</hi> Trinity College, Cambridge MS B. 14.39 contains over one hundred and forty religious and didactic texts.
+                        <note type="editorial" resp="#kam">Diane Speed, “<hi rend="italic">A Ballad of Twelfth Day</hi>: Texts and Contexts,” in <hi rend="italic">Text and Transmission in Medieval Europe</hi>, ed. Chris Bishop (Newcastle: Cambridge Scholars P, 2007): 199-227, at 165.</note>  
+                        Its contents have been described in depth by Reichl. These are in three different languages, and include the Latin <hi rend="italic">De Ordine Creaturarum</hi> (fols. 1r-19r), saints’ lives in English and French, including the Life of Saint Margaret (fols. 20r-24r), versified French biblical stories (fols. 58r-72r), and many lyrics.  The manuscript also contains a striking memory aid; this text lists each finger of a hand, and each is linked to the items through which a person should perform a penitential self-examination (f. 27v). “The Effects of the Seven Sins" appears on fols. 81r-81v.</item>
+               </list>
+                <p>The Trinity manuscript is well known to scholars of England’s literature for being a trilingual compendium, containing texts in Latin, English, and French, and combinations of all three.
+                    <note type="editorial" resp="#kam">Speed, “<hi rend="italic">Ballad</hi>,” 165. </note>
+                    The bulk of it was copied, apparently intermittently, by ten different scribes working separately, with other passages added by two later scribes.   
+                    <note type="editorial" resp="#kam">Reichl, <hi rend="italic">Religiöse</hi>, 15-40, cited in Speed, “<hi rend="italic">Ballad</hi>,” 200. For the number of scribes working on the manuscript, see Speed, D. P., “The presentation of the poem beginning louerd asse þu ard on god in Cambridge, Trinity College MS. B.14.39,” <hi rend="italic">Parergon</hi> NS 31 (1996): 166-178, 166. </note>
+                Speed notes that “[t]he dialect of all five thirteenth-century scribes who wrote in English has been placed in west Worcestershire near the Herefordshire border, not far from Worcester.”    
+                <note type="editorial" resp="#kam">Speed, “<hi rend="italic">Ballad</hi>,” 200. </note>
+                The largest contribution was by one Michel of Arras, who wrote the following lament on folio 28r:
+            </p>
+                <lg>
+                    <l>Hic am Michel of Arras;</l>
+                    <l>Wl sone ic am viryeten, alas!</l>
+                </lg>
+                <lg>
+                    <l>(I am Michel of Arras;</l>
+                    <l>Full soon I’ll be forgotten, alas!)<note type="editorial" resp="#kam">The couplet and its translation are printed in Speed, “<hi rend="italic">Ballad</hi>,” 207. </note></l>
+                </lg>
+                <p>The manuscript was once held among those considered “friar’s miscellanies,” on the grounds that it contains a number of texts that could have supported friars in the care of souls, a mission with which they were particularly occupied following the new emphasis placed on confession at the Fourth Lateran Council of 1215.
+                    <note type="editorial" resp="#kam">The idea was forwarded by Reichl, <hi rend="italic">Religiöse</hi>, 55-58. For variations on this view—including the hypothesis that it was a “preachers’ commonplace-book”—see Speed, “<hi rend="italic">Ballad</hi>,” 200. Siegfried Wenzel also considers it a preacher’s book; <hi rend="italic">Preachers, Poets and the Early English Lyric</hi> (Princeton: Princeton UP, 1986), 49-58. For more general support of the view that manuscripts considered “friar’s miscellanies” originated with the Franciscans, see Christina Whitehead, “Middle English Religious Lyrics,” in <hi rend="italic">A Companion to the Middle English Lyric</hi>, ed. Thomas G. Duncan (Cambridge: Brewer, 2005): 96-119, at 96, n. 1. Reichl’s view that this specific manuscript was intended for Franciscan friars is supported by Karin Boklund-Lagopoulou, who suggests that the lyrics in it are generally didactic in nature, “'Judas': The First English Ballad?,” <hi rend="italic">Medium AEvum</hi> 62 (1993): 20-34, at 31. </note>
+                On these grounds, Reichl, who examined the manuscript in depth, suggested that it might have been produced and owned by the Franciscans at Worchester.
+                <note type="editorial" resp="#kam">Reichl, <hi rend="italic">Religiöse</hi>, 55-58. </note>
+                But recently, a few voices have challenged the mendicant attribution. In the <hi rend="italic">Companion to the Middle English Lyric</hi>, Julia Boffrey questions a broader tendency to link such collections to friars, observing that, "In practice, many of the distinctions which have been conventionally observed between manuscripts produced and owned by religious or by secular clergy or by lay people are in the end misleading, since there clearly existed many possibilities for interpenetration among all these categories."
+                <note type="editorial" resp="#kam">Julia Boffrey, “Middle English Lyrics and Manuscripts,” in <hi rend="italic">A Companion to the Middle English Lyric</hi>, ed. Thomas G. Duncan (Cambridge: Brewer, 2005): 1-18, at 8. </note>
+                </p>
+                <p>Yet in the same volume, Alan J. Fletcher supports the mendicant attribution for the Trinity manuscript, arguing that its small size, variety of hands, and contents—which, he writes, would have been “more or less useful to preachers”—all “suggest circumstances of mendicant book production.”
+                <note type="editorial" resp="#kam">Alan J. Fletcher, “The Lyric in the Sermon,” in <hi rend="italic">A Companion to the Middle English Lyric</hi>, ed. by Thomas G. Duncan (Cambridge: Brewer, 2005): 189-208, at 205.</note>
+                John C. Hirsh, in his study of a ballad contained in the manuscript, likewise holds that it is a mendicant—and specifically Franciscan—production intended to support preaching activities, “in view of its portable size and the other items that it contains.”
+                    <note type="editorial" resp="#kam">John C. Hirsh, “The Earliest Known English Ballad: A New Reading of 'Judas',” <hi rend="italic">The Modern Language Review</hi> 103 (2008): 931-39, at 936.</note>
+                    But Diane Speed notes that there is nothing in the manuscript to suggest a mendicant context in particular, and observes that its contents could suggest any number of religious institutions.
+                    <note type="editorial" resp="#kam">Speed, “<hi rend="italic">Ballad</hi>,” 201.</note>
+                    Speed writes that the sheer number of skilled hands involved suggests that the work was copied in a “substantial religious house,” and notes that a number of houses in the West Midlands could have produced it.
+                    <note type="editorial" resp="#kam">Speed, “<hi rend="italic">Ballad</hi>,” 200.</note></p>
+                <p>I am inclined to support the recent call of caution with respect to the mendicant attribution, since the texts in the manuscript—including saints’ lives and texts designed for self-examination—could be useful and interesting to a wide variety of medieval audiences, and since its small size tells us very little about who produced or read it. Some of the texts in the manuscript do suggest a clerical—though not necessarily fraternal—context, such as a couplet with guidance on how to find Easter from the feast of Saint Benedict of Nursia (f. 42r). But others are apparently more secular in nature. One brief section of verse is suggestive of the complications involved in guessing the manuscript’s intended or actual audience from its contents:</p>
+                <lg>
+                    <l>"Say me, viit in þe brom,</l>
+                    <l>Teche me, wou I sule don</l>
+                    <l>Þat min hosebonde</l>
+                    <l>Me louien wolde."</l>
+                    <l>"Hold þine tunke stille</l>
+                    <l>Ant hawe al þine wille."</l>
+                </lg>
+                <lg>
+                    <l>“ ‘Tell me, wight in the broom [bush].</l>
+                    <l>Teach me how I should do</l>
+                    <l> So that my husband</l>
+                    <l>Will love me.’</l>
+                    <l>‘Hold your tongue still</l>
+                    <l> And have all your will.’ ”<note type="editorial" resp="#kam">Fol. 28r. The verses and their translation are supplied by Karin Boklund-Lagopoulou in <hi rend="italic">Medieval Oral Literature</hi>, ed. by Karl Reichl (Berlin: Walter de Gruyter, 2012), 555-580, at 565.</note></l>
+                </lg>
+                <p>Following a suggestion by Reichl, Karin Boklund-Lagopoulou suggests that the more secular texts in the manuscript, such as this one, may derive from an oral tradition and “the Trinity MS follows the common practice of the friars in including items from an oral vernacular tradition that can be turned to didactic use in a sermon.”
+                    <note type="editorial" resp="#kam">Boklund-Lagopoulou, “Judas,” 23.</note>
+                    But anti-feminist verses, such as this one, could of course appeal to any number of medieval audiences. </p>
+
+                <p>Curiously, a different scribe added two moralizing Latin lines in the space beside these English ones: “Queritur egestus quare sit confectus adulter./ In promptu causa est desidiosus erat” (“Aegisthus is asked why he became an adulterer/ the manifest cause is: he was idle”).
+                    <note type="editorial" resp="#kam">The lines appear on f. 28r. The translation is that of David d’Avray, <hi rend="italic">Medieval Marriage Sermons: Mass Communication in a Culture without Print</hi> (Oxford: Oxford UP, 2001), 157.</note>
+                    These lines ultimately derive from Ovid but appear in various medieval sermons, including Hugh of St. Cher’s <hi rend="italic">Marriage Sermon</hi>. 
+                    <note type="editorial" resp="#kam">See d’Avray, <hi rend="italic">Medieval</hi>, 156-57.</note>
+                    The position of the Latin couplet—directly beside the section of verse on marital friction—raises the possibility that it was added in an attempt to moralize the secular verse beside it. More work must be done to elucidate the process through which the manuscript developed, but for the time being, it is safest to suggest no further specificity than that the manuscript was likely designed for, and produced in, a clerical context.</p>
+            </div>
+            <div>
+                <head type="sub">Em- Cambridge, Emmanuel College MS I.4.4 (83)</head>
+                <list rend="simple">
+                    <item><hi rend="bold">Date:</hi> c. 1231-1290</item>
+                    <item><hi rend="bold">Place of production:</hi> Ramsey Abbey (Huntingdonshire)</item>
+                    <item><hi rend="bold">Foliation:</hi> Fols. 215 (unfoliated)</item>
+                    <item><hi rend="bold">Contents:</hi> A variety of scholastic and pastoral tracts, including detailed discussions of the sacraments and of temptation:<l/>
+                        <note type="editorial" resp="#kam">This list of contents is based on descriptions by M.R. James, <hi rend="italic">The Western Manuscripts in the Library of Emmanuel College: A Descriptive Catalogue</hi> (Cambridge: Cambridge UP, 1904), 74-75; Richard Newhauser, <hi rend="italic">The Treatise on Vices and Virtues in Latin and the Vernacular</hi> (Turnhout: Brepols, 1993), 168; and J. Goering, “The ‘Summa de penitentia’ of John of Kent,” <hi rend="italic">Bulletin of Medieval Canon Law</hi> 18 (1988): 13-31, at 16-19. Where appropriate, tracts are listed along with their numbers in Morton Bloomfield’s <hi rend="italic">Incipits of Latin works on the Virtues and Vices, 1100-1500 A.D.: Including a Section of Incipits of Works on the Pater Noster</hi> (Cambridge: Medieval Academy of America, 1979).</note>
+                        “Diffinitio anime” fols. 1-10v; blank fols. 11, 12; Questions from a monk of Ramsey, and responses derived from Peter Lombard’s <hi rend="italic">Sentences</hi> fols. 13r-33v; “Contra pudorem confitendi” (<hi rend="italic">Incipits</hi> 2321) fols. 34r-36v; Extracts from Peter of Poitiers’ <hi rend="italic">Summa de confessione</hi> fols. 37r-v; <hi rend="italic">Si scienter</hi> (a confessional interrogatory) and Robert Grosseteste’s <hi rend="italic">Templum Dei</hi> fols. 38r-61v; <hi rend="italic">Speculum confessionis</hi> (<hi rend="italic">Incipits</hi> 5887) fols. 61v-66v; Robert Grosseteste’s <hi rend="italic">Perambulauit Iudas</hi> fols. 72r-78r; “On the Seven Sins” (<hi rend="italic">Incipits</hi> 1148)  fols. 81v-83r; “On the Seven Sins” (<hi rend="italic">Incipits</hi> 5920) fols. 105r-110v; <hi rend="italic">Tractatus de septem vitiis</hi> (<hi rend="italic">Incipits</hi> 2682) fols. 110v-114r; “The Effects of the Seven Sins” fols. 119v-120v; <hi rend="italic">Tractatus de septem vitiis criminalibus</hi> (<hi rend="italic">Incipits</hi> 5448) fols. 129r-132r; <hi rend="italic">Tractatus de vitiis</hi>
+                    (<hi rend="italic">Incipits</hi> 2044) fols. 132r-135r; <hi rend="italic">Tractatus de uitiis</hi> (<hi rend="italic">Incipits</hi> 5908) fols. 135r-“Diffinitio anime” fols. 1-10v; blank fols. 11, 12; Questions from a monk of Ramsey, and responses derived from Peter Lombard’s <hi rend="italic">Sentences</hi> fols. 13r-33v; “Contra pudorem confitendi” (<hi rend="italic">Incipits</hi> 2321) fols. 34r-36v; Extracts from Peter of Poitiers’ <hi rend="italic">Summa de confessione</hi> fols. 37r-v; <hi rend="italic">Si scienter</hi> (a confessional interrogatory) and Robert Grosseteste’s <hi rend="italic">Templum Dei</hi> fols. 38r-61v; <hi rend="italic">Speculum confessionis</hi> (<hi rend="italic">Incipits</hi> 5887) fols. 61v-66v; Robert Grosseteste’s <hi rend="italic">Perambulauit Iudas</hi> fols. 72r-78r; “On the Seven Sins” (<hi rend="italic">Incipits</hi> 1148)  fols. 81v-83r; “On the Seven Sins” (<hi rend="italic">Incipits</hi> 5920) fols. 105r-110v; <hi rend="italic">Tractatus de septem vitiis</hi> (<hi rend="italic">Incipits</hi> 2682) fols. 110v-114r; “The Effects of the Seven Sins” fols. 119v-120v; <hi rend="italic">Tractatus de septem vitiis criminalibus</hi> (<hi rend="italic">Incipits</hi> 5448) fols. 129r-132r; <hi rend="italic">Tractatus de vitiis</hi> (<hi rend="italic">Incipits</hi> 2044) fols. 132r-135r; <hi rend="italic">Tractatus de uitiis</hi> (<hi rend="italic">Incipits</hi> 5908) fols. 135r-149v; <hi rend="italic">Tractatus de quibus debet esse confessio</hi> (<hi rend="italic">Incipits</hi> 6308) fols. 149v-151r; Contributions by the monk of Ramsey fols. 152r-160r; biblical commentary fols. 160v-163r; <hi rend="italic">Questio</hi> fols. 164v-166r; Commentary on Peter Lombard’s <hi rend="italic">Sentences</hi> fols. 166v-181r; academic questions fols. 181r-185v; On the seven sacraments fols. 185v-215v. John of Kent on the Eucharist fols. 200r-201v; Pope Innocent III’s treatise on the sacraments fols. 201v-204v; Discussion of the Eucharist fols. 204v-209v; penitential canons on the Eucharist fols. 209-211r; “De diligentia ministrorum ecclesie” fols. 211r-212r; Question on the Eucharist fols. 212v-213v; another excerpt from Innocent III’s treatise fols. 213v-214r; Questions on the Eucharist fols. 214v-215v. </item>
+                </list>
+                <p>The entire manuscript was copied by one scribe, in a neat hand.
+                    <note type="editorial" resp="#kam">Goering, “John of Kent,” 17.</note>
+                    Some of the initials are illuminated; one, on f. 13r, is touched with gold and described by M. R. James as “exceedingly pretty and unusual.”
+                    <note type="editorial" resp="#kam">James, <hi rend="italic">Emmanuel College</hi>, 74. </note>
+                    Another, on f. 87r, contains a small dragon’s head.</p>
+                <p>
+                    James, in his 1904 catalogue of Emmanuel College Library manuscripts, dates this manuscript to late twelfth century.
+                    <note type="editorial" resp="#kam">James, <hi rend="italic">Emmanuel College</hi>, 74. </note>
+                      Meyer dates it to the end of the thirteenth century, but Dean and Boulton suggest that “the late 13th century may be a misprinting of XIII for XII.”
+                    <note type="editorial" resp="#kam">Meyer, “Mss. Français,” 40-41. Dean and Boulton, <hi rend="italic">Anglo-Norman</hi>, 360. </note>
+                      But Joseph Goering notes that “a later date is demanded by the manuscript’s contents” and suggests instead “second half of the thirteenth century.” 
+                    <note type="editorial" resp="#kam">Goering, “John of Kent,” 17 n. 23, 17. </note>
+                      This later dating would appear to be more accurate, since the manuscript includes Peter of Poitiers’ <hi rend="italic">Summa de confessione</hi> which, according to Pierre Payer, dates to “shortly after Nov. 1215,” and Robert Grosseteste’s <hi rend="italic">Templum Dei</hi> (c.1220-1230).
+                    <note type="editorial" resp="#kam">Pierre J. Payer, <hi rend="italic">Sex and the New Medieval Literature of Confession</hi>, 1150-1300 (Toronto: Pontifical Inst. of Mediaeval Studies, 2009), 5. For the dating of the <hi rend="italic">Templum Dei</hi>, see Joseph Goering and F. A. C. Mantello, “Introduction,” <hi rend="italic">Templum Dei</hi> (Toronto: Pontifical Inst. of Mediaeval Studies, 1984), 6. </note>
+                      Goering also remarks that the position of the text below the top ruled line supports a thirteenth-century date.
+                    <note type="editorial" resp="#kam">Goering, “Summa,” 17. </note>
+                </p>
+                <p>
+                    The manuscript contains some clues about its provenance. Goering finds in it several contributions by an unnamed monk of the Benedictine Ramsey Abbey (Huntingdonshire) addressed to this monk’s superior Benedict, the prior of Ramsey (fols. 13r-15r and fols. 152r-160r). These contributions bear resemblance to the extracts of theological commentary that appear later in the manuscript, and Goering concludes that “some 53 of the 215 folios” “can be associated with a Prior Benedict of Ramsey and with a monk of Ramsey who was a master of theology.” Goering suggests that the entire manuscript may have been compiled out of writings held in the library of Ramsey. He notes that neither the monk of Ramsey nor the prior has been identified.
+                    <note type="editorial" resp="#kam">Goering, “John of Kent,” 18-20. The quotations are on pages 19 and 20. </note>
+                </p>
+               <p>
+                   But there is a prior of Ramsey named Benedict mentioned in a writ produced sometime between 1254 and 1267.
+                   <note type="editorial" resp="#kam"> “Hugh, Abbot of Ramsey to Benedict the Prior and the Convent,” <hi rend="italic">The National Archives</hi>, http://discovery.nationalarchives.gov.uk/details/r/C4852986. </note>
+                     If this is the right Benedict, references to him in the manuscript reinforce its thirteenth-century dating. Moreover, since the addressee, Benedict, is described as the prior of Ramsey, we can narrow the date of the manuscript still further. We have little information about the priors of Ramsey from this period, and the Cartulary of Ramsey Abbey is, as Goering notes, relatively silent on the subject,
+                   <note type="editorial" resp="#kam">Goering, “John of Kent,” 19 n. 37. </note>
+                   but it does record that one Ranulphus was a prior in the thirteenth century, with his priorate ending in 1231.
+                   <note type="editorial" resp="#kam"><hi rend="italic">Cartularium monasterii de Rameseia</hi>, ed. by W. H. Hart and P. A. Lyons, vol. 3 (London: Eyre and Spottiswoode, 1884), 190. </note>
+                    And according to John Leland, one Gregory was prior of the abbey in 1290 when he bought a number of manuscripts, following the expulsion of the Jewish people from England, from those forced to leave.
+                   <note type="editorial" resp="#kam"> “Gregory [Gregory of Huntingdon] (fl. c.1300),” <hi rend="italic">Oxford Dictionary of National Biography</hi>, http://oxfordindex.oup.com/view/10.1093/ref:odnb/11454#.</note>
+                   So we can place Benedict’s priorate sometime between 1231 and 1290. This supplies a more precise date range for our manuscript.
+                   </p>
+                <p>
+                    The manuscript has been described by Goering as “a miscellaneous collection of excerpts from theological and pastoral writings, arranged in no clear order.”  “The Effects of the Seven Sins” is the only French text in it.
+                    <note type="editorial" resp="#kam">Goering, “John of Kent,” 17. </note>
+                    “The Effects of the Seven Sins” is the only French text in it.
+                    <note type="editorial" resp="#kam">Newhauser, <hi rend="italic">Treatise</hi>, 168. </note>
+                    Newhauser, remarking on its “particularly high concentration of works on the sins and confession or penance,” sees the manuscript as a “confessor’s reference book, which has by its nature included in its contents numerous excerpts and short treatises on the vices."
+                    <note type="editorial" resp="#kam">Newhauser, <hi rend="italic">Treatise</hi>, 168. </note>
+                    This suggestion merits closer examination, since works on the sins could be useful to a variety of different audiences beyond the confessor himself.</p>
+                <p>While some of the texts contained in the manuscript are clearly directed at those in a confessor’s role, others are directed at, or would have held value for, those outside of the office of the confessor. For example, the <hi rend="italic">Speculum confessionis</hi> (<hi rend="italic">Incipits</hi> 5887) (fols. 61v-66v) could have been used by an individual to examine his own conscience in preparation for confession, rather than for examining others. The <hi rend="italic">Perambulauit Iudas</hi>, written by Robert Grosseteste, likely before he became a bishop in 1235, was conceived as a dual-use text, offering both a form of confession, which Joseph Goering and F. A. C. Mantello suggest may have been written for “a superior in a house of monks or regular cannons,” and a more widely applicable penitential text “compiled to provide the simpler brothers (<hi rend="italic">simpliciores fratres</hi>) with a ‘mirror of confession’ (<hi rend="italic">speculum confessionis</hi>) concerning all the sins committed both in the cloister and in the world.”
+                  <note type="editorial" resp="#kam">Joseph Goering, and F.A.C. Mantello, “ ‘The Perambulauit Iudas. . .’ (<hi rend="italic">Speculum Confessionis</hi>) Attributed to Robert Grosseteste,” <hi rend="italic">Revue Bénédictine</hi> 96 (1986): 125-68, at 132, 125. </note>
+                    This second part (sections 26-36 in Goering and Mantello’s edition) opens with a confessional interrogatory—questions that penitents could ask themselves to prepare for confession, while the rest of it is more expository, offering definitions of the various sins.
+                  <note type="editorial" resp="#kam">Goering and Mantello, “Perambulauit,” 141. </note>
+                </p>
+                <p>The scholastic discussions in the manuscript would have been useful to a variety of clerical readers. Goering writes that “they amount to a specialized and impressive dossier on the subject of ‘Temptation’ as it was understood in the schools.”
+                  <note type="editorial" resp="#kam">Goering, “John of Kent,” 19. </note>
+                    We can conclude that the aims of the manuscript extend beyond preparing the confessor for his duties to include educating the monks of Ramsey about the state of their own consciences and about temptation.
+                </p>
+            </div>
+            <div>
+                <head type="sub">Bd- Oxford, Bodleian Library, MS Fr.e.22</head>
+                <list rend="simple">
+                    <item><hi rend="bold">Date:</hi> c. 1350-1400</item>
+                    <item><hi rend="bold">Place of production:</hi> Shaftesbury Abbey (Dorset)</item>
+                    <item><hi rend="bold">Foliation:</hi> 4 unfoliated paper flyleaves + 3 vellum flyleaves + fols. 87 originally, first leaf now missing</item>
+                    <item><hi rend="bold">Contents:</hi> William Giffard’s Anglo-Norman Apocalypse fols. 2r-86v; “The Effects of the Seven Sins” fols. 86v-87v</item>
+                </list>
+                    <p>
+                        This manuscript was copied in the fourteenth century, and probably sometime between 1350 and 1400.
+                       <note type="editorial" resp="#kam">Dean and Boulton, <hi rend="italic">Anglo-Norman</hi>, 359. </note>
+                          The first text in it is a rhyming Anglo-Norman Apocalypse commentary composed toward the end of the thirteenth century.
+                        <note type="editorial" resp="#kam">Fox, “Introduction,” xiii-xiv, xi. </note>
+                        This is followed, in the same hand and without introduction, by the “Effects of the Seven Sins” (fols. 86v-87v), the only other text in the manuscript. Some provenance information about the manuscript may be derived from a couplet that appears after the Anglo-Norman Apocalypse text and before “The Effects of the Seven Sins":
+                       <note type="editorial" resp="#kam">The couplet is printed by Fox, “Introduction,” x. </note>
+                    </p>
+                        <lg>
+                            <l>Cest livere treita Willame Giffard</l>
+                            <l>Chapelein del iglise seint edward</l>
+                   </lg> 
+                <p>
+                    The Church of St Edward here is Shaftesbury Abbey, a house of Benedictine nuns.
+                    <note type="editorial" resp="#kam">Fox, “Introduction,” x. </note>
+                    The author, William Giffard, was apparently deceased at the time that the poem was copied, since the Epilogue to the poem states “Deus eit lalme de lui &amp; nus la memoire.”
+                    <note type="editorial" resp="#kam">Fol. 86v. Fox, “Introduction,” xii-xiii. </note>
+                    Since the couplet suggests a familiarity with Giffard, Fox assumes that the manuscript was copied in, and belonged to, Shaftesbury Abbey, and M. D. Legge repeats this suggestion.
+                    <note type="editorial" resp="#kam">M. D. Legge, <hi rend="italic">Anglo-Norman Literature and its Background</hi> (Oxford: Clarendon UP, 1963), 238. </note>
+                    Fox suggests that some of the copying could have been undertaken by the nuns of the abbey.
+                    <note type="editorial" resp="#kam">Fox, “Introduction,” xi. </note>
+                    It is, however, not listed among the books of the Abbey in Neil Ker’s <hi rend="italic">Medieval Libraries of Great Britain</hi>.
+                </p>
+                <p>John Atridge, an eighteenth-century butcher, inscribed his name on the first flyleaf.
+                    <note type="editorial" resp="#kam">Fox, “Introduction,” xii. </note>
+                    The second flyleaf bears the medieval inscription “au noume du pere.”
+                    <note type="editorial" resp="#kam">Fox, “Introduction,” vii. </note>
+                    Chapter headings are marked with large illuminated initials, and some folios are adorned with foliate borders, one of which includes a blue and red dragon.
+                    <note type="editorial" resp="#kam">Fox, “Introduction,” viii.</note>
+                </p>
+                
+            </div>
+            
+            <div>
+                <head type="main">Tradition and Context</head>
+                <p>
+                    In his overview of the development of the seven deadly sins, Morton Bloomfield observes that a significant amount of variation existed among early conceptions of the sins. By the thirteenth century, many of these variations had been resolved, but some persisted, and some of those writing on the sins innovated. So, writing before 1236, Guilielmus Peraldus added and eighth category of sin—<hi rend="italic">peccatum linguae</hi> (“sins of the tongue”)—to the typical seven.  
+                    <note type="editorial" resp="#kam">Bloomfield, <hi rend="italic">Sins</hi>, 124.</note>
+                    A significant amount of variation also existed within the species—or “offshoots”—of the seven deadly sins. Gregory the Great’s <hi rend="italic">Moralia on Iob</hi> proved influential here, too, and his species show up, with variation, in a number of different treatises. He gives seven species for each sin; so pride is divided into “inobedientia, jactantia, hypocrisis, contentiones, pertinaciae, discordiae, novitatum praesumptiones oriuntur.”
+                 <note type="editorial" resp="#kam">Printed in Anne Walters Robertson, “The Seven Deadly Sins in Medieval Music,” in <hi rend="italic">Sin in Medieval and Early Modern Culture: The Tradition of the Seven Deadly Sins</hi>, ed. Richard G. Newhauser and Susan Janet Ridyard (Woodbridge: York Medieval, 2012):191-222, at 207.</note>
+                    But in the thirteenth century, a tendency toward compendiousness had taken hold, and many lists had become far more lengthy, such that Robert of Flamborough, for example, gives sixteen species of pride.
+                    <note type="editorial" resp="#kam">Robert of Flamborough, <hi rend="italic">Liber Poenitentialis: A Critical Edition with Introduction and Notes</hi>, ed. J. J. Francis Firth (Toronto: PIMS, 2000), 179-80.</note>
+                    </p>
+                <p>In the “Effects of the Seven Sins,” the branches of each sin are cast as their “effects” and these are limited to seven. They follow closely in the tradition established by Gregory the Great. A comparison of the “branches” of pride in the “Effects of the Seven Sins” and those in the <hi rend="italic">Moralia</hi> illustrates the similarities:</p>
+                <list>
+                    <head type="sub">“Effects of the Seven Sins”:</head>
+                        <item>Auanter sei des biens quil nat mie en sey (cf. Gregory’s <hi rend="italic">jactantia</hi>)</item>
+                        <item>Feindre sei autre quil ne seit (cf. Gregory’s <hi rend="italic">hypocrisis</hi>)</item>
+                        <item>Cuntrouer noueleries (cf. Gregory’s <hi rend="italic">novitatum praesumptiones oriuntur</hi>)</item>
+                        <item>Estriuer saunz bosoign (cf. Gregory’s <hi rend="italic">discordiae</hi>)</item>
+                        <item>Inobedient a deu e sun proesme (cf. Gregory’s <hi rend="italic">inobedientia</hi>)</item>
+                        <item>Poruers e contrarius. (cf. Gregory’s <hi rend="italic">contentiones</hi>)</item>
+                        <item>Tencer saunz acheisun (cf. Gregory’s <hi rend="italic">pertinaciae</hi>)</item><note type="editorial" resp="#kam">The branches printed here are from the Bodleian MS. Abbreviations have been expanded.</note></list>
+                <p>While the “branches” appear in a slightly different order in Gregory’s list, they are otherwise remarkably similar. Other lists derived from Gregory appear in contemporary texts; Grosseteste’s <hi rend="italic">Templum Dei</hi>, for example, gives <hi rend="italic">inobediencia, iactancia, ypocrisis, contemptus, arrogancia, inpudicicia</hi>, and <hi rend="italic">elacio</hi>.
+                    <note type="editorial" resp="#kam">Robert Grossteste, <hi rend="italic">Templum Dei</hi>, ed. Joseph Goering and F. A. C. Mantello (Toronto: Pontifical Inst. of Mediaeval Studies, 1984), 47. </note>
+                    So, although the framework for describing the various “branches” of each sin in the “Effects of the Seven Sins” is somewhat novel, the “branches” themselves are part of a well-established tradition. </p>
+            </div>
+            <div>
+                <head type="main">Audience</head>
+                <p>The text gives no clues about its intended audience, and in the wake of the injunction to confession of 1215, a text describing the effects of sin such as this one would have been useful to a variety of different audiences, not just clerical ones. But this text does seem to have circulated among clerical readers; all three witnesses were apparently produced at religious houses, and seem to have been designed for the use of their enclosed religious communities.</p>                
+                <note type="editorial" resp="#kam">See the manuscript descriptions above. </note>
+                <p>The text may have been useful for a confessor in the care of souls, and in the Emmanuel College manuscript we see it alongside several texts designed for this purpose. But the text could also have been useful for those examining their own consciences. The Bodleian copy, which, if Fox is correct, was designed for a community of nuns, was likely intended for this purpose, although we cannot rule out the possibility that it was to be used by the nuns’ confessors.</p>
+                </div>
+            <div>
+                <head type="main">Developing a <hi rend="italic">Stemma Codicum</hi></head>
+                <p>
+                    In general, stemmas are developed using the principle of common error, which dictates that a text that shares errors with another is either directly related to it or was copied from a common ancestor. In the absence of a source text, this principle must be applied with caution, since it is often difficult to determine which variants are errors. However, in the case of “The Effects of the Seven Sins,” there are a few instances in which shared variants are likely the result of error, and which therefore provide a basis for developing a <hi rend="italic">stemma</hi>. The most obvious of these is in the order of the sins. Where the Emmanuel College MS places lechery last, the Trinity and Bodleian MSS place lechery before gluttony. Given that lechery comes last in Gregory’s order, which the text otherwise follows, the order found in the Emmanuel College and Bodleian manuscripts seems to be a shared mistake. Another shared mistake occurs in the list of the effects of gluttony, where both the Bodleian and Trinity MSS contain an error produced by eyeskip.
+                    <note type="editorial" resp="#kam">At line 4 of Gluttony, the Emmanuel College MS has “Tout tuite” where the Bodleian and Trinity MSS just have “Tout.” Since the former reading makes sense here, it seems likely that the Emmanuel College MS retains an original reading, which was lost in the tradition of the other two manuscripts through scribal error. </note>
+                    Moreover, the Trinity and Bodleian MSS share more substantive variants than the Emmanuel College MS shares with either.
+                    <note type="editorial" resp="#kam">Substantive variants shared between the Trinity and Bodleian MSS are Org. 2,4; Env.2; Ire.1; Ava.4; Glo.3,4 a and b; and the order of Glo. and Lec. Substantive variants shared between the Bodleian and Emmanuel MSS are Org.1; Ire.3; Acc. 4, 6; Lec.1, 7; Glo.7. Substantive variants shared between the Trinity and Emmanuel MSS are Org. 6; Ava.1. </note>
+                    It therefore seems likely that the Trinity and Bodleian MSS are derived from a shared ancestor, while the Emmanuel College manuscript represents a separate tradition. 
+                </p>
+            </div>
+            <div>
+                <head type="main">Editorial Approach</head>
+                <p>
+                    An editor working with multiple manuscripts generally must choose between producing either a critical edition—which uses one manuscript as a base text and gives variant readings in a critical apparatus—or a parallel text edition—which does not use a base text, but rather presents all manuscript witnesses alongside each other. Each approach has its benefits. The former, by presenting a single clear path through the text, is easier for a reader to navigate, while the latter, by eschewing a base text and assigning equal importance to all manuscript witnesses, can be especially valuable for scholars who want to use the edition to understand the development of a text. The second approach is also useful for texts that have no clear “best” copy, as it displaces the choice of text onto the reader instead of the editor. TEI-encoding allows an editor to produce either type of edition, or a mix of both. </p>
+                <p>An argument could be made for producing a parallel-text edition of the “Effects of the Seven Sins.” Such an edition would use the “The Parallel Segmentation Method” of describing variants (described in section 12.2.3  of the TEI guidelines), in which variants, both orthographical and substantive, are given "rdg" elements, all marked off by "app" elements. By recording all variant information and avoiding privileging any one manuscript over another as a base text, this method treats each copy of a text as a valuable historical and literary artefact. This might be a valuable approach to editing the “Effects of the Seven Sins,” since the Bodleian copy was produced some 100 to 150 years after the other two copies, and, given that the intervening years were a period of rapid pastoral and scholastic change, each copy could provide valuable historical and linguistic evidence in its own right.</p>
+                    <p> But after collating the three copies of the “Effects,” I have found that the substantive variants between the three copies are surprisingly limited, so each copy cannot easily be said to be a unique witness to the distinct period in which it was written, and this eliminates the need for a parallel text edition. Moreover, the goal of the present edition is to make the text more readily available to a wider audience, which means that a critical edition, which is easier for a reader to navigate than  a parallel text one, is a good choice. Finally, during the process of collation, the Bodleian manuscript emerged as a powerful candidate for a base text, being the closest to the other two texts and the most free from apparent error.
+                        <note type="editorial" resp="#kam">See the comparison of substantive variants above. </note>
+                        I have therefore decided to produce a critical edition, using the Bodleian manuscript as a base text.</p>
+            </div>
+            <div>
+                <head rend="main">Approach to Emendation and Variants</head>
+                <p>An editor who has chosen to produce a critical edition must make the further choice of how far to emend the base text, and under which circumstances. Should abbreviations be expanded? Should orthographic or semantic problems be fixed? Variant readings play an important role in this latter choice, since, in cases where a witness provides a better reading than the base text, an editor must choose whether or not to emend the base text to match the witness. An edition with little or no emendation, which closely follows its base text, is valuable for providing insight into the text as it would have been read by its medieval audience, while a text that is emended is valuable for being easier to read and understand and, in some cases, may get closer to what the author of the text originally intended. TEI has the advantage over traditional editorial methods of providing a tidy framework for recording both original readings and suggested emendations, and that is the approach I have taken here. </p>
+                <p>So, I have transcribed the Bodleian manuscript text faithfully, using a series of &lt;list&gt; elements to represent the sins. For abbreviations, I have used the &lt;choice&gt; element, which allows the text to be displayed with or without expansions. So, for example, the word “su” (fol. 87r, line 17) in the Bodleian manuscript has been marked as follows: </p>
+                <figure>
+                    <head>Figure 2: MS abbreviation for "sun."</head>
+                    <p><note type="editorial" resp="#kam">Made available under a Creative Commons license.</note></p>
+                    <figDesc>MS abbreviation for "sun."</figDesc>
+                    <graphic url="sun.jpg"/>
+                </figure>
+                <p>&lt;w&gt;su&lt;choice&gt;<lb/>
+                    &lt;abbr&gt;&lt;am&gt;&#x305;&lt;/am&gt;&lt;/abbr&gt;<lb/>
+                   &lt;expan&gt;n&lt;/expan&gt;<lb/>
+                   &lt;/choice&gt;&lt;/w&gt;
+                </p> 
+                <p>I have recorded substantive variants as &lt;rdg&gt;s within the &lt;app&gt;  element, using the “double-end-point” encoding method. In these, I have used &lt;lem&gt;  to indicate the preferred readings from the three witnesses. Since the Bodleian manuscript is relatively free from error, in almost all cases, &lt;lem&gt;  indicates a reading from the Bodleian manuscript. So, for example, at line 4, the three witnesses give the following variants: </p>
+                <list>
+                    <item>Bodleian MS: Estriuer saunz bosoign</item>	
+                    <item>Trinity MS: Estriuer sanz busuin</item>
+                    <item>Emmanuel MS: Estriuer sanz encheisun</item>
+                </list>
+                <p>The Bodleian manuscript preserves the right reading here, since the reading of the Emmanuel manuscript was apparently created through eyeskip, the scribe mistakenly copying a word from two lines further down in his exemplar. I have therefore marked these variants as
+                </p>
+                <p>
+                Estriuer saunz &lt;anchor xml:id="Org.4a"/&gt;bosoign<lb/>
+                &lt;app from="#Org.4a"&gt;<lb/>
+                &lt;lem wit="#Bd">bosoign&lt;/lem&gt;<lb/>
+                &lt;rdg wit="#Tr">busuin&lt;/rdg&gt;<lb/>
+                &lt;rdg wit="#Em">encheisun&lt;/rdg&gt;<lb/>
+                &lt;/app&gt;<lb/></p>
+                <p>There are, however, a few cases, all noted, in which I have emended the base text by using &lt;lem&gt; to mark better readings taken from the other witnesses.
+                        <note type="editorial" resp="#kam">The first case occurs at line 6 of the section on Pride. In the Bodleian MS, two effects, listed separately in the other manuscripts, have been placed together on one line, undoubtedly to save space. The latter organization is clearly preferable, since it maintains the seven species divisions found in other manuscripts. I have marked the reading in the Emmanuel College copy as the better one in this case because the Trinity one contains an error (“contraius” for “contrarius”). In line 4 of the section on Ire, the Bodleian manuscript contains an apparent error—the word “eschamer,” which is not attested in the Anglo-Norman dictionary. I have therefore emended it to the Trinity MS reading, “escharnier,” again using the &lt;lem&gt; element. At line 6 of sloth, I have chosen the reading from the Emmanuel College manuscript “en despeyr” over the apparently erroneous reading of the Bodleian manuscript, “en des espeir.” For the first line of “Avarice,” the Bodleian manuscript omits “plus coyntement,” which is found in the other two manuscripts. Since it is more likely that this was omitted from the tradition rather than added to it, I have used &lt;lem&gt; for the reading in the Trinity manuscript. In line 4 of Gluttony, the Emmanuel College manuscript has “Tout tuite” whereas the Bodleian and Trinity manuscripts have “Tout”; I have used the Emmanuel college reading because the absence of “tuite” in the other manuscripts is likely to have resulted from eyeskip. </note> 
+                  </p>
+                
+                
+            </div>        
+              <div>          
+                  <head type="main">Note on the Translation and Treatment of the Text</head>      
+                  <p>
+                      In transcriptions, I have not introduced modern punctuation or the distinctions between <hi rend="italic">u</hi> and <hi rend="italic">v</hi> and between <hi rend="italic">i</hi> and <hi rend="italic">j</hi>. Abbreviations and their expansions have been given, using the &lt;choice&gt; element, in the base text and in those variant readings marked with &lt;lem&gt;. In other variant readings, abbreviations have been expanded silently. </p>
+                  <p>The translation was produced with the aim of retaining the sense of the original text as much as possible. I have provided translations for variant readings in cases where these would change the meaning of the text. For obvious reasons, I have omitted, in the translation, variants that produce no intelligible meaning.</p>
+              </div>
+         
+        </body>
+    </text>
 </TEI>

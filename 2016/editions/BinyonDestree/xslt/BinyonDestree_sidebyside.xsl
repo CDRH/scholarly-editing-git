@@ -122,16 +122,16 @@
     <html>
       <head><title>Side by Side View</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
-        <link href="../../css/BinyonDestree.css" rel="stylesheet" type="text/css"/>
-        <script src="../../js/BinyonDestree.js"> &#160; </script>
-        <script src="../../js/BinyonDestree-sidebyside.js"> &#160; </script>
+        <link href="BinyonDestree/css/BinyonDestree.css" rel="stylesheet" type="text/css"/>
+        <script src="BinyonDestree/js/BinyonDestree.js"> &#160; </script>
+        <script src="BinyonDestree/js/BinyonDestree-sidebyside.js"> &#160; </script>
       </head>
       <body class="BinyonDestree side_by_side">
         
         <div class="sidebysideEditionHeader">
           
           <div class="compressedMasthead">
-            <a href="{$siteroot}"><img src="template_images/compressed_logo.png"/></a>
+            <a href="{$siteroot}"><img src="../../template_images/compressed_logo.png"/></a>
             
           </div>
           
@@ -167,7 +167,7 @@
                 <xsl:variable name="n" select="@n"/>
                
                 
-                <xsl:apply-templates select="document('../2016/editions/BinyonDestree/xml/BinyonDestree.translation.xml')//div[@n=$n]"></xsl:apply-templates>
+                <xsl:apply-templates select="document('../xml/BinyonDestree.translation.xml')//div[@n=$n]"></xsl:apply-templates>
               </div>
             </xsl:if>
               

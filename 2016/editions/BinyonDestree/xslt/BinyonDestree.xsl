@@ -103,7 +103,7 @@
                    <a>
                        <xsl:attribute name="href">
                            <xsl:text>BinyonDestree.translation.html#</xsl:text>
-                           <xsl:text>letter_BinyonDestreetranslationl_</xsl:text>
+                           <xsl:text>letter_BinyonDestreetranslation_</xsl:text>
                            <xsl:value-of select="@n"/>
                        </xsl:attribute>
                        <xsl:text>Translation</xsl:text>
