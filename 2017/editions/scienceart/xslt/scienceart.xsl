@@ -114,5 +114,9 @@
   <xsl:template match="byline">
     <h4><strong><xsl:apply-templates/></strong></h4>
   </xsl:template>
+  
+  <xsl:template match="supplied">
+    <span class="supplied"><xsl:apply-templates/></span>
+  </xsl:template>
 
 </xsl:stylesheet>
