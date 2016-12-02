@@ -83,6 +83,31 @@
      here.  You cannot call a named template from directly within the stylesheet tag
      but you can redefine one here to be called by an imported template -->
   
+  <xsl:template match="text">
+    <xsl:apply-templates/>
+    <xsl:if
+      test="
+      //body//note[@type = 'editorial']
+      or //body//note[@place = 'foot']
+      or //back//note">
+      <div class="notesList">
+        <h2>Notes</h2>
+        <xsl:if test="preceding::bibl//note[@type='project']"><div class="footnote"><xsl:apply-templates select="preceding::bibl//note[@type='project']"/></div></xsl:if>
+        <xsl:for-each select="//text//note">
+          <div class="footnote">
+            <xsl:attribute name="id">
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="." mode="footnotes"/>
+          </div>
+        </xsl:for-each>
+      </div>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="note[@type='project']">
+    <xsl:apply-templates/>
+  </xsl:template>
   
   <xsl:template match="head[not(ancestor::figure)]">
     <h3><strong><xsl:apply-templates/></strong></h3>
@@ -116,7 +141,7 @@
   </xsl:template>
   
   <xsl:template match="supplied">
-    <span class="supplied"><xsl:apply-templates/></span>
+    <span class="supplied"><!--<xsl:text>[</xsl:text>--><xsl:apply-templates/><!--<xsl:text>]</xsl:text>--></span>
   </xsl:template>
 
 </xsl:stylesheet>
