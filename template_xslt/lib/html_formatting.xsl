@@ -309,7 +309,7 @@
   <!-- ================================================ -->
 
   <xsl:template match="byline">
-    <span class="byline">
+    <h4 class="byline">
       <xsl:choose>
         <xsl:when test="preceding-sibling::byline">
           <xsl:choose>
@@ -323,11 +323,11 @@
           <xsl:apply-templates/>
         </xsl:otherwise>
       </xsl:choose>
-    </span>
+    </h4>
   </xsl:template>
 
   <!-- ================================================ -->
-  <!--                       CHOCE                      -->
+  <!--                       CHOICE                      -->
   <!-- ================================================ -->
 
   <xsl:template match="choice[child::corr]">

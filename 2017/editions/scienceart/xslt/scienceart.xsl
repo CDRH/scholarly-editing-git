@@ -136,10 +136,6 @@
     <span class="blockquote"><xsl:apply-templates/></span>
   </xsl:template>
   
-  <xsl:template match="byline">
-    <h4><strong><xsl:apply-templates/></strong></h4>
-  </xsl:template>
-  
   <xsl:template match="supplied">
     <span class="supplied"><!--<xsl:text>[</xsl:text>--><xsl:apply-templates/><!--<xsl:text>]</xsl:text>--></span>
   </xsl:template>
