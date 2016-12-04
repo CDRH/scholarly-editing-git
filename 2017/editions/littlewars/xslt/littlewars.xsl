@@ -45,11 +45,11 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>Little Wars</em> by Herbert George Wells</h1>
+        <h1><em>Little Wars</em>, by Herbert George Wells</h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
-        <div class="body_author">Edited by Nigel Lepianka and Deanna Stover, <em>Texas A&amp;M University</em></div>
+        <div class="body_author">Edited by Nigel Lepianka and Deanna Stover</div>
         
         <!-- $edition_navigation 
          Each <li> is pulled in and new navigation is constructed. Appending #page_info at the end sets the 
