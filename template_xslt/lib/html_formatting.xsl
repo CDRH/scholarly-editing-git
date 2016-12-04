@@ -968,20 +968,9 @@
   <!-- ================================================ -->
 
   <xsl:template match="quote">
-    <xsl:choose>
-      <xsl:when test="descendant::*[name() = 'lg']">
-        <blockquote>
+        <br/><br/><span class="blockquote">
           <xsl:apply-templates/>
-        </blockquote>
-      </xsl:when>
-      <xsl:otherwise>
-        <blockquote>
-          <p>
-            <xsl:apply-templates/>
-          </p>
-        </blockquote>
-      </xsl:otherwise>
-    </xsl:choose>
+        </span><br/><br/>
   </xsl:template>
 
   <xsl:template match="q">

@@ -128,10 +128,6 @@
     <xsl:text>]</xsl:text></p>
   </xsl:template>
   
-  <xsl:template match="quote">
-    <span class="blockquote"><xsl:apply-templates/></span>
-  </xsl:template>
-  
   <xsl:template match="supplied">
     <span class="supplied"><!--<xsl:text>[</xsl:text>--><xsl:apply-templates/><!--<xsl:text>]</xsl:text>--></span>
   </xsl:template>

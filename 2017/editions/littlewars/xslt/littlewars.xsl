@@ -45,7 +45,7 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>Little Wars</em>, by Herbert George Wells</h1>
+        <h1><em>Little Wars</em>, by H. G. Wells</h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
