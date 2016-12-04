@@ -529,7 +529,7 @@
         </xsl:attribute>
       </img></span>
       <span class="cap"><h5>
-        <strong><xsl:apply-templates select="child::head"/></strong><xsl:text>: </xsl:text><xsl:apply-templates select="child::figDesc"/>
+        <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
       </h5>
 
     </span>

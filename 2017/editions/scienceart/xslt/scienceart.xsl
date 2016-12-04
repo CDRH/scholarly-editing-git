@@ -131,5 +131,26 @@
   <xsl:template match="supplied">
     <span class="supplied"><!--<xsl:text>[</xsl:text>--><xsl:apply-templates/><!--<xsl:text>]</xsl:text>--></span>
   </xsl:template>
+  
+  <xsl:template match="figure" priority="1">
+    <span class="figure_center">
+      <!--<xsl:attribute name="class">
+        <xsl:text>tei_figure</xsl:text>
+      </xsl:attribute>-->
+      <img>
+        <xsl:attribute name="src">
+          <xsl:text>images/viewsize/</xsl:text>
+          <xsl:value-of select="child::graphic/attribute::url"/>
+        </xsl:attribute>
+        <xsl:attribute name="alt">
+          <xsl:value-of select="child::figDesc"/>
+        </xsl:attribute>
+      </img></span>
+    <span class="cap"><h5>
+      <strong><xsl:apply-templates select="child::head"/></strong><xsl:text>: </xsl:text><xsl:apply-templates select="child::figDesc"/>
+    </h5>
+      
+    </span>
+  </xsl:template>
 
 </xsl:stylesheet>
