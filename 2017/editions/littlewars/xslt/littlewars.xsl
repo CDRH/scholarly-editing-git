@@ -94,7 +94,7 @@
       <div class="notesList">
         <h2>Notes</h2>
         <xsl:if test="preceding::bibl//note[@type='project']"><div class="footnote"><xsl:apply-templates select="preceding::bibl//note[@type='project']"/></div></xsl:if>
-        <xsl:for-each select="//text//note">
+        <xsl:for-each select="//text//note[not(@place='bottom')][not(@place='foot')]">
           <div class="footnote">
             <xsl:attribute name="id">
               <xsl:value-of select="@xml:id"/>
@@ -110,8 +110,8 @@
     <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="note" mode="footnotes">
-    <xsl:variable name="noteCount" select="count(preceding::note)"/>
+  <xsl:template match="note[not(@place='bottom')]" mode="footnotes">
+    <xsl:variable name="noteCount" select="count(preceding::note[not(@place='foot' or @place='bottom')])"/>
     <p><xsl:value-of select="$noteCount"/>
       
       <xsl:text>. </xsl:text>
@@ -176,6 +176,22 @@
         </a>
       </span>
     </span></xsl:otherwise></xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="front//titlePart">
+    <br/><br/><h3 class="tei_titlePart"><xsl:apply-templates/></h3><br/>
+  </xsl:template>
+  
+  <xsl:template match="front//byline">
+    <br/><br/><h5 class="tei_titlePart"><xsl:apply-templates/></h5>
+  </xsl:template>
+  
+  <xsl:template match="front//docAuthor">
+    <br/><br/><xsl:apply-templates/><br/><br/>
+  </xsl:template>
+  
+  <xsl:template match="front//docImprint">
+    <br/><br/><br/><h5 class="tei_titlePart"><xsl:apply-templates/></h5>
   </xsl:template>
   
 </xsl:stylesheet>
