@@ -84,4 +84,49 @@
      here.  You cannot call a named template from directly within the stylesheet tag
      but you can redefine one here to be called by an imported template -->
   
+  <xsl:template match="text">
+    <xsl:apply-templates/>
+    <xsl:if
+      test="
+      //body//note[@type = 'editorial']
+      or //body//note[@place = 'foot']
+      or //back//note">
+      <div class="notesList">
+        <h2>Notes</h2>
+        <xsl:if test="preceding::bibl//note[@type='project']"><div class="footnote"><xsl:apply-templates select="preceding::bibl//note[@type='project']"/></div></xsl:if>
+        <xsl:for-each select="//text//note">
+          <div class="footnote">
+            <xsl:attribute name="id">
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="." mode="footnotes"/>
+          </div>
+        </xsl:for-each>
+      </div>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="note[@type='project']">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="note" mode="footnotes">
+    <xsl:variable name="noteCount" select="count(preceding::note)"/>
+    <p><xsl:value-of select="$noteCount"/>
+      
+      <xsl:text>. </xsl:text>
+      <span class="note_text">
+        <xsl:apply-templates/>
+      </span>
+      <xsl:text> [</xsl:text>
+      <a>
+        <xsl:attribute name="href">
+          <xsl:text>#inline</xsl:text>
+          <xsl:value-of select="@xml:id"/>
+        </xsl:attribute>
+        <xsl:text>back</xsl:text>
+      </a>
+      <xsl:text>]</xsl:text></p>
+  </xsl:template>
+  
 </xsl:stylesheet>

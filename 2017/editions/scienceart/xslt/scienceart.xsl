@@ -109,10 +109,6 @@
     <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="head[not(ancestor::figure)]">
-    <h3><strong><xsl:apply-templates/></strong></h3>
-  </xsl:template>
-  
   <xsl:template match="note" mode="footnotes">
     <xsl:variable name="noteCount" select="count(preceding::note)"/>
     <p><xsl:value-of select="$noteCount"/>

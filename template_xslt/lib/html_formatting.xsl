@@ -607,6 +607,9 @@
       <!-- I added the div1 code for OSCYS, but I assume it will pop up elsewhere. 
     First I test if the div1 has a head. If it does not, I start the div2's on the h3's and work from there. - karin
     -->
+      <xsl:when test="//div">
+        <h3><strong><xsl:apply-templates/></strong></h3>
+      </xsl:when>
       <xsl:when test="//div1">
         <xsl:choose>
           <xsl:when test="//div1/head">
