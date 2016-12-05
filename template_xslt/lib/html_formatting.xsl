@@ -305,7 +305,7 @@
   <!-- ================================================ -->
 
   <xsl:template match="byline">
-    <span class="byline">
+    <h4 class="byline">
       <xsl:choose>
         <xsl:when test="preceding-sibling::byline">
           <xsl:choose>
@@ -319,11 +319,11 @@
           <xsl:apply-templates/>
         </xsl:otherwise>
       </xsl:choose>
-    </span>
+    </h4>
   </xsl:template>
 
   <!-- ================================================ -->
-  <!--                       CHOCE                      -->
+  <!--                       CHOICE                      -->
   <!-- ================================================ -->
 
   <xsl:template match="choice[child::corr]">
@@ -525,7 +525,7 @@
         </xsl:attribute>
       </img></span>
       <span class="cap"><h5>
-        <strong><xsl:apply-templates select="child::head"/></strong><xsl:text>: </xsl:text><xsl:apply-templates select="child::figDesc"/>
+        <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
       </h5>
 
     </span>
@@ -603,6 +603,9 @@
       <!-- I added the div1 code for OSCYS, but I assume it will pop up elsewhere. 
     First I test if the div1 has a head. If it does not, I start the div2's on the h3's and work from there. - karin
     -->
+      <xsl:when test="//div">
+        <h3><strong><xsl:apply-templates/></strong></h3>
+      </xsl:when>
       <xsl:when test="//div1">
         <xsl:choose>
           <xsl:when test="//div1/head">
@@ -957,20 +960,9 @@
   <!-- ================================================ -->
 
   <xsl:template match="quote">
-    <xsl:choose>
-      <xsl:when test="descendant::*[name() = 'lg']">
-        <blockquote>
+        <br/><br/><span class="blockquote">
           <xsl:apply-templates/>
-        </blockquote>
-      </xsl:when>
-      <xsl:otherwise>
-        <blockquote>
-          <p>
-            <xsl:apply-templates/>
-          </p>
-        </blockquote>
-      </xsl:otherwise>
-    </xsl:choose>
+        </span><br/><br/>
   </xsl:template>
 
   <xsl:template match="q">
