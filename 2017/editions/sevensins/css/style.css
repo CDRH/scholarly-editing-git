@@ -90,6 +90,11 @@
   
 }
 
-.tei_figure {
-  max-width:100%;
+.tei_figure img {
+  max-width: 100%;
+}
+
+.close-button {
+    float:right;
+    font-size: .8em;
 }
