@@ -1,0 +1,95 @@
+.align_right {
+    float: right;
+}
+
+.align_center {
+    display: block;
+    margin: auto;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.tei_titlePart {
+    text-align: center;
+}
+
+.printer {
+    display: block;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-size: .85em;
+    padding: 10px;
+}
+
+.WellsNote {
+    font-size: .85em;
+}
+
+span.pagebreak_list{
+    display: block;
+    margin: 1em 0 0 -3em;
+    font-size: 10pt;
+    border-top: 1px dashed #aaa;
+    height: 50px;
+    padding: 15px;
+    width: 105.5%;
+    text-align: left;
+}
+
+span.pagebreak_list span.tei_thumbnail{
+    float: right;
+    padding-left: 10px;
+    text-indent: 0px;
+    clear: both;
+    margin: 10px 0 0 10px;
+}
+
+span.pagebreak_list a{
+    float: right;
+    clear: right;
+    line-height: 1.5em;
+    margin: -0px 0 0 10px;
+}
+
+span.pagebreak_doubleList{
+    display: block;
+    margin: 1em 0 0 -9em;
+    font-size: 10pt;
+    border-top: 1px dashed #aaa;
+    height: 50px;
+    padding: 15px;
+    width: 119%;
+    text-align: left;
+}
+
+span.pagebreak_doubleList span.tei_thumbnail{
+    float: right;
+    padding-left: 10px;
+    text-indent: 0px;
+    clear: both;
+    margin: 10px 0 0 10px;
+}
+
+span.pagebreak_doubleList a{
+    float: right;
+    clear: right;
+    line-height: 1.5em;
+    margin: -0px 0 0 10px;
+}
+
+.in_note {
+    padding-left: 3em;
+}
+
+.head_note {
+     font-size: 14pt;
+     font-weight:normal;
+     vertical-align: super;
+}
+
+/* To add borders on sides */
+/*.row > div {
+    border: 1px solid green;
+}*/

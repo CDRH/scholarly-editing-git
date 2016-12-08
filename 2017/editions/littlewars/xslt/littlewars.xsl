@@ -106,6 +106,32 @@
     </xsl:if>
   </xsl:template>
   
+  <xsl:template match="ptr">
+    <xsl:choose>
+      <xsl:when test="parent::head"><span class="head_note"><a>
+        <xsl:attribute name="href">
+          <xsl:value-of select="@target"/>
+        </xsl:attribute>
+        <xsl:attribute name="id">
+          <xsl:text>inline</xsl:text>
+          <xsl:value-of select="substring-after(@target, '#')"/>
+        </xsl:attribute>
+        <xsl:attribute name="class">edition_notes</xsl:attribute>
+        <sup>[<xsl:value-of select="@n"/>]</sup>
+      </a></span></xsl:when>
+      <xsl:otherwise><a>
+      <xsl:attribute name="href">
+        <xsl:value-of select="@target"/>
+      </xsl:attribute>
+      <xsl:attribute name="id">
+        <xsl:text>inline</xsl:text>
+        <xsl:value-of select="substring-after(@target, '#')"/>
+      </xsl:attribute>
+      <xsl:attribute name="class">edition_notes</xsl:attribute>
+      <sup>[<xsl:value-of select="@n"/>]</sup>
+    </a></xsl:otherwise></xsl:choose>
+  </xsl:template>
+  
   <xsl:template match="note[@type='project']">
     <xsl:apply-templates/>
   </xsl:template>
@@ -129,55 +155,6 @@
       <xsl:text>]</xsl:text></p>
   </xsl:template>
   
-  <xsl:template match="pb">
-    <xsl:choose>
-      <xsl:when test="following-sibling::*[1][self::figure]"><span>
-        <xsl:attribute name="class">
-          <xsl:text>pagebreak</xsl:text>
-        </xsl:attribute></span></xsl:when>
-      <xsl:otherwise><span>
-      <xsl:attribute name="class">
-        <xsl:text>pagebreak</xsl:text>
-      </xsl:attribute>
-      <span class="tei_thumbnail">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:text>images/viewsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
-          </xsl:attribute>
-          <img>
-            <xsl:attribute name="src">
-              <xsl:text>images/thumbs/</xsl:text>
-              <xsl:value-of select="@facs"/>
-            </xsl:attribute>
-          </img>
-        </a>
-      </span>
-      <span class="viewsize">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:text>images/viewsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
-          </xsl:attribute>
-          <xsl:text>View Page</xsl:text>
-        </a>
-      </span>
-      <br/>
-      <span class="fullsize">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:text>images/fullsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
-          </xsl:attribute>
-          <xsl:attribute name="target">
-            <xsl:text>_blank</xsl:text>
-          </xsl:attribute>
-          <xsl:text>Full size in new window</xsl:text>
-        </a>
-      </span>
-    </span></xsl:otherwise></xsl:choose>
-  </xsl:template>
-  
   <xsl:template match="front//titlePart">
     <br/><br/><h3 class="tei_titlePart"><xsl:apply-templates/></h3><br/>
   </xsl:template>
@@ -192,6 +169,224 @@
   
   <xsl:template match="front//docImprint">
     <br/><br/><br/><h5 class="tei_titlePart"><xsl:apply-templates/></h5>
+  </xsl:template>
+  
+  <xsl:template match="note[@place='bottom']">
+    <br/><br/><xsl:text>* </xsl:text><span class="WellsNote"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="fw">
+    <br/><xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="ref">
+      <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="pb">
+    <xsl:choose>
+      <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak</xsl:text>
+        </xsl:attribute></span></xsl:when>
+      <xsl:otherwise><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak</xsl:text>
+        </xsl:attribute>
+        <span class="tei_thumbnail">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <img>
+              <xsl:attribute name="src">
+                <xsl:text>images/thumbs/</xsl:text>
+                <xsl:value-of select="@facs"/>
+              </xsl:attribute>
+            </img>
+          </a>
+        </span>
+        <span class="viewsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:text>View Page</xsl:text>
+          </a>
+        </span>
+        <br/>
+        <span class="fullsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/fullsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:attribute name="target">
+              <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:text>Full size in new window</xsl:text>
+          </a>
+        </span>
+      </span></xsl:otherwise></xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="list[not(ancestor::list)]/item/pb">
+    <xsl:choose>
+      <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak_list</xsl:text>
+        </xsl:attribute></span></xsl:when>
+      <xsl:otherwise><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak_list</xsl:text>
+        </xsl:attribute>
+        <span class="tei_thumbnail">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <img>
+              <xsl:attribute name="src">
+                <xsl:text>images/thumbs/</xsl:text>
+                <xsl:value-of select="@facs"/>
+              </xsl:attribute>
+            </img>
+          </a>
+        </span>
+        <span class="viewsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:text>View Page</xsl:text>
+          </a>
+        </span>
+        <br/>
+        <span class="fullsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/fullsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:attribute name="target">
+              <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:text>Full size in new window</xsl:text>
+          </a>
+        </span>
+      </span></xsl:otherwise></xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="list[not(ancestor::list)]/item/p/pb">
+    <xsl:choose>
+      <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak_list</xsl:text>
+        </xsl:attribute></span></xsl:when>
+      <xsl:otherwise><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak_list</xsl:text>
+        </xsl:attribute>
+        <span class="tei_thumbnail">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <img>
+              <xsl:attribute name="src">
+                <xsl:text>images/thumbs/</xsl:text>
+                <xsl:value-of select="@facs"/>
+              </xsl:attribute>
+            </img>
+          </a>
+        </span>
+        <span class="viewsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:text>View Page</xsl:text>
+          </a>
+        </span>
+        <br/>
+        <span class="fullsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/fullsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:attribute name="target">
+              <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:text>Full size in new window</xsl:text>
+          </a>
+        </span>
+      </span></xsl:otherwise></xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="list/item/list/item/pb">
+    <xsl:choose>
+      <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak_doubleList</xsl:text>
+        </xsl:attribute></span></xsl:when>
+      <xsl:otherwise><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak_doubleList</xsl:text>
+        </xsl:attribute>
+        <span class="tei_thumbnail">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <img>
+              <xsl:attribute name="src">
+                <xsl:text>images/thumbs/</xsl:text>
+                <xsl:value-of select="@facs"/>
+              </xsl:attribute>
+            </img>
+          </a>
+        </span>
+        <span class="viewsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:text>View Page</xsl:text>
+          </a>
+        </span>
+        <br/>
+        <span class="fullsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/fullsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:attribute name="target">
+              <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:text>Full size in new window</xsl:text>
+          </a>
+        </span>
+      </span></xsl:otherwise></xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="byline[preceding-sibling::div]">
+    <br/><span class="printer"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="l[ancestor::note]">
+    <div class="poem_line tei_l in_note">
+      <xsl:apply-templates/>
+    </div>
   </xsl:template>
   
 </xsl:stylesheet>
