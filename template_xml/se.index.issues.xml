@@ -93,12 +93,32 @@
                 <list type="simple" xml:id="editions2017">
                     <head type="main">Editions</head>
                    
-                    <item>
+                    <!--<item>
                         <bibl>
                             <title level="m">
                                 <ref type="html" target="2017/editions/EDITION_SAMPLE/intro">Sample Edition</ref>
                             </title>
                             <editor>Editor Name Goes Here</editor>
+                            
+                        </bibl>
+                    </item>-->
+                    <item>
+                        <bibl>
+                            <title level="m">
+                                <ref type="html" target="2017/editions/littlewars/intro"><hi rend="italic">Little Wars</hi>, by H. G. Wells</ref>
+                            </title>
+                            <editor>Nigel Lepianka <affiliation>Texas A&amp;M University</affiliation></editor>
+                            <editor>Deanna Stover <affiliation>Texas A&amp;M University</affiliation></editor>
+                            
+                        </bibl>
+                    </item>
+                    
+                    <item>
+                        <bibl>
+                            <title level="m">
+                                <ref type="html" target="2017/editions/littlewars/intro"><hi rend="italic">"The Effects of the Seven Sins"</hi>: A Critical Edition</ref>
+                            </title>
+                            <editor>Krista A. Murchison <affiliation>Leiden University</affiliation></editor>
                             
                         </bibl>
                     </item>
