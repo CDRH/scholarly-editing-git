@@ -106,6 +106,7 @@
     </xsl:if>
   </xsl:template>
   
+  <!--ptr template adjusted to accommodate notes in <head> tags-->
   <xsl:template match="ptr">
     <xsl:choose>
       <xsl:when test="parent::head"><span class="head_note"><a>
@@ -136,10 +137,10 @@
     <xsl:apply-templates/>
   </xsl:template>
   
+  <!--apparatus footnotes-->
   <xsl:template match="note[not(@place='bottom')]" mode="footnotes">
     <xsl:variable name="noteCount" select="count(preceding::note[not(@place='foot' or @place='bottom')])"/>
     <p><xsl:value-of select="$noteCount"/>
-      
       <xsl:text>. </xsl:text>
       <span class="note_text">
         <xsl:apply-templates/>
@@ -155,6 +156,16 @@
       <xsl:text>]</xsl:text></p>
   </xsl:template>
   
+  <!--primary text footnotes-->
+  <xsl:template match="note[@place='bottom']">
+    <br/><br/><xsl:text>* </xsl:text><span class="WellsNote"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="ref">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <!--title page and printer statement-->
   <xsl:template match="front//titlePart">
     <br/><br/><h3 class="tei_titlePart"><xsl:apply-templates/></h3><br/>
   </xsl:template>
@@ -171,18 +182,16 @@
     <br/><br/><br/><h5 class="tei_titlePart"><xsl:apply-templates/></h5>
   </xsl:template>
   
-  <xsl:template match="note[@place='bottom']">
-    <br/><br/><xsl:text>* </xsl:text><span class="WellsNote"><xsl:apply-templates/></span>
+  <xsl:template match="byline[preceding-sibling::div]">
+    <br/><span class="printer"><xsl:apply-templates/></span>
   </xsl:template>
   
+  <!--formeworks-->
   <xsl:template match="fw">
     <br/><xsl:apply-templates/>
   </xsl:template>
-  
-  <xsl:template match="ref">
-      <xsl:apply-templates/>
-  </xsl:template>
-  
+
+  <!--pb templates adjusted according to parent element-->
   <xsl:template match="pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
@@ -379,14 +388,13 @@
       </span></xsl:otherwise></xsl:choose>
   </xsl:template>
   
-  <xsl:template match="byline[preceding-sibling::div]">
-    <br/><span class="printer"><xsl:apply-templates/></span>
+  <!--lines and line groups in notes-->
+  <xsl:template match="lg[ancestor::note]">
+    <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="l[ancestor::note]">
-    <div class="poem_line tei_l in_note">
-      <xsl:apply-templates/>
-    </div>
+        <br/><span class="in_note"><xsl:apply-templates/></span>
   </xsl:template>
   
 </xsl:stylesheet>
