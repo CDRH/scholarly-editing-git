@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="UCLC"><teiHeader type="CDL-TEI:MTP">
+    <fileDesc>
+        <titleStmt>
+            <title>Letter from Helena Modjeska to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc><change/></revisionDesc>
+</teiHeader><text type="letter">
+<body>
+<head type="metadata">
+    <name corresp="#HM">Helena Modjeska</name> to <addressee><name corresp="#SLC">Samuel L. Clemens</name></addressee>
+    <date when="1884-04-01">1 April 1884</date> &#x2022; <name type="place">New York, New York</name>
+<sourceline>(MS: CU-MARK, UCLC 41993)</sourceline>
+</head>
+<div1 type="letter" xml:id="lt0001">
+<opener>
+<letterhead>
+<l rend="center"><seg type="mono">HCM</seg></l></letterhead>
+<salute><space extent="1"/>Dear Mr. Clemens</salute></opener>
+<p>Before I leave for Europe I want to tell you how sorry I have been for not seeing you this time when I paid a short visit to Hartford.<note xml:id="an0001" place="foot" type="an" n="1">Modjeska finished a three-week engagement in New York on 1 March, appeared for one matinee at the Madison Sqaure Theater on 6 March, and performed in New Haven on 17 March, which places her visit to Hartford around 16 March. She left for Europe on 7 June for a 16-month farewell European tour, which included appearances in London, Paris, Berlin, Vienna, St. Petersburg and Kracow ("On the Crowded Steamers," New York <hi rend="italic">Sun</hi>, 8 June 1884, 1). </note></p>
+<p>Mrs. Clemens told [me] you were not well then.<note xml:id="an0002" place="foot" type="an" n="2">Clemens had been suffering from gout. See SLC to Osgood, 20 March 1884.</note> I hope you feel better now and will be able to grant my request.</p>
+<p>I know it will be rather an annoyance, but, Oh! I wish so much to possess Mark Twain’s autograph.</p>
+<p>Will you, pray, send it to me under the following address:</p>
+    <closer>
+        <address>
+        <addrLine><space extent="2"/>Wielmożna Helena Chłapowska</addrLine>
+            <addrLine><space extent="4"/>(Modrejewska)</addrLine>
+            <addrLine><space extent="8"/>w Krakowie</addrLine>
+            <addrLine><space extent="1"/>Na ulicy Mikołajskiej w domie</addrLine>
+            <addrLine><space extent="2"/>W-go Myśliwca.</addrLine>
+            <addrLine><space extent="3"/>Na ręce Wielmożnej Jósefy</addrLine>
+            <addrLine><space extent="2"/>Bendowej.</addrLine>
+            <addrLine><space extent="1"/>Europe. Austria Galizien,</addrLine>
+            <addrLine><del>Via</del> Berlin—Breslaw, and oblige,<note type="an" place="foot" xml:id="an003" n="3">The editors thank UC Berkeley librarian Liladhar Pendse and UCLA Professor Roman Koropeckyj for their help with this letter. The final transcription and translation were kindly provided by Prof. Koropeckyj, who translates as follows: 
+                <quote type="blockquote">
+                    Wielmożna [form of honorific address] Helena Chłapowska (Modrejewska) w Krakowie [in Cracow]
+                    Na ulicy Mikołajskiej w domie W-<hi rend="superscript">go</hi> Myśliwca [On Mikołajska St. in the home of Mr. Myśliwiec]
+                    Na ręce [for] Wielmożnej Jósefy Bendowej [mother of M, who was born after the death of the latter’s husband Szymon] Europe. Austria Galizien
+                    Berlin—Breslaw
+                </quote>
+            </note></addrLine>
+        </address>
+<salute rend="indentctrcompclose">
+Your great admirer,<space extent="3"/></salute>
+        <signed rend="indentctrsig">Helena Modjeska<note type="an" xml:id="an004" place="foot" n="4">Fellow April Fool letter-writer Clara Louise Kellogg credits her correspondence with Jeannette Gilder, upon seeing Modjeska perform in Sacramento, with the arrangements that led to Modjeska's eastern tour (<hi rend="italic">Memoirs of an American prima donna</hi>, 282). Once in New York Modjeska was embraced by the Gilder-de Kay circle. (See, for instance, Charles de Kay "Modjeska," <hi rend="italic">Scribner's Monthly</hi>, [March 1879]: 665-71).</note></signed>
+<dateline><date when="1884-04-01">April 1<hi rend="superscript">st</hi> 1884.</date></dateline></closer>
+</div1>
+<div1 xml:id="pt001" type="post-transmission">
+  <div2 type="envelope">
+      <ab>S. L. Clemens Esq<hi rend="superscript">re</hi> | Hartford | (Conn.) <note type="pt" place="inline" xml:id="ed003" n="postmarked:"/> <hi rend="xs-smallcaps">u.s. &#x25C7;&#x25C7;&#x25C7;&#x25C7;apr 1 &#x25C7;&#x25C7;&#x25C7;</hi>
+        <note type="ed" xml:id="pt002" place="inline">docketed by SLC, in pencil:</note> Modjeska</ab>
+</div2>
+</div1>
+  <div1 type="commentary" xml:id="cm0001">
+  </div1>
+</body></text></TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="teip5.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41989">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Henry Peters Gray to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#HPG">Henry Peters Gray</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee>
+            <date when="1884-04-01">1 April 1884</date> &#x2022; <name type="place">New York, N.Y.</name> 
+            <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41989)</sourceline></head>
+         
+         <div1  type="form">
+            <pb facs="gray01.jpg" xml:id="pb001" n="1"/>
+            <opener>
+               <letterhead><l rend="center">the western union telegraph company.<note type="an" xml:id="an001" place="foot" n="1">In the original document about two hundred words, printed in very small type below the company’s name, describe the "terms and conditions" for anyone relying on its services.</note></l>
+                  
+                  <l rend="left">number <add type="formfill">89</add> | sent by <add type="formfill">HG</add> | rec'd by <add type="formfill">A</add> | <add type="formfill">15 paid</add> check </l>
+                  <l rend="left">received at <add type="formfill">1125</add> 1884.</l>
+                  <l rend="left">dated <add type="formfill">New York</add></l>               
+               <l rend="left">to <add type="formfill">S L Clemens Esq</add></l>
+               </letterhead>
+            </opener>
+            <p rend="noindent"><add type="formfill">By Express prepaid please send me three pounds of your heaviest waterproof autographs and oblige</add></p> 
+            <closer>
+               <signed rend="indentsig"><add type="formfill"><name type="person">Henry Peters<space extent="2"/> 
+                  <lb/>Gray</name><space extent="3"/></add></signed>
+            </closer>
+            <lb/>
+            <lb/>
+                       
+            <ab><note type="ed" place="inline" xml:id="ed001">stamped:</note> <hi rend="xs-smallcaps">western union tel. co. apr 1 1884 hartford, ct.</hi></ab>
+            <!-- verso, not envelope --> 
+            <pb facs="gray02.jpg" xml:id="pb002" n="2"/>
+            <ab><note type="ed" place="inline" xml:id="ed002">SLC, in pencil, on verso:</note> <add type="formfill"><hi rend="italic">Very</hi> good</add></ab>
+         </div1>
+         <div1 xml:id="cm0001" type="commentary"/>        
+         
+      </body>
+   </text>
+</TEI>

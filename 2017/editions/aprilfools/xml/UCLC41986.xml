@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41986">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Joseph Watson Beach to to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#JWB">Joseph Watson Beach</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee>
+            <date when="1884-04-01">1 April 1884</date> &#x2022; <name type="place">Hartford, Conn.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41986)</sourceline>
+         </head>
+         <div1  type="letter">
+            <pb xml:id="pb01" n="1" facs="beachjw01.jpg"/>
+            <opener>
+               <letterhead rend="center">the hartford club.</letterhead>
+               <dateline rend="indentdateline">
+                  <date when="1884-04-01">1<hi rend="superscript">st</hi> April 1884</date></dateline>
+               <salute rend="noindent"><name type="person">S. L. Clemens Esqr<space extent="2"/></name>
+                  <lb/><space extent="4"/>Dear Sir</salute>
+            </opener>
+            <p rend="text-indent:4">If not presumption on my part may I ask you for your autograph for a very sweet young lady friend who is anxious to add to her collection 
+               the autographs of all of the leading authors of the day.<note type="an" xml:id="an001" place="foot" n="1">Beach may refer to his daughter, Josephine Beach (born 1880), whom the Clemenses knew well enough that Olivia mentioned her presence at a performance of Dion Boucicault's <hi rend="italic">The Colleen Bawn</hi> in a letter to SLC the following year: "that obnoxious Miss Beach (Mr Watson Beache’s daughter) sat directly behind us, and made very audible adverse criticisms" (Olivia Clemens to SLC, 25 January 1885, MS in CU-MARK).</note> Say something sweet, do, she will appreciate it</p>
+            <closer>
+               <salute rend="indentcompclose">Yours truly<space extent="2"/>
+               </salute>
+               <signed rend="indentsig">J. W. Beach</signed>
+                  </closer>
+         </div1>
+         
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb xml:id="pb02" n="2" facs="beachjw-env.jpg"/>
+               <ab>S. L. Clemens Esqr | City</ab>
+               <ab><note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">hartford conn. | mar 31 84 | 11 pm</hi>
+               <note type="ed" place="inline" xml:id="ed002">docketed by SLC, in pencil:</note> Watson | Beach | <del>no good</del> | mention | <del>Wa</del> 
+                  <note xml:id="ed003" type="ed" place="inline">on the flap:</note> <hi rend="xs-smallcaps">hc</hi></ab>
+            </div2>
+         </div1>
+         <div1 xml:id="cm0001" type="commentary"/> 
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/sarony01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#NS">Napoleon Sarony</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date type="postmark" when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N. Y.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41976)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+                  <l rend="center"><hi rend="paraph">Sarony</hi></l>
+                  <l><space extent="1"/>37 union square,<space extent="24"/>elevator from the street.</l>
+                   <l rend="center">new york<add type="formfill"><hi rend="dot-underline"><space extent="10"/></hi></add>  188<add type="formfill"><hi rend="dot-underline"><space extent="2"/></hi></add></l>
+               </letterhead>
+               <salute><space extent="1"/>My Dear Clements</salute>
+            </opener>
+             <p rend="text-indent:2">Will you send me your autograph by so doing you will oblige one of your admirers<note xml:id="an0001" place="foot" type="an" n="1">Sarony had not yet produced a portrait of Clemens, though he had attempted to solicit the newly successful author to sit for him (Sarony to SLC, 27 Sep 1871, CU-MARK, where he spells Clemens's name correctly). Sarony was called upon in 1884 to provide publicity cartes de visite for the Twain-Cable tour.</note>
+            </p>
+            <closer>
+               <signed rend="indentsig">Napoleon Sarony<note xml:id="an0002" place="foot" type="an" n="2">Sarony's signature with its thick lines served as his trademark.</note>
+               <space extent="2"/></signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/sarony-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+                <ab>S. L. Clements | Hartford | Conn&#x2014; | (<hi rend="italic">Mark Twain</hi>) <note xml:id="pt002" type="pt" place="inline" n="return address:"><hi rend="xs-smallcaps">sarony | 37 union square, new york. | elevator from the street.</hi></note> <note xml:id="pt0003" type="pt" resp="MTP" place="inline" n="postmarked:">
+                    <hi rend="xs-smallcaps">new york mar 31 5 pm d <corr>84</corr></hi><gap reason="tornaway"></gap>
+                </note>
+                  <note type="ed"  xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> Mention <note type="pt" place="inline" xml:id="pt003" n="rule"/>
+                </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

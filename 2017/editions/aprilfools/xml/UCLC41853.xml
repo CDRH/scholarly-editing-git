@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41853">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Charles Y. Beach to Samuel L. Clemens</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#CYB">Charles Y. Beach</name> to <addressee><name type="person" corresp="#SLC"></name>Samuel L. Clemens</addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Brooklyn, N.Y.</name>
+               <sourceline>(MS: CU-MARK, UCLC 41853)</sourceline></head>
+         
+         <div1  type="letter">
+            <opener>
+               <letterhead><l>no. 96 columbia heights,</l>
+            <l><space extent="2"/>brooklyn, n. y.</l></letterhead>            
+               <dateline rend="indentdateline"><date when="1884-03-31">March 31 <hi rend="xs-smallcaps">1884</hi>.</date></dateline>
+               <name type="addressee" rend="noindent">Mr Samuel Clemens</name>
+               <salute rend="text-indent:2">My dear Sir</salute>
+            </opener>
+            <p rend="text-indent:4">I understand that it is the fashion about this time in the year to begin a collection of autographs and although I have heard that Capt. Duncans application for an autograph had been refused thanks to twelve (cents-able) men<note type="an" xml:id="an001" place="foot" n="1">Beach (son of Moses Beach) is referring to Charles Duncan's libel suit against the New York <hi rend="italic">Times</hi>, which published an interview with Mark Twain in which he insulted Duncan, including calling him the "head-waiter" of the <hi rend="italic">Quaker City</hi> excursion, and cheerfully applauding Elihu Root's investigation into Duncan's finances as Shipping Commissioner ("Mr. Mark Twain Excited on Seeing the Name of Capt. C. C. Duncan in Print," New York <hi rend="italic">Times</hi>, 10 June 1883, 1; in Scharnhorst, pp. 43&#8211;47). The jury awarded Duncan twelve cents for damages, but Duncan did <ref type="crossref" corresp="UCLC41864.xml">write Clemens to participate in the hoax</ref> ("The Duncan Libel Suit," Brooklyn <hi rend="italic">Eagle</hi>, 8 March 1884, 4).</note></p>
+               <p rend="text-indent:2">I hope that mine will meet more favorable consideration.</p>
+               <p rend="text-indent:2">The only reason I can offer for my request is that <hi rend="smallcaps">ages ago</hi> when leaving you at the dinner table in Poughkeepsie I by mistake left <hi rend="italic">my</hi> duster &amp; took away yours &amp; with it the cigars you had been at so much trouble to obtain and without which life there was hardly worth living (I think you thought).</p>
+               <closer><salute rend="indentcompclose">Yours very truly<space extent="2"/></salute>
+                  <signed rend="indentsig"><name type="person"><hi rend="paraph">C. Y. Beach.</hi></name>
+                     <lb/><name type="place">Bridgeport
+                        <lb/>Conn.</name></signed>
+               </closer>
+            <lb/>
+            <lb/>
+            <lb/>
+            <postscript><p rend="noindent">P. S.  How would it serve your impecunious <add>(in stamps)</add> friends to send them a blank sheet of paper in an unstamped envelope which they must redeem through the Dead Letter office at a cost of double postage.</p></postscript></div1>
+            
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+            <ab>Mr Samuel Clemens | Hartford | Conn</ab>
+               <ab><note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">brooklyn n.y. apr 1 84 10 45 am</hi></ab>
+            <ab><note type="ed" place="inline" xml:id="ed002">docketed by SLC, in pencil:</note> Charley Beach</ab>
+            </div2></div1>
+         <div1 xml:id="cm0001" type="commentary"/> 
+      </body>
+  </text>
+</TEI>

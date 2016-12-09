@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC41959">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from Jane E. Kellogg to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/kelloggj01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#JEK">Jane E. Kellogg</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, New York</name>
+            <sourceline>(MS: CU-MARK, UCLC 41959)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <dateline rend="indentdateline">Clarendon Hotel<lb/>
+                  <space extent="24"/><date when="1884-03-31">March 31<hi rend="superscript">st.</hi> / 84.</date>
+               </dateline>
+               <salute><space extent="1"/>Dear Mr. Clemens&#x2014;</salute>
+            </opener>
+             <p rend="text-indent:3">I often recall one very agreeable morning my daughter Miss <persName corresp="#CLK">Clara Louise Kellogg</persName> and myself spent with you at your pleasant home a few years since<note xml:id="an0001" place="foot" type="an" n="1">There is no evidence in Clemens' notebooks or letters by which to date this visit. The Kellogg family had strong ties to the Hartford area. George Kellogg had been born in New Hartford, 20 miles to the northwest, and Clara Louise Kellogg retired there with her husband Carl Strakosch in 1877.</note>—I always remember your telling us an amusing story of your being left in charge of two of your little children<note xml:id="an0002" place="foot" type="an" n="2">This episode does not appear to have been recorded in Clemens' notebooks or letters. Jean Clemens was born 26 July 1880, when the Clemens's two little children were joined by a third. Olivia Susan Clemens was born 19 March 1872, and Clara Langdon Clemens 8 June 1874.</note> one <add>day</add> during the building of an extension for flowers.<note xml:id="an0003" place="foot" type="an" n="3">The conservatory, which the Clemens children called "The Jungle," was a glassed-in structure off the library for plants of various kinds. Work began on the Hartford house, designed by Edward Tuckerman Potter, in the spring of 1873. The Clemens family did not move into the house until the fall of 1874, after their customary summer stay in Elmira.</note> <pb facs="facs/kelloggc02.jpg" xml:id="pb0002" n="2"/>You were occupied with your literary work, and quite forgot the little ones, whom you were caring for, and suddenly looked around to see where they were when you discovered them <del>them</del> “trotting” in with their hands full of <hi rend="italic">mud</hi> and were busy <hi rend="italic">building a large fortification all around the edge of your hearth</hi>&#x2014;</p>
+            <p rend="text-indent:2">If I remember there was a good deal of work to be done to get that carpet in order before their dear Mama returned home—</p>
+            <p rend="text-indent:2">As I think you can <pb facs="facs/kelloggc03.jpg" xml:id="pb0003" n="3"/>recall our visit,&#x2014;and us&#x2014; May I beg the favor of your Autograph that I may never forget my visit—nor the mud fortification.</p>
+            <closer rend="indentcompclose">
+                <salute rend="indentcompclose">Very warmly yours</salute>
+               <signed rend="indentsig">Jane E. Kellogg&#x2014;</signed>
+            </closer>
+            <postscript>
+               <p>P. S. Some time when most convenient to you—yet I presume nearly all the world possess one by this limit. I know some times it is a “great bore”&#x2014;but I hope you will make an exception in this case—my daughter suffers in the same manner—</p>
+            </postscript>
+         </div1>
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb facs="facs/kelloggc-env.jpg" xml:id="pb0004" n="env"/>
+<ab>
+                S. L. Clemens Esq. | Hartford | Conn
+               
+            <note type="pt" xml:id="pt0001" place="inline" n="postmarked:"><hi rend="xs-smallcaps">new york apr 1 6 am d 84</hi></note>
+    <note type="ed" xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> Clara Louise Kellogg's | Mother<note xml:id="pt002" place="inline" type="pt" n="rule"/>
+</ab>
+            </div2>
+         </div1>
+
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

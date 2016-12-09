@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41872">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Robert Swain Gifford to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#RSG">Robert Swain Gifford</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee>
+               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+               <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41872)</sourceline>
+            </head>
+            <div1  type="letter">
+               <pb facs="gifford01.jpg" xml:id="pb001" n="1"/>
+               <opener>
+                  <dateline rend="indentdateline">
+               <name type="place">152 West 57<hi rend="superscript">th</hi> st
+               <lb/>New York<space extent="2"/></name>
+               <lb/><date when="1884-03-31">March 31<hi rend="superscript">st</hi> 
+               <lb/>1884.<space extent="1"/></date>
+                  </dateline>
+               <salute rend="noindent">Samuel L. Clemens Esqr,
+                     <lb/><space extent="2"></space>Dear Sir:</salute>
+            </opener>
+               <p rend="text-indent:4">Will you be kind enough to send me your autograph?</p>
+               <p rend="text-indent:4">I have a small but choice collection of autographs, but
+               require yours that I may feel it is quite to my mind.</p>
+           	   <p rend="text-indent:4">I would enclose stamp, but find I am entirely out of 
+               them, will remit on receipt of your note.</p>
+               <closer>
+                  <salute rend="indentcompclose">Very truly yours
+                  </salute>
+                  <signed rend="indentsig"><hi rend="paraph">R. Swain Gifford</hi>.</signed>
+               </closer>
+            </div1>
+            
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+               <pb facs="gifford-env.jpg" xml:id="pb002" n="2"/>
+               <ab>Samuel L. Clemens Esqr. | Hartford | Conn.
+                  <note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">[<hi rend="italic">unclear</hi>] | mar 31 1884 [unclear]</hi> <note type="ed" place="inline" xml:id="ed002">and:</note> <hi rend="xs-smallcaps">bos ... hore ny r. p. o.</hi>
+               <note type="ed" place="inline" xml:id="ed003">docketed by SLC, in pencil:</note> Gifford | [<hi rend="italic">rule</hi>] <del>good?</del> | <hi rend="italic">mention</hi></ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

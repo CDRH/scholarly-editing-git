@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from Robert Underwood Johnson to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Huntington Library (CSmH).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/johnson01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#RUJ">Robert Underwood Johnson</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, New York</name>
+            <sourceline>(MS, postal card: CSmH, UCLC 41957)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <dateline>
+                  <date when="1884-03-31"><hi rend="italic">March 31.</hi>
+                  </date> <space extent="20"/>33 E. 17<hi rend="superscript">th</hi> St, N.Y. City<lb/>
+                  <space extent="26"/><hi rend="italic">Century Magazine</hi>
+               </dateline>
+                    <note type="ed" place="inline" xml:id="ed001">written vertically in the left margin:</note>
+                    <hi rend="italic">Confidential</hi>
+               <salute>M<hi rend="superscript">r</hi> S. L. Clemens,</salute>
+               <salute>Dear Sir:</salute>
+            </opener>
+
+            <p>Could you let me have an autograph of yours for a lame boy whose mother has interested him in things spiritual by encouraging him to make an autograph collection to be raffled for at a fair, the proceeds to go to the Society for the Suppression of the Toy Pistol. I dislike to ask you point blank and so merely suggest the evident propriety of aiding this good work.</p>
+            <closer>
+               <salute rend="indentcompclose">Yours very truly</salute>
+               <signed rend="indentsig">R. U. Johnson</signed>
+            </closer>
+         </div1>
+          <div1 type="post-transmission">
+              <div2 type="pt" xml:id="pt003"><pb facs="facs/johnson002.jpg" xml:id="pb0002" n="verso"/>
+                  <ab>S. L. Clemens Esq | Hartford | Conn. <note type="pt" xml:id="ed000" place="inline" n="return address:"/> <hi rend="xs-smallcaps">postal card. | nothing but the address can be placed on this side.</hi> <note type="pt" xml:id="ed002" place="inline" n="postmarked"/> <hi rend="xs-smallcaps">new york mar 31 9 pm d 84</hi>
+             </ab>
+              </div2>
+          </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

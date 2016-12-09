@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from H. B. Vandiver to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <head type="metadata">
+             <name corresp="#bio10576">H. B. Vandiver</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-04-14">April 14 1884</date> &#x2022; <placeName>Weaverville, N.C.</placeName>
+            <sourceline>(MS: CU-MARK, UCLC 42010)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001"><pb xml:id="pb001" n="1"/>
+            <opener>
+	      <dateline rend="indentdateline"><address><addrLine>Weaverville, N.C<space extent="3"/></addrLine></address>Apl 14, 84.
+	      </dateline>
+	      <salute>My Dear Mr. Twain,</salute>
+	    </opener>
+             <p rend="text-indent:2">Having seen accounts of the &#x201C;job&#x201D; <name corresp="#GWC">Geo. W. Cable</name> put up on you, I too ask you for your Autograph. I want a <hi rend="italic">patent-double back-cut and cum agin</hi> concern. (I want it for a blind man). I am glad that you <pb xml:id="pb002" n="2" facs="facs/vandiver02.jpg"/>are dramatising &#x201C;The Prince and The Pauper,&#x201D; which I have had the pleasure and honor to read; I think I like it better than any book I ever have read. Would certainly like to see it &#x201C;played&#x201D; I am a boy&#x2014;something of a &#x201C;Galoot&#x201D;, and about 18 years old. Yes Mr. Clemens I think you one of the best writers in the country.</p>
+<closer>
+  <salute rend="indentsalute">Respectfully,<space extent="1"/></salute>
+  <signed rend="indentsig">N. Dodge.<note xml:id="an004" place="foot" n="1" type="an">Nicodemus Dodge is the country bumpkin in a tale told in Chapter 23 of Mark Twain's <hi rend="italic">A Tramp Abroad.</hi> Roughly based on Clemens' childhood friend Jim Wolf, Dodge comes to Hannibal to learn to be a printer, but becomes the victim of a series of practical jokes perpetreated by the &#x201C;city slickers.&#x201D; In the end Dodge hoaxes the hoaxers by turning their final joke to his own pecuniary advantage. Vandiver had so signed himself in his first letter (of four) to Clemens (Vandiver to SLC, 18 February 1884, CU-MARK), in which he asked Clemens for a set of all his books. Clemens's annotation on the envelope of that first letter reads: &#x201C;Another Southern beggar.&#x201D; </note></signed>
+</closer>
+           
+<p rend="text-indent:2">I enclose my Autograph which I only give to my girl and gentlemen of your standing. My girls named "Daisy."</p>
+	 </div1>
+          <div1 type="enclosure" rend="center">
+              <p rend="noindent">
+                  <note xml:id="en0001" type="ed" resp="MTP" place="inline">enclosure:</note>
+              </p>
+              <div2 type="form" rend="center">
+                  <p>H. Vandiver,</p>
+                  <p>N. Dodge.</p>
+                  <p rend="text-indent:1">Weaverville N. Car.</p>
+              </div2>
+          </div1>
+	 <div1 type="post-transmission" xml:id="pt001">
+	   <div2 type="envelope" xml:id="pt002">
+	     <ab>S. L. Clemens. | &#x201C;Mark Twain&#x201D; | Hartford | Conn <note type="pt" xml:id="ed003" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">weaverville apr 14 1884 n.c.</hi> <note type="pt" xml:id="ed005" place="inline" n="return address:"/> <hi rend="xs-smallcaps">return to <add type="formfill"><hi rend="dot-underline"><space extent="2"/></hi> </add></hi> | <hi rend="xs-smallcaps">weaverville, Buncombe Co., N. C., | If not delivered within 10 days.</hi> <note type="ed" xml:id="ed004" place="inline">docketed by SLC, in pencil:</note> Read this some | time or other <note type="ed" xml:id="ed006" place="inline">rule</note>
+	     </ab>
+	     </div2>
+	 </div1>
+  <div1 type="commentary" xml:id="cm0001">
+  </div1>
+      </body>
+   </text>
+</TEI>

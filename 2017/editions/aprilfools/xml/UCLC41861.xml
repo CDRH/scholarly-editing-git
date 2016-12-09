@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41861">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from William Carey to Samuel L. Clemens: an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#WC">William Carey</name> to <addressee><name type="person">Samuel L. Clemens</name></addressee>
+               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>  
+               <sourceline>(MS: CU-MARK, UCLC 41861)</sourceline></head>
+            
+            <div1 type="letter">
+               <pb facs="carey01.jpg" xml:id="pb001" n="1"/>
+               <opener>
+                  <dateline rend="indentdateline"><name type="place">New York<space extent="2"/></name>    
+               <lb/><date when="1884-03-31">Mch 31</date></dateline>
+               <salute rend="noindent">Dear Sir:</salute>
+            </opener>
+               <p rend="text-indent:2">I am thinking of starting an autograph collection &amp; if you approve of the idea I shall be glad to have you send me a MS. If it has not been printed I will be very glad to share the expense of copyrighting it with you.</p>
+               <p rend="text-indent:2">I would enclose a stamp but I do not wish to establish the precedent as I am just starting out. Please therefore pardon <pb facs="carey02.jpg" xml:id="pb002" n="2"/> the omission and this half sheet of paper. If you cannot spare a MS. a noble sentiment would be very gratefully received by</p>
+               <closer><salute rend="indentcompclose">Yours very truly</salute>
+                  <signed rend="indentsig">William Carey</signed>
+                  <dateline rend="noindent">334 West 55<hi rend="superscript">th</hi> St
+                     <lb/><space extent="2"/>N. Y. City</dateline>
+               </closer>
+            </div1>
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+                  <pb facs="carey-env.jpg" xml:id="pb003" n="3"/>
+                  <ab>Samuel L. Clemens Esq | Hartford | Conn</ab>
+                  <ab><note type="ed" xml:id="ed001" place="inline">postmarked, partially torn away:</note> <hi rend="xs-smallcaps">new <corr>york</corr> <gap reason="tornaway"/> g 84</hi></ab>
+                  <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> Carey</ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/> 
+      </body>
+  </text>
+</TEI>

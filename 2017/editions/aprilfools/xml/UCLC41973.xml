@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCCL41973">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#SSC">Stillman S. Conant?</name> to <addressee><name type="person" key="#SLC">SLC</name></addressee>
+               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Washington, D. C.</name>
+               <sourceline>(MS: CU-MARK, UCLC 41973)</sourceline>
+            </head>
+            <div1  type="letter">
+               <pb xml:id="pb001" n="1" facs="conant01.jpg"/>
+               <opener>
+               <dateline rend="indentdateline">
+                  <name type="place">Brooklyn</name> <date when="1884-03-31">Mch 31 /84</date></dateline>
+                  <lb/><name type="person">Señor Don Samuel Clemens&#8212;</name>
+                  <lb/><name type="place"><space extent="2"/>Hartford</name>
+               
+                  <salute rend="noindent">Muy Señor mio&#8212;</salute>
+            </opener>
+               <p rend="text-indent:2">He emprendido un viage desde un Pais muy lejano, lleno
+               de peligros y vicisitudes, con el solo objeto de dirigirle hoy esta carta,
+               y rogarle me mando su autografo para conservarlo en esta vida y en la venidera
+               en la página mas prominente de mi album.</p>
+               <p rend="text-indent:2">Esperando no desatenderá mi peticion, soy de ud,<note type="an" place="foot" xml:id="an001" n="1">
+                  Translated, with the help of Melissa Martin of the Mark Twain Project: "I embarked on a journey from a very distant place
+                  full of hazards and vicissitudes, with the sole purpose of sending this letter to you today,
+                  and I beg that you send your autograph, to conserve it in this life and in the next
+                  in the most prominent page of my album. I hope that you will not disregard this request." S. S. Q. B. S. M. stands for Seguros Servidores Que Besan Sus Manos ("I remain very truly yours").</note></p>
+                  <closer>
+                     <salute rend="indentcompclose">S. S. Q. B. S. M.
+                  </salute>
+                     <signed rend="indentsig">Quixote de la Mancha</signed>
+                  </closer>
+                  <p rend="text-indent:2"><name type="place">22 Willow St
+                  <lb/><space extent="4"/>Brooklyn
+                     <lb/><space extent="5"/>N. Y.</name></p>
+               
+            </div1>
+            
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+                  
+               <pb xml:id="pb002" n="2" facs="conant-env.jpg"/>
+               <ab>Samuel Clemens Esqr. | Hartford | Conn.</ab>
+               <ab><note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">brooklyn n.y. mar 31 84 10 30 pm</hi></ab>
+               <ab><note type="ed" place="inline" xml:id="ed002">docketed by SLC, in pencil:</note> Spanish</ab>
+                  
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

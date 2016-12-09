@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Sara T. Kinney to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="facs/kinneys01.jpg" xml:id="pb0001" n="0001"/>
+            <head type="metadata">
+                <name corresp="#STK">Sara T. Kinney</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-04-01">1 April 1884</date> &#x2022; <name type="place">Boston, Mass.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41991)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+                    <letterhead>
+                        <l>23 Beacon Street,</l>
+                        <l><space extent="3"/>Boston.<note type="an" xml:id="an001" place="foot" n="1">This address was listed as a hotel about a decade later; it may have been a boarding house of sorts in 1884.</note></l>
+                    </letterhead>
+                    <salute>Dear Mr. Clemens,</salute>
+                </opener>
+                <p rend="text-indent:3">I have just 'done myself proud' by guessing the following riddle (conceived, by the way, in England)&#x2014;and send it to you at once&#x2014;hoping it may serve you well in some of the emergencies of life to which we are all liable.</p>
+                <p><space extent="22"/><hi rend="italic">Riddle</hi><lb/> <space extent="22"/>A by ||<note type="an" xml:id="an002" place="foot" n="2">A charade or rebus, "A by road" for "Abroad."</note></p>
+                <p rend="text-indent:1">And I improve this opportunity to say that it would afford me great pleasure to be able to add your autograph to my valuable collection &amp;c. &amp;c.</p>
+                    <closer>
+                        <salute rend="indentcompclose">Yrs Very Truly<space extent="2"/></salute>
+                        <signed rend="indentsig">Sara T. Kinney</signed>
+                    </closer>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001">
+                <div2 type="envelope" xml:id="pt002">
+                    <ab>Mr. Samuel Clemens | Farmington Ave&#x2014;&amp; Forest St | Hartford&#x2014;Conn&#x2014;
+                        <note type="pt" xml:id="ed002" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">boston apr 1 7 30 am mass 84</hi> <note type="ed" xml:id="ed003" place="inline">docketed by SLC, in pencil:</note> Kennedy<note type="an" xml:id="an003" place="foot" n="3">The Kinney letters were both postmarked Boston; this may have contributed to Clemens's misidentification of John Kinney's wife.</note> 
+                    </ab>
+                </div2>
+               
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from Charles G. Whiting to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <p/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/whiting01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#CGW">Charles G. Whiting</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Springfield, Mass.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41983)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+                  <l rend="center">The Republican</l>
+                  <l rend="center">Established in 1824, by Samuel Bowles.</l>
+                  <l rend="center">Daily. Sunday. Weekly.</l>
+                  <l rend="right">Springfield, Mass. 
+   <add type="formfill">
+                        <hi rend="dot-underline">
+                           <space extent="2"/>Mar 31
+      </hi>
+                     </add> 188<add type="formfill">
+                        <hi rend="dot-underline">
+         4<space extent="1"/>
+                        </hi>
+                     </add>
+                  </l>
+               </letterhead>
+               <salute>Mr Samuel L. Clemens</salute>
+               <salute rend="text-indent:2">Dear Sir</salute>
+            </opener>
+             <p rend="text-indent:4">If you can spend time to let me know whether you really had any <add>traditional</add> grounds for your pretty story of Edward Sixth's interchange of identity with a boy of the slums, I should be glad to <del>hear</del><add>have</add> a line from you.<note xml:id="an0001" place="foot" type="an" n="1">In the <hi rend="italic">Sun</hi> interview Clemens cites this sort of pretext for winning a reply from an author as "too thin."  </note> I have maintained that you invented the whole thing.<note type="an" xml:id="an002" place="foot" n="2">See the review of <hi rend="italic">The Prince and The Pauper</hi> (&#x201C;Current Literature,&#x201D; Springfield <hi rend="italic">Republican</hi> 19 Dec 1881, 5.), which may well be the work of Whiting, who was the literary editor of the <hi rend="italic">Republican</hi> at the time. The reviewer notes: &#x201C;The plot has an originality in the midst of familiar stage devices, which makes the book a work of genius.&#x201D;</note>
+            </p>
+            <closer rend="indentcompclose">
+                <salute rend="indentctrcompclose">Yours Truly</salute>
+               <signed rend="indentctrsig"><hi rend="paraph">Charles G. Whiting</hi></signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/whiting-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+  <ab>
+      Samuel L. Clemens, Esq | Hartford | Conn <note xml:id="pt001" place="inline" type="pt" n="return address:"><hi rend="xs-smallcaps">The Republican, | Springfield, Mass.</hi></note><note xml:id="pt002" type="pt" place="inline" n="postmarked:"><hi rend="xs-smallcaps">springfield mass. apr 1 7 am 1884</hi></note>
+      <note type="ed" place="inline" xml:id="in0001">docketed by SLC, in pencil:</note> Whiting 
+  </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

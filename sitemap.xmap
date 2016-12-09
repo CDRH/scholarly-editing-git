@@ -235,6 +235,53 @@
         <!-- ====================================
                          2017
       ====================================== -->
+        
+        <!-- April Fools -->
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfool/intro.html">
+                <map:generate src="2017/editions/aprilfool/xml/aprilfool.intro.xml"/>
+                <map:transform src="2017/editions/aprilfool/xslt/aprilfool.xsl">
+                    <map:parameter name="pagetype" value="home"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value=""/>
+                </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="38"/>
+                    <map:parameter name="year" value="2017"/>
+                    <map:parameter name="slug" value="{1}"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/**.html">
+                <map:generate src="2017/editions/aprilfools/html/{1}.html"/>
+                <map:transform src="2017/editions/aprilfools/xslt/aprilfools.xsl">
+                    <map:parameter name="pagetype" value="home"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value=""/>
+                </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="38"/>
+                    <map:parameter name="year" value="2017"/>
+                    <map:parameter name="slug" value="{1}"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+        
+       
+        
+        
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/facs/**">
+                <map:read src="2017/editions/aprilfools/facs/{1}"/>
+            </map:match>
+        </map:pipeline>
+
 
         <!-- General for all editions-->
         <!-- Exceptions should go above -->
@@ -280,6 +327,9 @@
                 <map:read src="2017/editions/{1}/xml/{2}.zip"/>
             </map:match>
         </map:pipeline>
+        
+       
+        
         
 
         <!-- ====================================

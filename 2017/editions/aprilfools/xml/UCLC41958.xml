@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+           <title>Letter from Clara Louise Kellogg to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <p/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/kelloggc01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#CLK">Clara Louise Kellogg</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, New York</name>
+            <sourceline>(MS: CU-MARK, UCLC 41958)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <dateline rend="indentdateline">Tuesday<space extent="2"/><lb/>
+                 <date when="1884-03-31">Mar. 31<hi rend="superscript">st</hi></date>
+               </dateline>
+
+               <salute>Dear Mr Clemens,</salute>
+            </opener>
+            <p rend="text-indent:2">I have been fortunate enough in my career to gather together a large number of valuable autographs; My collection will be incomplete without your distinguished name and I therefore beg you to make an exception in my favor, knowing as I do how averse you are to giving of autograph. <pb facs="facs/kelloggc02.jpg" xml:id="pb0002" n="2"/>And send me yours at your earliest convenience.</p>
+            <closer rend="indentcompclose">
+               <salute rend="indentsalute">Believe me<space extent="2"/><lb/>
+               Sincerely &amp; faithfully</salute>
+               <signed rend="indentsig">Clara Louise Kellogg</signed>
+               <address>
+                  <addrLine>The Clarendon</addrLine><lb/>
+                  <addrLine><space extent="2"/>4<hi rend="superscript">th</hi> Ave.</addrLine><lb/>
+                  <addrLine><space extent="4"/>New York.</addrLine>
+               </address>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb facs="facs/kelloggc-env.jpg" xml:id="pb0003" n="env"/>
+                <ab>S. L. Clemens Esqre | Hartford | Conn. <note type="ed" xml:id="ed000" place="inline">rule</note>
+            
+            <note type="pt" xml:id="pt0001" place="inline" n="postmarked:"><hi rend="xs-smallcaps">new york apr 1 6 am d 84</hi></note>
+             <note type="ed" place="inline" xml:id="in0001">docketed by SLC, in pencil: </note> Clara Louise Kellogg
+            <note type="ed" xml:id="ed003" place="inline">rule</note>
+        </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

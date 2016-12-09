@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41953">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Joseph Howard, Jr. to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <head type="metadata"><name type="person" corresp="#JHJr">Joseph Howard, Jr.</name> to <addressee>Samuel L. Clemens</addressee>
+           <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+           <sourceline>(MS: CU-MARK, UCLC 41953)</sourceline></head>
+        
+        <div1  type="letter">
+           <opener>
+              <letterhead><l rend="left">from joseph howard, jr.,</l>
+                 <l rend="left"><space extent="2"/>editorial rooms,</l>
+                 <l rend="left"><space extent="3"/>new york herald.</l>
+              </letterhead> 
+              <dateline rend="indentdateline"><date when="1884-03-31">March 31. 1884.</date>
+              </dateline>
+              <salute rend="noindent">My Dear Clemens,</salute>              
+           </opener>
+           <p rend="noindent">I first met you, twenty four years ago, in front of the City Hall.<note xml:id="an001" type="an" place="foot" n="1">There is no record (and little possibility) of their meeting anytime around 1860, when Clemens was piloting on the Mississippi River.</note> Since then I have followed you step by step, generally with approval, always with interest &amp; professional
+           pride. The old guard are nearly all gone, &amp; the men we used to meet in the Times office, are either dead or out of harness. I have a Mark Twain collection, complete in every way save that it needs your 
+           autograph. Send it to me, old man, &amp; add to the obligation of</p>
+           <closer>
+              <salute rend="indentcompclose">Your sincere friend</salute>
+              <signed rend="indentsig"><name type="person">J. Howard Jr.</name></signed>
+           </closer>   
+              <p rend="noindent"><name type="place">Mr Saml. L. Clemens</name>,
+                    <lb/><space extent="2"/>&amp;c &amp;c</p>           
+           </div1>
+        
+        <div1 type="post-transmission">
+           <div2 type="envelope">
+              <ab>Mr Samuel G. Clemens, | Hartford, | Conn | J. Howard Jr.</ab>
+              <ab><note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">new york mar 31 130 pm 84</hi></ab>
+              <ab><note type="ed" place="inline" xml:id="ed002">docketed by SLC, in pencil:</note> Joe Howard [rule] | mention | <del><hi rend="italic">good</hi></del></ab>
+           </div2></div1>
+        <div1 xml:id="cm0001" type="commentary"/> 
+     </body>
+  </text>
+</TEI>

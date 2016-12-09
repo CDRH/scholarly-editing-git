@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><?xml-stylesheet type="text/css" href="teip5.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from to Samuel L. Clemens : an electronic text</title>
+                <author>
+                    <name type="person" ref="#"/>
+                </author>
+                <editor role="editor">
+                    <name type="person" ref="#"/>
+                    <name type="person" ref="#"/>
+                </editor>
+                <principal>
+                    <name type="person" ref="#bioHI202">Robert H. Hirst</name>
+                </principal>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name ref="#"/>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher/>
+                <pubPlace/>
+                <date type="pub" when="2017">2017</date>
+                <date type="sort" when="1884-03-31"/>
+                <idno type="LOCAL">UCLC</idno>
+                <availability>
+                    <p/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title/>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person" ref="#"/>
+                </respStmt>
+                <respStmt>
+                    <resp>Editors</resp>
+                    <name type="person" ref="#"/>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="leoser01.jpg" xml:id="pb0001" n="0001"/>
+            <head type="metadata">
+                <name ref="#">Charles M. Leoser</name> to <addressee>
+                    <name ref="#">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-03-31"></date> &#x2022; <name type="place">New York, N.Y.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41964)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+                    <salute>My dear Mr. Clemens,</salute>
+                </opener>
+                <p rend="text-indent:3">If I am not presuming too far upon our very slight acquaintance, may I ask if you will do me the favor to send me your autograph?
+                </p>
+                
+                <closer>
+                    <salute rend="indentcompclose">Always yours very truly</salute>
+                    <signed rend="indentsig">Charles McK. Leoser</signed>
+                    Lotos Club<lb/><space extent="1"/>New York
+                </closer>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001"><pb facs="leoser-env.jpg" xml:id="pb002" n="env"/>
+                <div2 type="envelope" xml:id="pt002">
+                    <ab>Mr. Samuel L. Clemens, | Hartford, | Conn.<note type="ed" xml:id="ed001" place="inline">postmarked:</note><hi rend="xs-smallcaps">new york mar 31 7 pm 84</hi>
+                        <note type="ed" xml:id="ed002" place="inline">SLC, in pencil:</note>McK L (no good) Mch 31/84
+                        
+                    </ab>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

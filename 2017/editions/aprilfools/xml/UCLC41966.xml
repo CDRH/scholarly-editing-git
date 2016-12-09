@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/matthews01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#JBM">Brander Matthews</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41966)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+                  <l rend="center">121 east 18th St.</l>
+                  <l rend="center">eew york</l>
+               </letterhead>
+               <dateline rend="indentdateline">
+                   <space extent="24"/><date when="1884-03-31"><space extent="24"/>March 31<hi rend="superscript">st</hi></date>
+                  <lb/>
+        <space extent="30"/>28th St.</dateline>
+
+               <salute>Dear Mr. Clemens:</salute>
+            </opener>
+            <p rend="text-indent:2">I have put off from day to day, from <add>a</add> feeling of delicacy and a desire not to intrude on you, the making of a request, which will probably take you altogether by surprise. But I feel it <pb facs="facs/matthews02.jpg" xml:id="pb0002" n="2"/>would not be right to delay the matter any longer. It would not be just to me or to you. Under these circumstances I take the liberty of asking you if you will kindly send me at your own expense a priceless boon—your autograph.</p>
+            <closer rend="indentcompclose">
+                <salute rend="indentctrcompclose">Yours Truly,</salute>
+               <signed rend="indentctrsig"><space extent="4"/><hi rend="paraph">Brander Matthews</hi></signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/matthews-env.jpg" xml:id="pb0003" n="env"/>
+            <div2 type="envelope">
+                  <ab>S. L. Clemens Esq | Hartford | Conn.
+<note xml:id="pt0003" type="pt" resp="MTP" place="inline" n="postmarked:">
+                    <hi rend="xs-smallcaps">new york mar 31 3 pm d 84</hi>
+                </note>
+                  <note type="ed"  xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> Brander Matthews | mention
+               </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

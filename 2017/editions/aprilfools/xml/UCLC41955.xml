@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><?xml-stylesheet type="text/css" href="teip5.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC41955">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Laurence Hutton to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="facs/hutton01.jpg" xml:id="pb0001" n="0001"/>
+            <head type="metadata">
+                <name corresp="#LH">Laurence Hutton</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41955)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+                    <dateline rend="indentdateline"><address><addrLine>New York</addrLine></address>
+                        <date when="1884-03-31">31<hi rend="superscript">st</hi> March 1884</date>
+                    </dateline>
+                    <salute>Samuel L Clemens Esq</salute>
+                    <salute><space extent="2"/>Dear Sir</salute>
+                </opener>
+                <p rend="text-indent:3">My great admiration for your character, as a man and of your genius as a writer, must be my excuse for addressing you. I am no ordinary autograph hunter. There is nothing mean about me. In my collection are the M.S.S. of all my own books. May I ask that you will make it a perfect collection by adding to it the original of one of your latest &amp; most charming works&#x2014;Jean for instance.<note type="an" place="foot" xml:id="an001" n="1">Jean was Clemens's third daughter, aged 3. Clemens continued to poke fun at Hutton over this request, addressing him in a letter as &#x201C;My Dear Son-in-law that-was-to-have-been&#x201D; (SLC to Hutton, 7 Dec 1885, MS in CU-MARK). Clemens revealed the cause for this lost opportunity in a letter of 22 December 1884: <quote rend="blockquote"><p>Months ago, fully aware of the relations existing between you &amp; my daughter, I was shocked &amp; grieved to discover that she had transferred her affections to a kitten, I would have written you &amp; exposed her treason, but I could not break your heart &amp; so I lingered, hoping that you or the kitten would die, &amp; so disburden me of my shame &amp; sorrow. (SLC to Hutton, 22 December 1884, MS in CU-MARK)</p></quote></note>
+                </p>
+                <p rend="text-indent:2">Please forward to my address as below &amp; oblige</p>
+                <closer rend="indentcomplose">
+                    <salute rend="indentsalute">Yours Very Respectfully</salute>
+                    <signed rend="indentsig">Laurence Hutton</signed>
+                    <address><addrLine rend="indentaddrLine">229 W 34 <hi rend="superscript">th</hi>Street.</addrLine></address>
+                </closer>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001">
+                <div2 type="envelope" xml:id="pt002"><pb facs="facs/hutton-env.jpg" xml:id="pb003" n="env"/>
+                    <ab><note type="ed" xml:id="ed001" place="inline">in upper left:</note> <hi rend="italic">Personal</hi> Samuel L. Clemens | Hartford | Conn. <note type="pt" xml:id="pt003" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">new york mar 31 2 30 pm e 84</hi> <note type="ed" xml:id="ed003" place="inline">docketed by SLC, in pencil:</note> Hutton <note type="pt" xml:id="pt004" place="inline" n="rule"/> | Wants | child
+                         
+                    </ab>
+                </div2>
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

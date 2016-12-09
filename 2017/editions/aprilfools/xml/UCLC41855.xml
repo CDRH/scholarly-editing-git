@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41855">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Henry Ward Beecher to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+       
+         <head type="metadata"><name type="person" corresp="#HWB">Henry Ward Beecher</name> to <name type="person" corresp="#SLC">Samuel L. Clemens</name>
+               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Brooklyn, N. Y.</name>
+               <sourceline>(MS: CU-MARK, UCLC 41855)</sourceline>
+            </head>
+         <div1  type="letter">
+            <pb facs="beecherhw01.jpg" xml:id="pb001" n="1"/>
+               <opener>
+                  <letterhead rend="right">henry ward beecher,<space extent="2"/>    
+                     <lb/>brooklyn, n.y.</letterhead>
+                  <dateline rend="indentdateline"><date when="1884-03-31">March 31, 1884</date></dateline>
+                  <salute rend="text-indent:2">My dear M<hi rend="superscript">r</hi>. Clements</salute>
+               </opener>
+               <p rend="text-indent:3">Although I am myself <add>a</add> very curmudgeon about answering autographe letters, yet, as usual with selfish people, I want others'&#8212;and your reputation for kindness in this respect emboldens me to ask for a <hi rend="italic">double</hi> one, viz for real name &amp; pseudonym.</p>
+               <closer>
+                  <signed rend="indentsig"><name type="person"><hi rend="paraph">Henry Ward Beecher</hi></name></signed>
+               </closer>
+            </div1>
+            
+            <div1 type="post-transmission">
+               <pb facs="beecherhw-env.jpg" xml:id="pb002" n="2"/>
+               <div2 type="envelope">
+               <ab>S. M. Clemen<add>t</add>s Esq | Hartford | Conn.</ab><!-- 's' written over 't', or smudged out, or is it part of letter text bleed-through? -->
+               <ab><note type="ed" xml:id="ed001" place="inline">postmarked:</note> <hi rend="xs-smallcaps">new-york mar 31 2 30 pm 84</hi></ab>
+               <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> H W Beecher [<hi rend="italic">rule</hi>] | <del>mention</del> | use it</ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from Thomas W. Knox to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/knox01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+            <name corresp="#TWK">Thomas W. Knox</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, New York</name>
+            <sourceline>(MS: CU-MARK, UCLC 41962)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+                   <l rend="center"><seg type="monogram" rend="center"><note type="ed" xml:id="ed0000" place="inline">monogram:</note>KN </seg></l>
+               <l rend="right">Lotos Club,<space extent="4"/></l>
+               <l rend="right">157 Fifth Avenue.</l></letterhead><lb/>
+                <dateline rend="right">NY. <date when="1884-03-31">March 31, 1884.</date>
+               </dateline>
+
+               <salute>My Dear Clemens,</salute>
+            </opener>
+             <p rend="text-indent:2">The King of Siam writes me<note xml:id="an0001" n="1" place="foot" type="an">Knox had possibly met the King of Siam, who recently conferred upon him, through a letter from the Counsul at Bangkok, the honor of a knighthood in the Order of the White Elephant in thanks for his service to Siam (&#x201C;A White Elephant Knight,&#x201D; Washington D. C. <hi rend="italic">Morning Star</hi>, 22 Mar 1881, 1). Knox's service consisted mainly of his positive depiction of Siam in  <hi rend="italic">The Boy Travelers in Siam and Java</hi> (1882). Chulalongkorn (1853-1910) was the fifth King of Siam of the Chakri Dynasty, who ruled from 1868 to his death in 1910. He is credited with promoting significant social and political reforms, as well as with keeping western expansionist powers at bay.</note> that his children—some 258 at last accounts<note xml:id="an0002" place="foot" type="an" n="2">At the time of this letter the King had produced some 45 children by nearly as many consorts. See the wikipedia compilation at  https://en.wikipedia.org/wiki/List_of_children_of_Chulalongkorn.</note>—are crying for playthings, &amp; the din is terrible. He thinks your autograph would silence them &amp; I beg you’ll send it along, one for each. Better make it an even three hundred as the family is likely to increase.</p>
+            <p rend="text-indent:2">If you have any left over after filling <pb facs="facs/knox02.jpg" xml:id="pb0002" n="2"/>this royal commission please send one to me. I want it well done &amp; rare, turned over &amp; browned, stem-winding &amp; with gilt sides &amp; edges.<note xml:id="an0003" place="foot" type="an" n="3">This nonsensical list of specifications  was possibly a play on the sorts of prescriptions for paper type, ink, etc. found in letter-writing manuals.</note> It’s for a sick lady.<note xml:id="an0004" n="4" place="foot" type="an">Compare to R. U. Johnson's appeal for "a lame boy."</note></p>
+            <closer rend="indentcompclose">
+                <salute  rend="indentcompclose">Sincerely yours,</salute>
+               <signed rend="indentsig"><hi rend="paraph">Thos. W. Knox</hi></signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/knox-env.jpg" xml:id="pb0003" n="env"/>
+            <div2 type="envelope">
+                <ab>
+                  Samuel L. Clemens, Esq. | Hartford, Conn. <note xml:id="pt001" type="pt" place="inline" n="postmark"><hi rend="xs-smallcaps">new york mar 31 6 pm f 84</hi></note>
+                  <note type="ed" place="inline" xml:id="in0001">docketed by SLC, in pencil:</note>Knox | mention
+            </ab></div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

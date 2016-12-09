@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Virginia Waring to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="facs/waringv01.jpg" xml:id="pb0001" n="0001"/>
+            <head type="metadata">
+                <name corresp="#VW">Virginia Waring</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-04-02">31 March 1884</date> &#x2022; <name type="place">Washington, D.C.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41996)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+                    <salute>My dear Mr. Clemmens&#x2014;</salute>
+                </opener>
+                <p rend="text-indent:3">I have had many applications from friends desiring autographs of distinguished authors; and as yours is one so often begged for, I think I ought to keep quite a store on hand.</p> 
+                <p rend="text-indent:2">Will you then kindly send me at once, a dozen or so (with your nom de plume as well)?
+                </p>
+                <p rend="text-indent:2">When these are exhausted I shall forthwith notify you that I may receive a fresh supply.</p>
+                <p rend="text-indent:2">Knowing your reputation for amiability I shall feel no hesitation in asking this slight favor. </p>
+                <closer>
+                    <salute rend="indentcompclose">Very cordially yours </salute>
+                    <signed rend="indentsig">Virginia Waring.</signed>
+                </closer>
+                <dateline>2009 J. st.<lb/><space extent="2"/>Washington<lb/><space extent="8"/>D.C.<lb/>
+                    <date when="1884-04-01">April 1<hi rend="superscript">st</hi> 1884.</date>
+                </dateline>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001">
+                <div2 type="envelope" xml:id="pt002"><pb facs="facs/waringv-env.jpg" xml:id="pb003" n="env"/>
+                    <ab>S,  L. Clemmens Esq. | Hartford. | Conn. <note type="pt" place="inline" xml:id="pt--1" n="postmarked:"> <hi rend="xs-smallcaps">washington mar 31 7 am 1884 d.c.</hi></note>
+                       <note type="ed" place="inline" xml:id="ed002">docketed by SLC, in pencil:</note> Mrs Waring | mention |  
+                    </ab>
+                </div2>
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

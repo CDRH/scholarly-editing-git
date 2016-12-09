@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41988">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stephen Fiske to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+<text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#SRF">Stephen Fiske</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee>
+               <date when="1884-04-01">1 April 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+               <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41988)</sourceline>
+            </head>
+            <div1  type="letter">
+               <pb facs="fiskesd01.jpg" xml:id="pb001" n="1"/>
+               <ab rend="left"><space extent="2"/><hi rend="xs-smallcaps">subscriptions:
+               <lb/>single copy, $5 per annum.
+                  <lb/>five copies, 21<space extent="3"/>"
+               <lb/>nine or more copies at the
+               <lb/><space extent="4"/>rate of $4 each.
+               <lb/><space extent="3"/>postage prepaid.</hi></ab>
+               <opener>
+               <letterhead><l rend="center">the spirit of the times,</l> <l rend="center">e. a. buck editor and publisher,</l>
+               <l rend="right">102 chambers st., (address p. o. box 938.)</l>
+              <l rend="right"> <name type="place">new york,</name> <date when="1884-03-31"><add type="formfill">April 1</add> 188<del>2</del><add type="formfill">4</add></date></l>
+        
+            </letterhead>
+               <salute rend="noindent">Dear Mark Twain:</salute>
+            </opener>
+               <p rend="text-indent:2">Will you kindly send your autograph by return <note type="an" place="foot" xml:id="an0001" n="1">SLC added "mail" in pencil.</note>
+               for a friend who is going to Europe and wishes to take it along as a mascot?</p>
+               <closer>
+                  <salute rend="indentcompclose">Yours Faithfully,
+                  </salute>
+                  <signed rend="indentsig"><hi rend="paraph">Stephen Fiske</hi></signed>
+               </closer>
+            </div1>
+            
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+               <pb facs="fiskes-env.jpg" xml:id="pb002" n="2"/>
+               
+               <ab>Sam'l Clemens, Esq., | "Mark Twain" | Hartford | <hi rend="italic">Conn.</hi>
+                  <note type="ed" place="inline" xml:id="ed001">return address:</note> <hi rend="xs-smallcaps">return to | kitsell house, | new york.</hi>
+               <note type="ed" place="inline" xml:id="ed002">postmarked:</note> <hi rend="xs-smallcaps">new york mar 31 12 m f 84</hi>
+               <note type="ed" place="inline" xml:id="ed003">docketed by SLC, in pencil:</note> Stephen Fiske | <hi rend="italic">good</hi></ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>        
+         
+      </body>
+  </text>
+</TEI>

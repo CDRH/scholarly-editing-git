@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from Ellen Terry to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/terry01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#ET">Ellen Terry</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41981)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <salute>Dear Mark Twain—</salute>
+            </opener>
+            <p rend="text-indent:2">Will you write your name for me—</p>
+            <closer rend="indentcompclose">
+                <salute rend="indentctrcompclose">Yours Yours<note xml:id="an0001" place="foot" type="an" n="1">This letter shows signs of haste, or fatigue, probably because she, like her leading man, <name corresp="#HI">Henry Irving</name>, was writing after a long rehearsal, just before opening night at the Star Theatre, where they were both starring in several short selections.</note>
+               <space extent="2"/></salute>
+               <signed rend="indentctrsig"><hi rend="paraph">Ellen Terry</hi> =</signed>
+
+<dateline>
+                  <date when="1884-03-31">March 31, 84</date>
+               </dateline>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/terry-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+                <ab>“Mark Twain” | Hartford | Connecticutt =
+                    <note xml:id="pt002" place="inline" n="postmarked:" type="pt"><hi rend="xs-smallcaps">new-york mar 31 2 30 pm 84</hi></note>
+                     <note type="ed" place="inline" xml:id="in0001">docketed by SLC, in pencil:</note> Ellen Terry | mention
+                </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

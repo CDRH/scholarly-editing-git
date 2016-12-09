@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41851">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Thomas Bailey Aldrich to Samuel L. Clemens</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#TBA">Thomas Bailey Aldrich</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee> 
+               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Boston, Mass.</name>
+               <sourceline>(MS: CU-MARK, UCLC 41851)</sourceline></head>
+            
+         <div1  type="letter"> 
+            <pb facs="aldricht01.jpg" xml:id="pb001" n="1"/>
+               <opener> 
+                  <letterhead rend="left"><space extent="1"/>editorial office of 
+                     <lb/>the atlantic monthly, 
+                     <lb/><space extent="4"/>boston.
+                  </letterhead>
+                  <dateline rend="indentdateline">March 31<hi rend="superscript">st</hi>, 1884</dateline>
+               <salute rend="text-indent:1">My dear Clemens:</salute>
+            </opener>
+            <p rend="text-indent:3">I am making a collection of the autographs of our distinguished writers, and having read one of your works, “Gabriel Conway,”<note type="an" xml:id="an001" n="1" place="foot">A novel by Bret Harte that was largely considered a failure.</note> I would like to add your name to the list. I have already a large collection, embracing personal letters from Geo. Francis Train, Dr. Holland, Barry Gray, Daniel Pratt, the great American Traveller, Count-Joannes and the late (too late) Charles J. Guitiau.<note type="an" place="foot" xml:id="an002" n="2">George Francis Train (1829&#8211;1904) was an eccentric entpreneur who inspired the character Phileas Fogg in Jules Verne's <hi rend="italic">Around the World in Eighty Days</hi>. Late in life he suffered from Bright's disease, and his diminished mental capacities led to accusations of insanity. Josiah Gilbert Holland (1819&#8211;91) was a writer nationally renowned for his advice books who also wrote under the pen name “Timothy Titcomb.” He was also a co-founder of <hi rend="italic">Scribner's Monthly</hi>, and he not only admired but personally encouraged Emily Dickinson and her poetry. "Barry Gray" was the pen name for Robert Barry Coffin (1826&#8211;86), author of <hi rend="italic">Out of Town, A Rural Episode</hi>, among other books. He was a frequenter of Pfaff's cellar in New York City, where he was known to associate with the likes of Artemus Ward and Walt Whitman. Later in life he worked as a clerk at the New York Customs House, where he befriended fellow employee Herman Melville, to whom he affectionately inscribed four of his books ("Old 'Barry Gray' Dead," New York <hi rend="italic">World</hi>, 12 June 1886, 5; <hi rend="italic">Correspondence</hi>, 418). “General” Daniel Pratt, Jr. (1809&#8211;1887) was a prolific author and lecturer who was known to ostentatiously introduce himself as "the great American traveler!" (see, for example, “Some Hit And Miss Chat,” New York <hi rend="italic">Times</hi> 7 September 1885, 2). "Count Joannes" was the stage name for George Jones (1810&#8211;79), an English-born actor who became a prominent (and outlandish) lecturer in the United States after an 1864 appearance at the Cooper Institute. Charles Guiteau (1841&#8211;82) assassinated Grover Cleveland but was also a failed writer.</note> So you see that you will be in good company.</p>
+               <closer><salute rend="indentcompclose">Everlasting yours<space extent="2"/></salute>
+                  <signed rend="indentsig"><name type="person">T. B. Aldrich.</name></signed>
+                  <name type="addressee" rend="left">Hon. S. L. Clemens</name>
+               </closer>
+            </div1>
+        
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+               <pb facs="aldricht-env.jpg" xml:id="pb002" n="2"/>
+                  <ab>Hon. S. L. Clemens, | Hartford, | Conn.
+                  <note type="ed" xml:id="ed001" place="inline">return address:</note> <hi rend="xs-smallcaps">the atlantic monthly, | 4 park street | boston.</hi>
+                     <note type="ed" xml:id="ed002" place="inline">postmarked:</note> <hi rend="xs-smallcaps">boston mass mar 31 84 3 30 pm</hi> <note type="ed" xml:id="ed003" place="inline">and</note> <hi rend="xs-smallcaps">hartford, conn. rec'd mar 31 1884 8pm</hi></ab>
+               
+            </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/> 
+      </body>
+  </text>
+</TEI>

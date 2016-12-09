@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from Francis Hopkinson Smith to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/smithh01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#FHS">Francis Hopkinson Smith</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41979)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+<l rend="center">[letterhead: family crest with slogan “Semper Paratus”]</l>
+</letterhead>
+               <dateline rend="indentdateline">150 E. 34<hi rend="superscript">th</hi><space extent="4"/><lb/>
+    <space extent="22"/>New York <date when="1884-03-31">3/31</date>
+               </dateline>
+               <salute>My Dear Mr. Clemens</salute>
+            </opener>
+            <p rend="text-indent:3">Will you be good enough to send me your autograph—</p>
+            <p rend="text-indent:2">I very much desire to add it to my collection.</p>
+            <closer rend="indentcompclose">
+                <salute rend="indentcompclose">Faithfully Yours<space extent="4"/></salute>
+               <signed rend="indentsig">F. Hopkinson Smith</signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/smithh-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+<ab>
+                Sam<hi rend="superscript">l</hi> Clemens Esq | Care Mark Twain | Hartford | Conn <note type="ed" place="inline" xml:id="ed002">rule</note>
+    <note xml:id="pt001" type="pt" place="inline" n="postmarked:"><hi rend="xs-smallcaps">new york mar 31 6 pm 84</hi></note>
+                  <note type="ed"  xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> Hopkinson Smith | nothing.<note xml:id="an0001" type="an" place="foot" n="1">
+                      <p>Clemens knew Hopkinson Smith primarily through his membership in the Kinsmen, a dining club of like-minded artists, authors, and players, with no dues, no rules, and no officers.</p></note><note type="ed" xml:id="ed006" place="inline">rule</note> | <note type="ed" xml:id="ed004" place="inline">SLC, in different pencil:</note> <note type="ed" xml:id="ed005" place="inline">rule</note> The artist. <note type="ed" xml:id="ed007" place="inline">rule</note>
+</ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

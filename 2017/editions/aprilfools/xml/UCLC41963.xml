@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41963">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Joseph Hatton to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#JPCH">Joseph Hatton</name> to <addressee><name type="person" key="#SLC">SLC</name></addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41963)</sourceline>
+         </head>
+         <div1  type="letter">
+            <pb xml:id="pb01" n="1" facs="hatton01.jpg"/>
+            <opener>
+               <letterhead>
+                  <l rend="center">the lotus club</l>
+                  <l rend="right">147 fifth avenue</l></letterhead>
+               <dateline rend="indentdateline">
+                  <date when="1884-03-31">March 31</date>
+               </dateline>
+               <salute rend="noindent">My Dear Clemens,</salute>
+            </opener>
+            <p rend="text-indent:2">I have one of your autographs. But I find life is not worth having without two. I want one 
+            to carry about with me on this side (the one I have is in London) especially as this weather is cold &amp; windy. Will
+            you <pb xml:id="pb02" n="2" facs="hatton02.jpg"/> oblige me at once.</p>
+            <closer>
+            <salute rend="indentcompclose">Very Yours<space extent="2"/>
+               <lb/>(In great Haste)<space extent="1"/>
+            </salute>
+            <signed rend="indentsig"><hi rend="paraph">Joseph Hatton</hi></signed>
+            </closer>
+         </div1>
+         
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb xml:id="pb03" n="3" facs="hatton-env.jpg"/>
+               <ab>S. L. Clemens Esq | Hartford, | Conn&#8212;</ab>
+               <ab><note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">new york ... mar ... 6</hi></ab>
+               <ab><note type="ed" place="inline" xml:id="ed002">docketed by SLC, in pencil:</note> Joseph Hatton | mention</ab>
+            </div2>
+         </div1>
+         <div1 xml:id="cm0001" type="commentary"/>   
+      </body>
+   </text>
+</TEI>

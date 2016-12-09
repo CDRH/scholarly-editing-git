@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="facs/pondn01.jpg" xml:id="pb0001" n="1"/>
+            <head type="metadata">
+                <name corresp="#NBP">Nella Brown Pond</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Boston, Mass.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41971)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+                    <letterhead>
+                        <l rend="center">hotel berwick,</l>
+                        <l rend="center">boston.</l>
+                    </letterhead>
+                    <dateline rend="indentdateline">
+                        <space extent="36"/><date when="1884-03-31">Mar. 31st. 1884.</date>
+                    </dateline>
+                    <salute>Mr. S. L. Clem<del>m</del>ens,</salute>
+                    <salute><space extent="2"/>Dear Sir:&#x2014;</salute>
+                </opener>
+                <p rend="text-indent:3">I have never had the pleasure of meeting you personally, but have long been an ardent admirer of your writings, therefore I trust you will excuse the liberty I take in asking for one or <add>two</add> copies <pb xml:id="pb002" facs="facs/pondn02.jpg" n="2"/>of your autograph.
+                </p>
+                <p rend="text-indent:2">If you should feel generous enough to send <hi rend="italic">three</hi> copies, I think I can dispose of them to good advantage.</p>
+                <closer>
+                    <salute rend="indentcompclose">Yours very sincerely</salute>
+                    <signed rend="indentsig"><hi rend="paraph">Nella Brown Pond.</hi></signed>
+                </closer>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001">
+                <div2 type="envelope" xml:id="pt002"><pb facs="facs/pondn-env.jpg" xml:id="pb003" n="env"/>
+                    <ab>Mr. S. L. Clemens | Hartford | Conn. <note type="pt" xml:id="pt003" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">boston mass mar 31 84 8 pm</hi>
+                        <note type="ed" place="inline" xml:id="ed001">docketed by SLC, in pencil:</note> Miss Pond | mention
+                        
+                    </ab>
+                </div2>
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from James B. Pond to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/pondj01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#JBP">James B. Pond</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N. Y.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41970)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+                   <l rend="center"><hi rend="smallcaps">james b. pond,</hi></l>
+                  <l rend="center"><hi rend="smallcaps">general agent and manager,</hi></l>
+                   <l rend="center"><hi rend="smallcaps">everett house, corner 4th avenue and 17th street, new york.</hi></l>
+               </letterhead>
+                <dateline><space extent="12"/><hi rend="xs-smallcaps">Everett House, New York</hi>, <add type="formfill">
+                        <hi rend="dot-underline">
+                           <space extent="2"/>March 31,
+      </hi>
+                     </add> <hi rend="xs-smallcaps">188</hi><add type="formfill">
+                        <hi rend="dot-underline">
+         4<space extent="1"/>
+                        </hi>
+                     </add>.
+		 </dateline>
+               <salute>My dear &#x201C;Mark&#x201D;</salute>
+            </opener>
+            <p rend="text-indent:3">You will excuse me for troubling you especially on a subject that is “the celebritie's bore,” but I have devoted a good deal of my life to the collection of autographs of great people,<note xml:id="an0001" place="foot" type="an" n="1">Pond actually was an autograph collector. See, for instance, Robert C. Burt, "A Dealer in Brains. Maj. J. B. Pond and His Association with Great Men," <hi rend="italic">Pearson's Magazine</hi> 5 (January 1898): 75&#x2013;82.</note> and only need yours to complete the most remarkable book of the kind ever compiled in this country. I began when quite a youth. The first <del>name</del><add>autograph</add> in the book is that of <name>Benedict Arnold</name> which my grandfather inherited and handed down to me. I have such names as <name>Victor Hugo</name>, <name>Gladstone</name>, <name>Prince Napoleon</name>, <name>Bradlaugh</name>,<note type="an" place="foot" xml:id="an002" n="2">Prince Prince Joseph Charles Paul Napoleon (1822-91), a nephew of the Emperor Napoleon, and Charles Bradlaugh (1833-91) were failed statemen, the former a left-leaning Bonarpartist who had recently been denied his claim to the throne, and the latter a long-suffering political activist, birth control and trade union advocate, and atheist who, though elected MP from Northampton in 1876, failed to be seated until 1886 because he refused to take the oath of allegiance. The two were great friends, and commiserated together in a lively correspondence. (Bradlaugh, General Correspondence and Papers, 1870&#x2013;1879, National Secular Society (&lt;https:/www.britishonlinearchives.co.uk/browse.php?did=72979-C05&gt;. See also Adolphe S. Headingley, <hi rend="italic">Biography of Charles Bradlaugh</hi>, London: Remington &amp; Co., 1880, 254&#x2013;60).</note> <name>Matthew Arnold</name> (a descendent of Benedict),<note type="an" xml:id="an003" place="foot" n="3">English essayist, literary and cultural critic, and poet Matthew Arnold (1822&#x2013;88) made his first North American lecture tour in 1883&#x2013;84 to pronounce upon the state of American culture in four platform speeches. Arnold's critique of American society was published in <hi rend="italic">Civilization in the United States. First and Last Impressions of America</hi> (1888). His indictment: <quote rend="blockquote">In truth everything is against distinction in America, and against the sense of elevation to be gained through admiring and respecting it. The glorification of 'the average man,' who is quite a religion with statesmen and publicists there, is against it. The addiction to 'the funny man,' who is a national misfortune there, is against it. Above all, the newspapers are against it. It is often said that every nation has the government it deserves. What is much more certain is that every nation has the newspapers it deserves (p. 177).</quote> Lorettus Metcalf, editor of <hi rend="italic">The Forum</hi>, invited Clemens to respond to Arnold's attacks (Metcalf to Clemens, 10 Apr 1888, CU-MARK), but Clemens's original rebuttal &#x201C;English Criticism on America&#x201D; (MS, CU-MARK) was never published, despite earlier direct provocation. Previously, in &#x201C;A Word About America", published in <hi rend="italic">The Nineteenth Century</hi> 11 (May 1882): 689&#x2013;90, Arnold had attacked &#x201C;the Quinionian humor of Mr. Mark Twain&#x201D; as an index of the intellectual crudeness of Americans: &#x201C;These childish and half-savage minds are not moved except by very elementary narratives composed without art, in which burlesque and melodrama, vulgarity and eccentricity, are combined in strong doses.&#x201D;</note> <name>R D’Oily Carte</name>,<note type="an" xml:id="an004" place="foot" n="4">Richard D'Oyly Carte (1844&#x2013;1901) was an English composer, impressario, and hotelier. He was a proponent of a new school of respectable (not risque) English comic opera. To that end he brought together William S. Gilbert and Arthur Sullivan, and built the Savoy Theatre in which to present their works. With returns from his partnership with Gilbert and Sullivan he was able to build the Savoy Hotel, the first luxury hotel in London with electric lights and elevators. In 1890 the partnership amongst Carte, Gilbert, and Sullivan was dissolved over a lawsuit brought by Gilbert for mishandling finances. Carte turned his attentions to the construction of The Royal English Opera House, whose first production was Sullivan's opera <hi rend="italic">Ivanhoe</hi> (1891). Though the piece was successful, the enterprise failed, and Carte sold the theater at a loss. In short order he added Claridge's and the Grand Hotel in Rome to his business portfolio, to stave off his theatrical losses. Carte continued to produce the occasional opera by both Gilbert and Sullivan at the Savoy until his death in 1901.</note> <name>Arthur Sullivan</name>,<note type="an" xml:id="an005" place="foot" n="5">Arthur Seymour Sullivan (1842&#x2013;1900) was an English composer of diverse works, and collaborator with William S. Gilbert on 14 comic operettas.</note> <name>John L Sullivan</name> (his cousin),<note type="an" xml:id="an006" place="foot" n="6">American boxer John L. Sullivan (1858&#x2013;1918), born in Boston's South End, was the heavy-weight champion from 1882&#x2013;92. He became the first American sports celebrity by undertaking a coast-to-coast tour in 1883&#x2013;84 featuring 195 scheduled fights against a stable of five other chosen boxers, and offering a prize (unclaimed) to anyone who could spend four rounds in the ring with him and remain standing.</note> <name>Garrison</name>,<note type="an" xml:id="an007" place="foot" n="7">William Lloyd Garrison (1805&#x2013;79) was an American abolitionist, suffragist, and social reformer, whose autograph would be de rigueur in any successfull autograph album.</note> <name>Phillips</name>,<note type="an" xml:id="an008" place="foot" n="8">Wendell Phillips (1811&#x2013;84) was an American lawyer, abolitionist, suffragist, and social reformer, as well as another important name for an autograph album.</note> <name corresp="#HWB">Beecher</name>, <name>Harriet Beecher Stowe</name>,<note type="an" xml:id="an009" place="foot" n="9">Harriet Beecher Stowe (1811-96) was an American abolitionist and author of two dozen novels, of which <hi rend="italic">Uncle Tom's Cabin</hi> (1852) is the best known. She is also third in Pond's triumvirate of abolitionists without whose autographs no album would be complete. She was a neighbor of the Clemens family at Nook Farm in Hartford.</note>" <name>Joaquin Miller</name>,<note type="an" xml:id="an010" place="foot" n="10">Newspaper editor, judge, and poet, Cincinnatus Heine &#x201C;Joaquin&#x201D; Miller (1837&#x2013;1913) produced over two dozen books of poetry, including <hi rend="italic">Songs of the Sierras</hi> (1871), which was published in London. He became an instant celebrity in England in the early 1870s, more for his colorful appearance and personality than for his writings.</note> <name>Outlaw Reid</name>,<note type="an" xml:id="an011" place="foot" n="11">American newspaper editor and diplomat Whitelaw Reid (1837&#x2013;1912) became owner and editor of the New York <hi rend="italic">Tribune</hi> after the death of Horace Greeley. He served as Ambassador to France (1889), Special Ambassador to the Coronation of King Edward XII (1902), and was the 35th American Ambassador to the United Kingdom (1905&#x2013;12). Clemens and Reid were corresponding as early as 1869, but their acquaintance began to sour as early as 1873 when Reid refused to allow Clemens's friend Edward House to review the <hi rend="italic">The Gilded Age</hi>. By 1883 Clemens was in full fettle, composing a vindictive &#x201C;Biography of Whitelaw Reid,&#x201D; and recruiting evidence from John Russell Young and others concerning Reid's alleged calumny against Clemens (see NB 20, <hi rend="italic">N&amp;J</hi>, 439&#x2013;45).  Pond may have been aware of Clemens's dislike of Reid. Clemens noted in one of his journals that Ulysses S. Grant also used this epithet, and was perhaps the source of it: &#x201C;Grant calls him  Outlaw Reid.&#x201D; (NB 19, N&amp;J2, 420).</note> <name>Eli Perkins</name>,<note type="an" xml:id="an012" place="foot" n="12">Humorist and lecturer Melville DeLancey Landon (1839&#x2013;1910) wrote columns under the pseudonym Eli Perkins for the New York <hi rend="italic">Commercial Advertiser</hi> in the 1870s. He had been secretary to the St. Petersburg legation for Cassius Clay, Minister to Russia. Upon returning to the United States in 1871 he published a documentary history of the Franco-Prussian War. He was a close friend of humorist Artemus Ward, and edited the latter's complete works. Clemens's distaste for Landon's brand of humor is revealed in the marginalia in his copy of Perkins's <hi rend="italic">Saratoga in 1901</hi> (1871), which he labels &#x201C;[t]he droolings of an idiot&#x201D; on the flyleaf.</note> <name>Tony Pastor</name>,<note type="an" xml:id="an013" place="foot" n="13">Tony Pastor (1832&#x2013;1908) was an American variety performer and impressario, known as The Father of Vaudeville. In 1865 he opened Tony Pastor's Opera House in the Bowery, and in 1881 moved up to Union Square to establish the Fourteenth Street Theatre, which presented wholesome variety shows aimed at women and families.</note> <name corresp="#GWC">Geo. W. Cable</name>, Geo W Cable's Physician,<note xml:id="an0014" place="foot" type="an" n="14">This is a reference to Cable's recent attack of the mumps while on tour under Pond's management in January and February 1883. Cable lay sick abed at the Clemens home for nearly three weeks, during which time Pond sent several desperate and incredulous telegrams inquiring after Cable's health. On 28 January Clemens and Cable's doctor dispatched at least four telegrams to Pond confirming his continuing indisposition. Clemens's 31 January letter to Pond, assuring him that Cable was not malingering, was published by the Chicago <hi rend="italic">Tribune</hi> on 3 February and the New York <hi rend="italic">Times</hi> on the next day.</note> Hon. <name>W. F. Cody </name>(Buffalo Bill) and many hundred others.<note xml:id="an00015" place="foot" type="an" n="15">The arrangement of this list, sandwiched between Victor Hugo and Buffalo Bill Cody, serves as a short compendium of the highlights of any good collection: foreign authors, politicians, critics, impressarios, followed by American civil rights activists Garrison, Phillips, and Stowe. From here the list sinks, from colorful Western author Joaquin Miller, to Whitelaw Reid, with whom Clemens feuded beginning in 1881; a lesser humorist, Eli Perkins; the "Father of Vaudeville" Tony Pastor; followed by the perpetrator of the joke, George Washington Cable.</note> So you can readily see that I have a very reasonable excuse <add>for asking</add><del>for</del> for yours.</p>
+            <p rend="text-indent:2">Please write two (2) copies if you please, as I have a niece who is a great admirer of yours &amp; who is getting up a collection.<note type="an" place="foot" xml:id="an016" n="16">Unidentified.</note> Write them on Gilded age paper,<note type="an" xml:id="an0017" place="foot" n="17">Perhaps a conflation of the title of Mark Twain's <hi rend="italic">Gilded Age</hi>, co-authored with Warner, with a common letter-writing manual prescription to write letters to one's social superior on gilt paper.</note> or cauls, if not too much trouble. Thanking you in advance for this great (to me) favor. I am</p>
+            <closer rend="indentcompclose">
+               <salute rend="indentcompclose">Your obt servant<space extent="3"/></salute>
+               <signed rend="indentsig">James B. Pond.</signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/pondj-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+                <ab>S. L Clemens, Esq | (Mark Twain) | Hartford | Conn. <note type="ed" xml:id="ed000" place="inline">rule</note>
+              <note xml:id="pt001" place="inline" type="pt" n="return address:"><hi rend="xs-smallcaps">james b. pond | everett house | new york</hi></note>
+                    <note xml:id="pt002" type="pt" place="inline" n="postmarked:"> <hi rend="xs-smallcaps">new york mar 31 2 pm d <corr>84</corr><gap reason="tornaway"/></hi></note>
+            <note type="ed"  xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> <hi rend="italic">Good</hi> | one here
+</ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

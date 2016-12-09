@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+        <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from George Parsons Lathrop to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/lathrop01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#JPL">George Parsons Lathrop</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-03-29">29 March 1884</date> &#x2022; <placeName>New York, New York</placeName>
+            <sourceline>(MS: CU-MARK, UCLC 41840)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <dateline rend="indentdateline"><address><addrLine>80 Washington Sq.<space extent="3"/></addrLine>
+                   <addrLine><placeName>New York<space extent="2"/></placeName></addrLine></address>
+                  <date when="1884-03-29">Mar 29/84.</date>
+               </dateline>
+               <salute>Dear Mr. Clemens,</salute>
+            </opener>
+            <p rend="text-indent:2">As a faithful reader of as many of your productions as I have been able to get track of or keep up with, I am desirous of securing your autograph, to add to my own, &amp; to the autographs of other distinguished persons.</p>
+            <p rend="text-indent:2">May I hope that you will confer upon me the favor of writing out neatly upon a large sheet of paper <pb facs="facs/lathrop02.jpg" xml:id="pb0002" n="2"/>your favorite sentiments &amp; beliefs, carefully selected from your various works, with your signature appended?
+            </p>
+            <p rend="text-indent:2">Should you not have time to do this, an original unpublished composition would be received with gratitude.
+            </p>
+            <closer rend="indentcompclose">
+                <salute rend="indentcompclose">Respectfully yours,</salute>
+               <signed rend="indentsig">G. P. Lathrop.</signed>
+            </closer>
+            <postscript>
+                <p><label>P.S.</label> Stamps will be sent you, on receipt of MS.</p>
+            </postscript>
+         </div1>
+	 <div1 type="post-transmission">
+	   <div2 type="envelope"><pb facs="facs/lathrop-env.jpg" xml:id="pb0003" n="env"/>
+	       <ab>S. L. Clemens Esq. | Hartford, Conn. <note xml:id="pt001" type="ed" place="inline">rule</note>
+	           <note type="pt" xml:id="pt003" place="inline" n="postmarked:"><hi rend="xs-smallcaps">new york mar 30 3 30 pm d 84</hi></note>
+	           <note type="ed" xml:id="in001" place="inline">docketed by SLC, in pencil:</note> G. P. Lathrop | Joke from | Lathrop <note xml:id="pt005" type="ed" place="inline">rule</note>
+	  </ab> </div2>
+	 </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

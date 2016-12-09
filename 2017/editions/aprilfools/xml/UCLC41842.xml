@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41842">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John S. Billings to Samuel L. Clemens: An electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#JSB">John S. Billings</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee>
+               <date when="1884-03-30">30 March 1884</date> &#x2022; <name type="place">Washington, D. C.</name>
+               <sourceline>(MS: CU-MARK, UCLC 41842)</sourceline>
+            </head>
+            <div1 type="letter">
+               <pb facs="billings01.jpg" xml:id="pb001" n="1"/>
+               <opener>
+               <dateline rend="indentdateline">
+                  <name type="place">Washington D.C.</name>
+                  <lb/><date when="1884-03-30">March 30 /84</date>
+               </dateline>
+                  <salute rend="text-indent:1">Dear Mr Clemens,</salute>
+            </opener>
+               <p rend="text-indent:3">Ever since the receipt through Col Waring, of "Conversation, as it was by the Social fireside, in the time of the Tudors" <note xml:id="an001" type="an" place="foot" n="1">Colonel George E. Waring (1833&#8211;98) also participated in the April Fools hoax. The "Conversation" refers to the subtitle of Mark Twain's <hi rend="italic">1601</hi>, a  Rabelaisian dialogue on Elizabethan manners which he shared privately with friends in 1876 after intending to send it as a letter to his friend Joseph Twichell (AD for 31 July 1906, <hi rend="italic">AutoMT2</hi>, pp. 155&#8211;57). <name type="person" corresp="#JMH">John Hay</name> took the manuscript with him to Cleveland to read to friends at the Vampire Club, and printed an unauthorized edition of about a handful of copies in 1880. Waring probably sent Billings the 1882 edition of <hi rend="italic">1601</hi>, published with Clemens's consent by the West Point Academy Press, which Clemens sent to several friends (at his death Clemens still owned fifteen copies, which are now in the Mark Twain Papers). Waring had written Clemens on 20 May 1883 to thank him for sending him "the chaste and graphic sketch of the virtuous olden time" (UCLC 41559, MS in CU-MARK). </note> I have been intending to write you a letter of thanks for the amusement and instruction which it has afforded me.<space extent="3"/> This intention still exists, but the object of the present note is not so much to express my appreciation of this valuable <pb facs="billings02.jpg" xml:id="pb002" n="2"/> historical document as to prefer a request for a copy of your photograph, only authenticated by your signature.</p>
+               <closer rend="noindent">Hoping that you will grant this favor to one of your most sincere admirers I remain
+                  <salute rend="indentcompclose">Yours very sincerely,<space extent="2"/></salute>
+                  <signed rend="indentsig"><name type="person">John S Billings</name>.</signed>
+               </closer>
+            </div1>
+         <note xml:id="ed005" type="ed" place="inline">enclosure:</note>
+         <div1 type="form">
+            <pb facs="billings03.jpg" xml:id="pb003" n="3"/>
+            <ab>
+               <l rend="center"><hi rend="xs-smallcaps">dr. j. s. billings.</hi></l>
+               <l rend="center"><add type="formfill">Librarian Surgeon General's Office</add></l>
+               <l rend="left"><space extent="2"/><add type="formfill">Washington</add></l>
+               <l rend="center"><add type="formfill">D. C.</add></l> <l rend="right"><space extent="2"/><hi rend="xs-smallcaps">U. S. A.</hi></l>
+            </ab>
+         </div1>
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+               <pb facs="billings-env.jpg" xml:id="pb004" n="4"/>
+               <ab>Samuel L Clemens Esq | Hartford | Conn.</ab>
+               <ab><note type="ed" xml:id="ed001" place="inline">postmarked:</note> <hi rend="xs-smallcaps">washington d.c. 3 ... <gap reason="tornaway"/> 7 30 pm 1884</hi></ab>
+               <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> send <hi rend="italic">photograph</hi> | D<hi rend="superscript">r.</hi> Billings | Apl fool</ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

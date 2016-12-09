@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41863">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Austin C. Dunham to Samuel L. Clemens: an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#ACD">Austin C. Dunham</name> to <addressee><name type="person" corresp="#SLC">Samuel L. Clemens</name></addressee>
+               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Boston, Mass.</name>
+               <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41863)</sourceline>
+            </head>
+            <div1 type="letter">
+               <pb facs="dunham01.jpg" xml:id="pb001" n="1"/>
+               <opener>
+               <dateline rend="indentdateline">
+                  <name type="place">Boston</name> <date when="1884-03-31">March 31<hi rend="superscript">st</hi>/84</date>
+            </dateline>
+               <salute rend="noindent">My dear Clemens</salute>
+            </opener>
+               <p rend="text-indent:2">I am seized with a longing to grasp your handwriting.
+               Will you kindly send me your autograph which I will embalm &amp; perfume &amp;
+               think of you as a ready writer with gratitude &amp; joy</p>
+              
+               <closer>   
+                  <salute rend="indentcompclose">Sincerely Yours<space extent="1"/>
+                  </salute>
+                  <signed rend="indentsig">A. C. Dunham<space extent="1"/>
+                     <lb/>Wool Gatherer.<space extent="1"/></signed>
+               </closer>
+            </div1>
+         <lb/>
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+               <pb facs="dunham-env.jpg" xml:id="pb002" n="2"/>               
+               <ab>Sam<hi rend="superscript">l</hi> L. Clemens Esq | Hartford | Conn</ab>
+               <ab><note type="ed" place="inline" xml:id="ed001">return address:</note> <hi rend="xs-smallcaps">tremont house, | boston. | silas gurney &amp; co.</hi></ab>
+               <ab><note type="ed" place="inline" xml:id="ed002">postmarked:</note> <hi rend="xs-smallcaps">boston mass. mar 31 12 pm 84</hi></ab>
+               <ab><note type="ed" place="inline" xml:id="ed003">docketed by SLC, in pencil:</note> Dunham</ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>         
+      </body>
+  </text>
+</TEI>

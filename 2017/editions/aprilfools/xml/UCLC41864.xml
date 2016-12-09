@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41864">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Charles C. Duncan to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <head type="metadata"><name type="person" corresp="#CCD">Charles C. Duncan</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>   
+            <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41864)</sourceline></head>
+            
+            <div1  type="letter">
+               <pb facs="duncan01.jpg" xml:id="pb001" n="1"/>
+               <opener>
+                  <dateline rend="indentdateline">New York March 31<hi rend="superscript">st</hi><space extent="2"/></dateline>
+                  <name type="addressee" rend="left">Sam<hi rend="superscript">l.</hi> L. Clemens, Esq:</name>
+                  <salute rend="text-indent:2">Dear Sir,</salute>
+               </opener>
+               <p rend="text-indent:4">The verdict of the jury in the recent suit which I brought against Mr. Jones proves that I was in no way damaged by the hasty remarks <pb facs="duncan02.jpg" xml:id="pb002" n="2"/> you are alleged to have made to a N.Y. Times reporter<note type="an" xml:id="an001" place="foot" n="1">George Jones was the treasurer of the New York <hi rend="italic">Times</hi>. Duncan's libel suit, filed in June 1883, sought $100,000 in damages on account of Henry Alloway's 10 June 1883 interview with Mark Twain in the New York <hi rend="italic">Times</hi>, which insulted Duncan's morality and abilities as a captain, and applauded Elihu Root's investigation into Duncan's finances as Shipping Commissioner. SLC denied the correctness of anything that was printed in the <hi rend="italic">Times</hi>, although during his deposition he did admit to some aspects of the interview that were intended as jokes, and, as he coyly said, "I do not usually say under oath what I say in a newspaper article" (Brooklyn <hi rend="italic">Eagle</hi>, 7 March 1884, 4). The verdict, which awarded Duncan twelve cents, implied that the New York <hi rend="italic">Times</hi> had good reason to print the Mark Twain interview because of Duncan's evident corruption, as the Brooklyn <hi rend="italic">Eagle</hi> editorialized: "Technically the <hi rend="italic">Times</hi> was guilty of libel, no doubt, but to perfectly unbiased minds the system upon which the office is conducted merited the comments published concerning it. Captain Duncan was manifestly less concerned for the United States and the sailor man than for Captain Duncan and his progeny" (Brooklyn <hi rend="italic">Eagle</hi>, 9 March 1884, 6).</note> and as proof of my willingness to abide by their decision and desire to return to our former friendly relations I beg leave to ask for three of your <pb facs="duncan03.jpg" xml:id="pb003" n="3"/><!-- pb assuming there's a separate image for this cross-written leaf --> signatures one for myself and one for each of my two sons<!-- note? -->.</p>
+               <closer rend="right">I am with great respect
+                  <lb/><salute rend="indentcompclose">Yours triumphantly</salute>
+                  <signed rend="indentsig">C. C. Duncan.<space extent="2"/>
+                     <lb/>Late Capt: "<hi rend="italic">Quaker City</hi>"</signed>
+               </closer>
+               
+               <postscript><p rend="noindent">P.S. I enclose one 2 cent stamp&#8212;</p></postscript>
+            </div1>
+         
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+                  <pb facs="duncan04.jpg" xml:id="pb004" n="4"/>
+                  <ab>Sam<hi rend="superscript">l</hi> L. Clemens, Esq., | Hartford, | Conn.</ab>
+                  <ab><note type="ed" xml:id="ed001" place="inline">postmarked:</note> <hi rend="xs-smallcaps">new york apr 1 6 30 am e 84</hi></ab>
+                  <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> Capt. <hi rend="italic">C.C. Duncan</hi></ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41866">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from George Carey Eggleston to Samuel L. Clemens: an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#GCE">George Carey Eggleston</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee>
+               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Brooklyn, N.Y.</name>
+               <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41866)</sourceline>
+            </head>
+            <div1  type="letter">
+               <pb facs="eggleston01.jpg" xml:id="pb001" n="1"/>
+               <opener>
+               <letterhead><l rend="noindent">707 green ave.,</l>
+               <l rend="text-indent:2"><name type="place">brooklyn, n.y.</name></l>
+               </letterhead>
+               <dateline rend="right"><date when="1884-03-31">31 March 1884</date>
+            </dateline>
+               <salute rend="noindent">My dear M<hi rend="superscript">r</hi> Clemens:&#8212;</salute>
+            </opener>
+               <p rend="text-indent:2">My autograph book now contains autograph letters from all
+               the men of letters with whom I have any acquaintance except yourself. Will you kindly make
+               the collection complete?</p>
+               <closer>
+                  <salute rend="indentcompclose">Sincerely Yours<space extent="4"/>
+                  </salute>
+                  <signed rend="indentsig">George Carey Eggleston</signed>
+               </closer>
+            </div1>
+            
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+               <pb facs="eggleston-env.jpg" xml:id="pb002" n="2"/>               
+               <ab>To Mr Sam<hi rend="superscript">l</hi> L. Clemens Esq | Hartford | Connecticut.</ab>
+               <ab><note type="ed" place="inline" xml:id="ed001">return address:</note> <hi rend="xs-smallcaps">797 greene ave. | brooklyn</hi></ab>
+               <ab><note type="ed" place="inline" xml:id="ed002">postmarked:</note> <hi rend="xs-smallcaps">brooklyn n.y. mar 31 11 pm 1884</hi></ab>
+               <ab><note type="ed" place="inline" xml:id="ed003">docketed by SLC, in pencil:</note> Eggleston</ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

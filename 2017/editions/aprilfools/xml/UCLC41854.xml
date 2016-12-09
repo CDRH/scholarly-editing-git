@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41854">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Moses S. Beach to Samuel L. Clemens</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb facs="beachm01.jpg" xml:id="pb001" n="1"/>
+         <head type="metadata"><name type="person" corresp="#MSB">Moses S. Beach</name> to <addressee><name type="person" corresp="#SLC"></name>Samuel L. Clemens</addressee>
+               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Brooklyn, N.Y.</name> 
+               <sourceline>(MS: CU-MARK, UCLC 41854)</sourceline>
+            </head>
+            <div1  type="letter">
+               <opener>
+                  <letterhead rend="left"><l rend="left">no. 96 columbia heights,</l>
+                  <l rend="left"><space extent="2"/>Brooklyn, N. Y.</l>
+                     <l rend="right"><date when="1884-03-31"><add type="formfill">Mar 31st</add> 1884.</date></l>
+                  </letterhead>
+               <salute rend="text-indent:2">Friend Clemens</salute>
+            </opener>
+               <p rend="text-indent:4">The attentions recently paid in your name to Capt Duncan <note type="an" xml:id="an001" place="foot" n="1">The "attentions" refer to Charles Duncan's libel suit against the New York <hi rend="italic">Times</hi>, which was initiated by Mark Twain's interview insulting Duncan. See the letters from <!-- complete cross-refs --><ref type="crossref" target="UCLC41853.xml">Charles Y. Beach</ref> and <ref type="crossref" target="#UCLC">Charles Duncan</ref>.</note> is a reminder that my autograph book is without your signature.</p>
+               <p rend="text-indent:2">If you would like to be seen in such goodly company as some of the Presidents and Cabinet Officers of past years, with a long line of newspaper magnates, <hi rend="italic">and inmates</hi>, please send it along and I will suitably place it.</p>
+               <closer><salute rend="indentcompclose">Yours Truly,<space extent="2"/></salute>
+                  <signed rend="indentsig"><name type="person"><hi rend="paraph">M S Beach</hi></name></signed>
+               </closer>
+            </div1>
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+               <pb facs="beachm02.jpg" xml:id="pb002" n="2"/>
+               <ab>Sam'l L. Clemens | Hartford | <hi rend="paraph">Conn.</hi></ab>
+               <ab><note type="ed" xml:id="ed001" place="inline">postmarked:</note> <hi rend="xs-smallcaps">brooklyn n. y. mar 31 84 1 pm</hi></ab>
+               <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> MS Beach | mention</ab>
+               </div2>
+            </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>
