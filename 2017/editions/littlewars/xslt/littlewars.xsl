@@ -32,7 +32,7 @@
       <head>
         <!-- $head_title 
      This is what will show in the browser tab/title bar. May want to keep shorter than edition title. -->
-        <title>Little Wars</title>
+        <title>LITTLE WARS</title>
         
         <!-- $head_extras (Optional) 
      A for-each will pull each of these in, you can include as many css and javascript files as you want. 
@@ -45,7 +45,7 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>Little Wars</em>, by H. G. Wells</h1>
+        <h1><em>LITTLE WARS</em>, by H. G. Wells</h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
@@ -58,7 +58,7 @@
           <ul>
             <li class="first"><a href="intro.html#page_info">Introduction</a></li>
             <li><a href="fulltext.html#page_info">Edition</a></li>
-            <li><a href="rules.html#page_info">Ruleset</a></li>
+            <li><a href="rules.html#page_info">Streamlined Rules</a></li>
             <li><a href="{$idno}.xml">Page XML &#8659;</a></li>
             <li><a href="littlewars.zip">Edition XML &#8659;</a></li>
           </ul>
