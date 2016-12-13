@@ -1,0 +1,1333 @@
+html {
+  width: 650px;
+  margin-left:3em;
+}
+body #printview {
+  font-family:'Times New Roman', serif;
+  background: white;
+  font-size: 12pt;
+  margin: 0;
+  padding: 0;
+}
+#printview {
+  position: static;
+  margin: 0;
+  padding: 0 2em 0 2em;
+  width: 90%;
+  height: 100%;
+}
+body #homepage, div #home,
+body #landing-page,
+body #landing-biographies,
+body #about {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #333;
+  margin: 10px 0 10px 0;
+  padding: 0;
+}
+h1 {
+  color: #333;
+  font-size: 120%;
+  margin: 10px 0 0 0;
+}
+h2 {
+  color: #333;
+  font-size: 100%;
+  margin: 5px 0;
+}
+img {
+  border: 0;
+}
+
+a{
+  text-decoration:none;
+  color:#6633FF;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+
+.clear {
+  clear: both;
+}
+.clear_menu {
+  clear: both;
+  height: 0;
+  line-height: 0.0;
+  font-size: 0;
+}
+.contextual-menu {
+  font-size: 85%;
+  margin: 10px 0 5px 0;
+  float: left;
+  padding: 0;
+}
+.contextual-menu.right {
+  float: right;
+  margin-right: 10px;
+  text-align: right;
+}
+.contextual-menu.right p {
+  margin: 0 0 5px 0;
+}
+.landing-image {
+  border: 1px solid #999;
+  float: right;
+  margin: 5px 0 10px 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.quote {
+  font-family: "Times New Roman", Times, serif;
+  color: #7A7A7A;
+  font-size: 110%;
+}
+#home,
+#landing,
+#search-results,
+#results-grid {
+  margin: 0 auto;
+  border: 1px solid #B1CAC1;
+  padding: 3px;
+}
+#home #content p,
+#landing #content p {
+  line-height: 120%;
+}
+/* Begin Homepage Styles */
+#home h2 {
+  color: #36608C;
+  font-size: 120%;
+}
+#home h3 {
+  font-size: 110%;
+  margin: 2px 0;
+}
+#home #header {
+  margin: 0 auto;
+  padding: 0;
+  border-bottom: 3px solid #fff;
+}
+#home #header-narrow {
+  border-bottom: 3px solid #fff;
+}
+#home #header img {
+  border: 0;
+}
+#home #content {
+  padding-top: 40px;
+  margin: .5em;
+  border: 0;
+}
+#home .button {
+  margin-left: 5px;
+  border: 0;
+}
+#home #content-primary,
+#home #content-secondary {
+/* float: left; */
+  display: inline;
+}
+#home #content-primary .inner,
+#home #content-secondary .inner {
+  margin: 0;
+  padding-right: 30px;
+  border-right: 1px solid #D1DDDE;
+}
+#home #content-primary .intro {
+  font-weight: bold;
+  font-size: 90%;
+}
+#home #content-primary .pull_quote {
+  font: italic 110% "Times New Roman", Times, serif;
+  color: #666;
+}
+#home #content-primary .pull_quote_link {
+  color: #7E2B00;
+  font-style: normal;
+  font-size: 85%;
+/* text-decoration: underline; */
+}
+#home #content-primary #intro {
+  padding: 0;
+  float: left;
+}
+#home #content-primary #intro p {
+  font-size: 85%;
+  line-height: 150%;
+}
+#home #content-primary img {
+  margin-left: 10px;
+  float: right;
+  border: 1px solid #999;
+}
+#home #content-secondary .bucket {
+  border: 3px double #D1DDDE;
+  margin-bottom: 30px;
+  padding: 3px 5px;
+}
+#home #content-secondary .bucket p {
+  margin: 0;
+}
+#home #content-secondary img {
+  float: left;
+  margin: 40px 0 0 30px;
+}
+/* End Homepage Styles */
+#popup #header h1 {
+  font-size: 120%;
+  margin: 5px 0 0 5px;
+  float: left;
+}
+#popup #header #subhead {
+  display: none;
+}
+#popup #header-small {
+  border: 1px solid #B1CAC1;
+  background-color: #EBF1F1;
+  vertical-align: middle;
+  padding: 5px;
+}
+#popup #header-small h1 {
+  font-size: 110%;
+  float: left;
+  margin: 0;
+}
+#popup #popup-content {
+  padding: 10px;
+}
+#popup h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
+}
+#popup .search_tab {
+  background-color: #eee;
+  padding: 3px;
+  font-size: 90%;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  width: 8em;
+  text-align: center;
+  float: left;
+  margin-right: 2px;
+  margin-bottom: 0;
+}
+#popup .details-table {
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 415px;
+}
+#popup.biography-individual .details-table {
+  width: 550px;
+}
+#popup.biography-individual .details-table p {
+  margin-top: 0;
+}
+#popup .scrolling {
+  overflow: auto;
+  max-height: 400px;
+  border: 1px solid #ccc;
+}
+#popup .details-table h2 {
+  font-size: 100%;
+}
+#popup .details-table .left {
+  width: 120px;
+}
+#popup .details-table .right {
+  padding-top: 3px;
+}
+#popup .details-table .indent {
+  margin: 5px 0 0 10px;
+}
+#popup #popup-table {
+  margin: 20px 0 10px 0;
+}
+#popup #search-form .tip-box {
+  float: left;
+  margin: 7px 3px 0 0;
+  text-align: center;
+  font-size: 90%;
+  font-weight: bold;
+}
+#popup #search-form .tip-text {
+  font-size: 85%;
+  width: 90%;
+  margin: 7px 0 2px 0;
+  float: left;
+}
+#popup .sub {
+  margin-left: 25px;
+}
+#content hr {
+  color: #ccc;
+  width: 95%;
+  height: 1px;
+  border: 0;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+}
+#content #browse {
+  border: 1px solid #BAC6C4;
+  width: 135px;
+  float: right;
+  margin: 13px 10px 0 10px;
+  text-align: center;
+  padding: 0 0 10px 0;
+  background-image: url(../../icons/mtp/background_bucket.gif);
+}
+#content #bucket-header {
+  background-color: #D1DDDE;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #BAC6C4;
+  text-align: center;
+}
+#search-terms {
+  float: left;
+}
+#current-facets {
+  float: left;
+  margin: 10px 0 0 0;
+  font-size: 90%;
+}
+#current-facets .value {
+  border: 1px solid #B2CBC2;
+  background-color: #eee;
+  padding: 4px 6px;
+  float: left;
+  margin-right: 10px;
+  font-weight:bold;
+}
+.hitcount {
+  float: right;
+  font-size: 90%;
+  text-align: right;
+  line-height: 1.2;
+}
+#search-results .keywords,
+#results-grid .keywords {
+  font-weight: bold;
+}
+#search-results .add-to-list {
+  margin-bottom: 3px;
+}
+#content #my-list {
+  font-size: 95%;
+  border: 1px solid #BBD0D3;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+}
+#content #my-list .outer {
+  float: left;
+  margin-left: 15px;
+  text-indent:-2em;
+  padding-left:2em
+}
+#content #my-list .left {
+  float: left;
+}
+#content #my-list .button {
+  margin-right: 10px;
+}
+#content #my-list .item {
+  float: left;
+  margin-bottom: 20px;
+}
+#content #my-list .note {
+  float: left;
+  margin: 10px 0 0 30px;
+}
+#content #my-list hr {
+  margin-bottom: 15px;
+}
+#object {
+  margin: 0 auto;
+  border: 1px solid #B1CAC1;
+  padding: 3px;
+}
+#object #content #resize {
+  width: 34em;
+  text-align: left;
+  margin: 10px 0 5px 0;
+  cursor: pointer;
+}
+#object .pagination {
+  text-align: left;
+  font-size: 90%;
+  margin: 5px 0 5px 0;
+  width: 34em;
+}
+#object #content-primary {
+  margin-top: 10px;
+  padding: 5px 5px 5em 5px;
+  float: left;
+  overflow: auto;
+  border: 1px solid #ccc;
+}
+#object #content-primary .blank {
+  background-color: #fff;
+  text-decoration: none;
+  border: 0;
+}
+
+#object #content-secondary h2,
+#object #biography #content-primary h2 {
+  font-family: Arial, serif;
+  background-color: #D1DDDE;
+  padding: 5px 0 5px 7px;
+  font-size: 85%;
+  font-weight: bold;
+  border-bottom: 1px solid #BAC6C4;
+  margin: 0;
+}
+#object #content-secondary #notes .hidden {
+  display: none;
+  margin-bottom: 10px;
+}
+#object #content-secondary #notes .more-link {
+  margin-left: 5px;
+  display: block;
+}
+/* end lifted object-view styles */
+/* About MTPO page styles */
+#about #content-primary p {
+  text-align: justify;
+  font-size:small;
+}
+#about #content-primary p.hang {
+  text-indent:-2em;
+  padding-left:2em;
+  margin: 0;
+  padding-bottom: 0;
+}
+#about #content-primary p.narrow {
+  margin: 0;
+}
+#about .centertext,
+#about .centertitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+#about .code {
+  margin-left: 5em;
+  text-indent: -5em;
+  color:#0000FF;
+}
+#about p.indent-text {
+  margin-left: 5em;
+}
+#about div.facsimile {
+  margin-left: 10em;
+  width: 18em;
+}
+#about div.facsimile .left {
+  width: 2em;
+  float:left;
+}
+#about div.facsimile .right {
+  width: 15em;
+  float:right;
+}
+#about #content-primary ul.toc {
+  list-style-type: none;
+  list-style-image: none;
+}
+#about .image-left p,
+#about .image-right p,
+#about .image-center2 p {
+  text-align: center;
+  font-size: 85%;
+  text-indent: 0;
+}
+#about .image-center p {
+  text-align: justify;
+  font-size: 85%;
+  text-indent: 0;
+}
+#about .image-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+}
+#about .image-center2 {
+  text-align: center;
+  margin: 5px 10px 10px 10px;
+}
+#about .image-left {
+  float: left;
+  margin: 5px 10px 10px 0;
+}
+#about .image-right {
+  float: right;
+  margin: 5px 0 10px 10px;
+}
+/* end About MTPO styles */
+/* begin printview styles */
+#masthead {
+  padding: 0;
+}
+#printview #content-primary {
+  float: none !important;
+  width: 100%;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+#printview #content-secondary {
+  height: auto !important;
+  float: none !important;
+  position: static;
+  margin-top: 10%;
+  overflow: visible;
+}
+#printview #content-primary p {
+  line-height: 1.8em;
+  margin:0px;
+  text-align:justify;
+}
+#printview #content-secondary p {
+  display: block;
+  margin:0px;
+  text-align:justify;
+}
+#printview #content-secondary #notes p {
+  padding-bottom: .5em;
+  line-height: 1.4em;
+}
+#printview h2 { 
+  font-family: Arial, serif;
+  padding: 2em 0 1.5em 0;
+  font-size: 110%;
+  font-weight: bold;
+  margin: 0;
+}
+#printview #content-primary h2, 
+#printview #content-secondary h2 {
+  padding: 1.5em 0 1em 0; 
+  color: #000000;
+}
+#printview #content-secondary h3 {
+  font-family: Arial, serif;
+  padding: 0;
+  font-size: 100%;
+  margin: 0;
+}
+#printview #content-primary .blockindent,
+#printview #content-secondary .blockindent {
+  width:26em;
+  text-indent:0em;
+  padding-left:4em;
+  padding-right:4em;
+  margin:0px;
+  text-align:justify;
+}
+#printview #content-primary .blockquote {
+  padding: .2em .2em .2em 1em;
+  max-width:32em;
+}
+#printview #content-secondary .blockquote {
+  padding: .2em .2em .2em 1em;
+  max-width:32em;
+}
+#printview #content-primary .bold,
+#printview #content-secondary .bold {
+  font-weight:bold;
+}
+#printview #content-primary .boxed,
+#printview #content-secondary .boxed {
+  text-indent:2em;
+  border:thin solid black
+}
+#printview #content-primary .caption,
+#printview #content-secondary .caption {
+  text-align: center;
+  font-size:.9em;
+}
+#printview #content-primary .img-left .caption {
+  padding-left: 2em;
+  font-size: .9em;
+  float: left;
+}
+
+#printview #content-primary .caret,
+#printview #content-secondary .caret {
+  background-image: url(../../icons/mtp/ts_caret.gif);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: .4em;
+}
+#printview #content-primary .center,
+#printview #content-secondary .center {
+  text-align: center;
+  margin:0 auto;
+  text-indent:0em;
+}
+#printview #content-primary .centerhead,
+#printview #content-secondary .centerhead {
+  text-align:center;
+  font-weight:bold;
+  padding:.5em 0 2em 0;
+  margin-top: .5em;
+  line-height: 1.2em;
+  font-size:105%;
+}
+#printview #content-primary .centermonogram,
+#printview #content-secondary .centermonogram {
+/* position:relative; */
+  margin-left:auto;
+  margin-right:auto;
+}
+#printview #content-primary .circled,
+#printview #content-secondary .circled {
+  font-variant:small-caps;
+  font-style:italic;
+}
+#printview #content-primary .dash-ltrsp,
+#printview #content-secondary .dash-ltrsp {
+  letter-spacing:1px;
+  font-style:italic;
+}
+#printview #content-primary .del,
+#printview #content-secondary .del {
+  text-decoration: line-through;
+}
+#printview #content-primary .delus,
+#printview #content-secondary .delus {
+  background-image: url(../../icons/mtp/ts_deleted_underscore.gif);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding-bottom: .3em;
+}
+#printview #content-primary .dot-underline,
+#printview #content-secondary .dot-underline {
+  border-bottom: 1px dotted #666;
+}
+#printview #content-primary .doubledel,
+#printview #content-secondary .doubledel {
+  background-image: url(../../icons/mtp/ts_double_deletion.gif);
+  background-repeat: repeat-x;
+  background-position: center;
+  padding-bottom: .2em;
+}
+#printview #content-primary .editorialheading,
+#printview #content-secondary .editorialheading {
+  font-size:120%;
+  font-weight:bold;
+  text-align:center;
+  margin: 5px;
+  line-height:1.4;
+  padding-bottom: .2em;
+}
+#printview #content-primary .em-space,
+#printview #content-secondary .em-space {
+  width: .9em;
+  vertical-align:bottom;
+  height:0;
+  margin: 0;
+}
+#printview #content-primary .en-space,
+#printview #content-secondary .en-space {
+  width: .5em;
+  vertical-align:bottom;
+  height:0;
+  margin: 0;
+}
+#printview #content-primary .envline,
+#printview #content-secondary .envline {
+  margin: 1em 0 0 0;
+  padding: 0;
+  clear: both;
+}
+#printview #content-primary .formfill,
+#printview #content-secondary .formfill {
+  font-size:120%;
+  font-variant:normal;
+}
+#printview #content-primary .hand,
+#printview #content-secondary .hand {
+  background-color: #D3D3D3;
+}
+#printview #content-primary .hang,
+#printview #content-secondary .hang {
+  clear: both;
+  text-indent:-2em;
+  padding-left:2em
+}
+#printview #content-primary .headwk,
+#printview #content-secondary .headwk {
+  font-weight:bold;
+  text-align:center;
+  font-size:120%;
+}
+/*
+   not used
+  #printview #content-primary .hr-env {
+  color: #ccc;
+  background-color: #ccc;
+  width: 32em;
+  height: 1px;
+  border: 0;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+  }
+ */
+#printview #content-primary .hr-doublerulebottom,
+#printview #content-primary .hr-doubleruletop,
+#printview #content-primary .hr-heavyparallel,
+#printview #content-primary .hr-heavyrule,
+#printview #content-primary .hr-lightparallel,
+#printview #content-primary .hr-lightrule,
+#printview #content-secondary .hr-doublerulebottom,
+#printview #content-secondary .hr-doubleruletop,
+#printview #content-secondary .hr-heavyparallel,
+#printview #content-secondary .hr-heavyrule,
+#printview #content-secondary .hr-lightparallel,
+#printview #content-secondary .hr-lightrule {
+  width: 4em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#printview #content-primary .hr-doublerulebottom,
+#printview #content-secondary .hr-doublerulebottom {
+  height: .3em;
+  border-top: .05em solid #333;
+  border-bottom: .15em solid #333;
+}
+#printview #content-primary .hr-doubleruletop,
+#printview #content-secondary .hr-doubleruletop {
+  height: .3em;
+  border-top: .15em solid #333;
+  border-bottom: .05em solid #333;
+}
+#printview #content-primary .hr-fancy,
+#printview #content-secondary .hr-fancy,
+#printview #content-primary .hr-oakleaf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#printview #content-primary .hr-heavyparallel,
+#printview #content-secondary .hr-heavyparallel {
+  height: .3em;
+  border-top: .15em solid #333;
+  border-bottom: .15em solid #333;
+}
+#printview #content-primary .hr-heavyrule,
+#printview #content-secondary .hr-heavyrule {
+  height: .1em;
+  border-top: .15em solid #333;
+}
+#printview #content-primary .hr-lightparallel,
+#printview #content-secondary .hr-lightparallel {
+  height: .3em;
+  border-top: .05em solid #333;
+  border-bottom: .05em solid #333;
+}
+#printview #content-primary .hr-lightrule,
+#printview #content-secondary .hr-lightrule {
+  height: .1em;
+  border-top: .05em solid #333;
+}
+#printview #content-primary .hr-lighttriple,
+#printview #content-secondary .hr-lighttriple {
+  background-image: url(../../icons/mtp/ts_underscore_triple.gif);
+  background-position: 100%;
+  display: block;
+  width: 4em;
+  height: .5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#printview #content-primary .illustration-center,
+#printview #content-secondary .illustration-center {
+  text-align: center;
+  padding: 10px;
+}
+#printview #content-primary .illustration-center img,
+#printview #content-secondary .illustration-center img {
+  margin-bottom: 10px;
+}
+#printview #content-primary .imprint {
+  text-align: center;
+  padding: 0;
+}
+
+#printview #content-primary .imprint img.logo {
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+}
+#printview #content-primary .illustration-left,
+#printview #content-secondary .illustration-left {
+  width: 275px;
+  padding: 10px;
+}
+#printview #content-primary .illustration-left .illustration,
+#printview #content-secondary .illustration-left .illustration {
+  float: left;
+  margin: 0 10px 5px 0;
+  text-align: center;
+}
+#printview #content-primary .illustration-right,
+#printview #content-secondary .illustration-right {
+  width: 275px;
+  padding: 10px;
+}
+#printview #content-primary .illustration-right .illustration,
+#printview #content-secondary .illustration-right .illustration {
+  float: right;
+  margin: 0 0 5px 10px;
+  text-align: center;
+}
+#printview #content-primary img,
+#printview #content-secondary img {
+  border: 0 none;
+/*  margin: 10px 0 10px 0; */
+  margin: 0;
+}
+#printview #content-primary img.block,
+#printview #content-primary .img-center,
+#printview #content-secondary .img-center {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px;
+}
+#printview #content-primary .img-centerprint {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
+#printview #content-primary .img-init {
+  margin: 0 auto;
+  text-align: left;
+  padding: 0 5px 0 5px;
+}
+#printview #content-primary .img-left {
+  float: left;
+  width: auto;
+  padding: 0 5px 0 5px;
+  display: inline-block;
+}
+#printview #content-primary img.glyph,
+#printview #content-secondary img.glyph,
+#printview #content-primary img.inline,
+#printview #content-secondary img.inline {
+  border: 0 none;
+  margin: 0;
+}
+#printview #content-primary img.glyphbase,
+#printview #content-secondary img.glyphbase {
+  border: 0 none;
+  margin: 0;
+  vertical-align: bottom;
+}
+#printview #content-primary .indent {
+  text-indent: 1em;
+}
+
+#printview #content-primary .indentdateline  {
+text-align: right;
+  margin: 0;
+}
+
+#printview #content-primary .indentctrdateline  {
+text-align: center;
+}
+
+#printview #content-primary .indentdateline  {
+  text-indent: 19em;
+  margin: 0;
+}
+
+#printview #content-primary .indentsalute {
+text-align:right;
+}
+
+#printview #content-primary .indentctrsalute {
+text-align:center;
+}
+
+
+#printview #content-primary .indentcompclose {
+text-align:right;
+}
+
+#printview #content-primary .indentctrcompclose {
+text-align:center;
+}
+
+#printview #content-primary .indentcompclose .indentcompclose {
+text-align: right;
+}
+
+#printview #content-primary .indentcompclose .indentctrcompclose {
+text-align: center;
+}
+
+#printview #content-primary .indentsig {
+text-align:right;
+  margin:0;
+  height: 2em;
+}
+
+#printview #content-primary .indentaddrLine {
+text-align:right;
+  margin:0;
+  height: 2em;
+}
+
+#printview #content-primary .indentctrsig {
+text-align: center;
+  margin:0;
+  height: 2em;
+}
+
+#printview #content-primary .indentctraddrLine {
+text-align: center;
+  margin:0;
+  height: 2em;
+}
+
+#printview #content-primary .inline,
+#printview #content-secondary .inline {
+  display: inline;
+}
+#printview #content-primary .italic,
+#printview #content-secondary .italic,
+#printview #content-primary .italus,
+#printview #content-secondary .italus {
+  font-style: italic;
+}
+#printview #content-primary .large,
+#printview #content-secondary .large {
+  font-size:110%;
+}
+#printview #content-primary .left,
+#printview #content-secondary .left {
+  text-indent: 0em;
+  margin: 0;
+  text-align: left;
+}
+#printview #content-primary .letterhead,
+#printview #content-secondary .letterhead {
+  font-variant:small-caps;
+  font-size:80%;
+  line-height:1.2em;
+}
+#printview #content-primary .monogramtext,
+#printview #content-secondary .monogramtext {
+  color: #336699;
+  font-size: .9em;
+  font-variant: small-caps;
+  font-style: italic;
+  margin: 0;
+  text-indent: 0;
+}
+#printview #content-primary .noindent,
+#printview #content-secondary .noindent {
+  text-indent:0em;
+}
+#printview #content-primary .noindgap,
+#printview #content-secondary .noindgap {
+  padding-top: 6px;
+}
+#printview #content-primary .normal,
+#printview #content-secondary .normal {
+  font-style:normal;
+  font-variant:normal;
+  font-size:1em;
+}
+#printview #content-primary .overline,
+#printview #content-secondary .overline {
+  text-decoration: overline;
+}
+#printview #content-primary .print,
+#printview #content-secondary .print {
+  font-size:80%;
+  font-variant:small-caps;
+  line-height:1.2em;
+}
+#printview #content-primary .right,
+#printview #content-secondary .right {
+  text-align: right;
+}
+#printview #content-primary .rightmonogram,
+#printview #content-secondary .rightmonogram {
+  left:34em;
+}
+#printview #content-primary .shaded,
+#printview #content-secondary .shaded {
+  background-color: #D3D3D3;
+}
+#printview #content-primary .small,
+#printview #content-secondary .small {
+  font-size:94%;
+}
+#printview #content-primary .smallcaps,
+#printview #content-secondary .smallcaps {
+  font-variant: small-caps;
+}
+#printview #content-primary .source,
+#printview #content-secondary .source {
+  font-size:70%;
+  padding-top: .25em;
+  margin-bottom:3em;
+  line-height: 1.2em;
+}
+#printview #content-primary .subscript,
+#printview #content-secondary .subscript {
+  vertical-align: baseline;
+  font-style:normal;
+  font-variant:normal;
+  font-size:78%;
+  line-height:0;
+}
+#printview #content-primary .superscript,
+#content-secondary .superscript,
+#printview #content-secondary .superscript {
+  vertical-align: text-top;
+  text-decoration: none;
+  font-size: 78%;
+  line-height: 0;
+}
+#printview #content-primary .tpDate,
+#printview #content-secondary .tpDate {
+  text-align: center;
+  font-size:90%;
+}
+#printview #content-primary .tpHdr,
+#printview #content-secondary .tpHdr {
+  text-align: center;
+  font-size:90%;
+  padding-top: .4em;
+}
+#printview #content-primary .tpName,
+#printview #content-secondary .tpName {
+  text-align: center;
+  font-size:90%;
+}
+#printview #content-primary .tpResp,
+#printview #content-secondary .tpResp {
+  font-style: italic;
+  text-align: center;
+  padding-top: .8em;
+  font-size:90%;
+}
+#printview #content-primary .tpTitle,
+#printview #content-secondary .tpTitle {
+  text-align:center;
+  font-weight:bold;
+  font-size:135%;
+  padding:.5em 0 .5em 0;
+  margin-top: .5em;
+}
+#printview #content-primary .tpVol,
+#printview #content-secondary .tpVol {
+  font-style: italic;
+  padding-top: 1em;
+  text-align: center;
+  font-size:105%;
+}
+#printview #content-primary .thinspace,
+#printview #content-secondary .thinspace {
+  letter-spacing:1px;
+}
+#printview #content-primary .underline,
+#printview #content-secondary .underline {
+  text-decoration:underline;
+}
+#printview #content-primary .twous,
+#printview #content-secondary .twous {
+  border-bottom: 3px double;
+}
+#printview #content-primary .threeus,
+#printview #content-secondary .threeus {
+  background-image: url(../../icons/mtp/ts_underscore_triple.gif);
+  background-repeat: repeat-x;
+  background-position: 100%;
+  padding-bottom: 1.4em;
+  line-height: 1.6;
+}
+#printview #content-primary .virgule,
+#printview #content-secondary .virgule {
+  background-image: url(../../icons/mtp/ts_virgule.gif);
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+}
+#printview #content-primary .wavy-bold,
+#printview #content-secondary .wavy-bold {
+  font-weight: bold;
+}
+#printview #content-primary .xsmall,
+#printview #content-secondary .xsmall {
+  font-size:.8em
+}
+#printview #content-primary .xs-smallcaps,
+#printview #content-secondary .xs-smallcaps {
+  font-variant:small-caps;
+  font-size:80%;
+}
+#printview #content-primary p.bd,
+#printview #content-secondary p.bd {
+  text-indent:2em;
+  text-align:left;
+  display:inline;
+}
+#printview #content-primary span.paraph,
+#printview #content-secondary span.paraph {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-bottom: .7em;
+  background-image: url(icons/ts_paraph.gif);
+}
+/*
+   end printview object view styles /*
+/* Begin graphicGroup support */
+#printview #content-primary .left-brace-scalable,
+#printview #content-secondary .left-brace-scalable {
+  float: left;
+  margin-top: -.05em;
+/*
+  margin-left: .1em;
+  margin-right: .1em;
+ */
+  margin-left:1px;
+  margin-right:1px;
+  font-family:'Times New Roman', serif;
+}
+#printview #content-primary .right-brace-scalable,
+#printview #content-secondary .right-brace-scalable {
+  float: left;
+  margin-top: -.05em;
+  margin-left: .1em;
+  margin-right: .1em;
+  font-family:'Times New Roman', serif;
+}
+#printview #content-primary .font-2,
+#printview #content-secondary .font-2 {
+  font-size: 2em;
+}
+#printview #content-primary .font-3,
+#printview #content-secondary .font-3 {
+  font-size: 3em;
+}
+#printview #content-primary .font-4,
+#printview #content-secondary .font-4 {
+  font-size: 4em;
+}
+#printview #content-primary .text-box,
+#printview #content-secondary .text-box {
+  margin:0;
+  padding: 1px;
+}
+#printview #content-primary .text-box span,
+#printview #content-secondary .text-box span {
+/* vertical-align: middle; */
+}
+#printview #content-primary .text-box .text,
+#printview #content-secondary .text-box .text {
+  float: left;
+}
+/* End graphicGroup */
+/* Begin table styles */
+#printview #content-primary div.dtpList {
+  left:0em;
+  padding:.2em;
+  position:static;
+  width: 95%;
+  margin: .2em;
+}
+#printview #content-primary div.dtpLabel {
+  float:left;
+  width:9em;
+  min-height:3em;
+  padding-right:1em;
+  margin:8px 0 .5em 0;
+  text-align:center;
+  vertical-align:top;
+  line-height:1.4;
+}
+#printview #content-primary div.dtpItem {
+  margin: 0 0 .5em 0;
+  text-align:justify;
+}
+#printview #content-primary table,
+#printview #content-secondary table {
+  left:0em;
+  vertical-align:baseline;
+  position: static;
+  border:none;
+}
+#printview #content-primary .noborder,
+#printview #content-secondary .noborder {
+  border:none;
+}
+#printview #content-primary table.blockquote,
+#printview #content-secondary table.blockquote {
+  max-width:90%;
+  text-align:justify;
+  position: static;
+  margin-left:1em;
+  padding:.5em;
+}
+#printview #content-primary table.blockquotetbl,
+#printview #content-secondary table.blockquotetbl {
+  max-width:80%;
+  text-align:justify;
+  position: static;
+  margin-left:1em;
+  padding:.5em;
+}
+#printview #content-primary table.clipping,
+#printview #content-secondary table.clipping {
+  border:thin solid black;
+  margin: 10px 1.5em 10px 1em;
+  padding:.25em;
+  text-align:justify;
+  min-width: 50%;
+  max-width: 90%;
+  position: static;
+}
+#printview #content-primary table.embeddedblockquote,
+#printview #content-secondary table.embeddedblockquote {
+  width:30em;
+  text-align:justify;
+  position: static;
+  margin-left:2em;
+}
+#printview #content-primary table.form,
+#printview #content-secondary table.form {
+  border:thin solid black;
+/* margin:.125em; */
+/* width:33em; */
+  text-align:justify
+}
+#printview #content-primary table.simplelist td,
+#printview #content-secondary table.simplelist td,
+#printview #content-primary table.tblInset td,
+#printview #content-primary table.tblList td,
+#printview #content-secondary table.tblList td {
+  padding: 0 .5em 0 .5em;
+  text-align: left;
+  text-indent: -.5em;
+  margin-left: 1em;
+}
+#printview #content-primary table.tblInset {
+   margin-left: 3em;
+}
+#printview #content-primary table.tblList,
+#printview #content-secondary table.tblList {
+  position: static;
+  margin-left:5em;
+}
+#object #content-primary table.tblList td.gloss {
+   display: table-cell;
+   vertical-align: top;
+   text-align: left;
+}
+#printview #content-primary table.witlist,
+#printview #content-secondary table.witlist {
+  position: static;
+  margin-left:3em;
+  padding:1em
+}
+#printview #content-primary table.witlist td {
+   padding-right: .5em;
+}
+
+#printview #content-primary td,
+#printview #content-secondary td {
+  vertical-align:baseline;
+  border:none;
+}
+#printview #content-primary .tblAlts,
+#printview #content-secondary .tblAlts {
+   line-height: 1.4em;
+   padding-right: .5em;
+   padding-left: .5em;
+   text-indent: -.5em;
+   text-align: left;
+}
+#printview #content-primary tr,
+#printview #content-secondary tr {
+  vertical-align:baseline;
+}
+
+
+
+#printview #content-primary .hangbib1,
+#printview #content-secondary .hangbib1,
+#printview #content-secondary #notes p.hangbib1{
+  clear:both;
+  text-indent:-2em;
+  text-align:left;
+  padding-left:2em;
+  padding-bottom:1em;
+}
+
+
+#printview #content-primary .hangbib2,
+#printview #content-secondary .hangbib2,
+#printview #content-secondary #notes p.hangbib2{
+  clear:both;
+  text-indent:-1em;
+  text-align:left;
+  padding-left:3em;
+  padding-bottom:1em;
+}
+
+
+
+#printview #content-primary .hangbib2a,
+#printview #content-secondary .hangbib2a,
+#printview #content-secondary #notes p.hangbib2a{
+  clear:both;
+  margin-top:-1em;
+  text-indent:-1em;
+  text-align:left;
+  padding-left:3em;
+  padding-bottom:1em;
+}
+
+
+.centerautosum {
+    font-weight:bold;
+    text-align:center;
+}
+/* End table styles */
+input,
+div.citation,
+#content-nav,
+.jump-to-content,
+.delete-link,
+.contextual-menu,
+#site-search,
+#header #browse,
+#site-nav,
+#site-nav-wrapper,
+#citation-wrapper,
+#my-citations,
+#site-search,
+#content #breadcrumb,
+#content .pagination,
+#content #view-options-link,
+#footer {
+  display: none;
+}

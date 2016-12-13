@@ -11,7 +11,7 @@
  <!-- Import XTF Core Templates and Functions                         -->
  <!-- =============================================================== -->
 
- <xsl:import href="mtpchar.xsl"/>
+ <!--<xsl:import href="mtpchar.xsl"/>-->
 
 <xsl:key name="pers" match="*:person" use="@xml:id"/>
 <xsl:variable name="prosopo" select="document(personography.xml)"/>
@@ -50,11 +50,11 @@
    </xsl:when>
    <xsl:otherwise>
     <span class="add">
-     <img alt="caret" class="glyphbase" src="icons//ts_caret.gif"/>
+     <span class="carat">^</span>
     </span>
     <xsl:apply-templates/>
     <span class="add">
-     <img alt="caret" class="glyphbase" src="icons//ts_caret.gif"/>
+     <span class="carat">^</span>
     </span>
    </xsl:otherwise>
   </xsl:choose>
@@ -357,7 +357,7 @@
    </xsl:when>
    <xsl:otherwise>
     <span class="left">
-     <br class="clear"/>
+     <!--<br class="clear"/>--><span class="clear"></span>
     </span>
    </xsl:otherwise>
   </xsl:choose>
@@ -687,7 +687,7 @@
  <!-- ELEMENT: space -->
  <xsl:template exclude-result-prefixes="#all" match="*:space">
   <xsl:for-each select="1 to @extent">
-   <img alt="em space" class="em-space" src="icons//blank.gif"/>
+   <span class="em-space"><xsl:text> </xsl:text></span>
   </xsl:for-each>
  </xsl:template>
 
@@ -830,7 +830,7 @@
       <a href="{concat('#_',$id)}">
        <xsl:value-of select="@n"/>
       </a>
-      <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+      <span class="en-space"><xsl:text> </xsl:text></span>
       <xsl:apply-templates select="*|text()[not(normalize-space()='')]"/>
      </span>
      <br/>
@@ -844,7 +844,7 @@
       <a href="{concat('#_',$id)}">
        <xsl:value-of select="@n"/>
       </a>
-      <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+      <span class="en-space"><xsl:text> </xsl:text></span>
       <xsl:apply-templates select="*|text()[not(normalize-space()='')]"/>
      </span>
      <br/>

@@ -34,22 +34,14 @@
  
 
 
-  <xsl:template match="/">
+  <xsl:template match="/tei:TEI/tei:text/tei:body">
     <xsl:variable name="abbreviated.title" select="//teiHeader/titleStmt/title"/>
-        <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-            <head>
-                <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
-                <title>Mark Twain Project :: Letters :: <xsl:value-of select="$abbreviated.title"/> : an electronic text</title>
-                <link href="print.css" media="screen" rel="stylesheet" type="text/css"/>
-                <link href="print.css" media="print" rel="stylesheet" type="text/css"/>
-            </head>
-            <body class="object-view" id="letter-object">
-                <div id="printview">
-                    <div id="content">
-                        <a name="content"/>
-                        <xsl:text disable-output-escaping="yes"><![CDATA[<br class="clear"/>]]></xsl:text>
-                        <!-- priamry content -->
-                        <div id="content-primary">
+        
+           
+               
+                   
+                       
+                        
 			  <xsl:for-each select="/tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change">
 			    <xsl:value-of select="."/><xsl:text>: </xsl:text><xsl:value-of select="@who"/><xsl:text> </xsl:text><xsl:value-of select="@when"/><xsl:text>
 </xsl:text>
@@ -65,14 +57,14 @@
                                 <xsl:for-each select="//tei:note[@type='au' and @place='foot']">
                                     <span class="small">
                                         <xsl:value-of select="@n"/>
-                                        <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                        <span class="en-space"><xsl:text> </xsl:text></span>
                                         <xsl:apply-templates select="*|text()[not(normalize-space()='')]"/>
                                     </span>
                                     <br/>
                                 </xsl:for-each>
                             </xsl:if>
                             <!-- end content-text -->
-                        </div>
+                        
                         <!-- end content-primary -->
 			<xsl:if test="//tei:div1[@type='commentary']">
                             <!-- secondary content -->
@@ -101,7 +93,7 @@
                                         </div>
                                     </xsl:for-each>
 				  </xsl:if>
-                                    <br class="clear"/>
+                                    <!--<br class="clear"/>--><!-- kmd -->
                                     <br class="clear"/>
                                     <!-- end explanatory notes -->
                                     <!-- textual commentary -->
@@ -111,10 +103,10 @@
                                         <xsl:choose>
                                             <xsl:when test="//tei:div2[@type='pub']">
                                                 <p class="noindgap">
-                                                    <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-                                                    <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                                    <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+                                                    <span class="en-space"><xsl:text> </xsl:text></span>
                                                     <i>Previous publication:</i>
-                                                    <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                                    <span class="en-space"><xsl:text> </xsl:text></span>
                                                     <xsl:apply-templates select="//tei:div2[@type='pub']/*"/>
                                                 </p>
                                             </xsl:when>
@@ -122,10 +114,10 @@
                                         <xsl:choose>
                                             <xsl:when test="//tei:div2[@type='provenance']">
                                                 <p class="noindgap">
-                                                    <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-                                                    <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                                    <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+                                                    <span class="en-space"><xsl:text> </xsl:text></span>
                                                     <i>Provenance:</i>
-                                                    <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                                    <span class="en-space"><xsl:text> </xsl:text></span>
                                                     <xsl:apply-templates select="//tei:div2[@type='provenance']/*"/>
                                                 </p>
                                             </xsl:when>
@@ -137,19 +129,19 @@
                                                 <xsl:choose>
                                                     <xsl:when test="//tei:listWit">
                                                         <p class="noindgap">
-                                                            <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-                                                            <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                                            <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+                                                            <span class="en-space"><xsl:text> </xsl:text></span>
                                                             <i>Emendations, adopted readings, and textual notes:</i>
-                                                            <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                                            <span class="en-space"><xsl:text> </xsl:text></span>
                                                             <xsl:value-of select="//tei:div2[@type='appletter']"/>
                                                         </p>
                                                     </xsl:when>
                                                     <xsl:otherwise>
                                                         <p class="noindgap">
-                                                            <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-                                                            <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                                            <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+                                                            <span class="en-space"><xsl:text> </xsl:text></span>
                                                             <i>Emendations and textual notes:</i>
-                                                            <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+                                                            <span class="en-space"><xsl:text> </xsl:text></span>
                                                             <xsl:value-of select="//tei:div2[@type='appletter']"/>
                                                         </p>
                                                     </xsl:otherwise>
@@ -181,14 +173,14 @@
                                             <xsl:choose>
                                                 <xsl:when test="//tei:div2[@type='collation']">
                                                     <br/>
-                                                    <p class="noindent">
+                                                    <p class="noindent">{010}
                                                         <xsl:text> &#x220e; </xsl:text>
                                                         <i>Collation:</i>
                                                         <xsl:text>&#x2002;</xsl:text>
                                                         <xsl:value-of select="//tei:div2[@type='collation']"/>
                                                     </p>
                                                     <xsl:for-each select="//tei:app[@type='hc']">
-                                                        <p class="noindent"><xsl:apply-templates select="tei:lem"/> &#x2022;
+                                                        <p class="noindent">{011}<xsl:apply-templates select="tei:lem"/> &#x2022;
                                                                 <xsl:apply-templates select="tei:rdg"/></p>
                                                     </xsl:for-each>
                                                 </xsl:when>
@@ -200,7 +192,7 @@
 
 				    <!-- prosopography -->
                                     <xsl:if test="//tei:name[@corresp]">
-                                        <xsl:variable name="NAMES" select="document('personography.xml')"/>
+                                        <xsl:variable name="NAMES" select="document('../xml/personography.xml')"/>
                                         <div>
                                             <h2>Persons Mentioned</h2>
                                             <xsl:for-each-group select="//tei:text//tei:name" group-by="@corresp">
@@ -226,13 +218,12 @@
                             </div>
                             <!-- end content-secondary -->
                         </xsl:if>
-                    </div>
+                    
                     <!-- end content -->
-                    <xsl:text disable-output-escaping="yes"><![CDATA[<br class="clear"/>]]></xsl:text>
-                </div>
+
+                
                 <!-- end object -->
-            </body>
-        </html>
+        
     </xsl:template>
 
 

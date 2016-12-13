@@ -35,7 +35,7 @@
         someone puts "index.html" in the URL; the second when nothing is typed in the URL after the
         domain name -->
         <map:pipeline type="noncaching">
-            <map:match pattern="**/index.html">
+            <map:match pattern="index.html">
                 <map:read src="index.html"/>
             </map:match>
         </map:pipeline>
@@ -239,6 +239,29 @@
         <!-- April Fools -->
         
         <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/graph/**">
+                <map:read src="2017/editions/aprilfools/graph_materials/network/{1}"/>
+            </map:match>
+        </map:pipeline>
+ 
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/**.html">
+                <map:generate src="2017/editions/aprilfools/xml/{1}.xml"/>
+                <map:transform src="2017/editions/aprilfools/xslt/aprilfools.xsl">
+                    <map:parameter name="pagetype" value="home"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value=""/>
+                </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="38"/>
+                    <map:parameter name="year" value="2017"/>
+                    <map:parameter name="slug" value="{1}"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+        
+      <!--  <map:pipeline type="noncaching">
             <map:match pattern="2017/editions/aprilfool/intro.html">
                 <map:generate src="2017/editions/aprilfool/xml/aprilfool.intro.xml"/>
                 <map:transform src="2017/editions/aprilfool/xslt/aprilfool.xsl">
@@ -270,9 +293,13 @@
                 </map:transform>
                 <map:serialize type="html"/>
             </map:match>
-        </map:pipeline>
+        </map:pipeline>-->
         
-       
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/icons/**">
+                <map:read src="2017/editions/aprilfools/icons/{1}"/>
+            </map:match>
+        </map:pipeline>
         
         
         

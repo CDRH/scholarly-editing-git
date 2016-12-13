@@ -1,0 +1,91 @@
+.ts_single_deletion {
+    background-position: 100%; 
+    width: 30em; 
+    height: 7px;
+}
+
+p.noindent {
+    text-indent:0;
+}
+
+p.center {
+    text-align:center;
+}
+
+p.right {text-align:right;}
+
+.letterhead, #printview #content-secondary .letterhead {
+    font-variant: small-caps;
+    font-size: 80%;
+    line-height: 1.2em;
+}
+
+.centerhead, #printview #content-secondary .centerhead {
+    text-align: center;
+    font-weight: bold;
+    padding: .5em 0 2em 0;
+    margin-top: .5em;
+    line-height: 1.2em;
+    font-size: 105%;
+}
+
+.indentdateline {
+    text-align: right;
+    margin: 0;
+}
+
+#printview #content-primary p {
+    line-height: 1.8em;
+    margin: 0px;
+    text-align: justify;
+}
+
+.tei_sourceline {
+    font-size: .8em;
+    /*padding-top: .25em;
+    margin-bottom: 3em;
+    line-height: 1.2em;*/
+}
+
+.indentcompclose, .indentsig {
+	display: inline-block;
+	float: right;
+	clear: right;
+	text-align: center;
+	margin: 0;
+	overflow: auto;
+}
+
+.paraph {
+	clear: both;
+	display: block;
+	overflow: auto;
+}
+
+.envline {
+	
+	clear: both;
+	margin: 1em 0 0 0;
+	display: block;
+	clear: both;
+	display: inline-block;
+	width: 100%;
+}
+
+.clear {
+	height: 1px;
+	display: block;
+	
+}
+
+.ts_endprf {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+.ts_single_deletion img {
+	background-position: 100%; 
+	width: 35em; 
+	height: 7px;
+	
+}

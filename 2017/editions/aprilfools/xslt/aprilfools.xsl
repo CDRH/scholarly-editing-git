@@ -12,6 +12,8 @@
   <!-- ==================================================================== -->
   
   <xsl:import href="../../../../template_xslt/lib/html_formatting.xsl"/>
+  <xsl:import href="print.xsl"/>
+  
   
   <xsl:output method="xml" indent="yes" encoding="UTF-8" omit-xml-declaration="yes"/>
   
@@ -37,7 +39,9 @@
         <!-- $head_extras (Optional) 
      A for-each will pull each of these in, you can include as many css and javascript files as you want. 
      Use choose or if to make calls conditional -->
-        <link rel="stylesheet" href="css/style.css"/>
+        <!--<link rel="stylesheet" href="css/mtp.css"/>
+        <link rel="stylesheet" href="css/print.css"/>-->
+        <link rel="stylesheet" href="css/aprilfools.css"/>
         <script src="js/script.js">&#160;</script>
       </head>
       
@@ -58,9 +62,8 @@
         <nav>
           <ul>
             <li class="first"><a href="intro.html#page_info">Introduction</a></li>
-            <li class="first"><a href="sun.html#page_info">Sun</a></li>
-            <li><a href="2016preface.html#page_info">Explanatory File A</a></li>
-            <li><a href="extracts.html#page_info">Edition</a></li>
+            <li><a href="sun.html#page_info">Sun</a></li>
+            <li><a href="graph/index.html">Network Graph</a></li>
             <li><a href="{$idno}.xml">Page XML &#8659;</a></li>
             <li><a href="extracts.youngidea.xml">Edition XML &#8659;</a></li>
           </ul>
@@ -69,12 +72,21 @@
         <!-- $site_content -->
         <!-- Must be in <div class="main_content"> 
          Edition controls or anything else can go before or after the apply-templates-->
-        <div class="main_content">ttt
+        <div class="main_content">
           
-          <xsl:copy-of select="/" xpath-default-namespace=""></xsl:copy-of>
+          <!--<xsl:copy-of select="/" xpath-default-namespace=""></xsl:copy-of>-->
           
           
-         <!-- <xsl:apply-templates/>-->
+          <xsl:apply-templates/>
+          
+          
+          
+          
+         
+          
+          
+          
+          
         </div>  
       </body>
     </html>
@@ -84,27 +96,14 @@
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
   
-  <xsl:template match="TEI">xxx
-  <br/><br/>
-    
-    <!--
-      <xsl:variable name="filename" select="tokenize(base-uri(.), '/')[last()]"/>
-      
-      <!-\- Split the filename using '\.' -\->
-      <xsl:variable name="filenamepart" select="substring-before($filename, '.xml')"/>
-      
-      <xsl:variable name="html_location">
-        <xsl:text>../html/sun.html</xsl:text>
-        <!-\-<xsl:value-of select="$filenamepart"/>
-        <xsl:text>.html</xsl:text>-\->
-      </xsl:variable>
-    -->
-      
-    
-    <!--<xsl:copy-of select="//body"></xsl:copy-of>-->
-    
-    <!--<xsl:apply-templates/>-->
+ 
   
+  <xsl:template exclude-result-prefixes="#all" match="tei:date">
+    <xsl:if test="ancestor::head"><br/></xsl:if><span class="tei_date"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template exclude-result-prefixes="#all" match="tei:sourceline">
+    <br/><span class="tei_sourceline"><xsl:apply-templates/></span>
   </xsl:template>
   
   <!-- Individual projects can override matched templates from the

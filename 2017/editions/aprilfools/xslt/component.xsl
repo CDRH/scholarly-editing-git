@@ -47,27 +47,27 @@
    </xsl:when>
    <xsl:when test="@type='beginSpan'">
     <xsl:text> </xsl:text>
-    <img alt="caret" class="glyphbase" src="icons/ts_caret.gif"/>
+    <span class="carat">^</span>
     <xsl:apply-templates select="*|text()[not(normalize-space()='')]"/>
    </xsl:when>
    <xsl:when test="@type='endSpan'">
     <xsl:apply-templates select="*|text()[not(normalize-space()='')]"/>
-    <img alt="caret" class="glyphbase" src="icons/ts_caret.gif"/>
+    <span class="carat">^</span>
     <xsl:text> </xsl:text>
    </xsl:when>
    <xsl:when test="@type='noCaret'">
     <xsl:apply-templates select="*|text()[not(normalize-space()='')]"/>
    </xsl:when>
    <xsl:otherwise>
-    <img alt="caret" class="glyphbase" src="icons/ts_caret.gif"/>
+    <span class="carat">^</span>
    </xsl:otherwise>
   </xsl:choose>
  </xsl:template>
 
 <xsl:template exclude-result-prefixes="#all" match="tei:add[not(@type)]">
-    <img alt="caret" class="glyphbase" src="icons/ts_caret.gif"/>
+ <span class="carat">^</span>
     <xsl:apply-templates select="*|text()[not(normalize-space()='')]"/>
-    <img alt="caret" class="glyphbase" src="icons/ts_caret.gif"/>
+ <span class="carat">^</span>
 </xsl:template>
  <!-- ELEMENT: addressee -->
  <xsl:template exclude-result-prefixes="#all" match="tei:addressee">
@@ -211,7 +211,7 @@
       <xsl:apply-templates/>
      </xsl:when>
      <xsl:otherwise>
-      <br/>
+      <br/><!-- ask nikki if she can help me figure out why this is duplicating -kmd -->
       <xsl:apply-templates/>
      </xsl:otherwise>
     </xsl:choose>
@@ -296,11 +296,7 @@
        <xsl:attribute name="src">icons/ts_envlop.gif</xsl:attribute>
        <xsl:attribute name="alt">alt</xsl:attribute>
       </img>
-      <img>
-       <xsl:attribute name="src">icons/ts_single_deletion.gif</xsl:attribute>
-       <xsl:attribute name="style">background-position: 100%; width: 30em; height: 7px;</xsl:attribute>
-       <xsl:attribute name="alt">alt</xsl:attribute>
-      </img>
+      <span class="ts_single_deletion"><img src="icons/ts_single_deletion.gif"/></span>
      </div>
     </p>
     <p class="noindent">
@@ -564,9 +560,9 @@
    <xsl:when test="@type='metadata' and not($doc.view='print')">
     <div class="editorialheading">
      <!-- The 'asterix' behavior in utils.js fires when the user hovers over or clicks this link -->
-     <a class="asterix" href="javascript://" id="citation-top">
+    <!-- <a class="asterix" href="javascript://" id="citation-top">
       <img alt="Add to My Citations" class="asterix" src="icons/cite.gif"/>
-     </a>
+     </a>--><!-- kmd -->
      <xsl:apply-templates/>
     </div>
    </xsl:when>
@@ -831,7 +827,7 @@
  <!-- TEMPLATE: notes -->
  <xsl:template exclude-result-prefixes="#all" name="notes">
   <div align="center">
-   <br/>
+   <br/>zzz
    <a> <xsl:attribute name="href">javascript://</xsl:attribute> <xsl:attribute name="onClick">
     <xsl:text>javascript:window.open('</xsl:text>view?docId=letters/MTDP00004.xml;doc.view=popup;style=letter;brand=mtp<xsl:text>','popup','width=860,height=600,resizable=yes,scrollbars=no')</xsl:text>
     </xsl:attribute> Editorial Signs </a>
@@ -846,10 +842,10 @@
    <xsl:choose>
     <xsl:when test=".//div2[@type='pub']">
      <p class="noindgap">
-      <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-      <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+      <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+      <span class="en-space"><xsl:text> </xsl:text></span>
       <i>Previous publication:</i>
-      <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+      <span class="en-space"><xsl:text> </xsl:text></span>
       <xsl:apply-templates select=".//div2[@type='pub']/*"/>
      </p>
     </xsl:when>
@@ -857,10 +853,10 @@
    <xsl:choose>
     <xsl:when test=".//div2[@type='provenance']">
      <p class="noindgap">
-      <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-      <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+      <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+      <span class="en-space"><xsl:text> </xsl:text></span>
       <i>Provenance:</i>
-      <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+      <span class="en-space"><xsl:text> </xsl:text></span>
       <xsl:apply-templates select=".//div2[@type='provenance']/*"/>
      </p>
     </xsl:when>
@@ -870,25 +866,25 @@
      <xsl:choose>
       <xsl:when test=".//witList">
        <p class="noindgap">
-        <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-        <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+        <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+        <span class="en-space"><xsl:text> </xsl:text></span>
         <i>Emendations, adopted readings, and textual notes:</i>
-        <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+        <span class="en-space"><xsl:text> </xsl:text></span>
         <xsl:value-of select=".//div2[@type='appletter']"/>
        </p>
       </xsl:when>
       <xsl:otherwise>
        <p class="noindgap">
-        <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-        <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+        <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+        <span class="en-space"><xsl:text> </xsl:text></span>
         <i>Emendations and textual notes:</i>
-        <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+        <span class="en-space"><xsl:text> </xsl:text></span>
         <xsl:value-of select=".//div2[@type='appletter']"/>
        </p>
       </xsl:otherwise>
      </xsl:choose>
     </xsl:if>
-    <br/>
+    <br/>zzz
     <xsl:for-each select=".//note[@type='cp']|//app[not(@type)]">
      <xsl:choose>
       <xsl:when test="name()='note'">
@@ -913,7 +909,7 @@
     </xsl:for-each>
     <xsl:choose>
      <xsl:when test=".//div2[@type='collation']">
-      <br/>
+      <br/>zzz
       <p class="noindent">
        <xsl:text> &#x220e; </xsl:text>
        <i>Collation:</i>
@@ -980,14 +976,14 @@
     <a> <xsl:attribute name="href">javascript://</xsl:attribute> <xsl:attribute name="onClick">
      <xsl:text>javascript:window.open('</xsl:text>view?docId=letters/MTDP00006.xml;doc.view=popup;style=letter;brand=mtp<xsl:text>','popup','width=860,height=600,resizable=yes,scrollbars=no')</xsl:text>
      </xsl:attribute> Description of Texts and Provenance </a>
-    <br/>
-    <br/>
+    <br/>zzz
+    <br/>zzz
    </div>
   </xsl:if>
-  <img alt="glyph" class="glyph" src="icons/ts_endprf.gif"/>
-  <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+  <span class="ts_endprf"><xsl:text>▮</xsl:text></span>
+  <span class="en-space"><xsl:text> </xsl:text></span>
   <i>Copy-text:</i>
-  <img alt="glyph" class="en-space" src="icons/blank.gif"/>
+  <span class="en-space"><xsl:text> </xsl:text></span>
   <xsl:for-each select="//tei:bibl[@n='copy']">
    <xsl:apply-templates/>
   </xsl:for-each>
