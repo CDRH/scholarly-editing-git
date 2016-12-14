@@ -12,7 +12,7 @@
   -->
   <xsl:param name="view">
     <xsl:choose>
-      <xsl:when test="//div[@class='main_content']/div[@class='full_width']">full_width</xsl:when>
+      <xsl:when test="//div[@class='main_content']//div[@class='full_width']">full_width</xsl:when>
       <xsl:otherwise>col8</xsl:otherwise>
     </xsl:choose>
   </xsl:param>

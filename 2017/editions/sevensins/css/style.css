@@ -35,17 +35,21 @@
   display:none;
 }
 
+.tei_lg {
+    margin: 0 0 1em 0;
+}
+
 
 
 #button_regularized {
   background-color: #fff;
 }
 .regularized #button_regularize {
-  background-color: #DC3621;
+  background-color: #b5e2ab;
 }
 
 #button_diplomatic {
-  background-color: #DC3621;
+  background-color: #b4e2ab;
 }
 
 .regularized #button_diplomatic {
@@ -97,4 +101,9 @@
 .close-button {
     float:right;
     font-size: .8em;
+}
+
+.sevensins_intro .tei_line_break {
+	display: block;
+
 }

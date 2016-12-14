@@ -70,6 +70,12 @@
          Edition controls or anything else can go before or after the apply-templates-->
         <div class="main_content">
           
+          <div>
+            <xsl:attribute name="class">
+              <xsl:if test="$idno = 'intro.sevensins'">sevensins_intro</xsl:if>
+            </xsl:attribute>
+            
+          
           <xsl:if test="$idno = 'sidebyside.sevensins'">
             <div class="full_width"></div>
           </xsl:if>
@@ -122,7 +128,8 @@
             </xsl:otherwise>
           </xsl:choose>
           
-        </div>  
+        </div> 
+        </div><!-- /intro div -->
       </body>
     </html>
   </xsl:template>
@@ -130,11 +137,13 @@
   <!-- ==================================================================== -->
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
+
   
   <!-- Paragraphs -->
   
   <xsl:template match="p">
     <xsl:choose>
+      <xsl:when test="$idno = 'intro.sevensins'"><p><xsl:apply-templates/></p></xsl:when>
       <!-- HTML does not allow a p in a p -->
       <xsl:when test="ancestor::p or child::figure">
         <div class="p">
@@ -315,7 +324,7 @@
   
   <!-- turn line breaks into divs so they can be toggled -->
   <xsl:template match="lb">
-    <div class="tei_line_break">&#160;</div>
+    <span class="tei_line_break">&#160;</span>
   </xsl:template>
   
   <!-- add a span around w - could possible be added into base template -->

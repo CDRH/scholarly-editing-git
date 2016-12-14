@@ -250,7 +250,7 @@
                 <map:transform src="2017/editions/aprilfools/xslt/aprilfools.xsl">
                     <map:parameter name="pagetype" value="home"/>
                     <map:parameter name="subpagetype" value=""/>
-                    <map:parameter name="pageid" value=""/>
+                    <map:parameter name="pageid" value="{1}"/>
                 </map:transform>
                 <map:transform src="template_xslt/html_template.xsl">
                     <map:parameter name="volume" value="38"/>
