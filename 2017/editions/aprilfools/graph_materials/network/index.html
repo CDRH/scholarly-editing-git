@@ -19,10 +19,54 @@
   <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css"/>
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
   <link rel="stylesheet" media="screen and (max-height: 770px)" href="css/tablet.css" />
+
+  <style>
+  .return_div {
+	padding: 10px;
+}
+
+.return_link, .return_text {
+	display: inline-block;
+}
+
+.return_link, .download_network a {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #D83915;
+	
+}
+
+.return_link:hover, .download_network a:hover {
+	color: #209771;
+}
+
+.download_network {
+	display: block;
+	float: right;
+	
+}
+</style>
 </head>
 
 
 <body>
+
+<div class="return_div">
+  <div class="return_text">
+  <a href="../intro.html" class="return_link">
+    <span class="back">⇐ Back to "Mark Twain: April Fool, 1884"</span>
+    </a>
+  </div>
+
+
+  <div class="download_network">
+    <a href="../downloads/aprilfools_graph_materials.zip">download .zip of network files ⇓</a>
+  </div>
+</div>
+
+
+
   <div class="sigma-parent">
     <div class="sigma-expand" id="sigma-canvas"></div>
   </div>

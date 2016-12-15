@@ -90,8 +90,11 @@ p.right {text-align:right;}
 	
 }
 
-/* Temporary until table is smaller*/
-.table-sortable {
-	
-	font-size: .8em;
+.popover {max-width:450px; 
+  font-size:.9em;
+  line-height: 1.2em;
+}
+
+.italic {
+ font-style: italic;
 }

@@ -237,10 +237,56 @@
       ====================================== -->
         
         <!-- April Fools -->
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/aprilfools/downloads/**">
+          <map:read src="2017/editions/aprilfools/downloads/{1}"/>
+        </map:match>
+      </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/aprilfools/graph/**">
+          <map:read src="2017/editions/aprilfools/graph_materials/network/{1}"/>
+        </map:match>
+      </map:pipeline>
         
         <map:pipeline type="noncaching">
             <map:match pattern="2017/editions/aprilfools/graph/**">
                 <map:read src="2017/editions/aprilfools/graph_materials/network/{1}"/>
+            </map:match>
+        </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/aprilfools/people.html">
+          <map:generate src="2017/editions/aprilfools/xml/personography.xml"/>
+          <map:transform src="2017/editions/aprilfools/xslt/aprilfools.xsl">
+            <map:parameter name="pagetype" value="home"/>
+            <map:parameter name="subpagetype" value=""/>
+            <map:parameter name="pageid" value="people"/>
+          </map:transform>
+          <map:transform src="template_xslt/html_template.xsl">
+            <map:parameter name="volume" value="38"/>
+            <map:parameter name="year" value="2017"/>
+            <map:parameter name="slug" value="aprilfools"/>
+          </map:transform>
+          <map:serialize type="html"/>
+        </map:match>
+      </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/edition.html">
+                <map:generate src="2017/editions/aprilfools/xml/intro.xml"/>
+                <map:transform src="2017/editions/aprilfools/xslt/aprilfools.xsl">
+                    <map:parameter name="pagetype" value="home"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value="edition"/>
+                </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="38"/>
+                    <map:parameter name="year" value="2017"/>
+                    <map:parameter name="slug" value="aprilfools"/>
+                </map:transform>
+                <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
  
@@ -255,7 +301,7 @@
                 <map:transform src="template_xslt/html_template.xsl">
                     <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
-                    <map:parameter name="slug" value="{1}"/>
+                    <map:parameter name="slug" value="aprilfools"/>
                 </map:transform>
                 <map:serialize type="html"/>
             </map:match>
