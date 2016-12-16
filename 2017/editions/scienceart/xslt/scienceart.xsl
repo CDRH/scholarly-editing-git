@@ -152,5 +152,24 @@
       
     </span>
   </xsl:template>
+  
+  <xsl:template match="//tei:lg">
+    <div class="tei_lg">
+      <xsl:apply-templates/><br/>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="//tei:l">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>poem_line tei_l lineindent</xsl:text>
+        <xsl:if test="@rend">
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="@rend"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
 
 </xsl:stylesheet>
