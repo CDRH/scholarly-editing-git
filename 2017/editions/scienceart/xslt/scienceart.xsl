@@ -45,7 +45,7 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>Science and Art: A Farce, in Two Acts</em>, by Malcolm Rymer</h1>
+        <h1><em>Science and Art: A Farce, in Two Acts</em></h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
