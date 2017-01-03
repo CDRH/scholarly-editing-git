@@ -96,6 +96,16 @@ span.last_line{
      vertical-align: super;
 }
 
+ul.list {
+    list-style-type:none;
+    text-indent: -30px;
+}
+
+td.indent {
+    text-indent: 50px;
+}
+
+
 /* To add borders on sides */
 /*.row > div {
     border: 1px solid green;

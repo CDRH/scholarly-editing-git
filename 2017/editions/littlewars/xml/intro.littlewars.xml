@@ -6,8 +6,8 @@
             <titleStmt>
                 <title level="m" type="main">Introduction to <emph rend="italic">LITTLE
                     WARS</emph></title>
-                <editor key="lepianka">Nigel Lepianka</editor>
-                <editor key="stover">Deanna Stover</editor>
+                <author key="lepianka">Nigel Lepianka</author>
+                <author key="stover">Deanna Stover</author>
                 <respStmt>
                     <resp>Creation and Encoding</resp>
                     <name xml:id="ed">Nigel Lepianka and Deanna Stover</name>
@@ -75,6 +75,9 @@
             <change who="lepianka" when="2016-11-22">Added and correctd 34 notes.</change>
             <change who="lepianka" when="2016-11-22">Added and encoded XML and Editiorial
                 statements.</change>
+            <change who="lepianka" when="2016-12-24">Revised both encoding and introduction content
+                according to SE suggested edits.</change>
+            <change who="lepianka" when="2016-12-25">Incorporated Deanna Stover edits.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -83,59 +86,61 @@
             <div>
                 <head>Introduction</head>
                 <byline>by Nigel Lepianka and Deanna Stover</byline>
-                <p>H.G. Wells (1866-1946) published two books about play with miniatures, first
-                        <emph rend="italic">Floor Games</emph> in 1911 and then <emph rend="italic"
-                        >Little Wars</emph> in 1913. In the first, Wells explains the supplies
-                    needed to create a world on the nursery floor and dramatizes his sons’ play;
-                        <emph rend="italic">Little Wars</emph>, however, provides a more complex,
-                    codified game. More importantly, <emph rend="italic">Little Wars</emph> was
-                    unprecedented. As Jon Peterson notes, it was the first time “miniature wargame
-                    rules [were] marketed in book form to the general public.”<ptr target="#note1"
-                        xml:id="nr1" n="1"/>
+                <p>H.G. Wells (1866-1946) published two books about play with miniatures
+                    (specifically, toy soldiers), first <emph rend="italic">Floor Games</emph> in
+                    1911 and then <emph rend="italic">Little Wars</emph> in 1913. In the first,
+                    Wells explains the supplies needed to create a world on the nursery floor and
+                    dramatizes his sons’ play; <emph rend="italic">Little Wars</emph>, however,
+                    provides a more complex, codified game. More importantly, <emph rend="italic"
+                        >Little Wars</emph> was unprecedented. As Jon Peterson notes, it was the
+                    first time “miniature wargame rules [were] marketed in book form to the general
+                        public.”<ptr target="#note1" xml:id="nr1" n="1"/>
                     <emph rend="italic">Little Wars</emph> continues to be influential on modern
                     gaming: the book has become the norm for popular role-playing game rulebooks
-                    like <emph rend="italic">Dungeons &amp; Dragons</emph>. Although <emph
-                        rend="italic">Little Wars</emph> has stayed in print since its first
-                    publication, and later editions feature forewords by influential figures
-                    including writer Isaac Asimov and <emph rend="italic">Dungeons &amp;
-                        Dragons</emph> creator Gary Gygax, to date there has not been a critical
-                    scholarly edition of the text.</p>
+                    such as <emph rend="italic">Dungeons &amp; Dragons</emph> and <emph
+                        rend="italic">Pathfinder</emph>. Although <emph rend="italic">Little
+                        Wars</emph> has stayed in print since its first publication, and later
+                    editions feature forewords by influential figures including writer Isaac Asimov
+                    and <emph rend="italic">Dungeons &amp; Dragons</emph> creator Gary Gygax, to
+                    date there has not been a critical scholarly edition of the text.</p>
                 <p> As a rulebook, the primary goal of <emph rend="italic">Little Wars</emph> is, in
-                    the end, to produce play (even if it is play with an ideological bent--in this
-                    case, pacifism). However, the text is far more than a straightforward account of
-                    rules. As Esther MacCallum-Stewart has pointed out, <emph rend="italic">Little
-                        Wars</emph> consists of three sections: an early version of the “development
-                    diary” (a contemporary invention where game designers describe the evolution of
-                    their designs) in which Wells describes how he modifies the rules through
-                    repeated play (chapter two); a rules section (chapter three); and an “example of
-                    play” detailing Wells’s successful “Battle of Hook’s Farm” (chapter four).<ptr
+                    the end, to produce play (even if it is play with an ideological bent&#8212;in
+                    this case, pacifism). However, the text is far more than a straightforward
+                    account of rules. As Esther MacCallum-Stewart has pointed out, <emph
+                        rend="italic">Little Wars</emph> consists of three sections framed by an
+                    intoduction and conclusion: an early version of the “development diary” (a
+                    contemporary invention where game designers describe the evolution of their
+                    designs) in which Wells describes how he modifies the rules through repeated
+                    play (chapter two); a rules section (chapter three); and an “example of play”
+                    detailing Wells’s successful “Battle of Hook’s Farm” (chapter four).<ptr
                         target="#note2" xml:id="nr2" n="2"/> Black-and-white photos of play and
-                    set-up taken by Wells’s wife and comic marginal illustrations by J.R. Sinclair
+                    set-up taken by Wells’s wife and marginal illustrations by J.R. Sinclair
                     accompany the text. The illustrations, photos, and text all interact, which is
                     partially why current digital transcripts that fail to include the marginal
                     illustrations do not accurately represent <emph rend="italic">Little
-                    Wars</emph>. The sets Wells builds to stage his wars are incredibly detailed,
-                    and many of the photos are shot in a way that makes them seem lifelike; the few
-                    photos featuring Wells and his opponent, Jerome K. Jerome, are almost shocking
-                    in comparison. The marginal illustrations similarly depict both animated toys in
-                    naturalistic settings and lifeless figurines using books for cover or being
-                    moved by a player’s hand. </p>
-                <p> Throughout <emph rend="italic">Little Wars</emph>, this tension between game and
-                    fiction exists. When describing the Battle of Hook’s Farm, Wells adopts a
-                    persona and what follows is more like a short story than simply a description of
-                    play: <ab>And suddenly your author changes. He changes into what perhaps he
-                        might have been--under different circumstances. His inky fingers become
-                        large, manly hands, his drooping scholastic back stiffens, his elbows go
-                        out, his etiolated complexion corrugates and darkens, his moustaches
+                    Wars</emph>. Although a few photographs feature Wells and his opponent, Jerome
+                    K. Jerome, which help to show the scale of the battles, many other photos show
+                    how incredibly detailed Wells’s sets were. Moreover, these sets are often shot
+                    in a way that makes them seem life-size rather than in miniature. The marginal
+                    illustrations similarly depict both lifeless figurines using books for cover or
+                    being moved by a player’s hand and seemingly animate toys in naturalistic
+                    settings </p>
+                <p> This tension between game and fiction exists throughout <emph rend="italic"
+                        >Little Wars</emph>. When describing the Battle of Hook’s Farm, Wells adopts
+                    a persona and what follows is more like a short story than simply a description
+                    of play: <quote>And suddenly your author changes. He changes into what perhaps
+                        he might have been&#8212;under different circumstances. His inky fingers
+                        become large, manly hands, his drooping scholastic back stiffens, his elbows
+                        go out, his etiolated complexion corrugates and darkens, his moustaches
                         increase and grow and spread, and curl up horribly; a large, red scar, a
-                        sabre cut, grows lurid over one eye. He expands--all over he
-                        expands.<ptr target="#note3" xml:id="nr3" n="3"/></ab> Narrating as a
+                        sabre cut, grows lurid over one eye. He expands&#8212;all over he
+                            expands.<ptr target="#note3" xml:id="nr3" n="3"/></quote> Narrating as a
                     general, it is here where we can begin to see elements of modern role-playing
                     games (RPGs) where players adopt personas. Wells clearly sees his games as
                     participatory literature. The title to chapter six, “Ending with a Sort of
                     Challenge” is joined by an illustration of a bookcase labeled “Little Wars,”
-                    topped with a general’s bust, and featuring 19 volumes of books--books that may
-                    depict his readers’ wars as much as his own. And yet, potential stories must
+                    topped with a general’s bust, and featuring 19 volumes of books&#8212;books that
+                    may depict his readers’ wars as much as his own. And yet, potential stories must
                     still exist within a set of rules. Like in modern RPGs, prescribed guidelines
                     add structure to a game; limitations allow for more interesting play because
                     players must strategically and creatively navigate through a fixed framework to
@@ -154,23 +159,24 @@
                     their <emph rend="italic">raison d’etre</emph> that the game will be played.
                     Readers will interact with and build on the initial text, creating narratives
                     that even Wells at his most fantastical could not predict. In addition, we see
-                    this edition as adding to the growing scholarly body on games and gaming. Part
-                    of our purpose here is to begin a conversation about how to use current TEI
-                    standards to encode rules. We have explained our choices below and hope that our
-                    decisions will continue to be refined as similar projects develop.</p>
+                    our edition of <emph rend="italic">Little Wars</emph> as a contribution to the
+                    growing scholarly body on games and gaming. Part of our purpose here is to begin
+                    a conversation about how to use current TEI standards to encode rules. We have
+                    explained our choices below and hope that our decisions will continue to be
+                    refined as similar projects develop.</p>
                 <p>In order to emphasize that <emph rend="italic">Little Wars</emph> is both a
                     readable text <emph rend="italic">and</emph> a playable game, we have also
-                    included XML encoded streamlined rules. Wells’s rules are often accompanied by
-                    asides and narratives, and we felt that simplifying and clarifying the rules
-                    would help make gameplay more accessible. We have chosen not to include any of
-                    the rules Wells sketched out in the appendix for adjusting <emph rend="italic"
-                        >Little Wars</emph> for military training in preference of highlighting
-                    Wells’s original creation. We invite readers to engage with <emph rend="italic"
-                        >Little Wars</emph> by creating their own miniature battles. As Wells
-                    himself explains: “It is for you, dear reader, now to get a floor, a friend,
-                    some soldiers and some guns, and show by a groveling devotion your appreciation
-                    of this noble and beautiful gift of limitless game that I have given you.”<ptr
-                        target="#note4" xml:id="nr4" n="4"/>
+                    included XML encoded streamlined rules. Asides and narratives often accompany
+                    Wells’s rules, and we felt that simplifying and clarifying the rules would help
+                    make gameplay more accessible. We have chosen not to include any of the rules
+                    Wells sketched out in the appendix for adjusting <emph rend="italic">Little
+                        Wars</emph> for military training in preference of highlighting Wells’s
+                    original creation. We invite readers to engage with <emph rend="italic">Little
+                        Wars</emph> by creating their own miniature battles. As Wells himself
+                    writes: “It is for you, dear reader, now to get a floor, a friend, some soldiers
+                    and some guns, and show by a groveling devotion your appreciation of this noble
+                    and beautiful gift of limitless game that I have given you.”<ptr target="#note4"
+                        xml:id="nr4" n="4"/>
                 </p>
             </div>
 
@@ -198,67 +204,70 @@
                     controversial novel <emph rend="italic">The New Machiavelli</emph>, first
                     serialized in 1910. The novel features multiple references to the wargames the
                     main character, Dick Remington, and his friend Britten<ptr target="#note5"
-                        xml:id="nr5" n="5"/> would play: <ab>We developed a war game of our own at
-                        Britten’s home with nearly a couple of hundred lead soldiers, some excellent
-                        spring cannons that short hard and true at six yards, hills of books and a
-                        constantly elaborated set of rules. For some months that occupied an immense
-                        proportion of our leisure. Some of the battles lasted several days. We kept
-                        the game a profound secret from the other fellows. They would not have
-                            understood.<ptr target="#note6" xml:id="nr6" n="6"/></ab> However,
-                    unlike Dick Remington, Palmer knew that “other fellows” would certainly
-                    understand the appeal of staging little wars--he was tapping into an already
-                    popular and ever-growing market. </p>
+                        xml:id="nr5" n="5"/> would play: <quote>We developed a war game of our own
+                        at Britten’s home with nearly a couple of hundred lead soldiers, some
+                        excellent spring cannons that short hard and true at six yards, hills of
+                        books and a constantly elaborated set of rules. For some months that
+                        occupied an immense proportion of our leisure. Some of the battles lasted
+                        several days. We kept the game a profound secret from the other fellows.
+                        They would not have understood.<ptr target="#note6" xml:id="nr6" n="6"
+                        /></quote> However, unlike Dick Remington, Palmer knew that “other fellows”
+                    would certainly understand the appeal of staging little wars&#8212;he was
+                    tapping into an already popular and ever-growing market. </p>
                 <p>In 1893 William Britain had revolutionized the toy world by introducing hollow
                     miniatures, making them more affordable. Due in part to the general increase in
                     leisure time, literacy, and income amongst the middle class, toys became a
                     staple during the latter half of the nineteenth century;<ptr target="#note7"
                         xml:id="nr7" n="7"/> in fact, Kenneth Brown identifies, in particular, a
-                    “toy soldier craze” in the two decades leading up to the Great War, or as we
-                    know it, World War I.<ptr target="#note8" xml:id="nr8" n="8"/> Notably, while
-                    children were certainly a part of the intended market, they were not necessarily
-                    the only intended audience. Many adults played with miniatures with and without
-                    children, and Wells was clearly not writing to an exclusively child audience.
-                    The venue in which <emph rend="italic">Little Wars</emph> was published, <emph
-                        rend="italic">Windsor Magazine</emph>, was for “men and women,” and Wells
-                    consistently speaks to adults throughout the rulebook. </p>
+                    “toy soldier craze” in the two decades leading up to the Great War, or World War
+                        I.<ptr target="#note8" xml:id="nr8" n="8"/> Notably, while children were
+                    certainly a part of the intended market, they were not necessarily the only
+                    intended audience. Many adults played with miniatures with and without children,
+                    and Wells was clearly not writing to an exclusively child audience. The venue in
+                    which <emph rend="italic">Little Wars</emph> was published, <emph rend="italic"
+                        >Windsor Magazine</emph>, was for “men and women,” and Wells consistently
+                    speaks to adults throughout the rulebook. </p>
                 <p>The subtitle of <emph rend="italic">Little Wars</emph> itself, “A game for Boys
                     from twelve years of age to one hundred and fifty and for that more intelligent
                     sort of girl who likes boys’ games and books,” explicitly highlights the belief
-                    that adults (primarily male--a misconception about gaming that still exists
+                    that adults (primarily male&#8212;a misconception about gaming that still exists
                     today) could enjoy these games. This subtitle is even more interesting after
                     realizing that Wells’s oldest son George Philip, was not quite twelve at the
-                    time <emph rend="italic">Little Wars</emph> was first published.<ptr
-                        target="#note9" xml:id="nr9" n="9"/> Moreover, Kimberley Reynolds points out
-                    that “there is, in fact, a notable absence of children in the photographs that
-                    illustrate <emph rend="italic">Little Wars</emph>”--four of the photos do
-                    however feature Wells and his opponent Jerome K. Jerome, giants in comparison to
-                    the miniature world they are creating. And Wells was not the only literary
-                    figure involved in wargames. Besides his companion Jerome, we know that Robert
-                    Louis Stevenson and others enjoyed playing with miniatures.<ptr target="#note10"
-                        xml:id="nr10" n="10"/> Wells also claims to have played wargames with
-                    various political leaders, including Winston Churchill.<ptr target="#note11"
-                        xml:id="nr11" n="11"/></p>
+                    time <emph rend="italic">Little Wars</emph> was first published, excluding both
+                    of Wells’s children from the audience for Little Wars despite them being the
+                    focus of his earlier Floor Games.<ptr target="#note9" xml:id="nr9" n="9"/>
+                    Moreover, Kimberley Reynolds points out that “there is, in fact, a notable
+                    absence of children in the photographs that illustrate <emph rend="italic"
+                        >Little Wars</emph>”&#8212;four of the photos do however feature Wells and
+                    his opponent Jerome K. Jerome, giants in comparison to the miniature world they
+                    are creating. And Wells was not the only literary figure involved in wargames.
+                    Besides his companion Jerome, we know that Robert Louis Stevenson and others
+                    enjoyed playing with miniatures.<ptr target="#note10" xml:id="nr10" n="10"/>
+                    Wells also claims to have played wargames with various political leaders,
+                    including Winston Churchill.<ptr target="#note11" xml:id="nr11" n="11"/></p>
                 <p>In any case, Wells’s wargame rules continue to be considered the most influential
-                    of the time. Many scholars have commented on how Wells’s rulebooks nearly
-                    function as advertising for William Britain’s toys. J.R. Sinclair’s
-                    illustrations certainly resemble contemporary toy soldier advertisements. In
-                    fact, at the end of <emph rend="italic">Floor Games</emph>, where Wells focuses
-                    on the miniature worlds his sons create rather than any form of rule-based play,
-                    he writes: “And of the war game I must either write volumes or nothing. Some
-                    day, perhaps, I will write a great book about the war game and tell of battles
-                    and campaigns and strategy and tactics. But this time I set out merely to tell
-                    of the ordinary joys of playing with the floor, and to gird improvingly and
-                    usefully at toymakers.”<ptr target="#note12" xml:id="nr12" n="12"/> James Opie
-                    suggests that Wells’s girding in <emph rend="italic">Floor Games</emph> was
-                    successful, as Wells calls for a larger variety of citizen miniatures, something
-                    Britain delivered in 1912 with the Civilians set 169. Opie even goes so far as
-                    to “wonder if contact [between Wells and Britain] ensued, and <emph
-                        rend="italic">Little Wars</emph> was the result.”<ptr target="#note13"
-                        xml:id="nr13" n="13"/> In many ways, Wells <emph rend="italic">was</emph>
-                    advertising miniatures; he saw playing war as a practice that might discourage
-                    war, a particularly timely purpose considering Wells published <emph
-                        rend="italic">Little Wars</emph> just a year before the start of the first
-                    World War. </p>
+                    rules from the time. This is, no doubt, in part because of Wells’s status as a
+                    popular writer and the co-occurring advancement of toy technologies. Many
+                    scholars have commented on how Wells’s rulebooks nearly function as advertising
+                    for William Britain’s toys. J.R. Sinclair’s illustrations certainly resemble
+                    contemporary toy soldier advertisements. In fact, at the end of <emph
+                        rend="italic">Floor Games</emph>, where Wells focuses on the miniature
+                    worlds his sons create rather than any form of rule-based play, he writes: “And
+                    of the war game I must either write volumes or nothing. Some day, perhaps, I
+                    will write a great book about the war game and tell of battles and campaigns and
+                    strategy and tactics. But this time I set out merely to tell of the ordinary
+                    joys of playing with the floor, and to gird improvingly and usefully at
+                        toymakers.”<ptr target="#note12" xml:id="nr12" n="12"/> James Opie suggests
+                    that Wells’s girding in <emph rend="italic">Floor Games</emph> was successful,
+                    as Wells calls for a larger variety of citizen miniatures, something Britain
+                    delivered in 1912 with the Civilians set 169. Opie even goes so far as to
+                    “wonder if contact [between Wells and Britain] ensued, and <emph rend="italic"
+                        >Little Wars</emph> was the result.”<ptr target="#note13" xml:id="nr13"
+                        n="13"/> In many ways, Wells <emph rend="italic">was</emph> advertising
+                    miniatures; he saw playing war as a practice that might discourage war, a
+                    particularly timely purpose considering Wells published <emph rend="italic"
+                        >Little Wars</emph> just a year before the start of the first World War.
+                </p>
             </div>
 
             <div>
@@ -273,12 +282,12 @@
                     commander, who did not presently get into difficulties and confusions among even
                     the elementary rules of the Battle. You have only to play at Little Wars three
                     or four times to realise just what a blundering thing Great War must be.”<ptr
-                        target="#note14" xml:id="nr14" n="14"/> For this reason, Jon Peterson
-                    qualifies <emph rend="italic">Little Wars</emph>: “Nominally it describes a
-                    game, but it served just as well as a polemic.”<ptr target="#note15"
-                        xml:id="nr15" n="15"/></p>
+                        target="#note14" xml:id="nr14" n="14"/> For this reason, Peterson qualifies
+                        <emph rend="italic">Little Wars</emph>: “Nominally it describes a game, but
+                    it served just as well as a polemic.”<ptr target="#note15" xml:id="nr15" n="15"
+                    /></p>
                 <p>Wells’s pacifism makes his choice to publish <emph rend="italic">Little
-                        Wars</emph> particularly interesting, but Wells’s was an imperialistic
+                        Wars</emph> particularly interesting, but Wells’s was an Imperialistic
                     pacifism. Although not included in this edition, <emph rend="italic">Floor
                         Games</emph> complicates Wells’s relationship with violence. He describes
                     his and his son’s world-building play thus: “We land and alter things, and build
@@ -286,44 +295,48 @@
                     confer all the blessings of civilisation upon these lands.”<ptr target="#note16"
                         xml:id="nr16" n="16"/> Subjugating populations implies violence, but with
                     very little risk to England’s well being. Rather than decrying war in and of
-                    itself, Wells is reacting to fears about modern warfare between world powers
-                    rather than any violence associated with Imperial conquest. Much of this fear
-                    seems to stem from rapidly evolving weapon technologies. Just before he wrote
-                        <emph rend="italic">Floor Games</emph> in 1911, Wells admitted that “we have
-                    over-developed war.” In fact, many of his writings foretold the destruction of
-                    man through war. And while <emph rend="italic">Little Wars</emph> was by far his
-                    first war “game,” “by the time the world went to war in August 1914, H.G. Wells
-                    had already fought a goodly number of major wars, most of them global in scope,
-                    in his scientific romances, short stories, and essays.”<ptr target="#note17"
-                        xml:id="nr17" n="17"/> Wells was incredibly gifted at predicting future war
-                    technologies, conceivably making the realities of a fast-approaching war all the
-                    more terrifying for him. After all, he imagined what are essentially tanks in
-                        <emph rend="italic">The Land Ironclad</emph> (1903), aerial warfare in <emph
+                    itself, in <emph rend="italic">Little Wars</emph> Wells is reacting to fears
+                    about modern warfare between world powers rather than any violence associated
+                    with Imperial conquest. Much of this fear seems to stem from rapidly evolving
+                    weapon technologies. Just before he wrote <emph rend="italic">Floor Games</emph>
+                    in 1911, Wells admitted that “we have over-developed war.” In fact, many of his
+                    writings foretold the destruction of man through war. And while <emph
+                        rend="italic">Little Wars</emph> was by far his first war “game,” “by the
+                    time the world went to war in August 1914, H.G. Wells had already fought a
+                    goodly number of major wars, most of them global in scope, in his scientific
+                    romances, short stories, and essays.”<ptr target="#note17" xml:id="nr17" n="17"
+                    /> Wells was incredibly gifted at predicting future war technologies,
+                    conceivably making the realities of a fast-approaching war all the more
+                    terrifying for him. After all, he imagined what are essentially tanks in <emph
+                        rend="italic">The Land Ironclad</emph> (1903), aerial warfare in <emph
                         rend="italic">The War in the Air</emph> (1908), and atomic bombs in <emph
                         rend="italic">The World Set Free</emph> (1914).</p>
-                <p>Perhaps this fear is what made playing little wars so fascinating to Wells.
+                <p>Perhaps his fear is what made playing little wars so fascinating to Wells.
                     Peterson and others have pointed out how antiquated Wells’s battle rules are.
-                    Unlike real battle, Wells modified his game tirelessly on developing a fair form
-                    of war as shown in chapter two. One might say that <emph rend="italic">Little
-                        Wars</emph> even offers up a utopian version of war since it works towards
-                    setting up a battle amongst equals. The little wars staged according to Wells’s
-                    rules are not representations of an Imperial Britain against indigenous peoples
-                    resisting colonization, nor even are they battles of Waterloos, between two
-                    distinct, yet Western, powers. Instead, <emph rend="italic">Little Wars</emph>
-                    can be most accurately understood as a battle between two Englands.<ptr
-                        target="#note18" xml:id="nr18" n="18"/> At all points, Wells constructs the
-                    procedures of his game to indicate the necessary equality between Players A and
-                    B. Even in cases where an advantage may be inferred, Wells considers and
-                    implements rules to eliminate or mitigate those advantages. Aside from
-                    determining the city designer (a privilege Wells also attempts to make more
-                    equitable by allowing the other player to choose where the army enters), the
-                    mechanics of <emph rend="italic">Little Wars</emph> are designed to help
-                    eliminate chance: players receive an equal number of units although they can
-                    choose the configuration (more cavalry versus more guns or infantry, etc.), who
-                    all obey a mutual set of rules with little difference between the opposing
-                    sides. Battle is also reliant on mutual trust; although players can use a
-                    curtain to hide their set-up, the rest of the war is fought in the open and each
-                    player is responsible for keeping track of time during their opponent’s turn. </p>
+                    Unlike real battle, chapter two shows how Wells modified his game tirelessly in
+                    order to develop a fair form of war. One might say that <emph rend="italic"
+                        >Little Wars</emph> even offers up a utopian version of war since it works
+                    towards setting up a battle amongst equals. The little wars staged according to
+                    Wells’s rules are not representations of an Imperial Britain against indigenous
+                    peoples resisting colonization, nor even are they battles of Waterloos, between
+                    two distinct, yet Western, powers. Instead, <emph rend="italic">Little
+                        Wars</emph> can be most accurately understood as a battle between two
+                    Englands before modern war technologies.<ptr target="#note18" xml:id="nr18"
+                        n="18"/>
+                </p>
+                <p>At all points, Wells constructs the procedures of his game to indicate the
+                    necessary equality between Players A and B. Even in cases where an advantage may
+                    be inferred, Wells considers and implements rules to eliminate or mitigate those
+                    advantages. Aside from determining the city designer (a privilege Wells also
+                    attempts to make more equitable by allowing the other player to choose where
+                    their army enters), the mechanics of <emph rend="italic">Little Wars</emph> are
+                    designed to help eliminate chance: players receive an equal number of units
+                    although they can choose the configuration (more cavalry versus more guns or
+                    infantry, etc.), who all obey a mutual set of rules with little difference
+                    between the opposing sides. Battle is also reliant on mutual trust; although
+                    players can use a curtain to hide their set-up, much of the game is fought in
+                    the open and each player is responsible for keeping track of time during his or
+                    her opponent’s turn. </p>
                 <p>This egalitarian and trustful approach to warfare reflects Wells’s
                     romanticization of a simpler time within his rules. Peterson notes that <emph
                         rend="italic">Little Wars</emph> recalls “a romantic era of warfare, that of
@@ -338,7 +351,7 @@
                     with rifles. In fact, “in the <emph rend="italic">Little Wars</emph> systems
                     infantry and cavalry effectively fight in melee range,”<ptr target="#note20"
                         xml:id="nr20" n="20"/> an anachronistic decision that reflects Wells’s
-                    anxieties about and dismissal of a more modern, technologically advanced
+                    anxieties about and dismissal of a more modern, technologically advanced form of
                     warfare.</p>
                 <p>And yet, Wells's desire for <emph rend="italic">Little Wars</emph> to function as
                     a sort of substitution for war, whilst educating and providing entertainment,
@@ -365,26 +378,26 @@
                 <p>Famous for his “Imaginative Romances” and articles of social commentary,
                     publications that often forebode man’s destruction at the hands of increasingly
                     dangerous weapons, it is no surprise that Wells uses <emph rend="italic">Little
-                        Wars</emph> to once more expound his beliefs: <ab>And if I might for a
+                        Wars</emph> to once more expound his beliefs: <quote>And if I might for a
                         moment trumpet! How much better is this amiable miniature than the Real
                         Thing! . . . Here is the premeditation, the thrill, the strain of
-                        accumulating victory or disaster––and no smashed nor sanguinary bodies, no
-                        shattered fine buildings nor devastated country sides, no petty cruelties,
-                        none of that awful universal boredom and embitterment, that tiresome delay
-                        or stoppage or embarrassment of every gracious bold, sweet, and charming
-                        thing, that we who are old enough to remember a real modern war know to be
-                        the reality of belligerence.<ptr target="#note24" xml:id="nr24" n="24"
-                        /></ab> It is this idea of a modern war that Wells fears and tries to leave
-                    out of his rulebook, an interesting but conscious choice for someone who
-                    regularly incorporated technology into his writings. Asimov would later write in
-                    his foreword to <emph rend="italic">Little Wars</emph>, “There is an air of
-                    glamor and excitement about war--past wars, that is, that one need not actually
-                    live through. The dangers and the daring and the gallant defeats and the clever
-                    stratagems and the final triumph--what can replace it? In the absence of
-                    reality, there is the driving desire to find a substitute.”<ptr target="#note25"
-                        xml:id="nr25" n="25"/> With such a gifted imagination, perhaps in miniatures
-                    Wells finally found a way to create a utopian version of war that (toy)
-                    technology allowed rather than eliminated. </p>
+                        accumulating victory or disaster&#8212;and no smashed nor sanguinary bodies,
+                        no shattered fine buildings nor devastated country sides, no petty
+                        cruelties, none of that awful universal boredom and embitterment, that
+                        tiresome delay or stoppage or embarrassment of every gracious bold, sweet,
+                        and charming thing, that we who are old enough to remember a real modern war
+                        know to be the reality of belligerence.<ptr target="#note24" xml:id="nr24"
+                            n="24"/></quote> It is this idea of a modern war that Wells fears and
+                    tries to leave out of his rulebook, an interesting but conscious choice for
+                    someone who regularly incorporated technology into his writings. Asimov would
+                    later write in his foreword to <emph rend="italic">Little Wars</emph>, “There is
+                    an air of glamor and excitement about war&#8212;past wars, that is, that one
+                    need not actually live through. The dangers and the daring and the gallant
+                    defeats and the clever stratagems and the final triumph&#8212;what can replace
+                    it? In the absence of reality, there is the driving desire to find a
+                        substitute.”<ptr target="#note25" xml:id="nr25" n="25"/> With such a gifted
+                    imagination, perhaps in miniatures Wells finally found a way to create a utopian
+                    version of war that (toy) technology allowed for rather than made impossible. </p>
                 <p>However, Wells would go on to change his mind about the importance of wargames.
                     While in <emph rend="italic">Little Wars</emph> Wells imagines his games as “a
                     homeopathic remedy for the imaginative strategist,”<ptr target="#note26"
@@ -404,9 +417,10 @@
                     their political outlook.”<ptr target="#note29" xml:id="nr29" n="29"/> Instead,
                     Wells believes he has moved beyond his little wars: “I like to think I grew up
                     out of that stage somewhere between 1916 and 1920 and began to think about war
-                    as a responsible adult should.”<ptr target="#note30" xml:id="nr30" n="30"/> Some
-                    modern counterparts share a similar concern with violent video games.<ptr
-                        target="#note31" xml:id="nr31" n="31"/>
+                    as a responsible adult should.”<ptr target="#note30" xml:id="nr30" n="30"/> This
+                    change of heart should be familiar to modern audiences who have heard of (or
+                    felt) a similar concern over violent video games.<ptr target="#note31"
+                        xml:id="nr31" n="31"/>
                 </p>
             </div>
             <div>
@@ -421,37 +435,37 @@
                     big ones.”<ptr target="#note32" xml:id="nr32" n="32"/> But Gygax found far more
                     inspiration in Wells than a stance on the importance of wargaming. Gygax praises
                     Wells’s game for its formative role in the development of his tabletop games:
-                            <ab><emph rend="italic">Little Wars</emph> influenced my development of
-                        both the <emph rend="italic">Chainmail</emph> miniatures rules and the <emph
-                            rend="italic">Dungeons &amp; Dragons</emph> fantasy roleplaying game.
-                        For example, it established the concept of a burst radius for cannon rounds,
-                        an idea that was translated into both the <emph rend="italic"
+                            <quote><emph rend="italic">Little Wars</emph> influenced my development
+                        of both the <emph rend="italic">Chainmail</emph> miniatures rules and the
+                            <emph rend="italic">Dungeons &amp; Dragons</emph> fantasy roleplaying
+                        game. For example, it established the concept of a burst radius for cannon
+                        rounds, an idea that was translated into both the <emph rend="italic"
                             >Chainmail</emph> catapult missile diameters and the areas of effect for
-                        Fireballs in D&amp;D. <ptr target="#note33" xml:id="nr33" n="33"/></ab> Not
-                    only does this foreword indicate quite a high degree of validation of Wells’s
-                    work as spoken from the mouth of one of gaming culture's gods, but by declaring
-                    the adaptation of Wells’s rules for his own influential works, Gygax reveals a
-                    transmission history of common game mechanics. Burst radius and Area of Effect
-                    have proliferated beyond tabletop gaming into the digital world of video games
-                    by way of <emph rend="italic">Dungeon &amp; Dragons</emph>, and become
-                    colloquialized into the common acronym AoE. Examples of the reliance on the
-                    concept of AoE as Wells and Gygax propose are numerous: <emph rend="italic"
+                        Fireballs in D&amp;D.<ptr target="#note33" xml:id="nr33" n="33"/></quote>
+                    Not only does this foreword indicate quite a high degree of validation of
+                    Wells’s work as spoken from the mouth of one of gaming culture's gods, but by
+                    declaring the adaptation of Wells’s rules for his own influential works, Gygax
+                    reveals a transmission history of common game mechanics. Burst Radius and Area
+                    of Effect have proliferated beyond tabletop gaming into the digital world of
+                    video games by way of <emph rend="italic">Dungeon &amp; Dragons</emph>, and
+                    become colloquialized into the common acronym AoE. Examples of the reliance on
+                    the concept of AoE as Wells and Gygax propose are numerous: <emph rend="italic"
                         >World of Warcraft</emph>, <emph rend="italic">Final Fantasy Tactics</emph>,
                     and <emph rend="italic">Dragon Age</emph> are popular and prime examples of the
                     simple application of Euclidean geometry as Wells prescribes it for
-                    operationalizing cannonfire or any analogous mechanism a game may desire to
+                    operationalizing cannon fire or any analogous mechanism a game may desire to
                     express. How far the concept has come from lengths of string and a spring-loaded
                         toy!<ptr target="#note34" xml:id="nr34" n="34"/></p>
                 <p>We mention Gygax not to divert interest from how innovative and interesting <emph
                         rend="italic">Little Wars</emph> is in and of itself, but to include an
-                    additional motive for its study and its relevance to game studies. The passage
-                    above shows how the theory of transmission, well known to textual scholars and
-                    editors, can be seen as an overt force that works in a unique way when compared
-                    to traditional textual transmission. The way a concept such as a rule carries
-                    through time and through different works by different authors highlights just
-                    how much games, although narratives in their own right, are also just as much
-                    texts in a physical and phenomenological sense, capable of being adapted and
-                    interpreted (as we do in the streamlined rules), but also borrowed from,
+                    additional motive for its study and its relevance to game studies in particular.
+                    The passage above shows how the theory of transmission, well known to textual
+                    scholars and editors, can be seen as an overt force that works in a unique way
+                    when compared to traditional textual transmission. The way a concept such as a
+                    rule carries through time and through different works by different authors
+                    highlights how games, although narratives in their own right, are also just as
+                    much texts in a physical and phenomenological sense, capable of being adapted
+                    and interpreted (as we do in the streamlined rules), but also borrowed from,
                     modernized, and, for lack of a better phrase, <emph rend="italic">played
                         with</emph>. </p>
                 <p><emph rend="italic">Little Wars </emph>is also special because of the previously
@@ -473,11 +487,11 @@
                     Wells’s grammar and spelling. While <emph rend="italic">Little Wars</emph> first
                     appeared in <emph rend="italic">Windsor Magazine</emph>, the magazine notes that
                     Palmer maintains the copyright. Since Palmer had already released <emph
-                        rend="italic">Floor Games</emph> with marginal illustrations--in fact, with
-                    marginal illustrations that Wells mentioned within the body of his text--we can
-                    assume that once again Palmer and Wells imagined a publication with similar
-                    marginalia. Because of this, we felt it particularly important to create a
-                    digital edition that allowed readers to see <emph rend="italic">Little
+                        rend="italic">Floor Games</emph> with marginal illustrations&#8212;in fact,
+                    with marginal illustrations that Wells mentioned within the body of his
+                    text&#8212;we can assume that once again Palmer and Wells imagined a publication
+                    with similar marginalia. Because of this, we felt it particularly important to
+                    create a digital edition that allowed readers to see <emph rend="italic">Little
                         Wars</emph> in book form, something many (unedited) digital editions have
                     failed to do. </p>
                 <p> In addition to notes that help contextualize the book or provide clarification,
@@ -501,7 +515,7 @@
                     to organize specifications. Since the text exists as a means of guiding play, we
                     felt that encoding the rules helped to accentuate the game itself as the core of
                         <emph rend="italic">Little Wars</emph>, and their representation as discrete
-                    parts of the text formed the basis for our encoding decisions. </p>
+                    parts of the text formed the basis for our encoding decisions.</p>
                 <p>Each set of rules (as Wells groups them) are enclosed by &lt;div&gt; elements and
                     represented by &lt;list&gt; with the @type attribute to declare the purpose
                     (that is, usually, “instructions”) of the list. In some cases, where Wells’s
@@ -511,11 +525,14 @@
                     complicated format-wise than Wells’s writing.</p>
                 <p> In addition to the rules, our XML also attempts to be faithful to Wells’s own
                     representation of the text and the structure of the book. To that extent, we
-                    included &lt;graphic&gt; elements that point to the photographic inserts. While
-                    these inserts disrupt the body of the text, they also depict Wells in the midst
-                    of a little war. These photographs are valuable in that they help to clarify
-                    Wells’s descriptions of battle by showing The Battle of Hook’s Farm as it plays
-                    out and highlight Little Wars as a means of participatory play.</p>
+                    encoded the bibliographical properties of the text, such as the page breaks or
+                    page signatures (marked by the &lt;fw&gt; tag) to show the book's physical
+                    composition. We have included &lt;graphic&gt; elements that point to the
+                    photographic inserts. While these inserts disrupt the body of the text, they
+                    also depict Wells in the midst of a little war. These photographs are valuable
+                    in that they help to clarify Wells’s descriptions of battle by showing The
+                    Battle of Hook’s Farm as it plays out and highlight <emph rend="italic">Little
+                        Wars</emph> as a means of participatory play.</p>
             </div>
 
         </body>
@@ -531,7 +548,8 @@
                     556.</note>
                 <note xml:id="note3">H. G. Wells,<emph rend="italic"> Little Wars</emph> (London:
                     Frank Palmer, 1913), 63-4. </note>
-                <note xml:id="note4">Wells, <emph rend="italic">Little Wars</emph>, 96-7.</note>
+                <note xml:id="note4">Wells, <emph rend="italic">Little Wars</emph>, 96-7. We, of
+                    course, do not wish for you to grovel.</note>
                 <note xml:id="note5">Kenneth D. Brown speculates that Wells named this character
                     Britten after the influential toy maker William Britain. “Modelling for War? Toy
                     Soldiers in Late Victorian and Edwardian Britain.” <emph rend="italic">Journal
@@ -573,9 +591,9 @@
                 <note xml:id="note22"> In Cynthia Asquith’s autobiography, she reminisces about her
                     brother, Ego, playing <emph rend="italic">Little Wars</emph>: “There was a
                     remarkably uncomfortable phase when practically every inch of 62 Cadogan
-                    Square--staircase and all--was given up to a war game invented by H. G. Wells
-                    and played with toy mechanical guns and tin soldiers.” <emph rend="italic">Haply
-                        I May Remember</emph> (J. Barrie, 1950), 169. </note>
+                    Square&#8212;staircase and all&#8212;was given up to a war game invented by H.
+                    G. Wells and played with toy mechanical guns and tin soldiers.” <emph
+                        rend="italic">Haply I May Remember</emph> (J. Barrie, 1950), 169. </note>
                 <note xml:id="note23">Susan Stewart, <emph rend="italic">On Longing: Narratives of
                         the Miniature, the Gigantic, the Souvenir, the Collection</emph> (London:
                     Duke University Press, 1993), 69. </note>

@@ -72,6 +72,7 @@
         </fileDesc>
         <revisionDesc>
             <change who="lepianka" when="2016-11-18">Begin encoding of streamlined rules.</change>
+            <change who="lepianka" when="2016-12-24">Revised content and encoding according to SE editorial suggestions.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -79,15 +80,16 @@
         <body>
             <div>
                 <head>Preface</head>
-                <p>This section represents an attempt to streamline the rules presented in Little
-                    Wars. In some sections, Wells’s rules are unclear or in need of further
-                    explanation. This is most apparent in the rules for the mêlée, where some
-                    questions may arise as to which player may act first, or how certain decisions
-                    for the loss of units are made. We have made notes in the text of Little Wars
+                <p>This section represents an attempt to streamline the rules presented in <emph
+                        rend="italic">Little Wars</emph>. In some sections, Wells’s rules are
+                    unclear or in need of further explanation. This is most apparent in the rules
+                    for the <emph rend="italic">mêlée</emph>, where some questions may arise as to
+                    which player may act first, or how certain decisions for the loss of units are
+                    made. We have made notes in the text of <emph rend="italic">Little Wars</emph>
                     where these moments occur, and the streamlined rules presented here attempt to
                     resolve these complications. This rule list might be considered a better option
-                    for reference should one desire to play Little Wars, as it condenses Wells’s
-                    sometimes verbose and disorganized instructions. </p>
+                    for reference should one desire to play <emph rend="italic">Little Wars</emph>,
+                    as it condenses Wells’s sometimes verbose and disorganized instructions. </p>
             </div>
 
 
@@ -95,13 +97,13 @@
                 <head><label>1.</label> The Forces</head>
                 <list rend="bulleted">
                     <head><label>1.1</label> The Units</head>
-                    <item>There are two types of units, infantry and cavalry. Infantry may move up
+                    <item>There are two types of units: infantry and cavalry. Infantry may move up
                         to 1 foot, while cavalry may move up to 2 feet. Other than movement speed,
                         infantry and cavalry follow the same rules.</item>
                     <item>A space of 1/16 of an inch should be kept between all units and terrain. A
-                        unit may never be placed inside any part of the Country, including
+                        unit may never be placed inside any part of the battlefield, including
                         houses.</item>
-                    <item>When a unit moves within 1/8 of an inch of an enemy unit, it must stop its
+                    <item>When a unit moves within ⅛ of an inch of an enemy unit, it must stop its
                         movement and is considered in <emph rend="italic">contact</emph> with the
                         enemy unit.</item>
                     <item>If a unit is not within one move of at least half of the remaining
@@ -134,22 +136,22 @@
                     <item>Requires at least 4 friendly units within 6 inches to be considered <emph
                             rend="italic">manned</emph> by that side. A cannon must be <emph
                             rend="italic">manned</emph> in order to be moved or fired.</item>
-                    <item> Can either be moved or fired in the same turn, not both. </item>
-                    <item>Cannons may not be fired during the first turn of the game.</item>
+                    <item>Can either be moved or fired in the same turn, not both.</item>
+                    <item>May not be fired during the first turn of the game.</item>
                     <item>Can fire up to 4 shots during a turn. After firing its last shot, the
                         cannon cannot be aimed or adjusted and one friendly unit within 6 inches
                         must be placed on each side of the cannon near the wheels. </item>
                     <item>When being moved, at least four men who are with the cannon must move up
-                        with it to its new position, and be placed within six inches of it in its
-                        new position. The cannon may move the speed of the 4 fastest units moving
-                        with it. The muzzle of the cannon must point backward toward the direction
-                        it came from.</item>
+                        with it to its new position, and these men must be placed within six inches
+                        of the cannon's new position. The cannon may move the speed of the 4 fastest
+                        units moving with it. The muzzle of the cannon must point backward toward
+                        the direction it came from.</item>
                     <item>A shot from a cannon kills the first unit it touches as well as any other
-                        unit that falls because of it. A unit that cannot stand on its own and would
-                        full if unsupported after a shot is considered killed. </item>
+                        unit that falls because of it. A unit is considered killed that cannot stand
+                        on its own and would fall if unsupported after a shot. </item>
                     <item>While firing, cannons may be rotated around the middle point of its wheel
-                        axle to take aim while any friendly units within 6 inches may be laid down
-                        to allow the gun to fire.</item>
+                        axle to take aim. Any friendly units within 6 inches may be laid down to
+                        allow the gun to fire onubstructed.</item>
                 </list>
             </div>
 
@@ -158,17 +160,18 @@
                 <list rend="bulleted">
                     <head><label>2.1</label> Setup</head>
                     <item>Before playing, the players will need to setup the battlefield and the
-                        forces that will fight upon it.</item>
+                        forces that will fight upon it. The battlefield is also formally called "the
+                        Country."</item>
                     <item>Ensure that each player has a way of measuring distances in inches and
                         feet. Two pieces of string, one measuring two feet and the other six inches
                         will suffice.</item>
                     <item>Each player must determine the composition of their forces between
                         infantry, cavalry, and cannons. A standard game has each side with forces
                         with a total value of 150 points, though larger or smaller battles may be
-                        fought as well. Infantry are 1 point, cavalry are 1 ½ points, and cannons
+                        fought as well. Infantry are 1 point, cavalry are 1-½ points, and cannons
                         are 10 points.</item>
                     <item>Players will flip a coin to decide who shall arrange the Country. The
-                        winner may place obstacles and cover to represent houses, trees, hills, etc
+                        winner may place obstacles and cover to represent houses, trees, hills, etc.
                         anywhere they wish over the battlefield. If any pieces of the Country are
                         bumped or moved during the turn, they must be placed back to their original
                         position immediately. </item>
@@ -179,32 +182,37 @@
             </div>
 
             <div>
-                <head><label>2.2</label>Deployment</head>
                 <list rend="bulleted">
+                    <head><label>2.2</label> Deployment</head>
                     <item>Once the players have chosen their forces and arranged the Country, it is
                         time for them to set up their armies and prepare for battle. The following
-                        steps outline this process. </item>
-                    <item>The players flip another coin to determine which shall go first. </item>
-                    <item>The first player will arrange their forces along their back line. Units
-                        not placed on the back line must be placed as close as possible and measure
-                        distance for movement on their first turn as if they started on the back
-                        line. The second player will then do the same.</item>
-                    <item>Alternately, if some way of hiding the deployments can be arranged (such
-                        as with a curtain between the two sides), then both sides may deploy their
-                        forces at the same time. After both sides have finished, the deployments are
-                        revealed and the players begin taking turns starting with the first
-                        player.</item>
+                        steps outline this process: <list rend="bulleted">
+                            <item>The players flip another coin to determine which shall go first. </item>
+                            <item>The first player will arrange their forces along their back line.
+                                Units not placed on the back line must be placed as close as
+                                possible and measure distance for movement on their first turn as if
+                                they started on the back line. The second player will then do the
+                                same. <list rend="bulleted">
+                                    <item>Alternately, if some way of hiding the deployments can be
+                                        arranged (such as with a curtain between the two sides),
+                                        then both sides may deploy their forces at the same time.
+                                        After both sides have finished, the deployments are revealed
+                                        and the players begin taking turns starting with the first
+                                        player.</item>
+                                </list></item>
+                        </list>
+                    </item>
                 </list>
             </div>
 
             <div>
-                <head><label>2.3</label>Turns</head>
                 <list rend="bulleted">
-                    <item>A player’s turn will consist of several phases outlined below. These
-                        phases must be resolved in order. After the Aftermath stage of a player’s
-                        turn has finished, the next player will start the Command phase of their
-                        turn. </item>
-                    <item><label>2.3.1Command:</label> In this phase, the player will move their
+                    <head><label>2.3</label> Turns</head>
+                    <item>A player’s turn will consist of several phases: Command, Hand-to-hand
+                        Fighting, and the Aftermath. These phases are outlined below. These phases
+                        must be resolved in order. After the Aftermath stage of a player’s turn has
+                        finished, the next player will start the Command phase of their turn. </item>
+                    <item><label>2.3.1 Command:</label> In this phase, the player will move their
                         cannons and units across the battlefield as well as fire their cannons. This
                         phase is timed, with an allowance of determined by the size of the original
                         forces as follows: 1 minute for every 30 units and 1 minute for each cannon.
@@ -217,21 +225,23 @@
                                     >manned</emph> cannons controlled by the current player must be
                                 moved/fired before any of their units. The only exception being
                                 units that are moved up with a cannon after it moves.</item>
-                            <item>Activate Units: After cannons have been moved/fired, any and all
-                                units may be moved across the battlefield up to their speed value (1
-                                foot for infantry, 2 feet for cavalry). Any units that are
-                                considered in <emph rend="italic">contact</emph> after moving will
-                                trigger a <emph rend="italic">mêlée</emph> in the next phase.</item>
+                            <item><label>Activate Units:</label> After cannons have been
+                                moved/fired, any and all units may be moved across the battlefield
+                                up to their speed value (1 foot for infantry, 2 feet for cavalry).
+                                Any units that are considered in <emph rend="italic">contact</emph>
+                                after moving will trigger a <emph rend="italic">mêlée</emph> in the
+                                next phase.</item>
                         </list>
                     </item>
                     <item><label>2.3.2 Hand-to-Hand Fighting:</label> In this phase, the players
-                        will resolve the outcome of any mêlées that were triggered from the previous
-                        phase. The following steps will be repeated as needed for every mêlée on the
-                        battlefield. This phase is not timed. <list rend="bulleted">
-                            <item><label>Choose mêlée:</label> The current player selects one of
-                                their units that is in contact with an enemy unit. This will be the
-                                center point of the <emph rend="italic">mêlée</emph> for the
-                                following steps.</item>
+                        will resolve the outcome of any <emph rend="italic">mêlées</emph> that were
+                        triggered from the previous phase. The following steps will be repeated as
+                        needed for every <emph rend="italic">mêlée</emph> on the battlefield. This
+                        phase is not timed. <list rend="bulleted">
+                            <item><label>Choose <emph rend="italic">mêlée</emph>:</label> The
+                                current player selects one of their units that is in contact with an
+                                enemy unit. This will be the center point of the <emph rend="italic"
+                                    >mêlée</emph> for the following steps.</item>
                             <item><label>Determine Forces:</label> Each unit within 6 inches from
                                 the center point of the <emph rend="italic">mêlée</emph> will be
                                 counted for each force. If both sides are equal, isolation is not a
@@ -242,25 +252,29 @@
                                     rend="italic">isolated</emph> measuring from the center point of
                                 the <emph rend="italic">mêlée</emph>. If any unit of the inferior
                                 force is considered isolated, the entire force is isolated.</item>
-                            <item><label>Resolve mêlée:</label> This step is where the casualties
-                                and <emph rend="italic">prisoners</emph> are determined for the
-                                    <emph rend="italic">mêlée</emph>. If the forces are equal or the
-                                inferior side is not <emph rend="italic">isolated</emph>, each unit
-                                kills an opposing unit if it can and then is killed. This continues
-                                until no more units of an opposing side are within the <emph
-                                    rend="italic">mêlée</emph>. If the inferior force is <emph
-                                    rend="italic">isolated</emph>, a number of their units become
-                                    <emph rend="italic">prisoners</emph> equal to the difference
-                                between the forces. The remaining units then kill one unit and die
-                                as outlined above. The current player determines which units (of
-                                either side) are made <emph rend="italic">prisoners</emph> and which
-                                are killed during a <emph rend="italic">mêlée</emph>.</item>
+                            <item><label>Resolve <emph rend="italic">mêlée</emph>:</label> This step
+                                is where the casualties and <emph rend="italic">prisoners</emph> are
+                                determined for the <emph rend="italic">mêlée</emph>. <list>
+                                    <item>If the forces are equal or the inferior side is not <emph
+                                            rend="italic">isolated</emph>, each unit kills an
+                                        opposing unit if it can and then is killed. This continues
+                                        until no more units of an opposing side are within the <emph
+                                            rend="italic">mêlée</emph>. </item>
+                                    <item>If the inferior force is <emph rend="italic"
+                                            >isolated</emph>, a number of their units become <emph
+                                            rend="italic">prisoners</emph> equal to the difference
+                                        between the forces. The remaining units then kill one unit
+                                        and die as outlined above. The current player determines
+                                        which units (of either side) are made <emph rend="italic"
+                                            >prisoners</emph> and which are killed during a <emph
+                                            rend="italic">mêlée</emph>.</item>
+                                </list></item>
                         </list>
                     </item>
                     <item><label>2.3.3 Aftermath: </label>After all <emph rend="italic"
                             >mêlées</emph> have been resolved, some steps need to be taken to
                         determine the new state of the battle. Each player must perform the
-                        following steps for their units. <list rend="bulleted">
+                        following steps for their units: <list rend="bulleted">
                             <item><label>Determine Status of Cannons:</label> During this step,
                                 players determine which cannons are currently <emph rend="italic"
                                     >manned</emph> by each force. If a cannon has no friendly units
@@ -270,17 +284,18 @@
                                 enemy player may use this cannon as if it were part of their force
                                 on their next turn.</item>
                             <item><label>Determine Status of Prisoners:</label> With units moving
-                                across the battlefield and being killed, that status of <emph
+                                across the battlefield and being killed, the status of <emph
                                     rend="italic">prisoners</emph> may have changed. During this
                                 step, both players determine which of their captured <emph
                                     rend="italic">prisoners</emph> are currently escorted. Escorted
                                     <emph rend="italic">prisoners</emph> are moved by the opposing
                                 player on their turn, but unescorted <emph rend="italic"
-                                    >prisoners</emph> may be moved normally by their player. <emph
-                                    rend="italic">Prisoners</emph> that return to their own backline
-                                are no longer considered <emph rend="italic">prisoners</emph> during
-                                this step and any <emph rend="italic">prisoners</emph> brought to
-                                the enemy backline are removed from play as well. </item>
+                                    >prisoners</emph> may be moved normally by the player to whom
+                                they belong. <emph rend="italic">Prisoners</emph> that return to
+                                their own backline are no longer considered <emph rend="italic"
+                                    >prisoners</emph> during this step and any <emph rend="italic"
+                                    >prisoners</emph> brought to the enemy backline are removed from
+                                for the duration of the game.</item>
                         </list>
                     </item>
                 </list>
@@ -288,20 +303,20 @@
 
             <div>
                 <list>
-                    <head>3. Game Modes</head>
-                    <item><label>3.1 Fight to the Finish</label> This is the standard way to play
+                    <head><label>3.</label> Game Modes</head>
+                    <item><label>3.1 Fight to the Finish:</label> This is the standard way to play
                         the game. The objective is to kill, capture, or drive back the entirety of
                         your enemy’s forces. Both sides continue to fight until either all units of
                         one side retreat, are killed/captured, or both sides are reduced to below 15
                         units (which results in a draw).</item>
-                    <item><label>3.2 The Blow at the Rear</label> The objective of this game mode is
-                        to be the first player to get at least three of their units to the
+                    <item><label>3.2 The Blow at the Rear:</label> The objective of this game mode
+                        is to be the first player to get at least three of their units to the
                         opponent’s back line. At this point, the defeated player has suffered a
                         strategic loss and has 6 of their turns to retreat as many units as possible
-                        over their back line. Any units that have not retreated after the 6th turn
-                        are captured by the victor. This game mode is designed for a smaller and
-                        more constrained Country and is much shorter than a Fight to the Finish. </item>
-                    <item><label>3.3 Defensive</label> In this game mode, one player is designated
+                        over their back line. The victor captures any units that have not retreated
+                        after the 6th turn. This game mode is designed for a smaller and more
+                        constrained Country and is much shorter than the Fight to the Finish mode. </item>
+                    <item><label>3.3 Defensive:</label> In this game mode, one player is designated
                         as the defender while the other is the attacker. The objective for the
                         attacker is to get ¼ of their original units to the defender’s back line,
                         while the defender must prevent this. The defender must have a force that is
@@ -310,9 +325,9 @@
                         player (without a coin flip) and may deploy their units anywhere on their
                         side, as long as they are not within one move of the center of the
                         battlefield. The attacker will then deploy their units, which may be within
-                        one move of their back line. The defender may ignore the restriction on
+                        one move of their own back line. The defender may ignore the restriction on
                         cannons firing on the first turn and may open fire immediately.</item>
-                    <item><label>3.4 Campaign</label>Several battles may be strung together to
+                    <item><label>3.4 Campaign:</label> Several battles may be strung together to
                         create a campaign, where players will score points at the end of each battle
                         adding them up until an ultimate victor is found. All three types of battles
                         may be fought in any combination during a campaign. Once a battle is over,
@@ -320,8 +335,8 @@
                             <item>The winning side gains 100 points (each side gets 50 points on a
                                 draw).</item>
                             <item>Each side gains points for the value of each of their remaining
-                                units that are alive and uncaptured. The players get 1 point for
-                                infantry, 1 ½ points for cavalry, and 10 points for each cannon they
+                                units that are alive and not captured. The players get 1 point for
+                                infantry, 1-½ points for cavalry, and 10 points for each cannon they
                                 currently control or are in a position to take.</item>
                             <item>Each side gains ½ point for each prisoner captured and ½ point for
                                 each prisoner the enemy captured. </item>
