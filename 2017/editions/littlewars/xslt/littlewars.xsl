@@ -163,10 +163,10 @@
   
   <xsl:template match="ref">
     <xsl:choose>
-      <xsl:when test="starts-with(@target, '#')">
+      <xsl:when test="starts-with(@target, '#fig')">
         <a>
           <xsl:attribute name="href">
-            <xsl:text>http://cors1601.unl.edu/cocoon/scholarlyediting_development/2017/editions/littlewars/fulltext.html</xsl:text><xsl:value-of select="@target"/>
+            <xsl:value-of select="@target"/>
           </xsl:attribute>
           <xsl:attribute name="id">inline<xsl:value-of select="substring-after(@target, '#')"/></xsl:attribute>
           <xsl:attribute name="class">edition_notes</xsl:attribute>
@@ -185,45 +185,7 @@
           <xsl:apply-templates/>
         </a>
       </xsl:when>
-      <xsl:when test="@type = 'figure'">
-        <span class="viewsize">
-          <a>
-            <xsl:attribute name="href">
-              <xsl:text>figures/viewsize/</xsl:text>
-              <xsl:value-of select="descendant::tei:graphic/attribute::url"/>
-              <xsl:text>.jpg</xsl:text>
-            </xsl:attribute>
-            <xsl:attribute name="title">
-              <xsl:value-of select="child::tei:figure/child::tei:head"/>
-              <xsl:if test="string(child::tei:figure/child::tei:p)">
-                <xsl:value-of select="concat('&lt;br &gt;', child::tei:figure/child::tei:p[normalize-space()])" />
-              </xsl:if>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-          </a>
-        </span>
-      </xsl:when>
-      <!-- Scholarly editing links are type=html -->
-      <xsl:when test="@type='html'">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="@target"/>
-            <xsl:text>.html</xsl:text>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <xsl:otherwise>
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="concat('#', @target)"/>
-          </xsl:attribute>
-          <xsl:attribute name="class">
-            <xsl:text>internal_link</xsl:text>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:otherwise>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   
@@ -303,7 +265,7 @@
       </span></xsl:otherwise></xsl:choose>
   </xsl:template>
   
-  <xsl:template match="list[not(ancestor::list)]/item/pb">
+  <xsl:template match="list[not(ancestor::list)]/item/pb | list[not(ancestor::list)]/item/p/pb | list[not(ancestor::list)]/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
         <xsl:attribute name="class">
@@ -352,7 +314,7 @@
       </span></xsl:otherwise></xsl:choose>
   </xsl:template>
   
-  <xsl:template match="list[not(ancestor::list)]/item/p/pb">
+  <!--<xsl:template match="list[not(ancestor::list)]/item/p/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
         <xsl:attribute name="class">
@@ -399,7 +361,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-  </xsl:template>
+  </xsl:template>-->
   
   <xsl:template match="list/item/list/item/pb">
     <xsl:choose>
@@ -454,11 +416,11 @@
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
         <xsl:attribute name="class">
-          <xsl:text>pagebreak</xsl:text>
+          <xsl:text>pagebreak_list_misc</xsl:text>
         </xsl:attribute></span></xsl:when>
       <xsl:otherwise><span>
         <xsl:attribute name="class">
-          <xsl:text>pagebreak</xsl:text>
+          <xsl:text>pagebreak_list_misc</xsl:text>
         </xsl:attribute>
         <span class="tei_thumbnail">
           <a>
