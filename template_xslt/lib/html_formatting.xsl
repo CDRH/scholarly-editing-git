@@ -433,11 +433,7 @@
   <!-- ================================================ -->
 
   <xsl:template match="div1 | div2 | div3 | div4">
-    <xsl:choose>
-      <xsl:when test="@type = 'html'">
-        <xsl:copy-of select="."/>
-      </xsl:when>
-      <xsl:otherwise>
+
         <div>
           <xsl:attribute name="class">
             <xsl:value-of select="@type"/>
@@ -453,8 +449,6 @@
           </xsl:if>
           <xsl:apply-templates/>
         </div>
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
 
 

@@ -73,24 +73,12 @@
 				  <xsl:if test="//tei:note[@type='an']">				  
                                     <h2>Explanatory Notes</h2>
                                     <xsl:for-each select="//tei:div1/descendant::tei:note[@place='foot']">
-                                        <div>
-                                            <xsl:attribute name="class">altnote</xsl:attribute>
-                                            <xsl:attribute name="id">note<xsl:value-of select="@n"/></xsl:attribute>
-                                            <p class="footnote">
-                                                <a>
-                                                    <xsl:attribute name="name">
-                                                        <xsl:value-of select="@xml:id"/>
-                                                    </xsl:attribute>
-                                                </a>
-                                                <span class="small">
-                                                    <xsl:variable name="n" select="concat('an',@n)"/>
-                                                    <span class="superscript">
-                                                        <xsl:value-of select="@n"/>
-                                                    </span>
-                                                    <xsl:apply-templates/>
-                                                </span>
-                                            </p>
-                                        </div>
+                                      <div class="footnote">
+                                        <xsl:attribute name="id">
+                                          <xsl:value-of select="@xml:id"/>
+                                        </xsl:attribute>
+                                        <xsl:apply-templates select="." mode="footnotes"/>
+                                      </div>
                                     </xsl:for-each>
 				  </xsl:if>
                                     <!--<br class="clear"/>--><!-- kmd -->

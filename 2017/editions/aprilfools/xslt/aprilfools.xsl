@@ -15,7 +15,10 @@
   <xsl:import href="print.xsl"/>
   
   
-  <xsl:output method="xml" indent="yes" encoding="UTF-8" omit-xml-declaration="yes"/>
+  <xsl:output doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" encoding="UTF-8" indent="no"
+    media-type="text/html; charset=UTF-8" method="xhtml" omit-xml-declaration="yes"/>
+  
   
   <!-- ==================================================================== -->
   <!--                           PARAMETERS                                 -->
@@ -64,7 +67,7 @@
         
         <!-- $body_author
          must be in <div class="body_author"> -->
-        <div class="body_author">Leslie Myrick and Christopher Ohge <small>Mark Twain Project, University of California, Berkeley</small></div>
+        <div class="body_author">Leslie Myrick and Christopher Ohge <em>Mark Twain Project, University of California, Berkeley</em></div>
         
         <!-- $edition_navigation 
          Each <li> is pulled in and new navigation is constructed. Appending #page_info at the end sets the 
@@ -96,7 +99,7 @@
             </xsl:when>
             <xsl:when test="$pageid = 'edition'">
               <br/>
-                  <xsl:call-template name="sidebar"/>
+                  <xsl:call-template name="letter_table"/>
             </xsl:when>
             <xsl:otherwise>
               <xsl:apply-templates/>
@@ -128,7 +131,44 @@
   
   <xsl:template match="sex"><div class="sex">Sex: <xsl:apply-templates/></div></xsl:template>
   
-  <xsl:template match="note"><div class="note"> <xsl:apply-templates/></div></xsl:template>
+  <xsl:template match="note">
+    <xsl:choose>
+      <xsl:when test="@place = 'foot'">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:text>#</xsl:text>
+            <xsl:value-of select="@xml:id"/>
+          </xsl:attribute>
+          <xsl:attribute name="id">inline<xsl:value-of select="@xml:id"/></xsl:attribute>
+          <xsl:attribute name="class">edition_notes</xsl:attribute>
+          <sup>
+            <xsl:text>[</xsl:text>
+                <xsl:value-of select="@n"/>
+            <xsl:text>]</xsl:text>
+          </sup>
+        </a>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:element name="span">
+          <xsl:attribute name="class">
+            <xsl:text>tei_note</xsl:text>
+            <xsl:if test="@n">
+              <xsl:text> </xsl:text>
+              <xsl:value-of select="translate(@n,':','')"/>
+            </xsl:if>
+          </xsl:attribute>
+          <xsl:if test="@n">
+            <xsl:text> [</xsl:text>
+            <em>
+              <xsl:value-of select="@n"/>
+            </em>
+            <xsl:text>] </xsl:text>
+          </xsl:if>
+          <xsl:apply-templates/>
+        </xsl:element>
+     </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   
   <!-- Other -->
   
@@ -141,13 +181,67 @@
     <br/><span class="tei_sourceline"><xsl:apply-templates/></span>
   </xsl:template>
   
-  <!-- Individual projects can override matched templates from the
-     imported stylesheets above by including new templates here -->
-  <!-- Named templates can be overridden if included in matched templates
-     here.  You cannot call a named template from directly within the stylesheet tag
-     but you can redefine one here to be called by an imported template -->
   
-  <xsl:template name="sidebar">
+  <!-- Rules added to get the letters to look like their HTML counterparts -KMD -->
+  
+  <!-- handles [rule] in opener when it is supposed to float right -->
+  
+  <xsl:template match="note[@type='ed'][@place='inline'][ancestor::opener]" priority="2">
+    <div class="right">
+    <xsl:text>[</xsl:text>
+      <em><xsl:apply-templates/></em>
+    <xsl:text>]</xsl:text>
+    </div>
+  </xsl:template>
+  
+  <!-- handles [rule] elsewhere when it is supposed to be inline -->
+  
+  <xsl:template match="note[@type='ed'][@place='inline']" priority="1">
+   
+      <xsl:text>[</xsl:text>
+    <em><xsl:apply-templates/></em>
+      <xsl:text>]</xsl:text>
+    
+  </xsl:template>
+  
+  <xsl:template match="opener"><span class="opener"><xsl:apply-templates/></span></xsl:template>
+  
+  <!-- notes should only appear in intro, as they are handled by print stylesheet otherwise -->
+  <xsl:template match="text">
+    
+    <xsl:apply-templates/>
+    <xsl:if
+      test="
+      (//body//note[@type = 'editorial']
+      or //body//note[@place = 'foot']
+      or //back//note) and $idno = 'intro'">
+      <div class="notesList">
+        <h2>Notes</h2>
+        <xsl:for-each select="//text//note">
+          <div class="footnote">
+            <xsl:attribute name="id">
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="." mode="footnotes"/>
+          </div>
+        </xsl:for-each>
+      </div>
+    </xsl:if>
+  </xsl:template>
+  
+  <!-- adding stanza so I can style -->
+  
+  <xsl:template match="lg[@type='stanza']">
+    <p class="stanza"><xsl:apply-templates/></p>
+  </xsl:template>
+
+  
+  <!-- ~~~~~~~~~~~
+    The contents of this table are created using the _sidebar_generator.xsl file in the xslt folder.
+    So far I've just been manually pasting in the results. -KMD
+    ~~~~~~~~~~~~~~ -->
+  
+  <xsl:template name="letter_table">
  <table class="table table-condensed table-sortable">
    <thead>
       <tr>

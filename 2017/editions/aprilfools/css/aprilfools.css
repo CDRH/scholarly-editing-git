@@ -98,3 +98,77 @@ p.right {text-align:right;}
 .italic {
  font-style: italic;
 }
+
+.page_info h3 em {
+	display: block;
+	font-size: .7em;
+}
+
+/* Here starts a section where I am trying to get the XML to look liek the HTML version -KMD */
+
+.right {float:right;}
+
+p {clear:both;}
+
+span.address {margin:0; padding:0;}
+
+.em-space {height:1px;}
+
+.indentdateline {
+	margin: 0;
+	padding: 0;
+}
+
+.indentdateline br + br {
+	display: none;
+}
+
+.address br + br {
+	display: none;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+
+.xs-smallcaps {
+	font-variant: small-caps;
+	font-size: .9em;
+}
+
+.noindent {
+	display: inline;
+}
+
+div.note {
+	display: inline;
+}
+
+span.paraph {
+	display: inline;
+}
+
+p.stanza {
+	
+	line-height: 1em;
+}
+
+.opener {
+	margin-bottom: .5em;
+}
+
+table.form {
+	border:  1px solid #000;
+	
+}
+
+table.form td {
+	padding: .5em;
+}
+
+
+
+
+
+
+
