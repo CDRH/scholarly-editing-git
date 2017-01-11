@@ -114,11 +114,11 @@
       <head><title>Side by Side view</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> &#160; </script>
         <script src="../../js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js"> &#160; </script>
-        <link href="../../css/dunning.css" rel="stylesheet" type="text/css"/>
+        <link href="../editions/Dunning_De-oratione-dominica/css/dunning.css" rel="stylesheet" type="text/css"/>
         <link href="../../js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css"/>
-        <!--<script src="../../js/javascript.js"> &#160; </script>-->
-        <script src="../../js/dunning.js"> &#160; </script>
-        <script src="../../js/dunning-sidebyside.js"> &#160; </script>
+        <!--<script src="../editions/Dunning_De-oratione-dominica/js/javascript.js"> &#160; </script>-->
+        <script src="../editions/Dunning_De-oratione-dominica/js/dunning.js"> &#160; </script>
+        <script src="../editions/Dunning_De-oratione-dominica/js/dunning-sidebyside.js"> &#160; </script>
       </head>
       <body class="dunning side_by_side dunning_{$display_type}">
         
@@ -129,7 +129,7 @@
         <div class="sidebysideEditionHeader">
           
           <div class="compressedMasthead">
-            <a href="{$siteroot}"><img src="template_images/compressed_logo.png"/></a>
+            <a href="{$siteroot}"><img src="../../template_images/compressed_logo.png"/></a>
             
           </div>
           
@@ -180,10 +180,10 @@
               
               
             <xsl:choose>
-              <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../xml/de-oratione-dominica.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../xml/de-oratione-dominica.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
               
             </xsl:choose>
             </div>
@@ -192,10 +192,10 @@
            
             
             <xsl:choose>
-              <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
-              <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../2016/editions/Dunning_De-oratione-dominica/xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'a'"><xsl:apply-templates select="document('../xml/de-quinque-septenis.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'b'"><xsl:apply-templates select="document('../xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'c'"><xsl:apply-templates select="document('../xml/de-oratione-dominica-trans.xml')/TEI"/></xsl:when>
+              <xsl:when test="$display_type = 'd'"><xsl:apply-templates select="document('../xml/de-quinque-septenis-trans.xml')/TEI"/></xsl:when>
               
             </xsl:choose>
            <!-- 

@@ -54,7 +54,7 @@
                       <script src="{$siteroot}2016/editions/Dunning_De-oratione-dominica/js/dunning.js"> &#160; </script>
                     </xsl:when>
                     <xsl:when test="contains($idno, 'BinyonDestree')">
-                      <link href="{$siteroot}2016/editions/BinyonDestree/css/" rel="stylesheet"
+                      <link href="{$siteroot}2016/editions/BinyonDestree/css/BinyonDestree.css" rel="stylesheet"
                             type="text/css"/>
                         <!--<script src="{$siteroot}js/BinyonDestree.js"> &#160; </script>-->
                     </xsl:when>
@@ -1371,7 +1371,7 @@ by bots, spammers, and other evildoers -->
                                 </xsl:variable>
 
                                 <xsl:for-each
-                                    select="document('../2012/editions/utctopsy/xml/utc_variants.xml')/tei:TEI">
+                                    select="document('../../2012/editions/utctopsy/xml/utc_variants.xml')/tei:TEI">
                                     <xsl:for-each select="descendant::tei:item/tei:app">
                                         <xsl:variable name="appID">
                                             <xsl:for-each select="./attribute::loc">
@@ -1469,7 +1469,7 @@ by bots, spammers, and other evildoers -->
                                     />
                                 </xsl:variable>
                                 <xsl:for-each
-                                    select="document('../2016/editions/youngidea/variants.youngidea.xml')/tei:TEI">
+                                    select="document('../../2016/editions/youngidea/xml/variants.youngidea.xml')/tei:TEI">
                                     <xsl:for-each select="descendant::tei:item/tei:app">
                                         <xsl:variable name="appID">
                                             <xsl:for-each select="./attribute::loc">
@@ -1614,7 +1614,7 @@ by bots, spammers, and other evildoers -->
                             <a href="#" class="closenote">X</a>
                             <div class="appRdg">
                                 <xsl:for-each
-                                    select="doc('../2015/editions/stufaiuolo/stufaiuolo.valentiniana.xml')//tei:msDesc">
+                                    select="doc('../../2015/editions/stufaiuolo/stufaiuolo.valentiniana.xml')//tei:msDesc">
                                     <h1>Manuscript Description, Valentiniana MS</h1>
                                     <p>
                                         <xsl:for-each select="//tei:msIdentifier/*">
@@ -1787,7 +1787,7 @@ by bots, spammers, and other evildoers -->
                             <a href="#" class="closenote">X</a>
                             <div class="appRdg">
                                 <xsl:for-each
-                                    select="doc('../2015/editions/stufaiuolo/stufaiuolo.riccardiana.xml')//tei:msDesc">
+                                    select="doc('../../2015/editions/stufaiuolo/stufaiuolo.riccardiana.xml')//tei:msDesc">
                                     <h1>Manuscript Description, Riccardiana MS</h1>
                                     <p>
                                         <xsl:for-each select="//tei:msIdentifier/*">
