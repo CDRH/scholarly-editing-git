@@ -76,7 +76,7 @@
                 <xsl:if test="$environment = 'development'">
                     <style>
                         body{
-                            background-color: #ff9300;
+                            <!--background-color: #ff9300;--> <!-- Hurts my eyes :( -kmd -->
                             border-top: solid 10px red;
                         }</style>
                 </xsl:if>
@@ -905,6 +905,12 @@
                                     <xsl:text>cranchjournal/pages/viewsize/</xsl:text>
                                     <xsl:value-of select="child::tei:graphic/attribute::url"/>
                                 </xsl:when>
+                              <xsl:when test="$editionName = 'stufaiuolo' and /tei:TEI/tei:teiHeader[1]/tei:fileDesc[1]/tei:publicationStmt[1]/tei:idno[@type='file'] = 'intro.stufaiuolo'">
+                                <xsl:for-each select="child::tei:graphic">
+                                  <xsl:text>stufaiuolo/media/</xsl:text>
+                                  <xsl:value-of select="substring(./attribute::url, 7)"/>
+                                </xsl:for-each>
+                              </xsl:when>
                                 <xsl:when test="$editionName = 'stufaiuolo'">
                                     <xsl:for-each select="child::tei:graphic">
                                         <xsl:text>stufaiuolo/pages/viewsize/</xsl:text>
@@ -1614,7 +1620,7 @@ by bots, spammers, and other evildoers -->
                             <a href="#" class="closenote">X</a>
                             <div class="appRdg">
                                 <xsl:for-each
-                                    select="doc('../../2015/editions/stufaiuolo/stufaiuolo.valentiniana.xml')//tei:msDesc">
+                                    select="doc('../../2015/editions/stufaiuolo/xml/stufaiuolo.valentiniana.xml')//tei:msDesc">
                                     <h1>Manuscript Description, Valentiniana MS</h1>
                                     <p>
                                         <xsl:for-each select="//tei:msIdentifier/*">
@@ -1787,7 +1793,7 @@ by bots, spammers, and other evildoers -->
                             <a href="#" class="closenote">X</a>
                             <div class="appRdg">
                                 <xsl:for-each
-                                    select="doc('../../2015/editions/stufaiuolo/stufaiuolo.riccardiana.xml')//tei:msDesc">
+                                    select="doc('../../2015/editions/stufaiuolo/xml/stufaiuolo.riccardiana.xml')//tei:msDesc">
                                     <h1>Manuscript Description, Riccardiana MS</h1>
                                     <p>
                                         <xsl:for-each select="//tei:msIdentifier/*">

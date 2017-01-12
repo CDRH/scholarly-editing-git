@@ -115,6 +115,29 @@
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
   
+  <xsl:template match="head">
+    <h3><xsl:apply-templates></xsl:apply-templates></h3>
+    
+  </xsl:template>
+  
+  <xsl:template match="byline">
+    <h4 class="byline">
+      <xsl:choose>
+        <xsl:when test="preceding-sibling::byline">
+          <xsl:choose>
+            <xsl:when test="following-sibling::byline">
+              <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>and <xsl:apply-templates/></xsl:otherwise>
+          </xsl:choose>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </h4>
+  </xsl:template>
+  
 <!-- Personography -->
   
   <xsl:template match="listPerson/person">

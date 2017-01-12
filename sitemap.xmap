@@ -786,7 +786,7 @@
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/lowelledition_**.html">
                 <map:generate src="2015/editions/lowelledition/xml/lowelledition.xml"/>
-                <map:transform type="xslt" src="2015/editions/lowelledition/xslt/lowelledition.xsl">
+                <map:transform type="xslt" src="2015/editions/lowelledition/xsl/lowelledition.xsl">
                     <map:parameter name="lowelledition_version" value="#{1}"/>
                 </map:transform>
                 <map:serialize type="html"/>
@@ -795,7 +795,7 @@
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/intro.lowelledition.html">
                 <map:generate src="2015/editions/lowelledition/xml/intro.lowelledition.xml"/>
-                <map:transform type="xslt" src="2015/editions/lowelledition/xslt/lowelledition.xsl"/>
+                <map:transform type="xslt" src="2015/editions/lowelledition/xsl/lowelledition.xsl"/>
                 <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
@@ -868,13 +868,13 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal/**.png">
-                <map:read src="2014/editions/cranchjournal/{1}.png"/>
+                <map:read src="2014/editions/cranchjournal/images/{1}.png"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal/**.jpg">
-                <map:read src="2014/editions/cranchjournal/{1}.jpg"/>
+                <map:read src="2014/editions/cranchjournal/images/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
@@ -1009,7 +1009,7 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/markonthewall/**.jpg">
-                <map:read src="2014/editions/markonthewall/{1}.jpg"/>
+                <map:read src="2014/editions/markonthewall/images/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
@@ -1143,15 +1143,15 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/haley.**.html">
-                <map:generate src="2014/editions/haley/haley.{1}.xml"/>
-                <map:transform type="xslt" src="xslt/haley.xsl"> </map:transform>
+                <map:generate src="2014/editions/haley/xml/haley.{1}.xml"/>
+              <map:transform type="xslt" src="2014/editions/haley/xslt/haley.xsl"> </map:transform>
                 <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/intro.haley.html">
-                <map:generate src="2014/editions/haley/intro.haley.xml"/>
-                <map:transform type="xslt" src="xslt/haley.xsl"> </map:transform>
+                <map:generate src="2014/editions/haley/xml/intro.haley.xml"/>
+              <map:transform type="xslt" src="2014/editions/haley/xslt/haley.xsl"> </map:transform>
                 <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
@@ -1543,6 +1543,12 @@
       <map:pipeline type="noncaching">
         <map:match pattern="template_js/**">
           <map:read src="template_js/{1}"/>
+        </map:match>
+      </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="images/*">
+          <map:read src="template_images/{1}"></map:read>
         </map:match>
       </map:pipeline>
 

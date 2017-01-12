@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Extracts from <hi rend="italics">The Young
+                    Idea</hi></title>
+                <author>Mary Isbell</author>
+                <author>Teresa Navarro</author>
+                <author>Katelyn Sahagian</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>juxta</addrLine>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                        <addrLine>http://cdrh.unl.edu</addrLine>
+                    </address>
+                </distributor>
+                <date>2015</date>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and the Center
+                        for Digital Research in the Humanities at the University of Nebraska-Lincoln
+                        and licensed under a Creative Commons Attribution-NonCommercial-Share Alike
+                        3.0 Unported License</p>
+                </availability>
+                <idno type="file">intro</idno>
+                <idno type="edition">aprilfools</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="ag">Amanda Gailey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id="awj">Andrew Jewell</name>
+                </respStmt>
+                <idno type="vol">37</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Mary Isbell</author>
+                    <author>Teresa Navarro</author>
+                    <author>Katelyn Sahagian</author>
+                    <title level="m" type="main">Extracts from <hi rend="italics">The Young
+                            Idea</hi></title></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="main">Editorial Introduction</head>
+            <head type="sub"><title>Mark Twain: April Fool, 1884</title></head>
+            <lb/>
+            <byline>Leslie Myrick and Christopher Ohge</byline>
+
+        </front>
+        <body>
+            <div type="section">
+                <p>Lorum Ipsum</p>
+            </div>
+        </body>
+    </text>
+</TEI>
