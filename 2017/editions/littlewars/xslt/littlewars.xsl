@@ -93,7 +93,7 @@
       or //back//note">
       <div class="notesList">
         <h2>Notes</h2>
-        <xsl:if test="preceding::bibl//note[@type='project']"><div class="footnote"><xsl:apply-templates select="preceding::bibl//note[@type='project']"/></div></xsl:if>
+        <xsl:if test="preceding::bibl//note[@type='project']"><div class="footnote"><xsl:apply-templates select="preceding::bibl//note[@type='project']"/></div><br/></xsl:if>
         <xsl:for-each select="//text//note[not(@place='bottom')][not(@place='foot')]">
           <div class="footnote">
             <xsl:attribute name="id">
@@ -162,7 +162,31 @@
   </xsl:template>
   
   <xsl:template match="ref">
-    <xsl:apply-templates/>
+    <xsl:choose>
+      <xsl:when test="starts-with(@target, '#fig')">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="@target"/>
+          </xsl:attribute>
+          <xsl:attribute name="id">inline<xsl:value-of select="substring-after(@target, '#')"/></xsl:attribute>
+          <xsl:attribute name="class">edition_notes</xsl:attribute>
+          <xsl:choose>
+            <xsl:when test="text()">
+              <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>[1]</xsl:otherwise>
+          </xsl:choose>
+        </a>
+      </xsl:when>
+      <!-- external links -->
+      <xsl:when test="@type='url' or @type='link' or starts-with(@target, 'http://') or starts-with(@target, 'https://')">
+        <a>
+          <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
+          <xsl:apply-templates/>
+        </a>
+      </xsl:when>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!--title page and printer statement-->
@@ -241,7 +265,7 @@
       </span></xsl:otherwise></xsl:choose>
   </xsl:template>
   
-  <xsl:template match="list[not(ancestor::list)]/item/pb">
+  <xsl:template match="list[not(ancestor::list)]/item/pb | list[not(ancestor::list)]/item/p/pb | list[not(ancestor::list)]/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
         <xsl:attribute name="class">
@@ -290,7 +314,7 @@
       </span></xsl:otherwise></xsl:choose>
   </xsl:template>
   
-  <xsl:template match="list[not(ancestor::list)]/item/p/pb">
+  <!--<xsl:template match="list[not(ancestor::list)]/item/p/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
         <xsl:attribute name="class">
@@ -337,7 +361,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-  </xsl:template>
+  </xsl:template>-->
   
   <xsl:template match="list/item/list/item/pb">
     <xsl:choose>
@@ -388,6 +412,55 @@
       </span></xsl:otherwise></xsl:choose>
   </xsl:template>
   
+  <xsl:template match="list/item/list/pb">
+    <xsl:choose>
+      <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak_list_misc</xsl:text>
+        </xsl:attribute></span></xsl:when>
+      <xsl:otherwise><span>
+        <xsl:attribute name="class">
+          <xsl:text>pagebreak_list_misc</xsl:text>
+        </xsl:attribute>
+        <span class="tei_thumbnail">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <img>
+              <xsl:attribute name="src">
+                <xsl:text>images/thumbs/</xsl:text>
+                <xsl:value-of select="@facs"/>
+              </xsl:attribute>
+            </img>
+          </a>
+        </span>
+        <span class="viewsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:text>View Page</xsl:text>
+          </a>
+        </span>
+        <br/>
+        <span class="fullsize">
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>images/fullsize/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:attribute name="target">
+              <xsl:text>_blank</xsl:text>
+            </xsl:attribute>
+            <xsl:text>Full size in new window</xsl:text>
+          </a>
+        </span>
+      </span></xsl:otherwise></xsl:choose>
+  </xsl:template>
+  
   <!--lines and line groups in notes-->
   <xsl:template match="lg[ancestor::note]">
     <xsl:apply-templates/>
@@ -395,6 +468,48 @@
   
   <xsl:template match="l[ancestor::note]">
         <br/><span class="in_note"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <xsl:template match="list">
+    <ul><xsl:apply-templates/></ul>
+  </xsl:template>
+  
+  <xsl:template match="cell[@rend='indent']">
+    <td class="indent">
+      <xsl:apply-templates/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="hi">
+    <xsl:choose>
+      <xsl:when test="@bold">
+      <strong><xsl:apply-templates/></strong>
+    </xsl:when>
+    <xsl:when test="@italic">
+      <em><xsl:apply-templates/></em>
+    </xsl:when>
+    <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="figure">
+    <span class="figure_center">
+      <xsl:attribute name="id">
+        <xsl:value-of select="@xml:id"/>
+      </xsl:attribute>
+      <img>
+        <xsl:attribute name="src">
+          <xsl:text>images/viewsize/</xsl:text>
+          <xsl:value-of select="child::graphic/attribute::url"/>
+        </xsl:attribute>
+        <xsl:attribute name="alt">
+          <xsl:value-of select="child::figDesc"/>
+        </xsl:attribute>
+      </img></span>
+    <span class="cap"><h5>
+      <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
+    </h5>
+    </span>
   </xsl:template>
   
 </xsl:stylesheet>

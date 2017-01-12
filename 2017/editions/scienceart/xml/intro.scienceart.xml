@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
-        <fileDesc> 
+        <fileDesc>
             <titleStmt>
                 <title level="m">Introduction</title>
               
@@ -75,6 +75,10 @@
             <change when="2016-11-12" who="#rn">major revisions due to discovery of the annotated volume described below.</change> 
             <change when="2016-11-21" who="#rn">minor line edits; added Briggs quote; edited encoding of block quotes.</change>
             <change when="2016-11-29" who="rn">edited Introduction to account for bolding of "supplied" text (in the script file.)</change>
+            <change when="2016-12-07" who="rn">various edits in response to draft workup and nhg questions; section moved</change>
+            <change when="2016-12-16" who="rn">edited header of Figure 2 to credit Thomas Onwhyn</change>
+            <change when="2016-12-22" who="rn">added Stedman Jones quote; standardized all dates to British style</change>
+            <change when="2016-12-27" who="rn">changed faulty hyperlinks</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,26 +91,25 @@
                         url="Nesvet_190_0012.jpg"/>
                     <figDesc><hi rend="italic">Science and Art</hi> in the <hi rend="italic">Queen’s Magazine</hi>, vol. 1, no. 5 (August, 1842),
                         190. Photograph courtesy of the Louis Round Wilson Library, University of
-                        North Carolina, Chapel Hill, © 2016.</figDesc>
+                        North Carolina, Chapel Hill, 2016.</figDesc>
                 </figure>
                 <head>Introduction</head>
             <byline>by Rebecca Nesvet</byline>
-                <p>On July 24, 1820, an advertisement in the <hi rend="italic">London Morning
+                <p>On 24 July, 1820, an advertisement in the <hi rend="italic">London Morning
                         Post</hi> announced “The Triumph of Mechanism.” In an exhibition room in the
                     Western Exchange, Bond Street, a man-shaped machine called “PROSOPOGRAPHUS, the
                     AUTOMATON ARTIST” was reportedly drawing perfect silhouettes of astonished
                     visitors and strategically placed portrait busts. European spectators had seen
-                    other automata draw pre&#8211;programmed pictures, write the inventor’s name,
-                    and play brief pieces of music, but Prosopographus was different. This
-                    automaton’s output seemed neither predetermined by its inventor nor limited to a
-                    narrow range of options. “[T]he only Automaton in the world that takes
-                    Likenesses,” Prosopographus could complete “a Profile Likeness in one
-                        minute.”<ptr target="#note1" xml:id="nr1" n="1"/> By 1825, the advertising
-                    presented Prosopographus as an existential threat to the human artist. An ad
-                    placed in the <hi rend="italic">The Theatrical Observer and Daily Bills of the
-                        Play</hi> claimed that the “Automaton Artist [...] draws Likenesses with
-                    more certainty,” or accuracy, “than is in the power of the living hand to
-                        execute.”<ptr target="#note2" xml:id="nr2" n="2"/></p>
+                    other automata write the inventor’s name, play music, or make sounds, but
+                    Prosopographus was different. This automaton’s output seemed neither
+                    predetermined by its inventor nor limited to a narrow range of options. “[T]he
+                    only Automaton in the world that takes Likenesses,” Prosopographus could
+                    complete “a Profile Likeness in one minute.”<ptr target="#note1" xml:id="nr1"
+                        n="1"/> By 1825, the advertising presented Prosopographus as an existential
+                    threat to the human artist. An ad placed in the <hi rend="italic">The Theatrical
+                        Observer and Daily Bills of the Play</hi> claimed that the “Automaton Artist
+                    [...] draws Likenesses with more certainty,” or accuracy, “than is in the power
+                    of the living hand to execute.”<ptr target="#note2" xml:id="nr2" n="2"/></p>
                 <p>These ads played upon fears that were common during the Regency. In 1811&#8211;6,
                     the Luddites had protested the imposition of labor&#8211;saving machines upon
                     the weaving industry. In 1815, the Welsh utopian reformer Robert Owen condemned
@@ -120,42 +123,42 @@
                     answer was affirmative. The Luddites were suppressed, and Prosopographus
                     reminded Londoners that even skilled artists could find themselves replaced by
                     self&#8211;acting machines.</p>
-                <p>The same warning is issued in an obscure playscript of 1820. Titled <hi
-                        rend="italic">Science and Art, A Farce in Two Acts</hi>, this acerbic comedy
-                    concerns a young London lawyer, Jack Freeman, who falls in love with Maria, the
-                    ward of an inventor of automata, Peter Patent. This industrial&#8211;age
-                    Pantalone intends to save his nation’s industrial class a great deal of money by
-                    replacing various entire professions with his patent automata. Freeman gains
-                    access to Patent’s home to court Maria by masquerading as an automaton, in a
-                    performance choreographed by his friend Dick Lobby, another unscrupulous lawyer.
-                    When Lobby brings the pseudo&#8211;automaton to Patent’s home, the confusion of
-                    machine with human creates comic mayhem, and forces Patent to question his
-                    previous dismissal of the human in favor of the machine. Meanwhile, the
-                    denouément hints that Freeman is not in fact a self&#8211;acting individual, but
-                    a part of a social machine, for he has unwittingly performed according to a
-                    program designed by others. </p>
+                <p>The same warning is issued in an obscure playscript of 1820. <hi rend="italic"
+                        >Science and Art, A Farce in Two Acts</hi> concerns a young London lawyer,
+                    Jack Freeman, who falls in love with Maria, the ward of an inventor of automata,
+                    Peter Patent. This industrial&#8211;age Pantalone intends to save the British
+                    nation a great deal of money by replacing various entire professions with his
+                    patent automata. Freeman gains access to Patent’s home by masquerading as an
+                    automaton, in a performance choreographed by his friend Dick Lobby, another
+                    unscrupulous lawyer. When Lobby brings the pseudo&#8211;automaton to Patent, the
+                    confusion of machine with human creates comic mayhem, and forces Patent to
+                    question his previous dismissal of the human in favor of the machine. Meanwhile,
+                    the denouément hints that Freeman is not in fact a self&#8211;acting individual,
+                    but a part of a social machine, for he has unwittingly pursued Maria in
+                    accordance with a plan designed by others. </p>
                 <p>Written by the critically neglected working&#8211;class London novelist, poet,
                     and engraver Malcolm Rymer, <hi rend="italic">Science and Art</hi> is here
                     reprinted for the first time since the nineteenth century. It deserves scholarly
                     attention not only for its commentary on the Industrial Revolution, but for its
                     “second story”: that of the editor who facilitated its initial publication, the
                     author’s son James Malcolm Rymer (1814-84). In the 1840s&#8211;60s, James
-                    Malcolm Rymer achieved literary success by prolifically penning “penny bloods,”
-                    or cheap fiction serials targeting working&#8211;class readers. They included
-                    the <hi rend="italic">Dracula</hi> precursor <hi rend="italic">Varney, the
-                        Vampyre, or the Feast of Blood</hi> and <hi rend="italic">The String of
-                        Pearls, or the Barber of Fleet&#8211;street</hi>, the earliest tale of the
-                    fictional entrepreneur, machine&#8211;inventor, murderer, and early
-                    food&#8211;processing magnate Sweeney Todd.<ptr target="#note4" xml:id="nr4"
-                        n="4"/> Before these triumphs, James Malcolm Rymer published his father’s
-                    play, without attribution, in the August, 1842 fifth and final number of the <hi
-                        rend="italic">Queen’s Magazine</hi>,his earliest known publication. The play
-                    can therefore be read as the group output of a nineteenth&#8211;century literary
-                    family, whose work spanned the Romantic and Victorian periods. Moreover, as this
-                    introduction will show, <hi rend="italic">Science and Art</hi> anticipates key
-                    aspects of James Malcolm Rymer’s most successful literary invention, the
-                    enduringly horrific, diabolically ingenious Sweeney Todd. Quite possibly, the
-                   most transformative gift Malcolm Rymer gave his son was his rage against the machines.</p>
+                    Malcolm Rymer achieved considerable literary success by prolifically penning
+                    “penny bloods,” or cheap fiction serials targeting working&#8211;class readers.
+                    His bloods included the <hi rend="italic">Dracula</hi> precursor <hi
+                        rend="italic">Varney, the Vampyre, or the Feast of Blood</hi> and <hi
+                        rend="italic">The String of Pearls, or the Barber of
+                    Fleet&#8211;street</hi>, the earliest tale of the fictional entrepreneur,
+                    machine&#8211;inventor, murderer, and early food&#8211;processing magnate
+                    Sweeney Todd.<ptr target="#note4" xml:id="nr4" n="4"/> </p><p>Before these triumphs,
+                    however, James Malcolm Rymer published his father’s play <hi rend="italic"
+                        >Science and Art,</hi> without attribution, in the August, 1842 fifth and
+                    final number of the <hi rend="italic">Queen’s Magazine</hi>, his earliest known
+                        publication.<ptr target="#note5" xml:id="nr5" n="5"/> The play can therefore be read as a seminal text in James Malcolm
+                    Rymer’s literary career and the group output of his intergenerational literary
+                    family. As this introduction will show, <hi rend="italic">Science and Art</hi>
+                    intriguingly anticipates key aspects of Sweeney
+                    Todd. Quite possibly, the most transformative gift Malcolm Rymer gave his son
+                    was his rage against the machines.</p>
             </div>
             <div>
                 <head>“By Mr. M. Rymer&#8212;1820”</head>
@@ -167,46 +170,51 @@
                     Wilson Library at the University of North Carolina, Chapel Hill acquired from
                     the London antiquarian book dealer Jarndyce and Company, specialists in penny
                     bloods and dreadfuls, a partial copy of the first volume of the <hi
-                        rend="italic">Queen’s Magazine</hi>, edited by James Malcolm Rymer. This volume contains four numbers of
-                    the magazine, dated May through August 1842. The April number is missing. According to Jarndyce cataloguer and Rymer
-                    scholar Helen R. Smith, this copy of the <hi rend="italic">Queen’s Magazine</hi>
-                    had apparently been in James Malcolm Rymer’s possession. Some of its contents
-                    bear handwritten corrections. Rymer signed a play review and is also identified
-                    as the poet of “Love’s Fables,” which the printed text attributes to “George
-                    Hillier Fantome.”<ptr target="#note5" xml:id="nr5" n="5"/> An inscription at the
-                    top of the first page of <hi rend="italic">Science and Art </hi> reads “By Mr.
-                    M. Rymer&#8212;1820.” (190). I propose that this author is Malcolm Rymer. On the
+                        rend="italic">Queen’s Magazine</hi>, edited by James Malcolm Rymer. This
+                    volume contains four numbers of the magazine, dated May through August 1842. The
+                    April number is missing. According to Jarndyce cataloguer and penny bloods scholar
+                    Helen R. Smith, this copy of the <hi rend="italic">Queen’s Magazine</hi> had
+                    been in James Malcolm Rymer’s possession. Some of its contents bear handwritten
+                    corrections. Rymer signed a theatre review (13) and is also identified as the poet of
+                    “Love’s Fables,” which the printed text attributes to “George Hillier
+                        Fantome” (109).<ptr target="#note6" xml:id="nr6" n="6"/> An inscription at the top
+                    of the first page of <hi rend="italic">Science and Art </hi> reads “By Mr. M.
+                    Rymer&#8212;1820” (190). I propose that this author is Malcolm Rymer. On the
                     title&#8211;page of his 1806 novel <hi rend="italic">The Spaniard, or the Pride
                         of Birth</hi>, he styled himself “M. Rymer.” As I have shown in a
                     contribution to <hi rend="italic">Notes and Queries</hi> (forthcoming 2017),
-                    Malcolm Rymer was the only imaginative writer called “M. Rymer” who was active
-                    during the Regency or the early Victorian era. He used the abbreviation “M.
+                    Malcolm Rymer was the only male imaginative writer called “M. Rymer” who was active
+                    during the Regency or the early Victorian era. He used the abbreviation “Mr. 
                     Rymer” for the bylines of two poems he published in the <hi rend="italic"
-                        >Monthly Magazine</hi> in 1815 and 1818.<ptr target="#note6" xml:id="nr6"
-                        n="6"/> These facts make it highly unlikely that an “M. Rymer” published by
+                        >Monthly Magazine</hi> in 1815 and 1818.<ptr target="#note7" xml:id="nr7"
+                        n="7"/> These facts make it highly unlikely that an “Mr. M. Rymer” published by
                     Malcolm Rymer’s son would be intended to denote anybody else.</p>
                 <p>Can we discern if the handwritten attribution to Malcolm Rymer is accurate? I
-                    think that we can. I cannot at present identify the handwriting of the <hi
-                        rend="italic">Science and Art</hi> annotation, except to say that neither
-                    James Malcolm Rymer nor his father are likely possibilities. The hand does not
-                    match James Malcolm Rymer’s signature on the theatre review, nor Malcolm Rymer’s
-                    handwriting as represented by his 1818 inscription to his sister Helen Rymer in
-                    a presentation copy of <hi rend="italic">The Spaniard </hi> that is now in the
-                    collections of the University of California, Los Angeles. Nevertheless, it is
-                    improbable that the <hi rend="italic">Science and Art</hi> attribution is a
-                    fiction. Malcolm Rymer was an extremely obscure author during his Regency
-                    heyday. To his son’s Victorian target audience, he was entirely unknown. As he
-                    was never famous, there is no reason for anyone to have forged evidence of his
-                    authorship, in 1842 or at any subsequent time. It is equally unlikely that
-                    anyone outside his family would be sufficiently familiar with his work to
-                    erroneously but in good faith attribute a text to him.</p>
-                <p>It is also most probable that the play was indeed written in 1820. It references
-                    topical events of that particular year. Prosopographus was on display then, and the play also includes a joke about
-                    “the dissolution of Parliament” (192). One such dissolution occurred in February
-                    1820, subsequent to the death of King George III in the month before. During the
-                    1840s, however, Parliament was only dissolved and general elections held in
-                    August 1841 (an entire year before the play’s publication) and 1847. Another
-                    topical joke, a recurring one, involves Lobby’s claim that Patent, the
+                    cannot at present identify the handwriting of the <hi rend="italic">Science and
+                        Art</hi> annotation. However, neither James Malcolm Rymer nor his father are
+                    likely possibilities. The hand does not match James Malcolm Rymer’s signature on
+                    the theatre review, nor Malcolm Rymer’s handwriting as represented by his 1818
+                    inscription to his sister Helen Rymer in a presentation copy of <hi
+                        rend="italic">The Spaniard </hi> that is now in the collections of the
+                    University of California, Los Angeles.<ptr target="#note8" xml:id="nr8"
+                        n="8"/> Nevertheless, it is improbable that the
+                        <hi rend="italic">Science and Art</hi> attribution is a fiction or an error.
+                    Malcolm Rymer was an extremely obscure author during his Regency heyday. To his
+                    son’s Victorian target audience, he was entirely unknown. As he was never
+                    famous, there is no reason for anyone to have forged evidence of his authorship,
+                    in 1842 or at any subsequent time. His near-total obscurity in the 1840s also
+                    militates against the author of the inscription erroneously attributing someone
+                    else’s work to him.</p>
+                <p>Could the play have been actually written in the 1840s by James Malcolm Rymer and
+                    misattributed to his father? This is improbable, as <hi rend="italic">Science
+                        and Art</hi> seems indeed to have been written in 1820, when James Malcolm
+                    Rymer was only six years old. <hi rend="italic">Science and Art</hi> references
+                    topical events of 1820. Prosopographus was on display then. The play also
+                    includes a joke about “the dissolution of Parliament” (192). One such
+                    dissolution occurred in February 1820, subsequent to the death of King George
+                    III in the month before. During the 1840s, however, Parliament was only
+                    dissolved in June 1841 (an entire year before the play’s publication) and 1847. </p>
+                <p>A recurring topical joke involves Lobby’s claim that Patent, the
                     London&#8211;based inventor of automata, is famous in Asia, and particularly
                     celebrated in China. This would have made sense in the early years of the
                     nineteenth century but not the 1840s because in the late eighteenth and early
@@ -217,39 +225,42 @@
                     produced in their London workshop and some in Switzerland, Leschot confessed
                     that all were “engraved as though [made] in England, because it is the general
                     opinion that every thing of this kind [automata] made in that country is of
-                    better workmanship” (132).<ptr target="#note7" xml:id="nr7" n="7"/> It was also
+                    better workmanship” (132).<ptr target="#note9" xml:id="nr9" n="9"/> It was also
                     a common belief that the most zealous appreciators of such things were Chinese.
                     In the 1770s&#8211;90s, the Qianlong Emperor (d. 1799) was a frequent client of
                     this community of artisans. He became famous in Europe for his “apparently
                     insatiable” desire for automata and other London&#8211;made mechanical “toys”
-                        (318).<ptr target="#note8" xml:id="nr8" n="8"/> By 1842, the deaths of the
-                    Qianlong Emperor and all the inventors here named had evaporated this
-                    international trade network. </p>
+                        (318).<ptr target="#note10" xml:id="nr10" n="10"/> By 1842, the deaths of the
+                    Qianlong Emperor and the inventors here named had evaporated this international
+                    trade network. </p>
                 <p>Additional circumstantial evidence that <hi rend="italic">Science and Art</hi>
-                    dates to the early nineteenth century is the fact that the elderly Patent seems
-                    to have been a child of the eighteenth century rather than the nineteenth. He
-                    wears a wig long enough to appear to get caught on the fake “automaton” (197).
-                    The days of elaborate wig&#8211;wearing among men outside the legal profession
-                    were much closer to 1820 than 1842. An old man in 1820, as Patent is, could be
-                    accustomed to wigs; not so a Victorian. These details suggest that <hi
-                        rend="italic">Science and Art</hi> was more likely composed in 1820 than
+                    dates to the early nineteenth century is the reference to “those who march into
+                    the field at the arbitrary pleasure of a despot.” In 1820, Napoléon’s <hi
+                        rend="italic">Grande Armée</hi> was a vivid living memory, but in 1842,
+                    Britain demonized no singular martial despot. Also, the elderly Patent seems
+                    more likely to have been a child of the eighteenth century than the nineteenth,
+                    as he wears a wig long enough to appear to be caught up by the fake “automaton”
+                    (197). The days of elaborate wig&#8211;wearing among men outside the legal
+                    profession were much closer to 1820 than 1842. An old man in 1820, as Patent is,
+                    could be accustomed to wigs; not so a Victorian. These details suggest that <hi
+                        rend="italic">Science and Art</hi> was more likely composed in 1820, as the inscription claims, than in 
                     1842. </p>
             </div>
         <div>
-            <head>1820: “Those Self&#8211;Moving Machines”</head>
+            <head>“Those Self&#8211;Moving Machines”</head>
                 <p>Malcolm Rymer seems to have been concerned throughout his career about the
-                    conflict between man and machine, science and art. <hi rend="italic">The
-                        Spaniard </hi>pits an industrious, honest sixteenth&#8211;century Madrid
-                    barber, Pedrosa de Leandrez, against the Inquisition. Temperamentally unsuited
-                    to the tonsorial trade on account of his aversion to shedding blood or causing
-                    pain, Pedrosa (as the novel usually calls him) eventually finds refuge in a more
-                    liberal country: either “England or Holland,” Rymer noncomittally concludes.<ptr
-                        target="#note9" xml:id="nr9" n="9"/> A closer look at this tale reveals a
-                    political agenda. He pits a feeling artisan versus the theory&#8211;driven
+                    conflict between man and machine, science and art. His novel <hi rend="italic"
+                        >The Spaniard </hi>pits an industrious, honest sixteenth&#8211;century
+                    Madrid barber, Pedrosa de Leandrez, against the Inquisition. Temperamentally
+                    unsuited to the tonsorial trade on account of his aversion to shedding blood or
+                    causing pain, Pedrosa (as the novel calls him) eventually finds refuge in a more
+                    liberal country: either “England or Holland” (193), the third-person omniscient
+                    narrator noncomittally concludes. A closer look at this tale reveals a political agenda. <hi rend="italic">The
+                        Spaniard</hi> pits a feeling artisan against the theory&#8211;driven
                     proverbial machine of the Inquisition, with its literal instruments of torture,
                     suggesting a criticism of the nascent Industrial Revolution.</p>
             <p> In <hi rend="italic">Science and Art</hi>, Malcolm Rymer more clearly represents
-                    this contest between mechanical and human ingenuity. “One would imagine that
+                    conflict between mechanical and artisanal ingenuity. “One would imagine that
                     [Patent] thought nothing right in this world, as his invention,” or ingenuity,
                     “is continually on the rack to make it better,” Lobby says. “I don’t know how
                     many machines he has invented,” nor “how many schemes he has proposed for the
@@ -264,13 +275,13 @@
                         nation to employ them. In the first place he contended, that the business of
                         an army, according to the system of modern tactics, might as well be managed
                         by automatons as real soldiers; this would be a wonderful saving, as it
-                        would render almost unnecessary almost the whole host of army agents, army
-                        contractors, and barrack masters. (193)<ptr target="#note10" xml:id="nr10"
-                            n="10"/></quote>Lobby concedes that an automaton army would save lives,
-                    as its soldiers would not die and could be “repaired.” However, Patent’s
-                    rhetoric is primarily economic. He rejoices in the “saving of expense to the
-                    nation,” the “wonderful saving,” and is not concerned for the livelihoods of the
-                    “whole host” of men rendered “unnecessary” by his innovation.</p>
+                        would render [...] unnecessary almost the whole host of army agents, army
+                        contractors, and barrack masters. (193)</quote>In this monologue, Lobby concedes that an automaton army
+                    would save lives, as its soldiers would not die and could be “repaired.”
+                    However, Patent’s rhetoric is primarily economic. He rejoices in the “saving of
+                    expense to the nation,” the “wonderful saving,” and is not concerned for the
+                    livelihoods of the “whole host” of men rendered “unnecessary” by his
+                    innovation.</p>
                 <p>Patent’s subsequent scheme attacks the livelihood of members of the Royal Navy.
                     “When Old Patent went down to the fleet at <placeName>Portsmouth</placeName> to
                     publish his proposals, our brave tars [sailors] would have him thrown overboard
@@ -284,41 +295,93 @@
                     already small and privileged pre&#8211;Reform electorate. This moment suggests
                     that Patent’s automata cannot improve society, so long as the power to
                     commission, purchase, and operate them remains with those who resist reform. </p>
-                <p>Rymer reinforces this idea by making Parent wrest this power away from the elite,
-                    although only for a moment. Rymer’s upper&#8211;class lawyer characters are
-                    unconcerned about Patent’s disruptive potential until they realize that his
-                    inventions could threaten their own livelihoods. When Patent tells his friend,
-                    Freeman’s lawyer uncle (“Old Freeman”), that he intends to develop a “scheme” to
-                    settle law cases “without delay or expense,” thereby making lawyers unnecessary,
-                    Old Freeman erupts in self&#8211;concerned outrage. “What? where would be the
-                    traffic, if all mankind were to settle their disputes themselves? I say, where
-                    would be the cash?” (202). The elite would need to become Luddites, Malcolm
-                    Rymer suggests, were the professions to become the targets of industrial
-                    improvement. </p>
-                <p>At the play’s comic resolution, Rymer implies that mechanical innovation is not
-                    inherently evil and that the boundary between human and machine is quite hazy.
-                    Freeman and his uncle each don the automaton costume and, by the art of
-                    play&#8211;acting, persuade Patent that they are the wondrous automaton. Here,
-                    therefore, artistic ingenuity triumphs over mechanical genius. When the ruse is
-                    exposed, Patent happily accepts his ward’s marriage to Freeman, as it is the
-                    exact match he had intended for her. This resolution uncomfortably implies that
-                    the rebellious young <hi rend="italic">innamorati</hi> in fact behave as their
-                    elders had designed, like the cogs of a machine. As the characters commemorate
-                    the engagement by dancing, Patent offers to accompany them on his “newly
-                    invented hurdy&#8211;gurdy” (207), a traditional Welsh musical instrument that
-                    contains a wheel mechanism reminiscent of clockwork. While Patent must learn the
+                <p>Malcolm Rymer reinforces this idea by making Patent wrest this power away from
+                    the elite, although only for a moment. Rymer’s upper&#8211;class lawyer
+                    characters are unconcerned about Patent’s disruptive potential until they
+                    realize that his inventions could threaten their own livelihoods. When Patent
+                    tells his friend, Freeman’s lawyer uncle (“Old Freeman”), that he intends to
+                    develop a “scheme” to settle law cases “without delay or expense,” thereby
+                    making lawyers unnecessary, Old Freeman erupts in self&#8211;concerned outrage.
+                    “What? where would be the traffic, if all mankind were to settle their disputes
+                    themselves? I say, where would be the cash?” (202). Lawyers would need to become
+                    Luddites were the professions to become the targets of industrial improvement. </p>
+                <p>The play’s comic resolution implies that mechanical innovation is not inherently
+                    evil and that the boundary between human and machine is quite hazy. Freeman and
+                    his uncle each don the automaton costume and, by the art of play&#8211;acting,
+                    persuade Patent that they are the wondrous automaton. Here, therefore, art
+                    triumphs over mechanical genius. When the ruse is exposed, Patent happily
+                    accepts his ward’s marriage to Freeman, as it is the exact match he had intended
+                    for her. This resolution uncomfortably implies that the rebellious young <hi
+                        rend="italic">innamorati</hi> in fact behave as their elders had designed,
+                    like the cogs of a machine. As the characters commemorate the engagement by
+                    dancing, Patent offers to accompany them on his “newly invented
+                    hurdy&#8211;gurdy” (207), a traditional Welsh musical instrument that contains a
+                    wheel mechanism reminiscent of clockwork. While Patent must learn the
                     pseudo&#8211;automaton’s secret&#8212;that “the most perfect machine the world
-                    ever saw” (202) is the human being&#8212;he is able to contribute his mechanical
-                    ingenuity to humanity by using it to make music and celebrate love. </p>
+                    ever saw” (202) is the human being&#8212;he is able to use his powers of
+                    invention to celebrate love&#8212;which is to say, to celebrate the appreciation
+                    of two humans for each other, above all other living and nonliving machines.</p>
                 
-                </div><div>
-                    <figure type="enlargeOnClick" n="2">
+                </div>
+            
+            <div>
+                <head>Audience and Actors</head>
+                <p>Who, if anyone, was expected to perform <hi rend="italic">Science and Art</hi>,
+                    and what was its target audience? Malcolm Rymer appears to have designed <hi
+                        rend="italic">Science and Art</hi> for domestic consumption, not
+                    professional performance. It seems never to have been produced in the commercial
+                    theatre, as journalism from 1819&#8211;60 records no notices for any public
+                    performance. However, Regency Britain had a culture of home theatricals, such as
+                    those described in Austen’s novel Mansfield Park (1814). <hi rend="italic"
+                        >Science and Art</hi> appears suited by design to this performance mode. The
+                    specified settings are all either vague and featureless or domestic. For
+                    instance, the first scene takes place in the high&#8211;living Freeman’s
+                    “lodgings at the Temple.” This impressive landmark is represented by merely a
+                    “two chairs and [a] table” (190). Likewise, Freeman meets Maria at the Opera at
+                    Covent Garden, but we do not see this momentous meeting. Instead, it is
+                    described in retrospect in Freeman’s dialogue with his servant Tom. </p>
+                <p>The play’s depiction of Patent’s premises also suggests authorial acquiescence to
+                    the limitations of domestic theatricals. The home of an eccentric inventor of
+                    anthropomorphic automata would seem ripe for scenographic creativity. Many of us
+                    have grown up entranced by the uncanny clutter of the rundown home automaton
+                    workshops in Fritz Lang’s <hi rend="italic">Metropolis</hi> (1928), Ridley
+                    Scott’s <hi rend="italic">Blade Runner</hi> (1982), or Tim Burton’s <hi
+                        rend="italic">Edward Scissorhands</hi> (1990). Conversely, <hi rend="italic"
+                        >Science and Art</hi> calls for only “The House of Mr. Patent” (193). No
+                    automata, parts, nor tools are explicitly prescribed, excepting the
+                    pseudo&#8211;automaton played by Freeman, and even his automaton costume seems
+                    amateur&#8211;proofed. It consists of a “mask and domino,” and the automaton’s
+                    mechanical nature appears merely via his stilted walk (197). Any bourgeois
+                    household would have been able to realize this stage effect. Such a community
+                    would also be able to cope with the musical requirements of the piece. The
+                    script calls for Maria’s song to be performed by or as a “symphony” (201), but
+                    in the early nineteenth century, this word did not necessarily imply a full
+                    orchestra. Another common meaning was “music in parts,” involving multiple
+                    performers, or simply “concerted or harmonious music.”<ptr target="#note11" xml:id="nr11" n="11"/> A few members of a
+                    family and their guests could easily provide this incidental music. As this
+                    scenario seems most likely in a middle-class domestic setting, where an
+                    appropriate amount of leisure time would exist, the play makes its plea on
+                    behalf of artisans alienated by industrialism to the growing middle class.</p>
+                
+            </div>
+            
+            
+            <div>
+                    
+                    
+                    
+                    
+                    
+                <head>The “Second Story”</head>
+                <figure type="enlargeOnClick" n="2">
                     <head>Figure 2</head>
-                 
-                    <figDesc>“The Spirit of the Age” in the <hi rend="italic">Queen’s Magazine</hi>, vol. 1, no. 2 (May, 1842), 76.
-                        Photograph courtesy of Cambridge University Library, © 2016.</figDesc>
+                    <graphic
+                        url="p76.CUL.cropped.jpg"/>
+                    <figDesc>Thomas Onwhyn, “The Spirit of the Age,” <hi rend="italic">Queen’s
+                            Magazine</hi> 1, no. 2 (May, 1842), 76. Photograph by Cambridge
+                        University Library, 2016. Onwhyn's initials appear on the cover of one of
+                        the books on the floor.</figDesc>
                 </figure>
-                <head>1842: The “Second Story”</head>
                 <p>Having reconstructed some Regency contexts of <hi rend="italic">Science and
                         Art</hi>, we must now turn to the play’s “second story.” “There is always a
                     second story about a published primary text,” observes the historian James P.
@@ -326,263 +389,243 @@
                 <quote>[I]t always involves at least one textual scholar or documentary editor
                         (whether or not so&#8211;called) [...] As far as the users of the texts are
                         concerned, the second story is often invisible, and its creators [...] are
-                        anonymous.<ptr target="#note11" xml:id="nr11" n="11"/></quote>
-               
-                    <hi rend="italic">Science and Art</hi>’s “second story” is that of James Malcolm
-                    Rymer’s engagement with it. What aspects of this play of 1820 might have
-                    persuaded him to publish this particular work of his father’s? The answer
-                    might be in part thematic. From a young age, Rymer <hi rend="italic">fils</hi>
-                    found himself torn between vocations in applied “science” and imaginative art,
-                    and finally, upon his emergence as an editor and author, tried to integrate them
-                    in his published work. </p>
-                    <p>As I have noted, his family was a coterie of creative people. His mother, Louisa
-                        Rymer (nee Dixon), worked as a milliner: she made hats
-                        and accessories (Collins
-                        viii). His elder brother Gaven was an artist; three engravings signed
-                    by him reside in the collection of the Guildhall Museum.<ptr target="#note12"
-                        xml:id="nr12" n="12"/> Another brother, Thomas, James Malcolm’s junior by
-                    two years, achieved considerable artistic fame on two continents. An engraver
-                    like his father, in 1838 he stood trial for forgery at
-                    the Old Bailey, London’s central criminal court. He was accused of engraving a
-                    one&#8211;pound banknote to create a fiver&#8212;a considerable sum in those
-                    days. He was found guilty and, in 1839, transported to Van Diemen’s Land for
-                    life. There and on the Australian mainland, he intermittently practiced
-                    engraving and forgery for decades. Repeatedly convicted of using his engraving
-                    knowledge to forge banknotes, he essentially dared the authorities to catch and
-                    keep him.<ptr target="#note13" xml:id="nr13" n="13"/> In 1865, during his final
-                    criminal trial, <hi rend="italic">Bell’s Life in Sydney and Sporting
-                        Chronicle</hi> facetiously called him “an artist of great <hi rend="italic"
-                        >note</hi>,” but this was not far from the truth, given his oft&#8211;tested
-                        ingenuity.<ptr target="#note14" xml:id="nr14" n="14"/> Via criminal
-                    creativity, Thomas Rymer identified himself as a scion of the artistic,
-                    fiction&#8211;making family he would never again see. </p>
-                <p>Like Thomas Rymer and the other Rymer men, James Malcolm Rymer initially learned
-                    the art and science of engraving. He also further entrenched himself in the 
-                    Rymer clan by marrying a paternal cousin, Caroline Huttly, in 1839. But he was also carving out a new path. He became a civil engineer (Collins viii). In
-                    1840, he registered a patent for engraved furniture castors. The engraving, he argued, increased the castors’ friction,
-                    making it harder for the furniture to shift about the floor.<ptr
-                        target="#note15" xml:id="nr15" n="15"/>  In 1842, he
-                    embarked upon a career that combined science, literature, and art by founding the <hi rend="italic"
-                        >Queen’s Magazine</hi>. In it, he published an engraving of himself as a
-                    distinguished, editor and writer, sitting in a wing chair before a pile of
-                    books, including a volume of Shakespeare, and conversing with an ethereal,
-                    hovering, female “spirit of the age” (Figure 2). In the Prospectus published with the first number
-                    (April 1842), Rymer promised “[t]he Magazine will consist of forty pages of
-                    original material, comprising Romance—Poetry—Character—Burlesque […]
-                    Music—Art—Science and General Literature.” He made good on this vow. The
-                    magazine’s contents eventually included original fiction, such as the earliest
-                    instalments of one of Rymer’s first bloods, (<hi rend="italic">Jane Shore,</hi>
-                    completed 1846), as well as poetry, drama, engravings of paintings, and a
-                    regular column on “Useful and Important Inventions.” The first (and, ultimately,
-                    only) instalment of this column showcased a new, controversial method of
-                    engraving, “Mr. E. Palmer’s Patent Electrotint,” which Rymer presents as a
-                    productive marriage of science and art (31). </p>
-                <p/>
-                    <figure type="enlargeOnClick" n="2"><figDesc></figDesc></figure>
-                    <p><hi rend="italic">Science and Art</hi> reiterates the theme of science’s relation
-                        to art, but it also fulfils another of the magazine’s aims: timeliness. Its
-                        concern with the displacement of the human worker with machines built to serve
-                        the interests of the industrialists remained immediate. On 21 February 1846, an editorialist for the Leeds-based Chartist newspaper <hi rend="italic">The Northern Star</hi> looked back across the 1840s and pronounced that "machinery had pounced upon us with such an unexpected hop, step, and jump that society was compelled to submit to such laws as regulations that its owners thought proper to impose" (342&#8211;3).<ptr target="#note16" xml:id="nr16" n="16"/> Another topical aspect of the 1842 published text of <hi rend="italic">Science and Art</hi> involves Patent's apparently fortuitously resemblance to an inventor who was in the news in 1842: Charles
-                        Babbage, whose “calculating engines,” the “Difference Engine” and “Analytical
-                        Engine,” were in development then and are now widely considered ancestors of the
-                        modern computer. During the summer of 1842, Babbage publicly faced the greatest
-                        challenge of his career, as the government considered whether to renew the
-                        funding of his calculating engines project, which they had begun to support
-                        financially in 1833.<ptr target="#note17" xml:id="nr17" n="17"/> Notably, Babbage’s engines, currently
-                    understood as computers, proto&#8211;computers, or calculators, were known as
-                    automata. Writing to John Wilson Croker, Peel called the Difference Engine a
-                    “scientific automaton” (263).<ptr target="#note18" xml:id="nr18" n="18"/>
-                    Therefore, Babbage and Patent invent the same sort of machine. Indeed, while the
+                        anonymous.<ptr target="#note12" xml:id="nr12" n="12"/></quote>
+                <hi rend="italic">Science and Art</hi>’s “second story” is that of its original
+                    editor, James Malcolm Rymer. What aspects of this play of 1820 might have
+                    persuaded him to publish it in August 1842?
+                    The answer might be in part thematic. From a young age, Rymer <hi rend="italic"
+                        >fils</hi> found himself torn between vocations in applied “science” and
+                    imaginative art. As I have noted, he was raised by a creative family. Malcolm
+                    Rymer wrote literature and produced engravings. 
+                    Malcolm’s wife Louisa Rymer (née Dixon), James Malcolm’s mother, worked as a
+                    milliner, making hats and accessories (Collins viii). Several of their children were
+                    artists, too. James Malcolm Rymer’s elder brother Gaven was a visual artist and
+                    engraver. Three original engravings signed by him reside in the collection of
+                    the Guildhall Museum.<ptr target="#note13" xml:id="nr13" n="13"/> Another
+                    brother, Thomas, James Malcolm’s junior by two years, achieved considerable
+                    artistic fame on two continents. An engraver like his father, in 1838 he stood
+                    trial for forgery at the Old Bailey, London’s central criminal court. He was
+                    accused of engraving a one&#8211;pound banknote to create a fiver&#8212;a
+                    considerable sum in those days. He was found guilty and transported to
+                    Van Diemen’s Land for life. There and on the Australian mainland, he
+                    intermittently practiced engraving and forgery for decades. Repeatedly convicted
+                    of using his engraving knowledge to forge banknotes, he essentially dared the
+                    authorities to catch and keep him.<ptr target="#note14" xml:id="nr14" n="14"/>
+                    In 1865, during his final criminal trial, <hi rend="italic">Bell’s Life in
+                        Sydney and Sporting Chronicle</hi> facetiously called him “an artist of
+                    great <hi rend="italic">note</hi>,” but this was not far from the truth, given
+                    his oft&#8211;tested ingenuity.<ptr target="#note15" xml:id="nr15" n="15"/> Via
+                    criminal creativity, Thomas Rymer fit into the artistic,
+                    fiction&#8211;making family he that he never again saw. </p>
+                <p>Like Thomas Rymer, James Malcolm Rymer initially learned
+                    the art and science of engraving. He also further entrenched himself in the
+                    London contingent of the Rymer clan by marrying a paternal cousin, Caroline
+                    Huttly, in 1839. But he was also carving out a new path. He became a civil
+                    engineer (Collins viii). In 1840, he registered a patent for engraved furniture
+                    castors. The engraving, he argued, increased the castors’ friction, making it
+                    harder for the furniture to shift about the floor.<ptr target="#note16"
+                        xml:id="nr16" n="16"/> In 1842, he embarked upon a career that combined
+                    science, literature, and art by founding the <hi rend="italic">Queen’s
+                        Magazine</hi>. In it, he published an engraving of himself, apparently by
+                    Thomas Onwhyn. In it, he appears a distinguished, editor and writer, sitting in
+                    a wing chair before a pile of books, including a volume of Shakespeare, and
+                    conversing with an ethereal, hovering, female “spirit of the age” (Figure 2). In
+                    the Prospectus published with the first number (April 1842), James Malcolm Rymer promised
+                    “[t]he Magazine will consist of forty pages of original material, comprising
+                    Romance—Poetry—Character—Burlesque […] Music—Art—Science and General
+                    Literature.” He made good on this vow. The magazine’s contents eventually
+                    included original fiction, such as the earliest instalments of one of Rymer’s
+                    first bloods (<hi rend="italic">Jane Shore,</hi> completed 1846), as well as
+                    poetry, drama, engravings of paintings, and a regular column on “Useful and
+                    Important Inventions.” The first (and, ultimately, only) instalment of this
+                    column showcased a new, controversial method of engraving, “Mr. E. Palmer’s
+                    Patent Electrotint,” which Rymer presents as a productive marriage of science
+                    and art (31). In the magazine, he integrated his two disciplinary concerns.</p>
+                
+                    <p>With the <hi rend="italic">Queen’s Magazine</hi>, James Malcolm Rymer follows
+                    in his father’s footsteps politically, by championing reform. Although James
+                    Malcolm Rymer would ultimately make his name by supplying fiction to newspapers
+                    priced at one penny, an expense affordable to working&#8211;class readers, the
+                        <hi rend="italic">Queen’s Magazine</hi> cost a shilling per number, as its
+                    title&#8211;page advertises. Its textual contents corroborate that Rymer
+                    envisioned it as middle&#8211;class aspirational literature, while also reaching
+                    out to the socioeconomic elite and the wider public. The Prospectus identifies
+                    it as “A Family Magazine of the Highest Class,” and suggests that its audience
+                    might even include members of the socioeconomic elite. James Malcolm Rymer
+                    informs “respectable Advertisers” that “the <hi rend="italic">Queen’s
+                        Magazine</hi> will have a <hi rend="italic">certain</hi> large circulation
+                    in a high class of society, quite independent of the popular patronage it is
+                    fairly presumed it will receive from a Public, who at no period of English
+                    history were so fitted as now to judge of sterling literary pretensions.” In the
+                    magazine’s first number (April, 1842), James Malcolm Rymer exhorts his
+                    middle&#8211;class reading to pursue reform, opposing aristocratic tyranny. In
+                    the magazine’s major fiction serial, the historical romance <hi rend="italic"
+                        >Jane Shore, an Historical Romance, by the Editor,</hi> he contends that
+                    “with an intelligent and educated people,” the “incessant petty jealousies” and
+                    “eternal feuds” of the “nobility [...] would [...] ensure [...] their extinction
+                    as a class” (5). This sort of rhetoric renders the shilling periodical a tool of
+                    general political reform, which was needed in the summer of 1842, in the
+                    aftermath of the failure of the Second Chartist Petition (May) and during the
+                    build-up to the August general strike. <hi rend="italic">Jane Shore</hi>
+                    reinforces the impression that Rymer believed that meaningful reform needed
+                    middle-class support, and the magazine's title suggests that Victoria herself
+                    supported such a program, though in fact she had no discernible connection to
+                    the <hi rend="italic">Queen’s Magazine</hi>.</p>
+                    
+                    <p>James Malcolm Rymer reinforced the periodical’s reformist agenda in part by
+                    publishing <hi rend="italic">Science and Art</hi>. In the Chartist era, the
+                    play’s concern with the displacement of the human worker with machines built to
+                    serve the interests of the industrialists remained immediate. On March 16, 1839,
+                    an editorial in the Chartist newspaper <hi rend="italic">The Northern Star</hi>
+                    articulated the widely held conviction that “the progress of machinery has been
+                    so rapid, so unchecked, and so self-protecting [...] that those who have been
+                    engaged in the pursuit have, as if by magic, become the monied aristocracy of
+                    the country.”<ptr
+                        target="#note17" xml:id="nr17" n="17"/> On February 21, 1846, the same newspaper looked back across the
+                    1840s and pronounced that “machinery had pounced upon us with such an unexpected
+                    hop, step, and jump that society was compelled to submit to such laws as
+                    regulations that its owners thought proper to impose” (342&#8211;3).<ptr
+                        target="#note18" xml:id="nr18" n="18"/> As we have seen, <hi rend="italic"
+                        >Science and Art</hi> makes the dangers of industrial capitalism apparent to
+                    the middle-class Briton by showing lawyers threatened by labor&#8211;saving
+                    machines. </p><p>Another reason why James Malcolm Rymer might have dusted off <hi rend="italic">Science and
+                        Art</hi> for the <hi rend="italic">Queen’s Magazine</hi> of August 1842
+                    involves its apparently fortuitous commentary on a topical controversy of that
+                    summer. In the summer of 1842, Patent may have resembled the inventor Charles
+                    Babbage (1791-1871), whose “calculating engines,” the “Difference Engine” and
+                    “Analytical Engine,” were then in development and are now widely considered
+                    ancestors of the modern computer. During the summer of 1842, Babbage publicly
+                    faced the greatest challenge of his career, as the government considered whether
+                    to renew the funding of his calculating engines project, which they had begun to
+                    support financially in 1833. These
+                    engines were then known as automata. In a letter of 1823, Prime Minister Robert Peel called the
+                    Difference Engine a “scientific automaton.” <ptr target="#note19"
+                        xml:id="nr19" n="19"/> Therefore, Babbage and Patent invent the same sort of
+                    machine. Indeed, while Patent “invents the wheels” and “axes” (191) and the
                     automaton&#8211;Freeman walks as if “full of wheels” (193), the science
                     popularizer Dionysius Lardner, describing the calculating engines in an <hi
                         rend="italic">Edinburgh Review</hi> article that Babbage helped him to
                     prepare, claimed that the “project of a Calculating Engine” aimed to “substitute
                     an automaton for a compositor” and to “throw the powers of wheel&#8211;work into
                     thought,” which “could not fail to awaken the attention of the world”
-                        (50&#8211;1).<ptr target="#note19" xml:id="nr19" n="19"/></p>
-                <p>While Patent is described as the man who “invents the wheels and the ax[l]es”
-                    (191) , Babbage, too, was seen as an inventor of assemblages of wheels and
-                    ax(l)es. In Babbage’s two major Difference Engine models, writes the computer
-                    scientist Allan G. Bromley, the originator of the Science Museum’s 1985&#8211;91
-                    construction of the first complete, function Difference Engine, “the digits of
-                    numbers are represented by the positions of wheels (figure wheels) rotating on
-                    vertical axes” (30).<ptr target="#note20" xml:id="nr20" n="20"/> In early
-                    twentieth&#8211;century America (ca. 1906) Dwight Goddard’s encyclopedia of <hi
-                        rend="italic">Eminent Engineers […] Who Did Most to Further Human
-                        Progress</hi>, a publication initially commissioned by the Wyman and Gordon
-                    Company&#8212;Cleveland and Worcester, Massachusetts&#8211;based “manufacturers
-                    of drop forgings”&#8212;finds Babbage’s engines labyrinths of “wheels within
-                    wheels.” Goddard states that Babbage “spoke of 1,000 columns with 50 wheels each
-                    in the store alone, and, besides, many thousand wheels mounted on axles in
-                    columns for the mill and a vast machinery of cams and cranks for the control”
-                    (253).<ptr
-                        target="#note21" xml:id="nr21" n="21"/></p>
-                   <p>Babbage’s utopian dreaming and overtures to the government also distinguish
+                        (50&#8211;1).<ptr target="#note20" xml:id="nr20" n="20"/> In Babbage’s two
+                    major Difference Engine models, writes the computer scientist Allan G. Bromley,
+                    the originator of the Science Museum’s 1985&#8211;91 construction of the first
+                    complete, function Difference Engine, “the digits of numbers are represented by
+                    the positions of wheels (figure wheels) rotating on vertical axes” (30).<ptr
+                        target="#note21" xml:id="nr21" n="21"/> In early twentieth&#8211;century
+                    America (ca. 1906) Dwight Goddard’s encyclopedia of <hi rend="italic">Eminent
+                        Engineers […] Who Did Most to Further Human Progress</hi>, a publication
+                    initially commissioned by the Wyman and Gordon Company&#8212;Cleveland and
+                    Worcester, Massachusetts&#8211;based “manufacturers of drop
+                    forgings”&#8212;finds Babbage’s engines labyrinths of “wheels within wheels.”
+                    Goddard states that Babbage “spoke of 1,000 columns with 50 wheels each in the
+                    store alone, and, besides, many thousand wheels mounted on axles in columns for
+                    the mill and a vast machinery of cams and cranks for the control” (253).<ptr
+                        target="#note22" xml:id="nr22" n="22"/>
+                </p>
+                <p>Babbage’s utopian dreaming and overtures to the government also distinguish
                     Patent. His plans to make the army, navy, and legal system more efficient by
                     replacing human labor with automata recalls the critic Tamara Ketabgian’s apt
                     characterization of Babbage as an “technophilia[c]” who “idealizes the machine
                     as an empowering prosthesis for humans,” as in his <hi rend="italic">On the
                         Economy of Machinery and Manufactures</hi>, which problematically “bases its
-                       guiding principle on the substitution of machinery for human limbs.”<ptr
-                           target="#note22" xml:id="nr22" n="22"/>  We have seen that the sailors
+                    guiding principle on the substitution of machinery for human limbs.”<ptr
+                        target="#note23" xml:id="nr23" n="23"/> We have seen that the sailors
                     stationed at Portsmouth threaten to throw Patent “overboard for a rascal” (192).
                     No doubt some early&#8211;1830s compilers of nautical tables would similarly
-                    have eagerly dunked Babbage, and scientifically informed readers of the magazine might have seen Babbage in <hi rend="italic">Science and Art</hi>. </p>
-                <p>If we choose to read <hi rend="italic">Science and Art</hi>’s pompous, bumbling Patent as
-                    an accidental <hi rend="italic">doppelganger </hi>of Babbage, the play becomes a
-                    short&#8211;sighted parody of the man who thought up the computer. It appears in
-                    stark contrast to Babbage’s most famous literary doubling, in Charles Dickens’s
-                        <hi rend="italic">Little Dorrit</hi> (1857) which shows the genius inventor
-                    Daniel Doyce vanquished by the bureaucratic idiocy of the government
+                    have eagerly dunked Babbage, and scientifically informed readers of the magazine
+                    might have seen Babbage in <hi rend="italic">Science and Art</hi>. </p>
+                <p>If we choose to read <hi rend="italic">Science and Art</hi>’s pompous, bumbling
+                    Patent as an accidental <hi rend="italic">doppelganger </hi>of Babbage, the play
+                    becomes a short&#8211;sighted parody of the man who thought up the computer. It
+                    appears in stark contrast to Babbage’s most famous literary doubling, in Charles
+                    Dickens’s <hi rend="italic">Little Dorrit</hi> (1857) which shows the genius
+                    inventor Daniel Doyce vanquished by the bureaucratic idiocy of the government
                     “Circumlocution Office,” which finds Doyce a “notorious rascal,” “guilty” of
                     being “ingenious” and of “trying to turn his ingenuity to his country’s
-                    service,” which “makes him a public offender directly.” <ptr target="#note23"
-                        xml:id="nr23" n="23"/> However, Babbage may have deserved the Patent
+                    service,” which “makes him a public offender directly.” <ptr target="#note24"
+                        xml:id="nr24" n="24"/> However, Babbage may have deserved the Patent
                     treatment. The entire 1840s has long been known as the ‘Hungry Forties’, and
                     although the term was coined only in the twentieth century, it remains apt.
                     Widespread working&#8211;class and indigent hunger preceded the Irish Potato
                     Famine (1845&#8211;7), and dominated both the nation and the national
                     consciousness throughout the period 1840&#8211;9. We cannot “underestimate the
                     political centrality of the debate on hunger” throughout this decade, writes
-                    Peter J. Gurney (101). Charlotte Boyce adds that it was not only the
+                    Peter J. Gurney (101).<ptr target="#note25" xml:id="nr25" n="25"/> Charlotte Boyce adds that it was not only the
                     working&#8211;class and radical press that debated hunger in this decade: it was
-                    the entire nation (423).<ptr target="#note24" xml:id="nr24" n="24"/>The causes
+                    the entire nation (423).<ptr target="#note26" xml:id="nr26" n="26"/> The causes
                     were many: rural to urban migration that obliterated many workers’ and
                     children’s access to home&#8211;grown food; the oppressive Poor Law and Corn
                     Laws, the latter the target of the Peelite Anti&#8211;Corn Law League; a series
                     of crop failures, and of course the three failed potato harvests of the
-                    mid&#8211;1840s. </p>
-                <p>The food crisis was impossible to ignore—unless, perhaps, one had designed a
-                    wondrous machine and was monomaniacally focused on getting it built. That was
-                    Babbage’s public image in many quarters, whether or not it was his reality. In
-                        <hi rend="italic">Charles Babbage: Pioneer of the Computer</hi> (1982),
-                    Babbage’s preeminent modern biographer Anthony Hyman makes a charitable
+                    mid&#8211;1840s. The food crisis was impossible to ignore—unless, perhaps, one
+                    had designed a wondrous machine and was monomaniacally focused on getting it
+                    built. That was Babbage’s public image in many quarters, whether or not it was
+                    his reality. In <hi rend="italic">Charles Babbage: Pioneer of the Computer</hi>
+                    (1982), Babbage’s preeminent modern biographer Anthony Hyman makes a charitable
                     understatement: that “Babbage’s industrial interests and the possibilities of
                     commercial application of his calculating machines were quite unattractive” to
-                    Peel (191).<ptr target="#note25" xml:id="nr25" n="25"/> This Prime Minister had
+                    Peel (191).<ptr target="#note27" xml:id="nr27" n="27"/> This Prime Minister had
                     never liked the idea of a government-funded calculating engine project, and as
-                    early as his 1823 letter to Croker had derided Babbage as an inhabitant of
-                    “Laputa,” the levitating island of impractical mathematical enthusiasts in
-                    Jonathan Swift’s <hi rend="italic">Gulliver’s Travels</hi> (1726). </p>
-                <p>This was a charitable view of Babbage’s political outlook, for he was not a
-                    Laputian, but an outspoken political conservative. As Hyman points out,
+                    early as his 1823 letter had derided Babbage as an inhabitant of “Laputa,” the
+                    levitating island of impractical mathematical enthusiasts in Jonathan Swift’s
+                        <hi rend="italic">Gulliver’s Travels</hi> (1726). </p>
+                <p>In fact, this was a charitable view of Babbage’s political outlook, for he was
+                    not a Laputian, but an outspoken political conservative. As Hyman points out,
                     Babbage’s published writings demonstrate that his idea of the “manufacturing
                     class […] included factory workers and factory owners’ collaborating to form a
                     “free market” (85). His <hi rend="italic">Economy of Manufactures</hi> appeared
                     “during the most widespread class struggles in England in the whole of the
                     eighteenth and nineteenth centuries.” During those struggles, Babbage
                     “insist[ed] that working men should realize that their interests and those of
-                    their masters were essentially in harmony” (115&#8211;6). </p>
-                <p>Unsurprisingly, then, the government only took measures to encourage Babbage’s
-                    completion of his engines during relatively conservative periods. While the Duke
-                    of Wellington proved his champion, during the Peelite era, Babbage’s political
-                    backing vanished (87). It was in the post&#8211;reform 1830s that Babbage
-                    received over £17,000 of public money but completed no engine. In 1842, when he
-                    requested more public money, it may have seemed that, surrounded by his
-                    fragmentary wheel&#8211;work, he could not see humanity beyond. Neither can <hi
+                    their masters were essentially in harmony” (115&#8211;6). Unsurprisingly, then,
+                    the government only took measures to encourage Babbage’s completion of his
+                    engines during relatively conservative periods. While the Duke of Wellington
+                    proved his champion, during the Peelite era, Babbage’s political backing
+                    vanished (87). It was in the post&#8211;reform 1830s that Babbage received over
+                    £17,000 of public money but completed no engine. In 1842, when he requested more
+                    public money, it may have seemed that, surrounded by his fragmentary
+                    wheel&#8211;work, he could not see humanity beyond. Neither can <hi
                         rend="italic">Science and Art</hi>’s Patent, until he learns that the most
-                    “perfect machine” in history is the human.</p>
+                    “perfect machine” in history is the human. </p>
             </div><div>
-                <head>Audience and Exigency</head>
-                <p>Who was the audience for <hi rend="italic">Science and Art</hi>? Who was intended
-                    to have performed it? To answer these questions, we must again consider the play
-                    both in the context of its composition by Malcolm Rymer, circa 1820, and then in
-                    the context of its publication by his son. Both Rymers seem to have intended <hi
-                        rend="italic">Science and Art</hi> not for professional performance but
-                    domestic consumption. It seems never to have been produced in the commercial
-                    theatre, as journalism from 1819&#8211;60 records no notices for any public
-                    performance. Instead, the play seems intended for reading or domestic
-                    performance. Regency Britain had a culture of home theatricals, such as those
-                    described in Austen’s novel Mansfield Park (1814). Science and Art appears
-                    suited by design to this performance mode. The specified settings are all either
-                    vague and featureless or domestic. For instance, the first scene takes place in
-                    the high&#8211;living Freeman’s “lodgings at the Temple.” This impressive
-                    landmark is represented by merely a “two chairs and [a] table” (190). Likewise,
-                    Freeman meets Maria at the Opera at Covent Garden, but we do not see this
-                    momentous meeting. Instead, it is described in retrospect in Freeman’s dialogue
-                    with his servant Tom. </p>
-                <p>The play’s depiction of Patent’s premises also suggests authorial acquiescence to
-                    the limitations of domestic theatricals. The home of an eccentric inventor of
-                    anthropomorphic automata would seem ripe for scenographic creativity. Many of us
-                    have grown up entranced by the uncanny clutter of the rundown home automaton
-                    workshops in Fritz Lang’s <hi rend="italic">Metropolis</hi>, Ridley Scott’s <hi
-                        rend="italic">Blade Runner</hi>, or Tim Burton’s <hi rend="italic">Edward
-                            Scissorhands</hi>. Conversely, <hi rend="italic">Science and Art</hi> calls
-                    for only “The House of Mr. Patent” (193). No automata, parts, nor tools are
-                    explicitly prescribed, excepting the pseudo&#8211;automaton played by Freeman,
-                    and even his automaton costume seems amateur&#8211;proofed. It consists of a
-                    “mask and domino,” and the automaton’s mechanical nature appears merely via his
-                    stilted walk (197). Any bourgeois household would have been able to realize this
-                    stage effect. Such a community would also be able to cope with the musical
-                    requirements of the piece. The script calls for Maria’s song to be performed by
-                    or as a “symphony” (201), but in the nineteenth century, this word did not imply
-                    a full orchestra. Another meaning was “music in parts,” involving multiple
-                    performers, or simply “concerted or harmonious music” (<hi rend="italic"
-                        >OED</hi>).<ptr target="#note26" xml:id="nr26" n="26"/> A few members of a
-                    family and their guests could easily provide this incidental music. Whether any
-                    Victorian amateur actors actually staged Science and Art, we cannot at present
-                    know, but had they done so, they would have experienced the group creativity
-                    that also distinguished kinship coteries such as the Rymers.</p>
-                <p>Although James Malcolm Rymer found his niche writing penny bloods for
-                    working&#8211;class people like himself, the <hi rend="italic">Queen’s
-                        Magazine</hi> aimed to attract a different readership. While his later
-                    fiction filled newspapers priced at one penny, an expense affordable to
-                    working&#8211;class readers, the <hi rend="italic">Queen’s Magazine</hi> cost a
-                    shilling per number, as its title&#8211;page advertises. Its textual contents
-                    corroborate that he envisioned it as middle&#8211;class aspirational literature,
-                    while also reaching out to the socioeconomic elite and the wider public. The
-                    Prospectus identifies it as “A FAMILY MAGAZINE OF THE HIGHEST CLASS,” and
-                    suggests that its audience might even include members of the socioeconomic
-                    elite. Rymer informs “respectable Advertisers” that “the <hi rend="italic"
-                        >Queen’s Magazine</hi> will have a <hi rend="italic">certain</hi> large
-                    circulation in a high class of society, quite independent of the popular
-                    patronage it is fairly presumed it will receive from a Public, who at no period
-                    of English history were so fitted as now to judge of sterling literary
-                    pretensions.” In the first number of the <hi rend="italic">Queen’s Magazine</hi>
-                    (April, 1842), Rymer exhorts his middle&#8211;class reading to pursue reform,
-                    opposing aristocratic tyranny. In the magazine’s major fiction serial, the
-                    historical romance <hi rend="italic">Jane Shore, an Historical Romance, by the
-                        Editor,</hi> he contends that “with an intelligent and educated people,” the
-                    “incessant petty jealousies” and “eternal feuds” of the “nobility [...] would
-                    [...] ensure [...] their extinction as a class” (5). This sort of rhetoric
-                    renders Rymer’s shilling periodical a tool of general political reform, which
-                    would have impressed his future publishers, the Chartists Edward Lloyd and G. W.
-                    M. Reynolds, who employed him as a writer of penny bloods and an editor of their
-                        periodicals.<ptr target="#note27" xml:id="nr27" n="27"/></p>
-                        </div><div>
                 <head>Diabolical Ingenuity</head>
             </div>
             <div>
-                <p>When James Malcolm Rymer moved onwards from the <hi rend="italic">Queen’s
-                        Magazine</hi> to Lloyd’s Salisbury Square publishing house, he did not
-                    forget <hi rend="italic">Science and Art.</hi> Aspects of this play reverberate
-                    in <hi rend="italic">The String of Pearls, </hi>which Lloyd serialized in his
-                        <hi rend="italic">People’s Periodical</hi>in 1846&#8211;7 and then
-                    reprinted, in an expanded edition, in 1850. Both <hi rend="italic">Science and
-                        Art </hi>and <hi rend="italic">The String of Pearls </hi>take place in the
-                    world of London’s lawyers. While <hi rend="italic">Science and Art</hi> opens in
-                    “Freeman’s lodgings in the Temple,” and contains many jokes at the expense of
-                    profligate, avaricious, or hypocritical barristers, <hi rend="italic">The String
-                        of Pearls </hi>is set largely in the same realm. Sweeney Todd keeps his shop
-                    in Fleet&#8211;street, in the Temple Bar region. Some of the clients whom he
-                    “polishes off” are lawyers. His apprentice, Tobias Ragg, had intended to become
-                    a lawyer, but, judged not clever enough, goes to work for Todd instead. “I have
-                    gone into another line,” he explains to a friend: “instead of being a lawyer,
-                    and helping to shave the clients, I am going to shave the lawyers now.”<ptr
-                        target="#note28" xml:id="nr28" n="28"/> He means that he will no longer
-                    cheat (“shave”) clients, and accidentally tells the truth about Todd, who cheats
-                    the lawyers by murdering them. <hi rend="italic">The String of Pearls</hi> also
-                    attacks the “young Templers,” or young lawyers, by representing them as a
-                    ravenous mob who consume their fellow human beings. Close to the Temple, in
+                <p>By the autumn of 1842, James Malcolm Rymer had put the <hi rend="italic">Queen’s
+                        Magazine</hi> behind him and begun writing penny bloods for Edward Lloyd.
+                    However, he did not forget <hi rend="italic">Science and Art.</hi> Aspects of
+                    this play reverberate in his most enduring work, <hi rend="italic">The String of
+                        Pearls, </hi>which Lloyd serialized in his <hi rend="italic">People’s
+                        Periodical</hi> in 1846&#8211;7 and then reprinted, in an expanded edition,
+                    in 1850. Both <hi rend="italic">Science and Art </hi>and <hi rend="italic">The
+                        String of Pearls </hi>take place in the world of London’s lawyers. While <hi
+                        rend="italic">Science and Art</hi> opens in “Freeman’s lodgings in the
+                    Temple,” and contains many jokes at the expense of profligate, avaricious, or
+                    hypocritical barristers, <hi rend="italic">The String of Pearls </hi>is set
+                    largely in the same realm. Sweeney Todd keeps his shop in Fleet&#8211;street, in
+                    the Temple Bar region. Some of the clients whom he “polishes off” are lawyers.
+                    Todd’s apprentice, Tobias Ragg, had intended to become a lawyer, but, judged not
+                    clever enough, goes to work for Todd instead. “I have gone into another line,”
+                    he explains to a friend: “instead of being a lawyer, and helping to shave the
+                    clients, I am going to shave the lawyers now.”<ptr target="#note28"
+                        xml:id="nr28" n="28"/> He means that he will no longer cheat (“shave”)
+                    clients, and accidentally tells the truth about Todd, who cheats the lawyers by
+                    murdering them. <hi rend="italic">The String of Pearls</hi> also attacks the
+                    “young Templers,” or young lawyers, by representing them as a ravenous mob who
+                    literally consume their fellow human beings. Close to the Temple, in
                     Bell&#8211;yard, Mrs. Lovett’s pie shop caters to crowds of young lawyers. There
-                    is “a rush of the legal profession to obtain them.” The lawyers arrive:<quote>mostly from Lincoln's-inn […] bustling and striving, although from the
-                    neighbouring legal establishments likewise there came not a few; the Temple
-                    contributes its numbers, and from the more distant Gray's-inn there came a
-                    goodly lot. (17)</quote> The pies are clandestinely made of the flesh of Todd’s murder victims and
-                    advertised as pork or veal pies. The lawyers’ monstrous appetites for their
-                    fellow man suggests that their profession is inherently vicious; that it
-                    consumes people, giving nothing back. </p>
-                <p>A clearer parallel between <hi rend="italic">Science and Art</hi> and<hi
+                    is “a rush of the legal profession to obtain them.” The lawyers
+                        arrive:<quote>mostly from Lincoln’s&#8211;inn […] bustling and striving,
+                        although from the neighbouring legal establishments likewise there came not
+                        a few; the Temple contributes its numbers, and from the more distant
+                        Gray’s&#8211;inn there came a goodly lot. (17)</quote>The pies are
+                    clandestinely made of the flesh of Todd’s murder victims and advertised as pork
+                    or veal pies. The lawyers’ monstrous appetites for their fellow man suggests
+                    that their profession is inherently vicious; that it consumes people, giving
+                    nothing back. </p>
+                <p>Another parallel between <hi rend="italic">Science and Art</hi> and<hi
                         rend="italic">The String of Pearls</hi> involves the two texts’ villains,
                     Peter Patent and Sweeney Todd. We have seen that Patent is willing to upend
                     society and destroy many people’s livelihoods in the name of “saving.” When he
@@ -593,73 +636,76 @@
                     an engineer, and his inventions work something like clockwork. He revamps his
                     shop to feature two identical barber’s chairs affixed to a rotating section of
                     the floor to move through a secret trapdoor, dumping victims into the space
-                    below to be murdered. This “mechanical arrangement” is an industrial&#8211;age
-                    update of the medieval Wheel of Fortune (616). Rymer, inventor of patent
-                    engraved castors to move and stabilize furniture, must have seen this
+                    below to be murdered. This “mechanical arrangement” (616) is an industrial&#8211;age
+                    update of the medieval Wheel of Fortune. James Malcolm Rymer, inventor of
+                    patent engraved castors to move and stabilize furniture, must have seen this
                     contraption as an example of ingeniously evil engineering.</p>
                 <p>Like Patent, Todd applies his evil ingenuity to industrial entrepreneurship. His
                     victims are processed by the few, miserable, exploited workers at Mrs. Lovett’s
                     “pie manufactory.” This factory makes Todd a wealthy industrialist only
                     pretending to be an independent artisan, for it is the source of most of his
-                    profits. It is so productive: <quote>the retail part of Mrs. Lovett's business which took place principally between
-                    the hours of twelve and one, was by no means the most important or profitable
-                    portion of a concern which was really of immense magnitude, and which brought in
-                    a large yearly income (58).</quote> The workers go mad when they learn that the meat they are processing is human.
-                    While Patent’s automata threaten to take away British people’s livelihoods,
-                    Todd’s “manufactory” morally corrupts them and destroys their will to live. It
-                    is a sobering vision of industrial profiteering when all pretense at ethics is
-                    removed. Finally, Todd recalls Patent in his sheer delight at his own
-                    inventions. Viewing his machines and their mayhem, he frequently emits a
-                    disturbing laugh. In short, while Patent invents automata without regard for
-                    industrialism’s human cost, Todd goes a step further, personifying diabolical
-                    ingenuity. In creating him, James Malcolm Rymer goes further than his father,
-                    using materials from <hi rend="italic">Science and Art</hi> to create a
-                    resilient, mythic nightmare of industrial inhumanity.</p>
+                    profits. It is so productive: <quote>the retail part of Mrs. Lovett’s business
+                        which took place principally between the hours of twelve and one, was by no
+                        means the most important or profitable portion of a concern which was really
+                        of immense magnitude, and which brought in a large yearly income
+                        (58).</quote>The workers go mad when they learn that the meat they are
+                    processing is human. While Patent’s automata threaten to take away British
+                    people’s livelihoods, Todd’s “manufactory” morally corrupts them and destroys
+                    their will to live. It is a sobering vision of industrial profiteering when all
+                    pretense at ethics is removed. Finally, Todd recalls Patent in his sheer delight
+                    at his own inventions. Viewing his machines and their mayhem, he frequently
+                    emits a disturbing laugh. In short, while Patent invents automata without regard
+                    for industrialism’s human cost, Todd goes a step further, personifying
+                    diabolical ingenuity. In creating him, James Malcolm Rymer goes further than his
+                    father, using materials from <hi rend="italic">Science and Art</hi> to engineer
+                    a resilient, mythic nightmare of industrial inhumanity.</p>
             </div><div>
                             <head>Editorial Methodology</head>
                 <p>This edition aims to reveal the text of <hi rend="italic">Science and Art</hi>
                     published by James Malcolm Rymer in the <hi rend="italic">Queen’s Magazine</hi>,
                     but also to supply a playscript that is accessible and, additionally, actable,
-                    because much that can be learned about any play is visible only in performance.
-                    To realize these ends, my editorial method combines aspects of documentary and
-                    critical editing. I have encoded the text in XML and in accordance with the TEI
-                    Guidelines (P5). The documentary aspects of the resulting edition include
-                    faithful transcription of <hi rend="italic">Science and Art</hi> (from the UNC
-                    copy of the <hi rend="italic">Queen’s Magazine, </hi>checked against the
-                    Cambridge University Library copy, with which it is identical.) Most of James
-                    Malcolm Rymer’s typographical errors are preserved. Obviously missing words are
-                    inserted, marked as such using the “supplied” tag, and distinguished with bold
-                    font. However, where a typographical error is more complicated than a single
-                    missing word, could be corrected in more than one way, or, if transcribed
-                    faithfully, would make the meaning of the line unclear, I have silently amended
-                    it in the dialogue, and added a note that supplies the original, erroneous text.  </p>
-                <p>In other particulars as well, this edition is a critical one. I have standardized
-                    the playscript format, employing the TEI P5 stylesheet for Drama. In the source
+                    because much that can be learned about any play is more clearly visible in
+                    performance. To realize these ends, my editorial method combines aspects of
+                    documentary and critical editing. I began by creating a faithful transcription
+                    of <hi rend="italic">Science and Art </hi>as published in the UNC copy of the
+                        <hi rend="italic">Queen’s Magazine.</hi> This transcription preserved the
+                    punctuation and formatting idiosyncrasies and the typographical errors of the
+                    original. Then, I introduced a few critical features to make the text more
+                    accessible to readers, including theatre practitioners reading it out loud
+                    without rehearsal, in what is known as a “cold reading.” I have amended those
+                    typographical errors that interfere with the meaning or smooth oral delivery of
+                    the material. In all cases, these amendations are annotated and the original,
+                    erroneous text supplied in note form. Obviously missing words are inserted,
+                    marked as such using the “supplied” tag, and distinguished in red font with
+                    broken underline. I have also standardized the playscript format. In the source
                     text’s stage directions and dialogue headers, character names are abbreviated
-                    and “Freeman” used to indicate only “Young Freeman.” I have silently amended
-                    this for clarity’s sake. Additionally, I have added brief character descriptions
-                    to the “Dramatis Personae” to enable readers easily to visualize the characters
-                    and distinguish them from each other. These new descriptions are presented in
-                    square brackets to indicate that they were not part of the source text. I have
-                    also added the phrase  “The End,” as in the source text, the script abruptly
-                    terminates with the final line of dialogue.</p>
-               <p>The footnotes aim to complete the work of this introduction. They are intended to
-                    make the text accessible to readers ranging from scholars of
+                    and “Freeman” used to indicate only “Young Freeman,” but I have silently amended
+                    this for clarity’s sake. While the original includes the isolated word “Scene”
+                    at the top of each scene, I omit it, replacing it with a numerical
+                    act&#8211;scene header. I have also added brief character descriptions to the
+                    “Dramatis Personae” to enable readers easily to visualize the characters and
+                    distinguish them from each other. These new descriptions are presented in square
+                    brackets to indicate that they were not part of the source text. And while in
+                    the source text, the script abruptly terminates with the final line of dialogue,
+                    my script ends with the bracketed, newly inserted words “The End.”</p>
+               <p>The footnotes aim to complete the critical work of this introduction. They are
+                    intended to make the text accessible to readers ranging from scholars of
                     nineteenth&#8211;century literature to undergraduates and theatre professionals
                     who may wish to stage it. They relate the play to its Romantic and Victorian
-                    cultural contexts.</p>
-                <p>My entire critical apparatus also aims to reveal <hi rend="italic">Science and
-                        Art</hi>’s place in the neglected history of the Rymers of London. Scholars
-                    of Victorian literature are familiar with prominent literary families, such as
-                    the Brontes, Brownings, Rossettis, and Wildes. Notably, these are all
-                    upper&#8211; or middle&#8211;class families, and largely active only during the
-                    Victorian period. Conversely, the Rymers were working&#8211;class men and women,
-                    whose creative activity spanned not only the disciplines of “science and art,”
-                    but the Romantic and early Victorian eras, questioning the current fashionable
-                    periodization of nineteenth&#8211;century British literature. It is my hope that
-                    access to the text and some contexts of <hi rend="italic">Science and Art</hi>
-                    will help to facilitate the Rymers’ incorporation into the
-                    nineteenth&#8211;century literary canon and curriculum.</p>
+                    cultural contexts. Moreover, my critical apparatus aims to reveal <hi
+                        rend="italic">Science and Art</hi>’s place in the neglected history of the
+                    Rymers of London. Scholars of Victorian literature are familiar with prominent
+                    literary families, such as the Brontes, Brownings, Rossettis, and Wildes.
+                    Notably, these are all upper&#8211; or middle&#8211;class families, and largely
+                    active only during the Victorian period. Conversely, the Rymers of London were
+                    working&#8211;class men and women, whose creative activity spanned not only the
+                    disciplines of “science and art,” but the Romantic and early Victorian eras,
+                    questioning the current fashionable periodization of nineteenth&#8211;century
+                    British literature. It is my hope that access to the text and some contexts of
+                        <hi rend="italic">Science and Art</hi> will help to facilitate greater
+                    understanding of the Rymers’ work, individually and as a literary family, and
+                    will support their eventual incorporation into the nineteenth&#8211;century
+                    literary canon and curriculum.</p>
                 
                 
                 
@@ -670,30 +716,31 @@
         <back>
             <div type="notes">
                 
-                <note xml:id="note1"><hi rend="italic">London Morning Post</hi> July 20, 1820: 1.
+                <note xml:id="note1"><hi rend="italic">London Morning Post</hi> 20 July, 1820: 1.
                     Located by Patrick Feaster, <ref
-                        target="http://griffonagedotcom.wordpress.com/2015/02/13/prosopographus&#8211;the-automaton-artist"
+                        target="http://griffonagedotcom.wordpress.com/2015/02/13/prosopographus-the-automaton-artist"
                         >“Prosopographus, the Automaton Artist.”</ref>
                     <hi rend="italic">Griffonage-Dot-Com: Patrick Feaster’s Explorations in
-                        Historical Media</hi> February 13, 2015, accessed October 25,
-                    2016.</note>
+                        Historical Media</hi> 13 February, 2015, accessed 25 October, 2016.</note>
+                
                 <note xml:id="note2">“Prosopographus, the Automaton Artist,” <hi rend="italic">The
-                    Theatrical Observer and Daily Bills of the Play</hi> no. 1191 (September
-                    30, 1825): 2. Feaster presents evidence from advertisements showing that the
+                        Theatrical Observer and Daily Bills of the Play</hi> no. 1191 (30 September,
+                    1825): 2. Feaster presents evidence from advertisements showing that the
                     silhouette artist Charles Hervé invented and sometimes manipulated
                     Prosopographus. See also “Prosopographus, the Automaton Artist” <hi
-                        rend="italic">The Examiner</hi> 934, no. 87 (1826): 285. In a letter to
-                    the editor of the <hi rend="italic">Mechanics’ Magazine</hi> 12 (1830):
-                    335&#8211;6, titled “The Camera Lucida,” H.J. Exeter wrote that
-                    Prosopographus must have a human operator, who “goes behind” the sitter and
-                    “traces the outline of the face [...] which is thrown upon the screen by a
-                    gas light.” Prosopographus “can only take profiles” because the operator
-                    must keep the sitter facing away from the evidence of his deception. For
-                    Prosopographus’s disappearance from Regency culture, see Feaster.</note>
+                        rend="italic">The Examiner</hi> 934, no. 87 (1826): 285. In a letter to the
+                    editor of the <hi rend="italic">Mechanics’ Magazine</hi> 12 (1830): 335&#8211;6,
+                    titled “The Camera Lucida,” H.J. Exeter wrote that Prosopographus must have a
+                    human operator, who “goes behind” the sitter and “traces the outline of the face
+                    [...] which is thrown upon the screen by a gas light.” Prosopographus “can only
+                    take profiles” because the operator must keep the sitter facing away from the
+                    evidence of his deception.</note>
+                
                 <note xml:id="note3">Robert Owen, <hi rend="italic">Observations on
                     the Effect of the Manufacturing System, With Hints for the Improvement
                     of Those Parts of it Which are Most Injurious to Health and Morals</hi>,
                     1815 (London, Edinburgh, and Glasgow, 1817): 15.</note>
+                
                 <note xml:id="note4">These facts about James Malcolm Rymer’s career were pieced
                     together by Louis James, <hi rend="italic">Fiction for the Working Man</hi>
                     (Oxford: Oxford University Press, 1963): 36&#8211;8; Robert Mack, <hi
@@ -703,21 +750,43 @@
                         Peckett Prest, and Elizabeth Caroline Grey</hi> (London: Jarndyce,
                     2002), and Dick Collins, ed., intr., <hi rend="italic">The String of
                         Pearls</hi> (Ware: Wordsworth, 2010): vii&#8211;ix. </note>
-                <note xml:id="note5">Smith, <hi rend="italic">Jarndyce Antiquarian
+                
+                <note xml:id="note5">
+                    “Science and Art,” <hi rend="italic">The Queen’s Magazine
+                    </hi>1, no. 5 (August, 1820): 190&#8211;207. The volume is continuously paginated. In the source, the title is
+                    misspelled “Queens’” on each number’s title page. I have silently amended the
+                    error throughout this edition. References to nos. 2 through 5 indicate the copy
+                    in the Rare Books Collection of the University of North Carolina (UNC), Chapel
+                    Hill’s Louis Round Wilson Library, unless otherwise indicated. References to no.
+                    1 indicate the Cambridge University Library copy. </note>
+                    
+                    
+                    <note xml:id="note6"> 
+                    Smith, <hi rend="italic">Jarndyce Antiquarian
                     Booksellers: Catalogue CCXIX: Bloods and Penny Dreadfuls</hi> (London:
                     Jarndyce, 2016): 69, item no. 274. The pseudonym “George Hillier Fantome”
                     combines the name of the bookseller and printer George Hillier
                     (1815&#8211;66) with the French word for “ghost.”</note>
-                <note xml:id="note6">Rebecca Nesvet, “The Spaniard and Sweeney Todd,” forthcoming in
+                
+                <note xml:id="note7">Rebecca Nesvet, “The Spaniard and Sweeney Todd,” forthcoming in
                     <hi rend="italic">Notes and Queries</hi> in 2017, lays out the case for
                     Malcolm Rymer’s composition of <hi rend="italic">The Spaniard</hi>, which had until then been unattributed. The piece also 
                     speculates upon the literary coterie he may have assembled and its impact
                     upon his son James Malcolm Rymer’s literary career. </note>
-                <note xml:id="note7">Frédéric Leschot, quoted in Roger Smith, “The Swiss
+                
+                <note xml:id="note8">Malcolm Rymer, <hi rend="italic">The Spaniard, or, the Pride of
+                    Birth</hi> (London: Robertson, 1806), inscribed front pastedown and half title. All discussion of this work
+                    references the inscribed presentation copy at the University of California, Los
+                    Angeles (UCLA) Libraries’ Special Collections. The novel is very loosely adapted
+                    from Richard Cumberland’s <hi rend="italic">The History of  Nicolas Pedrosa
+                    </hi>(Manchester:  Nicholson, 1798 and Glasgow: Robertson, 1799).</note>
+                
+                <note xml:id="note9">Frédéric Leschot, quoted in Roger Smith, “The Swiss
                     Connection: International Networks in the Eighteenth Century Luxury Trades.”
                     <hi rend="italic">Journal of Design History</hi> 17, no. 2 (2004):
                     123&#8211;39.</note>
-                <note xml:id="note8">Clare Le Corbeiller. “James Cox and his Curious Toys.” <hi
+                
+                <note xml:id="note10">Clare Le Corbeiller. “James Cox and his Curious Toys.” <hi
                     rend="italic">Metropolitan Museum of Art Bulletin</hi> n.s. 18, no. 10
                     (1960): 318&#8211;24. While Le Corbeiller recycles the Orientalist
                     stereotype of the “insatiable” Eastern despot, Catherine Pagani offers a
@@ -743,103 +812,112 @@
                     it clear that far from being an infantile toy&#8211;collector, the Qianlong
                     Emperor celebrated his diplomatic relations in the form of their ritual
                     objects.</note>
-                <note xml:id="note9">Malcolm Rymer, <hi rend="italic">The Spaniard, or, the Pride of
-                    Birth</hi> (London: Robertson, 1806), 193. All discussion of this work
-                    references the inscribed presentation copy at the University of California,
-                    Los Angeles (UCLA) Libraries’ Special Collections. </note>
-                <note xml:id="note10">“Science and Art,” <hi rend="italic">The Queen’s Magazine
-                </hi>1, no. 5 (August, 1820): 190&#8211;207. In the source, the title is
-                    misspelled  “Queens’” on each number's title page. I have silently amended
-                    the error throughout this edition. References to nos. 2 through 5 indicate the copy in the
-                    Rare Books Collection of the University of North Carolina (UNC), Chapel Hill’s
-                    Louis Round Wilson Library, unless otherwise indicated. References to no. 1 indicate the Cambridge University Library copy.</note>
-                <note xml:id="note11">James P. McClure, “The Second Story: Presidential Address for
+                
+                <note xml:id="note11">“Symphony, n.” <ref target="http://www.oed.com"><hi rend="italic">Oxford English Dictionary (OED)</hi></ref>, 2016, accessed 22 December, 2016.</note>
+                
+                <note xml:id="note12">James P. McClure, “The Second Story: Presidential Address for
                     Documentary Editing Annual Meeting, Louisville, Kentucky, 2014” <hi
-                        rend="italic">Scholarly Editing</hi> 36 (2015), accessed
-                   November 11, 2016.</note>
-                <note xml:id="note12">Gavin [sic] Rymer, “Peep Show,” [engraving] (1834); G. Rymer,
+                        rend="italic">Scholarly Editing</hi> 36 (2015), accessed 11 November,
+                    2016.</note>
+                
+                <note xml:id="note13">Gavin [sic] Rymer, “Peep Show,” [engraving] (1834); G. Rymer,
                     “London Scenes no. 4: Punch and Judy,” [engraving] (1834); G. Rymer, “Guy
                     Fawkes’ Day,” (1834), Guildhall Library and Art Collection.</note>
-                <note xml:id="note13">See Old Bailey Proceedings Online (www.oldbaileyonline.org,
-                    version 7.2, 02 November 2015), May 1838, trial of THOMAS RYMER
-                    (t18380514&#8211;1173). In 2012, the scholar Dick Collins persuasively
+                
+                <note xml:id="note14">See <hi rend="italic">“</hi>Trial of Thomas Rymer
+                    (t18380514&#8211;1173), May 1838,” <ref target="http://www.oldbaileyonline.org"><hi rend="italic">Old Bailey Proceedings Online</hi></ref>, version 7.2, 
+                    accessed 2 November, 2015. In 2012, the scholar Dick Collins persuasively
                     identified this convict as James Malcolm Rymer’s brother. On an Australian
                     digital archive page describing Thomas Rymer’s arrival in Van Diemen’s Land,
                     Collins commented that “Mr Rymer was the son of Malcolm Rymer, of Edinburg
-                    [sic], and Louisa Dixon of London,” and that “his brother James was an
-                    author, and the creator of one of the most popular and enduring villains in
-                    English literature,” presumably, Sweeney Todd. “If this were not a pay
-                    site,” Collins teases, “I would tell you more.” See Dick Collins, “Comment
-                    on “Thomas Rymer” <ref
-                        target="http://www.convictrecords.com.au/convicts/rymer/thomas/64334"
-                        >British Convict Transportation Register</ref>, State Library of
-                    Queensland, Australia, 2 September 2012, accessed 24 August, 2015. Collins
-                    has thus far reported this find only on this genealogical research message
-                    board. Public records support Collins’ identification, as James Malcolm
-                    Rymer’s brother and the convicted forger share an occupation (engraver),
-                    age, and origin, while in the 1841 British Census, Malcolm’s son Thomas is
-                    absent. Brother and forger are the same man. Thomas Rymer’s individual
-                    post&#8211;transportation convictions for banknote forgery are too numerous
-                    to list. An indicative one is ”Multum in Parvo," <hi rend="italic">Sydney Morning Herald</hi>,
-                      26 February, 1847: 2.</note>
-                <note xml:id="note14">“Forged Notes of the Week” <hi rend="italic">Bell’s Life in
-                    Sydney and Sporting Chronicle</hi>, 18 November 1865: 3.</note>
-                <note xml:id="note15">According to <hi rend="italic">Newton’s London Journal of
-                    Arts, Sciences, and Manufactures, and Repertory of Patent
-                    Inventions</hi> (London: Office of Patents, 1843), 27, Rymer’s patent
-                    for engraved castors was “sealed” (registered) on 23 April, 1840.</note>
-                <note xml:id="note16"><hi rend="italic">Northern Star</hi>, 21 February 1846, quoted in Lucy Brown, "The Chartists and the Anti&#8211;Corn Law League," <hi rend="italic">Chartist Studies</hi>, edited by Asa Briggs, 1959 (London: Macmillan, 1977), 342&#8211;71. Chartism was a national political movement
-                    aimed at working-class enfranchisement, primarily through universal male
-                    suffrage. It takes its name from the ‘People's Charter’ (1838), which set
-                    forth six ‘points’ or demands. Repeated attempts to induce Parliament to
-                    pass the People's Charter failed. Chartism flourished between 1838 and 1842.
-                    In most regions, it ended in the 1850s.</note>
-               <note xml:id="note17">Doron Swade, <hi rend="italic">The Cogwheel Brain:
-                    Charles Babbage and the quest to build the first computer</hi> (London:
-                   Little, Brown, 1999), 135.</note>
-                <note xml:id="note18">Robert Peel to John Wilson Croker, 8 March 1824, in <hi
+                    [sic], and Louisa Dixon of London,” and that “his brother James was an author,
+                    and the creator of one of the most popular and enduring villains in English
+                    literature,” presumably, Sweeney Todd. “If this were not a pay site,” Collins
+                    teases, “I would tell you more.” See Dick Collins, “Comment on “Thomas Rymer,”
+                    <ref target="http://www.convictrecords.com.au/convicts/rymer/thomas/64334"><hi rend="italic">British Convict Transportation Register</hi></ref>, State Library of Queensland,
+                        
+                        Australia, 2 September, 2012, accessed 24 August, 2015. Collins has thus far
+                    reported this find only on this genealogical research message board. Public
+                    records support Collins’ identification, as James Malcolm Rymer’s brother and
+                    the convicted forger share an occupation (engraver), age, and origin, while in
+                    the 1841 British Census, Malcolm’s son Thomas is absent. Brother and forger are
+                    the same man. Thomas Rymer’s individual post&#8211;transportation convictions
+                    for banknote forgery are too numerous to list. An indicative one is “Multum in
+                    Parvo,” <hi rend="italic">Sydney Morning Herald</hi>, 26 February, 1847:
+                    2.</note>
+                
+                <note xml:id="note15">“Forged Notes of the Week” <hi rend="italic">Bell’s Life in
+                        Sydney and Sporting Chronicle</hi>, 18 November, 1865: 3.</note>
+                
+                <note xml:id="note16">According to <hi rend="italic">Newton’s London Journal of
+                        Arts, Sciences, and Manufactures, and Repertory of Patent Inventions</hi>
+                    (London: Office of Patents, 1843), 27, Rymer’s patent for engraved castors was
+                    “sealed” (registered) on 23 April, 1840.</note>
+                
+                <note xml:id="note17"><hi rend="italic">Northern Star, </hi>16 March 1839, quoted in
+                    Gareth Stedman Jones, <hi rend="italic">Languages of Class: Studies in English
+                        Working-Class History, 1832-1982 </hi>(Cambridge: Cambridge University
+                    Press, 1983), 151. Chartism was a national political movement aimed
+                    at working&#8211;class enfranchisement, primarily through universal male
+                    suffrage. It takes its name from the ‘People’s Charter’ (1838), authored primarily by the London Chartist William Lovett, which set forth
+                    six ‘points’ or demands. Repeated attempts to induce Parliament to pass the
+                    People’s Charter (in 1839, 1842, and 1848) failed.</note>
+                    
+                <note xml:id="note18">
+                    <hi rend="italic">Northern Star</hi>, 21 February 1846,
+                    quoted in Lucy Brown, “The Chartists and the Anti&#8211;Corn Law League,“ <hi
+                        rend="italic">Chartist Studies</hi>, edited by Asa Briggs, 1959 (London:
+                    Macmillan, 1977), 342&#8211;71. </note>
+                
+               <note xml:id="note19">Robert Peel to John Wilson Croker, 8 March 1824, in <hi
                     rend="italic">The Croker Papers: The Correspondence and Diaries of the
                     Late Right Honourable John Wilson Croker, LL.D., F.R.S., Secretary to
                     the Admiralty from 1809 to 1830</hi>, edited by Louis J. Jennings
-                    (Cambridge: Cambridge University Press, 2012), 262&#8211;3. Swade, 36, also
-                    discusses this letter.</note>
-                <note xml:id="note19">Dionysius Lardner, “Babbage’s Calculating Engine,” <hi
+                   (Cambridge: Cambridge University Press, 2012), 262&#8211;3. Discussed in Doron Swade, <hi rend="italic">The Cogwheel Brain:
+                       Charles Babbage and the quest to build the first computer</hi> (London:
+                   Little, Brown, 1999), 36.</note>
+                
+                <note xml:id="note20">Dionysius Lardner, “Babbage’s Calculating Engine,” <hi
                     rend="italic">Edinburgh Review</hi> 120 (1834), 263&#8211;327, in
                     Anthony Hyman, ed. <hi rend="italic">Science and Reform: Selected Works of
                         Charles Babbage</hi> (Cambridge: Cambridge University Press 1989),
                     51&#8211;109. This anthology is hereafter abbreviated as SWCB.</note>
-                <note xml:id="note20">Allan G. Bromley, “Charles Babbage’s Analytical Engine, 1838”
+                
+                <note xml:id="note21">Allan G. Bromley, “Charles Babbage’s Analytical Engine, 1838”
                     <hi rend="italic">IEEE Annals of the History of Computing</hi> 20, no. 4
                     (1998), 29&#8211;45.</note>
-                <note xml:id="note21">Dwight Goddard, <hi rend="italic">Eminent Engineers: Brief
+                
+                <note xml:id="note22">Dwight Goddard, <hi rend="italic">Eminent Engineers: Brief
                     Biographies of Thirty&#8211;two of the Inventors and Engineers who did most to
                     further mechanical progress, by Dwight Goddard, Member of the American
                     Society of Mechanical Engineers</hi> (N.P., “1905” [1906]), ix and
                     251.</note>
-                <note xml:id="note22">Tamara Ketabgian, <hi rend="italic">The Lives of Machines: The
+                
+                <note xml:id="note23">Tamara Ketabgian, <hi rend="italic">The Lives of Machines: The
                     Industrial Imaginary in Victorian Literature and Culture</hi> (Ann
                     Arbor: University of Michigan Press, 2011), 18.</note>
-                <note xml:id="note23">Charles Dickens, <hi rend="italic">Little Dorrit</hi>, edited
+                
+                <note xml:id="note24">Charles Dickens, <hi rend="italic">Little Dorrit</hi>, edited
                     by Peter Sucksmith, 1982 (Oxford: Oxford University Press, 2008),
                     133&#8211;4.</note>
-                <note xml:id="note24">Peter J. Gurney, “’Rejoicing in Potatoes’: The Politics of
+                
+                <note xml:id="note25">Peter J. Gurney, “‘Rejoicing in Potatoes’: The Politics of
                     Consumption in England during the ‘Hungry Forties’” <hi rend="italic">Past
-                        and Present</hi> 203, no. 1 (2009): 99&#8211;136; Charlotte Boyce,
-                    “Representing the ‘Hungry Forties’ in Image and Verse: The Politics of
+                        and Present</hi> 203, no. 1 (2009): 99&#8211;136.
+                    <note xml:id="note26">
+                    Charlotte Boyce, “Representing the ‘Hungry Forties’ in Image and Verse: The Politics of
                     Hunger in Early&#8211;Victorian Periodicals,“ <hi rend="italic">Victorian
                         Literature and Culture</hi> 40 (2012): 421&#8211;49.</note>
-                <note xml:id="note25"> Anthony Hyman, <hi rend="italic">Charles Babbage: Pioneer of
+                
+                    <note xml:id="note27"> Anthony Hyman, <hi rend="italic">Charles Babbage: Pioneer of
                     the Computer </hi>(Princeton: Princeton University Press, 1982),
                     191.</note>
-                <note xml:id="note26"><hi rend="italic">Oxford English Dictionary (OED)</hi>
-                    (Oxford: Oxford University Press, 2004), accessed November 11, 2016, <ref target="www.oed.com">www.oed.com</ref></note>
-                <note xml:id="note27">Dorothy Thompson, <hi rend="italic">The Early Chartists</hi>
-                    (London: Springer, 1971), 10; James 165. </note>
-                <note xml:id="note28"><hi rend="italic">The String of Pearls, or the Barber of
+                
+                    <note xml:id="note28"><hi rend="italic">The String of Pearls, or the Barber of
                     Fleet&#8211;Street, A Domestic Romance</hi> (London: Edward Lloyd, 1850),
                     18.</note>
                 
-            
+                </note>
             </div>
         </back>
  

@@ -45,7 +45,7 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>Science and Art: A Farce, in Two Acts</em>, by Malcolm Rymer</h1>
+        <h1><em>Science and Art: A Farce, in Two Acts</em></h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
@@ -150,6 +150,25 @@
       <strong><xsl:apply-templates select="child::head"/></strong><xsl:text>: </xsl:text><xsl:apply-templates select="child::figDesc"/>
     </h5>
       
+    </span>
+  </xsl:template>
+  
+  <xsl:template match="//tei:lg">
+    <div class="tei_lg">
+      <xsl:apply-templates/><br/>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="//tei:l">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>poem_line tei_l lineindent</xsl:text>
+        <xsl:if test="@rend">
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="@rend"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:apply-templates/>
     </span>
   </xsl:template>
 

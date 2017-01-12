@@ -53,6 +53,32 @@ span.pagebreak_list a{
     margin: -0px 0 0 10px;
 }
 
+span.pagebreak_list_misc{
+    display: block;
+    margin: 1em 0 0 -6em;
+    font-size: 10pt;
+    border-top: 1px dashed #aaa;
+    height: 50px;
+    padding: 15px;
+    width: 112%;
+    text-align: left;
+}
+
+span.pagebreak_list_misc span.tei_thumbnail{
+    float: right;
+    padding-left: 10px;
+    text-indent: 0px;
+    clear: both;
+    margin: 10px 0 0 10px;
+}
+
+span.pagebreak_list_misc a{
+    float: right;
+    clear: right;
+    line-height: 1.5em;
+    margin: -0px 0 0 10px;
+}
+
 span.pagebreak_doubleList{
     display: block;
     margin: 1em 0 0 -9em;
@@ -95,6 +121,16 @@ span.last_line{
      font-weight:normal;
      vertical-align: super;
 }
+
+ul.list {
+    list-style-type:none;
+    text-indent: -30px;
+}
+
+td.indent {
+    text-indent: 50px;
+}
+
 
 /* To add borders on sides */
 /*.row > div {
