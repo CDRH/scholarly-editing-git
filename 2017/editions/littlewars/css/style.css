@@ -27,6 +27,13 @@
     font-size: .85em;
 }
 
+.WellsNote_list {
+    display: block;
+    font-size: .85em;
+    margin-left: -40px;
+    text-indent: 0px;
+}
+
 span.pagebreak_list{
     display: block;
     margin: 1em 0 0 -3em;
@@ -127,10 +134,35 @@ ul.list {
     text-indent: -30px;
 }
 
+ul.paragraph_list {
+    list-style-type:none;
+    
+}
+
+ul.hanging_list {
+    list-style-type:none;
+    text-indent: -30px;
+}
+
 td.indent {
     text-indent: 50px;
 }
 
+td.right {
+    text-align: right;
+}
+
+.figure_list {
+    margin-left: -40px;
+}
+
+.caption_list {
+    margin-left: -40px;
+}
+
+.fw_list {
+    margin-left: -120px;
+}
 
 /* To add borders on sides */
 /*.row > div {

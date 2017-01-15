@@ -158,7 +158,10 @@
   
   <!--primary text footnotes-->
   <xsl:template match="note[@place='bottom']">
-    <br/><br/><xsl:text>* </xsl:text><span class="WellsNote"><xsl:apply-templates/></span>
+    <xsl:choose>
+      <xsl:when test="ancestor::list"><br/><br/><span class="WellsNote_list"><xsl:text>* </xsl:text><xsl:apply-templates/></span></xsl:when>
+      <xsl:otherwise><br/><br/><xsl:text>* </xsl:text><span class="WellsNote"><xsl:apply-templates/></span></xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="ref">
@@ -212,7 +215,9 @@
   
   <!--formeworks-->
   <xsl:template match="fw">
-    <br/><xsl:apply-templates/>
+    <xsl:choose>
+      <xsl:when test="ancestor::list"><br/><span class="fw_list"><xsl:apply-templates/></span></xsl:when>
+      <xsl:otherwise><br/><xsl:apply-templates/></xsl:otherwise></xsl:choose>
   </xsl:template>
 
   <!--pb templates adjusted according to parent element-->
@@ -471,13 +476,30 @@
   </xsl:template>
   
   <xsl:template match="list">
-    <ul><xsl:apply-templates/></ul>
+    <xsl:choose>
+      <xsl:when test="preceding::idno='rules.littlewars'"><ul><xsl:apply-templates/></ul></xsl:when>
+      <xsl:otherwise><xsl:choose>
+      <xsl:when test="descendant::label"><ul class="paragraph_list"><xsl:apply-templates/></ul></xsl:when>
+      <xsl:otherwise><ul class="hanging_list"><xsl:apply-templates/></ul></xsl:otherwise>
+    </xsl:choose></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="item">
+    <xsl:choose>
+      <xsl:when test="child::label"><p><xsl:apply-templates/></p></xsl:when>
+      <xsl:otherwise><li><xsl:apply-templates/></li></xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="cell[@rend='indent']">
     <td class="indent">
       <xsl:apply-templates/>
     </td>
+  </xsl:template>
+  
+  <xsl:template match="cell[not(following-sibling::cell)]">
+    <td class="right"><xsl:apply-templates/></td>
   </xsl:template>
   
   <xsl:template match="hi">
@@ -493,7 +515,27 @@
   </xsl:template>
   
   <xsl:template match="figure">
-    <span class="figure_center">
+    <xsl:choose>
+      <xsl:when test="ancestor::list">
+        <span class="figure_list">
+          <xsl:attribute name="id">
+            <xsl:value-of select="@xml:id"/>
+          </xsl:attribute>
+          <img>
+            <xsl:attribute name="src">
+              <xsl:text>images/viewsize/</xsl:text>
+              <xsl:value-of select="child::graphic/attribute::url"/>
+            </xsl:attribute>
+            <xsl:attribute name="alt">
+              <xsl:value-of select="child::figDesc"/>
+            </xsl:attribute>
+          </img></span>
+        <span class="cap"><h5 class="figure_list">
+          <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
+        </h5>
+        </span>
+      </xsl:when>
+      <xsl:otherwise><span class="figure">
       <xsl:attribute name="id">
         <xsl:value-of select="@xml:id"/>
       </xsl:attribute>
@@ -509,7 +551,7 @@
     <span class="cap"><h5>
       <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
     </h5>
-    </span>
+    </span></xsl:otherwise></xsl:choose>
   </xsl:template>
   
 </xsl:stylesheet>
