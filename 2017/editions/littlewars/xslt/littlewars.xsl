@@ -57,7 +57,7 @@
         <nav>
           <ul>
             <li class="first"><a href="intro.html#page_info">Introduction</a></li>
-            <li><a href="fulltext.html#page_info">Edition</a></li>
+            <li><a href="fulltext.html#page_info">Text</a></li>
             <li><a href="rules.html#page_info">Streamlined Rules</a></li>
             <li><a href="{$idno}.xml">Page XML &#8659;</a></li>
             <li><a href="littlewars.zip">Edition XML &#8659;</a></li>
