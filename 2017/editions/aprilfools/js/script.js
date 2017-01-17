@@ -44,3 +44,10 @@ $(document).ready(function(){
         });
     });
 });
+
+
+$(function () {
+    $('.aprilfools_tei_thumbnail a').lightBox({
+        fixedNavigation: true
+    });
+});

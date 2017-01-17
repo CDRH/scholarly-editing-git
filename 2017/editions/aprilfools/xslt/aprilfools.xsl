@@ -76,7 +76,7 @@
           <ul>
             <li class="first"><a href="intro.html#page_info">Introduction</a></li>
             <li><a href="sun.html#page_info">Sun Interview</a></li>
-            <li><a href="edition.html#page_info">Edition</a></li>
+            <li><a href="edition.html#page_info">Letters to Clemens</a></li>
             <!--<li><a href="people.html#page_info">People</a></li>-->
             <li><a href="graph/index.html">Network Graph</a></li>
             <xsl:if test="not($pageid = 'edition')">
@@ -98,7 +98,9 @@
               <xsl:apply-templates select="//tei:listPerson"></xsl:apply-templates>
             </xsl:when>
             <xsl:when test="$pageid = 'edition'">
-              <br/>
+              
+              <h3 class="aprilfool_header">Letters to Clemens</h3>
+              
                   <xsl:call-template name="letter_table"/>
             </xsl:when>
             <xsl:otherwise>
@@ -115,8 +117,54 @@
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
   
+  <!-- overriding PB behavior from mtpCommon.xsl -->
+
+  <xsl:template exclude-result-prefixes="#all" match="*:pb">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>aprilfools_pagebreak</xsl:text>
+      </xsl:attribute>
+      <span class="aprilfools_tei_thumbnail">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:text>facs/display/</xsl:text>
+            <xsl:value-of select="@facs"/>
+          </xsl:attribute>
+          <img>
+            <xsl:attribute name="src">
+              <xsl:text>facs/thumb/</xsl:text>
+              <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+          </img>
+        </a>
+      </span>
+      <span class="viewsize">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:text>facs/display/</xsl:text>
+            <xsl:value-of select="@facs"/>
+          </xsl:attribute>
+          <xsl:text>View Page</xsl:text>
+        </a>
+      </span>
+      <br/>
+      <span class="fullsize">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:text>facs/full/</xsl:text>
+            <xsl:value-of select="@facs"/>
+          </xsl:attribute>
+          <xsl:attribute name="target">
+            <xsl:text>_blank</xsl:text>
+          </xsl:attribute>
+          <xsl:text>Full size in new window</xsl:text>
+        </a>
+      </span>
+    </span>
+  </xsl:template>
+
   <xsl:template match="head">
-    <h3><xsl:apply-templates></xsl:apply-templates></h3>
+    <h3 class="aprilfool_header"><xsl:apply-templates></xsl:apply-templates></h3>
     
   </xsl:template>
   
@@ -233,7 +281,9 @@
   <xsl:template match="text">
     
     <xsl:apply-templates/>
-    <xsl:if
+    
+    <!-- Editor supplied XSL already handles notes -->
+    <!--<xsl:if
       test="
       (//body//note[@type = 'editorial']
       or //body//note[@place = 'foot']
@@ -249,7 +299,7 @@
           </div>
         </xsl:for-each>
       </div>
-    </xsl:if>
+    </xsl:if>-->
   </xsl:template>
   
   <!-- adding stanza so I can style -->
