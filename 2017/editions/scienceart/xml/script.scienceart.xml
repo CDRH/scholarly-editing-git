@@ -78,7 +78,7 @@
                <biblScope unit="pp">190-207</biblScope>
                <note type="project">
                   <p>Transcribed from the copy of the <hi rend="italic">Queen’s Magazine</hi> in the
-                     are Books Collection, Louis Round Wilson Special Collections Library,
+                     Rare Books Collection, Louis Round Wilson Special Collections Library,
                      University of North Carolina (UNC), Chapel Hill. This magazine ran for one volume, consisting of
                      five numbers, continuously paginated throughout. The UNC copy consists of four
                      of the numbers: volume 1, no. 2 (May, 1842) through volume 1, no. 5 (August,
@@ -91,8 +91,8 @@
                      (p. 76) has been cut out. It is not apparent who was responsible for this
                      defacement, nor when it took place. There are no other significant differences
                      between this copy and the British Library and Cambridge copies.</p>
-                  <p>On each title page, the title is misspelled  “Queens’”. 
-                     I have silently amended the error throughout this edition.</p>
+                  <p>On each title page, the title is misspelled  “Queens’ Magazine.” 
+                     I have silently amended the punctuation error throughout this edition.</p>
                </note>
             </bibl>
          </sourceDesc>
@@ -126,14 +126,14 @@
                   <castItem><role>Old [Matthew] <seg corresp="#note1">Freeman</seg>.</role><roleDesc>[A country
                      lawyer.]</roleDesc></castItem>
                   <castItem><role>Young [Jack] Freeman.</role><roleDesc>[a city lawyer; Old
-                        Freeman’s nephew; in the script, “Freeman.”]</roleDesc></castItem>
+                     Freeman’s nephew; in the script, “Freeman.”]<ptr
+                        target="#note1" xml:id="nr1" n="1"/></roleDesc></castItem>
                   <castItem><role>Dick <seg corresp="#note1">Lobby</seg>.</role><roleDesc>[Another city lawyer; Freeman’s
                         friend.]</roleDesc></castItem>
                   <castItem><role>Tom [<seg corresp="#note1">Clinker</seg>].</role><roleDesc>[Freeman’s
                      servant.]</roleDesc></castItem>
                   <castItem><role>Maria.</role><roleDesc>[Patent’s ward.]</roleDesc></castItem>
-                  <castItem><role>Alice.</role><roleDesc>[Patent’s servant.]</roleDesc><ptr
-                     target="#note1" xml:id="nr1" n="1"/></castItem>
+                  <castItem><role>Alice.</role><roleDesc>[Patent’s servant.]</roleDesc></castItem>
                   </castGroup>
             </castList>
          </div>
@@ -141,7 +141,7 @@
                <head type="main">Act I. Scene I.</head>
                <stage type="setting"><hi rend="italic">Young</hi> FREEMAN<hi rend="italic">’s
                      Lodgings in the <seg corresp="#note2">Temple</seg>.&#8212;Two chairs and
-                     table.</hi><ptr target="#note2" xml:id="nr2" n="2"/><lb/>
+                  table.</hi><ptr target="#note2" xml:id="nr2" n="2"/><lb/>
                </stage>
                <sp>
                   <speaker><hi rend="bold">Freeman.</hi></speaker>
@@ -2394,7 +2394,7 @@
                      <speaker><hi rend="bold">Patent.</hi></speaker>
                   <p>Come, come, you scoundrel! It was in vain you thought to impose upon me! <stage
                         type="business"><hi rend="italic">(Tears off the mask and domino, and stares
-                           with astonishment when he beholds the face and figure of</hi> OLD
+                           with astonishment when he beholds the face and figure of</hi>  <!--extra space because italicization seems to delete a space-->OLD
                         FREEMAN).</stage> What! How is this? My friend Freeman! I beg your pardon. I
                      took you for the automaton.</p>
                </sp>
@@ -2703,13 +2703,10 @@
       <note xml:id="note1"><hi rend="italic">Freeman</hi>: during the Regency, a member of England’s
                elite class of political participation, possessing the right to vote in elections for
                Minister of Parliament. More broadly, a “freeman” is a man who is not enslaved; who
-               is relatively autonomous. <hi rend="italic">Oxford English Dictionary (OED)</hi>,
-               September 2016, Oxford University Press, www.oed.com (accessed 11 November, 2016).
+               is relatively autonomous. "Freeman, n." <hi rend="italic">Oxford English Dictionary (OED)</hi>, 
+               Oxford University Press, www.oed.com (accessed 11 November, 2016).
                The first connotation applies to young Jack Freeman, but the play’s denouement casts
-               doubt upon the second. <hi rend="italic">Lobby</hi>: This name apparently foregrounds
-               the young lawyer’s propensity to “lobby” his friend Freeman and nemesis Patent. <hi
-                  rend="italic">Clinker</hi>: perhaps a reference to the clinking of glasses, as Tom
-               Clinker is an alcoholic and prefers to drink in public-houses.</note>
+               doubt upon the second.</note>
       
       
       
@@ -2814,34 +2811,57 @@
                populace was afterwards expressed by songs in the streets of London.” Late
                eighteenth-century London clockmakers provided China’s Qianlong Emperor (d. 1799)
                with elaborate “musical clocks” and other automata. See Introduction, note no. 10.
-                  <note xml:id="note18"><hi rend="italic">minerology</hi>: conventionally spelled
-                  “mineralogy.” </note><note xml:id="note19"><hi rend="italic">twenty husbands</hi>:
+                 
+         <note xml:id="note18"><hi rend="italic">minerology</hi>: conventionally spelled
+                  “mineralogy.” </note>
+         
+         <note xml:id="note19"><hi rend="italic">twenty husbands</hi>:
                   an identically desperate, vicious “old maid,” the Honorable Miss Flint, provides
                   comic relief in James Malcolm Rymer’s penny blood <hi rend="italic">The Sepoys,
                      or, Highland Jessie: A Tale of the Present Indian Revolt</hi>, which was
-                  serialized in <hi rend="italic">Reynolds’s Miscellany</hi> in 1858.</note><note
+                  serialized in <hi rend="italic">Reynolds’s Miscellany</hi> in 1858.</note>
+         
+         <note
                   xml:id="note20"><hi rend="italic">windmill notions</hi>: denotes both (1) ideas
                   about windmills and (2) fantasies reminiscent of <hi rend="italic">Don
                      Quixote</hi> (1605), in which the eponymous hero on his aimless quest mistakes
-                  windmills for giants.</note><note xml:id="note21"><hi rend="italic"> made
-                     love</hi>: expressed love <hi rend="italic">(OED)</hi>.</note><note
+                  windmills for giants.</note>
+         
+         <note xml:id="note21"><hi rend="italic"> made
+                     love</hi>: expressed love <hi rend="italic">(OED)</hi>.</note>
+         
+         <note
                   xml:id="note22"><hi rend="italic">Bond Street</hi>: associated with luxury;
                   connects Oxford Street, known for its retail district, with the gentlemen’s
-                  playground of Picadilly.</note><note xml:id="note23"><hi rend="italic">luck</hi>:
-                  in the source, “lack” (typographical error).</note><note xml:id="note24"><hi
+                  playground of Picadilly.</note>
+         
+         <note xml:id="note23"><hi rend="italic">luck</hi>:
+                  in the source, “lack” (typographical error).</note>
+         
+         <note xml:id="note24"><hi
                      rend="italic">dangling</hi>: “hang[ing] after or about any one, especially as a
                   loosely attached follower [...] without being a formally recognized attendant” <hi
-                     rend="italic">(OED)</hi>.</note><note xml:id="note25"><hi rend="italic"
-                     >are</hi>: in the source, “is” (typopgraphical error).</note><note
+                     rend="italic">(OED)</hi>.</note>
+         
+         <note xml:id="note25"><hi rend="italic"
+                     >are</hi>: in the source, “is” (typopgraphical error).</note>
+         
+         <note
                   xml:id="note26"><hi rend="italic">excels</hi>: exceeds <hi rend="italic"
-                     >(OED)</hi>.</note><note xml:id="note27"><hi rend="italic">barber’s shop</hi>:
-                  In <hi rend="italic">The String of Pearls</hi> (1846-7, revised 1850) the
+                     >(OED)</hi>.</note>
+         
+         <note xml:id="note27"><hi rend="italic">barber’s shop</hi>:
+            In James Malcolm Rymer’s <hi rend="italic">The String of Pearls</hi> (1846-7, revised 1850) the
                   character Thornhill fatally chooses to visit a barber shop before visiting a
                   lady.</note><note xml:id="note28"><hi rend="italic">powers of gravity</hi>: Lobby
-                  resolves not to laugh, making a pun on the scientific term “gravity.”</note><note
+                  resolves not to laugh, making a pun on the scientific term “gravity.”</note>
+         
+         <note
                   xml:id="note30"><hi rend="italic">domino</hi>: a “kind of loose cloak,
                   app[arently] of Venetian origin, chiefly worn at masquerades, with a small mask
-                  covering the upper part of the face” <hi rend="italic">(OED)</hi>.</note><note
+                  covering the upper part of the face” <hi rend="italic">(OED)</hi>.</note>
+         
+         <note
                   xml:id="note31"><hi rend="italic">Kensington [...] Monument</hi>: <hi
                      rend="italic">Kensington Gardens ... Blackfriars</hi>: Moving Kensington
                   Gardens to Spitalfields would be an act of great social justice, as Kensington is
@@ -2851,17 +2871,25 @@
                   The Monument, completed in 1677, offers panoramic views of London, which would be
                   even more scenic from the middle of the River Thames. Blackfriars Bridge connects
                   the Inns of Court and Temple with the South Bank. Its obstruction by a relocated
-                  Monument would inconvenience the lawyers of the Temple.</note><note
-                  xml:id="note32"><hi rend="italic">Mogul Tartary</hi>: The “warlike and formidable
+                  Monument would inconvenience the lawyers of the Temple.</note>
+         
+         <note
+                  xml:id="note32"><hi rend="italic">Mogul Tartary</hi>: the “warlike and formidable
                   nation” of Chingghis Khan (“Genghis Khan”), occupying northeastern
                   fourteenth&#8211;century China. William Winterbottom, <hi rend="italic">An
                      Historical, Geographical, and Philosophical View of the Chinese Empire</hi>
-                  (London: J. Ridgeway, 1795), 118.</note><note xml:id="note33"><hi rend="italic"
+                  (London: J. Ridgeway, 1795), 118.</note>
+         
+         <note xml:id="note33"><hi rend="italic"
                      >cute</hi>: clever; derived from “acute” <hi rend="italic"
-                  >(OED)</hi>.</note><note xml:id="note34"><hi rend="italic">cause</hi>: case; <hi
+                  >(OED)</hi>.</note>
+         
+         <note xml:id="note34"><hi rend="italic">cause</hi>: case; <hi
                      rend="italic">depending in Yorkshire</hi>: pending in Yorkshire, a county in
                   the North of England. The Great North Road connects Yorkshire’s main city, York,
-                  with London.</note><note xml:id="note35"><hi rend="italic">Bagnigge Wells</hi>:
+                  with London.</note>
+         
+         <note xml:id="note35"><hi rend="italic">Bagnigge Wells</hi>:
                   North London “tea garden.” According to Geoffrey Dart, <hi rend="italic"
                      >Metropolitan Art and Literature, 1810&#8211;1840: Cockney Adventures</hi>
                   (Cambridge: Cambridge University Press, 2012), during the Regency, the clientele
@@ -2869,43 +2897,70 @@
                   nineteenth century. By 1820, Bagnigge Wells was “decidedly Cockneyfied,” wrote
                   Warwick Wroth, <hi rend="italic">The London Pleasure&#8211;Gardens of the
                      Eighteenth Century,</hi> (London: Macmillan, 1896), 7, quoted Dart,
-                  34.</note><note xml:id="note36"><hi rend="italic">Court of Queen’s Bench</hi>:
+                  34.</note>
+         
+         <note xml:id="note36"><hi rend="italic">Court of Queen’s Bench</hi>:
                   There was no such court in 1820, as the monarch was a king, but there was in 1842,
                   during Victoria’s reign. Apparently, James Malcolm Rymer edited this line of his
                   late father’s manuscript to make it contemporary. Evidently, James Malcolm Rymer
-                  did not print the script exactly as originally composed.</note><note
+                  did not print the script exactly as originally composed.</note>
+         
+         <note
                   xml:id="note37"><hi rend="italic">nonsuited</hi>: The lawsuit is thrown out <hi
                      rend="italic">(OED)</hi>, leaving the tailor dehumanized and without justice
-                  against his upper-class menace.</note><note xml:id="note38"><hi rend="italic"
+                  against his upper-class menace.</note>
+         
+         <note xml:id="note38"><hi rend="italic"
                      >wit</hi>: in the source, “with” (typographical error); <hi rend="italic"
-                     >Suffolk</hi>: A county in East Anglia, to the northeast of London.</note><note
+                     >Suffolk</hi>: county in East Anglia, to the northeast of London.</note><note
                   xml:id="note39"><hi rend="italic">any</hi>: in the source, “any any”
-                  (typographical error).</note><note xml:id="note40"><hi rend="italic">rural
-                     lay</hi>: Pastoral song; idyll <hi rend="italic">(OED)</hi>.</note><note
-                  xml:id="note41"><hi rend="italic">kickshaw</hi>: Fancy, dubious French or other
-                  foreign food or fad <hi rend="italic">(OED)</hi>.</note><note xml:id="note42"><hi
+                  (typographical error).</note>
+         
+         <note xml:id="note40"><hi rend="italic">rural
+                     lay</hi>: pastoral song; idyll <hi rend="italic">(OED)</hi>.</note>
+         
+         <note
+                  xml:id="note41"><hi rend="italic">kickshaw</hi>: fancy, dubious French or other
+                  foreign food or fad <hi rend="italic">(OED)</hi>.</note>
+         
+         <note xml:id="note42"><hi
                      rend="italic">odsbuds</hi>: God’s blood <hi rend="italic"
-                  >(OED)</hi>.</note><note xml:id="note43"><hi rend="italic">the</hi>: originally,
-                  “she” (typographical error).</note><note xml:id="note44"><hi rend="italic"
-                     >buss</hi>: kiss <hi rend="italic">(OED)</hi>.</note><note xml:id="note45"><hi
-                     rend="italic">gypsy</hi>: in this context, ancient Egyptian.</note><note
+                  >(OED)</hi>.</note>
+         
+         <note xml:id="note43"><hi rend="italic">the</hi>: in the source,
+                  “she” (typographical error).</note>
+         
+         <note xml:id="note44"><hi rend="italic"
+                     >buss</hi>: kiss <hi rend="italic">(OED)</hi>.</note>
+         
+         <note xml:id="note45"><hi
+                     rend="italic">gypsy</hi>: in this context, ancient Egyptian.</note>
+         
+         <note
                   xml:id="note46"><hi rend="italic">tomtit</hi>: “common name of the Blue Titmouse
                      (<hi rend="italic">Parus cæruleus</hi>),” or, incorrectly, other “small birds,”
                   used colloquially to (de)mean a “little man or boy” <hi rend="italic"
-                  >(OED)</hi>.</note><note xml:id="note47"><hi rend="italic">newly-invented</hi>:
+                  >(OED)</hi>.</note>
+         
+         <note xml:id="note47"><hi rend="italic">newly-invented</hi>:
                   popular advertising term indicating a wondrous invention. See, for instance, the
                   reference to a “newly-invented light” in “Substitute for the Sun,” <hi
                      rend="italic">The Champion</hi> 33 (December 23, 1838): 6, and <hi
                      rend="italic">Coulson’s Treatise on his Newly-Invented Engineers’ and
-                     Mechanics’ Slide Rule</hi> (Stokesley: W. Braithwate, 1842).</note><note xml:id="note48"><hi rend="italic">villain</hi>: in the source,
+                     Mechanics’ Slide Rule</hi> (Stokesley: W. Braithwate, 1842).</note>
+         
+         <note xml:id="note48"><hi rend="italic">villain</hi>: in the source,
                   “villian” (typographical error).</note><note xml:id="note49"><hi rend="italic"
-                     >Adzooks</hi>: “gadzooks,” or God’s hooks: the nails from the Crucifixion <hi
-                     rend="italic">(OED)</hi>.</note><note xml:id="note50"><hi rend="italic"
-                     >hurdy-gurdy</hi>: “wheel&#8211;fiddle.” Welsh traditional string instrument.
-                  Its major features are a wheel and a crank. It is therefore the instrument that
+                     >Adzooks</hi>: “gadzooks,” or God’s hooks: nails from the Crucifixion <hi
+                     rend="italic">(OED)</hi>.</note>
+         
+         <note xml:id="note50"><hi rend="italic"
+                     >hurdy-gurdy</hi>: Welsh traditional string instrument. Its major features are a wheel and a crank. It is therefore the instrument that
                   the wheel&#8211;obsessed Patent might be most likely to construct and
-                  play.</note><note xml:id="note51"><hi rend="italic">philosophic</hi>: here, not
-                  scientific, but Stoic, because marriage to Alice must involve suffering.</note>
+                  play.</note>
+         
+         <note xml:id="note51"><hi rend="italic">philosophic</hi>: here, not
+                  scientific, but stoical, because marriage to Alice must involve suffering.</note>
             </note>
       </div>
   </back>
