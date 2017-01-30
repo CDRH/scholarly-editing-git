@@ -96,6 +96,7 @@
                 added refs for figures in text; expanded SrcDesc; added line breaks for prefatory
                 material formatting; fixed tagging of Wells's footnotes according to Gray's
                 suggestions; attempted (and failed) to fix pb errors.</change>
+            <change who="lepianka" when="2017-01-29">Added emdash symbols to figure captions where appropriate. Adjusted placement of note 33.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -229,68 +230,71 @@
                         <cell>THE BATTLE OF HOOK'S FARM—</cell>
                         <!--<cell/>-->
                         <cell/>
-                    </row><row>
+                    </row>
+                    <row>
                         <!--<cell/>-->
-                        <cell rend="indent">I. <emph rend="italic">General View of the Battlefield and Red
-                                Army</emph> . . . .</cell>
+                        <cell rend="indent">I. <emph rend="italic">General View of the Battlefield
+                                and Red Army</emph> . . . .</cell>
                         <cell>31</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">II. <emph rend="italic">A Near View of the Blue Army</emph> . .</cell>
+                        <cell rend="indent">II. <emph rend="italic">A Near View of the Blue
+                                Army</emph> . .</cell>
                         <cell>40</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">III. <emph rend="italic">Position of both Armies after the first
-                                move</emph> .</cell>
+                        <cell rend="indent">III. <emph rend="italic">Position of both Armies after
+                                the first move</emph> .</cell>
                         <cell>41</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">IV. <emph rend="italic">The Battle developing rapidly</emph> .
-                            .</cell>
+                        <cell rend="indent">IV. <emph rend="italic">The Battle developing
+                                rapidly</emph> . .</cell>
                         <cell>52</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">V<emph rend="italic">a. Red Cavalry charging the Blue Guns</emph>
-                            .</cell>
+                        <cell rend="indent">V<emph rend="italic">a. Red Cavalry charging the Blue
+                                Guns</emph> .</cell>
                         <cell>53</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">V<emph rend="italic">b. After the Cavalry Mêlée</emph>. . .</cell>
+                        <cell rend="indent">V<emph rend="italic">b. After the Cavalry Mêlée</emph>.
+                            . .</cell>
                         <cell>62</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">VI<emph rend="italic">a. Prisoners being led to the rear</emph> .
-                            .</cell>
+                        <cell rend="indent">VI<emph rend="italic">a. Prisoners being led to the
+                                rear</emph> . .</cell>
                         <cell>63</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">VI<emph rend="italic">b. Position of Armies at end of Blue's third
-                                move</emph>. . . .</cell>
+                        <cell rend="indent">VI<emph rend="italic">b. Position of Armies at end of
+                                Blue's third move</emph>. . . .</cell>
                         <cell>72</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">VII. <emph rend="italic">Red's Left Wing attempting to join the Main
-                                Body</emph>. . . .</cell>
+                        <cell rend="indent">VII. <emph rend="italic">Red's Left Wing attempting to
+                                join the Main Body</emph>. . . .</cell>
                         <cell>73</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">VIII. <emph rend="italic">The Red Army suffers Heavy Loss</emph>
-                            .</cell>
+                        <cell rend="indent">VIII. <emph rend="italic">The Red Army suffers Heavy
+                                Loss</emph> .</cell>
                         <cell>84</cell>
                     </row>
                     <row>
                         <!--<cell/>-->
-                        <cell rend="indent">IX. <emph rend="italic">Complete Victory of the Blue Army</emph>
-                            .</cell>
+                        <cell rend="indent">IX. <emph rend="italic">Complete Victory of the Blue
+                                Army</emph> .</cell>
                         <cell>85</cell>
                     </row>
                 </table>
@@ -619,7 +623,7 @@
                     <pb facs="wells-little-wars 0034.jpg"/>
                     <figure xml:id="fig1">
                         <graphic url="wells-little-wars 0034.jpg"/>
-                        <head>FIG. I.-BATTLE OF HOOK'S FARM.</head>
+                        <head>FIG. I.&#8212;BATTLE OF HOOK'S FARM.</head>
                         <figDesc> General view of the battlefield and the Red Army. (<emph
                                 rend="italic">See page 73.</emph>) </figDesc>
                         <fw>30</fw>
@@ -758,7 +762,7 @@
                                 facs="wells-little-wars 0045.jpg"/>
                             <figure xml:id="fig2">
                                 <graphic url="wells-little-wars 0045.jpg"/>
-                                <head>FIG. 2.-BATTLE OF HOOK'S FARM.</head>
+                                <head>FIG. 2.&#8212;BATTLE OF HOOK'S FARM.</head>
                                 <figDesc>A near view of the Blue Army. (<emph rend="italic">See page
                                         74</emph>)</figDesc>
                                 <fw>40</fw>
@@ -766,7 +770,7 @@
                             <pb facs="wells-little-wars 0046.jpg"/>
                             <figure xml:id="fig3">
                                 <graphic url="wells-little-wars 0046.jpg"/>
-                                <head>FIG. 3.-BATTLE OF HOOK'S FARM.</head>
+                                <head>FIG. 3.&#8212;BATTLE OF HOOK'S FARM.</head>
                                 <figDesc>Positions of both armies after their first move. The Red
                                     Army is in the foreground. (<emph rend="italic">See page
                                         75.</emph>)</figDesc>
@@ -960,7 +964,7 @@
                                     >mêlée</emph> with <pb facs="wells-little-wars 0059.jpg"/>
                                 <figure xml:id="fig4">
                                     <graphic url="wells-little-wars 0059.jpg"/>
-                                    <head>FIG. 4.-BATTLE OF HOOK'S FARM.</head>
+                                    <head>FIG. 4.&#8212;BATTLE OF HOOK'S FARM.</head>
                                     <figDesc>The affair is developing rapidly. (<emph rend="italic"
                                             >See page 76.</emph>)</figDesc>
                                     <fw>52</fw>
@@ -968,7 +972,7 @@
                                 <pb facs="wells-little-wars 0060.jpg"/>
                                 <figure xml:id="fig5a">
                                     <graphic url="wells-little-wars 0060.jpg"/>
-                                    <head>FIG. 5A.-BATTLE OF HOOK'S FARM.</head>
+                                    <head>FIG. 5A.&#8212;BATTLE OF HOOK'S FARM.</head>
                                     <figDesc>Red Cavalry charging home over the Blue guns. (<emph
                                             rend="italic">See page 78.</emph>)</figDesc>
                                 </figure>
@@ -1022,7 +1026,7 @@
                             over his back line the whole of the enemy’s force. You play the game<pb
                                 n="56" facs="wells-little-wars 0064.jpg"/> for points; you score 100
                             for the victory, and 10 for every gun you hold or are in a position to
-                                take<ptr target="#note33" xml:id="nr33" n="33"/>, 1½ for every
+                                take,<ptr target="#note33" xml:id="nr33" n="33"/> 1½ for every
                             cavalry-man, 1 for every infantry-man still alive and uncaptured, ½ for
                             every man of yours prisoner in the hands of the enemy, and the ½ for
                             every prisoner you have taken. If the battle is still undecided when
@@ -1111,7 +1115,7 @@
                 <pb facs="wells-little-wars 0071.jpg"/>
                 <figure xml:id="fig5b">
                     <graphic url="wells-little-wars 0071.jpg"/>
-                    <head>FIG. 5B.-BATTLE OF HOOK'S FARM.</head>
+                    <head>FIG. 5B.&#8212;BATTLE OF HOOK'S FARM.</head>
                     <figDesc>After the cavalry mêlée. (<emph rend="italic">See page
                         80.</emph>)</figDesc>
                     <fw>62</fw>
@@ -1120,7 +1124,7 @@
                 <pb facs="wells-little-wars 0072.jpg"/>
                 <figure xml:id="fig6a">
                     <graphic url="wells-little-wars 0072.jpg"/>
-                    <head>FIG. 6A.-BATTLE OF HOOK'S FARM.</head>
+                    <head>FIG. 6A.&#8212;BATTLE OF HOOK'S FARM.</head>
                     <figDesc>The three Red Cavalry prisoners are being led to the rear. (<emph
                             rend="italic">See page 80.</emph>)</figDesc>
                 </figure>
@@ -1144,9 +1148,9 @@
                     Sir!”</p>
                 <p>Now for a while you listen to General H. G. W., of the Blue Army. You hear tales
                     of victory. The photographs of the battlefields are by a woman
-                    war-correspondent, A. C. W.,<ptr target="#note35" xml:id="nr35" n="35"/> a
-                    daring ornament of her sex. I vanish. I vanish, but I will return. Here, then,
-                    is the story of the battle of Hook’s Farm. </p>
+                    war-correspondent, A. C. W., a daring ornament of her sex.<ptr target="#note35"
+                        xml:id="nr35" n="35"/> I vanish. I vanish, but I will return. Here, then, is
+                    the story of the battle of Hook’s Farm. </p>
                 <p>“The affair of Hook’s Farm was one of those brisk little things that did so much
                     to build up my early reputation. I did remarkably well, <pb n="65"
                         facs="wells-little-wars 0075.jpg"/> though perhaps it is not my function to
@@ -1393,7 +1397,7 @@
                     back to the shelter of the church, to <pb facs="wells-little-wars 0095.jpg"/>
                     <figure xml:id="fig8">
                         <graphic url="wells-little-wars 0095.jpg"/>
-                        <head>FIG. 8.-BATTLE OF HOOK'S FARM.</head>
+                        <head>FIG. 8.&#8212;BATTLE OF HOOK'S FARM.</head>
                         <figDesc>The Red Army suffers heavy losses. (<emph rend="italic">See page
                                 83.</emph>)</figDesc>
                         <fw>84</fw>
@@ -1401,7 +1405,7 @@
                     <pb facs="wells-little-wars 0096.jpg"/>
                     <figure xml:id="fig9">
                         <graphic url="wells-little-wars 0096.jpg"/>
-                        <head>FIG. 9.-BATTLE OF HOOK'S FARM.</head>
+                        <head>FIG. 9.&#8212;BATTLE OF HOOK'S FARM.</head>
                         <figDesc> Complete victory of the Blue Army. (<emph rend="italic">See page
                                 85.</emph>)</figDesc>
                     </figure>
@@ -1665,7 +1669,7 @@
                 <div>
                     <list type="instructions" rend="simple">
                         <head>Now as to the <hi rend="bold">Moves</hi>.</head>
-                        <head>It is suggested that:</head>
+                        <head type="sub">It is suggested that:</head>
                         <item>Infantry shall move one foot.</item>
                         <item>Cavalry shall move three feet. <list type="instructions" rend="simple">
                                 <item>The above moves are increased by one half for troops in twos
