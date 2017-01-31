@@ -45,7 +45,7 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>Science and Art: A Farce, in Two Acts</em></h1>
+        <h1><em>Science and Art, a Farce, in Two Acts</em></h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
@@ -57,7 +57,7 @@
         <nav>
           <ul>
             <li class="first"><a href="intro.html#page_info">Introduction</a></li>
-            <li><a href="script.html#page_info">Edition</a></li>
+            <li><a href="script.html#page_info">Script</a></li>
             <li><a href="{$idno}.xml">Page XML &#8659;</a></li>
             <li><a href="scienceart.zip">Edition XML &#8659;</a></li>
           </ul>

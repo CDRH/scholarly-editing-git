@@ -57,7 +57,7 @@
         <nav>
           <ul>
             <li class="first"><a href="intro.html#page_info">Introduction</a></li>
-            <li><a href="fulltext.html#page_info">Edition</a></li>
+            <li><a href="fulltext.html#page_info">Text</a></li>
             <li><a href="rules.html#page_info">Streamlined Rules</a></li>
             <li><a href="{$idno}.xml">Page XML &#8659;</a></li>
             <li><a href="littlewars.zip">Edition XML &#8659;</a></li>
@@ -552,6 +552,111 @@
       <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
     </h5>
     </span></xsl:otherwise></xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="head">
+    <!-- need to fix for handwritten text -KD -->
+    <xsl:choose>
+      <xsl:when test="@type='sub'"><span class="figure_list"><xsl:apply-templates/></span></xsl:when>
+      <xsl:when test="ancestor::list">
+        <h3><span class="head_list"><xsl:apply-templates/></span></h3>
+      </xsl:when>
+      <xsl:when test="ancestor::*[name() = 'p']">
+        <span class="head">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      <xsl:when test="ancestor::*[name() = 'figure']">
+        <span class="head">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      
+      <!-- I added the div1 code for OSCYS, but I assume it will pop up elsewhere. 
+    First I test if the div1 has a head. If it does not, I start the div2's on the h3's and work from there. - karin
+    -->
+      <xsl:when test="//div">
+        <h3><strong><xsl:apply-templates/></strong></h3>
+      </xsl:when>
+      <xsl:when test="//div1">
+        <xsl:choose>
+          <xsl:when test="//div1/head">
+            <xsl:choose>
+              <xsl:when test="parent::div1">
+                <h3>
+                  <xsl:apply-templates/>
+                </h3>
+              </xsl:when>
+              <xsl:when test="parent::div2">
+                <h4>
+                  <xsl:apply-templates/>
+                </h4>
+              </xsl:when>
+              <xsl:when test="parent::div3">
+                <h5>
+                  <xsl:apply-templates/>
+                </h5>
+              </xsl:when>
+              <xsl:when test="parent::div4 or parent::div5 or parent::div6 or parent::div7">
+                <h6>
+                  <xsl:apply-templates/>
+                </h6>
+              </xsl:when>
+              <xsl:otherwise>
+                <h3>
+                  <xsl:apply-templates/>
+                </h3>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:choose>
+              <xsl:when test="parent::div2">
+                <h3>
+                  <xsl:apply-templates/>
+                </h3>
+              </xsl:when>
+              <xsl:when test="parent::div3">
+                <h4>
+                  <xsl:apply-templates/>
+                </h4>
+              </xsl:when>
+              <xsl:when test="parent::div4">
+                <h5>
+                  <xsl:apply-templates/>
+                </h5>
+              </xsl:when>
+              <xsl:when test="parent::div5 or parent::div6 or parent::div7">
+                <h6>
+                  <xsl:apply-templates/>
+                </h6>
+              </xsl:when>
+              <xsl:otherwise>
+                <h3>
+                  <xsl:apply-templates/>
+                </h3>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      
+      <xsl:when test=".[@type = 'sub']">
+        <h4>
+          <xsl:apply-templates/>
+        </h4>
+      </xsl:when>
+      <xsl:when test="preceding::*[name() = 'head']">
+        <h4>
+          <xsl:apply-templates/>
+        </h4>
+      </xsl:when>
+      <xsl:otherwise>
+        <h3>
+          <xsl:apply-templates/>
+        </h3>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
 </xsl:stylesheet>
