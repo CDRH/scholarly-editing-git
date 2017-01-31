@@ -104,11 +104,11 @@ p.right {text-align:right;}
 	font-size: .7em;
 }
 
-/* Here starts a section where I am trying to get the XML to look liek the HTML version -KMD */
+/* Here starts a section where I am trying to get the XML to look like the HTML version -KMD */
 
 .right {float:right;}
 
-p {clear:both;}
+p {clear:right;}
 
 span.address {margin:0; padding:0;}
 
@@ -136,8 +136,9 @@ span.address {margin:0; padding:0;}
 	font-size: .9em;
 }
 
-.noindent {
-	display: inline;
+p.noindent {
+	/*display: inline;*/
+	/* Not sure why I had this -kmd */
 }
 
 div.note {
@@ -176,6 +177,10 @@ p {
 	margin: 0;
 }
 
+p.hang {
+	text-indent: 2em;
+}
+
 .aprilfool_header, .byline, #notes h2 {
 	text-align: center;
 }
@@ -190,7 +195,7 @@ p {
 	text-align: center;
 	font-size: .8em;
 	line-height: 1.1em;
-	
+	text-indent: 0;
 }
 
 .aprilfools_pagebreak .aprilfools_tei_thumbnail,
@@ -202,11 +207,20 @@ p {
 }
 .aprilfools_pagebreak .aprilfools_tei_thumbnail img {
 	border: 1px solid #aaa;
+
 }
 
 .aprilfools_pagebreak .viewsize,
 .aprilfools_pagebreak .fullsize {
 	margin-top: .5em;
+	display: block;
+	margin: 0;
+	padding: 0;
+	display: ;
+}
+
+.aprilfools_pagebreak .fullsize {
+	margin-top: -.7em;
 }
 
 
@@ -217,7 +231,9 @@ p {
 		width: 110px;
 		margin-left: -140px;
 		text-align: right;
-		position: absolute;
+		/*position: absolute;*/
+		float: left;
+		clear: both;
 	}
 	
 	.aprilfools_pagebreak .aprilfools_tei_thumbnail,
@@ -230,8 +246,51 @@ p {
 }
 
 
+.tei_date {
+	display: inline-block;
+}
 
+.carat {
+	   line-height: 0;
+	   position: relative;
+	   vertical-align: baseline;
+	   bottom: -0.6em;
+}
 
+.indentaddrLine {
+	text-align: right;
+}
 
+.del {
+	text-decoration: line-through;
+}
 
+.formfill {
+	font-size: 1.3em;
+}
+
+.indentctrcompclose,
+.indentctrsig {
+	margin-left: 12em;
+}
+
+.indentctraddrLine {
+	margin-left: 8em;
+}
+
+.dot-underline {
+	border-bottom: 1px dotted #2e2e2e;
+}
+
+p.indentsalute {
+	text-align: right;
+}
+
+.address {
+	clear: right;
+}
+
+.prev_next_links {
+  margin: .5em 0 .5em 0;
+}
 

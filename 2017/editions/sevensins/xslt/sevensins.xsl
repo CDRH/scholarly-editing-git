@@ -290,9 +290,11 @@
     </xsl:if>
     
     <ul>
-      <xsl:apply-templates select="item"/>
+      <xsl:apply-templates select="*"/>
     </ul>
   </xsl:template>
+  
+  <xsl:template match="list/head"></xsl:template>
 
   <!-- item match which handles notes directly before or after an item -->
   <xsl:template match="item">
@@ -378,7 +380,16 @@
       </xsl:attribute>
       <xsl:value-of select="substring-after(@wit,'#')"/>
       <xsl:text>: </xsl:text>
-      <xsl:apply-templates/><br/>
+      
+      <xsl:choose>
+        <xsl:when test="name() = 'lem'">
+          <strong><xsl:apply-templates/></strong>
+        </xsl:when>
+        <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+      </xsl:choose>
+      <!--<xsl:apply-templates/>-->
+      
+      <br/>
     </span>
   </xsl:template>
   

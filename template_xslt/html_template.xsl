@@ -219,7 +219,6 @@
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                
                     <xsl:copy-of select="$main_content"/>
               </xsl:otherwise>
             </xsl:choose>

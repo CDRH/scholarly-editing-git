@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-     xmlns:math="http://www.w3.org/1998/Math/MathML"
-     xmlns:svg="http://www.w3.org/2000/svg"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="UCLC">
-   <teiHeader type="CDL-TEI:MTP">
-      <fileDesc>
-        <titleStmt>
-            <title>Letter from J. Hyatt Smith to Samuel L. Clemens : an electronic text</title>
-        </titleStmt>
-          <publicationStmt><p></p></publicationStmt>
-        <sourceDesc>
-            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
-                Berkeley (CU-MARK).</bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <variantEncoding location="internal" method="double-end-point"/>
-      </encodingDesc>
-      <profileDesc/>
-      <revisionDesc>
-         <change/>
-      </revisionDesc>
-   </teiHeader>
-   <text type="letter">
-      <body>
-         <pb facs="facs/smith01.jpg" xml:id="pb0001" n="1"/>
-         <head type="metadata">
-             <name corresp="#JHS">J. Hyatt Smith</name> to <addressee>
-                 <name corresp="#SLC">Samuel L. Clemens</name>
-            </addressee>
-             <date when="1884-03-31">28 March 1884</date> &#x2022; <name type="place">Brooklyn, New York</name>
-            <sourceline>(MS: CU-MARK, UCLC 41833)</sourceline>
-         </head>
-         <div1 type="letter" xml:id="lt0001">
-            <opener>
-               <dateline rend="indentdateline"><address><addrLine>95 Hart st.<space extent="2"/></addrLine>
-                   <addrLine><space extent="21"/><placeName>Brooklyn N.Y.</placeName></addrLine></address>
-                   <date when="1884-03-28">March 28 1884</date><lb/>
-                   <note xml:id="ed0000" type="ed" place="inline">rule</note>
-               </dateline>
-               <salute><space extent="1"/>My dear Sir,</salute>
-            </opener>
-            <p rend="text-indent:3">I have not had the honor of a <hi rend="italic">personal</hi> acquaintance,<note xml:id="an0001" place="foot" type="an" n="1">Hyatt Smith's social circle in Brooklyn would, however, have intersected at several points with Clemens's. See the network graph that acconpanies this edition. </note> and yet I may be permitted to say that I have long counted you among my most intimate friends. For many years you have made your home in my house, and many an evening have you spent in the social circle at my fireside. Again, I may say that we folks know you and love you as a <hi rend="italic">painter</hi>, and your charming pictures of real life will ever have the post of honor on our best of all walls.</p>
-            <p rend="text-indent:2">Presuming upon this intimacy I write this note to solicit <hi rend="smallcaps">your autograph</hi> to complete your <hi rend="italic">presence</hi> in my family.</p>
-            <p rend="text-indent:2">Confident that you will <pb facs="facs/smith02.jpg" xml:id="pb0002" n="2"/>grant the request, I thank you now for the very  kind favor, and subscribe myself,</p>
-            <closer rend="indentcompclose">
-                <salute rend="indentcompclose">Your friend and admirer</salute>
-                <signed rend="indentsig"><hi rend="paraph"><name corresp="#JHS">J Hyatt Smith</name></hi></signed>
-            </closer>
-            <postscript>
-                <p><label>P.S.</label> If you should for any reason deny my request, please write me a note to that end &amp; I will, with great regret <add>for the denial</add>, still count myself your friend.<note xml:id="an0002" place="foot" type="an" n="2">This old ploy of autograph hunters elicited special mention in Clemens' <hi rend="italic">Sun</hi> interview. A very early example of an autograph hunter's victim's voluntarily sending what is essentially an autograph note refusing an autograph is the response of Irish statesman and popular leader Daniel O'Connell (1775-1847), who was largely responsible for the Catholic Emancipation of 1829: "Sir, I am so tormented by applications for my autograph that I make a rule never to give one. Yours, &amp;c." ("Irish Bull," New York <hi rend="italic">Herald</hi>, 14 Jan 1836, 35).</note>
-               </p>
-               <signed rend="indentsig"><hi rend="paraph">J.H.S.</hi></signed>
-                <addressee><hi rend="paraph">To S. L. Clemens Esq.</hi></addressee>
-            </postscript>
-         </div1>
-         <div1 type="post-transmission">
-            <pb facs="facs/smith-env.jpg" xml:id="pb0003" n="env"/>
-            <div2 type="envelope">
-                <ab>S. L. Clemens Esq. | Hartford | Conn.
-                    <note type="pt" xml:id="pt0001" place="inline" n="postmarked:"><hi rend="xs-smallcaps">brooklyn  mar 31 11 pm 1884 n.y.</hi></note>
-                    <note type="ed" place="inline" xml:id="in001">docketed by SLC, in pencil:</note> P. S. Good <note type="ed" place="inline" xml:id="in002">rule</note> | J. Hyatt Smith
-                </ab>          
-            </div2>
-         </div1>
-         <div1 type="commentary" xml:id="cm0001">
-         </div1>
-      </body>
-   </text>
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xml:id="UCLC">
+  <teiHeader type="CDL-TEI:MTP">
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from J. Hyatt Smith to Samuel L. Clemens : an electronic text</title>
+      </titleStmt>
+      <publicationStmt><p></p></publicationStmt>
+      <sourceDesc>
+        <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+          Berkeley (CU-MARK).</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding location="internal" method="double-end-point"/>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+    <body>
+      <pb facs="smith01.jpg" xml:id="pb0001" n="1"/>
+      <head type="metadata">
+        <name corresp="#JHS">J. Hyatt Smith</name> to <addressee>
+          <name corresp="#SLC">Samuel L. Clemens</name>
+        </addressee>
+        <date when="1884-03-28">28 March 1884</date> &#x2022; <name type="place">Brooklyn, New York</name>
+        <sourceline>(MS: CU-MARK, UCLC 41833)</sourceline>
+      </head>
+      <div1 type="letter" xml:id="lt0001">
+        <opener>
+          <dateline rend="indentdateline"><address><addrLine>95 Hart st.<space extent="2"/></addrLine>
+            <addrLine><space extent="21"/><placeName>Brooklyn N.Y.</placeName></addrLine>
+            <addrLine><date when="1884-03-28">March 28 1884</date></addrLine></address>
+            <note xml:id="ed0000" type="ed" place="inline">rule</note>
+          </dateline>
+          <salute><space extent="1"/>My dear Sir,</salute>
+        </opener>
+        <p rend="text-indent:3">I have not had the honor of a <hi rend="italic">personal</hi> acquaintance,<note xml:id="an0001" place="foot" type="an" n="1">Hyatt Smith's social circle in Brooklyn would, however, have intersected at several points with Clemens's. See the network graph that acconpanies this edition. </note> and yet I may be permitted to say that I have long counted you among my most intimate friends. For many years you have made your home in my house, and many an evening have you spent in the social circle at my fireside. Again, I may say that we folks know you and love you as a <hi rend="italic">painter</hi>, and your charming pictures of real life will ever have the post of honor on our best of all walls.</p>
+        <p rend="text-indent:2">Presuming upon this intimacy I write this note to solicit <hi rend="smallcaps">your autograph</hi> to complete your <hi rend="italic">presence</hi> in my family.</p>
+        <p rend="text-indent:2">Confident that you will <pb facs="facs/smith02.jpg" xml:id="pb0002" n="2"/>grant the request, I thank you now for the very  kind favor, and subscribe myself,</p>
+        <closer rend="indentcompclose">
+          <salute rend="indentcompclose">Your friend and admirer</salute>
+          <signed rend="indentsig"><hi rend="paraph"><name corresp="#JHS">J Hyatt Smith</name></hi></signed>
+        </closer>
+        <postscript>
+          <p><label>P.S.</label> If you should for any reason deny my request, please write me a note to that end &amp; I will, with great regret <add>for the denial</add>, still count myself your friend.<note xml:id="an0002" place="foot" type="an" n="2">This old ploy of autograph hunters elicited special mention in Clemens' <hi rend="italic">Sun</hi> interview. A very early example of an autograph hunter's victim's voluntarily sending what is essentially an autograph note refusing an autograph is the response of Irish statesman and popular leader Daniel O'Connell (1775-1847), who was largely responsible for the Catholic Emancipation of 1829: "Sir, I am so tormented by applications for my autograph that I make a rule never to give one. Yours, &amp;c." ("Irish Bull," New York <hi rend="italic">Herald</hi>, 14 Jan 1836, 35).</note>
+          </p>
+          <signed rend="indentsig"><hi rend="paraph">J.H.S.</hi></signed>
+          <addressee><hi rend="paraph">To S. L. Clemens Esq.</hi></addressee>
+        </postscript>
+      </div1>
+      <div1 type="post-transmission">
+        <pb facs="smith-env1.jpg" xml:id="pb0003" n="env"/>
+        <div2 type="envelope">
+          <ab>S. L. Clemens Esq. | Hartford | Conn.
+            <note type="pt" xml:id="pt0001" place="inline" n="postmarked:"><hi rend="xs-smallcaps">brooklyn  mar 31 11 pm 1884 n.y.</hi></note>
+            <note type="ed" place="inline" xml:id="in001">docketed by SLC, in pencil:</note> P. S. Good <note type="ed" place="inline" xml:id="in002">rule</note> | J. Hyatt Smith
+          </ab>          
+        </div2>
+      </div1>
+      <div1 type="commentary" xml:id="cm0001">
+      </div1>
+    </body>
+  </text>
 </TEI>

@@ -85,7 +85,10 @@
                                     <br class="clear"/>
                                     <!-- end explanatory notes -->
                                     <!-- textual commentary -->
-                                    <h2>Textual Commentary</h2>
+                                    
+                              
+                                <xsl:if test="$idno != 'intro' or not($idno)">
+                                  <h2>Textual Commentary</h2>
                                     <p class="noindgap">
                                         <xsl:call-template name="hdrcopy"/>
                                         <xsl:choose>
@@ -175,6 +178,7 @@
                                             </xsl:choose>
                                         </xsl:if>
                                     </p>
+                                </xsl:if>
                                     <!-- end apparatus -->
 
 

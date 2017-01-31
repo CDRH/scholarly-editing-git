@@ -261,7 +261,8 @@
    <a name="X"/>
   </xsl:if>
   <xsl:choose>
-   <xsl:when test="@type='clipping'">
+    <!-- Commented out this rule becaue it was putting the entire sun article in a table. -KMD -->
+   <!--<xsl:when test="@type='clipping'">
     <p class="center">
      <table class="clipping">
       <tr>
@@ -271,7 +272,7 @@
       </tr>
      </table>
     </p>
-   </xsl:when>
+   </xsl:when>-->
    <xsl:when test="@type='enclosure'">
     <br/>
     <xsl:apply-templates/>

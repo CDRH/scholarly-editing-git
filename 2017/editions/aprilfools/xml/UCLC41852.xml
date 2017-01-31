@@ -24,7 +24,8 @@
               <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name> 
               <sourceline>(MS: CU-MARK, UCLC 41852)</sourceline></head>
             
-         <div1  type="letter">               
+         <div1  type="letter">
+            <pb facs="andrews001.jpg" n="1" xml:id="pb001"/>
                <opener>
                   <letterhead><l rend="center">the lotos club</l>  <l rend="right">147 fifth avenue</l></letterhead>
                <dateline rend="indentdateline">March 31/84</dateline>
@@ -36,6 +37,7 @@
             
             <div1 type="post-transmission">
                <div2 type="envelope">
+                  <pb facs="andrews-env.jpg" n="2" xml:id="pb002"/>
                <ab>Saml. L. Clement<corr>s</corr><gap reason="tornaway"/> | (Mark Twain) | Hartford | Conn. [<hi rend="italic">rule</hi>]</ab>
                <ab><note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">new york mar 31 6 pm f</hi></ab>
                   <ab><note type="ed" place="inline" xml:id="ed002">docketed by SLC, in pencil:</note> WS Andrews | Mention [<hi rend="italic">rule</hi>]</ab>
@@ -43,12 +45,7 @@
             </div1> 
          <div1 xml:id="cm0001" type="commentary"/>
       </body>
-     <back>
-        <div type="refs">
-           <listBibl>
-              <bibl xml:id="CtHMTH">Mark Twain Memorial, Hartford, Conn.</bibl>
-              <bibl xml:id="CU-MARK">Mark Twain Papers, Berkeley, Calif.</bibl>
-           </listBibl></div>
-     </back>
+     <back/>
+   
   </text>
 </TEI>

@@ -22,10 +22,11 @@
       <body>
          <head type="metadata"><name type="person" corresp="#JH">Julian Hawthorne</name> to
             <addressee><name type="person">Samuel L. Clemens</name></addressee>
-            <lb/><date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Sag Harbor, N.Y.</name>   
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Sag Harbor, N.Y.</name>   
             <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41951)</sourceline></head>
          
          <div1 type="letter">
+            <pb facs="hawthorne01.jpg" xml:id="pb001" n="1"/>
             <opener><dateline rend="indentdateline"><name type="place">Sag Harbor L. I.</name><space extent="2"/>
                <lb/><date when="1884-03-31">March 31<hi rend="superscript">st</hi> 1884</date>
                </dateline>
@@ -40,6 +41,7 @@
          
          <div1 type="post-transmission">
             <div2 type="envelope">
+               <pb facs="hawthorne-env.jpg" xml:id="pb003" n="3"/>
                <ab>Samuel Clemens Esq. | Hartford | Conn.</ab>
                <ab><note xml:id="ed001" type="ed" place="inline">postmarked:</note> <hi rend="xs-smallcaps">sag <corr>har</corr>bor apr 1 1884 n. y.</hi></ab>
                <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> Julian Hawthorne</ab>

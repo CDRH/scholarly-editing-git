@@ -4,7 +4,7 @@
 
   <xsl:import href="aprilfools.xsl"/>
   
-  <xsl:output indent="yes" omit-xml-declaration="yes"/>
+  <xsl:output indent="yes" omit-xml-declaration="yes" />
 
   <xsl:template match="/">
     <xsl:variable name="files" select="collection('../xml?recurse=no;select=U*.xml')"/>
@@ -16,22 +16,23 @@
         <tr>
           <!--<td>ID</td>-->
           <td>Filename</td>
-          <td>Pers ID</td>
+          <!--<td>Pers ID</td>-->
           <td>Sort Sender</td>
-          <td>Display Sender</td>
-          <td>Date Sort</td>
+          <!--<td>Display Sender</td>-->
+         <!-- <td>Date Sort</td>-->
           <td>Date Display</td>
         </tr>
       </thead>
       <tbody>
         <xsl:for-each select="$files">
+          <xsl:sort select="base-uri(.)"></xsl:sort>
           <xsl:variable name="filename" select="tokenize(base-uri(.), '/')[last()]"/>
 
           <!-- Split the filename using '\.' -->
           <xsl:variable name="filenamepart" select="substring-before($filename, '.xml')"/>
           <tr>
             <!--<td><xsl:value-of select="/tei:TEI/@xml:id"/></td>-->
-            <td>
+            <td class="table_letter_id">
               <!-- filename -->
               <a>
                 <xsl:attribute name="href">
@@ -46,10 +47,10 @@
               <xsl:value-of select="substring-after(//tei:head[@type = 'metadata']/tei:name[1]/@corresp, '#')"/>
             </xsl:variable>
             <xsl:variable name="personography_entry" select="$personography//tei:listPerson/tei:person[@xml:id = $author_id]"/>
-            <td>
-              <!-- persid -->
+            <!--<td>
+              <!-\- persid -\->
               <xsl:value-of select="$author_id"/>
-            </td>
+            </td>-->
             <td>
               <!-- sort sender -->
               
@@ -73,16 +74,20 @@
 
              
             </td>
-            <td>
-              <!-- display name -->
+            <!-- Hide display name -->
+            <!--<td>
+              <!-\- display name -\->
               <xsl:value-of select="$personography_entry//tei:persName[@type = 'display']"/>
-            </td>
-            <td>
-              <!-- date sort -->
+            </td>-->
+            <!-- Hide date sort -->
+            <!--<td>
+              <!-\- date sort -\->
               <xsl:value-of select="//tei:head[@type = 'metadata']//tei:date/@when"/>
-            </td>
+            </td>-->
             <td>
               <!-- date display -->
+              <!-- include date sort in a span so it can be hidden, but sorted on -->
+              <span class="hide"><xsl:value-of select="//tei:head[@type = 'metadata']//tei:date/@when"/></span>
               <xsl:value-of select="//tei:head[@type = 'metadata']//tei:date"/>
             </td>
 

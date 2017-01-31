@@ -880,6 +880,12 @@
   <!-- ================================================ -->
 
   <xsl:template match="pb">
+    <xsl:variable name="image_name">
+      <xsl:choose>
+        <xsl:when test="@facs"><xsl:value-of select="@facs"/></xsl:when>
+        <xsl:when test="@n"><xsl:value-of select="@n"/></xsl:when>
+      </xsl:choose>
+    </xsl:variable>
     <span>
       <xsl:attribute name="class">
         <xsl:text>pagebreak</xsl:text>
@@ -888,13 +894,13 @@
         <a>
           <xsl:attribute name="href">
             <xsl:text>images/viewsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
+            <xsl:value-of select="$image_name"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
           <img>
             <xsl:attribute name="src">
               <xsl:text>images/thumbs/</xsl:text>
-              <xsl:value-of select="@facs"/>
+              <xsl:value-of select="$image_name"/>
               <xsl:text>.jpg</xsl:text>
             </xsl:attribute>
           </img>
@@ -904,7 +910,7 @@
         <a>
           <xsl:attribute name="href">
             <xsl:text>images/viewsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
+            <xsl:value-of select="$image_name"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
           <xsl:text>View Page</xsl:text>
@@ -915,7 +921,7 @@
         <a>
           <xsl:attribute name="href">
             <xsl:text>images/fullsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
+            <xsl:value-of select="$image_name"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
           <xsl:attribute name="target">

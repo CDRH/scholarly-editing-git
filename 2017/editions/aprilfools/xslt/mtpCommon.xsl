@@ -51,9 +51,9 @@
    <xsl:otherwise>
     <span class="add">
      <span class="carat">^</span>
-    </span>
+   
     <xsl:apply-templates/>
-    <span class="add">
+   
      <span class="carat">^</span>
     </span>
    </xsl:otherwise>
@@ -63,7 +63,7 @@
  <xsl:template exclude-result-prefixes="#all" match="*:add/text()">
   <xsl:choose>
    <xsl:when test="matches(.,'^.$|^&amp;#x*[0-9]+;$')">
-    <span class="caret">
+    <span class="addtext">
      <xsl:value-of select="."/>
     </span>
    </xsl:when>

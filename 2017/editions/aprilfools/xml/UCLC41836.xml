@@ -21,11 +21,13 @@
   <text>
      
       <body>
-         <head type="metadata"><name type="person" key="#GWC">George Washington Cable</name> to <addressee><name type="person" corresp="#SLC">Samuel L. Clemens</name></addressee>
+         <head type="metadata"><name type="person" corresp="#GWC">George Washington Cable</name> to <addressee><name type="person" corresp="#SLC">Samuel L. Clemens</name></addressee>
             <date when="1884-03-29">29 March 1884</date> &#x2022; <name type="place">Chicago, Ill.</name>
             <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41836)</sourceline>
          </head>
-        <div1 type="letter"><opener>
+        <div1 type="letter">
+           <pb facs="cable01.jpg" xml:id="pb001" n="1"/>
+           <opener>
            <letterhead><l rend="center">the grand pacific hotel.</l>
               <l rend="center">jno. b. drake &amp; co. proprietors</l>
               <l rend="right">chicago, <add type="formfill">Mch 29,</add> 188<add type="formfill">4.</add></l>
