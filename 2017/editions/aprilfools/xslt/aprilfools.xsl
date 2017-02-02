@@ -80,7 +80,7 @@
             <!--<li><a href="people.html#page_info">People</a></li>-->
             <li><a href="graph/index.html">Network Graph</a></li>
             <xsl:if test="not($pageid = 'edition')">
-              <li><a href="{$idno}.xml">Page XML &#8659;</a></li>
+              <li><a href="{$pageid}.xml">Page XML &#8659;</a></li>
             </xsl:if>
             <li><a href="downloads/aprilfools_xml.zip">Edition XML &#8659;</a></li>
           </ul>
@@ -107,7 +107,7 @@
                   <!--<xsl:call-template name="letter_table"/>-->
               <xsl:copy-of select="$letter_table"/>
             </xsl:when>
-            <!-- uncomment for ugly sidebar -->
+            <!-- uncomment for sidebar -->
             <!--<xsl:when test="starts-with($pageid,'UCLC')">
               <div class="row">
                 <div class="col-md-6 col-md-offset-1">
@@ -445,24 +445,7 @@
     
     <xsl:apply-templates/>
     
-    <!-- Editor supplied XSL already handles notes -->
-    <!--<xsl:if
-      test="
-      (//body//note[@type = 'editorial']
-      or //body//note[@place = 'foot']
-      or //back//note) and $idno = 'intro'">
-      <div class="notesList">
-        <h2>Notes</h2>
-        <xsl:for-each select="//text//note">
-          <div class="footnote">
-            <xsl:attribute name="id">
-              <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-            <xsl:apply-templates select="." mode="footnotes"/>
-          </div>
-        </xsl:for-each>
-      </div>
-    </xsl:if>-->
+    
   </xsl:template>
   
   <!-- adding stanza so I can style -->
@@ -474,12 +457,12 @@
   
   <!-- ~~~~~~~~~~~
     The contents of this table are created using the _sidebar_generator.xsl file in the xslt folder.
-    So far I've just been manually pasting in the results. -KMD
+    I've just been manually pasting in the results. -KMD
     ~~~~~~~~~~~~~~ -->
   
   <xsl:variable name="letter_table">
-   
-  <table class="table table-condensed table-sortable">
+
+<table class="table table-condensed table-sortable">
    <thead>
       <tr>
          <td>Filename</td>
@@ -527,7 +510,8 @@
                   give to any man that comes along, whether he has anything against him or not” (<span class="italic">N&amp;J1</span>, p. 344). Cutter considered himself the Poet Laureate of the excursion, leading Clemens
                   to call him the “Poet Lariat” in <span class="italic">Innocents Abroad</span>, adopting Francis Eugene Andrews’s mispronunciation. In 1880 he called him a “mildewed
                   idiot. His friends call him a lunatic—but that is pretty fulsome flattery; one cannot
-                  become a lunatic without first having brains” (30 April 1880 to Perkins, on <a href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL01796.xml;query=30%20April%201880%20to%20Perkins;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1" title="">MTPO</a>); 31 March and 1 April 1869 to Fairbanks, <span class="italic">L2</span>, p. 185). In 1886 Cutter self-published a collection of his poems entitled <span class="italic">The Long Island Farmer's Poems</span>. His poems were never celebrated, yet he was a successful farmer: at his death his
+                  become a lunatic without first having brains” (30 April 1880 to Perkins, on 
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL01796.xml;query=30%20April%201880%20to%20Perkins;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1">MTPO</a>); 31 March and 1 April 1869 to Fairbanks, <span class="italic">L2</span>, p. 185). In 1886 Cutter self-published a collection of his poems entitled <span class="italic">The Long Island Farmer's Poems</span>. His poems were never celebrated, yet he was a successful farmer: at his death his
                   estate was worth $900,000.
                </p>
                
@@ -771,7 +755,9 @@
                   suggesting changes in his novel <span class="italic">Prudence Palfrey</span>, <span class="italic">L6</span>, 74–82, 89–95). They remained lifelong
                   friends. In his 1904 sketch “Robert Louis Stevenson and Thomas Bailey Aldrich,”
                   Clemens wrote that Aldrich “never had his peer for prompt and pithy and witty
-                  and humorous sayings” (<a href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;doc.view=;chunk.id=d1e9377;toc.id=0;style=work;brand=mtp" title=""><span class="italic">AutoMT1</span>, 229</a>, 539 n.
+                  and humorous sayings” (
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;doc.view=;chunk.id=d1e9377;toc.id=0;style=work;brand=mtp"><span xmlns="http://www.w3.org/1999/xhtml" class="italic">AutoMT1</span>, 229
+                  </a>, 539 n.
                   229.8).
                </p>
                
@@ -926,7 +912,8 @@
                   he became managing editor of the San Francisco <span class="italic">Alta California</span>, when became acquainted with Clemens, initially through their mutual friend Bret
                   Harte (Brooks contributed short fiction, as did Clemens, to Harte's <span class="italic">Overland Monthly</span>). Brooks was the managing editor of the <span class="italic">Alta California</span> when Clemens undertook the <span class="italic">Quaker City</span> voyage in 1867 as an <span class="italic">Alta</span> correspondent (furnishing the material for <span class="italic">Innocents Abroad</span>). In 1871 Brooks started working for the New York <span class="italic">Tribune</span>, and in 1876 he became the editor of the New York <span class="italic">Times</span>. Retiring in 1892, he spent the rest of his life publishing travel literature and
                   memoirs. In his <span class="italic">Autobiography</span>, Clemens recalled that Brooks was "a man of sterling character and equipped with
-                  a right heart, also a good historian where facts were not essential" (<a href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;chunk.id=d1e9273;toc.depth=1;toc.id=;citations=;style=work;brand=mtp#X" title=""><span class="italic">AutoMT1</span></a>, 228).
+                  a right heart, also a good historian where facts were not essential" (
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;chunk.id=d1e9273;toc.depth=1;toc.id=;citations=;style=work;brand=mtp#X"><span xmlns="http://www.w3.org/1999/xhtml" class="italic">AutoMT1</span></a>, 228).
                </p>
                
             </span>
@@ -1027,7 +1014,8 @@
                
                <p xmlns="http://www.w3.org/1999/xhtml">Austin Dunham was a wool merchant, inventor, and president of the Hartford Electric
                   Light Company. In 1870 he joined the Monday Evening Club, where Clemens had read before
-                  (see Clemens's <a href="http://vm149.lib.berkeley.edu:8080/xtf-exp/view?docId=letters/UCCL02497.xml;query=UCCL02497;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1" title="">11 January 1876 letter to William Dean Howells</a> at <span class="italic">MTPO</span>). The Dunhams were also good friends with Clemens's friend and collaborator, Charles
+                  (see Clemens's 
+                  <a xmlns="" href="http://vm149.lib.berkeley.edu:8080/xtf-exp/view?docId=letters/UCCL02497.xml;query=UCCL02497;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1">11 January 1876 letter to William Dean Howells</a> at <span class="italic">MTPO</span>). The Dunhams were also good friends with Clemens's friend and collaborator, Charles
                   Dudley Warner.
                </p>
                
@@ -1054,9 +1042,12 @@
                   on the excursion, in New York on 3 and 26 December 1867, in Washington on January
                   1868, in Cleveland on 10 March 1868, and again in New York on 11 January 1877, when
                   he attacked Clemens by declaring that <span class="italic">Innocents Abroad</span> was “in no sense” an accurate account of the trip (“About Mark Twain,” New York <span class="italic">World</span>, 12 January 1877, p. 5). Clemens showed his contempt for Duncan in his unpublished
-                  partial draft of a <span class="italic">Quaker City</span> play, depicting him as the mercenary “Capt. Dusenberry” (see Appendix E of <span class="italic">L2</span>; also the enclosure, n. 1, of Clemens's <a href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL00160.xml;query=quaker%20city%20play;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1" title="">25 November 1867 letter to Charles Henry Webb</a>). Over the years he and Duncan were intermittently contentious, specifically in 1883,
+                  partial draft of a <span class="italic">Quaker City</span> play, depicting him as the mercenary “Capt. Dusenberry” (see Appendix E of <span class="italic">L2</span>; also the enclosure, n. 1, of Clemens's 
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL00160.xml;query=quaker%20city%20play;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1">25 November 1867 letter to Charles Henry Webb</a>). Over the years he and Duncan were intermittently contentious, specifically in 1883,
                   when Clemens spoke out in support of Elihu Root's corruption investigation into Duncan's
-                  finances as shipping commissioner (<a href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL00174.xml;doc.view=;style=letter;brand=mtp" title="">8 January 68 to Beach</a>, <a href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL00200.xml;doc.view=;style=letter;brand=mtp" title="">10 March 1868 to Fairbanks</a>, <span class="italic">L2</span>, pp. 149 n. 6, 203 n. 1; <span class="italic">N&amp;J2</span>, p. 35; <span class="italic">N&amp;J3</span>, pp. 18, 24–25). Duncan was dismissed in 1884 as shipping commissioner of the port
+                  finances as shipping commissioner (
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL00174.xml;doc.view=;style=letter;brand=mtp">8 January 68 to Beach</a>, 
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL00200.xml;doc.view=;style=letter;brand=mtp">10 March 1868 to Fairbanks</a>, <span class="italic">L2</span>, pp. 149 n. 6, 203 n. 1; <span class="italic">N&amp;J2</span>, p. 35; <span class="italic">N&amp;J3</span>, pp. 18, 24–25). Duncan was dismissed in 1884 as shipping commissioner of the port
                   of New York.
                </p>
                
@@ -1316,7 +1307,8 @@
                   August issues of the <span class="italic">Atlantic Monthly</span>. Hay declined both
                   offers. Clemens also appreciated Hay's <span class="italic">Pike County Ballads</span> (1871) for its verisimilitude to
                   their boyhood region (see
-                  also <a href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL11849.xml;query=john%20hay;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1" title="">Clemens to John M. Hay, 6? Jan 1871</a>). In 1870 Hay accepted an editorial
+                  also 
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL11849.xml;query=john%20hay;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1">Clemens to John M. Hay, 6? Jan 1871</a>). In 1870 Hay accepted an editorial
                   position on the New York <span class="italic">Tribune</span> under Horace Greeley,
                   and, after Greeley’s death in 1872, assisted the new editor, Whitelaw
                   Reid. He gave up his <span class="italic">Tribune</span> position in 1875 and pursued a literary career as
@@ -1326,14 +1318,19 @@
                   changed in 1898, when Hay became Secretary of State under the McKinley (and
                   later Roosevelt) administration. Despite Clemens's anti-imperialist polemics (and
                   Hay's support for Clemens's foe Theodore Roosevelt), their affection for each other
-                  remained solid until Hay's death in 1905 (see <a href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;chunk.id=d1e9201;toc.depth=1;toc.id=;citations=;style=work;brand=mtp#X" title=""><span class="italic">AutoMT1</span>, pp. 222–24</a>). In a 27 August 1907
+                  remained solid until Hay's death in 1905 (see 
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10362.xml;chunk.id=d1e9201;toc.depth=1;toc.id=;citations=;style=work;brand=mtp#X">
+                     <span xmlns="http://www.w3.org/1999/xhtml" class="italic">AutoMT1</span>, pp. 222–24
+                  </a>). In a 27 August 1907
                   autobiographical dictation Clemens reminisced, "Hay was a man of great and varied
                   talents and accomplishments, and was conspicuously well equipped for the
                   several great national and international posts which he had filled in his
                   brilliant career; and he climbed to several of them without the help of wealth,
                   and would doubtless have climbed the rest of the way without that help, and all
                   the public would have approved, and would also have affectionately applauded
-                  and rejoiced" (<a href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10364.xml;query=%22john%20hay%22;chunk.id=dv0028;toc.depth=1;toc.id=;citations=;style=work;brand=mtp#3" title=""><span class="italic">AutoMT3</span>, p. 112</a>).
+                  and rejoiced" (
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10364.xml;query=%22john%20hay%22;chunk.id=dv0028;toc.depth=1;toc.id=;citations=;style=work;brand=mtp#3"><span xmlns="http://www.w3.org/1999/xhtml" class="italic">AutoMT3</span>, p. 112
+                  </a>).
                </p>
                
             </span>
@@ -1899,7 +1896,8 @@
                   others in this group.  After the war he became a banker on Wall Street from 1865–90,
                   but continued to write and publish poetry and literary criticism. In 1887 Stedman
                   succeeded in foisting his <span class="italic">Library of American Literature</span> compilation upon Clemens's nephew and business partner, Charles L. Webster, a decision
-                  that led to the “lingering suicide” of the publishing firm (AD of 2 June 1906, <a href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10363.xml;query=stedman;chunk.id=dv0017;toc.depth=1;toc.id=;citations=;style=work;brand=mtp#1" title=""><span class="italic">AutoMT1</span></a>).
+                  that led to the “lingering suicide” of the publishing firm (AD of 2 June 1906, 
+                  <a xmlns="" href="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10363.xml;query=stedman;chunk.id=dv0017;toc.depth=1;toc.id=;citations=;style=work;brand=mtp#1"><span xmlns="http://www.w3.org/1999/xhtml" class="italic">AutoMT1</span></a>).
                </p>
             </span>
          </td>

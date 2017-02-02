@@ -534,53 +534,65 @@
     </xsl:choose>
   </xsl:template>
   
-  
-  <!-- Code that didn't work preserved to below, to delete -->
-  
-  <!-- this does not work either, and leads to more duplicates :/ -->
-  <!-- <xsl:template match="anchor[following-sibling::app]">
-    
-    <div style="background-color:blue"><xsl:apply-templates select="
-      
-      ./following-sibling::* except following::app
-      
-      "></xsl:apply-templates></div>
-  </xsl:template>-->
-  
-  <!-- Try this, Nikki provided -->
-  
-  <!--<xsl:template match="text()
-    [preceding::span[1][substring-after(@hand,'#')=preceding::handNote[@scribeRef='#ww']/@xml:id]/translate(@to,'#','')
-    =
-    following::anchor[1]/@xml:id]">
-    <span class="highlight">
-      <xsl:value-of select="."/>
-    </span>
-  </xsl:template>-->
-  
-  
-  <!-- <xsl:template match="handShift">
-    <xsl:variable name="handShift_new"><xsl:value-of select="@new"/></xsl:variable>
+  <xsl:template match="pb">
     <xsl:choose>
-      <xsl:when test="preceding::handNote[concat('#',@xml:id)=$handShift_new]/@scribeRef='#ww'"><xsl:text disable-output-escaping='yes'>&lt;span class="marginalia_hand"></xsl:text></xsl:when>
-      <xsl:when test="preceding::handShift[1][(substring-after(@new,'#'))=(preceding::handNote[@scribeRef='#ww']/@xml:id)] and not(self::handNote[concat('#',@xml:id)=$handShift_new]/@scribeRef='#ww')"><xsl:text disable-output-escaping='yes'>&lt;/span></xsl:text></xsl:when>
+      <xsl:when test="$idno = 'translation.sevensins'"><!-- do nothing --></xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates/>
+        <xsl:variable name="image_name">
+          <xsl:choose>
+            <xsl:when test="@facs"><xsl:value-of select="@facs"/></xsl:when>
+            <xsl:when test="@n"><xsl:value-of select="@n"/></xsl:when>
+          </xsl:choose>
+        </xsl:variable>
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>pagebreak</xsl:text>
+          </xsl:attribute>
+          <span class="tei_thumbnail">
+            <a>
+              <xsl:attribute name="href">
+                <xsl:text>images/viewsize/</xsl:text>
+                <xsl:value-of select="$image_name"/>
+                <xsl:text>.jpg</xsl:text>
+              </xsl:attribute>
+              <img>
+                <xsl:attribute name="src">
+                  <xsl:text>images/thumbs/</xsl:text>
+                  <xsl:value-of select="$image_name"/>
+                  <xsl:text>.jpg</xsl:text>
+                </xsl:attribute>
+              </img>
+            </a>
+          </span>
+          <span class="viewsize">
+            <a>
+              <xsl:attribute name="href">
+                <xsl:text>images/viewsize/</xsl:text>
+                <xsl:value-of select="$image_name"/>
+                <xsl:text>.jpg</xsl:text>
+              </xsl:attribute>
+              <xsl:text>View Page</xsl:text>
+            </a>
+          </span>
+          <br/>
+          <span class="fullsize">
+            <a>
+              <xsl:attribute name="href">
+                <xsl:text>images/fullsize/</xsl:text>
+                <xsl:value-of select="$image_name"/>
+                <xsl:text>.jpg</xsl:text>
+              </xsl:attribute>
+              <xsl:attribute name="target">
+                <xsl:text>_blank</xsl:text>
+              </xsl:attribute>
+              <xsl:text>Full size in new window</xsl:text>
+            </a>
+          </span>
+        </span>
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:template>-->
-  
-  <!--<xsl:template match="text()
-    [preceding::span[1][substring-after(@hand,'#')=preceding::handNote[@scribeRef='#ww']/@xml:id]/translate(@to,'#','')
-    =
-    following::anchor[1]/@xml:id]">
-    zzz
-  </xsl:template>-->
-  
-  <!-- Can't do this unless there's xslt3, only available in commercial saxon -->
-  <!--<xsl:template match="anchor/following-sibling::text()">
-    zzzzzz[<xsl:apply-templates/>]
-  </xsl:template>-->
+    
+  </xsl:template>
   
   
 </xsl:stylesheet>
