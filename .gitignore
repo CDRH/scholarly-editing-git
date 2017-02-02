@@ -16,9 +16,14 @@ rossetti/
 *.tiff
 *.gif
 *.png
+*.zip
 !images/*
 
 # stupid ds store files
 */.DS_Store
 .DS_Store
 **/.DS_Store
+
+# Ignore 2017/aprilfools as it has its own repo
+
+2017/editions/aprilfools/*

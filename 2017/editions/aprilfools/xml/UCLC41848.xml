@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC41848">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Effie Blunt Waring to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+
+            <head type="metadata">
+                <name corresp="#EBW">Effie Blunt Waring</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-03-30">30 March 1884</date> &#x2022; <name type="place">Washington, D.C.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41848)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <pb facs="waringeff01.jpg" xml:id="pb0001" n="1"/>
+                <opener>
+                    <dateline rend="indentdateline"><address>Washington. 2009 <hi rend="italic">J</hi> Street</address>
+                        <date when="1884-03-30">Mar. 30<hi rend="superscript">th</hi>/84</date>
+                    </dateline>
+                    <salute>Dear Mr. Clemens,</salute>
+                </opener>
+
+                <p rend="text-indent:3">During a recent trip in Italy your "Innocence Abroad" was my constant companion, &amp; having often heard <rs><name corresp="#GEW"></name>my father</rs><note type="an" xml:id="an001" place="foot" n="1">George E. Waring, Jr. was a close friend of Cable and Clemens. His wife, <name corresp="#VW">Virginia</name>, also contributed to the April Fool joke.</note> speak of your interest in the propagation of literature among the youth of this country as well as of your benevolent spirit I am now going to ask your interest &amp; <pb facs="waringeff02a.jpg" n="2" xml:id="pb002"/> help in a project which has been for some time in my mind. I am very anxious to begin the foundation of a library of American works &amp; especially of such books as treat of their author's first impressions in European or other foreign countries. If therefore you would donate, as a beginning, a full set of your works with your name written clear<pb facs="waringeff03.jpg" xml:id="pb003" n="3"/>ly in each, I should consider myself very fortunate. I would also be very glad to have a duplicate copy of the "Innocence Abroad" in as compact a form as possible, for I travel a great deal &amp; heavy volumes are inconvenient to pack. It is understood of course that I should like your name also in this. <pb facs="waringeff04.jpg" xml:id="pb004" n="4"/>Thanking you in advance for the kindness which I am sure you will show I am
+
+                </p>
+                <closer>
+                    <salute rend="indentcompclose">Very sincerely<space extent="5"/></salute>
+                    <signed rend="indentsig">Effie Blunt Waring.</signed>
+                </closer>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001">
+
+                <div2 type="envelope" xml:id="pt002"><pb facs="waringeff-env.jpg" xml:id="pb005" n="env"/>
+
+                    <ab>S. L. Clemens. Esq. | Hartford. | Conn. <note type="pt" xml:id="pt004" place="inline" n="postmarked:"><hi rend="xs-smallcaps">washington mar 31 7 am 1884 d.c.</hi></note>
+                        <note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> Mrs. Waring | Good Mention <note type="pt" xml:id="pt006" place="inline" n="rule"/>
+                        
+                    </ab>
+                </div2>
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+                
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

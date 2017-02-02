@@ -12,7 +12,7 @@
         
         <xsl:choose>
             <xsl:when test="$edition_type = 'edition'">
-                <xsl:variable name="files" select="collection('../2016/editions/mullinswhitmanheyde/xml?recurse=yes;select=*.xml')"/>
+                <xsl:variable name="files" select="collection('../xml?recurse=yes;select=*.xml')"/>
                 <ul>
                 <xsl:for-each select="$files">
                     <xsl:sort select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when"/>

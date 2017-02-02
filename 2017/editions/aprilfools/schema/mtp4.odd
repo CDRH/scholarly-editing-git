@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+      xml:lang="en">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Mark Twain Project</title>
+                        <author>Mark Twain Project Online</author>
+                  </titleStmt>
+                  <publicationStmt>
+                              <p>TEI material can be licensed differently depending on the use you
+                                    intend to make of it. Hence it is made available under both the
+                                    CC+BY and BSD-2 licences. The CC+BY licence is generally
+                                    appropriate for usages which treat TEI content as data or
+                                    documentation. The BSD-2 licence is generally appropriate for
+                                    usage of TEI content in a software environment. For further
+                                    information or clarification, please contact the TEI Consortium
+                                    (info@tei-c.org).</p>
+                        
+                  </publicationStmt>
+                  <notesStmt>
+                        <note type="ns">http://www.tei-c.org/ns/1.0</note>
+                  </notesStmt>
+                  <sourceDesc>
+                        <p>Written from scratch.</p>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <head>TEI Complete</head>
+                  <p>MTP v4&#13; &#13; * added &#13; ** letterhead (macro.specialPara)&#13; **
+                        sourceline (macro.specialPara)&#13; &#13; * modified&#13; ** ab:
+                        type=caption,doc,illgrp,pt,transcript (closed, optional)&#13; ** anchor:
+                        require @xml:id&#13; ** app: require @xml:id&#13; ** closer:
+                        +model.quoteLike&#13; ** figure:
+                        rend=block,blocksm,center,ch-init,ch-left,ch-right,diag,glyphlike,inline,left,right
+                        (closed, required); @xml:id is required&#13; ** head
+                        @xml:space=preserve&#13; ** lem and rdg: +model.lLike&#13; ** note: @xml:id
+                        is required&#13; *** place=end,foot,inline (closed, required)&#13; ***
+                        type=alt,an,au,cp,ed,label,pt,te (closed, required)&#13; ** opener:
+                        +model.quoteLike&#13; ** pb: @n and @xml:id are required&#13; ** ref&#13;
+                        *** rend=embed,excerpt,new,none,replace (closed, optional)&#13; ***
+                        type=chapterref,citeref,crossref,dbquery,figref,mets,noteref,obj,pageref,pdf,secref,sound,stream,tableref,url,video
+                        (closed, required)&#13; &#13; Open issue:&#13; ** seg: +@hand</p>
+                  <p>However, this particular TEI customization is <emph>not recommended</emph> for
+                        actual use for encoding documents. It produces schemas and reference
+                        documentation that will be much larger, and include many more elements, than
+                        almost anyone could conceivably ever need. Tempting though it may be simply
+                        to have absolutely everything, and <q>just ignore</q> elements not required,
+                        experience has shown that their presence makes the documentation harder to
+                        read and use, and makes a schema that is far more lax than desired.</p>
+                  <schemaSpec ident="mtp4" start="TEI teiCorpus" prefix="">
+                        <moduleRef key="tei"/>
+                        <!-- required -->
+                        <moduleRef key="core"/>
+                        <!-- required -->
+                        <moduleRef key="analysis"/>
+                        <moduleRef key="certainty"/>
+                        <moduleRef key="figures"/>
+                        <moduleRef key="header"/>
+                        <!-- required -->
+                        <moduleRef key="msdescription"/>
+                        <moduleRef key="namesdates"/>
+                        <moduleRef key="textcrit"/>
+                        <moduleRef key="textstructure"/>
+                        <!-- required -->
+                        <moduleRef key="transcr"/>
+                        <moduleRef key="verse"/>
+                        <elementSpec ident="letterhead" ns="" mode="add">
+                              <desc>preprinted letterhead in head, opener, closer: can contain
+                                    dateline, monogram, seal</desc>
+                              <classes>
+                                    <memberOf key="model.divLike"/>
+                                    <memberOf key="model.gLike"/>
+                                    <memberOf key="model.global"/>
+                                    <memberOf key="model.inter"/>
+                                    <memberOf key="model.phrase"/>
+                                    <memberOf key="att.global"/>
+                              </classes>
+                              <content>
+                                    <rng:ref name="macro.specialPara"/>
+                              </content>
+                        </elementSpec>
+                        <elementSpec ident="pb" module="core" mode="change">
+                              <attList>
+                                    <attDef ident="n" mode="change" usage="req">
+                                          <desc>gives a number (or other label) for an element,
+                                                which is not necessarily unique within the
+                                                document.</desc>
+                                    </attDef>
+                                    <attDef ident="xml:id" mode="change" usage="req"/>
+                              </attList>
+                        </elementSpec>
+                        <elementSpec ident="lem" module="textcrit" mode="change">
+                              <desc>contains the lemma, or base text, of a textual variation;
+                                    modified to include l</desc>
+                              <classes mode="replace">
+                                    <memberOf key="model.lLike" mode="add"/>
+                                    <memberOf key="att.global"/>
+                                    <memberOf key="att.textCritical"/>
+                                    <memberOf key="att.witnessed"/>
+                              </classes>
+                        </elementSpec>
+                        <elementSpec ident="rdg" module="textcrit" mode="change">
+                              <desc>contains a single reading within a textual variation; modified
+                                    to include l</desc>
+                              <classes mode="replace">
+                                    <memberOf key="model.lLike" mode="add"/>
+                                    <memberOf key="model.rdgLike"/>
+                                    <memberOf key="att.global"/>
+                                    <memberOf key="att.textCritical"/>
+                                    <memberOf key="att.witnessed"/>
+                              </classes>
+                        </elementSpec>
+                        <elementSpec ident="head" module="core" mode="change">
+                              <attList>
+                                    <attDef ident="xml:space" mode="change">
+                                          <defaultVal>preserve</defaultVal>
+                                          <valList type="closed" mode="replace">
+                                                <valItem ident="default"/>
+                                                <valItem ident="preserve"/>
+                                          </valList>
+                                    </attDef>
+                              </attList>
+                        </elementSpec>
+                        <elementSpec ident="note" module="core" mode="change">
+                              <attList>
+                                    <attDef ident="place" mode="change" usage="req">
+                                          <valList type="closed" mode="replace">
+                                                <valItem ident="end"/>
+                                                <valItem ident="foot"/>
+                                                <valItem ident="inline"/>
+                                          </valList>
+                                    </attDef>
+                                    <attDef ident="type" mode="change" usage="req">
+                                          <valList type="closed" mode="replace">
+                                                <valItem ident="alt"/>
+                                                <valItem ident="an"/>
+                                                <valItem ident="au"/>
+                                                <valItem ident="cp"/>
+                                                <valItem ident="ed"/>
+                                                <valItem ident="label"/>
+                                                <valItem ident="pt"/>
+                                                <valItem ident="te"/>
+                                          </valList>
+                                    </attDef>
+                                    <attDef ident="xml:id" mode="change" usage="req"/>
+                              </attList>
+                        </elementSpec>
+                        <elementSpec ident="closer" module="textstructure" mode="change">
+                              <classes mode="replace">
+                                    <memberOf key="model.divBottom"/>
+                                    <memberOf key="model.divBottomPart"/>
+                                    <memberOf key="model.quoteLike" mode="add"/>
+                                    <memberOf key="att.global"/>
+                              </classes>
+                        </elementSpec>
+                        <elementSpec ident="opener" module="textstructure" mode="change">
+                              <classes mode="replace">
+                                    <memberOf key="model.divTop"/>
+                                    <memberOf key="model.divTopPart"/>
+                                    <memberOf key="model.quoteLike" mode="add"/>
+                                    <memberOf key="att.global"/>
+                              </classes>
+                        </elementSpec>
+                        <elementSpec ident="figure" module="figures" mode="change">
+                              <attList>
+                                    <attDef ident="rend" mode="change" usage="req">
+                                          <valList type="closed" mode="replace">
+                                                <valItem ident="block"/>
+                                                <valItem ident="blocksm"/>
+                                                <valItem ident="center"/>
+                                                <valItem ident="ch-init"/>
+                                                <valItem ident="ch-left"/>
+                                                <valItem ident="ch-right"/>
+                                                <valItem ident="diag"/>
+                                                <valItem ident="glyphlike"/>
+                                                <valItem ident="inline"/>
+                                                <valItem ident="left"/>
+                                                <valItem ident="right"/>
+                                          </valList>
+                                    </attDef>
+                                    <attDef ident="xml:id" mode="change" usage="req"/>
+                              </attList>
+                        </elementSpec>
+                        <elementSpec ident="ref" module="core" mode="change">
+                              <attList>
+                                    <attDef ident="type" mode="change" usage="req">
+                                          <valList type="closed" mode="replace">
+                                                <valItem ident="chapterref"/>
+                                                <valItem ident="citeref"/>
+                                                <valItem ident="crossref"/>
+                                                <valItem ident="dbquery"/>
+                                                <valItem ident="figref"/>
+                                                <valItem ident="mets"/>
+                                                <valItem ident="noteref"/>
+                                                <valItem ident="obj"/>
+                                                <valItem ident="pageref"/>
+                                                <valItem ident="pdf"/>
+                                                <valItem ident="secref"/>
+                                                <valItem ident="sound"/>
+                                                <valItem ident="stream"/>
+                                                <valItem ident="tableref"/>
+                                                <valItem ident="url"/>
+                                                <valItem ident="video"/>
+                                          </valList>
+                                    </attDef>
+                                    <attDef ident="xml:id" mode="change" usage="opt"/>
+                                    <attDef ident="rend" mode="change">
+                                          <valList type="closed" mode="replace">
+                                                <valItem ident="embed"/>
+                                                <valItem ident="excerpt"/>
+                                                <valItem ident="new"/>
+                                                <valItem ident="none"/>
+                                                <valItem ident="replace"/>
+                                          </valList>
+                                    </attDef>
+                              </attList>
+                        </elementSpec>
+                        <elementSpec ident="ab" module="linking" mode="change">
+                              <attList>
+                                    <attDef ident="type" mode="change" usage="opt">
+                                          <valList type="closed" mode="replace">
+                                                <valItem ident="caption"/>
+                                                <valItem ident="doc"/>
+                                                <valItem ident="illgrp"/>
+                                                <valItem ident="pt"/>
+                                                <valItem ident="transcript"/>
+                                          </valList>
+                                    </attDef>
+                              </attList>
+                        </elementSpec>
+                        <elementSpec ident="app" module="textcrit" mode="change">
+                              <attList>
+                                    <attDef ident="xml:id" mode="change" usage="req"/>
+                              </attList>
+                        </elementSpec>
+                        <elementSpec ident="anchor" module="linking" mode="change">
+                              <attList>
+                                    <attDef ident="xml:id" mode="change" usage="req"/>
+                              </attList>
+                        </elementSpec>
+                        <elementSpec ident="sourceline" ns="http://www.tei-c.org/ns/1.0" mode="add">
+                              <desc>indicates the source of an edited letter--repository, newspaper
+                                    issue, etc.</desc>
+                              <classes>
+                                    <memberOf key="model.divPart"/>
+                                    <memberOf key="model.gLike"/>
+                                    <memberOf key="model.global"/>
+                                    <memberOf key="model.inter"/>
+                                    <memberOf key="model.phrase"/>
+                                    <memberOf key="att.global"/>
+                              </classes>
+                              <content>
+                                    <rng:ref name="macro.specialPara"/>
+                              </content>
+                        </elementSpec>
+                        <elementSpec ident="addressee" ns="http://www.tei-c.org/ns/1.0" mode="add">
+                              <desc>indicates the addressee of an edited letter</desc>
+                              <classes>
+                                    <memberOf key="model.divPart"/>
+                                    <memberOf key="model.gLike"/>
+                                    <memberOf key="model.global"/>
+                                    <memberOf key="model.inter"/>
+                                    <memberOf key="model.phrase"/>
+                                    <memberOf key="att.global"/>
+                              </classes>
+                              <content>
+                                    <rng:ref name="macro.specialPara"/>
+                              </content>
+                        </elementSpec>
+                        <elementSpec ident="ps" ns="http://www.tei-c.org/ns/1.0" mode="add">
+                              <desc>indicates the post script of an edited letter</desc>
+                              <classes>
+                                    <memberOf key="model.divPart"/>
+                                    <memberOf key="model.gLike"/>
+                                    <memberOf key="model.global"/>
+                                    <memberOf key="model.inter"/>
+                                    <memberOf key="model.phrase"/>
+                                    <memberOf key="att.global"/>
+                              </classes>
+                              <content>
+                                    <rng:ref name="macro.specialPara"/>
+                              </content>
+                        </elementSpec>
+                        <moduleRef key="linking" except=""/>
+                  </schemaSpec>
+            </body>
+      </text>
+</TEI>

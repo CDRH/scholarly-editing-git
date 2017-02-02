@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41852">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from W. S. Andrews to Samuel L. Clemens</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#WSA">William S. Andrews</name> to <addressee><name type="person" key="#SLC">SLC</name></addressee>
+              <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name> 
+              <sourceline>(MS: CU-MARK, UCLC 41852)</sourceline></head>
+            
+         <div1  type="letter">
+            <pb facs="andrews001.jpg" n="1" xml:id="pb001"/>
+               <opener>
+                  <letterhead><l rend="center">the lotos club</l>  <l rend="right">147 fifth avenue</l></letterhead>
+               <dateline rend="indentdateline">March 31/84</dateline>
+               <salute rend="noindent">Dear Mr. Clements&#8212;</salute>
+            </opener>
+            <p rend="text-indent:2">For some years, as you know, I have read your stories and sketches in public and I have a little collection of them which I wish to preserve in the form in which I use them for readings. I would like very much to have your autograph to preserve <unclear>with</unclear> them. Will you kindly send it to me?</p> <closer><salute rend="indentcompclose">Yours etc</salute>
+                  <signed rend="indentsig"><name type="person">W. S. Andrews</name></signed></closer>
+            </div1>
+            
+            <div1 type="post-transmission">
+               <div2 type="envelope">
+                  <pb facs="andrews-env.jpg" n="2" xml:id="pb002"/>
+               <ab>Saml. L. Clement<corr>s</corr><gap reason="tornaway"/> | (Mark Twain) | Hartford | Conn. [<hi rend="italic">rule</hi>]</ab>
+               <ab><note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">new york mar 31 6 pm f</hi></ab>
+                  <ab><note type="ed" place="inline" xml:id="ed002">docketed by SLC, in pencil:</note> WS Andrews | Mention [<hi rend="italic">rule</hi>]</ab>
+            </div2>
+            </div1> 
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+     <back/>
+   
+  </text>
+</TEI>

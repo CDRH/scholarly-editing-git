@@ -70,47 +70,43 @@
          Edition controls or anything else can go before or after the apply-templates-->
         <div class="main_content">
           
+          <div>
+            <xsl:attribute name="class">
+              <xsl:if test="$idno = 'intro.sevensins'">sevensins_intro</xsl:if>
+            </xsl:attribute>
+            
+          
           <xsl:if test="$idno = 'sidebyside.sevensins'">
             <div class="full_width"></div>
           </xsl:if>
           
+          <xsl:if test="$idno != 'intro.sevensins'">
           <div class="row controls text-center regularized" id="controls_sevensins" >
             <div class="col-md-4 text-center">
-              <a class="btn btn-default btn-xs" id="button_regularize" href="#" role="button">Regularized</a>
-              <a class="btn btn-default btn-xs" id="button_diplomatic" href="#" role="button">Diplomatic</a>
-            </div>
-            <div class="col-md-4 text-center">
-              <!--<a class="btn btn-default btn-xs" id="button_highlight" href="#" role="button">Highlight Quotes</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-->
               <a class="btn btn-default btn-xs" id="button_line_breaks" href="#" role="button">Line Breaks</a>
-              <!--<a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-->
-              <!-- <a class="btn btn-default btn-xs" id="button_notes" href="&amp;notes=true" role="button">Display Notes</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a><br/>-->
               <a class="btn btn-default btn-xs" id="button_editorial_marks" href="#" role="button">Editorial Marks</a>
             </div>
             <div class="col-md-4 text-center">
+              <xsl:if test="$idno != 'translation.sevensins'">
+              <a class="btn btn-default btn-xs" id="button_regularize" href="#" role="button">Regularized</a>
+              <a class="btn btn-default btn-xs" id="button_diplomatic" href="#" role="button">Diplomatic</a>
+              </xsl:if>
+              
+            </div>
+            <div class="col-md-4 text-center">
               <a class="btn btn-default btn-xs" id="button_toggle_Bd" href="#" role="button">Toggle Bd</a>
+                <a class="popper" data-toggle="popover" title="" content="" data-original-title="test">[?]</a>
+                <span class="hide popper-content"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/listWit/witness[@xml:id='Bd']"/></span>
               <a class="btn btn-default btn-xs" id="button_toggle_Tr" href="#" role="button">Toggle Tr</a>
+                <a class="popper" data-toggle="popover" title="" content="" data-original-title="test">[?]</a>
+                <span class="hide popper-content"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/listWit/witness[@xml:id='Tr']"/></span>
               <a class="btn btn-default btn-xs" id="button_toggle_Em" href="#" role="button">Toggle Em</a>
+                <a class="popper" data-toggle="popover" title="" content="" data-original-title="test">[?]</a>
+                <span class="hide popper-content"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/listWit/witness[@xml:id='Em']"/></span>
             </div>
           </div><!-- /row -->
-         <!-- <div class="">
-            <br/>-->
-            
-          <!--  <!-\-<a class="btn btn-default btn-xs" id="button_highlight" href="#" role="button">Highlight Quotes</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-\->
-            <a class="btn btn-default btn-xs" id="button_line_breaks" href="#" role="button">Line Breaks</a>
-            <!-\-<a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>-\->
-           <!-\- <a class="btn btn-default btn-xs" id="button_notes" href="&amp;notes=true" role="button">Display Notes</a>
-            <a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a><br/>-\->
-            <a class="btn btn-default btn-xs" id="button_editorial_marks" href="#" role="button">Editorial Marks</a>
-            <br/>
-            
-            <a class="btn btn-default btn-xs" id="button_toggle_Bd" href="#" role="button">Toggle Bd</a>
-            <a class="btn btn-default btn-xs" id="button_toggle_Tr" href="#" role="button">Toggle Tr</a>
-            <a class="btn btn-default btn-xs" id="button_toggle_Em" href="#" role="button">Toggle Em</a>-->
-            
-          <!--</div>-->
+          </xsl:if>
+         
           <xsl:choose>
             <xsl:when test="$idno = 'sidebyside.sevensins'">
               <div class="full_width disable_line_breaks regularized" id="sevensins_content">
@@ -132,7 +128,8 @@
             </xsl:otherwise>
           </xsl:choose>
           
-        </div>  
+        </div> 
+        </div><!-- /intro div -->
       </body>
     </html>
   </xsl:template>
@@ -140,75 +137,206 @@
   <!-- ==================================================================== -->
   <!--                            OVERRIDES                                 -->
   <!-- ==================================================================== -->
-  
-  <!-- Individual projects can override matched templates from the
-     imported stylesheets above by including new templates here -->
-  <!-- Named templates can be overridden if included in matched templates
-     here.  You cannot call a named template from directly within the stylesheet tag
-     but you can redefine one here to be called by an imported template -->
-  
-  <xsl:template match="lb">
-    <div class="tei_line_break">&#160;</div>
-  </xsl:template>
 
-  <!-- Can't do this unless there's xslt3, only available in commercial saxon -->
-  <!--<xsl:template match="anchor/following-sibling::text()">
-    zzzzzz[<xsl:apply-templates/>]
-  </xsl:template>-->
   
-  <xsl:template match="w"><span class="tei_w"><xsl:apply-templates/></span></xsl:template>
+  <!-- Paragraphs -->
   
-  <!-- this does not work either, and leads to more duplicates :/ -->
- <!-- <xsl:template match="anchor[following-sibling::app]">
-
-    <div style="background-color:blue"><xsl:apply-templates select="
-      
-      ./following-sibling::* except following::app
-      
-      "></xsl:apply-templates></div>
-  </xsl:template>-->
-  
-  <!-- Try this, Nikki provided -->
-  
-  <!--<xsl:template match="text()
-    [preceding::span[1][substring-after(@hand,'#')=preceding::handNote[@scribeRef='#ww']/@xml:id]/translate(@to,'#','')
-    =
-    following::anchor[1]/@xml:id]">
-    <span class="highlight">
-      <xsl:value-of select="."/>
-    </span>
-  </xsl:template>-->
-  
-  
- <!-- <xsl:template match="handShift">
-    <xsl:variable name="handShift_new"><xsl:value-of select="@new"/></xsl:variable>
+  <xsl:template match="p">
     <xsl:choose>
-      <xsl:when test="preceding::handNote[concat('#',@xml:id)=$handShift_new]/@scribeRef='#ww'"><xsl:text disable-output-escaping='yes'>&lt;span class="marginalia_hand"></xsl:text></xsl:when>
-      <xsl:when test="preceding::handShift[1][(substring-after(@new,'#'))=(preceding::handNote[@scribeRef='#ww']/@xml:id)] and not(self::handNote[concat('#',@xml:id)=$handShift_new]/@scribeRef='#ww')"><xsl:text disable-output-escaping='yes'>&lt;/span></xsl:text></xsl:when>
+      <xsl:when test="$idno = 'intro.sevensins'"><p><xsl:apply-templates/></p></xsl:when>
+      <!-- HTML does not allow a p in a p -->
+      <xsl:when test="ancestor::p or child::figure">
+        <div class="p">
+          <xsl:apply-templates/>
+        </div>
+      </xsl:when>
+      <xsl:when test="following-sibling::*[1]/name() = 'note'">
+        <p>
+          <xsl:apply-templates/> 
+          <xsl:apply-templates select="following-sibling::note[1]" mode="mode_decide"/>
+        </p>
+      </xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates/>
+        <p><xsl:apply-templates/></p>
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:template>-->
-  
-  <!--<xsl:template match="text()
-    [preceding::span[1][substring-after(@hand,'#')=preceding::handNote[@scribeRef='#ww']/@xml:id]/translate(@to,'#','')
-    =
-    following::anchor[1]/@xml:id]">
-    zzz
-  </xsl:template>-->
-  
-  
-  
-  <xsl:template match="anchor">
-    <span class="ed_mark"><xsl:text> [</xsl:text></span>
-   
   </xsl:template>
   
-  <!--<xsl:template match="app"/>-->
+  <!-- Notes -->
+  <xsl:template match="note">
+    <xsl:choose>
+      <xsl:when test="preceding-sibling::*[1]/name() = 'p' or
+                      preceding-sibling::*[1]/name() = 'head' or 
+                      (parent::p/preceding-sibling::*[1]/name() = 'head' and ancestor::figure)"><!-- do nothing, handled in p --></xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates select="." mode="mode_decide"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    
+  </xsl:template>
   
+  <!-- Sends note to editorial or non_editorial -->
+  <xsl:template match="note" mode="mode_decide">
+    <xsl:choose>
+      <xsl:when test="@type='editorial'">
+        <xsl:apply-templates select="." mode="editorial"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates select="." mode="non_editorial"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   
+  <!-- editorial notes are found in intro -->
+  <xsl:template match="note" mode="editorial">
+    <a>
+      <xsl:attribute name="href">
+        <xsl:text>#</xsl:text>
+        <xsl:text>footnote</xsl:text>
+        <xsl:number level="any" from="/TEI/text"/>
+      </xsl:attribute>
+      <!-- Ended here, trying to get the numbering to start at 1 -->
+      <xsl:attribute name="id">inline<xsl:number level="any" from="/TEI/text"/></xsl:attribute>
+      <xsl:attribute name="class">edition_notes</xsl:attribute>
+      <sup>
+        <xsl:text> [</xsl:text>
+        <xsl:number level="any" from="/TEI/text"/>
+        <xsl:text>]</xsl:text>
+      </sup>
+    </a>
+  </xsl:template>
   
+  <!-- non editorial notes are found in the edition -->
+  <xsl:template match="note" mode="non_editorial">
+    <a class="popper" data-toggle="popover" title="" content="" data-original-title="test"><small>[note]</small></a>
+    <span class="hide popper-content"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+  <!-- template to create footnotes out of the editorial notes -->
+  <xsl:template match="note" mode="footnotes">
+    <div class="footnote">
+      <xsl:attribute name="id">
+        <xsl:text>footnote</xsl:text>
+        <xsl:number level="any" from="/TEI/text"/>
+      </xsl:attribute>
+      <xsl:choose>
+        <xsl:when test="@n">
+          <xsl:value-of select="@n"/>
+        </xsl:when>
+        <xsl:when test="@xml:id">
+          <xsl:value-of select="@xml:id"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:number level="any" from="/TEI/text"/>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:text>. </xsl:text>
+      <span class="note_text">
+        <xsl:apply-templates/>
+      </span>
+      <xsl:text> [</xsl:text>
+      <a>
+        <xsl:attribute name="href">
+          <xsl:text>#inline</xsl:text>
+          <xsl:choose>
+            <xsl:when test="@n">
+              <xsl:value-of select="@n"/>
+            </xsl:when>
+            <xsl:when test="@xml:id">
+              <xsl:value-of select="@xml:id"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:number level="any" from="/TEI/text"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:attribute>
+        <xsl:text>back</xsl:text>
+      </a>
+      <xsl:text>]</xsl:text>
+    </div>
+  </xsl:template>
+  
+  <!-- list match which handles notes directly inside list -->
+  <xsl:template match="list">
+    <!-- when there is a head, place it above the ul -->
+    <xsl:if test="head">
+      <xsl:for-each select="head">
+        <div class="tei_list_head">
+          <xsl:apply-templates select="./node()"/>
+          <xsl:choose>
+            <xsl:when test="following-sibling::*[1]/name() = 'note'">
+              <xsl:apply-templates select="following-sibling::note[1]" mode="mode_decide"/>
+            </xsl:when>
+            <xsl:when test="preceding-sibling::*[1]/name() = 'note'">
+              <xsl:apply-templates select="preceding-sibling::note[1]" mode="mode_decide"/>
+            </xsl:when>
+          </xsl:choose>
+        </div>
+      </xsl:for-each>
+    </xsl:if>
+    
+    <!-- when there is a note, handle elsewhere -->
+    <xsl:if test="note">
+      <xsl:for-each select="note">
+        <xsl:choose>
+          <xsl:when test="preceding-sibling::head"><!-- do nothing, handle above --></xsl:when>
+          <!-- alternate handling of this, right now handled by first list below -->
+          <xsl:when test="not(preceding-sibling::*)">
+            <!--<xsl:text>*</xsl:text><xsl:apply-templates select="." mode="editorial"/>-->
+          </xsl:when>
+          <xsl:otherwise><!-- do nothing, handled elsewhere --></xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </xsl:if>
+    
+    <ul>
+      <xsl:apply-templates select="*"/>
+    </ul>
+  </xsl:template>
+  
+  <xsl:template match="list/head"></xsl:template>
+
+  <!-- item match which handles notes directly before or after an item -->
+  <xsl:template match="item">
+    <xsl:choose>
+      <!-- when the next item is a note, move the note inside the li -->
+      <xsl:when test="following-sibling::*[1]/name() = 'note'">
+        <li>
+          <xsl:apply-templates/>
+          <xsl:apply-templates select="following-sibling::note[1]" mode="mode_decide"></xsl:apply-templates>
+        </li>
+      </xsl:when>
+      <!-- when the previous item is a note and is not preceded by a head, move into the next li. 
+             if it is preceded by a head, it will be handled by the first if in the list match -->
+      <xsl:when test="preceding-sibling::*[1]/name() = 'note'">
+        <xsl:if test="not(preceding-sibling::*[1]/preceding-sibling::head[1])">
+          <li>
+            <xsl:apply-templates/>
+            <xsl:apply-templates select="preceding-sibling::note[1]" mode="mode_decide"></xsl:apply-templates>
+          </li>
+        </xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+        <li>
+          <xsl:apply-templates/>
+        </li>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <!-- turn line breaks into divs so they can be toggled -->
+  <xsl:template match="lb">
+    <span class="tei_line_break">&#160;</span>
+  </xsl:template>
+  
+  <!-- add a span around w - could possible be added into base template -->
+  <xsl:template match="w"><span class="tei_w"><xsl:apply-templates/></span></xsl:template>
+
+  <!-- surround the text after the anchor and before the app with [ ] The end ] is in the app rule -->
+  <xsl:template match="anchor">
+    <span class="ed_mark"><xsl:text> [</xsl:text></span>
+  </xsl:template>
+
   <xsl:template match="app" mode="pop">
     <span>
       <xsl:attribute name="class">
@@ -238,12 +366,10 @@
     
     <a class="popper" data-toggle="popover" title="test" content="">[*]</a>
     <xsl:apply-templates select="." mode="pop"></xsl:apply-templates>
-    
   </xsl:template>
   
   <xsl:template match="lem | rdg" mode="pop">
     <span>
-      
       <xsl:attribute name="class">
         <xsl:text>tei_</xsl:text>
         <xsl:value-of select="name()"/>
@@ -254,13 +380,21 @@
       </xsl:attribute>
       <xsl:value-of select="substring-after(@wit,'#')"/>
       <xsl:text>: </xsl:text>
-      <xsl:apply-templates/><br/>
+      
+      <xsl:choose>
+        <xsl:when test="name() = 'lem'">
+          <strong><xsl:apply-templates/></strong>
+        </xsl:when>
+        <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+      </xsl:choose>
+      <!--<xsl:apply-templates/>-->
+      
+      <br/>
     </span>
   </xsl:template>
   
   <xsl:template match="lem | rdg">
     <span>
-     
       <xsl:attribute name="class">
         <xsl:text>hide tei_</xsl:text>
         <xsl:value-of select="name()"/>
@@ -280,6 +414,184 @@
       <span class="tei_abbr"><span class="ed_mark">[</span><xsl:apply-templates select="abbr"/><span class="ed_mark">]</span></span>
       <span class="tei_expan"><span class="ed_mark">{</span><xsl:apply-templates select="expan"/><span class="ed_mark">}</span></span>
     </span>
+  </xsl:template>
+  
+  <xsl:template match="figure" priority="1">
+    <div class="tei_figure">
+      <img src="images/{graphic/@url}"></img>
+      <br/>
+      
+      <xsl:apply-templates/>
+    </div>
+    
+  </xsl:template>
+  
+  <!--<xsl:template match="figure/head">
+    <h4><xsl:apply-templates/></h4>
+  </xsl:template>-->
+  
+  <!-- head taken from html_formatting and added here to deal with notes next to heads -->
+  <xsl:template match="head">
+    <xsl:choose>
+      <xsl:when test="following-sibling::p[1]/child::note and parent::figure">
+        <h4><xsl:apply-templates/> <xsl:apply-templates select="following-sibling::p" mode="mode_decide"/></h4>
+      </xsl:when>
+      <xsl:when test="ancestor::*[name() = 'p']">
+        <span class="head">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      <xsl:when test="following-sibling::*[1]/name() = 'note'">
+        <h4><xsl:apply-templates/><xsl:text> </xsl:text><xsl:apply-templates select="following-sibling::note[1]" mode="mode_decide"/></h4>
+      </xsl:when>
+      <xsl:when test="ancestor::*[name() = 'figure']">
+        <span class="head">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      
+      <!-- I added the div1 code for OSCYS, but I assume it will pop up elsewhere. 
+    First I test if the div1 has a head. If it does not, I start the div2's on the h3's and work from there. - karin
+    -->
+      <xsl:when test="//div1">
+        <xsl:choose>
+          <xsl:when test="//div1/head">
+            <xsl:choose>
+              <xsl:when test="parent::div1">
+                <h3>
+                  <xsl:apply-templates/>
+                </h3>
+              </xsl:when>
+              <xsl:when test="parent::div2">
+                <h4>
+                  <xsl:apply-templates/>
+                </h4>
+              </xsl:when>
+              <xsl:when test="parent::div3">
+                <h5>
+                  <xsl:apply-templates/>
+                </h5>
+              </xsl:when>
+              <xsl:when test="parent::div4 or parent::div5 or parent::div6 or parent::div7">
+                <h6>
+                  <xsl:apply-templates/>
+                </h6>
+              </xsl:when>
+              <xsl:otherwise>
+                <h3>
+                  <xsl:apply-templates/>
+                </h3>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:choose>
+              <xsl:when test="parent::div2">
+                <h3>
+                  <xsl:apply-templates/>
+                </h3>
+              </xsl:when>
+              <xsl:when test="parent::div3">
+                <h4>
+                  <xsl:apply-templates/>
+                </h4>
+              </xsl:when>
+              <xsl:when test="parent::div4">
+                <h5>
+                  <xsl:apply-templates/>
+                </h5>
+              </xsl:when>
+              <xsl:when test="parent::div5 or parent::div6 or parent::div7">
+                <h6>
+                  <xsl:apply-templates/>
+                </h6>
+              </xsl:when>
+              <xsl:otherwise>
+                <h3>
+                  <xsl:apply-templates/>
+                </h3>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      
+      <xsl:when test=".[@type = 'sub']">
+        <h4>
+          <xsl:apply-templates/>
+        </h4>
+      </xsl:when>
+      <xsl:when test="preceding::*[name() = 'head']">
+        <h4>
+          <xsl:apply-templates/>
+        </h4>
+      </xsl:when>
+      <xsl:otherwise>
+        <h3>
+          <xsl:apply-templates/>
+        </h3>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="pb">
+    <xsl:choose>
+      <xsl:when test="$idno = 'translation.sevensins'"><!-- do nothing --></xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="image_name">
+          <xsl:choose>
+            <xsl:when test="@facs"><xsl:value-of select="@facs"/></xsl:when>
+            <xsl:when test="@n"><xsl:value-of select="@n"/></xsl:when>
+          </xsl:choose>
+        </xsl:variable>
+        <span>
+          <xsl:attribute name="class">
+            <xsl:text>pagebreak</xsl:text>
+          </xsl:attribute>
+          <span class="tei_thumbnail">
+            <a>
+              <xsl:attribute name="href">
+                <xsl:text>images/viewsize/</xsl:text>
+                <xsl:value-of select="$image_name"/>
+                <xsl:text>.jpg</xsl:text>
+              </xsl:attribute>
+              <img>
+                <xsl:attribute name="src">
+                  <xsl:text>images/thumbs/</xsl:text>
+                  <xsl:value-of select="$image_name"/>
+                  <xsl:text>.jpg</xsl:text>
+                </xsl:attribute>
+              </img>
+            </a>
+          </span>
+          <span class="viewsize">
+            <a>
+              <xsl:attribute name="href">
+                <xsl:text>images/viewsize/</xsl:text>
+                <xsl:value-of select="$image_name"/>
+                <xsl:text>.jpg</xsl:text>
+              </xsl:attribute>
+              <xsl:text>View Page</xsl:text>
+            </a>
+          </span>
+          <br/>
+          <span class="fullsize">
+            <a>
+              <xsl:attribute name="href">
+                <xsl:text>images/fullsize/</xsl:text>
+                <xsl:value-of select="$image_name"/>
+                <xsl:text>.jpg</xsl:text>
+              </xsl:attribute>
+              <xsl:attribute name="target">
+                <xsl:text>_blank</xsl:text>
+              </xsl:attribute>
+              <xsl:text>Full size in new window</xsl:text>
+            </a>
+          </span>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
+    
   </xsl:template>
   
   

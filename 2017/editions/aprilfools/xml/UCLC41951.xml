@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41951">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Julian Hawthorne to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#JH">Julian Hawthorne</name> to
+            <addressee><name type="person">Samuel L. Clemens</name></addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Sag Harbor, N.Y.</name>   
+            <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41951)</sourceline></head>
+         
+         <div1 type="letter">
+            <pb facs="hawthorne01.jpg" xml:id="pb001" n="1"/>
+            <opener><dateline rend="indentdateline"><name type="place">Sag Harbor L. I.</name><space extent="2"/>
+               <lb/><date when="1884-03-31">March 31<hi rend="superscript">st</hi> 1884</date>
+               </dateline>
+               <salute rend="noindent">My dear Clemens</salute>
+               </opener>
+            <p rend="text-indent:2">I have an idea of following the prevailing fashion, and starting an autograph book: and by way of benediction to the enterprise, I wish to begin with yours. I may never get beyond that: but even then I shall have half ended what was so well begun. If you can find nothing better to do therefore, do sit down and dash me off <pb facs="hawthorne02.jpg" xml:id="pb002" n="2"/> something characteristic and brilliant and meanwhile believe me</p>
+            <closer>
+               <salute rend="indentcompclose">Always cordially yours</salute>
+               <signed rend="indentsig"><hi rend="paraph">Julian Hawthorne</hi>.</signed>
+            <lb/>Saml. Clemens Esq.</closer>
+         </div1>
+         
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb facs="hawthorne-env.jpg" xml:id="pb003" n="3"/>
+               <ab>Samuel Clemens Esq. | Hartford | Conn.</ab>
+               <ab><note xml:id="ed001" type="ed" place="inline">postmarked:</note> <hi rend="xs-smallcaps">sag <corr>har</corr>bor apr 1 1884 n. y.</hi></ab>
+               <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> Julian Hawthorne</ab>
+            </div2>
+         </div1>
+         <div1 xml:id="cm0001" type="commentary"/>        
+         
+      </body>
+  </text>
+</TEI>

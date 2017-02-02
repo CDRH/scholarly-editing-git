@@ -53,7 +53,7 @@ var opacityScale2 = d3.scale.linear().domain([0,1]).range([.2,1]);
 //Load relation data
 var relations = new Array();
 var currentRelations = new Array();
-d3.csv('data/sentences_relations.csv', function(d) {
+d3.csv('hejinian/data/sentences_relations.csv', function(d) {
 	relations = d;
 	processSentences();
 });
@@ -64,7 +64,7 @@ var b = 0;
 //Loop through sentence data
 
 function processSentences() {
-d3.csv("data/sentences_compiled.csv", function(sentences) {
+d3.csv("hejinian/data/sentences_compiled.csv", function(sentences) {
 	
 	var toc = svg.selectAll("rect")
 	    .data(sentences)

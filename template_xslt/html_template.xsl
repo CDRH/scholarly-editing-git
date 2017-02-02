@@ -12,7 +12,7 @@
   -->
   <xsl:param name="view">
     <xsl:choose>
-      <xsl:when test="//div[@class='main_content']/div[@class='full_width']">full_width</xsl:when>
+      <xsl:when test="//div[@class='main_content']//div[@class='full_width']">full_width</xsl:when>
       <xsl:otherwise>col8</xsl:otherwise>
     </xsl:choose>
   </xsl:param>
@@ -97,8 +97,15 @@
         
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"/>
         <link rel="stylesheet" href="{$siteroot}template_css/bootstrap/bootstrap.min.css"/>
+        <!-- Lightbox: seems common enough we should include elsewhere, but if not, remove and add to individual projects -KMD -->
+        
+        <link rel="stylesheet" href="{$siteroot}template_js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css"/>
+        <script src="{$siteroot}template_js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js">&#160;</script>
         <!--        <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon" rel="stylesheet"/>-->
         <link rel="stylesheet" href="{$siteroot}template_css/new_style.css"/>
+        
+        <script src="{$siteroot}template_js/javascript_new.js">&#160;</script>
+       
         
         
         
@@ -212,7 +219,6 @@
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                
                     <xsl:copy-of select="$main_content"/>
               </xsl:otherwise>
             </xsl:choose>

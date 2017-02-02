@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Elizabeth M. Millet to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="facs/milletl01.jpg" xml:id="pb0001" n="1"/>
+            <head type="metadata">
+                <name corresp="#EMM">Elizabeth M. Millet</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41967)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+ 
+                    <salute>My dear Mr. Clemens:&#x2014;</salute>
+                </opener>
+                <p rend="text-indent:3">I am not an autograph collector but it would give me very great pleasure to see yours once more. With love for Mrs. Clemens and the children and most sincere regard for yourself, I am,
+                </p>
+                <closer>
+                    <salute><space extent="4"/>Yours always Sincerely,</salute>
+                    <signed><space extent="8"/>Lily Millet</signed>
+                </closer>
+                <dateline>578 Fifth Ave<lb/>
+                    <space extent="2"/><date when="1884-03-31">March 31.</date>
+                </dateline>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001">
+                <div2 type="envelope" xml:id="pt002"><pb facs="facs/milletl-env.jpg" xml:id="pb003" n="env"/>
+                    <ab>S. L. Clemens Esq | Hartford | Connecticut
+                        <note type="pt" xml:id="ed001" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">new york mar 31 10 &#x2662;&#x2662; g 84</hi>
+                        <note type="ed" xml:id="ed003" place="inline">docketed by SLC, in pencil:</note> Mrs. Millet
+                    </ab>
+                </div2>
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

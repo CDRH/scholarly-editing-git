@@ -50,11 +50,11 @@
                         $idno = 'intro.dunning' or
                         $idno = 'deorationedominica' or
                         $idno = 'deorationedominica.trans'">
-                        <link href="{$siteroot}css/dunning.css" rel="stylesheet" type="text/css"/>
-                        <script src="{$siteroot}js/dunning.js"> &#160; </script>
+                      <link href="{$siteroot}2016/editions/Dunning_De-oratione-dominica/css/dunning.css" rel="stylesheet" type="text/css"/>
+                      <script src="{$siteroot}2016/editions/Dunning_De-oratione-dominica/js/dunning.js"> &#160; </script>
                     </xsl:when>
                     <xsl:when test="contains($idno, 'BinyonDestree')">
-                        <link href="{$siteroot}css/BinyonDestree.css" rel="stylesheet"
+                      <link href="{$siteroot}2016/editions/BinyonDestree/css/BinyonDestree.css" rel="stylesheet"
                             type="text/css"/>
                         <!--<script src="{$siteroot}js/BinyonDestree.js"> &#160; </script>-->
                     </xsl:when>
@@ -76,7 +76,7 @@
                 <xsl:if test="$environment = 'development'">
                     <style>
                         body{
-                            background-color: #ff9300;
+                            <!--background-color: #ff9300;--> <!-- Hurts my eyes :( -kmd -->
                             border-top: solid 10px red;
                         }</style>
                 </xsl:if>
@@ -905,6 +905,12 @@
                                     <xsl:text>cranchjournal/pages/viewsize/</xsl:text>
                                     <xsl:value-of select="child::tei:graphic/attribute::url"/>
                                 </xsl:when>
+                              <xsl:when test="$editionName = 'stufaiuolo' and /tei:TEI/tei:teiHeader[1]/tei:fileDesc[1]/tei:publicationStmt[1]/tei:idno[@type='file'] = 'intro.stufaiuolo'">
+                                <xsl:for-each select="child::tei:graphic">
+                                  <xsl:text>stufaiuolo/media/</xsl:text>
+                                  <xsl:value-of select="substring(./attribute::url, 7)"/>
+                                </xsl:for-each>
+                              </xsl:when>
                                 <xsl:when test="$editionName = 'stufaiuolo'">
                                     <xsl:for-each select="child::tei:graphic">
                                         <xsl:text>stufaiuolo/pages/viewsize/</xsl:text>
@@ -1047,7 +1053,7 @@
                                     </xsl:when>
 
                                     <xsl:when test="$editionName = 'youngidea'"
-                                            >youngidea/<xsl:value-of select="./attribute::url"/>
+                                            >youngidea/images/<xsl:value-of select="./attribute::url"/>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:value-of select="./attribute::url"/>
@@ -1371,7 +1377,7 @@ by bots, spammers, and other evildoers -->
                                 </xsl:variable>
 
                                 <xsl:for-each
-                                    select="document('../2012/editions/utctopsy/xml/utc_variants.xml')/tei:TEI">
+                                    select="document('../../2012/editions/utctopsy/xml/utc_variants.xml')/tei:TEI">
                                     <xsl:for-each select="descendant::tei:item/tei:app">
                                         <xsl:variable name="appID">
                                             <xsl:for-each select="./attribute::loc">
@@ -1469,7 +1475,7 @@ by bots, spammers, and other evildoers -->
                                     />
                                 </xsl:variable>
                                 <xsl:for-each
-                                    select="document('../2016/editions/youngidea/variants.youngidea.xml')/tei:TEI">
+                                    select="document('../../2016/editions/youngidea/xml/variants.youngidea.xml')/tei:TEI">
                                     <xsl:for-each select="descendant::tei:item/tei:app">
                                         <xsl:variable name="appID">
                                             <xsl:for-each select="./attribute::loc">
@@ -1614,7 +1620,7 @@ by bots, spammers, and other evildoers -->
                             <a href="#" class="closenote">X</a>
                             <div class="appRdg">
                                 <xsl:for-each
-                                    select="doc('../2015/editions/stufaiuolo/stufaiuolo.valentiniana.xml')//tei:msDesc">
+                                    select="doc('../../2015/editions/stufaiuolo/xml/stufaiuolo.valentiniana.xml')//tei:msDesc">
                                     <h1>Manuscript Description, Valentiniana MS</h1>
                                     <p>
                                         <xsl:for-each select="//tei:msIdentifier/*">
@@ -1787,7 +1793,7 @@ by bots, spammers, and other evildoers -->
                             <a href="#" class="closenote">X</a>
                             <div class="appRdg">
                                 <xsl:for-each
-                                    select="doc('../2015/editions/stufaiuolo/stufaiuolo.riccardiana.xml')//tei:msDesc">
+                                    select="doc('../../2015/editions/stufaiuolo/xml/stufaiuolo.riccardiana.xml')//tei:msDesc">
                                     <h1>Manuscript Description, Riccardiana MS</h1>
                                     <p>
                                         <xsl:for-each select="//tei:msIdentifier/*">

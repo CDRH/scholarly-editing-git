@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41952">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John M. Hay to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#JMH">John M. Hay</name> to <addressee><name type="person" key="#SLC">SLC</name></addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Cleveland, Ohio</name>
+            <sourceline>(MS: CU-MARK, UCLC 41952)</sourceline>
+         </head>
+         <div1  type="letter">
+            <pb xml:id="pb001" n="1" facs="hay01.jpg"/>
+            <opener>
+               <letterhead><l rend="right"><del>room 1, cushing's block,</del><space extent="2"/></l>
+              <l rend="right">cleveland, o. <add type="formfill"><date when="1884-03-31">March 31,</date></add> <hi rend="xs-smallcaps">188</hi><add type="formfill">4</add></l>
+               </letterhead>
+               <salute rend="saluteindent">My dear Clemens</salute>
+            </opener>
+            <p rend="text-indent:2">I wish you would take a leisure hour or two and copy for me a few hundred lines of "Young's
+            Night Thoughts" and an equal amount of Pollok's "Course of Time".<note type="an" xml:id="an001" place="foot" n="1">
+               Edward Young's <hi rend="italic">The Complaint: or, Night-Thoughts on Life, Death, &amp; Immortality</hi> is a nine-part poem that was published serially between 1772 and 1775. Robert Pollok's <hi rend="italic">The Course of Time</hi>, consisting of ten books, was published in 1827, the year of his death. Both were written in blank verse and became best-sellers in their time.</note> I want my boy to form a taste for serious and
+            elevated poetry and it will add considerable commercial value to the verses to have them in your hand writing.</p>
+            <closer>
+               <salute rend="indentcompclose">Very sincerely, but thriftily<space extent="2"/>
+            </salute>
+            <signed rend="indentsig"><hi rend="paraph">J.H.</hi></signed>
+            </closer></div1>
+         
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb xml:id="pb002" n="2" facs="hay-env.jpg"/>               
+               <ab>Samuel L. Clemens Esq | Hartford | Connecticut</ab>
+               <ab><note type="ed" xml:id="ed002" place="inline">return address:</note> <hi rend="xs-smallcaps">return to <del>room 1, cushing block, | 124 public square,</del></hi> <add>506 Euclid Ave</add> <hi rend="xs-smallcaps">cleveland o.</hi> |</ab>
+               <ab><note type="ed" xml:id="ed003" place="inline">postmarked:</note> <hi rend="xs-smallcaps">cleveland o. mar 31 1 pm</hi></ab>
+               <ab><note type="ed" xml:id="ed004" place="inline">docketed by SLC, in pencil:</note> John Hay</ab>
+            </div2>
+         </div1>
+         <div1 xml:id="cm0001" type="commentary"/>               
+      </body>
+   </text>
+</TEI>

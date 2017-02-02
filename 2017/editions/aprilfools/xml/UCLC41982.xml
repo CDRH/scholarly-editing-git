@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Charles Watrous to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="facs/watrous01.jpg" xml:id="pb0001" n="1"/>
+            <head type="metadata">
+                <name corresp="#CW">Charles Watrous</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-03-31">31 March 1885</date> &#x2022; <name type="place">New York, N. Y.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41982)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+                    <letterhead><l rend="center">CW</l></letterhead>
+                    <dateline rend="indentdateline">140 Pearl St<lb/>
+                        <space extent="24"/><date when="1884-03-31">March 31<hi rend="superscript">st</hi> 1884</date>
+                    </dateline>
+                    <salute>Dear Clemens</salute>
+                </opener>
+                <p rend="text-indent:3">I am acquainted with <add>a</add> beautiful young lady about 18 years old, who is anxious to go upon the stage. I am too old to find out if she has other desires, but you are about the proper age.
+                </p>
+                <p rend="text-indent:2">If by return mail you will send me your photograph, and autograph, I will hand them to her, and ask for the pleasure of introducing you when you visit the city. I am</p>
+                <closer>
+                    <salute rend="indentcompclose">Very Sincerely<space extent="2"/></salute>
+                    <signed rend="indentsig">Cha<hi rend="superscript">s</hi> Watrous.</signed>
+                </closer>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001">
+                <div2 type="envelope" xml:id="pt002"><pb facs="facs/watrous-env.jpg" xml:id="pb003" n="env"/>
+                    <ab>Mr S. L. Clemens | Hartford | Conn <note type="ed" xml:id="ed001" place="inline">In upper left:</note> Personal <note type="pt" xml:id="ed003" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">new-york mar 31 4 pm 84</hi> <note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> Watrous
+                    </ab>
+                </div2>
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

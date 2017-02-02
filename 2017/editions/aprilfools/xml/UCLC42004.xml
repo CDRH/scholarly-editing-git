@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="UCLC"><teiHeader type="CDL-TEI:MTP">
+    <fileDesc>
+        <titleStmt>
+            <title>Letter from Richard Watson Gilder to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+ <p/></publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc><change/></revisionDesc>
+</teiHeader><text type="letter">
+<body>
+<head type="metadata">
+    <name corresp="#RWG">Richard Watson Gilder</name> to <addressee><name corresp="#SLC">Samuel L. Clemens</name></addressee>
+    <date when="1884-04-06">6 April 1884</date> &#x2022; <name type="place">New York, New York</name>
+<sourceline>(MS: CU-MARK, UCLC 42004)</sourceline>
+</head>
+
+<div1 type="letter" xml:id="lt0001"><pb facs="gilderr01.jpg" xml:id="pb001" n="1"/>
+<opener>
+<letterhead>
+<l>Century Club</l>
+<l>109 east 15<hi rend="superscript">th</hi> etreet.</l>
+</letterhead>
+<dateline rend="indentdateline">6<hi rend="superscript">th</hi> April 1884,</dateline>
+<salute>My dear Mr. Clemens,</salute>
+</opener>
+    <p rend="text-indent:2">Your failure to reply to my urgent telegraphic request for your autograph I can only account for by my forgetting to enclose a postage stamp.<note type="an" place="foot" xml:id="an001" n="1">The telegram has not been found, and may be a fabrication.</note> This delinquency I now make good &amp; hope for a prompt answer.<note type="an" place="foot" xml:id="an002" n="2">Gilder has affixed a cancelled Persian postal stamp.</note></p>
+    <closer rend="indentcompclose">
+<salute rend="indentcompclose">Sincerely,<space extent="3"/></salute>
+    <signed rend="indentsig">R W Gilder.<note type="an" xml:id="an003" place="foot" n="3">Gilder and Cable had a long association through the latter's publications in <hi rend="italic">Scribner's Monthly</hi>, beginning with "Sieur Georges. A Story of New Orleans" in October 1873. Gilder's extant correspondence with Clemens begins in 1882, with several solicitations for articles for the <hi rend="italic">Century Magazine</hi>. see aksi <ref type="crossref" target="UCLC41859.html">C. C. Buel to Clemens, </ref>As a charter member of the American Copyright League, Gilder also encouraged Clemens' engagement with their cause.</note></signed>
+</closer>
+</div1>
+    <div1 type="post-transmission">
+        <div2 type="envelope"><pb facs="gilderr-env.jpg" xml:id="pb001" n="env"/>
+            <ab>Samuel L. Clemens, Esq | Hartford | Conn. <note type="pt" xml:id="pt001" place="inline" n="postmarked:"><hi rend="xs-smallcaps">new york apr 6 3 30 pm D 84</hi></note>
+                <note type="ed" place="inline" xml:id="ed001">docketed by SLC, in pencil:</note> Gilder
+                
+                
+            </ab>
+        </div2>
+    </div1>
+  <div1 type="commentary" xml:id="cm0001">
+  </div1>
+</body>
+</text>
+</TEI>

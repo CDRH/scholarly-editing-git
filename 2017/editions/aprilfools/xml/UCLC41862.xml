@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="teip5.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41862">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Robert Collyer to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#RC">Robert Collyer</name> to <name type="person">Samuel L. Clemens</name>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name> 
+            <sourceline>(MS: CU-MARK, UCLC 41862)</sourceline></head>
+         
+         <div1 type="letter">
+            <pb facs="collyer01.jpg" xml:id="pb001" n="1"/>
+            <opener>
+               <salute rend="noindent">Dear Lad</salute>
+            </opener>
+            <p rend="text-indent:2">Was ever so sorry not to see you when I called,<!-- thought about writing a note here, but couldn't find any letters or evidence of his "call" --> do send us your autograph like a good boy. I dont mind the expense in this case and so will not send a stamp</p>
+            <closer><salute rend="indentcompclose">Yours<space extent="12"/></salute>
+               <signed rend="indentsig">Robert Collyer<note type="an" xml:id="an001" place="foot" n="1">Clemens admired Collyer's sermons enough to send his <hi rend="italic">Nature and Life</hi> to Olivia while he was courting her in 1868 (<ref type="crossref" target="http://www.marktwainproject.org/xtf/view?docId=letters/UCCL00234.xml;query=;searchAll=;sectionType1=;sectionType2=;sectionType3=;sectionType4=;sectionType5=;style=letter;brand=mtp#1">letter to Olivia L. Langdon with a note to Charles J. Langdon,
+                  17 January 1869</ref>, <hi rend="italic">L3</hi> 45&#8211;49). Collyer was also friends with Andrew Carnegie and Henry Huttleston Rogers, to whom he dedicated his memoir <hi rend="italic">Some Memories</hi> (Boston: American Antiquarian Association, 1905).</note><space extent="4"/></signed>
+               </closer>
+            <postscript><ab>Morrow of St ?s day</ab> 
+               <lb/><label>N B</label> <ab>Go for Cable</ab></postscript>
+         </div1>
+         
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb facs="collyer-env.jpg" xml:id="pb002" n="2"/>
+               <ab>S L Clemens [<hi rend="italic">unidentified</hi>] | Hartford | Conn</ab>
+               <ab><note type="ed" xml:id="ed001" place="inline">postmarked:</note><hi rend="xs-smallcaps"> new york mar 31 12 m f</hi></ab>
+               <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> Collyer | <hi rend="italic">good</hi> | mention</ab>
+            </div2>
+         </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

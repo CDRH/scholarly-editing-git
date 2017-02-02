@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="UCLC"><teiHeader type="CDL-TEI:MTP">
+    <fileDesc>
+        <titleStmt>
+            <title>Letter from Charles Dudley Warner to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc><change/></revisionDesc>
+</teiHeader><text type="letter">
+<body>
+    <pb facs="warner01.jpg" xml:id="pb0001" n="1"/>
+<head type="metadata">
+    <name corresp="#CDW">Charles Dudley Warner</name> to <addressee><name corresp="#SLC">Samuel L. Clemens</name></addressee>
+    <date when="1884-04-01">1 April 1884</date> &#x2022; <name type="place">Hartford, Connecticut</name>
+<sourceline>(MS: CU-MARK, UCLC 41997)</sourceline>
+</head>
+<div1 type="letter" xml:id="lt0001">
+<opener>
+<dateline rend="indentdateline">Hartford, <date when="1884-04-01">April 1 1884</date></dateline>
+<salute><space extent="1"/>My Dear Mark,</salute></opener>
+    <p rend="text-indent:3">I suppose you are bothered to death for your autograph, but I cannot resist the pleading of <rs>a little girl</rs> who wants it ever so much.<note xml:id="an0001" place="foot" type="an" n="1">Possibly a reference to his niece, <name>Margaret Warner (1872-1931)</name>, to whom Clemens had inscribed a copy of <hi rend="italic">The Prince and The Pauper</hi> on 10 February 1883. She was a close friend of the three Clemens girls. In the March 1886 they presented an amateur production of a dramatic version of <hi rend="italic">The Prince and The Pauper</hi>.</note> She has been reading Prince and Pauper, in fact I may say she <hi rend="italic">is</hi> reading it and nothing else, night and day and over and over again, and I sympathise with her I confess in finding it always charming, and more clever than she knows.<note type="an" xml:id="an0002" place="foot" n="2">Cable appended the following note to Warner's circular inviting him to participate in the joke: &#x201C;I send also 20 extra circulars for you to mail to members of your <name>Monday Club</name> and other friends of Saint Mark in Hartford. I have mailed to no other person in Hartford except <name corresp="#JHT">Mr. Twichell</name> and your brother's wife [<name>Mrs. George Warner</name>].&#x201D; (George W. Cable to Charles Dudley Warner, 27 March 1884, MS in NN-BGC) </note></p>
+<closer><salute rend="indentcompclose">Yours Ever<space extent="8"/></salute>
+<signed rend="indentsig"><name>Chas. Dudley Warner</name></signed>
+</closer>
+</div1>
+<div1 type="post-transmission">
+    <div2 type="envelope"><pb facs="warner-env.jpg" xml:id="pb0001" n="env"/>
+    <ab>S. L. Clemens Esq | Farmington Ave. | City. <note type="pt" xml:id="pt002" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">hartford conn. apr 2 84 3 pm</hi>
+        
+    </ab>
+        </div2>
+</div1>
+  <div1 type="commentary" xml:id="cm0001">
+  </div1>
+</body></text></TEI>

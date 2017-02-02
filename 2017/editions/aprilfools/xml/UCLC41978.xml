@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from Wesley Sisson to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="sisson01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#WS">Wesley Sisson</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, New York</name>
+            <sourceline>(TS: CU-MARK, UCLC 41978)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+                  <l rend="center">madison square theatre</l>
+                  <l rend="center">Mr. m. h. mallory, proprietor.</l>
+                  <l rend="center">daniel frohman, - manager</l>
+               </letterhead>
+		 <dateline rend="indentdateline"><hi rend="xs-smallcaps">new york</hi> <add type="formfill">
+                        <hi rend="dot-underline">
+                           <space extent="2"/>Mar. 31,
+      </hi>
+                     </add> <hi rend="xs-smallcaps">1884.</hi>
+		 </dateline>
+                  <lb/>
+Samuel L. Clemens, Esq.,<lb/>
+<space extent="6"/>Hartford, Conn.
+
+               <salute>Dear Sir:&#x2014;</salute>
+            </opener>
+            <p rend="text-indent:3">Will you kindly send me your autograph on this sheet of paper and much oblige.</p>
+            <closer>
+               <salute rend="indentctrcompclose">Yours truly,</salute>
+               <signed rend="indentctrsig"><space extent="7"/>Wesley Sisson / Per C<note xml:id="an0001" place="foot" type="an" n="1">This is the only extant letter (aside from telegrams) that is typed by a secretary, i.e. not a holograph offered in exchange for Clemens's.</note>
+               </signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="sisson-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+                <ab>
+                    Samuel L. Clemens Esq | Hartford | Conn. <note xml:id="pt001" place="inline" type="pt" n="return address:"><hi rend="xs-smallcaps">madison square theatre | new york | mr. m. mallory, . . . proprietor</hi></note><note xml:id="pt002" type="pt" place="inline" n="postmarked:"><hi rend="xs-smallcaps">new york apr 1 6 30 am e 84</hi></note>
+                <note type="ed" xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> Sisson  <!--<note type="ed" xml:id="ed003" place="inline">not by SLC, in ink:</note> Wants Auto. 1884 -->
+                </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

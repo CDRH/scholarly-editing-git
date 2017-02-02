@@ -1,0 +1,296 @@
+.ts_single_deletion {
+    background-position: 100%; 
+    width: 30em; 
+    height: 7px;
+}
+
+p.noindent {
+    text-indent:0;
+}
+
+p.center {
+    text-align:center;
+}
+
+p.right {text-align:right;}
+
+.letterhead, #printview #content-secondary .letterhead {
+    font-variant: small-caps;
+    font-size: 80%;
+    line-height: 1.2em;
+}
+
+.centerhead, #printview #content-secondary .centerhead {
+    text-align: center;
+    font-weight: bold;
+    padding: .5em 0 2em 0;
+    margin-top: .5em;
+    line-height: 1.2em;
+    font-size: 105%;
+}
+
+.indentdateline {
+    text-align: right;
+    margin: 0;
+}
+
+#printview #content-primary p {
+    line-height: 1.8em;
+    margin: 0px;
+    text-align: justify;
+}
+
+.tei_sourceline {
+    font-size: .8em;
+    /*padding-top: .25em;
+    margin-bottom: 3em;
+    line-height: 1.2em;*/
+}
+
+.indentcompclose, .indentsig {
+	display: inline-block;
+	float: right;
+	clear: right;
+	text-align: center;
+	margin: 0;
+	overflow: auto;
+}
+
+.paraph {
+	clear: both;
+	display: block;
+	overflow: auto;
+}
+
+.envline {
+	
+	clear: both;
+	margin: 1em 0 0 0;
+	display: block;
+	clear: both;
+	display: inline-block;
+	width: 100%;
+}
+
+.clear {
+	height: 1px;
+	display: block;
+	
+}
+
+.ts_endprf {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+.ts_single_deletion img {
+	background-position: 100%; 
+	width: 35em; 
+	height: 7px;
+	
+}
+
+.popover {max-width:450px; 
+  font-size:.9em;
+  line-height: 1.2em;
+}
+
+.italic {
+ font-style: italic;
+}
+
+.page_info h3 em {
+	display: block;
+	font-size: .7em;
+}
+
+/* Here starts a section where I am trying to get the XML to look like the HTML version -KMD */
+
+.right {float:right;}
+
+p {clear:right;}
+
+span.address {margin:0; padding:0;}
+
+.em-space {height:1px;}
+
+.indentdateline {
+	margin: 0;
+	padding: 0;
+}
+
+.indentdateline br + br {
+	display: none;
+}
+
+.address br + br {
+	display: none;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+
+.xs-smallcaps {
+	font-variant: small-caps;
+	font-size: .9em;
+}
+
+p.noindent {
+	/*display: inline;*/
+	/* Not sure why I had this -kmd */
+}
+
+div.note {
+	display: inline;
+}
+
+span.paraph {
+	display: inline;
+}
+
+p.stanza {
+	
+	line-height: 1em;
+}
+
+.opener {
+	margin-bottom: .5em;
+}
+
+table.form {
+	border:  1px solid #000;
+	
+}
+
+table.form td {
+	padding: .5em;
+}
+div.blockquote {
+	padding: 0 0 .5em 2em;
+}
+
+
+
+p {
+	padding: .5em 0 0em 0;
+	margin: 0;
+}
+
+p.hang {
+	text-indent: 2em;
+}
+
+.aprilfool_header, .byline, #notes h2 {
+	text-align: center;
+}
+
+
+/* Page Breaks */
+
+
+
+.aprilfools_pagebreak {
+	display: block;
+	text-align: center;
+	font-size: .8em;
+	line-height: 1.1em;
+	text-indent: 0;
+}
+
+.aprilfools_pagebreak .aprilfools_tei_thumbnail,
+.aprilfools_pagebreak .viewsize,
+.aprilfools_pagebreak .fullsize
+ {
+	display: inline-block;
+	width: 100%;
+}
+.aprilfools_pagebreak .aprilfools_tei_thumbnail img {
+	border: 1px solid #aaa;
+
+}
+
+.aprilfools_pagebreak .viewsize,
+.aprilfools_pagebreak .fullsize {
+	margin-top: .5em;
+	display: block;
+	margin: 0;
+	padding: 0;
+	display: ;
+}
+
+.aprilfools_pagebreak .fullsize {
+	margin-top: -.7em;
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+	.aprilfools_pagebreak {
+		width: 110px;
+		margin-left: -140px;
+		text-align: right;
+		/*position: absolute;*/
+		float: left;
+		clear: both;
+	}
+	
+	.aprilfools_pagebreak .aprilfools_tei_thumbnail,
+	.aprilfools_pagebreak .viewsize,
+	.aprilfools_pagebreak .fullsize
+	 {
+		width: auto;
+	}
+
+}
+
+
+.tei_date {
+	display: inline-block;
+}
+
+.carat {
+	   line-height: 0;
+	   position: relative;
+	   vertical-align: baseline;
+	   bottom: -0.6em;
+}
+
+.indentaddrLine {
+	text-align: right;
+}
+
+.del {
+	text-decoration: line-through;
+}
+
+.formfill {
+	font-size: 1.3em;
+}
+
+.indentctrcompclose,
+.indentctrsig {
+	margin-left: 12em;
+}
+
+.indentctraddrLine {
+	margin-left: 8em;
+}
+
+.dot-underline {
+	border-bottom: 1px dotted #2e2e2e;
+}
+
+p.indentsalute {
+	text-align: right;
+}
+
+.address {
+	clear: right;
+}
+
+.prev_next_links {
+  margin: .5em 0 .5em 0;
+}
+

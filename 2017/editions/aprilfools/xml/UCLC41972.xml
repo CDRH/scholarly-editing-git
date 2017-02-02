@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/pondo01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#OWP">Ozias W.  Pond</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N. Y.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41972)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+                  <l rend="center">everett house,</l>
+                  <l rend="center">union aquare, new york,</l>
+                  <l rend="center">c. h. kerner.</l>
+               </letterhead>
+               <salute><space extent="1"/>S. L. Clemmens, Esq.<lb/>
+<space extent="5"/>Hartford Conn.</salute>
+               <salute><space extent="1"/>Dear Mr. Clemmens,</salute>
+            </opener>
+            <p rend="text-indent:3">It is possible that you may not remember me, as I am somewhat hard to remember, being possessed of no personal deformities that would distinguish me from the great &#x201C;majority.&#x201D; I have had the honor of an introduction however, as my brother, <name corresp="#JBP">Major Pond</name> will testify. I have long wished to add your autograph to my somewhat valuable collection &amp; therefore take the liberty of asking if you will kindly oblige me?</p>
+            <closer>
+               <salute rend="indentcompclose">Yours very truly<space extent="6"/></salute>
+                <signed rend="indentsig">Ozias W. Pond<space extent="3"/></signed>
+            </closer>
+            <postscript>
+               <p>P. S. I have a friend who also desires <hi rend="italic">very much</hi> to be favored, but is too modest to make the request. Therefore, if it is not intruding on your generosity, may I hope that you will send two copies?
+               </p>
+               <signed rend="indentctrsig">O.W.P</signed>
+            </postscript>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/pondo-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+                <ab>Mr Samuel L. Clemmens | Hartford | Conn.
+                    <note xml:id="pt001" place="inline" n="return address:" type="pt"><hi rend="xs-smallcaps">everett house | union square, new york | c. h. kerner </hi></note><note type="pt" xml:id="pt003" place="inline" n="postmarked:"><hi rend="xs-smallcaps">new york mar 31 2 pm d 84</hi></note>
+                     <note type="ed" place="inline" xml:id="in0001">docketed by SLC, in pencil:</note> Ozias Pond | <hi rend="italic">Good</hi> | Mention 
+                </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

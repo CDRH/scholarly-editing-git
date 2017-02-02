@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from John C. Kinney to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/kinneyj01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#JCK">John C. Kinney</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Hartford, Conn.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41961)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <letterhead>
+               <l>Office of</l>
+               <l>Marshal of the United States</l>
+               <l>For the District of Connecticut.</l>
+            </letterhead>
+             <dateline rend="indentdateline"><hi rend="xs-smallcaps">hartford,</hi> <add type="formfill">
+                 <hi rend="dot-underline">
+                     <space extent="2"/>March 31<hi rend="superscript">st</hi></hi></add><hi rend="xs-smallcaps">188</hi><add type="formfill">
+                         <hi rend="dot-underline">
+                             4<space extent="1"/>
+                         </hi>
+                     </add>
+             </dateline>
+            <opener>
+               <salute>My Dear Mr. Clemens—</salute>
+            </opener>
+             <p rend="text-indent:2">My mother-in-law<note xml:id="an0001" place="foot" type="an" n="1">His mother-in-law was Susan Coit Belcher Thomson (1809-1890), a descendant of Revolutionary War Captain William Belcher. She married Dr. Charles Steele Thomson, and together they produced seven children, the &#x201C;large and gifted family&#x201D; to which Kinney refers. In an obituary for her son she was characterized as follows: "She was familiar with the best authors of her time, and her corresponedence was with persons of cultivation and character" (Leonard J. Sanford, "William Henry Thomson, M.D.", in <hi rend="italic">Proceedings of the Connecticut Medical Society, 1894</hi>, Bridgeport: Stiles and Tucker, 1894, 245).</note> has a fine collection of autographs, the educational and moral effect of which has been of very great service in raising to maturity a large and gifted family.<note xml:id="an0002" place="foot" type="an" n="2">Susan and Charles Steele Thomson, M. D. produced six children, two of whom became physicians. Kinney's wife Sara was very active in the social circles of the Daughters of the American Revolution and Mayflower descendants.</note> But she finds she has run too much to statesmen, clergymen and moral reformers, and to fill a long felt want desires to secure a supply of noted criminals, aesthetes and thoughtful democrats. I want very much to secure for her benefit one of your most powerful signatures. I am not particular about having it written by the type-writer or by telephone<note xml:id="an0003" place="foot" type="an" n="3">As a close friend of Clemens, Kinney may bave been aware of Clemens' recently invented strategy of foiling autograph seekers by the use of the typewriter.</note>—all I insist upon is that it shall be characteristic, and, if possible, upon a cheque.<note xml:id="an0004" place="foot" type="an" n="4">This device was reprised a few weeks later in a begging letter seeking funding for a periodical for young folks by a southern editor who had most likely read the precis of Kinney's joke in the newspaper accounts. See Annie M. Barnes to SLC, 3 June 1884 (CU-MARK).</note></p>
+            <closer>
+                <salute rend="indentcompclose">Yours sincerely, <name corresp="#JCK">J. C. Kinney</name></salute>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/kinneyj-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+
+                  <ab>Mr. Samuel L. Clemens | Farmington Ave. | Hartford, Conn.
+                     
+                      <note xml:id="pt0002" type="pt" resp="MTP" place="inline" n="return address:">
+                          If not called for in ten Days return to | <hi rend="xs-smallcaps">john c. kinney, | united states marshal, | hartford, conn.</hi>
+                      </note>                     
+                   <note xml:id="pt0003" type="pt" resp="MTP" place="inline" n="postmarked:">
+                       <hi rend="xs-smallcaps">boston mass. mar 31 84 10 pm</hi>
+                   </note>
+               
+   
+           <note type="ed" place="inline" xml:id="in0001">docketed by SLC, in pencil: </note> Good? | Check
+                  </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+         </div1>
+      </body>
+   </text>
+</TEI>

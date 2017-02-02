@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from G. W. Sheldon to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <p/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body><pb xml:id="pb001" n="0001" facs="sheldon01.jpg"/>
+         <head type="metadata">
+             <name corresp="#GWS">G. W. Sheldon</name> <hi rend="italic">per</hi> <name>Telegraph Operator</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-04-01">1 April 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+            <sourceline>(MS, copy received: CU-MARK, UCLC 41994)</sourceline>
+         </head>
+         <div1 type="form" xml:id="lt0001">
+    <p rend="center"><hi rend="xs-smallcaps">the western union telegraph company.</hi></p>
+                 <p>Received at <add type="formfill"><hi rend="dot-underline"><space extent="4"/>337<space extent="17"/></hi></add>1884.</p>
+                   <p>Dated <add type="formfill"><hi rend="dot-underline"><space extent="2"/>New York<space extent="18"/></hi></add></p> 
+             <p>To <add type="formfill"><hi rend="dot-underline"><space extent="2"/>Samuel L. Clemens<space extent="17"/></hi></add></p>  
+            <p rend="text-indent:2">Please send us your autograph for Fifth Edition of <hi rend="italic">Commercial Advertiser</hi>
+               <note xml:id="an0001" place="foot" type="an" n="1">This joke essentially assigns the autograph to oblivion. Nineteenth-century newspaper editions generally comprised  standard, late, extra and Sunday editions.</note>
+            </p>
+               <l rend="indentctrsig"><add type="formfill">G W Sheldon,<space extent="3"/></add></l>
+                <l rend="indentctrsig">City Editor</l>
+            
+         </div1>
+	 <div1 xml:id="pt001" type="post-transmission">
+	   <div2 type="envelope"><pb facs="sheldon-env.jpg" n="0002" xml:id="pb0002"/>
+	       <ab>S. L. Clemens | City <note type="pt" xml:id="ed003" place="inline" n="return address:"/> <hi rend="xs-smallcaps">Western Union Telegraph Co. | Pay no Charges to Messenger unless written in Ink in Delivery Book | No. </hi><add type="formfill"><hi rend="dot-underline"><space extent="1"/>211</hi></add>
+	           <note type="pt" xml:id="pt000" place="inline" n="stamped:"/><hi rend="xs-smallcaps">western union | tel. co. | apr 1 1884 | hartford, ct.</hi>
+	       <note type="ed" xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> Ed Advertiser</ab>
+	   </div2>
+	 </div1>
+          <div1 type="commentary" xml:id="cm0001">
+          </div1>
+      </body>
+   </text>
+</TEI>

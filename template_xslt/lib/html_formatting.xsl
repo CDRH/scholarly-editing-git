@@ -93,7 +93,7 @@
   <!-- <note type="editorial" xml:id="n4"><p>Charles Henry ... -->
   <!-- note place="foot" xml:id="ftn26" n="26">E. Pierazzo -->
 
-  <xsl:template match="note" priority="2">
+  <xsl:template match="note">
     <xsl:choose>
       <xsl:when test="@place = 'foot' or (@type = 'editorial' and @xml:id)">
         <a>
@@ -117,10 +117,11 @@
           </sup>
         </a>
       </xsl:when>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="note" mode="footnotes" priority="1">
+  <xsl:template match="note" mode="footnotes">
     <xsl:choose>
       <xsl:when test="@n">
         <xsl:value-of select="@n"/>
@@ -158,9 +159,6 @@
 
   <xsl:template match="ptr">
     <a>
-      <!--<xsl:attribute name="title">
-        <xsl:text>TEST</xsl:text>
-      </xsl:attribute>-->
       <xsl:attribute name="href">
         <xsl:value-of select="@target"/>
       </xsl:attribute>
@@ -169,8 +167,6 @@
         <xsl:value-of select="substring-after(@target, '#')"/>
       </xsl:attribute>
       <xsl:attribute name="class">edition_notes</xsl:attribute>
-     <!-- <xsl:attribute name="data-trigger">focus</xsl:attribute> 
-      <xsl:attribute name="tabindex">0</xsl:attribute> -->
       <sup>[<xsl:value-of select="@n"/>]</sup>
     </a>
   </xsl:template>
@@ -437,11 +433,7 @@
   <!-- ================================================ -->
 
   <xsl:template match="div1 | div2 | div3 | div4">
-    <xsl:choose>
-      <xsl:when test="@type = 'html'">
-        <xsl:copy-of select="."/>
-      </xsl:when>
-      <xsl:otherwise>
+
         <div>
           <xsl:attribute name="class">
             <xsl:value-of select="@type"/>
@@ -457,8 +449,6 @@
           </xsl:if>
           <xsl:apply-templates/>
         </div>
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
 
 
@@ -821,26 +811,22 @@
   <!-- ================================================ -->
 
   <xsl:template match="list">
+    
     <xsl:if test="head">
       <div class="tei_list_head">
         <xsl:apply-templates select="head/node()"/>
       </div>
     </xsl:if>
-    <xsl:choose>
-      <xsl:when test="@type = 'handwritten'">
-        <ul>
-          <xsl:attribute name="class">
-            <xsl:text>handwritten</xsl:text>
-          </xsl:attribute>
-          <xsl:apply-templates select="item"/>
-        </ul>
-      </xsl:when>
-      <xsl:otherwise>
+    
+   <!-- <xsl:if test="note">
+      <div class="tei_list_note tei_note">
+        <xsl:apply-templates select="note/node()"/>
+      </div>
+    </xsl:if>-->
+   
         <ul>
           <xsl:apply-templates select="item"/>
         </ul>
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="item">
@@ -894,6 +880,12 @@
   <!-- ================================================ -->
 
   <xsl:template match="pb">
+    <xsl:variable name="image_name">
+      <xsl:choose>
+        <xsl:when test="@facs"><xsl:value-of select="@facs"/></xsl:when>
+        <xsl:when test="@n"><xsl:value-of select="@n"/></xsl:when>
+      </xsl:choose>
+    </xsl:variable>
     <span>
       <xsl:attribute name="class">
         <xsl:text>pagebreak</xsl:text>
@@ -902,13 +894,13 @@
         <a>
           <xsl:attribute name="href">
             <xsl:text>images/viewsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
+            <xsl:value-of select="$image_name"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
           <img>
             <xsl:attribute name="src">
               <xsl:text>images/thumbs/</xsl:text>
-              <xsl:value-of select="@facs"/>
+              <xsl:value-of select="$image_name"/>
               <xsl:text>.jpg</xsl:text>
             </xsl:attribute>
           </img>
@@ -918,7 +910,7 @@
         <a>
           <xsl:attribute name="href">
             <xsl:text>images/viewsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
+            <xsl:value-of select="$image_name"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
           <xsl:text>View Page</xsl:text>
@@ -929,7 +921,7 @@
         <a>
           <xsl:attribute name="href">
             <xsl:text>images/fullsize/</xsl:text>
-            <xsl:value-of select="@facs"/>
+            <xsl:value-of select="$image_name"/>
             <xsl:text>.jpg</xsl:text>
           </xsl:attribute>
           <xsl:attribute name="target">

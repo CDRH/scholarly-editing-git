@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41858">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Noah Brooks to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#NB">Noah Brooks</name> to <name corresp="#SLC">Samuel L. Clemens</name>
+              <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+               <sourceline>(MS: CU-MARK, UCLC 41858)</sourceline></head>
+            
+         <div1  type="letter"><opener>
+            <pb facs="brooks01.jpg" xml:id="pb001" n="1"/>
+            <letterhead><l rend="center">the lotos club</l>
+               <l rend="right">147 fifth avenue</l></letterhead>
+               <dateline rend="indentdateline">March 31.</dateline>
+               <salute rend="noindent">My dear Mark:</salute></opener>
+            <p rend="text-indent:2">I don't like to trouble an old friend, especially one who is so considerate of the feelings of others as you are, but if you <pb facs="brooks02.jpg" xml:id="pb002" n="2"/> will send me ten or twelve (10 or 12), of your autographs, you will save me a world of bother. I am constantly harrassed by applications for the autographs of distinguished people, <pb facs="brooks03.jpg" xml:id="pb003" n="3"/> and I hate to be obliged to deny the applicants. If you will send me the number herein specified, I can satisfy a moderate demand.</p>
+               <closer>
+                  <salute rend="indentcompclose">Yours faithfully<space extent="4"/></salute>
+                  <signed rend="indentsig">Noah Brooks<space extent="2"/></signed>
+               </closer>
+         </div1>
+            
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb facs="brooks-env.jpg" xml:id="pb004" n="4"/>
+            <ab>Sam'l L. Clemens, Esq | Hartford, | Conn.</ab>
+            <ab><note type="ed" xml:id="ed001" place="inline">postmarked:</note> <hi rend="xs-smallcaps">new york mar 31 6 pm f 84</hi></ab>
+               <ab><note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> Noah Brooks | wants 10 or 12</ab>
+            </div2>
+         </div1>
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

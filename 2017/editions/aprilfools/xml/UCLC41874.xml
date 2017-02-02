@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41874">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John E. Gowen to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head type="metadata"><name type="person" corresp="#JEG">John E. Gowen</name> to <addressee><name type="person" key="#SLC">Samuel L. Clemens</name></addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name> 
+            <sourceline>(MS: <ref type="citeref" corresp="#CU-MARK">CU-MARK</ref>, UCLC 41874)</sourceline></head>
+         
+         <div1  type="letter">
+            <pb facs="gowen01.jpg" xml:id="pb001" n="1"/>
+            <opener>
+               <letterhead><l rend="center">the lotos club</l> 
+                  <l rend="right">147 fifth avenue</l></letterhead> 
+               <dateline rend="indentdateline">New York, March 31, 1884</dateline>               
+               <salute rend="noindent">My dear Clemens,</salute>
+            </opener>
+            <p rend="text-indent:2">Will you be so good as to send me your autograph. I am sure you cannot refuse an old friend.</p> 
+            <closer>               
+               <signed rend="indentsig"><name type="person"><hi rend="paraph">John E. Gowen</hi></name></signed>
+            </closer>
+         </div1>
+         
+         <div1 type="post-transmission">
+            <div2 type="envelope">
+               <pb facs="gowen-env.jpg" xml:id="pb002" n="2"/>
+               <ab>Samuel L. Clemens Esq. | Mark Twain, | Hartford, | Conn. 
+               <note type="ed" place="inline" xml:id="ed001">postmarked:</note> <hi rend="xs-smallcaps">new york mar 31 3 pm f 84</hi>
+               <note type="ed" place="inline" xml:id="ed002">SLC, in pencil:</note> <hi rend="italic">Gowen</hi></ab>
+            </div2>
+         </div1>
+         <div1 xml:id="cm0001" type="commentary"/>         
+      </body>
+   </text>
+</TEI>

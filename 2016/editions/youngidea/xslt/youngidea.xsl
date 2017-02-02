@@ -460,7 +460,7 @@
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote"><xsl:text>X</xsl:text></a>
                     <xsl:for-each
-                        select="document('../2016/editions/youngidea/personography.youngidea.xml')//tei:person">
+                        select="document('../xml/personography.youngidea.xml')//tei:person">
                         <xsl:if test="child::tei:persName//attribute::xml:id = $persNameID">
                             <div class="rdgNote">
                                 <h4>
@@ -492,7 +492,7 @@
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote">X</a>
                     
-                    <xsl:for-each select="document('../2016/editions/youngidea/shipography.youngidea.xml')//tei:org">
+                    <xsl:for-each select="document('../xml/shipography.youngidea.xml')//tei:org">
                         <xsl:if test=".//attribute::xml:id=$shipNameID">
                             <div class="rdgNote">
                                 <!--<h4>
@@ -528,7 +528,7 @@
                     <xsl:attribute name="class">appEntry</xsl:attribute>
                     <a href="#" class="closenote">X</a>
                     
-                    <xsl:for-each select="document('../2016/editions/youngidea/placeography.youngidea.xml')//tei:place">
+                    <xsl:for-each select="document('../xml/placeography.youngidea.xml')//tei:place">
                         <xsl:if test="child::tei:placeName//attribute::xml:id=$placeNameID">
                             <xsl:variable name="geo1"><xsl:value-of select="substring-before(descendant::tei:geo,' ')"/></xsl:variable><xsl:variable name="geo2"><xsl:value-of select="substring-after(descendant::tei:geo,' ')"/></xsl:variable>
 <xsl:variable name="gettyID"><xsl:value-of select="substring-after(descendant::tei:note,':')"/></xsl:variable>

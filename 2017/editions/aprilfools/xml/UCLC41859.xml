@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="UCLC41859">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from C. C. Buel to Samuel L. Clemens : an electronic text</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mark Twain: April Fool, 1884</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><bibl n="copy">The Mark Twain Papers, The Bancroft Library, University of California, Berkeley (CU-MARK).</bibl></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <head type="metadata"><name type="person" corresp="#CCB">Clarence C. Buel</name> to <addressee><name type="person" corresp="#SLC">Samuel L. Clemens</name></addressee> 
+               <date when="1884-03-31">31 March 1884</date> &#x2022; New York, N.Y.
+               <sourceline>(MS: CU-MARK, UCLC 41859)</sourceline></head>
+            
+         <div1  type="letter">
+            <pb facs="buel01.jpg" xml:id="pb001" n="1"/>
+            <letterhead rend="center">editorial department
+               <lb/>t<hi rend="superscript">he</hi> century magazine
+               <lb/>union square new york</letterhead>
+            <opener>
+               <dateline rend="indentdateline">March 31 '84</dateline>
+               <salute rend="noindent">My dear Mr Clemens:</salute>
+            </opener>
+            <p rend="text-indent:2">We have often appealed to you for a contribution to the magazine, and never without getting some response&#8212;if no more than an autographic letter, regretting (more or less) your unwillingness to favor us.<note xml:id="an001" type="an" place="foot" n="1">There is some truth to Buel's assertion: even though Clemens first contributed to the <hi rend="italic">Century Magazine</hi> in 1881 with "A Curious Experience," Buel's colleagues at the <hi rend="italic">Century</hi>, assistant editor Robert Underwood Johnson and editor-in-chief Richard Watson Gilder, had indeed solicited writings several times up to this point. In 1882 Johnson requested that Clemens write "three papers on the Permanent Sources of Corruption in our Government," and Gilder twice asked for pieces to aid his crusade for international copyright (Johnson to Clemens, 9 August 1882 to Clemens, MS in CU-MARK; Gilder to Clemens, 24 March 1882, 15 October 1883, MSS in CU-MARK). Later in 1884 and early 1885 the <hi rend="italic">Century</hi> would publish excerpts from <hi rend="italic">Adventures of Huckleberry Finn</hi> (See <ref type="citeref" target="http://www.marktwainproject.org/xtf/view?docId=works/MTDP10000.xml;chunk.id=la0898;toc.depth=1;toc.id=la0854;citations=;style=work;brand=mtp#X"><hi rend="italic">HF 2003</hi>, pp. 744&#8211;57</ref>). In the December 1885 issue, Clemens would publish his Civil War satire, "A Private History of a Campaign that Failed," and many other pieces would follow, including his autobiographical sketch "My Debut as a Literary Person" (1899).</note> Would you be willing, now, to furnish us with a high-class, humorous article of your own make, heretofore unpublished, and warranted to provoke laughter in a majority of any struck <pb facs="buel02.jpg" xml:id="pb002" n="2"/> jury we may select (the jury to have been out at least forty eight hours on a case of minor damages, between next door neighbors) <del>&#8212;</del><add>and</add> the jury to fix the price to be paid for the article? We should like to have the article in your own beautiful chirogragraphy<note xml:id="an002" type="an" place="foot" n="2">He clearly meant "chirography"; he was probably not alone in rarely having to write the word down.</note> with every paragraph signed doubly, with your “name of peace” and your <hi rend="italic">nom de guerre</hi>. Then if we should happen to lose money on the article as a publication scheme, we might partly reimburse ourselves by cutting the <del>article up</del> <add>manuscript</add> into paragraphs <del>and selling them</del> <add>to be sold separately</add> by auction. The desireability of having the fun equally distributed <add>will</add> be obvious. In case you do not feel equal to the production of such an article after the mental strain of keeping Lent, at least favor us with an autographic reply to our proposition and believe that I write with the <add>enthusiastic</add> sanction of the Editor-in-chief.<note xml:id="an0002" type="an" place="foot" n="2">The editor-in-chief was Richard Watson Gilder, who also participated in the hoax (see his letter of <ref type="crossref" target="UCLC42004.xml">6 April</ref>).</note></p> <closer><salute rend="indentcompclose">Yours truly<space extent="2"/></salute>
+                  <signed rend="indentsig">C. C. Buel</signed></closer>
+         </div1>            
+         
+        <div1 type="post-transmission">
+           <div2 type="envelope">
+            <pb facs="buel-env.jpg" xml:id="pb003" n="3"/>
+            <ab>Samuel L. Clemens Esq | Hartford | Conn | Immediate
+               <note xml:id="ed003" type="ed" place="inline">return address:</note> <hi rend="xs-smallcaps">editorial department | t<hi rend="superscript">he</hi> century magazine | union square new=york</hi>
+            <note xml:id="ed001" type="ed" place="inline">postmarked:</note> <hi rend="xs-smallcaps">new york mar 31 10 pm d 84</hi>
+            <note xml:id="ed002" type="ed" place="inline">docketed by SLC, in pencil:</note> Buel</ab>
+         </div2>
+        </div1> 
+         <div1 xml:id="cm0001" type="commentary"/>
+      </body>
+  </text>
+</TEI>

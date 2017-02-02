@@ -35,7 +35,7 @@
         someone puts "index.html" in the URL; the second when nothing is typed in the URL after the
         domain name -->
         <map:pipeline type="noncaching">
-            <map:match pattern="**/index.html">
+            <map:match pattern="index.html">
                 <map:read src="index.html"/>
             </map:match>
         </map:pipeline>
@@ -235,6 +235,90 @@
         <!-- ====================================
                          2017
       ====================================== -->
+        
+        <!-- April Fools -->
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/aprilfools/downloads/**">
+          <map:read src="2017/editions/aprilfools/downloads/{1}"/>
+        </map:match>
+      </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/aprilfools/graph/**">
+          <map:read src="2017/editions/aprilfools/graph_materials/network/{1}"/>
+        </map:match>
+      </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/graph/**">
+                <map:read src="2017/editions/aprilfools/graph_materials/network/{1}"/>
+            </map:match>
+        </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2017/editions/aprilfools/people.html">
+          <map:generate src="2017/editions/aprilfools/xml/personography.xml"/>
+          <map:transform src="2017/editions/aprilfools/xslt/aprilfools.xsl">
+            <map:parameter name="pagetype" value="home"/>
+            <map:parameter name="subpagetype" value=""/>
+            <map:parameter name="pageid" value="people"/>
+          </map:transform>
+          <map:transform src="template_xslt/html_template.xsl">
+            <map:parameter name="volume" value="38"/>
+            <map:parameter name="year" value="2017"/>
+            <map:parameter name="slug" value="aprilfools"/>
+          </map:transform>
+          <map:serialize type="html"/>
+        </map:match>
+      </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/edition.html">
+                <map:generate src="2017/editions/aprilfools/xml/intro.xml"/>
+                <map:transform src="2017/editions/aprilfools/xslt/aprilfools.xsl">
+                    <map:parameter name="pagetype" value="home"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value="edition"/>
+                </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="38"/>
+                    <map:parameter name="year" value="2017"/>
+                    <map:parameter name="slug" value="aprilfools"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+ 
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/**.html">
+                <map:generate src="2017/editions/aprilfools/xml/{1}.xml"/>
+                <map:transform src="2017/editions/aprilfools/xslt/aprilfools.xsl">
+                    <map:parameter name="pagetype" value="home"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value="{1}"/>
+                </map:transform>
+                <map:transform src="template_xslt/html_template.xsl">
+                    <map:parameter name="volume" value="38"/>
+                    <map:parameter name="year" value="2017"/>
+                    <map:parameter name="slug" value="aprilfools"/>
+                </map:transform>
+                <map:serialize type="html"/>
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/icons/**">
+                <map:read src="2017/editions/aprilfools/icons/{1}"/>
+            </map:match>
+        </map:pipeline>
+        
+        <map:pipeline type="noncaching">
+            <map:match pattern="2017/editions/aprilfools/facs/**">
+                <map:read src="2017/editions/aprilfools/facs/{1}"/>
+            </map:match>
+        </map:pipeline>
+
 
         <!-- General for all editions-->
         <!-- Exceptions should go above -->
@@ -280,6 +364,9 @@
                 <map:read src="2017/editions/{1}/xml/{2}.zip"/>
             </map:match>
         </map:pipeline>
+        
+       
+        
         
 
         <!-- ====================================
@@ -351,7 +438,7 @@
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2016/editions/BinyonDestree/BinyonDestree.zip">
+          <map:match pattern="2016/editions/BinyonDestree/xml/BinyonDestree.zip">
                 <map:read src="2016/editions/BinyonDestree/xml/BinyonDestree.zip"/>
             </map:match>
         </map:pipeline>
@@ -391,16 +478,14 @@
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2016/editions/dunning-sidebyside.html">
-                <map:generate
-                    src="2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml"/>
-                <map:transform type="xslt"
-                    src="2016/editions/Dunning_De-oratione-dominica/xslt/dunning_sidebyside.xsl">
-                    <map:parameter name="use-request-parameters" value="true"/>
-                    <map:parameter name="edition_type" value="sidebyside"/>
-                </map:transform>
-                <map:serialize type="html"/>
-            </map:match>
+          <map:match pattern="2016/editions/dunning-sidebyside.html">
+            <map:generate src="2016/editions/Dunning_De-oratione-dominica/xml/de-oratione-dominica.xml"/>
+            <map:transform type="xslt" src="2016/editions/Dunning_De-oratione-dominica/xslt/dunning_sidebyside.xsl">
+              <map:parameter name="use-request-parameters" value="true"/>
+              <map:parameter name="edition_type" value="sidebyside"/>
+            </map:transform>
+            <map:serialize type="html"/>
+          </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
@@ -577,6 +662,12 @@
                 <map:read src="2015/editions/hejinian/{1}.jpg"/>
             </map:match>
         </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="2015/editions/hejinian/**">
+          <map:read src="2015/editions/hejinian/{1}"/>
+        </map:match>
+      </map:pipeline>
 
         <!-- these two pipelines are to help Daniel Carter's 2015 edition -->
         <map:pipeline type="noncaching">
@@ -695,7 +786,7 @@
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/lowelledition_**.html">
                 <map:generate src="2015/editions/lowelledition/xml/lowelledition.xml"/>
-                <map:transform type="xslt" src="2015/editions/lowelledition/xslt/lowelledition.xsl">
+                <map:transform type="xslt" src="2015/editions/lowelledition/xsl/lowelledition.xsl">
                     <map:parameter name="lowelledition_version" value="#{1}"/>
                 </map:transform>
                 <map:serialize type="html"/>
@@ -704,7 +795,7 @@
         <map:pipeline type="noncaching">
             <map:match pattern="2015/editions/intro.lowelledition.html">
                 <map:generate src="2015/editions/lowelledition/xml/intro.lowelledition.xml"/>
-                <map:transform type="xslt" src="2015/editions/lowelledition/xslt/lowelledition.xsl"/>
+                <map:transform type="xslt" src="2015/editions/lowelledition/xsl/lowelledition.xsl"/>
                 <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
@@ -777,13 +868,13 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal/**.png">
-                <map:read src="2014/editions/cranchjournal/{1}.png"/>
+                <map:read src="2014/editions/cranchjournal/images/{1}.png"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/cranchjournal/**.jpg">
-                <map:read src="2014/editions/cranchjournal/{1}.jpg"/>
+                <map:read src="2014/editions/cranchjournal/images/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
@@ -918,7 +1009,7 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/markonthewall/**.jpg">
-                <map:read src="2014/editions/markonthewall/{1}.jpg"/>
+                <map:read src="2014/editions/markonthewall/images/{1}.jpg"/>
             </map:match>
         </map:pipeline>
 
@@ -1052,15 +1143,15 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/haley.**.html">
-                <map:generate src="2014/editions/haley/haley.{1}.xml"/>
-                <map:transform type="xslt" src="xslt/haley.xsl"> </map:transform>
+                <map:generate src="2014/editions/haley/xml/haley.{1}.xml"/>
+              <map:transform type="xslt" src="2014/editions/haley/xslt/haley.xsl"> </map:transform>
                 <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/intro.haley.html">
-                <map:generate src="2014/editions/haley/intro.haley.xml"/>
-                <map:transform type="xslt" src="xslt/haley.xsl"> </map:transform>
+                <map:generate src="2014/editions/haley/xml/intro.haley.xml"/>
+              <map:transform type="xslt" src="2014/editions/haley/xslt/haley.xsl"> </map:transform>
                 <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
@@ -1444,10 +1535,22 @@
         <!-- legacy -->
 
         <map:pipeline type="noncaching">
-            <map:match pattern="js/**.js">
-                <map:read src="js/{1}.js"/>
+            <map:match pattern="js/**">
+                <map:read src="template_js/{1}"/>
             </map:match>
         </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="template_js/**">
+          <map:read src="template_js/{1}"/>
+        </map:match>
+      </map:pipeline>
+      
+      <map:pipeline type="noncaching">
+        <map:match pattern="images/*">
+          <map:read src="template_images/{1}"></map:read>
+        </map:match>
+      </map:pipeline>
 
         <!-- new -->
 

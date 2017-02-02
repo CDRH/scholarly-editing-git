@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from D. G. Macneill to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="facs/macneill01.jpg" xml:id="pb0001" n="1"/>
+            <head type="metadata">
+                <name corresp="#DGM">D. G. Macneill</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41965)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+                    <letterhead>
+                        <l>The Callender Company,</l> 
+                        <l><space extent="2"/>works: </l>
+                        <l>East Newark, N.J.</l>
+                        <l rend="right">Continental Bank Building,</l>
+                        <l rend="right">7 Nassau Street, New York.</l>
+                    </letterhead>
+                    <dateline rend="indentdateline"><add type="formfill">
+                        <hi rend="dot-underline">
+                            <space extent="2"/>31 March
+                        </hi>
+                    </add> 188<add type="formfill">
+                        <hi rend="dot-underline">
+                            4<space extent="1"/>
+                        </hi>
+                    </add>
+                    </dateline>
+                    S. L. Clemens Esq<lb/>
+                    <space extent="1"/>Hartford<lb/>
+                    <space extent="2"/>Conn.
+                    <salute><space extent="3"/>Dear Sir</salute>
+                </opener>
+                <p rend="text-indent:3">I have a fine collection of autographs which I value highly, but there is <hi rend="italic">one</hi> lacking &amp; that is yours. Knowing that my collection will be rendered priceless by it I beg of you to deign to condescend to send me such a priceless gem, that it may be handed down to posterity with all the honour it deserves, set among the names of titled heads, even crowned ones, equally brilliant, but none deserving of so much honour. Deign then to grant this request &amp; you will win the lifelong regard, &amp; the humble worship of
+                   
+                </p>
+                <closer>
+                    <salute rend="indentcompclose"></salute>
+                    <signed rend="indentctrsig">D G Macneill</signed>
+                    <address><addrLine rend="indentctraddrLine"><space extent="5"/>7 Nassau Street, N. Y.</addrLine></address>
+                </closer>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001">
+                <div2 type="envelope" xml:id="pt002"><pb facs="facs/macneill-env.jpg" xml:id="pb003" n="env"/>
+                    <ab>Samuel L Clemens, Esq | Hartford | Conn: <note type="ed" xml:id="ed001" place="inline">rule</note>
+                    <note type="pt" xml:id="ed002" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">new-york mar 31 6 30 pm 84</hi> 
+                        <note type="ed" xml:id="ed003" place="inline">docketed by SLC, in pencil:</note> <del>Don't know him</del> | Mention 
+                    </ab>
+                </div2>
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

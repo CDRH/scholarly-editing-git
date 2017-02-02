@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="UCLC41964">
+    <teiHeader type="CDL-TEI:MTP">
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Charles M. Leoser to Samuel L. Clemens : an electronic text</title>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                    Berkeley (CU-MARK).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="double-end-point"/>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb facs="facs/leoser01.jpg" xml:id="pb0001" n="1"/>
+            <head type="metadata">
+                <name corresp="#CML">Charles M. Leoser</name> to <addressee>
+                    <name corresp="#SLC">Samuel L. Clemens</name>
+                </addressee>
+                <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+                <sourceline>(MS: CU-MARK, UCLC 41964)</sourceline>
+            </head>
+            <div1 type="letter" xml:id="lt0001">
+                <opener>
+                    <salute>My dear Mr. Clemens,</salute>
+                </opener>
+                <p rend="text-indent:3">If I am not presuming too far upon our very slight acquaintance, may I ask if you will do me the favor to send me your autograph?
+                </p>
+                
+                <closer>
+                    <salute rend="indentcompclose">Always yours very truly</salute>
+                    <signed rend="indentsig">Charles M<hi rend="superscript">c</hi>K. Leoser.</signed>
+                    <dateline>Lotos Club<lb/><space extent="1"/>New York,<lb/>
+                        <space extent="2"/>March 31, 1884.</dateline>
+                </closer>
+            </div1>
+            <div1 type="post-transmission" xml:id="pt001"><pb facs="facs/leoser-env.jpg" xml:id="pb002" n="env"/>
+                <div2 type="envelope" xml:id="pt002">
+                    <ab>Mr. Samuel L. Clemens, | Hartford, | Conn. <note type="pt" xml:id="ed001" place="inline" n="postmarked:"/> <hi rend="xs-smallcaps">new-york mar 31 7 pm 84</hi>
+                        <note type="ed" xml:id="ed002" place="inline">docketed by SLC, in pencil:</note> M<hi rend="superscript">c</hi>K L (no good) 
+                        
+                    </ab>
+                </div2>
+            </div1>
+            <div1 type="commentary" xml:id="cm0001">
+            </div1>
+        </body>
+    </text>
+</TEI>
+
+

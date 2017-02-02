@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+           <title>Letter from Thomas F. Plunkett to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <p/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/plunkett01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#TFP">Thomas F. Plunkett</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+            <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">Hartford, Conn.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41969)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+               <letterhead>
+                  <l rend="center">the hartford club.</l>
+               </letterhead>
+               <salute>My dear Mr Clemens</salute>
+            </opener>
+            <p rend="text-indent:2">Will you kindly give me your autograph for a collection I am making and&#x2014;very much oblige<note type="an" xml:id="an0001" place="foot" n="1">Plunkett corresponded with Clemens as recently as 24 March when he expressed his disappointment at not being invited to the recent Irving luncheon at Clemens's residence (13 March), and to invite him to the Hartford Club, where he made his home, to meet actor <name >William J. Florence</name> and his wife: &#x201C;11 p.m. Thursday, charm &amp; oysters (CU-MARK).&#x201D; American stage actor William J. Florence (1831-91) was born William Jermyn Conlin of Irish immigrant parents in Albany, N.Y. He specialized in comic roles, often in Irish or German vernacular, and often co-starring with his wife, Annie Malvina Pray (1830-1906). Their biggest hit, <hi rend="italic">The Mighty Dollar</hi>, opened in 1875 and toured until 1889.</note></p>
+            <closer rend="indentcompclose">
+                <salute rend="indentcompclose">Yours sincerely</salute>
+               <signed rend="indentsig">T. F. Plunkett</signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <pb facs="facs/plunkett-env.jpg" xml:id="pb0002" n="env"/>
+            <div2 type="envelope">
+  <ab>
+      S. L. Clemens Esq | Hartford, | Conn<note xml:id="pt001" type="pt" place="inline" n="postmarked:"><hi rend="xs-smallcaps">hartford conn. mar 31 84 11 pm</hi></note>
+         <note type="ed"  xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> Plunkett | mention
+  </ab>  
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+
+         </div1>
+      </body>
+   </text>
+</TEI>

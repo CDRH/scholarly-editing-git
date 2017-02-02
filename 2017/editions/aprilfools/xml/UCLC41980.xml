@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="schema/mtp4.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="UCLC">
+   <teiHeader type="CDL-TEI:MTP">
+      <fileDesc>
+        <titleStmt>
+            <title>Letter from Edward Clarence Stedman to Samuel L. Clemens : an electronic text</title>
+        </titleStmt>
+        <extent/>
+        <publicationStmt>
+            <publisher/>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl n="copy">MS, Mark Twain Papers, The Bancroft Library, University of California,
+                Berkeley (CU-MARK).</bibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <pb facs="facs/stedman01.jpg" xml:id="pb0001" n="1"/>
+         <head type="metadata">
+             <name corresp="#ECS">Edmund Clarence Stedman</name> to <addressee>
+               <name corresp="#SLC">Samuel L. Clemens</name>
+            </addressee>
+             <date when="1884-03-31">31 March 1884</date> &#x2022; <name type="place">New York, N.Y.</name>
+            <sourceline>(MS: CU-MARK, UCLC 41980)</sourceline>
+         </head>
+         <div1 type="letter" xml:id="lt0001">
+            <opener>
+                  <letterhead>
+                     <l rend="right">
+                        <del>71 WEST 54TH STREET.</del>
+                        <add>11 West 30<hi rend="superscript">th</hi> Street</add>
+                     </l>
+                  </letterhead>
+                <dateline rend="indentdateline">New York, <date when="1884-03-31">Mar. 31<hi rend="superscript">st</hi> 1884</date>
+                </dateline>
+               <salute>Mr. Samuel L. Clemens,</salute>
+               <salute><space extent="2"/>Author,</salute>
+                <salute><space extent="3"/>Dear Sir:</salute>
+            </opener>
+             <p rend="text-indent:4">Desirous to add to my collection of autographs of distinguished men, I shall deem it incomplete without the signature of my <hi rend="italic">favorite American author</hi>. Although you doubtless have <hi rend="italic">many</hi> requests of the kind, I rely upon your <hi rend="italic">well-known kindness</hi> and venture to ask you for it. Please give me in your hand-writing a <hi rend="italic">sentiment</hi>, or a few pages <pb facs="facs/stedman02.jpg" xml:id="pb0002" n="2"/>from “Roughing It”,<note xml:id="an0001" place="foot" type="an" n="1">See the similar request by <name corresp="#JMH">John Hay</name> for pages of text copied by hand from Clemens.</note> or “The Prince Abroad”, or “The Innocents and the Pauper”, with your signature attached—i.e. your signatures, “both kinds”. By so doing you will confer a favor upon your humble but</p>
+            <closer rend="indentcompclose">
+                <salute rend="indentcompclose">Sincere Admirer,<space extent="4"/></salute>
+               <signed rend="indentsig">
+                  <hi rend="paraph">Edmund C. Stedman</hi><note type="an" xml:id="an002" place="foot" n="2">Stedman was an Authors Club colleague, and close enough of a friend of Clemens to have been invited to spend the night at the Clemens's home in January 1883 in conjuction with an address by Charles Dudley Warner at the Monday Evening Club (SLC to Stedman, 10 Jan 1883, MS in PBL).</note>
+               </signed>
+            </closer>
+         </div1>
+         <div1 type="post-transmission">
+            <div2 type="envelope"><pb facs="facs/stedman-env.jpg" xml:id="pb0003" n="env"/>
+                <ab>
+           Mr. Samuel L. Clemens | (Mark Twain) | Hartford | Conn.
+                    <note xml:id="pt001" type="pt" place="inline" n="postmarked:"><hi rend="xs-smallcaps">new york mar 31 6 30 pm e 84</hi></note>
+         <note type="ed" xml:id="in0001" place="inline">docketed by SLC, in pencil:</note> Stedman | good school- | girl take-off
+                </ab>
+            </div2>
+         </div1>
+         <div1 type="commentary" xml:id="cm0001">
+  
+         </div1>
+      </body>
+   </text>
+</TEI>
