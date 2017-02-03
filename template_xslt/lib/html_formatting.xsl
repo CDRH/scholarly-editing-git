@@ -93,7 +93,7 @@
   <!-- <note type="editorial" xml:id="n4"><p>Charles Henry ... -->
   <!-- note place="foot" xml:id="ftn26" n="26">E. Pierazzo -->
 
-  <xsl:template match="note">
+  <xsl:template match="note" priority="2">
     <xsl:choose>
       <xsl:when test="@place = 'foot' or (@type = 'editorial' and @xml:id)">
         <a>
@@ -117,11 +117,11 @@
           </sup>
         </a>
       </xsl:when>
-      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+      <!--<xsl:otherwise><xsl:apply-templates/></xsl:otherwise>-->
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="note" mode="footnotes">
+  <xsl:template match="note" mode="footnotes" priority="1">
     <xsl:choose>
       <xsl:when test="@n">
         <xsl:value-of select="@n"/>

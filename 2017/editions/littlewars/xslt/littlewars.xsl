@@ -554,7 +554,7 @@
     </span></xsl:otherwise></xsl:choose>
   </xsl:template>
   
-  <xsl:template match="head">
+  <xsl:template match="head[not(ancestor::figure)]">
     <!-- need to fix for handwritten text -KD -->
     <xsl:choose>
       <xsl:when test="@type='sub'"><span class="figure_list"><xsl:apply-templates/></span></xsl:when>
@@ -562,11 +562,6 @@
         <h3><span class="head_list"><xsl:apply-templates/></span></h3>
       </xsl:when>
       <xsl:when test="ancestor::*[name() = 'p']">
-        <span class="head">
-          <xsl:apply-templates/>
-        </span>
-      </xsl:when>
-      <xsl:when test="ancestor::*[name() = 'figure']">
         <span class="head">
           <xsl:apply-templates/>
         </span>
