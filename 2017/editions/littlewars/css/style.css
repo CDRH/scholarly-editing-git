@@ -56,6 +56,7 @@ span.pagebreak_list span.tei_thumbnail{
 span.pagebreak_list a{
     float: right;
     clear: right;
+    padding-left: 10px;
     line-height: 1.5em;
     margin: -0px 0 0 10px;
 }
@@ -82,6 +83,7 @@ span.pagebreak_list_misc span.tei_thumbnail{
 span.pagebreak_list_misc a{
     float: right;
     clear: right;
+    padding-left: 20px;
     line-height: 1.5em;
     margin: -0px 0 0 10px;
 }
@@ -108,8 +110,18 @@ span.pagebreak_doubleList span.tei_thumbnail{
 span.pagebreak_doubleList a{
     float: right;
     clear: right;
+    padding-left: 10px;
     line-height: 1.5em;
     margin: -0px 0 0 10px;
+}
+
+.page_number {
+    text-align: center;
+}
+
+.page_number_doubleList {
+    text-align: center;
+    text-indent: -80px;
 }
 
 .in_note {

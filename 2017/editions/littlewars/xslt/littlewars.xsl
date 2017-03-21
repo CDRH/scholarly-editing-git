@@ -268,9 +268,10 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
+    <xsl:if test="@n"><p class="page_number"><xsl:apply-templates select="@n"/></p></xsl:if>
   </xsl:template>
   
-  <xsl:template match="list[not(ancestor::list)]/item/pb | list[not(ancestor::list)]/item/p/pb | list[not(ancestor::list)]/pb">
+  <!--this one--><xsl:template match="list[not(ancestor::list)]/item/pb | list[not(ancestor::list)]/item/p/pb | list[not(ancestor::list)]/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
         <xsl:attribute name="class">
@@ -317,6 +318,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
+    <xsl:if test="@n"><p class="page_number"><xsl:apply-templates select="@n"/></p></xsl:if>
   </xsl:template>
   
   <!--<xsl:template match="list[not(ancestor::list)]/item/p/pb">
@@ -415,6 +417,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
+    <xsl:if test="@n"><p class="page_number_doubleList"><xsl:apply-templates select="@n"/></p></xsl:if>
   </xsl:template>
   
   <xsl:template match="list/item/list/pb">
@@ -464,6 +467,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
+    <xsl:if test="@n"><p class="page_number"><xsl:apply-templates select="@n"/></p></xsl:if>
   </xsl:template>
   
   <!--lines and line groups in notes-->
@@ -480,7 +484,7 @@
       <xsl:when test="preceding::idno='rules.littlewars'"><ul><xsl:apply-templates/></ul></xsl:when>
       <xsl:otherwise><xsl:choose>
       <xsl:when test="descendant::label"><ul class="paragraph_list"><xsl:apply-templates/></ul></xsl:when>
-      <xsl:otherwise><ul class="hanging_list"><xsl:apply-templates/></ul></xsl:otherwise>
+      <!--this one--><xsl:otherwise><ul class="hanging_list"><xsl:apply-templates/></ul></xsl:otherwise>
     </xsl:choose></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -488,7 +492,7 @@
   <xsl:template match="item">
     <xsl:choose>
       <xsl:when test="child::label"><p><xsl:apply-templates/></p></xsl:when>
-      <xsl:otherwise><li><xsl:apply-templates/></li></xsl:otherwise>
+      <!--this one--><xsl:otherwise><li><xsl:apply-templates/></li></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   

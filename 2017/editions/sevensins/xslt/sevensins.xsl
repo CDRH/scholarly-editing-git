@@ -61,7 +61,7 @@
             <li><a href="translation.html#page_info">Translation</a></li>
             <li><a href="sidebyside.html#page_info">Side By Side</a></li>
             <xsl:if test="$idno != 'sidebyside.sevensins'"><li><a href="{$idno}.xml">Page XML &#8659;</a></li></xsl:if>
-            <li><a href="extracts.youngidea.xml">Edition XML &#8659;</a></li>
+            <li><a href="sevensins.zip">Edition XML &#8659;</a></li>
           </ul>
         </nav>
         

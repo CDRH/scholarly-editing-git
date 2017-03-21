@@ -82,7 +82,7 @@
             <xsl:if test="not($pageid = 'edition')">
               <li><a href="{$pageid}.xml">Page XML &#8659;</a></li>
             </xsl:if>
-            <li><a href="downloads/aprilfools_xml.zip">Edition XML &#8659;</a></li>
+            <li><a href="aprilfools_xml.zip">Edition XML &#8659;</a></li>
           </ul>
         </nav>
         
