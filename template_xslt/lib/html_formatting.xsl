@@ -1150,7 +1150,7 @@
 </xsl:template>
   
   <xsl:template match="list//bibl//editor">
-    <xsl:choose><xsl:when test="not(preceding-sibling::editor)"><xsl:text>by </xsl:text><xsl:apply-templates/></xsl:when>
+    <xsl:choose><xsl:when test="not(preceding-sibling::editor)"><xsl:text>edited by </xsl:text><xsl:apply-templates/></xsl:when>
       <xsl:when test="preceding-sibling::editor and following-sibling::editor"><xsl:text>, </xsl:text><xsl:apply-templates/><xsl:text>, </xsl:text></xsl:when>
       <xsl:when test="preceding-sibling::editor and not(following-sibling::editor)"><xsl:text> and </xsl:text><xsl:apply-templates/></xsl:when>
       <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>

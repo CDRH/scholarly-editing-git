@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.table-sortable').DataTable( {
-        "lengthMenu": [[-1,25,50], ["All",25, 50]]
+        "lengthMenu": [[25,50,-1], [25, 50,"All"]]
     } );
 } );
 

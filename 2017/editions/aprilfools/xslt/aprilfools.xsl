@@ -67,7 +67,7 @@
         
         <!-- $body_author
          must be in <div class="body_author"> -->
-        <div class="body_author">Leslie Myrick and Christopher Ohge <em>Mark Twain Project, University of California, Berkeley</em></div>
+        <div class="body_author">Edited by Leslie Myrick and Christopher Ohge</div>
         
         <!-- $edition_navigation 
          Each <li> is pulled in and new navigation is constructed. Appending #page_info at the end sets the 
@@ -264,21 +264,7 @@
     </h4>
   </xsl:template>
   
-<!-- Personography -->
-  
-  <!--<xsl:template match="listPerson/person">
-    <div class="person"><xsl:apply-templates/></div>
-  </xsl:template>
-  
-  <xsl:template match="persName">
-    <h4>[<xsl:value-of select="@type"/>] <xsl:apply-templates/></h4>
-  </xsl:template>
-  
-  <xsl:template match="birth"><div class="birth">Birth: <xsl:apply-templates/></div></xsl:template>
-  
-  <xsl:template match="death"><div class="death">Death: <xsl:apply-templates/></div></xsl:template>
-  
-  <xsl:template match="sex"><div class="sex">Sex: <xsl:apply-templates/></div></xsl:template>-->
+
   
   <xsl:template match="note">
     <xsl:choose>

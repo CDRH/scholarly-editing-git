@@ -183,12 +183,13 @@
 
 
 				    <!-- prosopography -->
-                                    <xsl:if test="//tei:name[@corresp]">
+                                  <xsl:if test="//tei:name[@corresp]">
                                         <xsl:variable name="NAMES" select="document('../xml/personography.xml')"/>
                                         <div>
                                             <h2>Persons Mentioned</h2>
                                             <xsl:for-each-group select="//tei:text//tei:name" group-by="@corresp">
 					      <xsl:sort select="current-grouping-key()"/>
+                                              <xsl:if test="@corresp != '#SLC'">
 					      <xsl:variable name="name" select="."/>
 					      <xsl:variable name="id" select="substring-after(@corresp,'#')"/>
                                                 <p>
@@ -201,6 +202,7 @@
                                                         </div>
                                                         <br/>
                                                 </p>
+                                              </xsl:if>
                                             </xsl:for-each-group>
                                         </div>
                                     </xsl:if>

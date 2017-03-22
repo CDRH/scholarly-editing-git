@@ -49,7 +49,7 @@
         
         <!-- $body_author
          must be in <div class="body_author"> -->
-        <div class="body_author">Krista A. Murchison, <em>Leiden University</em></div>
+        <div class="body_author">Edited by Krista A. Murchison</div>
         
         <!-- $edition_navigation 
          Each <li> is pulled in and new navigation is constructed. Appending #page_info at the end sets the 
