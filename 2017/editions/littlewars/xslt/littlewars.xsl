@@ -561,7 +561,12 @@
   <xsl:template match="head[not(ancestor::figure)]">
     <!-- need to fix for handwritten text -KD -->
     <xsl:choose>
-      <xsl:when test="@type='sub'"><span class="figure_list"><xsl:apply-templates/></span></xsl:when>
+      <xsl:when test="@type='label'"><span class="figure_list"><xsl:apply-templates/></span></xsl:when>
+      <xsl:when test="@type='sub'"><xsl:choose>
+        <xsl:when test="following-sibling::list"><h4 class="sub_head_list"><xsl:apply-templates/></h4>
+        </xsl:when>
+        <xsl:when test="parent::list"><h4 class="head_list"><xsl:apply-templates/></h4></xsl:when>
+        <xsl:otherwise><h4 class="sub_head"><xsl:apply-templates/></h4></xsl:otherwise></xsl:choose></xsl:when>
       <xsl:when test="ancestor::list">
         <h3><span class="head_list"><xsl:apply-templates/></span></h3>
       </xsl:when>
@@ -575,81 +580,17 @@
     First I test if the div1 has a head. If it does not, I start the div2's on the h3's and work from there. - karin
     -->
       <xsl:when test="//div">
-        <h3><strong><xsl:apply-templates/></strong></h3>
-      </xsl:when>
-      <xsl:when test="//div1">
         <xsl:choose>
-          <xsl:when test="//div1/head">
-            <xsl:choose>
-              <xsl:when test="parent::div1">
-                <h3>
-                  <xsl:apply-templates/>
-                </h3>
-              </xsl:when>
-              <xsl:when test="parent::div2">
-                <h4>
-                  <xsl:apply-templates/>
-                </h4>
-              </xsl:when>
-              <xsl:when test="parent::div3">
-                <h5>
-                  <xsl:apply-templates/>
-                </h5>
-              </xsl:when>
-              <xsl:when test="parent::div4 or parent::div5 or parent::div6 or parent::div7">
-                <h6>
-                  <xsl:apply-templates/>
-                </h6>
-              </xsl:when>
-              <xsl:otherwise>
-                <h3>
-                  <xsl:apply-templates/>
-                </h3>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:choose>
-              <xsl:when test="parent::div2">
-                <h3>
-                  <xsl:apply-templates/>
-                </h3>
-              </xsl:when>
-              <xsl:when test="parent::div3">
-                <h4>
-                  <xsl:apply-templates/>
-                </h4>
-              </xsl:when>
-              <xsl:when test="parent::div4">
-                <h5>
-                  <xsl:apply-templates/>
-                </h5>
-              </xsl:when>
-              <xsl:when test="parent::div5 or parent::div6 or parent::div7">
-                <h6>
-                  <xsl:apply-templates/>
-                </h6>
-              </xsl:when>
-              <xsl:otherwise>
-                <h3>
-                  <xsl:apply-templates/>
-                </h3>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:otherwise>
+          <xsl:when test="preceding-sibling::pb[@n='101'] and following-sibling::head"><h3 class="appendix"><xsl:apply-templates/></h3></xsl:when>
+          <xsl:otherwise><h3><strong><xsl:apply-templates/></strong></h3></xsl:otherwise>
         </xsl:choose>
-      </xsl:when>
-      
-      <xsl:when test=".[@type = 'sub']">
-        <h4>
-          <xsl:apply-templates/>
-        </h4>
       </xsl:when>
       <xsl:when test="preceding::*[name() = 'head']">
         <h4>
           <xsl:apply-templates/>
         </h4>
       </xsl:when>
+     
       <xsl:otherwise>
         <h3>
           <xsl:apply-templates/>

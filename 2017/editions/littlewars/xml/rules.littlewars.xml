@@ -76,6 +76,8 @@
                 editorial suggestions.</change>
             <change who="lepianka" when="2017-01-29">Added acknoweldgement of Jason Fairfield,(who
                 did the first pass of the rules) to preface.</change>
+            <change who="lepianka" when="2017-04-20">Post-peer review SE edits. Added note for
+                cannons. Reworded passages to be more gender neutral.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -122,7 +124,7 @@
                             <item><emph rend="italic">Prisoners</emph> may not participate in <emph
                                     rend="italic">mêlées</emph>, cannot escort other prisoners, and
                                 do not count when determining whether or not a cannon is <emph
-                                    rend="italic">manned</emph> or captured.</item>
+                                    rend="italic">active</emph> or captured.</item>
                             <item>One friendly unit may escort up to 7 enemy <emph rend="italic"
                                     >prisoners</emph> within 6 inches of it.</item>
                             <item>Escorted <emph rend="italic">prisoners</emph> are moved by the
@@ -138,20 +140,22 @@
                 </list>
 
                 <list rend="bulleted">
-                    <head><label>1.2</label> The Cannons</head>
+                    <head><label>1.2</label> The Cannons<ptr target="#note1" xml:id="nr1" n="1"
+                        /></head>
+
                     <item>Requires at least 4 friendly units within 6 inches to be considered <emph
-                            rend="italic">manned</emph> by that side. A cannon must be <emph
-                            rend="italic">manned</emph> in order to be moved or fired.</item>
+                            rend="italic">active</emph> by that side. A cannon must be <emph
+                            rend="italic">active</emph> in order to be moved or fired.</item>
                     <item>Can either be moved or fired in the same turn, not both.</item>
                     <item>May not be fired during the first turn of the game.</item>
                     <item>Can fire up to 4 shots during a turn. After firing its last shot, the
                         cannon cannot be aimed or adjusted and one friendly unit within 6 inches
                         must be placed on each side of the cannon near the wheels. </item>
-                    <item>When being moved, at least four men who are with the cannon must move up
-                        with it to its new position, and these men must be placed within six inches
-                        of the cannon's new position. The cannon may move the speed of the 4 fastest
-                        units moving with it. The muzzle of the cannon must point backward toward
-                        the direction it came from.</item>
+                    <item>When being moved, at least four units who are with the cannon must move up
+                        with it to its new position, and these units must be placed within six
+                        inches of the cannon's new position. The cannon may move the speed of the 4
+                        fastest units moving with it. The muzzle of the cannon must point backward
+                        toward the direction it came from.</item>
                     <item>A shot from a cannon kills the first unit it touches as well as any other
                         unit that falls because of it. A unit is considered killed that cannot stand
                         on its own and would fall if unsupported after a shot. </item>
@@ -228,7 +232,7 @@
                         activated during this phase as the rules and time permits. <list
                             rend="bulleted">
                             <item><label>Activate Cannons:</label> Any <emph rend="italic"
-                                    >manned</emph> cannons controlled by the current player must be
+                                    >active</emph> cannons controlled by the current player must be
                                 moved/fired before any of their units. The only exception being
                                 units that are moved up with a cannon after it moves.</item>
                             <item><label>Activate Units:</label> After cannons have been
@@ -283,10 +287,10 @@
                         following steps for their units: <list rend="bulleted">
                             <item><label>Determine Status of Cannons:</label> During this step,
                                 players determine which cannons are currently <emph rend="italic"
-                                    >manned</emph> by each force. If a cannon has no friendly units
+                                    >active</emph> for each force. If a cannon has no friendly units
                                 and at least 4 enemy units within 6 inches and those enemy units
                                 have crossed the cannon’s wheel axis, that cannon is captured and is
-                                considered <emph rend="italic">manned</emph> by the enemy force. The
+                                considered <emph rend="italic">active</emph> for the enemy force. The
                                 enemy player may use this cannon as if it were part of their force
                                 on their next turn.</item>
                             <item><label>Determine Status of Prisoners:</label> With units moving
@@ -353,6 +357,20 @@
                 </list>
             </div>
         </body>
+        <back>
+            <div type="notes">
+                <note xml:id="note1">There are several options available to players seeking to
+                    acquire cannons in order to play <emph rend="italic">Little Wars</emph>. The
+                    guns manufactured by Britains and used by Wells in the text are available from
+                    antiques dealers, specialty toy shops, and platforms such as eBay.
+                    Do-it-yourself options exist for creating spring-loaded cannons that function
+                    similarly to the the antique models. However, the most practical and easily
+                    obtained option we have found are the small rubber band cannons found <ref
+                        target="http://www.stockade.ca/Plan-Rubber-Band-Cannon_p_4640.html"
+                        >here.</ref> Use of this cannon may involve a more elastic interpretation of
+                    the game's rules. </note>
+            </div>
+        </back>
     </text>
 
 </TEI>
