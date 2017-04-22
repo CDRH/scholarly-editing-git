@@ -194,7 +194,10 @@
   
   <!--title page and printer statement-->
   <xsl:template match="front//titlePart">
-    <br/><br/><h3 class="tei_titlePart"><xsl:apply-templates/></h3><br/>
+    <xsl:choose><xsl:when test="@type='sub'"><br/><br/><h4 class="tei_titlePart"><xsl:apply-templates/></h4><br/></xsl:when>
+      <xsl:when test="@type='main'"><br/><br/><h2 class="tei_titlePart"><xsl:apply-templates/></h2><br/></xsl:when>
+      <xsl:otherwise><br/><br/><h4 class="tei_titlePart"><xsl:apply-templates/></h4><br/></xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="front//byline">
@@ -598,5 +601,6 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  
   
 </xsl:stylesheet>
