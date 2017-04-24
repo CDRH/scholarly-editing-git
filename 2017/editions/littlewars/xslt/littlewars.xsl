@@ -181,6 +181,14 @@
           </xsl:choose>
         </a>
       </xsl:when>
+      <xsl:when test="starts-with(@target, '#pg')">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="@target"/>
+          </xsl:attribute>
+              <xsl:apply-templates/>
+        </a>
+      </xsl:when>
       <!-- external links -->
       <xsl:when test="@type='url' or @type='link' or starts-with(@target, 'http://') or starts-with(@target, 'https://')">
         <a>
@@ -227,10 +235,12 @@
   <xsl:template match="pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
           <xsl:text>pagebreak</xsl:text>
         </xsl:attribute></span></xsl:when>
       <xsl:otherwise><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
           <xsl:text>pagebreak</xsl:text>
         </xsl:attribute>
@@ -277,10 +287,12 @@
   <!--this one--><xsl:template match="list[not(ancestor::list)]/item/pb | list[not(ancestor::list)]/item/p/pb | list[not(ancestor::list)]/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
           <xsl:text>pagebreak_list</xsl:text>
         </xsl:attribute></span></xsl:when>
       <xsl:otherwise><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
           <xsl:text>pagebreak_list</xsl:text>
         </xsl:attribute>
@@ -324,15 +336,17 @@
     <xsl:if test="@n"><p class="page_number"><xsl:apply-templates select="@n"/></p></xsl:if>
   </xsl:template>
   
-  <!--<xsl:template match="list[not(ancestor::list)]/item/p/pb">
+  <xsl:template match="list[not(ancestor::list)]/item/list/item/p/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
-          <xsl:text>pagebreak_list</xsl:text>
+          <xsl:text>pagebreak_list_misc</xsl:text>
         </xsl:attribute></span></xsl:when>
       <xsl:otherwise><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
-          <xsl:text>pagebreak_list</xsl:text>
+          <xsl:text>pagebreak_list_misc</xsl:text>
         </xsl:attribute>
         <span class="tei_thumbnail">
           <a>
@@ -371,15 +385,17 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-  </xsl:template>-->
+  </xsl:template>
   
   <xsl:template match="list/item/list/item/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
           <xsl:text>pagebreak_doubleList</xsl:text>
         </xsl:attribute></span></xsl:when>
       <xsl:otherwise><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
           <xsl:text>pagebreak_doubleList</xsl:text>
         </xsl:attribute>
@@ -426,10 +442,12 @@
   <xsl:template match="list/item/list/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
           <xsl:text>pagebreak_list_misc</xsl:text>
         </xsl:attribute></span></xsl:when>
       <xsl:otherwise><span>
+        <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
         <xsl:attribute name="class">
           <xsl:text>pagebreak_list_misc</xsl:text>
         </xsl:attribute>
@@ -524,7 +542,27 @@
   <xsl:template match="figure">
     <xsl:choose>
       <xsl:when test="ancestor::list">
-        <span class="figure_list">
+        <xsl:choose>
+          <xsl:when test="ancestor::p">
+            <span class="figure_list_p">
+              <xsl:attribute name="id">
+                <xsl:value-of select="@xml:id"/>
+              </xsl:attribute>
+              <img>
+                <xsl:attribute name="src">
+                  <xsl:text>images/viewsize/</xsl:text>
+                  <xsl:value-of select="child::graphic/attribute::url"/>
+                </xsl:attribute>
+                <xsl:attribute name="alt">
+                  <xsl:value-of select="child::figDesc"/>
+                </xsl:attribute>
+              </img></span>
+            <span class="cap"><h5 class="figure_list_p">
+              <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
+            </h5>
+            </span>
+          </xsl:when>
+          <xsl:otherwise><span class="figure_list">
           <xsl:attribute name="id">
             <xsl:value-of select="@xml:id"/>
           </xsl:attribute>
@@ -540,7 +578,7 @@
         <span class="cap"><h5 class="figure_list">
           <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
         </h5>
-        </span>
+        </span></xsl:otherwise></xsl:choose>
       </xsl:when>
       <xsl:otherwise><span class="figure">
       <xsl:attribute name="id">
