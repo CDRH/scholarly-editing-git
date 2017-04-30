@@ -214,7 +214,7 @@
   
   <!-- template to create footnotes out of the editorial notes -->
   <xsl:template match="note" mode="footnotes">
-    <div class="footnote">
+    <p class="footnote">
       <xsl:attribute name="id">
         <xsl:text>footnote</xsl:text>
         <xsl:number level="any" from="/TEI/text"/>
@@ -253,7 +253,7 @@
         <xsl:text>back</xsl:text>
       </a>
       <xsl:text>]</xsl:text>
-    </div>
+    </p>
   </xsl:template>
   
   <!-- list match which handles notes directly inside list -->
@@ -309,12 +309,18 @@
       <!-- when the previous item is a note and is not preceded by a head, move into the next li. 
              if it is preceded by a head, it will be handled by the first if in the list match -->
       <xsl:when test="preceding-sibling::*[1]/name() = 'note'">
-        <xsl:if test="not(preceding-sibling::*[1]/preceding-sibling::head[1])">
+        <xsl:choose><xsl:when test="not(preceding-sibling::*[1]/preceding-sibling::head[1])">
           <li>
             <xsl:apply-templates/>
             <xsl:apply-templates select="preceding-sibling::note[1]" mode="mode_decide"></xsl:apply-templates>
           </li>
-        </xsl:if>
+        </xsl:when>
+          <xsl:otherwise>
+            <li>
+              <xsl:apply-templates/>
+            </li>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <li>

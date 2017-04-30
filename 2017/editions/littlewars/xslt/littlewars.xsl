@@ -281,7 +281,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-    <xsl:if test="@n"><p class="page_number"><xsl:apply-templates select="@n"/></p></xsl:if>
+    <xsl:if test="@n"><span class="page_number"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
   <!--this one--><xsl:template match="list[not(ancestor::list)]/item/pb | list[not(ancestor::list)]/item/p/pb | list[not(ancestor::list)]/pb">
@@ -333,7 +333,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-    <xsl:if test="@n"><p class="page_number"><xsl:apply-templates select="@n"/></p></xsl:if>
+    <xsl:if test="@n"><span class="page_number"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
   <xsl:template match="list[not(ancestor::list)]/item/list/item/p/pb">
@@ -385,6 +385,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
+    <xsl:if test="@n"><span class="page_number_doubleList"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
   <xsl:template match="list/item/list/item/pb">
@@ -436,7 +437,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-    <xsl:if test="@n"><p class="page_number_doubleList"><xsl:apply-templates select="@n"/></p></xsl:if>
+    <xsl:if test="@n"><span class="page_number_doubleList"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
   <xsl:template match="list/item/list/pb">
@@ -488,7 +489,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-    <xsl:if test="@n"><p class="page_number"><xsl:apply-templates select="@n"/></p></xsl:if>
+    <xsl:if test="@n"><span class="page_number"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
   <!--lines and line groups in notes-->

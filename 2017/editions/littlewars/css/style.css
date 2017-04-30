@@ -122,6 +122,7 @@ span.pagebreak_doubleList a{
 .page_number_doubleList {
     text-align: center;
     text-indent: -80px;
+    display: block;
 }
 
 .in_note {
@@ -200,3 +201,17 @@ h3.appendix {
 /*.row > div {
     border: 1px solid green;
 }*/
+
+img {
+	max-width: 100%;
+}
+
+/* Fix for page_number indentation */
+
+.page_number {
+	text-indent: 0;
+}
+
+span.page_number {
+	display: block;
+}
