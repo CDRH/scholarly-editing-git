@@ -624,7 +624,7 @@
       <xsl:when test="//div">
         <xsl:choose>
           <xsl:when test="preceding-sibling::pb[@n='101'] and following-sibling::head"><h3 class="appendix"><xsl:apply-templates/></h3></xsl:when>
-          <xsl:otherwise><h3><strong><xsl:apply-templates/></strong></h3></xsl:otherwise>
+          <xsl:otherwise><h3><xsl:apply-templates/></h3></xsl:otherwise>
         </xsl:choose>
       </xsl:when>
       <xsl:when test="preceding::*[name() = 'head']">

@@ -615,7 +615,7 @@
           <xsl:if test="starts-with(parent::div/@xml:id,'v')">
             <xsl:attribute name="class"><xsl:text>volume_head</xsl:text></xsl:attribute>
           </xsl:if>
-          <strong><xsl:apply-templates/></strong></h3>
+          <xsl:apply-templates/></h3>
       </xsl:when>
       <xsl:when test="//div1">
         <xsl:choose>
@@ -704,7 +704,7 @@
         <h4><xsl:apply-templates/></h4>
       </xsl:when>
       <xsl:otherwise>
-        <h2><xsl:apply-templates/></h2>
+        <h3><xsl:apply-templates/></h3>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
