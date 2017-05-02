@@ -7,6 +7,7 @@
   
   <xsl:param name="year"/>
   <xsl:param name="volume"/>
+  <xsl:param name="type"/>
   <!-- View: blank or fullpage 
   I plan to use this when the edition needs to take up the full width of the page
   -->
@@ -45,7 +46,14 @@
   
   <!-- $body_title (Required) -->
   <xsl:variable name="body_title">
-    <xsl:copy-of select="//body/h1[1]/node()"/>
+    <xsl:choose>
+      <xsl:when test="$type = 'essay'">
+        <xsl:text>Essays</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy-of select="//body/h1[1]/node()"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:variable>
   
   <!-- $edition_author (Optional if not edition) -->
@@ -84,13 +92,15 @@
   
   <xsl:template match="/">
     
-    <html>
+    <html class="site_{$type}">
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <title><xsl:value-of select="$head_title"/> - Scholarly Editing</title>
         <meta name="viewport" content="width=device-width"/>
+        
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">&#160;</script>
         <script src="{$siteroot}js/bootstrap/bootstrap.min.js">&#160;</script>

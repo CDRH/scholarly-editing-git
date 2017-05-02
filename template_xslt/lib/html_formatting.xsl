@@ -42,8 +42,8 @@
     match="
       body | front | back | docDate | sp | speaker | letter |
       notesStmt | titlePart | docDate | ab | trailer |
-      lg | l | bibl | dateline | salute | trailer | titlePage | closer |
-      floatingText | date | epigraph">
+      lg | l | dateline | salute | trailer | titlePage | closer |
+      floatingText | date | epigraph | title">
     <span>
       <xsl:attribute name="class">
         <xsl:text>tei_</xsl:text>
@@ -53,6 +53,10 @@
           <xsl:value-of select="."/>
         </xsl:for-each>
         <xsl:for-each select="tokenize(@rend, ' ')">
+          <xsl:text> tei_rend_</xsl:text>
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+        <xsl:for-each select="tokenize(@level, ' ')">
           <xsl:text> tei_rend_</xsl:text>
           <xsl:value-of select="."/>
         </xsl:for-each>
@@ -72,12 +76,12 @@
       <div class="notesList">
         <h2>Notes</h2>
         <xsl:for-each select="//text//note">
-          <div class="footnote">
+          <p class="footnote">
             <xsl:attribute name="id">
               <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
             <xsl:apply-templates select="." mode="footnotes"/>
-          </div>
+          </p>
         </xsl:for-each>
       </div>
     </xsl:if>
@@ -92,8 +96,16 @@
   <!-- <note place="foot" xml:id="ftn26" n="26"> -->
   <!-- <note type="editorial" xml:id="n4"><p>Charles Henry ... -->
   <!-- note place="foot" xml:id="ftn26" n="26">E. Pierazzo -->
+  
+  <xsl:template match="div[@type='notes']">
+    <div class="notesList">
+      
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
 
   <xsl:template match="note" priority="2">
+    <p class="footnote">
     <xsl:choose>
       <xsl:when test="@place = 'foot' or (@type = 'editorial' and @xml:id)">
         <a>
@@ -119,6 +131,7 @@
       </xsl:when>
       <!--<xsl:otherwise><xsl:apply-templates/></xsl:otherwise>-->
     </xsl:choose>
+    </p>
   </xsl:template>
 
   <xsl:template match="note" mode="footnotes" priority="1">
@@ -127,7 +140,7 @@
         <xsl:value-of select="@n"/>
       </xsl:when>
       <xsl:when test="@xml:id">
-        <xsl:value-of select="@xml:id"/>
+        <xsl:value-of select="substring-after(@xml:id,'note')"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:number/>
@@ -511,8 +524,8 @@
       </xsl:attribute>-->
       <img>
         <xsl:attribute name="src">
-          <xsl:text>images/viewsize/</xsl:text>
-          <xsl:value-of select="child::graphic/attribute::url"/>
+                   <xsl:text>images</xsl:text>
+          <xsl:value-of select="substring-after(child::graphic/attribute::url,'images')"/>
         </xsl:attribute>
         <xsl:attribute name="alt">
           <xsl:value-of select="child::figDesc"/>
@@ -598,7 +611,11 @@
     First I test if the div1 has a head. If it does not, I start the div2's on the h3's and work from there. - karin
     -->
       <xsl:when test="//div">
-        <h3><strong><xsl:apply-templates/></strong></h3>
+        <h3>
+          <xsl:if test="starts-with(parent::div/@xml:id,'v')">
+            <xsl:attribute name="class"><xsl:text>volume_head</xsl:text></xsl:attribute>
+          </xsl:if>
+          <strong><xsl:apply-templates/></strong></h3>
       </xsl:when>
       <xsl:when test="//div1">
         <xsl:choose>
@@ -830,9 +847,20 @@
   </xsl:template>
 
   <xsl:template match="item">
-    <li>
-      <xsl:apply-templates/>
-    </li>
+    <xsl:choose>
+      <!-- special formatting for presidential addresses on index pages -->
+      <xsl:when test="./attribute::xml:id='editors_craft' or ./attribute::xml:id='joint_presidential'">
+        <li><span class="well">
+          <xsl:apply-templates></xsl:apply-templates>
+        </span></li>
+      </xsl:when>
+      <xsl:otherwise>
+        <li>
+          <xsl:apply-templates/>
+        </li>
+      </xsl:otherwise>
+    </xsl:choose>
+   
   </xsl:template>
 
   <!-- ================================================ -->
@@ -1133,20 +1161,31 @@
 <!-- ================================================ -->
   <!--                     AUTHORS AND EDITORS          -->
   <!-- ================================================ -->
+  <xsl:template match="bibl">
+    <xsl:apply-templates select="title"/>
+    <span class="indexauthor"><xsl:apply-templates select="author"/></span>
+    <span class="indexeditor"><xsl:apply-templates select="editor"/></span>
+    
+  </xsl:template>
+  
 <xsl:template match="div/bibl/editor">
   <!--<span class="editor_list"><xsl:apply-templates/></span><br/>-->
 </xsl:template>
   
   <xsl:template match="list//bibl//author">
+    <span class="tei_author">
     <xsl:choose><xsl:when test="not(preceding-sibling::author)"><xsl:text>by </xsl:text><xsl:apply-templates/></xsl:when>
       <xsl:when test="preceding-sibling::author and following-sibling::author"><xsl:apply-templates/><xsl:text>, </xsl:text></xsl:when>
       <xsl:when test="preceding-sibling::author and not(following-sibling::author)"><xsl:text> and </xsl:text><xsl:apply-templates/></xsl:when>
       <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
     </xsl:choose>
+    </span>
   </xsl:template>
 
 <xsl:template match="affiliation">
+  <span class="tei_affiliation">
   <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+  </span>
 </xsl:template>
   
   <xsl:template match="list//bibl//editor">

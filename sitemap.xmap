@@ -67,6 +67,7 @@
                 <map:transform src="template_xslt/html_template.xsl">
                     <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
+                    <map:parameter name="type" value="index"/>
                 </map:transform>
                 <map:serialize type="html"/>
             </map:match>
@@ -165,6 +166,7 @@
                 <map:transform src="template_xslt/html_template.xsl">
                     <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
+                  <map:parameter name="type" value="essay"/>
                 </map:transform>
                 <map:serialize type="html"/>
             </map:match>
@@ -1112,13 +1114,13 @@
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2013/editions/cwnewspaperpoetry/images/cwnewspaperpoetry.**.png">
+            <map:match pattern="2013/editions/cwnewspaperpoetry/cwnewspaperpoetry.**.png">
                 <map:read src="2013/editions/cwnewspaperpoetry/images/cwnewspaperpoetry.{1}.png"/>
             </map:match>
         </map:pipeline>
 
         <map:pipeline type="noncaching">
-            <map:match pattern="2013/editions/cwnewspaperpoetry/images/cwnewspaperpoetry.**.jpg">
+            <map:match pattern="2013/editions/cwnewspaperpoetry/cwnewspaperpoetry.**.jpg">
                 <map:read src="2013/editions/cwnewspaperpoetry/images/cwnewspaperpoetry.{1}.jpg"/>
             </map:match>
         </map:pipeline>
@@ -1178,7 +1180,7 @@
 
         <map:pipeline type="noncaching">
             <map:match pattern="2014/editions/haley/haleyxml.zip">
-                <map:read src="2014/editions/haley/haleyxml.zip"/>
+                <map:read src="2014/editions/haley/files/haleyxml.zip"/>
             </map:match>
         </map:pipeline>
 
@@ -1287,7 +1289,7 @@
             </map:match>
         </map:pipeline>
         <map:pipeline type="noncaching">
-            <map:match pattern="2013/editions/rtf/plaintext.sevenplanets.rtf">
+            <map:match pattern="2013/editions/plaintext.sevenplanets.rtf">
                 <map:read src="2013/editions/sevenplanets/rtf/plaintext.sevenplanets.rtf"/>
 
             </map:match>
@@ -1390,12 +1392,13 @@
 
 
         <!-- This exposes the XML for the public -->
-        <map:pipeline type="noncaching">
-            <map:match pattern="2012/editions/baroness/versions/firstling.xml">
-                <map:generate src="2012/editions/baroness/versions/firstling.xml"/>
-                <map:serialize type="xml"/>
-            </map:match>
-        </map:pipeline>
+        
+      <map:pipeline type="noncaching">
+        <map:match pattern="2012/editions/baroness/versions/firstling.xml">
+          <map:generate src="2012/editions/baroness/xml/main.baroness.xml"/>
+          <map:serialize type="xml"/>
+        </map:match>
+      </map:pipeline>
 
         <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/baroness/**.baroness.html">
@@ -1404,12 +1407,21 @@
                 <map:serialize type="html"/>
             </map:match>
         </map:pipeline>
+      
 
-        <map:pipeline type="noncaching">
+        <!--<map:pipeline type="noncaching">
             <map:match pattern="2012/editions/baroness/**">
                 <map:read src="2012/editions/baroness/{1}"/>
             </map:match>
-        </map:pipeline>
+        </map:pipeline>-->
+      
+      <!-- XML file links here in one of the docs, should change -->
+      <map:pipeline>
+        <map:match pattern="versions/firstling.xml">
+          <map:generate src="2012/editions/baroness/xml/main.baroness.xml"/>
+          <map:serialize type="xml"/>
+        </map:match>
+      </map:pipeline>
 
         <!-- the baroness pipeline below is here because in its old file position it was over-written by the main index page pipelines -->
         <map:pipeline type="noncaching">
@@ -1417,6 +1429,9 @@
                 <map:read src="2012/editions/baroness/html/index.html"/>
             </map:match>
         </map:pipeline>
+      
+      
+      
 
         <!-- ====================================
                          Assets

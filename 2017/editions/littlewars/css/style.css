@@ -117,12 +117,28 @@ span.pagebreak_doubleList a{
 
 .page_number {
     text-align: center;
+    /*color: blue;*/
+}
+
+.page_number_list {
+    text-align: center;
+    text-indent: -30px;
+    display: block;
+    /*color: red;*/
 }
 
 .page_number_doubleList {
     text-align: center;
-    text-indent: -80px;
+    text-indent: -100px;
     display: block;
+    /*color: green;*/
+}
+
+.page_number_list_misc {
+    text-align: center;
+    text-indent: -70px;
+    display: block;
+    /*color: purple;*/
 }
 
 .in_note {
@@ -202,8 +218,12 @@ h3.appendix {
     border: 1px solid green;
 }*/
 
-img {
+img.normal {
 	max-width: 100%;
+}
+
+img.list {
+    max-width: 120%;
 }
 
 /* Fix for page_number indentation */

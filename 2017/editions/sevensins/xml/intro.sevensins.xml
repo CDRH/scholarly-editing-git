@@ -69,14 +69,16 @@
     </teiHeader>
     <text>
         
-        <front>
+        <!--<front>
             <head type="main">“The Effects of the Seven Sins”: A Critical Edition</head>
             <byline>Krista A. Murchison</byline>
-        </front>
+        </front>-->
         
         <body>
             <div>
                 <head type="main">Introduction</head>
+                
+                <byline>Krista A. Murchison</byline>
               
                 <p>The text edited here, known as the "Effects of the Seven Sins," is a collection of examples of behavior that can result from the seven deadly sins.<note type="editorial" resp="#kam">I am grateful to the librarians at Emmanuel College, Cambridge, Trinity College, Cambridge, and the Oxford Bodleian Libraries for granting me permission to consult their collections for the purpose of this edition. Variants from the Trinity College manuscript here are reproduced by kind permission of the Master and Fellows of Trinity College, Cambridge. Variants from the Emmanuel College manuscript here are reproduced by kind permission of The Master and Fellows of Emmanuel 
                     College, Cambridge. Readings from the Bodleian manuscript here are reproduced with kind permission of The Bodleian Library, Oxford.</note>
@@ -392,7 +394,7 @@
                 <p>So, I have transcribed the Bodleian manuscript text faithfully, using a series of &lt;list&gt; elements to represent the sins. For abbreviations, I have used the &lt;choice&gt; element, which allows the text to be displayed with or without expansions. So, for example, the word “su” (fol. 87r, line 17) in the Bodleian manuscript has been marked as follows: </p>
                 <figure>
                     <head>Figure 2: MS abbreviation for "sun."</head>
-                    <p><note type="editorial" resp="#kam">Reproduced by kind permission of the Master and Fellows of Trinity College, Cambridge..</note></p>
+                    <p><note type="editorial" resp="#kam">Reproduced by kind permission of the Master and Fellows of Trinity College, Cambridge.</note></p>
                    
                     <graphic url="sun.jpg"/>
                 </figure>

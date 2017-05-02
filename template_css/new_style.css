@@ -9,20 +9,110 @@ url('../fonts/goudytwenty/goudytwenty-webfont.woff') format('woff');
 
 }
 
+sup {
+	line-height: inherit;
+	
+}
 
 /* - - - - to categorize - - - - */ 
 
-/*p::first-letter {
-	font-size: 3em;
-	float: left;
-	display: inline-block;
-	line-height: .85em;
-	margin-right: .1em;
+/* Index pages */
+
+.site_index .tei_body ul{
+	margin: 0;
+	list-style: none;
 }
 
-p::first-line {
+.site_index .tei_body li{
+	margin: 0;
+}
+
+.site_index .tei_list_head {
+	margin-top: 1em;
 	font-size: 1.2em;
-}*/
+	font-weight: 800;
+}
+
+.site_index .indexauthor,
+.site_index .indexeditor {
+	display: block;
+	text-indent: 3em;
+}
+
+.site_index .well {
+	display: block;
+	margin-top: 1em;
+}
+
+.site_index  .tei_body h3.volume_head {
+	border-top: 10px solid #e8eae7;
+	padding-top: .5em;
+	margin-top: 2em;
+}
+
+.site_index .tei_title {
+	display: block;
+	margin-top: .5em;
+}
+
+.site_index .tei_title.tei_rend_s {
+	margin-top: 0;
+	font-weight: 800;
+}
+
+
+/* Splash Page*/
+
+span.editors {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'goudytwentyregular', Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.7em;
+	font-variant: small-caps;
+}
+
+div#content_home {
+	width: 800px;
+	margin: 20px auto 80px auto;
+	background-color: #ffffff;
+	background-color: #ffffff;
+	padding: 20px 80px 0px 80px;
+	box-shadow: 0px 0px 20px #636453;
+	-webkit-box-shadow: 0px 0px 20px #636453;
+	-moz-box-shadow: 0px 0px 20px #636453;
+	border: solid 1px #9FA490; 
+	text-align: center;
+}
+
+.splash_page body {
+	background-color: transparent;
+}
+
+
+.footer_splash {
+	text-align: left;
+	line-height: .9em;
+	margin-top: 60px;
+	margin-bottom:20px;
+	
+	
+}
+
+.creativecommons {
+	margin-top: 20px;
+	display: block;
+}
+.creativecommons, .cdrh, .issn {
+	font-size: .8em;
+	text-align: left;
+	
+}
+
+/* Rest of site */*/
+
 
 .tei_body p {
     text-indent:2em;

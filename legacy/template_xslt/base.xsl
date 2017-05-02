@@ -232,7 +232,7 @@
                     </xsl:choose>
                     <xsl:if test="$idno = 'main.baroness'">
                         <a href="http://v-machine.org/">
-                            <img class="pbvm" src="./includes/template_images/poweredby.gif"
+                            <img class="pbvm" src="./includes/images/poweredby.gif"
                                 alt="powered by the Versioning Machine, version 4.0"/>
                         </a>
                     </xsl:if>
@@ -924,7 +924,7 @@
                                 </xsl:when>
                                 <xsl:when
                                     test="$fileName = 'essay.calvert' or $fileName = 'essay.porter' or $fileName = 'essay.grayprice' or $fileName = 'essay.alpertabrams'">
-                                    <xsl:text>template_images/viewsize/</xsl:text>
+                                    <xsl:text>images/viewsize/</xsl:text>
                                     <xsl:value-of
                                         select="substring(child::tei:graphic/attribute::url, 8)"/>
                                 </xsl:when>

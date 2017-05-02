@@ -81,12 +81,21 @@
           </xsl:if>
           
           <xsl:if test="$idno != 'intro.sevensins'">
-          <div class="row controls text-center regularized" id="controls_sevensins" >
+            <div class="controls regularized" id="controls_sevensins" >
+            <div class="row">
+            
+            <div class="col-md-1 text-center">
+              <a class="btn btn-primary btn-xs" type="button" data-toggle="collapse" data-target="#toggle_key_text" aria-expanded="true" aria-controls="collapseExample">
+                Key
+              </a>
+            </div>
+       
+            
             <div class="col-md-4 text-center">
               <a class="btn btn-default btn-xs" id="button_line_breaks" href="#" role="button">Line Breaks</a>
               <a class="btn btn-default btn-xs" id="button_editorial_marks" href="#" role="button">Editorial Marks</a>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-3 text-center">
               <xsl:if test="$idno != 'translation.sevensins'">
               <a class="btn btn-default btn-xs" id="button_regularize" href="#" role="button">Regularized</a>
               <a class="btn btn-default btn-xs" id="button_diplomatic" href="#" role="button">Diplomatic</a>
@@ -104,7 +113,34 @@
                 <a class="popper" data-toggle="popover" title="" content="" data-original-title="test">[?]</a>
                 <span class="hide popper-content"><xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/listWit/witness[@xml:id='Em']"/></span>
             </div>
-          </div><!-- /row -->
+            
+           </div><!-- /row -->
+               
+              <div class="collapse" id="toggle_key_text">
+                <div class="well">
+             
+                
+                <h4>Editorial Marks</h4>
+                
+                <p>Curly brackets { } mark an expanded abbreviation<br/>
+                  Square brackets [ ] mark a section of the text for which variant readings exist</p>
+                
+                <p>Clicking on [*] will show the variant readings. In these, the following abbreviations are used:<br/>
+                Bd - Oxford, Bodleian Library, MS Fr.e.22<br/>
+                Tr - Trinity College, Cambridge MS B.14.39<br/>
+                Em - Cambridge, Emmanuel College MS I.4.4 (83)<br/>
+                <strong>Bold type</strong> is used to mark preferred readings</p>
+                
+                </div>
+              </div>
+              
+            
+            
+           
+          
+              
+              
+            </div>
           </xsl:if>
          
           <xsl:choose>

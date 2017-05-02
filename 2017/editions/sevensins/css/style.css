@@ -85,10 +85,26 @@
 }
 
 #controls_sevensins {
-	padding: .5em 0;
+	padding: .5em 0 0 0;
 	margin: .5em 0;
 	border:  solid 1px #aaa;
 }
+
+#controls_sevensins .row {
+
+	margin: .5em 0 .5em 0;
+}
+
+#controls_sevensins .well {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#controls_sevensins h4 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
 
 .tei_figure {
   padding: 10px 30px;
@@ -107,4 +123,8 @@
 .sevensins_intro .tei_line_break {
 	display: block;
 
+}
+
+.toggle_key_display {
+	padding: 60px 20px 0 20px;
 }

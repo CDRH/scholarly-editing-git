@@ -333,7 +333,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-    <xsl:if test="@n"><span class="page_number"><xsl:apply-templates select="@n"/></span></xsl:if>
+    <xsl:if test="@n"><span class="page_number_list"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
   <xsl:template match="list[not(ancestor::list)]/item/list/item/p/pb">
@@ -385,7 +385,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-    <xsl:if test="@n"><span class="page_number_doubleList"><xsl:apply-templates select="@n"/></span></xsl:if>
+    <xsl:if test="@n"><span class="page_number_list_misc"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
   <xsl:template match="list/item/list/item/pb">
@@ -489,7 +489,7 @@
           </a>
         </span>
       </span></xsl:otherwise></xsl:choose>
-    <xsl:if test="@n"><span class="page_number"><xsl:apply-templates select="@n"/></span></xsl:if>
+    <xsl:if test="@n"><span class="page_number_doubleList"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
   <!--lines and line groups in notes-->
@@ -542,14 +542,14 @@
   
   <xsl:template match="figure">
     <xsl:choose>
-      <xsl:when test="ancestor::list">
+      <xsl:when test="ancestor::list"><!--adjust width for this one-->
         <xsl:choose>
           <xsl:when test="ancestor::p">
             <span class="figure_list_p">
               <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
               </xsl:attribute>
-              <img>
+              <img class="list">
                 <xsl:attribute name="src">
                   <xsl:text>images/viewsize/</xsl:text>
                   <xsl:value-of select="child::graphic/attribute::url"/>
@@ -567,7 +567,7 @@
           <xsl:attribute name="id">
             <xsl:value-of select="@xml:id"/>
           </xsl:attribute>
-          <img>
+          <img class="list">
             <xsl:attribute name="src">
               <xsl:text>images/viewsize/</xsl:text>
               <xsl:value-of select="child::graphic/attribute::url"/>
@@ -585,7 +585,7 @@
       <xsl:attribute name="id">
         <xsl:value-of select="@xml:id"/>
       </xsl:attribute>
-      <img>
+      <img class="normal">
         <xsl:attribute name="src">
           <xsl:text>images/viewsize/</xsl:text>
           <xsl:value-of select="child::graphic/attribute::url"/>
