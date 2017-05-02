@@ -532,7 +532,7 @@
         </xsl:attribute>
       </img></span>
       <span class="cap"><h5>
-        <strong><xsl:apply-templates select="child::head"/></strong><xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>
+        <strong><xsl:apply-templates select="child::head"/></strong><!--<xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>-->
       </h5>
 
     </span>
@@ -694,6 +694,17 @@
         <h3>
           <xsl:apply-templates/>
         </h3>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="//front//head">
+    <xsl:choose>
+      <xsl:when test="@type='sub'">
+        <h4><xsl:apply-templates/></h4>
+      </xsl:when>
+      <xsl:otherwise>
+        <h2><xsl:apply-templates/></h2>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
