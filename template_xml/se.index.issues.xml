@@ -137,7 +137,36 @@
                     
                 </list>
                
-                
+                <list type="simple" xml:id="essays2016"><head type="main">Essays</head>
+                    
+                    
+                    <item>
+                        <bibl>
+                            <title level="a" xml:id="essay.homestead">
+                                <ref type="html" target="2016/essays/essay.homestead">The Composing, Editing, and Publication of Willa Cather’s <hi rend="italic">Obscure Destinies</hi> Stories</ref>
+                            </title>
+                            <author>Melissa Homestead <affiliation>University of Nebraska-Lincoln</affiliation></author>
+                        </bibl>
+                    </item>
+                    
+                    <item>
+                        <bibl>
+                            <title level="a" xml:id="essay.pereira">
+                                <ref type="html" target="2016/essays/essay.pereira">Multiple Authorship and Intermedia Revision: An Editorial Approach to Pedro Homem de Mello's Poems Adapted to Fado</ref>
+                            </title>
+                            <author>Elsa Pereira <affiliation>CLUL - Centro de Linguística da Universidade de Lisboa, Fundação para a Ciência e a Tecnologia</affiliation></author>
+                        </bibl>
+                    </item>
+                    
+                    <!--<item xml:id="joint_presidential" n="presidential"> <title level="s">Presidential Addresses from Joint Conference of the Society for Textual Scholarship and the Association for Documentary Editing, University of Nebraska-Lincoln, June 17-20, 2016</title><bibl> <title level="a" xml:id="essay.lupton"> <ref type="html"
+                        target="2016/essays/essay.lupton"
+                        >Navigating the Space-Time Continuum</ref>
+                    </title>
+                        <author>John A. Lupton <affiliation>President, Association for Documentary Editing</affiliation></author>
+                    </bibl> 
+                        
+                    </item>-->
+                </list>
                 
                 <!--<list type="simple" xml:id="reviews2017">
                     <head type="main">Reviews</head>  
@@ -270,7 +299,7 @@
                             <author>Jerome McGann <affiliation>University of Virginia</affiliation></author>
                         </bibl>
                     </item>
-                    <item xml:id="joint_presidential"> <title level="s">Presidential Addresses from Joint Conference of the Society for Textual Scholarship and the Association for Documentary Editing, University of Nebraska-Lincoln, June 17-20, 2015</title><bibl> <title level="a" xml:id="essay.lupton"> <ref type="html"
+                    <item xml:id="joint_presidential" n="presidential"> <title level="s">Presidential Addresses from Joint Conference of the Society for Textual Scholarship and the Association for Documentary Editing, University of Nebraska-Lincoln, June 17-20, 2015</title><bibl> <title level="a" xml:id="essay.lupton"> <ref type="html"
                         target="2016/essays/essay.lupton"
                         >Navigating the Space-Time Continuum</ref>
                     </title>
@@ -406,17 +435,19 @@
                     
                     
                     
-                    <item>
+  
+                    
+                    <item n="presidential">
                         <bibl>
-                            <title level="a" xml:id="essay.2015presidentialaddress">
-                                <ref type="html" target="2015/essays/essay.2015presidentialaddress"
-                                    >The Second Story (Presidential Address, Association for Documentary Editing
-                                    Annual Meeting, Louisville, Kentucky, 2014)</ref>
-                            </title>
+                            <title level="s" xml:id="essay.2015presidentialaddress">
+                                 Presidential Address, Association for Documentary Editing
+                                Annual Meeting, Louisville, Kentucky, 2014</title>
+                              <title level="a"><ref type="html" target="2015/essays/essay.2015presidentialaddress">The Second Story</ref></title>
+                            
                             <author>James P. McClure <affiliation>Papers of Thomas Jefferson, Princeton University</affiliation></author>
                         </bibl>
                     </item>
-                    <item xml:id="editors_craft"> <title level="s">Reflections on the Editor’s Craft</title><bibl> <title level="a" xml:id="essay.gordon"> <ref type="html"
+                    <item xml:id="editors_craft" n="editorscraft"> <title level="s">Reflections on the Editor’s Craft</title><bibl> <title level="a" xml:id="essay.gordon"> <ref type="html"
                         target="2015/essays/essay.gordon"
                         >Editing Death: 
                         An Element of Craft</ref>
@@ -543,14 +574,14 @@
                     </item>
                     
                     
-                    <item>
+                    <item n="presidential">
                         <bibl>
-                            <title level="a" xml:id="essay.2014presidentialaddress">
-                                <ref type="html" target="2014/essays/essay.2014presidentialaddress"
-                                    >This Editing Life: The Joys and Imperatives of Documentary Editing
-                                    (Presidential Address, Association for Documentary Editing
-                                    Annual Meeting, Ann Arbor, Michigan, 2013)</ref>
+                            <title level="s" xml:id="essay.2014presidentialaddress">
+                                
+                                    Presidential Address, Association for Documentary Editing
+                                    Annual Meeting, Ann Arbor, Michigan, 2013
                             </title>
+                          <title level="a"><ref type="html" target="2014/essays/essay.2014presidentialaddress">This Editing Life: The Joys and Imperatives of Documentary Editing</ref></title>
                             <author>Phil Chase <affiliation>Papers of George Washington</affiliation></author>
                         </bibl>
                     </item>
@@ -660,14 +691,14 @@
                         </bibl>
                     </item>
                     
-                    <item>
+                    <item n="presidential">
                         <bibl>
-                            <title level="a" xml:id="essay.2013presidentialaddress">
-                                <ref type="html" target="2013/essays/essay.2013presidentialaddress"
-                                    >The Iceman Cometh?: On Intellectual Access to Documents
-                                    (Presidential Address, Association for Documentary Editing
-                                    Annual Meeting, Charlottesville, Virginia, 2012)</ref>
+                            <title level="s" xml:id="essay.2013presidentialaddress">
+                                
+                                    Presidential Address, Association for Documentary Editing
+                                    Annual Meeting, Charlottesville, Virginia, 2012
                             </title>
+                          <title level="a"><ref type="html" target="2013/essays/essay.2013presidentialaddress">The Iceman Cometh?: On Intellectual Access to Documents</ref></title>
                             <author>Carol DeBoer-Langworthy <affiliation>Brown University</affiliation></author>
                         </bibl>
                     </item>
@@ -803,14 +834,15 @@
                                 University</affiliation></author>
                         </bibl>
                     </item>
-                    <item>
+                    <item n="presidential">
                         <bibl>
-                            <title level="a" xml:id="essay.2012presidentialaddress">
-                                <ref type="html" target="2012/essays/essay.2012presidentialaddress"
-                                    >Documentary Editing in the New Scholarly Ecosystem
-                                    (Presidential Address, Association for Documentary Editing
-                                    Annual Meeting, Salt Lake City, Utah, 2011)</ref>
+                            <title level="s" xml:id="essay.2012presidentialaddress">
+                                
+                                    Presidential Address, Association for Documentary Editing
+                                    Annual Meeting, Salt Lake City, Utah, 2011
                             </title>
+                          <title level="a"><ref type="html" target="2012/essays/essay.2012presidentialaddress"
+                            >Documentary Editing in the New Scholarly Ecosystem</ref></title>
                             <author>Susan H. Perdue <affiliation>University of Virginia</affiliation></author>
                         </bibl>
                     </item>

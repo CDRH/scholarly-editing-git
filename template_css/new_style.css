@@ -1,4 +1,3 @@
-/* @override http://cors1601.unl.edu/cocoon/scholarlyediting_development_karin/template_css/new_style.css */
 
 @font-face{
     font-family: 'goudytwentyregular';
@@ -7,6 +6,10 @@ url('../fonts/goudytwenty/goudytwenty-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
+
+a {
+	color: #d1291b;
 }
 
 sup {
@@ -57,9 +60,14 @@ sup {
 
 .site_index .tei_title.tei_rend_s {
 	margin-top: 0;
-	font-weight: 800;
+	font-weight: 100;
+	font-variant: small-caps;
+	font-size: 1.1em;
 }
 
+.well.editors_craft {
+	background-color: #e9f2ef;
+}
 
 /* Splash Page*/
 

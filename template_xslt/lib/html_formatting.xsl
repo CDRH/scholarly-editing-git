@@ -849,8 +849,13 @@
   <xsl:template match="item">
     <xsl:choose>
       <!-- special formatting for presidential addresses on index pages -->
-      <xsl:when test="./attribute::xml:id='editors_craft' or ./attribute::xml:id='joint_presidential'">
+      <xsl:when test="./attribute::xml:id='joint_presidential' or ./attribute::n='presidential'">
         <li><span class="well">
+          <xsl:apply-templates></xsl:apply-templates>
+        </span></li>
+      </xsl:when>
+      <xsl:when test="./attribute::xml:id='editors_craft' or @n='editorscraft'">
+        <li><span class="well editors_craft">
           <xsl:apply-templates></xsl:apply-templates>
         </span></li>
       </xsl:when>
