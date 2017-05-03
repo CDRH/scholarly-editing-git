@@ -518,7 +518,72 @@
   </xsl:template>-->
 
   <xsl:template match="figure" priority="1">
-    <span class="figure_center">
+    <xsl:choose>
+      <xsl:when test="contains(child::graphic/@url,'pereira.04')">
+        <span class="figure_center_pereira04">
+          <img>
+            <xsl:attribute name="src">
+              <xsl:text>images</xsl:text>
+              <xsl:value-of select="substring-after(child::graphic/attribute::url,'images')"/>
+            </xsl:attribute>
+            <xsl:attribute name="alt">
+              <xsl:value-of select="child::figDesc"/>
+            </xsl:attribute>
+          </img></span>
+        <span class="cap"><h5>
+          <strong><xsl:apply-templates select="child::head"/></strong><!--<xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>-->
+        </h5>
+        </span>
+      </xsl:when>
+      <xsl:when test="contains(child::graphic/@url,'pereira.07')">
+        <span class="figure_center_pereira07"> 
+          <img>
+            <xsl:attribute name="src">
+              <xsl:text>images</xsl:text>
+              <xsl:value-of select="substring-after(child::graphic/attribute::url,'images')"/>
+            </xsl:attribute>
+            <xsl:attribute name="alt">
+              <xsl:value-of select="child::figDesc"/>
+            </xsl:attribute>
+          </img></span>
+        <span class="cap"><h5>
+          <strong><xsl:apply-templates select="child::head"/></strong><!--<xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>-->
+        </h5>
+        </span>
+      </xsl:when>
+      <xsl:when test="contains(child::graphic/@url,'pereira.08')">
+        <span class="figure_center_pereira08">
+          <img>
+            <xsl:attribute name="src">
+              <xsl:text>images</xsl:text>
+              <xsl:value-of select="substring-after(child::graphic/attribute::url,'images')"/>
+            </xsl:attribute>
+            <xsl:attribute name="alt">
+              <xsl:value-of select="child::figDesc"/>
+            </xsl:attribute>
+          </img></span>
+        <span class="cap"><h5>
+          <strong><xsl:apply-templates select="child::head"/></strong><!--<xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>-->
+        </h5>
+        </span>
+      </xsl:when>
+      <xsl:when test="contains(child::graphic/@url,'pereira.09')">
+        <span class="figure_center_pereira09">  
+          <img>
+            <xsl:attribute name="src">
+              <xsl:text>images</xsl:text>
+              <xsl:value-of select="substring-after(child::graphic/attribute::url,'images')"/>
+            </xsl:attribute>
+            <xsl:attribute name="alt">
+              <xsl:value-of select="child::figDesc"/>
+            </xsl:attribute>
+          </img></span>
+        <span class="cap"><h5>
+          <strong><xsl:apply-templates select="child::head"/></strong><!--<xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>-->
+        </h5>  
+        </span>
+      </xsl:when>
+      <xsl:otherwise><span class="figure_center">
       <!--<xsl:attribute name="class">
         <xsl:text>tei_figure</xsl:text>
       </xsl:attribute>-->
@@ -535,7 +600,7 @@
         <strong><xsl:apply-templates select="child::head"/></strong><!--<xsl:text> </xsl:text><xsl:apply-templates select="child::figDesc"/>-->
       </h5>
 
-    </span>
+    </span></xsl:otherwise></xsl:choose>
   </xsl:template>
 
 
