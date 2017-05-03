@@ -613,7 +613,9 @@
       <xsl:when test="//div">
         <h3>
           <xsl:if test="starts-with(parent::div/@xml:id,'v')">
+            <xsl:if test="not(position() = 1)">
             <xsl:attribute name="class"><xsl:text>volume_head</xsl:text></xsl:attribute>
+            </xsl:if>
           </xsl:if>
           <xsl:apply-templates/></h3>
       </xsl:when>
@@ -1190,8 +1192,9 @@
   
   <xsl:template match="list//bibl//author">
     <span class="tei_author">
-    <xsl:choose><xsl:when test="not(preceding-sibling::author)"><xsl:text>by </xsl:text><xsl:apply-templates/></xsl:when>
-      <xsl:when test="preceding-sibling::author and following-sibling::author"><xsl:apply-templates/><xsl:text>, </xsl:text></xsl:when>
+    <xsl:choose>
+      <xsl:when test="not(preceding-sibling::author)"><xsl:text>by </xsl:text><xsl:apply-templates/></xsl:when>
+      <xsl:when test="preceding-sibling::author and following-sibling::author"><xsl:text>, </xsl:text><xsl:apply-templates/><xsl:text>, </xsl:text></xsl:when>
       <xsl:when test="preceding-sibling::author and not(following-sibling::author)"><xsl:text> and </xsl:text><xsl:apply-templates/></xsl:when>
       <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
     </xsl:choose>

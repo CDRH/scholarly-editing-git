@@ -185,7 +185,9 @@
               
               <h5>The Annual of the Association for Documentary Editing</h5>
               
-              <h5><xsl:value-of select="$year"/>, Volume <xsl:value-of select="$volume"/></h5>
+              <xsl:if test="not($type = 'index')">
+                <h5><xsl:value-of select="$year"/>, Volume <xsl:value-of select="$volume"/></h5>
+              </xsl:if>
               
             </div>
           </div>

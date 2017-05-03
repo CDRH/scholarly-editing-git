@@ -53,6 +53,10 @@ sup {
 	margin-top: 2em;
 }
 
+.site_index .tei_body h3.volume_head:first-of-type {
+	border: none;
+}
+
 .site_index .tei_title {
 	display: block;
 	margin-top: .5em;
@@ -85,14 +89,15 @@ span.editors {
 div#content_home {
 	width: 800px;
 	margin: 20px auto 80px auto;
-	background-color: #ffffff;
-	background-color: #ffffff;
+
 	padding: 20px 80px 0px 80px;
-	box-shadow: 0px 0px 20px #636453;
-	-webkit-box-shadow: 0px 0px 20px #636453;
-	-moz-box-shadow: 0px 0px 20px #636453;
-	border: solid 1px #9FA490; 
+	
+	border: solid 4px #9FA490; 
 	text-align: center;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	background-color: #fff;
+	overflow: auto;
 }
 
 .splash_page body {
@@ -427,6 +432,7 @@ span.pagebreak{
 .sitenav.nav > li > a {
 	padding: 5px 10px;
 	font-size: 1.3em;
+	border-radius: 0px;
 }
 
 li.issues, li.issues a {
@@ -434,9 +440,21 @@ li.issues, li.issues a {
 	color: #DF3314;
 }
 
+.nav>li.issues>a:hover,
+.nav>li.issues>a:hover {
+	color: #fff;
+	background-color:#DF3314 !important;
+}
+
 li.editions, li.editions a {
 	border-color: #009775;
 	color: #009775;
+}
+
+.nav>li.editions>a:hover,
+.nav>li.editions>a:hover {
+	color: #fff;
+	background-color:#009775 !important;
 }
 
 li.essays, li.essays a {
@@ -444,14 +462,32 @@ li.essays, li.essays a {
 	color:  #6FC8AF;
 }
 
+.nav>li.essays>a:hover,
+.nav>li.essays>a:hover {
+	color: #fff;
+	background-color:#6FC8AF !important;
+}
+
 li.reviews, li.reviews a {
 	border-color: #007A2E;
 	color: #007A2E;
 }
 
+.nav>li.reviews>a:hover,
+.nav>li.reviews>a:hover {
+	color: #fff;
+	background-color:#007A2E !important;
+}
+
 li.about, li.about a {
 	border-color: #DF3314;
 	color: #DF3314;
+}
+
+.nav>li.about>a:hover,
+.nav>li.about>a:hover {
+	color: #fff;
+	background-color:#DF3314 !important;
 }
 
 .about_link {

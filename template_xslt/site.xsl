@@ -28,7 +28,7 @@
   
   <xsl:template match="/">   
     <html>
-      <head><title><xsl:value-of select="$title/text()"/></title></head>
+      <head><title><xsl:value-of select="$title"/></title></head>
     <body>
       <h1><xsl:copy-of select="$title"/></h1>
       
