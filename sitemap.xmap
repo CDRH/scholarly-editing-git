@@ -1409,11 +1409,11 @@
         </map:pipeline>
       
 
-        <!--<map:pipeline type="noncaching">
+        <map:pipeline type="noncaching">
             <map:match pattern="2012/editions/baroness/**">
                 <map:read src="2012/editions/baroness/{1}"/>
             </map:match>
-        </map:pipeline>-->
+        </map:pipeline>
       
       <!-- XML file links here in one of the docs, should change -->
       <map:pipeline>
