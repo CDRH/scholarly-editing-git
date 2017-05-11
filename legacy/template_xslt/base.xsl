@@ -27,8 +27,9 @@
             <head>
                 <meta http-equiv="x-ua-compatible" content="IE=Edge"/>
                 <link>
-                    <xsl:attribute name="href">http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic&amp;subset=latin,latin-ext'
-                        rel='stylesheet' type='text/css</xsl:attribute>
+                    <xsl:attribute name="href">http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic&amp;subset=latin,latin-ext</xsl:attribute>
+                    <xsl:attribute name="rel">stylesheet</xsl:attribute>
+                    <xsl:attribute name="type">text/css</xsl:attribute>
                 </link>
                 <title>Scholarly Editing: The Annual of the Association for Documentary
                     Editing</title>
