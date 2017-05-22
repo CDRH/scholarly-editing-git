@@ -329,7 +329,8 @@
           </xsl:choose>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:apply-templates/>
+          <!--formatting titles-->
+          <span class="byline"><xsl:if test="ancestor::front"><xsl:text>by </xsl:text></xsl:if><xsl:apply-templates/></span><br/>
         </xsl:otherwise>
       </xsl:choose>
     </h4>
@@ -768,10 +769,10 @@
   <xsl:template match="//front//head">
     <xsl:choose>
       <xsl:when test="@type='sub'">
-        <h4><xsl:apply-templates/></h4>
+        <h3><xsl:apply-templates/></h3>
       </xsl:when>
       <xsl:otherwise>
-        <h3><xsl:apply-templates/></h3>
+        <h2><xsl:apply-templates/></h2>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

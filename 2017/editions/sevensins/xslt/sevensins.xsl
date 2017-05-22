@@ -563,11 +563,11 @@
           <xsl:apply-templates/>
         </h4>
       </xsl:when>
-      <xsl:when test="preceding::*[name() = 'head']">
+      <!--<xsl:when test="preceding::*[name() = 'head']">
         <h4>
           <xsl:apply-templates/>
         </h4>
-      </xsl:when>
+      </xsl:when>-->
       <xsl:otherwise>
         <h3>
           <xsl:apply-templates/>
@@ -634,6 +634,10 @@
       </xsl:otherwise>
     </xsl:choose>
     
+  </xsl:template>
+  
+  <xsl:template match="ab">
+    <xsl:apply-templates/><br/><br/>
   </xsl:template>
   
   

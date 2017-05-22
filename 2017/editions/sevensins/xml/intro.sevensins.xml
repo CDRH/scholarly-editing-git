@@ -403,11 +403,11 @@
                    
                     <graphic url="sun.jpg"/>
                 </figure>
-                <p>&lt;w&gt;su&lt;choice&gt;<lb/>
+                <ab>&lt;w&gt;su&lt;choice&gt;<lb/>
                     &lt;abbr&gt;&lt;am&gt;&amp;#x305;&lt;/am&gt;&lt;/abbr&gt;<lb/>
                    &lt;expan&gt;n&lt;/expan&gt;<lb/>
                    &lt;/choice&gt;&lt;/w&gt;
-                </p> 
+                </ab> 
                 
                 <p>I have recorded substantive variants as &lt;rdg&gt;s within the &lt;app&gt;  element, using the “double-end-point” encoding method. In these, I have used &lt;lem&gt;  to indicate the preferred readings from the three witnesses. In the apparatus of the edition, these appear in bold type. Since the Bodleian manuscript is relatively free from error, in almost all cases, &lt;lem&gt;  indicates a reading from the Bodleian manuscript. So, for example, at line 4, the three witnesses give the following variants: </p>
                 <list>
@@ -417,13 +417,13 @@
                 </list>
                 <p>The Bodleian manuscript preserves the right reading here, since the reading of the Emmanuel manuscript was apparently created through eyeskip, the scribe mistakenly copying a word from two lines further down in his exemplar. I have therefore marked these variants as
                 </p>
-                <p>
+                <ab>
                 Estriuer saunz &lt;anchor xml:id="Org.4a"/&gt;bosoign<lb/>
                 &lt;app from="#Org.4a"&gt;<lb/>
                 &lt;lem wit="#Bd">bosoign&lt;/lem&gt;<lb/>
                 &lt;rdg wit="#Tr">busuin&lt;/rdg&gt;<lb/>
                 &lt;rdg wit="#Em">encheisun&lt;/rdg&gt;<lb/>
-                &lt;/app&gt;<lb/></p>
+                &lt;/app&gt;</ab>
                 <p>There are, however, a few cases, all noted, in which I have emended the base text by using &lt;lem&gt; to mark better readings taken from the other witnesses.
                         <note type="editorial" resp="#kam">The first case occurs at line 6 of the section on Pride. In the Bodleian MS, two effects, listed separately in the other manuscripts, have been placed together on one line, undoubtedly to save space. The latter organization is clearly preferable, since it maintains the seven species divisions found in other manuscripts. I have marked the reading in the Emmanuel College copy as the better one in this case because the Trinity one contains an error (“contraius” for “contrarius”). In line 4 of the section on Ire, the Bodleian manuscript contains an apparent error—the word “eschamer,” which is not attested in the Anglo-Norman dictionary. I have therefore emended it to the Trinity MS reading, “escharnier,” again using the &lt;lem&gt; element. At line 6 of sloth, I have chosen the reading from the Emmanuel College manuscript “en despeyr” over the apparently erroneous reading of the Bodleian manuscript, “en des espeir.” For the first line of “Avarice,” the Bodleian manuscript omits “plus coyntement,” which is found in the other two manuscripts. Since it is more likely that this was omitted from the tradition rather than added to it, I have used &lt;lem&gt; for the reading in the Trinity manuscript. In line 4 of Gluttony, the Emmanuel College manuscript has “Tout tuite” whereas the Bodleian and Trinity manuscripts have “Tout”; I have used the Emmanuel college reading because the absence of “tuite” in the other manuscripts is likely to have resulted from eyeskip. </note> 
                   </p>
