@@ -91,6 +91,7 @@
       or //body//note[@place = 'foot']
       or //back//note">
       <div class="notesList">
+        <xsl:if test="contains(preceding::idno[@type='file'], 'script')"><br/></xsl:if>
         <h2>Notes</h2>
         <xsl:if test="preceding::bibl//note[@type='project']"><div class="footnote"><xsl:apply-templates select="preceding::bibl//note[@type='project']"/></div></xsl:if>
         <xsl:for-each select="//text//note">
