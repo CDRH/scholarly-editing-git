@@ -284,7 +284,7 @@
     <xsl:if test="@n"><span class="page_number"><xsl:apply-templates select="@n"/></span></xsl:if>
   </xsl:template>
   
-  <!--this one--><xsl:template match="list[not(ancestor::list)]/item/pb | list[not(ancestor::list)]/item/p/pb | list[not(ancestor::list)]/pb">
+  <xsl:template match="list[not(ancestor::list)]/item/pb | list[not(ancestor::list)]/item/p/pb | list[not(ancestor::list)]/pb">
     <xsl:choose>
       <xsl:when test="following-sibling::*[1][self::figure]"><span>
         <xsl:if test="@xml:id"><xsl:attribute name="id" select="@xml:id"/></xsl:if>
@@ -640,6 +640,10 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+ 
+ <xsl:template match="p[contains(preceding::idno[@type='file'],'intro')]">
+   <span class="tei_intro"><p><xsl:apply-templates/></p></span>
+ </xsl:template>
   
   
 </xsl:stylesheet>
