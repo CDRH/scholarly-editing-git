@@ -330,7 +330,7 @@
         </xsl:when>
         <xsl:otherwise>
           <!--formatting titles-->
-          <span class="byline"><xsl:if test="ancestor::front"><xsl:text>by </xsl:text></xsl:if><xsl:apply-templates/></span><br/>
+          <span class="byline"><xsl:if test="ancestor::front"><!--<xsl:text>by </xsl:text>--></xsl:if><xsl:apply-templates/></span><br/>
         </xsl:otherwise>
       </xsl:choose>
     </h4>
