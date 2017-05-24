@@ -753,7 +753,7 @@
     <fo:block text-align="center" font-size="8pt">[<xsl:apply-templates></xsl:apply-templates>]</fo:block>
   </xsl:template>
   
-  <xsl:template match="//tei:del[@type = 'strikethrough']">
+  <xsl:template match="//tei:del[@type = 'strikethrough'] | //tei:del[@rend = 'overstrike']">
     <fo:inline text-decoration="line-through">
       <xsl:apply-templates></xsl:apply-templates>
     </fo:inline>

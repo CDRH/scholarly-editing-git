@@ -5,3 +5,9 @@ $(function () {
         fixedNavigation: true
     });
 });
+
+//$(function () {
+//    $('.figure_lightbox a').lightBox({
+//        fixedNavigation: true
+//    });
+//});

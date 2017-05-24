@@ -8,6 +8,7 @@
   <xsl:param name="year"/>
   <xsl:param name="volume"/>
   <xsl:param name="type"/>
+  <xsl:param name="title"/>
   <!-- View: blank or fullpage 
   I plan to use this when the edition needs to take up the full width of the page
   -->
@@ -49,6 +50,9 @@
     <xsl:choose>
       <xsl:when test="$type = 'essay'">
         <xsl:text>Essays</xsl:text>
+      </xsl:when>
+      <xsl:when test="$type = 'review'">
+        <xsl:text>Reviews</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:copy-of select="//body/h1[1]/node()"/>
@@ -210,7 +214,19 @@
           
           
           
-          <div class="main_content">
+          <div>
+            <xsl:attribute name="class">
+              <xsl:text>main_content</xsl:text>
+              <xsl:if test="$type != ''">
+                <xsl:text> page_</xsl:text>
+                <xsl:value-of select="$type"/>
+              </xsl:if>
+            </xsl:attribute>
+            
+            <!-- Add PDF link if an essay -->
+            <xsl:if test="$type = 'essay'"><div class="essay_link"><a href="{$siteroot}{$year}/pdf/essay.{$title}.pdf" class="pull-right"><img src="{$siteroot}template_images/pdf.png"/> PDF</a></div></xsl:if>
+           
+            
             
             
             <!-- remove grids if full width -->

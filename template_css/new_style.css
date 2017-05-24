@@ -19,6 +19,31 @@ sup {
 
 /* - - - - to categorize - - - - */ 
 
+.essay_link {padding:10px;}
+
+.page_review ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.page_review li p {
+	text-indent: 0;
+	margin-bottom: 1.5em;
+}
+
+.tei_list_type_bulleted li {
+	list-style: disc;
+}
+
+li {
+	margin-bottom: .5em !important;
+}
+
+strong {
+	font-weight: 900;
+}
+
 /* Index pages */
 
 .site_index .tei_body ul{
@@ -898,4 +923,4 @@ span.supplied {
 span.byline {
     text-align: right;
     display: block;
-}
+}             

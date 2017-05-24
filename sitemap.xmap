@@ -164,9 +164,10 @@
                 <map:generate src="{1}/essays/essay.{2}.xml"/>
                 <map:transform type="xslt" src="template_xslt/site.xsl"> </map:transform>
                 <map:transform src="template_xslt/html_template.xsl">
-                    <map:parameter name="volume" value="38"/>
-                    <map:parameter name="year" value="2017"/>
+                  <map:parameter name="volume" value="38"/>
+                  <map:parameter name="year" value="2017"/>
                   <map:parameter name="type" value="essay"/>
+                  <map:parameter name="title" value="{2}"/>
                 </map:transform>
                 <map:serialize type="html"/>
             </map:match>
@@ -229,6 +230,7 @@
                 <map:transform src="template_xslt/html_template.xsl">
                     <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
+                  <map:parameter name="type" value="review"/>
                 </map:transform>
                 <map:serialize type="html"/>
             </map:match>
