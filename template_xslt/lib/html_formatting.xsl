@@ -1246,8 +1246,9 @@
 <!-- ================================================ -->
   <!--                     AUTHORS AND EDITORS          -->
   <!-- ================================================ -->
-  <xsl:template match="bibl">
-    <xsl:apply-templates select="title"/>
+  <xsl:template match="bibl"><!--Nikki got this far-->
+    <xsl:variable name="href">2017/pdf/<xsl:value-of select="child::title/@xml:id"/>.pdf</xsl:variable>
+    <xsl:apply-templates select="title"/><xsl:if test="contains(child::title/@xml:id,'essay') or contains(child::title/@xml:id,'review')"><a href="{$href}">[PDF]</a></xsl:if>
     <span class="indexauthor"><xsl:apply-templates select="author"/></span>
     <span class="indexeditor"><xsl:apply-templates select="editor"/></span>
     
