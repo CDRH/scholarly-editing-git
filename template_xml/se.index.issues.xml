@@ -138,6 +138,14 @@
                
                 <list type="simple" xml:id="essays2017"><head type="main">Essays</head>
                     
+                    <item>
+                        <bibl>
+                            <title level="a" xml:id="essay.eilefson">
+                                <ref type="html" target="2017/essays/essay.eilefson">“Try Simply to Tell”: Translation, Censorship, and Erich Maria Remarque’s <hi rend="italic">All Quiet on the Western Front</hi></ref>
+                            </title>
+                            <author>Sarah Eilefson <affiliation>Loyola University Chicago</affiliation></author>
+                        </bibl>
+                    </item>
                     
                     <item>
                         <bibl>
@@ -157,14 +165,16 @@
                         </bibl>
                     </item>
                     
-                    <!--<item xml:id="joint_presidential" n="presidential"> <title level="s">Presidential Addresses from Joint Conference of the Society for Textual Scholarship and the Association for Documentary Editing, University of Nebraska-Lincoln, June 17-20, 2016</title><bibl> <title level="a" xml:id="essay.lupton"> <ref type="html"
-                        target="2016/essays/essay.lupton"
-                        >Navigating the Space-Time Continuum</ref>
-                    </title>
-                        <author>John A. Lupton <affiliation>President, Association for Documentary Editing</affiliation></author>
-                    </bibl> 
-                        
-                    </item>-->
+                    <item n="presidential">
+                        <bibl>
+                            <title level="s" xml:id="essay.2016presidentialaddress">
+                                Presidential Address, Association for Documentary Editing
+                                Annual Meeting, New Orleans, Louisiana, 2016</title>
+                            <title level="a"><ref type="html" target="2015/essays/essay.2016presidentialaddress">George Washington’s Boyhood Book: Lost, Found, and Lost Again</ref></title>
+                            
+                            <author>Theodore J. Crackel <!--<affiliation>Papers of Thomas Jefferson, Princeton University</affiliation>--></author>
+                        </bibl>
+                    </item>
                 </list>
                 
                 <list type="simple" xml:id="reviews2017">

@@ -644,7 +644,7 @@
   <xsl:template match="head">
     <!-- need to fix for handwritten text -KD -->
     <xsl:choose>
-      <xsl:when test="contains(preceding::idno[@type='file'],'review')">
+      <xsl:when test="contains(preceding::idno[@type='file'],'review.')">
         <br/>
         <h4><xsl:apply-templates/></h4>
         <br/>
@@ -1138,7 +1138,7 @@
 
   <xsl:template match="//signed">
     <xsl:choose>
-      <xsl:when test="contains(preceding::idno[@type='file'],'review')">
+      <xsl:when test="contains(preceding::idno[@type='file'],'review.')">
         <span class="byline"><xsl:apply-templates/></span>
       </xsl:when>
       <xsl:otherwise><br/>
@@ -1280,7 +1280,7 @@
 
 <xsl:template match="affiliation">
   <xsl:choose>
-    <xsl:when test="contains(preceding::idno[@type='file'],'review')">
+    <xsl:when test="contains(preceding::idno[@type='file'],'review.')">
       <br/><xsl:apply-templates/>
     </xsl:when>
     <xsl:otherwise><span class="tei_affiliation">
