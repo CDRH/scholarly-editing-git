@@ -76,12 +76,12 @@
       <div class="notesList">
         <h2>Notes</h2>
         <xsl:for-each select="//text//note">
-          <p class="footnote">
+          <div class="footnote">
             <xsl:attribute name="id">
               <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
             <xsl:apply-templates select="." mode="footnotes"/>
-          </p>
+          </div>
         </xsl:for-each>
       </div>
     </xsl:if>
@@ -151,15 +151,17 @@
     <span class="note_text">
       <xsl:apply-templates/>
     </span>
-    <xsl:text> [</xsl:text>
-    <a>
-      <xsl:attribute name="href">
-        <xsl:text>#inline</xsl:text>
-        <xsl:value-of select="@xml:id"/>
-      </xsl:attribute>
-      <xsl:text>back</xsl:text>
-    </a>
-    <xsl:text>]</xsl:text>
+    <span class="footnote_back">
+      <xsl:text> [</xsl:text>
+      <a>
+        <xsl:attribute name="href">
+          <xsl:text>#inline</xsl:text>
+          <xsl:value-of select="@xml:id"/>
+        </xsl:attribute>
+        <xsl:text>back</xsl:text>
+      </a>
+      <xsl:text>]</xsl:text>
+    </span>
   </xsl:template>
 
   <!-- ~~~~~~ Add Code to deal with ptr's ~~~~~~~ -->
@@ -1246,9 +1248,16 @@
 <!-- ================================================ -->
   <!--                     AUTHORS AND EDITORS          -->
   <!-- ================================================ -->
-  <xsl:template match="bibl"><!--Nikki got this far-->
-    <xsl:variable name="href">2017/pdf/<xsl:value-of select="child::title/@xml:id"/>.pdf</xsl:variable>
-    <xsl:apply-templates select="title"/><xsl:if test="contains(child::title/@xml:id,'essay') or contains(child::title/@xml:id,'review')"><a href="{$href}">[PDF]</a></xsl:if>
+  <xsl:template match="bibl">
+    
+    <xsl:apply-templates select="title"/>
+    <xsl:if test="contains(child::title/@xml:id,'essay') or contains(child::title/@xml:id,'review')">
+      <xsl:variable name="year"><xsl:value-of select="substring(title/ref[1]/@target,1,4)"/></xsl:variable>
+      <xsl:variable name="href"><xsl:value-of select="$year"/>/pdf/<xsl:value-of select="child::title/@xml:id"/>.pdf</xsl:variable>
+      <xsl:text> [</xsl:text>
+      <a href="{$href}">PDF</a>
+      <xsl:text>] </xsl:text>
+    </xsl:if>
     <span class="indexauthor"><xsl:apply-templates select="author"/></span>
     <span class="indexeditor"><xsl:apply-templates select="editor"/></span>
     

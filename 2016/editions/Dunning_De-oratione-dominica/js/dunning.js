@@ -39,25 +39,22 @@ $( document ).ready(function() {
 
 $( document ).ready(function() {
   $(".line_breaks").clicktoggle(
-      function () {
-          
-          $(this).text("Enable Line Breaks");
-          $("br").addClass("br_regularized");
-          $("br").removeClass("br_diplomatic");
-          $(this).addClass("selected");
-          $(".tei_lb, .tei_pb_label").hide();
-          event.preventDefault();
-   
-      },
-      function () {
-          $(this).text("Disable Line Breaks");
-          $("br").addClass("br_diplomatic");
-          $("br").removeClass("br_regularized");
-          $(this).removeClass("selected");
-          $(".tei_lb, .tei_pb_label").show();
-          event.preventDefault();
-     
-      }
+    function () {
+        $(this).text("Enable Line Breaks");
+        $("br").addClass("br_regularized");
+        $("br").removeClass("br_diplomatic");
+        $(this).addClass("selected");
+        $(".tei_lb, .tei_pb_label").hide();
+        event.preventDefault();
+    },
+    function () {
+        $(this).text("Disable Line Breaks");
+        $("br").addClass("br_diplomatic");
+        $("br").removeClass("br_regularized");
+        $(this).removeClass("selected");
+        $(".tei_lb, .tei_pb_label").show();
+        event.preventDefault();
+    }
   );
 });
 

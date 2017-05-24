@@ -73,12 +73,12 @@
 				  <xsl:if test="//tei:note[@type='an']">				  
                                     <h2>Explanatory Notes</h2>
                                     <xsl:for-each select="//tei:div1/descendant::tei:note[@place='foot']">
-                                      <p class="footnote">
+                                      <div class="footnote">
                                         <xsl:attribute name="id">
                                           <xsl:value-of select="@xml:id"/>
                                         </xsl:attribute>
                                         <xsl:apply-templates select="." mode="footnotes"/>
-                                      </p>
+                                      </div>
                                     </xsl:for-each>
 				  </xsl:if>
                                     <!--<br class="clear"/>--><!-- kmd -->

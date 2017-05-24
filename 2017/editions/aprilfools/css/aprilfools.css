@@ -294,3 +294,23 @@ p.indentsalute {
   margin: .5em 0 .5em 0;
 }
 
+/* Fix for note within blockquote */
+
+div#an022 {
+	overflow: auto;
+}
+
+div#an022 .footnote_back {
+	display: inline-block;
+	margin-top: 4.6em;
+}
+
+.blockquote {
+
+	display: inline-block;
+	height: auto;
+	padding-left: 2em;
+	width: 90%;
+	float: left;
+	}
+

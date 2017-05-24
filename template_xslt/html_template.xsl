@@ -223,8 +223,8 @@
               </xsl:if>
             </xsl:attribute>
             
-            <!-- Add PDF link if an essay -->
-            <xsl:if test="$type = 'essay'"><div class="essay_link"><a href="{$siteroot}{$year}/pdf/essay.{$title}.pdf" class="pull-right"><img src="{$siteroot}template_images/pdf.png"/> PDF</a></div></xsl:if>
+            <!-- Add PDF link if an essay or review -->
+            <xsl:if test="$type = 'essay' or $type = 'review'"><div class="essay_link"><a href="{$siteroot}{$year}/pdf/{$type}.{$title}.pdf" class="pull-right"><img src="{$siteroot}template_images/pdf.png"/> PDF</a></div></xsl:if>
            
             
             

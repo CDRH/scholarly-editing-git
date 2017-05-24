@@ -231,6 +231,7 @@
                     <map:parameter name="volume" value="38"/>
                     <map:parameter name="year" value="2017"/>
                   <map:parameter name="type" value="review"/>
+                  <map:parameter name="title" value="{2}"/>
                 </map:transform>
                 <map:serialize type="html"/>
             </map:match>
@@ -238,7 +239,7 @@
 
         <!-- ====================================
                          2017
-      ====================================== -->
+        ====================================== -->
         
         <!-- April Fools -->
       

@@ -439,6 +439,14 @@
   <xsl:template match="lg[@type='stanza']">
     <p class="stanza"><xsl:apply-templates/></p>
   </xsl:template>
+  
+  <!-- quotes -->
+  
+  <xsl:template match="quote">
+    <br/><br/><span class="blockquote">
+      <xsl:apply-templates/>
+    </span><br/><br/>
+  </xsl:template>
 
   
   <!-- ~~~~~~~~~~~

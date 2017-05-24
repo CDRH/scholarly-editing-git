@@ -1,4 +1,5 @@
 
+
 @font-face{
     font-family: 'goudytwentyregular';
     src: url('../fonts/goudytwenty/goudytwenty-webfont.woff2') format('woff2'), 
@@ -12,10 +13,16 @@ a {
 	color: #d1291b;
 }
 
+a:hover, a:visited {
+  color: #A31310;
+}
+
 sup {
 	line-height: inherit;
 	
 }
+
+
 
 /* - - - - to categorize - - - - */ 
 
@@ -83,8 +90,13 @@ strong {
 }
 
 .site_index .tei_title {
-	display: block;
+	/*display: block;*/ /* Commented this out because it was making [PDF] appear 
+	on new line, not sure if it breaks something else */
 	margin-top: .5em;
+}
+
+.tei_title.tei_rend_s {
+	display: block;
 }
 
 .site_index .tei_title.tei_rend_s {
@@ -104,12 +116,19 @@ span.editors {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: 'goudytwentyregular', Georgia, "Times New Roman", Times, serif;
+	font-family: 'EB Garamond', Georgia, "Times New Roman", Times, serif;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	font-size: 1.7em;
-	font-variant: small-caps;
+	font-weight: 100;
 }
+
+.indexnav {
+	margin-bottom: -3em;
+}
+
+
 
 div#content_home {
 	width: 800px;
@@ -442,9 +461,9 @@ span.pagebreak{
 	display: block;
 	font-family: 'goudytwentyregular', serif;
 	font-variant: small-caps;
-	word-spacing: -.1em;
+	word-spacing: -.2em;
 	letter-spacing: -.01em;
-	font-size: 1.3em;
+	font-size: 1.25em;
 	margin: .1em 0;
 }
 
