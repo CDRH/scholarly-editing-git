@@ -642,6 +642,11 @@
   <xsl:template match="head">
     <!-- need to fix for handwritten text -KD -->
     <xsl:choose>
+      <xsl:when test="contains(preceding::idno[@type='file'],'review')">
+        <br/>
+        <h4><xsl:apply-templates/></h4>
+        <br/>
+      </xsl:when>
       <xsl:when test="ancestor::*[name() = 'p']">
         <span class="head">
           <xsl:apply-templates/>
@@ -1064,9 +1069,15 @@
   </xsl:template>
 
   <xsl:template match="q">
-    <span class="inline_quote">
+    <xsl:choose>
+      <xsl:when test="@rend='block'">
+        <br/><br/><span class="blockquote">
+          <xsl:apply-templates/>
+        </span><br/><br/>
+      </xsl:when>
+      <xsl:otherwise><span class="inline_quote">
       <xsl:apply-templates/>
-    </span>
+    </span></xsl:otherwise></xsl:choose>
   </xsl:template>
 
   <xsl:template match="xref[@n]">
@@ -1124,8 +1135,12 @@
   <!-- ================================================ -->
 
   <xsl:template match="//signed">
-    <br/>
-    <xsl:apply-templates/>
+    <xsl:choose>
+      <xsl:when test="contains(preceding::idno[@type='file'],'review')">
+        <span class="byline"><xsl:apply-templates/></span>
+      </xsl:when>
+      <xsl:otherwise><br/>
+    <xsl:apply-templates/></xsl:otherwise></xsl:choose>
   </xsl:template>
 
   <!-- ================================================ -->
@@ -1254,9 +1269,13 @@
   </xsl:template>
 
 <xsl:template match="affiliation">
-  <span class="tei_affiliation">
+  <xsl:choose>
+    <xsl:when test="contains(preceding::idno[@type='file'],'review')">
+      <br/><xsl:apply-templates/>
+    </xsl:when>
+    <xsl:otherwise><span class="tei_affiliation">
   <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
-  </span>
+  </span></xsl:otherwise></xsl:choose>
 </xsl:template>
   
   <xsl:template match="list//bibl//editor">
