@@ -55,7 +55,33 @@
     </teiHeader>
     <text>
         <body>
-            <!--<head type="main">Reviews</head>-->
+            <div xml:id="v38_2017">
+                <head type="main">Volume 38, 2017</head>
+            <list type="simple" xml:id="reviews2017">
+                <head type="main">Reviews</head>  
+                <item>
+                    <bibl>
+                        <title level="a" xml:id="review.konig">
+                            <ref type="html" target="2017/reviews/review.konig"><hi rend="italic">St. George Tucker’s Law Reports and Selected Papers 1782-1825</hi>. Edited by Charles F. Hobson, with Joan F. Lovelace, Managing Editor. Chapel Hill: University of North Carolina Press for the Omohundro Institute of Early American History and Culture, Williamsburg, VA, 2013.</ref>
+                        </title>
+                        <author>David Thomas Konig <affiliation>Washington University in St. Louis</affiliation></author>
+                        
+                    </bibl>
+                </item>
+            </list>
+            <list type="simple" xml:id="recenteditions2017">
+                <item>
+                    <bibl>
+                        <title level="a" xml:id="review.recenteditions2017">
+                            <ref type="html" target="2017/reviews/review.recenteditions2017"
+                                >Recent Editions</ref>
+                        </title>
+                        <author>Ellen C. Hickman <affiliation>Papers of Thomas Jefferson: Retirement Series</affiliation></author>
+                    </bibl>
+                </item>
+            </list>
+            </div>
+            
             <div xml:id="v37_2016">
                 <head type="main">Volume 37, 2016</head>
                 <list type="simple" xml:id="reviews2016">

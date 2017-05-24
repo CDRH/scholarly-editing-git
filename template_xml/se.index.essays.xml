@@ -64,23 +64,61 @@
     </teiHeader>
     <text>
         <body>
-            <!--<head type="main">Essays</head>-->
             
             <div xml:id="v38_2017">
                 <head type="main">Volume 38, 2017</head>
-                <list type="simple" xml:id="essays2017">
-                    <item>
-                        <bibl>
-                            <title level="a" xml:id="essay.v38intro">
-                                <ref type="html" target="2017/essays/essay.v38intro">Introduction to
-                                    Volume 38 of <hi rend="italic">Scholarly Editing: The Annual of
-                                        the Association for Documentary Editing</hi></ref>
-                            </title>
-                            <author>Nicole Gray <affiliation>University of
-                                Nebraska&#8211;Lincoln</affiliation></author>
-                        </bibl>
-                    </item>
-                    
+                
+                    <list type="simple" xml:id="essays2017"><head type="main">Essays</head>
+                        <item>
+                            <bibl>
+                                <title level="a" xml:id="essay.v38intro">
+                                    <ref type="html" target="2017/essays/essay.v38intro">Introduction to
+                                        Volume 38 of <hi rend="italic">Scholarly Editing: The Annual of
+                                            the Association for Documentary Editing</hi></ref>
+                                </title>
+                                <author>Nicole Gray <affiliation>University of
+                                    Nebraska&#8211;Lincoln</affiliation></author>
+                            </bibl>
+                        </item>
+                        
+                        <item>
+                            <bibl>
+                                <title level="a" xml:id="essay.eilefson">
+                                    <ref type="html" target="2017/essays/essay.eilefson">“Try Simply to Tell”: Translation, Censorship, and Erich Maria Remarque’s <hi rend="italic">All Quiet on the Western Front</hi></ref>
+                                </title>
+                                <author>Sarah Eilefson <affiliation>Loyola University Chicago</affiliation></author>
+                            </bibl>
+                        </item>
+                        
+                        <item>
+                            <bibl>
+                                <title level="a" xml:id="essay.homestead">
+                                    <ref type="html" target="2017/essays/essay.homestead">The Composing, Editing, and Publication of Willa Cather’s <hi rend="italic">Obscure Destinies</hi> Stories</ref>
+                                </title>
+                                <author>Melissa Homestead <affiliation>University of Nebraska&#8211;Lincoln</affiliation></author>
+                            </bibl>
+                        </item>
+                        
+                        <item>
+                            <bibl>
+                                <title level="a" xml:id="essay.pereira">
+                                    <ref type="html" target="2017/essays/essay.pereira">Multiple Authorship and Intermedia Revision: An Editorial Approach to Pedro Homem de Mello's Poems Adapted to Fado</ref>
+                                </title>
+                                <author>Elsa Pereira <affiliation>CLUL - Centro de Linguística da Universidade de Lisboa, Fundação para a Ciência e a Tecnologia</affiliation></author>
+                            </bibl>
+                        </item>
+                        
+                        <item n="presidential">
+                            <bibl>
+                                <title level="s" xml:id="essay.2016presidentialaddress">
+                                    Presidential Address, Association for Documentary Editing
+                                    Annual Meeting, New Orleans, Louisiana, 2016</title>
+                                <title level="a"><ref type="html" target="2017/essays/essay.2016presidentialaddress">George Washington’s Boyhood Book: Lost, Found, and Lost Again</ref></title>
+                                
+                                <author>Theodore J. Crackel <affiliation>President, Association for Documentary Editing</affiliation></author>
+                            </bibl>
+                        </item>
+                    </list>
                     <!--<item>
                         <bibl>
                             <title level="a" xml:id="essay.alpertabrams">
@@ -92,7 +130,6 @@
                                 Austin</affiliation></author>
                         </bibl>
                     </item>-->
-                </list>
             </div>
 
             <div xml:id="v37_2016">
