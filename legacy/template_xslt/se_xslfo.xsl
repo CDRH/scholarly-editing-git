@@ -251,7 +251,7 @@
               <xsl:when test="starts-with($idno, 'review')">
                 <xsl:choose>
                   <xsl:when test="starts-with($idno, 'review.recenteditions')">
-                    <fo:block font-size="20pt" text-align="left" padding-top="3pc" wrap-option="wrap" font-family="Goudy Bookletter 1911">
+                    <fo:block font-size="20pt" text-align="left" padding-top="3pc" wrap-option="wrap" font-family="Goudy Bookletter 1911"  keep-with-next="always">
                       <xsl:apply-templates></xsl:apply-templates>
                     </fo:block>
                   </xsl:when>
@@ -259,13 +259,13 @@
                     <xsl:choose>
                       <xsl:when test="preceding-sibling::tei:head[@type = 'main']">
                         <fo:block font-size="12pt" text-align="left" padding-top="0pc" wrap-option="wrap" font-family="Goudy Bookletter 1911"
-                          padding-bottom="1pc">
+                          padding-bottom="1pc" keep-with-next="always">
                           <xsl:apply-templates></xsl:apply-templates>
                         </fo:block>
                       </xsl:when>
                       <xsl:otherwise>
                         <fo:block font-size="12pt" text-align="left" padding-top="3pc" wrap-option="wrap" font-family="Goudy Bookletter 1911"
-                          padding-bottom="1pc">
+                          padding-bottom="1pc" keep-with-next="always">
                           <xsl:apply-templates></xsl:apply-templates>
                         </fo:block>
                       </xsl:otherwise>
@@ -275,7 +275,7 @@
                 </xsl:choose>
               </xsl:when>
               <xsl:otherwise>
-                <fo:block font-size="20pt" text-align="left" padding-top="3pc" wrap-option="wrap" font-family="Goudy Bookletter 1911">
+                <fo:block font-size="20pt" text-align="left" padding-top="3pc" wrap-option="wrap" font-family="Goudy Bookletter 1911" keep-with-next="always">
                   <xsl:apply-templates></xsl:apply-templates>
                 </fo:block>
                 <xsl:if test="following-sibling::tei:head[@type = 'sub']">
@@ -293,7 +293,7 @@
                     </xsl:for-each>
                   </xsl:variable>
                   <fo:block font-size="16pt" text-align="left" padding-top="0pc" margin-bottom="10pt" wrap-option="wrap"
-                    font-family="Goudy Bookletter 1911">
+                    font-family="Goudy Bookletter 1911" keep-with-next="always">
                     <xsl:copy-of select="$subheads"></xsl:copy-of>
                   </fo:block>
                 </xsl:if>
@@ -301,7 +301,7 @@
             </xsl:choose>
           </xsl:when>
           <xsl:when test="parent::tei:div[@type = 'section']">
-            <fo:block font-size="12pt" text-align="left" padding-top="1pc" padding-bottom="1pc" font-family="Goudy Bookletter 1911">
+            <fo:block font-size="12pt" text-align="left" padding-top="1pc" padding-bottom="1pc" font-family="Goudy Bookletter 1911" keep-with-next="always">
               <xsl:apply-templates/>
             </fo:block>
           </xsl:when>
@@ -310,7 +310,7 @@
       <!-- added this otherwise because headings were not showing up otherwise -kmd -->
       <xsl:otherwise>
         <xsl:if test="not(preceding-sibling::tei:head[@type = 'main'])">
-          <fo:block font-size="12pt" text-align="left" padding-top="1pc" padding-bottom="1pc" font-family="Goudy Bookletter 1911">
+          <fo:block font-size="12pt" text-align="left" padding-top="1pc" padding-bottom="1pc" font-family="Goudy Bookletter 1911" keep-with-next="always">
             <xsl:apply-templates/>
           </fo:block>
         </xsl:if>
