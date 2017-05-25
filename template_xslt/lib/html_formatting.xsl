@@ -1073,9 +1073,17 @@
   <xsl:template match="q">
     <xsl:choose>
       <xsl:when test="@rend='block'">
-        <br/><br/><span class="blockquote">
+        <xsl:choose>
+          <!--<xsl:when test="following-sibling::q[@rend='block'][1] and not(following-sibling::text()[1])">-->
+          <xsl:when test="following-sibling::node()[1][self::q[@rend='block']] or following-sibling::node()[1][self::text()[not(normalize-space())]] and following-sibling::node()[2][self::q[@rend='block']]">
+            <br/><br/><span class="blockquote">
+              <xsl:apply-templates/>
+            </span>
+          <!--</xsl:when>-->
+          </xsl:when>
+          <xsl:otherwise><br/><br/><span class="blockquote">
           <xsl:apply-templates/>
-        </span><br/><br/>
+        </span><br/><br/></xsl:otherwise></xsl:choose>
       </xsl:when>
       <xsl:otherwise><span class="inline_quote">
       <xsl:apply-templates/>
