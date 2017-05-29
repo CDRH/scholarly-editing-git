@@ -22,6 +22,15 @@
     text-indent: 35px;
 }
 
+.tei_body p {
+    text-indent:2em;
+    text-align:left;
+}
+
+span.tei_intro p {
+    text-align:justify;
+}
+
 /*div.byline {
     margin: auto;
     border: none;

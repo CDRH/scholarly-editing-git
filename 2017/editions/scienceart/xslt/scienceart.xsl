@@ -172,5 +172,9 @@
       <xsl:apply-templates/>
     </span>
   </xsl:template>
+  
+  <xsl:template match="p[contains(preceding::idno[@type='file'],'intro')]">
+    <span class="tei_intro"><p><xsl:apply-templates/></p></span>
+  </xsl:template>
 
 </xsl:stylesheet>
