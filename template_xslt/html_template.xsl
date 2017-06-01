@@ -146,15 +146,17 @@
             
             <div class="col-md-5">
               
+              <!-- leaving the html in place to enable a CSS logo, even though we switched to an image. 
+              Corresponding CSS is in the CSS file -->
               <h1 class="site_title">
-                <a href="http://cors1601.unl.edu/cocoon/scholarlyediting_development/"><span
+                <a href="{$siteroot}"><span
                   class="word_scholarly"><span class="cap">S</span><span class="word_cholarly"
                     >cholarly</span></span> &#160;<span class="word_editing"><span
                       class="word_edit"><span class="cap">E</span><span class="word_dit"><span
                         class="word_dit_dash">dit</span></span></span><span class="word_ing"
                           >ing</span></span></a>
               </h1>
-              
+              <a href="{$siteroot}"><img src="{$siteroot}template_images/indextitle.png" class="header_logo" alt="Scholarly Editing Home Page"/></a>
             </div>
             
             <div class="col-md-7 navright text-right">
@@ -255,39 +257,40 @@
           </div><!-- /main_content -->
           
           
-          <div class="footer">
+          <div class="row footer_splash">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                
-                
-                
-                <span class="creativecommons">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-                    <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/>
-                  </a>
-                  <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative
-                    Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
-                    License</a>.</span>
-                <span class="adelogo">
-                  <a href="http://www.documentaryediting.org">
-                    <img src="http://scholarlyediting.org/images/adelogo.png" alt="Logo of the Association for Documentary Editing"/>
-                  </a>
-                </span>
-                <span class="cdrh">Sponsored by the <a href="http://cdrh.unl.edu">Center for
-                  Digital Research in the Humanities at the University of
-                  Nebraska-Lincoln</a>.
-                </span>
-                <span class="issn">ISSN 2167-1257</span>
-                
-                
-                
-              </div><!-- /col -->
+              <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                  <div class="col-md-10">
+                    <div class="footer_text">
+                    <span class="creativecommons">
+                      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+                      </a>
+                      <br />
+                      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons
+                        Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+                    </span>
+                    <span class="cdrh">Sponsored by the <a href="http://cdrh.unl.edu">Center for Digital Research in the Humanities at the University of Nebraska-Lincoln</a>.</span>
+                    <span class="issn">ISSN 2167-1257</span>
+                    </div><!-- /footer_text -->
+                  </div><!-- /col-md-10 -->
+                  <div class="col-md-2">
+                    <span class="adelogo">
+                      <a href="http://www.documentaryediting.org">
+                        <img src="{$siteroot}images/adelogo.png" alt="Logo of the Association for Documentary Editing" />
+                      </a>
+                    </span>
+                  </div><!-- /col-md-2 -->
+              
+                </div><!-- /row -->
+              </div><!-- /col10 offset 1 -->
             </div><!-- /row -->
-            
-            
-            
           </div><!-- /footer -->
           
+          
+          
+        
           
         </div><!-- /containter -->
         

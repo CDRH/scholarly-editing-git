@@ -442,10 +442,14 @@
   
   <!-- quotes -->
   
+  <xsl:template match="quote/p">
+    <span class="p"><xsl:apply-templates/></span>
+  </xsl:template>
+  
   <xsl:template match="quote">
-    <br/><br/><span class="blockquote">
+    <span class="blockquote">
       <xsl:apply-templates/>
-    </span><br/><br/>
+    </span>
   </xsl:template>
 
   

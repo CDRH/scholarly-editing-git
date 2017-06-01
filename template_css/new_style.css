@@ -26,6 +26,10 @@ sup {
 
 /* - - - - to categorize - - - - */ 
 
+.p {
+  margin: .7em 0;
+  display: block;
+}
 .essay_link {padding:10px;}
 
 .page_review ul {
@@ -56,6 +60,15 @@ div.footnote {
 }
 
 /* Index pages */
+
+h1.index_page_head {
+	text-indent: -9999px;
+	display: block;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+}
+
 
 .site_index .tei_body ul{
 	margin: 0;
@@ -116,6 +129,14 @@ div.footnote {
 
 /* Splash Page*/
 
+img.maintitle, img.maintitle_sub {
+	width: 600px;
+}
+
+.maintitle_sub {
+	margin-top: 10px;
+}
+
 span.editors {
 	display: block;
 	margin-left: auto;
@@ -160,6 +181,11 @@ div#content_home {
 	margin-bottom:20px;
 	
 	
+}
+
+.footer_splash .footer_text {
+	margin-left: -20px;
+
 }
 
 .creativecommons {
@@ -243,7 +269,21 @@ body{
 
 /* Scholarly Editing Logo */
 
-h1.site_title a:hover{
+.site_title {
+	text-indent: -999px;
+	margin: 0;
+	padding: 0;
+	height: 1px;
+}
+
+/* Left this here so I can bring back later if needed */
+
+.header_logo {
+	width: 360px;
+	margin: 15px 0;
+}
+
+/*h1.site_title a:hover{
     text-decoration: none;
 }
 
@@ -256,7 +296,7 @@ h1.site_title{
     display: inline-block;
     width: auto;
     color: rgba(0, 0, 0, .8);
-    /*	background-color: rgba(255, 0, 0, .4); /*rose*!/*/
+    /*	background-color: rgba(255, 0, 0, .4); /*rose*!/*!/
 }
 
 h1.site_title .word_scholarly{
@@ -275,7 +315,7 @@ h1.site_title .word_editing{
     margin-top: -1.6em;
     margin-left: .1em;
     display: block;
-    /*	background-color: rgba(2, 0, 255, .1);*/
+    /*	background-color: rgba(2, 0, 255, .1);*!/
 }
 
 h1.site_title .word_editing{
@@ -283,12 +323,12 @@ h1.site_title .word_editing{
     margin-left: .1em;
     display: block;
     color: rgba(0, 0, 0, .8);
-    /*	background-color: rgba(2, 0, 255, .1);*/
+    /*	background-color: rgba(2, 0, 255, .1);*!/
 }
 
 h1.site_title .word_editing .cap{
     font-size: 2.6em;
-    /*background-color: rgba(2, 0, 255, .3);*/
+    /*background-color: rgba(2, 0, 255, .3);*!/
 }
 
 h1.site_title .word_dit{
@@ -296,7 +336,7 @@ h1.site_title .word_dit{
     margin-left: 1.05em;
     font-size: 1.5em;
     display: block;
-    /*background-color: rgba(255, 255, 255, .3);*/
+    /*background-color: rgba(255, 255, 255, .3);*!/
 }
 
 h1.site_title .word_edit{
@@ -319,7 +359,7 @@ h1.site_title .word_ing{
 .cap{
     font-size: 4em;
     display: inline-block;
-}
+}*/
 
 /* /site_title */
 
