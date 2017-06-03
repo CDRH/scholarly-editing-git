@@ -47,6 +47,10 @@ sup {
 	list-style: disc;
 }
 
+.tei_list_type_no_bullet li {
+	list-style: none;
+}
+
 li {
 	margin-bottom: .5em !important;
 }
@@ -202,6 +206,11 @@ div#content_home {
 
 
 .tei_body p {
+    text-indent:2em;
+    text-align:justify;
+}
+
+.tei_back p {
     text-indent:2em;
     text-align:justify;
 }

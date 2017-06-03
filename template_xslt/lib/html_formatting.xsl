@@ -103,6 +103,13 @@
       <xsl:apply-templates/>
     </div>
   </xsl:template>
+  
+  <xsl:template match="div[@type='appendix']">
+    <br/>
+    <div>
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
 
   <xsl:template match="note" priority="2">
     <p class="footnote">
@@ -658,6 +665,11 @@
         <span class="head">
           <xsl:apply-templates/>
         </span>
+      </xsl:when>
+      <xsl:when test="parent::div[@type='appendix']">
+        <xsl:choose>
+          <xsl:when test="@type='sub'"><h4><strong><xsl:apply-templates/></strong></h4></xsl:when>
+          <xsl:otherwise><h3 class="tei_titlePart"><strong><xsl:apply-templates/></strong></h3></xsl:otherwise></xsl:choose>
       </xsl:when>
 
       <!-- I added the div1 code for OSCYS, but I assume it will pop up elsewhere. 
