@@ -105,8 +105,9 @@
   </xsl:template>
   
   <xsl:template match="div[@type='appendix']">
+    <xsl:variable name="id" select="./@xml:id"/>
     <br/>
-    <div>
+    <div id="{$id}">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
