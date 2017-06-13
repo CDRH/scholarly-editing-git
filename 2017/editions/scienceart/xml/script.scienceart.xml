@@ -97,25 +97,6 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc status="embargoed">
-         <change when="2016-10-19" who="#rn"> made minor encoding corrections suggested by #nhg.</change>
-         <change when="2016-11-15" who="#rn"> completed major rewrite subsequent to UNC’s
-            acquisition of the copy described above.</change>
-         <change when="2016-11-22" who="#rn"> minor encoding corrections and line edits.</change>
-         <change when="2016-11-24" who="#rn"> proofreading.</change>
-         <change when="2016-11-28" who="#rn"> added bold font to text tagged as “supplied” due to
-            omission.</change>
-         <change when="2016-12-07" who="#rn">various edits in response to draft workup and nhg
-            questions; standardized annotations’ description of typographical errors;
-            proofreading.</change>
-         <change when="2016-12-16" who="#rn">changed all speaker names to bold font.</change>
-         <change when="2016-12-27" who="#rn">changed remaining instances of "Lobby" (speaker) to bold font, fixed (?) faulty hyperlinks</change>
-         <change when="2017-01-02" who="#rn">removed hyperlink to OED because it leads to a paywall.</change>
-         <change when="2017-01-05" who="#rn">minute edits to footnotes.</change>
-         <change when="2017-01-17" who="#rn">minute edits to footnotes; added a period after Patent's name in speaker tag.</change>
-         <change when="2017-01-17" who="#rn">corrected Tom's speaker tags, which erroneously were replaced with Patent's.</change>
-         <change when="2017-04-19" who="#rn">began to implement edits and proofreading as described in editor and reviewer feedback. Completed <date when="2017-05-07">2016-05-07</date></change>
-         <change when="2017-05-24" who="#rn">cut "the" before "sensibly" to correct quote accuracy (line 2794).</change></revisionDesc>
    </teiHeader>
    <text type="drama">
       <body><pb n="190" facs="Nesvet_190_0012"/>
@@ -127,7 +108,7 @@
                      inventor.]</roleDesc></castItem>
                   <castItem><role>Old [Matthew] <seg corresp="#note1">Freeman</seg>.</role><roleDesc>[A country
                      lawyer.]</roleDesc></castItem>
-                  <castItem><role>Young [Jack] Freeman.</role><roleDesc>[a city lawyer; Old
+                  <castItem><role>Young [Jack] Freeman.</role><roleDesc>[A city lawyer; Old
                      Freeman’s nephew; in the script, “Freeman.”]<ptr
                         target="#note1" xml:id="nr1" n="1"/></roleDesc></castItem>
                   <castItem><role>Dick <seg corresp="#note1">Lobby</seg>.</role><roleDesc>[Another city lawyer; Freeman’s
@@ -1719,7 +1700,7 @@
                   <p>Sit down, Maria, compose yourself; yonder comes Alice. This foolish dream has
                      so affected you.</p>
                </sp>
-               <stage type="business">Enter ALICE.</stage>
+               <stage type="business"><hi rend="italic">Enter</hi> ALICE.</stage>
                <sp>
                   <speaker><hi rend="bold">Alice.</hi></speaker>
                   <p>What’s the matter now?</p>
@@ -1777,8 +1758,8 @@
            <pb n="202" facs="Nesvet_202_0012"/>
                <sp>
                   <speaker><hi rend="bold">Alice.</hi></speaker>
-                  <p>Aye, but I will. What, stop to be&#8212;&#8212;<stage type="business">(A loud
-                        knocking).</stage> Oh! mercy on us!</p>
+                  <p>Aye, but I will. What, stop to be&#8212;&#8212;<stage type="business"><hi rend="italic">(A loud
+                        knocking).</hi></stage> Oh! mercy on us!</p>
                </sp>
                <stage type="mixed"><hi rend="italic">(Runs out screaming, </hi>MARIA <hi
                      rend="italic">follows).</hi></stage>
@@ -1993,7 +1974,7 @@
                </sp>
                <sp>
                   <speaker><hi rend="bold">Young Freeman.</hi></speaker>
-                  <stage type="mixed">(Aside to MARIA, and falls upon his face.</stage>
+                  <stage type="mixed"><hi rend="italic">(Aside to</hi> MARIA, <hi rend="italic">and falls upon his face.</hi></stage>
                   <p>I am the automaton.</p>
                </sp>
                <stage type="delivery">MARIA <hi rend="italic">is greatly agitated). </hi></stage>
@@ -2384,12 +2365,12 @@
                <stage type="business"><hi rend="italic">(Puts on the mask and domino, and stands
                      erect).</hi>
                </stage>
-               <stage type="entrance"><hi rend="italic">Enter </hi>OLD PATENT.</stage>
+               <stage type="entrance"><hi rend="italic">Enter</hi> OLD PATENT.</stage>
                <sp>
                   <speaker><hi rend="bold">Patent.</hi></speaker>
                   <p>Come, come, you scoundrel! It was in vain you thought to impose upon me. <stage
                         type="business"><hi rend="italic">(Tears off the mask and domino, and stares
-                           with astonishment when he beholds the face and figure of</hi> OLD
+                           with astonishment when he beholds the face and figure of&#160;</hi> OLD
                         FREEMAN).</stage> What! How is this? My friend Freeman! I beg your pardon. I
                      took you for the automaton.</p>
                </sp>
@@ -2511,8 +2492,8 @@
                   <p>Now, my friend, I hope everything will go on well. Forgive my bantering of
                      you.</p>
                </sp>
-               <stage type="mixed"><hi rend="italic"> </hi>Enter [YOUNG] FREEMAN <hi rend="italic"
-                     >and</hi> MARIA&#8212;<hi rend="italic"> they kneel. </hi>PATENT<hi
+               <stage type="mixed"><hi rend="italic">Enter</hi> [YOUNG] FREEMAN <hi rend="italic"
+                     >and</hi> MARIA&#8212;<hi rend="italic">they kneel. </hi>PATENT<hi
                      rend="italic"> rushes forward to seize</hi> [YOUNG] FREEMAN. </stage>
                <sp>
                   <speaker><hi rend="bold">Patent.</hi></speaker>
@@ -2624,7 +2605,7 @@
                </sp>
                <sp>
                   <speaker><hi rend="bold">Lobby.</hi></speaker>
-                  <stage type="business">(throwing off his beard and cloak).</stage>
+                  <stage type="business"><hi rend="italic">(throwing off his beard and cloak).</hi></stage>
                   <p>I can hardly believe it. What, with the consent of your honoured uncle and the
                      learned Mr. Patent.</p>
                </sp>
@@ -2864,7 +2845,7 @@
                   >OED</hi>).</note>
          
          <note xml:id="note32"><hi rend="italic">cause</hi>: case; <hi
-                     rend="italic">depending in Yorkshire</hi>: pending in Yorkshire, a county in
+                     rend="italic">depending in Yorkshire</hi>: pending in Yorkshire, a historical county in
                   the North of England. The Great North Road connects Yorkshire’s main city, York,
                   with London.</note>
          
@@ -2897,7 +2878,7 @@
                   (typographical error).</note>
          
          <note xml:id="note38"><hi rend="italic">rural
-                     lay</hi>: pastoral song; idyll (<hi rend="italic">OED</hi>).</note>
+                     lay</hi>: pastoral song (<hi rend="italic">OED</hi>).</note>
          
          <note
                   xml:id="note39"><hi rend="italic">kickshaw</hi>: fancy, dubious French or other
