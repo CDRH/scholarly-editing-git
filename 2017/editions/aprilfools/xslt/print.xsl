@@ -195,7 +195,7 @@
                                                 <p>
                                                      <b>
                                                        <xsl:value-of disable-output-escaping="yes" select="$NAMES//tei:person[@xml:id=$id]/tei:persName[@type='display']"/>
-                                                    </b>&#xA0;&#xA0;(<xsl:value-of select="$NAMES//tei:person[@xml:id=$id]/tei:birth/@when"/>&#x2013;<xsl:value-of select="$NAMES//tei:person[@xml:id=$id]/tei:death/@when"/>)
+                                                     </b><xsl:if test="$NAMES//tei:person[@xml:id=$id]/tei:birth/@when or $NAMES//tei:person[@xml:id=$id]/tei:death/@when">&#xA0;&#xA0;(<xsl:value-of select="$NAMES//tei:person[@xml:id=$id]/tei:birth/@when"/>&#x2013;<xsl:choose><xsl:when test="not($NAMES//tei:person[@xml:id=$id]/tei:death/@when)"><xsl:value-of select="$NAMES//tei:person[@xml:id=$id]/tei:death"/></xsl:when><xsl:otherwise><xsl:value-of select="$NAMES//tei:person[@xml:id=$id]/tei:death/@when"/></xsl:otherwise></xsl:choose>)</xsl:if>
                                                     <br/>
                                                           <div class="normal">
                                                             <xsl:apply-templates select="$NAMES//tei:person[@xml:id=$id]/tei:note/*"/>
