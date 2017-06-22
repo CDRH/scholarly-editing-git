@@ -482,7 +482,7 @@
                   clerking. After ordination in 1848 he served as a Baptist minister in Poughkeepsie,
                   Cleveland, Buffalo, and Philadelphia before he accepted a position at the Lee Avenue
                   Church in Brooklyn. Smith ran as an independent Republican for a seat in the US
-                  House of Representatives, and served from 1881 to 1883. In December 1883 he was called
+                  House of Representatives and served from 1881 to 1883. In December 1883 he was called
                   by a congregational council presided over by Edward Beecher (brother of Henry Ward
                   Beecher) to fill a temporary pastorship at the East Congregational Church in Brooklyn,
                   where he remained until his death.
@@ -605,7 +605,7 @@
             <a class="popper" data-toggle="popover" title="French, Daniel Chester" content="" data-original-title="test">French, Daniel Chester</a>
             <span class="hide popper-content">
                
-               <p xmlns="http://www.w3.org/1999/xhtml">Daniel Chester French was a prolific sculptor best known for his <hi rend="italic">Minuteman</hi>
+               <p xmlns="http://www.w3.org/1999/xhtml">Daniel Chester French was a prolific sculptor best known for his <span class="italic">Minuteman</span>
                   at Concord (1874) and for the statue of Abraham Lincoln at the Lincoln Memorial in
                   Washington, D.C. (1920). Louisa May Alcott's sister Mary convinced him to be a
                   sculptor when he was growing up in Concord, Mass. He was also a member of
@@ -632,7 +632,7 @@
                   and then in Italy, moving between art studios in Rome and Venice. Upon his return
                   to the United States in 1876 he worked as chief assistant to John La Farge in the creation
                   of murals for Trinity Church, Boston. He completed a portrait of Clemens in January
-                  1877. From 1877 to 1888 he was a correspondent for the <span class="italic">New York Herald</span> covering the Russo-Turkish War. He died on the <hi rend="italic">Titanic</hi> in 1912. 
+                  1877. From 1877 to 1888 he was a correspondent for the <span class="italic">New York Herald</span> covering the Russo-Turkish War. He died on the <span class="italic">Titanic</span> in 1912. 
                </p>
             </span>
          </td>
@@ -1890,7 +1890,7 @@
             <span class="hide popper-content">
                <p xmlns="http://www.w3.org/1999/xhtml">Poet and critic Edmund Clarence Stedman was born in Hartford and attended Yale. In
                   his youth he worked as a correspondent for the <span class="italic">Sun</span> and the <span class="italic">Tribune</span>. He was a member of the Pfaff's Cellar bohemians before the Civil War, as were many
-                  others in this group.  After the war he became a banker on Wall Street from 1865 to 1890
+                  others in this group.  After the war he became a banker on Wall Street from 1865 to 1890,
                   but continued to write and publish poetry and literary criticism. In 1887 Stedman
                   succeeded in foisting his <span class="italic">Library of American Literature</span> compilation upon Clemens's nephew and business partner, Charles L. Webster, a decision
                   that led to the “lingering suicide” of the publishing firm (AD of 2 June 1906, 
@@ -2048,7 +2048,7 @@
             <a href="UCLC41991.html">UCLC41991</a>
          </td>
          <td>
-            <a class="popper" data-toggle="popover" title="Kinney Thomson, Sara " content="" data-original-title="test">Kinney Thomson, Sara </a>
+            <a class="popper" data-toggle="popover" title="Thomson Kinney, Sara" content="" data-original-title="test">Thomson Kinney, Sara</a>
             <span class="hide popper-content">
                <p xmlns="http://www.w3.org/1999/xhtml">Sara Thomson Kinney, the wife of John Coddington Kinney, was active in the Daughters
                   of the American Revolution and the Women's National Indian Association. In 1884, after
