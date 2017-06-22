@@ -1179,7 +1179,7 @@
             <a class="popper" data-toggle="popover" title="Frohman, Daniel " content="" data-original-title="test">Frohman, Daniel </a>
             <span class="hide popper-content">
                
-               <p xmlns="http://www.w3.org/1999/xhtml">Charles Frohman's older brother, Daniel started his career as an office boy for the
+               <p xmlns="http://www.w3.org/1999/xhtml">Charles Frohman's older brother, Daniel, started his career as an office boy for the
                   <span class="italic">New York Tribune</span>, and then spent five years as a journalist before managing touring companies for
                   New York City theaters. In 1880 he organized the Lyceum Theater, which made him famous
                   (and many other actors, such as E. H. Sothern, Henry Miller, and May Robson). He was
@@ -1386,7 +1386,7 @@
             <a href="UCLC41956.html">UCLC41956</a>
          </td>
          <td>
-            <a class="popper" data-toggle="popover" title="Broadribb, John Henry" content="" data-original-title="test">Broadribb, John Henry</a>
+            <a class="popper" data-toggle="popover" title="Irving, Henry" content="" data-original-title="test">Irving, Henry</a>
             <span class="hide popper-content">
                <p xmlns="http://www.w3.org/1999/xhtml">English stage actor Henry Irving was born John Henry Broadribb, the son of a traveling
                   salesman in Somerset. His first professional appearance was as the Duke of Orleans
@@ -1492,7 +1492,7 @@
             <span class="hide popper-content">
                <p xmlns="http://www.w3.org/1999/xhtml">John Coddington Kinney was an associate editor of the <span class="italic">Hartford Courant</span> (1872–90), and was appointed US marshal for the district of Connecticut (1882–86).
                   In 1890, the year before he died, he was made postmaster of Hartford. During the Civil
-                  War he had been a member of the signal corps on Farragut's ship the <span class="italic">Hartford</span>, and wrote about his experiences in “An August Morning with Farragut: A Narrative
+                  War he had been a member of the signal corps on Farragut's ship, the <span class="italic">Hartford</span>, and wrote about his experiences in “An August Morning with Farragut: A Narrative
                   of the Mobile Bay Fight, August 5, 1864,” <span class="italic">Scribner's Magazine</span> 22 (June 1881): 199–208.
                </p>
             </span>
@@ -1640,7 +1640,7 @@
                   and 1878, but by the end of his second ten-year lease the property was conveyed to
                   him by the trustees. Pierce and Thomas Bailey Aldrich were the closest of friends
                   from around 1873 until Pierce's death. He left the family a life interest in Redman
-                  Farm, his house and land at Ponkapog, and a total bequest of $400,000. (James Bugbee
+                  Farm, his house and land at Ponkapog, and a total bequest of $400,000. (James Bugbee,
                   “Memoir of Henry Lillie Pierce,” <span class="italic">Proceedings of the Massachusetts Historical Society</span>, 2nd ser., vol. 11 [Boston: Massachuessetts Historical Society, 1896–97],
                   386–410; “A Model Citizen,” <span class="italic">The Critic</span> 30 [January 9, 1897], 22).
                </p>
@@ -1698,7 +1698,7 @@
             <a href="UCLC41971.html">UCLC41971</a>
          </td>
          <td>
-            <a class="popper" data-toggle="popover" title="Pond Brown, Nella " content="" data-original-title="test">Pond Brown, Nella </a>
+            <a class="popper" data-toggle="popover" title="Brown Pond, Nella " content="" data-original-title="test">Brown Pond, Nella </a>
             <span class="hide popper-content">
                <p xmlns="http://www.w3.org/1999/xhtml">Nella Brown Pond was a dramatic reader and the wife of Ozias W. Pond. Despite early success with the Park Dramatic Company in Boston, she chose not to
                   pursue a life on the stage, but channeled her dramatic talents into the platform
@@ -1747,7 +1747,7 @@
                   of <span class="italic">Harper's Weekly</span>, a position he held until 1885, when
                   he disappeared off the coast of Coney Island. In 1890 the <span class="italic">New York Times</span> reported the discovery of a skeleton in the dunes
                   near Rockaway Beach that was believed to be Conant, but that was never verified
-                  ("A Skeleton in the Dunes. The Disappearance of Stillman S. Conant Recalled,"
+                  ("A Skeleton in the Dunes: The Disappearance of Stillman S. Conant Recalled,"
                   <span class="italic">New York Times</span>, 14 December 1890, 8).
                </p>
                
@@ -1768,7 +1768,7 @@
                   from Brooklyn Polytechnic he enrolled in the Royal Mining Academy at Freiburg, followed
                   by studies at Heidelberg and Munich. He edited <span class="italic">The American Journal of Mining</span> from 1867 to 1890. In 1868 he was appointed US commissioner of mining
                   statistics, and spent nearly a decade surveying mines in the West. In the early 1870s
-                  he also taught mining engineering at Lafayette College in Easton, Pennsylvania. He
+                  he also taught mining engineering at Lafayette College in Easton, Penn. He
                   served as secretary of the American Institute of Mining, Metallurgy, and Petroleum
                   Engineers from 1884 to 1911. In 1884 he lived in Brooklyn, where he was a member of Beecher's
                   Plymouth Church. He served as the director of the Boy's Sunday School for nearly fifty
@@ -1928,7 +1928,7 @@
          <td>
             <a class="popper" data-toggle="popover" title="Watrous, Charles " content="" data-original-title="test">Watrous, Charles </a>
             <span class="hide popper-content">
-               <p xmlns="http://www.w3.org/1999/xhtml">In the 1860s Watrous was a U.S. mail agent in San Francisco, where he befriended Bret
+               <p xmlns="http://www.w3.org/1999/xhtml">In the 1860s Watrous was a US mail agent in San Francisco, where he befriended Bret
                   Harte (see, for instance, Axel Nissen's <span class="italic">Bret Harte, Prince and Pauper</span> [Jackson: University Press of Mississippi, 2000], 239.) As such he probably had at least a passing
                   acquaintance with Noah Brooks. He was forced to step down from his position due to
                   his involvement in a vote-buying scandal to elect Timothy Guy Phelps US senator
@@ -1952,7 +1952,7 @@
          <td>
             <a class="popper" data-toggle="popover" title="Whiting, Charles Goodrich" content="" data-original-title="test">Whiting, Charles Goodrich</a>
             <span class="hide popper-content">
-               <p xmlns="http://www.w3.org/1999/xhtml">Charles Goodrich Whiting had a long association beginning in 1868 with the 
+               <p xmlns="http://www.w3.org/1999/xhtml">Charles Goodrich Whiting had a long association, beginning in 1868, with the 
                   <span class="italic">Springfield Republican</span> as a writer (and, after 1874, as literary editor) of bucolic essays and poems in
                   his Sunday column “The Saunterer.” He was elected to the Authors Club of New York
                   in 1888. Cable's first reading of his 1883 tour was in Springfield, and a very favorable
@@ -1994,7 +1994,7 @@
                <p xmlns="http://www.w3.org/1999/xhtml">Charles de Kay was a poet, critic, and founder of the New York Fencers' Club. He took
                   a degree at Yale and spent two years in the company of the literary and artistic celebrities
                   who frequented the salon of his aunt Katherine de Kay Bronson in Paris and Venice.
-                  He was the art and literary critic for the <span class="italic">New York Times</span> from 1876 to 1894. He was also a founding member of the Authors Club in 1882, and
+                  He was the art and literary critic for the <span class="italic">New York Times</span> from 1876 to 1894. He was also a founding member of the Authors Club in 1882 and
                   of the National Arts Club in 1899. From 1894 to 1897 he served as consul general in Berlin.
                </p>
             </span>
@@ -2087,7 +2087,7 @@
             <a href="UCLC41993.html">UCLC41993</a>
          </td>
          <td>
-            <a class="popper" data-toggle="popover" title="Modrzejewska, Helena " content="" data-original-title="test">Modrzejewska, Helena </a>
+            <a class="popper" data-toggle="popover" title="Modjeska, Helena " content="" data-original-title="test">Modjeska, Helena </a>
             <span class="hide popper-content">
                <p xmlns="http://www.w3.org/1999/xhtml">Helena Modjeska, whose name on her birth certificate was Jadwiga Benda, was baptized
                   Helena Opid in Krakow. She took as her stage name a simplified version of the stage
@@ -2133,7 +2133,7 @@
             <a class="popper" data-toggle="popover" title="Stedman Douglas, Ellen Montague" content="" data-original-title="test">Stedman Douglas, Ellen Montague</a>
             <span class="hide popper-content">
                <p xmlns="http://www.w3.org/1999/xhtml">Ellen D. Stedman was the wife of recently embroiled broker Frederick Stuart Stedman,
-                  the son of poet Edmund Clarence Stedman. She and her daughter Laura were Edmund Clarence
+                  the son of poet Edmund Clarence Stedman. She and her daughter, Laura, were Edmund Clarence
                   Stedman's mainstays in his old age.
                </p>
             </span>
