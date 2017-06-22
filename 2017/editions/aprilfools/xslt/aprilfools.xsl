@@ -47,6 +47,7 @@
         <link rel="stylesheet" href="css/print.css"/>-->
         <link rel="stylesheet" href="css/dataTables.bootstrap.min.css"/>
         
+        <!-- from https://datatables.net/ -->
         <script src="js/dataTables.min.js">&#160;</script>
         <script src="js/dataTables.bootstrap.min.js">&#160;</script>
         <script src="js/script.js">&#160;</script>
