@@ -1162,7 +1162,7 @@
                   to the press that he would produce the play under contract with Leander Sire, possibly
                   as the maiden play for a projected (but never constructed) new theater. It seems never
                   to have made it to the stage. Frohman was among the passengers who died when the Germans
-                  sunk the RMS <span class="italic">Lusitania</span>.
+                  sank the RMS <span class="italic">Lusitania</span>.
                </p>
                
             </span>
@@ -1342,12 +1342,12 @@
             <a href="UCLC41953.html">UCLC41953</a>
          </td>
          <td>
-            <a class="popper" data-toggle="popover" title="Howard, Jr., Joseph " content="" data-original-title="test">Howard, Jr., Joseph </a>
+            <a class="popper" data-toggle="popover" title="Howard Jr., Joseph " content="" data-original-title="test">Howard Jr., Joseph </a>
             <span class="hide popper-content">
                
                <p xmlns="http://www.w3.org/1999/xhtml">Joseph Howard Jr. was a prominent journalist who worked for the <span class="italic">Brooklyn Eagle</span>, the <span class="italic">New York Herald</span>, and the <span class="italic">New York World</span>. 
                   During the Civil War he was briefly imprisoned for creating a hoax document with Francis
-                  Avery Mallison that Lincoln had requested a draft for 400,000 troops (just months
+                  Avery Mallison alleging that Lincoln had requested a draft for 400,000 troops (just months
                   after the destruction 
                   wreaked by the New York City draft riots). Howard was released only because of Henry Ward
                   Beecher's personal appeal to Lincoln. In addition to being a member of Beecher's Plymouth
@@ -1811,7 +1811,7 @@
                   was trained as a lithographer in his father's business. In 1833 he moved to New York
                   City, where he worked for Robertson &amp; Co. lithographers. After the death of his wife
                   he traveled to Europe to study fine arts, but financial straits led him to photography,
-                  which he learned in his brother's Birmingham studio. He returned to New York in 1865
+                  which he learned in his brother's Birmingham studio. He returned to New York in 1865 to
                   set up a studio. In the fall of 1884 Clemens and George Washington Cable visited Sarony
                   for tour photographs. Sarony belonged to the Lotos Club and was a founding member
                   of the Salmagundi Club.
