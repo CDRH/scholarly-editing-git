@@ -901,6 +901,24 @@
 		"edges": [
 			{
 				"label": "member of",
+				"source": "18",
+				"target": "95",
+				"id": "1470",
+				"attributes": "",
+				"color": "rgb(0,0,0)",
+				"size": "10"
+			},
+			{
+				"label": "has member",
+				"source": "95",
+				"target": "18",
+				"id": "4280",
+				"attributes": "",
+				"color": "rgb(0,0,0)",
+				"size": "10"
+			},
+			{
+				"label": "member of",
 				"source": "55",
 				"target": "90",
 				"id": "147",
@@ -1315,9 +1333,18 @@
 			},
 			{
 				"label": "involved in litigation with",
-				"source": "17",
+				"source": "18",
 				"target": "88",
 				"id": "278",
+				"attributes": "",
+				"color": "rgb(0,0,0)",
+				"size": "10"
+			},
+			{
+				"label": "involved in litigation with",
+				"source": "58",
+				"target": "88",
+				"id": "2790",
 				"attributes": "",
 				"color": "rgb(0,0,0)",
 				"size": "10"
