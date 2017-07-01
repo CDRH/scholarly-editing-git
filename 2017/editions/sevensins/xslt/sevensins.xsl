@@ -45,7 +45,7 @@
         <!-- $body_title -->
         <!-- different from the title in <title>, this one can contain <em> or other html tags.
          Can be statically set or pulled from XML file. -->
-        <h1><em>“The Effects of the Seven Sins”</em>: A Critical Edition</h1>
+        <h1>“The Effects of the Seven Sins”: A Critical Edition</h1>
         
         <!-- $body_author
          must be in <div class="body_author"> -->
@@ -326,7 +326,7 @@
     </xsl:if>
     
     <ul>
-      <xsl:apply-templates select="*"/>
+      <xsl:apply-templates select="*"/><br/>
     </ul>
   </xsl:template>
   
