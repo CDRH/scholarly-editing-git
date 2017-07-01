@@ -326,7 +326,7 @@
     </xsl:if>
     
     <ul>
-      <xsl:apply-templates select="*"/><br/>
+      <xsl:apply-templates select="*"/><xsl:if test="contains(preceding::idno[@type='file'],'original') or contains(preceding::idno[@type='file'],'translation')"><br/></xsl:if>
     </ul>
   </xsl:template>
   
