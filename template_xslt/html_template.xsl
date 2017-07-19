@@ -149,12 +149,14 @@
               <!-- leaving the html in place to enable a CSS logo, even though we switched to an image. 
               Corresponding CSS is in the CSS file -->
               <h1 class="site_title">
-                <a href="{$siteroot}"><span
+                <!--<a href="{$siteroot}"><span
                   class="word_scholarly"><span class="cap">S</span><span class="word_cholarly"
                     >cholarly</span></span> &#160;<span class="word_editing"><span
                       class="word_edit"><span class="cap">E</span><span class="word_dit"><span
                         class="word_dit_dash">dit</span></span></span><span class="word_ing"
-                          >ing</span></span></a>
+                          >ing</span></span></a>-->
+                
+                
               </h1>
               <a href="{$siteroot}"><img src="{$siteroot}template_images/indextitle.png" class="header_logo" alt="Scholarly Editing Home Page"/></a>
             </div>
